@@ -1,0 +1,386 @@
+Tim Chevalier
+
+   [Tim in Berkeley, California, September 2013] Photo by Christine Chun
+   [1]About me [2]Opinions [3]Academic [4]Software [5]Quotations
+   [6]Writing [7]Organizations [8]In memory
+
+About me
+
+Professional
+
+     "...Today's programmers still work in a world where changing tabs to
+     spaces leaves them, basically, fucked."
+     -- Scott Rosenberg
+
+   I'm currently looking for a software engineering job in a collaborative
+   environment, working on problems that have a direct effect on users. My
+   experience is largely with modern type-safe programming languages like
+   Haskell, Rust, and Erlang, but I'm more interested in finding the right
+   team to work with than in the specific choices of technology. Please
+   visit my [9]LinkedIn profile and contact me via LinkedIn or via email (
+   mylastname at alum dot wellesley dot edu ).
+
+   Most recently, I worked as a Senior Member of Technical Staff at
+   [10]Heroku, where I wrote Erlang for the HTTP Routing Infrastructure
+   team. Before that, I was a Principal Software Engineer at
+   [11]AlephCloud, where I wrote Haskell all day long. Until November
+   2013, I was a research software engineer at [12]Mozilla, where I worked
+   on implementing the [13]Rust programming language.
+
+   I graduated from the [14]University of California, Berkeley with a
+   master's degree in [15]computer science in 2004, and I graduated from
+   [16]Wellesley College with a bachelor's degree in [17]computer science
+   (minoring in mathematics) in 2001. From 2007-2011 I was working on a
+   Ph.D in computer science at Portland State University, until I was
+   [18]pushed out of the department for protesting sexual harassment.
+
+   I live in Oakland, California.
+
+Bio
+
+     "Please don't leave us here alone in this silicon hell."
+     --Allette Brooks
+
+   In 2015 I asked my friends to write a bio for me ([19]thanks to Skud
+   for this idea), and here's what they came up with.
+
+   Tim Chevalier was born in Massachusetts in 1980. He has occupied many
+   roles and fit them to varying degrees of awkwardness ranging from
+   "none" to "a lot": for example, Girl Scout, teenage writer of letters
+   to the editor, UAW Local 2865 member, tenure-track graduate student,
+   baritone in a men's peace choir, Mountain Goats fan, professional
+   scolder (including being a scolder of fortune, amongst others), and
+   computer programmer. He is knowledgeable about functional programming,
+   language design, and cloud technologies. He graduated from Wellesley
+   College with a BA in Computer Science and Mathematics in 2001, and from
+   UC Berkeley with an MS in Computer Science in 2003. Tim has worked at
+   Heroku, AlephCloud Systems, Mozilla, Portland State University
+   (Oregon), and American Journal Experts, to name a few.
+
+   Tim became interested in computers at a young age. He was fascinated by
+   the idea of a machine that he could control and program to do his will.
+   It allowed him to do everything from solve math problems to play games
+   to draw cool pictures. However, after many years of working with
+   computers and other changes in his life, that need for a deterministic
+   machine faded. He ran screaming from the tech world, and with good
+   reasons. The computer now seems like something that is too easy to
+   understand so Tim has decided that he will be a social worker, life
+   coach and energy healer. However, he can't afford to quit tech yet so
+   all of this is hypothetical.
+
+   He is a Californian cat father.
+
+Testimonials
+
+     * tim owned me on numerous occasions and continues to do so. --pg
+     * Tim once shamed me in public and I loved it. Tim could probably be
+       cooler if he shared his green medicine [1] with me. Tim will have
+       to check my IP because I may have vandalized this page oops.
+     * Tim once crowdsourced his professional bio, and it came out alright
+       [citation needed]
+     * Tim is A Real Mensch and a total cutie
+     * Tim wrote [20]an amazing blog post and currently stands as the only
+       person who has both written for Model View Culture and served on
+       the organizing team for the International Conference of Functional
+       Programming's annual Programming Contest.
+     * Tim has several times helpfully and painfully corrected errors of
+       mine. Also, he owes me a beer.
+     * Tim cannot confirm or deny that he does not recall events such as
+       those which may or may not be mentioned here.
+     * Tim has amazing cooking skills and can work with a variety of
+       dietary restrictions. He also has a better understand of what an
+       anus looks like than some of his friends do. In case this isn't
+       clear, Tim is not an asshole.
+     * Tim spends his spare time herding spider monkeys for fun and
+       profit.
+     * Tim reads so much, he's really well in formed on some topics. He
+       writes analysis of these topics, that are insightful, well thought
+       through, and full of citations to source material. I have learned
+       so much from Tim.
+     * Tim is perpetually in verbose mode.
+     * "while working with Mozilla, Tim may have destroyed half of Japan.
+       or maybe that was another zilla. PR's bad" -- PR Gnus of the World
+       (no srsly if you ask the PRG guy he'll probably agree to say this)
+
+Footnotes
+
+   [1]: "green medicine" reefers(*) to lime flavoured maple syrup
+
+   (*) wait this looks like an anus. I'm out.
+
+Opinions
+
+     "Normal is a weapon of mass destruction. It's just as deadly, and
+     just like those weapons, it'll never be found."
+     -- Thea Hillman
+
+   I'm a transsexual man, and I have opinions about sex, gender, and
+   cisnormativity. Occasionally I [21]write about them. [22]Here's what I
+   wrote in 2007 to announce my coming-out. My views have evolved since
+   then; I'd summarize them now by pointing out that [23]cissexual people
+   get to self-report their gender without having to "prove" it by
+   exhibiting their anatomy or genetic makeup, and averring that the same
+   right ought to be extended to everyone.
+
+   As a male programmer who has spent a lot of his life getting perceived
+   as a female programmer, one of the accomplishments I'm most proud of is
+   hosting/maintaining the [24]Male Programmer Privilege Checklist for
+   five years (originally written by [25]Kake, extended by me and others).
+   The current version of the [26]Male Programmer Privilege Checklist
+   resides on the [27]Geek Feminism Wiki.
+
+   For several years I was a regular contributor and moderator on
+   [28]geekfeminism.org and the [29]Geek Feminism Wiki. I aspire to always
+   speak and act with [30]intersectionality in mind, knowing that aspiring
+   is not enough and I'll often fail.
+
+Academic
+
+     "But if you wish at once to do nothing and to be respectable
+     nowadays, the best pretext is to be at work on some profound
+     study."-- Leslie Stephen
+
+Publications
+
+     * [31]"A Certified Framework for Compiling and Executing
+       Garbage-Collected Languages", Andrew McCreight, Tim Chevalier, and
+       Andrew Tolmach. ICFP '10
+
+Writing
+
+     * My Research Proficiency Exam paper, [32]"The Design and
+       Implementation of a Safe and Lightweight Compiler for Haskell"
+       (April 2009) (PDF, 521K)
+     * My master's thesis, [33]"Implementing Type-Based Deforestation"
+       (2004) (PDF, 375K)
+     * My undergraduate thesis, [34]"Exploring the Type Inference Approach
+       to Deforestation" (2001) (PDF, 378K)
+     * [35]My application essays for the NSF Graduate Fellowship, for
+       anyone who might be applying for that and want to see example
+       essays.
+     * And for laughs, my first [36]grad school statement of purpose
+       (December 2000).
+
+Posters
+
+     * [37]"A Type System for Certified Garbage Collection of Haskell
+       Programs" (with Andrew Tolmach; ICFP 2008 Poster Session) (inline
+       PNG image, 4.1 MB)
+
+Talks
+
+     * [38]"Rust: a Friendly Introduction" -- slides from [39]my talk at
+       Open Source Bridge, June 19, 2013. (PDF, 4.2 MB)
+     * [40]"The Design and Implementation of a Safe and Lightweight
+       Haskell Compiler" -- slides from my Research Proficiency Exam talk,
+       May 15, 2009. (PDF, 5.9M)
+     * [41]"How to Be Both Lazy and Reasonable" -- slides from my final
+       15-minute talk for the Scholarship Skills class at PSU, March 17,
+       2008. (PDF, 1.6M)
+     * [42]"Towards a GraphicsMagick Binding for Haskell" -- slides from
+       my talk at the Portland Functional Programming Users' Group,
+       February 11, 2008. (Cheap link to follow.)
+
+Software
+
+   I don't currently write open-source software. From 2011-2013 I put most
+   of my time into the [43]Rust project.
+
+   Software I've written and am willing to show in public lives on my
+   [44]community.haskell.org home page. I've also contributed a little bit
+   of code to [45]GHC and even less code to [46]darcs. All of this is very
+   old.
+
+My quotations file
+
+     "She had a pretty gift for quotation, which is a serviceable
+     substitute for wit." -- W. Somerset Maugham
+
+     * [47]Quotations that speak to me, or spoke to me several years ago,
+       anyway.
+
+Things that I wrote
+
+     "I'm willing to show good taste, if I can, in somebody else's living
+     room, but our reading life is too short for a writer to be in any
+     way polite. Since his words enter into another's brain in silence
+     and intimacy, he should be as honest and explicit as we are with
+     ourselves." -- John Updike
+
+   If you like what you read below and want me to encourage to write more
+   of it, consider [48]supporting me on Patreon.
+     * I keep a [49]public journal on Dreamwidth.
+     * (Jul. 2014) Model View Culture published my article [50]"Killing
+       the Messenger at Mozilla".
+     * (Feb. 2014) [51]Model View Culture published my article
+       [52]"Gendered Language: Feature or Bug in Software Documentation?"
+     * My writing from 2012 to 2015 that I'm proud of was mostly on
+       [53]geekfeminism.org
+     * [54]"How To Fail Out Of Grad School Without Really Trying"
+       (September 2010)
+     * [55]A letter to the editor-cum-trans-rant (May 2008) from me that
+       the Portland Mercury published.
+     * [56]"What Price Normalcy?" (December 2007) -- an essay on the
+       debate over whether to deny medical treatment to transsexual kids.
+     * [57]"GNU's Not Eunuchs" (May 2005) -- the infamous RMS/ESR slash.
+       Contains explicit language.
+     * [58]Are you saved on the hard disk of life? (December 2001) -- a
+       bus ride in Berkeley.
+     * [59]My commencement speech (May 2001): I applied to be the student
+       speaker at my college graduation, and this is the speech I
+       submitted. Shockingly, I didn't get called in for an interview.
+     * [60]"The Bald Squirrel" (April 2000) -- a short play about online
+       discourse / homage to Ionesco.
+
+Organizations I support
+
+   These are my favorite organizations that I regularly support; mainly
+   financially at the moment, though that could change. If you have income
+   beyond your and your family's basic needs, maybe you should support
+   them too.
+     * [61]National Network of Abortion Funds - making sure no one's
+       finances mean they're forced to give birth when they don't want to
+     * [62]Scarleteen - providing reality-based sex education to youth
+     * [63]Partners in Health - health care and social justice, on the
+       principle that everybody should have access to the same kind of
+       health care you would expect for yourself or for a friend or loved
+       one
+     * [64]Transgender, Gender-Variant, Intersex Justice Project (TGIJP) -
+       focusing on the needs of low-income trans and gender-variant women
+       of color in the criminal justice system
+
+Everything else
+
+   [65]Things people have borrowed from me (you don't care)
+
+   [66]Things I want to read that don't have entries in [67]All Consuming.
+   (You probably also don't care.)
+
+In memory
+
+   I wish to remember [68]Esther Andrews, who died in 2001. Esther was my
+   first friend who I interacted with unmediated by text on paper or a
+   screen. She took all the risks and reached out to me despite a
+   non-trivial age gap, and that seemed to come naturally to her. She told
+   me once that I was a good listener.
+
+   I also wish to remember [69]Bonnie Tinker, who died in 2009. I never
+   really knew Bonnie, but she was central to the Multnomah Meeting of
+   Friends, which I attended irregularly at the time. I always thought I'd
+   have a chance to get to know her, and then a truck driver killed her.
+
+   I also wish to remember [70]Igal Koshevoy, who died in 2013. I knew
+   Igal as the face behind the Portland Functional Programming Group,
+   which was a minor but important part of what kept me feeling connected
+   to a bigger community when I lived in Portland. He set an example of
+   how to run groups that welcome and include everyone. Igal committed
+   suicide, and I wish that he could have been as kind to himself as he
+   seemed to be to everybody else.
+
+   I also wish to remember [71]Andrew Pimlott, who died in 2013. In 2007,
+   Andrew helped me get a job when I needed one, and we were colleagues
+   for a brief period before he left to take a hiatus from software
+   engineering to work in a restaurant. Though we only worked together for
+   a brief period, he was there for me at a very hard time in my life to
+   patiently explain Haskell code, cook with me, and play Frisbee. He had
+   a rare combination of genius and kindness.
+
+   I also wish to remember [72]Paul Hudak, who died in 2015. Paul
+   co-founded the Haskell programming language committee, and as such, did
+   work (and inspired others to do work) that later shaped my own career
+   for many years. When I interacted with him at programming language
+   conferences, he came across as a warm and compassionate person.
+
+   I also wish to remember [73]Nóirín Plunkett, who died in 2015. Nóirín
+   was a technologist, writer, and activist who helped define feminist
+   advocacy in the open-source community. They brought light wherever they
+   went.
+
+   Most of all, I wish to remember [74]Debra Boyask, who died in 2013.
+   Debra was a teacher, researcher, comics creator, and to me, a friend
+   and lover. The time she and I spent together was brief, but important.
+   I take my tea with milk because of her.
+
+
+    Last modified: December 3, 2015
+
+
+    Style and some substance shamelessly ripped off from [75]Juli Mallett
+
+References
+
+   1. file:///home/mgomez/CS432/A3/source313.txt#about
+   2. file:///home/mgomez/CS432/A3/source313.txt#opinions
+   3. file:///home/mgomez/CS432/A3/source313.txt#academic
+   4. file:///home/mgomez/CS432/A3/source313.txt#software
+   5. file:///home/mgomez/CS432/A3/source313.txt#quotations
+   6. file:///home/mgomez/CS432/A3/source313.txt#writing
+   7. file:///home/mgomez/CS432/A3/source313.txt#organizations
+   8. file:///home/mgomez/CS432/A3/source313.txt#memory
+   9. https://www.linkedin.com/in/catamorphism
+  10. http://heroku.com/
+  11. http://www.alephcloud.com/
+  12. http://www.mozilla.org/
+  13. http://rust-lang.org/
+  14. http://www.berkeley.edu/
+  15. http://www.cs.berkeley.edu/
+  16. http://www.wellesley.edu/
+  17. http://cs.wellesley.edu/
+  18. http://tim.dreamwidth.org/1729048.html
+  19. http://infotrope.net/about/bio/
+  20. http://geekfeminism.org/2012/09/17/how-to-exclude-women
+  21. http://tim.dreamwidth.org/tag/trans
+  22. file:///home/mgomez/CS432/A3/transition.html
+  23. http://en.wikipedia.org/wiki/Cissexual
+  24. file:///home/mgomez/CS432/A3/privilege.html
+  25. http://www.earth.li/~kake/
+  26. http://geekfeminism.wikia.com/wiki/Male_Programmer_Privilege_Checklist
+  27. http://geekfeminism.wikia.com/
+  28. http://geekfeminism.org/
+  29. http://geekfeminism.wikia.com/wiki/Geek_Feminism_Wiki
+  30. http://geekfeminism.wikia.com/wiki/Intersectionality
+  31. http://web.cecs.pdx.edu/~apt/icfp10.pdf
+  32. file:///home/mgomez/CS432/A3/Writing/tim-chevalier-rpe.pdf
+  33. file:///home/mgomez/CS432/A3/Writing/chevalier_ms_2004_type_inference.pdf
+  34. file:///home/mgomez/CS432/A3/Writing/chevalier_ba_2001_type_inference.pdf
+  35. file:///home/mgomez/CS432/A3/NSF/
+  36. file:///home/mgomez/CS432/A3/statement_of_purpose_fall_2000.pdf
+  37. file:///home/mgomez/CS432/A3/Writing/type_system_certified_gc_poster.png
+  38. file:///home/mgomez/CS432/A3/Writing/Rust-Tutorial-tjc.pdf
+  39. http://opensourcebridge.org/proposals/970
+  40. file:///home/mgomez/CS432/A3/Writing/tim-rpe-talk.pdf
+  41. file:///home/mgomez/CS432/A3/Writing/tim_chevalier_laziness.pdf
+  42. http://docs.google.com/Presentation?id=ddkpfvdr_23dc8wbd9w
+  43. https://github.com/mozilla/rust
+  44. http://community.haskell.org/~tim/
+  45. http://haskell.org/ghc
+  46. http://darcs.net/
+  47. file:///home/mgomez/CS432/A3/quotations.html
+  48. https://patreon.com/mappings
+  49. http://tim.dreamwidth.org/
+  50. http://modelviewculture.com/pieces/killing-the-messenger-at-mozilla
+  51. http://modelviewculture.com/
+  52. http://modelviewculture.com/pieces/gendered-language-feature-or-bug-in-software-documentation
+  53. http://geekfeminism.org/author/mappings/
+  54. http://tim.dreamwidth.org/1708538.html
+  55. file:///home/mgomez/CS432/A3/Writing/self-knowledge.html
+  56. file:///home/mgomez/CS432/A3/Writing/trans-kids.html
+  57. file:///home/mgomez/CS432/A3/rmsslashesr.html
+  58. file:///home/mgomez/CS432/A3/Writing/bus.txt
+  59. file:///home/mgomez/CS432/A3/Writing/commencement-may-2001.pdf
+  60. file:///home/mgomez/CS432/A3/Writing/bald.html
+  61. http://www.fundabortionnow.org/
+  62. http://www.scarleteen.com/
+  63. http://www.pih.org/
+  64. http://www.tgijp.org/
+  65. file:///home/mgomez/CS432/A3/borrowed.txt
+  66. file:///home/mgomez/CS432/A3/wanttoread.txt
+  67. http://allconsuming.net/person/catamorphism/
+  68. http://www.estherandrews.org/
+  69. http://www.oregonlive.com/news/index.ssf/2009/07/to_the_end_friends_say_bonnie.html
+  70. http://koshevoy.net/
+  71. http://www.timesobserver.com/page/content.detail/id/568889/ANDREW-WILLIAM---PIMLOTT.html?nav=5007
+  72. https://messages.yale.edu/messages/University/univmsgs/detail/121669
+  73. https://adainitiative.org/2015/07/remembering-noirin-plunkett/
+  74. http://tim.dreamwidth.org/1798068.html
+  75. http://people.freebsd.org/~jmallett/

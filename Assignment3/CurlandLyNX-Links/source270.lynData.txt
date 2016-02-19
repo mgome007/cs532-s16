@@ -1,0 +1,461 @@
+    #[1]publisher [2]Learn Python Tutorial » Feed [3]Learn Python Tutorial
+   » Comments Feed
+
+   [4]Skip to Main Content
+   Search for: ____________________ (BUTTON)
+   [5]Learn Python Tutorial
+
+   Learn Python for Free!
+     * [6]Home
+     * [7]Python Tutorials
+          + [8]Getting Started
+          + [9]Python Basics
+          + [10]Python Variables
+          + [11]Python Numbers
+          + [12]Python Strings
+          + [13]Python List
+     * [14]Django
+          + [15]Django Setup
+          + [16]First Django Project
+     * [17]Python Glossary
+
+   (BUTTON) Menu
+     * [18]Python TutorialsYou are on the verge of learning one of the
+       greatest programming languages in the world. Here at Learn Python
+       Tutorial we offer some of the most in-depth Python tutorials ever
+       created. We will teach you everything you have to know about the
+       Python Programming language. If you follow every one of our
+       tutorials at the end, you will become one of the most advanced
+       Python programmers in the world.
+          + [19]Getting Started
+          + [20]Python Basics
+          + [21]Python Variables
+          + [22]Python Numbers
+          + [23]Python Strings
+          + [24]Python List
+
+   IFRAME: [25]https://www.youtube.com/embed/P74JAYCD45A
+
+   IFRAME: [26]https://www.youtube.com/embed/P74JAYCD45A
+
+Learn Python
+
+   We have set out to teach you everything you have to know about Python.
+   Our goal is to continue teaching Python since learning everything thing
+   there is to know about Python would take years and we have made it our
+   goal to keep adding tutorials to this site daily and when we finally
+   learn everything there is to know about the [27]Python programming
+   language. Python would have probably changed so we will start over
+   teaching the changes in the language. We are determined to be the
+   number one source for learning Python.
+   [INS: :INS]
+
+   Our tutorials are different than most on the internet. We try to
+   educate by explaining every little thing and repeating ourselves since
+   we have learned over the past year that our users tend to learn better
+   by taking baby steps and we drive home the information by repeating
+   ourselves. We know our site may not be as cool looking as other Python
+   tutorial sites but this is a small operation and if we took on building
+   a cool looking site that was interactive. We would look like the next
+   site and you would not learn that much because we be tied to managing
+   the site and not teaching. We decided to go simple and educate rather
+   than look cool.
+   [INS: :INS]
+
+   Each Python tutorial contains a written tutorial along with a video
+   tutorial. We know some people need to see it written while others need
+   to hear or see it so we have tried to cover both angles. Our tutorials
+   start out very basic and slowly move towards the more complicated parts
+   of language. This project is a work in progress and we ask that you
+   check back often for more updates. We are working hard adding at least
+   seven tutorials a week which will help you learn Python.
+   [INS: :INS]
+
+   We like feedback and interaction if you have question please ask we are
+   there to help you learn the Python language.
+
+Complete List of Python Tutorials
+
+   *Note – If you do not see the tutorial you are looking for check back
+   we are sure it is coming.
+   [28]
+
+Getting Started With Python
+
+   In this Python Tutorial section, we show you how to install Python on a
+   Mac or Windows machine. We talk about the [29]Python programming
+   language including the history and why you should learn the language.
+   If you have no knowledge about Python. This is a good spot to start
+   learning about Python.
+
+Python Tutorials In The Getting Started With Python Section
+
+    1. [30]Getting Started With Python
+    2. [31]Why Should You Learn Python
+    3. [32]History Of The Python Programming Language
+    4. [33]How To Install Python 3 On Mac OS X
+    5. [34]How To Install Python 3 On Windows
+    6. [35]Mac OS X Terminal Commands
+
+   [36]
+
+Python Basics
+
+   In this section of Python Tutorials we will take a brief tour of all
+   Python’s data types. Understanding data types in Python is important
+   and will help you a long the way.
+
+Python Tutorials In The Python Basics Section
+
+    1. [37]Python Basics
+    2. [38]Assign A Variable in Python 3
+    3. [39]Python Numbers
+    4. [40]Python String Basics
+    5. [41]Python List Basics
+    6. [42]Python Dictionary Basics
+    7. [43]Basics Of The Python Tuple
+    8. [44]How To Install Sublime Text On Mac OS X
+    9. [45]How To Install Sublime Text on Windows
+
+
+   [46]
+
+Python Variables
+
+   In this Python Tutorial section, we will learn how Python variables
+   work. Python variables are different from a lot of other programming
+   languages. We will discuss how variables work in Python along with
+   Python objects.
+
+Python Tutorials in the Variables Section
+
+    1. [47]Python Variables
+    2. [48]Complete Guide To Python Variables
+    3. [49]Why There Is No Type Declaration in Python
+    4. [50]How Python Variables Reference Objects
+    5. [51]Python Keywords
+    6. [52]Access The Object’s Reference Count
+    7. [53]Python Garbage Collection
+
+   [54]
+
+Python Numbers
+
+   In this Python Tutorial section, we look at numbers in Python. We focus
+   on the different number types along with how to use numbers in
+   equations to help our programs run.
+
+Python Tutorials in The Python Numbers Section
+
+    1. [55]Python Numbers
+    2. [56]Why are floating point numbers so inaccurate?
+    3. [57]Round() Built in Function
+    4. [58]Python Decimal Module
+    5. [59]Addition in Python
+    6. [60]Subtraction in Python
+    7. [61]Multiplication in Python
+    8. [62]Division in Python
+    9. [63]Modulo in Python
+   10. [64]Exponents in Python
+   11. [65]Operator Precedence In Python
+   12. [66]Manually Adjust The Operator Precedence in Python
+   13. [67]How To Convert Number Types in Python
+   14. [68]Python Booleans
+   15. [69]Comparison Operators in Python
+   16. [70]Boolean Operators In Python
+
+   [71]
+
+Python Strings
+
+   In this section, we focus on Python strings including how they work,
+   how to use strings, the built-in functions associated with strings and
+   string methods.
+
+Python Tutorials in The Strings Section
+
+    1. [72]Python String Section
+    2. [73]Single, Double and Triple Quote Strings in Python
+    3. [74]Escape Sequences in Python 3
+    4. [75]Find the length of a String in Python
+    5. [76]How to Concatenate in Python
+    6. [77]How to Repeat String in Python
+    7. [78]Indexing and Slicing in Python
+    8. [79]Changing a String in Python
+    9. [80]Python Capitalize String Method
+   10. [81]Python Casefold String Method
+   11. [82]Python Center String Method
+   12. [83]Python Count String Method
+   13. [84]Python Endswith String Method
+   14. [85]Python Find String Method
+   15. [86]Python Index String Method
+   16. [87]Python Isalnum String Method
+   17. [88]Python Isalpha String Method
+   18. [89]Python Islower String Method
+   19. [90]Python Isspace String Method
+   20. [91]Python Istitle String Method
+   21. [92]Python Isupper String Method
+   22. [93]Python Join String Method
+   23. [94]Python Ljust String Method
+   24. [95]Python Lower String Method
+   25. [96]Python Lstrip String Method
+   26. [97]Python Replace String Method
+   27. [98]Python Rfind String Method
+   28. [99]Python Rindex String Method
+   29. [100]Python Rjust String Method
+   30. [101]Python Rstrip String Method
+   31. [102]Python Startswith String Method
+   32. [103]Python Strip String Method
+   33. [104]Python Swapcase String Method
+   34. [105]Python Upper String Method
+   35. [106]Python String Formatting The Oldway
+   36. [107]Python Format String Method
+   37. [108]Advanced String Formatting in Python
+   38. [109]Python String Review
+
+   [110]
+
+Python List
+
+   In this section, we focus on the Python list. Python list are objects
+   that contain other objects. We will cover Python list in full in this
+   section.
+
+Python Tutorials In The Python List Section
+
+    1. [111]Python List Section
+    2. [112]List in Python
+    3. [113]Creating List In Python
+    4. [114]List Built-in Function
+    5. [115]Extending List Built-in Function
+    6. [116]Find Length of a Python List
+    7. [117]Indexing List in Python
+    8. [118]Slicing Python List
+    9. [119]Concatenating and Repeating List
+   10. [120]Iterating Through List
+   11. [121]List Membership in Python
+   12. [122]List Append Method in Python
+   13. [123]Extend List Method in Python
+   14. [124]Insert List Method in Python
+   15. [125]Count List Method in Python
+   16. [126]Sort List Method in Python
+   17. [127]How To Use Copy Method In Python
+   18. [128]Clear List Method In Python
+   19. [129]Pop List Method in Python
+   20. [130]Remove List Method in Python
+   21. [131]Delete List Method in Python
+   22. [132]Index and Slicing Assignment In Python
+
+   Share The Knowledge
+   [133]Share on Facebook Share on Facebook 124[134] Tweet about this on
+   Twitter Tweet about this on Twitter [135]Share on Google+ Share on
+   Google+ 386[136] Pin on Pinterest Pin on Pinterest 0[137] Share on
+   LinkedIn Share on LinkedIn 0[138] Share on StumbleUpon Share on
+   StumbleUpon 1[139] Share on Reddit Share on Reddit 91[140] Share on
+   Tumblr Share on Tumblr 0
+
+   [141]Set Up Static Files In Django
+   31 Dec 2015
+   [142]
+
+Set Up Static Files In Django
+
+   [143]Tom | |
+
+   In this tutorial we are going to set up static files in Django. This
+   process should only be used in development and not used when we deploy
+   our project. When we deploy a Django... [144]READ MORE
+   [145]Creating Our First View In Django
+   31 Dec 2015
+   [146]
+
+Creating Our First View In Django
+
+   [147]Tom | |
+
+   In this Django tutorial, we are going to start some coding by Creating
+   Our First View In Django. The main objective of this tutorial is to
+   show you how to make a basic view... [148]READ MORE
+   [149]Creating Our First Django App
+   30 Dec 2015
+   [150]
+
+Creating Our First Django App
+
+   [151]Tom | |
+
+   Now that we have installed and configured our default Django project we
+   can create our first app. In the previous sentence, I used project and
+   app. What is the difference and why do... [152]READ MORE
+   [153]Find The Path of BASE_DIR in Django
+   29 Dec 2015
+   [154]
+
+Find The Path of BASE_DIR in Django
+
+   [155]Tom | |
+
+   There may be a time when you need to find the path of BASE_DIR in
+   Django. This process will return your the path to the root of your
+   Django project. Step 1 –... [156]READ MORE
+
+   © 2016 Learn Python Tutorial
+
+References
+
+   1. https://plus.google.com/b/111349649412158821277/+LearnpythontutorialFree/posts
+   2. http://learnpythontutorial.com/feed/
+   3. http://learnpythontutorial.com/comments/feed/
+   4. file:///home/mgomez/CS432/A3/source270.txt#content
+   5. http://learnpythontutorial.com/
+   6. http://learnpythontutorial.com/
+   7. http://learnpythontutorial.com/category/python-tutorials/
+   8. http://learnpythontutorial.com/category/python-tutorials/getting-started/
+   9. http://learnpythontutorial.com/category/python-tutorials/python-basics/
+  10. http://learnpythontutorial.com/category/python-tutorials/python-variables/
+  11. http://learnpythontutorial.com/category/python-tutorials/python-numbers/
+  12. http://learnpythontutorial.com/category/python-tutorials/python-strings/
+  13. http://learnpythontutorial.com/category/python-tutorials/python-list/
+  14. http://learnpythontutorial.com/category/django/
+  15. http://learnpythontutorial.com/category/django/django-setup/
+  16. http://learnpythontutorial.com/category/django/lpt-project/
+  17. http://learnpythontutorial.com/python-glossary/
+  18. http://learnpythontutorial.com/category/python-tutorials/
+  19. http://learnpythontutorial.com/category/python-tutorials/getting-started/
+  20. http://learnpythontutorial.com/category/python-tutorials/python-basics/
+  21. http://learnpythontutorial.com/category/python-tutorials/python-variables/
+  22. http://learnpythontutorial.com/category/python-tutorials/python-numbers/
+  23. http://learnpythontutorial.com/category/python-tutorials/python-strings/
+  24. http://learnpythontutorial.com/category/python-tutorials/python-list/
+  25. https://www.youtube.com/embed/P74JAYCD45A
+  26. https://www.youtube.com/embed/P74JAYCD45A
+  27. http://learnpythontutorial.com/python-glossary/python-programming-language/
+  28. file:///home/mgomez/CS432/A3/source270.txt#collapse480
+  29. http://learnpythontutorial.com/python-glossary/python-programming-language/
+  30. http://learnpythontutorial.com/getting-started-with-python-python-tutorial/
+  31. http://learnpythontutorial.com/why-should-you-learn-python-python-tutorial/
+  32. http://learnpythontutorial.com/history-of-the-python-programming-language-python-tutorial/
+  33. http://learnpythontutorial.com/how-to-install-python-3-on-mac-os-x-python-tutorial/
+  34. http://learnpythontutorial.com/how-to-install-python-3-on-windows-python-tutorial/
+  35. http://learnpythontutorial.com/mac-os-x-terminal-commands-python-tutorial/
+  36. file:///home/mgomez/CS432/A3/source270.txt#collapse481
+  37. http://learnpythontutorial.com/python-basics-python-tutorial/
+  38. http://learnpythontutorial.com/assign-a-variable-in-python-python-tutorial/
+  39. http://learnpythontutorial.com/python-numbers-python-tutorial/
+  40. http://learnpythontutorial.com/python-string-basics-python-tutorial/
+  41. http://learnpythontutorial.com/python-list-basics-python-tutorial/
+  42. http://learnpythontutorial.com/python-dictionary-basics-python-tutorial/
+  43. http://learnpythontutorial.com/basics-of-the-python-tuple-python-tutorial/
+  44. http://learnpythontutorial.com/how-to-install-sublime-text-on-mac-os-x-python-tutorial/
+  45. http://learnpythontutorial.com/how-to-install-sublime-text-on-windows-python-tutorial/
+  46. file:///home/mgomez/CS432/A3/source270.txt#collapse482
+  47. http://learnpythontutorial.com/python-variables-python-tutorial/
+  48. http://learnpythontutorial.com/complete-guide-to-python-variables-python-tutorial/
+  49. http://learnpythontutorial.com/why-there-is-no-type-declaration-in-python-python-tutorial/
+  50. http://learnpythontutorial.com/how-python-variables-reference-objects/
+  51. http://learnpythontutorial.com/python-keywords-python-tutorial/
+  52. http://learnpythontutorial.com/access-the-objects-reference-count-python-tutorial/
+  53. http://learnpythontutorial.com/python-garbage-collection-python-tutorial/
+  54. file:///home/mgomez/CS432/A3/source270.txt#collapse483
+  55. http://learnpythontutorial.com/python-numbers-python-tutorial-2/
+  56. http://learnpythontutorial.com/why-are-floating-point-calculations-so-inaccurate-python-tutorial/
+  57. http://learnpythontutorial.com/round-built-in-function-in-python-python-tutorial/
+  58. http://learnpythontutorial.com/python-decimal-module-python-tutorial/
+  59. http://learnpythontutorial.com/addition-in-python-python-tutorial/
+  60. http://learnpythontutorial.com/subtraction-in-python-python-tutorial/
+  61. http://learnpythontutorial.com/multiplication-in-python-python-tutorial/
+  62. http://learnpythontutorial.com/division-in-python-python-tutorial/
+  63. http://learnpythontutorial.com/modulo-in-python-python-tutorial/
+  64. http://learnpythontutorial.com/exponents-in-python-python-tutorial/
+  65. http://learnpythontutorial.com/operator-precedence-in-python-python-tutorial/
+  66. http://learnpythontutorial.com/manually-adjust-operator-precedence-in-python/
+  67. http://learnpythontutorial.com/how-to-convert-number-types-in-python/
+  68. http://learnpythontutorial.com/learn-about-python-booleans/
+  69. http://learnpythontutorial.com/comparison-operators-in-python/
+  70. http://learnpythontutorial.com/boolean-operators-in-python/
+  71. file:///home/mgomez/CS432/A3/source270.txt#collapse484
+  72. http://learnpythontutorial.com/python-strings-section/
+  73. http://learnpythontutorial.com/single-double-or-triple-quote-strings-in-python/
+  74. http://learnpythontutorial.com/single-double-or-triple-quote-strings-in-python/
+  75. http://learnpythontutorial.com/find-the-length-of-a-string-in-python/
+  76. http://learnpythontutorial.com/how-to-concatenate-in-python/
+  77. http://learnpythontutorial.com/how-to-repeat-strings-in-python/
+  78. http://learnpythontutorial.com/indexing-and-slicing-a-string-in-python/
+  79. http://learnpythontutorial.com/changing-strings-in-python/
+  80. http://learnpythontutorial.com/python-capitalize-string-method/
+  81. http://learnpythontutorial.com/python-casefold-string-method/
+  82. http://learnpythontutorial.com/python-center-string-method/
+  83. http://learnpythontutorial.com/python-count-string-method/
+  84. http://learnpythontutorial.com/python-endswith-string-method/
+  85. http://learnpythontutorial.com/python-find-string-method/
+  86. http://learnpythontutorial.com/python-index-string-method/
+  87. http://learnpythontutorial.com/python-isalnum-string-method/
+  88. http://learnpythontutorial.com/python-isalpha-string-method/
+  89. http://learnpythontutorial.com/python-islower-string-method/
+  90. http://learnpythontutorial.com/python-isspace-string-method/
+  91. http://learnpythontutorial.com/python-istitle-string-method/
+  92. http://learnpythontutorial.com/python-isupper-string-method/
+  93. http://learnpythontutorial.com/python-join-string-method/
+  94. http://learnpythontutorial.com/python-ljust-string-method/
+  95. http://learnpythontutorial.com/python-lower-string-method/
+  96. http://learnpythontutorial.com/python-lstrip-string-method/
+  97. http://learnpythontutorial.com/python-replace-string-method/
+  98. http://learnpythontutorial.com/python-rfind-string-method/
+  99. http://learnpythontutorial.com/python-rindex-string-method/
+ 100. http://learnpythontutorial.com/python-rjust-string-method/
+ 101. http://learnpythontutorial.com/python-rstrip-string-method/
+ 102. http://learnpythontutorial.com/python-startswith-string-method/
+ 103. http://learnpythontutorial.com/python-strip-string-method/
+ 104. http://learnpythontutorial.com/python-swapcase-string-method/
+ 105. http://learnpythontutorial.com/python-upper-string-method/
+ 106. http://learnpythontutorial.com/python-string-formatting-the-old-way/
+ 107. http://learnpythontutorial.com/python-string-formatting-method/
+ 108. http://learnpythontutorial.com/advanced-string-formatting-in-python/
+ 109. http://learnpythontutorial.com/python-string-review/
+ 110. file:///home/mgomez/CS432/A3/source270.txt#collapse485
+ 111. http://learnpythontutorial.com/python-list-section/
+ 112. http://learnpythontutorial.com/list-in-python/
+ 113. http://learnpythontutorial.com/list-in-python/
+ 114. http://learnpythontutorial.com/list-built-in-function/
+ 115. http://learnpythontutorial.com/extending-list-function-with-range-function/
+ 116. http://learnpythontutorial.com/find-the-length-of-a-list-in-python/
+ 117. http://learnpythontutorial.com/indexing-list-in-python/
+ 118. http://learnpythontutorial.com/slicing-list-in-python/
+ 119. http://learnpythontutorial.com/concatenating-and-repeating-list/
+ 120. http://learnpythontutorial.com/iterating-through-list-in-python/
+ 121. http://learnpythontutorial.com/python-list-membership-operators/
+ 122. http://learnpythontutorial.com/python-list-append-method/
+ 123. http://learnpythontutorial.com/extend-list-method-in-python/
+ 124. http://learnpythontutorial.com/insert-list-method-in-python/
+ 125. http://learnpythontutorial.com/count-list-method-in-python/
+ 126. http://learnpythontutorial.com/sort-list-method-in-python/
+ 127. http://learnpythontutorial.com/how-to-use-the-copy-list-method-in-python/
+ 128. http://learnpythontutorial.com/clear-list-method-in-python/
+ 129. http://learnpythontutorial.com/pop-list-method-in-python/
+ 130. http://learnpythontutorial.com/remove-list-method-in-python/
+ 131. http://learnpythontutorial.com/delete-list-objects-using-del-statement/
+ 132. http://learnpythontutorial.com/index-and-slice-assignment-in-python-list/
+ 133. http://www.facebook.com/sharer.php?u=http://learnpythontutorial.com/
+ 134. http://twitter.com/share?url=http://learnpythontutorial.com/&text=Home+
+ 135. https://plus.google.com/share?url=http://learnpythontutorial.com/
+ 136. javascript:void((function(){var e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)})());
+ 137. http://www.linkedin.com/shareArticle?mini=true&url=http://learnpythontutorial.com/
+ 138. http://www.stumbleupon.com/submit?url=http://learnpythontutorial.com/&title=Home
+ 139. http://reddit.com/submit?url=http://learnpythontutorial.com/&title=Home
+ 140. http://www.tumblr.com/share/link?url=http://learnpythontutorial.com/
+ 141. http://learnpythontutorial.com/set-up-static-files-in-django/
+ 142. http://learnpythontutorial.com/set-up-static-files-in-django/
+ 143. http://learnpythontutorial.com/author/pws18974/
+ 144. http://learnpythontutorial.com/set-up-static-files-in-django/
+ 145. http://learnpythontutorial.com/creating-first-view-django/
+ 146. http://learnpythontutorial.com/creating-first-view-django/
+ 147. http://learnpythontutorial.com/author/pws18974/
+ 148. http://learnpythontutorial.com/creating-first-view-django/
+ 149. http://learnpythontutorial.com/creating-first-django-app/
+ 150. http://learnpythontutorial.com/creating-first-django-app/
+ 151. http://learnpythontutorial.com/author/pws18974/
+ 152. http://learnpythontutorial.com/creating-first-django-app/
+ 153. http://learnpythontutorial.com/find-the-path-of-base_dir-in-django/
+ 154. http://learnpythontutorial.com/find-the-path-of-base_dir-in-django/
+ 155. http://learnpythontutorial.com/author/pws18974/
+ 156. http://learnpythontutorial.com/find-the-path-of-base_dir-in-django/

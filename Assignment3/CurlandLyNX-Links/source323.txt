@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://praktikumsjahr.wordpress.com/xmlrpc.php">
+
+<title>Mein Unterrichtspraktikum</title>
+<style id="jetpack-custom-fonts-css"></style>
+<link rel="alternate" type="application/rss+xml" title="Mein Unterrichtspraktikum &raquo; Feed" href="https://praktikumsjahr.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mein Unterrichtspraktikum &raquo; Kommentar Feed" href="https://praktikumsjahr.wordpress.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0' href='https://s0.wp.com/_static/??-eJx9kdFuwyAMRX9oDHXqtuZh2rckxCFOMUZghvL3czuta5UpL+janCubi23JOI4CUSxVk0L1GIsthAHWlHkBJ4/Vsyvlyf5vC3iGYheQ1LuzuVYbfAjs/wzsPYxcxUwcAjfbcPSwOwPjhBFlvYk9uMycxfGoWyllS0CVMzdzu9hzO86gfUq9XAiCEXsIQIrt2Si9/bouctYstjHc8S0pbYYhZSjF6ElYycisg7a+n7ZNddDwvsDlftIPkjVcX/JJH4fjsXt96U7d+/INyJG0bA==' type='text/css' media='all' />
+<link rel='stylesheet' id='lovecraft-fonts-css'  href='https://fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700%2C400italic%7CLato%3A400%2C400italic%2C700%2C700italic%2C900%2C900italic&#038;subset=latin%2Clatin-ext&#038;ver=4.4.1-alpha-36109' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://s0.wp.com/_static/??-eJx9jdEKwjAMRX/IGsSx4YP4LV3JakablDZ1+PdOijAR9xLOJfdwYUnGCSuyQqwmheqJC3hkzLQ+/uDRlXKAjat3jFgg1RGCPNBlOykQOyj6DGiW5CT+SJtBjDJTu61GwKJt9gN7vkcxQZxVEv4KZgqW8p6acQziV/SwtjbxLd3i9dR1l/489EM3vwAcx3Ea' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-3' href='https://s1.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1444132114g' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-4' href='https://s0.wp.com/wp-content/themes/h4/global.css?m=1420737423g' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LoggedOutFollow = {"invalid_email":"Dein Abonnement war nicht erfolgreich, bitte versuche es erneut mit einer g\u00fcltigen E-Mai- Adresse."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJyFkNEKwjAMRX/IrmzOBx/Eb9nWrKS2TW1ai369FSYiToVAQnK43BtZgkA/2ayApal1zhCvS2sMb+QvQDjUcUjQOPRPeCKfwKcH62hECyIzxEHXXRWaaYULxMkBc4VWru+W0F8Qyl/MQArDdBIRGG8fqqMlLYLNGj3LOmtQlJOYyVoqsqDSkNbCc3jl/P61hTq6Q9v3265r9+3O3AGUCobW'></script>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621g' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://praktikumsjahr.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/6wZXr' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Mein Unterrichtspraktikum" />
+<meta property="og:url" content="https://praktikumsjahr.wordpress.com/" />
+<meta property="og:site_name" content="Mein Unterrichtspraktikum" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="de_DE" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta property="fb:app_id" content="249643311490" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel='openid.server' href='https://praktikumsjahr.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://praktikumsjahr.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://praktikumsjahr.wordpress.com/osd.xml" title="Mein Unterrichtspraktikum" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Mein Unterrichtspraktikum" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-task" content="name=Abonnieren;action-uri=https://praktikumsjahr.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Registriere dich für einen kostenlosen Blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Wordpress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com-Foren;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="Mein Unterrichtspraktikum bei WordPress.com" />
+<meta name="description" content="(von Claus)" />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="home blog mp6 customizer-styles-applied no-header-image highlander-enabled highlander-light infinite-scroll">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Zum Inhalt springen</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+													<h1 class="site-title"><a href="https://praktikumsjahr.wordpress.com/" rel="home">Mein Unterrichtspraktikum</a></h1>
+			<p class="site-description"></p>
+		</div><!-- .site-branding -->
+
+		<div class="toggles clear">
+			<button class="menu-toggle toggle" aria-controls="primary-menu" aria-expanded="false">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<span class="screen-reader-text">Menü</span>
+			</button><!-- .menu-toggle -->
+			<button class="search-toggle toggle">
+				<div class="genericon genericon-search" aria-expanded="false">
+					<span class="screen-reader-text">Suche</span>
+				</div><!-- .genericon-search -->
+			</button><!-- .search-toggle -->
+		</div><!-- .toggles -->
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div id="primary-menu" class="menu"><ul><li class="page_item page-item-3"><a href="https://praktikumsjahr.wordpress.com/uber-mich-diesen-blog/">Über mich &amp; diesen&nbsp;Blog</a></li></ul></div>
+		</nav><!-- #site-navigation -->
+
+		<div class="mobile-search">
+			<form role="search" method="get" class="search-form" action="https://praktikumsjahr.wordpress.com/">
+	<label>
+		<span class="screen-reader-text">Suche nach:</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Suche nach:" />
+	</label>
+	<button type="submit" class="search-submit">
+		<span class="genericon genericon-search">
+			<span class="screen-reader-text">Suche</span>
+		</span>
+	</button>
+</form>		</div>
+	</header><!-- #masthead -->
+
+	
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+						
+				
+<article id="post-82" class="post-82 post type-post status-publish format-standard hentry category-allgemein">
+			<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="https://praktikumsjahr.wordpress.com/2016/01/17/offtopic-kann-man-als-milizsoldat-links-sein/" rel="bookmark">[Offtopic] Kann man als Milizsoldat &#8220;links&#8221; sein?</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on">am <a href="https://praktikumsjahr.wordpress.com/2016/01/17/offtopic-kann-man-als-milizsoldat-links-sein/" rel="bookmark"><time class="entry-date published updated" datetime="2016-01-17T19:10:20+00:00">17. Januar 2016</time></a></span><span class="byline"> von <span class="author vcard"><a class="url fn n" href="https://praktikumsjahr.wordpress.com/author/clausceleda/">Claus</a></span></span><span class="comments-link"><a href="https://praktikumsjahr.wordpress.com/2016/01/17/offtopic-kann-man-als-milizsoldat-links-sein/#respond">Hinterlasse einen Kommentar</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>Diese Frage wurde mir letztens auf Twitter gestellt. Geht das? Die kurze, banale Antwort ist: Ja. Es geht. Ich bin schließlich der herumlaufende, atmende Beweis dafür.</p>
+<p>Ich bin der letzte der abstreiten wird, dass Bundesheer, Polizei und Justizwache mitunter massive ideologische Probleme haben. Und ich bin immer vorne dabei, wenn es darum geht eine dieser Organisationen zu kritisieren. Weil ich sie allesamt für das funktionieren eines modernen Staates als wichtig erachte. Und ich bin ein vehementer Gegner von jedweder Verallgemeinerung die die Richtung &#8220;Alle Polizisten/Lehrer/Justizwachebamte sind Nazis!&#8221; einschlägt.</p>
+<p>Das mag mitunter stimmen. Beispiele wie jener FPÖ-Gemeinderat mit dem &#8220;88&#8221; Autokennzeichen, seines Zeichens Oberst beim Bundesheer, hat das gezeigt. Und auch diverse Aussagen des (leider nach wie vor amtierenden) Wiener Polizeipräsidenten lassen kaum einen anderen Schluss über ihn zu. Haben die Institutionen damit ein Problem? Natürlich haben sie das. Ein ganz massives sogar. Macht das alle Angehörigen dieser Institutionen zu menschenverachtenden, brutalen und verachtenswerten Schlägern? Mit Sicherheit nicht.</p>
+<p>Aber wie geht das? &#8220;Links&#8221; sein und zugleich Milizsoldat? Keine der folgenden Erklärungen wird einer rationalen und philophischen Diskussion jemals standhalten. Aber das müssen sie auch gar nicht. Denn es sind meine persönlichen Sichtweisen und müssen daher nur für mich, und für niemanden sonst, funktionieren.</p>
+<p>Zum einen bin ich vom System der Demokratie zutiefst überzeugt. Ein politisches System, von dem ich glaube, dass es verteidigt werden muss, wenn es gefährdet ist. Durch alle Menschen die das System für richtig halten. Zu allererst aber von den Menschen, die für staatliche Organisationen arbeiten. Sie haben sich im weitesten Sinne freiwillig dafür entschieden dies zu tun. Nicht immer aus logischen oder &#8220;guten&#8221; Gründen, aber sie haben es getan. Soldaten, Polizisten, Lehrer, Beamte, Politiker. Und in diesen Gruppen bin ich gleich zwei Mal vertreten.</p>
+<p>Zum anderen, und das gehört für mich zu diesem ersten Punkt dazu, empfinde ich das staatliche Gewaltmonopol für gut und richtig. Auch wenn es Probleme hat, ist es auf jeden Fall besser, als selbstorganisierte, lynchjustizübende &#8220;Nachbarschaftswachen&#8221; durch die Straßen laufen zu lassen.</p>
+<p>Und als letzten Punkt: Ich habe eine Eid geleistet. Ich bin ein Mensch, für den soetwas Etwas bedeutet. Ich habe gelobt &#8220;Österreich und sein Volk zu schützen&#8221;. Österreich, in all seinen Facetten und Ausprägungen, als demokratische Republik, so wie sie selbst sich sehen will. Und nicht so, wie sie manche Politiker gerne hätten. Und das Volk schleißt für mich alle ein, die hier leben (wollen und oder müssen). Ob ich sie und ihre Denkweisen mag oder nicht. Außer sie sind Gegner jener rechtsstaatlichen, demokratischen Prinzipien. Dann können sie, auf gut wienerisch &#8220;Scheißn gehn&#8221;.</p>
+<p>An der Frage, wie das ginge, &#8220;links&#8221; sein und Milizsoldat sein, hing auch die Frage, wie ich den Dienst an der Waffe mit mir selbst vereinbaren könne. Auch darauf ist die Antwort denkbar einfach: Zum Selbst- &amp; Fremdschutz. Und das reicht als Erklärung eigentlich auch aus.</p>
+<p>&nbsp;</p>
+<p>Wie bereits geschrieben: Keiner MEINER Punkte, wird jemals rationalen, wohl überlegten Argumenten standhalten können. Aber das müssen sie nicht. Es sind MEINE Überzeugungen. Und sie müssen daher nur für MICH alleine funktionieren. Für niemanden sonst.</p>
+<p>&nbsp;</p>
+
+			
+					</div><!-- .entry-content -->
+	</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-78" class="post-78 post type-post status-publish format-standard hentry category-allgemein tag-episode-vii tag-star-wars tag-the-force-awakens">
+			<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="https://praktikumsjahr.wordpress.com/2015/12/19/off-topic-the-force-awakens-no-spoiler/" rel="bookmark">[Off Topic] The Force Awakens [No&nbsp;Spoiler]</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on">am <a href="https://praktikumsjahr.wordpress.com/2015/12/19/off-topic-the-force-awakens-no-spoiler/" rel="bookmark"><time class="entry-date published" datetime="2015-12-19T21:44:01+00:00">19. Dezember 2015</time><time class="updated" datetime="2015-12-19T22:17:49+00:00">19. Dezember 2015</time></a></span><span class="byline"> von <span class="author vcard"><a class="url fn n" href="https://praktikumsjahr.wordpress.com/author/clausceleda/">Claus</a></span></span><span class="comments-link"><a href="https://praktikumsjahr.wordpress.com/2015/12/19/off-topic-the-force-awakens-no-spoiler/#respond">Hinterlasse einen Kommentar</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>Ich bin mit Star Wars aufgewachsen.<br />
+Ich weiß gar nichtmehr, wann ich zum ersten Mal einen Star Wars-Film gesehen habe. Ich muss so um die acht oder neun Jahre alt gewesen. Ich glaube sogar dass ich es zum ersten mal mit meinem Vater auf VHS Kasette gesehen habe. Auf jeden Fall war mein erster Kontakt noch vor Erscheinen von Episode I.</p>
+<p>Mit den Filmen fing es an. Bis ich irgendwann in einem Buchladen über einen Roman von Michael A. Stackpole stolperte. Wenn ich mich richtig erinnere, müsste es die &#8220;Teuflische Falle&#8221; gewesen sein. Es fplgte die gesamte X-Wing Reihe. Eine Buchreihe, die mich seit etwa meinem 14. Lebensjahr begleitet und die ich wesentlich öfter als einmal gelesen habe, ebenso wie das gesamte Star Wars-Universum.</p>
+<p>Was dieses Universum für mich bedeutet, ist mir heute, als ich in Episode VII saß, so richtig klar geworden, als mir bei den ersten Klängen der Eröffnungsmelodie die Tränen kamen. Ebenso wie es den ganzen Film über immer wieder passierte.<br />
+Und es war nicht die Handlung des Films der in mir diese Reaktionen hervorrief, sondern einfach das &#8220;Feeling&#8221; des Films. Ein Film, für mich, in jeder seiner Ausformungen perfekt. Eine Hommage an Vergangenes, zugleich aber das sprichwörtliche Erwachen von etwas Neuem.<br />
+Das erste Mal seitdem ich mich erinnern kann, war ich beim verlassen des Kinosaals unfähig meine Eindrücke in Worte zu fassen. Ich hatte einfach keine. Und ich habe immernoch keine. Zu überwältigt bin ich dowohl von dem Film selbst, als auch davon, was er in mir auslöst.<br />
+Ich glaube nicht, dass ich in absehbarer Zeit dafür passende Worte finden werde. Und vielleicht ist das auch gar nicht notwendig. Manchmal ist aussagekräftiger einfach zu Schweigen und sich mit Tränen in den Augen, seine Unfähigkeit Worte zu kleiden, diese Unfähigkeit auf dem Heimweg aus dem Kino auf einer Handytastatur von der Seele zu schreiben. Weil es sonst nichts gibt, das den vergangen Stunden jemals gerecht werden könnte.</p>
+
+			
+					</div><!-- .entry-content -->
+	</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-32" class="post-32 post type-post status-publish format-standard hentry category-allgemein">
+			<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="https://praktikumsjahr.wordpress.com/2015/12/09/mein-arbeitsplatz/" rel="bookmark">Mein Arbeitsplatz</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on">am <a href="https://praktikumsjahr.wordpress.com/2015/12/09/mein-arbeitsplatz/" rel="bookmark"><time class="entry-date published" datetime="2015-12-09T17:30:22+00:00">9. Dezember 2015</time><time class="updated" datetime="2015-12-09T18:46:22+00:00">9. Dezember 2015</time></a></span><span class="byline"> von <span class="author vcard"><a class="url fn n" href="https://praktikumsjahr.wordpress.com/author/clausceleda/">Claus</a></span></span><span class="comments-link"><a href="https://praktikumsjahr.wordpress.com/2015/12/09/mein-arbeitsplatz/#respond">Hinterlasse einen Kommentar</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p style="text-align:justify;">Seit dem letzte Eintrag ist schon ein wenig her. Liegt vielleicht daran, dass ich doch sehr damit beschäftigt war mich einzufinden und zu organisieren. De facto also mit mir selbst beschäftigt war um einen für mich funktionierenden Rythmus zu finden. Den hab ich aber jetzt. Also gehts auch hier weiter.</p>
+<p style="text-align:justify;">Eigentlich sollte das hier ein Post über die Arbeitsplatzsituation in Lehrerzimmern werden. Besonders über meine eigene. Allerdings habe ich keine Arbeitsplatzsituation in den beiden Lehrerzimmern meiner Schulen. Ichhabe nämlich keinen festen Arbeitsplatz. Also wird das hier ein Kombinationseintrag. Aus Arbeitsplatz/Lehrerzimmersituation und einem Post der den Titel &#8220;Was haben Lehrer so in ihrer Schultasche&#8221; tragen sollte.</p>
+<p style="text-align:justify;">Also los:</p>
+<p style="text-align:justify;">Lehrerzimmer 1 ist das klassische Großraumlehrerzimmer. Hennen in einer Legebatterie gleich, reiht sich Platz an Platz an Platz. Zwischen den Tischreien gerade genug Platz zum durchgehen. Auf den eher beengten Plätzen türmen sich unterlagen zu Haufen äußerst unterschiedlicher Stabilität. Kein Ort zum Arbeiten. Immerhin gibt es einen Raum in den man ausweichen kann und in dem man meis</p>
+<p style="text-align:justify;">tens auch genug Platz hat und in dem sogar 2 (im Lehrerzimmer nur 1) Computer stehen.</p>
+<p style="text-align:justify;">Lehrerzimmer 2 malt ein anderes Bild. Über das gesamte Schulgebäude verteilt sitzen hier durchschnittlich 8 LehrerInnen in einem Raum. Jeder hat dabei eigentlich ausreichend Platz zum Arbeiten, einen kleinen Schrank unter dem Tisch und nich einmal einen deckenhohen Schrank hinter sich. Außerdem 2 PCs pro Lehrerzimmer. Purer Luxus, vergleicht man es mit dem Standardlehrerzimmer von oben.</p>
+<p style="text-align:justify;">Vorteil von Lehrerzimmer 1: Man lernt viel schneller viel mehr Leute kennen und kann sich einfacher austauschen. Bei Lehrerzimmer 2 lernt man die KollegInnen mit denen man das Zimmer teilt sehr schnell sehr gut kennen, alle anderen aber kaum. Das erschwert die Kommunikation&#8230; Vor allem über SchülerInnen.</p>
+<p style="text-align:justify;">Da ich also keinen wirklichen festen Arbeitsplatz habe, sondern immer den nehme der gerade frei ist, habe ich sowas wie ein &#8220;mobiles Büro&#8221;, bestehend aus den Kernelementen Tasche, Schreibmappe, Tablet.</p>
+<p style="text-align:justify;">Die Tasche ist eine klassische (vielleicht etwas &#8220;Tactical&#8221; aussehende Umhängetasche. Eher unaufregend und für mich hauptsächlich praktikabel und robust. Und mit genügend Platz, versteht sich. Neben üblichen Dingen wie Stifte, Papier, etc. finden sich darin auch noch ein paar andere erwähnenswerte Dinge wie zum Beispiel transportable Boxen für Musik, ein Locher, Kopfschmerztabletten, eine Kleinigkeit zu Essen, ein erste Hilfe Paket, eine Wasserflasche,&#8230; Und natürlich auch die folgenden Dinge.</p>
+<p style="text-align:justify;">
+<p><figure data-shortcode="caption" id="attachment_76" style="width: 279px" class="wp-caption alignright"><img class="alignnone  wp-image-76" src="https://praktikumsjahr.files.wordpress.com/2015/12/20151209_17372311.jpg?w=279&#038;h=157" alt="20151209_173723[1]" width="279" height="157" /><figcaption class="wp-caption-text">Besagte Tasche</figcaption></figure>Etwas wichtiger: Die Schreibmappe. Unterlagen für die kommenden Stunden, dazu gehörige Unterrichtsplanungen, Aufzeichnungen über die jeweiligen Stunden und diverse andere Materialien (stifte, bunte Kreide, Büroklammern,&#8230;) finden sich darin. Die habe ich auch in jeder Stunde mit dabei, denn darin führe ich meine unmittelbaren Aufzeichnungen über Mitarbeitsleistungen, Wiederholungen, Hausübungen und ähnliches.</p>
+<figure data-shortcode="caption" id="attachment_75" style="width: 275px" class="wp-caption alignleft"><img class="alignnone  wp-image-75" src="https://praktikumsjahr.files.wordpress.com/2015/12/20151209_1738371.jpg?w=275&#038;h=154" alt="20151209_173837[1]" width="275" height="154" /><figcaption class="wp-caption-text">Schreibmappe</figcaption></figure>
+<p style="text-align:justify;">Und schließlich der Ort an dem alles zusammenkommt was ich da so aufzeichne und plane: Das Tablet. Dort sind in hübschen Exceltabellen Unterrichtsplanungen zu finden (die man so auch mal eben schnell unterwegs ändern und ergänzen kann), ebenso wie die &#8220;Schlussabrechnung&#8221; aller Einzelleistungen die am Ende eine Note ergeben.</p>
+<figure data-shortcode="caption" id="attachment_74" style="width: 263px" class="wp-caption alignleft"><img class="alignnone  wp-image-74" src="https://praktikumsjahr.files.wordpress.com/2015/12/20151209_1737491.jpg?w=263&#038;h=148" alt="20151209_173749[1]" width="263" height="148" /><figcaption class="wp-caption-text">Die Tasche nochmal von innen</figcaption></figure>
+<p style="text-align:justify;">Alles in allem eine Variante die für mich im Moment gut funktioniert und mit der ich effektiv arbeiten kann, auch wenn ich ständig ein bisschen was an den Details verändere, vor allem was die genaue Organisation z.B. in der Schreibmappe angeht.</p>
+<p style="text-align:justify;">
+<p style="text-align:justify;">Und das wars jetzt eigentlich auch schon wieder. So viel zu Arbeitsplatz und Schultasche. Ergänzende Fragen natürlich gerne in die Kommentare, ebenso wie Wünsche über weitere Einträge  (Manchmal bin ich da nicht ganz so kreativ und vielelicht fallen euch ja noch ein paar Sachen ein&#8230; :D)</p>
+
+			
+					</div><!-- .entry-content -->
+	</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-30" class="post-30 post type-post status-publish format-standard hentry category-allgemein">
+			<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="https://praktikumsjahr.wordpress.com/2015/09/23/die-erste-woche/" rel="bookmark">Die erste Woche</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on">am <a href="https://praktikumsjahr.wordpress.com/2015/09/23/die-erste-woche/" rel="bookmark"><time class="entry-date published" datetime="2015-09-23T17:00:00+00:00">23. September 2015</time><time class="updated" datetime="2015-09-23T17:39:14+00:00">23. September 2015</time></a></span><span class="byline"> von <span class="author vcard"><a class="url fn n" href="https://praktikumsjahr.wordpress.com/author/clausceleda/">Claus</a></span></span><span class="comments-link"><a href="https://praktikumsjahr.wordpress.com/2015/09/23/die-erste-woche/#respond">Hinterlasse einen Kommentar</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>Wie der <a href="https://praktikumsjahr.wordpress.com/2015/09/10/erster-schultag/" target="_blank">erste Schultag</a> war, haben wir ja bereits festgestellt, allerdings besteht eine Woche bekanntlich nicht nur aus einem Tag&#8230; Also, was gabs die restliche erste Schulwoche?</p>
+<p>Der Dienst war nicht allzu aufregend&#8230; die Eröffnungsgottesdienst in einer der Schulen, daran anschließend Schulfotos (Ja, auch von mir gibt es da ein Foto, das sieht aber aus wie Schulfotos nunmal aussehen&#8230;) gefolgt von einer kurzen Besprechung mit der Schulleitung. Alles eher unaufgeregt und entspannt. Wir haben lediglich die Fristen für ein paar Dinge geklärt (etwa die Abgabe der Jahresplanung) und dass die Schulleitung auch gerne einmal eine Unterrichtseinheit beobachten würde. Das Spannendste an dem Tag war dann aber auch etwas, das nichts mit der Schule zu tun hat: Der Sprechstunde bei meinem (ehemaligen) Diplomarbeitsbetreuer der auch mein Dissertationsbetreuer sein wird. (An dieser Stelle: Kennt jemand eine/n Jurist/in aus Deutschland der/die sie mit Jugendschutz auskennt? Ich brauche eine/n Zweitgutachter/in für die Dissertation&#8230;)</p>
+<p>Der Mittwoch war&#8230; frei. Tatsache. Nichts zu tun. Normalerweise finden hier die Seminare an der Pädagogischen Hochschule statt. Allerdings nicht diese Woche.</p>
+<p>Am Donnerstag dann meine erste Unterrichtsstunde in &#8220;meiner&#8221; Deutschklasse. 17 Schüler/innen, davon 4 weiblich. Meine größte Baustelle bis auf Weiteres: Namen merken. Die erste Stunde war noch eher unaufgeregt und diente hauptsächlich dem gegenseitigen Kennenlernen, etc. In der zweiten Stunde, gleich am darauffolgenden Freitag, gings dann bereits ans Eingemachte: Wiederholen des Stoffs aus dem Vorjahr. Da waren sie ziemlich fit, zumindest in der Theorie können sie das also&#8230; um zu überprüfen ob sie ihre Theoretischen Wissen auch in die Praxis umsetzen können, gab es in der ersten Schulwoche gleich Hausaufgaben. Denn irgendwie muss ich ja herausfinden wo ihre &#8220;Baustellen&#8221; sind.</p>
+<p>Das wars dann auch schon. Geendet hat der Freitag und damit die Woche wie bei vielen anderen Menschen auch: im Pub.</p>
+
+			
+					</div><!-- .entry-content -->
+	</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-28" class="post-28 post type-post status-publish format-standard hentry category-allgemein tag-erster-schultag tag-konferenz tag-lehramt tag-lehrer tag-praktikum tag-schule tag-schuljahr tag-unterricht tag-unterrichtspraktikum tag-wien">
+			<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="https://praktikumsjahr.wordpress.com/2015/09/10/erster-schultag/" rel="bookmark">Erster Schultag</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on">am <a href="https://praktikumsjahr.wordpress.com/2015/09/10/erster-schultag/" rel="bookmark"><time class="entry-date published" datetime="2015-09-10T17:00:00+00:00">10. September 2015</time><time class="updated" datetime="2015-09-10T21:19:48+00:00">10. September 2015</time></a></span><span class="byline"> von <span class="author vcard"><a class="url fn n" href="https://praktikumsjahr.wordpress.com/author/clausceleda/">Claus</a></span></span><span class="comments-link"><a href="https://praktikumsjahr.wordpress.com/2015/09/10/erster-schultag/#comments">2 Kommentare</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>Für SchülerInnen ist der erste Schultag in der Regel schnell vorbei.Eine, vielleicht sogar zwei, Stunden in der Schule und dann wieder nach Hause. Nicht so für LehrerInnen. Für UnterrichtspraktikantInnen schon gar nicht. Und für die davon, die den Spaß an zwei Schulen absolvieren müssen (dürfen) schon gar nicht.</p>
+<p>12 Stunden hat mein Tag im Gesamten gedauert. Beginnend, fast pünktlich, um Acht. Kurz beim Direktor meiner Zweitschule hineingeschneit, Unterlagen abgeholt und im Sekretariat Schlüssel überreicht bekommen. Dann, der erste (sprichwörtliche) Schlüsselmoment: Der Moment, in dem man vor dem LehrerInnenzimmer steht, die Hand bereits zum Klopfen hebt und dann bemerkt &#8220;Ich hab ja nen Schlüssel!&#8221;. Es folgte eine kurze Schulführung durch meinen Betreuungslehrer. Das Wichtigste hat er mir gleich am Anfang gezeigt: Die Kaffeemaschine.</p>
+<p>Nach dieser Schulführung: Ortswechsel in Stammschule. Einmal quer durch Wien. (Die Öffi-Verbindung ist tatsächlich schneller als gedacht). Dort angekommen, das gleiche Spiel nochmal. Andere Schule, anderer Betreuungslehrer aber auch hier: Sachen abgeben, Schlüssel bekommen, Schulführung. Und dann, dann heiß es warten. Wir waren mit dem allen nämlich etwa um 12:30 fertig, die Konferenz begann aber erst um 14:00. Aber: Endlich Zeit etwas zu essen. Dann, die Konferenz. Ein riesiger Veranstaltungsraum, gefüllt mit ungefähr 200 LehrerInnen (Hatte ich erwähnt dass die Schule WIRKLICH groß ist?). Im Großen und Ganzen ist so eine &#8220;Konferenz&#8221; aber nicht großartig spannend. Neuerungen für das kommende Schuljahr, Begrüßungsworte und ein paar Formalitäten.</p>
+<p>Wieder Ortswechsel: Zurück zur Zweitschule. Dort, vor der Konferenz: LehrerInnenfoto. Ja, auf dem bin ich bereits drauf. Danach, eigentlich das gleiche Spiel wie zuvor. Nur mit weniger Menschen in einem kleineren Raum.</p>
+<p>Und nachdem der Tag um etwa 8 Uhr angefangen hatte, ging er dann schließlich fast punktgenau um 20 Uhr zu Ende. Und ja, mit dem Hund einmal ums Haus zu gehen hab ich gerade noch geschafft, aber dann bin ich ziemlich kaputt ins Bett gefallen. Hauptsächlich aufgrund der vielen neuen Eindrücke die ich erst mal verarbeiten musste&#8230; Aber es war nicht anstrengend im negativen Sinne. Eher im positiv-aufregenden. Wäre ja irgendwie auch doof gewesen wenn nicht.</p>
+
+			
+					</div><!-- .entry-content -->
+	</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-24" class="post-24 post type-post status-publish format-standard hentry category-allgemein">
+			<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="https://praktikumsjahr.wordpress.com/2015/09/06/begleitseminar-tag-2-3-fachdidaktik-allgemeine-didaktik/" rel="bookmark">Begleitseminar Tag 2 &amp; 3: Fachdidaktik &amp; Allgemeine&nbsp;Didaktik</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on">am <a href="https://praktikumsjahr.wordpress.com/2015/09/06/begleitseminar-tag-2-3-fachdidaktik-allgemeine-didaktik/" rel="bookmark"><time class="entry-date published" datetime="2015-09-06T17:30:00+00:00">6. September 2015</time><time class="updated" datetime="2015-09-06T13:07:44+00:00">6. September 2015</time></a></span><span class="byline"> von <span class="author vcard"><a class="url fn n" href="https://praktikumsjahr.wordpress.com/author/clausceleda/">Claus</a></span></span><span class="comments-link"><a href="https://praktikumsjahr.wordpress.com/2015/09/06/begleitseminar-tag-2-3-fachdidaktik-allgemeine-didaktik/#respond">Hinterlasse einen Kommentar</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>Aus inhaltlichen Gründen erfolgt der Rückblick auf diese beiden Tage in einem Post. Sonderlich viel Unterschied gab es nämlich nicht.</p>
+<p>Der größte Unterschied war der Ort und die Personenanzahl. In unserem Fachdidaktik Seminar saßen etwa 15 Menschen, wohingegen in den anderen Seminaren jeweils 55 Personen sind. Und wer denkt dass sei wenig: Das sind nur die UnterrichtspraktikantInnen die ihr Praktikum an einer BMHS absolvieren. Die, die das an einer AHS tun, sind knapp fünf Mal so viele: Etwa 250 Personen.</p>
+<p>Aber zum Inhalt der Seminare: Erneut entgegen meiner Erwartungen beide sehr angenehm. Die Vortragenden bestanden jeweils sofort darauf uns alle zu duzen, immerhin sind wir jetzt alle Kollegen. Allein das lockert die Atmosphäre unheimlich auf. Außerdem wurden, neben organisatorischen Dingen für den Lehrgang, eine Vielzahl anderer Themen besprochen.</p>
+<p>In beiden Seminaren großes Thema war die erste Unterrichtsstunde. Viele von uns hatten schon durchaus konkrete Vorstellungen (so wie ich auch) und haben sich sehr rege darüber ausgetauscht, was sie in der ersten Stunde machen werden. Das ging über sehr persönliches und individuelles Kennenlernen über das Vorstellen der Beurteilungskriterien bis hin zu direktem Einsteigen mit Lernstoff. Bei mir wird es wohl eine Mischung aus all dem sein.</p>
+<p>An der ersten Unterrichtsstunde hing ein nahe verwandtes Thema: Der erste Schultag. Da gab es hauptsächlich Tipps von der Lehrgangsleitung nach was wir alles fragen und um was wir uns alles kümmern sollen. Einen Platz im Lehrerzimmer, Schlüssel, Kopierkarten, Gebäudeplan etc&#8230;</p>
+<p>Und, erneut ein wenig verwandt: Was zieht man denn da eigentlich an? Nicht nur zum ersten Schultag (an dem ohnehin noch kein Unterricht stattfindet, sondern meist nur Konferenzen) sondern überhaupt. Die fast einheitliche Meinung war, man müsse sich wohl fühlen und dürfe sich nicht verstellen. Auch nicht durch Kleidung. Dass das an manchen Schulen durch einen sehr rigiden Dresscode (Auch für LehrerInnen) ein wenig erschwert ist, ist eine andere Sache. Es folgte die kurze Frage einer Kollegin wann ein Rock als zu kurz zu betrachten sein. Die einfache Antwort darauf war: Wenn du nachdenken musst ob er zu kurz ist, ist er zu kurz. Aber das ist ein Problem dass mich glücklicherweise nicht betrifft. Röcke stehen mir nämlich nicht sonderlich.</p>
+<p>Der letzte große Punkt waren Beurteilungskriterien. Auch hier hatten die meisten schon durchaus konkrete Vorstellungen wie ihre SchülerInnen schlussendlich zu einer positiven Note kommen sollten. Trotzdem gab es viel Unterschiedliches zu hören: Unterschiedliche Aufzeichnungssysteme, unterschiedliche Gewichtungen der Einzelleistungen&#8230; Viele interessante Ideen &amp; Anregungen.</p>
+<p>Im Großen &amp; Ganzen war es das dann aber auch. ein halber und ein ganzer Tag Seminar. Die nächsten Seminare finden erst übernächste Woche statt; und bis dahin: Schule.</p>
+
+			
+					</div><!-- .entry-content -->
+	</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-22" class="post-22 post type-post status-publish format-standard hentry category-allgemein">
+			<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="https://praktikumsjahr.wordpress.com/2015/09/02/begleitseminar-tag-1-schulrecht/" rel="bookmark">Begleitseminar Tag 1:&nbsp;Schulrecht</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on">am <a href="https://praktikumsjahr.wordpress.com/2015/09/02/begleitseminar-tag-1-schulrecht/" rel="bookmark"><time class="entry-date published" datetime="2015-09-02T18:30:00+00:00">2. September 2015</time><time class="updated" datetime="2015-09-02T16:17:07+00:00">2. September 2015</time></a></span><span class="byline"> von <span class="author vcard"><a class="url fn n" href="https://praktikumsjahr.wordpress.com/author/clausceleda/">Claus</a></span></span><span class="comments-link"><a href="https://praktikumsjahr.wordpress.com/2015/09/02/begleitseminar-tag-1-schulrecht/#respond">Hinterlasse einen Kommentar</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>Zuallererst muss ich sagen: Ich war positiv überrascht. Wirklich. Ich hatte mit einer dieser Veranstaltungen gerechnet, wie man sie aus dem pädagogischen Teil des Studiums zur Genüge kennt. Furztrocken, langweilig und absolut ohne Realitätsbezug. Das war Alles nicht der Fall. Und das fand ich sehr, sehr schön.</p>
+<p>Aber fangen wir am Anfang an. Begleitend zum Unterrichtspraktikum gibt es einen Einführungslehrgang, der sich über das gesamte Jahr erstreckt. Mit dem ersten Tag dieses Lehrgang (Also heute) beginnt rechtlich das Praktikumsjahr. Ein Teil dieses Begleitlehrgangs ist der Themenblock &#8220;Schulrecht&#8221;. Und ja, das klingt ziemlich öde, langweilig und anstrengend. Trotzdem war es das nicht. Das ist sicher in hohem Maße dem Vortragenden zu verdanken, der zu sehr vielen Dingen praktische Beispiele zu erzählen hatte und generell einen (für mich) sehr angenehmen, entspannten Vortragsstil hat. Eigentlich freue ich mich auf das restliche Jahr in diesem Bereich, nicht nur aufgrund der angenehmen Vortragsweise, sondern auch weil ich das Thema an sich spannend finde.</p>
+<p>Außerdem habe ich einige Leute getroffen die ich bereits aus dem Studium kannte und mit denen ich mich gut verstehe. Noch ein Punkt der so ein halbtägiges Seminar wesentlich entspannter macht.</p>
+<p>Mein negativstes Erlebnis des heutigen Tages war tatsächlich, dass ich nicht auf der Anwesenheitsliste stand. Na gut, dann trägt man sich eben dazu und die zukünftigen Listen werden geändert. So etwas passiert, ist allenfalls nervig aber nicht wirklich &#8220;schlimm&#8221;. Vor allem nicht für mich, da es ja im Endeffekt die Verantwortung der Lehrgangsleitung ist, diese Listen richtig zu führen. Ich muss nur da sein. Und das war ich nunmal.</p>
+<p>Inhaltlich war das Thema hauptsächlich das Unterrichtspraktikumsgesetz. Das ist grundsätzlich nicht sonderlich aufregend und regelt eigentlich nur wie das Praktikum auszusehen hat, wieviel man bezahlt bekommt und so weiter und so fort. Spannender waren Themen wie Aufsichtspflicht oder Amtshaftung. Für einige der anwesenden KollegInnen war es außerdem interessant wie das funktioniert, wenn man neben seinem Praktikum zusätzlich Stunden unterrichtet. Das geht, ist oft auch der Fall&#8230; aber Fragen und Antworten die in diese Richtungen gingen habe ich zugegebenermaßen meistens irgendwie überhört, da es mich nicht betrifft und auch in Zukunft nie wird betreffen können. Alles in Allem aber trotzdem eine sehr angenehme Veranstaltung mit dem größten Bonuspunkt am Ende: Angesetzt war das Seminar von 8:30 bis 15:30. Um 14:00 waren wir fertig.</p>
+<p>Wenn alle anderen Seminare die ich noch werde besuchen müssen auch nur halb so entspannt und angenehm (und dabei auch noch informativ) sind wie das heutige, dann werde ich da sicherlich nicht ungerne hingehen. Bleibt zu hoffen dass es so wird.</p>
+
+			
+					</div><!-- .entry-content -->
+	</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-20" class="post-20 post type-post status-publish format-standard hentry category-allgemein tag-benotung tag-beurteiolung tag-bewertung tag-hausuebung tag-lehramt tag-lehrer tag-praktikum tag-referat tag-referate tag-schularbeit tag-schule tag-test tag-unterricht tag-unterrichtspraktikum tag-wien">
+			<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="https://praktikumsjahr.wordpress.com/2015/08/31/vorbereitungen-rudimentaere-unterrichtsplanung-bewertungsgrundlage/" rel="bookmark">Vorbereitungen (Rudimentäre Unterrichtsplanung &amp; Bewertungsgrundlage)</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on">am <a href="https://praktikumsjahr.wordpress.com/2015/08/31/vorbereitungen-rudimentaere-unterrichtsplanung-bewertungsgrundlage/" rel="bookmark"><time class="entry-date published" datetime="2015-08-31T17:00:00+00:00">31. August 2015</time><time class="updated" datetime="2015-08-31T16:13:03+00:00">31. August 2015</time></a></span><span class="byline"> von <span class="author vcard"><a class="url fn n" href="https://praktikumsjahr.wordpress.com/author/clausceleda/">Claus</a></span></span><span class="comments-link"><a href="https://praktikumsjahr.wordpress.com/2015/08/31/vorbereitungen-rudimentaere-unterrichtsplanung-bewertungsgrundlage/#comments">2 Kommentare</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>Bis zum Schulbeginn ist es ab heute noch genau eine Woche. Höchste Zeit also, sich intensiver damit auseinanderzusetzen, was man eigentlich wie unterrichten soll und will. Und, mindestens ebenso wichtig, wie dann am Schluss die Note zustande kommt.</p>
+<p>Das was ist leicht gelöst: Basierend auf meinem Wissen welche Klassen ich unterrichten werde (Es sind zwei dritte Klassen BHS; also 11. Schulstufe) lässt sich das mit den entsprechenden Lehrplänen leicht zusammenstellen. Wer allerdings schon einmal einen Blick in österreichische Lehrpläne geworfen hat, weiß dass diese alles andere als konkret sind und eigentlich eher grobe Anhaltspunkte darstellen. Dennoch, vollkommen unabhängig davon dass ich in beiden Klassen meine &#8220;Lieblingsthemen&#8221; erwischt habe (Ich bin nämlich unheimlich begeistert vom 30-Jährigen Krieg und von Barockliteratur. Nicht.) werde ich mich gut und gerne das gesamte erste Monat mit der, im Oktober anstehenden, Wahl in Wien beschäftigen. &#8220;Meine&#8221; SchülerInnen dürfen dann zu einem großen vermutlich das erste Mal überhaupt wählen gehen.</p>
+<p>Sobald die Wahl und die dazugehörige Nachbetrachtung dann abgeschlossen ist, werde ich mich anderen Themen widmen. Welchen ganz genau und auf welche Art werde ich mir erst dann überlegen wenn ich beide Klassen kenne; das ist vor allem für das WIE wichtig, aber auch für das WAS nicht unwesentlich.</p>
+<p>In der Regel für SchülerInnen und Eltern (leider) oft wesentlich spannender als das was da in der Klasse unterrichtet wird, ist es, wie am Schluss die Note zustande kommt. Auch bei mir werden sich in der Benotung die Klassiker finden: Mitarbeit, Stundenwiderholungen und Tests/Schularbeiten.</p>
+<p>Ich habe lange überlegt, ob ich in Geschichte Tests machen möchte. Auf der einen Seite weiß ich natürlich, dass Tests und Schularbeiten (Die sind aber vorgeschrieben), so wie alle anderen punktuellen Leistungsfestellungen auch, auf &#8220;Bulimie-Lernen&#8221; hinauslaufen. Ich glaube aber auch dass sie gute Möglichkeiten sind für SchülerInnen die in der Mitarbeit während der Stunde weniger gute Leistungen erbringen, eine Möglichkeit darstellen trotzdem ihr Wissen und Können an den Tag zu legen. Daher schlussendlich die Entscheidung auch in Geschichte Tests schreiben zu lassen.</p>
+<p>In Deutsch werden außerdem wohl etwaige Hausübungen eine Rolle spielen, wobei mir weniger wichtig ist wie &#8220;gut&#8221; gearbeitet wurde, als dass überhaupt gearbeitet wurde. Und ich werde wohl auch nicht jede Woche auf Teufel komm raus Hausübungen schreiben lassen; sondern dann, wenn es passt.</p>
+<p>Und zu guter Letzt noch ein Punkt der SchülerInnen in der Regel mit unheimlich großer Freude erfüllt (/Sarkasmus): Referate. Hier geht es mir hauptsächlich um zwei Punkte: Zum einen das Sprechen vor einer Gruppe. Ich habe zu oft Referaten an der Uni oder Vorträge von berufstätigen Menschen gehört, gegen die Referate von 14-Jährigen schon oft freier und inhaltlich kompetenter vorgetragen wurden. Vor und mit Gruppen und anderen Menschen zu sprechen halte ich für eine wesentlich Fähigkeit, die sich wohl am besten in einem relativ geschützten Umfeld wie der Schule trainieren lässt. Außerdem &#8211; Einfach nur Referate wären schließlich langweilig &#8211; werde ich die Referate wohl ausarbeiten lassen. Sie bestehen also nicht nur aus dem Vortrag, sondern auch aus einer abzugebenden Ausarbeitung. Inklusive Literaturverzeichnis und Zitaten. Und nein, ich verlange keine 15 oder auch nur 10 Seiten. Ich werde mich mit 3 bis 5 Seiten vollkommen zufrieden geben. Das ist für SchülerInnen zwar auch nicht unbedingt wenig, vermutlich aber trotzdem machbar.</p>
+<p>Und aus all diesen Leistungen gieße ich am Schluss eine Note, die hoffentlich zumindest annähernd widerspiegelt, was der/die SchülerIn geleistet hat.</p>
+
+			
+					</div><!-- .entry-content -->
+	</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-48" class="post-48 post type-post status-publish format-standard hentry category-allgemein">
+			<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="https://praktikumsjahr.wordpress.com/2015/08/20/wer-braucht-schon-einheitliche-informationen/" rel="bookmark">Wer braucht schon einheitliche&nbsp;Informationen?</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on">am <a href="https://praktikumsjahr.wordpress.com/2015/08/20/wer-braucht-schon-einheitliche-informationen/" rel="bookmark"><time class="entry-date published" datetime="2015-08-20T17:00:00+00:00">20. August 2015</time><time class="updated" datetime="2015-08-20T10:19:39+00:00">20. August 2015</time></a></span><span class="byline"> von <span class="author vcard"><a class="url fn n" href="https://praktikumsjahr.wordpress.com/author/clausceleda/">Claus</a></span></span><span class="comments-link"><a href="https://praktikumsjahr.wordpress.com/2015/08/20/wer-braucht-schon-einheitliche-informationen/#comments">2 Kommentare</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>In militärischen Strukturen gibt es ein Prinzip, dass sich &#8220;Einheit der Führung&#8221; nennt. Das besagt, dass alle gegebenen Befehle auf ein Ziel ausgerichtet sein und sich nicht widersprechen sollen. Blöderweise haben offenbar weder der Stadtschulrat Wien noch die Pädagogische Hochschule Wien jemals von diesem Prinzip gehört.</p>
+<p>Es ist nämlich wunderschön von zwei unterschiedlichen Instanzen zwei widersprüchliche Informationen zu bekommen. Und anders als in militärischen Strukturen kann man hier leider nicht davon ausgehen, dass der später gegebene Befehl den früheren ungültig macht. Wie dem auch sei; was ist eigentlich passiert?</p>
+<p>Ursprünglich erhielt ich, gemeinsam mit meinem Zuteilungsbescheid, Informationen über den bereits angesprochenen Einführungslehrgang, welcher begleitend zum Unterrichtspraktikum stattfindet. Laut den ersten erhaltenen Angaben, findet der an drei Tagen in der letzten Ferienwoche statt, an drei unterschiedlichen Standorten quer durch Wien verteilt. Inhalt wären da zum Beispiel &#8220;Schulrecht&#8221; oder &#8220;Allgemeine Didaktik&#8221;. Wieso man dafür noch einen extra Lehrgang braucht, wenn man &#8211; vor allem &#8220;Allgemeine Didaktik&#8221; &#8211; bereits im Studium hätte sich aneignen sollen, ist mir schleierhaft. Genauso schleierhaft, wieso &#8220;Schulrecht&#8221; immer noch nicht Teil der universitären Curricula ist. Immerhin wäre es doch gut zu wissen wie Schulen rechtlich funktionieren und was rechtlich zu beachten ist BEVOR man dorthin geschickt wird.</p>
+<p>Jedenfalls hatte ich diese Lehrgangseinheiten bereits fest eingeplant, bis ich vor ein paar Tagen eine Mail von der Pädagogischen Hochschule Wien erhielt. Deren Inhalt: Ort, Datum und Uhrzeit des Einführungslehrgangs. Blöderweise komplett andere Angaben, als mir ursprünglich mitgeteilt worden waren. Auf eine Nachfrage erhielt ich zunächst nur die (hier etwas paraphrasierte) Antwort &#8220;Wieso? Stimmt doch alles. Die Daten stimmen mit denen die Sie erhalten haben überein!&#8221;. Als ich dem zuständigen Herren dann ein Foto der ursprünglich erhaltenen Informationen zuschickte, war das Problem schnell geklärt: Aufgrund meiner Zuteilung an zwei BHS (Berufsbildende höhere Schulen) würden für mich die mit dem Bescheid erhaltenen Informationen gelten. Denn aus irgendeinem Grund stand ich auch auf der ihm übermittelten Liste für UnterrichtspraktikantInnen an AHS (Allgemeinbildende höhere Schulen) und habe daher die entsprechenden Informationen erhalten.</p>
+<p>Immerhin konnte ich mir, aufgrund des mitgeschickten Skriptums, einen Einblick verschaffen, was im AHS-Einführungslehrgang denn so gelehrt würde. Nicht uninteressante Themen wie Aufsichtspflicht,  Leistungsfeststellung, Dienstrechtliche Bestimmungen (Fun Fact am Rande: UnterrichtspraktikantInnen unterliegen ebenso wie alle anderen LehrerInnen der Amtsverschwiegenheit) und andere Themen. Die vielleicht schon im Studium interessant gewesen wären. aber da werden sie ja nicht unterrichtet.</p>
+<p>Der langen Rede kurzer Sinn: Die Verwirrung hat sich in Luft aufgelöst und offenbar haben Stadtschulrat und Pädagogische Hochschule leichte Informationsweitergabeprobleme und generell scheint in dem gesamten Schul- und Lehrerinnen-Bildungssystem oft die linke Hand nicht zu wissen was die rechte tut.</p>
+
+			
+					</div><!-- .entry-content -->
+	</div>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-44" class="post-44 post type-post status-publish format-standard hentry category-allgemein tag-amt tag-antrag tag-buerokratie tag-beamte tag-dokumente tag-einreichen tag-lehramt tag-lehrer tag-praktikum tag-schule tag-ssr tag-stadtschulrat tag-studium tag-unterlagen tag-unterricht tag-unterrichtspraktikum tag-wien">
+			<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="https://praktikumsjahr.wordpress.com/2015/08/11/der-lange-weg-zum-praktikumsplatz-teil-2/" rel="bookmark">Der lange Weg zum Praktikumsplatz &#8211; Teil&nbsp;2</a></h1>
+						<div class="entry-meta">
+				<span class="posted-on">am <a href="https://praktikumsjahr.wordpress.com/2015/08/11/der-lange-weg-zum-praktikumsplatz-teil-2/" rel="bookmark"><time class="entry-date published" datetime="2015-08-11T17:00:00+00:00">11. August 2015</time><time class="updated" datetime="2015-08-11T14:56:16+00:00">11. August 2015</time></a></span><span class="byline"> von <span class="author vcard"><a class="url fn n" href="https://praktikumsjahr.wordpress.com/author/clausceleda/">Claus</a></span></span><span class="comments-link"><a href="https://praktikumsjahr.wordpress.com/2015/08/11/der-lange-weg-zum-praktikumsplatz-teil-2/#comments">3 Kommentare</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>Nach dem <a href="https://praktikumsjahr.wordpress.com/2015/08/07/der-lange-weg-zum-praktikumsplatz-teil-1/" target="_blank">eher ernüchternden Erlebnis in Teil 1</a>, kommen wir nun zu Teil 2. Nicht weniger anstrengend, dafür aber mit ums erfreulicherem Ausgang.</p>
+<p>Kaum zu Hause angekommen, mit dem fast sicheren Gefühl einer Absage und mit ebenso wenig Hoffnung, klagte ich der versammelten Gemeinschaft des Internets (Also Twitter &amp; Facebook) mein Leid und meine Verzweiflung. Die Antwort ließ nicht lange auf sich warten. Das sei schwer zu glauben, so die einhellige Aussage diverser Leute. Sie seien am vergangenen Freitag beim Stadtschulrat gewesen und sie hätten sich sogar aus einer Liste Schulen aussuchen können. Und man wisse sogar von Schulen dass diese noch Praktikumsplätze zu vergeben hätten.</p>
+<p>Die spannende Frage: Warum sagt man mir dann im Stadtschulrat dass es keine Plätze mehr geben würde? Tja, weil der Sachbearbeiter bei dem ich war nur für den Bereich AHS (Allgemeinbildende höhere Schulen = Gymnasien) zuständig ist. Nicht für die BHS (Berufsbildende höhere Schulen) und offenbar auch nicht mit den dafür zuständigen KollegInnen spricht. Sonst hätte er ja wissen müssen, dass es dort noch Plätze gäbe.</p>
+<p>Einer davon wurde mir explizit von meiner Bekannten empfohlen. Sie kenne den Betreuungslehrer und wisse dort gäbe es sicher noch einen Platz für Geschichte. Diese Schule also als Erstes. Fast schon ein suizidales Unterfangen, solche Mails in der letzten, nicht gerade stressfreien, Schulwoche zu schreiben. Trotzdem erhielt ich innerhalb der nächsten Stunde eine Antwort. Ich möge doch zu einem Vorstellungsgespräch vorbeikommen, man habe den Platz noch zu vergeben.</p>
+<p>Ein paar Tage später stand ich also vor dem dortigen Direktor bei einem Vorstellungsgespräch. Tatsächlich eine sehr nette Unterhaltung die mit der Zusicherung des Praktikumsplatzes endete, die auch sofort an die, für BHS zuständige, Person im Stadtschulrat weitergeleitet wurde.</p>
+<p>Blieb nach wie vor die Frage nach einem Platz für Deutsch. Also gingen Mails an die Direktionen und Sekretariate beinahe aller BHS in Wien, in etwa mit dem Wortlaut &#8220;Bitte, bitte gebt mir einen Platz für Deutsch, Geschichte hab ich schon&#8221;. Wie kaum anders zu erwarten hagelte es zunächst Absagen. Es war interessant zu beobachten wie diese formuliert waren. Von sehr freundlichen Mails (&#8220;Es tut uns wirklich sehr Leid, leider haben wir keinen Platz, viel Erfolg&#8221;) bis hin zu merklich desinteressiert (&#8220;Wir sind nicht zuständig, wenden Sie sich an den Stadtschulrat&#8221;)war wirklich alles dabei. Zwei Schulen haben mich sogar angerufen und mir abgesagt. Trotz der Absage eine wirklich freundliche Geste.</p>
+<p>Die erste positive Zusage erhielt ich von jener Schule an der ich nun auch Deutsch unterrichten werde. Man hätte den Platz, könnte den aber von sich aus nicht vergeben, das müsse der Stadtschulrat tun. Also eine Mail an eben jenen. Keine 5 Minuten später, ein Anruf. &#8220;Ich habe so eben mit den Direktionen der beiden Schulen gesprochen, wir können Sie so zuteilen.&#8221; Ja bitte. Sofort.</p>
+<p>Interessanterweise erhielt ich am Morgen des folgenden Tages erneut eine Mail aus dem Stadtschulrat, in der man mich fragte ob ich bei dieser Zuteilung an den beiden Schulen bleiben möchte. Es gäbe Schulen an denen für beides ein Platz frei wäre. Ich hielt es aber für hochgradig unhöflich den beiden Schulen die sich für und vielleicht sogar um mich bemüht hatten noch abzusagen. Also blieb ich bei der Einteilung.</p>
+<p>Was dann folgte, war Warten. Langes, nervenaufreibendes, zermürbendes Warten auf den behördlichen Brief des Stadtschulrats. Der dann endlich irgendwann kam. Nach einem Tag Verzweiflung und etwa einer Woche Bemühungen um einen Platz und mehreren Wochen Wartezeit. Wirklich keine schöne Zeit. Aber schlussendlich, mit positivem Ausgang.</p>
+<p>Und jetzt? Vorbereitungen für das kommende Jahr treffen. Jahresplanung, Beurteilungskriterien,&#8230; aber dazu beim nächsten Mal mehr.</p>
+		<div id="geo-post-44" class="geo geo-post" style="display: none">
+			<span class="latitude">48.208174</span>
+			<span class="longitude">16.373819</span>
+		</div>
+			
+					</div><!-- .entry-content -->
+	</div>
+</article><!-- #post-## -->
+
+			
+			
+	<nav class="navigation posts-navigation" role="navigation">
+		<h2 class="screen-reader-text">Beiträge-Navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://praktikumsjahr.wordpress.com/page/2/" >Ältere Beiträge</a></div></div>
+	</nav>
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://praktikumsjahr.wordpress.com/">
+	<label>
+		<span class="screen-reader-text">Suche nach:</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Suche nach:" />
+	</label>
+	<button type="submit" class="search-submit">
+		<span class="genericon genericon-search">
+			<span class="screen-reader-text">Suche</span>
+		</span>
+	</button>
+</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h1 class="widget-title">Aktuelle Beiträge</h1>		<ul>
+					<li>
+				<a href="https://praktikumsjahr.wordpress.com/2016/01/17/offtopic-kann-man-als-milizsoldat-links-sein/">[Offtopic] Kann man als Milizsoldat &#8220;links&#8221; sein?</a>
+						</li>
+					<li>
+				<a href="https://praktikumsjahr.wordpress.com/2015/12/19/off-topic-the-force-awakens-no-spoiler/">[Off Topic] The Force Awakens [No&nbsp;Spoiler]</a>
+						</li>
+					<li>
+				<a href="https://praktikumsjahr.wordpress.com/2015/12/09/mein-arbeitsplatz/">Mein Arbeitsplatz</a>
+						</li>
+					<li>
+				<a href="https://praktikumsjahr.wordpress.com/2015/09/23/die-erste-woche/">Die erste Woche</a>
+						</li>
+					<li>
+				<a href="https://praktikumsjahr.wordpress.com/2015/09/10/erster-schultag/">Erster Schultag</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Letzte Kommentare</h1>				<table class="recentcommentsavatar" cellspacing="0" cellpadding="0" border="0">
+					<tr><td title="Die erste Woche | Mein Unterrichtspraktikum" class="recentcommentsavatartop" style="height:48px; width:48px;"><a href="https://praktikumsjahr.wordpress.com/2015/09/23/die-erste-woche/" rel="nofollow"></a></td><td class="recentcommentstexttop" style=""><a href="https://praktikumsjahr.wordpress.com/2015/09/23/die-erste-woche/" rel="nofollow">Die erste Woche | Me&hellip;</a> zu <a href="https://praktikumsjahr.wordpress.com/2015/09/10/erster-schultag/comment-page-1/#comment-13">Erster Schultag</a></td></tr><tr><td title="tafeltanten" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://tafeltanten.wordpress.com" rel="nofollow"><img alt='' src='https://1.gravatar.com/avatar/49fd3a765ee2e995beecd56ea838ab4c?s=48&#038;d=identicon&#038;r=G' class='avatar avatar-48' height='48' width='48' /></a></td><td class="recentcommentstextend" style=""><a href="http://tafeltanten.wordpress.com" rel="nofollow">tafeltanten</a> zu <a href="https://praktikumsjahr.wordpress.com/2015/09/10/erster-schultag/comment-page-1/#comment-12">Erster Schultag</a></td></tr><tr><td title="Claus" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://praktikumsjahr.wordpress.com" rel="nofollow"><img alt='' src='https://0.gravatar.com/avatar/cfbf88e45899192eda7c59c54150c59e?s=48&#038;d=identicon&#038;r=G' class='avatar avatar-48' height='48' width='48' /></a></td><td class="recentcommentstextend" style=""><a href="https://praktikumsjahr.wordpress.com" rel="nofollow">Claus</a> zu <a href="https://praktikumsjahr.wordpress.com/2015/08/31/vorbereitungen-rudimentaere-unterrichtsplanung-bewertungsgrundlage/comment-page-1/#comment-11">Vorbereitungen (Rudimentäre Un&hellip;</a></td></tr><tr><td title="tafeltanten" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://tafeltanten.wordpress.com" rel="nofollow"><img alt='' src='https://1.gravatar.com/avatar/49fd3a765ee2e995beecd56ea838ab4c?s=48&#038;d=identicon&#038;r=G' class='avatar avatar-48' height='48' width='48' /></a></td><td class="recentcommentstextend" style=""><a href="http://tafeltanten.wordpress.com" rel="nofollow">tafeltanten</a> zu <a href="https://praktikumsjahr.wordpress.com/2015/08/31/vorbereitungen-rudimentaere-unterrichtsplanung-bewertungsgrundlage/comment-page-1/#comment-10">Vorbereitungen (Rudimentäre Un&hellip;</a></td></tr><tr><td title="Claus" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://praktikumsjahr.wordpress.com" rel="nofollow"><img alt='' src='https://0.gravatar.com/avatar/cfbf88e45899192eda7c59c54150c59e?s=48&#038;d=identicon&#038;r=G' class='avatar avatar-48' height='48' width='48' /></a></td><td class="recentcommentstextend" style=""><a href="https://praktikumsjahr.wordpress.com" rel="nofollow">Claus</a> zu <a href="https://praktikumsjahr.wordpress.com/2015/08/20/wer-braucht-schon-einheitliche-informationen/comment-page-1/#comment-9">Wer braucht schon einheitliche&hellip;</a></td></tr>				</table>
+				</aside><aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archive</h1>		<ul>
+			<li><a href='https://praktikumsjahr.wordpress.com/2016/01/'>Januar 2016</a></li>
+	<li><a href='https://praktikumsjahr.wordpress.com/2015/12/'>Dezember 2015</a></li>
+	<li><a href='https://praktikumsjahr.wordpress.com/2015/09/'>September 2015</a></li>
+	<li><a href='https://praktikumsjahr.wordpress.com/2015/08/'>August 2015</a></li>
+	<li><a href='https://praktikumsjahr.wordpress.com/2015/07/'>Juli 2015</a></li>
+		</ul>
+		</aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Kategorien</h1>		<ul>
+	<li class="cat-item cat-item-2710"><a href="https://praktikumsjahr.wordpress.com/category/allgemein/" >Allgemein</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h1 class="widget-title">Meta</h1>			<ul>
+			<li><a href="https://wordpress.com/start/de?ref=wplogin">Registrieren</a></li>			<li><a href="https://praktikumsjahr.wordpress.com/wp-login.php">Anmelden</a></li>
+			<li><a href="https://praktikumsjahr.wordpress.com/feed/">Beitragsfeed (<abbr title="Really Simple Syndication">RSS</abbr>)</a></li>
+			<li><a href="https://praktikumsjahr.wordpress.com/comments/feed/">Kommentare als <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/" title="Powered by WordPress - die zeitgemäße Plattform zum Veröffentlichen persönlicher Beiträge.">WordPress.com</a></li>			</ul>
+			</aside></div><!-- #secondary -->
+
+	</div><!-- #content -->
+			<div class="footer-widgets clear">
+			<div class="widget-areas">
+									<div class="widget-area">
+						<aside id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://praktikumsjahr.wordpress.com/">
+	<label>
+		<span class="screen-reader-text">Suche nach:</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Suche nach:" />
+	</label>
+	<button type="submit" class="search-submit">
+		<span class="genericon genericon-search">
+			<span class="screen-reader-text">Suche</span>
+		</span>
+	</button>
+</form></aside>		<aside id="recent-posts-3" class="widget widget_recent_entries">		<h1 class="widget-title">Aktuelle Beiträge</h1>		<ul>
+					<li>
+				<a href="https://praktikumsjahr.wordpress.com/2016/01/17/offtopic-kann-man-als-milizsoldat-links-sein/">[Offtopic] Kann man als Milizsoldat &#8220;links&#8221; sein?</a>
+						</li>
+					<li>
+				<a href="https://praktikumsjahr.wordpress.com/2015/12/19/off-topic-the-force-awakens-no-spoiler/">[Off Topic] The Force Awakens [No&nbsp;Spoiler]</a>
+						</li>
+					<li>
+				<a href="https://praktikumsjahr.wordpress.com/2015/12/09/mein-arbeitsplatz/">Mein Arbeitsplatz</a>
+						</li>
+					<li>
+				<a href="https://praktikumsjahr.wordpress.com/2015/09/23/die-erste-woche/">Die erste Woche</a>
+						</li>
+					<li>
+				<a href="https://praktikumsjahr.wordpress.com/2015/09/10/erster-schultag/">Erster Schultag</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-3" class="widget widget_recent_comments"><h1 class="widget-title">Letzte Kommentare</h1>				<table class="recentcommentsavatar" cellspacing="0" cellpadding="0" border="0">
+					<tr><td title="Die erste Woche | Mein Unterrichtspraktikum" class="recentcommentsavatartop" style="height:48px; width:48px;"><a href="https://praktikumsjahr.wordpress.com/2015/09/23/die-erste-woche/" rel="nofollow"></a></td><td class="recentcommentstexttop" style=""><a href="https://praktikumsjahr.wordpress.com/2015/09/23/die-erste-woche/" rel="nofollow">Die erste Woche | Me&hellip;</a> zu <a href="https://praktikumsjahr.wordpress.com/2015/09/10/erster-schultag/comment-page-1/#comment-13">Erster Schultag</a></td></tr><tr><td title="tafeltanten" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://tafeltanten.wordpress.com" rel="nofollow"><img alt='' src='https://1.gravatar.com/avatar/49fd3a765ee2e995beecd56ea838ab4c?s=48&#038;d=identicon&#038;r=G' class='avatar avatar-48' height='48' width='48' /></a></td><td class="recentcommentstextend" style=""><a href="http://tafeltanten.wordpress.com" rel="nofollow">tafeltanten</a> zu <a href="https://praktikumsjahr.wordpress.com/2015/09/10/erster-schultag/comment-page-1/#comment-12">Erster Schultag</a></td></tr><tr><td title="Claus" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://praktikumsjahr.wordpress.com" rel="nofollow"><img alt='' src='https://0.gravatar.com/avatar/cfbf88e45899192eda7c59c54150c59e?s=48&#038;d=identicon&#038;r=G' class='avatar avatar-48' height='48' width='48' /></a></td><td class="recentcommentstextend" style=""><a href="https://praktikumsjahr.wordpress.com" rel="nofollow">Claus</a> zu <a href="https://praktikumsjahr.wordpress.com/2015/08/31/vorbereitungen-rudimentaere-unterrichtsplanung-bewertungsgrundlage/comment-page-1/#comment-11">Vorbereitungen (Rudimentäre Un&hellip;</a></td></tr><tr><td title="tafeltanten" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://tafeltanten.wordpress.com" rel="nofollow"><img alt='' src='https://1.gravatar.com/avatar/49fd3a765ee2e995beecd56ea838ab4c?s=48&#038;d=identicon&#038;r=G' class='avatar avatar-48' height='48' width='48' /></a></td><td class="recentcommentstextend" style=""><a href="http://tafeltanten.wordpress.com" rel="nofollow">tafeltanten</a> zu <a href="https://praktikumsjahr.wordpress.com/2015/08/31/vorbereitungen-rudimentaere-unterrichtsplanung-bewertungsgrundlage/comment-page-1/#comment-10">Vorbereitungen (Rudimentäre Un&hellip;</a></td></tr><tr><td title="Claus" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://praktikumsjahr.wordpress.com" rel="nofollow"><img alt='' src='https://0.gravatar.com/avatar/cfbf88e45899192eda7c59c54150c59e?s=48&#038;d=identicon&#038;r=G' class='avatar avatar-48' height='48' width='48' /></a></td><td class="recentcommentstextend" style=""><a href="https://praktikumsjahr.wordpress.com" rel="nofollow">Claus</a> zu <a href="https://praktikumsjahr.wordpress.com/2015/08/20/wer-braucht-schon-einheitliche-informationen/comment-page-1/#comment-9">Wer braucht schon einheitliche&hellip;</a></td></tr>				</table>
+				</aside><aside id="archives-3" class="widget widget_archive"><h1 class="widget-title">Archive</h1>		<ul>
+			<li><a href='https://praktikumsjahr.wordpress.com/2016/01/'>Januar 2016</a></li>
+	<li><a href='https://praktikumsjahr.wordpress.com/2015/12/'>Dezember 2015</a></li>
+	<li><a href='https://praktikumsjahr.wordpress.com/2015/09/'>September 2015</a></li>
+	<li><a href='https://praktikumsjahr.wordpress.com/2015/08/'>August 2015</a></li>
+	<li><a href='https://praktikumsjahr.wordpress.com/2015/07/'>Juli 2015</a></li>
+		</ul>
+		</aside><aside id="categories-3" class="widget widget_categories"><h1 class="widget-title">Kategorien</h1>		<ul>
+	<li class="cat-item cat-item-2710"><a href="https://praktikumsjahr.wordpress.com/category/allgemein/" >Allgemein</a>
+</li>
+		</ul>
+</aside><aside id="meta-3" class="widget widget_meta"><h1 class="widget-title">Meta</h1>			<ul>
+			<li><a href="https://wordpress.com/start/de?ref=wplogin">Registrieren</a></li>			<li><a href="https://praktikumsjahr.wordpress.com/wp-login.php">Anmelden</a></li>
+			<li><a href="https://praktikumsjahr.wordpress.com/feed/">Beitragsfeed (<abbr title="Really Simple Syndication">RSS</abbr>)</a></li>
+			<li><a href="https://praktikumsjahr.wordpress.com/comments/feed/">Kommentare als <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://de.wordpress.com/?ref=footer_website">Erstelle eine kostenlose Website oder Blog – auf WordPress.com.</a></li>			</ul>
+			</aside>					</div><!-- .widget-area -->
+				
+				
+							</div><!-- .widget-areas -->
+		</div><!-- .footer-widgets -->
+		<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<a href="https://de.wordpress.com/?ref=footer_website">Erstelle eine kostenlose Website oder Blog – auf WordPress.com.</a>
+			<span class="sep"> & </span>
+			<a href="https://wordpress.com/themes/lovecraft/" title="Lerne mehr über dieses Theme.">Das lovecraft-Theme</a>.		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+		<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"main","ajaxurl":"https:\/\/praktikumsjahr.wordpress.com\/?infinity=scrolling","type":"click","wrapper":true,"wrapper_class":"infinite-wrap","footer":"page","click_handle":"1","text":"\u00c4ltere Beitr\u00e4ge","totop":"An den Anfang zur\u00fcckscrollen","currentday":"17.01.16","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"praktikumsjahr.wordpress.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"comments_popup":"","meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":10,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2015-08-11 17:00:00","stats":"blog=96522681&v=wpcom&tz=2&user_id=0&subd=praktikumsjahr&x_pagetype=infinite-click"}};
+		//]]>
+		</script>
+		<!-- wpcom_wp_footer -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201607y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-49fd3a765ee2e995beecd56ea838ab4c">
+	</div>
+	<div class="grofile-hash-map-cfbf88e45899192eda7c59c54150c59e">
+	</div>
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Anmelden \u2026","submittingText":"Sende Kommentar \u2026","postCommentText":"Kommentar absenden","connectingToText":"Verbinde mit %s","commentingAsText":"%1$s: Du kommentierst mit Deinem %2$s-Konto. ","logoutText":"Abmelden","loginText":"Anmelden","connectURL":"https:\/\/praktikumsjahr.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/praktikumsjahr.wordpress.com\/wp-login.php?action=logout&_wpnonce=624185b3cf","homeURL":"https:\/\/praktikumsjahr.wordpress.com\/","postID":"82","gravDefault":"identicon","enterACommentError":"Bitte gib einen Kommentar ein","enterEmailError":"Bitte hier deine E-Mail-Adresse eingeben","invalidEmailError":"Ung\u00fcltige E-Mail-Adresse","enterAuthorError":"Bitte hier deinen Namen eingeben","gravatarFromEmail":"Dieses Bild wird angezeigt, wenn Du einen Kommentar hinterl\u00e4sst. Klicken, um es anzupassen.","logInToExternalAccount":"Melde dich an, um Details von einem dieser Konten zu verwenden.","change":"\u00c4ndern","changeAccount":"Konto \u00e4ndern","comment_registration":"0","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1424115551j'></script>
+
+	<div id="bit" class="loggedout-follow-normal">
+		<a class="bsub" href="javascript:void(0)"><span id='bsub-text'>Folgen</span></a>
+		<div id="bitsubscribe">
+
+					<h3><label for="loggedout-follow-field">Folge &ldquo;Mein Unterrichtspraktikum&rdquo;</label></h3>
+
+			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="loggedout-follow">
+			<p>Erhalte jeden neuen Beitrag in deinen Posteingang.</p>
+
+			<p id="loggedout-follow-error" style="display: none;"></p>
+
+						<p class="bit-follow-count">Schließe dich 754 Followern an</p>
+			<p><input type="email" name="email" placeholder="E-Mail-Adresse eingeben" id="loggedout-follow-field"/></p>
+
+			<input type="hidden" name="action" value="subscribe"/>
+			<input type="hidden" name="blog_id" value="96522681"/>
+			<input type="hidden" name="source" value="https://praktikumsjahr.wordpress.com/"/>
+			<input type="hidden" name="sub-type" value="loggedout-follow"/>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="b31b8a0a34" /><input type="hidden" name="_wp_http_referer" value="/" />
+			<p id='bsub-subscribe-button'><input type="submit" value="Anmelden" /></p>
+			</form>
+					<div id='bsub-credit'><a href="https://de.wordpress.com/?ref=lof">Erstelle eine Website mit WordPress.com</a></div>
+		</div><!-- #bitsubscribe -->
+	</div><!-- #bit -->
+
+	<div id="carousel-reblog-box">
+		<form action="" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Füge hier deine Gedanken hinzu... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Veröffentlichen auf</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="" class="cancel">Abbrechen</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Beitrag rebloggen" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="96522681" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://praktikumsjahr.wordpress.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="Mein Unterrichtspraktikum" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="9636b4620f" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1438295886g' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825g&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-2' href='https://s0.wp.com/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css?m=1443731146g' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"https:\/\/s1.wp.com\/wp-content\/mu-plugins\/shortcodes\/img\/slideshow-loader.gif","blog_id":"96522681","blog_subdomain":"praktikumsjahr","user_id":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JetpackEmojiSettings = {"base_url":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/emoji\/twemoji\/"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"de","ajaxurl":"https:\/\/praktikumsjahr.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"19e3491899","display_exif":"1","display_geo":"1","background_color":"black","comment":"Kommentar","post_comment":"Kommentar absenden","write_comment":"Verfasse einen Kommentar...","loading_comments":"Lade Kommentare ...","download_original":"Bild in Originalgr\u00f6\u00dfe anschauen <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Stelle bitte sicher, das du mit deinem Kommentar ein bisschen Text \u00fcbermittelst.","no_comment_email":"Bitte eine E-Mail-Adresse angeben, um zu kommentieren.","no_comment_author":"Bitte deinen Namen angeben, um zu kommentieren.","comment_post_error":"Dein Kommentar konnte leider nicht abgeschickt werden. Bitte versuche es sp\u00e4ter erneut.","comment_approved":"Dein Kommentar wurde genehmigt.","comment_unapproved":"Dein Kommentar wartet auf Moderation.","camera":"Kamera","aperture":"Blende","shutter_speed":"Verschlusszeit","focal_length":"Brennweite","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/praktikumsjahr.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fpraktikumsjahr.wordpress.com%2F2016%2F01%2F17%2Fofftopic-kann-man-als-milizsoldat-links-sein%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">E-Mail  (Erforderlich)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Erforderlich)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Webseite<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Rebloggen","reblogged":"rebloggt","reblog_add_thoughts":"F\u00fcge hier deine Gedanken hinzu... (optional)","reblogging":"Wird rebloggt...","post_reblog":"Beitrag rebloggen","stats_query_args":"blog=96522681&v=wpcom&tz=2&user_id=0&subd=praktikumsjahr","is_public":"1","reblog_enabled":""};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"de","ajaxurl":"https:\/\/praktikumsjahr.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"19e3491899","display_exif":"1","display_geo":"1","background_color":"black","comment":"Kommentar","post_comment":"Kommentar absenden","write_comment":"Verfasse einen Kommentar...","loading_comments":"Lade Kommentare ...","download_original":"Bild in Originalgr\u00f6\u00dfe anschauen <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Stelle bitte sicher, das du mit deinem Kommentar ein bisschen Text \u00fcbermittelst.","no_comment_email":"Bitte eine E-Mail-Adresse angeben, um zu kommentieren.","no_comment_author":"Bitte deinen Namen angeben, um zu kommentieren.","comment_post_error":"Dein Kommentar konnte leider nicht abgeschickt werden. Bitte versuche es sp\u00e4ter erneut.","comment_approved":"Dein Kommentar wurde genehmigt.","comment_unapproved":"Dein Kommentar wartet auf Moderation.","camera":"Kamera","aperture":"Blende","shutter_speed":"Verschlusszeit","focal_length":"Brennweite","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/praktikumsjahr.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fpraktikumsjahr.wordpress.com%2F2016%2F01%2F17%2Fofftopic-kann-man-als-milizsoldat-links-sein%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">E-Mail  (Erforderlich)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Erforderlich)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Webseite<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Rebloggen","reblogged":"rebloggt","reblog_add_thoughts":"F\u00fcge hier deine Gedanken hinzu... (optional)","reblogging":"Wird rebloggt...","post_reblog":"Beitrag rebloggen","stats_query_args":"blog=96522681&v=wpcom&tz=2&user_id=0&subd=praktikumsjahr","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyNkNFyhCAMRX+oLNN2nWkfOv0WzAYNIqEmaP37Wmd0uvtgfSKEcwJcO2UDnBST2iD2hiMB5u9LkCf756gvJsfSUBJLyVMinffigJWWBwW+ofwOD18Fh/kCM0Q8LUmkpWp5Mnv/0dUW+wXOpbaRR4TB+fUzyY3UOCVOZ40mcu3iWVo6yiZS6oxnKGI8HeWGPQeyOt2t//IBNTvozDn6jqIEsWwpTp7rgKCPIzZ/XFJm60RQV2Hd5wFFDi4FN3ARjPsrt8bifPYfz9fq9eVavVXv4QcTzOei'></script>
+<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVy7EOQEAMANAfUnViYBDfgmsupepyivh7VpMY3/DwjDCuaqSGyw5R9sC6oZ1sRgkG6cd54OQhMqHSQYnUs4Z82jL8c+P3YyEPoRehdL31rG5pXVXUTVO70k03DU5D1g=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "praktikumsjahr.wordpress.com";
+	</script>
+	<script type="text/javascript" src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","jquery-core","jquery-migrate","mobile-useragent-info","postmessage","jquery_inview","jetpack_resize","loggedout-subscribe","spin","jquery.spin","grofiles-cards","wpgroho","jquery.autoresize","highlander-comments","devicepx","the-neverending-homepage","jquery-cycle","jetpack-slideshow","lovecraft-navigation","lovecraft-global","lovecraft-skip-link-focus-fix","twemoji","jetpack-emoji","jetpack-emoji-init","swfobject","videopress","jetpack-carousel","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["smileyproject","jetpack_likes","loggedout-subscribe","the-neverending-homepage","jetpack-slideshow","wpcom-core-compat-playlist-styles","mp6hacks","wpcom-bbpress2-staff-css","lovecraft-style","genericons","lovecraft-wpcom","jetpack-emoji-css","noticons","geo-location-flair","reblogging","a8c-global-print","h4-global","lovecraft-fonts","highlander-comments","highlander-comments-ie7","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script><script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'96522681','blog_tz':'2','user_lang':'de','blog_lang':'de','user_id':'0'}]);
+_stq.push(['view', {'blog':'96522681','v':'wpcom','tz':'2','user_id':'0','subd':'praktikumsjahr'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzR6MmRCYnxkNmdIZFpZYWxSQk13cVNSfnJIX3xFOGZ8SVs0OD1pajFGeEYlU3ZnTU5+aVZ+Vkl5bzFbbC00VENvK1ZUMUYwSWZ4azg1Lk9sLW9vMWRMSTF+NER6c1RZUXw5cVpEN0ExLTdtdGg0WGxnd05mb3k/MV9qUE0ldHklSHpzcXwzJkpsaXlBZnVxayY4TWEvTmNYfnAzW2pqN0YmYi96LC5LV3RFdkxIdkM1ZVk4MU5UckdddDFLRVBLJS9FPT9dZms2fDdaOH5UeGRfQzVqdGc1M2NXYy9veg=='}]);
+_stq.push([ 'clickTrackerInit', '96522681', '0' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

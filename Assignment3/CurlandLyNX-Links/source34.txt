@@ -1,0 +1,2286 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=4407ac63b04a974114891da19b333539"></script>
+<!DOCTYPE html>
+
+<!--                                                                                                 
+
+Observer Theme
+By Zack Sultan
+Released January 2013
+Revised April 16, 2014
+                
+-->
+
+<html>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        <title>Studio Interrobang</title>
+        <style>figure{margin:0}</style>
+<link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_0395db5e3f01_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://studiointerrobang.tumblr.com/rss">
+        
+            <meta name="description" content="Art, influences, recommendations, and arguments from Studio Interrobang" />
+        
+        <link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_0395db5e3f01_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://studiointerrobang.tumblr.com/rss">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+
+
+
+<!-- Options -->
+
+
+        <meta name="if:Show Navigation" content="1"/>
+        <meta name="if:Alternate Header Layout" content="0"/>
+        <meta name="if:Show Description" content="0"/>
+        <meta name="if:Show Archive Navigation Link" content="1"/>
+        <meta name="if:Wide Images" content="1"/>
+        <meta name="if:Photoset Layout" content="0"/>
+        <meta name="if:Show Post Tags" content="1"/>
+        <meta name="if:Show Post Notes" content="1"/>
+        <meta name="if:Show Copyright" content="0"/>
+        <meta name="if:Infinite Scroll" content="1"/>
+        
+        <meta name="Title font" content="Gibson">
+        <meta name="Title font weight" content="bold" title="Bold">
+        <meta name="Title font weight" content="normal" title="Normal">
+        <meta name="font:Body font" content="Calluna"/>
+        
+        <meta name="Background color" content="#fff">
+        <meta name="Title color" content="#444444">
+        <meta name="Link color" content="#5f79a4">
+        
+        <meta name="color:Body text" content="#333333"/>
+		<meta name="color:Secondary text" content="#888888"/>    
+        <meta name="image:Logo" content=""/>
+        <meta name="text:TypeKit ID" content=""/>
+        <meta name="text:Title Font" content=""/>
+        <meta name="text:Body Font" content=""/>
+        <meta name="text:Post Headline Font" content=""/>
+        <!--<meta name="text:Secondary Font" content=""/>-->
+        
+        <meta name='text:Disqus Shortname' content='' />
+        <meta name='text:Google Analytics' content='' />
+        
+<!-- Scripts -->
+
+    <script src="http://static.tumblr.com/4kpnlef/Pttmhz2ap/jquery-1.9.1.min.js"></script>
+    
+    
+    <!-- Infinite Scroll -->
+    <script type="text/javascript" src="http://static.tumblr.com/rsdylxf/v40mu99v6/infinitescrolling.js" ></script>
+    
+    
+    
+    
+    <!-- Media resizing -->    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Make desktop tumblr video stretch to 100%
+            $('.tumblr_video_container').css({ 'width' : '100%', 'height' : '100%' });
+            // Resize tumblr video on mobile
+            $('.iphone-video a').css({ 'width' : '100%', 'height' : '200px' });
+		});        
+        
+        //Make Spotify the right size and responsive
+	    $(document).ready(function(){
+	        $('.mobile-spotify iframe').css('height', '80px');
+            $('.mobile-spotify iframe').css('width', '290px'); 
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+        $(window).resize(function() {
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+        
+        //disable safari active states
+        document.addEventListener("touchstart", function() {},false);
+        
+	</script>
+
+
+    
+
+<!-- Style Sheet -->
+        
+<style type="text/css">
+
+.regular p {
+	font-weight: bold;
+	color:aqua;
+}
+
+.regular .bottom-nav {
+	display: none;
+}
+
+::selection {
+    background: #529ECC; /* Safari */
+	color: #333333;
+	}
+	
+::-moz-selection {
+	background: #529ECC; /* Firefox */
+	color: #333333;
+}
+
+body {
+	margin: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+    font-size:18px;
+	-webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+	
+p, li, blockquote {
+	line-height: 28px;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.ir {
+	text-indent: -99999em;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Global colors 
+********************************/
+
+body {
+	color: #333333;
+	background-color: #FAFAFA;
+}
+
+.blog-description {
+	color: #888888;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+#header h1 a {
+	color: #444444;
+	border-bottom: none;
+}
+
+a:hover {
+}
+
+a:active {
+	position: relative;
+	outline: none;
+	top: 1px;
+}
+
+
+.metadata a, #footer-links a, #footer p.promo a, .links a {
+	color: #888888;
+	border-bottom: none;
+}
+
+.metadata a:hover, #footer-links a:hover, #footer p.promo a:hover, .links a:hover, .more a:hover, a.mobile-player:hover {
+
+}
+
+.post {
+	border-bottom: 1px solid rgba(136, 136, 136, 0.2);
+}
+
+.colophon p {
+	color: #888888;
+}
+
+
+/* Global fonts 
+********************************/
+
+body {
+	font-family:  'Calluna', serif, georgia, serif;
+	font-weight: normal;
+}
+
+.title h1, .link-title h1, .chat-title h1, .q h1, .a h1, .album-info h2, #footer h2 {
+	font-family:  'Typewriter FS', serif, georgia, serif;
+	font-weight: bold;
+}
+
+.blog-title h1 {
+	font-family:  'Typewriter FS', serif, futura, helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 1em;
+}
+
+.metadata a {
+	font-family:  , helvetica, arial, sans-serif;
+	font-weight: normal;
+}
+
+
+/* Page 
+********************************/
+
+
+#page {
+	border: 0px solid;
+	max-width: 900px;
+	padding-left:  50px;
+	padding-right: 50px;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+/* Header Centered
+********************************/
+
+#header {
+	margin-top: 20px;
+	margin-bottom: 80px;
+	display: block;
+	overflow: visible;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+.blog-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.blog-title a {
+	border-bottom: none;
+}
+
+.blog-title img {
+	max-width: 100%;
+}
+
+.blog-description { 
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+.links {
+	margin-top: 0px;
+	text-align: center;
+	float: none;
+	border-bottom: 1px solid rgba(136, 136, 136, 0.2);
+}
+
+.links ul {
+	margin-top: 10px;
+	padding: 0;
+	display: block;	
+	text-align: center;
+	float: none;
+}
+
+.links li {
+	display: inline;
+	margin-left: 10px;
+	text-transform: none;	
+}
+
+.links li:first-child {
+	margin-left: 0px;	
+}
+
+
+
+/* Post wrappers
+********************************/
+
+#content {
+	width: 100%;
+	overflow-x: hidden;
+	clear: both;
+}
+
+.post {
+	margin-bottom: 45px;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+.narrow {
+	max-width: 640px;
+	margin: auto;
+}
+
+
+/* Headings
+********************************/
+
+.title h1, .link-title h1, .chat-title h1 {
+	text-align: center;
+	margin: auto;
+	margin-bottom: 25px;
+	font-size: 42px;
+	line-height: 50px;
+}
+
+.link-title a {
+	text-decoration: none;
+	position: relative;
+	border: none;
+	color: #529ECC;
+}
+
+span.link-arrow {
+	position: relative;
+	font-size: 20px;
+	bottom: 3px;
+}
+
+.quote-short {
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 25px;
+}
+
+.photo img, .album-art img, .videoWrapper {
+    max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	border-radius: 2px;
+}
+
+.photo img, .album-art img {
+	min-width: 640px;
+}
+
+.photoset-layout {
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.tumblr_audio_player {
+	height: 250px;
+}
+
+.audio iframe {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;	
+}
+
+.videoWrapper iframe, .videoWrapper object {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* Post body styles
+********************************/
+
+.caption p {
+	margin-bottom: 15px;
+}
+
+.caption h1 {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.caption h2 {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+
+.caption blockquote {
+	margin-bottom: 10px;
+	border-left: 3px solid rgba(136, 136, 136, 0.2);
+	margin-left: 5px;
+	padding-left: 15px;
+	line-height: 26px;
+}
+
+.caption pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	background-color: rgba(136, 136, 136, 0.2);
+	border-radius: 2px;
+	padding: 10px 15px 10px 15px;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 15px 0 25px 0;
+}
+
+.caption ul, ol {
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding-left: 40px;
+}
+
+.caption img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto 30px auto;
+    border-radius: 2px;
+}    
+
+.quote-short {
+	line-height: 40px;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.quote-medium, .quote-long {
+	line-height: 32px;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+ul.chat {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.chat li {
+	border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.chat li:last-child {
+	border: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+span.odd, span.even  {
+	font-weight: bold;
+}
+
+.more a {
+	display: block;
+	width: 99%;
+	height: 30px;
+	border: 1px solid rgba(136, 136, 136, 0.3);
+	text-align: center;
+	text-decoration: none;
+	border-radius: 2px;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+
+
+.more a:active {
+    background: rgba(136, 136, 136, 0.08);
+    box-shadow: inset 0px 1px 4px rgba(136, 136, 136, 0.2);
+    top: 0px;
+} 
+
+.audio-module {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+a.mobile-player {
+	border: 1px solid rgba(136, 136, 136, 0.2);
+	background: rgba(136, 136, 136, 0.1);
+	width: 99%;
+	padding: 30px 0 30px 0;
+	margin-bottom: 25px;
+	border-radius: 2px;
+	display: none;
+}
+
+a.mobile-player:active {
+    top: 0px;
+    box-shadow: inset 0px 1px 4px rgba(136, 136, 136, 0.2);
+    background: rgba(136, 136, 136, 0.18);
+    border: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+.play-triangle {
+	margin-left: 20px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 6.5px 0 6.5px 10px;
+	border-color: transparent transparent transparent rgba(136, 136, 136, 0.8);
+}
+
+.album-info {
+	display: block;
+	float: left;
+	width: 63%;
+}
+
+.player {
+	display: block;
+	background-color: #ffffff;
+	float: right;
+	padding-top: 5px;
+	padding-right: 2px;
+	border: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+.desktop-spotify {
+	display: block;
+	
+}
+
+.mobile-spotify {
+	display: none;
+	width: 290px;
+	margin: auto;
+}
+
+.iphone-video object {
+    display: block;
+    margin: 0px auto 20px; 
+}
+
+.asker-block, .answer-text {
+	display: block;
+	overflow: auto;
+}
+
+p.question {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+p.album, p.question {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+h1.qa-letter {
+	display: block;
+	float: left;
+	width: 45px;
+	position: relative;
+	bottom: 3px;
+	font-size: 30px;
+}
+
+.q {
+	margin-bottom: 20px; 
+}
+
+img.asker {
+	float:left;
+	margin-right: 8px;
+	border-radius: 2px; 
+	position: relative;
+	top: 2px;
+}
+
+p.asker {
+	font-style: italic;
+}
+
+p.question {
+	clear: both;
+}
+
+
+/* Metadata
+********************************/
+
+.metadata {
+	border: 0px solid gray;
+	overflow: auto;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.metadata a {
+	text-decoration: none;
+}
+
+.date, .tags, .notes-count {
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+
+.tags a, .notes-count a, .date a {
+	margin-right: 5px;
+}
+
+
+/* Footer
+********************************/
+
+#footer {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#footer a {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+a.back-next {
+    margin: 0px 10px 0px 10px;    
+}
+
+#footer h2 {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+#footer-links ul {
+	margin-bottom: 0px;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+
+#footer-links li {
+	display: inline;
+	margin-left: 5px;
+	font-size: 14px;
+}
+
+#footer-links li:first-child {
+	margin-left: 0px;
+}
+
+#footer .colophon p {
+	font-size: 14px;
+	font-style: italic;
+}
+
+#footer p.promo {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+
+/* Notes and comments
+********************************/
+
+#permalink-content {
+	margin-top: 40px;
+}
+
+.avatar_frame {
+	position: relative;
+	top: 4px;
+	margin-right: 10px;
+}
+
+.comments {
+	margin-bottom: 35px;
+}
+
+.comments h3, .permalink-notes h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.permalink-notes ol {
+	padding-left: 0;
+}
+
+.permalink-notes li {
+	list-style: none;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	border-top: 1px solid rgba(136, 136, 136, 0.3);
+	font-size: 13px; 
+}
+
+.permalink-notes blockquote {
+	margin: 5px 0px 5px 0px;
+	border-left: 3px solid rgba(136, 136, 136, 0.2);
+	margin-left: 20px;
+	padding-left: 15px;
+    line-height: 24px;
+}
+
+.notes a {
+	border-bottom: none;
+	text-decoration: underline;
+}
+
+
+.post iframe, .post object {
+max-width: 100%;
+}
+
+
+/* Browser size break-points
+********************************/
+
+
+@media screen and (max-width: 800px) {
+
+#header {
+	margin-top: 20px;
+	display: block;
+	overflow: visible;
+	padding-bottom: 0px;
+}
+
+.blog-title {
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	float: none;
+	width: 100%;
+    margin-bottom: 50px;
+}
+
+.blog-title h1 {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.blog-description {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.links {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	float: none;
+	border-bottom: 1px solid rgba(136, 136, 136, 0.4);
+}
+
+.links ul {
+	margin-top: 10px;
+	padding: 0;
+	display: block;	
+	text-align: center;
+	float: none;
+}
+
+.links li {
+	display: inline;
+	margin-left: 16px;
+	font-size: 17px;
+	text-transform: none;	
+}
+
+
+.metadata {
+	font-size: 16px;
+	}
+
+.player {
+	display: none;
+}
+
+a.mobile-player {
+	display: block;
+}
+
+.album-info {
+	width: 100%
+}
+
+.title h1, .link-title h1, .chat-title h1 {
+text-align: center;
+font-size: 36px;
+line-height: 42px;
+}
+
+}
+
+@media screen and (max-width: 740px) {
+
+#page {
+	padding-left:  1em;
+	padding-right: 1em;	
+}
+
+#header {
+	margin-bottom: 50px;
+}
+
+/* WRANGLE TUMBLR VIDEO PLAYER */
+
+
+.iphone-video img {
+	width: 90%;
+}
+
+.iphone-video a {
+	margin-bottom: 20px;
+}
+
+/* IMAGES */
+
+.photo img, .album-art img {
+	min-width: 100%;
+}
+
+.link-title a {
+	line-height: 50px;
+}
+
+.desktop-spotify {
+	display: none;
+}
+
+.mobile-spotify {
+	display: block;
+}
+
+}
+
+
+    
+</style>
+
+<!-- End header -->
+    
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=studiointerrobang" />
+<link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=studiointerrobang" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=8b0553f75283ecbeb78be24f096f4c2c"></script>
+
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/calluna/stylesheet.css?v=3"><link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/typewriterfs/stylesheet.css?v=1">
+<meta name="keywords" content="digital painting,Lee&#039;s art,lee&#039;s art,stone,style" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Studio Interrobang" /><meta property="og:url" content="http://studiointerrobang.tumblr.com/?og=1" /><meta property="og:description" content="Art, influences, recommendations, and arguments from Studio Interrobang" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://31.media.tumblr.com/avatar_0395db5e3f01_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=studiointerrobang" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=studiointerrobang" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="app" /><meta name="twitter:description" content="studiointerrobang" /><meta name="twitter:title" content="studiointerrobang" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=studiointerrobang&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=studiointerrobang&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=studiointerrobang&amp;referrer=twitter-cards" />
+
+<!-- GOOGLE CAROUSEL --><script type="application/ld+json">{"@type":"ItemList","url":"http:\/\/studiointerrobang.tumblr.com","itemListElement":[{"@type":"ListItem","position":1,"url":"http:\/\/studiointerrobang.tumblr.com\/post\/139050288045\/what-are-some-flaws-you-see-in-comics-characters"},{"@type":"ListItem","position":2,"url":"http:\/\/studiointerrobang.tumblr.com\/post\/139024386840\/kimtextileart-realindevelopment-returns"},{"@type":"ListItem","position":3,"url":"http:\/\/studiointerrobang.tumblr.com\/post\/138353747525\/and-now-for-my-favorite-annual-art-meme-witchsona"},{"@type":"ListItem","position":4,"url":"http:\/\/studiointerrobang.tumblr.com\/post\/137836223306\/its-that-time-again-the-monthly-gps-figure"},{"@type":"ListItem","position":5,"url":"http:\/\/studiointerrobang.tumblr.com\/post\/137662883555\/hi-all-i-lee-have-been-writing-and-finishing-a"},{"@type":"ListItem","position":6,"url":"http:\/\/studiointerrobang.tumblr.com\/post\/137226402015\/queer-press-grant-prism-comics"},{"@type":"ListItem","position":7,"url":"http:\/\/studiointerrobang.tumblr.com\/post\/136916094600\/and-tys-also-been-busy-launching-archetype"},{"@type":"ListItem","position":8,"url":"http:\/\/studiointerrobang.tumblr.com\/post\/136915255595\/i-needed-a-break-from-the-big-comic-pitch-to-do-a"},{"@type":"ListItem","position":9,"url":"http:\/\/studiointerrobang.tumblr.com\/post\/136086948740\/steeldragongamer-m-arci-a-daily-life-of-a"},{"@type":"ListItem","position":10,"url":"http:\/\/studiointerrobang.tumblr.com\/post\/134501581025\/still-working-on-concept-art-for-the-pitch-were"}],"@context":"http:\/\/schema.org"}</script>
+<link rel="canonical" href="http://studiointerrobang.tumblr.com" />
+
+</head>
+       
+	<body>
+		
+		<div id="page">
+		
+			<div id="header">
+                
+                
+				<div class="links">
+					<ul>
+						<li><a href="/">Home</a></li>
+                        
+                         
+						<li><a href="/Archive">Our Archive</a></li>
+                         
+						<li><a href="/OurComics">Our Comics</a></li>
+                         
+                        
+                         
+    					<li><a href="/ask">Ask me anything</a></li>
+						
+                        
+                        
+                        <li><a href="/archive">Archive</a></li>
+                        
+					</ul>
+				</div>
+				
+                
+                
+                
+				<div class="blog-title">
+                
+                    
+                    
+                    
+                    <h1><a href="/">Studio Interrobang</a></h1>
+                    
+					
+                    
+				</div>
+				
+				
+			
+			</div> <!-- header end -->
+			
+			<div id="content">
+            
+			
+				
+                
+				
+				
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				 
+				<!-- ANSWER POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post answer">
+				
+					<div class="narrow">
+						
+						<div class="q">
+							
+							<h1 class="qa-letter">Q</h1>
+							
+							<div class="asker-block">
+								<img class="asker" src="http://assets.tumblr.com/images/default_avatar/cube_open_24.png">
+								<p><a href="http://concretin.tumblr.com/" class="asker">concretin</a> asked:</p>
+								<p class="question">What are some flaws you see in Comics characters wveryone loves?</p>
+							</div> 
+						
+						</div><!-- q end -->
+						
+						<div class="a">
+							
+							<h1 class="qa-letter">A</h1>
+							
+							<div class="caption" style="overflow:auto;">
+								<p><a class="tumblr_blog" href="http://t.umblr.com/redirect?z=http%3A%2F%2Fmattfraction.com%2Fpost%2F138939512509%2Fwhat-are-some-flaws-you-see-in-comics-characters&amp;t=MDI3YmM3MGQwZmEwZDY0ZWUxMTdmZGUwMDY1YmYwYmJlMjlhMjZjYixBclk5djJhaw%3D%3D">mattfractionblog</a>:</p>
+
+<blockquote><p>i don&rsquo;t think i do; it feels like finding a flaw in a hammer. there&rsquo;s nothing wrong with a hammer, inherently. unless you&rsquo;re trying to drive in screws &ndash; y&rsquo;know?</p></blockquote><p></p>
+							</div> 
+						
+						</div><!-- a end -->
+						
+						<div class="metadata">
+						
+							
+                            <div class="date">
+								<a href="http://studiointerrobang.tumblr.com/post/139050288045/what-are-some-flaws-you-see-in-comics-characters">Feb. 10 2016</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://mattfraction.com/post/138939512509/what-are-some-flaws-you-see-in-comics-characters">Via mattfractionblog</a>
+							</div>
+                            
+                            
+                             
+							 
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://studiointerrobang.tumblr.com/post/139050288045/what-are-some-flaws-you-see-in-comics-characters">60 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+                
+                
+            
+			
+				
+                
+				
+				
+                
+                
+                 
+    			<!-- PHOTOSET POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					
+					<div class="wide">  		
+                         
+                        
+						<img src="http://36.media.tumblr.com/5192eb46d91c44db09880a5083fa77ef/tumblr_nxuu3xhXQl1qlrxgfo1_500.png" alt="kimtextileart:
+
+realindevelopment-returns:
+
+staticdiplomat:
+
+fuckyeahcomicsbaby:
+
+
+Sometimes a Son&rsquo;s Greatest Fear is Becoming His Father
+
+That was bloody fantastic.
+
+Pat Grant
+
+Wow
+" />
+                        
+                         
+                        
+						<img src="http://40.media.tumblr.com/73ac0cbfb03e1059e29882795ae04d48/tumblr_nxuu3xhXQl1qlrxgfo2_500.png" alt="kimtextileart:
+
+realindevelopment-returns:
+
+staticdiplomat:
+
+fuckyeahcomicsbaby:
+
+
+Sometimes a Son&rsquo;s Greatest Fear is Becoming His Father
+
+That was bloody fantastic.
+
+Pat Grant
+
+Wow
+" />
+                        
+                         
+                        
+						<img src="http://41.media.tumblr.com/6842d90758e726a32b0535fa282aec1c/tumblr_nxuu3xhXQl1qlrxgfo3_500.png" alt="kimtextileart:
+
+realindevelopment-returns:
+
+staticdiplomat:
+
+fuckyeahcomicsbaby:
+
+
+Sometimes a Son&rsquo;s Greatest Fear is Becoming His Father
+
+That was bloody fantastic.
+
+Pat Grant
+
+Wow
+" />
+                        
+                         
+                        
+						<img src="http://40.media.tumblr.com/1c73e4e03bf2a182cceb44a075865cc1/tumblr_nxuu3xhXQl1qlrxgfo4_500.png" alt="kimtextileart:
+
+realindevelopment-returns:
+
+staticdiplomat:
+
+fuckyeahcomicsbaby:
+
+
+Sometimes a Son&rsquo;s Greatest Fear is Becoming His Father
+
+That was bloody fantastic.
+
+Pat Grant
+
+Wow
+" />
+                        
+                         
+                        
+						<img src="http://40.media.tumblr.com/500f7a4520640bb49df2db47c6d717e5/tumblr_nxuu3xhXQl1qlrxgfo5_500.png" alt="kimtextileart:
+
+realindevelopment-returns:
+
+staticdiplomat:
+
+fuckyeahcomicsbaby:
+
+
+Sometimes a Son&rsquo;s Greatest Fear is Becoming His Father
+
+That was bloody fantastic.
+
+Pat Grant
+
+Wow
+" />
+                        
+                         
+                        
+						<img src="http://36.media.tumblr.com/755b66763b4c9a906270b94a2474eda3/tumblr_nxuu3xhXQl1qlrxgfo6_500.png" alt="kimtextileart:
+
+realindevelopment-returns:
+
+staticdiplomat:
+
+fuckyeahcomicsbaby:
+
+
+Sometimes a Son&rsquo;s Greatest Fear is Becoming His Father
+
+That was bloody fantastic.
+
+Pat Grant
+
+Wow
+" />
+                        
+                         
+                        
+						<img src="http://41.media.tumblr.com/d20d76a76517fab86f49b1a9ef2212ba/tumblr_nxuu3xhXQl1qlrxgfo7_500.png" alt="kimtextileart:
+
+realindevelopment-returns:
+
+staticdiplomat:
+
+fuckyeahcomicsbaby:
+
+
+Sometimes a Son&rsquo;s Greatest Fear is Becoming His Father
+
+That was bloody fantastic.
+
+Pat Grant
+
+Wow
+" />
+                        
+                         
+                        
+						<img src="http://41.media.tumblr.com/92fdceba576b989b0240bd8646ee1d2f/tumblr_nxuu3xhXQl1qlrxgfo8_500.png" alt="kimtextileart:
+
+realindevelopment-returns:
+
+staticdiplomat:
+
+fuckyeahcomicsbaby:
+
+
+Sometimes a Son&rsquo;s Greatest Fear is Becoming His Father
+
+That was bloody fantastic.
+
+Pat Grant
+
+Wow
+" />
+                        
+                         
+                        
+						<img src="http://41.media.tumblr.com/58d6263baed6b8c0ea28841bdc4451fa/tumblr_nxuu3xhXQl1qlrxgfo9_500.png" alt="kimtextileart:
+
+realindevelopment-returns:
+
+staticdiplomat:
+
+fuckyeahcomicsbaby:
+
+
+Sometimes a Son&rsquo;s Greatest Fear is Becoming His Father
+
+That was bloody fantastic.
+
+Pat Grant
+
+Wow
+" />
+                        
+                         
+                        
+						<img src="http://40.media.tumblr.com/8c9661b06dee0d5220355289c19a45ee/tumblr_nxuu3xhXQl1qlrxgfo10_500.png" alt="kimtextileart:
+
+realindevelopment-returns:
+
+staticdiplomat:
+
+fuckyeahcomicsbaby:
+
+
+Sometimes a Son&rsquo;s Greatest Fear is Becoming His Father
+
+That was bloody fantastic.
+
+Pat Grant
+
+Wow
+" />
+                        
+                                 
+					</div>
+					
+					
+					
+					
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p><a class="tumblr_blog" href="http://kimtextileart.tumblr.com/post/133460492230">kimtextileart</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://realindevelopment-returns.tumblr.com/post/133456878935">realindevelopment-returns</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://staticdiplomat.tumblr.com/post/133456159559">staticdiplomat</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://fuckyeahcomicsbaby.tumblr.com/post/133436260154">fuckyeahcomicsbaby</a>:</p>
+<blockquote>
+<p><figure data-orig-width="500" data-orig-height="710" class="tmblr-full"><img src="http://40.media.tumblr.com/17406198da183f6bde28c695759df5ce/tumblr_inline_nxuu2kOiKi1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="710" width="500" height="710"></figure><figure data-orig-width="500" data-orig-height="707" class="tmblr-full"><img src="http://41.media.tumblr.com/7874ffa4898ca1a9fe5a50f172c37452/tumblr_inline_nxuu2bYQs61qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="707" width="500" height="707"></figure><figure data-orig-width="500" data-orig-height="705" class="tmblr-full"><img src="http://40.media.tumblr.com/71d83ba9fec124bfbcf2a1506cdeaf7c/tumblr_inline_nxuu1xhWaO1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="705" width="500" height="705"></figure><figure data-orig-width="500" data-orig-height="726" class="tmblr-full"><img src="http://40.media.tumblr.com/63410c07e052b532d56d99de65f3b66a/tumblr_inline_nxuu1l4stc1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="726" width="500" height="726"></figure><figure data-orig-width="500" data-orig-height="714" class="tmblr-full"><img src="http://41.media.tumblr.com/2f0b2477f57e622817420350f351d739/tumblr_inline_nxuu19Zk951qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="714" width="500" height="714"></figure><figure data-orig-width="500" data-orig-height="715" class="tmblr-full"><img src="http://41.media.tumblr.com/95ba60498d35e63a155448bf6d5208a1/tumblr_inline_nxuu0ycp5z1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="715" width="500" height="715"></figure><figure data-orig-width="500" data-orig-height="722" class="tmblr-full"><img src="http://41.media.tumblr.com/ae814859889d136a194c191eafac2f73/tumblr_inline_nxuu0pOSIU1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="722" width="500" height="722"></figure><figure data-orig-width="500" data-orig-height="709" class="tmblr-full"><img src="http://40.media.tumblr.com/19df08f781b5d7c16d03220e974d0532/tumblr_inline_nxuu07UvTU1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="709" width="500" height="709"></figure><figure data-orig-width="500" data-orig-height="709" class="tmblr-full"><img src="http://40.media.tumblr.com/bd9768ee426b2bfdf8a22b24bbdcae18/tumblr_inline_nxutzvWbX31qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="709" width="500" height="709"></figure><figure data-orig-width="500" data-orig-height="710" class="tmblr-full"><img src="http://40.media.tumblr.com/5e1740eaa714fa2732fc105155cd375e/tumblr_inline_nxutzl2EPf1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="710" width="500" height="710"></figure><figure data-orig-width="500" data-orig-height="1408" class="tmblr-full"><img src="http://36.media.tumblr.com/56a10f772ecc63df2705c469a58604a4/tumblr_inline_nxutz5arAM1qfxb0n_1280.png" alt="image" data-orig-width="500" data-orig-height="1408" width="500" height="1408"></figure><figure data-orig-width="500" data-orig-height="723" class="tmblr-full"><img src="http://40.media.tumblr.com/ba731b28bf344c35374ca20654104abd/tumblr_inline_nxutyv3RqG1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="723" width="500" height="723"></figure><figure data-orig-width="500" data-orig-height="720" class="tmblr-full"><img src="http://40.media.tumblr.com/0bee5682f90519c00b2adc923951b5a5/tumblr_inline_nxuty7YsVD1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="720" width="500" height="720"></figure><figure data-orig-width="500" data-orig-height="708" class="tmblr-full"><img src="http://41.media.tumblr.com/03e3440dd3a6ffbe45ceb9f0c198ae29/tumblr_inline_nxutvf3Swk1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="708" width="500" height="708"></figure><figure data-orig-width="500" data-orig-height="716" class="tmblr-full"><img src="http://41.media.tumblr.com/3cd79c9cc45ccaea820df731cd549ecb/tumblr_inline_nxutw6w5CX1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="716" width="500" height="716"></figure><figure data-orig-width="500" data-orig-height="703" class="tmblr-full"><img src="http://41.media.tumblr.com/3e2290f687f45f67d997ee33091a5435/tumblr_inline_nxutu8AwKQ1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="703" width="500" height="703"></figure><figure data-orig-width="500" data-orig-height="719" class="tmblr-full"><img src="http://40.media.tumblr.com/9152954efed77a4487c0fe7c4c62cbbf/tumblr_inline_nxuttpXoXt1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="719" width="500" height="719"></figure><figure data-orig-width="500" data-orig-height="720" class="tmblr-full"><img src="http://41.media.tumblr.com/694385da39e3ff1743f8ca3a50bd5b3c/tumblr_inline_nxuttcV4hn1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="720" width="500" height="720"></figure><figure data-orig-width="500" data-orig-height="719" class="tmblr-full"><img src="http://40.media.tumblr.com/5ccd7e76513986ceda2bb757afa34a24/tumblr_inline_nxutsdyDbq1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="719" width="500" height="719"></figure><figure data-orig-width="500" data-orig-height="709" class="tmblr-full"><img src="http://40.media.tumblr.com/fcefbd9e509d02e3f920fb67e9e7721d/tumblr_inline_nxutrydJay1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="709" width="500" height="709"></figure><figure data-orig-width="500" data-orig-height="711" class="tmblr-full"><img src="http://41.media.tumblr.com/317e8b8a97212f3c35270cc47a41f35d/tumblr_inline_nxutrjFc8B1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="711" width="500" height="711"></figure><figure data-orig-width="500" data-orig-height="717" class="tmblr-full"><img src="http://40.media.tumblr.com/c05e7659f16653c34cfbd77c358cef81/tumblr_inline_nxutqzi1SR1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="717" width="500" height="717"></figure><figure data-orig-width="500" data-orig-height="730" class="tmblr-full"><img src="http://41.media.tumblr.com/52839d59f9a794ee1bb3ef976aab6923/tumblr_inline_nxutqobHTp1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="730" width="500" height="730"></figure><figure data-orig-width="500" data-orig-height="366" class="tmblr-full"><img src="http://41.media.tumblr.com/e9a812ea8a9e5c46ffdedf465f5461fe/tumblr_inline_nxutqiA7ML1qfxb0n_500.png" alt="image" data-orig-width="500" data-orig-height="366" width="500" height="366"></figure></p>
+<p><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.patgrantart.com%2Ftoominavideo%2Ftoorminavideo.html&amp;t=ZjcyNGY3YzJkOWU4ZWFjM2I0YzNjNjk5MzQ0OWZkMGE3MmFhZWY5NSw0NG5aV1JsSQ%3D%3D">Sometimes a Son&rsquo;s Greatest Fear is Becoming His Father</a></p>
+</blockquote>
+<p>That was bloody fantastic.</p>
+</blockquote>
+<p>Pat Grant</p>
+</blockquote>
+<p>Wow<br></p>
+</blockquote><p>(via <a href='http://diananock.tumblr.com/post/138949579249/kimtextileart-realindevelopment-returns'>diananock</a>)</p>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://studiointerrobang.tumblr.com/post/139024386840/kimtextileart-realindevelopment-returns">Feb. 9 2016</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://fuckyeahcomicsbaby.tumblr.com/post/133436260154/sometimes-a-sons-greatest-fear-is-becoming-his">Via fuckyeahcomicsbaby</a>
+							</div>
+                            
+                            
+                             
+							 
+                            <div class="tags">
+                                
+								<a href="http://studiointerrobang.tumblr.com/tagged/other-peoples-amazing-comics">#other peoples amazing comics</a>
+							     
+							</div>
+                             
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://studiointerrobang.tumblr.com/post/139024386840/kimtextileart-realindevelopment-returns">56,164 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				
+                
+                
+                 
+    			<!-- PHOTOSET POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					
+					<div class="wide">  		
+                         
+                        
+						<img src="http://40.media.tumblr.com/ac219de253697f7c253d472bb84e06fc/tumblr_o1s2isSTaZ1skqg6yo1_500.png" alt="And now for my favorite annual art meme! Witchsona week! (Check out the tag for more) Here we have the Studio Interrobang team as witchsonas. I&rsquo;m (Lee) a goldfish witch, with my mossball familiar. The mystic master of the plastic castle. Then is Ty, the pocket witch, with her lintbunny familiar and an infinite supply of tiny shiny semi-useless pocket treasures.&nbsp;" />
+                        
+                         
+                        
+						<img src="http://40.media.tumblr.com/bbbd931d5c2af7cde0649bf5f4383195/tumblr_o1s2isSTaZ1skqg6yo2_500.png" alt="And now for my favorite annual art meme! Witchsona week! (Check out the tag for more) Here we have the Studio Interrobang team as witchsonas. I&rsquo;m (Lee) a goldfish witch, with my mossball familiar. The mystic master of the plastic castle. Then is Ty, the pocket witch, with her lintbunny familiar and an infinite supply of tiny shiny semi-useless pocket treasures.&nbsp;" />
+                        
+                                 
+					</div>
+					
+					
+					
+					
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p>And now for my favorite annual art meme! Witchsona week! (Check out the tag for more) Here we have the Studio Interrobang team as witchsonas. I&rsquo;m (Lee) a goldfish witch, with my mossball familiar. The mystic master of the plastic castle. Then is Ty, the pocket witch, with her lintbunny familiar and an infinite supply of tiny shiny semi-useless pocket treasures.&nbsp;</p>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://studiointerrobang.tumblr.com/post/138353747525/and-now-for-my-favorite-annual-art-meme-witchsona">Jan. 30 2016</a>
+							</div>
+                            
+							
+                            
+                            
+                             
+							 
+                            <div class="tags">
+                                
+								<a href="http://studiointerrobang.tumblr.com/tagged/witchsona">#witchsona</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/witchsona-week">#witchsona week</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/Lee%27s-art">#Lee&#039;s art</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/meme">#meme</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/art-meme">#art meme</a>
+							     
+							</div>
+                             
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://studiointerrobang.tumblr.com/post/138353747525/and-now-for-my-favorite-annual-art-meme-witchsona">5 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				
+                
+                
+                 
+    			<!-- PHOTOSET POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					
+					<div class="wide">  		
+                         
+                        
+						<img src="http://40.media.tumblr.com/cc7b07370f5887b39908988f9d4292f0/tumblr_o18g4qmusx1skqg6yo1_1280.png" alt="It&rsquo;s that time again! The monthly GPS figure drawing salon was this week. Here&rsquo;s the ones I liked the best. This model was so fun! Done in Manga Studio 5." />
+                        
+                         
+                        
+						<img src="http://41.media.tumblr.com/b157a0a3ad0f1f7b3751c4ef2a2dd037/tumblr_o18g4qmusx1skqg6yo2_1280.png" alt="It&rsquo;s that time again! The monthly GPS figure drawing salon was this week. Here&rsquo;s the ones I liked the best. This model was so fun! Done in Manga Studio 5." />
+                        
+                         
+                        
+						<img src="http://41.media.tumblr.com/8bd27051b50cf9e8e37ffdc3d6667f09/tumblr_o18g4qmusx1skqg6yo3_1280.png" alt="It&rsquo;s that time again! The monthly GPS figure drawing salon was this week. Here&rsquo;s the ones I liked the best. This model was so fun! Done in Manga Studio 5." />
+                        
+                         
+                        
+						<img src="http://40.media.tumblr.com/636d9e23a8f7a5a27c505472336dde39/tumblr_o18g4qmusx1skqg6yo4_1280.png" alt="It&rsquo;s that time again! The monthly GPS figure drawing salon was this week. Here&rsquo;s the ones I liked the best. This model was so fun! Done in Manga Studio 5." />
+                        
+                         
+                        
+						<img src="http://41.media.tumblr.com/09dee9d729642d72ae66fad67b5edd69/tumblr_o18g4qmusx1skqg6yo5_1280.png" alt="It&rsquo;s that time again! The monthly GPS figure drawing salon was this week. Here&rsquo;s the ones I liked the best. This model was so fun! Done in Manga Studio 5." />
+                        
+                         
+                        
+						<img src="http://41.media.tumblr.com/cdb3a72d0911eeef4d17b92b4962ba96/tumblr_o18g4qmusx1skqg6yo6_1280.png" alt="It&rsquo;s that time again! The monthly GPS figure drawing salon was this week. Here&rsquo;s the ones I liked the best. This model was so fun! Done in Manga Studio 5." />
+                        
+                                 
+					</div>
+					
+					
+					
+					
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p>It&rsquo;s that time again! The monthly GPS figure drawing salon was this week. Here&rsquo;s the ones I liked the best. This model was so fun! Done in Manga Studio 5.</p>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://studiointerrobang.tumblr.com/post/137836223306/its-that-time-again-the-monthly-gps-figure">Jan. 22 2016</a>
+							</div>
+                            
+							
+                            
+                            
+                             
+							 
+                            <div class="tags">
+                                
+								<a href="http://studiointerrobang.tumblr.com/tagged/life-drawing">#life drawing</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/figure-drawing">#figure drawing</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/digital-art">#digital art</a>
+							     
+							</div>
+                             
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://studiointerrobang.tumblr.com/post/137836223306/its-that-time-again-the-monthly-gps-figure">1 note</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				
+                
+                
+                 
+    			<!-- PHOTOSET POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					
+					<div class="wide">  		
+                         
+                        
+						<img src="http://40.media.tumblr.com/498b0b096aeff215fdbba81191f59fb9/tumblr_o18fur63F11skqg6yo1_1280.png" alt="Hi, all. I (Lee) have been writing and finishing a very exciting pitch that, sadly, we can&rsquo;t show you anything from because the pictures are super duper spoilery. SO I&rsquo;ve done up a few digital portraits of the characters from the book. The top one is Yael Meade and the lower is Issac Tillman-Voss. I&rsquo;ve a few more to go, so stay tuned in the next couple weeks. These are the same ones I did those style boards for, before.&nbsp;I&rsquo;m thinking of doing a very limited number of digital portrait commissions in the next couple months.&nbsp;" />
+                        
+                         
+                        
+						<img src="http://41.media.tumblr.com/d1960c046914bda10ae91d0ea5ed1da8/tumblr_o18fur63F11skqg6yo2_1280.png" alt="Hi, all. I (Lee) have been writing and finishing a very exciting pitch that, sadly, we can&rsquo;t show you anything from because the pictures are super duper spoilery. SO I&rsquo;ve done up a few digital portraits of the characters from the book. The top one is Yael Meade and the lower is Issac Tillman-Voss. I&rsquo;ve a few more to go, so stay tuned in the next couple weeks. These are the same ones I did those style boards for, before.&nbsp;I&rsquo;m thinking of doing a very limited number of digital portrait commissions in the next couple months.&nbsp;" />
+                        
+                                 
+					</div>
+					
+					
+					
+					
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p>Hi, all. I (Lee) have been writing and finishing a very exciting pitch that, sadly, we can&rsquo;t show you anything from because the pictures are super duper spoilery. SO I&rsquo;ve done up a few digital portraits of the characters from the book. The top one is Yael Meade and the lower is Issac Tillman-Voss. I&rsquo;ve a few more to go, so stay tuned in the next couple weeks. These are the same ones I did those style boards for, before.&nbsp;</p><p>I&rsquo;m thinking of doing a very limited number of digital portrait commissions in the next couple months.&nbsp;</p>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://studiointerrobang.tumblr.com/post/137662883555/hi-all-i-lee-have-been-writing-and-finishing-a">Jan. 19 2016</a>
+							</div>
+                            
+							
+                            
+                            
+                             
+							 
+                            <div class="tags">
+                                
+								<a href="http://studiointerrobang.tumblr.com/tagged/portratit">#portratit</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/Setbacks">#Setbacks</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/digital-portrait">#digital portrait</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/Lee%27s-art">#Lee&#039;s art</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/OC">#OC</a>
+							     
+							</div>
+                             
+						    
+                            
+                            
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				
+                
+                
+                
+                
+                
+				
+				<!-- LINK POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post link">
+					
+					<div class="narrow">
+						
+						<div class="link-title">
+						
+							<h1><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.prismcomics.org%2Fgrant%2F&amp;t=NDY1ODhlYWIxMjZiMTg0OTk0YTk5NGJkYWQxMDYwN2I0MTE0ZjExMixsZlQ1YW0yMA%3D%3D">QUEER PRESS GRANT | Prism Comics <span class="link-arrow">&#10132;</span></a></h1>
+				
+						</div>
+						
+                         
+						<div class="caption">
+							 <p><a href="http://bluedelliquanti.tumblr.com/post/137222356169/queer-press-grant-prism-comics" class="tumblr_blog">bluedelliquanti</a>:</p>
+
+<blockquote><figure class="tmblr-full" data-orig-height="115" data-orig-width="300"><img src="http://41.media.tumblr.com/641aa8da924ea8acb6f839eb1c60d0fb/tumblr_inline_o0wdk5a4Nw1qdpxig_400.png" data-orig-height="115" data-orig-width="300" width="300" height="115"></figure><p>The Prism Comics Queer Press Grant is open for submissions until March 1, 2016! Winning the QPG provided me with the funds to print the first copies of O Human Star Chapter 1, and I know there are a lot of outstanding LGBTQ cartoonists who would benefit from an opportunity like this, so please give it a shot!</p></blockquote>
+						</div>
+                         
+						
+						<div class="metadata">
+						
+							
+        					<div class="date">
+								<a href="http://studiointerrobang.tumblr.com/post/137226402015/queer-press-grant-prism-comics">Jan. 13 2016</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://bluedelliquanti.tumblr.com/post/137222356169/queer-press-grant-prism-comics">Via bluedelliquanti</a>
+							</div>
+                            
+                            
+                             
+							 
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://studiointerrobang.tumblr.com/post/137226402015/queer-press-grant-prism-comics">171 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				 
+				<!-- PHOTO POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					<div class="wide">
+                        <a href="http://studiointerrobang.tumblr.com/image/136916094600">
+                        
+						<img src="http://40.media.tumblr.com/6f3cc088bbaf99ef0a699707f65bcd51/tumblr_o0nxc7v2WE1skqg6yo1_1280.jpg" alt="And Ty&rsquo;s also been busy, launching Archetype Jewelry! Keep checking back, as we&rsquo;ll be adding a lot of stock over the next week or two." />
+				        
+                        </a>
+					</div>
+				
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p>And Ty&rsquo;s also been busy, launching<a href="http://t.umblr.com/redirect?z=http%3A%2F%2Farchetypejewelry.wix.com%2Farchetype&amp;t=YWNkMTc2ZjI0OTI0MWM2Nzc0ZTQ0YzZhYWE3YzkzMzQ2YjBlNmFlOSxmTEc5ZUU2OQ%3D%3D"> Archetype Jewelry! </a>Keep checking back, as we&rsquo;ll be adding a lot of stock over the next week or two.</p>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://studiointerrobang.tumblr.com/post/136916094600/and-tys-also-been-busy-launching-archetype">Jan. 8 2016</a>
+							</div>
+                            
+							
+                            
+                            
+                             
+							 
+                            <div class="tags">
+                                
+								<a href="http://studiointerrobang.tumblr.com/tagged/jewelry">#jewelry</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/fashion">#fashion</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/style">#style</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/stone">#stone</a>
+							     
+							</div>
+                             
+						    
+                            
+                            
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				 
+				<!-- PHOTO POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					<div class="wide">
+                        <a href="http://studiointerrobang.tumblr.com/image/136915255595">
+                        
+						<img src="http://41.media.tumblr.com/9414dd3f658430ba8b8d8e463900a41f/tumblr_o0nwltPGDO1skqg6yo1_1280.png" alt="I needed a break from the big comic pitch to do a little digital coloring. I hadn&rsquo;t done a portrait in a while, so there you go. Getting back to my roots.Humans are surprisingly purple. I always forget that when I haven&rsquo;t done a portrait in a while.-Lee" />
+				        
+                        </a>
+					</div>
+				
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p>I needed a break from the big comic pitch to do a little digital coloring. I hadn&rsquo;t done a portrait in a while, so there you go. Getting back to my roots.</p><p><br></p><p>Humans are surprisingly purple. I always forget that when I haven&rsquo;t done a portrait in a while.</p><p><br></p><p>-Lee</p>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://studiointerrobang.tumblr.com/post/136915255595/i-needed-a-break-from-the-big-comic-pitch-to-do-a">Jan. 8 2016</a>
+							</div>
+                            
+							
+                            
+                            
+                             
+							 
+                            <div class="tags">
+                                
+								<a href="http://studiointerrobang.tumblr.com/tagged/digital-painting">#digital painting</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/portrait">#portrait</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/manga-studio-5">#manga studio 5</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/lee%27s-art">#lee&#039;s art</a>
+							     
+							</div>
+                             
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://studiointerrobang.tumblr.com/post/136915255595/i-needed-a-break-from-the-big-comic-pitch-to-do-a">1 note</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+                <!-- TEXT POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post text">
+				
+					<div class="narrow">
+					    
+                        
+						
+						<div class="caption">
+						
+						<p><a class="tumblr_blog" href="http://steeldragongamer.tumblr.com/post/132370863721">steeldragongamer</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://m-arci-a.tumblr.com/post/131882045830">m-arci-a</a>:</p>
+<blockquote>
+<p>daily life of a digital artist:</p>
+<ul><li>is that a not coloured spot or a stain on my monitor<br></li>
+<li>I didn&rsquo;t save for at least 2 hours god is real<br></li>
+<li>my playlist ended 1,5 h ago I&rsquo;ve been drawing in silence this whole time<br></li>
+<li><i>&lsquo;&nbsp;&ldquo;asdf11.png&rdquo; already exists. Do you want to overwrite?&nbsp;&lsquo;</i></li>
+<li>I resized this very part of a picture but now it looks too small so let&rsquo;s ctrl+z ohMYGOD IT&rsquo;S SO B I G<br></li>
+<li>this idea seemed cooler yesterday at 3 am</li>
+<li>I want to pee but right now I&rsquo;m doing <i>so well</i> and if I go I will leavE THE ZONE</li>
+<li>opacity 67% or 68% I can&rsquo;t decide</li>
+<li>well this pic looks nice //*flips it horizontally*// I regret having eyes</li>
+<li>
+<i>where the fuck is my <b>pen</b></i><br></li>
+</ul></blockquote>
+<p>traditional artist:</p>
+<ul><li>I can&rsquo;t find the right color, why do I not have the exact color I need</li>
+<li>Oh hey, let&rsquo;s share this online! *Spends next 5 minutes trying to take a good picture of it/scan it in*</li>
+<li>IT SMUDGED DAMN IT</li>
+<li>I have ink all over my hands and it&rsquo;s not coming off</li>
+<li>Do not make a mistake lining it, do not make a mistak- FUCK</li>
+<li>My eraser has been obliterated by mistakes</li>
+<li>I SPILLED *insert drink/food item here* ALL OVER MY DRAWING</li>
+<li>My sketchbook fell apart/ripped again</li>
+<li><i>where the fuck is my <b>pen</b></i></li>
+</ul></blockquote>
+
+<p>As someone who married an artist, I have heard all of these things coming out of their mouth.</p><p>Especially the pen thing.</p><p>(via <a href='http://goldilocks-ate-the-three-bears.tumblr.com/post/136085655101/steeldragongamer-m-arci-a-daily-life-of-a'>goldilocks-ate-the-three-bears</a>)</p>
+						
+						</div> <!-- End caption -->
+					    
+                         
+					
+						<div class="metadata">
+						    
+                            
+        					<div class="date">
+								<a href="http://studiointerrobang.tumblr.com/post/136086948740/steeldragongamer-m-arci-a-daily-life-of-a">Dec. 27 2015</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://m-arci-a.tumblr.com/post/131882045830/daily-life-of-a-digital-artist-is-that-a-not">Via m-arci-a</a>
+							</div>
+                            
+                            
+                             
+							 
+                            <div class="tags">
+                                
+								<a href="http://studiointerrobang.tumblr.com/tagged/artist-problems">#artist problems</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/pens-are-like-gremlin-crack">#pens are like gremlin crack</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/pens-just-get-lost">#pens just get lost</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/pens-will-disappear-between-one-second-and-another">#pens will disappear between one second and another</a>
+							     
+							</div>
+                             
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://studiointerrobang.tumblr.com/post/136086948740/steeldragongamer-m-arci-a-daily-life-of-a">159,460 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- text end -->
+				
+				</div> <!-- post end -->
+                
+				
+				
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				 
+				<!-- PHOTO POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					<div class="wide">
+                        
+                        
+						<img src="http://41.media.tumblr.com/62cacd34e4161c5e697a8f4a894fcb8f/tumblr_nytc0ncSzi1skqg6yo1_400.png" alt="Still working on concept art for the pitch we&rsquo;re putting together. So have a dev. sketch of this mysterious figure." />
+				        
+                        
+					</div>
+				
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p>Still working on concept art for the pitch we&rsquo;re putting together. So have a dev. sketch of this mysterious figure.</p>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://studiointerrobang.tumblr.com/post/134501581025/still-working-on-concept-art-for-the-pitch-were">Dec. 3 2015</a>
+							</div>
+                            
+							
+                            
+                            
+                             
+							 
+                            <div class="tags">
+                                
+								<a href="http://studiointerrobang.tumblr.com/tagged/Shadow-Puppet-Pantheon">#Shadow Puppet Pantheon</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/lee%27s-art">#lee&#039;s art</a>
+							    
+								<a href="http://studiointerrobang.tumblr.com/tagged/digital-painting">#digital painting</a>
+							     
+							</div>
+                             
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://studiointerrobang.tumblr.com/post/134501581025/still-working-on-concept-art-for-the-pitch-were">1 note</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+                
+            
+
+			</div> <!-- content end -->
+			
+			<div id="footer">
+			    
+                
+                
+				<div id="footer-links">
+					
+						<ul>
+							<li><a href="/">Home</a></li>
+                            
+                             
+    					    <li><a href="/Archive">Our Archive</a></li>
+                             
+    					    <li><a href="/OurComics">Our Comics</a></li>
+                             
+                            
+                             
+    					    <li><a href="/ask">Ask me anything</a></li>
+						    
+                            
+                            <li><a href="/archive">Archive</a></li>
+					</ul>
+				</div>
+				
+				<div class="colophon">
+					
+                    
+
+					<p class="promo"><a href="http://zacksultan.com">Observer theme by Zack Sultan</a></p>
+					
+				</div>
+			
+			</div><!-- content end -->
+		
+		</div> <!-- page end -->
+
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?ab5d9138df4f39e0a422d6b59713a84e#" +
+                              "http://studiointerrobang.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/';
+                    var tumblelog_id = '139846653';
+                    var yahoo_space_id = '1197719229';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455840592&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc3R1ZGlvaW50ZXJyb2JhbmcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=FHFMKOIFHF&K=3888a5a59b85619f6a27f60d45b21123ec9f9ae5f5700b0ba54b58522d18ec3e&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455840592&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc3R1ZGlvaW50ZXJyb2JhbmcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=FHFMKOIFHF&K=0df5121de9a2b31e51054db1f9f3749c9ccc0f5e5ec1dd391a64d151dc4063a4&R="></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455840592&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3N0dWRpb2ludGVycm9iYW5nLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI3ODk4MjY5MyIsInJvb3RfcG9zdGlkIjoiMTM4OTM5NTEyNTA5IiwicG9zdGlkIjoiMTM5MDUwMjg4MDQ1IiwiYmxvZ2lkIjoiMTM5ODQ2NjUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIwNjI5NzQ0Iiwicm9vdF9wb3N0aWQiOiIxMzM0MzYyNjAxNTQiLCJwb3N0aWQiOiIxMzkwMjQzODY4NDAiLCJibG9naWQiOiIxMzk4NDY2NTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjEzODM1Mzc0NzUyNSIsImJsb2dpZCI6IjEzOTg0NjY1MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTM3ODM2MjIzMzA2IiwiYmxvZ2lkIjoiMTM5ODQ2NjUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiIxMzc2NjI4ODM1NTUiLCJibG9naWQiOiIxMzk4NDY2NTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODA0MzY5MiIsInJvb3RfcG9zdGlkIjoiMTM3MjIyMzU2MTY5IiwicG9zdGlkIjoiMTM3MjI2NDAyMDE1IiwiYmxvZ2lkIjoiMTM5ODQ2NjUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiIxMzY5MTYwOTQ2MDAiLCJibG9naWQiOiIxMzk4NDY2NTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjEzNjkxNTI1NTU5NSIsImJsb2dpZCI6IjEzOTg0NjY1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTI0NTAwNTIiLCJyb290X3Bvc3RpZCI6MTMxODgyMDQ1ODMwLCJwb3N0aWQiOiIxMzYwODY5NDg3NDAiLCJibG9naWQiOiIxMzk4NDY2NTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjEzNDUwMTU4MTAyNSIsImJsb2dpZCI6IjEzOTg0NjY1MyIsInNvdXJjZSI6MzN9XX0=&U=HJMNEACLOI&K=2c18c1152d14bb494c794b7552ec88328c20b890685be6c4f4c1f6d05ae302d2&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455840592&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3N0dWRpb2ludGVycm9iYW5nLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI3ODk4MjY5MyIsInJvb3RfcG9zdGlkIjoiMTM4OTM5NTEyNTA5IiwicG9zdGlkIjoiMTM5MDUwMjg4MDQ1IiwiYmxvZ2lkIjoiMTM5ODQ2NjUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIwNjI5NzQ0Iiwicm9vdF9wb3N0aWQiOiIxMzM0MzYyNjAxNTQiLCJwb3N0aWQiOiIxMzkwMjQzODY4NDAiLCJibG9naWQiOiIxMzk4NDY2NTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjEzODM1Mzc0NzUyNSIsImJsb2dpZCI6IjEzOTg0NjY1MyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTM3ODM2MjIzMzA2IiwiYmxvZ2lkIjoiMTM5ODQ2NjUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiIxMzc2NjI4ODM1NTUiLCJibG9naWQiOiIxMzk4NDY2NTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODA0MzY5MiIsInJvb3RfcG9zdGlkIjoiMTM3MjIyMzU2MTY5IiwicG9zdGlkIjoiMTM3MjI2NDAyMDE1IiwiYmxvZ2lkIjoiMTM5ODQ2NjUzIiwic291cmNlIjozM30seyJwb3N0aWQiOiIxMzY5MTYwOTQ2MDAiLCJibG9naWQiOiIxMzk4NDY2NTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjEzNjkxNTI1NTU5NSIsImJsb2dpZCI6IjEzOTg0NjY1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTI0NTAwNTIiLCJyb290X3Bvc3RpZCI6MTMxODgyMDQ1ODMwLCJwb3N0aWQiOiIxMzYwODY5NDg3NDAiLCJibG9naWQiOiIxMzk4NDY2NTMiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjEzNDUwMTU4MTAyNSIsImJsb2dpZCI6IjEzOTg0NjY1MyIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=HJMNEACLOI&K=9463185d5bddcd2642b1daf2ebc3299f7b93301bbd093007f1da1fa49b53d960&R="></noscript>
+<noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;TumblelogIframe&quot;:{&quot;tumblelogBundleSrc&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.js?_v=7e99ae1182af3b984855ee73042bff77&quot;,&quot;tumblelogName&quot;:&quot;studiointerrobang&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;tumblelogTitle&quot;:&quot;Studio Interrobang&quot;,&quot;tumblelogAvatar&quot;:&quot;http:\/\/33.media.tumblr.com\/avatar_0395db5e3f01_40.png&quot;,&quot;tumblelogHost&quot;:&quot;http:\/\/studiointerrobang.tumblr.com&quot;,&quot;brag&quot;:true,&quot;currentPage&quot;:&quot;1&quot;,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;http:\/\/studiointerrobang.tumblr.com\/&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;http:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=282357db21d8a5883cc1c780ace4cb5f&quot;,&quot;appInstallUrl&quot;:&quot;https:\/\/go.onelink.me\/893408789?pid=tumblr_blog_network\u0026c=tumblr_blog_network\u0026af_sub3=blog_name&quot;}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aV9wYXJzZV90ZXN0Ijp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJkZXByZWNhdGVfZmVhdHVyZWRfdGFncyI6dHJ1ZSwicmVibG9nX3VpX3JlZnJlc2giOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJkYXNoYm9hcmRfcmVmcmVzaCI6dHJ1ZSwibW9iaWxlX3dlYl9waG90b3NldHMiOnRydWUsIm1vYmlsZV93ZWJfZ2F0ZSI6dHJ1ZSwibW9iaWxlX3dlYl9wYWdlX3RpdGxlcyI6dHJ1ZSwibW9iaWxlX3dlYl9zZWFyY2giOnRydWUsIm1vYmlsZV93ZWJfc2VhcmNoX2ZpbHRlciI6dHJ1ZSwibW9iaWxlX3dlYl9hYnVzZV9mb3JtIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX25ld192ZW5kb3JfYnV0dG9ucyI6dHJ1ZSwiYmxvY2tfZmVhdHVyZSI6dHJ1ZSwicmVhY3RpdmF0aW9uX2Zsb3ciOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2Vycm9yc19sb2ciOnRydWUsImVuYWJsZV9qc19lcGhlbWVyYWxfbG9nIjp0cnVlLCJqc19lcnJvcnNfYiI6dHJ1ZSwibG9nX2xhZHkiOnRydWUsImNzbG9nZ2VyX2pzIjp0cnVlLCJkaXNjb3ZlcnlfaHViX2FjY2VzcyI6dHJ1ZSwiaGVhZGVyX2FjY291bnRfbWVudSI6dHJ1ZSwiZW5hYmxlX3ByaW1hX3NoYXJlX3BvcG92ZXIiOnRydWUsImVuYWJsZV9zaGFyZV9lbWJlZF9jb2RlIjp0cnVlLCJwaW50ZXJlc3Rfc2hhcmluZyI6dHJ1ZSwicmVkZGl0X3NoYXJpbmciOnRydWUsInBvc3RfaXRfZm9yd2FyZCI6dHJ1ZSwicGVlcHJfc2VhcmNoX2FuZF9maWx0ZXIiOnRydWUsImludGVybnNfcGFnZSI6dHJ1ZSwiZm9sbG93ZWRfc2VhcmNoZXNfYmlnX3dlYiI6dHJ1ZSwiZGlzYWJsZV9wdWJsaWNfcmVwbGllcyI6dHJ1ZSwiZGlzYWJsZV95YWhvb19iX2Nvb2tpZSI6dHJ1ZSwicHJpbWFfdHVtYmxlbG9nX2J1bmRsZSI6dHJ1ZX0=&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1455840592000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;http:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/secure.assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;http:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;http:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;http:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;},&quot;Translations&quot;:[]}"></noscript>
+<script src="http://assets.tumblr.com/client/prod/standalone/tumblelog/index.js?_v=7e99ae1182af3b984855ee73042bff77"></script>
+
+</body>
+
+</html>

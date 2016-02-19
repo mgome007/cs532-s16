@@ -1,0 +1,528 @@
+   #[1]Mundo SQL » Feed [2]Mundo SQL » RSS de los comentarios
+
+   [3]Skip to content [4]Mundo SQL
+   Search ____________________ 
+   (BUTTON)  Menu
+     * [5]Inicio
+     * [6]Azure
+     * [7]SQL Server
+     * [8]Windows Server
+     * [9]Python
+     * [10]Enlaces
+     * [11]Contacta
+
+La forma más sencilla de aprender SQLServer, AzureSQL, ….
+
+[12]Excel Signum, muy buena página de temas de Microsoft #Excel
+
+   Hace tiempo que sigo esta página y los temas que trata sobre Microsoft
+   Excel. Me parece muy interesante. Puede ser  complemento de SQL Server,
+   por ejemplo en temas de estadísticas, ….y que veras que ya lo he estado
+   utilizando. Yo la pongo en enlaces en este blog y en mis favoritos.
+
+Compartir ...
+
+     * [13]Imprimir
+     *
+     * [14]Tweet
+     *
+     * [15]Compartir en Tumblr
+     *
+     * [16]Correo electrónico
+     *
+
+[17]Repasando el operador LIKE en #SQLServer
+
+   Vamos a ampliar un poco más este operador sumamente rentable para hacer
+   consultas. El resultado de esta consulta son los paises que empieza por
+   I y J o que comienzan desde la I hasta la J. En esta solo los paises
+   que comienzan por I y por T. Aqui por un lado los que
+   comienzan[18]Continue reading
+   Titled as follows: Repasando el operador LIKE en…
+
+Compartir ...
+
+     * [19]Imprimir
+     *
+     * [20]Tweet
+     *
+     * [21]Compartir en Tumblr
+     *
+     * [22]Correo electrónico
+     *
+
+[23]Vistas de #SQLServer en #powershell
+
+   Vamos a ver como se ejecutan las Vistas de SQL Server en Powershell.
+   Esta vista nos permite contar los paises que tenemos en nuestra tabla
+   Enero. Aquí esta todo el listado con las veces que aparece en la tabla,
+   es decir, los registros. Y aquí todos los que empieza por I. Creo ue ha
+   quedado[24]Continue reading
+   Titled as follows: Vistas de #SQLServer en #powershell
+
+Compartir ...
+
+     * [25]Imprimir
+     *
+     * [26]Tweet
+     *
+     * [27]Compartir en Tumblr
+     *
+     * [28]Correo electrónico
+     *
+
+[29]Haciendo una consulta desde un procedimiento almacenado de #SQLServer en
+#powershell
+
+   Primero creamos nuestro procedimiento almacenado Este select que esta
+   dentro del procedimmiento almacenado nos muestra el primer y ultimo día
+   en que hay entradas de usuarios de un pais, la diferencia de dias y el
+   total de entradas. CREATE PROCEDURE PRI_ULT_Ent AS BEGIN SELECT PAIS,
+   CONVERT(VARCHAR(10), MAX(FECHA), 103) AS ULT_Entrada,
+   CONVERT(VARCHAR(10), Min(FECHA), 103) as PRI_Entrada,[30]Continue
+   reading
+   Titled as follows: Haciendo una consulta desde un…
+
+Compartir ...
+
+     * [31]Imprimir
+     *
+     * [32]Tweet
+     *
+     * [33]Compartir en Tumblr
+     *
+     * [34]Correo electrónico
+     *
+
+[35]Primeras consultas de #SQLServer en el escenario #MundoSqlBi
+
+   Seguimos con temas de BI. Vamos a empezar por unas consultas clásicas
+   de estadísticas. sabiendo que no el el mes completo sino que desde el
+   mismo día 13 de Enero, es decir …. 19 dias. Aqui va el código: SELECT
+   PAIS, COUNT(PAIS)AS VISITA_MES, MAX(VISITAS) AS MAX_1DIA, MIN(VISITAS)
+   AS MIN_1DIA, AVG(VISITAS) AS MEDIA_DIA FROM Enero GROUP[36]Continue
+   reading
+   Titled as follows: Primeras consultas de #SQLServer en…
+
+Compartir ...
+
+     * [37]Imprimir
+     *
+     * [38]Tweet
+     *
+     * [39]Compartir en Tumblr
+     *
+     * [40]Correo electrónico
+     *
+
+[41]De nuestro fichero de visitas total por mes .csv a #SQLServer.
+#MundoSqlBi
+
+   Después de seguir el tuto de este mismo blog Importar un fichero .csv a
+   una tabla #sqlserver tenemos …. Recordar que el fichero excel hay una
+   linea mas porque el ecabezado.Ahora ya nos tocaría jugar 😉 Recordaros
+   en que si queréis seguir todos los pasos que estoy haciendo podéis
+   buscar la palabra #MundoSqlBi en este[42]Continue reading
+   Titled as follows: De nuestro fichero de visitas…
+
+Compartir ...
+
+     * [43]Imprimir
+     *
+     * [44]Tweet
+     *
+     * [45]Compartir en Tumblr
+     *
+     * [46]Correo electrónico
+     *
+
+[47]Uniendo ficheros .xls en uno de la forma clásica para el escenario
+#MundoSqlBI
+
+   Bueno, ya tenemos los ficheros del mes de Enero que he podido rescatar.
+   Ahora toca unificarlo. Al ser muy pocos datos lo vamos hacer de forma
+   clásica, con copiar/pegar. Ya veremos otras formas 😉 TE quedaría una
+   cosa como esta. Y ahora podemos exportarlo a .csv. Ya veremos para que
+   lo vamos a utilizar. Seguimos[48]Continue reading
+   Titled as follows: Uniendo ficheros .xls en uno…
+
+Compartir ...
+
+     * [49]Imprimir
+     *
+     * [50]Tweet
+     *
+     * [51]Compartir en Tumblr
+     *
+     * [52]Correo electrónico
+     *
+
+[53]De .csv a .xls los ficheros de visitas diarias de mi blog en el escenario
+#MundoSqlBI
+
+   Aunque ya lo hemos visto en este blog el importar un fichero .csv a sql
+   server directamente, en este caso voy a pasarlo también a Excel, ya que
+   podremos utilizar otras herramientas para hacer BI. Obtener datos
+   externos Fichero texto Delimitados Coma Siguiente y Finalizar Ponemos
+   donde lo queremos poner y aceptar Ahora ya solo falta[54]Continue
+   reading
+   Titled as follows: De .csv a .xls …
+
+Compartir ...
+
+     * [55]Imprimir
+     *
+     * [56]Tweet
+     *
+     * [57]Compartir en Tumblr
+     *
+     * [58]Correo electrónico
+     *
+
+[59]Que es Business Intelligence (#BI)
+
+   Ya hemos visto el inicio de nuestro proyecto BI, ahora toca la
+   definición o teoría del mismo. Business Intelligence es uno de los
+   temas que se han puesto muy de moda y  de un muy  rápido crecimiento en
+   la parte de SQL Server es el área de Inteligencia de Negocios (Business
+   Intelligence). Mejor que no lo explique[60]Continue reading
+   Titled as follows: Que es Business Intelligence (#BI)
+
+Compartir ...
+
+     * [61]Imprimir
+     *
+     * [62]Tweet
+     *
+     * [63]Compartir en Tumblr
+     *
+     * [64]Correo electrónico
+     *
+
+[65]Preparando un escenario Business Intelligence (#BI) #MundoSqlBI
+
+   Llevo algún tiempo de como montar un escenario BI y no sabia donde
+   pillar los datos. Los tenia bien cerca, en este mismo blog, las
+   estadísticas de visitas. WordPress te da la opción de bajarte un
+   fichero diario  .csv tal como así. Me hubiera gustado mejor con horas y
+   fecha, pero bueno. Como vamos a transformar[66]Continue reading
+   Titled as follows: Preparando un escenario Business Intelligence…
+
+Compartir ...
+
+     * [67]Imprimir
+     *
+     * [68]Tweet
+     *
+     * [69]Compartir en Tumblr
+     *
+     * [70]Correo electrónico
+     *
+
+[71]Instalando #pypyodbc y #sqlalchemy para hacer conexiones desde #python a
+#sqlserver en #visualstudio
+
+   Python nos permite trabajar con Bases de Datos. En este caso vamos a
+   ver como empezamos a trabajar con pypyodbc. SQLAlchemy y PyPyODBC   son
+   unos  “módulos” o “librerias” que nos sirve para conectar e interactuar
+   con bases de datos ODBC compatibles desde un servicio, sitio web o
+   aplicación basada en Python. Vamos a ver como lo[72]Continue reading
+   Titled as follows: Instalando #pypyodbc y #sqlalchemy para…
+
+Compartir ...
+
+     * [73]Imprimir
+     *
+     * [74]Tweet
+     *
+     * [75]Compartir en Tumblr
+     *
+     * [76]Correo electrónico
+     *
+
+[77]Sacar una consulta de #SQLServer desde #powershell en #VisualStudio
+
+   Vamos a realizar una consulta de Base de Datos desde Visual Studiio.
+   Tenemos esta consulta en el Management Studio Ahora lo vamos a hacer
+   desde un script de powershell en Visual Studio Y nos dará como
+   resultado: Como veis tenemos el mismo resultado. Solo tenemos  que
+   cambiar el select y podemos hacer otras consultas. Aquí os
+   dejo[78]Continue reading
+   Titled as follows: Sacar una consulta de #SQLServer…
+
+Compartir ...
+
+     * [79]Imprimir
+     *
+     * [80]Tweet
+     *
+     * [81]Compartir en Tumblr
+     *
+     * [82]Correo electrónico
+     *
+
+Posts navigation
+
+   1 [83]2 … [84]53 [85]Next →
+
+Quien soy
+
+                                [86]foto peke
+
+   Profesional en Tecnologías de la Información con amplía experiencia en
+   atención al usuario, comunicaciones, seguridad, infraestructura de
+   sistemas (AD, Exchange, virtualización) y formación a usuarios.
+   Gran capacidad de trabajo y aprendizaje, con una constante
+   actualización de conocimientos para aportar valor al equipo. Persona
+   solvente y colaboradora que busca siempre el exito del equipo.
+
+   [87]HP ATA
+
+                           [88]HP Server & Storage
+
+                               [89]Hp Network
+
+                                [90]HP Cloud
+
+                               [91]HP Devices
+
+Suscríbete al blog por correo electrónico
+
+   Introduce tu correo electrónico para suscribirte a este blog y recibir
+   notificaciones de nuevas entradas.
+
+   Dirección de email ____________________
+
+   Suscribir
+
+   CAPTION: febrero 2016
+
+      L       M      X      J       V       S       D
+   [92]« Ene
+   [93]1   [94]2   [95]3 4       [96]5   6       7
+   [97]8   9       [98]10 [99]11  [100]12 [101]13 [102]14
+   [103]15 [104]16 17    [105]18 19      20      21
+   22      23      24    25      26      27      28
+   29
+
+                                 [106]ncora
+
+Archivo
+
+   Archivo [Elegir mes_____]
+
+Lo más leido
+
+     * [107]Introducción al Diseño de bases de datos
+     * [108]INNER JOIN anidados
+     * [109]Las bases de datos de ejemplo de Adventureworks y sus
+       diferentes versiones
+     * [110]Otro poster del tema join de #sqlserver
+     * [111]Como documentar o documentarse del contenido de una BBDD en
+       #sqlserver
+     * [112]Curso: Aspectos fundamentales de bases de datos
+     * [113]Nunca ha sido tan fácil aprender #sqlserver con #MundoSQL
+     * [114]Mejores Prácticas para ser un DBA (Traduccion de un articulo
+       de Brad McGehee)
+     * [115]Sencillo libro sobre #python y que se aprende mucho
+     * [116]Normalización de tablas relacionales: Sexta Forma Normal (6FN)
+       o forma normal de dominio/clave (DKNF)
+
+Categorias
+
+   [117]70-410 [118]70-412 [119]70-461 [120]70-462 [121]70-463 [122]70-533
+   [123]Active Directory [124]Azure [125]Azure Cli [126]Azure Resource
+   Manage [127]blog [128]Business Intelligence [129]Chocolatey [130]DBA
+   [131]Definiciones [132]Documentacion [133]DocumentDB [134]Eventos
+   [135]Linux Debian [136]Management Studio [137]Microsoft Excel
+   [138]MongoDB [139]MundoSqlBi [140]MVA [141]MySQL [142]MySQL Workbench
+   [143]NoSQL [144]Powershell [145]Python [146]Python IDE [147]Robomongo
+   [148]sqlazure [149]SQL SERVER [150]SSIS [151]T-SQL [152]Tienda
+   [153]Tips [154]Varios [155]visual studio [156]Visual Studio Code
+   [157]Vmware [158]Windows 10 [159]Windows 2008 [160]Windows 2012
+   [161]Windows 2016
+
+   © 2016., Mundo SQL
+
+   This website uses cookies to improve your experience. We'll assume
+   you're ok with this, but you can opt-out if you wish.[162]Accept
+   [163]Read More
+
+   Privacy & Cookies Policy
+
+   Enviar a dirección de correo electrónico ____________________ Su Nombre
+   ____________________ Tu dirección de correo electrónico
+   ____________________ _________________________ loading
+   Enviar correo electrónico [164]Cancelar
+   La entrada no fue enviada. ¡Comprueba tus direcciones de correo
+   electrónico!
+   Error en la comprobación de email. Por favor, vuelve a intentarlo
+   Lo sentimos, tu blog no puede compartir entradas por correo
+   electrónico.
+
+References
+
+   1. http://www.mundosql.es/feed/
+   2. http://www.mundosql.es/comments/feed/
+   3. file:///home/mgomez/CS432/A3/source9.txt#content
+   4. http://www.mundosql.es/
+   5. http://www.mundosql.es/
+   6. http://www.mundosql.es/azure/
+   7. http://www.mundosql.es/sqlserver/
+   8. http://www.mundosql.es/windowsserver/
+   9. http://www.mundosql.es/python/
+  10. http://www.mundosql.es/enlaces/
+  11. http://www.mundosql.es/contacta-2/
+  12. http://www.mundosql.es/2016/02/18/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel/
+  13. http://www.mundosql.es/2016/02/18/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel/
+  14. https://twitter.com/share
+  15. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/18/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel/&name=Excel Signum, muy buena página de temas de Microsoft #Excel
+  16. http://www.mundosql.es/2016/02/18/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel/?share=email
+  17. http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/
+  18. http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/
+  19. http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/
+  20. https://twitter.com/share
+  21. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/&name=Repasando el operador LIKE en #SQLServer
+  22. http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/?share=email
+  23. http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/
+  24. http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/
+  25. http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/
+  26. https://twitter.com/share
+  27. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/&name=Vistas de #SQLServer en #powershell
+  28. http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/?share=email
+  29. http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/
+  30. http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/
+  31. http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/
+  32. https://twitter.com/share
+  33. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/&name=Haciendo una consulta desde un procedimiento almacenado de #SQLServer en #powershell
+  34. http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/?share=email
+  35. http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/
+  36. http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/
+  37. http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/
+  38. https://twitter.com/share
+  39. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/&name=Primeras consultas de #SQLServer en el escenario #MundoSqlBi
+  40. http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/?share=email
+  41. http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/
+  42. http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/
+  43. http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/
+  44. https://twitter.com/share
+  45. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/&name=De nuestro fichero de visitas total por mes .csv a #SQLServer. #MundoSqlBi
+  46. http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/?share=email
+  47. http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/
+  48. http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/
+  49. http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/
+  50. https://twitter.com/share
+  51. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/&name=Uniendo ficheros .xls en uno de la forma clásica para el escenario #MundoSqlBI
+  52. http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/?share=email
+  53. http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/
+  54. http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/
+  55. http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/
+  56. https://twitter.com/share
+  57. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/&name=De .csv a .xls  los ficheros de visitas diarias de mi blog en el escenario #MundoSqlBI
+  58. http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/?share=email
+  59. http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/
+  60. http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/
+  61. http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/
+  62. https://twitter.com/share
+  63. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/&name=Que es Business Intelligence (#BI)
+  64. http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/?share=email
+  65. http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/
+  66. http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/
+  67. http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/
+  68. https://twitter.com/share
+  69. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/&name=Preparando un escenario Business Intelligence  (#BI) #MundoSqlBI
+  70. http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/?share=email
+  71. http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/
+  72. http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/
+  73. http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/
+  74. https://twitter.com/share
+  75. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/&name=Instalando #pypyodbc y #sqlalchemy para hacer conexiones desde #python a #sqlserver en #visualstudio
+  76. http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/?share=email
+  77. http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/
+  78. http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/
+  79. http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/
+  80. https://twitter.com/share
+  81. http://www.tumblr.com/share/link/?url=http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/&name=Sacar una consulta de #SQLServer desde #powershell en #VisualStudio
+  82. http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/?share=email
+  83. http://www.mundosql.es/page/2/
+  84. http://www.mundosql.es/page/53/
+  85. http://www.mundosql.es/page/2/
+  86. http://www.mundosql.es/wp-content/uploads/2015/06/foto-peke.jpg
+  87. http://1drv.ms/1mtRdEI
+  88. http://www.mundosql.es/wp-content/uploads/2015/09/HP-Server-Storage.jpg
+  89. http://www.mundosql.es/wp-content/uploads/2015/09/HP-Cloud.jpg
+  90. http://www.mundosql.es/wp-content/uploads/2015/09/HP-Cloud.jpg
+  91. http://www.mundosql.es/wp-content/uploads/2015/09/HP-Devices.jpg
+  92. http://www.mundosql.es/2016/01/
+  93. http://www.mundosql.es/2016/02/01/
+  94. http://www.mundosql.es/2016/02/02/
+  95. http://www.mundosql.es/2016/02/03/
+  96. http://www.mundosql.es/2016/02/05/
+  97. http://www.mundosql.es/2016/02/08/
+  98. http://www.mundosql.es/2016/02/10/
+  99. http://www.mundosql.es/2016/02/11/
+ 100. http://www.mundosql.es/2016/02/12/
+ 101. http://www.mundosql.es/2016/02/13/
+ 102. http://www.mundosql.es/2016/02/14/
+ 103. http://www.mundosql.es/2016/02/15/
+ 104. http://www.mundosql.es/2016/02/16/
+ 105. http://www.mundosql.es/2016/02/18/
+ 106. http://www.ncora.com/
+ 107. http://www.mundosql.es/2014/09/26/introduccin-al-diseo-de-bases-de-datos/
+ 108. http://www.mundosql.es/2014/09/25/inner-join-anidados/
+ 109. http://www.mundosql.es/2014/08/11/las-bases-de-datos-de-ejemplo-de-adventureworks-y-sus-diferentes-versiones/
+ 110. http://www.mundosql.es/2015/05/15/otro-poster-del-tema-join-e-sqlserver/
+ 111. http://www.mundosql.es/2015/02/15/como-documentar-o-documentarse-del-contenido-de-uaa-bbdd-en-sqlserver/
+ 112. http://www.mundosql.es/2015/06/14/curso-aspectos-fundamentales-de-bases-de-datos/
+ 113. http://www.mundosql.es/2015/07/28/nunca-ha-sido-tan-facil-aprender-sqlserver-con-mundosql/
+ 114. http://www.mundosql.es/2015/09/18/mejores-practicas-para-ser-un-dba-traduccion-de-un-articulo-de-brad-mcgehee/
+ 115. http://www.mundosql.es/2015/05/07/sencillo-libro-sobre-python-y-que-se-aprende-mucho/
+ 116. http://www.mundosql.es/2014/09/15/normalizacion-de-tablas-relacionales-sexta-forma-normal-6fn-o-forma-normal-de-dominioclave-dknf/
+ 117. http://www.mundosql.es/category/70-410/
+ 118. http://www.mundosql.es/category/70-412/
+ 119. http://www.mundosql.es/category/70-461/
+ 120. http://www.mundosql.es/category/70-462/
+ 121. http://www.mundosql.es/category/70-463/
+ 122. http://www.mundosql.es/category/70-533/
+ 123. http://www.mundosql.es/category/active-directory/
+ 124. http://www.mundosql.es/category/azure/
+ 125. http://www.mundosql.es/category/azure-cli/
+ 126. http://www.mundosql.es/category/azure-resource-manage/
+ 127. http://www.mundosql.es/category/blog/
+ 128. http://www.mundosql.es/category/business-intelligence/
+ 129. http://www.mundosql.es/category/chocolatey/
+ 130. http://www.mundosql.es/category/dba/
+ 131. http://www.mundosql.es/category/definiciones/
+ 132. http://www.mundosql.es/category/documentacion/
+ 133. http://www.mundosql.es/category/documentdb/
+ 134. http://www.mundosql.es/category/eventos/
+ 135. http://www.mundosql.es/category/linux-debian/
+ 136. http://www.mundosql.es/category/management-studio/
+ 137. http://www.mundosql.es/category/microsoft-excel/
+ 138. http://www.mundosql.es/category/mongodb/
+ 139. http://www.mundosql.es/category/mundosqlbi/
+ 140. http://www.mundosql.es/category/mva/
+ 141. http://www.mundosql.es/category/mysql/
+ 142. http://www.mundosql.es/category/mysql-workbench/
+ 143. http://www.mundosql.es/category/nosql/
+ 144. http://www.mundosql.es/category/powershell/
+ 145. http://www.mundosql.es/category/python/
+ 146. http://www.mundosql.es/category/python-ide/
+ 147. http://www.mundosql.es/category/robomongo/
+ 148. http://www.mundosql.es/category/sqlazure/
+ 149. http://www.mundosql.es/category/sql-server/
+ 150. http://www.mundosql.es/category/ssis/
+ 151. http://www.mundosql.es/category/t-sql/
+ 152. http://www.mundosql.es/category/tienda/
+ 153. http://www.mundosql.es/category/tips-2/
+ 154. http://www.mundosql.es/category/varios/
+ 155. http://www.mundosql.es/category/visual-studiio/
+ 156. http://www.mundosql.es/category/visual-studio-code/
+ 157. http://www.mundosql.es/category/vmware/
+ 158. http://www.mundosql.es/category/windows-10/
+ 159. http://www.mundosql.es/category/windows-2008/
+ 160. http://www.mundosql.es/category/windows-2012/
+ 161. http://www.mundosql.es/category/windows-2016/
+ 162. file:///home/mgomez/CS432/A3/source9.txt
+ 163. http://www.mundosql.es/
+ 164. file:///home/mgomez/CS432/A3/source9.txt#cancel

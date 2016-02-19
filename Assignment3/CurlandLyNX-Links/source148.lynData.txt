@@ -1,0 +1,105 @@
+☢ Welcome to Li Tai Fang's Rudimentary Home Server! ☣
+
+   [pyramids.jpg]
+
+   There you are wrong. The graveyards are full of middling swordsmen.
+   Best not to be a swordsman at all than a middling swordsman.
+
+   -- a young Augustus in HBO's Rome
+
+   Places to go:
+
+   [1]Photo Gallery, last updated 2/6/2016
+
+   [2]A Collection of Jokes
+
+   [3]Peer-Reviewed Publications
+
+   I am a Bioinformatics Scientist at [4]Bina Technologies, part of
+   [5]Roche Sequencing. A little over 10 years ago, the Human Genome
+   Project was complete after 10 years and $10 billion, which sequenced 3
+   people. It was a monumental achievement unthinkable only a few years
+   prior. Today, we can sequence a genome for roughly $1000 in a single
+   day. However, sequencing output outpaces Moore's Law, and data analysis
+   and management has become the bottleneck of genomic studies. Bina
+   Technologies is solving the problem, in order to fully realize the
+   potential of modern genomics and personalized medicine.
+
+   Check out [6]SomaticSeq, a machine learning algorithm we have developed
+   at Bina to detect somatic mutations in cancer sequencing. SomaticSeq
+   has placed Bina [7]No. 1 in INDEL and No. 2 in SNV in the Stage 5 of
+   the [8]ICGC-TCGA DREAM Somatic Mutation Calling Challenge. Our
+   [9]paper describing the method is an [10]Editor's pick in Genome
+   Biology.
+
+   Check out my friend's start up company [11]TargetPlex Genomics. He has
+   a new way to perform multiplex PCR, in order to amplify regions of
+   interest in the genome for targeted deep sequencing.
+
+   [12]Artwork of Defne Egecioglu, a friend of mine
+     __________________________________________________________________
+
+   My Web Pages Elsewhere:
+
+   I maintain two identical mirrors in two different locations:
+     (1) [13]my ultra-low-voltage Intel Atom server at home,
+     (2) [14]the UCLA Chemistry Department's server that I have user
+   access to.
+
+   [15]My Google Scholar Profile
+
+   [16]My Cal Alumni Page
+     __________________________________________________________________
+
+   [17]View Li Tai Fang's profile on LinkedIn
+
+   [18]Li Tai Fang | [19]Create Your Badge
+   [20][2500708.1118.374082246.png]
+
+   [21]Email me!
+
+   My home server is powered by [22]Apache HTTP Server, running on 64-bit
+   [23]Ubuntu Linux Server Edition 14.04.3 on an [24]Intel Atom D525.
+   Why Intel Atom? Because its maximum power consumption is only 13 Watts.
+   My home network is routed through a ASUS RT-N66R, with its factory
+   firmware replaced by [25]DD-WRT.
+   However, my Linux Server is physically attached to a Netgear WNDR3700
+   v3, also with DD-WRT, set up as a [26]Wireless Repeater Bridge.
+   If your feel this page loads too slowly, blame my [27]ISP. They only
+   gave me a measly 1.5 Mbps upload speed! Google Fiber, where are you!?
+
+   [28]web trackers
+
+   [29]eBay Sniper
+
+References
+
+   1. file:///home/mgomez/CS432/A3/pictures/pictures.html
+   2. file:///home/mgomez/CS432/A3/humors/humors.html
+   3. file:///home/mgomez/CS432/A3/publications.html
+   4. http://www.bina.com/
+   5. http://sequencing.roche.com/
+   6. http://bioinform.github.io/somaticseq/
+   7. http://blog.bina.com/news/bina-places-1st-and-2nd-in-dream-challenge-establishing-potential-future-standards-for-cancer-genome-analysis
+   8. https://www.synapse.org/#!Synapse:syn312572/wiki/70726
+   9. http://dx.doi.org/10.1186/s13059-015-0758-2
+  10. file:///home/mgomez/CS432/A3/publications/BMC_Editors_pick.png
+  11. http://targetplex.com/
+  12. http://copper.chem.ucla.edu/~defnee/
+  13. http://galactica.boldlygoingnowhere.org/
+  14. http://www.chem.ucla.edu/~ltfang
+  15. http://scholar.google.com/citations?user=VfuyQZ0AAAAJ
+  16. http://cal.berkeley.edu/ltfang
+  17. http://www.linkedin.com/in/ltfang
+  18. http://www.facebook.com/ltfang
+  19. http://www.facebook.com/facebook-widgets/
+  20. http://www.facebook.com/ltfang
+  21. mailto:thecalbear@gmail.com
+  22. http://httpd.apache.org/
+  23. http://www.ubuntu.com/server
+  24. http://ark.intel.com/products/49490
+  25. http://www.dd-wrt.com/
+  26. http://www.dd-wrt.com/wiki/index.php/Repeater_Bridge
+  27. http://sonic.net/
+  28. http://c3.gostats.com/gogi/viewstats.pl?mn=lethalfang
+  29. http://www.gixen.com/index.php

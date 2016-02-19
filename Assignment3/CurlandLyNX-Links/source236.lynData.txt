@@ -1,0 +1,783 @@
+   #[1]DiabloHorn » Feed [2]DiabloHorn » Comments Feed [3]DiabloHorn
+   [4]WordPress.com
+
+     * [5]Home
+     * [6]Books aka RTFM
+     * [7]contact
+     * [8]Easy C libraries
+
+[9]DiabloHorn
+
+   Attempting to understand security
+   [10]Stay updated via RSS
+     __________________________________________________________________
+
+     * [11]Follow DiabloHorn on WordPress.com
+     * search this sit Submit
+     * Recent Posts
+          + [12]PowerShell overview and introduction
+          + [13]pageant key extraction automated
+          + [14]Discovering the secrets of a pageant minidump
+          + [15]Continuously rotating hashes
+          + [16]Parsing the hiberfil.sys, searching for slack space
+     * Friends
+          + [17]0x3a
+          + [18]Adam Boulton
+          + [19]barrebas
+          + [20]Didier Stevens
+          + [21]DigitalOffensive
+          + [22]Distracted
+          + [23]g3rt
+          + [24]Hacking The Everyday
+          + [25]HackTalk Security
+          + [26]HighOn.Coffee
+          + [27]iLLMOB
+          + [28]IT Solutions Knowledge Base
+          + [29]Jelle Vergeer
+          + [30]Matt Andreko
+          + [31]Mogozobo
+          + [32]My l3g3nd
+          + [33]node's blog
+          + [34]OJ's perspective
+          + [35]Phil Grimes
+          + [36]py1337
+          + [37]r3v3rs3r
+          + [38]Rasta Mouse
+          + [39]Rogue Coder
+          + [40]Sebastian Apelt
+          + [41]Security A(r)tWork
+          + [42]sovasec
+          + [43]Stoked
+          + [44]superkojiman
+          + [45]Teusink
+          + [46]Underc0de
+          + [47]VulnHub CTF Team
+          + [48]zer0w1re
+     * Interesting
+          + [49]alex ionescu
+          + [50]arteam
+          + [51]awarenetwork
+          + [52]Break & Enter
+          + [53]Coralic
+          + [54]Crucial Security
+          + [55]deroko of ARTeam
+          + [56]Frank Boldewin
+          + [57]Free DNS
+          + [58]GSO
+          + [59]hack a day
+          + [60]infinityexists
+          + [61]InfosecWriters
+          + [62]maliciousattacker
+          + [63]MWR Labs
+          + [64]Packet Storm
+          + [65]pentestmonkey
+          + [66]phrack
+          + [67]rapid7 blog
+          + [68]Reiners’ Weblog
+          + [69]Security on the edge
+          + [70]The Sprawl
+          + [71]thoughtcrime
+          + [72]uninformed
+          + [73]Volatile Minds
+          + [74]Woodmann RCE Community
+     * Archives
+          + [75]February 2016 (1)
+          + [76]October 2015 (1)
+          + [77]September 2015 (1)
+          + [78]March 2015 (1)
+          + [79]December 2014 (1)
+          + [80]July 2014 (2)
+          + [81]April 2014 (1)
+          + [82]March 2014 (3)
+          + [83]February 2014 (2)
+          + [84]January 2014 (1)
+          + [85]November 2013 (1)
+          + [86]October 2013 (2)
+          + [87]July 2013 (1)
+          + [88]May 2013 (3)
+          + [89]April 2013 (1)
+          + [90]March 2013 (1)
+          + [91]February 2013 (3)
+          + [92]January 2013 (4)
+          + [93]December 2012 (2)
+          + [94]November 2012 (1)
+          + [95]February 2012 (2)
+          + [96]January 2012 (3)
+          + [97]December 2011 (2)
+          + [98]October 2011 (1)
+          + [99]July 2011 (2)
+          + [100]December 2010 (5)
+          + [101]November 2010 (1)
+          + [102]August 2010 (1)
+          + [103]July 2010 (3)
+          + [104]June 2010 (1)
+          + [105]April 2010 (1)
+          + [106]March 2010 (4)
+          + [107]January 2010 (3)
+          + [108]December 2009 (1)
+          + [109]November 2009 (3)
+          + [110]October 2009 (1)
+          + [111]August 2009 (6)
+          + [112]July 2009 (8)
+          + [113]June 2009 (1)
+          + [114]May 2009 (3)
+          + [115]March 2009 (3)
+          + [116]February 2009 (1)
+          + [117]January 2009 (3)
+          + [118]December 2008 (8)
+          + [119]November 2008 (7)
+          + [120]October 2008 (10)
+     * Tags
+       [121]anti forensics [122]apache [123]applet [124]art [125]assembly
+       [126]av [127]backdoor [128]bind [129]bruteforce [130]bypass [131]C
+       [132]crack [133]dcerpc [134]detection [135]dns [136]dnscat
+       [137]dork [138]dpkt [139]encryption [140]fakedns [141]FDE
+       [142]firewall [143]forensic [144]google [145]hash [146]icmp
+       [147]immunity debugger [148]impacket [149]java [150]JSP
+       [151]kd-team [152]linux [153]live forensics [154]lua [155]memory
+       [156]metasploit [157]meterpreter [158]mitm [159]mod_negotiation
+       [160]mysql [161]nmap [162]ollydbg [163]pageant [164]password
+       [165]pcap [166]proxy [167]psexec [168]python [169]registry [170]rfi
+       [171]rootkit [172]scanner [173]scapy [174]shell [175]shellcode
+       [176]signing [177]smb [178]sniffer [179]spoof dns [180]spy gadget
+       [181]sql [182]sqli [183]ssl [184]stack [185]tcp/ip [186]truecrypt
+       [187]udp [188]virtual [189]virtualization [190]vmware [191]war
+       [192]WDE [193]web [194]wireshark [195]wordlist
+
+[196]PowerShell overview and introduction
+
+   Posted: February 6, 2016 in [197]general
+   Tags: [198]powershell
+   [199]1
+
+   This is a long overdue post I was planning on writing as a reference
+   for myself, since I don’t write that much [200]PowerShell. Depending on
+   your own knowledge about powershell you can just skip to whatever
+   sections seems useful to you. Also feel free to correct any mistakes in
+   this article since I intent it mostly as a basic reference :) The
+   resource section contains a nice collection of links to other
+   PowerShell articles & tools, which means you can consider this article
+   a small recap of all the resources linked.
+
+   TL;DR The resource section contains useful URLs to learn Power Shell,
+   the blog post itself is just a micro-recap of those resources.
+     * What is PowerShell and why would you use it?
+     * Basic PowerShell environment
+     * How do you run PowerShell?
+     * What is the PowerShell syntax?
+     * Our first script
+     * Calling Windows functions
+     * Resources
+
+   [201]basic-powershell-commands-intro-840x420
+
+   [202]Read the rest of this entry »
+
+[203]pageant key extraction automated
+
+   Posted: October 3, 2015 in [204]general
+   Tags: [205]capstone, [206]memory dump, [207]pageant, [208]pycrypto
+   [209]1
+
+   Well this will be a rather short post since it’s about the automation
+   of my [210]previous blog post in which we analysed the memory dump of
+   the pageant process and manually extracted unencrypted keys. You can
+   find the tool which automates this process in [211]pageant_xkeys git
+   repository. Since I’m a firm believer that you learn best from mistakes
+   and old code, the repository also includes some of the other code I was
+   playing around with.
+
+
+[212]Discovering the secrets of a pageant minidump
+
+   Posted: September 4, 2015 in [213]general, [214]security
+   Tags: [215]memory, [216]minidump, [217]pageant, [218]rsa key,
+   [219]windbg
+   [220]1
+
+   A [221]Red Team exercise is lotsa fun not only because you have a more
+   realistic engagement due to the broader scope, but also because you can
+   encounter situations which you normally wouldn’t on a regular narrow
+   scoped penetration test. I’m going to focus on [222]pageant which
+   Slurpgeit recently encountered during one of these red team exercises
+   which peeked my interest.
+
+   Apparantly he got access to a machine on which the user used pageant to
+   manage ssh keys and authenticate to servers without having to type his
+   key password every single time he connects. This of course raises the
+   following interesting (or silly) question:
+
+   Why does the user only have to type his ssh key in once?
+
+   Which has a rather logical (or doh) answer as well:
+
+   The pageant process keeps the decrypted key in memory so that you can
+   use them without having to type the decryption password every time you
+   want to use the key.
+
+   From an attackers perspective it of course begs the question if you can
+   steal these unencrypted keys? Assuming you are able to make a memory
+   dump of the running process you should be able to get these decrypted
+   ssh keys. During this blog post I’ll be focusing on how you could
+   achieve this and the pitfalls I encountered when approaching this.
+
+   [223]Read the rest of this entry »
+
+[224]Continuously rotating hashes
+
+   Posted: March 28, 2015 in [225]midnight thoughts, [226]security
+   Tags: [227]2fa, [228]authentication, [229]hash, [230]otp, [231]password
+   [232]0
+
+   One of the things that has always fascinated me is when you are
+   watching some Hollywood movie and they talk about stuff like “rotating
+   string cipher encryption with a strength of 228 bits”. Now this has
+   always sounded both funny and interesting to me. Like what if you could
+   convert data that is normally static into actual continuous rotating
+   data? This morning it hit me, this is something we can actually
+   accomplish with password hashes. We can rotate them continuously,
+   without the user even noticing and hopefully make it harder for
+   attackers to crack the hash. Which is the main goal of this
+   “idea/solution” making it harder or hopefully impossible for attacker
+   to crack the hash when they obtain it. Here is a PoC preview output,
+   screenshot OTP and usage OTP don’t match because they were obtained at
+   different times:
+
+   otp
+./hashrotate_poc.py S3cretP4ssword 545130
+ Current password hash:
+ 224bbe14e25287f781eb94d57a49eb8e064f3857e2b369ea8f413ed22e6190e568e2107aaaa8ef6
+0aa7db9413f930a7d6e715c83bd06243dd2f26cf86a9828b9
+ Login OK
+./hashrotate_poc.py S3cretP4ssword 545130
+ Current password hash:
+ 12abaded0aebd3269229ea53c85be4fe78d5dd876b4feac6b21bd87c4f0235fee01990e600f5664
+085e9139f108903446376a2f6fab1770c9add86ad4168fbea
+ Login Failed
+
+   Like you can see we attempt to login with the same credentials both
+   times and yet the second time this fails. If you are impatient then
+   you’ve probably guessed that this is due to the added [233]2FA data in
+   the login credentials and as usual you can jump straight to the code on
+   my [234]github. Now if you are curious how this works and how you could
+   set this up in a real life setup keep on reading, do note that I
+   haven’t tested this yet on a real life environment however. The setup
+   is actually one of the important parts for this to work and actually
+   slow down or hopefully prevent an attacker from successfully cracking
+   the obtained hashes.
+
+   Now after you’ve read that you are probably thinking “shut up already
+   with those ‘uncrackable’ claims” and yeah you are correct. It can
+   probably be cracked, but hopefully we can settle for the second best
+   which is (tremendously) slowing down the attacker.
+
+   For the remainder of this entry we will be focusing on further
+   protecting the stored hashes and not on how to protect the in transit
+   plain text password. This since obviously if you have full control of a
+   server where the SSL is terminated you could just intercept all
+   passwords in plain text. This can be solved with fancy
+   challenge-response protocols or maybe (in browser) public-key
+   cryptography. For now, let’s dig further into this ‘continuous changing
+   hashes’ concept.
+
+   [235]Read the rest of this entry »
+
+[236]Parsing the hiberfil.sys, searching for slack space
+
+   Posted: December 10, 2014 in [237]general
+   Tags: [238]hiberfil.sys, [239]hibernation, [240]python, [241]slack
+   space, [242]volatility
+   [243]4
+
+   Implementing functionality that is already available in an available
+   tool is something that has always taught me a lot, thus I keep on doing
+   it when I encounter something I want to fully understand. In this case
+   it concerns the ‘hiberfil.sys’ file on Windows. As usual I first
+   stumbled upon the issue and started writing scripts to later find out
+   someone had written a nice article about it, which you can read
+   [244]here (1). For the sake of completeness I’m going to repeat some of
+   the information in that article and hopefully expand upon it, I mean
+   it’d be nice if I could use this entry as a reference page in the
+   future for when I stumble again upon hibernation files. Our goal for
+   today is going to be to answer the following question:
+
+     What’s a hiberfil.sys file, does it have slack space and if so how
+     do we find and analyze it?
+
+   To answer that question will hopefully be answered in the following
+   paragraphs; we are going to look at the hibernation process,
+   hibernation file, it’s file format structure, how to interpret it and
+   finally analyze the found slack space. As usual you can skip the post
+   and go directly to the [245]code.
+
+   Hibernation process
+
+   When you put your computer to ‘sleep’ there are actually several ways
+   in which it can be performed by the operating  system one of those
+   being the hibernation one. The hibernation process puts the contents of
+   your memory into the hiberfil.sys file so that the state of all your
+   running applications is preserved. By default when you enable
+   hibernation the hiberfil.sys is created and filled with zeros. To
+   enable hibernation you can run the following command in an elevated
+   command shell:
+powercfg.exe -H on
+
+   If you want to also control the size you can do:
+powercfg.exe -H -Size 100
+
+   An interesting fact to note is that Windows 7 sets the size of the
+   hibernation file size to 75% of your memory size by default. According
+   to Microsoft documentation (2) this means that hibernation process
+   could fail if it’s not able to compress the memory contents to fit in
+   the hibernation file. This of course is useful information since it
+   indicates that the contest of the hibernation file is compressed which
+   usually will make basic analysis like ‘strings’ pretty useless.
+
+     if you use strings always go for ‘strings -a <inputfile>’ read
+     [246]this post if you are wondering why.
+
+   The hibernation file usually resides in the root directory of
+   the system drive, but it’s not fixed. If an administrators wants to
+   change the location he can do so by editing the following registry key
+   as explained by [247]this (3) msdn article:
+Key Name: HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Managemen
+t\
+Value Name: PagingFiles
+Type: REG_MULT_SZ
+Data: C:\pagefile.sys 150 500
+In the Data field, change the path and file name of the pagefile, along with the
+ minimum and maximum file size values (in megabytes).
+
+   So if you are performing an incident response or forensic investigation
+   make sure you check this registry key before you draw any conclusion if
+   the hiberfil.sys file is absent from it’s default location. Same goes
+   for creating memory images using hibernation, make sure you get the
+   100% and write it to a location which doesn’t destroy evidence or where
+   the evidence has already been collected.
+
+   Where does the slack space come from you might ask? That’s an
+   interesting question since you would assume that each time the computer
+   goes into hibernation mode it would create a new hiberfil.sys file, but
+   it doesn’t. Instead it will overwrite the current file with the
+   contents it wants to save. This is what causes slack space, since if
+   the new data is smaller in size than the already available files the
+   data at the end of the file will still be available even if it’s not
+   referenced by the new headers written to the file.
+
+   From a forensic standpoint that’s pretty interesting since
+   the unreferenced but available data might contain important information
+   to help the investigation along. If you are working with tools that
+   automatically import / parse or analyse the hiberfil.sys file you
+   should check / ask / test how they handle slack space. In a best case
+   scenario they will inform you about the slack space and try to recover
+   the information, in a less ideal scenario they will inform you that
+   there is slack space but it’s not able to handle the data and in the
+   worst case scenario it will just silently ignore that data and tell you
+   the hibernation file has been processed successfully.
+
+   [248]Read the rest of this entry »
+
+[249]Writing your own blind SQLi script
+
+   Posted: July 26, 2014 in [250]general, [251]security
+   Tags: [252]blind injection, [253]python, [254]sql injection, [255]sqli
+   [256]0
+
+   We all know that [257]sqlmap is a really great tool which has a lot of
+   options that you can tweak and adjust to exploit the SQLi vuln you just
+   found (or that sqlmap found for you). On rare occasions however you
+   might want to just have a small and simple script or you just want to
+   learn how to do it yourself. So let’s see how you could write your own
+   script to exploit a blind SQLi vulnerability. Just to make sure we are
+   all on the same page, here is the blind SQLi definition from
+   [258]OWASP:
+
+     Blind SQL (Structured Query Language) injection is a type
+     of [259]SQL Injection attack that asks the database true or false
+     questions and determines the answer based on the applications
+     response.
+
+   You can also roughly divide the exploiting techniques in two categories
+   (like owasp does) namely:
+     * content based
+          + The page output tells you if the query was successful or not
+     * time based
+          + Based on a time delay you can determine if your query was
+            successful or not
+
+   Of course you have dozens of variations on the above two techniques, I
+   wrote about one such variation a [260]while ago. For this script we are
+   going to just focus on the basics of the mentioned techniques, if you
+   are more interested in knowing how to find SQLi vulnerabilities you
+   could read my article on [261]Solving RogueCoder’s SQLi challenge.
+   Since we are only focusing on automating a blind sql injection, we will
+   not be building functionality to find SQL injections.
+
+   Before we even think about sending SQL queries to the servers, let’s
+   first setup the vulnerable environment and try to be a bit realistic
+   about it. Normally this means that you at least have to login, keep
+   your session and then inject. In some cases you might even have to take
+   into account [262]CSRF tokens which depending on the implementation,
+   means you have to parse some HTML before you can send the request. This
+   will however be out of scope for this blog entry. If you want to know
+   how you could parse HTML with python you could take a look at my
+   [263]credential scavenger entry.
+
+   If you just want the scripts you can find them in the
+   [264]example_bsqli_scripts repository on my github, since this is an
+   entry on how you could write your own scripts all the values are hard
+   coded in the script.
+
+   [265]Read the rest of this entry »
+
+[266]Physical home security options
+
+   Posted: July 13, 2014 in [267]MemoToSelf, [268]security
+   Tags: [269]alarm, [270]burglarly, [271]locks, [272]physical security
+   [273]0
+
+   During one of those boring afternoons I noticed that most embassy
+   buildings seem to have more or less the same amount of visible physical
+   protection, this made me wonder what the available options are if you’d
+   want to protect your own house. These are just some quick notes after
+   searching around the internet on another boring afternoon, most of the
+   options have an additional wide variety of configuration possibilities.
+   So if you decide to implement any of the mentioned options, please do
+   some research yourself, since these are just some starting points and
+   you should choose the appropriate configuration yourself.
+
+   Keep in mind that (as far as I know) most options discussed here can be
+   bypassed. Like with all security measures you should base the choices
+   you make on a layered approach. The sum of all the protective measures
+   should buy you enough time to detect a break in and react before any
+   valuables are stolen. Feel free to leave additional measures in the
+   comments or how to bypass the measures in this article. Do keep in mind
+   that these measures will be a lot less effective if they decide to
+   break in while you are at home, also these security measure are not
+   aimed at preventing social engineering attacks. As usual I’ve got no
+   clue what the rules in your country are, so read up on them before you
+   implement some of the following options.
+
+   Oh and if you want an example of how physical security measures can by
+   bypassed then you’ll probably enjoy this article. It’s about one of the
+   biggest ($100 million) diamond heists in Belgium and how the attackers
+   bypassed ten physical security measures: [274]The Untold Story of the
+   World’s Biggest Diamond Heist
+
+   [275]Read the rest of this entry »
+   [276]Older Entries
+     __________________________________________________________________
+
+   [277]Blog at WordPress.com. | [278]The Greyzed Theme.
+
+   [279]DiabloHorn
+   [280]Create a free website or blog at WordPress.com. [281]The Greyzed
+   Theme.
+
+   [282]Follow
+
+Follow “DiabloHorn”
+
+   Get every new post delivered to your Inbox.
+
+   Join 38 other followers
+
+   ____________________
+
+   Sign me up
+   [283]Build a website with WordPress.com
+
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Post to
+   [284]Cancel Reblog Post
+
+References
+
+   1. http://diablohorn.com/feed/
+   2. http://diablohorn.com/comments/feed/
+   3. http://diablohorn.com/osd.xml
+   4. https://s1.wp.com/opensearch.xml
+   5. http://diablohorn.com/
+   6. http://diablohorn.com/books-aka-rtfm/
+   7. http://diablohorn.com/contact/
+   8. http://diablohorn.com/easy-c-libs/
+   9. http://diablohorn.com/
+  10. http://diablohorn.com/feed/
+  11. http://diablohorn.com/
+  12. http://diablohorn.com/2016/02/06/powershell-overview-and-introduction/
+  13. http://diablohorn.com/2015/10/03/pageant-key-extraction-automated/
+  14. http://diablohorn.com/2015/09/04/discovering-the-secrets-of-a-pageant-minidump/
+  15. http://diablohorn.com/2015/03/28/continuously-rotating-hashes/
+  16. http://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/
+  17. http://blog.0x3a.com/
+  18. http://aboulton.blogspot.com/
+  19. http://barrebas.github.io/
+  20. http://blog.DidierStevens.com/
+  21. http://www.digitaloffensive.com/
+  22. http://blog.distracted.nl/
+  23. http://blog.g3rt.nl/
+  24. http://hackingtheeveryday.blogspot.com/
+  25. http://blog.hacktalk.net/
+  26. https://highon.coffee/
+  27. http://www.illmob.org/
+  28. http://www.itsolutionskb.com/
+  29. http://jellevergeer.com/
+  30. http://www.mattandreko.com/
+  31. http://www.mogozobo.com/
+  32. http://blog.l3g3ndary.org/
+  33. http://node00.wordpress.com/
+  34. http://buffered.io/
+  35. http://phillipgrimes.com/
+  36. http://py1337.get-root.com/
+  37. http://r3v3rs3r.wordpress.com/
+  38. http://wi-fu.co.uk/
+  39. http://roguecod3r.wordpress.com/
+  40. http://www.buzzworld.org/
+  41. http://www.securityartwork.es/
+  42. http://www.sovasec.com/
+  43. http://blog.stoked-security.com/
+  44. http://blog.techorganic.com/
+  45. http://blog.teusink.net/
+  46. http://underc0de.org/
+  47. https://ctf-team.vulnhub.com/
+  48. http://blog.zer0w1re.net/
+  49. http://www.alex-ionescu.com/
+  50. http://arteam.accessroot.com/
+  51. http://www.awarenetwork.org/
+  52. http://www.breaknenter.org/
+  53. http://blog.coralic.nl/
+  54. http://crucialsecurityblog.harris.com/
+  55. http://deroko.phearless.org/
+  56. http://www.reconstructer.org/
+  57. http://freedns.afraid.org/
+  58. http://www.governmentsecurity.org/
+  59. http://hackaday.com/
+  60. http://infinityexists.com/
+  61. http://www.infosecwriters.com/
+  62. http://maliciousattacker.blogspot.com/
+  63. http://labs.mwrinfosecurity.com/
+  64. http://packetstormsecurity.org/
+  65. http://pentestmonkey.net/
+  66. http://www.phrack.org/
+  67. https://community.rapid7.com/blogs
+  68. http://websec.wordpress.com/
+  69. http://edge-security.blogspot.com/
+  70. http://www.thesprawl.org/
+  71. http://www.thoughtcrime.org/
+  72. http://www.uninformed.org/
+  73. http://volatile-minds.blogspot.com/
+  74. http://www.woodmann.com/
+  75. http://diablohorn.com/2016/02/
+  76. http://diablohorn.com/2015/10/
+  77. http://diablohorn.com/2015/09/
+  78. http://diablohorn.com/2015/03/
+  79. http://diablohorn.com/2014/12/
+  80. http://diablohorn.com/2014/07/
+  81. http://diablohorn.com/2014/04/
+  82. http://diablohorn.com/2014/03/
+  83. http://diablohorn.com/2014/02/
+  84. http://diablohorn.com/2014/01/
+  85. http://diablohorn.com/2013/11/
+  86. http://diablohorn.com/2013/10/
+  87. http://diablohorn.com/2013/07/
+  88. http://diablohorn.com/2013/05/
+  89. http://diablohorn.com/2013/04/
+  90. http://diablohorn.com/2013/03/
+  91. http://diablohorn.com/2013/02/
+  92. http://diablohorn.com/2013/01/
+  93. http://diablohorn.com/2012/12/
+  94. http://diablohorn.com/2012/11/
+  95. http://diablohorn.com/2012/02/
+  96. http://diablohorn.com/2012/01/
+  97. http://diablohorn.com/2011/12/
+  98. http://diablohorn.com/2011/10/
+  99. http://diablohorn.com/2011/07/
+ 100. http://diablohorn.com/2010/12/
+ 101. http://diablohorn.com/2010/11/
+ 102. http://diablohorn.com/2010/08/
+ 103. http://diablohorn.com/2010/07/
+ 104. http://diablohorn.com/2010/06/
+ 105. http://diablohorn.com/2010/04/
+ 106. http://diablohorn.com/2010/03/
+ 107. http://diablohorn.com/2010/01/
+ 108. http://diablohorn.com/2009/12/
+ 109. http://diablohorn.com/2009/11/
+ 110. http://diablohorn.com/2009/10/
+ 111. http://diablohorn.com/2009/08/
+ 112. http://diablohorn.com/2009/07/
+ 113. http://diablohorn.com/2009/06/
+ 114. http://diablohorn.com/2009/05/
+ 115. http://diablohorn.com/2009/03/
+ 116. http://diablohorn.com/2009/02/
+ 117. http://diablohorn.com/2009/01/
+ 118. http://diablohorn.com/2008/12/
+ 119. http://diablohorn.com/2008/11/
+ 120. http://diablohorn.com/2008/10/
+ 121. http://diablohorn.com/tag/anti-forensics/
+ 122. http://diablohorn.com/tag/apache/
+ 123. http://diablohorn.com/tag/applet/
+ 124. http://diablohorn.com/tag/art/
+ 125. http://diablohorn.com/tag/assembly/
+ 126. http://diablohorn.com/tag/av/
+ 127. http://diablohorn.com/tag/backdoor/
+ 128. http://diablohorn.com/tag/bind/
+ 129. http://diablohorn.com/tag/bruteforce/
+ 130. http://diablohorn.com/tag/bypass/
+ 131. http://diablohorn.com/tag/c/
+ 132. http://diablohorn.com/tag/crack/
+ 133. http://diablohorn.com/tag/dcerpc/
+ 134. http://diablohorn.com/tag/detection/
+ 135. http://diablohorn.com/tag/dns/
+ 136. http://diablohorn.com/tag/dnscat/
+ 137. http://diablohorn.com/tag/dork/
+ 138. http://diablohorn.com/tag/dpkt/
+ 139. http://diablohorn.com/tag/encryption/
+ 140. http://diablohorn.com/tag/fakedns/
+ 141. http://diablohorn.com/tag/fde/
+ 142. http://diablohorn.com/tag/firewall/
+ 143. http://diablohorn.com/tag/forensic/
+ 144. http://diablohorn.com/tag/google/
+ 145. http://diablohorn.com/tag/hash/
+ 146. http://diablohorn.com/tag/icmp/
+ 147. http://diablohorn.com/tag/immunity-debugger/
+ 148. http://diablohorn.com/tag/impacket/
+ 149. http://diablohorn.com/tag/java/
+ 150. http://diablohorn.com/tag/jsp/
+ 151. http://diablohorn.com/tag/kd-team/
+ 152. http://diablohorn.com/tag/linux/
+ 153. http://diablohorn.com/tag/live-forensics/
+ 154. http://diablohorn.com/tag/lua/
+ 155. http://diablohorn.com/tag/memory/
+ 156. http://diablohorn.com/tag/metasploit/
+ 157. http://diablohorn.com/tag/meterpreter/
+ 158. http://diablohorn.com/tag/mitm/
+ 159. http://diablohorn.com/tag/mod_negotiation/
+ 160. http://diablohorn.com/tag/mysql/
+ 161. http://diablohorn.com/tag/nmap/
+ 162. http://diablohorn.com/tag/ollydbg/
+ 163. http://diablohorn.com/tag/pageant/
+ 164. http://diablohorn.com/tag/password/
+ 165. http://diablohorn.com/tag/pcap/
+ 166. http://diablohorn.com/tag/proxy/
+ 167. http://diablohorn.com/tag/psexec/
+ 168. http://diablohorn.com/tag/python/
+ 169. http://diablohorn.com/tag/registry/
+ 170. http://diablohorn.com/tag/rfi/
+ 171. http://diablohorn.com/tag/rootkit/
+ 172. http://diablohorn.com/tag/scanner/
+ 173. http://diablohorn.com/tag/scapy/
+ 174. http://diablohorn.com/tag/shell/
+ 175. http://diablohorn.com/tag/shellcode/
+ 176. http://diablohorn.com/tag/signing/
+ 177. http://diablohorn.com/tag/smb/
+ 178. http://diablohorn.com/tag/sniffer/
+ 179. http://diablohorn.com/tag/spoof-dns/
+ 180. http://diablohorn.com/tag/spy-gadget/
+ 181. http://diablohorn.com/tag/sql/
+ 182. http://diablohorn.com/tag/sqli/
+ 183. http://diablohorn.com/tag/ssl/
+ 184. http://diablohorn.com/tag/stack/
+ 185. http://diablohorn.com/tag/tcpip/
+ 186. http://diablohorn.com/tag/truecrypt/
+ 187. http://diablohorn.com/tag/udp/
+ 188. http://diablohorn.com/tag/virtual/
+ 189. http://diablohorn.com/tag/virtualization/
+ 190. http://diablohorn.com/tag/vmware/
+ 191. http://diablohorn.com/tag/war/
+ 192. http://diablohorn.com/tag/wde/
+ 193. http://diablohorn.com/tag/web/
+ 194. http://diablohorn.com/tag/wireshark/
+ 195. http://diablohorn.com/tag/wordlist/
+ 196. http://diablohorn.com/2016/02/06/powershell-overview-and-introduction/
+ 197. http://diablohorn.com/category/general/
+ 198. http://diablohorn.com/tag/powershell/
+ 199. http://diablohorn.com/2016/02/06/powershell-overview-and-introduction/#comments
+ 200. https://en.wikipedia.org/wiki/Windows_PowerShell
+ 201. https://diablohorn.files.wordpress.com/2016/01/basic-powershell-commands-intro-840x420.png
+ 202. http://diablohorn.com/2016/02/06/powershell-overview-and-introduction/#more-1143
+ 203. http://diablohorn.com/2015/10/03/pageant-key-extraction-automated/
+ 204. http://diablohorn.com/category/general/
+ 205. http://diablohorn.com/tag/capstone/
+ 206. http://diablohorn.com/tag/memory-dump/
+ 207. http://diablohorn.com/tag/pageant/
+ 208. http://diablohorn.com/tag/pycrypto/
+ 209. http://diablohorn.com/2015/10/03/pageant-key-extraction-automated/#comments
+ 210. https://diablohorn.wordpress.com/2015/09/04/discovering-the-secrets-of-a-pageant-minidump/
+ 211. https://github.com/DiabloHorn/pageant_xkeys
+ 212. http://diablohorn.com/2015/09/04/discovering-the-secrets-of-a-pageant-minidump/
+ 213. http://diablohorn.com/category/general/
+ 214. http://diablohorn.com/category/security/
+ 215. http://diablohorn.com/tag/memory/
+ 216. http://diablohorn.com/tag/minidump/
+ 217. http://diablohorn.com/tag/pageant/
+ 218. http://diablohorn.com/tag/rsa-key/
+ 219. http://diablohorn.com/tag/windbg/
+ 220. http://diablohorn.com/2015/09/04/discovering-the-secrets-of-a-pageant-minidump/#comments
+ 221. https://en.wikipedia.org/wiki/Red_team
+ 222. http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+ 223. http://diablohorn.com/2015/09/04/discovering-the-secrets-of-a-pageant-minidump/#more-1097
+ 224. http://diablohorn.com/2015/03/28/continuously-rotating-hashes/
+ 225. http://diablohorn.com/category/midnight-thoughts/
+ 226. http://diablohorn.com/category/security/
+ 227. http://diablohorn.com/tag/2fa/
+ 228. http://diablohorn.com/tag/authentication/
+ 229. http://diablohorn.com/tag/hash/
+ 230. http://diablohorn.com/tag/otp/
+ 231. http://diablohorn.com/tag/password/
+ 232. http://diablohorn.com/2015/03/28/continuously-rotating-hashes/#respond
+ 233. http://en.wikipedia.org/wiki/Two_factor_authentication
+ 234. https://github.com/DiabloHorn/rotating_hash
+ 235. http://diablohorn.com/2015/03/28/continuously-rotating-hashes/#more-1084
+ 236. http://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/
+ 237. http://diablohorn.com/category/general/
+ 238. http://diablohorn.com/tag/hiberfil-sys/
+ 239. http://diablohorn.com/tag/hibernation/
+ 240. http://diablohorn.com/tag/python/
+ 241. http://diablohorn.com/tag/slack-space/
+ 242. http://diablohorn.com/tag/volatility/
+ 243. http://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/#comments
+ 244. http://digital-forensics.sans.org/blog/2014/07/01/hibernation-slack-unallocated-data-from-the-deep-past
+ 245. https://github.com/DiabloHorn/find_hib_slack
+ 246. http://lcamtuf.blogspot.nl/2014/10/psa-dont-run-strings-on-untrusted-files.html
+ 247. http://msdn.microsoft.com/en-us/library/ms912851(v=winembedded.5).aspx
+ 248. http://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/#more-1046
+ 249. http://diablohorn.com/2014/07/26/writing-your-own-blind-sqli-script/
+ 250. http://diablohorn.com/category/general/
+ 251. http://diablohorn.com/category/security/
+ 252. http://diablohorn.com/tag/blind-injection/
+ 253. http://diablohorn.com/tag/python/
+ 254. http://diablohorn.com/tag/sql-injection/
+ 255. http://diablohorn.com/tag/sqli/
+ 256. http://diablohorn.com/2014/07/26/writing-your-own-blind-sqli-script/#respond
+ 257. http://sqlmap.org/
+ 258. https://www.owasp.org/index.php/Blind_SQL_Injection
+ 259. https://www.owasp.org/index.php/SQL_Injection
+ 260. http://diablohorn.wordpress.com/2011/07/08/efficient-but-slow-blind-sql-injection-data-extraction/
+ 261. http://diablohorn.wordpress.com/2014/02/09/solving-roguecoders-sqli-challenge/
+ 262. http://en.wikipedia.org/wiki/Cross-site_request_forgery
+ 263. http://diablohorn.wordpress.com/2012/11/22/credential-scavenger/
+ 264. https://github.com/DiabloHorn/example_bsqli_scripts
+ 265. http://diablohorn.com/2014/07/26/writing-your-own-blind-sqli-script/#more-1011
+ 266. http://diablohorn.com/2014/07/13/physical-home-security-options/
+ 267. http://diablohorn.com/category/memotoself/
+ 268. http://diablohorn.com/category/security/
+ 269. http://diablohorn.com/tag/alarm/
+ 270. http://diablohorn.com/tag/burglarly/
+ 271. http://diablohorn.com/tag/locks/
+ 272. http://diablohorn.com/tag/physical-security/
+ 273. http://diablohorn.com/2014/07/13/physical-home-security-options/#respond
+ 274. http://archive.wired.com/politics/law/magazine/17-04/ff_diamonds?currentPage=all
+ 275. http://diablohorn.com/2014/07/13/physical-home-security-options/#more-984
+ 276. http://diablohorn.com/page/2/
+ 277. https://wordpress.com/?ref=footer_blog
+ 278. https://wordpress.com/themes/greyzed/
+ 279. http://diablohorn.com/
+ 280. https://wordpress.com/?ref=footer_website
+ 281. https://wordpress.com/themes/greyzed/
+ 282. javascript:void(0)
+ 283. https://wordpress.com/?ref=lof
+ 284. file:///home/mgomez/CS432/A3/source236.txt

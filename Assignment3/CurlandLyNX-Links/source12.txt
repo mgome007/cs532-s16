@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=4407ac63b04a974114891da19b333539"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ 
+<!-------
+theme by kuroneki. don't remove this part and don't remove my in-theme credit. u are allowed to change the colors/corner position, but nothing else.
+   
+feel free to send a msg to my blog if something doesnt work or if you need help with certain customization.
+<!------>
+ 
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+    <title>「A U T O P L A Y」</title>
+    <style>figure{margin:0}</style>
+<link rel="shortcut icon" href="http://static.tumblr.com/5f3b2a79ed2b8ecc00d9002ba59e513c/4fthdhs/sOEo2k8f8/tumblr_static_ct5hsj6b2dc0o8scs0g0g444k.png" />
+    <link rel="alternate" type="application/rss+xml" href="http://katsu-tea.tumblr.com/rss" />
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ 
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'> <!-- this is a font source, don't delete -->
+ 
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+ 
+<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+ 
+ <meta name="color:Background" content="#fff" />
+ <meta name="color:Text" content="#000"/>
+ <meta name="image:Background" content=""/>
+ <meta name="image:Sidebar Image" content=""/>
+ <meta name="image:Favicon" content=""/>
+ 
+ <meta name="color:Scrollbar" content="#000"/>
+ <meta name="color:Blockquote" content="#000"/>
+ <meta name="color:Link" content="#000"/>
+ <meta name="color:Permalinks" content="#000"/>
+ <meta name="color:Notes Heart Color" content="#d00000"/>
+ 
+ <meta name="text:Link 1" content="home"/>
+ <meta name="text:Link 1 URL" content="/"/>
+ <meta name="text:Link 2" content="message"/>
+ <meta name="text:Link 2 URL" content="/ask"/>
+ <meta name="text:Link 3" content="navigation"/>
+ <meta name="text:Link 3 URL" content="/"/>
+ <meta name="text:Link 4" content="archive"/>
+ <meta name="text:Link 4 URL" content="/archive"/>
+ 
+ <meta name="if:ShowCaptions" content="0"/>
+ <meta name="if:FullsizeBG" content="0"/>
+ <meta name="if:MonochromeImages" content="0"/>
+ 
+<style type="text/css">
+ 
+iframe#tumblr_controls {
+    right: 5px !important;
+    position: fixed !important;
+}
+ 
+body {
+    color: #848484;
+    background-color: #ffffff;
+    background-image: url(http://static.tumblr.com/94db70a6eed538586c395fc92c32fcb6/4fthdhs/erwo2k8f7/tumblr_static_3987u4wmmvs4wgs8c4gk4080g.png);
+    background-repeat: repeat;
+    
+    background-attachment: fixed;
+    font-family: "source sans pro";
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    text-transform: lowercase;
+}
+ 
+a {
+    text-decoration: none;
+    color: #b8b8b8;
+    font-style: italic;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+ 
+a:hover {
+    color: #b8b8b8;
+    cursor: help;
+    text-shadow: 0px 0px 1px #b8b8b8;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+ 
+::-webkit-scrollbar {
+    width: 3px;
+    height: 5px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 16px;
+}
+ 
+#content {
+    
+    width: 600px;
+    
+    
+    position: relative;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+ 
+.entry {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+    background: #fff;
+    padding: 20px 20px 10px 20px;
+    width: 400px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    z-index: -9;
+}
+ 
+.entry img {
+    max-width: 100%;
+    height:auto;
+    
+}
+ 
+.entry img:hover {
+    -webkit-transition: opacity 0.5s linear;
+    opacity: 1;
+}
+ 
+#perma {
+    width: 360px;
+    margin-left: 20px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    color: #000;
+    margin-top: 5px;
+    padding-top: 8px;
+    border-top: 1px dashed #000;
+}
+ 
+#perma a {
+    color: #000;
+    text-decoration: none;
+    font-style: normal;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+ 
+#perma a:hover {
+    text-shadow: 0px 0px 1px #000;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+ 
+blockquote {
+    border-left: 1px dashed #000;
+    margin-left: 6px;
+    padding-left: 10px;
+}
+ 
+ol.notes {
+    margin-top: 20px;
+    margin-left: -20px;
+    line-height: 20px;
+}
+ 
+ol.notes img {
+    display:none;
+}
+ 
+.top.media.photoset {
+    line-height: 0;
+    position: relative;
+    display: inline-block;
+}
+ 
+.html_photoset {
+    
+    
+}
+ 
+.html_photoset:hover {
+    -webkit-transition: opacity 0.5s linear;
+    opacity: 1;
+}
+ 
+#wrapper {
+    width: 480px;
+    margin: 0px auto;
+}
+img.avatar {display:none; }
+ 
+#credit { /* DO NOT REMOVE THIS */
+    position:fixed;
+    padding: 5px 4px 5px 5px;
+    bottom: 10px;
+    left: 10px;
+    font-size:18px;
+    border: 1px solid #000;
+    background: #fff; /* feel free to recolor this to fit the rest */
+}
+       
+#credit a {
+    color: #000; /* feel free to recolor this to fit the rest */
+    font-style: normal;
+    text-shadow: none;
+    text-decoration: none;
+}
+ 
+.quote {
+    font-style: italic;
+}
+ 
+.quotesource {
+    text-align: right;
+    margin-bottom: 10px;
+}
+ 
+.textpost {
+    margin-top: -10px;
+}
+ 
+.chat {
+    margin-bottom: 10px;
+}
+ 
+#posttape1 {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -60px;
+}
+ 
+#posttape2 {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 350px;
+}
+ 
+#posttape3 {
+    margin-top: -30px;
+    margin-left: 345px;
+    position: absolute;
+    float: bottom;
+}
+ 
+#posttape4 {
+    margin-top: -30px;
+    margin-left: -55px;
+    position: absolute;
+    float: bottom;
+}
+ 
+#sidenote {
+    top: 200px;
+    position: fixed;
+    margin-left: -300px;
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    background-color: #fff;
+    z-index: 999;
+    -ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+ 
+#sidetape {
+    position: fixed;
+    margin-left: -295px;
+    top: 185px;
+    -ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    z-index: 99999;
+}
+ 
+#sideimg img {
+    max-width: 120px;
+    max-height: 120px;
+    -ms-transform: rotate(-0.5deg);
+    -webkit-transform: rotate(-0.5deg);
+    -moz-transform: rotate(-0.5deg);
+    -o-transform: rotate(-0.5deg);
+    transform: rotate(-0.5deg);
+}
+ 
+#sidenote2 {
+    top: 360px;
+    position: fixed;
+    margin-left: -270px;
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+ 
+#sidetape2 {
+    position: fixed;
+    margin-left: -248px;
+    top: 345px;
+    z-index: 99999;
+}
+ 
+#sidetape3 {
+    position: fixed;
+    margin-left: -248px;
+    top: 507px;
+    z-index: 99999;
+}
+ 
+#desc {
+    margin-top: -5px;
+    height: 45px;
+    text-align: center;
+    overflow: hidden;
+}
+ 
+.sidelinks {
+    display: block;
+    text-align: center;
+    border-bottom: 1px dashed #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ 
+.tags {
+    padding: 0px 40px 0px 40px;
+}
+ 
+</style>
+ 
+<script type="text/javascript" src="http://codes.bitshare.cm/infinitescrolling.js"></script>
+ 
+ 
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=katsu-tea" />
+<link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=katsu-tea" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=8b0553f75283ecbeb78be24f096f4c2c"></script>
+
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/caslonfs/stylesheet.css?v=3">
+<meta name="keywords" content="love live!,love live,llsif,audio,acnl" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="「A U T O P L A Y」" /><meta property="og:url" content="http://katsu-tea.tumblr.com/?og=1" /><meta property="og:description" content="Katsu | 17 - Love Live! obsessed" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_17be4258402a_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=katsu-tea" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=katsu-tea" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="app" /><meta name="twitter:description" content="katsu-tea" /><meta name="twitter:title" content="katsu-tea" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=katsu-tea&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=katsu-tea&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=katsu-tea&amp;referrer=twitter-cards" />
+
+<!-- GOOGLE CAROUSEL --><script type="application/ld+json">{"@type":"ItemList","url":"http:\/\/katsu-tea.tumblr.com","itemListElement":[{"@type":"ListItem","position":1,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139556069149\/lifeiscaulscott-im-max-caulfield-princess"},{"@type":"ListItem","position":2,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139556054049\/lifeiscaulscott-soojunkys-hyunseung-turning"},{"@type":"ListItem","position":3,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139555848969\/waakeme-up-hohohoesquartz-neonpossums"},{"@type":"ListItem","position":4,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139555739844\/lovelive-1draw-twitter-icehotmilktea"},{"@type":"ListItem","position":5,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139555433314"},{"@type":"ListItem","position":6,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139553807669\/raiikyuu-me-is-replaced-me-hahaha-thats-ok"},{"@type":"ListItem","position":7,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139553636724\/cuckroach-dongboss-cuckroach-personally-i"},{"@type":"ListItem","position":8,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139553628019\/nutellamolotov-when-your-friend-starts-getting"},{"@type":"ListItem","position":9,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139553611064"},{"@type":"ListItem","position":10,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139553599199\/ch0c0re-\u7686\u306b\u96a0\u308c\u3066"},{"@type":"ListItem","position":11,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139553582399\/its-not-you-its-my-anxiety"},{"@type":"ListItem","position":12,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139552717604\/danielfaradies-i-hate-you-deadpool-i-know-you"},{"@type":"ListItem","position":13,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139549893664\/lovelive-confessions-not-only-is-it-what-i"},{"@type":"ListItem","position":14,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139549881104\/wifipasswords-lets-play-a-fun-game-called"},{"@type":"ListItem","position":15,"url":"http:\/\/katsu-tea.tumblr.com\/post\/139548701524\/nerdtracks-animal-crossing-new-leaf"}],"@context":"http:\/\/schema.org"}</script>
+<link rel="canonical" href="http://katsu-tea.tumblr.com" />
+
+</head>
+ 
+<body>
+ 
+<div id="credit"><a href="http://kuroneki.tumblr.com/" title="theme by kuroneki">✿</a></div>
+ 
+<div id="wrapper">
+ 
+<div id="sidetape"><img src="http://i.imgur.com/v0mb89z.png" draggable="false"></div>
+<div id="sidenote">
+<div id="sideimg"><img src="http://static.tumblr.com/b41cdef502015d42cc8553d55ebecdf1/4fthdhs/GeTo2k8f8/tumblr_static_59jcmgpc24g0go8wwk0480040.png" draggable="false"></div>
+</div>
+<div id="sidetape2"><img src="http://i.imgur.com/v0mb89z.png" draggable="false"></div>
+ 
+<div id="sidenote2">
+    <div id="desc">Katsu | 17 - Love Live! obsessed</div>
+    <a href="/" class="sidelinks">home</a>
+    <a href="/ask" class="sidelinks">message</a>
+    <a href="/" class="sidelinks">navigation</a>
+    <a href="/archive" class="sidelinks">archive</a>
+</div>
+ 
+<div id="sidetape3"><img src="http://i.imgur.com/v0mb89z.png" draggable="false"></div>
+ 
+<div id="centerblock"></div>
+ 
+<div id="content">
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+<img src="http://40.media.tumblr.com/23a11be1fd485c21ec1059af92642cdd/tumblr_o2r7y2buk31urzeo5o1_400.jpg">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">4 hours ago / <a href="http://katsu-tea.tumblr.com/post/139556069149/lifeiscaulscott-im-max-caulfield-princess" title="tagged with: #beautiful people ">17</a> <font color="#d00000">♥</font> / <a href="http://im-max-caulfield.tumblr.com/post/139551026437/princess">source</a> / <a href="https://www.tumblr.com/reblog/139556069149/Ssvbzlkl" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+<img src="http://45.media.tumblr.com/32eae7c11e5d24e34ad6ff3947ea7fc1/tumblr_mwtd2isC4L1sx8vuro1_r1_400.gif">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">4 hours ago / <a href="http://katsu-tea.tumblr.com/post/139556054049/lifeiscaulscott-soojunkys-hyunseung-turning" title="tagged with: #hyunseung #hyuna #HYUNA CAN STEP ON ME ANY DAY ">64</a> <font color="#d00000">♥</font> / <a href="http://soojunkys.tumblr.com/post/68051919440/hyunseung-turning-hyuna-on-x">source</a> / <a href="https://www.tumblr.com/reblog/139556054049/bduSZr7a" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div id='tumblr_video_container_139555848969' class='tumblr_video_container' style='width:500px;height:281px;'><iframe src='https://www.tumblr.com/video/katsu-tea/139555848969/500/' style='display:block;background-color:transparent;overflow:hidden' class='embed_iframe tumblr_video_iframe' scrolling='no' frameBorder='0' data-can-gutter data-can-resize data-width='500' data-height='281' width='500' height='281' allowfullscreen mozallowfullscreen webkitallowfullscreen></iframe></div> 
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">4 hours ago / <a href="http://katsu-tea.tumblr.com/post/139555848969/waakeme-up-hohohoesquartz-neonpossums" title="tagged with: #video #yas ">148085</a> <font color="#d00000">♥</font> / <a href="http://millenniumfucko.tumblr.com/post/134371505593">source</a> / <a href="https://www.tumblr.com/reblog/139555848969/GR5tvyuI" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+<img src="http://40.media.tumblr.com/b0529baf207e53d0145fb7d6d8d345d5/tumblr_o2hr32K5sD1ttaj03o1_400.jpg">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">4 hours ago / <a href="http://katsu-tea.tumblr.com/post/139555739844/lovelive-1draw-twitter-icehotmilktea" title="tagged with: #llsif #love live #love live! ">27</a> <font color="#d00000">♥</font> / <a href="http://twitter.com/icehotmilktea/status/698522471134158848/photo/1">source</a> / <a href="https://www.tumblr.com/reblog/139555739844/ObBhnEBK" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+<img src="http://40.media.tumblr.com/tumblr_mdlanc585y1qetk1ro1_400.jpg">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">4 hours ago / <a href="http://katsu-tea.tumblr.com/post/139555433314" title="tagged with: ">279692</a> <font color="#d00000">♥</font> / <a href="https://www.tumblr.com/reblog/139555433314/wfJM24kI" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+
+ 
+
+ 
+<div class="textpost"><p><a class="tumblr_blog" href="http://raiikyuu.tumblr.com/post/119150117605">raiikyuu</a>:</p>
+<blockquote>
+<p>me: *is replaced*<br>me: hahaha thats ok as long as ur happy :) :) :) :) :)</p>
+</blockquote><p>(via <a href='http://canigetaraincheck.tumblr.com/post/139553643344/raiikyuu-me-is-replaced-me-hahaha-thats-ok'>canigetaraincheck</a>)</p></div>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">5 hours ago / <a href="http://katsu-tea.tumblr.com/post/139553807669/raiikyuu-me-is-replaced-me-hahaha-thats-ok" title="tagged with: ">271765</a> <font color="#d00000">♥</font> / <a href="https://www.tumblr.com/reblog/139553807669/VILEyvVU" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+
+ 
+
+ 
+<div class="textpost"><p><a class="tumblr_blog" href="http://cuckroach.tumblr.com/post/137705305321">cuckroach</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://dongboss.tumblr.com/post/137703400742">dongboss</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://cuckroach.tumblr.com/post/137701858386">cuckroach</a>:</p>
+<blockquote>
+<p>personally I think a lot of things are good</p>
+</blockquote>
+<p>name one</p>
+</blockquote>
+<p>you&rsquo;re right I&rsquo;m sorry</p>
+</blockquote><p>(via <a href='http://flordewitt.tumblr.com/post/139552505575/cuckroach-dongboss-cuckroach-personally-i'>flordewitt</a>)</p></div>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">5 hours ago / <a href="http://katsu-tea.tumblr.com/post/139553636724/cuckroach-dongboss-cuckroach-personally-i" title="tagged with: ">34910</a> <font color="#d00000">♥</font> / <a href="http://himatzu.tumblr.com/post/137701858386/personally-i-think-a-lot-of-things-are-good">source</a> / <a href="https://www.tumblr.com/reblog/139553636724/EFeL9H9l" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+
+ 
+
+ 
+<div class="textpost"><p><a class="tumblr_blog" href="http://nutellamolotov.tumblr.com/post/122363636382">nutellamolotov</a>:</p>
+<blockquote>
+<p>When your friend starts getting into a series you already know</p>
+<figure class="tmblr-full" data-orig-height="466" data-orig-width="1080"><img src="http://41.media.tumblr.com/ea119d0a24c452210077a1ff8953206b/tumblr_inline_nqgvodZLjo1ru6ox4_500.jpg" data-orig-height="466" data-orig-width="1080" width="500" height="215"></figure></blockquote><p>(via <a href='http://flordewitt.tumblr.com/post/139552523735/nutellamolotov-when-your-friend-starts-getting'>flordewitt</a>)</p></div>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">5 hours ago / <a href="http://katsu-tea.tumblr.com/post/139553628019/nutellamolotov-when-your-friend-starts-getting" title="tagged with: ">121291</a> <font color="#d00000">♥</font> / <a href="http://nutellamolotov.tumblr.com/post/122363636382/when-your-friend-starts-getting-into-a-series-you">source</a> / <a href="https://www.tumblr.com/reblog/139553628019/EsvwwGHk" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+<img src="http://45.media.tumblr.com/180368d27369d1a17b8242dd19fe10c8/tumblr_o2mwk9qMjq1u1rqeuo1_400.gif">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">5 hours ago / <a href="http://katsu-tea.tumblr.com/post/139553611064" title="tagged with: #llsif #love live #love live! ">495</a> <font color="#d00000">♥</font> / <a href="http://hanayo-and-rice.tumblr.com/post/139414777361">source</a> / <a href="https://www.tumblr.com/reblog/139553611064/vdfwQYzG" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+<img src="http://36.media.tumblr.com/85f70f34850a9db3bdc0de9c9acd399b/tumblr_o1225tsm1M1v5tygio1_400.png">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">5 hours ago / <a href="http://katsu-tea.tumblr.com/post/139553599199/ch0c0re-皆に隠れて" title="tagged with: #llsif #love live #love live! #kotoumi ">364</a> <font color="#d00000">♥</font> / <a href="http://ch0c0re.tumblr.com/post/137419015292/皆に隠れて">source</a> / <a href="https://www.tumblr.com/reblog/139553599199/hpuJeteO" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+
+ 
+
+ 
+<div class="textpost"><h1>it&rsquo;s not you it&rsquo;s my anxiety</h1><p>(via <a href='http://thecommonchick.com/post/139552718663/its-not-you-its-my-anxiety'>thecommonchick</a>)</p></div>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">5 hours ago / <a href="http://katsu-tea.tumblr.com/post/139553582399/its-not-you-its-my-anxiety" title="tagged with: ">303174</a> <font color="#d00000">♥</font> / <a href="http://ethiopienne.tumblr.com/post/132385414338/its-not-you-its-my-anxiety">source</a> / <a href="https://www.tumblr.com/reblog/139553582399/wHxmGSJ3" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+
+ 
+
+<section class="ia photoset">
+<div id="photoset_139552717604" class="html_photoset">    <iframe id="photoset_iframe_139552717604" class="photoset" scrolling="no" frameborder="0" height="474" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://katsu-tea.tumblr.com/post/139552717604/photoset_iframe/katsu-tea/tumblr_o2q81uj9I21tzin3b/400/false" name="photoset_iframe_139552717604"></iframe></div>
+</section>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">5 hours ago / <a href="http://katsu-tea.tumblr.com/post/139552717604/danielfaradies-i-hate-you-deadpool-i-know-you" title="tagged with: ">8792</a> <font color="#d00000">♥</font> / <a href="http://danielfaradies.tumblr.com/post/139534335013/i-hate-you-deadpool-i-know-you-mean-love-insp">source</a> / <a href="https://www.tumblr.com/reblog/139552717604/UL9i2nhT" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+<img src="http://41.media.tumblr.com/1859198b9b5ca3b348c1f6525d19d410/tumblr_o2ip5ifNTl1tegu7yo1_400.png">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">6 hours ago / <a href="http://katsu-tea.tumblr.com/post/139549893664/lovelive-confessions-not-only-is-it-what-i" title="tagged with: #llsif #love live #love live! ">140</a> <font color="#d00000">♥</font> / <a href="http://lovelive-confessions.tumblr.com/post/139549145213/not-only-is-it-what-i-think-to-be-her-best-vocal">source</a> / <a href="https://www.tumblr.com/reblog/139549893664/YLCmEjV4" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+
+ 
+
+ 
+<div class="textpost"><p><a class="tumblr_blog" href="http://wifipasswords.tumblr.com/post/79934378585">wifipasswords</a>:</p>
+<blockquote>
+<p>Let&rsquo;s play a fun game called &ldquo;we&rsquo;re just friends but I&rsquo;d fuck you if you asked&rdquo;</p>
+</blockquote><p>(via <a href='http://socksexual.tumblr.com/post/139549154588/wifipasswords-lets-play-a-fun-game-called'>socksexual</a>)</p></div>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">6 hours ago / <a href="http://katsu-tea.tumblr.com/post/139549881104/wifipasswords-lets-play-a-fun-game-called" title="tagged with: ">945975</a> <font color="#d00000">♥</font> / <a href="http://yungproletariat.tumblr.com/post/79934378585/lets-play-a-fun-game-called-were-just-friends">source</a> / <a href="https://www.tumblr.com/reblog/139549881104/s4xFaGK0" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+   <div class="entry">
+   
+   
+ <div id="posttape1"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape2"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<span id="audio_player_139548701524"><div class="audio_player"><iframe class="tumblr_audio_player tumblr_audio_player_139548701524" src="http://katsu-tea.tumblr.com/post/139548701524/audio_player_iframe/katsu-tea/tumblr_o2mj1xi8Rz1u9n7l6?audio_file=https%3A%2F%2Fwww.tumblr.com%2Faudio_file%2Fkatsu-tea%2F139548701524%2Ftumblr_o2mj1xi8Rz1u9n7l6&color=white&simple=1" frameborder="0" allowtransparency="true" scrolling="no" width="207" height="27"></iframe></div></span><p>Track: 1 AM - Rainy<br>Artist: Kazumi Totaka, Manaka Kataoka<br>Album: Animal Crossing: New Leaf<br>Played: 2492
+ 
+
+ 
+
+ 
+<!--permalink page-->
+
+   
+    
+     <div id="posttape3"><img src="http://i.imgur.com/oEwgTT8.png" draggable="false"></div>
+  <div id="posttape4"><img src="http://i.imgur.com/yKY0wUk.png" draggable="false"></div>
+  
+   
+    <!--permalink-->
+    <div id="perma">7 hours ago / <a href="http://katsu-tea.tumblr.com/post/139548701524/nerdtracks-animal-crossing-new-leaf" title="tagged with: #audio #acnl #acnl ost ">615</a> <font color="#d00000">♥</font> / <a href="http://nerdtracks.tumblr.com/post/139514187076/animal-crossing-new-leaf">source</a> / <a href="https://www.tumblr.com/reblog/139548701524/oz1LgQYQ" class="permalinks">reblog</a><br>
+</div>
+     </div> <!---entry div--->
+
+</div><!---content div--->
+ 
+</div>
+ 
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?ab5d9138df4f39e0a422d6b59713a84e#" +
+                              "http://katsu-tea.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/';
+                    var tumblelog_id = '190136499';
+                    var yahoo_space_id = '1197719229';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455840584&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wva2F0c3UtdGVhLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=NKPPGKHDDM&K=61bf46c4091fb9eeaf868b944e8b82542fcc233fe3f13818007e2b2e08cf929a&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455840584&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wva2F0c3UtdGVhLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=NKPPGKHDDM&K=ac598450a10997fbe7cf6001f2f4d2ec51f38da2a6c2438b499b36381dec2f85&R="></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455840584&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2thdHN1LXRlYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMjI5MjgzNzc3Iiwicm9vdF9wb3N0aWQiOiIxMzk1NTEwMjY0MzciLCJwb3N0aWQiOjEzOTU1NjA2OTE0OSwiYmxvZ2lkIjoiMTkwMTM2NDk5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExNzc2NDQ5OCIsInJvb3RfcG9zdGlkIjoiNjgwNTE5MTk0NDAiLCJwb3N0aWQiOjEzOTU1NjA1NDA0OSwiYmxvZ2lkIjoiMTkwMTM2NDk5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE1MTg4NTcwIiwicm9vdF9wb3N0aWQiOiIxMzQzNzE1MDU1OTMiLCJwb3N0aWQiOiIxMzk1NTU4NDg5NjkiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTcyMjI5NTcxIiwicm9vdF9wb3N0aWQiOiIxMzkyMzIzNTM4MzIiLCJwb3N0aWQiOiIxMzk1NTU3Mzk4NDQiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODk4MTU3MCIsInJvb3RfcG9zdGlkIjoiMzU4NDY2MDc5NjMiLCJwb3N0aWQiOiIxMzk1NTU0MzMzMTQiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg0MDU5NTUxIiwicm9vdF9wb3N0aWQiOiIxMTkxNTAxMTc2MDUiLCJwb3N0aWQiOiIxMzk1NTM4MDc2NjkiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTE1OTU1MTYwIiwicm9vdF9wb3N0aWQiOiIxMzc3MDE4NTgzODYiLCJwb3N0aWQiOiIxMzk1NTM2MzY3MjQiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfV19&U=PILGGJPEMO&K=ff3cab0358de9551e4e7950423a8ee3e9f8b07136189c259fc3aa9d51551d363&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455840584&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2thdHN1LXRlYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMjI5MjgzNzc3Iiwicm9vdF9wb3N0aWQiOiIxMzk1NTEwMjY0MzciLCJwb3N0aWQiOjEzOTU1NjA2OTE0OSwiYmxvZ2lkIjoiMTkwMTM2NDk5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExNzc2NDQ5OCIsInJvb3RfcG9zdGlkIjoiNjgwNTE5MTk0NDAiLCJwb3N0aWQiOjEzOTU1NjA1NDA0OSwiYmxvZ2lkIjoiMTkwMTM2NDk5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE1MTg4NTcwIiwicm9vdF9wb3N0aWQiOiIxMzQzNzE1MDU1OTMiLCJwb3N0aWQiOiIxMzk1NTU4NDg5NjkiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTcyMjI5NTcxIiwicm9vdF9wb3N0aWQiOiIxMzkyMzIzNTM4MzIiLCJwb3N0aWQiOiIxMzk1NTU3Mzk4NDQiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODk4MTU3MCIsInJvb3RfcG9zdGlkIjoiMzU4NDY2MDc5NjMiLCJwb3N0aWQiOiIxMzk1NTU0MzMzMTQiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg0MDU5NTUxIiwicm9vdF9wb3N0aWQiOiIxMTkxNTAxMTc2MDUiLCJwb3N0aWQiOiIxMzk1NTM4MDc2NjkiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTE1OTU1MTYwIiwicm9vdF9wb3N0aWQiOiIxMzc3MDE4NTgzODYiLCJwb3N0aWQiOiIxMzk1NTM2MzY3MjQiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=PILGGJPEMO&K=f0302f5d5d0bbc3166864e9141ae42e3972e8f7a2369a212a04703997dd8632b&R="></noscript><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455840584&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2thdHN1LXRlYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiNjYwMjMyNzUiLCJyb290X3Bvc3RpZCI6IjEyMjM2MzYzNjM4MiIsInBvc3RpZCI6IjEzOTU1MzYyODAxOSIsImJsb2dpZCI6IjE5MDEzNjQ5OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDcwNTc5NjUiLCJyb290X3Bvc3RpZCI6MTM5NDE0Nzc3MzYxLCJwb3N0aWQiOiIxMzk1NTM2MTEwNjQiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjc0MzQ2MzcxIiwicm9vdF9wb3N0aWQiOiIxMzc0MTkwMTUyOTIiLCJwb3N0aWQiOiIxMzk1NTM1OTkxOTkiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDgxNTYzOSIsInJvb3RfcG9zdGlkIjoiMTMyMzg1NDE0MzM4IiwicG9zdGlkIjoiMTM5NTUzNTgyMzk5IiwiYmxvZ2lkIjoiMTkwMTM2NDk5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4MjY1MjEzMiIsInJvb3RfcG9zdGlkIjoiMTM5NTM0MzM1MDEzIiwicG9zdGlkIjoiMTM5NTUyNzE3NjA0IiwiYmxvZ2lkIjoiMTkwMTM2NDk5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5MDk2NjExMyIsInJvb3RfcG9zdGlkIjoiMTM5NTQ5MTQ1MjEzIiwicG9zdGlkIjoiMTM5NTQ5ODkzNjY0IiwiYmxvZ2lkIjoiMTkwMTM2NDk5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ1NzkyNjAwIiwicm9vdF9wb3N0aWQiOiI3OTkzNDM3ODU4NSIsInBvc3RpZCI6IjEzOTU0OTg4MTEwNCIsImJsb2dpZCI6IjE5MDEzNjQ5OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMjAzMDA3MzQiLCJyb290X3Bvc3RpZCI6IjEzOTUxNDE4NzA3NiIsInBvc3RpZCI6IjEzOTU0ODcwMTUyNCIsImJsb2dpZCI6IjE5MDEzNjQ5OSIsInNvdXJjZSI6MzN9XX0=&U=CNPEIOFABG&K=e6089dbb99ab2c1c2b62aa9c002efacd65521a7020d4bba3246859bc4fac8d4a&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455840584&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2thdHN1LXRlYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiNjYwMjMyNzUiLCJyb290X3Bvc3RpZCI6IjEyMjM2MzYzNjM4MiIsInBvc3RpZCI6IjEzOTU1MzYyODAxOSIsImJsb2dpZCI6IjE5MDEzNjQ5OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDcwNTc5NjUiLCJyb290X3Bvc3RpZCI6MTM5NDE0Nzc3MzYxLCJwb3N0aWQiOiIxMzk1NTM2MTEwNjQiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjc0MzQ2MzcxIiwicm9vdF9wb3N0aWQiOiIxMzc0MTkwMTUyOTIiLCJwb3N0aWQiOiIxMzk1NTM1OTkxOTkiLCJibG9naWQiOiIxOTAxMzY0OTkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDgxNTYzOSIsInJvb3RfcG9zdGlkIjoiMTMyMzg1NDE0MzM4IiwicG9zdGlkIjoiMTM5NTUzNTgyMzk5IiwiYmxvZ2lkIjoiMTkwMTM2NDk5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4MjY1MjEzMiIsInJvb3RfcG9zdGlkIjoiMTM5NTM0MzM1MDEzIiwicG9zdGlkIjoiMTM5NTUyNzE3NjA0IiwiYmxvZ2lkIjoiMTkwMTM2NDk5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5MDk2NjExMyIsInJvb3RfcG9zdGlkIjoiMTM5NTQ5MTQ1MjEzIiwicG9zdGlkIjoiMTM5NTQ5ODkzNjY0IiwiYmxvZ2lkIjoiMTkwMTM2NDk5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ1NzkyNjAwIiwicm9vdF9wb3N0aWQiOiI3OTkzNDM3ODU4NSIsInBvc3RpZCI6IjEzOTU0OTg4MTEwNCIsImJsb2dpZCI6IjE5MDEzNjQ5OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMjAzMDA3MzQiLCJyb290X3Bvc3RpZCI6IjEzOTUxNDE4NzA3NiIsInBvc3RpZCI6IjEzOTU0ODcwMTUyNCIsImJsb2dpZCI6IjE5MDEzNjQ5OSIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=CNPEIOFABG&K=6f4143764cafd2d30e60ee9d730c54b1fdb9abef224c4773750d790cc96c9269&R="></noscript>
+<noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;TumblelogIframe&quot;:{&quot;tumblelogBundleSrc&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.js?_v=7e99ae1182af3b984855ee73042bff77&quot;,&quot;tumblelogName&quot;:&quot;katsu-tea&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;tumblelogTitle&quot;:&quot;\u300cA U T O P L A Y\u300d&quot;,&quot;tumblelogAvatar&quot;:&quot;http:\/\/38.media.tumblr.com\/avatar_17be4258402a_40.png&quot;,&quot;tumblelogHost&quot;:&quot;http:\/\/katsu-tea.tumblr.com&quot;,&quot;brag&quot;:true,&quot;currentPage&quot;:&quot;1&quot;,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;http:\/\/katsu-tea.tumblr.com\/&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;http:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=282357db21d8a5883cc1c780ace4cb5f&quot;,&quot;appInstallUrl&quot;:&quot;https:\/\/go.onelink.me\/893408789?pid=tumblr_blog_network\u0026c=tumblr_blog_network\u0026af_sub3=blog_name&quot;}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aV9wYXJzZV90ZXN0Ijp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJkZXByZWNhdGVfZmVhdHVyZWRfdGFncyI6dHJ1ZSwicmVibG9nX3VpX3JlZnJlc2giOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJkYXNoYm9hcmRfcmVmcmVzaCI6dHJ1ZSwibW9iaWxlX3dlYl9waG90b3NldHMiOnRydWUsIm1vYmlsZV93ZWJfZ2F0ZSI6dHJ1ZSwibW9iaWxlX3dlYl9wYWdlX3RpdGxlcyI6dHJ1ZSwibW9iaWxlX3dlYl9zZWFyY2giOnRydWUsIm1vYmlsZV93ZWJfc2VhcmNoX2ZpbHRlciI6dHJ1ZSwibW9iaWxlX3dlYl9hYnVzZV9mb3JtIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX25ld192ZW5kb3JfYnV0dG9ucyI6dHJ1ZSwiYmxvY2tfZmVhdHVyZSI6dHJ1ZSwicmVhY3RpdmF0aW9uX2Zsb3ciOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2VwaGVtZXJhbF9sb2ciOnRydWUsImxvZ19sYWR5Ijp0cnVlLCJjc2xvZ2dlcl9qcyI6dHJ1ZSwiZGlzY292ZXJ5X2h1Yl9hY2Nlc3MiOnRydWUsImhlYWRlcl9hY2NvdW50X21lbnUiOnRydWUsImVuYWJsZV9wcmltYV9zaGFyZV9wb3BvdmVyIjp0cnVlLCJlbmFibGVfc2hhcmVfZW1iZWRfY29kZSI6dHJ1ZSwicGludGVyZXN0X3NoYXJpbmciOnRydWUsInJlZGRpdF9zaGFyaW5nIjp0cnVlLCJwb3N0X2l0X2ZvcndhcmQiOnRydWUsInBlZXByX3NlYXJjaF9hbmRfZmlsdGVyIjp0cnVlLCJpbnRlcm5zX3BhZ2UiOnRydWUsImZvbGxvd2VkX3NlYXJjaGVzX2JpZ193ZWIiOnRydWUsImRpc2FibGVfcHVibGljX3JlcGxpZXMiOnRydWUsImRpc2FibGVfeWFob29fYl9jb29raWUiOnRydWUsInByaW1hX3R1bWJsZWxvZ19idW5kbGUiOnRydWV9&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1455840584000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;http:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/secure.assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;http:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;http:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;http:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;},&quot;Translations&quot;:[]}"></noscript>
+<script src="http://assets.tumblr.com/client/prod/standalone/tumblelog/index.js?_v=7e99ae1182af3b984855ee73042bff77"></script>
+
+</body>
+ <!-- SCM Music Player http://scmplayer.net -->
+<script type="text/javascript" src="http://scmplayer.net/script.js" 
+data-config="{'skin':'skins/black/skin.css','volume':50,'autoplay':true,'shuffle':true,'repeat':1,'placement':'top','showplaylist':false,'playlist':[{'title':'Lonliest Baby - %u03BC%27s','url':'https://youtu.be/1tEwYgklI3U'},{'title':'Love Marginal - Printemps','url':'https://youtu.be/DKHO5O6qu44'},{'title':'Bokutachi wa Hitotsu no Hikari - %u03BC%27s','url':'https://youtu.be/caNQxtLUuS8'},{'title':'Yuuki no Reason - Umi Sonoda (CV. Mimori Suzuko)','url':'https://youtu.be/IoW7scKanQw'},{'title':'Yume naki Yume wa Yume jyanai - Honoka Kousaka (CV. Emi Nitta)','url':'https://youtu.be/TRl0syagJYI'},{'title':'Natsu Owaranaide - BiBi','url':'https://youtu.be/ChhvyhFhvL4'},{'title':'Kodoku na Heaven - Hanayo Koizumi (CV. Kubo Yurika)','url':'https://youtu.be/3GSCP5Y73UQ'},{'title':'Daring!! - Maki Nishikino (CV. Pile)','url':'https://youtu.be/NC3iYURvhU4'},{'title':'After School Navigators - NicoRinPana','url':'https://youtu.be/shM8zLhqoN8'},{'title':'Sunny Day Song - %u03BC%27s','url':'https://youtu.be/QSpqg5WsOBc'},{'title':'Anemone Heart - Umi Sonoda & Kotori Minami','url':'https://youtu.be/Eil5lVi-a7A'},{'title':'Garasu no Hanazono - NozoEli','url':'https://youtu.be/bnJlScmzR3w'},{'title':'Trouble Busters - BiBi','url':'https://youtu.be/TZ1_QTm50B0'},{'title':'Zurui yo Magnetic Today - NicoMaki','url':'https://youtu.be/aKvaagHsSOo'}]}" ></script>
+<!-- SCM Music Player script end -->
+</html>

@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://crmrocks.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://crmrocks.com/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>The CRM talk show</title>
+
+<!-- All in One SEO Pack 2.2.7.6.2 by Michael Torbert of Semper Fi Web Design[490,532] -->
+<meta name="description" itemprop="description" content="crmrocks.com is a podcast that focus on Dynamics CRM and discussions about what you could do" />
+
+<meta name="keywords" itemprop="keywords" content="crm rocks, crm talk show, talkshow, talk show, crm talkshow" />
+<link rel='next' href='http://crmrocks.com/page/2/' />
+
+<link rel="canonical" href="http://crmrocks.com/" />
+<!-- /all in one seo pack -->
+<link rel="alternate" type="application/rss+xml" title="CRM Rocks &raquo; Feed" href="http://crmrocks.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CRM Rocks &raquo; Comments Feed" href="http://crmrocks.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/crmrocks.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://crmrocks.com/wp-content/themes/twentyfifteen/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='http://crmrocks.com/wp-content/themes/twentyfifteen/style.css?ver=4.4.2' type='text/css' media='all' />
+<style id='twentyfifteen-style-inline-css' type='text/css'>
+
+		/* Custom Header Background Color */
+		body:before,
+		.site-header {
+			background-color: #1e73be;
+		}
+
+		@media screen and (min-width: 59.6875em) {
+			.site-header,
+			.secondary {
+				background-color: transparent;
+			}
+
+			.widget button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.widget_calendar tbody a:focus {
+				color: #1e73be;
+			}
+		}
+	
+
+		/* Custom Sidebar Text Color */
+		.site-title a,
+		.site-description,
+		.secondary-toggle:before {
+			color: #0a0a0a;
+		}
+
+		.site-title a:hover,
+		.site-title a:focus {
+			color: #0a0a0a; /* Fallback for IE7 and IE8 */
+			color: rgba( 10, 10, 10, 0.7);
+		}
+
+		.secondary-toggle {
+			border-color: #0a0a0a; /* Fallback for IE7 and IE8 */
+			border-color: rgba( 10, 10, 10, 0.1);
+		}
+
+		.secondary-toggle:hover,
+		.secondary-toggle:focus {
+			border-color: #0a0a0a; /* Fallback for IE7 and IE8 */
+			border-color: rgba( 10, 10, 10, 0.3);
+		}
+
+		.site-title a {
+			outline-color: #0a0a0a; /* Fallback for IE7 and IE8 */
+			outline-color: rgba( 10, 10, 10, 0.3);
+		}
+
+		@media screen and (min-width: 59.6875em) {
+			.secondary a,
+			.dropdown-toggle:after,
+			.widget-title,
+			.widget blockquote cite,
+			.widget blockquote small {
+				color: #0a0a0a;
+			}
+
+			.widget button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a {
+				background-color: #0a0a0a;
+			}
+
+			.textwidget a {
+				border-color: #0a0a0a;
+			}
+
+			.secondary a:hover,
+			.secondary a:focus,
+			.main-navigation .menu-item-description,
+			.widget,
+			.widget blockquote,
+			.widget .wp-caption-text,
+			.widget .gallery-caption {
+				color: rgba( 10, 10, 10, 0.7);
+			}
+
+			.widget button:hover,
+			.widget button:focus,
+			.widget input[type="button"]:hover,
+			.widget input[type="button"]:focus,
+			.widget input[type="reset"]:hover,
+			.widget input[type="reset"]:focus,
+			.widget input[type="submit"]:hover,
+			.widget input[type="submit"]:focus,
+			.widget_calendar tbody a:hover,
+			.widget_calendar tbody a:focus {
+				background-color: rgba( 10, 10, 10, 0.7);
+			}
+
+			.widget blockquote {
+				border-color: rgba( 10, 10, 10, 0.7);
+			}
+
+			.main-navigation ul,
+			.main-navigation li,
+			.secondary-toggle,
+			.widget input,
+			.widget textarea,
+			.widget table,
+			.widget th,
+			.widget td,
+			.widget pre,
+			.widget li,
+			.widget_categories .children,
+			.widget_nav_menu .sub-menu,
+			.widget_pages .children,
+			.widget abbr[title] {
+				border-color: rgba( 10, 10, 10, 0.1);
+			}
+
+			.dropdown-toggle:hover,
+			.dropdown-toggle:focus,
+			.widget hr {
+				background-color: rgba( 10, 10, 10, 0.1);
+			}
+
+			.widget input:focus,
+			.widget textarea:focus {
+				border-color: rgba( 10, 10, 10, 0.3);
+			}
+
+			.sidebar a:focus,
+			.dropdown-toggle:focus {
+				outline-color: rgba( 10, 10, 10, 0.3);
+			}
+		}
+	
+</style>
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://crmrocks.com/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://crmrocks.com/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://crmrocks.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://crmrocks.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://crmrocks.com/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.4.9'></script>
+<link rel='https://api.w.org/' href='http://crmrocks.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://crmrocks.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://crmrocks.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<script type="text/javascript"><!--
+function powerpress_pinw(pinw_url){window.open(pinw_url, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+//-->
+</script>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link rel="icon" href="http://media.crmrocks.com/2015/08/cropped-crmrocks-com-episode-5-mp3-image-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://media.crmrocks.com/2015/08/cropped-crmrocks-com-episode-5-mp3-image-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://media.crmrocks.com/2015/08/cropped-crmrocks-com-episode-5-mp3-image-180x180.png" />
+<meta name="msapplication-TileImage" content="http://media.crmrocks.com/2015/08/cropped-crmrocks-com-episode-5-mp3-image-270x270.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.4.9: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-67003613-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+</head>
+
+<body class="home blog">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-branding">
+										<h1 class="site-title"><a href="http://crmrocks.com/" rel="home">CRM Rocks</a></h1>
+											<p class="site-description">The CRM Talk Show</p>
+									<button class="secondary-toggle">Menu and widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+				<div class="menu-default-container"><ul id="menu-default" class="nav-menu"><li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279"><a href="http://crmrocks.com/subscribe/">Subscribe</a></li>
+<li id="menu-item-280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-280"><a href="http://crmrocks.com/about/">About</a></li>
+</ul></div>			</nav><!-- .main-navigation -->
+		
+		
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://crmrocks.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit screen-reader-text" value="Search" />
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
+					<li>
+				<a href="http://crmrocks.com/2016/02/14/e-commerce-digital-marketing-and-crm-with-therese-reutersward/">E-commerce, digital marketing and CRM with Therese Reuterswärd</a>
+						</li>
+					<li>
+				<a href="http://crmrocks.com/2016/01/19/develop-for-crm-with-mitch-milam/">Develop for CRM with Mitch Milam</a>
+						</li>
+					<li>
+				<a href="http://crmrocks.com/2015/12/19/top-10-tips-for-successfully-implement-crm-with-gustaf-westerlund/">Top 10 tips for successfully implement CRM with Gustaf Westerlund</a>
+						</li>
+					<li>
+				<a href="http://crmrocks.com/2015/11/16/being-an-entrepreneur-with-therese-lorentzon/">Being an Entrepreneur with Therese Lorentzon</a>
+						</li>
+					<li>
+				<a href="http://crmrocks.com/2015/10/28/crm-conference-with-verdon-spokely/">CRM Conference with John Verdon and Christy Spokely</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='http://survivingcrm.com/2015/10/crm-rocks-podcast-state-of-dynamics-2015/' rel='external nofollow' class='url'>My New &quot;CRM Rocks&quot; Podcast Episode Is Out!</a></span> on <a href="http://crmrocks.com/2015/10/12/state-of-dynamics-crm-in-2015-with-jukka-niiranen/#comment-125">State of Dynamics CRM in 2015 with Jukka Niiranen</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://crmbusiness.wordpress.com/2015/09/21/hosks-top-crm-articles-of-the-week-21st-september/' rel='external nofollow' class='url'>Hosk’s Top CRM Articles of the week – 21st September &#8211; Hosk&#039;s Dynamic CRM Blog</a></span> on <a href="http://crmrocks.com/2015/09/14/typescript-and-javascript-with-david-berry/#comment-65">TypeScript and JavaScript with David Berry</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://community2.dynamics-int.com/crm/b/cinterosab_crmblog/archive/2015/04/06/to-the-extreme' rel='external nofollow' class='url'>To the eXtreme - Microsoft Dynamics CRM Community</a></span> on <a href="http://crmrocks.com/2015/01/19/developing-plugins-in-dynamics-crm/#comment-26">Developing Plugins in Dynamics CRM</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://crmrocks.com' rel='external nofollow' class='url'>Markus</a></span> on <a href="http://crmrocks.com/2014/07/10/integration-with-crm-from-dynamics-marketing/#comment-24">Integration with CRM from Dynamics Marketing</a></li><li class="recentcomments"><span class="comment-author-link">Scott</span> on <a href="http://crmrocks.com/2014/07/10/integration-with-crm-from-dynamics-marketing/#comment-23">Integration with CRM from Dynamics Marketing</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archives</h2>		<ul>
+			<li><a href='http://crmrocks.com/2016/02/'>February 2016</a></li>
+	<li><a href='http://crmrocks.com/2016/01/'>January 2016</a></li>
+	<li><a href='http://crmrocks.com/2015/12/'>December 2015</a></li>
+	<li><a href='http://crmrocks.com/2015/11/'>November 2015</a></li>
+	<li><a href='http://crmrocks.com/2015/10/'>October 2015</a></li>
+	<li><a href='http://crmrocks.com/2015/09/'>September 2015</a></li>
+	<li><a href='http://crmrocks.com/2015/08/'>August 2015</a></li>
+	<li><a href='http://crmrocks.com/2015/07/'>July 2015</a></li>
+	<li><a href='http://crmrocks.com/2015/06/'>June 2015</a></li>
+	<li><a href='http://crmrocks.com/2015/05/'>May 2015</a></li>
+	<li><a href='http://crmrocks.com/2015/04/'>April 2015</a></li>
+	<li><a href='http://crmrocks.com/2015/03/'>March 2015</a></li>
+	<li><a href='http://crmrocks.com/2015/01/'>January 2015</a></li>
+	<li><a href='http://crmrocks.com/2014/12/'>December 2014</a></li>
+	<li><a href='http://crmrocks.com/2014/10/'>October 2014</a></li>
+	<li><a href='http://crmrocks.com/2014/09/'>September 2014</a></li>
+	<li><a href='http://crmrocks.com/2014/07/'>July 2014</a></li>
+	<li><a href='http://crmrocks.com/2014/06/'>June 2014</a></li>
+	<li><a href='http://crmrocks.com/2014/03/'>March 2014</a></li>
+	<li><a href='http://crmrocks.com/2014/02/'>February 2014</a></li>
+	<li><a href='http://crmrocks.com/2013/12/'>December 2013</a></li>
+	<li><a href='http://crmrocks.com/2013/11/'>November 2013</a></li>
+	<li><a href='http://crmrocks.com/2013/10/'>October 2013</a></li>
+	<li><a href='http://crmrocks.com/2013/09/'>September 2013</a></li>
+		</ul>
+		</aside><aside id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categories</h2>		<ul>
+	<li class="cat-item cat-item-2"><a href="http://crmrocks.com/category/podcast/" >podcast</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h2 class="widget-title">Meta</h2>			<ul>
+						<li><a href="http://crmrocks.com/wp-login.php">Log in</a></li>
+			<li><a href="http://crmrocks.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://crmrocks.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+			</aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+			
+<article id="post-346" class="post-346 post type-post status-publish format-standard hentry category-podcast tag-digital-marketing tag-e-commerce">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://crmrocks.com/2016/02/14/e-commerce-digital-marketing-and-crm-with-therese-reutersward/" rel="bookmark">E-commerce, digital marketing and CRM with Therese Reuterswärd</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://media.crmrocks.com/2016/02/Therese.Reutersward.jpg" rel="attachment wp-att-348"><img class="alignright size-medium wp-image-348" src="http://media.crmrocks.com/2016/02/Therese.Reutersward.jpg" alt="Therese Reuterswärd" width="300" height="200" /></a> Episode 28 where Markus Erlandsson talks to Therese Reuterswärd from Nespresso about e-commerce, digital marketing and how that relates to CRM. How to get started and whats important, Therese gets it all explained here.</p>
+<!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+<audio class="wp-audio-shortcode" id="audio-346-1" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.blubrry.com/crmrocks/content.blubrry.com/crmrocks/crmrocks-com-Episode-38-ecommerce-digital-marketing-and-CRM-with-Therese-Reutersward.mp3?_=1" /><a href="http://media.blubrry.com/crmrocks/content.blubrry.com/crmrocks/crmrocks-com-Episode-38-ecommerce-digital-marketing-and-CRM-with-Therese-Reutersward.mp3">http://media.blubrry.com/crmrocks/content.blubrry.com/crmrocks/crmrocks-com-Episode-38-ecommerce-digital-marketing-and-CRM-with-Therese-Reutersward.mp3</a></audio>
+<p><strong>Links:</strong><br />
+<a href="https://www.forrester.com/" target="_blank">Forrester Research</a> &#8211; Full length reports on omnichannel, retail and customer experience (charges per download)</p>
+<p><a href="https://econsultancy.com/" target="_blank">Econsultancy </a>&#8211; a wide range of research, data, analysis, training, consulting, events and online resources.</p>
+<p><a href="http://internetworld.idg.se/2.1006/1.183870/therese+reutersw%C3%A4rd" target="_blank">Articles written by Therese for Internetworld</a> (Swedish)</p>
+<p><a href="http://www.trulytherese.se/" target="_blank">Therese&#8217;s blog</a> (Swedish)</p>
+<p><a href="https://www.crmug.com/" target="_blank">CRM UG</a>, and their first <a href="http://www.crmugcongress.com/" target="_blank">congress</a> in Europe</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://crmrocks.com/2016/02/14/e-commerce-digital-marketing-and-crm-with-therese-reutersward/" rel="bookmark"><time class="entry-date published" datetime="2016-02-14T13:32:11+00:00">14 February, 2016</time><time class="updated" datetime="2016-02-15T15:52:50+00:00">15 February, 2016</time></a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://crmrocks.com/tag/digital-marketing/" rel="tag">digital marketing</a>, <a href="http://crmrocks.com/tag/e-commerce/" rel="tag">e-commerce</a></span><span class="comments-link"><a href="http://crmrocks.com/2016/02/14/e-commerce-digital-marketing-and-crm-with-therese-reutersward/#respond">Leave a comment<span class="screen-reader-text"> on E-commerce, digital marketing and CRM with Therese Reuterswärd</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-337" class="post-337 post type-post status-publish format-standard hentry category-podcast tag-develop">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://crmrocks.com/2016/01/19/develop-for-crm-with-mitch-milam/" rel="bookmark">Develop for CRM with Mitch Milam</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://media.crmrocks.com/2013/12/mitch_milam.jpg" rel="attachment wp-att-36"><img class="alignright size-medium wp-image-36" src="http://media.crmrocks.com/2013/12/mitch_milam-300x264.jpg" alt="Mitch Milam" width="300" height="264" srcset="http://media.crmrocks.com/2013/12/mitch_milam-300x264.jpg 300w, http://media.crmrocks.com/2013/12/mitch_milam.jpg 576w" sizes="(max-width: 300px) 100vw, 300px" /></a>Episode 37 where Markus Erlandsson talks to Mitch Milam from xRM Coaches about how to develop for CRM. What is important and how to get started, as well as talking about tools to help you.</p>
+<audio class="wp-audio-shortcode" id="audio-337-3" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.crmrocks.com/2016/01/crmrocks-com-Episode-37-Develop-for-CRM-with-Mitch-Milam.mp3?_=3" /><a href="http://media.crmrocks.com/2016/01/crmrocks-com-Episode-37-Develop-for-CRM-with-Mitch-Milam.mp3">http://media.crmrocks.com/2016/01/crmrocks-com-Episode-37-Develop-for-CRM-with-Mitch-Milam.mp3</a></audio>
+<p>Links:<br />
+<a href="http://www.xrmcoaches.com/webinars/" target="_blank">xRM Coaches Webinars</a><br />
+<a href="http://www.crmaccelerators.net/explorer" target="_blank">Explorer! for Dynamics CRM</a><br />
+<a href="http://feathub.com/MitchMilam/TeachingTuesdays" target="_blank">Teaching Tuesdays</a><br />
+<a href="https://youtu.be/wWk2BgZGPHE" target="_blank">DYNAMICS CRM Team Development Best Practices Video</a><br />
+<a href="https://www.youtube.com/user/xRMCoaches" target="_blank">xRM Coaches on YouTube</a><br />
+<a href="https://www.linkedin.com/in/mitchmilam" target="_blank">Mitch on LinkedIn</a><br />
+<a href="http://jlattimer.blogspot.com/2016/01/crm-rest-builder-2300-now-with-web-api.html" target="_blank">Jason Lattimers CRM Rest Builder Post</a>, and <a href="https://crmrestbuilder.codeplex.com/" target="_blank">actual Tool</a></p>
+<div class="powerpress_player" id="powerpress_player_2934"><audio class="wp-audio-shortcode" id="audio-337-2" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2016/01/crmrocks-com-Episode-37-Develop-for-CRM-with-Mitch-Milam.mp3?_=2" /><a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2016/01/crmrocks-com-Episode-37-Develop-for-CRM-with-Mitch-Milam.mp3">http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2016/01/crmrocks-com-Episode-37-Develop-for-CRM-with-Mitch-Milam.mp3</a></audio></div><p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2016/01/crmrocks-com-Episode-37-Develop-for-CRM-with-Mitch-Milam.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('http://crmrocks.com/?powerpress_pinw=337-podcast');" rel="nofollow">Play in new window</a> | <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2016/01/crmrocks-com-Episode-37-Develop-for-CRM-with-Mitch-Milam.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="crmrocks-com-Episode-37-Develop-for-CRM-with-Mitch-Milam.mp3">Download</a></p><p class="powerpress_links powerpress_subsribe_links">Subscribe: <a href="https://itunes.apple.com/us/podcast/crm-rocks/id732951957?mt=2&amp;ls=1" class="powerpress_link_subscribe powerpress_link_subscribe_itunes" title="Subscribe on iTunes" rel="nofollow">iTunes</a> | <a href="http://subscribeonandroid.com/crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_android" title="Subscribe on Android" rel="nofollow">Android</a> | <a href="http://crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_rss" title="Subscribe via RSS" rel="nofollow">RSS</a></p>	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://crmrocks.com/2016/01/19/develop-for-crm-with-mitch-milam/" rel="bookmark"><time class="entry-date published" datetime="2016-01-19T21:31:23+00:00">19 January, 2016</time><time class="updated" datetime="2016-02-14T13:37:43+00:00">14 February, 2016</time></a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://crmrocks.com/tag/develop/" rel="tag">Develop</a></span><span class="comments-link"><a href="http://crmrocks.com/2016/01/19/develop-for-crm-with-mitch-milam/#respond">Leave a comment<span class="screen-reader-text"> on Develop for CRM with Mitch Milam</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-329" class="post-329 post type-post status-publish format-standard hentry category-podcast tag-10-tips tag-implementing-crm">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://crmrocks.com/2015/12/19/top-10-tips-for-successfully-implement-crm-with-gustaf-westerlund/" rel="bookmark">Top 10 tips for successfully implement CRM with Gustaf Westerlund</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://media.crmrocks.com/2015/12/Gustaf.Westerlund.jpg" rel="attachment wp-att-330"><img class="alignright size-medium wp-image-330" src="http://media.crmrocks.com/2015/12/Gustaf.Westerlund-200x300.jpg" alt="Gustaf Westerlund" width="200" height="300" srcset="http://media.crmrocks.com/2015/12/Gustaf.Westerlund-200x300.jpg 200w, http://media.crmrocks.com/2015/12/Gustaf.Westerlund.jpg 320w" sizes="(max-width: 200px) 100vw, 200px" /></a>Episode 36, Markus talks to Gustaf Westerlund on how you implement CRM. Gustaf gives his top 10 tips on how to be successful.</p>
+<audio class="wp-audio-shortcode" id="audio-329-5" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.crmrocks.com/2015/12/crmrocks-com-Episode-36-Top-10-tips-to-successfully-implement-CRM-with-Gustaf-Westerlund.mp3?_=5" /><a href="http://media.crmrocks.com/2015/12/crmrocks-com-Episode-36-Top-10-tips-to-successfully-implement-CRM-with-Gustaf-Westerlund.mp3">http://media.crmrocks.com/2015/12/crmrocks-com-Episode-36-Top-10-tips-to-successfully-implement-CRM-with-Gustaf-Westerlund.mp3</a></audio>
+<p>Links:<br />
+<a href="http://gustafwesterlund.blogspot.se/2015/12/10-tips-for-success-designing-solutions.html" target="_blank">Gustafs blog post </a><br />
+<a href="https://attendee.gotowebinar.com/recording/2176751919296428290" target="_blank">CRM UG webinar</a><br />
+<a href="http://www.crmugcongress.com/" target="_blank">CRM UG Congress</a></p>
+<div class="powerpress_player" id="powerpress_player_2935"><audio class="wp-audio-shortcode" id="audio-329-4" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/12/crmrocks-com-Episode-36-Top-10-tips-to-successfully-implement-CRM-with-Gustaf-Westerlund.mp3?_=4" /><a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/12/crmrocks-com-Episode-36-Top-10-tips-to-successfully-implement-CRM-with-Gustaf-Westerlund.mp3">http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/12/crmrocks-com-Episode-36-Top-10-tips-to-successfully-implement-CRM-with-Gustaf-Westerlund.mp3</a></audio></div><p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/12/crmrocks-com-Episode-36-Top-10-tips-to-successfully-implement-CRM-with-Gustaf-Westerlund.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('http://crmrocks.com/?powerpress_pinw=329-podcast');" rel="nofollow">Play in new window</a> | <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/12/crmrocks-com-Episode-36-Top-10-tips-to-successfully-implement-CRM-with-Gustaf-Westerlund.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="crmrocks-com-Episode-36-Top-10-tips-to-successfully-implement-CRM-with-Gustaf-Westerlund.mp3">Download</a></p><p class="powerpress_links powerpress_subsribe_links">Subscribe: <a href="https://itunes.apple.com/us/podcast/crm-rocks/id732951957?mt=2&amp;ls=1" class="powerpress_link_subscribe powerpress_link_subscribe_itunes" title="Subscribe on iTunes" rel="nofollow">iTunes</a> | <a href="http://subscribeonandroid.com/crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_android" title="Subscribe on Android" rel="nofollow">Android</a> | <a href="http://crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_rss" title="Subscribe via RSS" rel="nofollow">RSS</a></p>	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://crmrocks.com/2015/12/19/top-10-tips-for-successfully-implement-crm-with-gustaf-westerlund/" rel="bookmark"><time class="entry-date published" datetime="2015-12-19T23:28:43+00:00">19 December, 2015</time><time class="updated" datetime="2016-01-05T22:20:11+00:00">5 January, 2016</time></a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://crmrocks.com/tag/10-tips/" rel="tag">10 tips</a>, <a href="http://crmrocks.com/tag/implementing-crm/" rel="tag">Implementing CRM</a></span><span class="comments-link"><a href="http://crmrocks.com/2015/12/19/top-10-tips-for-successfully-implement-crm-with-gustaf-westerlund/#respond">Leave a comment<span class="screen-reader-text"> on Top 10 tips for successfully implement CRM with Gustaf Westerlund</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-318" class="post-318 post type-post status-publish format-standard hentry category-podcast">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://crmrocks.com/2015/11/16/being-an-entrepreneur-with-therese-lorentzon/" rel="bookmark">Being an Entrepreneur with Therese Lorentzon</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://media.crmrocks.com/2015/11/Therese_Lorentzon.jpg"><img class="alignright size-medium wp-image-319" src="http://media.crmrocks.com/2015/11/Therese_Lorentzon-240x300.jpg" alt="Therese_Lorentzon" width="240" height="300" srcset="http://media.crmrocks.com/2015/11/Therese_Lorentzon-240x300.jpg 240w, http://media.crmrocks.com/2015/11/Therese_Lorentzon-819x1024.jpg 819w" sizes="(max-width: 240px) 100vw, 240px" /></a></p>
+<p>Episode 35: Markus Erlandsson talks to Therése Lorentzon about being an Entrepreneur and how you think about customers. What is your customer focus and how do you keep the balance when everything is on you?</p>
+<audio class="wp-audio-shortcode" id="audio-318-7" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.crmrocks.com/2015/12/crmrocks-com-Episode-35-Being-an-Entrepreneur-with-Therese-Lorentzon.mp3?_=7" /><a href="http://media.crmrocks.com/2015/12/crmrocks-com-Episode-35-Being-an-Entrepreneur-with-Therese-Lorentzon.mp3">http://media.crmrocks.com/2015/12/crmrocks-com-Episode-35-Being-an-Entrepreneur-with-Therese-Lorentzon.mp3</a></audio>
+<p>Links:<br />
+<a href="http://www.thereselorentzon.com/" target="_blank">Homepage</a><br />
+<a href="https://instagram.com/thereselorentzonphotography/" target="_blank">Instagram</a><br />
+<a href="http://Facebook" target="_blank">https://www.facebook.com/thereselorentzonphotography</a></p>
+<div class="powerpress_player" id="powerpress_player_2936"><audio class="wp-audio-shortcode" id="audio-318-6" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/12/crmrocks-com-Episode-35-Being-an-Entrepreneur-with-Therese-Lorentzon.mp3?_=6" /><a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/12/crmrocks-com-Episode-35-Being-an-Entrepreneur-with-Therese-Lorentzon.mp3">http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/12/crmrocks-com-Episode-35-Being-an-Entrepreneur-with-Therese-Lorentzon.mp3</a></audio></div><p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/12/crmrocks-com-Episode-35-Being-an-Entrepreneur-with-Therese-Lorentzon.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('http://crmrocks.com/?powerpress_pinw=318-podcast');" rel="nofollow">Play in new window</a> | <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/12/crmrocks-com-Episode-35-Being-an-Entrepreneur-with-Therese-Lorentzon.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="crmrocks-com-Episode-35-Being-an-Entrepreneur-with-Therese-Lorentzon.mp3">Download</a></p><p class="powerpress_links powerpress_subsribe_links">Subscribe: <a href="https://itunes.apple.com/us/podcast/crm-rocks/id732951957?mt=2&amp;ls=1" class="powerpress_link_subscribe powerpress_link_subscribe_itunes" title="Subscribe on iTunes" rel="nofollow">iTunes</a> | <a href="http://subscribeonandroid.com/crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_android" title="Subscribe on Android" rel="nofollow">Android</a> | <a href="http://crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_rss" title="Subscribe via RSS" rel="nofollow">RSS</a></p>	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://crmrocks.com/2015/11/16/being-an-entrepreneur-with-therese-lorentzon/" rel="bookmark"><time class="entry-date published" datetime="2015-11-16T23:07:26+00:00">16 November, 2015</time><time class="updated" datetime="2015-12-09T19:57:43+00:00">9 December, 2015</time></a></span><span class="comments-link"><a href="http://crmrocks.com/2015/11/16/being-an-entrepreneur-with-therese-lorentzon/#respond">Leave a comment<span class="screen-reader-text"> on Being an Entrepreneur with Therese Lorentzon</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-308" class="post-308 post type-post status-publish format-standard hentry category-podcast tag-conference tag-crm-conference tag-extreme tag-extreme-crm">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://crmrocks.com/2015/10/28/crm-conference-with-verdon-spokely/" rel="bookmark">CRM Conference with John Verdon and Christy Spokely</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://media.crmrocks.com/2015/10/Christy.Spokely.jpg"><img class="alignright size-medium wp-image-313" src="http://media.crmrocks.com/2015/10/Christy.Spokely-300x300.jpg" alt="Christy Spokely" width="300" height="300" srcset="http://media.crmrocks.com/2015/10/Christy.Spokely-150x150.jpg 150w, http://media.crmrocks.com/2015/10/Christy.Spokely-300x300.jpg 300w, http://media.crmrocks.com/2015/10/Christy.Spokely.jpg 448w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href="http://media.crmrocks.com/2015/10/John.Verdon.jpg"><img class="size-full wp-image-311 alignright" src="http://media.crmrocks.com/2015/10/John.Verdon.jpg" alt="John Verdon" width="100" height="100" /></a><br />
+Episode 34: Markus Erlandsson talks to John Verdon and Christy Spokely from Extreme CRM about CRM Conference.</p>
+<p>The discussion starts with why I should go to a conference and continues with what I might gain from going.</p>
+<audio class="wp-audio-shortcode" id="audio-308-9" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.crmrocks.com/2015/10/crmrocks-com-Episode-34-Crm-conference-with-John-Verdon-Christy-Spokley.mp3?_=9" /><a href="http://media.crmrocks.com/2015/10/crmrocks-com-Episode-34-Crm-conference-with-John-Verdon-Christy-Spokley.mp3">http://media.crmrocks.com/2015/10/crmrocks-com-Episode-34-Crm-conference-with-John-Verdon-Christy-Spokley.mp3</a></audio>
+<p>Links:<br />
+<a href="http://extremecrm.com/" target="_blank">Extreme CRM Site</a><br />
+<a href="https://www.linkedin.com/groups/2898654" target="_blank">LinkedIn Group</a></p>
+<p>Chisty Spokely&#8217;s links<br />
+<a href="https://www.linkedin.com/pub/christy-spokely/16/784/3a1" target="_blank">LinkedIn</a>, <a href="mailto:cspokely@extremecrm.com">email</a></p>
+<p>Johns Verdon&#8217;s links:<br />
+<a href="https://www.linkedin.com/pub/john-verdon/0/991/761" target="_blank">LinkedIn</a>, <a href="mailto:JVerdon@extremecrm.com">email</a></p>
+<div class="powerpress_player" id="powerpress_player_2937"><audio class="wp-audio-shortcode" id="audio-308-8" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/10/crmrocks-com-Episode-34-Crm-conference-with-John-Verdon-Christy-Spokley.mp3?_=8" /><a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/10/crmrocks-com-Episode-34-Crm-conference-with-John-Verdon-Christy-Spokley.mp3">http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/10/crmrocks-com-Episode-34-Crm-conference-with-John-Verdon-Christy-Spokley.mp3</a></audio></div><p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/10/crmrocks-com-Episode-34-Crm-conference-with-John-Verdon-Christy-Spokley.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('http://crmrocks.com/?powerpress_pinw=308-podcast');" rel="nofollow">Play in new window</a> | <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/10/crmrocks-com-Episode-34-Crm-conference-with-John-Verdon-Christy-Spokley.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="crmrocks-com-Episode-34-Crm-conference-with-John-Verdon-Christy-Spokley.mp3">Download</a></p><p class="powerpress_links powerpress_subsribe_links">Subscribe: <a href="https://itunes.apple.com/us/podcast/crm-rocks/id732951957?mt=2&amp;ls=1" class="powerpress_link_subscribe powerpress_link_subscribe_itunes" title="Subscribe on iTunes" rel="nofollow">iTunes</a> | <a href="http://subscribeonandroid.com/crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_android" title="Subscribe on Android" rel="nofollow">Android</a> | <a href="http://crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_rss" title="Subscribe via RSS" rel="nofollow">RSS</a></p>	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://crmrocks.com/2015/10/28/crm-conference-with-verdon-spokely/" rel="bookmark"><time class="entry-date published" datetime="2015-10-28T23:11:30+00:00">28 October, 2015</time><time class="updated" datetime="2015-10-29T12:38:34+00:00">29 October, 2015</time></a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://crmrocks.com/tag/conference/" rel="tag">Conference</a>, <a href="http://crmrocks.com/tag/crm-conference/" rel="tag">CRM Conference</a>, <a href="http://crmrocks.com/tag/extreme/" rel="tag">extreme</a>, <a href="http://crmrocks.com/tag/extreme-crm/" rel="tag">extreme crm</a></span><span class="comments-link"><a href="http://crmrocks.com/2015/10/28/crm-conference-with-verdon-spokely/#respond">Leave a comment<span class="screen-reader-text"> on CRM Conference with John Verdon and Christy Spokely</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-295" class="post-295 post type-post status-publish format-standard hentry category-podcast tag-crm-2015 tag-crm-2016 tag-the-state-of-crm">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://crmrocks.com/2015/10/12/state-of-dynamics-crm-in-2015-with-jukka-niiranen/" rel="bookmark">State of Dynamics CRM in 2015 with Jukka Niiranen</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://media.crmrocks.com/2015/10/Jukka.Niiranen.jpg"><img class="alignright wp-image-294 size-medium" src="http://media.crmrocks.com/2015/10/Jukka.Niiranen-300x300.jpg" alt="Jukka Niiranen" width="300" height="300" srcset="http://media.crmrocks.com/2015/10/Jukka.Niiranen-150x150.jpg 150w, http://media.crmrocks.com/2015/10/Jukka.Niiranen-300x300.jpg 300w, http://media.crmrocks.com/2015/10/Jukka.Niiranen.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+Episode 33: Markus Erlandsson talks to Jukka Niiranen from Digital Illustrated about the state of Dynamics CRM in 2015. Starting with looking backwards on all that happened. Then looking into the future with CRM 2016.</p>
+<audio class="wp-audio-shortcode" id="audio-295-10" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.crmrocks.com/2015/10/crmrocks-com-Episode-33-the-state-of-Dynamics-CRM-in-2015-with-Jukka-Niiranen.mp3?_=10" /><a href="http://media.crmrocks.com/2015/10/crmrocks-com-Episode-33-the-state-of-Dynamics-CRM-in-2015-with-Jukka-Niiranen.mp3">http://media.crmrocks.com/2015/10/crmrocks-com-Episode-33-the-state-of-Dynamics-CRM-in-2015-with-Jukka-Niiranen.mp3</a></audio>
+<p>Links:<br />
+<a href="http://survivingcrm.com/2015/07/the-state-of-dynamics-in-2015/" target="_blank">State of Dynamics CRM 2015 blog post</a></p>
+<p>Jukka&#8217;s links:<br />
+<a href="https://mvp.microsoft.com/en-us/PublicProfile/5000177?fullName=Jukka%20Niiranen" target="_blank">MVP Page</a>, <a href="https://linkedin.com/in/jukkaniiranen" target="_blank">LinkedIn</a>, <a href="http://survivingcrm.com/" target="_blank">Surviving CRM Blog</a></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://crmrocks.com/2015/10/12/state-of-dynamics-crm-in-2015-with-jukka-niiranen/" rel="bookmark"><time class="entry-date published" datetime="2015-10-12T20:48:25+00:00">12 October, 2015</time><time class="updated" datetime="2015-10-28T14:09:17+00:00">28 October, 2015</time></a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://crmrocks.com/tag/crm-2015/" rel="tag">crm 2015</a>, <a href="http://crmrocks.com/tag/crm-2016/" rel="tag">crm 2016</a>, <a href="http://crmrocks.com/tag/the-state-of-crm/" rel="tag">the state of crm</a></span><span class="comments-link"><a href="http://crmrocks.com/2015/10/12/state-of-dynamics-crm-in-2015-with-jukka-niiranen/#comments">1 Comment<span class="screen-reader-text"> on State of Dynamics CRM in 2015 with Jukka Niiranen</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-282" class="post-282 post type-post status-publish format-standard hentry category-podcast tag-david-berry tag-definitelytyped tag-javascript tag-js tag-ts tag-typescript tag-xrm">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://crmrocks.com/2015/09/14/typescript-and-javascript-with-david-berry/" rel="bookmark">TypeScript and JavaScript with David Berry</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://media.crmrocks.com/2015/09/David.Berry_.png"><img class="alignright wp-image-285 size-medium" src="http://media.crmrocks.com/2015/09/David.Berry_-285x300.png" alt="David Berry" width="285" height="300" srcset="http://media.crmrocks.com/2015/09/David.Berry_-285x300.png 285w, http://media.crmrocks.com/2015/09/David.Berry_.png 314w" sizes="(max-width: 285px) 100vw, 285px" /></a>Episode 32: Markus Erlandsson talks to David Berry about TypeScript, JavaScript and the new WEB API in Dynamics CRM. David explains why you should use TS and what the benefits are.</p>
+<audio class="wp-audio-shortcode" id="audio-282-12" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.crmrocks.com/2015/09/crmrocks-com-Episode-32-TS-and-JS-with-David-Berry.mp3?_=12" /><a href="http://media.crmrocks.com/2015/09/crmrocks-com-Episode-32-TS-and-JS-with-David-Berry.mp3">http://media.crmrocks.com/2015/09/crmrocks-com-Episode-32-TS-and-JS-with-David-Berry.mp3</a></audio>
+<p>Links:<br />
+<a href="http://www.typescriptlang.org/" target="_blank">http://www.typescriptlang.org/</a><br />
+<a href="http://definitelytyped.org/" target="_blank">http://definitelytyped.org/</a><br />
+<a href="http://github.com/borisyankov/DefinitelyTyped/tree/master/xrm" target="_blank">http://github.com/borisyankov/DefinitelyTyped/tree/master/xrm</a></p>
+<p><a href="https://msdn.microsoft.com/sv-se/library/azure/jj573266.aspx" target="_blank">Azure AD Authentication Library for .NET</a></p>
+<p>Davids links:<br />
+<a href="https://www.linkedin.com/in/6ix4our" target="_blank">LinkedIn</a>, <a href="https://mvp.microsoft.com/en-us/PublicProfile/4028954?fullName=David%20Berry" target="_blank">MVP Page</a>, <a href="http://crmentropy.blogspot.se/" target="_blank">CRM Blog</a></p>
+<div class="powerpress_player" id="powerpress_player_2938"><audio class="wp-audio-shortcode" id="audio-282-11" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/09/crmrocks-com-Episode-32-TS-and-JS-with-David-Berry.mp3?_=11" /><a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/09/crmrocks-com-Episode-32-TS-and-JS-with-David-Berry.mp3">http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/09/crmrocks-com-Episode-32-TS-and-JS-with-David-Berry.mp3</a></audio></div><p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/09/crmrocks-com-Episode-32-TS-and-JS-with-David-Berry.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('http://crmrocks.com/?powerpress_pinw=282-podcast');" rel="nofollow">Play in new window</a> | <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/09/crmrocks-com-Episode-32-TS-and-JS-with-David-Berry.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="crmrocks-com-Episode-32-TS-and-JS-with-David-Berry.mp3">Download</a></p><p class="powerpress_links powerpress_subsribe_links">Subscribe: <a href="https://itunes.apple.com/us/podcast/crm-rocks/id732951957?mt=2&amp;ls=1" class="powerpress_link_subscribe powerpress_link_subscribe_itunes" title="Subscribe on iTunes" rel="nofollow">iTunes</a> | <a href="http://subscribeonandroid.com/crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_android" title="Subscribe on Android" rel="nofollow">Android</a> | <a href="http://crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_rss" title="Subscribe via RSS" rel="nofollow">RSS</a></p>	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://crmrocks.com/2015/09/14/typescript-and-javascript-with-david-berry/" rel="bookmark"><time class="entry-date published" datetime="2015-09-14T19:19:25+00:00">14 September, 2015</time><time class="updated" datetime="2015-10-12T21:02:00+00:00">12 October, 2015</time></a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://crmrocks.com/tag/david-berry/" rel="tag">David Berry</a>, <a href="http://crmrocks.com/tag/definitelytyped/" rel="tag">DefinitelyTyped</a>, <a href="http://crmrocks.com/tag/javascript/" rel="tag">javascript</a>, <a href="http://crmrocks.com/tag/js/" rel="tag">JS</a>, <a href="http://crmrocks.com/tag/ts/" rel="tag">TS</a>, <a href="http://crmrocks.com/tag/typescript/" rel="tag">TypeScript</a>, <a href="http://crmrocks.com/tag/xrm/" rel="tag">xrm</a></span><span class="comments-link"><a href="http://crmrocks.com/2015/09/14/typescript-and-javascript-with-david-berry/#comments">1 Comment<span class="screen-reader-text"> on TypeScript and JavaScript with David Berry</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-212" class="post-212 post type-post status-publish format-standard hentry category-podcast tag-crm-ug tag-user-group tag-user-groups">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://crmrocks.com/2015/08/14/crm-ug/" rel="bookmark">CRM UG with Tony Stein</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://media.crmrocks.com/2015/08/tony-stein.jpg"><img class="alignright size-medium wp-image-214" src="http://media.crmrocks.com/2015/08/tony-stein.jpg?w=214" alt="Tony Stein" width="214" height="300" /></a></p>
+<p>Episode 31: Markus Erlandsson talks to Tony Stein from <a href="https://www.crmug.com/home">CRM UG</a> about User Groups.<br />
+What do I gain from attending? And more.</p>
+<audio class="wp-audio-shortcode" id="audio-212-14" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.crmrocks.com/2015/08/crmrocks-com-Episode-31-CRM-UG-with-Tony-Stein.mp3?_=14" /><a href="http://media.crmrocks.com/2015/08/crmrocks-com-Episode-31-CRM-UG-with-Tony-Stein.mp3">http://media.crmrocks.com/2015/08/crmrocks-com-Episode-31-CRM-UG-with-Tony-Stein.mp3</a></audio>
+<p>Links:<br />
+<a href="http://www.crmug.com" target="_blank">http://www.crmug.com</a><br />
+<a href="http://www.crmug.com/engage/volunteer" target="_blank">http://www.crmug.com/engage/volunteer</a></p>
+<div class="powerpress_player" id="powerpress_player_2939"><audio class="wp-audio-shortcode" id="audio-212-13" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/08/crmrocks-com-episode-31-crm-ug.mp3?_=13" /><a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/08/crmrocks-com-episode-31-crm-ug.mp3">http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/08/crmrocks-com-episode-31-crm-ug.mp3</a></audio></div><p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/08/crmrocks-com-episode-31-crm-ug.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('http://crmrocks.com/?powerpress_pinw=212-podcast');" rel="nofollow">Play in new window</a> | <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/08/crmrocks-com-episode-31-crm-ug.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="crmrocks-com-episode-31-crm-ug.mp3">Download</a></p><p class="powerpress_links powerpress_subsribe_links">Subscribe: <a href="https://itunes.apple.com/us/podcast/crm-rocks/id732951957?mt=2&amp;ls=1" class="powerpress_link_subscribe powerpress_link_subscribe_itunes" title="Subscribe on iTunes" rel="nofollow">iTunes</a> | <a href="http://subscribeonandroid.com/crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_android" title="Subscribe on Android" rel="nofollow">Android</a> | <a href="http://crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_rss" title="Subscribe via RSS" rel="nofollow">RSS</a></p>	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://crmrocks.com/2015/08/14/crm-ug/" rel="bookmark"><time class="entry-date published" datetime="2015-08-14T21:40:50+00:00">14 August, 2015</time><time class="updated" datetime="2015-10-28T14:11:52+00:00">28 October, 2015</time></a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://crmrocks.com/tag/crm-ug/" rel="tag">CRM UG</a>, <a href="http://crmrocks.com/tag/user-group/" rel="tag">User Group</a>, <a href="http://crmrocks.com/tag/user-groups/" rel="tag">User Groups</a></span><span class="comments-link"><a href="http://crmrocks.com/2015/08/14/crm-ug/#respond">Leave a comment<span class="screen-reader-text"> on CRM UG with Tony Stein</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-203" class="post-203 post type-post status-publish format-standard hentry category-podcast tag-consultant tag-crm">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://crmrocks.com/2015/07/14/being-a-crm-consutant-with-salim-adamon/" rel="bookmark">Being a CRM consutant with Salim Adamon</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://media.crmrocks.com/2015/07/salim-adamon.jpg"><img class="alignright size-medium wp-image-205" src="http://media.crmrocks.com/2015/07/salim-adamon.jpg?w=300" alt="Salim Adamon" width="300" height="280" srcset="http://media.crmrocks.com/2015/07/salim-adamon-300x280.jpg 300w, http://media.crmrocks.com/2015/07/salim-adamon.jpg 686w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+Episode 30: Markus Erlandsson talks to Salim Adamon about Being a CRM consultant. Salim talks about what&#8217;s important and how to get there.</p>
+<audio class="wp-audio-shortcode" id="audio-203-16" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.crmrocks.com/2015/07/crmrocks-com-episode-30-being-a-crm-consultant.mp3?_=16" /><a href="http://media.crmrocks.com/2015/07/crmrocks-com-episode-30-being-a-crm-consultant.mp3">http://media.crmrocks.com/2015/07/crmrocks-com-episode-30-being-a-crm-consultant.mp3</a></audio>
+<p>Links:<br />
+<a href="http://salimadamoncrm.com/" target="_blank">Salims Blog</a></p>
+<div class="powerpress_player" id="powerpress_player_2940"><audio class="wp-audio-shortcode" id="audio-203-15" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/07/crmrocks-com-episode-30-being-a-crm-consultant.mp3?_=15" /><a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/07/crmrocks-com-episode-30-being-a-crm-consultant.mp3">http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/07/crmrocks-com-episode-30-being-a-crm-consultant.mp3</a></audio></div><p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/07/crmrocks-com-episode-30-being-a-crm-consultant.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('http://crmrocks.com/?powerpress_pinw=203-podcast');" rel="nofollow">Play in new window</a> | <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/07/crmrocks-com-episode-30-being-a-crm-consultant.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="crmrocks-com-episode-30-being-a-crm-consultant.mp3">Download</a></p><p class="powerpress_links powerpress_subsribe_links">Subscribe: <a href="https://itunes.apple.com/us/podcast/crm-rocks/id732951957?mt=2&amp;ls=1" class="powerpress_link_subscribe powerpress_link_subscribe_itunes" title="Subscribe on iTunes" rel="nofollow">iTunes</a> | <a href="http://subscribeonandroid.com/crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_android" title="Subscribe on Android" rel="nofollow">Android</a> | <a href="http://crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_rss" title="Subscribe via RSS" rel="nofollow">RSS</a></p>	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://crmrocks.com/2015/07/14/being-a-crm-consutant-with-salim-adamon/" rel="bookmark"><time class="entry-date published" datetime="2015-07-14T19:52:53+00:00">14 July, 2015</time><time class="updated" datetime="2015-10-12T21:03:00+00:00">12 October, 2015</time></a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://crmrocks.com/tag/consultant/" rel="tag">consultant</a>, <a href="http://crmrocks.com/tag/crm/" rel="tag">crm</a></span><span class="comments-link"><a href="http://crmrocks.com/2015/07/14/being-a-crm-consutant-with-salim-adamon/#respond">Leave a comment<span class="screen-reader-text"> on Being a CRM consutant with Salim Adamon</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-200" class="post-200 post type-post status-publish format-standard hentry category-podcast tag-coaching tag-crm tag-training">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://crmrocks.com/2015/06/14/coaching-crm-with-rick-mccutcheon/" rel="bookmark">Coaching CRM with Rick McCutcheon</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://media.crmrocks.com/2015/06/rick-mccutcheon.gif"><img class="alignright size-medium wp-image-201" src="http://media.crmrocks.com/2015/06/rick-mccutcheon.gif?w=218" alt="Rick McCutcheon" width="218" height="300" /></a><br />
+Episode 29: Markus Erlandsson talks to Rick McCutcheon about Coaching in CRM. What is coaching? How can I use it to implement my CRM or revitalize my CRM efforts? Rick explains and talks about what’s important to focus on.</p>
+<audio class="wp-audio-shortcode" id="audio-200-18" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.crmrocks.com/2015/08/crmrocks-com-Episode-29-Coaching-CRM.mp3?_=18" /><a href="http://media.crmrocks.com/2015/08/crmrocks-com-Episode-29-Coaching-CRM.mp3">http://media.crmrocks.com/2015/08/crmrocks-com-Episode-29-Coaching-CRM.mp3</a></audio>
+<p>CRM UG<br />
+<a href="http://www.crmug.com" target="_blank">http://www.crmug.com</a><br />
+Hompage<br />
+<a href="http://fullcontactselling.com/" target="_blank">http://fullcontactselling.com/</a><br />
+LinkedIn Profile<br />
+<a href="http://ca.linkedin.com/in/rickmccutcheon" target="_blank">http://ca.linkedin.com/in/rickmccutcheon</a></p>
+<div class="powerpress_player" id="powerpress_player_2941"><audio class="wp-audio-shortcode" id="audio-200-17" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/08/crmrocks-com-Episode-29-Coaching-CRM.mp3?_=17" /><a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/08/crmrocks-com-Episode-29-Coaching-CRM.mp3">http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/08/crmrocks-com-Episode-29-Coaching-CRM.mp3</a></audio></div><p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/08/crmrocks-com-Episode-29-Coaching-CRM.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('http://crmrocks.com/?powerpress_pinw=200-podcast');" rel="nofollow">Play in new window</a> | <a href="http://media.blubrry.com/crmrocks/p/media.crmrocks.com/2015/08/crmrocks-com-Episode-29-Coaching-CRM.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="crmrocks-com-Episode-29-Coaching-CRM.mp3">Download</a></p><p class="powerpress_links powerpress_subsribe_links">Subscribe: <a href="https://itunes.apple.com/us/podcast/crm-rocks/id732951957?mt=2&amp;ls=1" class="powerpress_link_subscribe powerpress_link_subscribe_itunes" title="Subscribe on iTunes" rel="nofollow">iTunes</a> | <a href="http://subscribeonandroid.com/crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_android" title="Subscribe on Android" rel="nofollow">Android</a> | <a href="http://crmrocks.com/feed/podcast/" class="powerpress_link_subscribe powerpress_link_subscribe_rss" title="Subscribe via RSS" rel="nofollow">RSS</a></p>	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://crmrocks.com/2015/06/14/coaching-crm-with-rick-mccutcheon/" rel="bookmark"><time class="entry-date published" datetime="2015-06-14T21:53:07+00:00">14 June, 2015</time><time class="updated" datetime="2015-10-12T21:03:35+00:00">12 October, 2015</time></a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://crmrocks.com/tag/coaching/" rel="tag">coaching</a>, <a href="http://crmrocks.com/tag/crm/" rel="tag">crm</a>, <a href="http://crmrocks.com/tag/training/" rel="tag">training</a></span><span class="comments-link"><a href="http://crmrocks.com/2015/06/14/coaching-crm-with-rick-mccutcheon/#respond">Leave a comment<span class="screen-reader-text"> on Coaching CRM with Rick McCutcheon</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+	<nav class="navigation pagination" role="navigation">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span class='page-numbers current'><span class="meta-nav screen-reader-text">Page </span>1</span>
+<a class='page-numbers' href='http://crmrocks.com/page/2/'><span class="meta-nav screen-reader-text">Page </span>2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://crmrocks.com/page/4/'><span class="meta-nav screen-reader-text">Page </span>4</a>
+<a class="next page-numbers" href="http://crmrocks.com/page/2/">Next page</a></div>
+	</nav>
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+<link rel='stylesheet' id='mediaelement-css'  href='http://crmrocks.com/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.18.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://crmrocks.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://crmrocks.com/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://crmrocks.com/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
+<script type='text/javascript' src='http://crmrocks.com/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://crmrocks.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.18.1'></script>
+<script type='text/javascript' src='http://crmrocks.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://crmrocks.com/wp-content/plugins/powerpress/player.min.js?ver=4.4.2'></script>
+
+</body>
+</html>
+
+<!-- Dynamic page generated in 7.181 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-02-19 01:13:02 -->
+
+<!-- super cache -->

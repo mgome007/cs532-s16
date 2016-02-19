@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Job Listings  - Stack Overflow</title>
+    <link rel="shortcut icon" href="//cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="//cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />    
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content=" Job Listings " />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/jobs"/>
+
+    
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.sstatic.net/Js/stub.en.js?v=5c9e87eb1d9e"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.sstatic.net/stackoverflow/all.css?v=71ab3235491b">
+
+<!-- Start SO: 2:Head -->
+<!-- Begin Careers Head -->
+
+    
+<script type="text/javascript">
+    var newhref = location.href.replace("#", "");
+    if (newhref != location.href)
+        location.href = newhref;
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="RSS" />
+
+
+
+
+<script src="//cdn-careers.sstatic.net/careers/Js/stub.min.js?v=3a669b743b67" type="text/javascript"></script>
+<script src="//cdn-careers.sstatic.net/careers/Js/third-party/jquery.cookie.min.js?v=0a82eb051d98" type="text/javascript"></script> 
+
+
+
+<script type="text/javascript">
+    Careers.domain = "stackoverflow.com";
+    Careers.referrer = "careers.stackoverflow.com";
+
+        Careers.isProxied = true;
+
+    Careers.XSRF_KEY = "01c39b81ecd0134b095fbabf4a6ea9a3";
+
+    document.documentElement.className += " js";
+
+
+    Careers.init({"site":{"name":"Stack Overflow Careers"},"user":{"isAnonymous":true}});
+    Careers.using.setFileProviding({"bigtext":"//cdn-careers.sstatic.net/careers/Js/third-party/bigtext.min.js?v=976217b73062","candidateManager":"//cdn-careers.sstatic.net/careers/Js/candidate-manager.min.js?v=20255d245155","candidateManager2":"//cdn-careers.sstatic.net/careers/Js/candidate-manager2.min.js?v=1d2862c468c9","accounts":"//cdn-careers.sstatic.net/careers/Js/accounts.min.js?v=7f7a06392dc7","candidateSearchFullCv":"//cdn-careers.sstatic.net/careers/Js/candidate-search-full-cv.min.js?v=31aeff14c493","candidateSearchFullCvPositionless":"//cdn-careers.sstatic.net/careers/Js/candidate-search-full-cv.positionless.min.js?v=04df0d0bb137","candidates":"//cdn-careers.sstatic.net/careers/Js/candidates.min.js?v=61c3290441fa","careersAuth":"//cdn-careers.sstatic.net/careers/Js/careersauth.min.js?v=f9959537ea60","checkout":"//cdn-careers.sstatic.net/careers/Js/checkout.min.js?v=c5a3535ab70c","checkoutChoose":"//cdn-careers.sstatic.net/careers/Js/checkout-choose.min.js?v=3b8ef4d5f0ae","companyPages":"//cdn-careers.sstatic.net/careers/Js/company-pages.min.js?v=f8f5d1683b99","companyPagesCreate":"//cdn-careers.sstatic.net/careers/Js/company-pages.angular-create.min.js?v=01a4e0ca2201","companyPagesEdit":"//cdn-careers.sstatic.net/careers/Js/company-pages.angular-edit.min.js?v=29b7f7318c4d","cv":"//cdn-careers.sstatic.net/careers/Js/cv.min.js?v=b89220ea7a47","cvCreate":"//cdn-careers.sstatic.net/careers/Js/cv-create.min.js?v=03a4670fb689","cvEdit":"//cdn-careers.sstatic.net/careers/Js/cv-edit.min.js?v=637c8da309ac","cvInvitation":"//cdn-careers.sstatic.net/careers/Js/cv-invitation.min.js?v=7469ebf869bc","cvInvitationsAdmin":"//cdn-careers.sstatic.net/careers/Js/cv-invitations-admin.min.js?v=49fb022df57d","cvWizard":"//cdn-careers.sstatic.net/careers/Js/cv-wizard.min.js?v=e374534300d5","employerLogin":"//cdn-careers.sstatic.net/careers/Js/employer-login.min.js?v=3f80663a6938","gps":"//cdn-careers.sstatic.net/careers/Js/analytics.prizm.min.js?v=ac7f0c21490b","import":"//cdn-careers.sstatic.net/careers/Js/import.min.js?v=f6537e7dbc06","jobs":"//cdn-careers.sstatic.net/careers/Js/jobs.min.js?v=2e124b63011b","jobsAdmin":"//cdn-careers.sstatic.net/careers/Js/jobs.admin.min.js?v=3a1338b7177e","jobsPost":"//cdn-careers.sstatic.net/careers/Js/jobs-post.min.js?v=f4410df9d78c","openidJquery":"//cdn-careers.sstatic.net/careers/Js/third-party/openid-jquery.min.js?v=bb68682b0e89","positionHeader":"//cdn-careers.sstatic.net/careers/Js/position-header.min.js?v=1619424a668f","privacy":"//cdn-careers.sstatic.net/careers/Js/privacy.min.js?v=31e010a65231","selectMenu":"//cdn-careers.sstatic.net/careers/Js/select-menu.min.js?v=66d7f22bbabb","shared":"//cdn-careers.sstatic.net/careers/Js/shared.min.js?v=48a80f2dd39b","searchSettings":"//cdn-careers.sstatic.net/careers/Js/search-settings.min.js?v=06661e1befd2","stackanswers":"//cdn-careers.sstatic.net/careers/Js/stackanswers.min.js?v=020ef7e18b81","tagEditor":"//cdn-careers.sstatic.net/careers/Js/tageditor.min.js?v=4a8041d52497","userMessaging":"//cdn-careers.sstatic.net/careers/Js/user-messaging.min.js?v=9b28c6458188","minimumCv":"//cdn-careers.sstatic.net/careers/Js/cv-minimum.min.js?v=6bf5fe613426","activityStatus":"//cdn-careers.sstatic.net/careers/Js/activity-status-sidebar.min.js?v=5aac8cb0aa72","linkAccount":"//cdn-careers.sstatic.net/careers/Js/link-account.min.js?v=c049f073bbd3","profileSummary":"//cdn-careers.sstatic.net/careers/Js/profile-summary.min.js?v=c4841c230334"});
+    Careers.using.setFileProviding({localization: "//cdn-careers.sstatic.net/careers/Js/Localization/localization.min.js?v=baf7707aef62"});
+
+
+
+        Careers.applyFrameSelector = ".ui-dialog-apply-vnext";
+        Careers.applyAnimateFieldName = "top";
+</script>   
+
+    <script type="text/javascript">
+        // Provide a Careers.GoogleAnalytics Null Object. Should fake all methods defined in analytics.js.
+        if (!window.Careers) window.Careers = {};
+        if (!window.Careers.GoogleAnalytics) window.Careers.GoogleAnalytics = {};
+
+        window.Careers.GoogleAnalytics.handleInterstitials = function() {
+            if (!Careers.GoogleAnalytics.interstitials) { return; }
+
+            Careers.GoogleAnalytics.interstitials.forEach(function(item) {
+                switch(item.type) {
+                    case 'pageview':Careers.GoogleAnalytics.ajaxPageview({page: item.url, hostname: location.hostname }); break;
+                    case 'ecommerce': Careers.GoogleAnalytics.sendEcommerce(item); break;
+                    case 'event': Careers.GoogleAnalytics.sendEvent(item.category, item.action, item.label); break;
+                }
+            });
+            Careers.GoogleAnalytics.interstitials = "processed";
+        }
+    </script>
+<script data-args="{&quot;isProxied&quot;:true,&quot;marketingCampaign&quot;:null,&quot;clientId&quot;:null,&quot;cookieName&quot;:&quot;ga_client_id&quot;,&quot;trackingId&quot;:&quot;UA-5620270-5&quot;}" src="//cdn-careers.sstatic.net/careers/Js/analytics.min.js?v=3b6097ee2be7" type="text/javascript"></script>    <script type="text/javascript">
+        // Track any "interstitial" activities before we track the current page hit.
+        window.Careers.GoogleAnalytics.handleInterstitials();
+        
+        // Normal hit-tracking for current page.
+        ga('send', 'pageview');
+    </script>
+        <script type="text/javascript">
+            Careers.using("gps", {
+                callback: function() {
+                    Careers.gps.init(
+                        {"enabled":true,"url":"/jobs/analytics/prizm/event"}
+                    );
+                },
+                overwrite: true
+            });
+        </script>
+        <link rel="canonical" href="http://stackoverflow.com/jobs"/>
+
+<!-- End Careers Head --><!-- End SO: 2:Head -->
+<!-- Start SO: 3:CSS -->
+<!-- Begin Careers CSS -->
+<link href="//cdn-careers.sstatic.net/careers/cso/all.min.css?v=6084c77259d5" rel="stylesheet" type="text/css" />
+<link href="//cdn-careers.sstatic.net/careers/cso/banners.min.css?v=777cdad9ff5e" rel="stylesheet" type="text/css" />
+
+     
+
+    <link href="//cdn-careers.sstatic.net/careers/Js/third-party/jquery-ui/1.11.4/jquery-ui.min.css?v=eb334ef1ede8" rel="stylesheet" type="text/css" />
+    <link href="//cdn-careers.sstatic.net/careers/Js/third-party/chosen/1.2.0/chosen.min.css?v=876f93168919" rel="stylesheet" type="text/css" />
+    <link href="//cdn-careers.sstatic.net/careers/cso/jobs.min.css?v=d39a4f523308" rel="stylesheet" type="text/css" />
+    <link href="//cdn-careers.sstatic.net/careers/less/modules/ads.companyPreview.min.css?v=6b7b6f54b88a" rel="stylesheet" type="text/css" />
+    <link href="//cdn-careers.sstatic.net/careers/cso/Employer/CandidateSearch.SearchResults.min.css?v=8df6f0c637c4" rel="stylesheet" type="text/css" />
+    <link href="//cdn-careers.sstatic.net/careers/less/views/search-settings.min.css?v=fcd76ff54814" rel="stylesheet" type="text/css" />
+    <link href="//cdn-careers.sstatic.net/careers/less/views/cv-minimum.min.css?v=7c633a7a0a08" rel="stylesheet" type="text/css" />
+    <link href="//cdn-careers.sstatic.net/careers/less/views/activity-status-prompt.min.css?v=9f926620d3cb" rel="stylesheet" type="text/css" />
+
+<link href="//cdn-careers.sstatic.net/careers/cso/apply-vnext/apply-vnext.min.css?v=ae310dc1c946" rel="stylesheet" type="text/css" />
+<!-- End Careers CSS --><!-- End SO: 3:CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.sstatic.net/stackoverflow/jobs.css?v=2d6c5c4f69d8">
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1455840784,"networkMetaHostname":"meta.stackexchange.com","routeName":"Jobs/Jobs","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"enableSocialMediaInSharePopup":true},"user":{"fkey":"47acc745ac99b3f95f72b62b1885863f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"25bc4c57604b","js/moderator.en.js":"e84155dcbdd7","js/full-anon.en.js":"3db4a1bdf122","js/full.en.js":"12c3adcf2a53","js/wmd.en.js":"f0bb6a4c3221","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"08baf20fb091","js/help.en.js":"c8004cc0095d","js/tageditor.en.js":"30ffe6bdc54c","js/tageditornew.en.js":"d8e917f87983","js/inline-tag-editing.en.js":"314cfb72355b","js/revisions.en.js":"c2bb6b44f707","js/review.en.js":"310c6b670045","js/tagsuggestions.en.js":"1b1fef557065","js/post-validation.en.js":"2c48173020b2","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"bb59b4601c64","js/keyboard-shortcuts.en.js":"19dd5e640761","js/external-editor.en.js":"a2b93f24c78e","js/external-editor.en.js":"a2b93f24c78e","js/snippet-javascript.en.js":"650f9a8035d8","js/snippet-javascript-codemirror.en.js":"fddf38f6eebc"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class=" new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    
+
+
+
+
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="//stackoverflow.com">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="//stackoverflow.com"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="//careers.stackoverflow.com?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fjobs" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fjobs" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="//stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="//stackexchange.com"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 153 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fjobs" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fjobs" class="login-link">log in</a>
+
+                        <a href="/tour">tour</a>
+                            <a href="#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="//meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="Search Q&amp;A" value="" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="/" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li><a id="nav-questions" href="/questions">Questions</a></li>
+                            <li class="youarehere"><a id="nav-jobs" href="/jobs">Jobs</a></li>
+                        <li><a id="nav-tags" href="/tags">Tags</a></li>
+                        <li><a id="nav-users" href="/users">Users</a></li>
+                        <li><a id="nav-badges" href="/help/badges">Badges</a></li>
+                                            </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+<div class="subheader left-tabs">
+    <div id="tabs">
+        <a class="youarehere" href="/jobs" data-nav-xhref="" data-value="jobs">
+            search jobs</a>
+        <a href="/jobs/companies" data-nav-xhref="" data-value="companies">
+            search companies</a>
+        <a href="/jobs/cv/create" data-nav-xhref="" data-value="cv">
+            create cv</a>
+</div>
+    <a class="fr external" href="//careers.stackoverflow.com/products/listings" target="_blank"><span class="-icon"></span> post a job</a>
+</div>
+<div class="content proxy">
+<!-- Start SO: 0:Body -->
+<!-- Begin Careers Banner and Body -->
+
+    
+
+
+
+
+
+
+
+
+<div class="-row">
+    <div class="main -col9">
+
+
+<form action="/jobs" class="search job-link" method="get">
+    <section class="searchControls -row">
+        <div class="-col6">
+            <label for="searchTerm" class="_medium"><strong>Keywords</strong></label>
+            <input class="inputOptions" id="searchTerm" maxlength="120" name="searchTerm" placeholder="Job Title, Keyword, or Company" type="text" value="" />
+
+            <div class="inputOptionsPanel">
+                <div>
+                    <div class="-row">
+                        <div class="-col6">
+                            <label>
+                                <strong>Job Type</strong>
+                            </label>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="type" value="" checked=checked/>
+                                    Any job type
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="type" value="permanent" />
+                                    Permanent
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="type" value="contract" />
+                                    Contract
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="-col4">
+            <label for="location" class="_medium"><strong>Location</strong></label>
+            <input autocomplete="off" class="inputOptions" id="location" maxlength="120" name="location" placeholder="City, Country or Zip Code" type="text" value="" />
+            <div class="inputOptionsPanel">
+                <div>
+                    <div class="-row">
+                        <label class="-col6 labelPad"><strong>Distance</strong></label>
+                        <div class="-col6">
+                            <select id="range" name="range"><option selected="selected" value="20">20 miles</option>
+<option value="50">50 miles</option>
+<option value="100">100 miles</option>
+</select>
+                            <input id="distanceUnits" name="distanceUnits" type="hidden" value="Miles" />
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <label for="allowsremote">
+                            <input type="checkbox" name="allowsremote" id="allowsremote" value="true" />
+                            Allows Remote
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="offersrelocation">
+                            <input type="checkbox" name="offersrelocation" id="offersrelocation" value="true" />
+                            Offers Relocation
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="offersvisasponsorship">
+                            <input type="checkbox" name="offersvisasponsorship" id="offersvisasponsorship" value="true" />
+                            Offers Visa Sponsorship
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="-col2">
+            <button type="submit">Search</button>
+        </div>
+    </section>
+    <script type="text/javascript">
+        var _RANGE_MAX = 500;
+        var _UNITS_LABEL = 'miles';
+    </script>
+</form>
+
+<div id="index-hed">
+    <h2 class="h4">
+        <span class="description"></span>
+    </h2>
+
+
+        <ul class="tabNav">
+                <li class="-tab _selected">
+
+
+                    <a class="job-link" href="http://stackoverflow.com/jobs?sort=i">matches</a>
+                </li>
+                <li class="-tab">
+
+
+                    <a class="job-link" href="http://stackoverflow.com/jobs?sort=p">most recent</a>
+                </li>
+        </ul>
+</div>
+
+
+    <div class="tabNav-borderBottom _margin"></div>
+
+
+<div class="listResults -jobs list jobs">
+
+<div class="listResults">
+        <div data-jobid="108370" class="-item -job _highlighted _topspot">
+                <span class="_badge">
+                    featured
+                </span>
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="108370"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/108370/software-engineering-manager-100k-crossover" title="Software Engineering Manager - $100k">Software Engineering Manager - $100k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">If you are an elite Software Engineering Manager eager to gain unprecedented visibility to the top…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/.net">.net</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/c%23">c#</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/agile">agile</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    2 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="109297" class="-item -job can-apply">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="109297"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/109297/web-software-developer-flexjobs" title="Web Software Developer">Web Software Developer</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    FlexJobs
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">We have an amazing team of folks who work flexible hours from home offices across the country and now…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/ruby-on-rails">ruby-on-rails</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/javascript">javascript</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/html5">html5</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/twitter-bootstrap">twitter-bootstrap</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/xml">xml</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    7 hours ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="109080" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="109080"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/109080/l2-customer-support-engineer-english-and-crossover" title="L2 Customer Support Engineer (English and Spanish) - $30k">L2 Customer Support Engineer (English and Spanish) - $30k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">L2 Customer Support Engineer (English and Spanish) - $30k  Are you a results-driven professional…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/windows">windows</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/exchange">exchange</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/sql">sql</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    2 days ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="108928" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="108928"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/108928/delphi-engineer-french-50k-crossover" title="Delphi Engineer (French) - $50k">Delphi Engineer (French) - $50k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Delphi Software Engineer (French) - $50k Are you a talented software developer familiar with Delphi? Are…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/delphi">delphi</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/3">3</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/5">5</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/vb">vb</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    6 days ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="108927" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="108927"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/108927/delphi-software-engineer-french-50k-crossover" title="Delphi Software Engineer (French) - $50k">Delphi Software Engineer (French) - $50k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Delphi Software Engineer (French) - $50k Are you a talented software developer familiar with Delphi? Are…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/delphi">delphi</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/3">3</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/5">5</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/vb">vb</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    6 days ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="103837" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="103837"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/103837/customer-support-engineer-english-and-german-crossover" title="Customer Support Engineer (English and German) - $30k">Customer Support Engineer (English and German) - $30k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Are you a highly-motivated, dynamic support engineer, looking to advance your career by working for a…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/oracle">oracle</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/mssql">mssql</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/c%23">c#</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/.net">.net</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/wcf">wcf</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    6 days ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="97729" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="97729"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/97729/software-architect-java-60k-crossover" title="Software Architect Java - $60K">Software Architect Java - $60K</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Ready to make $60,000 USD while working for a fortune 500 company from the comfort of your home? Eager…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/sql">sql</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/mongodb">mongodb</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/rest">rest</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/xml">xml</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    1 week ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="108372" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="108372"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/108372/lisp-chief-architect-100k-crossover" title="Lisp Chief Architect - $100k">Lisp Chief Architect - $100k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">This position offers an excellent opportunity to be involved in architecture and development of industry…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/c">c</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/emacs">emacs</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/lisp">lisp</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/common-lisp">common-lisp</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    1 week ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="108468" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="108468"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/108468/qa-engineer-30k-crossover" title="QA Engineer - $30K">QA Engineer - $30K</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Ready to make $30,000 USD while working for a fortune 500 company from the comfort of your home? Eager…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/qa">qa</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/c%23">c#</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/c%2b%2b">c++</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    1 week ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="108371" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="108371"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/108371/net-chief-software-architect-100k-crossover" title=".NET Chief Software Architect - $100K">.NET Chief Software Architect - $100K</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Are you one of top Software Architects in the world? Do enjoy solving the incredibly complex problems…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/.net">.net</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/devops">devops</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/c%23">c#</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/nosql">nosql</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/mssql">mssql</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    2 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="108369" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="108369"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/108369/java-senior-developer-40-hr-crossover" title="Java Senior Developer - $40/hr">Java Senior Developer - $40/hr</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">&quot;Ready to make $80,000 while working from the comfort of your home? Eager to join a network of the most…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/sql">sql</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/oracle">oracle</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/hadoop">hadoop</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/xml">xml</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    2 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="108368" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="108368"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/108368/managed-services-technical-consultant-60k-crossover" title="Managed Services Technical Consultant - $60K">Managed Services Technical Consultant - $60K</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Are you team-oriented, self-motivated, and quality-driven? If you are a keen problem solver excited by…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/crm">crm</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/erp">erp</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/javascript">javascript</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/html">html</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/css">css</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    2 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="108367" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="108367"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/108367/chief-software-architect-java-and-c-plus-plus-100k-crossover" title="Chief Software Architect - Java and C++ - $100k">Chief Software Architect - Java and C++ - $100k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Java Chief Software Architect with C++ - $100k  Are you one of top Software Architects in the world? Do…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/sql">sql</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/javascript">javascript</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/spring">spring</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/mysql">mysql</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    2 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="108366" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="108366"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/108366/aspnet-and-c-sharp-architect-with-sitecore-60k-crossover" title="ASP.NET and C# Architect (with Sitecore) - $60k">ASP.NET and C# Architect (with Sitecore) - $60k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">ASP.NET and C# Architect (with Sitecore) - $60K   Are you an experienced web developer who loves…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/.net">.net</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/c%23">c#</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/asp.net">asp.net</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/html">html</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/css">css</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    2 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="108343" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="108343"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/108343/customer-support-manager-70k-crossover" title="Customer Support Manager - $70K">Customer Support Manager - $70K</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">We are looking for a dynamic Customer Support Manager to join our team of highly skilled support…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/salesforce">salesforce</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/crm">crm</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    2 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="101896" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="101896"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/101896/l2-customer-support-engineer-english-and-crossover" title="L2 Customer Support Engineer (English and Italian) - $30k">L2 Customer Support Engineer (English and Italian) - $30k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">L2 Customer Support Engineer (English and Italian) - $30k  Are you a results-driven professional…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/windows">windows</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/exchange">exchange</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/sql">sql</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    3 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="107656" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="107656"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/107656/java-software-architect-with-c-plus-plus-60k-crossover" title="Java Software Architect with C++ - $60k">Java Software Architect with C++ - $60k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Java Software Architect with C++ - $60k  Are you one of top Software Architects in the world? Do enjoy…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/sql">sql</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/javascript">javascript</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/spring">spring</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/c%2b%2b">c++</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    3 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="107296" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="107296"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/107296/mobile-app-architect-50k-crossover" title="Mobile App Architect - $50K">Mobile App Architect - $50K</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Mobile App Architect- $50k  Are you an experienced, hard-working mobile application engineer or…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/android">android</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/node.js">node.js</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/python">python</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/meteor">meteor</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    3 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="107295" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="107295"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/107295/full-stack-developer-60k-crossover" title="Full Stack Developer - $60k">Full Stack Developer - $60k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Full Stack Developer - $60k  Are you an experienced Full Stack developer with a mastery of Javascript?…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/react-native">react-native</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/node.js">node.js</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/mongodb">mongodb</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/meteor">meteor</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    3 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="106144" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="106144"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/106144/java-chief-software-architect-with-c-plus-plus-100k-crossover" title="Java Chief Software Architect with C++ - $100k">Java Chief Software Architect with C++ - $100k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Java Chief Software Architect with C++ - $100k  Are you one of top Software Architects in the world? Do…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/sql">sql</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/javascript">javascript</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/spring">spring</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/mysql">mysql</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    1 week ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="105421" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="105421"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/105421/lisp-chief-software-architect-100k-crossover" title="Lisp Chief Software Architect - $100k">Lisp Chief Software Architect - $100k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">This position offers an excellent opportunity to be involved in architecture and development of industry…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/emacs">emacs</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/c%2b%2b">c++</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/lisp">lisp</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/visual-studio">visual-studio</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/common-lisp">common-lisp</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    3 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="104914" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="104914"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/104914/crossover-software-engineering-manager-100k-crossover" title="Crossover Software Engineering Manager - $100k">Crossover Software Engineering Manager - $100k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">If you are an elite Software Engineering Manager eager to gain unprecedented visibility to the top…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/.net">.net</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/c%23">c#</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/agile">agile</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    3 days ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="104276" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="104276"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/104276/lisp-software-engineer-30k-crossover" title="Lisp Software Engineer - $30k">Lisp Software Engineer - $30k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">This position offers an excellent opportunity to be involved in development of industry-leading real…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/c">c</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/c%2b%2b">c++</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/lisp">lisp</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/common-lisp">common-lisp</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/emacs">emacs</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    2 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="100771" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="100771"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/100771/cassandra-superstar-crossover" title="Cassandra Superstar">Cassandra Superstar</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">Cassandra Expert - $30/hr  Brief Description Are you a highly-motivated, experienced database…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/cassandra">cassandra</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/sql">sql</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/.net">.net</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/c%23">c#</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    3 weeks ago
+                </p>
+
+        </div>
+
+
+        <div data-jobid="103335" class="-item -job _highlighted">
+
+
+<span class="fav-toggle" data-href="//careers.stackoverflow.com/users/login?returnUrl=%2Fso-proxy%2Fjobs" data-jobid="103335"></span>
+
+            <div class="-title">
+                <h1>
+<a class="job-link" href="/jobs/103335/lisp-software-architect-60k-crossover" title="Lisp Software Architect - $60k">Lisp Software Architect - $60k</a>                </h1>
+            </div>
+
+
+            <ul class="metadata primary">
+                <li class="employer">
+                    Crossover
+                </li>
+                <li class="location">
+No office location                </li>
+                    <li class="jobSummary remote">
+                        Remote
+                    </li>
+
+            </ul>
+
+<p class="text _muted _small description">This position offers an excellent opportunity to be involved in development of industry-leading real…</p>
+            <div class="tags">
+                <p><a class="post-tag job-link no-tag-menu" href="/jobs/tag/common-lisp">common-lisp</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/emacs">emacs</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/lisp">lisp</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/visual-studio">visual-studio</a> <a class="post-tag job-link no-tag-menu" href="/jobs/tag/java">java</a></p>
+            </div>
+                <p class="text _small posted bottom">
+                    4 weeks ago
+                </p>
+
+        </div>
+
+
+<img alt="" class="impression" src="/jobs/ad/impression?a=AlkfNdmi1Dq-AEB8Th23BIs-AA5yxPxDdkY-AwVBw3IPgLm-AwUjAxbs6be-yP4uZfjdi6s-wM4jRHswIOk-AlmPEgr2mLC-AnmAIE6UKI0-AllxIJTFcbu-AliXRGOUR1e-AlhFWahxGr6-Algo0DKavQY-Alf657cNlgQ-AkLrK2PcpRS-yaIf5AuOZ20-A6tNkv1s9xe-zYZHjzeUHKM-zYYpo2HxxaE-zB2AsZ8o4s8-zm0wExXbF8Q-zbsVft2I7Hq-yYcriDChdV6-xNjWiaVnXsQ-yEDldN5BBzG" style="display:none"></div>
+
+
+    <div class="jobsfooter">
+
+    </div>
+
+        <span class="freshjobs">
+            Hang on, <a href="http://stackoverflow.com/jobs?sort=p">there are more fresh jobs!</a>
+        </span>
+</div>
+
+            <span class="feed">
+                <p><a href="/jobs/feed" title="RSS feed for these search criteria"><span class="rss"> </span> RSS feed for these search criteria</a>
+                </p>
+            </span>
+    </div>
+
+
+    <div class="sidebar -col3">
+<section id="profile-summary">
+                <div class="-popout">
+                    <strong class="-title">Are you looking for a job?</strong>
+                    <p>When you create a CV, we’ll accelerate your matches and get you in front of employers ASAP.</p>
+
+<a class="-cta btn-secondary" href="/jobs/cv/sign-up-and-create?returnUrl=%2Fjobs%3Fscv%3Dt">Create a CV</a>                </div>
+</section>
+
+<div id="minimum-profile-dialog" class="container"></div>
+<div id="activity-status-dialog" class="container"></div>
+
+
+<input type="hidden" name="minimum-cv-data" value="{&quot;successMessage&quot;:null,&quot;incompleteProfileWarningEditorUrl&quot;:&quot;/jobs/cv/minimum-cv?showStatusUpdatedButOnHoldNotification=True&quot;,&quot;defaultEditorUrl&quot;:&quot;/jobs/cv/minimum-cv?showStatusUpdatedButOnHoldNotification=False&quot;}"/>
+
+<input type="hidden" name="activity-status-data" value="{&quot;redirectToProfileModal&quot;:false,&quot;showOnComplete&quot;:null,&quot;editorUrl&quot;:&quot;/jobs/cv/set-searchstate&quot;}"/>                <div id="advanced-search-tips">
+                    <div class="_border header">
+                        <h2 class="h4">
+                            Advanced Search Tips
+                        </h2>
+                        <span class="expand">
+                        </span>
+                    </div>
+                    <div class="container body">
+                        <div class="-row">
+                            <span class="-col4 _muted">tags</span>
+                            <span class="-col8">[c#]</span>
+                        </div>
+                        <div class="-row">
+                            <span class="-col4 _muted">title</span>
+                            <span class="-col8">title:"product manager"</span>
+                        </div>
+                        <div class="-row">
+                            <span class="-col4 _muted">company</span>
+                            <span class="-col8">company:"Stack Overflow"</span>
+                        </div>
+                        <div class="-row">
+                            <span class="-col4 _muted">post date</span>
+                            <span class="-col8">posted:2016-01-20</span>
+                        </div>
+                            <div class="-row">
+                                <span class="-col4 _muted">salary</span>
+                                <span class="-col8">salary:20000</span>
+                            </div>
+                                                    <div class="-row">
+                                <span class="-col4 _muted">seniority</span>
+                                <span class="-col8">seniority:junior</span>
+                            </div>
+                        <div class="-row">
+                            <span class="-col4 _muted">exclude</span>
+                            <span class="-col8">
+                                -[c#]
+                                <br/>
+                                -apples
+                            </span>
+                        </div>
+                        <div class="-row">
+                            <a href="/jobs/help" class="-col12">
+                                more tips
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="featured-company-page" style="display: none">
+                    <h2 class="h4 _border">Featured Company</h2>
+                    <div id="featured-company-page-ad"></div>
+                </div>
+    </div>
+
+</div>
+
+    <div id="fav-tip">
+        <a id="close">x</a>
+        <p>
+            &#171; You can add this job to your Favorites by <a href="//careers.stackoverflow.com/users/login?returnurl=%2Fso-proxy%2Fjobs">logging in to Stack Overflow Careers</a>.
+        </p>
+    </div>
+
+<span class="page-title"> Job Listings</span>
+
+
+
+    <div class="new-jobs-hero-yo">
+        <span class="dismiss">&times; dismiss</span>
+        <div class="the-stuff">
+            <div class="-row _gutter">
+                <div class="-col1"></div>
+                <div class="-col10 _textCenter">
+                    <h4><strong>Welcome to Stack Overflow Jobs</strong></h4>
+                </div>
+                <div class="-col1"></div>
+            </div>
+            <div class="-row _gutter">
+                <div class="-col4 _textCenter">
+                    <div id="one-login" class="image-box"></div>
+                    <p><strong>One login, one Stack Overflow</strong></p>
+                    <p>Use your Stack Overflow account to receive job matches, create a CV, and participate in Q&A.</p>
+                </div>
+                <div class="-col4 _textCenter">
+                    <div id="two-minutes" class="image-box two-minutes"></div>
+                    <p><strong>Your dream job, found on your terms</strong></p>
+                    <p>Want to sit back and be contacted by companies? Ask questions about interesting roles? Join us and participate as you please.</p>
+                </div>
+                <div class="-col4 _textCenter">
+                    <div id="dream-job" class="image-box"></div>
+                    <p><strong>One developer CV to rule them all</strong></p>
+                    <p>Show off the things you care about: open source projects, Stack Overflow activity, blog posts, talks you’ve given, and more.</p>
+                </div>
+            </div>
+            <div class="-row">
+                    <div class="-col12 _textCenter">
+                        <a id="get-started" class="btn-outlined" href="/jobs/cv/create">Get started</a>
+                        <br />
+                        <a class="secondary-cta" href="/jobs/why-jobs"><em>Why you'll love Stack Overflow Jobs</em></a>
+                    </div>
+            </div>    
+        </div>
+    </div>
+
+
+
+
+
+
+
+<!-- End Careers Banner and Body --><!-- End SO: 0:Body -->
+</div>
+<!-- Start SO: 1:JavaScript -->
+<!-- Begin Careers Javascript -->
+<script src="//cdn-careers.sstatic.net/careers/Js/third-party/jquery.typewatch.min.js?v=f26b1758800d" type="text/javascript"></script>
+
+    
+    <script src="//cdn-careers.sstatic.net/careers/Js/third-party/jquery.form.min.js?v=94a2b9388e5b" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
+
+        <script>
+            $(document).on("click", ".new-jobs-hero-yo .dismiss", function() {
+                $('.new-jobs-hero-yo')
+                    .slideUp();
+
+                $.cookie('jobs-hero-dismissed', '1', { expires: 30 });
+            });
+
+            if (!$.cookie('jobs-hero-dismissed')) {
+                $(document).ready(function() {
+                    $(".subheader").before($(".new-jobs-hero-yo").detach().show());
+                });
+            }
+        </script>
+
+
+    <script src="//cdn-careers.sstatic.net/careers/Js/third-party/jquery.cookie.min.js?v=0a82eb051d98" type="text/javascript"></script>
+    <script src="//cdn-careers.sstatic.net/careers/Js/charCount.min.js?v=633109711cd6" type="text/javascript"></script>
+    <script src="//cdn-careers.sstatic.net/careers/Js/third-party/jquery-ui-modal.min.js?v=505180550a7d" type="text/javascript"></script>
+    <script data-args="true" src="//maps.googleapis.com/maps/api/js?libraries=places&amp;language=en" type="text/javascript"></script>
+    <script data-args="true" src="//cdn-careers.sstatic.net/careers/Js/third-party/chosen/1.2.0/chosen.jquery.min.js?v=bde3c9ac086c" type="text/javascript"></script>
+
+<script src="//cdn-careers.sstatic.net/careers/Js/apply/fileuploader.min.js?v=2ec27aa26f8a" type="text/javascript"></script><script src="//cdn-careers.sstatic.net/careers/Js/apply-vnext/apply-vnext.min.js?v=3fa92ce813f5" type="text/javascript"></script>
+    <script type="text/javascript">
+        Careers.using(["shared", "jobs", "searchSettings", "profileSummary"], function() {
+            Careers.jobs.init({"SetActiveSearchStateUrl":"/jobs/cv/reset-active","InterestingJobsUrl":"/jobs","FeaturedCompanyUrl":"/jobs/ad/featured-company-js"});
+        });
+    </script>
+
+
+<!-- End Careers Javascript --><!-- End SO: 1:JavaScript -->
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                    <a href="http://stackoverflow.com/company/about">about us</a>
+                        <a href="/tour">tour</a>
+                    <a href="/help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackoverflow.com/company/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="//stackoverflow.com" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="//serverfault.com" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="//superuser.com" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="//webapps.stackexchange.com" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="//askubuntu.com" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="//webmasters.stackexchange.com" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="//gamedev.stackexchange.com" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="//tex.stackexchange.com" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//programmers.stackexchange.com" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="//unix.stackexchange.com" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="//apple.stackexchange.com" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="//wordpress.stackexchange.com" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="//gis.stackexchange.com" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="//electronics.stackexchange.com" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="//android.stackexchange.com" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="//security.stackexchange.com" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//dba.stackexchange.com" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="//drupal.stackexchange.com" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="//sharepoint.stackexchange.com" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="//ux.stackexchange.com" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="//mathematica.stackexchange.com" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="//salesforce.stackexchange.com" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="//expressionengine.stackexchange.com" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//photo.stackexchange.com" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="//scifi.stackexchange.com" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="//graphicdesign.stackexchange.com" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="//movies.stackexchange.com" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="//cooking.stackexchange.com" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="//diy.stackexchange.com" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="//money.stackexchange.com" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="//academia.stackexchange.com" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//english.stackexchange.com" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="//skeptics.stackexchange.com" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="//judaism.stackexchange.com" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="//travel.stackexchange.com" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="//christianity.stackexchange.com" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="//gaming.stackexchange.com" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="//bicycles.stackexchange.com" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="//rpg.stackexchange.com" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//math.stackexchange.com" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="//stats.stackexchange.com" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="//cstheory.stackexchange.com" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="//physics.stackexchange.com" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="//mathoverflow.net" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="//chemistry.stackexchange.com" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="//biology.stackexchange.com" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//stackapps.com" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="//meta.stackexchange.com" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="//area51.stackexchange.com" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="//careers.stackoverflow.com">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2016 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2016.2.18.3270
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

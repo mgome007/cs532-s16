@@ -1,0 +1,328 @@
+               <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"> <head>  <title> WeAreTheCity jobs </title>
+
+
+
+  <link rel="image_src" href="http://www.wearethecityjobs.com/imglib/watc/logo-watc.png"/>    <meta property="og:image" content="http://www.wearethecityjobs.com/imglib/watc/logo-watc.png"/>  <link href="/cm_files/30251_2670.ico" rel="shortcut icon" type="image/x-icon"/> <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <meta http-equiv="Content-Language" content="en" />  <meta name="description" content="Home: WeAreTheCity Jobs was created to• Provide visibility of amazing Job opportunities that are available to Women.• Help Women to grow & perform in their careers.• Connect Women to organisations who really care about female talent."/>  <meta name="keywords" content="Jobs for women in the UK, Finance, Banking, PA & EA, Consultancy, IT and Technology vacancies from leading firms"/>                  <meta name="Rating" content="General"/>  <meta name="revisit-after" content="1 Days"/>  <meta name="robots" content="all"/>   <meta name="MSSmartTagsPreventParsing" content="true"/> <meta http-equiv="imagetoolbar" content="no"/>  <meta name="copyright" content="Copyright 2013 We Are The City  Ltd -  WeAreTheCity Jobs"/> <script type="text/javascript">var ctx = "";</script>    <link rel="stylesheet" type="text/css" href="/css/template.css"> <link rel="stylesheet" type="text/css" href="/css/common.css"> <script type="text/javascript">var mobileMode = false;</script>         <script>delete String.prototype.contains; //</script> <script type="text/javascript" src="/js/mootools.js"></script> <script type="text/javascript" src="/js/mootools-more.js"></script> <script type="text/javascript" src="/js/json-helper.js"></script> <script type="text/javascript" src="/js/common.js"></script> <script type="text/javascript" src="/js/js.js"></script> <script type="text/javascript" src="/js/ajax/springxt-min.js"></script>    <script src="/js/facebook-api.js" type="text/javascript"> </script>    <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', '0JWrqF9mfxNaZV7XOmT45KIEXnsQ9BdwDvwUAzKBqnc']);
+
+_gaq.push(['_setCustomVar', 1, 'UserType', '(not set)', 2]);
+_gaq.push(['_setCustomVar', 1, 'UserId', '(not set)', 2]);
+
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>    <!--[if lte IE 9]><style>.but_st input{behavior: url(/download_files/pie.htc);}</style> <![endif]--><script>window.addEvent('domready', function () {if (!mobileMode) {   var lm = $$(".search .flineQbox")[0];   var myLm = $$(".search .adv-s")[0];   //lm.setStyle("border","1px solid #ff0000")   lm.grab(myLm);}})</script>  </head>  <body class="bodyCandidate">   <script type="text/javascript">
+window.addEvent('domready', function () {
+
+var t1 = new au.Tabs('registration', '.tabPopup', '.registrationPopup', '.closeLink', {});
+t1.attach();
+var t2 = new au.Tabs('forgot-password', '.tabPopup', '.registrationPopup', '.closeLink', {});
+t2.attach();
+new au.Popup(t1, 'registration', '.registration-act', '.closeLink').attach();
+new au.Popup(t2, 'forgot-password', '.forgot-act', '.closeLink').attach();
+
+var t3 = new au.Tabs('signInPopup', '.tabPopup', '.registrationPopup', '.closeLink', {});
+t3.attach();
+new au.Popup(t3, 'signInPopup', '.signIn', '.closeLink').attach();
+
+});
+</script>  <a style="display: none;" class="registration-act" href="javascript: void(0)"></a>  <div id="registration" class="popupForm"> <div class="closeLink"></div> <div class="comtab"> <div class="tabPopup" id="t1">Candidate registration</div>  <div class="tabPopup" id="t2">Employer registration</div>  </div> <div class="registrationPopup" id="r1" content-url="/candidate/registration?formId=0&source=%2F"></div>  <div class="registrationPopup" id="r2" content-url="/employer/registration?formId=0"></div>  </div> <div id="signInPopup" class="popupForm"> <div class="closeLink"></div> <div class="comtab"> <div id="lt1" class="tabPopup" style="padding-top: 14px; height: 22px;">Login</div> <div id="lt2" class="tabPopup" style="padding-top: 14px; height: 22px;">Forgot password</div> </div> <div id="mr1" class="registrationPopup" content-url="/main/common_login?formId=15"></div> <div id="mr2" class="registrationPopup" content-url="/main/recover_password?formId=16"></div> </div> <div id="forgot-password" class="popupForm"> <div class="closeLink"></div> <div class="comtab_sm"><div class="tabPopup" id="t3">Forgot password</div></div> <div class="registrationPopup" id="r3" style="display:none" content-url="/main/recover_password"></div> </div> <div id="apply" class="popupForm"> <div class="closeLink"></div> <div class="comtab"> <div id="at1" class="tabPopup" style="padding-top: 14px; height: 22px;">Sign in</div> <div id="at2" class="tabPopup">Candidate registration</div> </div> <div id="ar1" class="registrationPopup" content-url="/main/apply_login?formId=2"></div> <div id="ar2" class="registrationPopup" content-url="/candidate/apply_registration?formId=2&source=%2F"></div> </div>          <div id="loginCandidate" class="popupForm"> <div class="closeLink"></div> <div class="comtab"> <div id="ct1" class="tabPopup" style="padding-top: 14px; height: 22px;">Sign in</div> <div id="ct2" class="tabPopup">Candidate registration</div> </div> <div id="cr1" class="registrationPopup" content-url="/main/candidate/login?formId=3"></div>  <div id="cr2" class="registrationPopup" content-url="/candidate/registration?formId=3&source=/"></div>  </div>   <div id="loginEmployer" class="popupForm"> <div class="closeLink"></div> <div class="comtab"> <div id="et1" class="tabPopup"><div class="lg">Sign in</div></div> <div id="et2" class="tabPopup">Employer registration</div> </div> <div id="er1" class="registrationPopup" content-url="/main/employer/login?formId=4"></div> <div id="er2" class="registrationPopup" content-url="/employer/registration?formId=4"></div> </div>          <script type="text/javascript">
+window.addEvent('domready', function () {
+if ($$('.clogin-registration-act').length > 0) {
+var t = new au.Tabs('loginCandidate', '.tabPopup', '.registrationPopup', '.closeLink').attach();
+var clogin = new au.Popup(t, 'loginCandidate', '.clogin-registration-act', '.closeLink');
+clogin.attach();
+clogin.onclose = function(){JsonHelper.removeSessionAttribute('requestUri');};
+$$('a.clogin-registration-act').each(function(el) {
+var url = el.pathname;
+if (url) {
+if (!/^\//.test(url)) url = '/'+url;
+el.onclick = function(){JsonHelper.setSessionAttribute('requestUri', url);};
+}
+el.href = "javascript:void(0);";
+});
+}
+
+if ($$('.clogin-registration-act-nofollow').length > 0) {
+var t = new au.Tabs('loginCandidate', '.tabPopup', '.registrationPopup', '.closeLink').attach();
+var clogin = new au.Popup(t, 'loginCandidate', '.clogin-registration-act-nofollow', '.closeLink');
+clogin.attach();
+clogin.onclose = function(){JsonHelper.removeSessionAttribute('requestUri');};
+$$('a.clogin-registration-act-nofollow').each(function(el) {
+el.href = "javascript:void(0);";
+});
+}
+});
+</script>   <script type="text/javascript">
+window.addEvent('domready', function () {
+if ($$('.elogin-registration-act').length > 0) {
+var t = new au.Tabs('loginEmployer', '.tabPopup', '.registrationPopup', '.closeLink');
+t.attach();
+var elogin = new au.Popup(t, 'loginEmployer', '.elogin-registration-act', '.closeLink');
+elogin.attach();
+elogin.onclose = function() {JsonHelper.removeSessionAttribute('requestUri');};
+$$('a.elogin-registration-act').each(function(el) {
+var url = el.pathname;
+if (url) {
+if (!/^\//.test(url)) url = '/' + url;
+el.onclick = function() {
+JsonHelper.setSessionAttribute('requestUri', url);
+};
+}
+el.href = "javascript:void(0);";
+});
+}
+if ($$('.elogin-registration-act-nofollow').length > 0) {
+var t = new au.Tabs('loginEmployer', '.tabPopup', '.registrationPopup', '.closeLink');
+t.attach();
+var elogin = new au.Popup(t, 'loginEmployer', '.elogin-registration-act-nofollow', '.closeLink');
+elogin.attach();
+elogin.onclose = function() {JsonHelper.removeSessionAttribute('requestUri');};
+
+$$('a.elogin-registration-act-nofollow').each(function(el) {
+el.href = "javascript:void(0);";
+});
+}
+});
+</script>     <div id="holder" class="indexTpl holder_main">                                                                                                                                  
+
+<div class="box_top">
+    <div class="nav">
+         <ul id="dropdown-menu" class="dropdown-menu"> <script type="text/javascript">
+window.addEvent('domready', function () {
+new UvumiDropdown('dropdown-menu');
+});
+</script>     <li id="first" class="topId_home act-first"> <a href="/" title="Home">Home</a>                 </li>         <li  class="topId_job_search "> <a href="/cm/candidate/search_jobs" title="">Job search</a>                 </li>         <li  class="topId_join_now "> <a href="/cm/candidates/join_now" title="Sign up now for the latest jobs">Join now</a>                 </li>       <li  class="topId_30050 "> <a href="/employer/list" title="">Company Insights</a>                 </li>         <li  class="topId_29213 "> <a href="/cm/about_us" title="">About us</a>                                           <div class="strMenu"></div><ul class="subMenu subMenu_29213">     <li  class=""> <a href="/cm/about_us" title="" >About Us</a>                   </li>         <li  class=""> <a href="/cm/why_partner_with_careers_city" title="" >Why partner with WeAreTheCity Jobs</a>                   </li>         <li  class=""> <a href="/cm/diversity_certificate" title="" >Diversity certificate</a>                   </li>       </ul>  </li>         <li  class="topId_contact_us "> <a href="/main/sendform/4/18/3472" title="">Contact us</a>                 </li>         <li  class="topId_wearethecity "> <a href="http://wearethecity.com" title="Enter our big sister site">WeAreTheCity</a>                 </li>       </ul>     <script type="text/javascript" src="/js/uvumidropdown_fm.js"> </script> <script type="text/javascript">
+new UvumiDropdown('user-menu');
+</script>
+     </div>
+     <div class="nearNav">
+       <div class="sign_links"> <a title="Sign up" class="inline-act registration-act" href="javascript: void(0);">Sign up</a>  | <a title="Sign in" class="signIn" href="javascript: void(0);">Sign in</a> </div>
+       
+       
+       
+       <div class="top-r-buts"> <div class="sw-top-but candSw"> <a href="/cm/candidates/join_now">Job Seeker</a> </div> <div class="sw-top-but_act emplSw"> <a href="/cm/clients/advertise_jobs">Employer</a>&nbsp;&nbsp; </div> </div> 
+     </div>
+</div>
+<div class="header">
+ <!-- <div class="logo"><a href="/"><img src="/imglib/tpl3/logo3.gif"/></a></div>-->
+<div class="logo"> <a href="/" title="WeAreTheCity Jobs"> <img src="/imglib/watc/logo-watc.png" style="max-width:300px;max-height:104px;" alt="WeAreTheCity Jobs" title="WeAreTheCity Jobs"/>  </a> </div>
+  <div class="topSiteBanner">
+     <!-- + -->
+<div class="bnr_1">
+<div>Create your free candidate account</div>
+<a class="inline-act registration-act" href="javascript:void(0);"><img src="/imglib/watc/postResume.gif" /></a></div>
+<div class="bnr_2">
+<div>Subscribe for Job Alerts</div>
+<a href="/cm/candidate/rss"><img src="/imglib/tpl3/subscribe.gif" /></a></div>
+<div class="bnr_3">
+<div>Follow Us:</div>
+<a href="https://www.facebook.com/WeAreTheCityJobs" target="_blank"><img src="/imglib/tpl3/fb.png"/></a>
+<a href="http://www.twitter.com/watc_jobs" target="_blank"><img src="/imglib/tpl3/tw.png"/></a>
+<a href="http://www.linkedin.com/groups/WeAreTheCity-2314141?home=&gid=2314141&trk=anet_ug_hm" target="_blank"><img src="/imglib/tpl3/lin.png"/></a>
+</div>
+     <!-- + -->
+  </div>
+</div>
+<div class="content">
+<table cellpadding="0" cellspacing="0" width="100%" class="bgTable">
+<tr>
+<td width="245" style="background:#d13065;">
+<div class="left">
+  <div class="search">  <h1 class="pl5">Vacancy Search</h1>                   <script type="text/javascript">
+function onSearchSubmitquickJobSearch() {
+var e;
+      
+e = document.forms["quickJobSearch"].elements["values[1].value"];
+if (e.value == "Enter keywords (e.g. Accountant)") {
+e.value = "";
+}
+     
+e = document.forms["quickJobSearch"].elements["values[2].value"];
+if (e.value == "Location (e.g. London)") {
+e.value = "";
+}
+ 
+}
+</script>  <form id="quickJobSearch" class="search-form" onkeypress="submitFormOnEnter(event, function() { onSearchSubmitquickJobSearch();doAjaxSubmit('validate', 'quickJobSearch', {disableSpinner : true}); });" action="/candidate/job_search/quick" method="post" onsubmit="return false;">  <input name="currentUri" type="hidden" value="/"/>      <div class="flineQ">                                    <div class="input-no-lab"> <input id="criterion271" name="values[1].value" class="txt" title="What" tabindex="2" onfocus="if (this.value == 'Enter keywords (e.g. Accountant)') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Enter keywords (e.g. Accountant)'}" type="text" value="Enter keywords (e.g. Accountant)" maxlength="256" autocomplete="on"/> <script type="text/javascript">
+window.addEvent('domready', function() {
+if ($('criterion271').value == '') $('criterion271').value = 'Enter keywords (e.g. Accountant)';
+});
+</script>  </div>   <span id="quickJobSearch.values[1].value.errors" class="errmsg"></span>   </div>    <div class="flineQ">                                    <div class="input-no-lab"> <input id="criterion272" name="values[2].value" class="txt" title="Where" tabindex="2" onfocus="if (this.value == 'Location (e.g. London)') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Location (e.g. London)'}" type="text" value="Location (e.g. London)" maxlength="256" autocomplete="off"/> <script type="text/javascript">
+window.addEvent('domready', function() {
+if ($('criterion272').value == '') $('criterion272').value = 'Location (e.g. London)';
+});
+</script>         <script type="text/javascript" src="/js/autocompleter/autocompleter.js"></script> <link rel="stylesheet" type="text/css" href="/js/autocompleter/autocompleter.css" />         <script type="text/javascript">
+document.addEvent('domready', function() {
+new Autocompleter.Request.JSON('criterion272', '/main/json/getSuggestedItemsByTextAndCriterionId',{
+indicatorClass:'autocompleter-loading',minLength:3,delay:800,selectMode:'pick',overflow:true,multiple:true,postData:{id:'272'},ajaxOptions:{method:'post'}
+});
+});
+</script>  </div>   <span id="quickJobSearch.values[2].value.errors" class="errmsg"></span>   </div>   <input type="hidden" name="submit.quickJobSearch"/> <div class="flineQbox">  <div class="clear"><!-- + --></div> <div class="but_st"><input name="submit.quickJobSearch" tabIndex="2" type="button" value="Search" title="Search" onclick="onSearchSubmitquickJobSearch();doAjaxSubmit('validate', 'quickJobSearch', {disableSpinner : true})"/></div>  </div><div class="clear"><!-- | --></div> </form>   <a href="/cm/candidate/search_jobs" class="adv-s">Advanced Search</a> </div> <div class="clear"><!-- | --></div>
+  <div class="featuredPrograms">
+<h2>Featured Jobs</h2>
+  <ul class="fjList">  <li><a href="/career/38374/International-Tax-Manager-Region-London"> International Tax Manager </a>                                                                                      </li>  <li><a href="/career/38373/Summer-Associate-Programme-Pershing-It-Project-Manchester-Region-Manchester"> Summer Associate Programme - Pershing IT Project (Manchester) </a>                                                                                      </li>  <li><a href="/career/38371/Ld-Analyst-Client-Processing-Region-Liverpool"> Ld Analyst, Client Processing </a>                                                                                      </li>  <li><a href="/career/38372/Corporate-Actions-Specialist-Region-Manchester"> Corporate Actions Specialist </a>                                                                                      </li>  <li><a href="/career/38375/Communications-Business-Partner-Region-City-London">Communications Business Partner</a>                                                                                      </li>  </ul>
+  </div>
+</div>
+</td><td width="477">
+<div class="middle">
+<ul id="fade">
+<li><img src="/imglib/watc/splash1.jpg" alt=""/></li>
+<li style="display:none"><img src="/imglib/watc/splash2.jpg" alt=""/></li>
+<li style="display:none"><img src="/imglib/watc/splash3.jpg" alt=""/></li>
+</ul>
+<script type="text/javascript" src="/download_files/jquery.js"></script>
+<script type="text/javascript" src="/download_files/jquery.innerfade.js"></script>
+</div>
+<div class="clear"><!-- + --></div>
+</td>
+<td style="background:#d13065;">
+ <div class="homeSiteText">
+    <h2>Who we are</h2>
+<p>WeAreTheCity Jobs is the careers section of leading UK women's website WeAreTheCity.com.<br />Our aim is to encourage more talented women to pursue their career aspirations by featuring profiles of inspirational role models, career guidance, and a jobs board with open roles from our amazing clients.<br />Due to the limited number of women in the pipeline in many firms our emphasis is on attracting women to apply for these roles, but please note that all of these roles are open to men too. </p>
+<div class="followUs">Follow Us: 
+<a href="https://www.facebook.com/WeAreTheCityJobs" target="_blank"><img src="/imglib/tpl3/fb.gif" alt="" align="absmiddle"/></a>
+<a href="http://www.twitter.com/watc_jobs" target="_blank"><img src="/imglib/tpl3/tw.png" alt="" align="absmiddle"/></a>
+<a href="http://www.linkedin.com/groups/WeAreTheCity-2314141?home=&gid=2314141&trk=anet_ug_hm" target="_blank"><img src="/imglib/tpl3/lin.gif" alt="" align="absmiddle"/></a>
+</div>
+ </div>
+<!-- <div class="bgBlog">
+<table class="ctxt">
+<tr>
+<td style="border-right:1px dotted #d4d4d4;padding-right:20px;">
+<img src="/imglib/watc/blog.png" alt=""/><br/>
+Connect with 
+your peers and 
+employers in
+our <a href="/jobs">BLOG4</a>
+
+</td>
+<td style="padding-left:20px;">
+<img src="/imglib/watc/day.png" alt=""/><br/>
+Check out 
+this month 
+<a href="/jobs">EVENTS4</a>
+</td>
+</tr>
+</table>
+ </div>-->
+</td>
+</table>
+<div class="featuredEmpl gallery">
+<h3>Featured Employers</h3>
+<div class="holder"><div class="holder-inner"><p align="center"> <a href="http://www.careerscity.co.uk/employer/company/515/CGI" title="" No such attribute : aditional_params> <img src="/imglib/CGI-Logo.png" style="max-width:140px;max-height:70px;" alt="CGI" title="CGI"/> </a> </p>  <p align="center"> <a href="http://www.careerscity.co.uk/employer/company/517/Thomson-Reuters" title="" No such attribute : aditional_params> <img src="/imglib/ThomsonReutersLogo.png" style="max-width:140px;max-height:70px;" alt="Thomson Reuters" title="Thomson Reuters"/> </a> </p>  <p align="center"> <a href="/employer/company/491/Network" title="" No such attribute : aditional_params> <img src="/imglib/SocGen-Small-logo.png" style="max-width:140px;max-height:70px;" alt="" title=""/> </a> </p>  <p align="center"> <a href="http://www.careerscity.co.uk/employer/company/518/Worldpay" title="" No such attribute : aditional_params> <img src="/imglib/Worldpay-small-logo2.png" style="max-width:140px;max-height:70px;" alt="Worldpay jobs" title="Worldpay jobs"/> </a> </p>  <p align="center"> <a href="http://www.careerscity.co.uk/employer/company/507/Lloyds" title="" No such attribute : aditional_params> <img src="/imglib/Lloydslogo.png" style="max-width:140px;max-height:70px;" alt="Lloyds" title="Lloyds"/> </a> </p>  <p align="center"> <a href="/employer/company/483/Morgan-Stanley" title="" No such attribute : aditional_params> <img src="/imglib/Mslogotransparent300.png" style="max-width:140px;max-height:70px;" alt="" title=""/> </a> </p>  <p align="center"> <a href="http://www.wearethecityjobs.com/employer/company/527/Baringa-Partners-Llp" title="" No such attribute : aditional_params> <img src="/imglib/BARINGA-LOGO.png" style="max-width:140px;max-height:70px;" alt="Baringa Partners LLP" title="Baringa Partners LLP"/> </a> </p>  <p align="center"> <a href="http://www.wearethecityjobs.com/employer/company/529/PwC" title="" No such attribute : aditional_params> <img src="/imglib/pwc-featured-e1448617429800.png" style="max-width:140px;max-height:70px;" alt="Find the latest vacancies at PwC" title="Find the latest vacancies at PwC"/> </a> </p>  <p align="center"> <a href="http://www.wearethecityjobs.com/employer/company/521/Bank-Of-New-York-Mellon" title="" No such attribute : aditional_params> <img src="/imglib/bnymrgblgo.jpg" style="max-width:140px;max-height:70px;" alt="BNY Mellon" title="BNY Mellon"/> </a> </p>  <p align="center"> <a href="http://www.wearethecityjobs.com/employer/company/526/Amazon" title="" No such attribute : aditional_params> <img src="/imglib/amazonlogo.jpg" style="max-width:140px;max-height:70px;" alt="Find the latest vacancies at Amazon here" title="Find the latest vacancies at Amazon here"/> </a> </p></div></div>
+<script>
+window.addEvent('domready', function(){
+    if ($$('.featuredEmpl a').length > 0) {
+        $$('.featuredEmpl a').set('target', '_blank');
+    }
+});
+</script>
+<script src="/download_files/slideGallery.js"></script>
+<script>
+window.addEvent("domready", function() {
+           if($$(".gallery")[0]) {
+                var gallery3 = new slideGallery($$(".gallery"), {
+                  steps: 1,
+                  elementsParent: ".holder-inner", 
+                  holder: ".holder",  
+                  elements: "p",  
+                  mode: "circle",
+                  random: true,
+                  autoplay: true,
+                  stop: ".stop",
+                  start: ".start",
+                  duration: 2000,
+                  speed: 1400
+            });
+      }
+ });
+</script>
+</div>
+<table width="100%" cellpadding="0" cellspacing="0" class="homeTbl">
+<tr>
+<td class="fCol">
+<div class="inner fEmpl">
+<h3 class="emplTitle">Featured Jobs</h3>
+<ul class="fjList">  <li><a href="/career/38374/International-Tax-Manager-Region-London"> International Tax Manager </a>                                                                                      </li>  <li><a href="/career/38373/Summer-Associate-Programme-Pershing-It-Project-Manchester-Region-Manchester"> Summer Associate Programme - Pershing IT Project (Manchester) </a>                                                                                      </li>  <li><a href="/career/38371/Ld-Analyst-Client-Processing-Region-Liverpool"> Ld Analyst, Client Processing </a>                                                                                      </li>  <li><a href="/career/38372/Corporate-Actions-Specialist-Region-Manchester"> Corporate Actions Specialist </a>                                                                                      </li>  <li><a href="/career/38375/Communications-Business-Partner-Region-City-London">Communications Business Partner</a>                                                                                      </li>  </ul>
+</div>
+</td>
+<td class="sCol">
+<div class="inner">
+<div id="browse-jobs" class="d"><div class="hd"><!-- + --></div> <div class="cent"> <div class="tab_seo"> <div class="tab_s">Browse by Location</div> <div class="tab_s">Browse by sectors</div> </div> <a href="/cm/candidate/rss" class="rssRes" title="Subscribe"></a>  
+<div class="main-tab" id="sect">
+<table style="width: 80%;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td colspan="2" valign="top">
+<div class="seoaim7">
+<ul>
+<li><a href="/vacancies/2/london/jobs" title="Jobs in London">London</a> <span>(273)</span></li><li><a href="/vacancies/2/glasgow/jobs" title="Jobs in Glasgow">Glasgow</a> <span>(1)</span></li><li><a href="/vacancies/2/manchester/jobs" title="Jobs in Manchester">Manchester</a> <span>(70)</span></li><li><a href="/vacancies/2/berkshire/jobs" title="Jobs in Berkshire">Berkshire</a> <span>(2)</span></li><li><a href="/vacancies/2/birmingham/jobs" title="Jobs in Birmingham">Birmingham</a> <span>(14)</span></li><li><a href="/vacancies/2/bristol/jobs" title="Jobs in Bristol">Bristol</a> <span>(2)</span></li><li><a href="/vacancies/2/canary-wharf/jobs" title="Jobs in Canary Wharf">Canary Wharf</a> <span>(9)</span></li><li><a href="/vacancies/2/cardiff/jobs" title="Jobs in Cardiff">Cardiff</a> <span>(1)</span></li>
+<li><a href="/cm/view_all">View all</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="main-tab" id="pos">
+<table style="width: 80%;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td valign="top">
+<ul>
+<li><a href="/vacancies/1/banking/jobs" title="Banking Jobs">Banking</a> <span>(205)</span></li><li><a href="/vacancies/1/financial-services/jobs" title="Financial Services Jobs">Financial Services</a> <span>(88)</span></li><li><a href="/vacancies/1/admin-and-secretarial/jobs" title="Admin and Secretarial Jobs">Admin and Secretarial</a> <span>(8)</span></li><li><a href="/vacancies/1/it/jobs" title="IT Jobs">IT</a> <span>(80)</span></li><li><a href="/vacancies/1/insurance/jobs" title="Insurance Jobs">Insurance</a> <span>(4)</span></li><li><a href="/vacancies/1/accountancy/jobs" title="Accountancy Jobs">Accountancy</a> <span>(18)</span></li><li><a href="/vacancies/1/consultancy/jobs" title="Consultancy Jobs">Consultancy</a> <span>(65)</span></li><li><a href="/vacancies/1/design-and-creative/jobs" title="Design and Creative Jobs">Design and Creative</a> <span>(1)</span></li>
+<li><a href="/cm/view_all">View all</a></li>
+</ul>
+</td>
+<td valign="top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+  </div> </div> <script type="text/javascript">
+new au.Tabs('browse-jobs', '.tab_s', '.main-tab').attach();
+</script>
+<div class="m"> <div class="hd"><!-- | --></div> <div class="cent"> <!--<a href="https://careers.societegenerale.com/" target="_blank"><img class="aligncenter size-full wp-image-52334" alt="300x250" src="http://wearethecity.com/Careers-portal/wp-content/uploads/2013/09/300x250.gif" width="300" height="250" /></a>--><a title="Join our new club to enhance and transform your career today!" href="http://careersclub.wearethecity.com" target="_blank"><img class="aligncenter size-full wp-image-84564" src="http://www.wearethecity.com/wp-content/uploads/2014/11/Careersclub-CTA-CC.png" alt="Careersclub-CTA-CC" width="160" height="250" /></a> </div> </div>
+</div>
+</td>
+<td class="tCol">
+<div class="inner">
+<h3 class="emplTitle">Latest Jobs</h3>
+<script type="text/javascript">
+function showtab(selectedTabId, numberOfTabs) {
+document.getElementById('jobtab_' + selectedTabId).style.display = "block";
+for (var tabId = 1; tabId <= numberOfTabs; tabId++) {
+if (tabId != selectedTabId) {
+document.getElementById('jobtab_' + tabId).style.display = "none";
+}
+}
+}
+</script>          <div class="jobs"> <ul>  <li> <a href="/career/38369/Corporate-Actions-Analyst-Region-Manchester"> Corporate Actions Analyst </a>                                                                                        </li>  <li> <a href="/career/38368/Summer-Associate-Programme-Client-Service-Delivery-Poole-Region-Sw-England"> Summer Associate Programme - Client Service Delivery (Poole) </a>                                                                                        </li>  <li> <a href="/career/38366/R-R-Planning-Manager-Emea-Region-Manchester"> R&R Planning Manager - EMEA </a>                                                                                        </li>  <li> <a href="/career/38365/Senior-Recruiter-Region"> Senior Recruiter </a>                                                                                        </li>  <li> <a href="/career/38364/Team-Leader-Customer-Contact-Centre-Region-Newcastle">Team Leader, Customer Contact Centre</a>                                                                                        </li>  <li> <a href="/career/38363/Team-Leader-Customer-Loyalty-Region-Newcastle">Team Leader, Customer Loyalty</a>                                                                                        </li>  </ul> </div>
+</div>
+</td>
+</table>                                                                                                                      
+
+<div class="clear"><!-- | --></div>
+</div>
+<div class="bottomMenu">
+<a href="/" class="act" title="">Home</a>         <a href="/cm/about_us" title="">About us</a>         <a href="/cm/candidate/search_jobs" title="">Job search</a>         <a href="/cm/clients/advertise_jobs" title="">Employer area</a>         <a href="/main/sendform/4/18/3472" title="">Contact us</a>         <a href="/cm/terms" title="">Terms &amp; conditions</a>         <a href="/cm/privacy" title="">Privacy policy</a>         <a href="/cm/candidate/rss" title="">RSS Feeds</a>
+</div>
+<div class="bottomAds">
+<a href="http://careersclub.wearethecity.com" target="_blank"><img class="alignnone size-large wp-image-80924" src="http://www.wearethecity.com/wp-content/uploads/2014/10/Careersclub-introduction-CTA-1024x169.png" alt="Careersclub-introduction-CTA" width="800" height="140" /></a>
+</div>
+<div class="seoBlock">
+<p>Popular locations: <a href="/vacancies/2/london/jobs" title="Jobs in London">London</a> <span>(273)</span> | <a href="/vacancies/2/glasgow/jobs" title="Jobs in Glasgow">Glasgow</a> <span>(1)</span> | <a href="/vacancies/2/manchester/jobs" title="Jobs in Manchester">Manchester</a> <span>(70)</span> | <a href="/vacancies/2/berkshire/jobs" title="Jobs in Berkshire">Berkshire</a> <span>(2)</span> | <a href="/vacancies/2/birmingham/jobs" title="Jobs in Birmingham">Birmingham</a> <span>(14)</span> | <a href="/vacancies/2/bristol/jobs" title="Jobs in Bristol">Bristol</a> <span>(2)</span> | <a href="/vacancies/2/canary-wharf/jobs" title="Jobs in Canary Wharf">Canary Wharf</a> <span>(9)</span> | <a href="/vacancies/2/cardiff/jobs" title="Jobs in Cardiff">Cardiff</a> <span>(1)</span></p>
+<p>Popular industries: <a href="/vacancies/1/banking/jobs" title="Banking Jobs">Banking</a> <span>(205)</span> | <a href="/vacancies/1/financial-services/jobs" title="Financial Services Jobs">Financial Services</a> <span>(88)</span> | <a href="/vacancies/1/admin-and-secretarial/jobs" title="Admin and Secretarial Jobs">Admin and Secretarial</a> <span>(8)</span> | <a href="/vacancies/1/it/jobs" title="IT Jobs">IT</a> <span>(80)</span> | <a href="/vacancies/1/insurance/jobs" title="Insurance Jobs">Insurance</a> <span>(4)</span> | <a href="/vacancies/1/accountancy/jobs" title="Accountancy Jobs">Accountancy</a> <span>(18)</span> | <a href="/vacancies/1/consultancy/jobs" title="Consultancy Jobs">Consultancy</a> <span>(65)</span> | <a href="/vacancies/1/design-and-creative/jobs" title="Design and Creative Jobs">Design and Creative</a> <span>(1)</span></p>
+</div>
+<div class="powered">
+  <div style="float:left;">WeAreTheCity Jobs ©2013  All right reserved</div>
+  <div style="float:right;text-align:right;">Powered by WeAreTheCity <a target="_blank" href="http://www.wearethecity.com">Supporting the Pipeline</a></div>
+</div>   </div> </body> </html>

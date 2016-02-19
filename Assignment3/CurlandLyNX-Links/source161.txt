@@ -1,0 +1,114 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="wishfillApp"> <!--<![endif]-->
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# wishfill: http://ogp.me/ns/fb/wishfill#">
+  <title>wishfill</title>
+  <!-- Default configuration -->
+  <meta name="keywords" content="wish,fullfill,site,wish,true">
+  <meta name="description" content="a site made to fulfill your wish"/>
+  <meta http-equiv="expires" content="0"/>
+  <!---------------------------->
+
+  <meta name="p:domain_verify" content="a51ab4cfe8cf5aeda1f42fa3285c59a6"/>
+  <meta property="fb:app_id" content="520752604620234"/>
+  <meta property="og:title" content="{{scarp.title}}"/>
+  <meta property="og:site_name" content="Wishfill"/>
+  <meta property="og:description" content="{{scarp.body}} || 'a site made to fullfill your wish'"/>
+  <meta property="og:type" content="wishfill:wish"/>
+  <meta property="og:url" content="{{scarp.url}}"/>
+  <meta property="og:image" content="{{scarp.imageUrl}}"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@wishfill"/>
+  <meta name="twitter:title" content="{{scarp.title}}"/>
+  <meta name="twitter:description" content="{{scarp.body}} || 'a site made to fullfill your wish'"/>
+  <meta name="twitter:image:src" content="{{scarp.imageUrl}}"/>
+  <meta property="og:price:amount" content="{{content.amount}}" />
+  <meta property="og:price:currency" content="USD" />
+  <!-- Mobile configuration  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="GOOGLEBOT" content="index follow"/>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!---------------------------->
+  <!-- =========================================
+    fav & icons for iPhone and iPad
+  ========================================== -->
+<link rel="apple-touch-icon" sizes="57x57" href="assets/images/91f04473.apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/images/32a7fd14.apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/images/7e469ada.apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/images/53377bc3.apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/images/b665a352.apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/images/7de86d9e.apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/images/2f5ccc3f.apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/images/646128b1.apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/7cb4062f.apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="assets/images/5d1554e4.android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/6fb0ec5b.favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/images/a4011369.favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/6776e25b.favicon-16x16.png">
+<link rel="manifest" href="assets/images/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/images/2f5ccc3f.ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+  <!-- ========================================= -->
+  <!-- Startup screen for iphone and ipad and not configured yet-->
+
+  <!------------------------>
+
+
+
+
+
+      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="app/39bd057f.vendor.css">
+    <link rel="stylesheet" href="app/bc43bd8c.app.css">
+    <!-- cordova -->
+  <!--- Navigate within web app -->
+   <script>
+    (function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")
+
+   </script>
+  <!------------------------------>
+
+  </head>
+  <body>
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+
+    <div ui-view></div>
+    <a href="#0" class="cd-top" scroll-top>Top</a>
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+    <script src="app/d5d5c0ab.vendor.js"></script>
+    <script src="bower_components/underscore.string/lib/underscore.string.js"></script>
+
+        <script src="app/147234b6.app.js"></script>
+          <!-- Third party module-->
+          <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-25910017-1', 'auto');
+
+
+          </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+   #[1]next [2]Hybrid Eidolon
+
+Menu
+
+   [3]Close
+     * [4]Home
+     * [5]About Me
+
+   [6]Subscribe
+
+   [7]Menu
+
+Hybrid Eidolon
+
+Musings on code, games, society.
+
+   [8]Scroll Down
+   Page 1 of 2 [9]Older Posts →
+
+[10]Preserving Defunct Online Games: A Proposal
+
+   Private servers or "shards" have been a staple of game preservation
+   efforts for years, and they've expanded the life of games beyond
+   developer support for many gamers. Even for currently-maintained games,
+   many servers are created to mimic games as they existed in prior
+   versions, such as Everquest in its original form, or Ultima Online.
+   However, these efforts are often closed and protected, seemingly as a
+   competitive, capitalistic effort between server [11]»
+   Eidolon [12]Eidolon on [13]Video Games 30 November 2015
+
+[14]On Toxic Online Communities
+
+   Aggressive behavior is a staple of Internet discourse, from the day the
+   term flame-war was coined to today's trolling. It's hard to argue that
+   aggression and argument isn't a basic part of daily life when
+   communicating with people over the Internet. We are desensitized to the
+   idea of someone becoming unreasonably aggressive over disagreement or
+   disillusionment online, because it happens so often. In my experience
+   the level of vitriol spread [15]»
+   Eidolon [16]Eidolon on [17]Internet 15 November 2015
+
+[18]RAII, Drop and foreign libraries
+
+   RAII, or Resource Acquisition Is Initialization, is a programming
+   policy that was popularized with C++, and one that Rust proudly puts at
+   the forefront of its standard library and conventions. This core tenet
+   of API design ensures that well-written Rust code has no dependency on
+   global state and that everything has a well-defined lifetime.
+   Considering that one of Rust's unique features is an elaborate borrow
+   checker that explicitly handles the [19]»
+   Eidolon [20]Eidolon on [21]Code, [22]Rust 19 September 2015
+
+[23]Running Rust code on the 3DS 2: Electric Boogaloo
+
+   A few months ago I wrote a guide on compiling rust code to the 3DS, and
+   an accompanying wrapper library for libctru. Unfortunately, that didn't
+   work beyond trivial examples. However, months later I have figured out
+   how to get the libcompiler-rt intrinsics built for the Nintendo 3DS.
+   Updated September 17, 2015: alloc crate now works, meaning collections
+   now works as well. Without further adieu, I present rust3ds-template
+   and the previous [24]»
+   Eidolon [25]Eidolon on [26]Rust, [27]Nintendo 3DS 17 September 2015
+
+[28]Piston SDL window with Sound
+
+   With the 0.7.0 release of the sdl2 crate, it is now much easier to
+   manage subsystem initialization across libraries. This means it's now
+   very easy to set up audio through SDL when using the
+   pistoncore-sdl2_window crate as a backend for the Piston game engine;
+   the SDL context is not locked behind the backend in such a way that
+   lifetimes get in the way of initializing other desired [29]»
+   Eidolon [30]Eidolon on [31]Code, [32]Rust 06 August 2015 Page 1 of 2
+   [33]Older Posts → [34]Hybrid Eidolon © 2016 Proudly published with
+   [35]Ghost
+
+References
+
+   1. http://www.idolagames.com/page/2/
+   2. http://www.idolagames.com/rss/
+   3. file:///home/mgomez/CS432/A3/source152.txt
+   4. http://www.idolagames.com/
+   5. http://www.idolagames.com/about
+   6. http://www.idolagames.com/rss/
+   7. file:///home/mgomez/CS432/A3/source152.txt
+   8. file:///home/mgomez/CS432/A3/source152.txt#content
+   9. file:///page/2/
+  10. file:///preserving-defunct-online-games-a-proposal/
+  11. file:///preserving-defunct-online-games-a-proposal/
+  12. file:///author/eidolon/
+  13. file:///tag/video-games/
+  14. file:///on-toxic-online-communities/
+  15. file:///on-toxic-online-communities/
+  16. file:///author/eidolon/
+  17. file:///tag/internet/
+  18. file:///raii-drop-and-foreign-libraries/
+  19. file:///raii-drop-and-foreign-libraries/
+  20. file:///author/eidolon/
+  21. file:///tag/code/
+  22. file:///tag/rust/
+  23. file:///running-rust-code-on-the-3ds-2-electric-boogaloo/
+  24. file:///running-rust-code-on-the-3ds-2-electric-boogaloo/
+  25. file:///author/eidolon/
+  26. file:///tag/rust/
+  27. file:///tag/nintendo-3ds/
+  28. file:///piston-sdl-window-with-sound/
+  29. file:///piston-sdl-window-with-sound/
+  30. file:///author/eidolon/
+  31. file:///tag/code/
+  32. file:///tag/rust/
+  33. file:///page/2/
+  34. http://www.idolagames.com/
+  35. https://ghost.org/

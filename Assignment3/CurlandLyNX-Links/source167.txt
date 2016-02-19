@@ -1,0 +1,2236 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmlns:og='http://ogp.me/ns#'>
+<head>
+<link href='http://www.fash365.com/' rel='canonical'/>
+<!-- Yoast SEO Start -->
+<title>Fash365</title>
+<!-- Yoast SEO End -->
+<meta content='Fash365' property='og:site_name'/>
+<meta content='Daily Fashion Inspiration and Outfit Ideas from Cate Adair, Emmy Award nominated costume designer of Desperate Housewives fame.' property='og:description'/>
+<meta content='Fash365 - Daily Fashion Inspiration' property='og:title'/>
+<meta content='index, follow' name='robots'/>
+<meta content='article' property='og:type'/>
+<meta content='en_US' property='og:locale'/>
+<meta content='all' name='audience'/>
+<meta content='website' property='og:type'/>
+<meta content='http://www.fash365.com' property='og:url'/>
+<meta content='index, follow' name='googlebot'/>
+<meta content='USA' name='country'/>
+<link href='https://plus.google.com/+CateAdair/posts' rel='publisher'/>
+<link href='https://plus.google.com/+CateAdair/posts' rel='Author'/>
+<link href='Admin Google Plus Address' rel='me'/>
+<meta content='Cate Adair' name='me'/>
+<meta content='info@fash365.com' name='Email'/>
+<meta content='FDcfXbnfUd11dXV9voRTT1exr7k' name='alexaVerifyID'/>
+<meta content='EA53340FFE0E482ACA3614212CEDCBB5' name='msvalidate.01'/>
+<meta content='XnZdu8BHqyz4ZwG6Q0w5' name='specificfeeds-verification-code'/>
+<meta content='3520ddeadd54eab6c5c265b309215610' name='p:domain_verify'/>
+<title>Fash365</title>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/2973171168-css_bundle_v2.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5231887564221620544&zx=82058ef4-338b-457c-92a6-79cd88ccfb09' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Simple
+Designer: Josh Peterson
+URL:      www.noaesthetic.com
+----------------------------------------------- */
+.quickedit{display:none;}
+/* Variable definitions
+====================
+<Group description="Post Title Color" selector="h3.post-title">
+<Variable name="post.title.link.color" description="Link Color" type="color" default="#ff0000"/>
+<Variable name="post.title.hover.color" description="Link Hover Color" type="color" default="#0000ff"/>
+<Variable name="post.title.color" description="Color on Post Page" type="color" default="#ff00ff"/>
+</Group>
+<Variable name="keycolor" description="Main Color" type="color" default="#66bbdd"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 12px PT Sans Narrow"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#66bbdd"/>
+<Variable name="header.background.color" description="Header Background" type="color" default="#000000"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="#ffffff"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#2288bb"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#888888"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal bold 100px Bentham, "/>
+<Variable name="header.text.color" description="Title Color" type="color" default="#3399bb" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.font" description="Font" type="font"
+default="normal bold 100px Bentham, "/>
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#777777"  />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal normal 14px PT Sans Narrow"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#999999"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#000000"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="#f5f5f5"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title, .comments h4">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal normal 20px PT Sans Narrow"/>
+</Group>
+<Group description="Date Header" selector=".date-header">
+<Variable name="date.header.color" description="Text Color" type="color"
+default="#5d5d5d"/>
+<Variable name="date.header.background.color" description="Background Color" type="color"
+default="transparent"/>
+</Group>
+<Group description="Post Footer" selector=".post-footer">
+<Variable name="post.footer.text.color" description="Text Color" type="color" default="#666666"/>
+<Variable name="post.footer.background.color" description="Background Color" type="color"
+default="#f9f9f9"/>
+<Variable name="post.footer.border.color" description="Shadow Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Gadgets" selector="h2">
+<Variable name="widget.title.font" description="Title Font" type="font"
+default="normal bold 20px PT Sans Narrow"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#000000"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#999999"/>
+</Group>
+<Group description="Images" selector=".main-inner">
+<Variable name="image.background.color" description="Background Color" type="color" default="#ffffff"/>
+<Variable name="image.border.color" description="Border Color" type="color" default="#eeeeee"/>
+<Variable name="image.text.color" description="Caption Text Color" type="color" default="#5d5d5d"/>
+</Group>
+<Group description="Accents" selector=".content-inner">
+<Variable name="body.rule.color" description="Separator Line Color" type="color" default="#eeeeee"/>
+<Variable name="tabs.border.color" description="Tabs Border Color" type="color" default="#ffffff"/>
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#ffffff" default="$(color) none repeat scroll top left"/>
+<Variable name="body.background.override" description="Body Background Override" type="string" default=""/>
+<Variable name="body.background.gradient.cap" description="Body Gradient Cap" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="body.background.gradient.tile" description="Body Gradient Tile" type="url"
+default="url(//www.blogblog.com/1kt/simple/body_gradient_tile_light.png)"/>
+<Variable name="content.background.color.selector" description="Content Background Color Selector" type="string" default=".content-inner"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="10px"/>
+<Variable name="content.padding.horizontal" description="Content Horizontal Padding" type="length" default="10px"/>
+<Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="40px"/>
+<Variable name="content.shadow.spread.webkit" description="Content Shadow Spread (WebKit)" type="length" default="5px"/>
+<Variable name="content.shadow.spread.ie" description="Content Shadow Spread (IE)" type="length" default="10px"/>
+<Variable name="main.border.width" description="Main Border Width" type="length" default="0"/>
+<Variable name="header.background.gradient" description="Header Gradient" type="url" default="none"/>
+<Variable name="header.shadow.offset.left" description="Header Shadow Offset Left" type="length" default="-1px"/>
+<Variable name="header.shadow.offset.top" description="Header Shadow Offset Top" type="length" default="-1px"/>
+<Variable name="header.shadow.spread" description="Header Shadow Spread" type="length" default="1px"/>
+<Variable name="header.padding" description="Header Padding" type="length" default="0px"/>
+<Variable name="header.border.size" description="Header Border Size" type="length" default="1px"/>
+<Variable name="header.bottom.border.size" description="Header Bottom Border Size" type="length" default="1px"/>
+<Variable name="header.border.horizontalsize" description="Header Horizontal Border Size" type="length" default="0"/>
+<Variable name="description.text.size" description="Description Text Size" type="string" default="140%"/>
+<Variable name="tabs.margin.top" description="Tabs Margin Top" type="length" default="0" />
+<Variable name="tabs.margin.side" description="Tabs Side Margin" type="length" default="0px" />
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="tabs.border.width" description="Tabs Border Width" type="length" default="1px"/>
+<Variable name="tabs.bevel.border.width" description="Tabs Bevel Border Width" type="length" default="0px"/>
+<Variable name="date.header.padding" description="Date Header Padding" type="string" default="inherit"/>
+<Variable name="date.header.letterspacing" description="Date Header Letter Spacing" type="string" default="inherit"/>
+<Variable name="date.header.margin" description="Date Header Margin" type="string" default="inherit"/>
+<Variable name="post.margin.bottom" description="Post Bottom Margin" type="length" default="25px"/>
+<Variable name="image.border.small.size" description="Image Border Small Size" type="length" default="2px"/>
+<Variable name="image.border.large.size" description="Image Border Large Size" type="length" default="5px"/>
+<Variable name="page.width.selector" description="Page Width Selector" type="string" default=".region-inner"/>
+<Variable name="page.width" description="Page Width" type="string" default="auto"/>
+<Variable name="main.section.margin" description="Main Section Margin" type="length" default="15px"/>
+<Variable name="main.padding" description="Main Padding" type="length" default="15px"/>
+<Variable name="main.padding.top" description="Main Padding Top" type="length" default="30px"/>
+<Variable name="main.padding.bottom" description="Main Padding Bottom" type="length" default="30px"/>
+<Variable name="paging.background"
+color="#ffffff"
+description="Background of blog paging area" type="background"
+default="transparent none no-repeat scroll top center"/>
+<Variable name="footer.bevel" description="Bevel border length of footer" type="length" default="0"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.background.size" description="Mobile Background Size" type="string" default="auto"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 16px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+color: #5d5d5d;
+background: #ffffff none repeat scroll top left;
+padding: 0 0 0 0;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+a:link {
+text-decoration:none;
+color: #3455b8;
+}
+a:visited {
+text-decoration:none;
+color: #3455b8;
+}
+a:hover {
+text-decoration:underline;
+color: #505050;
+}
+.body-fauxcolumn-outer .fauxcolumn-inner {
+background: transparent none repeat scroll top left;
+_background-image: none;
+}
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 400px;
+width: 100%;
+background: #ffffff none repeat scroll top left;
+}
+.body-fauxcolumn-outer .cap-top .cap-left {
+width: 100%;
+background: transparent none repeat-x scroll top left;
+_background-image: none;
+}
+.content-outer {
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 0 #333333;
+box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+margin-bottom: -1px;
+}
+.content-inner {
+padding: 10px 40px;
+}
+.content-inner {
+background-color: #ffffff;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+margin-left: 40px;
+margin-top: -50px;
+background: #ffffff none repeat-x scroll 0px 0px;
+_background-image: none;
+}
+.Header h1 {
+font: normal 0px Poiret One;
+color: #ffffff;
+text-shadow: 0 0 #(title.shadow.spread) #000000;
+}
+.Header .description {
+font-size: 18px;
+line-height: 3px;
+font-family: 'Poiret One';
+color: #1DB9F3;
+}
+.header-inner .Header .titlewrapper {
+padding: 0 0px;
+}
+.header-inner .Header .descriptionwrapper {
+padding: 0 0px;
+}
+#header-inner img {margin: 5px !important;}
+#header-inner img {margin-top: -20px !important;}
+#header-inner img {margin-bottom: 65px !important;}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner .section:first-child {
+border-top: 0 solid #ffffff;
+}
+.tabs-inner .section:first-child ul {
+margin-top: 1px;
+}
+.tabs-inner .widget ul {
+background: transparent none repeat-x scroll 0 -80px;
+_background-image: none;
+margin-top: 0;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 1px;
+padding-top: 0px;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+font: normal normal 18px Poiret One;
+color: #5d5d5d;
+}
+.tabs-inner .widget li:first-child a {
+border-left: none;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li  {
+color: #000000;
+font-size: 120%;
+text-decoration: none;
+}
+.PageList {
+text-align:right !important;
+position: relative;
+top: -100px;
+left: -120px;
+padding: 0px;
+display: none;
+}
+.PageList li {
+text-align:right !important;
+display:inline !important;
+float:none !important;
+padding-left:12px; padding-right:12px;
+display: none;
+}
+/* Columns
+----------------------------------------------- */
+.main-outer {
+border-top: 0 solid #ffffff;
+margin: -120px auto auto auto;
+}
+.fauxcolumn-left-outer .fauxcolumn-inner {
+border-right: 0px solid #ffffff;
+}
+.fauxcolumn-right-outer .fauxcolumn-inner {
+border-left: 0px solid #ffffff;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+margin: 0 0 1em 0;
+font: normal normal 16px Poiret One;
+color: #505050;
+}
+/* Widgets
+----------------------------------------------- */
+.widget .zippy {
+color: #505050;
+text-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+.widget .popular-posts ul {
+list-style: none;
+}
+/* Posts
+----------------------------------------------- */
+.date-header span {
+margin: -40;
+background-color: transparent;
+color: #5d5d5d;
+padding: 0;
+letter-spacing: 1px;
+margin: 0;
+}
+.main-inner {
+padding-top: 35px;
+padding-bottom: 65px;
+}
+.main-inner .column-center-inner {
+padding: 0 0;
+}
+.main-inner .column-center-inner .section {
+margin: 0 1em;
+}
+.post {
+margin: 0 0 45px 0;
+}
+h3.post-title, .comments h4 {
+display:none;
+font: normal normal 20px Poiret One;
+margin: 0;
+}
+.post-body {
+margin-top: -30px;
+font-size: 110%;
+line-height: 1.6;
+position: relative;
+}
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
+.BlogList .item-thumbnail img {
+padding: 2px;
+background: #ffffff;
+border: 1px solid transparent;
+}
+.post-body img, .post-body .tr-caption-container {
+padding: 5px;
+border:2px groove #e3e3e3;
+line-height: 1.6;
+border-radius:10px;
+padding: 10px;
+}
+.post-body .tr-caption-container {
+color: #505050;
+}
+.post-body .tr-caption-container img {
+padding: 0;
+background: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+.post-header {
+margin: 0 0 1.5em;
+line-height: 1.6;
+font-size: 90%;
+}
+.post-footer {
+margin: 20px -2px 0;
+padding: 5px 10px;
+color: #666666;
+background-color: transparent;
+border-bottom: 1px solid #505050;
+line-height: 1.6;
+font-size: 90%;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: 1px solid #ffffff;
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+#comments .avatar-image-container img {
+border: 1px solid transparent;
+}
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img, .BlogList .item-thumbnail img { -webkit-box-shadow:none; box-shadow:none; }
+.date-header {
+text-align: left;
+}
+#PageList1 div ul{
+padding-top: 10px !important;
+padding-bottom: 0px !important;
+font-family: 'Poiret One';
+}
+.titlewrapper{
+position: relative;
+top: 0px;
+left: 0px;
+}
+.descriptionwrapper{
+position: relative;
+top: 10px;
+left: 0px;
+}
+#sidebar-right-1{
+font-family: 'Poiret One';
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #505050;
+border-bottom: 1px solid #505050;
+}
+.comments .comment-thread.inline-thread {
+background-color: transparent;
+}
+.comments .continue {
+border-top: 2px solid #505050;
+}
+/* Accents
+---------------------------------------------- */
+.section-columns td.columns-cell {
+border-left: 1px solid #ffffff;
+}
+.blog-pager {
+background: transparent url(//www.blogblog.com/1kt/simple/paging_dot.png) repeat-x scroll top center;
+}
+.blog-pager-older-link, .home-link,
+.blog-pager-newer-link {
+background-color: #ffffff;
+padding: 5px;
+}
+.footer-outer {
+border-top: 1px dashed #bbbbbb;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .body-fauxcolumn-outer .cap-top {
+background-size: 100% auto;
+}
+.mobile .content-outer {
+-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+}
+body.mobile .AdSense {
+margin: 0 -0;
+}
+.mobile .tabs-inner .widget ul {
+margin-left: 0;
+margin-right: 0;
+}
+.mobile .post {
+margin: 0;
+}
+.mobile .main-inner .column-center-inner .section {
+margin: 0;
+}
+.mobile .date-header span {
+padding: 0.1em 10px;
+margin: 0 -10px;
+}
+.mobile h3.post-title {
+margin: 0;
+}
+.mobile .blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.mobile .footer-outer {
+border-top: none;
+}
+.mobile .main-inner, .mobile .footer-inner {
+background-color: #ffffff;
+}
+.mobile-index-contents {
+color: #5d5d5d;
+}
+.mobile-link-button {
+background-color: #3455b8;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile .tabs-inner .section:first-child {
+border-top: none;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background-color: transparent;
+color: #000000;
+border-top: 0px solid #ffffff;
+border-bottom: 0px solid #ffffff;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 0px solid #ffffff;
+}
+.ss, .noborderdv img{
+box-shadow: none !important;
+padding: 0px !important;
+border: 0px !important;
+}
+h3.post-title { color:#5d5d5d;
+margin-top: 0px;
+padding-top: 0px; }
+h3.post-title a, h3.post-title a:visited { color:#5d5d5d;
+margin-top: 0px;
+padding-top: 0px;  }
+h3.post-title a:hover { color:#5d5d5d;
+margin-top: 0px;
+padding-top: 0px; }
+/* -----Linkwithin Stylesheet by www.MybloggerTricks.com----- */
+.linkwithin_text {
+color:#898888!important;
+font-family:'Poiret One', !important;
+font-size:16px!important;
+padding-bottom:1px!important;
+}
+.linkwithin_title {
+color:#FFFFFF !important;
+line-height:0px !important;
+text-decoration: none;
+border-top:1px solid  #ddd !important;
+}
+#comments {
+display:inline;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 1180px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1180px;
+max-width: 1180px;
+_width: 1180px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 247px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 247px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("247px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 247px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 247px;
+margin-right: -247px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<link href='http://www.fash365.com/favicon.ico?v=2' rel='shortcut icon'/>
+<link href='http://www.fash365.com/favicon.ico' rel='icon'/>
+<link href='http://www.fash365.com/favicon.ico' rel='shortcut icon' type='image/x-icon'/>
+<link href='http://www.fash365.com/feeds/posts/default?' rel='alternate' title='Fash365 RSS Feed' type='application/rss+xml'/>
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'/>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://www.fash365.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://www.fash365.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Fash365 - Atom" href="http://www.fash365.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Fash365 - RSS" href="http://www.fash365.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Fash365 - Atom" href="https://www.blogger.com/feeds/5231887564221620544/posts/default" />
+<link rel="me" href="https://plus.google.com/105127467089995718535" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://www.fash365.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3978477444-ieretrofit.js"></script>
+<![endif]-->
+<link href='https://plus.google.com/105127467089995718535' rel='publisher'/>
+<meta content='A fashion blog by Cate Adair, Emmy Award nominated Hollywood Costume Designer of Desperate Housewives fame.' name='description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<style type='text/css'>
+.content-inner
+{
+margin-top: -60px !important;
+}
+
+
+
+
+</style>
+<script>
+/**
+* Function that tracks a click on an outbound link in Google Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label.
+*/
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+     function () {
+     document.location = url;
+     }
+   });
+}
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48525333-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type='text/javascript'> 
+  var blocklink = ['http://Econom.co/','http://iEskalko.ru/','http://Lomb.co.com/','http://Lombia.co/','http://Iloveitaly.com/','http://priceg.com/','http://blackhatworth.com/','http://Darodar.com/','app:/temp/AuthoritySpy.swf']; 
+for (var b = blocklink.length; b--;) { 
+if (document.referrer.match(blocklink[b])) 
+window.location = "http://priceg.com/"; 
+</script>
+<script async='async' charset='utf-8' src='//my.hellobar.com/066d6993cc52710299b72a107c46b66fbb418902.js' type='text/javascript'></script>
+<script type="text/javascript">var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<!-- -->
+<script type='text/javascript'> var _paq = _paq || []; _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u="//analytics-production.sidebuy.com/stats/"; _paq.push(['setTrackerUrl', u+'piwik.php']); _paq.push(['setSiteId', 238]); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s); })(); </script>
+<noscript><p><img alt='' src='//analytics-production.sidebuy.com/stats/piwik.php?idsite=238' style='border:0;'/></p></noscript>
+<!-- End Code -->
+<body class='nolinks'>
+<body class='loading'>
+<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+<meta content='Fash365' itemprop='name'/>
+<meta content='A fashion blog by Cate Adair, Emmy Award nominated Hollywood Costume Designer of Desperate Housewives fame.' itemprop='description'/>
+</div>
+<div class='navbar section' id='navbar'><div class='widget HTML' id='HTML9'>
+<div class='widget-content'>
+<br />
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=HTML&widgetId=HTML9&action=editWidget&sectionId=navbar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML9"));' target='configHTML9' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header'><div class='widget PageList' id='PageList2'>
+<h2>Pages</h2>
+<div class='widget-content'>
+<ul>
+<li class='selected'><a href='http://www.fash365.com/'>HOME</a></li>
+<li><a href='http://www.fash365.com/p/about.html'>ABOUT</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=PageList&widgetId=PageList2&action=editWidget&sectionId=header' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList2"));' target='configPageList2' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<a href='http://www.fash365.com/' style='display: block'>
+<img alt='Fash365' height='200px; ' id='Header1_headerimg' src='http://4.bp.blogspot.com/-78RNSB1dVKE/VB355QB7ygI/AAAAAAAADpE/3K1ZaPlplic/s1600/fash%2Blogo%2Bwith%2Bwear%2Bto%2Blive%2B--USE%2BTHIS%2BONE--v1.0%2Bcopy.png' style='display: block' width='265px; '/>
+</a>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol'>
+</div>
+<div class='tabs section' id='crosscol-overflow'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts h-feed'>
+
+          <div class="date-outer">
+        
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post h-entry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://1.bp.blogspot.com/-w09_aLWLvX8/VsT45yCSryI/AAAAAAAAHCY/SkTPmHQM0DA/s1600/2.18.2016%2Bspring%2Bdress.png' itemprop='image'/>
+<a name='4820682278210406505'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.fash365.com/2016/02/put-your-metal-to-petal.html'>Put your metal to the petal.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4820682278210406505' itemprop='articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<br />
+<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><br />
+<br />
+<br />
+<h2>
+<span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><span style="font-size: x-large;">Put your metal to the petal.</span></span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-w09_aLWLvX8/VsT45yCSryI/AAAAAAAAHCY/SkTPmHQM0DA/s1600/2.18.2016%2Bspring%2Bdress.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="" border="0" src="https://1.bp.blogspot.com/-w09_aLWLvX8/VsT45yCSryI/AAAAAAAAHCY/SkTPmHQM0DA/s1600/2.18.2016%2Bspring%2Bdress.png" usemap="#image-maps-2016-02-17-175103" /></a></div>
+<br />
+<div style="text-align: center;">
+<div style="text-align: left;">
+<span style="font-size: x-large;">Sometimes mixing &amp; matching works best as mixing &amp;&nbsp;un-matching. Like here where soft florals and silver metal combine to create an edgy, romantic "look." &nbsp;So go ahead and take a risk this spring.&nbsp;</span></div>
+</div>
+<br /></td>
+</tr>
+<tr>
+
+<td class="tr-caption" style="text-align: center;"><br />
+<div>
+<span style="font-family: inherit; font-size: x-large;">Floral Print Gauze Wrap Dress&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=505463193&amp;pid=uid4896-26623836-18">$145, ralphlauren.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Faustina Drops by Dannijo&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=504094424&amp;pid=uid4896-26623836-18">$418, anthropologie.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Best of the best Hard Bangles&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=448833410&amp;pid=uid4896-26623836-18">$28, freepeople.com</a></span></div>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: small;">If you liked this post, you might enjoy our Fash365 newsletter.&nbsp;</span><br />
+<span style="font-family: inherit; font-size: small;">&nbsp;Receive each new post delivered right to your inbox.  <a href="https://feedburner.google.com/fb/a/mailverify?uri=fash365/yrlX&amp;loc=en_US">Sign up here.</a></span>
+</td>
+
+</tr>
+</tbody></table>
+</div>
+<br />
+<br />
+<map id="ImageMapsCom-image-maps-2016-02-17-175103" name="image-maps-2016-02-17-175103">
+<area alt="" coords="58,43,356,548" href="http://api.shopstyle.com/action/apiVisitRetailer?id=505463193&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="385,34,683,293" href="http://api.shopstyle.com/action/apiVisitRetailer?id=504094424&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="379,321,677,580" href="http://api.shopstyle.com/action/apiVisitRetailer?id=448833410&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="Image Map" coords="718,666,720,668" href="http://www.image-maps.com/index.php?aff=mapped_users_0" shape="rect" style="outline: none;" title="Image Map"></area>
+</map>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/105127467089995718535' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/105127467089995718535' rel='author' title='author profile'>
+<span itemprop='name'>Cate Adair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+On
+<meta content='http://www.fash365.com/2016/02/put-your-metal-to-petal.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.fash365.com/2016/02/put-your-metal-to-petal.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-18T00:00:00-08:00'>Thursday, February 18, 2016</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.fash365.com/2016/02/put-your-metal-to-petal.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='https://www.blogger.com/email-post.g?blogID=5231887564221620544&postID=4820682278210406505' title='Email Post'>
+<img alt='Fashion Blog Post' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=4820682278210406505&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=4820682278210406505&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=4820682278210406505&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=4820682278210406505&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=4820682278210406505&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://www.fash365.com/2016/02/put-your-metal-to-petal.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post h-entry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://2.bp.blogspot.com/-lhqin09Ac88/VsO8lBFxZgI/AAAAAAAAHCE/pOEWuY_Jr34/s1600/2.17.2016%2Bgreen%2Bgown.png' itemprop='image'/>
+<a name='7528875501783736733'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.fash365.com/2016/02/and-oscar-goes-to.html'>And the Oscar goes to...</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-7528875501783736733' itemprop='articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<br />
+<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><br />
+<br />
+<br />
+<h2>
+<span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><span style="font-size: x-large;">And the Oscar for Best Visual Effects goes to&#8230;</span></span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://2.bp.blogspot.com/-lhqin09Ac88/VsO8lBFxZgI/AAAAAAAAHCE/pOEWuY_Jr34/s1600/2.17.2016%2Bgreen%2Bgown.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Green Gown" border="0" src="https://2.bp.blogspot.com/-lhqin09Ac88/VsO8lBFxZgI/AAAAAAAAHCE/pOEWuY_Jr34/s1600/2.17.2016%2Bgreen%2Bgown.png" usemap="#image-maps-2016-02-16-192119" /></a></div>
+<br />
+<div style="text-align: center;">
+<div style="text-align: left;">
+<span style="font-size: x-large;">Award season is here. So why not award yourself with a fabulous new gown? And who doesn't love bling? &nbsp;The envelope, please...</span></div>
+<br /></div>
+<br /></td>
+</tr>
+<tr>
+
+<td class="tr-caption" style="text-align: center;"><br />
+<div>
+<span style="font-family: inherit; font-size: x-large;">Halston Heritage Deep-V Flared Gown&nbsp;<a href="http://bit.ly/1mGlfWz">$725, saksfifthavenue.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Alexis Bittar Clip-On Drop Earrings&nbsp;<a href="http://bit.ly/1TmSV8K">$495, saksfifthavenue.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Kate Spade New York Isa Metallic Sandals&nbsp;<a href="http://bit.ly/1mGlf9e">$298, lordandtaylor.com</a></span></div>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: small;">If you liked this post, you might enjoy our Fash365 newsletter.&nbsp;</span><br />
+<span style="font-family: inherit; font-size: small;">&nbsp;Receive each new post delivered right to your inbox.  <a href="https://feedburner.google.com/fb/a/mailverify?uri=fash365/yrlX&amp;loc=en_US">Sign up here.</a></span>
+</td>
+
+</tr>
+</tbody></table>
+</div>
+<br />
+<br />
+<map id="ImageMapsCom-image-maps-2016-02-16-192119" name="image-maps-2016-02-16-192119">
+<area alt="" coords="66,22,406,603" href="http://bit.ly/1mGlfWz" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="423,6,720,298" href="http://bit.ly/1TmSV8K" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="419,304,716,596" href="http://bit.ly/1mGlf9e" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="Image Map" coords="718,614,720,616" href="http://www.image-maps.com/index.php?aff=mapped_users_0" shape="rect" style="outline: none;" title="Image Map"></area>
+</map>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/105127467089995718535' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/105127467089995718535' rel='author' title='author profile'>
+<span itemprop='name'>Cate Adair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+On
+<meta content='http://www.fash365.com/2016/02/and-oscar-goes-to.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.fash365.com/2016/02/and-oscar-goes-to.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-17T00:00:00-08:00'>Wednesday, February 17, 2016</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.fash365.com/2016/02/and-oscar-goes-to.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='https://www.blogger.com/email-post.g?blogID=5231887564221620544&postID=7528875501783736733' title='Email Post'>
+<img alt='Fashion Blog Post' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=7528875501783736733&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=7528875501783736733&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=7528875501783736733&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=7528875501783736733&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=7528875501783736733&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://www.fash365.com/2016/02/and-oscar-goes-to.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post h-entry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://2.bp.blogspot.com/-QrXrAaoJWaI/VsE_yUYK1pI/AAAAAAAAHBw/-GClF1SJ6Pk/s1600/2.16.2015%2Bsuede.png' itemprop='image'/>
+<a name='1131358521220651765'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.fash365.com/2016/02/suedish-american-style.html'>Suedish American style.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-1131358521220651765' itemprop='articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<br />
+<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><br />
+<br />
+<br />
+<h2>
+<span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><span style="font-size: x-large;">&nbsp;SUEDISH AMERICAN STYLE</span></span></h2>
+<div>
+<span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><span style="font-size: x-large;"><br /></span></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://2.bp.blogspot.com/-QrXrAaoJWaI/VsE_yUYK1pI/AAAAAAAAHBw/-GClF1SJ6Pk/s1600/2.16.2015%2Bsuede.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Suede" border="0" src="https://2.bp.blogspot.com/-QrXrAaoJWaI/VsE_yUYK1pI/AAAAAAAAHBw/-GClF1SJ6Pk/s1600/2.16.2015%2Bsuede.png" usemap="#image-maps-2016-02-14-220421" /></a></div>
+<br />
+<div style="text-align: center;">
+<div style="text-align: left;">
+<span style="font-size: x-large;">Nothing says American style like suede. And there's a smorgasbord of great pieces to choose from.&nbsp;</span><span style="font-size: x-large;">So go&nbsp;Suedish&nbsp;American this season.</span></div>
+<div style="text-align: left;">
+<br /></div>
+</div>
+<br /></td>
+</tr>
+<tr>
+
+<td class="tr-caption" style="text-align: center;"><br />
+<div>
+<span style="font-family: inherit; font-size: x-large;">Panacea Smoky Drusy Stretch Bracelet&nbsp;<a href="http://bit.ly/1Xsl7HB">$22, nordstrom.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Rebecca Minkoff 'Vanity' Saddle Bag&nbsp;<a href="http://bit.ly/1SPi8tX">$395, nordstrom.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Tiana Jacket&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=507509883&amp;pid=uid4896-26623836-18">$895, paige.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Elise M. 'Vicky' Suede Belt&nbsp;<a href="http://bit.ly/1Xsl3YD">$55, nordstrom.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Madewell X Daryl K Fringe Boots&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=510298341&amp;pid=uid4896-26623836-18">$278, madewell.com</a></span></div>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: small;">If you liked this post, you might enjoy our Fash365 newsletter.&nbsp;</span><br />
+<span style="font-family: inherit; font-size: small;">&nbsp;Receive each new post delivered right to your inbox.  <a href="https://feedburner.google.com/fb/a/mailverify?uri=fash365/yrlX&amp;loc=en_US">Sign up here.</a></span>
+</td>
+
+</tr>
+</tbody></table>
+</div>
+<br />
+<br />
+<map id="ImageMapsCom-image-maps-2016-02-14-220421" name="image-maps-2016-02-14-220421">
+<area alt="" coords="17,13,356,251" href="http://bit.ly/1Xsl7HB" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="395,23,707,280" href="http://bit.ly/1SPi8tX" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="15,269,370,702" href="http://api.shopstyle.com/action/apiVisitRetailer?id=507509883&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="389,294,720,480" href="http://bit.ly/1Xsl3YD" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="384,494,715,680" href="http://api.shopstyle.com/action/apiVisitRetailer?id=510298341&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="Image Map" coords="718,721,720,723" href="http://www.image-maps.com/index.php?aff=mapped_users_0" shape="rect" style="outline: none;" title="Image Map"></area>
+</map>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/105127467089995718535' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/105127467089995718535' rel='author' title='author profile'>
+<span itemprop='name'>Cate Adair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+On
+<meta content='http://www.fash365.com/2016/02/suedish-american-style.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.fash365.com/2016/02/suedish-american-style.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-16T00:00:00-08:00'>Tuesday, February 16, 2016</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.fash365.com/2016/02/suedish-american-style.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='https://www.blogger.com/email-post.g?blogID=5231887564221620544&postID=1131358521220651765' title='Email Post'>
+<img alt='Fashion Blog Post' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=1131358521220651765&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=1131358521220651765&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=1131358521220651765&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=1131358521220651765&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=1131358521220651765&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://www.fash365.com/2016/02/suedish-american-style.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post h-entry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://1.bp.blogspot.com/-Jq49am-Y9tM/VsE-yuiWqWI/AAAAAAAAHBk/ogPwZZ38-5k/s1600/2.15.2016%2Bcrop%2Btop.png' itemprop='image'/>
+<a name='5368477868067667164'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.fash365.com/2016/02/a-navel-idea.html'>A NAVEL idea.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5368477868067667164' itemprop='articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<br />
+<br />
+<br />
+<table cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><br />
+<br />
+<br />
+<h2>
+<span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><span style="font-size: x-large;">Show off your inny or outy.&nbsp;</span></span></h2>
+<h2>
+<span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><span style="font-size: x-large;">What a navel idea!
+</span></span></h2>
+<div>
+<span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><span style="font-size: x-large;"><br /></span></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-Jq49am-Y9tM/VsE-yuiWqWI/AAAAAAAAHBk/ogPwZZ38-5k/s1600/2.15.2016%2Bcrop%2Btop.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Flare Pants" border="0" src="https://1.bp.blogspot.com/-Jq49am-Y9tM/VsE-yuiWqWI/AAAAAAAAHBk/ogPwZZ38-5k/s1600/2.15.2016%2Bcrop%2Btop.png" usemap="#image-maps-2016-02-14-220015" /></a></div>
+<br />
+<div style="text-align: center;">
+<div style="text-align: left;">
+<span style="font-size: x-large;">Hip hugging wide-leg pants are just a fun style. And they're comfortable too. So have fun pairing them with some cool espadrille sandals and beautiful bangles. Sling a bucket bag over your shoulder and off you go.</span></div>
+</div>
+<div style="text-align: left;">
+<br /></div>
+</td>
+</tr>
+<tr>
+
+<td class="tr-caption" style="text-align: center;"><br />
+<div>
+<span style="font-family: inherit; font-size: x-large;">Sanibel Flare Pants&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=506791667&amp;pid=uid4896-26623836-18">$78, freepeople.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Nest Spotted Horn Five-Bangle Bracelet Set&nbsp;<a href="http://bit.ly/1SPhPzt">$95, saksfifthavenue.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Vince Camuto Lorin-Tassel Handle Drawstring Bag&nbsp;<a href="http://bit.ly/1XskXA3">$248, vincecamuto.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Diane von Furstenberg Cadah Suede Fringe Espadrille Flats&nbsp;<a href="http://bit.ly/1SPhQmS">$248, saksfifthavenue.com</a></span></div>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: small;">If you liked this post, you might enjoy our Fash365 newsletter.&nbsp;</span><br />
+<span style="font-family: inherit; font-size: small;">&nbsp;Receive each new post delivered right to your inbox.  <a href="https://feedburner.google.com/fb/a/mailverify?uri=fash365/yrlX&amp;loc=en_US">Sign up here.</a></span>
+</td>
+
+</tr>
+</tbody></table>
+</div>
+<br />
+<br />
+<map id="ImageMapsCom-image-maps-2016-02-14-220015" name="image-maps-2016-02-14-220015">
+<area alt="" coords="115,195,394,673" href="http://api.shopstyle.com/action/apiVisitRetailer?id=506791667&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="401,21,680,259" href="http://bit.ly/1SPhPzt" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="403,263,682,468" href="http://www.image-maps.com/" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="403,473,682,678" href="http://bit.ly/1SPhQmS" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="Image Map" coords="718,690,720,692" href="http://www.image-maps.com/index.php?aff=mapped_users_0" shape="rect" style="outline: none;" title="Image Map"></area>
+</map>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/105127467089995718535' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/105127467089995718535' rel='author' title='author profile'>
+<span itemprop='name'>Cate Adair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+On
+<meta content='http://www.fash365.com/2016/02/a-navel-idea.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.fash365.com/2016/02/a-navel-idea.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-15T00:00:00-08:00'>Monday, February 15, 2016</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.fash365.com/2016/02/a-navel-idea.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='https://www.blogger.com/email-post.g?blogID=5231887564221620544&postID=5368477868067667164' title='Email Post'>
+<img alt='Fashion Blog Post' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=5368477868067667164&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=5368477868067667164&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=5368477868067667164&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=5368477868067667164&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=5368477868067667164&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://www.fash365.com/2016/02/a-navel-idea.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post h-entry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://1.bp.blogspot.com/-T2RBzZpnUAM/Vr5f1frUdsI/AAAAAAAAHBQ/ce1DOaTsXj0/s1600/2.14.2016%2Bvalentines%2Bday.png' itemprop='image'/>
+<a name='6738342012481142488'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.fash365.com/2016/02/romantically-evolved.html'>Romantically EVOLVED</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6738342012481142488' itemprop='articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<br />
+<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><br />
+<br />
+<div style="-webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial; font-family: Times; font-size: 40px; line-height: normal;">
+<b>Romantically Evolved</b></div>
+<div style="-webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial; font-family: Times; font-size: 40px; line-height: normal;">
+<b><br /></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-T2RBzZpnUAM/Vr5f1frUdsI/AAAAAAAAHBQ/ce1DOaTsXj0/s1600/2.14.2016%2Bvalentines%2Bday.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Valentine's Day Romance" border="0" src="https://1.bp.blogspot.com/-T2RBzZpnUAM/Vr5f1frUdsI/AAAAAAAAHBQ/ce1DOaTsXj0/s1600/2.14.2016%2Bvalentines%2Bday.png" usemap="#image-maps-2016-02-12-174428" /></a></div>
+<br />
+<div style="text-align: center;">
+<div style="text-align: left;">
+<span style="font-size: x-large;">Style, like relationships, develops over time. And the goal is for your outward "look" to achieve compatibility with your inward self.&nbsp;</span></div>
+<div style="text-align: left;">
+<br /></div>
+</div>
+<br /></td>
+</tr>
+<tr>
+
+<td class="tr-caption" style="text-align: center;"><br />
+<div>
+<span style="font-family: inherit; font-size: x-large;">Belle Bustier Dress&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?url=http%3A%2F%2Fwww.anthropologie.com%2Fanthro%2Fproduct%2Fclothes-new%2F4130241189192.jsp%23%2F&amp;pid=uid4896-26623836-18">$635, anthropologie.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Augeis Drop Earrings&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=505379450&amp;pid=uid4896-26623836-18">$44, anthropologie.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Amiata Necklace&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=508396833&amp;pid=uid4896-26623836-18">$68, anthropologie.com</a></span></div>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: small;">If you liked this post, you might enjoy our Fash365 newsletter.&nbsp;</span><br />
+<span style="font-family: inherit; font-size: small;">&nbsp;Receive each new post delivered right to your inbox.  <a href="https://feedburner.google.com/fb/a/mailverify?uri=fash365/yrlX&amp;loc=en_US">Sign up here.</a></span>
+</td>
+
+</tr>
+</tbody></table>
+</div>
+<br />
+<br />
+<map id="ImageMapsCom-image-maps-2016-02-12-174428" name="image-maps-2016-02-12-174428">
+<area alt="" coords="106,7,456,516" href="http://api.shopstyle.com/action/apiVisitRetailer?url=http%3A%2F%2Fwww.anthropologie.com%2Fanthro%2Fproduct%2Fclothes-new%2F4130241189192.jsp%23%2F&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="469,16,708,266" href="http://api.shopstyle.com/action/apiVisitRetailer?id=505379450&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="463,276,702,526" href="http://api.shopstyle.com/action/apiVisitRetailer?id=508396833&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="Image Map" coords="718,541,720,543" href="http://www.image-maps.com/index.php?aff=mapped_users_0" shape="rect" style="outline: none;" title="Image Map"></area>
+</map>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/105127467089995718535' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/105127467089995718535' rel='author' title='author profile'>
+<span itemprop='name'>Cate Adair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+On
+<meta content='http://www.fash365.com/2016/02/romantically-evolved.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.fash365.com/2016/02/romantically-evolved.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-14T00:00:00-08:00'>Sunday, February 14, 2016</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.fash365.com/2016/02/romantically-evolved.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='https://www.blogger.com/email-post.g?blogID=5231887564221620544&postID=6738342012481142488' title='Email Post'>
+<img alt='Fashion Blog Post' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=6738342012481142488&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=6738342012481142488&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=6738342012481142488&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=6738342012481142488&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=6738342012481142488&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://www.fash365.com/2016/02/romantically-evolved.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post h-entry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://1.bp.blogspot.com/-ns_mfG9aO-E/Vr4VoG9O-ZI/AAAAAAAAHBA/-O-sx098FoE/s1600/2.13.2016%2Bred%2Bdress.png' itemprop='image'/>
+<a name='403414305381863477'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.fash365.com/2016/02/well-red-woman.html'>Well RED Woman</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-403414305381863477' itemprop='articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<br />
+<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><br />
+<br />
+<br />
+<h2>
+<span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><span style="font-size: x-large;">THE WELL-RED WOMAN</span></span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-ns_mfG9aO-E/Vr4VoG9O-ZI/AAAAAAAAHBA/-O-sx098FoE/s1600/2.13.2016%2Bred%2Bdress.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-ns_mfG9aO-E/Vr4VoG9O-ZI/AAAAAAAAHBA/-O-sx098FoE/s1600/2.13.2016%2Bred%2Bdress.png" usemap="#image-maps-2016-02-12-122730" /></a></div>
+<br />
+<div style="text-align: center;">
+<span style="font-size: x-large;">Get the look here:</span></div>
+<br /></td>
+</tr>
+<tr>
+
+<td class="tr-caption" style="text-align: center;"><br />
+<div>
+<span style="font-family: inherit; font-size: x-large;">Diane Combo Dress&nbsp;<a href="http://bit.ly/1TX52tR">$265, parker.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Annette Eyeglasses&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=500722296&amp;pid=uid4896-26623836-18">$95, warbyparker.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Alexander McQueen 'Small De Manta' Clutch&nbsp;<a href="http://bit.ly/1QZWWxR">$495, nordstrom.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Nine West 'Hustle' Fringe Ankle Strap Sandal&nbsp;<a href="http://bit.ly/1QZWUWD">$118, nordstrom.com</a></span></div>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: small;">If you liked this post, you might enjoy our Fash365 newsletter.&nbsp;</span><br />
+<span style="font-family: inherit; font-size: small;">&nbsp;Receive each new post delivered right to your inbox.  <a href="https://feedburner.google.com/fb/a/mailverify?uri=fash365/yrlX&amp;loc=en_US">Sign up here.</a></span>
+</td>
+
+</tr>
+</tbody></table>
+</div>
+<br />
+<br />
+<map id="ImageMapsCom-image-maps-2016-02-12-122730" name="image-maps-2016-02-12-122730">
+<area alt="" coords="104,67,417,662" href="http://bit.ly/1TX52tR" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="421,34,720,173" href="http://api.shopstyle.com/action/apiVisitRetailer?id=500722296&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="418,188,717,381" href="http://bit.ly/1QZWWxR" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="428,426,720,730" href="http://bit.ly/1QZWUWD" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="Image Map" coords="718,740,720,742" href="http://www.image-maps.com/index.php?aff=mapped_users_0" shape="rect" style="outline: none;" title="Image Map"></area>
+</map>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/105127467089995718535' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/105127467089995718535' rel='author' title='author profile'>
+<span itemprop='name'>Cate Adair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+On
+<meta content='http://www.fash365.com/2016/02/well-red-woman.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.fash365.com/2016/02/well-red-woman.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-13T00:00:00-08:00'>Saturday, February 13, 2016</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.fash365.com/2016/02/well-red-woman.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='https://www.blogger.com/email-post.g?blogID=5231887564221620544&postID=403414305381863477' title='Email Post'>
+<img alt='Fashion Blog Post' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=403414305381863477&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=403414305381863477&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=403414305381863477&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=403414305381863477&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=403414305381863477&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://www.fash365.com/2016/02/well-red-woman.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post h-entry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-2KQMqSScboY/Vr1N_V6z7WI/AAAAAAAAHAs/vVNFg80kaHw/s1600/2.12.2016%2Bblue%2Bdress.png' itemprop='image'/>
+<a name='8865578506701036736'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.fash365.com/2016/02/blue-and-brown-do-go-together.html'>Blue and brown DO go together.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8865578506701036736' itemprop='articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<br />
+<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><br />
+<br />
+<br />
+<h2>
+<span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><span style="font-size: x-large;">Yes, blue and brown do go together.</span></span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-2KQMqSScboY/Vr1N_V6z7WI/AAAAAAAAHAs/vVNFg80kaHw/s1600/2.12.2016%2Bblue%2Bdress.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-2KQMqSScboY/Vr1N_V6z7WI/AAAAAAAAHAs/vVNFg80kaHw/s1600/2.12.2016%2Bblue%2Bdress.png" usemap="#image-maps-2016-02-11-221556" /></a></div>
+<br />
+<div style="text-align: center;">
+<span style="font-size: x-large;"><br /></span>
+<br />
+<div style="text-align: left;">
+<span style="font-size: x-large;">Here are five fun pieces in blue and brown. They're great all together as one outfit. Or try them as super fun additions to build on your spring wardrobe.&nbsp;</span></div>
+<br />
+<div style="text-align: left;">
+<br /></div>
+</div>
+<br /></td>
+</tr>
+<tr>
+
+<td class="tr-caption" style="text-align: center;"><br />
+<div>
+<span style="font-family: inherit; font-size: x-large;">Inverni Kathleen Straw Floppy Hat&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=509997363&amp;pid=uid4896-26623836-18">$215, neimanmarcus.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Shashi Aisha Tote Bag&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=509997363&amp;pid=uid4896-26623836-18">$154, shopbop.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Embroidered Silk Crepe de Chine Mini Dress&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=509996405&amp;pid=uid4896-26623836-18">$180, madewell.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Chan Luu Beaded Wrap Bracelet&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=504320397&amp;pid=uid4896-26623836-18">$245, shopbop.com</a></span></div>
+<div>
+<span style="font-family: inherit; font-size: x-large;">Tory Burch Patos Crisscross Leather Sandal&nbsp;<a href="http://api.shopstyle.com/action/apiVisitRetailer?id=503035031&amp;pid=uid4896-26623836-18">$225, neimanmarcus.com</a></span></div>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: large;"><br /></span>
+<span style="font-family: inherit; font-size: small;">If you liked this post, you might enjoy our Fash365 newsletter.&nbsp;</span><br />
+<span style="font-family: inherit; font-size: small;">&nbsp;Receive each new post delivered right to your inbox.  <a href="https://feedburner.google.com/fb/a/mailverify?uri=fash365/yrlX&amp;loc=en_US">Sign up here.</a></span>
+</td>
+
+</tr>
+</tbody></table>
+</div>
+<br />
+<br />
+<map id="ImageMapsCom-image-maps-2016-02-11-221556" name="image-maps-2016-02-11-221556">
+<area alt="" coords="59,15,336,201" href="http://api.shopstyle.com/action/apiVisitRetailer?id=509997363&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="414,16,648,262" href="http://api.shopstyle.com/action/apiVisitRetailer?id=509997363&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="52,211,400,663" href="http://api.shopstyle.com/action/apiVisitRetailer?id=509996405&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="414,277,648,476" href="http://api.shopstyle.com/action/apiVisitRetailer?id=504320397&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="" coords="417,483,720,663" href="http://api.shopstyle.com/action/apiVisitRetailer?id=503035031&amp;pid=uid4896-26623836-18" shape="rect" style="outline: none;" target="_self" title=""></area>
+<area alt="Image Map" coords="718,661,720,663" href="http://www.image-maps.com/index.php?aff=mapped_users_0" shape="rect" style="outline: none;" title="Image Map"></area>
+</map>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/105127467089995718535' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/105127467089995718535' rel='author' title='author profile'>
+<span itemprop='name'>Cate Adair</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+On
+<meta content='http://www.fash365.com/2016/02/blue-and-brown-do-go-together.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.fash365.com/2016/02/blue-and-brown-do-go-together.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-12T00:00:00-08:00'>Friday, February 12, 2016</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.fash365.com/2016/02/blue-and-brown-do-go-together.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='https://www.blogger.com/email-post.g?blogID=5231887564221620544&postID=8865578506701036736' title='Email Post'>
+<img alt='Fashion Blog Post' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=8865578506701036736&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=8865578506701036736&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=8865578506701036736&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=8865578506701036736&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5231887564221620544&postID=8865578506701036736&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://www.fash365.com/2016/02/blue-and-brown-do-go-together.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://www.fash365.com/search?updated-max=2016-02-12T00:00:00-08:00&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://www.fash365.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://www.fash365.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div><div class='widget HTML' id='HTML6'>
+<h2 class='title'>Related Posts</h2>
+<div class='widget-content'>
+<script>
+var linkwithin_site_id = 2167539;
+</script>
+
+<script>linkwithin_text='If you liked this post, I think you will like these too:'</script>
+<script src="http://www.linkwithin.com/widget.js"></script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=HTML&widgetId=HTML6&action=editWidget&sectionId=main' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML6"));' target='configHTML6' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget HTML' id='HTML2'>
+<div class='widget-content'>
+<br />
+<a href="https://twitter.com/fash365"><img alt="fashion twitter" src="http://1.bp.blogspot.com/-KhkIhBNr6Hc/VQJVABInGxI/AAAAAAAAFKI/67X0BU6kt9w/s1600/twitter%2Bicon.PNG" /></a>
+
+<a href="https://plus.google.com/+CateAdair"><img alt="fashion google" src="http://3.bp.blogspot.com/-CC_aw--QbQs/VQJWo8kIakI/AAAAAAAAFKc/uOxrv00Hs0k/s1600/the%2Breal%2Bgoogle%2Bplus.JPG"/></a>
+
+<a href="http://www.facebook.com/fash365"><img alt="fashion facebook" src="http://1.bp.blogspot.com/-1MogbwQbN0k/VQJU0aaluII/AAAAAAAAFKA/LIS3sGFwhv4/s1600/facebook%2Bicon.PNG" /></a>
+
+<a href="http://www.pinterest.com/Fash365/fash365/"><img alt="fashion pinterest" src="http://2.bp.blogspot.com/-1xhTskAXksE/VQJUkAWAw4I/AAAAAAAAFJw/l2uomY7vdYY/s1600/pinterest%2Bicon.PNG" /></a>
+
+
+<a href="http://feeds.feedburner.com/fash365/yrlX"><img alt="fashion rss" src="http://1.bp.blogspot.com/-l7h0HpzEEfQ/VS1KbptQBZI/AAAAAAAAFVQ/qF_R7uMyZkM/s1600/rss%2Bicon%2B3.png" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Image' id='Image1'>
+<h2>HI! I'M CATE ADAIR.</h2>
+<div class='widget-content'>
+<a href='http://www.fash365.com/p/about.html'>
+<img alt='HI! I&#39;M CATE ADAIR.' height='288' id='Image1_img' src='http://i63.photobucket.com/albums/h131/Fash365/cateflippedhorizontally_zpsd6d75485.jpg' width='239'/>
+</a>
+<br/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=Image&widgetId=Image1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image1"));' target='configImage1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML5'>
+<div class='widget-content'>
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=fash365/yrlX', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Subscribe here:.<br /><br />Enter your email address:</p><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="fash365/yrlX" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="PRESS TO SUBSCRIBE." /><p></p></form>
+<br /><br />
+<form action="http://fash365.blogspot.com/search" name="input" method="get">
+<input value="" name="q" size="10" type="text"/>
+<input value="SEARCH" type="submit"/>
+</form>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' target='configHTML5' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML4'>
+<h2 class='title'>STORES</h2>
+<div class='widget-content'>
+<span style="font-family: 'Poiret One';" font-size: 10pt>
+<br /><a href="http://bit.ly/1knmo0w">7 For All Mankind</a>
+<br /><a href="http://bit.ly/1CZgj4d">Ann Taylor</a>
+<br /><a href="http://bit.ly/1wAb6LU">Alexis Bittar</a>
+<br /><a href="http://bit.ly/NDWqt5">Betsey Johnson</a>
+<br /><a href="http://bit.ly/1cOs5Va">Bloomingdales</a>
+<br /><a href="http://bit.ly/1gd0psj">DKNY</a>
+<br /><a href="http://bit.ly/1iOKRLL">Donna Karan</a>
+<br /><a href="http://bit.ly/1tMxzYc">Free People</a>
+<br /><a href="http://bit.ly/1e6CugA">James Perse</a>
+<br /><a href="http://bit.ly/1u4CUde">John Hardy</a>
+<br /><a href="http://bit.ly/15Wz8YS">Joie</a>
+<br /><a href="http://bit.ly/1tC7wAP">LaCoste</a>
+<br /><a href="http://bit.ly/1J5jszL">Lord & Taylor</a>
+<br /><a href="http://bit.ly/1cmDW9m">Macy's</a>
+<br /><a href="http://bit.ly/1u4CkfA">Natori</a>
+<br /><a href="http://bit.ly/1kYlNFO">Net-A-Porter</a>
+<br /><a href="http://bit.ly/1e6CCwq">Nic + Zoe</a>
+<br /><a href="http://bit.ly/OIUGja">Nordstrom</a>
+<br /><a href="http://bit.ly/1lyyokU">Paige</a>
+<br /><a href="http://bit.ly/1NeP4XC">Parker</a>
+<br /><a href="http://bit.ly/1dlEsYS">Saks Fifth Avenue</a>
+<br /><a href="http://bit.ly/1qhGkWc">Shopbop</a>
+<br /><a href="http://bit.ly/1xBFhSb">Steve Madden</a>
+<br /><a href="http://bit.ly/1pVLUdV">StyleBop</a>
+<br /><a href="http://bit.ly/1tHmmXY">Superga</a>
+<br /><a href="http://bit.ly/1nO6ctP">Topshop</a>
+<br /><a href="http://bit.ly/1rS5RD0/">Vera Bradley</a>
+<br /><a href="http://bit.ly/1l8L2VR">Vince Camuto</a>
+<br /><a href="http://bit.ly/1JIyO1x">Zappos</a>
+
+</span>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Label' id='Label1'>
+<h2>CATEGORIES</h2>
+<div class='widget-content list-label-widget-content'>
+<ul>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Accessories'>Accessories</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Belt'>Belt</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Boots'>Boots</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Bracelet'>Bracelet</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Casual'>Casual</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Coats'>Coats</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Dresses'>Dresses</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Earrings'>Earrings</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Exercise'>Exercise</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Handbags'>Handbags</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/How%20to'>How to</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Jackets'>Jackets</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Jeans'>Jeans</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Leather'>Leather</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Necklace'>Necklace</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Pants'>Pants</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Sandals'>Sandals</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Shoes'>Shoes</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Skirt'>Skirt</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Street%20Style'>Street Style</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Sunglasses'>Sunglasses</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Sweaters'>Sweaters</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.fash365.com/search/label/Tops'>Tops</a>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' id='HTML3'>
+<div class='widget-content'>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48525333-1', 'fash365.com');
+  ga('send', 'pageview');
+
+</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>BLOG ARCHIVE</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<select id='BlogArchive1_ArchiveMenu'>
+<option value=''>BLOG ARCHIVE</option>
+<option value='http://www.fash365.com/2016_02_01_archive.html'>February 2016 (18)</option>
+<option value='http://www.fash365.com/2016_01_01_archive.html'>January 2016 (32)</option>
+<option value='http://www.fash365.com/2015_12_01_archive.html'>December 2015 (33)</option>
+<option value='http://www.fash365.com/2015_11_01_archive.html'>November 2015 (32)</option>
+<option value='http://www.fash365.com/2015_10_01_archive.html'>October 2015 (31)</option>
+<option value='http://www.fash365.com/2015_09_01_archive.html'>September 2015 (32)</option>
+<option value='http://www.fash365.com/2015_08_01_archive.html'>August 2015 (32)</option>
+<option value='http://www.fash365.com/2015_07_01_archive.html'>July 2015 (33)</option>
+<option value='http://www.fash365.com/2015_06_01_archive.html'>June 2015 (36)</option>
+<option value='http://www.fash365.com/2015_05_01_archive.html'>May 2015 (32)</option>
+<option value='http://www.fash365.com/2015_04_01_archive.html'>April 2015 (34)</option>
+<option value='http://www.fash365.com/2015_03_01_archive.html'>March 2015 (33)</option>
+<option value='http://www.fash365.com/2015_02_01_archive.html'>February 2015 (33)</option>
+<option value='http://www.fash365.com/2015_01_01_archive.html'>January 2015 (41)</option>
+<option value='http://www.fash365.com/2014_12_01_archive.html'>December 2014 (38)</option>
+<option value='http://www.fash365.com/2014_11_01_archive.html'>November 2014 (47)</option>
+<option value='http://www.fash365.com/2014_10_01_archive.html'>October 2014 (35)</option>
+<option value='http://www.fash365.com/2014_09_01_archive.html'>September 2014 (45)</option>
+<option value='http://www.fash365.com/2014_08_01_archive.html'>August 2014 (46)</option>
+<option value='http://www.fash365.com/2014_07_01_archive.html'>July 2014 (45)</option>
+<option value='http://www.fash365.com/2014_06_01_archive.html'>June 2014 (40)</option>
+<option value='http://www.fash365.com/2014_05_01_archive.html'>May 2014 (32)</option>
+<option value='http://www.fash365.com/2014_04_01_archive.html'>April 2014 (50)</option>
+<option value='http://www.fash365.com/2014_03_01_archive.html'>March 2014 (39)</option>
+<option value='http://www.fash365.com/2014_02_01_archive.html'>February 2014 (5)</option>
+</select>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget PopularPosts' id='PopularPosts1'>
+<h2>POPULAR POSTS</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.fash365.com/2016/01/feel-breeze.html' target='_blank'>
+<img alt='Fashion Blog Post' border='0' height='72' src='http://1.bp.blogspot.com/-TtCeThqu8PI/VpgUIi73S9I/AAAAAAAAG5g/ceIppWtwL0s/s72-c/1.17.2016%2Bfresh%2Bbreeze.png' width='72'/>
+</a>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.fash365.com/2015/11/chic-layered-look.html' target='_blank'>
+<img alt='Fashion Blog Post' border='0' height='72' src='http://1.bp.blogspot.com/-PHaowSsfl_A/Vjvaw0glglI/AAAAAAAAGnM/7ZuZbcldIJk/s72-c/11.7.2015%2Bsatin%2Bskirt%2Bfringe%2Bcopy.png' width='72'/>
+</a>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.fash365.com/2015/10/run-for-your-life.html' target='_blank'>
+<img alt='Fashion Blog Post' border='0' height='72' src='http://1.bp.blogspot.com/-vd40LKJOdtw/VhKU7Ka07qI/AAAAAAAAGfA/UKWKqb6iWH4/s72-c/10.6.2015%2Brun%2Bfor%2Byour%2Blife.png' width='72'/>
+</a>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.fash365.com/2016/01/the-winter-of-your-content.html' target='_blank'>
+<img alt='Fashion Blog Post' border='0' height='72' src='http://1.bp.blogspot.com/-49C8iY95-yU/VpG6tjXtcFI/AAAAAAAAG3w/J7MMGjgC2vI/s72-c/1.10.2016%2Blong%2Bsweater.png' width='72'/>
+</a>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.fash365.com/2015/12/shift-santas-sleigh-into-neutral.html' target='_blank'>
+<img alt='Fashion Blog Post' border='0' height='72' src='http://3.bp.blogspot.com/-nJLIreNEneU/Vm3_o10IHxI/AAAAAAAAGyU/8X1CT0nUjAQ/s72-c/12.14.2015%2Bneutral.png' width='72'/>
+</a>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.fash365.com/2016/01/everything-is-coming-up-cozy.html' target='_blank'>
+<img alt='Fashion Blog Post' border='0' height='72' src='http://1.bp.blogspot.com/-zNMMQt1ohgY/Voys59RbI9I/AAAAAAAAG28/J8xmrWnyVnI/s72-c/1.8.2016%2Bcozy%2Bsweater.png' width='72'/>
+</a>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.fash365.com/2016/02/spring-something-on.html' target='_blank'>
+<img alt='Fashion Blog Post' border='0' height='72' src='http://4.bp.blogspot.com/-XLPkUHMxToA/Vq-klA1mQWI/AAAAAAAAG94/cYvWAzi85V4/s72-c/2.2.2016%2Bspring.png' width='72'/>
+</a>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.fash365.com/2016/01/seal-it-with-kiss.html' target='_blank'>
+<img alt='Fashion Blog Post' border='0' height='72' src='http://4.bp.blogspot.com/-HxPW9lfOo1c/Vp2dxCe7dpI/AAAAAAAAG6U/BBZsuCZH82E/s72-c/1.20.2015%2Bkiss%2Blove.png' width='72'/>
+</a>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://www.fash365.com/2016/01/business-not-as-usual.html' target='_blank'>
+<img alt='Fashion Blog Post' border='0' height='72' src='http://1.bp.blogspot.com/-YpNCY4qjUE8/VqVkte05rmI/AAAAAAAAG7w/AWtdZqlbbkA/s72-c/1.25.2016%2Bbusiness%2Bas%2Busual.png' width='72'/>
+</a>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("PopularPosts1"));' target='configPopularPosts1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'><div class='widget HTML' id='HTML1'>
+<div class='widget-content'>
+<a href="http://www.fash365.com/p/privacy-policy-for-fash365.html">Privacy Policy</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.ontoplist.com/" target="_blank">On Top List</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.blogs-collection.com/" title="blog directory" target="_blank">Blogs Directory</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.fashionlistings.org/">Fashion Directory</a>
+<br /><br />
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget AdSense' id='AdSense1'>
+<div class='widget-content'>
+<script type="text/javascript">
+    google_ad_client = "ca-pub-3976227954300065";
+    google_ad_host = "ca-host-pub-1556223355139109";
+    google_ad_host_channel = "L0003";
+    google_ad_slot = "1276061239";
+    google_ad_width = 970;
+    google_ad_height = 90;
+</script>
+<!-- fash365_footer-1_AdSense1_970x90_as -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5231887564221620544&widgetType=AdSense&widgetId=AdSense1&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("AdSense1"));' target='configAdSense1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3'></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<!-- comment form before comment content starts -->
+<script src='http://code.jquery.com/jquery-latest.js'></script>
+<script>
+var yob = $(".comment-replybox-thread").closest(".comment-thread").parent("div").children(".comment-thread").children(".comment-replybox-thread");
+jQuery('.comment-thread ol').before(jQuery(yob));
+</script>
+<!-- comment form before comment content ends -->
+<!-- twitter conversion tracking -->
+<script src='//platform.twitter.com/oct.js' type='text/javascript'></script>
+<script type='text/javascript'>
+twttr.conversion.trackPid('l5oox', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img alt='' height='1' src='https://analytics.twitter.com/i/adsct?txn_id=l5oox&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0' style='display:none;' width='1'/>
+<img alt='' height='1' src='//t.co/i/adsct?txn_id=l5oox&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0' style='display:none;' width='1'/></noscript>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script src='//s.skimresources.com/js/76087X1526368.skimlinks.js' type='text/javascript'></script>
+</body>
+<script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-48525333-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script');
+          ga.type = 'text/javascript';
+          ga.async = true;
+          ga.src = (document.location.protocol == 'https:' ?
+                    'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2244687694-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '5231887564221620544';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d5231887564221620544','//www.fash365.com/','5231887564221620544');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '5231887564221620544', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Fash365', 'pageType': 'index', 'url': 'http://www.fash365.com/', 'canonicalUrl': 'http://www.fash365.com/', 'homepageUrl': 'http://www.fash365.com/', 'canonicalHomepageUrl': 'http://www.fash365.com/', 'blogspotFaviconUrl': 'http://www.fash365.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': 'UA-48525333-1', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'Fash365', 'metaDescription': 'A fashion blog by Cate Adair, Emmy Award nominated Hollywood Costume Designer of Desperate Housewives fame.', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Fash365 - Atom\42 href\75\42http://www.fash365.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Fash365 - RSS\42 href\75\42http://www.fash365.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Fash365 - Atom\42 href\75\42https://www.blogger.com/feeds/5231887564221620544/posts/default\42 /\76\n', 'meTag': '\74link rel\75\42me\42 href\75\42https://plus.google.com/105127467089995718535\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://www.fash365.com/\42 /\76\n', 'googleProfileUrl': 'https://plus.google.com/105127467089995718535', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId': 'ca-pub-3976227954300065', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/3978477444-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/581377545bf84644', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'messages', 'data': {'archive': 'Archive', 'blogArchive': 'Blog Archive', 'by': 'By', 'byAuthor': 'By %1', 'byAuthorLink': 'By \74a href\75\42%2\42\76%1\74/a\076', 'deleteBacklink': 'Delete Backlink', 'deleteComment': 'Delete Comment', 'edit': 'Edit', 'emailAddress': 'Email Address', 'getEmailNotifications': 'Get email notifications', 'keepReading': 'Keep reading', 'labels': 'Labels', 'loadMorePosts': 'Load more posts', 'loading': 'Loading...', 'myBlogList': 'My Blog List', 'myFavoriteSites': 'My favorite sites', 'newer': 'Newer', 'newerPosts': 'Newer Posts', 'newest': 'Newest', 'noResultsFound': 'No results found', 'noTitle': 'No title', 'numberOfComments': '{numComments, plural, \0750 {No comments} \0751 {1 comment} other {# comments}}', 'older': 'Older', 'olderPosts': 'Older Posts', 'oldest': 'Oldest', 'onlyTeamMembersCanComment': 'Note: Only a member of this blog may post a comment.', 'popularPosts': 'Popular Posts', 'popularPostsFromThisBlog': 'Popular posts from this blog', 'postAComment': 'Post a Comment', 'postedBy': 'Posted by', 'postedByAuthor': 'Posted by %1', 'postedByAuthorLink': 'Posted by \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Read more', 'reportAbuse': 'Report Abuse', 'search': 'Search', 'searchBlog': 'Search blog', 'share': 'Share', 'showAll': 'Show all', 'someOfMyFavoriteSites': 'Some of my favorite sites', 'subscribe': 'Subscribe', 'subscribeToThisBlog': 'Subscribe to this blog', 'theresNothingHere': 'There\47s nothing here!', 'viewAll': 'View all', 'visitProfile': 'Visit profile'}}, {'name': 'skin', 'data': {'vars': {'post_footer_background_color': 'transparent', 'image_background_color_transparent': 'rgba(255, 255, 255, 0)', 'tabs_text_color': '#5d5d5d', 'widget_title_text_color_transparent': 'rgba(80, 80, 80, 0)', 'content_shadow_spread': '0', 'mobile_background_size': 'auto', 'body_background_color_transparent': 'rgba(255, 255, 255, 0)', 'description_text_color_transparent': 'rgba(93, 93, 93, 0)', 'tabs_selected_text_color_transparent': 'rgba(0, 0, 0, 0)', 'header_shadow_spread': '0', 'tabs_background_color_transparent': 'rgba(0, 0, 0, 0)', 'image_border_color': 'transparent', 'post_footer_text_color_transparent': 'rgba(102, 102, 102, 0)', 'widget_alternate_text_color_transparent': 'rgba(80, 80, 80, 0)', 'keycolor_transparent': 'rgba(255, 255, 255, 0)', 'tabs_border_color': '#ffffff', 'tabs_bevel_border_width': '0px', 'description_text_color': '#5d5d5d', 'main_section_margin': '1em', 'post_title_font': 'normal normal 20px Poiret One', 'page_width': 'auto', 'header_background_gradient': 'none', 'post_margin_bottom': '45px', 'content_background_color': '#ffffff', 'post_title_color_transparent': 'rgba(93, 93, 93, 0)', 'link_visited_color': '#3455b8', 'post_title_link_color': '#5d5d5d', 'header_text_color_transparent': 'rgba(255, 255, 255, 0)', 'tabs_margin_side': '0px', 'image_border_large_size': '5px', 'post_footer_background_color_transparent': 'rgba(0, 0, 0, 0)', 'main_border_width': '0', 'link_color': '#3455b8', 'paging_background_color': 'transparent', 'tabs_text_color_transparent': 'rgba(93, 93, 93, 0)', 'date_header_background_color_transparent': 'rgba(0, 0, 0, 0)', 'content_padding_horizontal': '40px', 'date_header_color_transparent': 'rgba(93, 93, 93, 0)', 'image_border_color_transparent': 'rgba(0, 0, 0, 0)', 'tabs_border_color_transparent': 'rgba(255, 255, 255, 0)', 'header_border_size': '1px', 'date_header_margin': '0', 'footer_bevel': '1px', 'image_border_small_size': '2px', 'post_title_hover_color_transparent': 'rgba(93, 93, 93, 0)', 'body_rule_color_transparent': 'rgba(255, 255, 255, 0)', 'content_shadow_spread_ie': '0', 'mobile_background_overlay': 'transparent none repeat scroll top left', 'image_background_color': '#ffffff', 'header_bottom_border_size': '0', 'page_width_selector': '.region-inner', 'post_title_color': '#5d5d5d', 'date_header_background_color': 'transparent', 'tabs_border_width': '0px', 'image_text_color_transparent': 'rgba(80, 80, 80, 0)', 'link_hover_color': '#505050', 'header_background_color': '#000000', 'keycolor': '#ffffff', 'main_padding_bottom': '65px', 'post_footer_text_color': '#666666', 'tabs_margin_top': '0', 'link_color_transparent': 'rgba(52, 85, 184, 0)', 'header_background_color_transparent': 'rgba(0, 0, 0, 0)', 'description_font': 'normal bold Poiret One 18px ', 'date_header_letterspacing': '1px', 'body_background_override': '', 'description_text_size': '18px', 'post_footer_border_color_transparent': 'rgba(80, 80, 80, 0)', 'date_header_color': '#5d5d5d', 'header_shadow_offset_top': '0', 'header_border_horizontalsize': '1px', 'widget_title_font': 'normal normal 16px Poiret One', 'body_background_gradient_tile': 'none', 'paging_background': 'transparent url(//www.blogblog.com/1kt/simple/paging_dot.png) repeat-x scroll top center', 'body_text_color': '#5d5d5d', 'content_padding': '10px', 'body_text_color_transparent': 'rgba(93, 93, 93, 0)', 'header_shadow_offset_left': '0', 'tabs_background_color': 'transparent', 'body_background_gradient_cap': 'none', 'main_padding_top': '35px', 'widget_alternate_text_color': '#505050', 'image_text_color': '#505050', 'content_background_color_transparent': 'rgba(255, 255, 255, 0)', 'content_shadow_spread_webkit': '0', 'mobile_button_color': '#ffffff', 'tabs_selected_text_color': '#000000', 'content_background_color_selector': '.content-inner', 'post_footer_border_color': '#505050', 'link_hover_color_transparent': 'rgba(80, 80, 80, 0)', 'tabs_background_gradient': 'none', 'post_title_link_color_transparent': 'rgba(93, 93, 93, 0)', 'header_font': 'normal 0px Poiret One', 'startSide': 'left', 'link_visited_color_transparent': 'rgba(52, 85, 184, 0)', 'tabs_font': 'normal normal 18px Poiret One', 'widget_title_text_color': '#505050', 'tabs_selected_background_color': 'transparent', 'endSide': 'right', 'body_rule_color': '#ffffff', 'date_header_padding': '0', 'body_background_color': '#ffffff', 'header_text_color': '#ffffff', 'main_padding': '0', 'post_title_hover_color': '#5d5d5d', 'mobile_button_color_transparent': 'rgba(255, 255, 255, 0)', 'body_font': 'normal normal 16px Georgia, Utopia, \47Palatino Linotype\47, Palatino, serif', 'header_padding': '0px', 'tabs_selected_background_color_transparent': 'rgba(0, 0, 0, 0)'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML9', 'navbar', null, document.getElementById('HTML9'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList2', 'header', null, document.getElementById('PageList2'), {'title': 'Pages', 'links': [{'href': 'http://www.fash365.com/', 'title': 'HOME', 'isCurrentPage': true}, {'href': 'http://www.fash365.com/p/about.html', 'title': 'ABOUT', 'isCurrentPage': false, 'id': '2277661360873107965'}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/3060979228-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/306752634-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'main', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar-right-1', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image1', 'sidebar-right-1', null, document.getElementById('Image1'), {'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar-right-1', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar-right-1', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar-right-1', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar-right-1', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar-right-1', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer-1', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense1', 'footer-1', null, document.getElementById('AdSense1'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>

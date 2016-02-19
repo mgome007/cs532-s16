@@ -1,0 +1,568 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	
+		<link rel="stylesheet" href="/primarytemplatefiles/master.css" type="text/css" media="screen"
+		      title="no title" charset="utf-8">
+		
+        
+        
+		        
+        
+		
+		
+        <script type="text/javascript" src="../js/1.7_jquery.min.js"></script>
+		<script type="text/javascript" src="../js/chili-1.7.pack.js"></script>
+        <script type="text/javascript" src="../js/jquery.cycle.all.js"></script>
+        <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+        
+		
+
+
+
+
+
+
+    
+    
+<title>ACM Learning Center</title>
+<meta name="description" content="your description" />
+<meta name="keywords" content="ACM Learning" />
+
+<link href="http://learning.acm.org/primarytemplatefiles/style.css" rel="stylesheet" type="text/css" />
+
+
+
+
+	
+
+<script src="http://learning.acm.org/actionfiles/dnav/cssmenus/js-common/base.js" type="text/javascript" language="javascript"></script>
+<script src="http://learning.acm.org/actionfiles/dnav/cssmenus/js-common/utility.js" type="text/javascript" language="javascript"></script>
+<script src="http://learning.acm.org/actionfiles/dnav/cssmenus/js/cssmenus.js" type="text/javascript" language="javascript"></script>
+	
+
+
+	
+<link href="http://learning.acm.org/actionfiles/dnav/cssmenus/css/horizontal.css" rel="stylesheet" type="text/css" media="screen"  />
+	 
+		
+	<link href="http://learning.acm.org/actionfiles/dnav/cssmenus/skins/ACMLearning_TopNav/menus.css" rel="stylesheet" type="text/css" media="screen"  />
+
+	
+
+
+		
+	<link href="http://learning.acm.org/actionfiles/dnav/cssmenus/skins/ACMLearning_Footer/menus.css" rel="stylesheet" type="text/css" media="screen"  />
+
+	</head>
+	
+	<body>
+		<div id="main-wrapper" class="clearfix">
+		<div id="sitemast" class="clearfix">
+			<a id="logo" href="http://www.acm.org">
+				acm
+			</a>
+			<div class="site-description">
+				<h1><a href="http://learning.acm.org">LEARNING CENTER</a></h1>
+                <h2><a href="http://learning.acm.org">PROVIDING MEMBERS WITH RESOURCES FOR LIFELONG LEARNING</a></h2>
+			</div>
+			<!-- site description -->
+			<div id="user-actions">
+            	
+
+  
+				
+				
+
+
+
+	
+	
+	
+    <form id="login-form" action="https://learning.acm.org//index.cfm" method="post" class="clearfix">
+      <fieldset>
+        <legend>Log in with your ACM Web Account</legend>
+          <div>
+             <label>WEB ACCOUNT</label>
+             <input type="text" name="user" class="text" />
+          </div>
+          <div class="password">
+             <label>PASSWORD</label>
+             <input type="password" name="pass" class="text" />
+          </div>
+        <input type="submit" class="button" value ="LOG IN" />
+      </fieldset>
+    </form>
+	                
+    
+   <p class="forgot-pass">
+      I forgot my <a href="/signin.cfm?r=1">password</a><br />
+      <a href="/signin.cfm">Create an ACM Web Account</a>
+    </p>
+        
+    <form id="search-form" action="/search.cfm" method="post">
+      <fieldset>
+           <input type="text" name="SearchableText" class="text" />
+           <input type="submit" class="button" value="SEARCH" />
+      </fieldset>
+    </form>
+    
+
+
+
+
+
+
+
+			</div>
+		</div>
+		<!-- sitemast -->
+		<div id="nav">
+			
+
+<div  class="ktcssmenu savvynav_ACMLearning_TopNav"><div class="kthorizontal ktopts_showtimeout_100 ktopts_hidetimeout_100 ktopts_imgreplace_no ktopts_imgreplacestyle_img ktopts_imgdir_ ktopts_imgnames_">
+<ul class='lev1 clearfix'><li class="lev1 pos1 lev1_pos1 haschildren lev1_haschildren first lev1_first"><a href="/books/index.cfm" class="lev1 pos1 lev1_pos1 haschildren lev1_haschildren first lev1_first" target="_self">Books & Videos</a><ul class='lev2'><li class="lev2 pos1 lev2_pos1 first lev2_first"><a href="/books/ebooks_catalog.cfm" class="lev2 pos1 lev2_pos1 first lev2_first" target="_self">eBooks</a></li>
+<li class="lev2 pos2 lev2_pos2"><a href="http://learning.acm.org/books/mknew.cfm" class="lev2 pos2 lev2_pos2" target="_self">New Arrivals: Morgan Kaufmann and Syngress</a></li>
+<li class="lev2 pos3 lev2_pos3"><a href="http://learning.acm.org/safariswap.cfm" class="lev2 pos3 lev2_pos3" target="_self">New Arrivals: Safari</a></li>
+<li class="lev2 pos4 lev2_pos4"><a href="http://learning.acm.org/books/skillsoft_video.cfm" class="lev2 pos4 lev2_pos4" target="_self">Skillsoft Learning Videos</a></li>
+<li class="lev2 pos5 lev2_pos5"><a href="/books/safari_video.cfm" class="lev2 pos5 lev2_pos5" target="_self">Safari Videos</a></li>
+<li class="lev2 pos6 lev2_pos6"><a href="/books/saf_pkgs.cfm" class="lev2 pos6 lev2_pos6" target="_self">Safari Premium Library for ACM Professional Members</a></li>
+<li class="lev2 pos7 lev2_pos7 last lev2_last"><a href="/books/b24x7_pkgs.cfm" class="lev2 pos7 lev2_pos7 last lev2_last" target="_self">Books24x7 ITPro for ACM Members</a></li>
+</ul></li>
+<li class="lev1 pos2 lev1_pos2 haschildren lev1_haschildren"><a href="/courses/index.cfm" class="lev1 pos2 lev1_pos2 haschildren lev1_haschildren" target="_self">Courses</a><ul class='lev2'><li class="lev2 pos8 lev2_pos8"><a href="http://learning.acm.org/skillsoft/index.cfm" class="lev2 pos8 lev2_pos8" target="_self">Skillsoft Collections</a></li>
+<li class="lev2 pos9 lev2_pos9"><a href="http://learning.acm.org/about/skillsoft_faq.cfm" class="lev2 pos9 lev2_pos9" target="_self">Skillsoft FAQ/Support</a></li>
+<li class="lev2 pos10 lev2_pos10"><a href="/courses/nyupoly.cfm" class="lev2 pos10 lev2_pos10" target="_self">NYU-Poly Discount</a></li>
+<li class="lev2 pos11 lev2_pos11"><a href="/courses/stevens.cfm" class="lev2 pos11 lev2_pos11" target="_self">Stevens Institute of Technology Discount</a></li>
+<li class="lev2 pos12 lev2_pos12"><a href="http://learning.acm.org/courses/comptia.cfm" class="lev2 pos12 lev2_pos12" target="_self">CompTIA Discounts</a></li>
+<li class="lev2 pos13 lev2_pos13 last lev2_last"><a href="http://learning.acm.org/courses/emc.cfm" class="lev2 pos13 lev2_pos13 last lev2_last" target="_self">EMC Discounts</a></li>
+</ul></li>
+<li class="lev1 pos3 lev1_pos3 haschildren lev1_haschildren"><a href="/multimedia.cfm" class="lev1 pos3 lev1_pos3 haschildren lev1_haschildren" target="_self">Multimedia</a><ul class='lev2'><li class="lev2 pos14 lev2_pos14"><a href="/webinar/index.cfm" class="lev2 pos14 lev2_pos14" target="_self">ACM Learning Webinars</a></li>
+<li class="lev2 pos15 lev2_pos15"><a href="/ms-faculty-summit-2015.cfm" class="lev2 pos15 lev2_pos15" target="_self">Microsoft Research Faculty Summit</a></li>
+<li class="lev2 pos16 lev2_pos16"><a href="/video_player.cfm" class="lev2 pos16 lev2_pos16" target="_self">Videos from the ACM DL</a></li>
+<li class="lev2 pos17 lev2_pos17"><a href="http://queue.acm.org/listing.cfm?qc_type=videos&page_title=Videos" class="lev2 pos17 lev2_pos17" target="_new">Queue Videos</a></li>
+<li class="lev2 pos18 lev2_pos18"><a href="http://stephenibaraki.com/acm/acm_interviewslist.html" class="lev2 pos18 lev2_pos18" target="_new">ACM Interviews/Podcasts</a></li>
+<li class="lev2 pos19 lev2_pos19 last lev2_last"><a href="/centenary.cfm" class="lev2 pos19 lev2_pos19 last lev2_last" target="_self">ACM A.M. Turing Centenary Celebration</a></li>
+</ul></li>
+<li class="lev1 pos4 lev1_pos4 haschildren lev1_haschildren"><a href="http://techpack.acm.org" class="lev1 pos4 lev1_pos4 haschildren lev1_haschildren" target="_new">Tech Packs</a><ul class='lev2'><li class="lev2 pos20 lev2_pos20"><a href="http://techpack.acm.org/cloud/" class="lev2 pos20 lev2_pos20" target="_new">Cloud Computing</a></li>
+<li class="lev2 pos21 lev2_pos21"><a href="http://techpack.acm.org/ea/index.cfm" class="lev2 pos21 lev2_pos21" target="_new">Enterprise Architecture</a></li>
+<li class="lev2 pos22 lev2_pos22"><a href="http://techpack.acm.org/mobility/" class="lev2 pos22 lev2_pos22" target="_new">Mobility</a></li>
+<li class="lev2 pos23 lev2_pos23"><a href="http://techpack.acm.org/bi/" class="lev2 pos23 lev2_pos23" target="_self">Business Intelligence & Data Management</a></li>
+<li class="lev2 pos24 lev2_pos24 last lev2_last"><a href="http://techpack.acm.org/security/" class="lev2 pos24 lev2_pos24 last lev2_last" target="_new">Security</a></li>
+</ul></li>
+<li class="lev1 pos5 lev1_pos5"><a href="http://queue.acm.org/" class="lev1 pos5 lev1_pos5" target="_new">ACM Queue</a></li>
+<li class="lev1 pos6 lev1_pos6 haschildren lev1_haschildren"><a href="/resources/index.cfm" class="lev1 pos6 lev1_pos6 haschildren lev1_haschildren" target="_self">Resources</a><ul class='lev2'><li class="lev2 pos25 lev2_pos25 haschildren lev2_haschildren"><a href="http://learning.acm.org/path/index.cfm" class="lev2 pos25 lev2_pos25 haschildren lev2_haschildren" target="_self">Learning Paths</a><ul class='lev3'><li class="lev3 pos1 lev3_pos1 first lev3_first"><a href="http://learning.acm.org/path/python/homepage.cfm" class="lev3 pos1 lev3_pos1 first lev3_first" target="_self">Python</a></li>
+<li class="lev3 pos2 lev3_pos2 last lev3_last"><a href="/path/ruby/index.cfm" class="lev3 pos2 lev3_pos2 last lev3_last" target="_self">Ruby</a></li>
+</ul></li>
+<li class="lev2 pos26 lev2_pos26"><a href="https://learning.acm.org/purchase/" class="lev2 pos26 lev2_pos26" target="_self">Purchase Books 24x7 and Safari Upgrades</a></li>
+<li class="lev2 pos27 lev2_pos27"><a href="https://learning.acm.org/books/saf_pkgs.cfm" class="lev2 pos27 lev2_pos27" target="_self">Safari Packages for ACM Professional Members</a></li>
+<li class="lev2 pos28 lev2_pos28"><a href="https://learning.acm.org/books/b24x7_pkgs.cfm" class="lev2 pos28 lev2_pos28" target="_self">Books 24x7 ITPro for ACM Members</a></li>
+<li class="lev2 pos29 lev2_pos29"><a href="http://learning.acm.org/courses/tun.cfm" class="lev2 pos29 lev2_pos29" target="_self">Teradata University Network</a></li>
+<li class="lev2 pos30 lev2_pos30"><a href="http://dsp.acm.org/" class="lev2 pos30 lev2_pos30" target="_new">Distinguished Speakers Program</a></li>
+<li class="lev2 pos31 lev2_pos31"><a href="http://src.acm.org/" class="lev2 pos31 lev2_pos31" target="_new">Student Research Competition</a></li>
+<li class="lev2 pos32 lev2_pos32"><a href="http://xrds.acm.org/" class="lev2 pos32 lev2_pos32" target="_new">Crossroads (XRDS)</a></li>
+<li class="lev2 pos33 lev2_pos33"><a href="/about/suggestion_box.cfm" class="lev2 pos33 lev2_pos33" target="_self">Suggestion Box</a></li>
+<li class="lev2 pos34 lev2_pos34 last lev2_last"><a href="/about/index.cfm" class="lev2 pos34 lev2_pos34 last lev2_last" target="_self">About/FAQs</a></li>
+</ul></li>
+</ul></div></div>
+		</div>
+		
+		<div id="content-wrapper">
+		<div id="main-content" class="column620">
+			<div class="slideshow-container">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+	
+    
+ 
+ 	
+ 
+   
+
+ 
+	
+	
+    
+
+
+ 
+   
+  
+  
+  
+  
+  
+
+ 
+ 	
+    
+    
+    
+    	
+    
+  
+  
+
+
+  
+    
+  
+  
+  
+  
+  
+  
+ 
+	
+	
+    
+ 
+ 	
+ 
+    
+
+  
+  
+  
+
+
+
+ 
+	
+        
+    
+ 
+<div class="features slideshow book">
+    <img class="corner" src="/siteimages/corner_tab.png" alt ="" />
+
+    <div class="header">
+        <span class="featured">FEATURED</span><span class="resources icon"><span></span>BOOK</span>
+    </div><!-- header -->
+    
+    <div class="slide-image">
+        <img src="/images/homefeature/Commonsense Reasoning_1.20.jpg" alt="Featured Book" />
+    </div>
+    
+    <div class="current-resources">
+                            <a class="title" href="/books/book_detail.cfm?id=2821577&type=elsevier">Commonsense Reasoning</a><br />
+                          <div>
+                                <span>Author: Erik T. Mueller</span><br />
+                                <span>Publisher: <a href="/books/book_detail.cfm?id=2821577&type=elsevier">Morgan Kaufmann Publishers Inc.</a></span>
+                                 <p>This book uses the event calculus, a highly powerful and usable tool for commonsense reasoning, which Erik Mueller demonstrates as the most effective tool for the broadest range or applications. <br></p>
+                               
+                            </div>
+                        </div>
+</div><!-- features slideshow -->
+
+
+
+
+
+ 	
+
+<div class="features slideshow video">
+    <img class="corner" src="/siteimages/corner_tab.png" alt ="" />
+
+    <div class="header">
+        <span class="featured">FEATURED</span><span class="resources icon"><span class="video"></span>VIDEO</span>
+    </div><!-- header -->
+    
+    <div class="slide-image">
+        <img src="/images/homefeature/Learning adobe photoshop cs6_1.20.jpg" alt="" />
+    </div>
+    
+    <div class="current-resources">
+    	
+        	<a class="title" href="http://learning.acm.org/books/book_detail.cfm?id=2458659&type=safari">Learning adobe photoshop cs6</a><br />
+        
+        <div>
+            <span>Author: 
+            
+                
+                    Andy Anderson
+                </span><br />
+            
+            
+            <span>Publisher: <a href="http://learning.acm.org/books/book_detail.cfm?id=2458659&type=safari">InfiniteSkills</a></span>
+            
+             <p>In this Adobe Photoshop CS6 video training course expert author and trainer Andy Anderson introduces you to the basics of this graphics software from Adobe.&nbsp;</p>
+           
+        </div>
+	</div>
+</div><!-- features slideshow -->
+
+
+
+
+
+ 
+ 	
+ 
+ 
+ 	
+ 
+ 
+<div class="features slideshow course">
+    <img class="corner" src="/siteimages/corner_tab.png" alt ="" />
+    <div class="header">
+        <span class="featured">FEATURED</span><span class="resources icon"><span class="course"></span>COURSE</span>
+    </div><!-- header -->
+    
+    <div class="slide-image">
+        <img src="/images/homefeature/the-panic-key.jpg" alt="Featured Course " />
+    </div>
+	
+	  <div class="current-resources">
+	        <a class="title" href="http://learning.acm.org/skillsoft/detail.cfm?id=db_iseu_a03_dt_enus"> Using E-mail, the Internet, and Social Media Safely in a Corporate Environment</a><br />
+	        <span class="duration">IT Professional Curricula</span>
+	        <div>
+	          <p>This course examines the ethical use of E-mail and how to deal with the security issues that can arise from posting or discussing corporate information on social media sites.
+		</p>
+	        </div>
+	    </div>
+    
+</div><!-- features slideshow -->
+
+
+
+
+
+ 
+ 	
+ 
+ 
+ 	
+ 
+ 
+ 
+ 	
+ 
+ 
+<div class="features slideshow notable">
+    <img class="corner" src="/siteimages/corner_tab.png" alt ="" />
+    <div class="header">
+        <span class="featured">FEATURED</span><span class="resources icon"><span class="notable"></span>ACM WEBINAR</span>
+    </div><!-- header -->
+    
+    <div class="slide-image">
+         <img src="/images/homefeature/Software Dev. Webinar 1.20.jpg" alt="Notable" />
+    </div>
+    
+     <div class="current-resources">
+   <a class="title" href="http://event.on24.com/wcc/r/1105117/C30ADFDBBBC931C991D61387770DCFB0">Improving Software Development Productivity Minute-by-Minute</a><br />
+	      
+	        <div>
+	         <p>Gail Murphy discusses recent studies about software development productivity from the eyes of developers and will suggest directions to improve software development productivity based on the daily activities of software developers.&nbsp;</p>
+	         
+	        </div>
+    </div>
+</div><!-- features slideshow -->
+
+
+			</div>
+			<!-- slideshow container -->
+			<div class="features">
+				<img class="corner" src="/siteimages/corner_tab.png" alt=""/>
+				<div class="header">
+					<span class="featuredtech">TECH PACK</span><span class="learning">
+						LEARNING PATHS
+					</span><span class="resourcesfeature">&nbsp;</span>
+				</div>
+				<div class="tech-pack">
+					<p>
+						an integrated learning package.
+					</p>
+				</div>
+				<div class="learning-paths">
+					<p>
+						teaching practical skills.
+					</p>
+				</div>
+				
+				<div class="current-resources2">
+					
+<p><strong><a href="http://techpack.acm.org/cloud/" target="_blank">Cloud Computing</a></strong><br />
+<strong><a href="http://techpack.acm.org/ea/index.cfm" target="_blank" title="EA Tech Pack">Enterprise Architecture</a></strong><br />
+<strong><a href="http://techpack.acm.org/mobility/" title="Mobility Tech Pack">Mobility</a></strong><br />
+<strong><a href="http://techpack.acm.org/bi/">Business Intelligence &amp; Data Management</a><br />
+<a href="http://techpack.acm.org/security/">Security</a><br />
+Software as a Service</strong></p>
+
+				</div>
+				<div class="current-paths">
+					
+<p><strong><a href="/path/python/homepage.cfm">Python Learning Path</a></strong><br>
+<strong><a href="/path/ruby/index.cfm">Ruby Learning Path</a></strong></p>
+				</div>
+			</div>
+			<!-- features -->
+		</div>
+		<!-- main content -->
+		
+		<!--[if gte IE 6]>
+		<div class="ie-col">
+			<![endif]-->
+			<div id="secondary-content" class="clearfix column300">
+            	<div style="display:inline">&nbsp;</div>
+				<div class="hp-column">
+					<h3>
+						BOOKS
+					</h3>
+					
+<p>700 <strong>Safari<sup>&reg;</sup> Books Online</strong> books and videos from O&#39;Reilly and other top publishers; 3,000+ <strong>Books24x7<sup>&reg;</sup></strong> titles, thousands of short IT/desktop videos, and more than 450 Morgan Kaufmann and Syngress books; available to ACM <a href="https://campus.acm.org/public/qj/ProfQJ/qjprof_control.cfm?form_type=Professional&amp;promo=PDC23" target="_blank" title="Join ACM as a Professional Member">Professional</a> and <a href="https://campus.acm.org/public/qj/QuickJoin/qj_control.cfm?form_type=Student&amp;promo=PDC23" target="_blank" title="Join ACM as a Student Member">Student</a> Members.</p>
+
+				</div>
+				
+				<div class="hp-column">
+					<h3>
+						COURSES
+					</h3>
+					
+<p class="MsoNormal"><strong><span style="font-family: Arial;">Skillsoft Learning<sup>&reg;</sup></span></strong><span style="font-family: Arial;">: 1100+ online courses, thousands of short videos, and analyst reports covering top IT/business topics available</span><span style="font-family: Arial;"> to both <a href="https://campus.acm.org/public/qj/ProfQJ/qjprof_control.cfm?form_type=Professional&amp;promo=PDC23" target="_blank" title="Join ACM as a Professional Member">Professional</a> and <a href="https://campus.acm.org/public/qj/QuickJoin/qj_control.cfm?form_type=Student&amp;promo=PDC23" target="_blank" title="Join ACM as a Student Member">Student</a> Members</span><span style="font-family: Arial;">. <span style="font-family: Arial;">Certification-track courses in CEH, Cisco, CISSP, CompTIA, ITIL, PMP, and more.&nbsp;</span></span></p>
+
+				</div>
+				
+				<div class="video-container">
+					
+<h3><span style="color:#000000;">ANNOUNCEMENTS</span></h3>
+<ul style="list-style-type: circle;">
+    <li>Register for <strong>February 26</strong> talk with ACM Queue columnist Tom Limoncelli: &quot;<a href="http://event.on24.com/wcc/r/1135143/0B7327D3D1704CD1A4410EA8B932D41E" target="_blank">Fail Better: Radical Ideas from the Practice of Cloud Computing</a>.&quot;</li>
+    <li><a href="http://learning.acm.org/safariswap.cfm">See list of books and videos</a>&nbsp;added to our <strong>Safari Books Online</strong> library in January.</li>
+    <li>Webinar available on-demand: &quot;<span name="title"><a href="http://event.on24.com/wcc/r/1119404/B071434579604051B4F7769EA8D07A0D?partnerref=acmlc" target="_blank">Computational Thinking</a>&quot; with&nbsp;<span class="sp-title">ACM Fellow ?and IBM Research Chief Scientist <strong>Grady&nbsp;Booch</strong>.</span></span></li>
+</ul>
+
+				</div>
+				<!-- video container -->
+			</div>
+			<!-- secondary content -->
+			
+			<!--[if gte IE 6]>
+			<div class="ie-col">
+				<![endif]-->
+				<div class="partners clearfix">
+					<div class="quote">
+						
+
+
+<IMG alt="ALBERT EINSTEIN" align=left src="/images/homefeature/Einstein.jpg" width="81" height="94"> 
+<p>The important thing is not to stop questioning.</p><SPAN>ALBERT EINSTEIN</SPAN>
+
+
+
+					</div>
+					
+					
+<p align="center"><a href="http://my.safaribooksonline.com/?portal=oreilly" target="_blank"><img alt="Safari Books Online" border="0" height="59" hspace="12" src="/images/partners/safari_logo.png" width="111" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; <a href="http://www.books24x7.com/books24x7.asp" target="_blank"><img alt="Books 24x7" border="0" height="59" src="/images/partners/books_logo.png" width="98" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" src="/images/skillsoft-logo.jpg" style="width: 116px; height: 46px;" /></p>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20848891-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+				</div>
+			</div>
+			<!-- content wrapper -->
+			
+			<!--[if gte IE 6]>
+			<div class="ie-footer">
+				<![endif]-->
+				<div id="footer">
+					
+
+<div  class="ktcssmenu savvynav_ACMLearning_Footer"><div class="kthorizontal ktopts_showtimeout_100 ktopts_hidetimeout_100 ktopts_imgreplace_no ktopts_imgreplacestyle_img ktopts_imgdir_ ktopts_imgnames_">
+<ul class='lev1 clearfix'><li class="lev1 pos1 lev1_pos1 first lev1_first"><a href="http://campus.acm.org/public/qj/QuickJoin/interim.cfm" class="lev1 pos1 lev1_pos1 first lev1_first" target="_new">JOIN</a></li>
+<li class="lev1 pos2 lev1_pos2"><a href="https://campus.acm.org/public/renewal_url/get_urls.cfm" class="lev1 pos2 lev1_pos2" target="_new">RENEW</a></li>
+<li class="lev1 pos3 lev1_pos3"><a href="/books/index.cfm" class="lev1 pos3 lev1_pos3" target="_self">BOOKS</a></li>
+<li class="lev1 pos4 lev1_pos4"><a href="/books/saf_catalog.cfm" class="lev1 pos4 lev1_pos4" target="_self">SAFARI</a></li>
+<li class="lev1 pos5 lev1_pos5"><a href="/books/b24x7_catalog.cfm" class="lev1 pos5 lev1_pos5" target="_self">BOOKS24X7</a></li>
+<li class="lev1 pos6 lev1_pos6"><a href="/courses/index.cfm" class="lev1 pos6 lev1_pos6" target="_self">COURSES</a></li>
+<li class="lev1 pos7 lev1_pos7"><a href="http://techpack.acm.org" class="lev1 pos7 lev1_pos7" target="_self">TECH PACKS</a></li>
+<li class="lev1 pos8 lev1_pos8"><a href="/about/faq.cfm" class="lev1 pos8 lev1_pos8" target="_self">FAQ's</a></li>
+<li class="lev1 pos9 lev1_pos9"><a href="/about/suggestion_box.cfm" class="lev1 pos9 lev1_pos9" target="_self">SUGGESTION BOX</a></li>
+<li class="lev1 pos10 lev1_pos10"><a href="/about/contact.cfm" class="lev1 pos10 lev1_pos10" target="_self">CONTACT</a></li>
+<li class="lev1 pos11 lev1_pos11"><a href="/about/index.cfm" class="lev1 pos11 lev1_pos11" target="_self">ABOUT</a></li>
+<li class="lev1 pos12 lev1_pos12 last lev1_last"><a href="/about/pd_committee.cfm" class="lev1 pos12 lev1_pos12 last lev1_last" target="_self">PD COMMITTEE</a></li>
+</ul></div></div>
+				
+					<p>
+						ACM &copy; 
+						2015
+					</p>
+				</div>
+				<!-- footer -->
+				<!--[if gte IE 6]>
+			</div>
+			<![endif]-->
+		</div>
+		<!-- main wrapper -->
+		
+
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){
+			    $('.slideshow-container').before('<div class="slideshow-links">').cycle({
+			        fx: 'fade',
+			        pager: '.slideshow-links',
+			        pause: true,
+			        timeout: 6000
+			    });
+			    
+			    
+			    $("span.featuredtech").click(function(){
+			        $("span.featuredtech").css('background-color', '#363636');
+			        $("span.learning").css('background-color', '#0d93cf');
+					$(".current-resources2").css('display', 'inline-block');
+					$(".current-paths").css('display', 'none');
+					
+					$(".learning-paths").css('display', 'none');
+					$(".tech-pack").css('display', 'inline-block');
+			    });
+			    
+			    $("span.learning").click(function(){
+			        $("span.learning").css('background-color', '#363636');
+			        $("span.featuredtech").css('background-color', '#0d93cf');
+					$(".current-paths").css('display', 'inline-block');
+					$(".current-resources2").css('display', 'none');
+					
+					$(".learning-paths").css('display', 'inline-block');
+					$(".tech-pack").css('display', 'none');
+					
+			    });
+			    
+			    $('.slideshow-links a:first-child').css('background-position', '11px 10px');
+			    $('.slideshow-links a:nth-child(2)').css('background-position', '11px -94px');
+			    $('.slideshow-links a:last-child').css('background-position', '11px -65px');
+			    
+			    $('#nav li').hover(function(){
+			        $(this).next('ul').css('display', 'block');
+			    }, function(){
+			        $(this).next('ul').css('display', 'block');
+			    });
+			});
+		</script>
+	</body>
+</html>
+

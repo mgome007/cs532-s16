@@ -1,0 +1,829 @@
+<!DOCTYPE html><!-- HTML 5 -->
+<html lang="ja"
+	itemscope 
+	itemtype="http://schema.org/WebSite" 
+	prefix="og: http://ogp.me/ns#" >
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="XtNW0Lj-xb6AegKsQl3hgE1VVOQealn0UOe6KUOwfrs" />
+
+<title>Tips of Rubbish</title>
+
+<!--
+<title>ヒトを変える事は出来ないのでまずは自分のスキルを上げよう</title>
+-->
+<!--<link rel="profile" href="http://gmpg.org/xfn/11" />-->
+<!--link rel="pingback" href="http://wordpress.ideacompo.com/xmlrpc.php" /-->
+
+
+<!-- All in One SEO Pack 2.2.7.5 by Michael Torbert of Semper Fi Web Design[338,400] -->
+<meta name="description" itemprop="description" content="雑多なネタを随時掲載" />
+
+<meta name="keywords" itemprop="keywords" content="WEB,スマホ,DIY,IoT,エンジニア,ネットワーク,サーバー,働き方,モチベーション,映画,健康,工作,電子工作" />
+<link rel='next' href='http://wordpress.ideacompo.com/?paged=2' />
+
+<link rel="canonical" href="http://wordpress.ideacompo.com/" />
+<meta property="og:title" content="Tips of Rubbish" />
+<meta property="og:url" content="http://wordpress.ideacompo.com/" />
+<meta property="og:image" content="http://wordpress.ideacompo.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png" />
+<meta property="og:site_name" content="Tips of Rubbish" />
+<meta property="og:description" content="部下や後輩に対して、もう少し頑張ってほしいと考えた時に、指導してもなかなか成果が出ないものです。 実はいくら指導をしても、後輩や部下は、変化を望んでいなければ、怒鳴ろうが手を上げようが、決して変わる事はありません。 残念ながら、これは、後輩や部下に限った事では無く、子供や恋人、親友であっても、同じ事です。 カウンセリングで重要なのは導くことではない カウンセリングでは鉄則なのですが、ヒトをより良い道に進めるために、アドバイスは行ってはいけないそうです。 理由は、アドバイスによってヒトの行動が変わる事はまず有り得ないからです。 では、どうすればヒトは変わる事ができるのでしょうか？ 気付きが重要 目からうろこが落ちた などと比喩されるが、「気づき」という事がとても重要だと考えられます。 簡単に言えば、「本人が変わりたいと思う」という事が一番買われる要素なのです。 自分が考える事なので当たり前だと思いますが、そもそも、ヒトは根本である考え方を変えられないから、行動も、環境も変える事が困難なのですね。 気づきは、どうすれば変わる事ができるか、理解した状態です。 上の立場であるヒトは、その人がどのように振る舞えば良いか、分かっているが、当人が理解していない事に気がつきません。 自分の考えている事が普通で、部下や後輩は、その考えに至っていないので、未成熟と見てしまいます。 もちろん、変わるかどうかの、「どちらが正しいか」という議論はあるかもしれないが、答えの分かっている人と分かっていない人という風に考えると分かりやすいかもしれません。 答えがわからない人に、直接答えを教えるのでは無く、自分で考えて、思い出して、自分で答えを出すという行為がとても重要なんですね。 手品の種明かしで分かる、人の伸びしろの可能性 手品を眼の前で見て、すぐに種明かしを知りたがる人と、腕組みをして、手品の結果を直視しながら、自分で答えを考え出そうとする人とで、自分で変化する可能性を持っているかどうかが、わかります、 種明かしをすぐに知りたい人は、セッカチであり、自分が答えを知らないという状況を不満に思っており、とにかく答えを知る事が目的と考える人です。 手品のタネを知ると安心して理解できた自分に対して安心します。 手品のタネを自分で考える人は、種明かしを聞いた後で決まって面白い反応をします。" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Tips of Rubbish" />
+<meta name="twitter:description" content="部下や後輩に対して、もう少し頑張ってほしいと考えた時に、指導してもなかなか成果が出ないものです。 実はいくら指導をしても、後輩や部下は、変化を望んでいなければ、怒鳴ろうが手を上げようが、決して変わる事はありません。 残念ながら、これは、後輩や部下に限った事では無く、子供や恋人、親友であっても、同じ事です。 カウンセリングで重要なのは導くことではない カウンセリングでは鉄則なのですが、ヒトをより良い道に進めるために、アドバイスは行ってはいけないそうです。 理由は、アドバイスによってヒトの行動が変わる事はまず有り得ないからです。 では、どうすればヒトは変わる事ができるのでしょうか？ 気付きが重要 目からうろこが落ちた などと比喩されるが、「気づき」という事がとても重要だと考えられます。 簡単に言えば、「本人が変わりたいと思う」という事が一番買われる要素なのです。 自分が考える事なので当たり前だと思いますが、そもそも、ヒトは根本である考え方を変えられないから、行動も、環境も変える事が困難なのですね。 気づきは、どうすれば変わる事ができるか、理解した状態です。 上の立場であるヒトは、その人がどのように振る舞えば良いか、分かっているが、当人が理解していない事に気がつきません。 自分の考えている事が普通で、部下や後輩は、その考えに至っていないので、未成熟と見てしまいます。 もちろん、変わるかどうかの、「どちらが正しいか」という議論はあるかもしれないが、答えの分かっている人と分かっていない人という風に考えると分かりやすいかもしれません。 答えがわからない人に、直接答えを教えるのでは無く、自分で考えて、思い出して、自分で答えを出すという行為がとても重要なんですね。 手品の種明かしで分かる、人の伸びしろの可能性 手品を眼の前で見て、すぐに種明かしを知りたがる人と、腕組みをして、手品の結果を直視しながら、自分で答えを考え出そうとする人とで、自分で変化する可能性を持っているかどうかが、わかります、 種明かしをすぐに知りたい人は、セッカチであり、自分が答えを知らないという状況を不満に思っており、とにかく答えを知る事が目的と考える人です。 手品のタネを知ると安心して理解できた自分に対して安心します。 手品のタネを自分で考える人は、種明かしを聞いた後で決まって面白い反応をします。" />
+<meta name="twitter:image" content="http://wordpress.ideacompo.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png" />
+<meta itemprop="image" content="http://wordpress.ideacompo.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png" />
+<!-- /all in one seo pack -->
+<link rel="alternate" type="application/rss+xml" title="Tips of Rubbish &raquo; フィード" href="http://wordpress.ideacompo.com/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Tips of Rubbish &raquo; コメントフィード" href="http://wordpress.ideacompo.com/?feed=comments-rss2" />
+<link rel="alternate" type="application/rss+xml" title="SmartNews" href="http://wordpress.ideacompo.com/?feed=smartnews" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/wordpress.ideacompo.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.7"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='crayon-css'  href='http://wordpress.ideacompo.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=2.6.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-orange-code-css'  href='http://wordpress.ideacompo.com/wp-content/plugins/crayon-syntax-highlighter/themes/orange-code/orange-code.css?ver=2.6.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-monaco-css'  href='http://wordpress.ideacompo.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco.css?ver=2.6.9' type='text/css' media='all' />
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='http://wordpress.ideacompo.com/wp-content/plugins/wp-to-twitter/css/twitter-feed.css?ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='momentous-lite-stylesheet-css'  href='http://wordpress.ideacompo.com/wp-content/themes/geta1972/style.css?ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='momentous-lite-genericons-css'  href='http://wordpress.ideacompo.com/wp-content/themes/geta1972/css/genericons/genericons.css?ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='momentous-lite-default-font-css'  href='//fonts.googleapis.com/css?family=Average+Sans&#038;ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='momentous-lite-default-title-font-css'  href='//fonts.googleapis.com/css?family=Fjalla+One&#038;ver=4.2.7' type='text/css' media='all' />
+<!-- This site uses the Yoast Google Analytics plugin v5.2.8 - Universal enabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-59196799-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('set', 'anonymizeIp', true);
+	__gaTracker('require', 'displayfeatures');
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Yoast Google Analytics -->
+<script type='text/javascript' src='http://wordpress.ideacompo.com/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://wordpress.ideacompo.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"2.6.9","is_admin":"0","ajaxurl":"http:\/\/wordpress.ideacompo.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"\u8cbc\u308a\u4ed8\u3051\u306b\u30b3\u30d4\u30fc\u3001%s\u306b%s\u3092\u62bc\u3057\u3066\u3001","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wordpress.ideacompo.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=2.6.9'></script>
+<script type='text/javascript' src='http://wordpress.ideacompo.com/wp-content/themes/geta1972/js/navigation.js?ver=4.2.7'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wordpress.ideacompo.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wordpress.ideacompo.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.7" />
+<script type="text/javascript" src="//ideacompo.com/tools/sitemate/access.php?user=test"></script>
+
+
+<!--
+<div style='text-align:center;'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+-->
+<!-- default -->
+<!--
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8241508792005934"
+     data-ad-slot="5605410409"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+-->	<!--[if lt IE 9]>
+	<script src="http://wordpress.ideacompo.com/wp-content/themes/geta1972/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+<!-- BEGIN: WP Social Bookmarking Light -->
+<meta name="mixi-check-robots" content="noimage" />
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>   
+<style type="text/css">
+.wp_social_bookmarking_light{
+    border: 0 !important;
+    padding: 10px 0 20px 0 !important;
+    margin: 0 !important;
+}
+.wp_social_bookmarking_light div{
+    float: left !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 5px 0px 0 !important;
+    min-height: 30px !important;
+    line-height: 18px !important;
+    text-indent: 0 !important;
+}
+.wp_social_bookmarking_light img{
+    border: 0 !important;
+    padding: 0;
+    margin: 0;
+    vertical-align: top !important;
+}
+.wp_social_bookmarking_light_clear{
+    clear: both !important;
+}
+#fb-root{
+    display: none;
+}
+.wsbl_twitter{
+    width: 100px;
+}
+.wsbl_facebook_like iframe{
+    max-width: none !important;
+}</style>
+<!-- END: WP Social Bookmarking Light -->
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+</head>
+
+<body class="home blog custom-background">
+
+
+<div id="wrapper" class="hfeed">
+
+	<div id="header-wrap">
+
+		
+			<div id="header-search-wrap">
+
+				<div id="header-search" class="container clearfix">
+					
+	<form role="search" method="get" class="search-form" action="http://wordpress.ideacompo.com/">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input type="search" class="search-field" placeholder="To search, type and hit enter &hellip;" value="" name="s">
+		</label>
+		<button type="submit" class="search-submit">
+			<span class="genericon-search"></span>
+		</button>
+	</form>
+
+				</div>
+
+			</div>
+
+		
+		<header id="header" class="container clearfix" role="banner">
+
+			<div id="logo">
+
+				<a href="http://wordpress.ideacompo.com/" title="Tips of Rubbish" rel="home">
+					<h1 class="site-title">Tips of Rubbish</h1>
+				</a>
+
+							<h2 class="site-description">DIYとIoTをこよなく愛する、WEB関連やデジモノなどの雑多な情報ブログ</h2>
+			
+			</div>
+
+			<div id="header-content" class="clearfix">
+
+									<div class="header-search-icon">
+						<span class="genericon-search"></span>
+					</div>
+				
+				
+			</div>
+
+		</header>
+
+		<div id="navigation-wrap">
+
+			<div id="navigation" class="container clearfix">
+				<p id="mainnav-icon-tablet" class="mainnav-icon"></p><p id="mainnav-icon-phone" class="mainnav-icon"></p><p id="social-menu-icon"></p>
+
+				
+
+				<nav id="mainnav" class="clearfix" role="navigation">
+					<ul id="mainnav-menu" class="menu"></ul>				</nav>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	
+	<div id="wrap" class="container clearfix">
+	
+		<section id="content" class="primary" role="main">
+			
+					
+			<div id="post-wrapper" class="clearfix">
+		 
+					
+	<div class="post-wrap clearfix">
+	
+		<article id="post-5215" class="post-5215 post type-post status-publish format-standard has-post-thumbnail hentry category-motivation">
+			
+			
+		<a href="http://wordpress.ideacompo.com/?p=5215" rel="bookmark">
+			<img width="900" height="300" src="http://wordpress.ideacompo.com/wp-content/uploads/2016/02/man-599299_1280-900x300.jpg" class="attachment-post-thumbnail wp-post-image" alt="man-599299_1280" />		</a>
+
+
+			<h2 class="entry-title post-title"><a href="http://wordpress.ideacompo.com/?p=5215" rel="bookmark">ヒトを変える事は出来ないのでまずは自分のスキルを上げよう</a></h2>
+			
+			<div class="postmeta clearfix">		
+		<span class="meta-date">
+		Posted on <a href="http://wordpress.ideacompo.com/?p=5215" title="09:00" rel="bookmark"><time datetime="2016-02-19T09:00:49+00:00" class="updated">2016/02/19</time></a>		</span>
+		
+		<span class="meta-author">
+		by <a href="http://wordpress.ideacompo.com/?author=1" title="View all posts by geta" rel="author">geta</a>		</span>
+		
+<span class="vcard author" style="display:none;"><span class="fn">by <a href="https://plus.google.com/106309943997564405862/posts" rel="author">geta1972</a></span></span>
+
+	</div>
+			
+			<div class="entry clearfix">
+				<p>部下や後輩に対して、もう少し頑張ってほしいと考えた時に、指導してもなかなか成果が出ないものです。 実はいくら指導をしても、後輩や部下は、変化を望んでいなければ、怒鳴ろうが手を上げようが、決して変わる事はありません。 残念 [&#8230;]</p>
+				<a href="http://wordpress.ideacompo.com/?p=5215" class="more-link">Continue reading &raquo;</a>
+			</div>
+			
+			<div class="postinfo clearfix">		
+			<div class="meta-comments">
+				<a href="http://wordpress.ideacompo.com/?p=5215#respond">0</a>			</div>
+		
+		
+		<span class="meta-category">
+			<a href="http://wordpress.ideacompo.com/?cat=13" rel="category">モチベーション</a>		</span>
+</div>
+
+		</article>
+		
+	</div>
+		
+	<div class="post-wrap clearfix">
+	
+		<article id="post-5207" class="post-5207 post type-post status-publish format-standard has-post-thumbnail hentry category-objective-c tag-web">
+			
+			
+		<a href="http://wordpress.ideacompo.com/?p=5207" rel="bookmark">
+			<img width="900" height="300" src="http://wordpress.ideacompo.com/wp-content/uploads/2016/02/library-995182_1280-900x300.jpg" class="attachment-post-thumbnail wp-post-image" alt="library-995182_1280" />		</a>
+
+
+			<h2 class="entry-title post-title"><a href="http://wordpress.ideacompo.com/?p=5207" rel="bookmark">[Objective-C] UITableViewテンプレート</a></h2>
+			
+			<div class="postmeta clearfix">		
+		<span class="meta-date">
+		Posted on <a href="http://wordpress.ideacompo.com/?p=5207" title="09:00" rel="bookmark"><time datetime="2016-02-18T09:00:00+00:00" class="updated">2016/02/18</time></a>		</span>
+		
+		<span class="meta-author">
+		by <a href="http://wordpress.ideacompo.com/?author=1" title="View all posts by geta" rel="author">geta</a>		</span>
+		
+<span class="vcard author" style="display:none;"><span class="fn">by <a href="https://plus.google.com/106309943997564405862/posts" rel="author">geta1972</a></span></span>
+
+	</div>
+			
+			<div class="entry clearfix">
+				<p>スマートフォン独特の表示と言えばTableViewの表示が代表的だと思います。 PCのtable表示はマトリクス表示を基本としますが、スマートフォンは、段落のみの縦方向セグメントです。 重要なのは、サムネイルやそこから多 [&#8230;]</p>
+				<a href="http://wordpress.ideacompo.com/?p=5207" class="more-link">Continue reading &raquo;</a>
+			</div>
+			
+			<div class="postinfo clearfix">		
+			<div class="meta-comments">
+				<a href="http://wordpress.ideacompo.com/?p=5207#respond">0</a>			</div>
+		
+		
+		<span class="meta-category">
+			<a href="http://wordpress.ideacompo.com/?cat=323" rel="category">Objective-C</a>		</span>
+</div>
+
+		</article>
+		
+	</div>
+		
+	<div class="post-wrap clearfix">
+	
+		<article id="post-5190" class="post-5190 post type-post status-publish format-standard has-post-thumbnail hentry category-113">
+			
+			
+		<a href="http://wordpress.ideacompo.com/?p=5190" rel="bookmark">
+			<img width="900" height="300" src="http://wordpress.ideacompo.com/wp-content/uploads/2016/02/maxresdefault1-900x300.jpg" class="attachment-post-thumbnail wp-post-image" alt="maxresdefault" />		</a>
+
+
+			<h2 class="entry-title post-title"><a href="http://wordpress.ideacompo.com/?p=5190" rel="bookmark">[映画] The MAZE RUNNER（メイズ・ランナー）[2014]</a></h2>
+			
+			<div class="postmeta clearfix">		
+		<span class="meta-date">
+		Posted on <a href="http://wordpress.ideacompo.com/?p=5190" title="09:00" rel="bookmark"><time datetime="2016-02-17T09:00:10+00:00" class="updated">2016/02/17</time></a>		</span>
+		
+		<span class="meta-author">
+		by <a href="http://wordpress.ideacompo.com/?author=1" title="View all posts by geta" rel="author">geta</a>		</span>
+		
+<span class="vcard author" style="display:none;"><span class="fn">by <a href="https://plus.google.com/106309943997564405862/posts" rel="author">geta1972</a></span></span>
+
+	</div>
+			
+			<div class="entry clearfix">
+				<p>公開当時から見たくて仕方がなかった映画をようやくDVDで見ることができました。 進撃の巨人を思わせるクリソツな壁だが、巨人はいなく、迷路という目的の映画と思いきや、迷路の謎解きは無く、 その迷路の外の世界を目的とした話に [&#8230;]</p>
+				<a href="http://wordpress.ideacompo.com/?p=5190" class="more-link">Continue reading &raquo;</a>
+			</div>
+			
+			<div class="postinfo clearfix">		
+			<div class="meta-comments">
+				<a href="http://wordpress.ideacompo.com/?p=5190#respond">0</a>			</div>
+		
+		
+		<span class="meta-category">
+			<a href="http://wordpress.ideacompo.com/?cat=113" rel="category">映画</a>		</span>
+</div>
+
+		</article>
+		
+	</div>
+		
+	<div class="post-wrap clearfix">
+	
+		<article id="post-5200" class="post-5200 post type-post status-publish format-standard has-post-thumbnail hentry category-objective-c tag-web">
+			
+			
+		<a href="http://wordpress.ideacompo.com/?p=5200" rel="bookmark">
+			<img width="900" height="300" src="http://wordpress.ideacompo.com/wp-content/uploads/2016/02/web-845803_1280-900x300.jpg" class="attachment-post-thumbnail wp-post-image" alt="web-845803_1280" />		</a>
+
+
+			<h2 class="entry-title post-title"><a href="http://wordpress.ideacompo.com/?p=5200" rel="bookmark">[Objective-C] UIWebViewテンプレート</a></h2>
+			
+			<div class="postmeta clearfix">		
+		<span class="meta-date">
+		Posted on <a href="http://wordpress.ideacompo.com/?p=5200" title="09:00" rel="bookmark"><time datetime="2016-02-16T09:00:29+00:00" class="updated">2016/02/16</time></a>		</span>
+		
+		<span class="meta-author">
+		by <a href="http://wordpress.ideacompo.com/?author=1" title="View all posts by geta" rel="author">geta</a>		</span>
+		
+<span class="vcard author" style="display:none;"><span class="fn">by <a href="https://plus.google.com/106309943997564405862/posts" rel="author">geta1972</a></span></span>
+
+	</div>
+			
+			<div class="entry clearfix">
+				<p>iOSアプリでURLをブラウジングするにはUIWebViewを利用すると簡単にブラウザアプリが作れるので、よく使う記述をテンプレート化しておきます。 テンプレートコード viewController.h [crayon- [&#8230;]</p>
+				<a href="http://wordpress.ideacompo.com/?p=5200" class="more-link">Continue reading &raquo;</a>
+			</div>
+			
+			<div class="postinfo clearfix">		
+			<div class="meta-comments">
+				<a href="http://wordpress.ideacompo.com/?p=5200#respond">0</a>			</div>
+		
+		
+		<span class="meta-category">
+			<a href="http://wordpress.ideacompo.com/?cat=323" rel="category">Objective-C</a>		</span>
+</div>
+
+		</article>
+		
+	</div>
+		
+	<div class="post-wrap clearfix">
+	
+		<article id="post-5195" class="post-5195 post type-post status-publish format-standard has-post-thumbnail hentry category-motivation">
+			
+			
+		<a href="http://wordpress.ideacompo.com/?p=5195" rel="bookmark">
+			<img width="900" height="300" src="http://wordpress.ideacompo.com/wp-content/uploads/2016/02/communication-1015376_1280-900x300.jpg" class="attachment-post-thumbnail wp-post-image" alt="communication-1015376_1280" />		</a>
+
+
+			<h2 class="entry-title post-title"><a href="http://wordpress.ideacompo.com/?p=5195" rel="bookmark">伝言ゲームと返答のアルゴリズム</a></h2>
+			
+			<div class="postmeta clearfix">		
+		<span class="meta-date">
+		Posted on <a href="http://wordpress.ideacompo.com/?p=5195" title="09:00" rel="bookmark"><time datetime="2016-02-15T09:00:15+00:00" class="updated">2016/02/15</time></a>		</span>
+		
+		<span class="meta-author">
+		by <a href="http://wordpress.ideacompo.com/?author=1" title="View all posts by geta" rel="author">geta</a>		</span>
+		
+<span class="vcard author" style="display:none;"><span class="fn">by <a href="https://plus.google.com/106309943997564405862/posts" rel="author">geta1972</a></span></span>
+
+	</div>
+			
+			<div class="entry clearfix">
+				<p>とあるメーカー会社内の製造部とサポート部でよくある会議風景として・・・ 顧客から入った問い合わせに対して、サポート部では判断できない場合、製造部に問い合わせを投げて解決してもらう時の話です。 「特定の操作に対して不具合が [&#8230;]</p>
+				<a href="http://wordpress.ideacompo.com/?p=5195" class="more-link">Continue reading &raquo;</a>
+			</div>
+			
+			<div class="postinfo clearfix">		
+			<div class="meta-comments">
+				<a href="http://wordpress.ideacompo.com/?p=5195#respond">0</a>			</div>
+		
+		
+		<span class="meta-category">
+			<a href="http://wordpress.ideacompo.com/?cat=13" rel="category">モチベーション</a>		</span>
+</div>
+
+		</article>
+		
+	</div>
+		
+	<div class="post-wrap clearfix">
+	
+		<article id="post-5192" class="post-5192 post type-post status-publish format-standard has-post-thumbnail hentry category-objective-c tag-urldecode tag-urlencode">
+			
+			
+		<a href="http://wordpress.ideacompo.com/?p=5192" rel="bookmark">
+			<img width="900" height="300" src="http://wordpress.ideacompo.com/wp-content/uploads/2016/02/network-65923_1280-900x300.jpg" class="attachment-post-thumbnail wp-post-image" alt="network-65923_1280" />		</a>
+
+
+			<h2 class="entry-title post-title"><a href="http://wordpress.ideacompo.com/?p=5192" rel="bookmark">[Objective-C] iOS9からのURLエンコード・デコード</a></h2>
+			
+			<div class="postmeta clearfix">		
+		<span class="meta-date">
+		Posted on <a href="http://wordpress.ideacompo.com/?p=5192" title="09:00" rel="bookmark"><time datetime="2016-02-14T09:00:24+00:00" class="updated">2016/02/14</time></a>		</span>
+		
+		<span class="meta-author">
+		by <a href="http://wordpress.ideacompo.com/?author=1" title="View all posts by geta" rel="author">geta</a>		</span>
+		
+<span class="vcard author" style="display:none;"><span class="fn">by <a href="https://plus.google.com/106309943997564405862/posts" rel="author">geta1972</a></span></span>
+
+	</div>
+			
+			<div class="entry clearfix">
+				<p>iOSでwebViewを使ったアプリ構築をしていると、URLに2バイト文字を使う場合が多々発生する。 そんな場合、URLエンコード、デコードを使って文字列をコントロールする事はよくある。 エンコードについての説明は省くが [&#8230;]</p>
+				<a href="http://wordpress.ideacompo.com/?p=5192" class="more-link">Continue reading &raquo;</a>
+			</div>
+			
+			<div class="postinfo clearfix">		
+			<div class="meta-comments">
+				<a href="http://wordpress.ideacompo.com/?p=5192#respond">0</a>			</div>
+		
+		
+		<span class="meta-category">
+			<a href="http://wordpress.ideacompo.com/?cat=323" rel="category">Objective-C</a>		</span>
+</div>
+
+		</article>
+		
+	</div>
+		
+	<div class="post-wrap clearfix">
+	
+		<article id="post-5185" class="post-5185 post type-post status-publish format-standard has-post-thumbnail hentry category-objective-c">
+			
+			
+		<a href="http://wordpress.ideacompo.com/?p=5185" rel="bookmark">
+			<img width="900" height="300" src="http://wordpress.ideacompo.com/wp-content/uploads/2016/02/compare-643305_1280-900x300.png" class="attachment-post-thumbnail wp-post-image" alt="compare-643305_1280" />		</a>
+
+
+			<h2 class="entry-title post-title"><a href="http://wordpress.ideacompo.com/?p=5185" rel="bookmark">[Objective-C] 文字列比較でisEqualToStringで同一判定できない事象が発生</a></h2>
+			
+			<div class="postmeta clearfix">		
+		<span class="meta-date">
+		Posted on <a href="http://wordpress.ideacompo.com/?p=5185" title="09:00" rel="bookmark"><time datetime="2016-02-13T09:00:03+00:00" class="updated">2016/02/13</time></a>		</span>
+		
+		<span class="meta-author">
+		by <a href="http://wordpress.ideacompo.com/?author=1" title="View all posts by geta" rel="author">geta</a>		</span>
+		
+<span class="vcard author" style="display:none;"><span class="fn">by <a href="https://plus.google.com/106309943997564405862/posts" rel="author">geta1972</a></span></span>
+
+	</div>
+			
+			<div class="entry clearfix">
+				<p>iOSアプリで、ネットからファイルをダウンロードして、ローカルに保存、その後、そのファイル名でローカルに保存した後、 ダウンロード済み判定の為に、if文で「isEqualToString」で判定した所、問題が発生した。  [&#8230;]</p>
+				<a href="http://wordpress.ideacompo.com/?p=5185" class="more-link">Continue reading &raquo;</a>
+			</div>
+			
+			<div class="postinfo clearfix">		
+			<div class="meta-comments">
+				<a href="http://wordpress.ideacompo.com/?p=5185#respond">0</a>			</div>
+		
+		
+		<span class="meta-category">
+			<a href="http://wordpress.ideacompo.com/?cat=323" rel="category">Objective-C</a>		</span>
+</div>
+
+		</article>
+		
+	</div>
+		
+	<div class="post-wrap clearfix">
+	
+		<article id="post-5174" class="post-5174 post type-post status-publish format-standard has-post-thumbnail hentry category-pc tag-mac">
+			
+			
+		<a href="http://wordpress.ideacompo.com/?p=5174" rel="bookmark">
+			<img width="900" height="300" src="http://wordpress.ideacompo.com/wp-content/uploads/2016/02/IMG_2999-e1455155422322-900x300.jpg" class="attachment-post-thumbnail wp-post-image" alt="IMG_2999" />		</a>
+
+
+			<h2 class="entry-title post-title"><a href="http://wordpress.ideacompo.com/?p=5174" rel="bookmark">[mac] システム情報を表示して状態の確認</a></h2>
+			
+			<div class="postmeta clearfix">		
+		<span class="meta-date">
+		Posted on <a href="http://wordpress.ideacompo.com/?p=5174" title="09:00" rel="bookmark"><time datetime="2016-02-12T09:00:50+00:00" class="updated">2016/02/12</time></a>		</span>
+		
+		<span class="meta-author">
+		by <a href="http://wordpress.ideacompo.com/?author=1" title="View all posts by geta" rel="author">geta</a>		</span>
+		
+<span class="vcard author" style="display:none;"><span class="fn">by <a href="https://plus.google.com/106309943997564405862/posts" rel="author">geta1972</a></span></span>
+
+	</div>
+			
+			<div class="entry clearfix">
+				<p>技術者セミナーやイベントに行くと、殆どの人がMacBookAirを膝においてカタカタ打ち込んでいます。 特にMacBookAirは軽くて起動スピードも早くバッテリーもかなり持つので、非常に重宝しますが、 2年ほど使ってい [&#8230;]</p>
+				<a href="http://wordpress.ideacompo.com/?p=5174" class="more-link">Continue reading &raquo;</a>
+			</div>
+			
+			<div class="postinfo clearfix">		
+			<div class="meta-comments">
+				<a href="http://wordpress.ideacompo.com/?p=5174#respond">0</a>			</div>
+		
+		
+		<span class="meta-category">
+			<a href="http://wordpress.ideacompo.com/?cat=9" rel="category">PC</a>		</span>
+</div>
+
+		</article>
+		
+	</div>
+		
+	<div class="post-wrap clearfix">
+	
+		<article id="post-5167" class="post-5167 post type-post status-publish format-standard has-post-thumbnail hentry category-113">
+			
+			
+		<a href="http://wordpress.ideacompo.com/?p=5167" rel="bookmark">
+			<img width="900" height="300" src="http://wordpress.ideacompo.com/wp-content/uploads/2016/02/maxresdefault-900x300.jpg" class="attachment-post-thumbnail wp-post-image" alt="maxresdefault" />		</a>
+
+
+			<h2 class="entry-title post-title"><a href="http://wordpress.ideacompo.com/?p=5167" rel="bookmark">[映画] PIXEL</a></h2>
+			
+			<div class="postmeta clearfix">		
+		<span class="meta-date">
+		Posted on <a href="http://wordpress.ideacompo.com/?p=5167" title="09:00" rel="bookmark"><time datetime="2016-02-11T09:00:03+00:00" class="updated">2016/02/11</time></a>		</span>
+		
+		<span class="meta-author">
+		by <a href="http://wordpress.ideacompo.com/?author=1" title="View all posts by geta" rel="author">geta</a>		</span>
+		
+<span class="vcard author" style="display:none;"><span class="fn">by <a href="https://plus.google.com/106309943997564405862/posts" rel="author">geta1972</a></span></span>
+
+	</div>
+			
+			<div class="entry clearfix">
+				<p>かつてゲーマー、ゲーム開発者、ゲームクリエーターだった為、この映画は是非ともみたいと思って、DVDで鑑賞してみました。 パックマンが地球を侵略するCMが印象的なこの映画ですが、内容はいまいち想像できませんでした。 率直な [&#8230;]</p>
+				<a href="http://wordpress.ideacompo.com/?p=5167" class="more-link">Continue reading &raquo;</a>
+			</div>
+			
+			<div class="postinfo clearfix">		
+			<div class="meta-comments">
+				<a href="http://wordpress.ideacompo.com/?p=5167#respond">0</a>			</div>
+		
+		
+		<span class="meta-category">
+			<a href="http://wordpress.ideacompo.com/?cat=113" rel="category">映画</a>		</span>
+</div>
+
+		</article>
+		
+	</div>
+		
+	<div class="post-wrap clearfix">
+	
+		<article id="post-5157" class="post-5157 post type-post status-publish format-standard has-post-thumbnail hentry category-94 tag-icon">
+			
+			
+		<a href="http://wordpress.ideacompo.com/?p=5157" rel="bookmark">
+			<img width="900" height="300" src="http://wordpress.ideacompo.com/wp-content/uploads/2016/02/88acc1b5b32e35be9e3f5b5d2eff648a-900x300.png" class="attachment-post-thumbnail wp-post-image" alt="スクリーンショット 2016-02-07 9.58.51" />		</a>
+
+
+			<h2 class="entry-title post-title"><a href="http://wordpress.ideacompo.com/?p=5157" rel="bookmark">スマホアプリに使える無料アプリDownloadサイトレビュー</a></h2>
+			
+			<div class="postmeta clearfix">		
+		<span class="meta-date">
+		Posted on <a href="http://wordpress.ideacompo.com/?p=5157" title="09:00" rel="bookmark"><time datetime="2016-02-10T09:00:34+00:00" class="updated">2016/02/10</time></a>		</span>
+		
+		<span class="meta-author">
+		by <a href="http://wordpress.ideacompo.com/?author=1" title="View all posts by geta" rel="author">geta</a>		</span>
+		
+<span class="vcard author" style="display:none;"><span class="fn">by <a href="https://plus.google.com/106309943997564405862/posts" rel="author">geta1972</a></span></span>
+
+	</div>
+			
+			<div class="entry clearfix">
+				<p>スマホアプリを作っていると、必ずアイコンを使う場面に出くわします。 そんな時、仕事であれば、デザイナーに依頼して、「こんなアイコン」という説明をして、テイストなどを確認して・・・ という流れが面倒くさいと考えていたら、フ [&#8230;]</p>
+				<a href="http://wordpress.ideacompo.com/?p=5157" class="more-link">Continue reading &raquo;</a>
+			</div>
+			
+			<div class="postinfo clearfix">		
+			<div class="meta-comments">
+				<a href="http://wordpress.ideacompo.com/?p=5157#respond">0</a>			</div>
+		
+		
+		<span class="meta-category">
+			<a href="http://wordpress.ideacompo.com/?cat=94" rel="category">デザイン</a>		</span>
+</div>
+
+		</article>
+		
+	</div>
+			
+			</div>
+			
+							
+			<div class="post-pagination clearfix">
+				<span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://wordpress.ideacompo.com/?paged=2'>2</a>
+<a class='page-numbers' href='http://wordpress.ideacompo.com/?paged=3'>3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://wordpress.ideacompo.com/?paged=75'>75</a>
+<a class="next page-numbers" href="http://wordpress.ideacompo.com/?paged=2">&raquo;</a>			</div>
+		
+					
+		</section>
+		
+		
+
+	<section id="sidebar" class="secondary clearfix" role="complementary">
+
+		<aside id="wp_insert_ad_widget-10" class="widget widget_wp_insert_ad_widget"><div class="wpInsert wpInsertAdWidget" style="/*margin: 5px; padding: 0px;*/"><!-- admax[2015キャンペーン] -->
+<!--<script src="http://adm.shinobi.jp/s/a5eada16731f537211e32cc2ab4e3169"></script>-->
+<!-- admax -->
+
+
+<!-- admax:sp -->
+<script src="http://adm.shinobi.jp/s/0bc912b009f51910af9859125ec9a687"></script>
+<!-- admax:sp -->
+
+<!-- admax:pc -->
+<script src="http://adm.shinobi.jp/s/56ec3c83c62735c9cb295bdac6621a23"></script>
+<!-- admax:pc -->
+</div></aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h3 class="widgettitle"><span>タグ</span></h3><div class="tagcloud"><a href='http://wordpress.ideacompo.com/?tag=htaccess' class='tag-link-102' title='1件のトピック' style='font-size: 8pt;'>.htaccess</a>
+<a href='http://wordpress.ideacompo.com/?tag=3d' class='tag-link-50' title='1件のトピック' style='font-size: 8pt;'>3D</a>
+<a href='http://wordpress.ideacompo.com/?tag=apache' class='tag-link-91' title='6件のトピック' style='font-size: 12.556213017751pt;'>Apache</a>
+<a href='http://wordpress.ideacompo.com/?tag=awk' class='tag-link-48' title='4件のトピック' style='font-size: 11.313609467456pt;'>awk</a>
+<a href='http://wordpress.ideacompo.com/?tag=ci' class='tag-link-78' title='1件のトピック' style='font-size: 8pt;'>CI</a>
+<a href='http://wordpress.ideacompo.com/?tag=diy' class='tag-link-67' title='2件のトピック' style='font-size: 9.491124260355pt;'>DIY</a>
+<a href='http://wordpress.ideacompo.com/?tag=git' class='tag-link-49' title='5件のトピック' style='font-size: 11.976331360947pt;'>git</a>
+<a href='http://wordpress.ideacompo.com/?tag=iphone' class='tag-link-54' title='2件のトピック' style='font-size: 9.491124260355pt;'>iPhone</a>
+<a href='http://wordpress.ideacompo.com/?tag=js' class='tag-link-38' title='2件のトピック' style='font-size: 9.491124260355pt;'>JavaScript</a>
+<a href='http://wordpress.ideacompo.com/?tag=mac' class='tag-link-77' title='11件のトピック' style='font-size: 14.461538461538pt;'>Mac</a>
+<a href='http://wordpress.ideacompo.com/?tag=raspberry-pi' class='tag-link-37' title='1件のトピック' style='font-size: 8pt;'>Raspberry Pi</a>
+<a href='http://wordpress.ideacompo.com/?tag=wordpress' class='tag-link-81' title='5件のトピック' style='font-size: 11.976331360947pt;'>WordPress</a>
+<a href='http://wordpress.ideacompo.com/?tag=xcode' class='tag-link-51' title='2件のトピック' style='font-size: 9.491124260355pt;'>xcode</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3' class='tag-link-95' title='1件のトピック' style='font-size: 8pt;'>アイコン</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e3%82%a2%e3%82%a4%e3%83%87%e3%82%a2' class='tag-link-84' title='8件のトピック' style='font-size: 13.384615384615pt;'>アイデア</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e3%82%a2%e3%83%97%e3%83%aa' class='tag-link-58' title='3件のトピック' style='font-size: 10.485207100592pt;'>アプリ</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e3%82%a2%e3%83%b3%e3%83%81%e3%83%86%e3%83%bc%e3%82%bc' class='tag-link-87' title='1件のトピック' style='font-size: 8pt;'>アンチテーゼ</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89' class='tag-link-52' title='8件のトピック' style='font-size: 13.384615384615pt;'>コマンド</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89' class='tag-link-93' title='97件のトピック' style='font-size: 22pt;'>サーバーコマンド</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9' class='tag-link-85' title='1件のトピック' style='font-size: 8pt;'>サービス</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3' class='tag-link-79' title='3件のトピック' style='font-size: 10.485207100592pt;'>セキュリティ</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e3%83%84%e3%83%bc%e3%83%ab' class='tag-link-62' title='9件のトピック' style='font-size: 13.798816568047pt;'>ツール</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e3%83%87%e3%82%b8%e3%83%a2%e3%83%8e' class='tag-link-72' title='4件のトピック' style='font-size: 11.313609467456pt;'>デジモノ</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e3%83%95%e3%83%aa%e3%83%bc' class='tag-link-96' title='2件のトピック' style='font-size: 9.491124260355pt;'>フリー</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e4%b8%8d%e5%85%b7%e5%90%88' class='tag-link-99' title='3件のトピック' style='font-size: 10.485207100592pt;'>不具合</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e4%bb%95%e4%ba%8b' class='tag-link-103' title='2件のトピック' style='font-size: 9.491124260355pt;'>仕事</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e4%bc%9a%e7%a4%be' class='tag-link-98' title='2件のトピック' style='font-size: 9.491124260355pt;'>会社</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e4%bd%93%e9%a8%93%e8%ab%87' class='tag-link-70' title='1件のトピック' style='font-size: 8pt;'>体験談</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e4%bd%9c%e6%a5%ad%e5%8a%b9%e7%8e%87' class='tag-link-64' title='8件のトピック' style='font-size: 13.384615384615pt;'>作業効率</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e5%86%99%e7%9c%9f' class='tag-link-74' title='2件のトピック' style='font-size: 9.491124260355pt;'>写真</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e5%88%a9%e7%9b%8a' class='tag-link-97' title='1件のトピック' style='font-size: 8pt;'>利益</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e5%91%a8%e8%be%ba%e6%a9%9f%e5%99%a8' class='tag-link-68' title='1件のトピック' style='font-size: 8pt;'>周辺機器</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e6%80%9d%e8%80%83' class='tag-link-86' title='18件のトピック' style='font-size: 16.118343195266pt;'>思考</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e6%83%b3%e5%83%8f%e5%8a%9b' class='tag-link-65' title='2件のトピック' style='font-size: 9.491124260355pt;'>想像力</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e6%8e%a1%e7%94%a8' class='tag-link-100' title='3件のトピック' style='font-size: 10.485207100592pt;'>採用</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e6%95%99%e8%82%b2' class='tag-link-76' title='3件のトピック' style='font-size: 10.485207100592pt;'>教育</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e6%98%a0%e7%94%bb' class='tag-link-80' title='1件のトピック' style='font-size: 8pt;'>映画</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e6%99%82%e4%ba%8b%e3%83%8d%e3%82%bf' class='tag-link-82' title='2件のトピック' style='font-size: 9.491124260355pt;'>時事ネタ</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e6%b5%81%e8%a1%8c%e8%aa%9e' class='tag-link-71' title='1件のトピック' style='font-size: 8pt;'>流行語</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e7%92%b0%e5%a2%83' class='tag-link-69' title='1件のトピック' style='font-size: 8pt;'>環境</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e7%9b%a3%e8%a6%96' class='tag-link-63' title='6件のトピック' style='font-size: 12.556213017751pt;'>監視</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e7%b5%a6%e6%96%99' class='tag-link-104' title='2件のトピック' style='font-size: 9.491124260355pt;'>給料</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e8%87%aa%e5%b7%b1%e5%95%93%e7%99%ba' class='tag-link-66' title='18件のトピック' style='font-size: 16.118343195266pt;'>自己啓発</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e8%bb%a2%e8%81%b7' class='tag-link-73' title='1件のトピック' style='font-size: 8pt;'>転職</a>
+<a href='http://wordpress.ideacompo.com/?tag=%e9%9d%a2%e6%8e%a5' class='tag-link-101' title='1件のトピック' style='font-size: 8pt;'>面接</a></div>
+</aside><aside id="wp_insert_ad_widget-8" class="widget widget_wp_insert_ad_widget"><div class="wpInsert wpInsertAdWidget" style="/*margin: 5px; padding: 0px;*/"><SCRIPT charset="utf-8" type="text/javascript" src="http://ws-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fmushroom-22%2F8009%2Fc8621d52-026d-4086-8e5b-311997a210d6&Operation=GetScriptTemplate"> </SCRIPT> <NOSCRIPT><A HREF="http://ws-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fmushroom-22%2F8009%2Fc8621d52-026d-4086-8e5b-311997a210d6&Operation=NoScript">Amazon.co.jp ウィジェット</A></NOSCRIPT></div></aside><aside id="text-5" class="widget widget_text"><h3 class="widgettitle"><span>リンク</span></h3>			<div class="textwidget"><a href="http://ameblo.jp/shimi1595/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://ameblo.jp/shimi1595/', '');"  target="_blank"><img src="http://wordpress.ideacompo.com/wp-content/uploads/2015/10/2a878bf87d1e33db288028ac3978bf1d.png"></a></div>
+		</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widgettitle"><span>カテゴリー</span></h3><label class="screen-reader-text" for="cat">カテゴリー</label><select name='cat' id='cat' class='postform' >
+	<option value='-1'>カテゴリーを選択</option>
+	<option class="level-0" value="88">電子工作&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="90">xcode&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="92">サーバー&nbsp;&nbsp;(163)</option>
+	<option class="level-0" value="94">デザイン&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="112">Music&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="113">映画&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="169">PHP&nbsp;&nbsp;(34)</option>
+	<option class="level-0" value="170">Raspberry-Pi&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="182">JavaScript&nbsp;&nbsp;(48)</option>
+	<option class="level-0" value="188">git&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="197">健康&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="202">Blender&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="203">DIY&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="220">shell&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="233">デジモノ&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="242">wordpress&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="249">ネタ&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="257">css&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="259">Twitter&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="260">セキュリティ&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="262">モラル&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="264">API&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="288">雑学&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="292">ガジェット&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="300">Toy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="304">Tools&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="311">nodejs&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="320">SEO&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="323">Objective-C&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="349">素材&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="355">Network&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="363">Game&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="374">Mac&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="378">インフラ&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="390">IchigoJam&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="399">Book&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="402">Blog&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="61">エンジニア&nbsp;&nbsp;(86)</option>
+	<option class="level-0" value="9">PC&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="42">ビジネス&nbsp;&nbsp;(56)</option>
+	<option class="level-0" value="13">モチベーション&nbsp;&nbsp;(130)</option>
+	<option class="level-0" value="1">その他&nbsp;&nbsp;(51)</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			location.href = "http://wordpress.ideacompo.com/?cat=" + dropdown.options[ dropdown.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+</aside><aside id="wp_insert_ad_widget-5" class="widget widget_wp_insert_ad_widget"><div class="wpInsert wpInsertAdWidget" style="margin: 5px; padding: 0px;"><!-- Rakuten Widget FROM HERE --><script type="text/javascript">rakuten_affiliateId="0ea62065.34400275.0ea62066.204f04c0";rakuten_items="ctsmatch";rakuten_genreId="0";rakuten_recommend="off";rakuten_design="slide";rakuten_size="300x250";rakuten_target="_blank";rakuten_border="on";rakuten_auto_mode="on";rakuten_adNetworkId="a8Net";rakuten_adNetworkUrl="http%3A%2F%2Frpx.a8.net%2Fsvt%2Fejp%3Fa8mat%3D2HI4AV%2BAV5T82%2B2HOM%2BBS629%26rakuten%3Dy%26a8ejpredirect%3D";rakuten_pointbackId="a15033134363_2HI4AV_AV5T82_2HOM_BS629";rakuten_mediaId="20011813";</script><script type="text/javascript" src="//xml.affiliate.rakuten.co.jp/widget/js/rakuten_widget.js"></script><!-- Rakuten Widget TO HERE -->
+<img border="0" width="1" height="1" src="http://www16.a8.net/0.gif?a8mat=2HI4AV+AV5T82+2HOM+BS629" alt=""></div></aside><aside id="views-2" class="widget widget_views"><h3 class="widgettitle"><span>人気の記事</span></h3><ul>
+<li><a href="http://wordpress.ideacompo.com/?p=1307"  title="サーバーのよく使うコマンドメモ| find">サーバーのよく使うコマンドメモ| find</a> (9,901)</li><li><a href="http://wordpress.ideacompo.com/?p=3786"  title="サーバーのよく使うコマンドメモ| nc">サーバーのよく使うコマンドメモ| nc</a> (9,295)</li><li><a href="http://wordpress.ideacompo.com/?p=2035"  title="テキストエディタでATOMを使いこなそう (Mac)">テキストエディタでATOMを使いこなそう (Mac)</a> (6,691)</li><li><a href="http://wordpress.ideacompo.com/?p=513"  title="RaspberryPiのSDカード容量を拡張する">RaspberryPiのSDカード容量を拡張する</a> (5,770)</li><li><a href="http://wordpress.ideacompo.com/?p=336"  title="Raspbery pi をエミュレータマシンにしてみた">Raspbery pi をエミュレータマシンにしてみた</a> (5,472)</li><li><a href="http://wordpress.ideacompo.com/?p=567"  title="RetoPieの各種設定関連を調べてみました。">RetoPieの各種設定関連を調べてみました。</a> (5,366)</li><li><a href="http://wordpress.ideacompo.com/?p=3667"  title="どんなプログラム言語でも覚える時にの共通習得仕様：15項目">どんなプログラム言語でも覚える時にの共通習得仕様：15項目</a> (5,311)</li><li><a href="http://wordpress.ideacompo.com/?p=36"  title="自宅に監視カメラを設置「奇妙なモノが映り込んで大騒ぎ」の巻">自宅に監視カメラを設置「奇妙なモノが映り込んで大騒ぎ」の巻</a> (5,054)</li><li><a href="http://wordpress.ideacompo.com/?p=1010"  title="MacでMovファイルをGifファイルに変換するには">MacでMovファイルをGifファイルに変換するには</a> (4,572)</li><li><a href="http://wordpress.ideacompo.com/?p=90"  title="undeclared selector 警告">undeclared selector 警告</a> (4,296)</li></ul>
+</aside><aside id="wp_insert_ad_widget-6" class="widget widget_wp_insert_ad_widget"><div class="wpInsert wpInsertAdWidget" style="/*margin: 5px; padding: 0px;*/"><!-- admax[2015キャンペーン] -->
+<!--<script src="http://adm.shinobi.jp/s/a5eada16731f537211e32cc2ab4e3169"></script>-->
+<!-- admax -->
+
+
+<!-- admax:sp -->
+<script src="http://adm.shinobi.jp/s/0bc912b009f51910af9859125ec9a687"></script>
+<!-- admax:sp -->
+
+<!-- admax:pc -->
+<script src="http://adm.shinobi.jp/s/56ec3c83c62735c9cb295bdac6621a23"></script>
+<!-- admax:pc -->
+</div></aside>
+	</section>
+	
+		
+	</div>
+	
+	<!--
+	
+	<div id="footer-bg">
+
+		<div id="footer-wrap">
+
+			<footer id="footer" class="container clearfix" role="contentinfo">
+
+							<div id="credit-link">Powered by <a href="http://wordpress.org" title="WordPress">WordPress</a> and <a href="http://themezee.com/themes/momentous/" title="Momentous WordPress Theme">Momentous</a>.</div>
+
+			</footer>
+
+		</div>
+
+	</div>
+-->
+</div>
+
+<!-- end #wrapper -->
+
+<!-- BEGIN: WP Social Bookmarking Light -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'ja'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!-- END: WP Social Bookmarking Light -->
+</body>
+</html>
+	

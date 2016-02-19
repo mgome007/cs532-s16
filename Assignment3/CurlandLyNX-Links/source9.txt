@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="es-ES">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="es-ES">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="es-ES">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://www.mundosql.es/xmlrpc.php" />
+
+<!--[if lt IE 9]>
+<script src="http://www.mundosql.es/wp-content/themes/manduca/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<title>Mundo SQL &#8211; La forma más sencilla de aprender SQLServer, AzureSQL,  &#8230;.</title>
+<link rel="alternate" type="application/rss+xml" title="Mundo SQL &raquo; Feed" href="http://www.mundosql.es/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mundo SQL &raquo; RSS de los comentarios" href="http://www.mundosql.es/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.mundosql.es\/wp-includes\/js\/wp-emoji-release.min.js?ver=6f79a11caf5bbf39a8b47269be9ab114"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cookielawinfo-style-css'  href='http://www.mundosql.es/wp-content/plugins/cookie-law-info/css/cli-style.css?ver=6f79a11caf5bbf39a8b47269be9ab114' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='http://www.mundosql.es/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel-ie8fix.css?ver=6f79a11caf5bbf39a8b47269be9ab114' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.mundosql.es/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=6f79a11caf5bbf39a8b47269be9ab114' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.mundosql.es/wp-includes/js/mediaelement/wp-mediaelement.css?ver=6f79a11caf5bbf39a8b47269be9ab114' type='text/css' media='all' />
+<link rel='stylesheet' id='manduca-style-css'  href='http://www.mundosql.es/wp-content/themes/manduca/style.css?ver=6f79a11caf5bbf39a8b47269be9ab114' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.mundosql.es/wp-content/themes/manduca/css/font-awesome.min.css?ver=6f79a11caf5bbf39a8b47269be9ab114' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='manduca-ie-css'  href='http://www.mundosql.es/wp-content/themes/manduca/css/ie.css?ver=6f79a11caf5bbf39a8b47269be9ab114' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='genericons-css'  href='http://www.mundosql.es/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=6f79a11caf5bbf39a8b47269be9ab114' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://www.mundosql.es/wp-content/plugins/jetpack/css/jetpack.css?ver=6f79a11caf5bbf39a8b47269be9ab114' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.mundosql.es/wp-includes/js/jquery/jquery.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-includes/js/jquery/jquery-migrate.min.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-content/plugins/cookie-law-info/js/cookielawinfo.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-content/plugins/jetpack/_inc/spin.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-content/plugins/jetpack/_inc/jquery.spin.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-content/plugins/jetpack/modules/tiled-gallery/tiled-gallery/tiled-gallery.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<link rel='https://api.w.org/' href='http://www.mundosql.es/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.mundosql.es/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.mundosql.es/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='http://wp.me/4VTTn' />
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-40499502-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<link rel='dns-prefetch' href='//jetpack.wordpress.com'>
+<link rel='dns-prefetch' href='//s0.wp.com'>
+<link rel='dns-prefetch' href='//s1.wp.com'>
+<link rel='dns-prefetch' href='//s2.wp.com'>
+<link rel='dns-prefetch' href='//public-api.wordpress.com'>
+<link rel='dns-prefetch' href='//0.gravatar.com'>
+<link rel='dns-prefetch' href='//1.gravatar.com'>
+<link rel='dns-prefetch' href='//2.gravatar.com'>
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.mundosql.es/?wordfence_logHuman=1&hid=03A524493F6C316459E212E322FE1442');
+</script>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Mundo SQL" />
+<meta property="og:description" content="La forma más sencilla de aprender SQLServer, AzureSQL,  ...." />
+<meta property="og:url" content="http://www.mundosql.es/" />
+<meta property="og:site_name" content="Mundo SQL" />
+<meta property="og:image" content="http://www.mundosql.es/wp-content/uploads/2015/05/icono-db2-5551d3cev1_site_icon-16x16.png" />
+<meta property="og:locale" content="es_ES" />
+<meta name="twitter:site" content="@MundoSQL" />
+<link rel="icon" href="http://i1.wp.com/www.mundosql.es/wp-content/uploads/2015/05/icono-db2-5551d3cev1_site_icon.png?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="http://i1.wp.com/www.mundosql.es/wp-content/uploads/2015/05/icono-db2-5551d3cev1_site_icon.png?fit=192%2C192" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://i1.wp.com/www.mundosql.es/wp-content/uploads/2015/05/icono-db2-5551d3cev1_site_icon.png?fit=180%2C180" />
+<meta name="msapplication-TileImage" content="http://i1.wp.com/www.mundosql.es/wp-content/uploads/2015/05/icono-db2-5551d3cev1_site_icon.png?fit=270%2C270" />
+</head>
+
+<body id="total" class="home blog single-author">
+<div id="page" class="hfeed site">
+	
+	
+	<div id="header-bar" class="header-bar">
+		<header id="masthead" class="site-header" role="banner"  itemtype="https://schema.org/WPHeader" itemscope="itemscope">
+			<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+			<a class="site-title" href="http://www.mundosql.es/" rel="home">Mundo SQL</a>
+					
+	
+	<form role="search" method="get" id="searchform" class="searchform" action="http://www.mundosql.es/">
+	<div>
+		<label class="screen-reader-text" for="s" >Search</label>
+		<input type="text" placeholder="Search" value="" name="s" id="s" />
+		<input type="submit" id="searchsubmit" value="&#xf002;" aria-label="Start search" />
+	</div>
+</form>		</header>
+	</div>
+		
+	<div class="vonalzo"></div>
+
+			
+	<nav id="site-navigation" class="main-navigation" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+		<button id="menu-toggle" class="menu-toggle"><i class="fa fa-bars" aria-hidden="true">&nbsp;</i>Menu</button>
+		<div class="nav-menu"><ul><li class="current_page_item"><a href="http://www.mundosql.es/">Inicio</a></li><li class="page_item page-item-5327"><a href="http://www.mundosql.es/azure/">Azure</a></li><li class="page_item page-item-2510"><a href="http://www.mundosql.es/sqlserver/">SQL Server</a></li><li class="page_item page-item-5319"><a href="http://www.mundosql.es/windowsserver/">Windows Server</a></li><li class="page_item page-item-5337"><a href="http://www.mundosql.es/python/">Python</a></li><li class="page_item page-item-786"><a href="http://www.mundosql.es/enlaces/">Enlaces</a></li><li class="page_item page-item-802"><a href="http://www.mundosql.es/contacta-2/">Contacta</a></li></ul></div>
+	</nav><!-- #site-navigation -->
+
+
+				
+	<div id="wrapper" class="wrapper" tabindex="-1">
+
+	<section id="primary" class="site-content">
+		<div id="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+
+		
+			<header class="page-header">
+				<h1 class="page-title" itemprop="headline">La forma más sencilla de aprender SQLServer, AzureSQL,  &#8230;.</h1>
+			</header>
+
+							<div class="excerpt-wrapper">
+	
+									
+					<article id="post-6032" class="post-6032 post type-post status-publish format-standard hentry category-microsoft-excel category-microsoft-office" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/18/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel/" rel="bookmark">Excel Signum, muy buena página de temas de Microsoft #Excel</a>
+					</h2>
+					<p>Hace tiempo que sigo esta página y los temas que trata sobre Microsoft Excel. Me parece muy interesante. Puede ser  complemento de SQL Server, por ejemplo en temas de estadísticas, &#8230;.y que veras que ya lo he estado utilizando. Yo la pongo en enlaces en este blog y en mis favoritos.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/18/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/18/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/18/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel/" data-text="Excel Signum, muy buena página de temas de Microsoft #Excel" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/18/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F18%2Fexcel-signum-muy-buena-pagina-de-temas-de-microsoft-excel%2F&name=Excel%20Signum%2C%20muy%20buena%20p%C3%A1gina%20de%20temas%20de%20Microsoft%20%23Excel"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/18/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/18/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+						
+									
+					<article id="post-6025" class="post-6025 post type-post status-publish format-standard hentry category-70-461 category-sql-server category-t-sql" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/" rel="bookmark">Repasando el operador LIKE en #SQLServer</a>
+					</h2>
+					<p>Vamos a ampliar un poco más este operador sumamente rentable para hacer consultas. El resultado de esta consulta son los paises que empieza por I y J o que comienzan desde la I hasta la J. En esta solo los paises que comienzan por I y por T. Aqui por un lado los que comienzan<a class="more-link" rel="nofollow" href="http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/">Continue reading&nbsp;<i class="fa fa-angle-double-right"></i><br />
+<span class="screen-reader-text">Titled as follows: Repasando el operador LIKE en&hellip;</span></a></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/" data-text="Repasando el operador LIKE en #SQLServer" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F16%2Frepasando-el-operador-like-en-sqlserver%2F&name=Repasando%20el%20operador%20LIKE%20en%20%23SQLServer"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/16/repasando-el-operador-like-en-sqlserver/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+					<div class="vonalzo"></div>	
+									
+					<article id="post-6017" class="post-6017 post type-post status-publish format-standard hentry category-70-461 category-business-intelligence category-mundosqlbi category-powershell category-sql-server category-t-sql" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/" rel="bookmark">Vistas de #SQLServer en #powershell</a>
+					</h2>
+					<p>Vamos a ver como se ejecutan las Vistas de SQL Server en Powershell. Esta vista nos permite contar los paises que tenemos en nuestra tabla Enero. Aquí esta todo el listado con las veces que aparece en la tabla, es decir, los registros. Y aquí todos los que empieza por I. Creo ue ha quedado<a class="more-link" rel="nofollow" href="http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/">Continue reading&nbsp;<i class="fa fa-angle-double-right"></i><br />
+<span class="screen-reader-text">Titled as follows: Vistas de #SQLServer en #powershell</span></a></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/" data-text="Vistas de #SQLServer en #powershell" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F16%2Fvistas-de-sqlserver-en-powershell%2F&name=Vistas%20de%20%23SQLServer%20en%20%23powershell"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/16/vistas-de-sqlserver-en-powershell/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+						
+									
+					<article id="post-6010" class="post-6010 post type-post status-publish format-standard hentry category-70-461 category-business-intelligence category-mundosqlbi category-powershell category-sql-server" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/" rel="bookmark">Haciendo una consulta desde un procedimiento almacenado de #SQLServer en #powershell</a>
+					</h2>
+					<p>Primero creamos nuestro procedimiento almacenado Este select que esta dentro del procedimmiento almacenado nos muestra el primer y ultimo día en que hay entradas de usuarios de un pais, la diferencia de dias y el total de entradas. CREATE PROCEDURE PRI_ULT_Ent AS BEGIN SELECT PAIS, CONVERT(VARCHAR(10), MAX(FECHA), 103) AS ULT_Entrada, CONVERT(VARCHAR(10), Min(FECHA), 103) as PRI_Entrada,<a class="more-link" rel="nofollow" href="http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/">Continue reading&nbsp;<i class="fa fa-angle-double-right"></i><br />
+<span class="screen-reader-text">Titled as follows: Haciendo una consulta desde un&hellip;</span></a></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/" data-text="Haciendo una consulta desde un procedimiento almacenado de #SQLServer en #powershell" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F15%2Fhaciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell%2F&name=Haciendo%20una%20consulta%20desde%20un%20procedimiento%20almacenado%20de%20%23SQLServer%20en%20%23powershell"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/15/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+					<div class="vonalzo"></div>	
+									
+					<article id="post-6002" class="post-6002 post type-post status-publish format-standard hentry category-70-461 category-blog category-business-intelligence category-sql-server category-t-sql" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/" rel="bookmark">Primeras consultas de #SQLServer en el escenario #MundoSqlBi</a>
+					</h2>
+					<p>Seguimos con temas de BI. Vamos a empezar por unas consultas clásicas de estadísticas. sabiendo que no el el mes completo sino que desde el mismo día 13 de Enero, es decir &#8230;. 19 dias. Aqui va el código: SELECT PAIS, COUNT(PAIS)AS VISITA_MES, MAX(VISITAS) AS MAX_1DIA, MIN(VISITAS) AS MIN_1DIA, AVG(VISITAS) AS MEDIA_DIA FROM Enero GROUP<a class="more-link" rel="nofollow" href="http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/">Continue reading&nbsp;<i class="fa fa-angle-double-right"></i><br />
+<span class="screen-reader-text">Titled as follows: Primeras consultas de #SQLServer en&hellip;</span></a></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/" data-text="Primeras consultas de #SQLServer en el escenario #MundoSqlBi" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F15%2Fprimeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi%2F&name=Primeras%20consultas%20de%20%23SQLServer%20en%20el%20escenario%20%23MundoSqlBi"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/15/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+						
+									
+					<article id="post-5995" class="post-5995 post type-post status-publish format-standard hentry category-business-intelligence category-microsoft-excel category-mundosqlbi category-sql-server" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/" rel="bookmark">De nuestro fichero de visitas total por mes .csv a #SQLServer. #MundoSqlBi</a>
+					</h2>
+					<p>Después de seguir el tuto de este mismo blog Importar un fichero .csv a una tabla #sqlserver tenemos &#8230;. Recordar que el fichero excel hay una linea mas porque el ecabezado.Ahora ya nos tocaría jugar 😉 Recordaros en que si queréis seguir todos los pasos que estoy haciendo podéis buscar la palabra #MundoSqlBi en este<a class="more-link" rel="nofollow" href="http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/">Continue reading&nbsp;<i class="fa fa-angle-double-right"></i><br />
+<span class="screen-reader-text">Titled as follows: De nuestro fichero de visitas&hellip;</span></a></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/" data-text="De nuestro fichero de visitas total por mes .csv a #SQLServer. #MundoSqlBi" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F14%2Fde-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi%2F&name=De%20nuestro%20fichero%20de%20visitas%20total%20por%20mes%20.csv%20a%20%23SQLServer.%20%23MundoSqlBi"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/14/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+					<div class="vonalzo"></div>	
+									
+					<article id="post-5985" class="post-5985 post type-post status-publish format-standard hentry category-business-intelligence category-microsoft-excel category-mundosqlbi" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/" rel="bookmark">Uniendo ficheros .xls en uno de la forma clásica para el escenario #MundoSqlBI</a>
+					</h2>
+					<p>Bueno, ya tenemos los ficheros del mes de Enero que he podido rescatar. Ahora toca unificarlo. Al ser muy pocos datos lo vamos hacer de forma clásica, con copiar/pegar. Ya veremos otras formas 😉 TE quedaría una cosa como esta. Y ahora podemos exportarlo a .csv. Ya veremos para que lo vamos a utilizar. Seguimos<a class="more-link" rel="nofollow" href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/">Continue reading&nbsp;<i class="fa fa-angle-double-right"></i><br />
+<span class="screen-reader-text">Titled as follows: Uniendo ficheros .xls en uno&hellip;</span></a></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/" data-text="Uniendo ficheros .xls en uno de la forma clásica para el escenario #MundoSqlBI" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F14%2Fpreparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi%2F&name=Uniendo%20ficheros%20.xls%20en%20uno%20de%20la%20forma%20cl%C3%A1sica%20para%20el%20escenario%20%23MundoSqlBI"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+						
+									
+					<article id="post-5977" class="post-5977 post type-post status-publish format-standard hentry category-blog category-business-intelligence category-microsoft-excel category-mundosqlbi" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/" rel="bookmark">De .csv a .xls  los ficheros de visitas diarias de mi blog en el escenario #MundoSqlBI</a>
+					</h2>
+					<p>Aunque ya lo hemos visto en este blog el importar un fichero .csv a sql server directamente, en este caso voy a pasarlo también a Excel, ya que podremos utilizar otras herramientas para hacer BI. Obtener datos externos Fichero texto Delimitados Coma Siguiente y Finalizar Ponemos donde lo queremos poner y aceptar Ahora ya solo falta<a class="more-link" rel="nofollow" href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/">Continue reading&nbsp;<i class="fa fa-angle-double-right"></i><br />
+<span class="screen-reader-text">Titled as follows: De .csv a .xls &hellip;</span></a></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/" data-text="De .csv a .xls  los ficheros de visitas diarias de mi blog en el escenario #MundoSqlBI" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F14%2Fpreparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi%2F&name=De%20.csv%20a%20.xls%20%20los%20ficheros%20de%20visitas%20diarias%20de%20mi%20blog%20en%20el%20escenario%20%23MundoSqlBI"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/14/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+					<div class="vonalzo"></div>	
+									
+					<article id="post-5965" class="post-5965 post type-post status-publish format-standard hentry category-70-467 category-business-intelligence category-sql-server" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/" rel="bookmark">Que es Business Intelligence (#BI)</a>
+					</h2>
+					<p>Ya hemos visto el inicio de nuestro proyecto BI, ahora toca la definición o teoría del mismo. Business Intelligence es uno de los temas que se han puesto muy de moda y  de un muy  rápido crecimiento en la parte de SQL Server es el área de Inteligencia de Negocios (Business Intelligence). Mejor que no lo explique<a class="more-link" rel="nofollow" href="http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/">Continue reading&nbsp;<i class="fa fa-angle-double-right"></i><br />
+<span class="screen-reader-text">Titled as follows: Que es Business Intelligence (#BI)</span></a></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/" data-text="Que es Business Intelligence (#BI)" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F13%2Fque-es-business-intelligence-bi%2F&name=Que%20es%20Business%20Intelligence%20%28%23BI%29"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/13/que-es-business-intelligence-bi/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+						
+									
+					<article id="post-5959" class="post-5959 post type-post status-publish format-standard hentry category-70-467 category-blog category-business-intelligence category-microsoft-excel category-mundosqlbi category-sql-server" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/" rel="bookmark">Preparando un escenario Business Intelligence  (#BI) #MundoSqlBI</a>
+					</h2>
+					<p>Llevo algún tiempo de como montar un escenario BI y no sabia donde pillar los datos. Los tenia bien cerca, en este mismo blog, las estadísticas de visitas. WordPress te da la opción de bajarte un fichero diario  .csv tal como así. Me hubiera gustado mejor con horas y fecha, pero bueno. Como vamos a transformar<a class="more-link" rel="nofollow" href="http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/">Continue reading&nbsp;<i class="fa fa-angle-double-right"></i><br />
+<span class="screen-reader-text">Titled as follows: Preparando un escenario Business Intelligence&hellip;</span></a></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/" data-text="Preparando un escenario Business Intelligence  (#BI) #MundoSqlBI" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F12%2Fpreparando-un-escenario-business-intelligence-bimundosqlbi%2F&name=Preparando%20un%20escenario%20Business%20Intelligence%20%20%28%23BI%29%20%23MundoSqlBI"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/12/preparando-un-escenario-business-intelligence-bimundosqlbi/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+					<div class="vonalzo"></div>	
+									
+					<article id="post-5951" class="post-5951 post type-post status-publish format-standard hentry category-pypyodbc category-python category-sql-server category-sqlalchemy category-visual-studiio" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/" rel="bookmark">Instalando #pypyodbc y #sqlalchemy para hacer conexiones desde #python a #sqlserver en #visualstudio</a>
+					</h2>
+					<p>Python nos permite trabajar con Bases de Datos. En este caso vamos a ver como empezamos a trabajar con pypyodbc. SQLAlchemy y PyPyODBC   son unos  &#8220;módulos&#8221; o &#8220;librerias&#8221; que nos sirve para conectar e interactuar con bases de datos ODBC compatibles desde un servicio, sitio web o aplicación basada en Python. Vamos a ver como lo<a class="more-link" rel="nofollow" href="http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/">Continue reading&nbsp;<i class="fa fa-angle-double-right"></i><br />
+<span class="screen-reader-text">Titled as follows: Instalando #pypyodbc y #sqlalchemy para&hellip;</span></a></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/" data-text="Instalando #pypyodbc y #sqlalchemy para hacer conexiones desde #python a #sqlserver en #visualstudio" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F12%2Finstalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio%2F&name=Instalando%20%23pypyodbc%20y%20%23sqlalchemy%20para%20hacer%20conexiones%20desde%20%23python%20a%20%23sqlserver%20en%20%23visualstudio"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/12/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+						
+									
+					<article id="post-5943" class="post-5943 post type-post status-publish format-standard hentry category-70-461 category-powershell category-sql-server category-t-sql category-tips-2 category-visual-studiio" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" >
+								
+					<h2 class="entry-title"  itemprop="headline">
+						<a href="http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/" rel="bookmark">Sacar una consulta de #SQLServer desde #powershell en #VisualStudio</a>
+					</h2>
+					<p>Vamos a realizar una consulta de Base de Datos desde Visual Studiio. Tenemos esta consulta en el Management Studio Ahora lo vamos a hacer desde un script de powershell en Visual Studio Y nos dará como resultado: Como veis tenemos el mismo resultado. Solo tenemos  que cambiar el select y podemos hacer otras consultas. Aquí os dejo<a class="more-link" rel="nofollow" href="http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/">Continue reading&nbsp;<i class="fa fa-angle-double-right"></i><br />
+<span class="screen-reader-text">Titled as follows: Sacar una consulta de #SQLServer&hellip;</span></a></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartir ...</h3><div class="sd-content"><ul><li class="share-print"><a href="http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/"rel="nofollow" data-shared="" class="share-print sd-button"  target="_blank" title="Haz clic para imprimir"><span>Imprimir</span></a></li><li class="share-facebook"><div class="fb-share-button" data-href="http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/" data-layout="button_count"></div></li><li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/" data-text="Sacar una consulta de #SQLServer desde #powershell en #VisualStudio" data-via="MundoSQL" " class="ext-link">Tweet</a></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/"></div></div></li><li class="share-tumblr"><a href="http://www.tumblr.com/share/link/?url=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F12%2Fsacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio%2F&name=Sacar%20una%20consulta%20de%20%23SQLServer%20desde%20%23powershell%20en%20%23VisualStudio"target="_blank"  title="Compartir en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;"" class="ext-link">Compartir en Tumblr</a></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share" data-url="http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/" data-counter="right"></script></div></li><li class="share-email"><a href="http://www.mundosql.es/2016/02/12/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio/?share=email"rel="nofollow" data-shared="" class="share-email sd-button"  target="_blank" title="Hac clic para enviar por correo electrónico a un amigo"><span>Correo electrónico</span></a></li><li class="share-end"></li></ul></div></div></div>					
+					</article>
+					<div class="vonalzo"></div>	
+					<nav class="navigation paging-navigation" role="navigation">
+		<h3 class="screen-reader-text">Posts navigation</h3>
+		<div class="pagination loop-pagination">
+			<span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://www.mundosql.es/page/2/'>2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://www.mundosql.es/page/53/'>53</a>
+<a class="next page-numbers" href="http://www.mundosql.es/page/2/">Next &rarr;</a>		</div><!-- .pagination -->
+	</nav><!-- .navigation -->
+					</div>
+				
+
+		
+		</div><!-- #content -->
+	</section><!-- #primary -->
+
+
+			<aside id="secondary" class="widget-area" role="complementary" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+			<section id="text-6" class="widget widget_text"><h2 class="widget-title">Quien soy</h2>			<div class="textwidget"><p><center> <a href="http://www.mundosql.es/wp-content/uploads/2015/06/foto-peke.jpg"><img class="alignnone size-full wp-image-3329" src="http://www.mundosql.es/wp-content/uploads/2015/06/foto-peke.jpg" alt="foto peke" width="112" height="116" /></a></center> </p>
+<p style="text-align: justify;">Profesional en Tecnologías de la Información con amplía experiencia en atención al usuario, comunicaciones, seguridad, infraestructura de sistemas (AD, Exchange, virtualización) y formación a usuarios.<br />
+Gran capacidad de trabajo y aprendizaje, con una constante actualización de conocimientos para aportar valor al equipo. Persona solvente y colaboradora que busca siempre el exito del equipo.</p>
+<p style="text-align: center;"><a href="http://1drv.ms/1mtRdEI" target="_blank"><img class="alignnone size-full wp-image-1260" src="http://www.mundosql.es/wp-content/uploads/2014/09/HP-ATA.jpg" alt="HP ATA" width="146" height="112" /></a></p>
+<p><center><br />
+<a href="http://www.mundosql.es/wp-content/uploads/2015/09/HP-Server-Storage.jpg"><img class="alignnone size-medium wp-image-4524" src="http://www.mundosql.es/wp-content/uploads/2015/09/HP-Server-Storage-300x213.jpg" alt="HP Server &amp; Storage" width="196" height="139" /></a></p>
+<p><a href="http://www.mundosql.es/wp-content/uploads/2015/09/HP-Cloud.jpg"><img class="alignnone wp-image-4523" src="http://www.mundosql.es/wp-content/uploads/2015/09/Hp-Network-300x213.jpg" alt="Hp Network" width="196" height="139" /></a></p>
+<p><a href="http://www.mundosql.es/wp-content/uploads/2015/09/HP-Cloud.jpg"><img class="alignnone wp-image-4521" src="http://www.mundosql.es/wp-content/uploads/2015/09/HP-Cloud-300x211.jpg" alt="HP Cloud" width="196" height="139" /></a></p>
+<p><a href="http://www.mundosql.es/wp-content/uploads/2015/09/HP-Devices.jpg"><img class="alignnone wp-image-4522" src="http://www.mundosql.es/wp-content/uploads/2015/09/HP-Devices-300x211.jpg" alt="HP Devices" width="196" height="139" /></a><br />
+</center></p>
+</div>
+		</section><section id="blog_subscription-2" class="widget jetpack_subscription_widget"><h2 class="widget-title">Suscríbete al blog por correo electrónico</h2>
+			<form action="#" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-2">
+				<div id="subscribe-text"><p>Introduce tu correo electrónico para suscribirte a este blog y recibir notificaciones de nuevas entradas.</p>
+</div>					<p id="subscribe-email">
+						<label id="jetpack-subscribe-label" for="subscribe-field-blog_subscription-2">
+							Dirección de email						</label>
+						<input type="email" name="email" required="required" class="required" value="" id="subscribe-field-blog_subscription-2" placeholder="Dirección de email" />
+					</p>
+
+					<p id="subscribe-submit">
+						<input type="hidden" name="action" value="subscribe" />
+						<input type="hidden" name="source" value="http://www.mundosql.es/" />
+						<input type="hidden" name="sub-type" value="widget" />
+						<input type="hidden" name="redirect_fragment" value="blog_subscription-2" />
+												<input type="submit" value="Suscribir" name="jetpack_subscriptions_widget" />
+					</p>
+							</form>
+
+			<script>
+			/*
+			Custom functionality for safari and IE
+			 */
+			(function( d ) {
+				// In case the placeholder functionality is available we remove labels
+				if ( ( 'placeholder' in d.createElement( 'input' ) ) ) {
+					var label = d.querySelector( 'label[for=subscribe-field-blog_subscription-2]' );
+						label.style.clip 	 = 'rect(1px, 1px, 1px, 1px)';
+						label.style.position = 'absolute';
+						label.style.height   = '1px';
+						label.style.width    = '1px';
+						label.style.overflow = 'hidden';
+				}
+
+				// Make sure the email value is filled in before allowing submit
+				var form = d.getElementById('subscribe-blog-blog_subscription-2'),
+					input = d.getElementById('subscribe-field-blog_subscription-2'),
+					handler = function( event ) {
+						if ( '' === input.value ) {
+							input.focus();
+
+							if ( event.preventDefault ){
+								event.preventDefault();
+							}
+
+							return false;
+						}
+					};
+
+				if ( window.addEventListener ) {
+					form.addEventListener( 'submit', handler, false );
+				} else {
+					form.attachEvent( 'onsubmit', handler );
+				}
+			})( document );
+			</script>
+				
+</section><section id="calendar-2" class="widget widget_calendar"><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>febrero 2016</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Lunes">L</th>
+		<th scope="col" title="Martes">M</th>
+		<th scope="col" title="Miércoles">X</th>
+		<th scope="col" title="Jueves">J</th>
+		<th scope="col" title="Viernes">V</th>
+		<th scope="col" title="Sábado">S</th>
+		<th scope="col" title="Domingo">D</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="http://www.mundosql.es/2016/01/">&laquo; Ene</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr><td><a href="http://www.mundosql.es/2016/02/01/" aria-label="Entradas publicadas el 1 February, 2016">1</a></td><td><a href="http://www.mundosql.es/2016/02/02/" aria-label="Entradas publicadas el 2 February, 2016">2</a></td><td><a href="http://www.mundosql.es/2016/02/03/" aria-label="Entradas publicadas el 3 February, 2016">3</a></td><td>4</td><td><a href="http://www.mundosql.es/2016/02/05/" aria-label="Entradas publicadas el 5 February, 2016">5</a></td><td>6</td><td>7</td>
+	</tr>
+	<tr>
+		<td><a href="http://www.mundosql.es/2016/02/08/" aria-label="Entradas publicadas el 8 February, 2016">8</a></td><td>9</td><td><a href="http://www.mundosql.es/2016/02/10/" aria-label="Entradas publicadas el 10 February, 2016">10</a></td><td><a href="http://www.mundosql.es/2016/02/11/" aria-label="Entradas publicadas el 11 February, 2016">11</a></td><td><a href="http://www.mundosql.es/2016/02/12/" aria-label="Entradas publicadas el 12 February, 2016">12</a></td><td><a href="http://www.mundosql.es/2016/02/13/" aria-label="Entradas publicadas el 13 February, 2016">13</a></td><td><a href="http://www.mundosql.es/2016/02/14/" aria-label="Entradas publicadas el 14 February, 2016">14</a></td>
+	</tr>
+	<tr>
+		<td><a href="http://www.mundosql.es/2016/02/15/" aria-label="Entradas publicadas el 15 February, 2016">15</a></td><td><a href="http://www.mundosql.es/2016/02/16/" aria-label="Entradas publicadas el 16 February, 2016">16</a></td><td>17</td><td><a href="http://www.mundosql.es/2016/02/18/" aria-label="Entradas publicadas el 18 February, 2016">18</a></td><td id="today">19</td><td>20</td><td>21</td>
+	</tr>
+	<tr>
+		<td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+	</tr>
+	<tr>
+		<td>29</td>
+		<td class="pad" colspan="6">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></section><section id="text-8" class="widget widget_text">			<div class="textwidget"><p><center><br />
+<a href="http://www.ncora.com/"><img class="alignnone size-full wp-image-2599" src="http://www.mundosql.es/wp-content/uploads/2015/03/ncora.png" alt="ncora" width="200" height="52" /></a><br />
+</center></p>
+</div>
+		</section><section id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archivo</h2>		<label class="screen-reader-text" for="archives-dropdown-2">Archivo</label>
+		<select id="archives-dropdown-2" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+			
+			<option value="">Elegir mes</option>
+				<option value='http://www.mundosql.es/2016/02/'> febrero 2016 </option>
+	<option value='http://www.mundosql.es/2016/01/'> enero 2016 </option>
+	<option value='http://www.mundosql.es/2015/12/'> diciembre 2015 </option>
+	<option value='http://www.mundosql.es/2015/11/'> noviembre 2015 </option>
+	<option value='http://www.mundosql.es/2015/10/'> octubre 2015 </option>
+	<option value='http://www.mundosql.es/2015/09/'> septiembre 2015 </option>
+	<option value='http://www.mundosql.es/2015/08/'> agosto 2015 </option>
+	<option value='http://www.mundosql.es/2015/07/'> julio 2015 </option>
+	<option value='http://www.mundosql.es/2015/06/'> junio 2015 </option>
+	<option value='http://www.mundosql.es/2015/05/'> mayo 2015 </option>
+	<option value='http://www.mundosql.es/2015/04/'> abril 2015 </option>
+	<option value='http://www.mundosql.es/2015/03/'> marzo 2015 </option>
+	<option value='http://www.mundosql.es/2015/02/'> febrero 2015 </option>
+	<option value='http://www.mundosql.es/2015/01/'> enero 2015 </option>
+	<option value='http://www.mundosql.es/2014/12/'> diciembre 2014 </option>
+	<option value='http://www.mundosql.es/2014/11/'> noviembre 2014 </option>
+	<option value='http://www.mundosql.es/2014/10/'> octubre 2014 </option>
+	<option value='http://www.mundosql.es/2014/09/'> septiembre 2014 </option>
+	<option value='http://www.mundosql.es/2014/08/'> agosto 2014 </option>
+	<option value='http://www.mundosql.es/2014/07/'> julio 2014 </option>
+	<option value='http://www.mundosql.es/2014/06/'> junio 2014 </option>
+
+		</select>
+		</section>
+        <style>
+            .JPV_list {
+                overflow: hidden;
+            }
+
+            .JPV_thumbnail {
+                width: 45%;
+            }
+
+            .JPV_thumbnail > .JPV_thumbnail_img {
+                max-width: 125px;
+                height: auto;
+            }
+
+            .JPV_thumbnail + .JPV_text {
+                width: 45%;
+                padding-bottom: 10px;
+                text-align: center;
+                margin-top: -5px;
+            }
+
+            .JPV_thumbnail_title {
+                float: left;
+                width: 21.276596%;
+            }
+
+            .JPV_thumbnail_title > .JPV_thumbnail_img {
+                max-width: 40px;
+                height: auto;
+            }
+
+            .JPV_thumbnail_title + .JPV_text {
+                float: right;
+                width: 73.404255%;
+                padding-bottom: 10px;
+            }
+        </style>
+
+        <section id="jetpack-post-views-widget-2" class="widget jetpack-post-views"><h2 class="widget-title">Lo más leido</h2><ul><li class="JPV_list"><a href="http://www.mundosql.es/2014/09/26/introduccin-al-diseo-de-bases-de-datos/" title="Introducci&oacute;n al Dise&ntilde;o de bases de datos" class="JPV_title">Introducci&oacute;n al Dise&ntilde;o de bases de datos</a></li><li class="JPV_list"><a href="http://www.mundosql.es/2014/09/25/inner-join-anidados/" title="INNER JOIN anidados" class="JPV_title">INNER JOIN anidados</a></li><li class="JPV_list"><a href="http://www.mundosql.es/2014/08/11/las-bases-de-datos-de-ejemplo-de-adventureworks-y-sus-diferentes-versiones/" title="Las bases de datos de ejemplo de Adventureworks y sus diferentes versiones" class="JPV_title">Las bases de datos de ejemplo de Adventureworks y sus diferentes versiones</a></li><li class="JPV_list"><a href="http://www.mundosql.es/2015/05/15/otro-poster-del-tema-join-e-sqlserver/" title="Otro poster del tema join de #sqlserver" class="JPV_title">Otro poster del tema join de #sqlserver</a></li><li class="JPV_list"><a href="http://www.mundosql.es/2015/02/15/como-documentar-o-documentarse-del-contenido-de-uaa-bbdd-en-sqlserver/" title="Como documentar o documentarse del contenido de una BBDD en #sqlserver" class="JPV_title">Como documentar o documentarse del contenido de una BBDD en #sqlserver</a></li><li class="JPV_list"><a href="http://www.mundosql.es/2015/06/14/curso-aspectos-fundamentales-de-bases-de-datos/" title="Curso: Aspectos fundamentales de bases de datos" class="JPV_title">Curso: Aspectos fundamentales de bases de datos</a></li><li class="JPV_list"><a href="http://www.mundosql.es/2015/07/28/nunca-ha-sido-tan-facil-aprender-sqlserver-con-mundosql/" title="Nunca ha sido tan fácil aprender #sqlserver con #MundoSQL" class="JPV_title">Nunca ha sido tan fácil aprender #sqlserver con #MundoSQL</a></li><li class="JPV_list"><a href="http://www.mundosql.es/2015/09/18/mejores-practicas-para-ser-un-dba-traduccion-de-un-articulo-de-brad-mcgehee/" title="Mejores Prácticas para ser un DBA (Traduccion de un articulo de Brad McGehee)" class="JPV_title">Mejores Prácticas para ser un DBA (Traduccion de un articulo de Brad McGehee)</a></li><li class="JPV_list"><a href="http://www.mundosql.es/2015/05/07/sencillo-libro-sobre-python-y-que-se-aprende-mucho/" title="Sencillo libro sobre #python y que se aprende mucho" class="JPV_title">Sencillo libro sobre #python y que se aprende mucho</a></li><li class="JPV_list"><a href="http://www.mundosql.es/2014/09/15/normalizacion-de-tablas-relacionales-sexta-forma-normal-6fn-o-forma-normal-de-dominioclave-dknf/" title="Normalización de tablas relacionales: Sexta Forma Normal (6FN) o  forma normal de dominio/clave (DKNF)" class="JPV_title">Normalización de tablas relacionales: Sexta Forma Normal (6FN) o  forma normal de dominio/clave (DKNF)</a></li></ul></section><section id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">Categorias</h2><div class="tagcloud"><a href='http://www.mundosql.es/category/70-410/' class='tag-link-394' title='38 temas' style='font-size: 14.771739130435pt;'>70-410</a>
+<a href='http://www.mundosql.es/category/70-412/' class='tag-link-404' title='13 temas' style='font-size: 11.423913043478pt;'>70-412</a>
+<a href='http://www.mundosql.es/category/70-461/' class='tag-link-301' title='218 temas' style='font-size: 20.478260869565pt;'>70-461</a>
+<a href='http://www.mundosql.es/category/70-462/' class='tag-link-342' title='155 temas' style='font-size: 19.336956521739pt;'>70-462</a>
+<a href='http://www.mundosql.es/category/70-463/' class='tag-link-341' title='55 temas' style='font-size: 15.989130434783pt;'>70-463</a>
+<a href='http://www.mundosql.es/category/70-533/' class='tag-link-505' title='59 temas' style='font-size: 16.217391304348pt;'>70-533</a>
+<a href='http://www.mundosql.es/category/active-directory/' class='tag-link-618' title='22 temas' style='font-size: 13.021739130435pt;'>Active Directory</a>
+<a href='http://www.mundosql.es/category/azure/' class='tag-link-274' title='76 temas' style='font-size: 17.054347826087pt;'>Azure</a>
+<a href='http://www.mundosql.es/category/azure-cli/' class='tag-link-616' title='7 temas' style='font-size: 9.5217391304348pt;'>Azure Cli</a>
+<a href='http://www.mundosql.es/category/azure-resource-manage/' class='tag-link-615' title='18 temas' style='font-size: 12.413043478261pt;'>Azure Resource Manage</a>
+<a href='http://www.mundosql.es/category/blog/' class='tag-link-443' title='6 temas' style='font-size: 9.1413043478261pt;'>blog</a>
+<a href='http://www.mundosql.es/category/business-intelligence/' class='tag-link-631' title='8 temas' style='font-size: 9.9021739130435pt;'>Business Intelligence</a>
+<a href='http://www.mundosql.es/category/chocolatey/' class='tag-link-581' title='5 temas' style='font-size: 8.6086956521739pt;'>Chocolatey</a>
+<a href='http://www.mundosql.es/category/dba/' class='tag-link-598' title='34 temas' style='font-size: 14.391304347826pt;'>DBA</a>
+<a href='http://www.mundosql.es/category/definiciones/' class='tag-link-2' title='18 temas' style='font-size: 12.413043478261pt;'>Definiciones</a>
+<a href='http://www.mundosql.es/category/documentacion/' class='tag-link-160' title='15 temas' style='font-size: 11.804347826087pt;'>Documentacion</a>
+<a href='http://www.mundosql.es/category/documentdb/' class='tag-link-452' title='8 temas' style='font-size: 9.9021739130435pt;'>DocumentDB</a>
+<a href='http://www.mundosql.es/category/eventos/' class='tag-link-197' title='14 temas' style='font-size: 11.652173913043pt;'>Eventos</a>
+<a href='http://www.mundosql.es/category/linux-debian/' class='tag-link-589' title='5 temas' style='font-size: 8.6086956521739pt;'>Linux Debian</a>
+<a href='http://www.mundosql.es/category/management-studio/' class='tag-link-3' title='66 temas' style='font-size: 16.597826086957pt;'>Management Studio</a>
+<a href='http://www.mundosql.es/category/microsoft-excel/' class='tag-link-612' title='7 temas' style='font-size: 9.5217391304348pt;'>Microsoft Excel</a>
+<a href='http://www.mundosql.es/category/mongodb/' class='tag-link-455' title='34 temas' style='font-size: 14.391304347826pt;'>MongoDB</a>
+<a href='http://www.mundosql.es/category/mundosqlbi/' class='tag-link-632' title='6 temas' style='font-size: 9.1413043478261pt;'>MundoSqlBi</a>
+<a href='http://www.mundosql.es/category/mva/' class='tag-link-531' title='15 temas' style='font-size: 11.804347826087pt;'>MVA</a>
+<a href='http://www.mundosql.es/category/mysql/' class='tag-link-591' title='14 temas' style='font-size: 11.652173913043pt;'>MySQL</a>
+<a href='http://www.mundosql.es/category/mysql-workbench/' class='tag-link-592' title='5 temas' style='font-size: 8.6086956521739pt;'>MySQL Workbench</a>
+<a href='http://www.mundosql.es/category/nosql/' class='tag-link-451' title='29 temas' style='font-size: 13.934782608696pt;'>NoSQL</a>
+<a href='http://www.mundosql.es/category/powershell/' class='tag-link-4' title='68 temas' style='font-size: 16.673913043478pt;'>Powershell</a>
+<a href='http://www.mundosql.es/category/python/' class='tag-link-421' title='38 temas' style='font-size: 14.771739130435pt;'>Python</a>
+<a href='http://www.mundosql.es/category/python-ide/' class='tag-link-586' title='19 temas' style='font-size: 12.565217391304pt;'>Python IDE</a>
+<a href='http://www.mundosql.es/category/robomongo/' class='tag-link-584' title='15 temas' style='font-size: 11.804347826087pt;'>Robomongo</a>
+<a href='http://www.mundosql.es/category/sqlazure/' class='tag-link-272' title='11 temas' style='font-size: 10.891304347826pt;'>sqlazure</a>
+<a href='http://www.mundosql.es/category/sql-server/' class='tag-link-6' title='345 temas' style='font-size: 22pt;'>SQL SERVER</a>
+<a href='http://www.mundosql.es/category/ssis/' class='tag-link-310' title='8 temas' style='font-size: 9.9021739130435pt;'>SSIS</a>
+<a href='http://www.mundosql.es/category/t-sql/' class='tag-link-7' title='155 temas' style='font-size: 19.336956521739pt;'>T-SQL</a>
+<a href='http://www.mundosql.es/category/tienda/' class='tag-link-8' title='4 temas' style='font-size: 8pt;'>Tienda</a>
+<a href='http://www.mundosql.es/category/tips-2/' class='tag-link-207' title='35 temas' style='font-size: 14.54347826087pt;'>Tips</a>
+<a href='http://www.mundosql.es/category/varios/' class='tag-link-9' title='17 temas' style='font-size: 12.260869565217pt;'>Varios</a>
+<a href='http://www.mundosql.es/category/visual-studiio/' class='tag-link-416' title='19 temas' style='font-size: 12.565217391304pt;'>visual studio</a>
+<a href='http://www.mundosql.es/category/visual-studio-code/' class='tag-link-620' title='5 temas' style='font-size: 8.6086956521739pt;'>Visual Studio Code</a>
+<a href='http://www.mundosql.es/category/vmware/' class='tag-link-580' title='5 temas' style='font-size: 8.6086956521739pt;'>Vmware</a>
+<a href='http://www.mundosql.es/category/windows-10/' class='tag-link-571' title='19 temas' style='font-size: 12.565217391304pt;'>Windows 10</a>
+<a href='http://www.mundosql.es/category/windows-2008/' class='tag-link-619' title='34 temas' style='font-size: 14.391304347826pt;'>Windows 2008</a>
+<a href='http://www.mundosql.es/category/windows-2012/' class='tag-link-10' title='65 temas' style='font-size: 16.521739130435pt;'>Windows 2012</a>
+<a href='http://www.mundosql.es/category/windows-2016/' class='tag-link-583' title='40 temas' style='font-size: 14.923913043478pt;'>Windows 2016</a></div>
+</section>		</aside><!-- #secondary -->
+			</div><!-- #main .wrapper -->
+		<div id="footer-wrapper" class="footer-wrapper">
+			<footer id="colophon" role="contentinfo" itemtype="https://schema.org/WPFooter" itemscope="itemscope" >
+				<div class="site-info">
+										<p>&copy; 2016., Mundo SQL</p>
+				</div><!-- .site-info -->
+			</footer><!-- #colophon -->
+			<div class="clearfix"></div>
+		</div>
+
+</div><!-- #page -->
+
+<div id="cookie-law-info-bar"><span>This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish.<a href="#" id="cookie_action_close_header"  class="medium cli-plugin-button cli-plugin-main-button" >Accept</a> <a href="http://www.mundosql.es" id="CONSTANT_OPEN_URL" target="_blank"  class="cli-plugin-main-link"  >Read More</a></span></div><div id="cookie-law-info-again"><span id="cookie_hdr_showagain">Privacy & Cookies Policy</span></div>		
+		<script type="text/javascript">
+			//<![CDATA[
+			jQuery(document).ready(function() {
+				cli_show_cookiebar({
+					settings: '{"animate_speed_hide":"500","animate_speed_show":"500","background":"#fff","border":"#444","border_on":true,"button_1_button_colour":"#000","button_1_button_hover":"#000000","button_1_link_colour":"#fff","button_1_as_button":true,"button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":false,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":false,"scroll_close_reload":false,"showagain_tab":true,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":false,"show_once":"8000"}'
+				});
+			});
+			//]]>
+		</script>
+		
+			<div style="display:none">
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"http:\/\/www.mundosql.es\/2016\/02\/18\/excel-signum-muy-buena-pagina-de-temas-de-microsoft-excel\/":6032,"http:\/\/www.mundosql.es\/2016\/02\/16\/repasando-el-operador-like-en-sqlserver\/":6025,"http:\/\/www.mundosql.es\/2016\/02\/16\/vistas-de-sqlserver-en-powershell\/":6017,"http:\/\/www.mundosql.es\/2016\/02\/15\/haciendo-una-consulta-desde-un-procedimiento-almacenado-de-sqlserver-en-powershell\/":6010,"http:\/\/www.mundosql.es\/2016\/02\/15\/primeras-consultas-de-sqlserver-en-el-escenario-mundosqlbi\/":6002,"http:\/\/www.mundosql.es\/2016\/02\/14\/de-nuestro-fichero-de-visitas-totales-pormes-csv-a-sqlserver-mundosqlbi\/":5995,"http:\/\/www.mundosql.es\/2016\/02\/14\/preparando-un-escenario-business-intelligence-bi-uniendo-ficheros-xls-en-uno-de-la-forma-clasica-mundosqlbi\/":5985,"http:\/\/www.mundosql.es\/2016\/02\/14\/preparando-un-escenario-business-intelligence-bi-de-csv-a-xls-los-ficheros-de-visitas-diarias-de-mi-blog-mundosqlbi\/":5977,"http:\/\/www.mundosql.es\/2016\/02\/13\/que-es-business-intelligence-bi\/":5965,"http:\/\/www.mundosql.es\/2016\/02\/12\/preparando-un-escenario-business-intelligence-bimundosqlbi\/":5959,"http:\/\/www.mundosql.es\/2016\/02\/12\/instalando-pypyodbc-y-sqlalchemy-para-hacer-conexiones-desde-python-a-sqlserver-en-visualstudio\/":5951,"http:\/\/www.mundosql.es\/2016\/02\/12\/sacar-una-consulta-de-sqlserver-desde-powershell-en-visualstudio\/":5943};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+		<div id="fb-root"></div>
+			<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = '//connect.facebook.net/es_ES/sdk.js#xfbml=1&appId=249643311490&version=v2.3'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+			<script>
+			jQuery( document.body ).on( 'post-load', function() {
+				if ( 'undefined' !== typeof FB ) {
+					FB.XFBML.parse();
+				}
+			} );
+			</script>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						<script>
+			function renderGooglePlus1() {
+				if ( 'undefined' === typeof gapi ) {
+					return;
+				}
+
+				jQuery( '.g-plus' ).each(function() {
+					var $button = jQuery( this );
+
+					if ( ! $button.data( 'gplus-rendered' ) ) {
+						gapi.plusone.render( this, {
+							href: $button.attr( 'data-href' ),
+							size: $button.attr( 'data-size' ),
+							annotation: $button.attr( 'data-annotation' )
+						});
+
+						$button.data( 'gplus-rendered', true );
+					}
+				});
+			}
+
+			(function() {
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				po.src = 'https://apis.google.com/js/plusone.js';
+				po.innerHTML = '{"parsetags": "explicit"}';
+				po.onload = renderGooglePlus1;
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			})();
+
+			jQuery( document.body ).on( 'post-load', renderGooglePlus1 );
+			</script>
+			<script type="text/javascript" src="//platform.tumblr.com/v1/share.js"></script><script type="text/javascript">
+			jQuery( document ).ready( function() {
+			    jQuery.getScript( '//platform.linkedin.com/in.js?async=true', function success() {
+			        IN.init();
+			    });
+			});
+			jQuery( document.body ).on( 'post-load', function() {
+				if ( typeof IN != 'undefined' )
+					IN.parse();
+			});
+			</script>	<div id="sharing_email" style="display: none;">
+		<form action="/" method="post">
+			<label for="target_email">Enviar a dirección de correo electrónico</label>
+			<input type="email" name="target_email" id="target_email" value="" />
+
+			
+				<label for="source_name">Su Nombre</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+
+				<label for="source_email">Tu dirección de correo electrónico</label>
+				<input type="email" name="source_email" id="source_email" value="" />
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" />
+			<script> document.getElementById('jetpack-source_f_name').value = ''; </script>
+			
+			<img style="float: right; display: none" class="loading" src="http://www.mundosql.es/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Enviar correo electrónico" class="sharing_send" />
+			<a rel="nofollow" href="#cancel" class="sharing_cancel">Cancelar</a>
+
+			<div class="errors errors-1" style="display: none;">
+				La entrada no fue enviada. ¡Comprueba tus direcciones de correo electrónico!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Error en la comprobación de email. Por favor, vuelve a intentarlo			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Lo sentimos, tu blog no puede compartir entradas por correo electrónico.			</div>
+		</form>
+	</div>
+<script type='text/javascript' src='http://www.mundosql.es/wp-content/plugins/jetpack/modules/photon/photon.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"es","ajaxurl":"http:\/\/www.mundosql.es\/wp-admin\/admin-ajax.php","nonce":"1b80fd6732","display_exif":"1","display_geo":"1","background_color":"white","comment":"Comentario","post_comment":"Publicar comentario","write_comment":"Escribir un Comentario...","loading_comments":"Cargando comentarios...","download_original":"Ver tama\u00f1o completo <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Por favor, aseg\u00farate de enviar el texto con tu comentario.","no_comment_email":"Por favor, proporciona una direcci\u00f3n de correo electr\u00f3nico para comentar.","no_comment_author":"Por favor, a\u00f1ade tu nombre al comentario.","comment_post_error":"Lo sentimos, pero hubo un error al publicar tu comentario. Por favor, vuelve a intentarlo m\u00e1s tarde.","comment_approved":"Se aprob\u00f3 tu comentario.","comment_unapproved":"Tu comentario est\u00e1 en moderaci\u00f3n.","camera":"C\u00e1mara","aperture":"Abertura","shutter_speed":"Velocidad de obturaci\u00f3n","focal_length":"Longitud focal","comment_registration":"1","require_name_email":"1","login_url":"http:\/\/www.mundosql.es\/wp-login.php?redirect_to=http%3A%2F%2Fwww.mundosql.es%2F2016%2F02%2F18%2Fexcel-signum-muy-buena-pagina-de-temas-de-microsoft-excel%2F","local_comments_commenting_as":"<p id=\"jp-carousel-commenting-as\">Debe estar <a href=\"#\" class=\"jp-carousel-comment-login\">conectado<\/a> para enviar un comentario.<\/p>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"es-ES","strings":{"Close":"Cerrar","Fullscreen":"Pantalla completa","Download File":"Descargar archivo","Download Video":"Descargar v\u00eddeo","Play\/Pause":"Reproducir\/Pausar","Mute Toggle":"Desactivar sonido","None":"Ninguna","Turn off Fullscreen":"Salir de pantalla completa","Go Fullscreen":"Ver en pantalla completa","Unmute":"Activar sonido","Mute":"Silenciar","Captions\/Subtitles":"Pies de foto \/ Subt\u00edtulos"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-includes/js/mediaelement/wp-mediaelement.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=6f79a11caf5bbf39a8b47269be9ab114Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-content/plugins/jetpack/modules/wpgroho.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-content/themes/manduca/js/navigation.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-content/themes/manduca/js/focus-snail.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-includes/js/wp-embed.min.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.mundosql.es/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=6f79a11caf5bbf39a8b47269be9ab114'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201607.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.9.1',blog:'72904893',post:'0',tz:'1',srv:'www.mundosql.es'} ]);
+	_stq.push([ 'clickTrackerInit', '72904893', '0' ]);
+</script>
+</body>
+</html>
+<!-- Dynamic page generated in 1.323 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-02-19 01:09:43 -->
+
+<!-- super cache -->

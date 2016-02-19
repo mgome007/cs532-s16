@@ -1,0 +1,2103 @@
+<!DOCTYPE html>
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://voluptuousbookdiva.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://voluptuousbookdiva.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="The Voluptuous Book Diva - Atom" href="http://voluptuousbookdiva.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="The Voluptuous Book Diva - RSS" href="http://voluptuousbookdiva.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="The Voluptuous Book Diva - Atom" href="https://www.blogger.com/feeds/5182990422512903304/posts/default" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://voluptuousbookdiva.blogspot.com/" />
+<meta content='A blog about books and giveaways.' name='description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>The Voluptuous Book Diva</title>
+<link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'/>
+<!--[if lt IE 9]> <script type='text/javascript'> //<![CDATA[ // html5shiv MIT @rem remysharp.com/html5-enabling-script // iepp v1.6.2 MIT @jon_neal iecss.com/print-protector /*@cc_on(function(a,b){function r(a){var b=-1;while(++b<f)a.createElement(e[b])}if(!(!window.attachEvent||!b.createStyleSheet||!function(){var a=document.createElement("div");a.innerHTML="<elem></elem>";return a.childNodes.length!==1}())){a.iepp=a.iepp||{};var c=a.iepp,d=c.html5elements||"abbr|article|aside|audio|canvas|datalist|details|figcaption|figure|footer|header|hgroup|mark|meter|nav|output|progress|section|summary|time|video",e=d.split("|"),f=e.length,g=new RegExp("(^|\\s)("+d+")","gi"),h=new RegExp("<(/*)("+d+")","gi"),i=/^\s*[\{\}]\s*$/,j=new RegExp("(^|[^\\n]*?\\s)("+d+")([^\\n]*)({[\\n\\w\\W]*?})","gi"),k=b.createDocumentFragment(),l=b.documentElement,m=l.firstChild,n=b.createElement("body"),o=b.createElement("style"),p=/print|all/,q;c.getCSS=function(a,b){if(a+""===undefined)return"";var d=-1,e=a.length,f,g=[];while(++d<e){f=a[d];if(f.disabled)continue;b=f.media||b,p.test(b)&&g.push(c.getCSS(f.imports,b),f.cssText),b="all"}return g.join("")},c.parseCSS=function(a){var b=[],c;while((c=j.exec(a))!=null)b.push(((i.exec(c[1])?"\n":c[1])+c[2]+c[3]).replace(g,"$1.iepp_$2")+c[4]);return b.join("\n")},c.writeHTML=function(){var a=-1;q=q||b.body;while(++a<f){var c=b.getElementsByTagName(e[a]),d=c.length,g=-1;while(++g<d)c[g].className.indexOf("iepp_")<0&&(c[g].className+=" iepp_"+e[a])}k.appendChild(q),l.appendChild(n),n.className=q.className,n.id=q.id,n.innerHTML=q.innerHTML.replace(h,"<$1font")},c._beforePrint=function(){o.styleSheet.cssText=c.parseCSS(c.getCSS(b.styleSheets,"all")),c.writeHTML()},c.restoreHTML=function(){n.innerHTML="",l.removeChild(n),l.appendChild(q)},c._afterPrint=function(){c.restoreHTML(),o.styleSheet.cssText=""},r(b),r(k);if(c.disablePP)return;m.insertBefore(o,m.firstChild),o.media="print",o.className="iepp-printshim",a.attachEvent("onbeforeprint",c._beforePrint),a.attachEvent("onafterprint",c._afterPrint)}})(this,document)@*/ //]]> </script> <![endif]-->
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/1708208307-widget_css_bundle.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5182990422512903304&zx=94dd4af5-35f7-4473-b466-96d50afe7139' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Template Name  : Tyrant
+Author         : NewBloggerThemes.com
+Author URL     : http://newbloggerthemes.com/
+Theme URL      : http://newbloggerthemes.com/tyrant-blogger-template/
+Created Date   : Thursday, November 15, 2012
+License        : This template is free for both personal and commercial use, But to satisfy the 'attribution' clause of the license, you are required to keep the footer links intact which provides due credit to its authors.For more information about this license, please use this link :http://creativecommons.org/licenses/by/3.0/
+----------------------------------------------- */
+body#layout ul{list-style-type:none;list-style:none}
+body#layout ul li{list-style-type:none;list-style:none}
+body#layout #content {width:600px;}
+body#layout #slidebox {display:none;}
+body#layout #headbox{display:none;}
+/* Variable definitions
+====================
+*/
+/* Use this with templates/template-twocol.html */
+/* =Reset
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+border: 0;
+font-family: inherit;
+font-size: 100%;
+font-style: inherit;
+font-weight: inherit;
+margin: 0;
+outline: 0;
+padding: 0;
+vertical-align: baseline;
+}
+html {
+font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */
+-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+body {
+background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+display: block;
+}
+ol, ul {
+list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+border-collapse: separate;
+border-spacing: 0;
+}
+caption, th, td {
+font-weight: normal;
+text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: "";
+}
+blockquote, q {
+quotes: "" "";
+}
+a:focus {
+outline: thin dotted;
+}
+a:hover,
+a:active { /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
+outline: 0;
+}
+a img {
+border: 0;
+}
+/* Grid */
+/* =Containers
+--------------------------------------------------------------------------------*/
+.container_6
+{
+margin-left: auto;
+margin-right: auto;
+width: 960px;
+}
+/* =Grid >> Global
+--------------------------------------------------------------------------------*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6 {
+display: inline;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+}
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5 {
+position: relative;
+}
+/* =Grid >> Children (Alpha ~ First, Omega ~ Last)
+--------------------------------------------------------------------------------*/
+.alpha {margin-left: 0;}
+.omega {margin-right: 0;}
+/* =Grid >> 6 Columns
+--------------------------------------------------------------------------------*/
+.container_6 .grid_1 {width: 140px;}
+.container_6 .grid_2 {width: 300px;}
+.container_6 .grid_3 {width: 460px;}
+.container_6 .grid_4 {width: 620px;}
+.container_6 .grid_5 {width: 780px;}
+.container_6 .grid_6 {width: 940px;}
+/* =Prefix Extra Space >> 6 Columns
+--------------------------------------------------------------------------------*/
+.container_6 .prefix_1 {padding-left: 160px;}
+.container_6 .prefix_2 {padding-left: 320px;}
+.container_6 .prefix_3 {padding-left: 480px;}
+.container_6 .prefix_4 {padding-left: 640px;}
+.container_6 .prefix_5 {padding-left: 800px;}
+/* =Suffix Extra Space >> 6 Columns
+--------------------------------------------------------------------------------*/
+.container_6 .suffix_1 {padding-right: 160px;}
+.container_6 .suffix_2 {padding-right: 320px;}
+.container_6 .suffix_3 {padding-right: 480px;}
+.container_6 .suffix_4 {padding-right: 640px;}
+.container_6 .suffix_5 {padding-right: 800px;}
+/* `Push Space >> 6 Columns
+--------------------------------------------------------------------------------*/
+.container_6 .push_1 {left: 160px;}
+.container_6 .push_2 {left: 320px;}
+.container_6 .push_3 {left: 480px;}
+.container_6 .push_4 {left: 640px;}
+.container_6 .push_5 {left: 800px;}
+/* `Pull Space >> 6 Columns
+--------------------------------------------------------------------------------*/
+.container_6 .pull_1 {left: -160px;}
+.container_6 .pull_2 {left: -320px;}
+.container_6 .pull_3 {left: -480px;}
+.container_6 .pull_4 {left: -640px;}
+.container_6 .pull_5 {left: -800px;}
+/* =Global
+----------------------------------------------- */
+body,
+button,
+input,
+select,
+textarea {
+color: #666666;
+font-family: 'Actor', sans-serif;
+font-size: 13px;
+font-size: 1.3rem;
+line-height: 1.6;
+}
+body{
+background:#fff;
+}
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+clear: both;
+margin:0px 0px 10px 0px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 24px; line-height: 30px; }
+h2 { font-size: 22px; line-height: 26px; }
+h3 { font-size: 18px; line-height: 24px; }
+h4 { font-size: 16px; line-height: 20px; }
+h5 { font-size: 14px; line-height: 18px; }
+h6 { font-size: 14px; line-height: 18px; }
+hr {
+background-color: #ccc;
+border: 0;
+height: 1px;
+margin-bottom: 1.5em;
+}
+/* Text elements */
+p {
+margin-bottom: 1.5em;
+}
+ul, ol {
+margin: 0 0 1.5em 3em;
+}
+ul {
+list-style: disc;
+}
+ol {
+list-style: decimal;
+}
+ul ul, ol ol, ul ol, ol ul {
+margin-bottom: 0;
+margin-left: 1.5em;
+}
+dt {
+font-weight: bold;
+}
+dd {
+margin: 0 1.5em 1.5em;
+}
+b, strong {
+font-weight: bold;
+}
+dfn, cite, em, i {
+font-style: italic;
+}
+blockquote {
+margin: 0 1.5em;
+}
+address {
+margin: 0 0 1.5em;
+}
+pre {
+background: #eee;
+font-family: "Courier 10 Pitch", Courier, monospace;
+font-size: 15px;
+font-size: 1.5rem;
+line-height: 1.6;
+margin-bottom: 1.6em;
+padding: 1.6em;
+overflow: auto;
+max-width: 100%;
+}
+code, kbd, tt, var {
+font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+abbr, acronym {
+border-bottom: 1px dotted #666;
+cursor: help;
+}
+mark, ins {
+background: #fff9c0;
+text-decoration: none;
+}
+sup,
+sub {
+font-size: 75%;
+height: 0;
+line-height: 0;
+position: relative;
+vertical-align: baseline;
+}
+sup {
+bottom: 1ex;
+}
+sub {
+top: .5ex;
+}
+small {
+font-size: 75%;
+}
+big {
+font-size: 125%;
+}
+figure {
+margin: 0;
+}
+table {
+margin: 0 0 1.5em;
+width: 100%;
+}
+th {
+font-weight: bold;
+}
+button,
+input,
+select,
+textarea {
+font-size: 100%; /* Corrects font size not being inherited in all browsers */
+margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+vertical-align: baseline; /* Improves appearance and consistency in all browsers */
+*vertical-align: middle; /* Improves appearance and consistency in all browsers */
+}
+button,
+input {
+line-height: normal; /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
+*overflow: visible;  /* Corrects inner spacing displayed oddly in IE6/7 */
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+border: 1px solid #ccc;
+border-color: #ccc #ccc #bbb #ccc;
+border-radius: 3px;
+background: #fafafa; /* Old browsers */
+background: -moz-linear-gradient(top,  #fafafa 60%, #e6e6e6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#fafafa), color-stop(100%,#e6e6e6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fafafa 60%,#e6e6e6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fafafa 60%,#e6e6e6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fafafa 60%,#e6e6e6 100%); /* IE10+ */
+background: linear-gradient(top,  #fafafa 60%,#e6e6e6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+box-shadow: inset 0 2px 1px #fff;
+color: rgba(0,0,0,.8);
+cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
+font-size: 12px;
+font-size: 1.2rem;
+padding: 8px 20px;;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+background: #f5f5f5; /* Old browsers */
+background: -moz-linear-gradient(top,  #f5f5f5 60%, #dcdcdc 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#f5f5f5), color-stop(100%,#dcdcdc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f5f5f5 60%,#dcdcdc 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f5f5f5 60%,#dcdcdc 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f5f5f5 60%,#dcdcdc 100%); /* IE10+ */
+background: linear-gradient(top,  #f5f5f5 60%,#dcdcdc 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#dcdcdc',GradientType=0 ); /* IE6-9 */
+border-color: #bbb #bbb #aaa #bbb;
+}
+button:focus,
+html input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+html input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+border-color: #aaa #bbb #bbb #bbb;
+box-shadow: inset 0 2px 3px rgba(0,0,0,.15);
+box-shadow: inset 0 2px 2px rgba(0,0,0,.15);
+}
+input[type="checkbox"],
+input[type="radio"] {
+box-sizing: border-box; /* Addresses box sizing set to content-box in IE8/9 */
+padding: 0; /* Addresses excess padding in IE8/9 */
+}
+input[type="search"] {
+-webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */
+-moz-box-sizing: content-box;
+-webkit-box-sizing: content-box; /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
+box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+-webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+border: 0;
+padding: 0;
+}
+input[type=text],
+input[type=email],
+textarea {
+color: #666;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+color: #111;
+}
+input[type=text],
+input[type=email] {
+padding: 7px 10px;
+}
+textarea {
+overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
+padding-left: 8px 10px;
+vertical-align: top; /* Improves readability and alignment in all browsers */
+width: 98%;
+}
+/* Links */
+a {
+color: royalblue;
+text-decoration:none;
+}
+a:visited {
+color: purple;
+}
+a:hover,
+a:focus,
+a:active {
+color: midnightblue;
+}
+.clear{
+clear:both;
+}
+/* Text meant only for screen readers */
+.assistive-text {
+clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+clip: rect(1px, 1px, 1px, 1px);
+position: absolute !important;
+}
+/* Clearfix */
+.cf:before,
+.cf:after {
+content: " "; /* 1 */
+display: table; /* 2 */
+}
+.cf:after {
+clear: both;
+}
+/* =Content
+----------------------------------------------- */
+.sticky {
+}
+.hentry {
+margin: 0 0 2em;
+}
+.entry-meta {
+clear: both;
+}
+.byline {
+}
+.single .byline,
+.group-blog .byline {
+display: inline;
+}
+.entry-content,
+.entry-summary {
+margin:10px 0px 0px 0px;
+line-height:24px;
+}
+.page-links {
+clear: both;
+margin: 0 0 1.5em;
+}
+/* =Asides
+----------------------------------------------- */
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+display: none;
+}
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+max-width: 100%;
+}
+/* =top
+----------------------------------------------- */
+.topbar{
+height:40px;
+background:#302b29;
+}
+.top{
+background:url(http://1.bp.blogspot.com/-ArDNYtLv1_U/USU8mxh54TI/AAAAAAAADpM/toY6byiKzRM/s000/top.png) repeat-x;
+height:117px;
+}
+.head{
+background:url(http://1.bp.blogspot.com/-h0AMeRS3NvI/USU8nOjfs1I/AAAAAAAADpU/CVwdAQJS58M/s000/head.png) center no-repeat;
+height:117px;
+width:960px;
+overflow:hidden;
+}
+.logo{
+padding:10px 0px;
+height:97px;
+overflow:hidden;
+}
+h1.site-title{
+font-size:32px;
+font-family: Bitter,serif;
+font-weight:bold;
+color:#fff;
+margin:15px 0px 5px 0px
+}
+h1.site-title a:link,h1.site-title a:visited {
+color:#fff;
+}
+h2.site-description{
+font-size:16px;
+color: #eee;
+}
+/* Searchform */
+#searchform{
+width:260px;
+float:right;
+margin-top:8px;
+}
+#s{
+width:180px;
+padding:3px 5px;
+background:#4C4645;
+border:1px solid #5E5B5B;
+color:#fff;
+}
+#searchsubmit{
+padding:3px 10px;
+background:#800404;
+border:1px solid #A00C0C;
+margin-left:5px;
+box-shadow:none;
+color:#fff;
+text-shadow:1px 1px 0px #540404;
+}
+/* TOP-MENU */
+#botmenu{
+font-size: 14px;
+float:right;
+}
+#submenu {
+margin: 30px 0px;
+padding:0px 0px;
+height:57px;
+overflow:hidden;
+}
+#submenu ul {
+width: auto;
+float:left;
+list-style: none;
+margin: 0;
+padding: 0 10px;
+}
+#submenu li {
+float: left;
+list-style: none;
+margin: 0;
+padding: 0;
+color: #222;
+font-weight:400;
+}
+#submenu li a {
+color: #fff;
+display: block;
+margin: 0;
+padding: 16px 8px 16px 8px;
+text-decoration: none;
+position: relative;
+}
+#submenu li a:hover, #submenu li a:active, #submenu .current_page_item a  {
+color: #fff;
+}
+#submenu li a.sf-with-ul {
+padding-right: 10px;
+}
+#submenu li ul li a, #submenu li ul li a:link, #submenu li ul li a:visited,
+#submenu li ul li ul li a, #submenu li ul li ul li a:link, #submenu li ul li ul li a:visited,
+#submenu li ul li ul li ul li a, #submenu li ul li ul li ul li a:link, #submenu li ul li ul li ul li a:visited {
+color: #eee;
+width: 148px;
+margin: 0;
+padding: 10px 10px;
+border-top:1px solid #403837;
+position: relative;
+font-weight:400;
+}
+#submenu ul li ul li:first-child a,#submenu ul li ul li ul li:first-child a,#submenu ul li ul li ul li ul li:first-child a  {
+border-top:none;
+}
+#submenu li ul li a:hover ,#submenu li ul li ul li a:hover ,#submenu li ul li ul li ul li a:hover {
+color: #fff;
+}
+#submenu li ul {
+z-index: 9999;
+position: absolute;
+left: -999em;
+height: auto;
+width: 170px;
+margin: 0px 0px 0px 0px;
+padding: 5px 5px;
+background:#302B29;
+border:1px solid #302B29;
+}
+#submenu li ul a {
+width: 150px;
+}
+#submenu li ul a:hover, #submenu li ul a:active {
+}
+#submenu li ul ul {
+margin: -49px 0 0 181px;
+}
+#submenu li:hover ul ul, #submenu li:hover ul ul ul, #submenu li.sfHover ul ul, #submenu li.sfHover ul ul ul {
+left: -999em;
+}
+#submenu li:hover ul, #submenu li li:hover ul, #submenu li li li:hover ul, #submenu li.sfHover ul, #submenu li li.sfHover ul, #submenu li li li.sfHover ul {
+left: auto;
+}
+#submenu li:hover, #submenu li.sfHover {
+position: static;
+}
+/* Layout */
+#primary, #secondary{
+padding:31px 0px;
+word-wrap:break-word;
+overflow:hidden;
+}
+/* Article */
+#crumbs{
+margin-bottom:20px;
+}
+.entry-header{
+border-bottom:1px solid #ddd;
+padding-bottom:10px;
+}
+h2.entry-title{
+font-family: Bitter;
+color:#444;
+margin:0px 0px;
+padding-bottom:5px;
+}
+h2.entry-title a:link, h2.entry-title a:visited{
+color:#444;
+}
+.postimg{
+margin-bottom:10px;
+}
+#authorbox{
+padding:20px;
+border:1px solid #eee;
+}
+#authorbox h4{
+font-weight:bold;
+font-size:14px;
+}
+#authorbox img.avatar{
+float:left;
+width:80px;
+margin-right:20px;
+}
+.ameta{
+float:left;
+width:470px;
+}
+#nav-below{
+padding:20px;
+background:#eee;
+}
+/* Slider */
+.slidebox{
+background:url(http://3.bp.blogspot.com/-58oipORK7w4/USU8nbFrYeI/AAAAAAAADpc/rpSvnBWSx7U/s000/slideblock.png);
+border-top:1px solid #574f4f;
+}
+.slidebg{
+background:url(http://4.bp.blogspot.com/-gi8MDHdUalU/USU8n8XfKGI/AAAAAAAADpk/OwuF_vqDyHc/s000/slidebg.jpg) bottom center no-repeat;
+padding-top:40px;
+padding-bottom:50px;
+}
+#slider1{
+margin-top:30px;
+margin-bottom:30px;
+}
+/* Home widget */
+.hwid{
+background:url(http://1.bp.blogspot.com/-pTLOum9iawg/USU8oPXxHzI/AAAAAAAADpo/k4kxMQ6S4sY/s000/hwid.jpg);
+border-top:5px solid #585251;
+}
+.home-wid{
+padding:30px 0px;
+color:#fff;
+}
+.home-wid a, .home-wid a:visited{
+color:#fff;
+}
+.home-wid a:hover{
+color:#eee;
+}
+.home-wid h2{
+font-family: Bitter;
+font-size:18px;
+}
+.home-wid ul{
+list-style-type:none;
+list-style:none;
+margin:0px;
+padding:0px;
+}
+.home-wid ul li{
+padding:5px 0px;
+margin:0px;
+}
+/* =Widgets
+----------------------------------------------- */
+.sidebar {
+color: #777777;
+}
+.sidebar a,.sidebar a:visited {
+text-decoration: none;
+color: #777777;
+}
+.sidebar a:hover {
+text-decoration: none;
+color: #444444;
+}
+.sidebar .widget {
+margin: 0 10px 25px 0;
+padding: 0;
+}
+.sidebar .widget h2 {
+padding: 0 20px 10px 0;
+margin: 0;
+color: #444444;
+font: 500 16px Bitter;
+}
+.sidebar .widget-content {
+margin: 0;
+padding: 0;
+}
+.sidebar ul {
+list-style-type: none;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.sidebar ul li {
+padding: 5px 0;
+margin: 0;
+border-bottom: 1px solid #eeeeee;
+}
+/* Footer */
+.site-footer{
+background: #302B29;
+padding:30px 0px;
+}
+.fcred{
+color:#eee;
+text-align:center;
+}
+.fcred a:link, .fcred a:visited{
+color:#eee;
+}
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {margin: 0; padding: 10px 10px; background:#6b6766; border:1px solid #7e7877; }
+.flexslider .slides > li  { margin:0px; display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+* include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {position: relative;  zoom: 1;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container {zoom: 1; position: relative;}
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption {background:url(http://3.bp.blogspot.com/-MbH85CTsGVU/USU8orhypqI/AAAAAAAADp0/BxjBphDwQYc/s000/trans.png); position:absolute; bottom:0px; left:0px;  zoom: 1; font-size:14px; line-height:130%; text-align:center;}
+.flex-caption h3{ margin:10px 0px; color:#fff;  font-weight:400; font-size:18px; line-height:40px;}
+.flex-caption {   width:100%; padding: 0px 0px; margin: 0;  font-size: 14px; color:#fff; }
+/* Direction Nav */
+.flex-direction-nav { height: 0; }
+.flex-direction-nav li a {width: 40px; height: 40px; margin: 0px 0 0; display: block; background: url(../images/arrow.png) no-repeat; position: absolute; bottom: 0; cursor: pointer; text-indent: -999em;}
+.flex-direction-nav li .next {background-position: -40px 0; right: 260px;}
+.flex-direction-nav li .prev {right: 300px;}
+.flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+/* Control Nav */
+.flex-control-nav {  float:left; width:940px; margin-top: 30px; text-align:center;;   }
+.flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 10px; height: 10px; display: block; background:url(http://4.bp.blogspot.com/-Jl6vpRnmjj8/USU8oxAWJjI/AAAAAAAADp4/8Uvu6iiDSLo/s000/slide-button.png); cursor: pointer;  text-indent: -999em;}
+.flex-control-nav li a:hover {background-position: 0 -10px;}
+.flex-control-nav li a.active {background-position: 0 -20px; cursor: default;}
+h2.date-header {
+margin: 1.5em 0 .5em;
+display: none;
+}
+.main .widget {
+margin: 0 0 5px;
+padding: 0 0 2px;
+}
+.main .Blog {
+border-bottom-width: 0;
+}
+#header .description {
+color:#ffffff;
+font-size:14px;
+text-shadow:0px 1px 0px #000000;
+}
+/* Comments----------------------------------------------- */
+#comments {
+padding:10px;
+color:#666;
+margin-bottom:20px;
+}
+#comments h4 {
+font-size:22px;
+margin-bottom:10px;
+}
+#comment-name-url {
+width: 365px;
+float: left;
+}
+#comment-date {
+width: 365px;
+float: left;
+margin-top: 5px;
+font-size: 10px;
+}
+#comment-header {
+float: left;
+padding: 5px 0 40px 10px;
+margin: 5px 0 15px 0;
+position: relative;
+background-color: #ffffff;
+border: 1px dashed #eeeeee;
+}
+.avatar-image-container {
+background: url(http: //4.bp.blogspot.com/_4HKUHirY_2U/TLlJUqSaolI/AAAAAAAAEq4/qpgAHAOe9x0/s1600/comment-avatar.jpg);
+width: 32px;
+height: 32px;
+float: right;
+margin: 5px 10px 5px 5px;
+border: 1px solid #dddddd;
+}
+.avatar-image-container img {
+width: 32px;
+height: 32px;
+}
+a.comments-autor-name {
+color: #000000;
+font: normal bold 14px Arial, Tahoma, Verdana;
+}
+a.says {
+color: #000000;
+font: normal 14px Arial, Tahoma, Verdana;
+}
+.says a:hover {
+text-decoration: none;
+}
+.deleted-comment {
+font-style: italic;
+color: gray;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+padding:5px;
+}
+.feed-links {
+clear: both;
+}
+/* Profile ----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+padding: 4px;
+border: 1px solid #eeeeee;
+}
+.profile-data {
+margin: 0;
+text-transform: uppercase;
+letter-spacing: .1em;
+color: #000000;
+font-weight: bold;
+line-height: 1.6em;
+}
+.profile-datablock {
+margin: .5em 0 .5em;
+}
+.profile-textblock {
+margin: 0.5em 0;
+line-height: 1.6em;
+}
+.avatar-image-container {
+background: url(http://2.bp.blogspot.com/-hWFztBKBtb4/USU8o-Bu4dI/AAAAAAAADqA/TbH_aBrqq8g/s000/comment-avatar.jpg);
+width: 32px;
+height: 32px;
+float: right;
+margin: 5px 10px 5px 5px;
+border: 1px solid #dddddd;
+}
+.avatar-image-container img {
+width: 32px;
+height: 32px;
+}
+.profile-link {
+text-transform: uppercase;
+letter-spacing: .1em;
+}
+.comment-form {
+max-width: 600px;
+}
+#navbar-iframe {
+height: 0;
+visibility: hidden;
+display: none;
+}
+.cover {
+float: left;
+width: 100%;
+}
+.PopularPosts .widget-content ul li {
+padding:6px 0px;
+}
+.reaction-buttons table{
+border:none;
+margin-bottom:5px;
+}
+.reaction-buttons table, .reaction-buttons td{
+border:none;
+}
+
+--></style>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js' type='text/javascript'></script>
+<script type='text/javascript'>
+//<![CDATA[
+
+/*
+ * jQuery FlexSlider v1.8
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ * Contributing Author: Tyler Smith
+ */
+(function(a){a.flexslider=function(c,b){var d=a(c);a.data(c,"flexslider",d);d.init=function(){d.vars=a.extend({},a.flexslider.defaults,b);a.data(c,"flexsliderInit",true);d.container=a(".slides",d).first();d.slides=a(".slides:first > li",d);d.count=d.slides.length;d.animating=false;d.currentSlide=d.vars.slideToStart;d.animatingTo=d.currentSlide;d.atEnd=(d.currentSlide==0)?true:false;d.eventType=("ontouchstart" in document.documentElement)?"touchstart":"click";d.cloneCount=0;d.cloneOffset=0;d.manualPause=false;d.vertical=(d.vars.slideDirection=="vertical");d.prop=(d.vertical)?"top":"marginLeft";d.args={};d.transitions="webkitTransition" in document.body.style;if(d.transitions){d.prop="-webkit-transform"}if(d.vars.controlsContainer!=""){d.controlsContainer=a(d.vars.controlsContainer).eq(a(".slides").index(d.container));d.containerExists=d.controlsContainer.length>0}if(d.vars.manualControls!=""){d.manualControls=a(d.vars.manualControls,((d.containerExists)?d.controlsContainer:d));d.manualExists=d.manualControls.length>0}if(d.vars.randomize){d.slides.sort(function(){return(Math.round(Math.random())-0.5)});d.container.empty().append(d.slides)}if(d.vars.animation.toLowerCase()=="slide"){if(d.transitions){d.setTransition(0)}d.css({overflow:"hidden"});if(d.vars.animationLoop){d.cloneCount=2;d.cloneOffset=1;d.container.append(d.slides.filter(":first").clone().addClass("clone")).prepend(d.slides.filter(":last").clone().addClass("clone"))}d.newSlides=a(".slides:first > li",d);var m=(-1*(d.currentSlide+d.cloneOffset));if(d.vertical){d.newSlides.css({display:"block",width:"100%","float":"left"});d.container.height((d.count+d.cloneCount)*200+"%").css("position","absolute").width("100%");setTimeout(function(){d.css({position:"relative"}).height(d.slides.filter(":first").height());d.args[d.prop]=(d.transitions)?"translate3d(0,"+m*d.height()+"px,0)":m*d.height()+"px";d.container.css(d.args)},100)}else{d.args[d.prop]=(d.transitions)?"translate3d("+m*d.width()+"px,0,0)":m*d.width()+"px";d.container.width((d.count+d.cloneCount)*200+"%").css(d.args);setTimeout(function(){d.newSlides.width(d.width()).css({"float":"left",display:"block"})},100)}}else{d.transitions=false;d.slides.css({width:"100%","float":"left",marginRight:"-100%"}).eq(d.currentSlide).fadeIn(d.vars.animationDuration)}if(d.vars.controlNav){if(d.manualExists){d.controlNav=d.manualControls}else{var e=a('<ol class="flex-control-nav"></ol>');var s=1;for(var t=0;t<d.count;t++){e.append("<li><a>"+s+"</a></li>");s++}if(d.containerExists){a(d.controlsContainer).append(e);d.controlNav=a(".flex-control-nav li a",d.controlsContainer)}else{d.append(e);d.controlNav=a(".flex-control-nav li a",d)}}d.controlNav.eq(d.currentSlide).addClass("active");d.controlNav.bind(d.eventType,function(i){i.preventDefault();if(!a(this).hasClass("active")){(d.controlNav.index(a(this))>d.currentSlide)?d.direction="next":d.direction="prev";d.flexAnimate(d.controlNav.index(a(this)),d.vars.pauseOnAction)}})}if(d.vars.directionNav){var v=a('<ul class="flex-direction-nav"><li><a class="prev" href="#">'+d.vars.prevText+'</a></li><li><a class="next" href="#">'+d.vars.nextText+"</a></li></ul>");if(d.containerExists){a(d.controlsContainer).append(v);d.directionNav=a(".flex-direction-nav li a",d.controlsContainer)}else{d.append(v);d.directionNav=a(".flex-direction-nav li a",d)}if(!d.vars.animationLoop){if(d.currentSlide==0){d.directionNav.filter(".prev").addClass("disabled")}else{if(d.currentSlide==d.count-1){d.directionNav.filter(".next").addClass("disabled")}}}d.directionNav.bind(d.eventType,function(i){i.preventDefault();var j=(a(this).hasClass("next"))?d.getTarget("next"):d.getTarget("prev");if(d.canAdvance(j)){d.flexAnimate(j,d.vars.pauseOnAction)}})}if(d.vars.keyboardNav&&a("ul.slides").length==1){function h(i){if(d.animating){return}else{if(i.keyCode!=39&&i.keyCode!=37){return}else{if(i.keyCode==39){var j=d.getTarget("next")}else{if(i.keyCode==37){var j=d.getTarget("prev")}}if(d.canAdvance(j)){d.flexAnimate(j,d.vars.pauseOnAction)}}}}a(document).bind("keyup",h)}if(d.vars.mousewheel){d.mousewheelEvent=(/Firefox/i.test(navigator.userAgent))?"DOMMouseScroll":"mousewheel";d.bind(d.mousewheelEvent,function(y){y.preventDefault();y=y?y:window.event;var i=y.detail?y.detail*-1:y.originalEvent.wheelDelta/40,j=(i<0)?d.getTarget("next"):d.getTarget("prev");if(d.canAdvance(j)){d.flexAnimate(j,d.vars.pauseOnAction)}})}if(d.vars.slideshow){if(d.vars.pauseOnHover&&d.vars.slideshow){d.hover(function(){d.pause()},function(){if(!d.manualPause){d.resume()}})}d.animatedSlides=setInterval(d.animateSlides,d.vars.slideshowSpeed)}if(d.vars.pausePlay){var q=a('<div class="flex-pauseplay"><span></span></div>');if(d.containerExists){d.controlsContainer.append(q);d.pausePlay=a(".flex-pauseplay span",d.controlsContainer)}else{d.append(q);d.pausePlay=a(".flex-pauseplay span",d)}var n=(d.vars.slideshow)?"pause":"play";d.pausePlay.addClass(n).text((n=="pause")?d.vars.pauseText:d.vars.playText);d.pausePlay.bind(d.eventType,function(i){i.preventDefault();if(a(this).hasClass("pause")){d.pause();d.manualPause=true}else{d.resume();d.manualPause=false}})}if("ontouchstart" in document.documentElement){var w,u,l,r,o,x,p=false;d.each(function(){if("ontouchstart" in document.documentElement){this.addEventListener("touchstart",g,false)}});function g(i){if(d.animating){i.preventDefault()}else{if(i.touches.length==1){d.pause();r=(d.vertical)?d.height():d.width();x=Number(new Date());l=(d.vertical)?(d.currentSlide+d.cloneOffset)*d.height():(d.currentSlide+d.cloneOffset)*d.width();w=(d.vertical)?i.touches[0].pageY:i.touches[0].pageX;u=(d.vertical)?i.touches[0].pageX:i.touches[0].pageY;d.setTransition(0);this.addEventListener("touchmove",k,false);this.addEventListener("touchend",f,false)}}}function k(i){o=(d.vertical)?w-i.touches[0].pageY:w-i.touches[0].pageX;p=(d.vertical)?(Math.abs(o)<Math.abs(i.touches[0].pageX-u)):(Math.abs(o)<Math.abs(i.touches[0].pageY-u));if(!p){i.preventDefault();if(d.vars.animation=="slide"&&d.transitions){if(!d.vars.animationLoop){o=o/((d.currentSlide==0&&o<0||d.currentSlide==d.count-1&&o>0)?(Math.abs(o)/r+2):1)}d.args[d.prop]=(d.vertical)?"translate3d(0,"+(-l-o)+"px,0)":"translate3d("+(-l-o)+"px,0,0)";d.container.css(d.args)}}}function f(j){d.animating=false;if(d.animatingTo==d.currentSlide&&!p&&!(o==null)){var i=(o>0)?d.getTarget("next"):d.getTarget("prev");if(d.canAdvance(i)&&Number(new Date())-x<550&&Math.abs(o)>20||Math.abs(o)>r/2){d.flexAnimate(i,d.vars.pauseOnAction)}else{d.flexAnimate(d.currentSlide,d.vars.pauseOnAction)}}this.removeEventListener("touchmove",k,false);this.removeEventListener("touchend",f,false);w=null;u=null;o=null;l=null}}if(d.vars.animation.toLowerCase()=="slide"){a(window).resize(function(){if(!d.animating&&d.is(":visible")){if(d.vertical){d.height(d.slides.filter(":first").height());d.args[d.prop]=(-1*(d.currentSlide+d.cloneOffset))*d.slides.filter(":first").height()+"px";if(d.transitions){d.setTransition(0);d.args[d.prop]=(d.vertical)?"translate3d(0,"+d.args[d.prop]+",0)":"translate3d("+d.args[d.prop]+",0,0)"}d.container.css(d.args)}else{d.newSlides.width(d.width());d.args[d.prop]=(-1*(d.currentSlide+d.cloneOffset))*d.width()+"px";if(d.transitions){d.setTransition(0);d.args[d.prop]=(d.vertical)?"translate3d(0,"+d.args[d.prop]+",0)":"translate3d("+d.args[d.prop]+",0,0)"}d.container.css(d.args)}}})}d.vars.start(d)};d.flexAnimate=function(g,f){if(!d.animating&&d.is(":visible")){d.animating=true;d.animatingTo=g;d.vars.before(d);if(f){d.pause()}if(d.vars.controlNav){d.controlNav.removeClass("active").eq(g).addClass("active")}d.atEnd=(g==0||g==d.count-1)?true:false;if(!d.vars.animationLoop&&d.vars.directionNav){if(g==0){d.directionNav.removeClass("disabled").filter(".prev").addClass("disabled")}else{if(g==d.count-1){d.directionNav.removeClass("disabled").filter(".next").addClass("disabled")}else{d.directionNav.removeClass("disabled")}}}if(!d.vars.animationLoop&&g==d.count-1){d.pause();d.vars.end(d)}if(d.vars.animation.toLowerCase()=="slide"){var e=(d.vertical)?d.slides.filter(":first").height():d.slides.filter(":first").width();if(d.currentSlide==0&&g==d.count-1&&d.vars.animationLoop&&d.direction!="next"){d.slideString="0px"}else{if(d.currentSlide==d.count-1&&g==0&&d.vars.animationLoop&&d.direction!="prev"){d.slideString=(-1*(d.count+1))*e+"px"}else{d.slideString=(-1*(g+d.cloneOffset))*e+"px"}}d.args[d.prop]=d.slideString;if(d.transitions){d.setTransition(d.vars.animationDuration);d.args[d.prop]=(d.vertical)?"translate3d(0,"+d.slideString+",0)":"translate3d("+d.slideString+",0,0)";d.container.css(d.args).one("webkitTransitionEnd transitionend",function(){d.wrapup(e)})}else{d.container.animate(d.args,d.vars.animationDuration,function(){d.wrapup(e)})}}else{d.slides.eq(d.currentSlide).fadeOut(d.vars.animationDuration);d.slides.eq(g).fadeIn(d.vars.animationDuration,function(){d.wrapup()})}}};d.wrapup=function(e){if(d.vars.animation=="slide"){if(d.currentSlide==0&&d.animatingTo==d.count-1&&d.vars.animationLoop){d.args[d.prop]=(-1*d.count)*e+"px";if(d.transitions){d.setTransition(0);d.args[d.prop]=(d.vertical)?"translate3d(0,"+d.args[d.prop]+",0)":"translate3d("+d.args[d.prop]+",0,0)"}d.container.css(d.args)}else{if(d.currentSlide==d.count-1&&d.animatingTo==0&&d.vars.animationLoop){d.args[d.prop]=-1*e+"px";if(d.transitions){d.setTransition(0);d.args[d.prop]=(d.vertical)?"translate3d(0,"+d.args[d.prop]+",0)":"translate3d("+d.args[d.prop]+",0,0)"}d.container.css(d.args)}}}d.animating=false;d.currentSlide=d.animatingTo;d.vars.after(d)};d.animateSlides=function(){if(!d.animating){d.flexAnimate(d.getTarget("next"))}};d.pause=function(){clearInterval(d.animatedSlides);if(d.vars.pausePlay){d.pausePlay.removeClass("pause").addClass("play").text(d.vars.playText)}};d.resume=function(){d.animatedSlides=setInterval(d.animateSlides,d.vars.slideshowSpeed);if(d.vars.pausePlay){d.pausePlay.removeClass("play").addClass("pause").text(d.vars.pauseText)}};d.canAdvance=function(e){if(!d.vars.animationLoop&&d.atEnd){if(d.currentSlide==0&&e==d.count-1&&d.direction!="next"){return false}else{if(d.currentSlide==d.count-1&&e==0&&d.direction=="next"){return false}else{return true}}}else{return true}};d.getTarget=function(e){d.direction=e;if(e=="next"){return(d.currentSlide==d.count-1)?0:d.currentSlide+1}else{return(d.currentSlide==0)?d.count-1:d.currentSlide-1}};d.setTransition=function(e){d.container.css({"-webkit-transition-duration":(e/1000)+"s"})};d.init()};a.flexslider.defaults={animation:"fade",slideDirection:"horizontal",slideshow:true,slideshowSpeed:7000,animationDuration:600,directionNav:true,controlNav:true,keyboardNav:true,mousewheel:false,prevText:"Previous",nextText:"Next",pausePlay:false,pauseText:"Pause",playText:"Play",randomize:false,slideToStart:0,animationLoop:true,pauseOnAction:true,pauseOnHover:false,controlsContainer:"",manualControls:"",start:function(){},before:function(){},after:function(){},end:function(){}};a.fn.flexslider=function(b){return this.each(function(){if(a(this).find(".slides li").length==1){a(this).find(".slides li").fadeIn(400)}else{if(a(this).data("flexsliderInit")!=true){new a.flexslider(this,b)}}})}})(jQuery);
+
+//]]>
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+
+/*
+ * Superfish v1.4.8 - jQuery menu widget
+ * Copyright (c) 2008 Joel Birch
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ * 	http://www.opensource.org/licenses/mit-license.php
+ * 	http://www.gnu.org/licenses/gpl.html
+ *
+ * CHANGELOG: http://users.tpg.com.au/j_birch/plugins/superfish/changelog.txt
+ */
+(function($){$.fn.superfish=function(op){var sf=$.fn.superfish,c=sf.c,$arrow=$(['<span class="',c.arrowClass,'"> &#xbb;</span>'].join("")),over=function(){var $$=$(this),menu=getMenu($$);clearTimeout(menu.sfTimer);$$.showSuperfishUl().siblings().hideSuperfishUl();},out=function(){var $$=$(this),menu=getMenu($$),o=sf.op;clearTimeout(menu.sfTimer);menu.sfTimer=setTimeout(function(){o.retainPath=($.inArray($$[0],o.$path)>-1);$$.hideSuperfishUl();if(o.$path.length&&$$.parents(["li.",o.hoverClass].join("")).length<1){over.call(o.$path);}},o.delay);},getMenu=function($menu){var menu=$menu.parents(["ul.",c.menuClass,":first"].join(""))[0];sf.op=sf.o[menu.serial];return menu;},addArrow=function($a){$a.addClass(c.anchorClass).append($arrow.clone());};return this.each(function(){var s=this.serial=sf.o.length;var o=$.extend({},sf.defaults,op);o.$path=$("li."+o.pathClass,this).slice(0,o.pathLevels).each(function(){$(this).addClass([o.hoverClass,c.bcClass].join(" ")).filter("li:has(ul)").removeClass(o.pathClass);});sf.o[s]=sf.op=o;$("li:has(ul)",this)[($.fn.hoverIntent&&!o.disableHI)?"hoverIntent":"hover"](over,out).each(function(){if(o.autoArrows){addArrow($(">a:first-child",this));}}).not("."+c.bcClass).hideSuperfishUl();var $a=$("a",this);$a.each(function(i){var $li=$a.eq(i).parents("li");$a.eq(i).focus(function(){over.call($li);}).blur(function(){out.call($li);});});o.onInit.call(this);}).each(function(){var menuClasses=[c.menuClass];if(sf.op.dropShadows&&!($.browser.msie&&$.browser.version<7)){menuClasses.push(c.shadowClass);}$(this).addClass(menuClasses.join(" "));});};var sf=$.fn.superfish;sf.o=[];sf.op={};sf.IE7fix=function(){var o=sf.op;if($.browser.msie&&$.browser.version>6&&o.dropShadows&&o.animation.opacity!=undefined){this.toggleClass(sf.c.shadowClass+"-off");}};sf.c={bcClass:"sf-breadcrumb",menuClass:"sf-js-enabled",anchorClass:"sf-with-ul",arrowClass:"sf-sub-indicator",shadowClass:"sf-shadow"};sf.defaults={hoverClass:"sfHover",pathClass:"overideThisToUse",pathLevels:1,delay:800,animation:{opacity:"show"},speed:"normal",autoArrows:true,dropShadows:true,disableHI:false,onInit:function(){},onBeforeShow:function(){},onShow:function(){},onHide:function(){}};$.fn.extend({hideSuperfishUl:function(){var o=sf.op,not=(o.retainPath===true)?o.$path:"";o.retainPath=false;var $ul=$(["li.",o.hoverClass].join(""),this).add(this).not(not).removeClass(o.hoverClass).find(">ul").hide().css("visibility","hidden");o.onHide.call($ul);return this;},showSuperfishUl:function(){var o=sf.op,sh=sf.c.shadowClass+"-off",$ul=this.addClass(o.hoverClass).find(">ul:hidden").css("visibility","visible");sf.IE7fix.call($ul);o.onBeforeShow.call($ul);$ul.animate(o.animation,o.speed,function(){sf.IE7fix.call($ul);o.onShow.call($ul);});return this;}});})(jQuery);
+
+//]]>
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+
+jQuery(document).ready(function() {
+	
+/* Navigation */
+	jQuery('#submenu ul.sfmenu').superfish({ 
+		delay:       500,								// 0.1 second delay on mouseout 
+		animation:   { opacity:'show',height:'show'},	// fade-in and slide-down animation 
+		dropShadows: true								// disable drop shadows 
+	});
+
+/* Banner class */
+	jQuery('.squarebanner ul li:nth-child(even)').addClass('rbanner');	
+	
+/* Responsive slides */
+	jQuery('.flexslider').flexslider({
+		controlNav: true,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+		directionNav: false 
+	});
+
+/* Fancybox */
+	jQuery(".fancybox").fancybox({
+          helpers: {
+              title : {
+                  type : 'float'
+              }
+          }
+  });
+
+});
+
+//]]>
+</script>
+<style type='text/css'>
+a,a:visited{color:#fc461f;text-decoration:none}
+a:hover,a:focus,a:active{color:#C93508}
+</style>
+<script type='text/javascript'>
+//<![CDATA[
+
+function showrecentcomments(json){for(var i=0;i<a_rc;i++){var b_rc=json.feed.entry[i];var c_rc;if(i==json.feed.entry.length)break;for(var k=0;k<b_rc.link.length;k++){if(b_rc.link[k].rel=='alternate'){c_rc=b_rc.link[k].href;break;}}c_rc=c_rc.replace("#","#comment-");var d_rc=c_rc.split("#");d_rc=d_rc[0];var e_rc=d_rc.split("/");e_rc=e_rc[5];e_rc=e_rc.split(".html");e_rc=e_rc[0];var f_rc=e_rc.replace(/-/g," ");f_rc=f_rc.link(d_rc);var g_rc=b_rc.published.$t;var h_rc=g_rc.substring(0,4);var i_rc=g_rc.substring(5,7);var j_rc=g_rc.substring(8,10);var k_rc=new Array();k_rc[1]="Jan";k_rc[2]="Feb";k_rc[3]="Mar";k_rc[4]="Apr";k_rc[5]="May";k_rc[6]="Jun";k_rc[7]="Jul";k_rc[8]="Aug";k_rc[9]="Sep";k_rc[10]="Oct";k_rc[11]="Nov";k_rc[12]="Dec";if("content" in b_rc){var l_rc=b_rc.content.$t;}else if("summary" in b_rc){var l_rc=b_rc.summary.$t;}else var l_rc="";var re=/<\S[^>]*>/g;l_rc=l_rc.replace(re,"");if(m_rc==true)document.write('On '+k_rc[parseInt(i_rc,10)]+' '+j_rc+' ');document.write('<a href="'+c_rc+'">'+b_rc.author[0].name.$t+'</a> commented');if(n_rc==true)document.write(' on '+f_rc);document.write(': ');if(l_rc.length<o_rc){document.write('<i>&#8220;');document.write(l_rc);document.write('&#8221;</i><br/><br/>');}else{document.write('<i>&#8220;');l_rc=l_rc.substring(0,o_rc);var p_rc=l_rc.lastIndexOf(" ");l_rc=l_rc.substring(0,p_rc);document.write(l_rc+'&hellip;&#8221;</i>');document.write('<br/><br/>');}}}
+
+function rp(json){document.write('<ul>');for(var i=0;i<numposts;i++){document.write('<li>');var entry=json.feed.entry[i];var posttitle=entry.title.$t;var posturl;if(i==json.feed.entry.length)break;for(var k=0;k<entry.link.length;k++){if(entry.link[k].rel=='alternate'){posturl=entry.link[k].href;break}}posttitle=posttitle.link(posturl);var readmorelink="(more)";readmorelink=readmorelink.link(posturl);var postdate=entry.published.$t;var cdyear=postdate.substring(0,4);var cdmonth=postdate.substring(5,7);var cdday=postdate.substring(8,10);var monthnames=new Array();monthnames[1]="Jan";monthnames[2]="Feb";monthnames[3]="Mar";monthnames[4]="Apr";monthnames[5]="May";monthnames[6]="Jun";monthnames[7]="Jul";monthnames[8]="Aug";monthnames[9]="Sep";monthnames[10]="Oct";monthnames[11]="Nov";monthnames[12]="Dec";if("content"in entry){var postcontent=entry.content.$t}else if("summary"in entry){var postcontent=entry.summary.$t}else var postcontent="";var re=/<\S[^>]*>/g;postcontent=postcontent.replace(re,"");document.write(posttitle);if(showpostdate==true)document.write(' - '+monthnames[parseInt(cdmonth,10)]+' '+cdday);if(showpostsummary==true){if(postcontent.length<numchars){document.write(postcontent)}else{postcontent=postcontent.substring(0,numchars);var quoteEnd=postcontent.lastIndexOf(" ");postcontent=postcontent.substring(0,quoteEnd);document.write(postcontent+'...'+readmorelink)}}document.write('</li>')}document.write('</ul>')}
+
+//]]>
+</script>
+<script type='text/javascript'>
+summary_noimg = 550;
+summary_img = 450;
+img_thumb_height = 200;
+img_thumb_width = 200; 
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+
+function removeHtmlTag(strx,chop){ 
+	if(strx.indexOf("<")!=-1)
+	{
+		var s = strx.split("<"); 
+		for(var i=0;i<s.length;i++){ 
+			if(s[i].indexOf(">")!=-1){ 
+				s[i] = s[i].substring(s[i].indexOf(">")+1,s[i].length); 
+			} 
+		} 
+		strx =  s.join(""); 
+	}
+	chop = (chop < strx.length-1) ? chop : strx.length-2; 
+	while(strx.charAt(chop-1)!=' ' && strx.indexOf(' ',chop)!=-1) chop++; 
+	strx = strx.substring(0,chop-1); 
+	return strx+'...'; 
+}
+
+function createSummaryAndThumb(pID){
+	var div = document.getElementById(pID);
+	var imgtag = "";
+	var img = div.getElementsByTagName("img");
+	var summ = summary_noimg;
+	if(img.length>=1) {	
+		imgtag = '<span style="float:left; padding:0px 10px 5px 0px;"><img src="'+img[0].src+'" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px" style="background:#fff;padding:3px;border:1px solid #eee;"/></span>';
+		summ = summary_img;
+	}
+	
+	var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
+	div.innerHTML = summary;
+}
+
+//]]>
+</script>
+<script type="text/javascript">var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body>
+<div class='site' id='page'>
+<div class='site-header' id='masthead'>
+<div class='topbar'>
+<div class='container_6'>
+<form action='http://voluptuousbookdiva.blogspot.com/search/' id='searchform' method='get'>
+<label class='assistive-text' for='s'>Search</label>
+<input class='field' id='s' name='q' placeholder='Search' type='text' value=''/>
+<input class='submit' id='searchsubmit' name='submit' type='submit' value='Search'/>
+</form>
+</div>
+</div>
+<div class='top cf '>
+<div class='container_6'>
+<div class='head cf'>
+<div class='logo grid_3'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='site-title'>
+<a href='http://voluptuousbookdiva.blogspot.com/'>The Voluptuous Book Diva</a>
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<h2 class='site-description'>
+</h2>
+</div>
+</div>
+</div></div>
+</div>
+<div class='grid_3' id='botmenu'>
+<div class='menu-mymenu1-container' id='submenu'>
+<div class='nbttopmenu section' id='nbttopmenu'></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='site-main cf' id='main'>
+<div class='slidebox cf'>
+<div class='container_6 slidebg'>
+<div class='grid-6' id='slider'>
+<div class='flexslider'>
+<ul class='slides'>
+<li>
+<a href='ENTER-SLIDE-1-LINK-HERE'><img src='http://i76.photobucket.com/albums/j17/VoluptuousBDiva/with%20book_zpshqkwk26r.jpg'/></a>
+<div class='flex-caption'>
+<h3></h3>
+</div>
+</li>
+<li>
+<a href='ENTER-SLIDE-2-LINK-HERE'><img src='http://i76.photobucket.com/albums/j17/VoluptuousBDiva/ree_zpsjkra2cs5.jpg'/></a>
+<div class='flex-caption'>
+<h3></h3>
+</div>
+</li>
+<li>
+<a href='ENTER-SLIDE-3-LINK-HERE'><img src='http://i76.photobucket.com/albums/j17/VoluptuousBDiva/gtt_zpsfwbeuajp.jpg'/></a>
+<div class='flex-caption'>
+<h3></h3>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='hwid cf'>
+<div class='container_6'>
+<div class='grid_2'>
+<div class='home-wid'>
+<div class='homewidsec1 section' id='homewidsec1'><div class='widget HTML' id='HTML1'>
+<div class='widget-content'>
+<center>
+<a href="http://s76.photobucket.com/user/VoluptuousBDiva/media/crystal-clear-bubble-new-twitt_zpsrats1hod.png.html" target="https://twitter.com/VoluptuousBDiva"><img src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/crystal-clear-bubble-new-twitt_zpsrats1hod.png" border="0" alt=" photo crystal-clear-bubble-new-twitt_zpsrats1hod.png"/></a>
+</center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5182990422512903304&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=homewidsec1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='grid_2'>
+<div class='home-wid'>
+<div class='homewidsec2 section' id='homewidsec2'><div class='widget HTML' id='HTML3'>
+<div class='widget-content'>
+<center>
+<a href="http://s76.photobucket.com/user/VoluptuousBDiva/media/facebook-logo-webtreatsetc%201_zpskodh2qix.png.html" target="https://www.facebook.com/voluptuousbdiva"><img src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/facebook-logo-webtreatsetc%201_zpskodh2qix.png" border="0" alt=" photo facebook-logo-webtreatsetc 1_zpskodh2qix.png"/></a>
+</center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5182990422512903304&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=homewidsec2' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='grid_2'>
+<div class='home-wid'>
+<div class='homewidsec3 section' id='homewidsec3'><div class='widget HTML' id='HTML4'>
+<div class='widget-content'>
+<center>
+<a href="http://s76.photobucket.com/user/VoluptuousBDiva/media/instagram_clear%202_zps8pvejnyp.png.html" target="https://www.instagram.com/voluptuousbookdiva/"><img src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/instagram_clear%202_zps8pvejnyp.png" border="0" alt=" photo instagram_clear 2_zps8pvejnyp.png"/></a>
+</center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5182990422512903304&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=homewidsec3' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class='container_6'>
+<div class='content-area grid_4' id='primary'>
+<div class='site-content' id='content'>
+<div class='mainblog section' id='mainblog'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>2/18/2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='7195533231814969147'></a>
+<div class='entry-header'>
+<h2 class='post-title entry-title'>
+<a href='http://voluptuousbookdiva.blogspot.com/2016/02/blog-tour-curses-ash-book-two-by.html'>{Blog Tour} Curses & Ash (Book Two) by Tiffany Daune {Excerpt, Promos + Giveaway}</a>
+</h2>
+<div class='entry-meta'>
+Posted on 7:00 AM<span class='byline'> by Voluptuous Book Diva</span>
+</div>
+<div class='clear'></div>
+</div>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-summary'>
+<div id='summary7195533231814969147'><p style="text-align: center;"><span style="font-size:18px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Discover the spellbinding sequel to Coral &amp; Bone...</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/curses%20and%20ash_zpscrvakrho.jpg" style="width: 266px; height: 400px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis_zpsly5lp9w7.jpg" style="width: 300px; height: 100px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">A demented twin sister, a demon hijacking her powers, and a mysterious journal filled with more questions than answers&mdash;Halen needs her Guardian Dax more than ever. But if she confides in Dax, she fears he will never forgive her, not after all he sacrificed to help her vanquish Asair.Halen drowned Asair in a tornado of wings&mdash;at least, she thought she killed him. Why then does his mocking voice snake through her thoughts, enticing her to surrender her power?</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Maybe she screwed up&mdash;big time&mdash;but she will never allow Asair to control her magick. And when Etils&#39; fires threaten the Earth, suspicions surrounding Asair&#39;s death rise, igniting restlessness within the realms. Her life in balance, Halen must race time, purge the demon&#39;s soul before flames consume the Earth or the Tari strike first.&nbsp;</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><a href="https://www.goodreads.com/book/show/24676384-curses-ash" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/newgoodreads-200x59_zps2gv91yxs.jpg" style="width: 200px; height: 59px;" /></a></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%202_zpsjoszqisa.jpg" style="width: 300px; height: 100px;" /></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><strong><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><a href="http://www.amazon.com/Curses-Coral-Bone-Tiffany-Daune-ebook/dp/B019DD0SR4/ref=asap_bc?ie=UTF8" target="_blank">Amazon</a>&nbsp;&diams; <a href="http://www.barnesandnoble.com/w/curses-ash-tiffany-daune/1123243314?ean=2940152785142&amp;quickview=true" target="_blank">B&amp;N</a>&nbsp;&diams; <a href="https://www.createspace.com/5977384" target="_blank">Createspace</a></span></span></strong></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:18px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Book One</span></span></p>
+
+<p style="text-align: center;"><strong><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/coral%20and%20bone_zpsomfmanav.jpg" style="height: 350px; width: 233px;" /></span></span></strong></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Halen knows the sparks igniting under her fingertips are dangerous. She has spent her entire life trying to quell the tingly feelings that make her destroy things, but now that she is back in Rockaway Beach, where she watched her father drown, the flames have become impossible to tame. &nbsp;</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Halen is trying to hold on, but when she is thrust into a mysterious new world, the underwater realm of Elosia, she unravels the secrets of her past and can&#39;t help but ignite. As she explores Elosia, she realizes her life has been a lie. And when those who have deceived her come to her for help, Halen must choose&mdash;walk away or unleash the magick that could destroy them all.</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><a href="https://www.goodreads.com/book/show/21826050-coral-bone" target="_blank"><strong>Goodreads</strong></a></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><strong><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis_zpsjpafzwwq.jpg" style="width: 300px; height: 100px;" /></span></span></strong></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">The wolf from the shadows flashed through her mind, and her<br />
+breath caught. Her grip tightened on the handle. Suddenly, the door<br />
+swept open and a heavyset man with a white bakery box pushed past,<br />
+wedging between her and the boy. She scooted inside the bakery and<br />
+slammed the door at once, but when she peered out the window, the<br />
+boy with the razor-sharp teeth had vanished. She pressed her nose to<br />
+the glass. Where had he gone? She couldn&rsquo;t even see the man with<br />
+the bakery box, either. The entire street was empty.</span></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">A cool breeze blew at her back, sending shivers along her skin.<br />
+She spun around. The cakes and breads were gone and she now<br />
+stood in a narrow room. If she spread her arms, she was sure she<br />
+could touch both walls with her fingertips. Cages of birds lined the<br />
+walls above, spiraling up to the endless ceiling, which seemed high<br />
+enough to touch the stars. Golden canaries chirped noisily, pastel<br />
+budgies paced their perches, pigeons cooed, and a raven peered at<br />
+her through glassy eyes. It cawed, flapping its wings, and she jumped<br />
+back, pressing her spine against the door.</span></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Candles set in brass sconces flickered dangerously close to the<br />
+birds&rsquo; cages. A putrid odor, a mix of acrid bird crap and heavy patchouli<br />
+incense, cut the air. Her hand scrabbled with the door handle, but the<br />
+knob would not turn. She tugged harder. Her heart thrummed in her<br />
+ears as the birds competed with chirps and whistles.</span></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">As she reached to cover her ears, her elbow knocked the edge<br />
+of one cage. It swung, and the budgies flapped their wings violently,<br />
+swaying the cage. The budgerigars&rsquo; cage bumped the caged canaries<br />
+and they too fluttered, so their cage knocked the finch&rsquo;s cage<br />
+beside it; and so like dominoes the cages were all set in motion with<br />
+screeching birds.</span></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">&ldquo;Stop the racket or I&rsquo;ll eat you all at once!&rdquo; A bald woman, with skin<br />
+so dark she could have been born of the night itself, pushed open a<br />
+door across the room. Halen had not even noticed another entrance<br />
+or exit amongst all the cages, yet there she stood, her golden eyes<br />
+wide, scanning the birds, until her gaze settled on Halen. &ldquo;What&rsquo;s<br />
+this we have here?&rdquo;</span></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Her voice was husky and smoky, curling seductively, like a song<br />
+to lure prey. It rang with familiarity in Halen&rsquo;s mind, sending an earie<br />
+chill in the marrow of her bones.</span></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Halen&rsquo;s shoulder blades pressed harder against the glass as the<br />
+woman stepped from the doorway. She wore a robe of purple silk that<br />
+swept her ankles. Her dewy skin glistened in the dim flickers of light.<br />
+Why had Asair&rsquo;s instincts led her to this place? She was mistaken to<br />
+trust his memories. Had he tricked her once more?</span></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">&ldquo;How did you summon this place?&rdquo; the woman asked.</span></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Halen&rsquo;s lips felt stitched, her throat dry. &ldquo;I didn&rsquo;t.&rdquo; She cleared her<br />
+throat. &ldquo;I was hungry. I thought I would buy a treat.&rdquo;</span></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">The woman tilted her chin toward the birds. The dolman sleeve<br />
+of her robe cascaded to her elbow as she stretched for the tarnished<br />
+lock on one of the cages. Unlocking the latch with the hook of her<br />
+long black fingernail, she reached inside. The budgerigar hopped<br />
+onto her finger, pecking the tip of her dark nail. Being careful not to<br />
+rock the cage, she coaxed the little bird out. Her eyes narrowed as<br />
+she offered Halen the bird. &ldquo;Is this your idea of a treat?&rdquo;</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/cooltext166099658267047_zpsv0yeii9y.png" style="width: 400px; height: 78px;" /></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Halen ~ Halie Steinfeld&nbsp;<br />
+Dax ~ Josh Hutcherson&nbsp;<br />
+Tage ~ Jena Malone&nbsp;<br />
+Ezra ~ Soto Fukush</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><a class="rcptr" data-raflid="563888569" data-template="" data-theme="classic" href="http://www.rafflecopter.com/rafl/display/563888569/" id="rcwidget_hd0hwp3j" rel="nofollow">a Rafflecopter giveaway</a> <script src="https://widget-prime.rafflecopter.com/launch.js"></script></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">&#8203;</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/cooltext166100228467927_zpsjperyhyp.png" style="width: 400px; height: 78px;" /></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Alive ~ Sia&nbsp;<br />
+Born to Die ~ Lana Del Rey&nbsp;<br />
+Clarity ~ Zedd&nbsp;<br />
+Breathing Underwater ~ Metric<br />
+&nbsp;Burn ~ Ellie Goulding&nbsp;<br />
+Stitches ~ Sean Mendez</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><strong><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%204_zps35ltc9bb.jpg" style="width: 300px; height: 100px;" /></span></span></strong></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/tiffany%20duane_zpsayb534g4.jpg" style="width: 170px; height: 266px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">I write stories about magick, love and dark creatures lurking in the shadows. When I&#39;m not lost in Editland you can find me reading a book from my towering TBR pile or at the movie theater nibbling licorice. I don&#39;t have a lucky number, but my favorite time is 11:11. I completely believe that the fortunes found inside cookies will come true and that you must be careful when wishing on stars. I live on an island, so if you want to visit you&#39;ll need a boat, and if you want to survive the passage, be sure to bring candy for the mermaids. &nbsp;</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%203_zpsnpe3d9kq.jpg" style="width: 300px; height: 100px;" /></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><a href="http://www.tiffanydaune.com/" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/1448409232986_zpsmscbgfjg.png" style="width: 80px; height: 80px;" /></a>&nbsp;<a href="http://www.facebook.com/pages/Tiffany-Daune/395436080503637" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/facebook-logo-webtreatsetc_zps22wlr2xw.png" style="width: 80px; height: 80px;" /></a>&nbsp;<a href="http://www.twitter.com/TiffanyDaune" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/crystal-clear-bubble-new-twitter-bird%201_zpsydnjtoll.png" style="width: 80px; height: 80px;" /></a>&nbsp;<a href="https://www.goodreads.com/author/show/6904400.Tiffany_Daune" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/1448409233301_zpsolmwhxrh.png" style="width: 80px; height: 80px;" /></a></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/YA%20Bounk%20Tour%20Button_zpsjmmdar4i.png" style="width: 152px; height: 150px;" /></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%206_zps12aogzhw.jpg" style="width: 350px; height: 117px;" /></span></span></p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/cooltext152873439482311_zpshfrdvlql.png" style="font-family: 'trebuchet ms', helvetica, sans-serif; font-size: 16px; line-height: 1.6em; width: 400px; height: 103px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary7195533231814969147");</script>
+<div style='float:right;padding-right:5px;'>
+<a href='http://voluptuousbookdiva.blogspot.com/2016/02/blog-tour-curses-ash-book-two-by.html'> Read More </a>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='entry-meta'>
+<span class='cat-links'>
+Posted in <a href='http://voluptuousbookdiva.blogspot.com/search/label/dream%20cast' rel='tag'>dream cast</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/excerpt.%20giveaway' rel='tag'>excerpt. giveaway</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/fantasy' rel='tag'>fantasy</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/paranormal' rel='tag'>paranormal</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/playlist' rel='tag'>playlist</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/YA%20Bound%20Book%20Tours' rel='tag'>YA Bound Book Tours</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/young%20adult' rel='tag'>young adult</a>
+</span>
+<span class='sep'> | </span>
+<span class='comments-link'><a href='http://voluptuousbookdiva.blogspot.com/2016/02/blog-tour-curses-ash-book-two-by.html#comment-form' onclick=''>No comments</a></span>
+</div>
+</div>
+<div style='clear: both;'></div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>2/17/2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='3149957515643359077'></a>
+<div class='entry-header'>
+<h2 class='post-title entry-title'>
+<a href='http://voluptuousbookdiva.blogspot.com/2016/02/blog-tour-twisted-sisters-by-kimber.html'>{Blog Tour} Twisted Sisters by Kimber Leigh Wheaton {Review + Giveaway}</a>
+</h2>
+<div class='entry-meta'>
+Posted on 8:00 AM<span class='byline'> by Voluptuous Book Diva</span>
+</div>
+<div class='clear'></div>
+</div>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-summary'>
+<div id='summary3149957515643359077'><p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/TS_zpse2xgckat.jpg" style="width: 317px; height: 475px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis_zpsly5lp9w7.jpg" style="width: 300px; height: 100px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">It&rsquo;s a child&rsquo;s toy&mdash;what could go wrong?<br />
+While playing with a spirit board, two sorority sisters summon the vindictive spirits of three women brutally murdered by a psychopath. Join Logan, Kacie, and the rest of the Orion Circle as they delve into the disturbing events of the past to find the key to freeing the spirits.</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">But this isn&rsquo;t any ordinary haunting. &nbsp;These ghosts were banished before, and now they have returned more powerful than anyone could have imagined. Anger breeds hatred and hatred leads to darkness&mdash;these phantoms are on the verge of losing their last spark of humanity and becoming completely lost to the shadows.</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Can Logan and Kacie convince the tortured souls to embrace the light and move on, or will the spirits succumb to the hypnotic pull of evil, leading to an eternity of torment and suffering?</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><a href="https://www.goodreads.com/book/show/26126404-twisted-sisters" style="font-family: 'trebuchet ms', helvetica, sans-serif; font-size: 16px; line-height: 1.6em;" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/newgoodreads-200x59_zps2gv91yxs.jpg" style="width: 200px; height: 59px;" /></a></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%202_zpsjoszqisa.jpg" style="width: 300px; height: 100px;" /></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><strong><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><a href="http://www.amazon.com/Twisted-Sisters-Orion-Circle-Book-ebook/dp/B01772P33M/" target="_blank">Amazon</a>&nbsp;&diams; <a href="http://www.barnesandnoble.com/w/twisted-sisters-kimber-leigh-wheaton/1123093076?ean=9780990402664" target="_blank">B&amp;N</a></span></span></strong></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><strong>Book One</strong></span></span></p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/22606634_zpssutayavw.jpg" style="width: 275px; height: 300px;" /></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><strong><a href="http://www.amazon.com/Tortured-Souls-Orion-Circle-Book-ebook/dp/B00LDWTU8W/ref=asap_bc?ie=UTF8" target="_blank">Amazon</a>&nbsp;&diams; <a href="http://www.barnesandnoble.com/w/tortured-souls-kimber-leigh-wheaton/1120140230?ean=9780990402619" target="_blank">B&amp;N</a></strong></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><strong><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%201_zps51plnsya.jpg" style="width: 300px; height: 100px;" /></span></span></strong></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">I received an eARC when I signed up to host the book tour. I made no guarantee of a favorable review and the opinions expressed here are unbiased and my own.</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">This is not a stand alone so Tortured Souls should be read first. This is a fast paced and exciting read full of paranormal elements and it contains just the right amount of romance to captivate you. The story line is well written and the characters are easy to relate to. The entire gang returns in this sequel plus a few new friends. Want to know what happens and what the consequences are for playing around with a ouija board? Then I highly recommend you read this YA book that&#39;s full of thrills and chills.</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">I give this book:</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis_zpsfopbhbrz.png" style="width: 300px; height: 100px;" /></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><a class="rcptr" data-raflid="d04251231079" data-template="" data-theme="classic" href="http://www.rafflecopter.com/rafl/display/d04251231079/" id="rcwidget_s9dupbeu" rel="nofollow">a Rafflecopter giveaway</a><script src="https://widget-prime.rafflecopter.com/launch.js"></script></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">&#8203;</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><strong><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%204_zps35ltc9bb.jpg" style="width: 300px; height: 100px;" /></span></span></strong></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/KimberLeigh_zpswdsgikb5.jpg" style="width: 200px; height: 217px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Kimber Leigh Wheaton is a bestselling YA author with a soft spot for sweet romance. In addition to writing, she works as an editor for two publishers as well as select indie authors. She is married to her soul mate, has a teenage son, and shares her home with three dogs and lots of dragons. Kimber Leigh is addicted to romance, video games, superheroes, villains, and chocolate&mdash;not necessarily in that order. (If she has to choose, she&rsquo;ll take a chocolate covered superhero!) Winner of the 2014 Rising Star Award at the BTS Red Carpet Awards in NOLA.</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Author <a href="http://eepurl.com/URgwH" target="_blank">Newsletter&#8203;</a></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%203_zpsnpe3d9kq.jpg" style="width: 300px; height: 100px;" /></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><a href="http://www.kimberleighwheaton.com" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/1448409232986_zpsmscbgfjg.png" style="width: 80px; height: 80px;" /></a>&nbsp;<a href="https://www.facebook.com/KimberLeighWheaton" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/facebook-logo-webtreatsetc_zps22wlr2xw.png" style="width: 80px; height: 80px;" /></a>&nbsp;<a href="https://twitter.com/Cymberle" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/crystal-clear-bubble-new-twitter-bird%201_zpsydnjtoll.png" style="width: 80px; height: 80px;" /></a>&nbsp;<a href="https://www.goodreads.com/author/show/7885752.Kimber_Leigh_Wheaton" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/1448409233301_zpsolmwhxrh.png" style="width: 80px; height: 80px;" /></a></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/ButtonHosts_zpschhp6guf.png" style="width: 175px; height: 175px;" /></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%206_zps12aogzhw.jpg" style="width: 350px; height: 117px;" /></span></span></p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/cooltext152873439482311_zpshfrdvlql.png" style="font-family: 'trebuchet ms', helvetica, sans-serif; font-size: 16px; line-height: 1.6em; width: 400px; height: 103px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary3149957515643359077");</script>
+<div style='float:right;padding-right:5px;'>
+<a href='http://voluptuousbookdiva.blogspot.com/2016/02/blog-tour-twisted-sisters-by-kimber.html'> Read More </a>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='entry-meta'>
+<span class='cat-links'>
+Posted in <a href='http://voluptuousbookdiva.blogspot.com/search/label/4%20star%20review' rel='tag'>4 star review</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/giveaway' rel='tag'>giveaway</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/mystery' rel='tag'>mystery</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/urban%20fantasy' rel='tag'>urban fantasy</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/xpresso%20book%20tours' rel='tag'>xpresso book tours</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/young%20adult' rel='tag'>young adult</a>
+</span>
+<span class='sep'> | </span>
+<span class='comments-link'><a href='http://voluptuousbookdiva.blogspot.com/2016/02/blog-tour-twisted-sisters-by-kimber.html#comment-form' onclick=''>4 comments</a></span>
+</div>
+</div>
+<div style='clear: both;'></div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>2/16/2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='2751384285058922457'></a>
+<div class='entry-header'>
+<h2 class='post-title entry-title'>
+<a href='http://voluptuousbookdiva.blogspot.com/2016/02/spotlight-on-author-shannon-avangeline.html'>Spotlight on Author Shannon Avangeline {Interview, Review + Giveaway}</a>
+</h2>
+<div class='entry-meta'>
+Posted on 8:00 AM<span class='byline'> by Voluptuous Book Diva</span>
+</div>
+<div class='clear'></div>
+</div>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-summary'>
+<div id='summary2751384285058922457'><p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/K.R.%20Fajardo_zpsrmfihvgh.jpg" style="width: 425px; height: 283px;" /></p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/A1ljvloS7bL._UX250__zpssotrg2va.jpg" style="width: 250px; height: 396px;" /></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Coming from the south, some of her fondest memories are sitting on her Granny and Papa&#39;s front porch on summer nights listening to the adults share the stories of their childhoods. Her favorite were the spooky stories and local legends.</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Shannon had her first story &#39;published&#39; when she was in first grade in a book that was made for the school board members of Surry County, North Carolina. Her epic tale of Sally, the red balloon was an instant elementary hit!</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Shannon lives with her husband, three boys, and two guinea pigs in Jonesville, N.C. When she is not writing, she enjoys spending time with friends and family, playing with her boys, reading, and shopping on Amazon. She lives a very normal, very un-glamorous, lifestyle that she loves. If you are in the area, you will probably find her volunteering at her children&#39;s school, in her minivan on the way to a band concert, or at the public library.</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">She is an avid supporter and member of the Friends of the Jonesville Public Library, whose mission is to build a new library and to provide more community programs in a struggling economic demographic.&nbsp;</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Even though she is not a fan of television in general, in her spare time (like that ever happens) she enjoys binge watching on Netflix. Her favorite shows include The Vampire Diaries, Buffy the Vampire Slayer, Fringe, and Haven.</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis_zps53xi2kbi.jpg" style="width: 300px; height: 100px;" /></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><font face="trebuchet ms, helvetica, sans-serif"><span style="font-size: 16px;">I was afforded the opportunity to interview Shannon so let&#39;s take a look at her candid answers.</span></font></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>What inspired you to be a writer?</strong></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;">I&rsquo;m not sure it was truly ever one thing that inspired me to be a writer. It was more like a combination of different things that came together. I remember passing people in cars or in a store and wondering what their lives were like. I have always been fascinated by the thought of what happens in other people&rsquo;s lives when I&rsquo;m not looking. I remember growing up in a family of &ldquo;storytellers&rdquo;. Some of my best memories from my childhood come from summer nights on my Granny and Papa&rsquo;s front porch. These were my mother&rsquo;s parents. I stayed with them while my mom was working. Unlike the homes of today, they had no phone (until my mother forced the issue when I was around four years old), the behemoth console television they owned only had four channels (if the weather held), no air conditioning, and they drove a pea green Ford Granada that smelled like tobacco and spearmint chewing gum.&nbsp;</span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;">To say they lived simply is an understatement; however, this is where I started learning my craft. I was a chatty child, so to keep me entertained they made up stories. While we tended the garden, made meals, or they tried to convince me to nap my Granny would concoct epic tales about me and my cousins getting lost on the top of Pilot Mountain and being rescued by Bigfoot. These stories fueled my imagination, but my favorites came on the weekend nights. My mom, me, Granny, Papa, my uncle, aunt, and various degrees of kin would have a huge meal and then retire to the front porch to talk. This usually started as, &ldquo;You remember that time?&rdquo; or &ldquo;Did you hear about John&rsquo;s boy?&rdquo;, but always ended up with them telling spooky stories from their youth. This is what I lived for! The tales of the ghosts and ghoulish things that they had seen in their lives. I think this more than anything fueled my love of all things paranormal.&nbsp;</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>What genre/s do you write?</strong></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;">First, it must be fiction! I mainly write YA; however, I do have a couple of NA books in the hopper. Paranormal is a personal favorite of mine, both to read and to write. I also love the contemporary college stories. No matter what the genre is, I have to be able to connect to the characters and care about their journey. The only genre I don&rsquo;t think I could write would be historical romance, but I would never completely rule out any genre. Never say never!</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>What draws you to this/these genres?</strong></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;">The paranormal draw, again, goes back to my childhood. Things that are otherworldly have always intrigued me! Just the possibility of stepping away from the everyday world and opening that door to the &ldquo;What if?&rdquo;. The contemporary is the exact opposite! It is a chance to step away from the fanciful and dive head first in to gritty everyday problems. &nbsp;I don&rsquo;t want to be pigeonholed into being just one thing. There are too many stories to tell. &nbsp;I am a huge fangirl myself when it comes to certain authors. In YA, I love Becca Fitzpatrick, Cassandra Clare, and Maggie Steifvater. Some of my favorite NA authors are Jamie McGuire and Colleen Hoover. If you read more mature books like NA and enjoy a wicked twist, I love Teresa Mummert.</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>Tell us a bit about your two main characters?</strong></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;">Paige is every displaced, sixteen year old who feels like the ugly duckling. Due to some bad decisions on her mother&rsquo;s part, she is moving once again. She is the kind of person who feels the responsibility of the world on her shoulders; however, she would prefer to handle everything out of the limelight. &nbsp;She&rsquo;s a little awkward, but she is a good person who loves her friends and family fiercely. Overnight, she is forced to learn how to go from being ordinary to extraordinary! She also has some tough choices to make when it comes to love. She has to learn to trust herself and see &ldquo;people&rdquo; for whom, not what they are.&nbsp;</span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;">Lucian (Luc) is more of a mystery. He hates what he is. He feels not only the responsibility for others, but a deep seeded guilt as well. Luc&rsquo;s biggest obstacle is overcoming his own self-loathing enough to let someone inside past the walls he has built around his heart. He feels unworthy of love for himself, but he loves BIG! He is funny, sexy, and I fell in love with him before I had even written the first words of Incandescent. By around the fourth chapter, he became my forever book boyfriend!</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>How much research do you do?</strong></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;">I think that depends on the story. I always want there to be an authenticity to my stories, and I would never want to write about a place or a thing and have the readers unable to recognize and have a personal connection with what I&rsquo;m talking about. For example if you wrote a story about my tiny hometown and described the skyscrapers, I would close the book and never pick it back up! No matter how good a story is, no matter the genre, there has to be enough fact to make the fiction believable. Once I started Incandescent, I soon realized there was an extraordinary amount of research to do. It turned out to be more than I could have ever imagined!</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>Do you aim for a set amount of words/pages per day?</strong></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;">NO! I&rsquo;m a pantser, not a plotter. Usually, I start with an idea and it shapes itself as the characters tell their story. I stop and do research when something doesn&rsquo;t feel right or I feel that I need more substance to support the story. In addition, I have a husband, three children, and I&rsquo;m still terrified to let go of my day job. I never post a pre-order date until the book is finished. Under coming attractions on my website, there are approximate dates for releases, but even that has a disclaimer about the author&rsquo;s mood and schedule.</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>What was the hardest thing about writing your latest book?</strong></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;">Publishing it! I have written other things in the past that have fallen to the wayside out of fear. It is a difficult thing to put your heart and soul out for the world to judge. I probably would have never had the courage if it had not been for my best friend, Melissa. She was the first one to read anything from Incandescent. I remember having a conversation with her where she paid me the greatest compliment ever. When I asked her if it sucked, and she is totally the type that will tell you yes if it does, she told me that after the first few chapters she had forgotten that I was the one who wrote it. Without knowing, she gave me the confidence to take a chance and publish.</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>If we Googled your name what would we see?</strong></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;">Not much, I&rsquo;m afraid. Just the links for my website, book, and various social media accounts. Of course, I had to look!</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>If you had to describe yourself using three words they would be?</strong></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;">Loyal, Loving, Procrastinator (which is not fun on a deadline!!)</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>What&rsquo;s the current color of your hair?</strong></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;">Medium auburn by choice, not nature.</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>Name one thing that drives you crazy.</strong></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;">People who are needlessly rude or cruel! That&rsquo;s not cool.</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>Describe your favorite pair of pajamas.</strong></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;">The top is a red Mickey Mouse t shirt with white capris that have Mickey heads all over them.</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>What would you do if you won $20 million?</strong></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;">Donate a lot to charity. I have several charities that are near and dear to my heart, especially Autism research. Two of my three sons are on the Autism spectrum. I would build my tiny town a library and make it a memorial to my Granny. I would spend an obscene amount on books. Move my best friend next door to me instead of 8 hours away. Go on a trip around the world with my family and my best friend&rsquo;s family, and end up on a tropical beach for a few years. Build my mama the house of her dreams and buy her a new car! I could go on and on&hellip; So, I&rsquo;d probably be broke before long!</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><strong>Do you have any quirky habits?</strong></span></p>
+
+<p style="text-align: center;"><br />
+<span style="font-size:16px;">Ok, my husband laughs at me every time a new book comes out that I want to read from a series. The reason being, I cannot just read the new book. I have to go back and re-read the entire series up to that point before I can read the new release. No big deal, right? At one time, I was obsessed with Christine Feehan&rsquo;s Dark series. There are over 20 books so far in that series and she is still writing. I had to give it up. I may go back one day and finish if she ever stops writing the series. It&rsquo;s only one of my many quirks, but probably the weirdest!</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;">I want to thank Shannon for taking&nbsp;the time to answer these questions which give us a closer look at not only her&nbsp;but also the inner workings of her writting.&nbsp;</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size: 16px;">Here&#39;s her book Incandescent.</span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/28001884_zps1cga3o2m.jpg" style="width: 318px; height: 423px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis_zpsly5lp9w7.jpg" style="width: 300px; height: 100px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">What if you had a destiny you knew nothing about?&nbsp;</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">What if it was to kill the boy you love?&nbsp;</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Being sixteen is hard. Paige Thornton doesn&rsquo;t even feel like she belongs in her own family! So she really shouldn&rsquo;t be that upset that her flighty mom has uprooted her and her twin sisters again to drag them to live with their Grams in Seahaven, NC. However, Seahaven is full of surprises for Paige. A new school, a gorgeous new boy, and a magical heritage that she had no idea about. But somehow this boy, Luc, is too perfect.&nbsp;</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Lucian Burke knows that he shouldn&rsquo;t let himself get too close to Paige. He&rsquo;s only supposed to watch her and report back. Unfortunately, things don&rsquo;t always go as planned. As long as he keeps his distance, things will be fine.&nbsp;</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">What will happen to this modern day Romeo and Juliet?&nbsp;</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Will they ever find their happiness, or will it all end in blood and ashes?&nbsp;</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><a href="https://www.goodreads.com/book/show/28001884-incandescent" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/newgoodreads-200x59_zps2gv91yxs.jpg" style="width: 200px; height: 59px;" /></a></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%202_zpsjoszqisa.jpg" style="width: 300px; height: 100px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><a href="http://www.amazon.com/Incandescent-Coven-Light-Book-1-ebook/dp/B017JUM30S/ref=sr_1_3?ie=UTF8&amp;qid=1455571475&amp;sr=8-3&amp;keywords=incandescent" target="_blank"><strong><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">Amazon</span></span></strong></a></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><strong><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%201_zps51plnsya.jpg" style="width: 300px; height: 100px;" /></span></span></strong></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">I came across this book while perusing through my newsfeed on a social media site&nbsp;and so I borrowed it via KU. Definitely one of the best things I&#39;ve done so far this year. Paige is barely sixteen years old but she is mom to her twin sisters and even to her own mom Marlene. After her mother divorces step dad number two they go to live with her grandmother Sadie who&#39;s more than what she appears to be and it doesn&#39;t take long for Paige to learn some startling things about herself and the world that she lives in.</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">This well written plot is off to an amazing start full of witches, vampires, angels and first love. The characters are so well developed that they practically jump right out of the pages and immediately capture your full attention. I practically screamed when I reached the last page simply because the author left me wanting more!! I simply cannot wait for book two because I am dying to find out what&#39;s in store for Paige and Luc.</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;">I give this book:</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis_zpsjagkifyz.jpg" style="width: 300px; height: 100px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p><a class="rcptr" data-raflid="7bcc9d0f23" data-template="" data-theme="classic" href="http://www.rafflecopter.com/rafl/display/7bcc9d0f23/" id="rcwidget_7wmaixhl" rel="nofollow">a Rafflecopter giveaway</a> <script src="https://widget-prime.rafflecopter.com/launch.js"></script></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:times new roman,times,serif;">&#8203;<img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%203_zpsnpe3d9kq.jpg" style="width: 300px; height: 100px;" /></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:times new roman,times,serif;"><a href="www.shannonavangeline.com" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/1448409232986_zpsmscbgfjg.png" style="width: 80px; height: 80px;" /></a>&nbsp;<a href="www.facebook.com/shannonavangeline" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/facebook-logo-webtreatsetc_zps22wlr2xw.png" style="width: 80px; height: 80px;" /></a>&nbsp;<a href="www.twitter.com/savangeline" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/crystal-clear-bubble-new-twitter-bird%201_zpsydnjtoll.png" style="width: 80px; height: 80px;" /></a>&nbsp;<a href="https://www.goodreads.com/author/show/14024591.Shannon_Avangeline" target="_blank"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/1448409233301_zpsolmwhxrh.png" style="width: 80px; height: 80px;" /></a>&#8203;</span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:times new roman,times,serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/Synopsis%206_zps12aogzhw.jpg" style="width: 350px; height: 117px;" /></span></span></p>
+
+<p style="text-align: center;"><span style="font-size:16px;"><span style="font-family:times new roman,times,serif;"><img alt="" src="http://i76.photobucket.com/albums/j17/VoluptuousBDiva/cooltext152873439482311_zpshfrdvlql.png" style="width: 400px; height: 103px;" /></span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;<!--
+--></p>
+</div>
+<script type='text/javascript'>createSummaryAndThumb("summary2751384285058922457");</script>
+<div style='float:right;padding-right:5px;'>
+<a href='http://voluptuousbookdiva.blogspot.com/2016/02/spotlight-on-author-shannon-avangeline.html'> Read More </a>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='entry-meta'>
+<span class='cat-links'>
+Posted in <a href='http://voluptuousbookdiva.blogspot.com/search/label/5%20star%20review' rel='tag'>5 star review</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/angels' rel='tag'>angels</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/author%20interview' rel='tag'>author interview</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/author%20spotlight' rel='tag'>author spotlight</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/giveaway' rel='tag'>giveaway</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/guardians' rel='tag'>guardians</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/vampires' rel='tag'>vampires</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/witches' rel='tag'>witches</a>, <a href='http://voluptuousbookdiva.blogspot.com/search/label/young%20adult' rel='tag'>young adult</a>
+</span>
+<span class='sep'> | </span>
+<span class='comments-link'><a href='http://voluptuousbookdiva.blogspot.com/2016/02/spotlight-on-author-shannon-avangeline.html#comment-form' onclick=''>No comments</a></span>
+</div>
+</div>
+<div style='clear: both;'></div>
+</div>
+
+        </div></div>
+      
+</div>
+<div style='clear: both;'></div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://voluptuousbookdiva.blogspot.com/search?updated-max=2016-02-16T08:00:00-06:00&amp;max-results=4' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://voluptuousbookdiva.blogspot.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://voluptuousbookdiva.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div></div>
+</div>
+</div>
+<div class='widget-area grid_2' id='secondary'>
+<div class='sidebar section' id='sidebartop'><div class='widget Profile' id='Profile1'>
+<h2>About Me</h2>
+<div class='widget-content'>
+<a href='https://plus.google.com/109465141024481505844'><img alt='My Photo' class='profile-img' height='80' src='//lh5.googleusercontent.com/-k95ytJ6mycY/AAAAAAAAAAI/AAAAAAAACEY/XMgWYO52q8w/s80-c/photo.jpg' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://plus.google.com/109465141024481505844' rel='author' style='background-image: url(//www.google.com/images/icons/ui/gprofile_button-16.png);'>
+Voluptuous Book Diva
+</a>
+<br/>
+<div class='g-follow' data-annotation='bubble' data-height='20' data-href='https://plus.google.com/109465141024481505844'></div>
+</dt>
+</dl>
+<a class='profile-link' href='https://plus.google.com/109465141024481505844' rel='author'>View my complete profile</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5182990422512903304&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebartop' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<select id='BlogArchive1_ArchiveMenu'>
+<option value=''>Blog Archive</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2016_02_01_archive.html'>February (9)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2016_01_01_archive.html'>January (27)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_12_01_archive.html'>December (31)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_11_01_archive.html'>November (25)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_10_01_archive.html'>October (34)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_09_01_archive.html'>September (21)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_08_01_archive.html'>August (21)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_07_01_archive.html'>July (30)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_06_01_archive.html'>June (47)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_05_01_archive.html'>May (52)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_04_01_archive.html'>April (40)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_03_01_archive.html'>March (72)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_02_01_archive.html'>February (57)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2015_01_01_archive.html'>January (37)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2014_12_01_archive.html'>December (16)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2014_11_01_archive.html'>November (10)</option>
+<option value='http://voluptuousbookdiva.blogspot.com/2014_10_01_archive.html'>October (36)</option>
+</select>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5182990422512903304&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebartop' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' id='HTML2'>
+<h2 class='title'>Bloglovin</h2>
+<div class='widget-content'>
+<a class="blsdk-follow" href="https://www.bloglovin.com/blogs/voluptuous-book-diva-13760029" target="_blank" data-blsdk-type="button" data-blsdk-counter="false">Follow</a><script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s);js.id = id;js.src = "https://widget.bloglovin.com/assets/widget/loader.js";fjs.parentNode.insertBefore(js, fjs);}(document, "script", "bloglovin-sdk"))</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5182990422512903304&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebartop' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML7'>
+<h2 class='title'>Goodreads</h2>
+<div class='widget-content'>
+<!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
+      <style type="text/css" media="screen">
+  .gr_custom_container_1455749725 {
+    /* customize your Goodreads widget container here*/
+    border: 1px solid gray;
+    border-radius:10px;
+    padding: 10px 5px 10px 5px;
+    background-color: transparent;
+    color: #000000;
+    width: 200px
+  }
+  .gr_custom_header_1455749725 {
+    /* customize your Goodreads header here*/
+    border-bottom: 1px solid gray;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 80%
+  }
+  .gr_custom_each_container_1455749725 {
+    /* customize each individual book container here */
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    overflow: auto;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #aaa;
+  }
+  .gr_custom_book_container_1455749725 {
+    /* customize your book covers here */
+    overflow: hidden;
+    height: 60px;
+      float: left;
+      margin-right: 4px;
+      width: 39px;
+  }
+  .gr_custom_author_1455749725 {
+    /* customize your author names here */
+    font-size: 10px;
+  }
+  .gr_custom_tags_1455749725 {
+    /* customize your tags here */
+    font-size: 10px;
+    color: gray;
+  }
+  .gr_custom_rating_1455749725 {
+    /* customize your rating stars here */
+    float: right;
+  }
+</style>
+
+      <div id="gr_custom_widget_1455749725">
+          <div class="gr_custom_container_1455749725">
+    <h2 class="gr_custom_header_1455749725">
+    <a style="text-decoration: none;" href="https://www.goodreads.com/review/list/16419149-laura-hernandez?shelf=currently-reading&amp;utm_medium=api&amp;utm_source=custom_widget">TVBD&#39;s Current Read</a>
+    </h2>
+      <div class="gr_custom_each_container_1455749725">
+          <div class="gr_custom_book_container_1455749725">
+            <a title="Twisted" href="https://www.goodreads.com/review/show/1507488351?utm_medium=api&amp;utm_source=custom_widget"><img alt="Twisted" border="0" src="https://d.gr-assets.com/books/1452603518s/27862076.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1455749725">
+            <a href="https://www.goodreads.com/review/show/1507488351?utm_medium=api&amp;utm_source=custom_widget">Twisted</a>
+          </div>
+          <div class="gr_custom_author_1455749725">
+            by <a href="https://www.goodreads.com/author/show/7326382.Elizabeth_Montgomery">Elizabeth Montgomery</a>
+          </div>
+      </div>
+  <br style="clear: both"/>
+  <center>
+    <a href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://www.goodreads.com/images/widget/widget_logo.gif" /></a>
+  </center>
+  <noscript>
+    Share <a href="https://www.goodreads.com/">book reviews</a> and ratings with Laura, and even join a <a href="https://www.goodreads.com/group">book club</a> on Goodreads.
+  </noscript>
+  </div>
+
+      </div>
+      <script src="https://www.goodreads.com/review/custom_widget/16419149.TVBD's%20Current%20Read?cover_position=left&cover_size=small&num_books=5&order=a&shelf=currently-reading&show_author=1&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=true&widget_border_width=1&widget_id=1455749725&widget_text_color=000000&widget_title_size=small&widget_width=thin" type="text/javascript" charset="utf-8"></script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5182990422512903304&widgetType=HTML&widgetId=HTML7&action=editWidget&sectionId=sidebartop' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' target='configHTML7' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML6'>
+<h2 class='title'>First To Read</h2>
+<div class='widget-content'>
+<a href="http://www.firsttoread.com"><img alt="First To Read" src="http://www.firsttoread.com/Images/F2R_member.jpg" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5182990422512903304&widgetType=HTML&widgetId=HTML6&action=editWidget&sectionId=sidebartop' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML6"));' target='configHTML6' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Image' id='Image1'>
+<h2>Blogging From A to Z</h2>
+<div class='widget-content'>
+<img alt='Blogging From A to Z' height='175' id='Image1_img' src='http://1.bp.blogspot.com/-YrKyeD6wf5A/VsT0_gLkdxI/AAAAAAAAD0I/V2ri0JjV3ao/s1600-r/atoz.jpg' width='175'/>
+<br/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5182990422512903304&widgetType=Image&widgetId=Image1&action=editWidget&sectionId=sidebartop' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image1"));' target='configImage1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Image' id='Image2'>
+<h2>Joyful Brigade</h2>
+<div class='widget-content'>
+<img alt='Joyful Brigade' height='175' id='Image2_img' src='http://2.bp.blogspot.com/-6-EbSo7C7iI/VsT1Uu25vaI/AAAAAAAAD0U/4p5D1Ntqs2I/s1600-r/12715564_10208897266017370_4788214300461766269_n.jpg' width='175'/>
+<br/>
+<span class='caption'>"I'm a member"</span>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5182990422512903304&widgetType=Image&widgetId=Image2&action=editWidget&sectionId=sidebartop' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image2"));' target='configImage2' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='site-footer' id='colophon'>
+<div class='container_6'>
+<div class='site-info'>
+<div class='fcred'>
+<!-- you do not have permission to remove or change footer credits -->
+Copyright &#169; 2012 <a href='http://voluptuousbookdiva.blogspot.com/'>The Voluptuous Book Diva</a> | Powered by <a href='http://www.blogger.com/'>Blogger</a>
+<br/>Design by <a href='http://www.fabthemes.com' target='_blank'>Fabthemes</a> | Blogger Template by <a href='http://newbloggerthemes.com/' target='_blank' title='Best Blogger Templates'>NewBloggerThemes.com</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2244687694-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '5182990422512903304';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d5182990422512903304','//voluptuousbookdiva.blogspot.com/','5182990422512903304');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '5182990422512903304', 'bloggerUrl': 'https://www.blogger.com', 'title': 'The Voluptuous Book Diva', 'pageType': 'index', 'url': 'http://voluptuousbookdiva.blogspot.com/', 'canonicalUrl': 'http://voluptuousbookdiva.blogspot.com/', 'homepageUrl': 'http://voluptuousbookdiva.blogspot.com/', 'canonicalHomepageUrl': 'http://voluptuousbookdiva.blogspot.com/', 'blogspotFaviconUrl': 'http://voluptuousbookdiva.blogspot.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'The Voluptuous Book Diva', 'metaDescription': 'A blog about books and giveaways.', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42The Voluptuous Book Diva - Atom\42 href\75\42http://voluptuousbookdiva.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42The Voluptuous Book Diva - RSS\42 href\75\42http://voluptuousbookdiva.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42The Voluptuous Book Diva - Atom\42 href\75\42https://www.blogger.com/feeds/5182990422512903304/posts/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://voluptuousbookdiva.blogspot.com/\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/581377545bf84644', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'messages', 'data': {'archive': 'Archive', 'blogArchive': 'Blog Archive', 'by': 'By', 'byAuthor': 'By %1', 'byAuthorLink': 'By \74a href\75\42%2\42\76%1\74/a\076', 'deleteBacklink': 'Delete Backlink', 'deleteComment': 'Delete Comment', 'edit': 'Edit', 'emailAddress': 'Email Address', 'getEmailNotifications': 'Get email notifications', 'keepReading': 'Keep reading', 'labels': 'Labels', 'loadMorePosts': 'Load more posts', 'loading': 'Loading...', 'myBlogList': 'My Blog List', 'myFavoriteSites': 'My favorite sites', 'newer': 'Newer', 'newerPosts': 'Newer Posts', 'newest': 'Newest', 'noResultsFound': 'No results found', 'noTitle': 'No title', 'numberOfComments': '{numComments, plural, \0750 {No comments} \0751 {1 comment} other {# comments}}', 'older': 'Older', 'olderPosts': 'Older Posts', 'oldest': 'Oldest', 'onlyTeamMembersCanComment': 'Note: Only a member of this blog may post a comment.', 'popularPosts': 'Popular Posts', 'popularPostsFromThisBlog': 'Popular posts from this blog', 'postAComment': 'Post a Comment', 'postedBy': 'Posted by', 'postedByAuthor': 'Posted by %1', 'postedByAuthorLink': 'Posted by \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Read more', 'reportAbuse': 'Report Abuse', 'search': 'Search', 'searchBlog': 'Search blog', 'share': 'Share', 'showAll': 'Show all', 'someOfMyFavoriteSites': 'Some of my favorite sites', 'subscribe': 'Subscribe', 'subscribeToThisBlog': 'Subscribe to this blog', 'theresNothingHere': 'There\47s nothing here!', 'viewAll': 'View all', 'visitProfile': 'Visit profile'}}, {'name': 'skin', 'data': {'vars': {}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'homewidsec1', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'homewidsec2', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'homewidsec3', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'mainblog', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/3060979228-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/306752634-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebartop', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebartop', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebartop', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'sidebartop', null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebartop', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image1', 'sidebartop', null, document.getElementById('Image1'), {'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image2', 'sidebartop', null, document.getElementById('Image2'), {'resize': true}, 'displayModeFull'));
+</script>
+</body>
+</html>

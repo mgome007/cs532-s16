@@ -1,0 +1,120 @@
+   [1][logo.png]
+   Keybase Staging Server
+   [2][logo_no_text.png]
+   Keybase Staging Server
+   ____________________
+   [3]Join [4]Login
+   Keybase is hiring: [5]engineers!
+   Surf Keybase:
+   [6][d5ab638180e6b533fac633f5a5b45705_200_200_square_200.jpeg] [7]aloria
+   [8][ff114e476f2ead54fedb0fe65ca54605_200_200_square_200.jpeg] [9]isaacs
+   [10][d602ba717352b8e4a59752dc6b8f2705_200_200_square_200.jpeg] [11]felt
+   [12][2f57d3fd493e640ba6e1971e549f8505_200_200_square_200.jpeg]
+   [13]snipe
+   [14][df0330321ae7c639bd0e793ac9858205_200_200_square_200.jpeg]
+   [15]chris
+   [ed475b56fe33bee4629bb746641fe005_200_200_square_200.png]
+   Adrian Parreiras-Horta
+   Avid Democracy Now! listener and supporter; Collector and consumer of
+   video game culture; Fearful subject of the Omnicidal God-Machine
+
+keybase.io/m0dular
+
+   [16]1C7B874835AD99B2
+   [17]phobos_4nomaly [18]tweet
+   [19]sensei-de-loafage [20]gist
+   m0dular has an invitation available
+   If you know m0dular, you can ask them for an invitation to Keybase.
+   [21]Encrypt
+   [22]Verify
+
+m0dular from the [23]command line
+
+# first
+keybase signup  # if you're new, or
+keybase login   # if you're not.
+
+# then
+keybase pgp select  # if you already have a public key, or
+keybase pgp gen     # if this is all new to you
+
+keybase id m0dular # verify identity proofs
+
+keybase pgp encrypt m0dular -m 'a secret msg'
+keybase pgp encrypt m0dular -s -m 'a signed secret msg'
+
+# optionally track m0dular, so you don't
+# have to keep id'ing them, even when
+# switching machines
+keybase track m0dular
+
+# and psst, people you track are pulled into GPG too
+gpg --encrypt # etc.
+     __________________________________________________________________
+
+   Once you're in, you can sign, verify, encrypt and decrypt in variety of
+   ways. Check out the [24]examples and, if necessary, the
+   [25]installation instructions. All the crypto is performed with GPG.
+   For an overview of Keybase, check out our [26]splash page.
+
+[27]Tracking (1)
+
+   [28][8a0f0fe8960cac6b789f329e74b99605_200_200_square_200.jpeg]
+                                                                  [29]trevrosen
+
+[30]Trackers (0)
+
+   [footprints.jpg]
+   Keybase, 2016 Available within Tor at http://fncuwbiisyh6ak3i.onion
+   [31]install Keybase | [32]read our blog | [33]documentation | [34]bug
+   reporting | [35]terms & [36]privacy
+   [37]Please send us feedback & bug reports.
+   Keybase (still alpha), 2016 | [38]terms & [39]privacy
+
+References
+
+   Visible links
+   1. file:///
+   2. file:///
+   3. file:///home/mgomez/CS432/A3/source166.txt#_
+   4. file:///home/mgomez/CS432/A3/source166.txt#_
+   5. file:///jobs
+   6. file:///aloria
+   7. file:///aloria
+   8. file:///isaacs
+   9. file:///isaacs
+  10. file:///felt
+  11. file:///felt
+  12. file:///snipe
+  13. file:///snipe
+  14. file:///chris
+  15. file:///chris
+  16. file:///home/mgomez/CS432/A3/source166.txt#show-public
+  17. https://twitter.com/Phobos_4nomaly
+  18. https://twitter.com/Phobos_4nomaly/status/638783966749790209
+  19. https://github.com/sensei-de-loafage
+  20. https://gist.github.com/4c7c9726648744be02c8
+  21. file:///encrypt#m0dular
+  22. file:///verify
+  23. file:///docs/command_line
+  24. file:///docs/command_line
+  25. file:///download
+  26. file:///
+  27. file:///docs/tracking
+  28. file:///trevrosen
+  29. file:///trevrosen
+  30. file:///docs/tracking
+  31. file:///download
+  32. file:///blog
+  33. file:///docs
+  34. https://github.com/keybase/keybase-issues
+  35. file:///docs/terms
+  36. file:///docs/privacypolicy
+  37. https://github.com/keybase/keybase-issues
+  38. file:///docs/terms
+  39. file:///docs/privacypolicy
+
+   Hidden links:
+  41. file://localhost/encrypt
+  42. file://localhost/verify
+  43. file://localhost/docs

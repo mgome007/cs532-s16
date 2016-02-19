@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>WEtech Alliance — WEtech Alliance is Windsor-Essex’s Technology Accelerator.</title><meta name="description" content="WEtech Alliance is Windsor-Essex’s Technology Accelerator." />
+<meta name="robots" content="noodp,noydir" />
+<style type='text/css' media='screen' >.socialwrap li.icon_text a img, .socialwrap li.iconOnly a img, .followwrap li.icon_text a img, .followwrap li.iconOnly a img{border-width:0 !important;background-color:none;}#follow.right {width:40px;position:fixed; right:0; top:100px;background-color:#ffffff;padding:10px 0;font-family:impact,charcoal,arial, helvetica,sans-serif;-moz-border-radius-topleft: 5px;-webkit-border-top-left-radius:5px;-moz-border-radius-bottomleft:5px;-webkit-border-bottom-left-radius:5px;border:2px solid #fff;border-right-width:0}#follow.right ul {padding:0; margin:0; list-style-type:none !important;font-size:24px;color:black;}
+#follow.right ul li {padding-bottom:10px;list-style-type:none !important;padding-left:4px;padding-right:4px}
+#follow img{border:none;}#follow.right ul li.connect {margin:0 4px;}
+#follow.right ul li.connect img {border-width:0;display:block;overflow:hidden; background:transparent url(http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/images/impact/connect-right.png) no-repeat -0px 0px;height:99px;width:19px;}
+#follow.right ul li a {display:block;}
+#follow.right ul li.connect span, #follow ul li a span {display:none}.share {margin:0 3px 3px 0;}
+ul.row li {float:left;list-style-type:none;list-style:none;}
+li.iconOnly a span.head {display:none}
+#follow.left ul.size16 li.follow{margin:0px auto !important}
+li.icon_text a {padding-left:0;margin-right:3px}
+li.text_only a {background-image:none !important;padding-left:0;}
+li.text_only a img {display:none;}
+li.icon_text a span{background-image:none !important;padding-left:0 !important; }
+li.iconOnly a span.head {display:none}
+ul.socialwrap li {margin:0 3px 3px 0 !important;}
+ul.socialwrap li a {text-decoration:none;}ul.row li {float:left;line-height:auto !important;}
+ul.row li a img {padding:0}.size16 li a,.size24 li a,.size32 li a, .size48 li a, .size60 li a {display:block}ul.socialwrap {list-style-type:none !important;margin:0; padding:0;text-indent:0 !important;}
+ul.socialwrap li {list-style-type:none !important;background-image:none;padding:0;list-style-image:none !important;}
+ul.followwrap {list-style-type:none !important;margin:0; padding:0}
+ul.followwrap li {margin-right:3px;margin-bottom:3px;list-style-type:none !important;}
+#follow.right ul.followwrap li, #follow.left ul.followwrap li {margin-right:0px;margin-bottom:0px;}
+.shareinpost {clear:both;padding-top:0px}.shareinpost ul.socialwrap {list-style-type:none !important;margin:0 !important; padding:0 !important}
+.shareinpost ul.socialwrap li {padding-left:0 !important;background-image:none !important;margin-left:0 !important;list-style-type:none !important;text-indent:0 !important}
+.socialwrap li.icon_text a img, .socialwrap li.iconOnly a img{border-width:0}ul.followrap li {list-style-type:none;list-style-image:none !important;}
+div.clean {clear:left;}
+div.display_none {display:none;}
+.button_holder_bottom,.button_holder_left{margin-right:5px;display:inline}.button_holder_right{margin-left:5px;display:inline}.button_holder_show_interactive {display:inline;margin-right:5px;}.button_holder_bottom iframe,.button_holder_left iframe,.button_holder_right iframe,.button_holder_show_interactive iframe{vertical-align:top}.tall *[id*='___plusone']{position:relative;top:-12px}li.connect {display: none;}</style><style type='text/css' media='print' >.socialwrap li.icon_text a img, .socialwrap li.iconOnly a img, .followwrap li.icon_text a img, .followwrap li.iconOnly a img{border-width:0 !important;background-color:none;}#follow.right {width:40px;position:fixed; right:0; top:100px;background-color:#ffffff;padding:10px 0;font-family:impact,charcoal,arial, helvetica,sans-serif;-moz-border-radius-topleft: 5px;-webkit-border-top-left-radius:5px;-moz-border-radius-bottomleft:5px;-webkit-border-bottom-left-radius:5px;border:2px solid #fff;border-right-width:0}#follow.right ul {padding:0; margin:0; list-style-type:none !important;font-size:24px;color:black;}
+#follow.right ul li {padding-bottom:10px;list-style-type:none !important;padding-left:4px;padding-right:4px}
+#follow img{border:none;}#follow.right ul li.connect {margin:0 4px;}
+#follow.right ul li.connect img {border-width:0;display:block;overflow:hidden; background:transparent url(http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/images/impact/connect-right.png) no-repeat -0px 0px;height:99px;width:19px;}
+#follow.right ul li a {display:block;}
+#follow.right ul li.connect span, #follow ul li a span {display:none}.share {margin:0 3px 3px 0;}
+ul.row li {float:left;list-style-type:none;list-style:none;}
+li.iconOnly a span.head {display:none}
+#follow.left ul.size16 li.follow{margin:0px auto !important}
+li.icon_text a {padding-left:0;margin-right:3px}
+li.text_only a {background-image:none !important;padding-left:0;}
+li.text_only a img {display:none;}
+li.icon_text a span{background-image:none !important;padding-left:0 !important; }
+li.iconOnly a span.head {display:none}
+ul.socialwrap li {margin:0 3px 3px 0 !important;}
+ul.socialwrap li a {text-decoration:none;}ul.row li {float:left;line-height:auto !important;}
+ul.row li a img {padding:0}.size16 li a,.size24 li a,.size32 li a, .size48 li a, .size60 li a {display:block}ul.socialwrap {list-style-type:none !important;margin:0; padding:0;text-indent:0 !important;}
+ul.socialwrap li {list-style-type:none !important;background-image:none;padding:0;list-style-image:none !important;}
+ul.followwrap {list-style-type:none !important;margin:0; padding:0}
+ul.followwrap li {margin-right:3px;margin-bottom:3px;list-style-type:none !important;}
+#follow.right ul.followwrap li, #follow.left ul.followwrap li {margin-right:0px;margin-bottom:0px;}
+.shareinpost {clear:both;padding-top:0px}.shareinpost ul.socialwrap {list-style-type:none !important;margin:0 !important; padding:0 !important}
+.shareinpost ul.socialwrap li {padding-left:0 !important;background-image:none !important;margin-left:0 !important;list-style-type:none !important;text-indent:0 !important}
+.socialwrap li.icon_text a img, .socialwrap li.iconOnly a img{border-width:0}ul.followrap li {list-style-type:none;list-style-image:none !important;}
+div.clean {clear:left;}
+div.display_none {display:none;}
+.button_holder_bottom,.button_holder_left{margin-right:5px;display:inline}.button_holder_right{margin-left:5px;display:inline}.button_holder_show_interactive {display:inline;margin-right:5px;}.button_holder_bottom iframe,.button_holder_left iframe,.button_holder_right iframe,.button_holder_show_interactive iframe{vertical-align:top}.tall *[id*='___plusone']{position:relative;top:-12px}li.connect {display: none;}</style><link rel="alternate" type="application/rss+xml" title="WEtech Alliance &raquo; Feed" href="http://www.wetech-alliance.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="WEtech Alliance &raquo; Comments Feed" href="http://www.wetech-alliance.com/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="WEtech Alliance &raquo; iCal Feed" href="http://www.wetech-alliance.com/events/?ical=1" />
+<link rel="canonical" href="http://www.wetech-alliance.com/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.wetech-alliance.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='fppg-style-css'  href='http://www.wetech-alliance.com/wp-content/plugins/facebook-page-photo-gallery/templates/css/style.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tubepress-css'  href='http://www.wetech-alliance.com/wp-content/plugins/tubepress/src/main/web/css/tubepress.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='news-theme-css'  href='http://www.wetech-alliance.com/wp-content/themes/news/style.css?ver=2.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='juiz_last_tweet_widget-css'  href='http://www.wetech-alliance.com/wp-content/plugins/juiz-last-tweet-widget/css/juiz_last_tweet.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe_events-calendar-pro-style-css'  href='http://www.wetech-alliance.com/wp-content/plugins/events-calendar-pro/resources/tribe-events-pro-full.css?ver=3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='genesis-tabs-stylesheet-css'  href='http://www.wetech-alliance.com/wp-content/plugins/genesis-tabs/style.css?ver=4.3.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fppgsettings = {"ajaxurl":"http:\/\/www.wetech-alliance.com\/wp-admin\/admin-ajax.php","fppg_url":"http:\/\/www.wetech-alliance.com\/wp-content\/plugins\/facebook-page-photo-gallery\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-content/plugins/facebook-page-photo-gallery/js/fppg.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-content/plugins/tubepress/src/main/web/js/tubepress.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-content/plugins/google-map-shortcode/js/gmshc.2.3.min.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&#038;language=en&#038;ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-content/plugins/vslider/js/vslider.js?ver=4.3.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.wetech-alliance.com/xmlrpc.php?rsd" />
+<style type="text/css"><!--
+--></style>        <style type="text/css" media="screen">
+          div.printfriendly {
+            margin: 0px 0px 0px 0px;;
+          }
+          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
+            text-decoration: none;
+            font-size: 14px;
+            color: #55750C;
+            vertical-align: bottom;
+            border: none;
+          }
+
+          .printfriendly a:hover {
+            cursor: pointer;
+          }
+
+          .printfriendly a img  {
+            border: none;
+            padding:0;
+            margin-right: 6px;
+            display:inline-block;
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+          }
+          .printfriendly a span{
+            vertical-align: bottom;
+          }
+          .pf-alignleft {
+            float: left;
+          }
+          .pf-alignright {
+            float: right;
+          }
+          div.pf-aligncenter {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+          }
+        </style>
+        <style type="text/css" media="print">
+          .printfriendly {
+            display: none;
+          }
+        </style>
+
+<script type="text/javascript">var TubePressJsConfig = {"urls":{"base":"http:\/\/www.wetech-alliance.com\/wp-content\/plugins\/tubepress","usr":"http:\/\/www.wetech-alliance.com\/wp-content\/tubepress-content"}};</script>
+<link rel="Shortcut Icon" href="http://www.wetech-alliance.com/wp-content/themes/news/images/favicon.ico" type="image/x-icon" />
+<link rel="pingback" href="http://www.wetech-alliance.com/xmlrpc.php" />
+<link rel="next" href="http://www.wetech-alliance.com/page/2/" />
+<style type="text/css">#header { background: url(http://www.wetech-alliance.com/wp-content/uploads/2013/10/cropped-header2.jpg) no-repeat !important; }</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+</head>
+<body class="home blog custom-background custom-header header-image header-full-width content-sidebar news-green news"><div id="wrap"><div id="header"><div class="wrap"><div id="title-area"><h1 id="title"><a href="http://www.wetech-alliance.com/">WEtech Alliance</a></h1><p id="description">WEtech Alliance is Windsor-Essex’s Technology Accelerator.</p></div></div></div><div id="nav"><div class="wrap"><ul id="menu-main_menu" class="menu genesis-nav-menu menu-primary js-superfish"><li id="menu-item-615" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-615"><a href="http://www.wetech-alliance.com/" itemprop="url">Home</a></li>
+<li id="menu-item-4342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4342"><a href="http://www.wetech-alliance.com/about-us/" itemprop="url">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-4391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4391"><a href="http://www.wetech-alliance.com/about-us/our-team/" itemprop="url">Our Team</a></li>
+	<li id="menu-item-4905" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4905"><a href="http://www.wetech-alliance.com/about-us/our-board/" itemprop="url">Our Board</a></li>
+	<li id="menu-item-2474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2474"><a href="http://www.wetech-alliance.com/our-mentors/" itemprop="url">Our Mentors</a></li>
+</ul>
+</li>
+<li id="menu-item-849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-849"><a href="http://www.wetech-alliance.com/what-we-do/" itemprop="url">What We Do</a>
+<ul class="sub-menu">
+	<li id="menu-item-7871" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7871"><a href="http://www.wetech-alliance.com/what-we-do/social-innovation-windsor-essex/" itemprop="url">Social Innovation Windsor-Essex</a></li>
+	<li id="menu-item-6349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6349"><a href="http://www.wetech-alliance.com/what-we-do/apply-for-venture-services/" itemprop="url">Apply for Venture Services</a></li>
+	<li id="menu-item-925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-925"><a href="http://www.wetech-alliance.com/what-we-do/programs-services/" itemprop="url">Programs &#038; Services</a></li>
+	<li id="menu-item-1144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1144"><a href="http://www.wetech-alliance.com/what-we-do/one-on-one-entrepreneurial-coaching/" itemprop="url">One-on-One Coaching</a></li>
+	<li id="menu-item-1149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1149"><a href="http://www.wetech-alliance.com/what-we-do/programs-services/p2p-peer-to-peer-groups/" itemprop="url">P2P Networks</a></li>
+	<li id="menu-item-923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-923"><a href="http://www.wetech-alliance.com/what-we-do/networking-events/" itemprop="url">Networking Events</a></li>
+	<li id="menu-item-5426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5426"><a href="http://www.wetech-alliance.com/what-we-do/yknot-windsor-essex/" itemprop="url">YKNOT Windsor-Essex</a></li>
+	<li id="menu-item-5054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5054"><a href="http://www.wetech-alliance.com/news/employer-support-programs-matrix/" itemprop="url">Employer Support Programs Matrix</a></li>
+</ul>
+</li>
+<li id="menu-item-645" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-645"><a href="/events/" itemprop="url">EVENTS</a>
+<ul class="sub-menu">
+	<li id="menu-item-1191" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1191"><a href="/events/" itemprop="url">Event Calendar</a></li>
+	<li id="menu-item-931" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-931"><a href="http://www.wetech-alliance.com/what-we-do/networking-events/" itemprop="url">Networking Events</a></li>
+</ul>
+</li>
+<li id="menu-item-4343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4343"><a href="http://www.wetech-alliance.com/news/" itemprop="url">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-126" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126"><a href="http://www.wetech-alliance.com/category/news-events/wetech-in-the-news/" itemprop="url">WEtech in the News</a></li>
+	<li id="menu-item-127" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-127"><a href="http://www.wetech-alliance.com/category/news-events/members-in-the-news/" itemprop="url">Members in the News</a></li>
+	<li id="menu-item-128" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-128"><a href="http://www.wetech-alliance.com/category/news-events/community-in-the-news/" itemprop="url">Community in the News</a></li>
+	<li id="menu-item-136" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136"><a href="http://www.wetech-alliance.com/category/blog/" itemprop="url">Blog</a></li>
+</ul>
+</li>
+<li id="menu-item-4341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4341"><a href="http://www.wetech-alliance.com/opportunity-alert/" itemprop="url">OPPORTUNITY ALERTS</a>
+<ul class="sub-menu">
+	<li id="menu-item-129" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-129"><a href="http://www.wetech-alliance.com/category/news-events/opportunity-alerts/" itemprop="url">Opportunity Alerts</a></li>
+	<li id="menu-item-4367" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4367"><a href="http://www.wetech-alliance.com/category/news-events/opportunity-alert-youth/" itemprop="url">Opportunity Alert (Youth)</a></li>
+	<li id="menu-item-4859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4859"><a href="http://www.wetech-alliance.com/opportunity-alert/find-funding/" itemprop="url">Find Funding</a></li>
+	<li id="menu-item-6763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6763"><a href="http://www.wetech-alliance.com/opportunity-alert/apply-to-windsor-soup/" itemprop="url">Apply to Windsor Soup</a></li>
+</ul>
+</li>
+<li id="menu-item-7964" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7964"><a href="http://jobs.wetech-alliance.org/" itemprop="url">Tech Jobs</a></li>
+<li id="menu-item-1395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1395"><a href="http://www.wetech-alliance.com/why-join/" itemprop="url">Why Join</a>
+<ul class="sub-menu">
+	<li id="menu-item-1391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1391"><a href="http://www.wetech-alliance.com/membership-perks/" itemprop="url">Membership Perks</a></li>
+	<li id="menu-item-4697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4697"><a href="http://www.wetech-alliance.com/clientmember-testimonials/" itemprop="url">Client Testimonials</a></li>
+	<li id="menu-item-5780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5780"><a href="http://www.wetech-alliance.com/join-now-client/" itemprop="url">Need help? (Entrepreneur)</a></li>
+	<li id="menu-item-4357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4357"><a href="http://www.wetech-alliance.com/join-now/" itemprop="url">Join Now (Member)</a></li>
+</ul>
+</li>
+<li id="menu-item-5520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5520"><a href="http://www.wetech-alliance.com/what-we-do/obtenez-des-renseignements-en-francais/" itemprop="url">Français</a></li>
+<li id="menu-item-222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-222"><a href="http://www.wetech-alliance.com/contact-us/" itemprop="url">Contact Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-5519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5519"><a href="http://www.wetech-alliance.com/what-we-do/obtenez-des-renseignements-en-francais/" itemprop="url">Français</a></li>
+</ul>
+</li>
+</ul></div></div><div id="inner"><div class="wrap"><div id="content-sidebar-wrap"><div id="content" class="hfeed"><div id="home-top"><div class="border wrap"><div id="vslider-widget-2" class="widget vslider-widget"><div class="widget-wrap"><!-- Start vSlider options -->
+<script type="text/javascript">
+var $jq = jQuery.noConflict(); $jq(document).ready(function() { 
+    $jq('#vslider_options').coinslider({ width: 585,     height: 225, spw: 7, sph: 5, delay: 8000, sDelay: 30, opacity: 1, titleSpeed: 1500, effect: 'fade', navigation: true, links : true, stickynav: false, hoverPause: true }); }); 
+    </script>
+<!-- Begin vSlider options -->
+<style type="text/css" media="screen">
+#vslider_optionscontainer {
+    margin: 10px 10px 10px 10px;
+    float:none;
+    }
+#vslider_options { 
+    width: 585px; 
+    height: 225px;
+    overflow: hidden; 
+    position: relative; 
+    }
+    
+
+    #vslider_options a, #vslider_options a img {
+        border: none !important; 
+        text-decoration: none !important; 
+        outline: none !important;
+        } 
+        
+    #vslider_options h4 {
+        color: #FFFFFF !important;
+        margin: 0px !important;padding: 0px !important;
+        font-family: 'Bookman Old Style', serif !important;
+        font-size: 14px !important;}
+        
+    #vslider_options .cs-title {
+        background: #333333;
+        color: #FFFFFF  !important;
+        font-family: 'Bookman Old Style', serif !important;
+        font-size: 12px !important;
+        letter-spacing: normal !important;line-height: normal !important;}
+        
+    #vslider_options .cs-title{ position:absolute;
+    width: 575px; padding: 10px;        }
+    #cs-buttons-vslider_options { display: none; }    #vslider_optionscontainer .cs-buttons {clear:both; font-size: 0px; margin: 10px 0 10px 100px; float: left; }
+       #cs-button-vslider_options{ z-index:999;outline:none;}
+                                 #vslider_optionscontainer   .cs-buttons a { margin-left: 5px; height: 16px; width: 15px; float: left; 
+                                               text-indent: -999px;
+                                               background: url('http://www.wetech-alliance.com/wp-content/plugins/vslider/images/nav_style1.png') no-repeat;
+                                               background-position: left;
+                                               outline: none !important;
+                                                                                              }             
+                              #vslider_optionscontainer   .cs-buttons a:hover,
+ #vslider_optionscontainer a.cs-active { background: url('http://www.wetech-alliance.com/wp-content/plugins/vslider/images/nav_style1.png') no-repeat;background-position: right; outline: none !important;}          
+                 #vslider_options  .cs-prev,#vslider_options  .cs-next { outline:none; }
+                #vslider_options  .cs-prev,#vslider_options .cs-next {font-weight: bold;background: #333333 !important;font-size: 28px !important;font-family: "Courier New", Courier, monospace;color: #FFFFFF 
+!important;padding: 0px 10px !important;-moz-border-radius: 5px;-khtml-border-radius: 5px;-webkit-border-radius: 5px;}
+         
+       #vslider_options,#vslider_options img {
+        border:0px solid #FFFFFF; 
+        border-radius:0px;
+        -moz-border-radius:0px;
+        -webkit-border-radius:0px;
+        }
+</style>
+<!-- End vSlider options -->
+    <div id="vslider_optionscontainer">
+    <div id="vslider_options">       <a href="" style="background:#fff;" target="_blank">
+              <img src="http://www.wetech-alliance.com/wp-content/uploads/2012/04/wetechSlider2.jpg" style="width:585px;height:225px;" alt="" />
+                </a>
+           <a href="http://www.cdmn.ca/soft-landing-program/overview/" style="background:#fff;" target="_blank">
+              <img src="http://www.wetech-alliance.com/wp-content/uploads/2014/08/CDMNWEtechSoftLanding.jpg" style="width:585px;height:225px;" alt="" />
+                </a>
+    </div></div></div></div>
+<div id="tabs-2" class="widget ui-tabs"><div class="widget-wrap"><h4 class="widget-title widgettitle">Featured</h4>
+<ul class="ui-tabs-nav"><li><a href="#cat-6">WEtech in the News</a></li><li><a href="#cat-7">Members in the News</a></li><li><a href="#cat-8">Community in the News</a></li></ul><div id="cat-6" class="ui-tabs-hide post-8723 post type-post status-publish format-standard hentry category-wetech-in-the-news entry has-post-thumbnail"><a href="http://www.wetech-alliance.com/2016/02/10/launch-of-two-short-films-calls-for-windsor180-summit-volunteers/" title="Launch of Two Short Films Calls For Windsor180 Summit Volunteers" class="alignleft"><img width="150" height="100" src="http://www.wetech-alliance.com/wp-content/uploads/2016/02/Windsor180_Logo2-1-150x100.png" class="attachment-thumbnail" alt="Windsor180_Logo2-1" /></a><h2><a href="http://www.wetech-alliance.com/2016/02/10/launch-of-two-short-films-calls-for-windsor180-summit-volunteers/" title="Launch of Two Short Films Calls For Windsor180 Summit Volunteers">Launch of Two Short Films Calls For Windsor180 Summit Volunteers</a></h2><p>Windsor, ON, February 10, 2016  &#8211; Last year, over 200 established and emerging community leaders took over St. Clair Centre for the Arts during the Windsor180 Summit. Presented by YKNOT Windsor-Essex and WEtech Alliance, Windsor180 featured a series of breakout sessions and keynote speeches around issues of talent, tech and community in an effort to [&hellip;]</p>
+</div><!--end post_class()-->
+
+<div id="cat-7" class="ui-tabs-hide post-8664 post type-post status-publish format-standard hentry category-members-in-the-news entry has-post-thumbnail"><a href="http://www.wetech-alliance.com/2016/02/10/member-spotlight-kelcom-3d/" title="Member Spotlight: Kelcom 3D" class="alignleft"><img width="150" height="100" src="http://www.wetech-alliance.com/wp-content/uploads/2016/02/Member-Spotlight-Kelcom-web1-150x100.jpg" class="attachment-thumbnail" alt="Member-Spotlight-Kelcom---web" /></a><h2><a href="http://www.wetech-alliance.com/2016/02/10/member-spotlight-kelcom-3d/" title="Member Spotlight: Kelcom 3D">Member Spotlight: Kelcom 3D</a></h2><p>What is Kelcome 3D Printing Inc.? Kelcom 3D Division is a team of 3D Printing experts empowering Windsor-Essex manufacturers and inventors. What Products/services do you provide? We offer the most complete range of 3D printers and 3D print services available anywhere &#8211; from desktop to high end, from plastic to rubber and metal. Anything new [&hellip;]</p>
+</div><!--end post_class()-->
+
+<div id="cat-8" class="ui-tabs-hide post-8699 post type-post status-publish format-standard has-post-thumbnail hentry category-community-in-the-news entry"><a href="http://www.wetech-alliance.com/2016/02/05/first-high-school-hackathon-in-windsor-essex-masseyhacks/" title="First High School Hackathon in Windsor-Essex: MasseyHacks" class="alignleft"><img width="150" height="150" src="http://www.wetech-alliance.com/wp-content/uploads/2016/02/mh-150x150.jpg" class="attachment-thumbnail" alt="mh" /></a><h2><a href="http://www.wetech-alliance.com/2016/02/05/first-high-school-hackathon-in-windsor-essex-masseyhacks/" title="First High School Hackathon in Windsor-Essex: MasseyHacks">First High School Hackathon in Windsor-Essex: MasseyHacks</a></h2><p>Windsor, Ontario (February 4th, 2016) &#8211; On February 27th, 2016, Vincent Massey Secondary School will be hosting MasseyHacks, a 12 hour long hackathon for students across Windsor-Essex County of all experience levels interested in programming and computer science. Hackathons are events where people interested in any aspect of software development can come together to work [&hellip;]</p>
+</div><!--end post_class()-->
+
+</div></div>
+</div><!-- end .border wrap --></div><!-- end #home-top --><div id="home-bottom"><div class="border wrap"><div id="featured-post-7" class="widget featured-content featuredpost"><div class="widget-wrap"><h4 class="widget-title widgettitle">Opportunity Alerts</h4>
+<div class="post-8721 post type-post status-publish format-standard hentry category-opportunity-alerts entry"><h2><a href="http://www.wetech-alliance.com/2016/02/09/global-entrepreneurship-summit-call-for-applicants/">Global Entrepreneurship Summit Call for Applicants</a></h2><p>Posted on behalf of the Global Entrepreneurship Network
+
+Thank you for your interest in the 2016 Global Entrepreneurship Summit (GES) in June in Silicon Valley!  The GES 2016 is focusing on connecting investors, mentors and digital disruptors with global emerging entrepreneurs who have &#x02026; <a href="http://www.wetech-alliance.com/2016/02/09/global-entrepreneurship-summit-call-for-applicants/" class="more-link">[Read More...]</a></p></div><div class="post-8662 post type-post status-publish format-standard hentry category-opportunity-alerts entry"><h2><a href="http://www.wetech-alliance.com/2016/02/03/build-your-social-business-model-non-profits/">Build Your Social Business Model: Non-Profits</a></h2><p>Pathway to Potential and WEtech invite you to Build Your Social Business Model in partnership with SoJo.
+
+So, you're a non-profit or charity and want to launch a social enterprise . . .
+
+This action-oriented workshop will guide you through the process of building your own social business &#x02026; <a href="http://www.wetech-alliance.com/2016/02/03/build-your-social-business-model-non-profits/" class="more-link">[Read More...]</a></p></div><div class="post-8654 post type-post status-publish format-standard hentry category-opportunity-alerts entry has-post-thumbnail"><h2><a href="http://www.wetech-alliance.com/2016/02/02/oce-discovery-2016-promotion/">OCE Discovery 2016 Promotion</a></h2><p> &#x02026; <a href="http://www.wetech-alliance.com/2016/02/02/oce-discovery-2016-promotion/" class="more-link">[Read More...]</a></p></div></div></div>
+<div id="featured-post-10" class="widget featured-content featuredpost"><div class="widget-wrap"><h4 class="widget-title widgettitle">Opportunity Alert (Youth)</h4>
+<div class="post-8727 post type-post status-publish format-standard hentry category-opportunity-alert-youth entry has-post-thumbnail"><h2><a href="http://www.wetech-alliance.com/2016/02/10/epicentre-now-taking-applications-for-2016-rbc-epic-founders-program/">EPICentre Now Taking Applications for 2016 RBC EPIC Founders Program</a></h2><p>EPICentre is now officially taking applications for the 2016 RBC EPIC Founders Program. Apply today! Digg this post Recommend on Facebook Share on Linkedin Share with Stumblers Tweet about it Print for later Bookmark in Browser Tell a friend</p>
+</div><div class="post-8260 post type-post status-publish format-standard hentry category-opportunity-alert-youth entry has-post-thumbnail"><h2><a href="http://www.wetech-alliance.com/2015/11/25/2016-weston-youth-innovation-award-competition-now-open/">2016 Weston Youth Innovation Award Competition Now Open!</a></h2><p>The Ontario Science Centre recognizes youth who use science and technology to make the world a better place TORONTO (November 24, 2015) – Calling all Canadian innovators between the ages of 14 and 18! The Ontario Science Centre wants to recognize you for making the world a better place through science and technology. Nominations are [&hellip;]</p>
+</div><div class="post-7980 post type-post status-publish format-standard hentry category-opportunity-alert-youth entry has-post-thumbnail"><h2><a href="http://www.wetech-alliance.com/2015/10/07/windsor-essex-national-girls-learning-code-day/">Windsor-Essex: National Girls Learning Code Day</a></h2><p>Women&#8217;s Enterprise Skills Training 201-647 Ouellette Avenue Windsor, ON Saturday, 7 November 2015 from 10:00 AM to 4:00 PM (EST) This is a beginner level workshop for girls 8-13 years old and their parent/guardian/aunt/older sibling. Bring a special girl in your life to this workshop on National Girls Learning Code Day and learn to create [&hellip;]</p>
+</div></div></div>
+<div id="featured-post-9" class="widget featured-content featuredpost"><div class="widget-wrap"><h4 class="widget-title widgettitle">WEtech Blogs</h4>
+<div class="post-8535 post type-post status-publish format-standard hentry category-blog entry has-post-thumbnail"><h2><a href="http://www.wetech-alliance.com/2016/01/13/nailed-it-10-tips-to-help-you-nail-the-interview-and-land-the-job/">Nailed it! 10 tips to help you nail the interview and land the job</a></h2><p>With unemployment rates being the highest in Windsor (out of the whole country, yikes), here are some tips to ensure you nail the interview and get the job (money, money, money).
+1.) Research, Research!
+You got the call for an interview (congrats, by the way). But, now what? Well, the most &#x02026; <a href="http://www.wetech-alliance.com/2016/01/13/nailed-it-10-tips-to-help-you-nail-the-interview-and-land-the-job/" class="more-link">[Read More...]</a></p></div><div class="post-8364 post type-post status-publish format-standard hentry category-blog tag-450 tag-new-year tag-predictions tag-reflections entry has-post-thumbnail"><h2><a href="http://www.wetech-alliance.com/2016/01/01/reflections-predictions-a-look-back-on-2015-ahead-to-2016/">Reflections &#038; Predictions: A Look Back on 2015 &#038; Ahead to 2016</a></h2><p>It's been an incredible year at WEtech Alliance! We asked the team to share their favorite 2015 moments as well as what they’re looking forward to in 2016. Here’s what they had to say.
+
+
+
+
+
+
+
+
+Yvonne Pilon - President and CEO 
+LOOKING BACK ON 2015:
+
+How quickly the year goes by! The past &#x02026; <a href="http://www.wetech-alliance.com/2016/01/01/reflections-predictions-a-look-back-on-2015-ahead-to-2016/" class="more-link">[Read More...]</a></p></div><div class="post-8340 post type-post status-publish format-standard hentry category-blog entry has-post-thumbnail"><h2><a href="http://www.wetech-alliance.com/2015/12/10/buy-local-this-holiday-season-a-yqg-gift-guide/">Buy Local This Holiday Season: A #YQG Gift Guide</a></h2><p>Last year, the average-income Canadian burned through about $1,810 in celebration of the holiday season. What if a mere $100 of that was spent locally? The impact would be significant.
+
+So why not impact Windsor-Essex this Holiday Season. We have compiled a local gift giving guide that will surely &#x02026; <a href="http://www.wetech-alliance.com/2015/12/10/buy-local-this-holiday-season-a-yqg-gift-guide/" class="more-link">[Read More...]</a></p></div></div></div>
+</div><!-- end .border wrap --></div><!-- end #home-bottom --></div><div id="sidebar" class="sidebar widget-area"><div id="text-12" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Latest Newsletter</h4>
+			<div class="textwidget"><center><a href="http://campaign.r20.constantcontact.com/render?ca=24d211b3-4070-4bfd-bd1d-371450b84b99&c=5a9f6be0-1b14-11e3-a77b-d4ae52725666&ch=2dbe8fa0-65ca-11e4-a23e-d4ae529a824a"> <img src= "http://www.wetech-alliance.com/wp-content/uploads/2014/04/newsletter-button-e1397579419863.png"></a></center
+
+</div>
+		</div></div>
+<div id="search-2" class="widget widget_search"><div class="widget-wrap"><h4 class="widget-title widgettitle">Search</h4>
+<form method="get" class="searchform search-form" action="http://www.wetech-alliance.com/" role="search" ><input type="text" value="Search this website &#x2026;" name="s" class="s search-input" onfocus="if (&#039;Search this website &#x2026;&#039; === this.value) {this.value = &#039;&#039;;}" onblur="if (&#039;&#039; === this.value) {this.value = &#039;Search this website &#x2026;&#039;;}" /><input type="submit" class="searchsubmit search-submit" value="Search" /></form></div></div>
+<div id="text-9" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Join WEtech (It&#8217;s FREE!)</h4>
+			<div class="textwidget"></br><center><a href="http://www.wetech-alliance.com/join-now"> <img src= "http://www.wetech-alliance.com/wp-content/uploads/2015/05/Button-Member-e1432654928863.png"></a></center> <center>As a member you will receive communications on the latest news from WEtech Alliance as well as discounts to events, membership perks, and more.</center>
+</br>
+<center><a href="http://www.wetech-alliance.com/join-now-client/"><img src= "http://www.wetech-alliance.com/wp-content/uploads/2015/05/Button-Entrepreneurs-e1432654634963.png"></a></center> <center>As a portfolio company you will receive assistance with access to programs and services to help your technology or innovation idea/business accelerate.</center>
+
+</div>
+		</div></div>
+<div id="tribe-mini-calendar-3" class="widget tribe_mini_calendar_widget"><div class="widget-wrap"><h4 class="widget-title widgettitle">Events Calendar</h4>
+</div></div>
+<div id="text-10" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Mailing List</h4>
+			<div class="textwidget"><center><form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:3;">
+						<font style="font-weight: bold; font-family:Arial; font-size:20px; color:#000000;">Join Our Email List</font><br>
+						<font style="font-weight: normal; font-family:Arial; font-size:13px; color:#000000;">Email:</font> 
+                        <input type="text" name="ea" size="14" value="" style="font-family: Arial; font-size:10px; border:1px solid #999999;">&nbsp;
+                        <input type="submit" name="go" value="Join" class="submit"  style="font-family:Arial,Helvetica,sans-serif; font-size:11px;">
+						<input type="hidden" name="llr" value="jlnpgvdab">
+						<input type="hidden" name="m" value="1103444292969">
+						<input type="hidden" name="p" value="oi">
+					</form>
+</center></div>
+		</div></div>
+<div id="text-11" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Find Funding</h4>
+			<div class="textwidget"><a href= "http://www.wetech-alliance.com/opportunity-alert/find-funding/"> <img src="http://www.wetech-alliance.com/wp-content/uploads/2014/02/fundica_horizontal_MED-e1392244111835.png" /> </a></div>
+		</div></div>
+<div id="text-13" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Partner Spotlight</h4>
+			<div class="textwidget"><center><a href= "http://weangelnetwork.com//"> <img src="http://www.wetech-alliance.com/wp-content/uploads/2016/02/WECAN-Postcard-2016-Back-e1455308037166.jpg"/> </a></center></div>
+		</div></div>
+<div id="juiz_last_tweet_widget-2" class="widget juiz_last_tweet_widget"><div class="widget-wrap"><h4 class="widget-title widgettitle">Tweets</h4>
+
+				<div data-delay="7" class="juiz_last_tweet_inside juiz_ltw_autoslide juiz_ltw_user_Wetechalliance">
+					<ul class="juiz_last_tweet_tweetlist">
+						
+								<li class="juiz_last_tweet_item jltw_item_first">
+									
+									<span class="juiz_lt_content">RT <a href="http://twitter.com/sustainableiris" class="juiz_last_tweet_tweetos" rel="nofollow" target="_self">@sustainableiris</a>: Love the <a href="http://twitter.com/search/?src=hash&amp;q=%23Windsor180" class="juiz_last_tweet_hastag" rel="nofollow" target="_self">#Windsor180</a> campaign by <a href="http://twitter.com/WEtechAlliance" class="juiz_last_tweet_tweetos" rel="nofollow" target="_self">@WEtechAlliance</a> featuring passionate &amp; innovative Windsorites  <a href="https://t.co/cbno6l23Ot" rel="nofollow" class="juiz_last_tweet_url" target="_self">t.co/cbno6l23Ot</a>…</span>
+									<span class="juiz_last_tweet_footer_item">
+										<em class="juiz_last_tweet_inner juiz_last_tweet_metadata">Time ago <a href="http://twitter.com/WEtechAlliance/status/700441082904059904" target="_self" title="See the status">2 Hours</a> <span class="juiz_ltw_source">via <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a></span></em>
+										
+									</span>
+								</li>
+							
+								<li class="juiz_last_tweet_item jltw_item_last">
+									
+									<span class="juiz_lt_content">Have a <a href="http://twitter.com/search/?src=hash&amp;q=%23SocialInnovation" class="juiz_last_tweet_hastag" rel="nofollow" target="_self">#SocialInnovation</a> that could benefit <a href="http://twitter.com/search/?src=hash&amp;q=%23YQG?" class="juiz_last_tweet_hastag" rel="nofollow" target="_self">#YQG?</a> Apply now for <a href="http://twitter.com/WindsorSOUPteam" class="juiz_last_tweet_tweetos" rel="nofollow" target="_self">@WindsorSOUPteam</a> Feb 28!  <a href="https://t.co/dBDC0QE1L3" rel="nofollow" class="juiz_last_tweet_url" target="_self">t.co/dBDC0QE1L3</a>  <a href="https://t.co/nfgG4Hq8LS" rel="nofollow" class="juiz_last_tweet_url" target="_self">t.co/nfgG4Hq8LS</a></span>
+									<span class="juiz_last_tweet_footer_item">
+										<em class="juiz_last_tweet_inner juiz_last_tweet_metadata">Time ago <a href="http://twitter.com/WEtechAlliance/status/700427123765420032" target="_self" title="See the status">3 Hours</a> <span class="juiz_ltw_source">via <a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a></span></em>
+										
+									</span>
+								</li>
+							
+					</ul>
+					<p class="juiz_last_tweet_follow_us">
+						<span class="juiz_ltw_follow">Follow</span>
+						<a class="juiz_ltw_username" href="http://twitter.com/Wetechalliance">@Wetechalliance</a>
+						<span class="juiz_ltw_ontwitter">on twitter.</span>
+					</p>
+				</div></div></div>
+</div></div></div></div><div id="footer-widgets" class="footer-widgets"><div class="wrap"><div class="footer-widgets-1 widget-area"><div id="text-7" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Supporters </h4>
+			<div class="textwidget"><img src="http://www.wetech-alliance.com/wp-content/uploads/2016/02/Supporters-Feb-12-2016-900px.jpg"/></div>
+		</div></div>
+</div><div class="footer-widgets-2 widget-area"></div><div class="footer-widgets-3 widget-area"></div></div></div><div id="footer" class="footer"><div class="wrap"><div class="creds"><p>Copyright &#x000A9;&nbsp;2016 </p></div></div></div></div><div id="follow" class="right"><ul class="tab down"><li class="connect"><img src="http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/images/blank.gif"  alt="follow:"/><span>follow:</span></li><li class="iconOnly"><a rel="nofollow me" target="_blank" href="https://www.facebook.com/pages/WEtech-Alliance/126720514054381" title="Become my Facebook friend" ><img src="http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/images/blank.gif" height="32"  width="32" style="background: transparent url(http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/default/32/sprite-feb-32.png) no-repeat;padding:0;margin:0;height:32px;width:32px;background-position:-396px 0px"  alt="Become my Facebook friend"/> <span class="head">Become my Facebook friend</span></a></li><li class="iconOnly"><a rel="nofollow me" target="_blank" href="http://www.linkedin.com/groups?home=&gid=3749521&trk=anet_ug_hm" title="Connect with us" ><img src="http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/images/blank.gif" height="32"  width="32" style="background: transparent url(http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/default/32/sprite-feb-32.png) no-repeat;padding:0;margin:0;height:32px;width:32px;background-position:-1122px 0px"  alt="Connect with us"/> <span class="head">Connect with us</span></a></li><li class="iconOnly"><a rel="nofollow me" target="_blank" href="http://twitter.com/WEtechAlliance" title="Tweet with us" ><img src="http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/images/blank.gif" height="32"  width="32" style="background: transparent url(http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/default/32/sprite-feb-32.png) no-repeat;padding:0;margin:0;height:32px;width:32px;background-position:-132px -33px"  alt="Tweet with us"/> <span class="head">Tweet with us</span></a></li><li class="iconOnly"><a rel="nofollow me" target="_blank" href="http://www.youtube.com/user/WetechAlliance/videos" title=" YouTube Channel" ><img src="http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/images/blank.gif" height="32"  width="32" style="background: transparent url(http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/default/32/sprite-feb-32.png) no-repeat;padding:0;margin:0;height:32px;width:32px;background-position:-429px -33px"  alt=" YouTube Channel"/> <span class="head"> YouTube Channel</span></a></li></ul></div>
+
+<!-- No script for Juiz Last Tweet Widget :) -->
+
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17211776-3']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>      <script type="text/javascript">
+
+          var pfHeaderImgUrl = '';
+          var pfHeaderTagline = '';
+          var pfdisableClickToDel = '0';
+          var pfHideImages = '0';
+          var pfImageDisplayStyle = 'right';
+          var pfDisableEmail = '0';
+          var pfDisablePDF = '0';
+          var pfDisablePrint = '0';
+          var pfCustomCSS = '';
+      (function() {
+            var e = document.createElement('script'); e.type="text/javascript";
+        if('https:' == document.location.protocol) {
+        js='https://pf-cdn.printfriendly.com/ssl/main.js';
+        }
+        else{
+        js='http://cdn.printfriendly.com/printfriendly.js';
+        }
+            e.src = js;
+            document.getElementsByTagName('head')[0].appendChild(e);
+        })();
+      </script>
+<link rel='stylesheet' id='tribe_events-widget-calendar-pro-style-css'  href='http://www.wetech-alliance.com/wp-content/plugins/events-calendar-pro/resources/widget-calendar-full.css?ver=3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe_events--widget-calendar-pro-override-style-css'  href='http://www.wetech-alliance.com/wp-content/plugins/events-calendar-pro/resources/widget-calendar-full.css?ver=3.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-content/themes/genesis/lib/js/menu/superfish.min.js?ver=1.7.5'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-content/themes/genesis/lib/js/menu/superfish.args.min.js?ver=2.2.2'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-content/themes/genesis/lib/js/menu/superfish.compat.min.js?ver=2.2.2'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-content/plugins/share-and-follow/js/browser-check-for-bookmarks.js?ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TribeMiniCalendar = {"ajaxurl":"http:\/\/www.wetech-alliance.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-content/plugins/events-calendar-pro/resources/widget-calendar.js?ver=3.4'></script>
+<script type='text/javascript' src='http://www.wetech-alliance.com/wp-content/plugins/juiz-last-tweet-widget/js/juiz_ltw_auto_slide.min.js?ver=1.3.4'></script>
+<script type="text/javascript">jQuery(document).ready(function($) { $(".ui-tabs").tabs(); });</script>
+</body>
+</html>
+
+<!-- Dynamic page generated in 1.869 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-02-18 18:40:42 -->
+
+<!-- super cache -->

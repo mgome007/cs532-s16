@@ -1,0 +1,1110 @@
+  
+ <!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+<title>Have You Tried That Crazy Wrap Thing? | It Works</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="//static.myitworks.com/themes/rws-v3/images/favicon.ico" >
+<link rel="icon" type="image/x-icon" href="//static.myitworks.com/themes/rws-v3/images/favicon.ico">
+<link rel="icon" type="image/png" href="//static.myitworks.com/themes/rws-v3/images/favicon.png">
+
+<link rel="stylesheet" type="text/css" href="//fonts.myitworks.com/themes/rws-v3/css/fonts.css?V51">
+<link rel="stylesheet" type="text/css" href="//static.myitworks.com/themes/rws-v3/css/style.css?V51">
+<link rel="stylesheet" type="text/css" href="//static.myitworks.com/themes/rws-v3/css/flexslider.css?V51">
+<link rel="stylesheet" type="text/css" href="//static.myitworks.com/themes/rws-v3/css/bootstrap.css?V51">
+<link rel="stylesheet" type="text/css" href="//static.myitworks.com/themes/rws-v3/css/bootstrap-responsive.css?V51">
+
+<!-- <script type="text/javascript" src="//static.myitworks.com/themes/rws-v3/js/jquery.js?V51"></script> -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+<!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script> -->
+<script type="text/javascript" src="//static.myitworks.com/themes/rws-v3/js/jquery.parallax-1.1.3.js?V51"></script>
+<script type="text/javascript" src="//static.myitworks.com/themes/rws-v3/js/jquery.localscroll-1.2.7-min.js?V51"></script>
+<script type="text/javascript" src="//static.myitworks.com/themes/rws-v3/js/floating-1.8.js?V51"></script>
+
+    
+<script type="text/javascript">
+
+// Redirect framed mobile visitors
+function isMobile(){
+    
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ 		return true;
+	}
+    
+    
+}
+if(isMobile()){
+    //check for frame. frames mess up viewport and cookies
+    if (top.location != self.location) {
+    	top.location = self.location;
+    }
+}
+
+
+
+//var noi=jQuery.noConflict();
+	jQuery(document).ready(function(){
+    	jQuery(".slidingDiv").hide();
+    	jQuery(".show_hide").show();
+		jQuery('.show_hide').click(function(){
+    		jQuery(".slidingDiv").slideToggle();
+        });
+    });
+</script>
+	
+	
+	
+<!--[if lt IE 9]>
+	<script src="//static.myitworks.com/themes/rws-v3/js/html5.js?V51" type="text/javascript"></script>
+<![endif]-->
+
+<!--[if lt IE 10]>
+	<script src="//static.myitworks.com/scripts/jquery.placeholder.js?V51" type="text/javascript"></script>
+    
+    <script>
+    	jQuery(document).ready(function(){
+        	$.fn.placeholder();
+        });
+    </script>
+<![endif]-->
+
+
+
+
+
+<style>
+/*Canada special */
+.welcome{
+	color:#000000;
+	font-family: 'BrandonGrotesqueRegular';
+	font-size:13px;
+	text-transform:uppercase;	
+    /*text-align:center;*/
+    color:white;
+    position:relative;
+    top:-5px;
+    margin-top:32px;
+	float:left;
+    width:320px;
+}
+  .termofuseCA {
+    padding-bottom:5px;    
+  }
+  .termofuseCA a {
+    font-size:14px;
+  }
+  
+  .copytxtCA {
+    margin-top:-10px;
+    font-size:12px;
+  }
+  
+  
+  .sideTerms {
+    margin-top:20px;
+  }
+  .sideTerms ul li a:link{
+    font-size:20px;
+  }
+  .sideTerms ul li
+  {
+    padding-bottom:5px;
+  }
+
+
+/*overrides*/
+.contactimg img, .helloimg img {
+	max-width:150px;
+    max-height:150px;
+}
+.imgeinner img {
+	max-height:337px;
+}
+.hovericon {
+	margin-left:10px;
+}
+.bigimg2 {
+	background-image:url('//static.myitworks.com/themes/rws-v3/images/web-people-beach.jpg');
+}
+.bigimg4 {
+	background-image:url('//static.myitworks.com/themes/rws-v3/images/web-corp-image-magazine.jpg');
+}
+.bigimg5 {
+	background-image:url('//static.myitworks.com/themes/rws-v3/images/web-corp-site-nd-mmp.jpg');
+}
+
+.getstartimg, .getstartimgalt {
+	background-position:center 0;
+	height:352px;
+	background-repeat:no-repeat;
+	background-color:#99CC33;
+	position:relative;
+}
+.getstartimg {
+	/*background-image:url('//static.myitworks.com/themes/rws-v3/images/web-corp-image-skincare-2000px.jpg');*/
+    background-image:url('//static.myitworks.com/themes/rws-v3/images/web-corp-image-skincare-nohsn-2000x1000.jpg');
+}
+.getstartimgalt {
+	background-image:url('//static.myitworks.com/themes/rws-v3/images/web-corp-image-skincare-nohsn-2000x1000.jpg');
+}
+
+/* Booststrap Overrides */
+.btn-success {
+  background-image: -moz-linear-gradient(top, #85b42e,#99cc33);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#85b42e), to( #99cc33));
+  background-image: -webkit-linear-gradient(top, #99cc33, #85b42e);
+  background-image: -o-linear-gradient(top, #99cc33, #85b42e);
+  background-image: linear-gradient(to bottom, #99cc33, #85b42e);
+ 
+}
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  color: #ffffff;
+  background-color: #85b42e;
+  *background-color: #99cc33;
+}
+.btn-success:active,
+.btn-success.active {
+  background-color: #99cc33 \9;
+}
+  
+
+</style>
+<script type="text/javascript">
+//var jQuery=jQuery.noConflict();
+jQuery(document).ready(function(){
+	jQuery('#nav').localScroll(800);
+	
+	//.parallax(xPosition, speedFactor, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	jQuery('#intro').parallax("100%", 0.6);
+	jQuery('#intro2').parallax("100%", 0.5);
+	jQuery('#second').parallax("50%", 0.1);
+	jQuery('.buble1').parallax("25%", 0.4);
+	jQuery('.buble2').parallax("25%", 0.4);
+	jQuery('.buble3').parallax("25%", 0.3);
+	jQuery('.buble4').parallax("25%", 0.2);
+	jQuery('.buble5').parallax("25%", 0.2);
+	jQuery('.buble6').parallax("25%", 0.1);
+	jQuery('.buble7').parallax("25%", 0.7);
+	jQuery('.buble8').parallax("25%", 0.6);
+	jQuery('.buble9').parallax("25%", 0.7);
+	jQuery('.buble10').parallax("25%", 0.3);
+	jQuery('.buble11').parallax("25%", 0.2);
+	jQuery('.buble12').parallax("25%", 0.3);
+	jQuery('#third').parallax("50%", 0.3);
+	jQuery('#forth').parallax("50%", 0.3);
+	jQuery('#fifth').parallax("50%", 0.4);
+  
+	jQuery('#fifth6').parallax("20%", 0.3);
+	jQuery('#fifth7').parallax("50%", 0.3);
+	jQuery('#fifth8').parallax("50%", 0.3);
+  	jQuery('#fifth9').parallax("50%", 0.5);
+  
+  
+	jQuery('#sixth').parallax("100%", 0.3);
+})
+</script>
+
+<script defer src="//static.myitworks.com/themes/rws-v3/js/jquery.flexslider.js"></script>
+  
+  <script type="text/javascript">
+  //var jQuery=jQuery.noConflict();
+    
+    //jQuery(function(){
+    //  SyntaxHighlighter.all();
+    //});
+    
+    jQuery(window).load(function(){
+      
+    });
+  </script>
+<style>
+  
+  .helloimagetop img , .helloimagetop2 img {width:220px;height:220px;}
+  
+</style>
+</head><body><!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TSX49D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TSX49D');</script>
+<!-- End Google Tag Manager --><section class="BodyPanel">
+	
+<script type="text/javascript">  
+//dont show if iframed
+if (top.location == self.location) {
+    floatingMenu.add('floatdiv',  
+        {  
+            // Represents distance from left or right browser window  
+            // border depending upon property used. Only one should be  
+            // specified.  
+             //targetLeft: 0,  
+              targetRight: 10,  
+  
+            // Represents distance from top or bottom browser window  
+            // border depending upon property used. Only one should be  
+            // specified.  
+             targetBottom: 0,  
+            // targetBottom: 0,  
+  
+            // Uncomment one of those if you need centering on  
+            // X- or Y- axis.  
+            //centerX: true,  
+              centerY: true,  
+  
+            // Remove this one if you don't want snap effect  
+            snap: true  
+        });  
+}
+</script>  
+
+	<div class="shareleft" id="floatdiv">
+    	<div class="txt">SHARE</div>
+        <div class="socialareagreen">
+		<div class="single">
+        
+		<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+			<!-- <a class="addthis_button_facebook"><img src="//static.myitworks.com/themes/rws-v3/images/facebooksmall.png" alt=""></a> -->
+			<a class="addthis_button_twitter" addthis:title="Have you tried that Crazy Wrap Thing?" ><img src="//static.myitworks.com/themes/rws-v3/images/twitersmall.png" alt=""></a>
+			<a class="addthis_button_pinterest_share"><img src="//static.myitworks.com/themes/rws-v3/images/printitsmall.png" alt=""></a>
+		</div>
+        
+		</div>
+        
+
+            
+        </div>
+    </div> <!-- /floatdiv -->
+    	
+    
+    
+    <header class="StaticHeader">
+    
+    
+    	<section class="HeaderTop">
+        	<div class="container">
+            	<div class="headerinner">
+                
+                	<div class="lowerblack"></div>
+                    
+                    
+                	<div class="Eventarea">
+                    	<a href="http://lovewrapsbyheather.myitworks.com/events/">Events</a>
+                    </div>
+                    
+                    <div class="profileright">
+
+                    	<div class="profilepic">                        	
+           					<img src="//api.exigo.com/4.0/ItWorks/customerimages/LoveWrapsByHeather" alt="" />
+                        </div> <!-- /profilepic -->
+                        
+                        <div class="callnumber">
+                            <div class="nameto">
+                            	                                  <a href="http://lovewrapsbyheather.myitworks.com/contactme/">Heather</a>
+                                                            </div>                         
+                            <div class="numberto">
+                            	                            </div>
+                        </div> <!-- /callnumber -->                        
+                        
+                  	</div> <!-- /profileright -->
+
+                    <div class="logoportion">
+                   		 <a href="http://lovewrapsbyheather.myitworks.com/"><img src="//static.myitworks.com/themes/rws-v3/images/logo.png" alt=""></a>
+                    </div>
+
+                    <div class="countryouter">
+                        <div class="logtop">
+                        <a href="https://lovewrapsbyheather.myitworks.com/login/">Log In</a>                        </div>
+                    
+	                    <div class="ustop"><a class="countrySelector" href="#countrySelector">United States</a></div>
+                    </div> <!-- /countryouter -->
+
+                        
+                        
+                        
+                        
+                    
+                    
+                    
+                </div> <!-- /headerinner -->
+            </div> <!-- /container -->
+        </section> <!-- /HeaderTop -->
+        
+        
+        
+        
+        
+        
+        
+       	<section class="Headerlower">
+        	<div class="navinner">
+            	<div class="container">                
+                	<div class="outernav">
+                    
+                    
+                    	<div class="navmain">
+                        	<ul>               
+                            	                            	<li><a href="http://lovewrapsbyheather.myitworks.com/crazywrap/">Join</a></li>                                
+                                                                
+                                <li><a href="http://lovewrapsbyheather.myitworks.com/shop/">Shop</a></li>
+                                                                <li><a href="http://lovewrapsbyheather.myitworks.com/system/">SYSTEM</a></li>
+                                                                
+                                
+                            </ul>
+                        </div>
+                        
+                     
+                     
+                                             <div class="shareareainner">
+                        
+    
+                           
+						                        
+                        
+                        	<div class="checkout"><a href="https://lovewrapsbyheather.myitworks.com/checkout/">Checkout</a></div>
+                            <div class="carticon"><a href="JavaScript:void(0);" class="show_hide">Cart <span>&nbsp;</span></a>
+                            
+                            
+                            
+                            	<div class="slidingDiv hide">
+	                            	<div class="togolbox_single">
+                                    
+                                    
+                                    <div class="carthead">Items in Shopping Cart</div>
+                                    
+                                    
+                                    <div id="cartContents" class="productlistmain">
+                                    
+                                        <div class="signglerow">
+                                        	<!-- <div class="producttxthead hide"><span>SKU</span></div> -->
+                                            <div class="producttxthead"><span>QTY</span></div>
+                                            <div class="producttxthead"><span>Name</span></div>
+                                            <div class="producttxthead"><span>Price</span></div>
+                                            <div class="producttxthead"><span></span></div>
+                                        </div>                                    
+                                    
+                                        
+	                                </div> <!-- /productlistmain -->                                               
+                                    
+                                
+                                    
+                                    
+                                    
+                                                                            
+	                                </div> <!-- /togolbox_single -->                                
+								</div> <!-- /slidingDiv -->
+                                
+                                
+                            </div> <!-- /carticon -->
+                            
+                            
+                            
+							                            
+                        </div> <!-- /shareareainner -->
+                        
+                        
+                    </div> <!--/outernav -->                    
+                </div> <!-- /container -->
+            </div> <!-- /navinner -->            
+        </section> <!-- /Headerlower -->
+        
+        
+    </header>
+        
+    <!--
+    <div class="buble1"></div>
+    <div class="buble2"></div>
+    <div class="buble3"></div>
+    <div class="buble4"></div>
+    <div class="buble5"></div>
+    <div class="buble6"></div>
+    -->
+    
+    
+
+<div class="buble1"></div>
+    
+    <div class="buble3"></div>
+    <div class="buble4"></div>
+    <div class="buble5"></div>
+    <div class="buble6"></div>
+    
+    
+    <section class="mainbody" id="intro">
+    
+    
+    	<div class="flexslider" >
+        	<ul id="sliderUL" class="slides"></ul>                                            
+		</div>
+        
+        
+    </section> <!-- /mainbody -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+<section id="fifth6" class="bigimg2"></section>
+    
+    
+    <section class="contactblog" id="sixth">
+    	<div class="buble10"></div>
+        <div class="buble11"></div>
+        <div class="buble12"></div>
+    	<div class="container">
+        	<div class="contactinnerof">
+                <div class="contacttopinner">
+                    <div class="head">
+                    <span>join</span> the party                    
+                    </div>
+                </div>
+               <div class="jointxtarea">
+               
+               
+               
+                              
+               	<div class="outerimagebox">
+                	<div class="imgeinner">
+                    	<div class="imgtxtofinner">What's a Wrapreneur?</div>
+                        <div class=""><a href="http://lovewrapsbyheather.myitworks.com/crazywrap/Wrapreneur/"><img src="//static.myitworks.com/themes/rws-v3/images/web-corp-image-dream.jpg" alt=""></a></div>
+                        <div class="learnmore"><a href="http://lovewrapsbyheather.myitworks.com/crazywrap/Wrapreneur/">LEARN<br>MORE</a></div>
+                    </div>
+                </div>
+                
+                                
+                
+                <div class="outerimagebox">
+                	<div class="imgeinner">
+                    	<div class="imgtxtofinner">Real Stories</div>
+                        <div class=""><img src="//static.myitworks.com/themes/rws-v3/images/web-corp-image-kami.jpg" alt=""></div>
+                        <div class="learnmore"><a href="http://lovewrapsbyheather.myitworks.com/crazywrap/stories/">LEARN<br>MORE</a></div>
+                    </div>
+                </div>
+                
+                
+                <div class="outerimagebox">
+                	<div class="imgeinner">
+                    	<div class="imgtxtofinner">Events</div>
+                        <div class=""><img src="//static.myitworks.com/themes/rws-v3/images/web-corp-events-calendar.jpg" alt=""></div>
+                        <div class="learnmore"><a href="http://lovewrapsbyheather.myitworks.com/events/">LEARN<br>MORE</a></div>
+                    </div>
+                </div>
+                
+                
+                
+               </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section id="fifth7" class="getstartimg">
+    	<div class="gatestated ">
+        	<a href="http://lovewrapsbyheather.myitworks.com/crazywrap/">
+            	Get<br>Started<br><span>Today</span>            
+            </a>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <section class="greenraealo">
+   	<div class="buble7"></div>
+    <div class="buble8"></div>
+    <div class="buble9"></div>
+    
+   	<div class="container">
+        <div class="greeninnerbox">
+        
+        
+    		<div class="head" id="third">
+            	<span>shop</span> our catalog            	
+            </div>
+            
+			<div class="singlerowarea">
+            
+            	                
+            	<div class="threeblog">                
+                	<div class="innerblog">
+                    	<a href="http://lovewrapsbyheather.myitworks.com/shop/#54">
+                        	<img src="//static.myitworks.com/themes/rws-v3/images/web-corp-categorysmall-Body.jpg?V51" alt="">
+                        </a>
+                    </div>
+                    <div class="imgtxt">
+                    	<a href="http://lovewrapsbyheather.myitworks.com/shop/#54">Body</a>
+                    </div>
+                </div>
+                                
+            	<div class="threeblog">                
+                	<div class="innerblog">
+                    	<a href="http://lovewrapsbyheather.myitworks.com/shop/#56">
+                        	<img src="//static.myitworks.com/themes/rws-v3/images/web-corp-categorysmall-Skin.jpg?V51" alt="">
+                        </a>
+                    </div>
+                    <div class="imgtxt">
+                    	<a href="http://lovewrapsbyheather.myitworks.com/shop/#56">Skin</a>
+                    </div>
+                </div>
+                                
+            	<div class="threeblog">                
+                	<div class="innerblog">
+                    	<a href="http://lovewrapsbyheather.myitworks.com/shop/#57">
+                        	<img src="//static.myitworks.com/themes/rws-v3/images/web-corp-categorysmall-Greens.jpg?V51" alt="">
+                        </a>
+                    </div>
+                    <div class="imgtxt">
+                    	<a href="http://lovewrapsbyheather.myitworks.com/shop/#57">Greens</a>
+                    </div>
+                </div>
+                                
+            </div> <!-- /singlerowarea -->
+            
+            
+            
+            <div class="videotxt">
+            
+            
+            	<div class="Videoarea">
+                	
+                    <div class="video-wrapper">
+                    <div class="video-container" >
+                    
+         
+                    
+                    
+                    <iframe width="530" height="298" src="//www.youtube.com/embed/991yFd_qdgA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    
+                    
+                    </div> <!-- /video-container -->
+                    </div>
+                    
+                    
+                </div>
+                
+                
+                <div class="txtofvideo">
+                
+					<h2>Take It All Off!</h2>
+ 
+					<p>Feel it. Love it. Take it all off! Reveal a more natural, youthful you with the Exfoliating Peel from It Works!</p>
+                    
+                    <div class="Showouter">
+                    	<div class="shopnow"><a href="http://lovewrapsbyheather.myitworks.com/shop/">Shop Now</a></div>
+                    </div>
+                </div> <!-- /txtofvideo -->
+            </div> <!-- /videotxt -->
+            
+            
+        </div> <!-- /greeninnerbox -->
+    </div> <!-- /container -->
+    </section> <!-- /greenraealo -->
+    
+    
+    
+    
+
+
+    <section id="fifth8" class="bigimg4"></section>
+    
+    
+    <section class="contactbloginner" id="sixth">
+    
+    	<div class="buble10"></div>
+        <div class="buble11"></div>
+        <div class="buble12"></div>
+        
+    	<div class="container">
+        	<div class="contactinnerofinner">
+            
+                <div class="contacttopinner">
+                    <div class="head">
+                    	in the <span>news</span>                    	
+                    </div>
+                    <div class="reedall">
+                    	<a href="http://lovewrapsbyheather.myitworks.com/news/" class="">
+                        	READ<br>ALL                    		
+                        </a>
+                    </div>
+                </div> <!-- /contacttopinner -->
+                
+    
+								                <div class="txtinnerof">
+                	<div class="helloimagetop2"><img src="//static.myitworks.com/themes/rws-v3/images/news/{7CD2A784-8D30-497A-916D-7FCFC615C338}.png" alt=""></div>
+                    <div class="innerdateblog2">
+                    	<!-- <div class="datetop"> </div> -->
+                        <div class="head"><a target="_blank" href="">IT WORKS! NAMED TOP 15 DIRECT SALES COMPANY IN NORTH AMERICA</a></div>
+                        <div class="txt">Direct Selling News magazine, the leading publication for the direct selling industry, has ranked It Works! No. 15 on its North America 50 list and No. 31 on its sixth annual DSN  Global 100, an exclusive ranking of the top revenue-generating compani &hellip;</div>
+                    </div> <!-- /innerdateblog -->                    
+                </div> <!-- /txtinnerof -->
+        
+    			                <div class="txtinnerof">
+                	<div class="helloimagetop"><img src="//static.myitworks.com/themes/rws-v3/images/news/{2EB09215-79A5-4212-ACB8-77463B04262D}.jpg" alt=""></div>
+                    <div class="innerdateblog">
+                    	<!-- <div class="datetop"> </div> -->
+                        <div class="head"><a target="_blank" href="http://www.inc.com/profile/it-works">It Works! Climbs the Charts on Inc. 500 List</a></div>
+                        <div class="txt">Producing exponential growth for the second year in a row, It Works! boomed on the Inc. 500 list, ranking No. 290 from last year’s placement, No. 436. The company experienced a substantial growth this year of 1,565.3 percent, compared to the 2013 lis &hellip;</div>
+                    </div> <!-- /innerdateblog -->                    
+                </div> <!-- /txtinnerof -->
+        
+    			                <div class="txtinnerof">
+                	<div class="helloimagetop2"><img src="//static.myitworks.com/themes/rws-v3/images/news/{397AAC58-9C3E-471C-9E34-C300F9858E51}.jpg" alt=""></div>
+                    <div class="innerdateblog2">
+                    	<!-- <div class="datetop"> </div> -->
+                        <div class="head"><a target="_blank" href="http://www.bradenton.com/2014/07/24/5269018/itworks-event-to-boost-hotels.html">It Works! event to boost hotels, restaurants in Manatee</a></div>
+                        <div class="txt">A three-day conference being held by Palmetto skin care and nutritional supplement seller ItWorks! Global at the Bradenton Area Convention Center may be the start of a multimillion-dollar economic boost for the city and surrounding areas.
+
+ &hellip;</div>
+                    </div> <!-- /innerdateblog -->                    
+                </div> <!-- /txtinnerof -->
+        
+    							                
+                
+                
+                
+                
+                
+			</div> <!-- /contactinnerofinner -->            
+        </div> <!-- /container -->
+    </section> <!-- /contactbloginner -->
+    	<section id="fifth9" class="bigimg5"></section>    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+       
+
+    <section class="newsarea" id="intro2">
+    	<div class="container">
+        	<div class="helloinner">
+            	<div class="helloimg"><img src="//api.exigo.com/4.0/ItWorks/customerimages/LoveWrapsByHeather" alt=""></div>
+                <div class="hellorightportion">
+                	<div class="Head">
+                    
+                    	                    	<span>hello,</span> 
+                        my name is Heather                        
+                                                
+                    </div>
+                    
+                    <article class="quotationarea"></article>
+                    
+                    <div class="readmore"><a href="/contactme/">Read More</a></div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- /newsarea -->
+    
+    <section id="fifth" class="bigimg"></section>
+    
+    
+<script type="text/javascript">
+  
+  $(document).ready(function() {	
+    
+   
+   $('#btnContact').click(function () {
+   //$('#contactMeForm').submit(function () {
+     data = $('#contactMeForm').serialize();
+     submitContact(data);
+     return false;
+   });
+		
+
+    
+});    
+    
+
+    function submitContact(pData) {     
+     $.ajax({
+       type: 'POST',
+       url: '/ajax/contactme/',
+       data: pData,       
+        beforeSend: function() {
+    
+          //show loading text, remove previous errors
+          //$('.control-group').removeClass('error');
+		  $('#contactError').html('').hide();          
+          $('#contactLoading').show();
+          	
+        },        
+       success: function (response) {
+         $('#contactLoading').hide();
+         
+         if (response.success == "True") {
+           
+           $('.contactblog').hide();
+           $('#thankyou').show();
+           
+           // window.location.href = editPage;
+           
+         } else {
+           
+           
+           //address validation  
+           if (response.errors != undefined) {
+              $.each(response.errors, function() {
+                //alert('errs:' + this.fieldname);
+                $('#' + this.fieldname + 'Control').addClass('error');
+                
+              });           
+             
+	           //scroll to error
+    	       //$("html,body").animate({scrollTop:$('.error').offset().top -20}, 'fast');
+             
+           }           
+           
+           
+           //general error message
+           $('#contactError').html(response.statusmessage).show();
+           
+         }
+       },
+       error: function () {                             
+         $('#contactLoading').hide();
+         $('#contactError').html('Connection Error').hide();
+       }
+     });
+     
+   }
+
+</script>
+
+<form id="contactMeForm" method="POST">
+<input type="hidden" name="action" value="submit">
+
+<a name="ContactMe"></a>
+    
+    <section class="contactblog" id="sixth">
+    	<div class="buble10"></div>
+        <div class="buble11"></div>
+        <div class="buble12"></div>
+        
+        
+    	<div class="container">
+        	<div class="contactinnerof">
+            
+                <div class="contacttopinner">
+                    <div class="head">Contact Me</div>
+                    <div class="contactimg"><img src="//api.exigo.com/4.0/ItWorks/customerimages/LoveWrapsByHeather" alt=""></div>
+                </div> <!-- /contacttopinner -->
+                
+     
+                <div id="firstnameControl" class="contactsinglerow control-group">
+                    <div class="nametxt">First Name</div>
+                    <div class="textfieldouterbox"><input name="firstname" type="text" class="fieldboxcon" value="Your First Name" onclick="if(this.value=='Your First Name') this.value = ''; " onblur=" if(this.value=='') this.value = 'Your First Name';"></div>
+                </div>
+                
+                
+                
+                <div id="lastnameControl" class="contactsinglerow control-group">
+                    <div class="nametxt">Last Name</div>
+                    <div class="textfieldouterbox"><input name="lastname" type="text" class="fieldboxcon" value="Your Last Name" onclick="if(this.value=='Your Last Name') this.value = ''; " onblur=" if(this.value=='') this.value = 'Your Last Name';"></div>
+                </div>                
+                
+                
+                
+                <div id="emailControl" class="contactsinglerow control-group">
+                    <div class="nametxt">Email</div>
+                    <div class="textfieldouterbox"><input name="email" type="text" class="fieldboxcon" value="Your Email" onclick="if(this.value=='Your Email') this.value = ''; " onblur=" if(this.value=='') this.value = 'Your Email';"></div>
+                </div>
+                
+                
+                
+                <div id="phoneControl" class="contactsinglerow control-group">
+                    <div class="nametxt">Phone</div>
+                    <div class="textfieldouterbox"><input name="phone" type="text" class="fieldboxcon" value="Your Number" onclick="if(this.value=='Your Number') this.value = ''; " onblur=" if(this.value=='') this.value = 'Your Number';"></div>
+                </div>
+                
+                
+                
+                <div id="commentsControl" class="contactsinglerow control-group">
+                    <div class="nametxt">Comments</div>
+                    <div class="textfieldouterbox"><textarea name="comments" cols="1" rows="1" class="fieldboxcontxt" onclick="if(this.value=='Any Comments?') this.value = ''; " onblur=" if(this.value=='') this.value = 'Any Comments?';">Any Comments?</textarea></div>
+                </div>
+                
+                <div class="okbut"><a id="btnContact" href="#">OK!</a> <span id="contactLoading" style="display:none;"><img src="//static.myitworks.com/images/loading-blue.gif" alt="loading..." /></span></div>
+                
+                
+            </div> <!-- /contactinnerof -->
+            <span id="contactError" style="color: #FF0000; display: none;">Error occurred .</span>
+            
+        </div> <!-- /container -->        
+    </section> <!-- /contactblog -->
+</form>
+
+<div id="thankyou" class="hide text-center">
+	  <h2>Thank you for your interest.<h2>
+  <p>Your request has been sent. Please allow 24-48 hours for response.</p></div> <!-- /thankyou -->    
+    
+    
+        
+    	<section class="footer">
+    	<div class="footertop">
+        	<div class="container">
+            	<div class="footertopinner">
+                <div class="footerlogopart">
+                    	<div class="lowerlogo"><a href="http://lovewrapsbyheather.myitworks.com/"><img src="//static.myitworks.com/themes/rws-v3/images/footerlogo.png" alt=""></a></div>
+                        <div class="lowerfollowtxt">Follow Me - <a href="/contactus/">Contact Us</a></div>
+                        <div class="shareouter">
+                        <div class="shareicons">
+                        
+                        
+                                                        
+                            	<div class="singles">
+                                	<a class="facebook" href="https://www.facebook.com/LoveWrapsByHeather?ref=bookmarks"><span></span></a>
+                                </div>                            
+                            
+                                                        
+                            	<div class="singles">
+                                	<a class="twitter" href="http://twitter.com/itworksglobal"><span></span></a>
+                                </div>                            
+                            
+                                                        
+                            	<div class="singles">
+                                	<a class="youtube" href="http://www.youtube.com/itworksglobal"><span></span></a>
+                                </div>                            
+                            
+                                                    
+                      
+                                
+                            </div> <!-- /shareicons -->
+                            </div> <!-- /shareouter -->
+                    </div>
+                   <div class="footerlinksouter"> 
+                <div class="footerlinks">
+                
+               
+               	                	<div class="head"><a href="http://lovewrapsbyheather.myitworks.com/crazywrap/">Join</a></div>
+                    <ul>                    	
+                    
+                                            	<li><a href="http://lovewrapsbyheather.myitworks.com/crazywrap/Wrapreneur/">What's A Wrapreneur</a></li>
+                                                
+                        <li><a href="http://lovewrapsbyheather.myitworks.com/crazywrap/stories/">Real Stories</a></li>
+                        <li><a href="http://lovewrapsbyheather.myitworks.com/events/">Events</a></li>
+                    </ul>
+                                    
+                    
+                </div>
+                
+                
+                
+                <div class="footerlinks">
+                	<div class="head"><a href="http://lovewrapsbyheather.myitworks.com/shop/">Shop</a></div>
+                    <ul>
+            				                		<li><a class="catChange" href="http://lovewrapsbyheather.myitworks.com/shop/#54">Body</a></li>
+                        	                		<li><a class="catChange" href="http://lovewrapsbyheather.myitworks.com/shop/#56">Skin</a></li>
+                        	                		<li><a class="catChange" href="http://lovewrapsbyheather.myitworks.com/shop/#57">Greens</a></li>
+                                            </ul>
+                </div>
+                
+                
+                <div class="footerlinks">
+                	<div class="head"><a href="http://lovewrapsbyheather.myitworks.com/news/">News</a></div>
+                    <ul>
+                    	<li><a href="http://lovewrapsbyheather.myitworks.com/history/">History</a></li>
+                        <li><a href="http://lovewrapsbyheather.myitworks.com/givesback/">Gives Back</a></li>
+                    </ul>
+                </div>
+                	</div>
+                </div>
+            </div>
+        </div>
+        <div class="footerlower">
+        	<div class="container">
+            	<div class="copytxt">Copyright 2016 INC. all rights reserved. <a href="http://lovewrapsbyheather.myitworks.com/Legal/">Terms of Use</a></div>
+                <ul class="termofuse">
+                	<li><a href="http://lovewrapsbyheather.myitworks.com/Legal/Privacy/">Privacy Policy</a></li>
+                    <li>|</li>
+                    <li><a href="http://lovewrapsbyheather.myitworks.com/Legal/Terms/">Policies & Procedures</a></li>
+                    <li>|</li>
+                    <li><a href="http://lovewrapsbyheather.myitworks.com/Legal/Income/">Income Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+    </section></section> <!-- /BodyPanel -->
+<!-- countrySelector -->
+<!-- Modal -->
+<div id="countryModal" class="modal hide " tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Please select your destination country</h3>
+  </div>
+  <div class="modal-body">
+    <p>Please Wait...</p>
+  </div>
+  
+  <!--
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
+  -->
+</div>
+
+
+
+<!-- AddThis Button BEGIN -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52614d3e743624c8"></script>
+<!-- AddThis Button END -->
+<script src="//static.myitworks.com/themes/boot-2.3.1/js/bootstrap.min.js?V51"></script>
+<script>
+var CDN = "//static.myitworks.com/";
+var themeroot = "//static.myitworks.com/themes/rws-v3/";
+var LangSlug = '';
+var defaultCategory = '0';
+var bSideCart = false;
+jQuery(document).ready(function() {
+	jQuery(".countrySelector").click(function() {
+    	
+    	jQuery('#countryModal .modal-body').html('Loading...');
+    	jQuery('#countryModal .modal-body').load('/selectcountry/');
+        jQuery('#countryModal').modal();
+    	return false;
+    });
+        	//if we used this method, we'd need make sure the setCountry page doesnt call it.
+	jQuery(".countrySelector").click();    
+    
+});
+</script>
+
+<!-- <script type="text/javascript" src="js/jquery-1.10.2.min.js?V51"></script> -->
+<script type="text/javascript" src="//static.myitworks.com/themes/rws-v3/js/jquery.customSelect.latest.min.js?V51"></script>
+<script type="text/javascript">
+	//needs work
+	$(document).ready(function() {
+		var $cs = $('.styled').customSelect();
+	});		
+</script>
+
+
+<script src="/scripts/itworks/JS_CategoryTerms.js?V51"></script>
+<script src="//static.myitworks.com/scripts/itworks/JS_CartURLs.js?V51"></script>
+
+<script>
+ 
+$(document).ready(function() {
+  
+  PaintSlides($('#sliderUL'), 'US','en');
+});
+  
+
+  
+function PaintSlides(pObject,pCountry,pLanguage) {
+  
+      
+      $.ajax({
+        type: 'POST',
+        url: '/ajax/sliders/',
+        data: 'Country=' + pCountry + '&Language=' + pLanguage,
+        beforeSend: function() {
+          
+          $(pObject).empty();
+          
+        },        
+        success: function (response) {
+          
+          
+          $(pObject).empty();
+          
+          if (response.success == "True") {
+            
+            //success
+            $.each(response.recordset, function() { 
+             
+              
+              var content = '';
+              
+              //if imagelink not null wrap in link
+              if (this.imagelink.length > 0) {
+                content = '<a href="' + this.imagelink + '" {0} >{1}</a>';  
+              }
+              
+              //if this.newwindow = 0/1
+              if (this.newwindow == "true") { 
+                content = content.replace('{0}','target="_blank"');
+              } else {
+                content = content.replace('{0}','');              
+              }
+              
+              
+              //create image link
+              var imagelink = '<img src="' + this.imageurl + '" />';                                
+              
+                
+              //if link created, stuff image in it.
+              if (content.length > 0) {
+                content = content.replace('{1}',imagelink);
+              } else {
+                content = imagelink;
+              }
+              
+              $(pObject).append('<li>' + content + '</li>');
+              
+              
+            });
+            
+            
+            jQuery('.flexslider').flexslider({
+       
+              start: function(slider){
+                jQuery('body').removeClass('loading');
+              }
+            });
+            
+            
+          } else {
+            
+            //general error message
+          }
+        },
+        error: function () {  
+         alert("error loading banners");
+        }
+      });
+  
+}  
+  
+</script>	
+
+<script src="//static.myitworks.com/themes/rws-v3/js/JS_CartV3.js?V51"></script>
+<script src="//static.myitworks.com/themes/rws-v3/js/JS_CategoryV3.js?V51"></script>
+
+</body>
+</html>
+<!-- Dynamically(False) Generated: 640.625 millsec. -->
+<!-- Server_IS_UP: .89 -->

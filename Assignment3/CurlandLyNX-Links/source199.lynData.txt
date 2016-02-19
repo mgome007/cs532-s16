@@ -1,0 +1,121 @@
+   #[1]next [2]Space Ninja
+
+Menu
+
+   [3]Close
+     * [4]Home
+     * [5]Portfolio
+     * [6]Last bearded prez?
+     * [7]Talk like Ellis
+
+   [8]Subscribe
+
+   [9]Space Ninja [10]Menu
+
+Space Ninja
+
+CSS ninja, last of the freelance hackers, greatest swordfighter in the world
+
+   [11]Scroll Down
+   Page 1 of 2 [12]Older Posts →
+
+[13]Code Verbosity
+
+   Recently I was refactoring some CSS, and I found something like this
+   code snippet: body { font-family: sans-serif; font-size: 14px;
+   line-height: 1.4; } h1 { font-family: serif; font-size: [14]»
+   Scott Vandehey [15]Scott Vandehey on [16]css, [17]web development,
+   [18]refactoring 16 December 2015
+
+[19]Falsehoods Programmers Believe
+
+   I'm in love with these lists of "Falsehoods Programmers Believe About
+   X." In case you haven't had pleasure, I've collected all the ones I
+   know of [20]»
+   Scott Vandehey [21]Scott Vandehey on [22]programming, [23]myths,
+   [24]time 08 December 2015
+
+[25]What IS Flexbox?
+
+   An elegant layout method for a more civilized age. Flexbox is a new
+   layout mode in CSS3. The previous version of CSS defined four layout
+   modes: [26]»
+   Scott Vandehey [27]Scott Vandehey on [28]css, [29]flexbox, [30]web
+   development 24 August 2015
+
+[31]What I value in a job
+
+   ATTENTION! I am not looking for work right now. This post is for my own
+   reference, trying to record some thoughts following my most recent job
+   [32]»
+   Scott Vandehey [33]Scott Vandehey on [34]work culture, [35]hiring,
+   [36]culture fit 04 May 2015
+
+[37]Finding Your Door
+
+   “Hey! I heard you got a new door. How is it?” “Oh, it’s pretty good.
+   When my last door broke unexpectedly, I had to find [38]»
+   Scott Vandehey [39]Scott Vandehey on [40]work culture, [41]metaphor,
+   [42]compromise 15 April 2015
+
+[43]The Many Exciting CSS Limits of Internet Explorer
+
+   Internet Explorer has a number of limits in the way it loads CSS, which
+   can cause some of your styles not to be applied if you [44]»
+   Scott Vandehey [45]Scott Vandehey on [46]css, [47]internet explorer,
+   [48]web development 31 March 2015 Page 1 of 2 [49]Older Posts →
+   [50]Space Ninja © 2016 Proudly published with [51]Ghost
+
+References
+
+   1. http://spaceninja.com/page/2/
+   2. http://spaceninja.com/rss/
+   3. file:///home/mgomez/CS432/A3/source199.txt
+   4. http://spaceninja.com/
+   5. http://spaceninja.com/portfolio/
+   6. http://whowasthelastpresidentwithabeard.com/
+   7. http://talklikewarrenellis.com/
+   8. http://spaceninja.com/rss/
+   9. http://spaceninja.com/
+  10. file:///home/mgomez/CS432/A3/source199.txt
+  11. file:///home/mgomez/CS432/A3/source199.txt#content
+  12. file:///page/2/
+  13. file:///2015/12/16/code-verbosity/
+  14. file:///2015/12/16/code-verbosity/
+  15. file:///author/scott/
+  16. file:///tag/css/
+  17. file:///tag/web-development/
+  18. file:///tag/refactoring/
+  19. file:///2015/12/08/falsehoods-programmers-believe/
+  20. file:///2015/12/08/falsehoods-programmers-believe/
+  21. file:///author/scott/
+  22. file:///tag/programming/
+  23. file:///tag/myths/
+  24. file:///tag/time/
+  25. file:///2015/08/24/what-is-flexbox/
+  26. file:///2015/08/24/what-is-flexbox/
+  27. file:///author/scott/
+  28. file:///tag/css/
+  29. file:///tag/flexbox/
+  30. file:///tag/web-development/
+  31. file:///2015/05/04/job-values/
+  32. file:///2015/05/04/job-values/
+  33. file:///author/scott/
+  34. file:///tag/work-culture/
+  35. file:///tag/hiring/
+  36. file:///tag/culture-fit/
+  37. file:///2015/04/15/finding-your-door/
+  38. file:///2015/04/15/finding-your-door/
+  39. file:///author/scott/
+  40. file:///tag/work-culture/
+  41. file:///tag/metaphor/
+  42. file:///tag/compromise/
+  43. file:///2015/03/31/ie-css-limits/
+  44. file:///2015/03/31/ie-css-limits/
+  45. file:///author/scott/
+  46. file:///tag/css/
+  47. file:///tag/internet-explorer/
+  48. file:///tag/web-development/
+  49. file:///page/2/
+  50. http://spaceninja.com/
+  51. https://ghost.org/

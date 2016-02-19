@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Le site de Maxime51800 | lePoTo51</title>
+
+<style type="text/css">
+body {
+cursor: url("img/curseur-v.png"), auto;
+}
+
+.btn {
+  border-color: #c5c5c5;
+  border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+  width: auto;
+}
+
+.btn {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 14px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  line-height: 20px;
+  *line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  *background-color: #e6e6e6;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  border: 1px solid #bbbbbb;
+  *border: 0;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.span1 {
+  width: 220px;
+  height: 30px;
+}
+
+input.span1, textarea.span1, .uneditable-input.span1 {
+width: 250px;
+-webkit-border-radius: 5
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+textarea {
+  height: 200px;
+  -webkit-border-radius: 5
+  
+}
+
+
+input, textarea {
+width: 250px;
+border: 1px solid #CCC;
+}
+
+</style>
+
+<meta name="content-language" content="fr" />
+<meta name="category" content="general" /> 
+<meta name="description" content="Site avec tout les liens pour me parler et me suivre" />
+<meta name="keywords" content="lepoto51 lepoto maxime maxime51800 51800 le poto 51 max maximelepoto le site de lepoto51 facebook twitter youtube twitch wolfteam " /> 
+
+</head>
+<body BACKGROUND="image/fond v.jpg" TEXT="white" LINK="lime" VLINK="lime" ALINK="red" >
+<center><a href="http://www.maxime51800.herobo.com"><img src="image/logo 1.jpeg" alt="logo" title="Aceuil"></a> </center>
+
+<!-- ramener haut de page -->
+<div >
+<a style="z-index:9;display:scroll;position:fixed;top:1px;right:1px;" href="#" alt="Haut de page" title="Haut de page">
+<img style="width: 18px; " src="img/fleche-haut.png" border="0"></a>
+</div>
+
+<!-- ramener bas de page -->
+<div>
+<a style="z-index:9;display:scroll;position:fixed;bottom:1px;right:1px;" href="#bas" alt="Bas de page" title="Bas de page">
+<img style="width: 18px; " src="img/fleche-bas.png" border="0"></a>
+</div>
+
+<!-- Code Konami  message-->
+
+<script>if ( window.addEventListener ) {
+var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
+window.addEventListener("keydown", function(e){
+kkeys.push( e.keyCode );
+if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+alert("Un code Konami ? Ici ! Wouah mais pourquoi faire ? Humm... Je sais ! Mais je te dis rien cherche bien !");
+window.location = ""
+}
+}, true);
+}
+</script>
+
+<center><b><h2>Bienvenue sur mon site internet Maxime51800 | lePoTo51™</h2></b></center>
+<center><a href="http://www.youtube.com/user/lePoTo51"target="_blank"><img src="image/logo.png" alt="barriere" ></a></center>
+
+<center><a href="http://www.youtube.com/user/lePoTo51"target="_blank">Mon Youtube</a></center>
+<center><a href="http://www.youtube.com/user/lePoTo51"target="_blank"><img src="image/youtube.png" alt="youtube" ></a></center>
+
+<center><a href="https://www.facebook.com/MaximeLiveStream"target="_blank">Mon Facebook</a></center>
+<center><a href="https://www.facebook.com/MaximeLiveStream"target="_blank"><img src="image/facebook.png" alt="facebook" ></a></center>
+
+<center><a href="https://twitter.com/lePoTo51"target="_blank">Mon Twitter</a></center>
+<center><a href="https://twitter.com/lePoTo51"target="_blank"><img src="image/twitter.png" alt="twitter" ></a></center>
+
+<center><a href="http://fr.twitch.tv/maxime51800"target="_blank">Mon Twitch</a></center>
+<center><a href="http://fr.twitch.tv/maxime51800"target="_blank"><img src="image/twitch.png" alt="twitch"></a></center>
+
+<center><a href="http://maxime51800.tumblr.com"target="_blank">Mon Tumblr</a></center>
+<center><a href="http://maxime51800.tumblr.com"target="_blank"><img src="image/tumblr.png" alt="tumblr" ></a></center>
+
+<center><a href="http://www.dailymotion.com/maxime51800"target="_blank">Mon Dailymotion</a></center>
+<center><a href="http://www.dailymotion.com/maxime51800"target="_blank"><img src="image/daily.png" alt="dailymotionf" ></a></center>
+
+
+<!-- Secret 
+<center><b>Mon Speudo Skype "Maxime51800"</b></center>
+<center><img src="image/skype.png" alt="skype" ></center>
+<center><b>Mon statut sur Skype</b></center>
+<center><img src="http://mystatus.skype.com/maxime51800"><center>
+-->
+
+<center><center><a href="http://battlelog.battlefield.com/bf3/fr/user/Maxime51800/"target="_blank"><b>Mon Speudo BF3 PC "Maxime51800"</b></a></center>
+<center><a href="http://battlelog.battlefield.com/bf3/fr/user/Maxime51800/"target="_blank"><img src="image/bf3.jpg" alt="battlelog" ></a></center>
+<a href="http://battlelog.battlefield.com/bf3/fr/user/maxime51800/" alt="stat live"><img src="http://sig.bf-france.com/sig-c76e4b8313689792684a70991c5ffd9c.png" width="600" height="135" alt="" title="signature bf-france" /></a>
+
+<center><a href="http://steamcommunity.com/id/Maxime51800"target="_blank">Mon Speudo Steam "Maxime51800"</a></center>
+<center><a href="http://steamcommunity.com/id/Maxime51800"target="_blank"><img src="image/steam.png" alt="steam"></a></center>
+<center><a href="http://steamcommunity.com/id/Maxime51800"target="_blank"><img src="http://csgo-stats.com/maxime51800/graphic.png" alt="csgo" ></a></center>
+
+<br />
+
+<center><b>Mon Gamer-Tag "Maxime51800"</b></center>
+<center><img src="image/xbox.png" alt="xbox" ></center>
+
+<br />
+
+<center><b>Mon Speudo Wolfteam "Maxime5180"</b></center>
+<center><a href="http://fr.wolfteam.aeriagames.com/download"target="_blank"><img src="image/wolfteam.png" alt="wolfteam" ></a></center>
+
+<!-- Bug du site web -->
+				<center><b><u><h2>Un Bug / Commentaire pour mon site ? Dis le moi.</h2></u></b><center>
+<center>
+    <form action="save3.php" method="post"><span class="poster">
+		<center><label>Ton Pseudo</label></center>
+		<input class="span1" name="Pseudo" type="text" maxlength="25" placeholder="Speudo"><br>
+		<center><label>Signalez moi tout !(500 Caractères)</label></center>
+		<textarea  rows="5" cols="40" name="Bug-rencontrer" maxlength="500" placeholder="Avec votre @Email si possible"></textarea>
+		<br>
+				<input class="btn" type="submit" value="Envoyer" onclick="window.open('messageMerci.html','','top=152,left=0,width=250,height=200,scrollbars=no');">
+</span></form></div>
+</center>
+
+<br />
+
+<!-- Note du site web -->
+<hr color="white" size="3"  />
+<center><h2>Comment trouves-tu mon site ? <br />
+(Je débute en HTML5 est en PHP) <br /></h2>
+<h1>Donnes une note !</h1></center>
+
+<hr color="white" size="3"  />
+<form action="save2.php" method="post"><span class="poster">
+
+<center>
+<h1>
+<input type="radio" style='width:30px;height:30px' name="choix" value="-1">-1
+<input type="radio" style='width:30px;height:30px' name="choix" value="0">0
+<input type="radio" style='width:30px;height:30px' name="choix" value="+1">+1
+</h1>
+</center>
+
+<center>
+<input class="btn" style='width:70px;height:40px' type="submit" value="Envoyer" onclick="window.open('messageMerci.html','','top=152,left=0,width=250,height=200,scrollbars=no');">
+</form>
+</center>
+
+<br />
+
+<!-- Partage de la page -->
+<center><script type="text/javascript">var fbShare = {url: '<data:www.maxime51800.herobo.com', size: 'large' }</script><script src="http://widgets.fbshare.me/files/fbshare.js" type="text/javascript"></script>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://maxime51800.herobo.com" data-via="lePoTo51" data-lang="fr" data-size="large" data-count="none">Tweeter</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div class="g-plusone" data-size="medium" data-href="http://www.maxime51800.herobo.com/"></div>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'fr'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</center>
+<center><b><u>Partage mon site (sans la vignette) Merci !</u></b></center>
+
+
+
+<!-- Lien Page navigation -->
+
+<br />
+
+<center><a href="page1.html" title="Page 1">Page 1</a>
+|
+<a href="page2.html" title="Page 2">Page 2</a>
+|
+<a href="page3.html" title="Page 3">Page 3</a>
+|
+<a href="pagelien.html" title="Page 3">Page a lien</a>
+</center>
+
+<br />
+
+<!-- Conteur -->
+
+<center><script type="text/javascript" src="http://compteur.websiteout.net/js/2/5/1149/0"></script></center>
+
+<div id="bas"></div></div>
+
+<center><h6>Copyright © 2016-2017 - www.maxime51800.herobo.com All rights reserved.</h6></center>
+</body>
+</html>
+<!-- Hosting24 Analytics Code -->
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+<!-- End Of Analytics Code -->

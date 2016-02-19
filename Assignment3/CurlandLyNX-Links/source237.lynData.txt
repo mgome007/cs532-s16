@@ -1,0 +1,1369 @@
+   #[1]Geographic Information Systems Stack Exchange [2]newest python
+   questions feed
+
+[3]current community
+
+     * [4]blog [5]chat
+       Geographic Information Systems
+     * Geographic Information Systems Meta
+
+your communities
+
+   [6]Sign up or [7]log in to customize your list.
+
+[8]more stack exchange communities
+
+   [9]company blog
+   [10]Stack Exchange [11]Inbox [12]Reputation and Badges
+   [13]sign up [14]log in [15]tour [16]help
+     * [17]Tour Start here for a quick overview of the site
+     * [18]Help Center Detailed answers to any questions you might have
+     * [19]Meta Discuss the workings and policies of this site
+
+   ____________________
+
+   [20]Geographic Information Systems
+     * [21]Questions
+     * [22]Tags
+     * [23]Users
+     * [24]Badges
+     * [25]Unanswered
+
+     * [26]Ask Question
+
+Tagged Questions
+
+   [27]info [28]newest [29]frequent [30]votes [31]active [32]unanswered
+
+   Python is an open source interpreted programming language used in many
+   GIS programs.
+
+   [33]learn more… | [34]top users | [35]synonyms
+   1
+   vote
+   1answer
+   12 views
+
+[36]QGIS docutils install (path,pythonpath,pythonhome)
+
+   New to QGIS and Python. Have QGIS installed and working great on
+   Windows, want to install and use Docutils -- Python Documentation
+   Utilities (presumably all simple and small .py programs). I see ...
+   [37]qgis [38]python [39]installation [40]python-addin
+   asked 5 hours ago
+   [41]rjlabs
+   434
+   1
+   vote
+   0answers
+   17 views
+
+[42]Using Leave one out method on kriged data
+
+   I am looking for a function to do the following. Given a boundary file,
+   and soil sample points within the boundary I am wanting to use the
+   Leave one out validation technique. What I mean is create a ...
+   [43]qgis [44]python [45]r
+   asked 20 hours ago
+   [46]Chris C
+   111
+   3
+   votes
+   1answer
+   19 views
+
+[47]QGIS standalone application for map rendering: bad extent
+
+   I made a simple standalone QGIS app for rendering a set of layers and
+   export it as a PDF file. When i use iface.mapCanvas().mapRenderer()
+   (inside QGIS console) for rendering, my output is OK. If i ...
+   [48]qgis [49]python [50]pyqgis [51]qgis-2.12
+   asked yesterday
+   [52]Kef
+   363
+   1
+   vote
+   1answer
+   28 views
+
+[53]How to map geoJSON polygon from a url request in python
+
+   Using Python I have loaded json data from the url
+   http://environment.data.gov.uk/flood-monitoring/id/floods and have
+   found that the flood areas encoded as geoJSON polygons are displayed as
+   url links. ...
+   [54]python [55]polygon [56]geojson [57]api [58]json
+   asked yesterday
+   [59]cstone
+   85
+   0
+   votes
+   0answers
+   8 views
+
+[60]Creating a 3d numpy array matrix using append method [migrated]
+
+   Is there a way to create a 3d numpy array by appending 2d numpy arrays?
+   What I currently do is append my 2d numpy array into an initialized
+   list of pre determined 2d numpy array, i.e., ...
+   [61]python [62]numpy [63]memory [64]array
+   asked yesterday
+   [65]user32145
+   585
+   -4
+   votes
+   0answers
+   28 views
+
+[66]How to write a python code to perform excel to table in GIS [on hold]
+
+   I have a folder(C:\GIS DATA) and put all my excel files into that
+   folder. I wanted to write a python script to read all the excel files
+   in GIS and then do excel to table function for all those files ...
+   [67]arcgis-desktop [68]python [69]arcpy [70]import [71]excel
+   asked yesterday
+   [72]rayyht
+   13
+   -2
+   votes
+   0answers
+   14 views
+
+[73]Checking for misclosure using python [on hold]
+
+   I need help in writing a script that will check the shift distance
+   bearing between points of two similar feature classes.
+   [74]python
+   asked yesterday
+   [75]mbiganyi
+   1
+   2
+   votes
+   1answer
+   27 views
+
+[76]How to propagate attributes down several line features?
+
+   I have a PostGIS database of road features which are split at
+   intersections. Some of the features on an individual road have certain
+   attribute info (i.e. speed limits) and others do not. I want to ...
+   [77]arcgis-desktop [78]python [79]postgis
+   asked yesterday
+   [80]wmebane
+   514
+   2
+   votes
+   1answer
+   32 views
+
+[81]Change shapefile field names using ogr AlterFieldDefn
+
+   I need to change field names of a shapefile to upper case using ogr. I
+   want to do this automatically, versus calling out each field and
+   replacing the name with upper case. When I try to implement ...
+   [82]python [83]shapefile [84]ogr [85]fields
+   asked 2 days ago
+   [86]jtodd
+   234
+   2
+   votes
+   0answers
+   32 views
+
+[87]gdal/python: tif not recognised a supported file format
+
+   I'm trying to open a tif using gdal, read it as a array, do some math,
+   and write it back as a tif. However, when I try to gdal.Open(tif) in
+   python, I get the error: RuntimeError: ...
+   [88]python [89]gdal [90]linux
+   asked 2 days ago
+   [91]user20408
+   1538
+   3
+   votes
+   0answers
+   26 views
+
+[92]QGIS >2.10: Adding layers to legend groups programatically fails
+ocassionally with valid layers
+
+   I'm working in a project in which, for some reasons, the beast approach
+   to handle a certain amount of point/vector/raster layers is to load
+   them all into memory, and keep them in the QGIS legend. For ...
+   [93]qgis [94]python [95]group-layer
+   asked 2 days ago
+   [96]HaroldH
+   162
+   1
+   vote
+   3answers
+   30 views
+
+[97]OpenStreetMap Python API Bounding Box Request
+
+   I am new to OSM. When I make an API bounding box call like below:
+   import overpass # bounding box coordinates min_long = min(longs)
+   min_lat = min(lats) max_long = max(longs) max_lat = max(lats) # ...
+   [98]python [99]openstreetmap [100]overpass-api
+   asked 2 days ago
+   [101]Joseph Gutenson
+   412
+   1
+   vote
+   1answer
+   29 views
+
+[102]Python scripting in arcmap - is there an easy way to re-compile py-file
+
+   in Arcmap 10.2.2 I am editing downloaded toolboxes (not
+   python-toolboxes) by editing the python script in a texteditor.
+   Whenever I restart Arcmap, the Compiled Python File gets updated and I
+   can use ...
+   [103]arcgis-desktop [104]python [105]arcgis-10.2 [106]arctoolbox
+   asked 2 days ago
+   [107]Sibrom
+   83
+   2
+   votes
+   1answer
+   29 views
+
+[108]QGIS python script adds populates a column with the data, but the data
+doesn't appear when the shapefile is opened in ArcGIS
+
+   I know basic python, but am struggling to learn how to use it with
+   QGIS. I have a polygon shapefile that maps the presence/absence of
+   various species. Each species has a column in the attribute table ...
+   [109]qgis [110]python
+   asked 2 days ago
+   [111]user2980115
+   211
+   1
+   vote
+   1answer
+   22 views
+
+[112]how to read a specific overview layer from GeoTIFF file using GDAL /
+Python
+
+   I know how to create the overviews to a specific geoTIFF file using
+   GDAL ( i have tested it in QGIS), but i cannot find any good
+   information on how to read these overviews individually in python. ...
+   [113]qgis [114]python [115]gdal [116]geotiff
+   asked 2 days ago
+   [117]William
+   71
+   2
+   votes
+   1answer
+   67 views
+
+[118]Script to save lots of shapefiles into different CRS in QGIS
+
+   I have a lot of shapefiles that I need to save in a different CRS... is
+   it possible to automate this process with a script in QGIS?
+   [119]qgis [120]python [121]pyqgis [122]scripting
+   asked 2 days ago
+   [123]Bryan Ciceri
+   548
+   0
+   votes
+   1answer
+   21 views
+
+[124]How to slice all elements in a list to a certain length [on hold]
+
+   Assuming I have a list with multiple strings in there. x = ["red",
+   "green", "black", "orange", "purple"] I want to slice every element in
+   the list to a certain length, eg. 4 characters. Then the ...
+   [125]python [126]list
+   asked 2 days ago
+   [127]the_chimp
+   1289
+   1
+   vote
+   1answer
+   29 views
+
+[128]Modify 3D numpy array using interpolation
+
+   I have a 3D array that I want to interpolate the np.nan values along
+   the z dimension, and I just want the changes to modify my existing
+   array. However, the changes seems not to be working. I have a ...
+   [129]python [130]interpolation [131]numpy
+   asked 2 days ago
+   [132]user32145
+   585
+   3
+   votes
+   1answer
+   43 views
+
+[133]Help with manipulating JSON to geoJSON
+
+   So i"m basically getting this JSON returned from a REST call (I'm using
+   Python). [ { "ipAddress": "X.X.X.X", "score": "1000", } ] I want to
+   convert this to geoJSON so I can plot the ...
+   [134]python [135]geojson
+   asked Feb 15 at 14:17
+   [136]Strobe_
+   183
+   2
+   votes
+   0answers
+   40 views
+
+[137]Show attribute table in the form (table of contents)
+
+   I am building a plugin in a new window with table of contents
+   associated. I have some actions, for example, zoom to extent and others
+   and I want also to show the attribute table. I search and find ...
+   [138]qgis [139]python
+   asked Feb 15 at 13:56
+   [140]Bárbara Duarte
+   450212
+   2
+   votes
+   1answer
+   19 views
+
+[141]Get LineString length in meters (Python, GEODjango)
+
+   In a Django model, I have a LineString field which holds GPS
+   coordinates of a street route. I know that I the .length holds the
+   length of the LineString, but I don't know what unit the returned value
+   ...
+   [142]python [143]geodjango [144]linestring [145]length
+   asked Feb 15 at 8:31
+   [146]Paolo Stefan
+   1113
+   1
+   vote
+   0answers
+   27 views
+
+[147]How to install xlw and xlrd libraries on MacOS so that QGIS Python can
+see them?
+
+   I experience a problem with XYtools and need to install Excel libraries
+   for Python. I tried to install them directly from the terminal and it
+   worked on the system, however, how to import them into ...
+   [148]qgis [149]python [150]mac
+   asked Feb 14 at 19:38
+   [151]NTM
+   91
+   2
+   votes
+   1answer
+   35 views
+
+[152]Convert CSV file format to Breakline CSV format file [closed]
+
+   I have a csv file with almost 36000 rows.The format of csv file is
+   x,y,Polygon number, Z I would like to arrange this csv file in the
+   below mentioned format. Let’s say in this example, Polygon ...
+   [153]python [154]r
+   asked Feb 12 at 15:21
+   [155]accedesoft
+   696
+   3
+   votes
+   0answers
+   37 views
+
+[156]Merge RGB band using python
+
+   I need to merge the RGB bands of three TIFF images. I'm trying to use a
+   PIL library (Python Imaging Library), but this execution error happens:
+   Traceback (most recent call last): File ...
+   [157]python [158]rgb
+   asked Feb 12 at 13:07
+   [159]Nicole Oliveira
+   162
+   4
+   votes
+   1answer
+   85 views
+
+[160]Problem Editing a Vector Layer QGIS
+
+   I have a vector layer which I need to load and edit (add several
+   attribute columns). I am doing this without opening QGIS, so within a
+   python script. I have the following piece of code for the layer ...
+   [161]qgis [162]python [163]pyqgis
+   asked Feb 12 at 11:39
+   [164]ELD
+   1166
+   0
+   votes
+   1answer
+   18 views
+
+[165]Unable to call otbApplication from python
+
+   I have been tryng to use some of OTB functions from python, but i am
+   unable to import the module (otbApplication), even after to adding the
+   PYTHONPATH to my basrc file. I am working in Ubuntu14.04, ...
+   [166]python [167]ubuntu [168]orfeo-toolbox
+   asked Feb 12 at 6:49
+   [169]opengisapprendice
+   362
+   -4
+   votes
+   0answers
+   42 views
+
+[170]Need help on this piece of Python code [closed]
+
+   why this code doesn't work? It work if I replace R6G to G and m[0:3] to
+   m[2]. def n(m): if "R6G" in str(m[0:3]): return '60_Green' else: return
+   'No Match'
+   [171]python
+   asked Feb 11 at 21:21
+   [172]Koush
+   13
+   0
+   votes
+   0answers
+   49 views
+
+[173]How to read shapefile faster using python basemap (and pickle)?
+
+   I am trying to plot a simple 'merc' map with boundary from shape file.
+   The total size of the shape file ne_10m_admin_0_countries_lakes.shp is
+   just 8mb. The simple mslp surface plot from GFS data took ...
+   [174]python [175]matplotlib [176]matplotlib-basemap
+   asked Feb 11 at 17:49
+   [177]sundar_ima
+   101
+   0
+   votes
+   1answer
+   32 views
+
+[178]Problem with read_shp() in NetworkX
+
+   I'm trying to convert a shapefile of only line geometry (a street
+   network) to a NetworkX graph to run some connectivity algorithms on it.
+   I'm running into this issue: File ...
+   [179]python [180]shapefile [181]ogr [182]networkx
+   asked Feb 11 at 14:58
+   [183]jdg
+   11
+   3
+   votes
+   0answers
+   61 views
+
+[184]ArcGis' python library (arcpy) are imported so long
+
+   python -c import time; t1 = time.clock(); import arcpy; print('{0}
+   seconds'.format(time.clock() - t1)) 3.60283379862 seconds It takes this
+   long each time i launch my script or test. Is there any ...
+   [185]python [186]arcpy [187]import [188]windows
+   asked Feb 11 at 5:00
+   [189]Doctor Coder
+   191
+   0
+   votes
+   1answer
+   21 views
+
+[190]GDAL Python: how to extract a cutline from VRT file in world
+coordinates?
+
+   I'm trying to extract the world coordinates of a cutline (clipping
+   polygon) in a GDAL VRT file. Unfortunately, the cutline is stored in
+   image coordinates (pixels), and i could not find the right ...
+   [191]python [192]gdal
+   asked Feb 10 at 16:58
+   [193]christoph
+   693
+   2
+   votes
+   2answers
+   94 views
+
+[194]PackageLayer_management failing within script, needs to run outside of
+an ArcMap session
+
+   I'm automating a workflow that requires outputting a layer package, it
+   throws the general ERROR 999999 when executing and breaks. It does,
+   however, generate a folder in the correct directory, with ...
+   [195]arcgis-desktop [196]python [197]arcpy [198]layer-package
+   asked Feb 10 at 15:01
+   [199]Steven Ferronato
+   14911
+   0
+   votes
+   0answers
+   27 views
+
+[200]Choosing the right region of interest [closed]
+
+   I am using this code in order to track the dog in this video. At first
+   it seems to work but then window cannot follow the dog. I think the
+   problem is the region of the window. I set the variables ...
+   [201]python
+   asked Feb 10 at 12:06
+   [202]g.f.l
+   404
+   2
+   votes
+   1answer
+   35 views
+
+[203]How to calculate a curve distance between two xyz points?
+
+   I have a curve surface (example is attached). Each node has its own
+   coordinate in geographic system (longitude,latitude and depth). I want
+   to calculate a distance between two nodes (from the one on ...
+   [204]python
+   asked Feb 10 at 10:23
+   [205]rinosalman
+   111
+   2
+   votes
+   1answer
+   26 views
+
+[206]Encode an azimuthal equidistant projection in NetCDF conversion
+
+   I'm trying to do Azimuthal Equidistant in CF-compliant NetCDF, but I
+   didn't get the correct projection. If you compare the first two
+   information (gdalinfo) you see there is no AUTHORITY and also ...
+   [207]python [208]gdal [209]projection [210]geotiff [211]netcdf
+   asked Feb 10 at 9:38
+   [212]MK83
+   7010
+   0
+   votes
+   1answer
+   42 views
+
+[213]Cut a linear feature according to the directions or azimuths
+
+   I have a shapefile linear that contains a single items as in the image
+   and I want to divide it into several section respecting the azimuth and
+   the line direction. i have this code : import os ...
+   [214]python [215]polyline [216]shapely [217]fiona [218]azimuth
+   asked Feb 10 at 1:48
+   [219]Wissam Jeddi
+   143
+   0
+   votes
+   0answers
+   6 views
+
+[220]Extracting GDB files from zips - If exist, rename and move: If not, just
+move. Python [migrated]
+
+   Currently trying to develop a catch all script that when pointed to a
+   folder it will look through all of the subfolders and anything that is
+   a .gdb will be moved to a new folder, if the GDB files have ...
+   [221]python [222]shell
+   asked Feb 9 at 14:10
+   [223]Chris Dixon
+   61
+   1
+   vote
+   1answer
+   37 views
+
+[224]Calculate Field throws an error when parsing python with backslashes
+
+   I have an FTP I need to access through a python script. It works fine
+   with forward slashes, but I don't need it to be read as an html. Below
+   are both sets of code: Working: ...
+   [225]python [226]arcpy [227]arcgis-10.1 [228]python-parser
+   asked Feb 9 at 11:51
+   [229]Steven Ferronato
+   14911
+   5
+   votes
+   1answer
+   50 views
+
+[230]Stacking Vector Layers in TileStache
+
+   I am serving several vector tile layers of different geometries (point,
+   line & polygon) in TileStache using VecTiles:Provider, with this
+   cfgfile: { "cache": { "name": "DISK", ...
+   [231]python [232]tilestache [233]vector-tiles [234]stack [235]composite
+   asked Feb 9 at 5:21
+   [236]Hasan Mustafa
+   60718
+   1
+   vote
+   1answer
+   64 views
+
+[237]Can't write decimal data into shape (shp) attribute table with Python
+
+   I am trying to create a shapefile with Python GDAL/OGR library. I add
+   to it a real number field, but when I write into it doesn't appear as
+   it should but rounded. I will explain better with the code: ...
+   [238]python [239]gdal [240]ogr
+   asked Feb 8 at 18:21
+   [241]Rodrigo E. Principe
+   4310
+   1
+   vote
+   1answer
+   51 views
+
+[242]Moving file geodatabases in python without ArcPy
+
+   Please find my script below currently all i'm wanting to do is iterate
+   through a folder and any subfolders extracting anything that is a .gdb
+   directory + its contents to a new folder. import shutil, ...
+   [243]python [244]file-geodatabase
+   asked Feb 8 at 16:10
+   [245]Chris Dixon
+   61
+   2
+   votes
+   1answer
+   33 views
+
+[246]Importing Several Raster Layers, Doing Manipulations and Exporting The
+Newly Saved Rasters
+
+   I have the following code: src_ds =
+   gdal.Open("/home/usr/Desktop/RasterFolder/Name.tif") if src_ds is None:
+   print 'Unable to open %s' % src_filename sys.exit(1) myarray = ...
+   [247]qgis [248]python [249]pyqgis
+   asked Feb 8 at 10:57
+   [250]ELD
+   1166
+   -1
+   votes
+   0answers
+   12 views
+
+[251]analysing height data using dem [duplicate]
+
+   i ran the following code on python 2.7: import sys, struct from osgeo
+   import gdal from osgeo import gdalconst minLat = -48 maxLat = -33
+   minLong = 165 maxLong = 179 dataset = ...
+   [252]python [253]postgis
+   asked Feb 8 at 7:01
+   [254]vishal srivastava
+   6
+   0
+   votes
+   1answer
+   43 views
+
+[255]Analyze height data using a digital elevation map
+
+   i ran the following code on python 2.7: import sys, struct from osgeo
+   import gdal from osgeo import gdalconst minLat = -48 maxLat = -33
+   minLong = 165 maxLong = 179 dataset = ...
+   [256]python [257]gdal
+   asked Feb 8 at 6:38
+   [258]vishal srivastava
+   6
+   3
+   votes
+   1answer
+   34 views
+
+[259]Lookup Projection Name from EPSG with pyproj
+
+   Is it possible to programmatically lookup a projection's name (e.g.
+   Albers Equal-Area) from its EPSG using pyproj? I see pyproj.pj_list,
+   but it does not contain a mapping to the EPSG.
+   [260]python [261]proj.4 [262]pyproj
+   asked Feb 7 at 23:21
+   [263]bcollins
+   1,708521
+   2
+   votes
+   0answers
+   9 views
+
+[264]Qt TextLineEdit: Retrieve string instead of QString [migrated]
+
+   I am using Qt and want to get string from text field. I found below
+   solution but it returns a QString. I just want to avoid writing extra
+   code to extract string further. Can anyone suggest a simple ...
+   [265]python [266]qt [267]pyqt
+   asked Feb 7 at 12:23
+   [268]user66738
+   111
+   0
+   votes
+   0answers
+   43 views
+
+[269]Convert WGS84 coordinates to ECEF Cartasian (XYZ) coordinates using
+pyproj
+
+   I need to convert WGS84 to ECEF to map some points to a 3D sphere. I've
+   trawled through the pyproj docs, but can't find specifics on the
+   matter. Basically I want to input the WGS84 GPS lon/lat ...
+   [270]python [271]wgs84 [272]pyproj
+   asked Feb 7 at 3:35
+   [273]oblivian
+   1
+   0
+   votes
+   0answers
+   28 views
+
+[274](python) distance between a point and a list of segments
+
+   I have a line (made of multiple adjacent segments) and a set of points,
+   and I want to find all the points which are within a given distance
+   (40m mainly but could change) from that line. segments ...
+   [275]python
+   asked Feb 6 at 0:02
+   [276]Sandro Tosi
+   1
+   0
+   votes
+   0answers
+   42 views
+
+[277]Adding a Field to a Feature Class using Python
+
+   I'm trying to create a script that adds an integer field to a File GDB,
+   calculates it, buffers it, then clips it to a different GDB
+   featureclass. Can anyone help me, I'm stuck so far!? I'll provide my
+   ...
+   [278]python [279]arcpy [280]pyscripter
+   asked Feb 5 at 14:58
+   [281]Maria M.
+   41
+   0
+   votes
+   1answer
+   23 views
+
+[282]GRASS parser() error
+
+   I'm trying to use GRASS on python 2.7, but I'm having some problems at
+   setting my script on IDLE, then I'm getting an error at parser()
+   function: Here is my script: import os import sys gisbase = ...
+   [283]python [284]grass
+   asked Feb 5 at 14:23
+   [285]Mr. Felix
+   1012
+   1 [286]2 [287]3 [288]4 [289]5 … [290]108 [291]next
+   [292]newest python questions feed
+   5,360
+
+   questions tagged
+   [293]python [294]about »
+
+Related Tags
+
+   [295]arcpy × 1352
+   [296]qgis × 1209
+   [297]arcgis-desktop × 1175
+   [298]pyqgis × 501
+   [299]gdal × 459
+   [300]arcgis-10.0 × 409
+   [301]arcgis-10.1 × 369
+   [302]raster × 246
+   [303]field-calculator × 238
+   [304]arcmap × 205
+   [305]arcgis-10.2 × 204
+   [306]shapefile × 192
+   [307]ogr × 181
+   [308]qgis-plugins × 178
+   [309]scripting × 146
+   [310]modelbuilder × 143
+   [311]postgis × 129
+   [312]geoprocessing × 128
+   [313]shapely × 102
+   [314]grass × 84
+   [315]arcgis-server × 69
+   [316]r × 67
+   [317]polygon × 66
+   [318]error × 62
+   [319]numpy × 62
+   [320]more related tags
+
+[321]Hot Network Questions
+
+     * [322]What is the point of listing 1000 authors for a single
+       scientific paper?
+     * [323]What is the term describing the condition of being
+       oversaturated with information?
+     * [324]LTSpice power supply simulation: what is wrong with it?
+     * [325]Why Would One Willingly While Life Away?
+     * [326]Ten girls around a table
+     * [327]Why do celebrities get high wages?
+     * [328]Replace space with %20
+     * [329]My colleagues feel that I go into discussions too aggressively
+       - how do I fix this?
+     * [330]Can I defer a configuration change until the next time SQL
+       Server is restarted?
+     * [331]Who are these people at Deadpool's wedding?
+     * [332]Random number in a range, biased toward the low end of the
+       range
+     * [333]A scary oracle - who am I?
+     * [334]Should I be credited for my programming contribution to a
+       dissertation?
+     * [335]Output all the white or black squares of a chessboard
+     * [336]Renewable energy in space
+     * [337]Can a Giant Fire Beetle choose to not emit light?
+     * [338]Using \textbf vs. \mathbf in Math mode
+     * [339]Is there a word or slang word to call a girl who loves brand
+       products?
+     * [340]How can I get my laptop's monitor size?
+     * [341]if(Serial) not working correctly on micro or pro micro
+     * [342]Reporting Income Under $600 to IRS When No 1099 MISC Issued
+     * [343]Can the server admin see what I copy via SCP?
+     * [344]Movie where various people gain powers such as seeing the
+       future and healing diseases
+     * [345]Why do guitarists use different gear in the studio than when
+       playing live?
+
+   [346]more hot questions
+
+   [347]about us [348]tour [349]help [350]blog [351]chat [352]data
+   [353]legal [354]privacy policy [355]work here [356]advertising info
+   mobile [357]contact us [358]feedback
+            Technology            Life / Arts Culture / Recreation Science Other
+  1. [359]Stack Overflow
+    2. [360]Server Fault
+    3. [361]Super User
+    4. [362]Web Applications
+    5. [363]Ask Ubuntu
+    6. [364]Webmasters
+    7. [365]Game Development
+    8. [366]TeX - LaTeX
+
+  1. [367]Programmers
+    2. [368]Unix & Linux
+    3. [369]Ask Different (Apple)
+    4. [370]WordPress Development
+    5. [371]Geographic Information Systems
+    6. [372]Electrical Engineering
+    7. [373]Android Enthusiasts
+    8. [374]Information Security
+
+  1. [375]Database Administrators
+    2. [376]Drupal Answers
+    3. [377]SharePoint
+    4. [378]User Experience
+    5. [379]Mathematica
+    6. [380]Salesforce
+    7. [381]ExpressionEngine® Answers
+    8. [382]more (13)
+
+  1. [383]Photography
+    2. [384]Science Fiction & Fantasy
+    3. [385]Graphic Design
+    4. [386]Movies & TV
+    5. [387]Seasoned Advice (cooking)
+    6. [388]Home Improvement
+    7. [389]Personal Finance & Money
+    8. [390]Academia
+    9. [391]more (9)
+
+  1. [392]English Language & Usage
+    2. [393]Skeptics
+    3. [394]Mi Yodeya (Judaism)
+    4. [395]Travel
+    5. [396]Christianity
+    6. [397]Arqade (gaming)
+    7. [398]Bicycles
+    8. [399]Role-playing Games
+    9. [400]more (21)
+
+  1. [401]Mathematics
+    2. [402]Cross Validated (stats)
+    3. [403]Theoretical Computer Science
+    4. [404]Physics
+    5. [405]MathOverflow
+    6. [406]Chemistry
+    7. [407]Biology
+    8. [408]more (5)
+
+  1. [409]Stack Apps
+    2. [410]Meta Stack Exchange
+    3. [411]Area 51
+    4. [412]Stack Overflow Careers
+
+   site design / logo © 2016 Stack Exchange Inc; user contributions
+   licensed under [413]cc by-sa 3.0 with [414]attribution required
+   rev 2016.2.18.3270
+
+   Geographic Information Systems Stack Exchange works best with
+   JavaScript enabled
+
+References
+
+   Visible links
+   1. file:///opensearch.xml
+   2. file:///feeds/tag?tagnames=python&sort=newest
+   3. file://gis.stackexchange.com/
+   4. http://gis.blogoverflow.com/
+   5. http://chat.stackexchange.com/
+   6. https://gis.stackexchange.com/users/signup?ssrc=site_switcher&returnurl=http://gis.stackexchange.com/questions/tagged/python
+   7. https://gis.stackexchange.com/users/login?ssrc=site_switcher&returnurl=http://gis.stackexchange.com/questions/tagged/python
+   8. file://stackexchange.com/sites
+   9. http://blog.stackoverflow.com/
+  10. file://stackexchange.com/
+  11. file:///home/mgomez/CS432/A3/source237.txt
+  12. file:///home/mgomez/CS432/A3/source237.txt
+  13. https://gis.stackexchange.com/users/signup?ssrc=head&returnurl=http://gis.stackexchange.com/questions/tagged/python
+  14. https://gis.stackexchange.com/users/login?ssrc=head&returnurl=http://gis.stackexchange.com/questions/tagged/python
+  15. file:///tour
+  16. file:///home/mgomez/CS432/A3/source237.txt
+  17. file:///tour
+  18. file:///help
+  19. file://meta.gis.stackexchange.com/
+  20. file:///
+  21. file:///questions
+  22. file:///tags
+  23. file:///users
+  24. file:///help/badges
+  25. file:///unanswered
+  26. file:///questions/ask
+  27. file:///tags/python/info
+  28. file:///questions/tagged/python?sort=newest&pageSize=50
+  29. file:///questions/tagged/python?sort=frequent&pageSize=50
+  30. file:///questions/tagged/python?sort=votes&pageSize=50
+  31. file:///questions/tagged/python?sort=active&pageSize=50
+  32. file:///questions/tagged/python?sort=unanswered&pageSize=50
+  33. file:///tags/python/info
+  34. file:///tags/python/topusers
+  35. file:///tags/python/synonyms
+  36. file:///questions/181348/qgis-docutils-install-path-pythonpath-pythonhome
+  37. file:///questions/tagged/qgis
+  38. file:///questions/tagged/python
+  39. file:///questions/tagged/installation
+  40. file:///questions/tagged/python-addin
+  41. file:///users/65748/rjlabs
+  42. file:///questions/181231/using-leave-one-out-method-on-kriged-data
+  43. file:///questions/tagged/qgis
+  44. file:///questions/tagged/python
+  45. file:///questions/tagged/r
+  46. file:///users/65764/chris-c
+  47. file:///questions/181133/qgis-standalone-application-for-map-rendering-bad-extent
+  48. file:///questions/tagged/qgis
+  49. file:///questions/tagged/python
+  50. file:///questions/tagged/pyqgis
+  51. file:///questions/tagged/qgis-2.12
+  52. file:///users/67415/kef
+  53. file:///questions/181129/how-to-map-geojson-polygon-from-a-url-request-in-python
+  54. file:///questions/tagged/python
+  55. file:///questions/tagged/polygon
+  56. file:///questions/tagged/geojson
+  57. file:///questions/tagged/api
+  58. file:///questions/tagged/json
+  59. file:///users/57562/cstone
+  60. file:///questions/181119/creating-a-3d-numpy-array-matrix-using-append-method
+  61. file:///questions/tagged/python
+  62. file:///questions/tagged/numpy
+  63. file:///questions/tagged/memory
+  64. file:///questions/tagged/array
+  65. file:///users/32145/user32145
+  66. file:///questions/181116/how-to-write-a-python-code-to-perform-excel-to-table-in-gis
+  67. file:///questions/tagged/arcgis-desktop
+  68. file:///questions/tagged/python
+  69. file:///questions/tagged/arcpy
+  70. file:///questions/tagged/import
+  71. file:///questions/tagged/excel
+  72. file:///users/65003/rayyht
+  73. file:///questions/181091/checking-for-misclosure-using-python
+  74. file:///questions/tagged/python
+  75. file:///users/67390/mbiganyi
+  76. file:///questions/181048/how-to-propagate-attributes-down-several-line-features
+  77. file:///questions/tagged/arcgis-desktop
+  78. file:///questions/tagged/python
+  79. file:///questions/tagged/postgis
+  80. file:///users/67354/wmebane
+  81. file:///questions/181031/change-shapefile-field-names-using-ogr-alterfielddefn
+  82. file:///questions/tagged/python
+  83. file:///questions/tagged/shapefile
+  84. file:///questions/tagged/ogr
+  85. file:///questions/tagged/fields
+  86. file:///users/22335/jtodd
+  87. file:///questions/181029/gdal-python-tif-not-recognised-a-supported-file-format
+  88. file:///questions/tagged/python
+  89. file:///questions/tagged/gdal
+  90. file:///questions/tagged/linux
+  91. file:///users/20408/user20408
+  92. file:///questions/180987/qgis-2-10-adding-layers-to-legend-groups-programatically-fails-ocassionally-wi
+  93. file:///questions/tagged/qgis
+  94. file:///questions/tagged/python
+  95. file:///questions/tagged/group-layer
+  96. file:///users/67342/haroldh
+  97. file:///questions/180980/openstreetmap-python-api-bounding-box-request
+  98. file:///questions/tagged/python
+  99. file:///questions/tagged/openstreetmap
+ 100. file:///questions/tagged/overpass-api
+ 101. file:///users/15727/joseph-gutenson
+ 102. file:///questions/180979/python-scripting-in-arcmap-is-there-an-easy-way-to-re-compile-py-file
+ 103. file:///questions/tagged/arcgis-desktop
+ 104. file:///questions/tagged/python
+ 105. file:///questions/tagged/arcgis-10.2
+ 106. file:///questions/tagged/arctoolbox
+ 107. file:///users/67235/sibrom
+ 108. file:///questions/180966/qgis-python-script-adds-populates-a-column-with-the-data-but-the-data-doesnt-a
+ 109. file:///questions/tagged/qgis
+ 110. file:///questions/tagged/python
+ 111. file:///users/67334/user2980115
+ 112. file:///questions/180961/how-to-read-a-specific-overview-layer-from-geotiff-file-using-gdal-python
+ 113. file:///questions/tagged/qgis
+ 114. file:///questions/tagged/python
+ 115. file:///questions/tagged/gdal
+ 116. file:///questions/tagged/geotiff
+ 117. file:///users/54556/william
+ 118. file:///questions/180956/script-to-save-lots-of-shapefiles-into-different-crs-in-qgis
+ 119. file:///questions/tagged/qgis
+ 120. file:///questions/tagged/python
+ 121. file:///questions/tagged/pyqgis
+ 122. file:///questions/tagged/scripting
+ 123. file:///users/49933/bryan-ciceri
+ 124. file:///questions/180933/how-to-slice-all-elements-in-a-list-to-a-certain-length
+ 125. file:///questions/tagged/python
+ 126. file:///questions/tagged/list
+ 127. file:///users/50818/the-chimp
+ 128. file:///questions/180884/modify-3d-numpy-array-using-interpolation
+ 129. file:///questions/tagged/python
+ 130. file:///questions/tagged/interpolation
+ 131. file:///questions/tagged/numpy
+ 132. file:///users/32145/user32145
+ 133. file:///questions/180806/help-with-manipulating-json-to-geojson
+ 134. file:///questions/tagged/python
+ 135. file:///questions/tagged/geojson
+ 136. file:///users/67189/strobe
+ 137. file:///questions/180802/show-attribute-table-in-the-form-table-of-contents
+ 138. file:///questions/tagged/qgis
+ 139. file:///questions/tagged/python
+ 140. file:///users/22470/bárbara-duarte
+ 141. file:///questions/180776/get-linestring-length-in-meters-python-geodjango
+ 142. file:///questions/tagged/python
+ 143. file:///questions/tagged/geodjango
+ 144. file:///questions/tagged/linestring
+ 145. file:///questions/tagged/length
+ 146. file:///users/60889/paolo-stefan
+ 147. file:///questions/180728/how-to-install-xlw-and-xlrd-libraries-on-macos-so-that-qgis-python-can-see-them
+ 148. file:///questions/tagged/qgis
+ 149. file:///questions/tagged/python
+ 150. file:///questions/tagged/mac
+ 151. file:///users/67202/ntm
+ 152. file:///questions/180553/convert-csv-file-format-to-breakline-csv-format-file
+ 153. file:///questions/tagged/python
+ 154. file:///questions/tagged/r
+ 155. file:///users/50687/accedesoft
+ 156. file:///questions/180534/merge-rgb-band-using-python
+ 157. file:///questions/tagged/python
+ 158. file:///questions/tagged/rgb
+ 159. file:///users/67099/nicole-oliveira
+ 160. file:///questions/180524/problem-editing-a-vector-layer-qgis
+ 161. file:///questions/tagged/qgis
+ 162. file:///questions/tagged/python
+ 163. file:///questions/tagged/pyqgis
+ 164. file:///users/55181/eld
+ 165. file:///questions/180494/unable-to-call-otbapplication-from-python
+ 166. file:///questions/tagged/python
+ 167. file:///questions/tagged/ubuntu
+ 168. file:///questions/tagged/orfeo-toolbox
+ 169. file:///users/44680/opengisapprendice
+ 170. file:///questions/180467/need-help-on-this-piece-of-python-code
+ 171. file:///questions/tagged/python
+ 172. file:///users/54488/koush
+ 173. file:///questions/180451/how-to-read-shapefile-faster-using-python-basemap-and-pickle
+ 174. file:///questions/tagged/python
+ 175. file:///questions/tagged/matplotlib
+ 176. file:///questions/tagged/matplotlib-basemap
+ 177. file:///users/67048/sundar-ima
+ 178. file:///questions/180415/problem-with-read-shp-in-networkx
+ 179. file:///questions/tagged/python
+ 180. file:///questions/tagged/shapefile
+ 181. file:///questions/tagged/ogr
+ 182. file:///questions/tagged/networkx
+ 183. file:///users/67033/jdg
+ 184. file:///questions/180332/arcgis-python-library-arcpy-are-imported-so-long
+ 185. file:///questions/tagged/python
+ 186. file:///questions/tagged/arcpy
+ 187. file:///questions/tagged/import
+ 188. file:///questions/tagged/windows
+ 189. file:///users/50121/doctor-coder
+ 190. file:///questions/180239/gdal-python-how-to-extract-a-cutline-from-vrt-file-in-world-coordinates
+ 191. file:///questions/tagged/python
+ 192. file:///questions/tagged/gdal
+ 193. file:///users/45404/christoph
+ 194. file:///questions/180211/packagelayer-management-failing-within-script-needs-to-run-outside-of-an-arcmap
+ 195. file:///questions/tagged/arcgis-desktop
+ 196. file:///questions/tagged/python
+ 197. file:///questions/tagged/arcpy
+ 198. file:///questions/tagged/layer-package
+ 199. file:///users/60536/steven-ferronato
+ 200. file:///questions/180173/choosing-the-right-region-of-interest
+ 201. file:///questions/tagged/python
+ 202. file:///users/59152/g-f-l
+ 203. file:///questions/180154/how-to-calculate-a-curve-distance-between-two-xyz-points
+ 204. file:///questions/tagged/python
+ 205. file:///users/66930/rinosalman
+ 206. file:///questions/180145/encode-an-azimuthal-equidistant-projection-in-netcdf-conversion
+ 207. file:///questions/tagged/python
+ 208. file:///questions/tagged/gdal
+ 209. file:///questions/tagged/projection
+ 210. file:///questions/tagged/geotiff
+ 211. file:///questions/tagged/netcdf
+ 212. file:///users/65312/mk83
+ 213. file:///questions/180098/cut-a-linear-feature-according-to-the-directions-or-azimuths
+ 214. file:///questions/tagged/python
+ 215. file:///questions/tagged/polyline
+ 216. file:///questions/tagged/shapely
+ 217. file:///questions/tagged/fiona
+ 218. file:///questions/tagged/azimuth
+ 219. file:///users/66691/wissam-jeddi
+ 220. file:///questions/180010/extracting-gdb-files-from-zips-if-exist-rename-and-move-if-not-just-move-p
+ 221. file:///questions/tagged/python
+ 222. file:///questions/tagged/shell
+ 223. file:///users/66802/chris-dixon
+ 224. file:///questions/179976/calculate-field-throws-an-error-when-parsing-python-with-backslashes
+ 225. file:///questions/tagged/python
+ 226. file:///questions/tagged/arcpy
+ 227. file:///questions/tagged/arcgis-10.1
+ 228. file:///questions/tagged/python-parser
+ 229. file:///users/60536/steven-ferronato
+ 230. file:///questions/179933/stacking-vector-layers-in-tilestache
+ 231. file:///questions/tagged/python
+ 232. file:///questions/tagged/tilestache
+ 233. file:///questions/tagged/vector-tiles
+ 234. file:///questions/tagged/stack
+ 235. file:///questions/tagged/composite
+ 236. file:///users/64540/hasan-mustafa
+ 237. file:///questions/179901/cant-write-decimal-data-into-shape-shp-attribute-table-with-python
+ 238. file:///questions/tagged/python
+ 239. file:///questions/tagged/gdal
+ 240. file:///questions/tagged/ogr
+ 241. file:///users/23470/rodrigo-e-principe
+ 242. file:///questions/179884/moving-file-geodatabases-in-python-without-arcpy
+ 243. file:///questions/tagged/python
+ 244. file:///questions/tagged/file-geodatabase
+ 245. file:///users/66802/chris-dixon
+ 246. file:///questions/179843/importing-several-raster-layers-doing-manipulations-and-exporting-the-newly-sav
+ 247. file:///questions/tagged/qgis
+ 248. file:///questions/tagged/python
+ 249. file:///questions/tagged/pyqgis
+ 250. file:///users/55181/eld
+ 251. file:///questions/179814/analysing-height-data-using-dem
+ 252. file:///questions/tagged/python
+ 253. file:///questions/tagged/postgis
+ 254. file:///users/66763/vishal-srivastava
+ 255. file:///questions/179811/analyze-height-data-using-a-digital-elevation-map
+ 256. file:///questions/tagged/python
+ 257. file:///questions/tagged/gdal
+ 258. file:///users/66763/vishal-srivastava
+ 259. file:///questions/179790/lookup-projection-name-from-epsg-with-pyproj
+ 260. file:///questions/tagged/python
+ 261. file:///questions/tagged/proj.4
+ 262. file:///questions/tagged/pyproj
+ 263. file:///users/3398/bcollins
+ 264. file:///questions/179759/qt-textlineedit-retrieve-string-instead-of-qstring
+ 265. file:///questions/tagged/python
+ 266. file:///questions/tagged/qt
+ 267. file:///questions/tagged/pyqt
+ 268. file:///users/66738/user66738
+ 269. file:///questions/179741/convert-wgs84-coordinates-to-ecef-cartasian-xyz-coordinates-using-pyproj
+ 270. file:///questions/tagged/python
+ 271. file:///questions/tagged/wgs84
+ 272. file:///questions/tagged/pyproj
+ 273. file:///users/66732/oblivian
+ 274. file:///questions/179670/python-distance-between-a-point-and-a-list-of-segments
+ 275. file:///questions/tagged/python
+ 276. file:///users/66695/sandro-tosi
+ 277. file:///questions/179597/adding-a-field-to-a-feature-class-using-python
+ 278. file:///questions/tagged/python
+ 279. file:///questions/tagged/arcpy
+ 280. file:///questions/tagged/pyscripter
+ 281. file:///users/66661/maria-m
+ 282. file:///questions/179590/grass-parser-error
+ 283. file:///questions/tagged/python
+ 284. file:///questions/tagged/grass
+ 285. file:///users/66657/mr-felix
+ 286. file:///questions/tagged/python?page=2&sort=newest
+ 287. file:///questions/tagged/python?page=3&sort=newest
+ 288. file:///questions/tagged/python?page=4&sort=newest
+ 289. file:///questions/tagged/python?page=5&sort=newest
+ 290. file:///questions/tagged/python?page=108&sort=newest
+ 291. file:///questions/tagged/python?page=2&sort=newest
+ 292. file:///feeds/tag?tagnames=python&sort=newest
+ 293. file:///questions/tagged/python
+ 294. file:///tags/python/info
+ 295. file:///questions/tagged/arcpy
+ 296. file:///questions/tagged/qgis
+ 297. file:///questions/tagged/arcgis-desktop
+ 298. file:///questions/tagged/pyqgis
+ 299. file:///questions/tagged/gdal
+ 300. file:///questions/tagged/arcgis-10.0
+ 301. file:///questions/tagged/arcgis-10.1
+ 302. file:///questions/tagged/raster
+ 303. file:///questions/tagged/field-calculator
+ 304. file:///questions/tagged/arcmap
+ 305. file:///questions/tagged/arcgis-10.2
+ 306. file:///questions/tagged/shapefile
+ 307. file:///questions/tagged/ogr
+ 308. file:///questions/tagged/qgis-plugins
+ 309. file:///questions/tagged/scripting
+ 310. file:///questions/tagged/modelbuilder
+ 311. file:///questions/tagged/postgis
+ 312. file:///questions/tagged/geoprocessing
+ 313. file:///questions/tagged/shapely
+ 314. file:///questions/tagged/grass
+ 315. file:///questions/tagged/arcgis-server
+ 316. file:///questions/tagged/r
+ 317. file:///questions/tagged/polygon
+ 318. file:///questions/tagged/error
+ 319. file:///questions/tagged/numpy
+ 320. file:///home/mgomez/CS432/A3/source237.txt
+ 321. file://stackexchange.com/questions?tab=hot
+ 322. http://academia.stackexchange.com/questions/63440/what-is-the-point-of-listing-1000-authors-for-a-single-scientific-paper
+ 323. http://english.stackexchange.com/questions/308252/what-is-the-term-describing-the-condition-of-being-oversaturated-with-informatio
+ 324. http://electronics.stackexchange.com/questions/218001/ltspice-power-supply-simulation-what-is-wrong-with-it
+ 325. http://puzzling.stackexchange.com/questions/27619/why-would-one-willingly-while-life-away
+ 326. http://puzzling.stackexchange.com/questions/27580/ten-girls-around-a-table
+ 327. http://economics.stackexchange.com/questions/10742/why-do-celebrities-get-high-wages
+ 328. http://codereview.stackexchange.com/questions/120385/replace-space-with-20
+ 329. http://workplace.stackexchange.com/questions/62251/my-colleagues-feel-that-i-go-into-discussions-too-aggressively-how-do-i-fix-th
+ 330. http://dba.stackexchange.com/questions/129710/can-i-defer-a-configuration-change-until-the-next-time-sql-server-is-restarted
+ 331. http://scifi.stackexchange.com/questions/119845/who-are-these-people-at-deadpools-wedding
+ 332. http://gamedev.stackexchange.com/questions/116832/random-number-in-a-range-biased-toward-the-low-end-of-the-range
+ 333. http://puzzling.stackexchange.com/questions/27610/a-scary-oracle-who-am-i
+ 334. http://academia.stackexchange.com/questions/63609/should-i-be-credited-for-my-programming-contribution-to-a-dissertation
+ 335. http://codegolf.stackexchange.com/questions/73297/output-all-the-white-or-black-squares-of-a-chessboard
+ 336. http://worldbuilding.stackexchange.com/questions/36280/renewable-energy-in-space
+ 337. http://rpg.stackexchange.com/questions/75856/can-a-giant-fire-beetle-choose-to-not-emit-light
+ 338. http://tex.stackexchange.com/questions/294561/using-textbf-vs-mathbf-in-math-mode
+ 339. http://ell.stackexchange.com/questions/81628/is-there-a-word-or-slang-word-to-call-a-girl-who-loves-brand-products
+ 340. http://askubuntu.com/questions/736113/how-can-i-get-my-laptops-monitor-size
+ 341. http://arduino.stackexchange.com/questions/20836/ifserial-not-working-correctly-on-micro-or-pro-micro
+ 342. http://money.stackexchange.com/questions/60574/reporting-income-under-600-to-irs-when-no-1099-misc-issued
+ 343. http://superuser.com/questions/1042330/can-the-server-admin-see-what-i-copy-via-scp
+ 344. http://movies.stackexchange.com/questions/48952/movie-where-various-people-gain-powers-such-as-seeing-the-future-and-healing-dis
+ 345. http://musicfans.stackexchange.com/questions/3049/why-do-guitarists-use-different-gear-in-the-studio-than-when-playing-live
+ 346. file:///home/mgomez/CS432/A3/source237.txt
+ 347. http://stackoverflow.com/company/about
+ 348. file:///tour
+ 349. file:///help
+ 350. http://gis.blogoverflow.com/?blb=1
+ 351. http://chat.stackexchange.com/
+ 352. http://data.stackexchange.com/
+ 353. http://stackexchange.com/legal
+ 354. http://stackexchange.com/legal/privacy-policy
+ 355. http://stackoverflow.com/company/work-here
+ 356. http://stackexchange.com/mediakit
+ 357. file:///contact
+ 358. http://meta.gis.stackexchange.com/
+ 359. file://stackoverflow.com/
+ 360. file://serverfault.com/
+ 361. file://superuser.com/
+ 362. file://webapps.stackexchange.com/
+ 363. file://askubuntu.com/
+ 364. file://webmasters.stackexchange.com/
+ 365. file://gamedev.stackexchange.com/
+ 366. file://tex.stackexchange.com/
+ 367. file://programmers.stackexchange.com/
+ 368. file://unix.stackexchange.com/
+ 369. file://apple.stackexchange.com/
+ 370. file://wordpress.stackexchange.com/
+ 371. file://gis.stackexchange.com/
+ 372. file://electronics.stackexchange.com/
+ 373. file://android.stackexchange.com/
+ 374. file://security.stackexchange.com/
+ 375. file://dba.stackexchange.com/
+ 376. file://drupal.stackexchange.com/
+ 377. file://sharepoint.stackexchange.com/
+ 378. file://ux.stackexchange.com/
+ 379. file://mathematica.stackexchange.com/
+ 380. file://salesforce.stackexchange.com/
+ 381. file://expressionengine.stackexchange.com/
+ 382. http://stackexchange.com/sites#technology
+ 383. file://photo.stackexchange.com/
+ 384. file://scifi.stackexchange.com/
+ 385. file://graphicdesign.stackexchange.com/
+ 386. file://movies.stackexchange.com/
+ 387. file://cooking.stackexchange.com/
+ 388. file://diy.stackexchange.com/
+ 389. file://money.stackexchange.com/
+ 390. file://academia.stackexchange.com/
+ 391. http://stackexchange.com/sites#lifearts
+ 392. file://english.stackexchange.com/
+ 393. file://skeptics.stackexchange.com/
+ 394. file://judaism.stackexchange.com/
+ 395. file://travel.stackexchange.com/
+ 396. file://christianity.stackexchange.com/
+ 397. file://gaming.stackexchange.com/
+ 398. file://bicycles.stackexchange.com/
+ 399. file://rpg.stackexchange.com/
+ 400. http://stackexchange.com/sites#culturerecreation
+ 401. file://math.stackexchange.com/
+ 402. file://stats.stackexchange.com/
+ 403. file://cstheory.stackexchange.com/
+ 404. file://physics.stackexchange.com/
+ 405. file://mathoverflow.net/
+ 406. file://chemistry.stackexchange.com/
+ 407. file://biology.stackexchange.com/
+ 408. http://stackexchange.com/sites#science
+ 409. file://stackapps.com/
+ 410. file://meta.stackexchange.com/
+ 411. file://area51.stackexchange.com/
+ 412. file://careers.stackoverflow.com/
+ 413. https://creativecommons.org/licenses/by-sa/3.0/
+ 414. http://blog.stackoverflow.com/2009/06/attribution-required/
+
+   Hidden links:
+ 416. file://gis.stackexchange.com/
+ 417. http://meta.gis.stackexchange.com/
+ 418. file://localhost/users/65748/rjlabs
+ 419. file://localhost/users/65764/chris-c
+ 420. file://localhost/users/67415/kef
+ 421. file://localhost/users/57562/cstone
+ 422. file://localhost/users/32145/user32145
+ 423. file://localhost/users/65003/rayyht
+ 424. file://localhost/users/67390/mbiganyi
+ 425. file://localhost/users/67354/wmebane
+ 426. file://localhost/users/22335/jtodd
+ 427. file://localhost/users/20408/user20408
+ 428. file://localhost/users/67342/haroldh
+ 429. file://localhost/users/15727/joseph-gutenson
+ 430. file://localhost/users/67235/sibrom
+ 431. file://localhost/users/67334/user2980115
+ 432. file://localhost/users/54556/william
+ 433. file://localhost/users/49933/bryan-ciceri
+ 434. file://localhost/users/50818/the-chimp
+ 435. file://localhost/users/32145/user32145
+ 436. file://localhost/users/67189/strobe
+ 437. file://localhost/users/22470/b%c3%a1rbara-duarte
+ 438. file://localhost/users/60889/paolo-stefan
+ 439. file://localhost/users/67202/ntm
+ 440. file://localhost/users/50687/accedesoft
+ 441. file://localhost/users/67099/nicole-oliveira
+ 442. file://localhost/users/55181/eld
+ 443. file://localhost/users/44680/opengisapprendice
+ 444. file://localhost/users/54488/koush
+ 445. file://localhost/users/67048/sundar-ima
+ 446. file://localhost/users/67033/jdg
+ 447. file://localhost/users/50121/doctor-coder
+ 448. file://localhost/users/45404/christoph
+ 449. file://localhost/users/60536/steven-ferronato
+ 450. file://localhost/users/59152/g-f-l
+ 451. file://localhost/users/66930/rinosalman
+ 452. file://localhost/users/65312/mk83
+ 453. file://localhost/users/66691/wissam-jeddi
+ 454. file://localhost/users/66802/chris-dixon
+ 455. file://localhost/users/60536/steven-ferronato
+ 456. file://localhost/users/64540/hasan-mustafa
+ 457. file://localhost/users/23470/rodrigo-e-principe
+ 458. file://localhost/users/66802/chris-dixon
+ 459. file://localhost/users/55181/eld
+ 460. file://localhost/users/66763/vishal-srivastava
+ 461. file://localhost/users/66763/vishal-srivastava
+ 462. file://localhost/users/3398/bcollins
+ 463. file://localhost/users/66738/user66738
+ 464. file://localhost/users/66732/oblivian
+ 465. file://localhost/users/66695/sandro-tosi
+ 466. file://localhost/users/66661/maria-m
+ 467. file://localhost/users/66657/mr-felix

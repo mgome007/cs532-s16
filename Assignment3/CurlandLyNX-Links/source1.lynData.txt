@@ -1,0 +1,134 @@
+   [1]Home | [2]Archive | [3]Categories | [4]About | [5]RSS
+    1. [6]Pipelines and Categoricals Mon 04 January 2016
+       By [7]Tom Augspurger
+       My favorite feature of scikit-learn is its pipelines. These are a
+       nice convenience for putting together a chain of operations from
+       raw data to classifier. More importantly, they help prevent
+       training data from leaking into your validation, so I use them
+       whenever possible.
+       Pandas somewhat recently added a [8]Categorical dtype ...
+    2. [9]Feature Complete Sun 04 October 2015
+       By [10]Tom Augspurger
+       Getting involved with pandas a couple years ago turned out to be
+       one of the most fruitful choices I've made. I've learned so much
+       from the other contributors (the ones who really do a ton of work,
+       unlike me) like [11]Jeff, [12]Stephan, [13]Joris, [14]Masaaki, and
+       others.
+       That said ...
+    3. [15]Dynamic Programming Sat 03 October 2015
+       By [16]Tom Augspurger
+       Eight months ago, Trey Causey wrote a [17]post about modeling
+       expected points in football, with an emphasis on uncertainty. With
+       my twisted economist's mind, I mentioned that it seemed like
+       dynamic programming could be used in this situation, and indeed it
+       would feature in a future post of Trey ...
+    4. [18]Practical Pandas--Part 1 Thu 01 January 2015
+       By [19]Tom Augspurger
+       This is the first post in a series where I'll show how I use pandas
+       on real-world datasets.
+       For this post, we'll look at data I collected with [20]Cyclemeter
+       on my daily bike ride to and from school last year. I had to
+       manually start and stop the ...
+    5. [21]Tidy Data in Action Thu 01 January 2015
+       By [22]Tom Augspurger
+       [23]Hadley Whickham wrote a famous paper (for a certain definition
+       of famous) about the importance of [24]tidy data when doing data
+       analysis. I want to talk a bit about that, using an example from a
+       StackOverflow post, with a solution using [25]pandas. The
+       principles of tidy data aren't language ...
+    6. [26]Tacking the CPS (part 4) Mon 19 May 2014
+       By [27]Tom Augspurger
+       As a reminder, the CPS interviews households 8 times over the
+       course of 16 months. They're interviewed for 4 months, take 8
+       months off, and are interviewed four more times. So if your first
+       interview was in month \(m\), you're also interviewed in months
+       $$m + 1, m + 2, m + 3, m + 12, m + 13, m + 14, m + 15$$ ...
+    7. [28]Tackling the CPS (Part 3) Mon 19 May 2014
+       By [29]Tom Augspurger
+       As a reminder, we have a dictionary that looks like
+         id  length  start  end
+0    HRHHID      15      1   15
+1   HRMONTH       2     16   17
+2   HRYEAR4       4     18   21
+3  HURESPLI       2     22   23
+4   HUFINAL       3     24   26
+         ...     ...    ...  ...
+
+       giving the columns of the raw CPS data files. This post ...
+    8. [30]Quiz 10 Review Thu 01 May 2014
+       By [31]Tom Augspurger
+
+Section A01
+       This quiz focused on exponential smoothing. Make sure that you know
+       about moving averages and autocorrelation too.
+
+#1
+       You needed to find the biggest decline in the time series. You
+       should never have to guess in stats, and I'm worried that some of
+       you just looked at ...
+    9. [32]Quiz 9 Review Thu 10 April 2014
+       By [33]Tom Augspurger
+       Don't forget your section number!
+
+Section A01
+
+#2
+       Remember that for the modified best conservative model, we still
+       care about the significance of all the predictors other than the
+       ones that must be included.
+
+#3
+       Quite a few people are still giving point estimates (just
+       \(\hat{y}\)) when the ...
+   10. [34]Quiz 8 Review Fri 04 April 2014
+       By [35]Tom Augspurger
+
+#1
+       The test statistic for \(H_0: \beta_1 = \beta_2 = 0\) is the \(F\)
+       statistic. It's what we'll use for when we're testing multiple
+       parameters at once.
+       Several people had \(\beta_1 = 0\) or \(\beta_2 = 0\). This is
+       wrong; it should be and not or. This is actually an important ...
+
+   Page 1 / 2 [36]»
+
+   © Tom Augspurger
+
+References
+
+   1. file:///home/mgomez/CS432/A3/
+   2. file:///archives.html
+   3. file:///categories.html
+   4. file:///pages/about.html
+   5. file:///feeds/all.rss.xml
+   6. file:///home/mgomez/CS432/A3/categorical-pipelines.html
+   7. file:///home/mgomez/CS432/A3/author/tom-augspurger.html
+   8. http://pandas.pydata.org/pandas-docs/version/0.17.1/categorical.html
+   9. file:///home/mgomez/CS432/A3/feature-complete.html
+  10. file:///home/mgomez/CS432/A3/author/tom-augspurger.html
+  11. https://twitter.com/jreback
+  12. https://twitter.com/shoyer
+  13. https://twitter.com/jorisvdbossche
+  14. https://twitter.com/sinhrks
+  15. file:///home/mgomez/CS432/A3/dp.html
+  16. file:///home/mgomez/CS432/A3/author/tom-augspurger.html
+  17. http://thespread.us/expected-points.html
+  18. file:///home/mgomez/CS432/A3/practical-pandas-1.html
+  19. file:///home/mgomez/CS432/A3/author/tom-augspurger.html
+  20. http://abvio.com/cyclemeter/
+  21. file:///home/mgomez/CS432/A3/tidy-data.html
+  22. file:///home/mgomez/CS432/A3/author/tom-augspurger.html
+  23. http://had.co.nz/
+  24. http://vita.had.co.nz/papers/tidy-data.pdf
+  25. http://pandas.pydata.org/
+  26. file:///home/mgomez/CS432/A3/tackling the cps (part 4).html
+  27. file:///home/mgomez/CS432/A3/author/tom-augspurger.html
+  28. file:///home/mgomez/CS432/A3/tackling the cps (part 3).html
+  29. file:///home/mgomez/CS432/A3/author/tom-augspurger.html
+  30. file:///home/mgomez/CS432/A3/Quiz 10 Review.html
+  31. file:///home/mgomez/CS432/A3/author/tom-augspurger.html
+  32. file:///home/mgomez/CS432/A3/Quiz 8 Review.html
+  33. file:///home/mgomez/CS432/A3/author/tom-augspurger.html
+  34. file:///home/mgomez/CS432/A3/Quiz 7 Review.html
+  35. file:///home/mgomez/CS432/A3/author/tom-augspurger.html
+  36. file:///home/mgomez/CS432/A3/index2.html

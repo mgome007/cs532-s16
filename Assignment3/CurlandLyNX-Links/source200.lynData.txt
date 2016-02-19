@@ -1,0 +1,252 @@
+   #[1]Rafał Bachorz RSS feed [2]Rafał Bachorz comments RSS feed
+
+[3]Rafał Bachorz
+
+   [4]Skip to content
+     * [5]Curriculum Vitae
+          + [6]Papers
+          + [7]Posters/Talks
+     * [8]Links
+     * [9]Scripting
+          + [10]Awk
+     * [11]TDDFT/6AC
+     * [12]Quantum chemistry
+          + [13]Energy conversion factors
+     * [14]TDDFT/BPT
+     * [15]C64
+     * [16]SPIO
+     * [17]Python
+
+[18]All functionals supporting escf in bash script
+
+   Sunday, February 2, 2014
+   [19]image_pdf [20]image_print
+
+   Simple, but sometimes can help. If you are going to prepare the
+   Turbomole control
+   files with all functionals supporting electronic excited state
+   calculation – use sed tool in bash script.
+   It is assumed that control.template file contains the pbe0 functional.
+   In the 5th line there is a submission to the queuing system realized by
+   other scripts (TMOLE_submit and TMOLE_commands).
+#!/bin/bash
+for func in b3-lyp b3-lyp_Gaussian bh-lyp b-lyp pbe s-vwn s-vwn_Gaussian
+do
+sed 's/pbe0/'$func'/g' control.template > control
+./TMOLE_submit 6AC_$func TMOLE_commands
+done
+
+   Filed in [21]Uncategorized | | [22]Comments (0)
+
+[23]Hevea
+
+   Friday, December 28, 2012
+   [24]image_pdf [25]image_print
+
+   Recently I had to convert piece of LaTeX document into HTML form. There
+   are quite a few tools that are capable of doing it. Among them one can
+   find, for instance: [26]latex2html, [27]tth. I have not gone through
+   these tools, so feel free to check them out. Instead I got encouraged
+   by [28]Hevea.
+
+   An installation of this tool is pretty straightforward can be done via
+   mac port (just port install hevea). Is is required to install OCaml (if
+   not already installed), but it is worth of doing it. An installation
+   via port takes care of all required dependencies. For me it was
+   essential to translate single equations from Latex into HTML language.
+   For instance, the following equation (Boys function)
+
+   (1)   \begin{align*} F_{m}(t)=\int\limits_{0}^{1}\exp(-tx^{2})x^{2m}dx
+   \end{align*}
+
+   can easily be transformed into
+   F[m](t)=
+            1
+            ∫
+            0
+             exp(−tx^2)x^2mdx
+
+   The HTML code looks like the following:
+</pre>
+<table class="display dcenter">
+<tbody>
+<tr style="vertical-align: middle;">
+<td class="dcell"><span style="font-style: italic;">F</span><sub><span style="fo
+nt-style: italic;">m</span></sub>(<span style="font-style: italic;">t</span>)=</
+td>
+<td class="dcell">
+<table class="display">
+<tbody>
+<tr>
+<td class="dcell" style="text-align: center;">1</td>
+</tr>
+<tr>
+<td class="dcell" style="text-align: center;"></td>
+</tr>
+<tr>
+<td class="dcell" style="text-align: center;">0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="dcell">exp(<span style="font-style: italic;">tx</span><sup>2</sup>)<s
+pan style="font-style: italic;">x</span><sup>2<span style="font-style: italic;">
+m</span></sup><span style="font-style: italic;">dx</span></td>
+</tr>
+</tbody>
+</table>
+
+   Filed in [29]latex | | [30]Comments (2)
+
+[31]Calculations with Turbomole 1
+
+   Thursday, December 20, 2012
+   [32]image_pdf [33]image_print
+
+   Below I want to show short guide related to the usage of  quantum
+   chemistry package: Turbomole.
+
+   First thing is to appropriately set up environmental variables. To do
+   this just go to your Turbomole directory and type:
+   $ source Config_turbo_env
+
+   Now you are ready to execute any of Turbomole programs/scripts. You can
+   easily check it by typing:
+   $ which ridft
+   _some_path_/ridft
+
+   In the Turbomole package handling of input data is slightly different
+   than in the case of many other quantum chemistry packages. Instead of
+   one input file (like in the case of Gaussian) there are few other files
+   that contain entire information about considered system. From the point
+   of view of the user it is important to prepare the geometry of
+   molecule, for example in the xyz format (using e.g. Molden program).
+   The rest can be generated with the define program (a part of Turbomole
+   package). However, Turbomole has its own format in which the geometry
+   is expressed. To obtain this file you should use script x2t in the
+   following way:
+   $ x2t geometry_in_the_xyz_format &gt; coord
+
+   Now your geometry is ready to go and define program should be used. In
+   principle define is an interactive program that takes the user through
+   couple of screens where one can load the geometry, set up the basis set
+   and so on. It is a good idea to get familiar with define, but going
+   through it routinely is a bit slow and a good idea is to write a short
+   input to define. This input should contain all information which
+   normally would be entered interactively. Below and exaple of such a
+   input file:
+   $ cat define.inp
+   a coord
+   ired
+   *
+   b all def2-SV(P)
+   *
+   eht
+   0
+   ri
+   jbas
+   *
+   on
+   *
+   dft
+   on
+   *
+   *
+
+   Starting from the beginnig we have the following commands:
+   a coord – get the geometry from the coord file
+   ired – impose the internal redundant coordinates (for geometry
+   optimization)
+   b all def2-SV(P) – choose the def2-SV(P) as the orbital basis set
+   eht – compute the initial Huckel guess for the molecular orbitals
+   0 – here we want to have the neutral molecule (charge=0)
+   ri – use the resolution-of-the-identity for Coulomb integrals (calles
+   sometimes the density fitting)
+   jbas – take the auxiliary basis set which is adequate to orbital basis
+   (with the same name, but this is completely different basis set)
+   dft – turn on the dft mode (the SCF procedure will be calculating the
+   DFT rather than Hartree-Fock energy)
+   Filed in [34]science | Tagged [35]computational chemistry,
+   [36]molecular science, [37]quantum chemistry, [38]turbomole |
+   [39]Comments (0)
+     * Sites
+          + [40]C64
+          + [41]Curriculum Vitae
+               o [42]Papers
+               o [43]Posters/Talks
+          + [44]Links
+          + [45]Python
+          + [46]Quantum chemistry
+               o [47]Energy conversion factors
+          + [48]Scripting
+               o [49]Awk
+          + [50]SPIO
+          + [51]TDDFT/6AC
+          + [52]TDDFT/BPT
+
+   © 2016 ¶ Thanks, [53]WordPress. ¶ [54]veryplaintxt theme by [55]Scott
+   Allan Wallick. ¶ It's nice [56]XHTML & [57]CSS.
+
+References
+
+   Visible links
+   1. http://bachorz.eu/WoPr3/feed/
+   2. http://bachorz.eu/WoPr3/comments/feed/
+   3. http://bachorz.eu/WoPr3/
+   4. file:///home/mgomez/CS432/A3/source200.txt#content
+   5. http://bachorz.eu/WoPr3/curriculum-vitae/
+   6. http://bachorz.eu/WoPr3/curriculum-vitae/papers/
+   7. http://bachorz.eu/WoPr3/curriculum-vitae/posterstalks/
+   8. http://bachorz.eu/WoPr3/links/
+   9. http://bachorz.eu/WoPr3/scripting/
+  10. http://bachorz.eu/WoPr3/scripting/awk/
+  11. http://bachorz.eu/WoPr3/tddft6ac/
+  12. http://bachorz.eu/WoPr3/quantum-chemistry/
+  13. http://bachorz.eu/WoPr3/quantum-chemistry/energy-conversion-factors/
+  14. http://bachorz.eu/WoPr3/bpt-water-complexes/
+  15. http://bachorz.eu/WoPr3/c64/
+  16. http://bachorz.eu/WoPr3/spio/
+  17. http://bachorz.eu/WoPr3/python/
+  18. http://bachorz.eu/WoPr3/all-functionals-supporting-escf-in-bash-script/
+  19. http://bachorz.eu/WoPr3/all-functionals-supporting-escf-in-bash-script/?page-id=342&print=pdf
+  20. http://bachorz.eu/WoPr3/all-functionals-supporting-escf-in-bash-script/?page-id=342&print=print
+  21. http://bachorz.eu/WoPr3/category/uncategorized/
+  22. http://bachorz.eu/WoPr3/all-functionals-supporting-escf-in-bash-script/#respond
+  23. http://bachorz.eu/WoPr3/hevea/
+  24. http://bachorz.eu/WoPr3/hevea/?page-id=282&print=pdf
+  25. http://bachorz.eu/WoPr3/hevea/?page-id=282&print=print
+  26. http://www.latex2html.org/
+  27. http://hutchinson.belmont.ma.us/tth/
+  28. http://hevea.inria.fr/
+  29. http://bachorz.eu/WoPr3/category/latex/
+  30. http://bachorz.eu/WoPr3/hevea/#comments
+  31. http://bachorz.eu/WoPr3/calculations-with-turbomole/
+  32. http://bachorz.eu/WoPr3/calculations-with-turbomole/?page-id=215&print=pdf
+  33. http://bachorz.eu/WoPr3/calculations-with-turbomole/?page-id=215&print=print
+  34. http://bachorz.eu/WoPr3/category/science/
+  35. http://bachorz.eu/WoPr3/tag/computational-chemistry/
+  36. http://bachorz.eu/WoPr3/tag/molecular-science/
+  37. http://bachorz.eu/WoPr3/tag/quantum-chemistry/
+  38. http://bachorz.eu/WoPr3/tag/turbomole/
+  39. http://bachorz.eu/WoPr3/calculations-with-turbomole/#respond
+  40. http://bachorz.eu/WoPr3/c64/
+  41. http://bachorz.eu/WoPr3/curriculum-vitae/
+  42. http://bachorz.eu/WoPr3/curriculum-vitae/papers/
+  43. http://bachorz.eu/WoPr3/curriculum-vitae/posterstalks/
+  44. http://bachorz.eu/WoPr3/links/
+  45. http://bachorz.eu/WoPr3/python/
+  46. http://bachorz.eu/WoPr3/quantum-chemistry/
+  47. http://bachorz.eu/WoPr3/quantum-chemistry/energy-conversion-factors/
+  48. http://bachorz.eu/WoPr3/scripting/
+  49. http://bachorz.eu/WoPr3/scripting/awk/
+  50. http://bachorz.eu/WoPr3/spio/
+  51. http://bachorz.eu/WoPr3/tddft6ac/
+  52. http://bachorz.eu/WoPr3/bpt-water-complexes/
+  53. http://wordpress.org/
+  54. http://www.plaintxt.org/themes/veryplaintxt/
+  55. http://scottwallick.com/
+  56. http://validator.w3.org/check/referer
+  57. http://jigsaw.w3.org/css-validator/validator?profile=css2&warning=2&uri=http://www.bachorz.eu/WoPr3/wp-content/themes/veryplaintxt/style.css
+
+   Hidden links:
+  59. file://localhost/home/mgomez/CS432/A3/source200.txt

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" manifest="manifest.appcache">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Sean Goresht</title>
+		<meta name="description" content="Front-end developer, musician, coder, technological enthusiast">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+		
+<meta name="seangoresht/config/environment" content="%7B%22modulePrefix%22%3A%22seangoresht%22%2C%22environment%22%3A%22production%22%2C%22baseURL%22%3A%22/%22%2C%22locationType%22%3A%22hash%22%2C%22contentSecurityPolicyHeader%22%3A%22Disabled-Content-Security-Policy%22%2C%22manifest%22%3A%7B%22enabled%22%3Atrue%2C%22appcacheFile%22%3A%22/manifest.appcache%22%2C%22excludePaths%22%3A%5B%22/assets/components%22%5D%2C%22fallback%22%3A%5B%22/%20index.html%22%5D%2C%22includePaths%22%3A%5B%22/%22%5D%2C%22network%22%3A%5B%22*%22%5D%2C%22showCreateDate%22%3Atrue%7D%2C%22db%22%3A%7B%22url%22%3A%22https%3A//seangoresht.cloudant.com%22%2C%22name%22%3A%22seangoresht%22%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22seangoresht%22%2C%22version%22%3A%220.0.1+7758edaf%22%7D%2C%22simple-auth%22%3A%7B%22authorizer%22%3A%22authorizer%3Acouchdb%22%2C%22crossOriginWhitelist%22%3A%22https%3A//seangoresht.cloudant.com%22%2C%22routeAfterAuthentication%22%3A%22/admin/dashboard%22%7D%2C%22simple-auth-cookie-store%22%3A%7B%22cookieName%22%3A%22seangoresht_auth%22%7D%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%22%27none%27%22%2C%22script-src%22%3A%22%27self%27%22%2C%22font-src%22%3A%22%27self%27%22%2C%22connect-src%22%3A%22%27self%27%22%2C%22img-src%22%3A%22%27self%27%22%2C%22style-src%22%3A%22%27self%27%22%2C%22media-src%22%3A%22%27self%27%22%7D%2C%22exportApplicationGlobal%22%3Afalse%2C%22ember-devtools%22%3A%7B%22global%22%3Atrue%2C%22enabled%22%3Afalse%7D%2C%22browserify%22%3A%7B%22tests%22%3Atrue%7D%7D" />
+
+		<link rel="stylesheet" href="assets/vendor-96846603d7bde1dbf02255aeaa6ac1db.css" integrity="sha256-AulDFWrD5SDkIPW9bxABJ3ScgM1/Dwxuu/pm0pg2qU4= sha512-Awslr/9VWpNMgeb0MoTJ/z7XrxFrZU6l3/QIvqM+tkeMXT51Y/wgxmJwVvZezf3jWM5OVfkOeVeFiA+x/hqTiQ=="/>
+		<link rel="stylesheet" href="assets/seangoresht-8168a4bbaa5ed88ada24790ab678158e.css" integrity="sha256-Rl7WXzraBkhfUOplV/y6RVmHmVIhcSFCme81beTwwwU= sha512-QFQXoy9fcz+5GAOyBgXZXUcjQt//X22/NOMGg8KjCPa58YQSQ/Ia8k5wFJwv4Ouv91NftckbaeCgC24EoU9MxQ=="/>
+
+		
+	</head>
+	<body>
+		
+
+		<script src="assets/vendor-1c4c7d6397d9448d8631b734ffd16f4d.js" integrity="sha256-M1tyA2uSp+D8fBYKEVopZv5dH80TNbGCBl9Ha4FKc8I= sha512-r9GdJ11RdvirAI11GR/GwbZeb8xc6gugz0jsS9IQo420FhrGQOSnPNtqkKNCF2RutnJMAU8+d0kzG67zB8N5Hg=="/></script>
+		<script src="assets/seangoresht-53920efa86466e29fd0bd59ef45c6071.js" integrity="sha256-MD0JxPnxWUG+BAR43kFk0DHTd3TX+l9SJ/2gQtWvMGg= sha512-ke7+SHiyPW9rN2U74jxepW/DYvB62UM4rJtgNI64rWG/Tz+X5JLGSZy4yKpz3nWx4OyBNaSHynY8oACpzQNarg=="/></script>
+
+		
+	</body>
+</html>

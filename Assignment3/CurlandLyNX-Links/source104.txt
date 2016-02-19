@@ -1,0 +1,868 @@
+<!DOCTYPE html> 
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.freewebtutorials.info/xmlrpc.php">
+	
+	<title>Free Web Tutorials - Learn Web Design &amp; Development with our HTML5, CSS3, JavaScript, PHP, mobile app development &amp; Responsive Web design tutorials</title>
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Learn Web Design &amp; Development with our HTML5, CSS3, JavaScript, PHP, mobile app development &amp; Responsive Web design tutorials"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://www.freewebtutorials.info" />
+<link rel="next" href="http://www.freewebtutorials.info/page/2/" />
+<link rel="publisher" href="https://plus.google.com/u/0/103937461606019594052"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Free Web Tutorials - Learn Web Design &amp; Development with our HTML5, CSS3, JavaScript, PHP, mobile app development &amp; Responsive Web design tutorials" />
+<meta property="og:description" content="Learn Web Design &amp; Development with our HTML5, CSS3, JavaScript, PHP, mobile app development &amp; Responsive Web design tutorials" />
+<meta property="og:url" content="http://www.freewebtutorials.info" />
+<meta property="og:site_name" content="Free Web Tutorials" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.freewebtutorials.info\/","name":"Free Web Tutorials","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.freewebtutorials.info\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/www.freewebtutorials.info","sameAs":["https:\/\/www.facebook.com\/pages\/Gacik-Design\/22567222050","https:\/\/plus.google.com\/u\/0\/103937461606019594052","https:\/\/twitter.com\/FreeWebTutor"],"name":"Gacik Design","logo":"http:\/\/www.freewebtutorials.info\/wp-content\/uploads\/gacikdesign-logo.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Free Web Tutorials &raquo; Feed" href="http://www.freewebtutorials.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Free Web Tutorials &raquo; Comments Feed" href="http://www.freewebtutorials.info/comments/feed/" />
+<link href="//fonts.googleapis.com/css?family=Titillium+Web:400,400italic,300italic,300,600&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.freewebtutorials.info\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='popup-css'  href='http://www.freewebtutorials.info/wp-content/plugins/popup/popup.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-swipebox-css'  href='http://www.freewebtutorials.info/wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.min.css?ver=1.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='fetch-tweets-62128966b37c5135eb49b370af076015-css'  href='http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/template/plain/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fetch-tweets-9b12bf6aece5a93d4a831b02e66d1e62-css'  href='http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/template/single/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://www.freewebtutorials.info/wp-content/themes/being-hueman/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='http://www.freewebtutorials.info/wp-content/themes/hueman/responsive.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.freewebtutorials.info/wp-content/themes/hueman/fonts/font-awesome.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://www.freewebtutorials.info/wp-content/plugins/jetpack/css/jetpack.css?ver=3.9.1' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal enabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-59977764-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://www.freewebtutorials.info/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.freewebtutorials.info/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.freewebtutorials.info/wp-content/plugins/popup/popup.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.freewebtutorials.info/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.6.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rlArgs = {"script":"swipebox","selector":"lightbox","customEvents":"","activeGalleries":"1","animation":"1","hideCloseButtonOnMobile":"0","removeBarsOnMobile":"0","hideBars":"1","hideBarsDelay":"5000","videoMaxWidth":"1080","useSVG":"1","loopAtEnd":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.freewebtutorials.info/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.6.7'></script>
+<script type='text/javascript' src='http://www.freewebtutorials.info/wp-content/themes/hueman/js/jquery.flexslider.min.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://www.freewebtutorials.info/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.freewebtutorials.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.freewebtutorials.info/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel='shortlink' href='http://wp.me/5MraI' />
+
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<style type='text/css'>img#wpstats{display:none}</style><!--[if lt IE 9]>
+<script src="http://www.freewebtutorials.info/wp-content/themes/hueman/js/ie/html5.js"></script>
+<script src="http://www.freewebtutorials.info/wp-content/themes/hueman/js/ie/selectivizr.js"></script>
+<![endif]-->
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+<style type="text/css">
+/* Dynamic CSS: For no styles in head, copy and put the css below in your child theme's style.css, disable dynamic styles */
+body { font-family: "Titillium Web", Arial, sans-serif; }
+.boxed #wrapper, .container-inner { max-width: 1120px; }
+.sidebar .widget { padding-left: 20px; padding-right: 20px; padding-top: 20px; }
+.site-title a img { max-height: 80px; }
+</style>
+
+<style id="custom-css-css">.external{background:#82b965;color:#fff !important;padding:15px 25px;float:left;margin-top:20px}#nav-header .container{background:#222}.site-description{margin-left:0;line-height:20px;padding:0 0 25px}.ad-wrapper{opacity:0;z-index:100;position:absolute;top:600px;left:30px}.adWrapper{margin:20px}.fetch-tweets > .fetch-tweets-item a{color:#3b8dbd}</style>
+</head>
+
+<body class="home blog col-2cl full-width unknown">
+
+<div id="wrapper">
+
+	<header id="header">
+	
+				
+		<div class="container group">
+			<div class="container-inner">
+				
+				<div class="group pad">
+					<h1 class="site-title"><a href="http://www.freewebtutorials.info/" rel="home">Free Web Tutorials</a></h1>
+					<p class="site-description">Learn Web Design &amp; Development with our HTML5, CSS3, JavaScript, PHP, mobile app development &amp; Responsive Web design tutorials</p>										<div id="header-ads">
+						<div id="text-3" class="widget widget_text">			<div class="textwidget"><script type="text/javascript">
+    google_ad_client = "ca-pub-7167582367382812";
+    google_ad_slot = "4607509539";
+    google_ad_width = 728;
+    google_ad_height = 90;
+</script>
+<!-- Free Web Tutorials 728x90 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+		</div>					</div><!--/#header-ads-->
+									</div>
+				
+									<nav class="nav-container group" id="nav-header">
+						<div class="nav-toggle"><i class="fa fa-bars"></i></div>
+						<div class="nav-text"><!-- put your mobile menu text here --></div>
+						<div class="nav-wrap container"><ul id="menu-temp" class="nav container-inner group"><li id="menu-item-594" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-594"><a href="http://www.freewebtutorials.info/">Home</a></li>
+<li id="menu-item-2048" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2048"><a href="http://www.freewebtutorials.info/category/android/">Android</a></li>
+<li id="menu-item-578" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-578"><a href="http://www.freewebtutorials.info/category/css/">CSS/CSS3</a></li>
+<li id="menu-item-579" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-579"><a href="http://www.freewebtutorials.info/category/ecommerce/">eCommerce</a></li>
+<li id="menu-item-2284" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2284"><a href="http://www.freewebtutorials.info/category/frameworks/">Frameworks</a></li>
+<li id="menu-item-2271" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2271"><a href="http://www.freewebtutorials.info/category/freebies/">Freebies</a></li>
+<li id="menu-item-580" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-580"><a href="http://www.freewebtutorials.info/category/graphics/">Graphics</a></li>
+<li id="menu-item-581" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-581"><a href="http://www.freewebtutorials.info/category/html/">HTML/HTML5</a></li>
+<li id="menu-item-582" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-582"><a href="http://www.freewebtutorials.info/category/javascript/">JavaScript</a></li>
+<li id="menu-item-583" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-583"><a href="http://www.freewebtutorials.info/category/mobile/">Mobile</a></li>
+<li id="menu-item-584" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584"><a href="http://www.freewebtutorials.info/category/photoshop/">Photoshop</a></li>
+<li id="menu-item-1249" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1249"><a href="http://www.freewebtutorials.info/category/php/">PHP</a></li>
+<li id="menu-item-585" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-585"><a href="http://www.freewebtutorials.info/category/responsive/">Responsive</a></li>
+<li id="menu-item-586" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-586"><a href="http://www.freewebtutorials.info/category/review/">Review</a></li>
+<li id="menu-item-587" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-587"><a href="http://www.freewebtutorials.info/category/seo/">SEO</a></li>
+<li id="menu-item-588" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-588"><a href="http://www.freewebtutorials.info/category/social-media/">Social Media</a></li>
+<li id="menu-item-589" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-589"><a href="http://www.freewebtutorials.info/category/templates/">Templates</a></li>
+<li id="menu-item-590" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-590"><a href="http://www.freewebtutorials.info/category/trends/">Trends</a></li>
+<li id="menu-item-591" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-591"><a href="http://www.freewebtutorials.info/category/tutorials/">Tutorials</a></li>
+<li id="menu-item-1491" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1491"><a href="http://www.freewebtutorials.info/category/ux-ui/">UX/UI</a></li>
+<li id="menu-item-592" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-592"><a href="http://www.freewebtutorials.info/category/web-design/">Web Design</a></li>
+<li id="menu-item-1596" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1596"><a href="http://www.freewebtutorials.info/category/web-development/">Web Development</a></li>
+<li id="menu-item-593" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-593"><a href="http://www.freewebtutorials.info/category/wordpress/">WordPress</a></li>
+</ul></div>
+					</nav><!--/#nav-header-->
+								
+			</div><!--/.container-inner-->
+		</div><!--/.container-->
+		
+	</header><!--/#header-->
+	
+	<div class="container" id="page">
+		<div class="container-inner">			
+			<div class="main">
+				<div class="main-inner group">
+<section class="content">
+
+	<div class="page-title pad group">
+
+			<h2>Free Web Tutorials</h2>
+
+	
+</div><!--/.page-title-->	
+	<div class="pad group">
+		
+		
+	
+	<div class="featured">
+					<article id="post-2623" class="group post-2623 post type-post status-publish format-standard has-post-thumbnail hentry category-tutorials category-web-design category-web-development tag-http tag-http2 tag-hypertext-transfer-protocol">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.freewebtutorials.info/getting-ready-for-http2-a-guide-for-web-designers-and-developers/" title="Getting Ready for HTTP/2: A Guide for Web Designers and Developers">
+									<img width="720" height="340" src="http://i0.wp.com/www.freewebtutorials.info/wp-content/uploads/http2.jpg?resize=600%2C340" class="attachment-thumb-large size-thumb-large wp-post-image" alt="http2" srcset="http://i0.wp.com/www.freewebtutorials.info/wp-content/uploads/http2.jpg?resize=520%2C245 520w, http://i0.wp.com/www.freewebtutorials.info/wp-content/uploads/http2.jpg?resize=720%2C340 720w" sizes="(max-width: 720px) 100vw, 720px" />																			</a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.freewebtutorials.info/category/tutorials/" rel="category tag">Tutorials</a> / <a href="http://www.freewebtutorials.info/category/web-design/" rel="category tag">Web Design</a> / <a href="http://www.freewebtutorials.info/category/web-development/" rel="category tag">Web Development</a></p>
+			<p class="post-byline"> &middot; by <a href="http://www.freewebtutorials.info/author/ivica/" title="Posts by FreeWebTutor" rel="author">FreeWebTutor</a> &middot; 17 Feb, 2016</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.freewebtutorials.info/getting-ready-for-http2-a-guide-for-web-designers-and-developers/" rel="bookmark" title="Getting Ready for HTTP/2: A Guide for Web Designers and Developers">Getting Ready for HTTP/2: A Guide for Web Designers and Developers</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>The Hypertext Transfer Protocol (HTTP) is the protocol that governs the connection between your server and the browsers of your website’s visitors. For the first time since 1999, we have a new version of this&#46;&#46;&#46;</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->				
+	</div><!--/.featured-->
+	
+		
+				
+						<div class="post-list group">
+				<div class="post-row">					<article id="post-2612" class="group post-2612 post type-post status-publish format-standard has-post-thumbnail hentry category-trends category-ux-ui category-web-design category-web-development tag-ux-trends tag-web-design">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.freewebtutorials.info/5-best-ux-trends-every-web-designer-should-know/" title="5 Best UX Trends Every Web Designer Should Know">
+									<img width="520" height="245" src="http://i2.wp.com/www.freewebtutorials.info/wp-content/uploads/UX-trends.jpg?resize=520%2C245" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="UX Trends Every Web Designer Should Know" srcset="http://i2.wp.com/www.freewebtutorials.info/wp-content/uploads/UX-trends.jpg?resize=520%2C245 520w, http://i2.wp.com/www.freewebtutorials.info/wp-content/uploads/UX-trends.jpg?resize=720%2C340 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.freewebtutorials.info/category/trends/" rel="category tag">Trends</a> / <a href="http://www.freewebtutorials.info/category/ux-ui/" rel="category tag">UX/UI</a> / <a href="http://www.freewebtutorials.info/category/web-design/" rel="category tag">Web Design</a> / <a href="http://www.freewebtutorials.info/category/web-development/" rel="category tag">Web Development</a></p>
+            <p class="post-byline"> &middot; by <a href="http://www.freewebtutorials.info/author/ivica/" title="Posts by FreeWebTutor" rel="author">FreeWebTutor</a> &middot; 15 Feb, 2016</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.freewebtutorials.info/5-best-ux-trends-every-web-designer-should-know/" rel="bookmark" title="5 Best UX Trends Every Web Designer Should Know">5 Best UX Trends Every Web Designer Should Know</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>Top 5 UX trends every web designer should know, A web site’s success is always measured in how the user feels. Does it make them happy or agitated? Do they use it because they&#46;&#46;&#46;</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->										<article id="post-220" class="group post-220 post type-post status-publish format-standard has-post-thumbnail hentry category-templates category-web-design category-web-development tag-coming-soon-pages tag-redesign tag-under-construction-page tag-under-constuction">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.freewebtutorials.info/100-free-website-construction-coming-soon-page/" title="100+ Free Website Under Construction and Coming Soon Page">
+									<img width="520" height="245" src="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/under-construction-template.jpg?resize=520%2C245" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="under-construction-template" srcset="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/under-construction-template.jpg?resize=520%2C245 520w, http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/under-construction-template.jpg?resize=720%2C340 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.freewebtutorials.info/category/templates/" rel="category tag">Templates</a> / <a href="http://www.freewebtutorials.info/category/web-design/" rel="category tag">Web Design</a> / <a href="http://www.freewebtutorials.info/category/web-development/" rel="category tag">Web Development</a></p>
+            <p class="post-byline"> &middot; by <a href="http://www.freewebtutorials.info/author/ivica/" title="Posts by FreeWebTutor" rel="author">FreeWebTutor</a> &middot; 13 Feb, 2016</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.freewebtutorials.info/100-free-website-construction-coming-soon-page/" rel="bookmark" title="100+ Free Website Under Construction and Coming Soon Page">100+ Free Website Under Construction and Coming Soon Page</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>Sometimes a redesign might be the only way to get around a old theme which is on your website to compensate for missing features. If your website still uses old template then chances of&#46;&#46;&#46;</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->					</div><div class="post-row">					<article id="post-2600" class="group post-2600 post type-post status-publish format-standard has-post-thumbnail hentry category-css category-frameworks category-web-development tag-css tag-css-frameworks tag-frameworks tag-web-design">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.freewebtutorials.info/12-small-css-frameworks-web-designers/" title="12 Small CSS Frameworks for Web Designers">
+									<img width="520" height="245" src="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/CSS-frameworks.jpg?resize=520%2C245" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="CSS-frameworks" srcset="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/CSS-frameworks.jpg?resize=520%2C245 520w, http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/CSS-frameworks.jpg?resize=720%2C340 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.freewebtutorials.info/category/css/" rel="category tag">CSS/CSS3</a> / <a href="http://www.freewebtutorials.info/category/frameworks/" rel="category tag">Frameworks</a> / <a href="http://www.freewebtutorials.info/category/web-development/" rel="category tag">Web Development</a></p>
+            <p class="post-byline"> &middot; by <a href="http://www.freewebtutorials.info/author/ivica/" title="Posts by FreeWebTutor" rel="author">FreeWebTutor</a> &middot; 11 Feb, 2016</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.freewebtutorials.info/12-small-css-frameworks-web-designers/" rel="bookmark" title="12 Small CSS Frameworks for Web Designers">12 Small CSS Frameworks for Web Designers</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>You probably don’t need most of the features that come with large UI frameworks such as Bootstrap, especially when you’re working on small projects that you just want to get up and running as&#46;&#46;&#46;</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->										<article id="post-2592" class="group post-2592 post type-post status-publish format-standard has-post-thumbnail hentry category-social-media category-trends category-web-development tag-content-marketing tag-content-marketing-habits tag-marketing-habits">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.freewebtutorials.info/break-these-10-content-marketing-habits-in-2016/" title="Break these 10 Content Marketing Habits in 2016">
+									<img width="520" height="245" src="http://i2.wp.com/www.freewebtutorials.info/wp-content/uploads/content-marketing.jpg?resize=520%2C245" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="content-marketing" srcset="http://i2.wp.com/www.freewebtutorials.info/wp-content/uploads/content-marketing.jpg?resize=520%2C245 520w, http://i2.wp.com/www.freewebtutorials.info/wp-content/uploads/content-marketing.jpg?resize=720%2C340 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.freewebtutorials.info/category/social-media/" rel="category tag">Social Media</a> / <a href="http://www.freewebtutorials.info/category/trends/" rel="category tag">Trends</a> / <a href="http://www.freewebtutorials.info/category/web-development/" rel="category tag">Web Development</a></p>
+            <p class="post-byline"> &middot; by <a href="http://www.freewebtutorials.info/author/ivica/" title="Posts by FreeWebTutor" rel="author">FreeWebTutor</a> &middot; 7 Feb, 2016</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.freewebtutorials.info/break-these-10-content-marketing-habits-in-2016/" rel="bookmark" title="Break these 10 Content Marketing Habits in 2016">Break these 10 Content Marketing Habits in 2016</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>In our professional and personal lives, the new year offers a fresh start, a time to take stock and identify opportunities for improvement. Of course, that also means it&#8217;s time for the inescapable tradition&#46;&#46;&#46;</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->					</div><div class="post-row">					<article id="post-2587" class="group post-2587 post type-post status-publish format-standard has-post-thumbnail hentry category-javascript category-web-development tag-code-editors tag-content-editing tag-javascript-editors tag-javascript-markdown-editor tag-javascript-wysiwyg-editors tag-markdown-editor tag-source-code-editors tag-source-editors tag-text-editors tag-wysiwyg-editor">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.freewebtutorials.info/10-best-javascript-wysiwyg-markdown-editors/" title="10 Best Javascript WYSIWYG &#038; Markdown Editors">
+									<img width="520" height="245" src="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/javascript-editor.jpg?resize=520%2C245" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="Javascript WYSIWYG &amp; Markdown Editors" srcset="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/javascript-editor.jpg?resize=520%2C245 520w, http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/javascript-editor.jpg?resize=720%2C340 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.freewebtutorials.info/category/javascript/" rel="category tag">JavaScript</a> / <a href="http://www.freewebtutorials.info/category/web-development/" rel="category tag">Web Development</a></p>
+            <p class="post-byline"> &middot; by <a href="http://www.freewebtutorials.info/author/ivica/" title="Posts by FreeWebTutor" rel="author">FreeWebTutor</a> &middot; 6 Feb, 2016</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.freewebtutorials.info/10-best-javascript-wysiwyg-markdown-editors/" rel="bookmark" title="10 Best Javascript WYSIWYG &#038; Markdown Editors">10 Best Javascript WYSIWYG &#038; Markdown Editors</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>If you are someone who is looking for the basic editing of the content, then these editors can make your life pretty easy. This is why we have scoured the web and handpicked some&#46;&#46;&#46;</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->										<article id="post-1329" class="group post-1329 post type-post status-publish format-standard has-post-thumbnail hentry category-frameworks category-web-design category-web-development tag-material-design tag-material-ui tag-materialize tag-paper-bootswatch-for-bootstrap tag-ui-frameworks">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.freewebtutorials.info/top-material-design-web-ui-frameworks/" title="Top Material Design Web UI Frameworks">
+									<img width="520" height="245" src="http://i2.wp.com/www.freewebtutorials.info/wp-content/uploads/material-design-web.jpg?resize=520%2C245" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="material design web UI Frameworks" srcset="http://i2.wp.com/www.freewebtutorials.info/wp-content/uploads/material-design-web.jpg?resize=520%2C245 520w, http://i2.wp.com/www.freewebtutorials.info/wp-content/uploads/material-design-web.jpg?resize=720%2C340 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.freewebtutorials.info/category/frameworks/" rel="category tag">Frameworks</a> / <a href="http://www.freewebtutorials.info/category/web-design/" rel="category tag">Web Design</a> / <a href="http://www.freewebtutorials.info/category/web-development/" rel="category tag">Web Development</a></p>
+            <p class="post-byline"> &middot; by <a href="http://www.freewebtutorials.info/author/ivica/" title="Posts by FreeWebTutor" rel="author">FreeWebTutor</a> &middot; 4 Feb, 2016</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.freewebtutorials.info/top-material-design-web-ui-frameworks/" rel="bookmark" title="Top Material Design Web UI Frameworks">Top Material Design Web UI Frameworks</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>Are you building websites, web apps or mobile apps without using one of these super helpful material design frameworks? May be it is the right time to look at this list of material design&#46;&#46;&#46;</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->					</div><div class="post-row">					<article id="post-2576" class="group post-2576 post type-post status-publish format-standard has-post-thumbnail hentry category-tutorials tag-seo tag-seo-optimized tag-seo-tasks">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.freewebtutorials.info/14-most-important-seo-tasks-in-order-of-priority/" title="14 Most Important SEO Tasks">
+									<img width="520" height="245" src="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/SEO-tasks.jpg?resize=520%2C245" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="SEO-tasks" srcset="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/SEO-tasks.jpg?resize=520%2C245 520w, http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/SEO-tasks.jpg?resize=720%2C340 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.freewebtutorials.info/category/tutorials/" rel="category tag">Tutorials</a></p>
+            <p class="post-byline"> &middot; by <a href="http://www.freewebtutorials.info/author/ivica/" title="Posts by FreeWebTutor" rel="author">FreeWebTutor</a> &middot; 2 Feb, 2016</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.freewebtutorials.info/14-most-important-seo-tasks-in-order-of-priority/" rel="bookmark" title="14 Most Important SEO Tasks">14 Most Important SEO Tasks</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>SEO can be overwhelming for any number of reasons. Between local considerations, seeding the right content in the right places, and various other on-page and off-page factors, it’s tough to know where to begin&#46;&#46;&#46;</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->										<article id="post-2573" class="group post-2573 post type-post status-publish format-standard has-post-thumbnail hentry category-review category-web-design category-web-development tag-freelancing-tools">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.freewebtutorials.info/20-freelancing-tools-and-apps-to-ease-your-work/" title="20 Freelancing Tools and Apps To Ease Your Work">
+									<img width="520" height="245" src="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/freelance-tools.jpg?resize=520%2C245" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="freelance-tools" srcset="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/freelance-tools.jpg?resize=520%2C245 520w, http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/freelance-tools.jpg?resize=720%2C340 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.freewebtutorials.info/category/review/" rel="category tag">Review</a> / <a href="http://www.freewebtutorials.info/category/web-design/" rel="category tag">Web Design</a> / <a href="http://www.freewebtutorials.info/category/web-development/" rel="category tag">Web Development</a></p>
+            <p class="post-byline"> &middot; by <a href="http://www.freewebtutorials.info/author/ivica/" title="Posts by FreeWebTutor" rel="author">FreeWebTutor</a> &middot; 2 Feb, 2016</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.freewebtutorials.info/20-freelancing-tools-and-apps-to-ease-your-work/" rel="bookmark" title="20 Freelancing Tools and Apps To Ease Your Work">20 Freelancing Tools and Apps To Ease Your Work</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>Become better at your job by using these awesome freelancing tools and apps which will surely ease your work! These freelancing tools and apps will help you grow your business, manage projects easily, track&#46;&#46;&#46;</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->					</div><div class="post-row">					<article id="post-2570" class="group post-2570 post type-post status-publish format-standard has-post-thumbnail hentry category-ecommerce category-seo">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.freewebtutorials.info/how-to-market-your-bussines-on-google-plus/" title="How To Market Your Bussines on Google Plus">
+									<img width="520" height="245" src="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/google.jpg?resize=520%2C245" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="google+" srcset="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/google.jpg?resize=520%2C245 520w, http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/google.jpg?resize=720%2C340 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.freewebtutorials.info/category/ecommerce/" rel="category tag">eCommerce</a> / <a href="http://www.freewebtutorials.info/category/seo/" rel="category tag">SEO</a></p>
+            <p class="post-byline"> &middot; by <a href="http://www.freewebtutorials.info/author/ivica/" title="Posts by FreeWebTutor" rel="author">FreeWebTutor</a> &middot; 2 Feb, 2016</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.freewebtutorials.info/how-to-market-your-bussines-on-google-plus/" rel="bookmark" title="How To Market Your Bussines on Google Plus">How To Market Your Bussines on Google Plus</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>When Google+ first showed up on the social media scene, it wasn’t just regarded as the newcomer, it was often looked down upon as a poser, a Facebook wannabe. It’s not too difficult to&#46;&#46;&#46;</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->										<article id="post-2564" class="group post-2564 post type-post status-publish format-standard has-post-thumbnail hentry category-web-development category-wordpress tag-wordpress-plugins">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.freewebtutorials.info/40-most-popular-wordpress-plugins-on-the-web/" title="40 Most Popular WordPress Plugins on the Web">
+									<img width="520" height="245" src="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/WordPress-Plugins-popular.jpg?resize=520%2C245" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="Popular WordPress Plugins" srcset="http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/WordPress-Plugins-popular.jpg?resize=520%2C245 520w, http://i1.wp.com/www.freewebtutorials.info/wp-content/uploads/WordPress-Plugins-popular.jpg?resize=720%2C340 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.freewebtutorials.info/category/web-development/" rel="category tag">Web Development</a> / <a href="http://www.freewebtutorials.info/category/wordpress/" rel="category tag">WordPress</a></p>
+            <p class="post-byline"> &middot; by <a href="http://www.freewebtutorials.info/author/ivica/" title="Posts by FreeWebTutor" rel="author">FreeWebTutor</a> &middot; 1 Feb, 2016</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.freewebtutorials.info/40-most-popular-wordpress-plugins-on-the-web/" rel="bookmark" title="40 Most Popular WordPress Plugins on the Web">40 Most Popular WordPress Plugins on the Web</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>Are you looking for the best and most popular WordPress plugins on the web? Do you want to add cool features to your own or your client’s website? Then this article must definitely be&#46;&#46;&#46;</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->					</div><div class="post-row"></div>			</div><!--/.post-list-->
+					
+			<nav class="pagination group">
+			<div class='wp-pagenavi'>
+<span class='pages'>Page 1 of 38</span><span class='current'>1</span><a class="page larger" href="http://www.freewebtutorials.info/page/2/">2</a><a class="page larger" href="http://www.freewebtutorials.info/page/3/">3</a><a class="page larger" href="http://www.freewebtutorials.info/page/4/">4</a><a class="page larger" href="http://www.freewebtutorials.info/page/5/">5</a><span class='extend'>...</span><a class="larger page" href="http://www.freewebtutorials.info/page/10/">10</a><a class="larger page" href="http://www.freewebtutorials.info/page/20/">20</a><a class="larger page" href="http://www.freewebtutorials.info/page/30/">30</a><span class='extend'>...</span><a class="nextpostslink" rel="next" href="http://www.freewebtutorials.info/page/2/">&raquo;</a><a class="last" href="http://www.freewebtutorials.info/page/38/">Last &raquo;</a>
+</div>	</nav><!--/.pagination-->
+			
+				
+	</div><!--/.pad-->
+	
+</section><!--/.content-->
+
+
+	<div class="sidebar s1">
+		
+		<a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+		
+		<div class="sidebar-content">
+			
+						<div class="sidebar-top group">
+				<p>Follow:</p>
+				<ul class="social-links"><li><a rel="nofollow" class="social-tooltip" title="Follow us on Twitter" href="https://twitter.com/FreeWebTutor" target="Array"><i class="fa fa-twitter" ></i></a></li><li><a rel="nofollow" class="social-tooltip" title="Follow us on Facebook" href="https://www.facebook.com/pages/Gacik-Design/22567222050" target="Array"><i class="fa fa-facebook" ></i></a></li><li><a rel="nofollow" class="social-tooltip" title="Follow us on Tumblr" href="http://freewebtutorials.tumblr.com/" ><i class="fa fa-tumblr" ></i></a></li></ul>			</div>
+						
+						
+			
+<div class="adWrapper">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7167582367382812";
+/* Free Web Tutorials 300x250 */
+google_ad_slot = "7029801931";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+			<div id="search-3" class="widget widget_search"><form method="get" class="searchform themeform" action="http://www.freewebtutorials.info/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form></div>	
+		<div id="wpt_widget-2" class="widget widget_wpt">	
+		<div class="wpt_widget_content" id="wpt_widget-2_content">	
+			<ul class="wpt-tabs has-3-tabs">
+                                                            <li class="tab_title"><a href="#" id="popular-tab">Popular</a></li>	
+                                                                                <li class="tab_title"><a href="#" id="recent-tab">Recent</a></li>	
+                                                                                                                    <li class="tab_title"><a href="#" id="tags-tab">Tags</a></li>	
+                                     
+			</ul> <!--end .tabs-->	
+			<div class="clear"></div>  
+			<div class="inside">        
+					
+					<div id="popular-tab-content" class="tab-content">				
+					</div> <!--end #popular-tab-content-->       
+				       
+					
+					<div id="recent-tab-content" class="tab-content"> 		 
+					</div> <!--end #recent-tab-content-->		
+				                     
+				            
+				       
+					<div id="tags-tab-content" class="tab-content"> 	
+						<ul>                    	
+						</ul>			 
+					</div> <!--end #tags-tab-content-->  
+					
+				<div class="clear"></div>	
+			</div> <!--end .inside -->	
+			<div class="clear"></div>
+		</div><!--end #tabber -->    
+		  
+		<script type="text/javascript">  
+			jQuery(function($) {    
+				$('#wpt_widget-2_content').data('args', {"allow_pagination":"1","post_num":"5","title_length":"15","comment_num":"5","show_thumb":"1","thumb_size":"small","show_date":"1","show_excerpt":null,"excerpt_length":"15","show_comment_num":null,"show_avatar":"1"});  
+			});  
+		</script>  
+		</div>		<div id="fetch_tweets_widget_by_id-2" class="widget widget_fetch_tweets_widget_by_id">
+<div class='fetch-tweets' style="max-width: 100%; max-height: 2000px; background-color: #ffffff; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; ">
+
+            <div class="fetch-tweets-item ">
+                <div class='fetch-tweets-profile-image' style="max-width:48px; float:left; clear:left;">
+            <a href='https://twitter.com/FreeWebTutor' target='_blank'>
+                <img src='http://pbs.twimg.com/profile_images/578678371208450048/UWr5BDUJ_normal.png' style='max-width:48px; border-radius: 5px;' alt='The profile image of FreeWebTutor' onError='this.onerror=null;this.src="http://pbs.twimg.com/profile_images/578678371208450048/UWr5BDUJ.png";' />
+            </a>
+        </div><!-- fetch-tweets-profile-image -->
+                <div class='fetch-tweets-main' style='margin-left: 48px;'>
+            <div class='fetch-tweets-heading'>
+            
+                           
+            
+                                <span class='fetch-tweets-user-name'>
+                    <strong>
+                        <a href='https://twitter.com/FreeWebTutor' target='_blank'>
+                            FreeWebTutorials                        </a>
+                    </strong>
+                </span>
+                                
+                                
+            </div><!-- fetch-tweets-heading -->
+            <div class='fetch-tweets-body'>
+                <p class='fetch-tweets-text'>The Best WordPress Plugins for Improving Yo <a href='http://is.gd/UzOjVA' target='_blank' rel='nofollow'>is.gd/UzOjVA</a> <a href="https://twitter.com/search?q=%23customerservice&#038;src=hash" target="_blank" rel="nofollow">#customerservice</a> <a href="https://twitter.com/search?q=%23faq&#038;src=hash" target="_blank" rel="nofollow">#faq</a> <a href="https://twitter.com/search?q=%23livechat&#038;src=hash" target="_blank" rel="nofollow">#livechat</a> <a href="https://twitter.com/search?q=%23plugins&#038;src=hash" target="_blank" rel="nofollow">#plugins</a> <a href="https://twitter.com/search?q=%23qa&#038;src=hash" target="_blank" rel="nofollow">#qa</a> <a href="https://twitter.com/search?q=%23ticketsupport&#038;src=hash" target="_blank" rel="nofollow">#ticketsupport</a> <a href="https://twitter.com/search?q=%23wordpress&#038;src=hash" target="_blank" rel="nofollow">#wordpress</a>                                    </p><!-- fetch-tweets-text -->
+                                                                                                            <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+                                        <ul class='fetch-tweets-intent-buttons'>
+                        <li class='fetch-tweets-intent-reply'>
+                            <a href='https://twitter.com/intent/tweet?in_reply_to=700466253136318464' rel='nofollow' target='_blank' title='Reply'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/reply_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Reply                                </span>
+                                                            </a>
+                        </li>
+                        <li class='fetch-tweets-intent-retweet'>
+                            <a href='https://twitter.com/intent/retweet?tweet_id=700466253136318464' rel='nofollow' target='_blank' title='Retweet'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/retweet_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Retweet                                </span>
+                                                            </a>
+                        </li>
+                        <li class='fetch-tweets-intent-favorite'>
+                            <a href='https://twitter.com/intent/favorite?tweet_id=700466253136318464' rel='nofollow' target='_blank' title='Favorite'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/favorite_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Favorite                                </span>
+                                                            </a>
+                        </li>        
+                    </ul><!-- fetch-tweets-intent-buttons -->
+                            </div><!-- fetch-tweets-body -->
+        </div><!-- fetch-tweets-main -->
+    </div><!-- fetch-tweets-item -->
+            <div class="fetch-tweets-item ">
+                <div class='fetch-tweets-profile-image' style="max-width:48px; float:left; clear:left;">
+            <a href='https://twitter.com/FreeWebTutor' target='_blank'>
+                <img src='http://pbs.twimg.com/profile_images/578678371208450048/UWr5BDUJ_normal.png' style='max-width:48px; border-radius: 5px;' alt='The profile image of FreeWebTutor' onError='this.onerror=null;this.src="http://pbs.twimg.com/profile_images/578678371208450048/UWr5BDUJ.png";' />
+            </a>
+        </div><!-- fetch-tweets-profile-image -->
+                <div class='fetch-tweets-main' style='margin-left: 48px;'>
+            <div class='fetch-tweets-heading'>
+            
+                           
+            
+                                <span class='fetch-tweets-user-name'>
+                    <strong>
+                        <a href='https://twitter.com/FreeWebTutor' target='_blank'>
+                            FreeWebTutorials                        </a>
+                    </strong>
+                </span>
+                                
+                                
+            </div><!-- fetch-tweets-heading -->
+            <div class='fetch-tweets-body'>
+                <p class='fetch-tweets-text'>Top 10 Websites to learn Website Development <a href='http://is.gd/YeIA9z' target='_blank' rel='nofollow'>is.gd/YeIA9z</a> <a href="https://twitter.com/search?q=%23developer&#038;src=hash" target="_blank" rel="nofollow">#developer</a> <a href="https://twitter.com/search?q=%23development&#038;src=hash" target="_blank" rel="nofollow">#development</a> <a href="https://twitter.com/search?q=%23responsivewebdesign&#038;src=hash" target="_blank" rel="nofollow">#responsivewebdesign</a> <a href="https://twitter.com/search?q=%23wordpress&#038;src=hash" target="_blank" rel="nofollow">#wordpress</a>                                    </p><!-- fetch-tweets-text -->
+                                                                                                            <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+                                        <ul class='fetch-tweets-intent-buttons'>
+                        <li class='fetch-tweets-intent-reply'>
+                            <a href='https://twitter.com/intent/tweet?in_reply_to=700466255069847552' rel='nofollow' target='_blank' title='Reply'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/reply_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Reply                                </span>
+                                                            </a>
+                        </li>
+                        <li class='fetch-tweets-intent-retweet'>
+                            <a href='https://twitter.com/intent/retweet?tweet_id=700466255069847552' rel='nofollow' target='_blank' title='Retweet'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/retweet_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Retweet                                </span>
+                                                            </a>
+                        </li>
+                        <li class='fetch-tweets-intent-favorite'>
+                            <a href='https://twitter.com/intent/favorite?tweet_id=700466255069847552' rel='nofollow' target='_blank' title='Favorite'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/favorite_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Favorite                                </span>
+                                                            </a>
+                        </li>        
+                    </ul><!-- fetch-tweets-intent-buttons -->
+                            </div><!-- fetch-tweets-body -->
+        </div><!-- fetch-tweets-main -->
+    </div><!-- fetch-tweets-item -->
+            <div class="fetch-tweets-item ">
+                <div class='fetch-tweets-profile-image' style="max-width:48px; float:left; clear:left;">
+            <a href='https://twitter.com/FreeWebTutor' target='_blank'>
+                <img src='http://pbs.twimg.com/profile_images/578678371208450048/UWr5BDUJ_normal.png' style='max-width:48px; border-radius: 5px;' alt='The profile image of FreeWebTutor' onError='this.onerror=null;this.src="http://pbs.twimg.com/profile_images/578678371208450048/UWr5BDUJ.png";' />
+            </a>
+        </div><!-- fetch-tweets-profile-image -->
+                <div class='fetch-tweets-main' style='margin-left: 48px;'>
+            <div class='fetch-tweets-heading'>
+            
+                           
+            
+                                <span class='fetch-tweets-user-name'>
+                    <strong>
+                        <a href='https://twitter.com/FreeWebTutor' target='_blank'>
+                            FreeWebTutorials                        </a>
+                    </strong>
+                </span>
+                                
+                                
+            </div><!-- fetch-tweets-heading -->
+            <div class='fetch-tweets-body'>
+                <p class='fetch-tweets-text'>How To Use Social Media To Boost Your SEO Campaign <a href='http://is.gd/plOz8w' target='_blank' rel='nofollow'>is.gd/plOz8w</a> <a href="https://twitter.com/search?q=%23searchengineoptimization&#038;src=hash" target="_blank" rel="nofollow">#searchengineoptimization</a> <a href="https://twitter.com/search?q=%23seo&#038;src=hash" target="_blank" rel="nofollow">#seo</a> <a href="https://twitter.com/search?q=%23seooptimized&#038;src=hash" target="_blank" rel="nofollow">#seooptimized</a> <a href="https://twitter.com/search?q=%23socialmedia&#038;src=hash" target="_blank" rel="nofollow">#socialmedia</a>                                    </p><!-- fetch-tweets-text -->
+                                                                                                            <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+                                        <ul class='fetch-tweets-intent-buttons'>
+                        <li class='fetch-tweets-intent-reply'>
+                            <a href='https://twitter.com/intent/tweet?in_reply_to=700458694669168640' rel='nofollow' target='_blank' title='Reply'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/reply_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Reply                                </span>
+                                                            </a>
+                        </li>
+                        <li class='fetch-tweets-intent-retweet'>
+                            <a href='https://twitter.com/intent/retweet?tweet_id=700458694669168640' rel='nofollow' target='_blank' title='Retweet'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/retweet_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Retweet                                </span>
+                                                            </a>
+                        </li>
+                        <li class='fetch-tweets-intent-favorite'>
+                            <a href='https://twitter.com/intent/favorite?tweet_id=700458694669168640' rel='nofollow' target='_blank' title='Favorite'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/favorite_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Favorite                                </span>
+                                                            </a>
+                        </li>        
+                    </ul><!-- fetch-tweets-intent-buttons -->
+                            </div><!-- fetch-tweets-body -->
+        </div><!-- fetch-tweets-main -->
+    </div><!-- fetch-tweets-item -->
+            <div class="fetch-tweets-item ">
+                <div class='fetch-tweets-profile-image' style="max-width:48px; float:left; clear:left;">
+            <a href='https://twitter.com/FreeWebTutor' target='_blank'>
+                <img src='http://pbs.twimg.com/profile_images/578678371208450048/UWr5BDUJ_normal.png' style='max-width:48px; border-radius: 5px;' alt='The profile image of FreeWebTutor' onError='this.onerror=null;this.src="http://pbs.twimg.com/profile_images/578678371208450048/UWr5BDUJ.png";' />
+            </a>
+        </div><!-- fetch-tweets-profile-image -->
+                <div class='fetch-tweets-main' style='margin-left: 48px;'>
+            <div class='fetch-tweets-heading'>
+            
+                           
+            
+                                <span class='fetch-tweets-user-name'>
+                    <strong>
+                        <a href='https://twitter.com/FreeWebTutor' target='_blank'>
+                            FreeWebTutorials                        </a>
+                    </strong>
+                </span>
+                                
+                                
+            </div><!-- fetch-tweets-heading -->
+            <div class='fetch-tweets-body'>
+                <p class='fetch-tweets-text'>20 Best Color Palette Tools for Web and Graphic Design <a href='http://is.gd/oQfrCF' target='_blank' rel='nofollow'>is.gd/oQfrCF</a> <a href="https://twitter.com/search?q=%23colorpalettetools&#038;src=hash" target="_blank" rel="nofollow">#colorpalettetools</a> <a href="https://twitter.com/search?q=%23design&#038;src=hash" target="_blank" rel="nofollow">#design</a> <a href="https://twitter.com/search?q=%23graphic&#038;src=hash" target="_blank" rel="nofollow">#graphic</a> <a href="https://twitter.com/search?q=%23photography&#038;src=hash" target="_blank" rel="nofollow">#photography</a> <a href="https://twitter.com/search?q=%23photoshop&#038;src=hash" target="_blank" rel="nofollow">#photoshop</a>                                    </p><!-- fetch-tweets-text -->
+                                                                                                            <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+                                        <ul class='fetch-tweets-intent-buttons'>
+                        <li class='fetch-tweets-intent-reply'>
+                            <a href='https://twitter.com/intent/tweet?in_reply_to=700458692794327040' rel='nofollow' target='_blank' title='Reply'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/reply_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Reply                                </span>
+                                                            </a>
+                        </li>
+                        <li class='fetch-tweets-intent-retweet'>
+                            <a href='https://twitter.com/intent/retweet?tweet_id=700458692794327040' rel='nofollow' target='_blank' title='Retweet'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/retweet_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Retweet                                </span>
+                                                            </a>
+                        </li>
+                        <li class='fetch-tweets-intent-favorite'>
+                            <a href='https://twitter.com/intent/favorite?tweet_id=700458692794327040' rel='nofollow' target='_blank' title='Favorite'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/favorite_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Favorite                                </span>
+                                                            </a>
+                        </li>        
+                    </ul><!-- fetch-tweets-intent-buttons -->
+                            </div><!-- fetch-tweets-body -->
+        </div><!-- fetch-tweets-main -->
+    </div><!-- fetch-tweets-item -->
+            <div class="fetch-tweets-item ">
+                <div class='fetch-tweets-profile-image' style="max-width:48px; float:left; clear:left;">
+            <a href='https://twitter.com/FreeWebTutor' target='_blank'>
+                <img src='http://pbs.twimg.com/profile_images/578678371208450048/UWr5BDUJ_normal.png' style='max-width:48px; border-radius: 5px;' alt='The profile image of FreeWebTutor' onError='this.onerror=null;this.src="http://pbs.twimg.com/profile_images/578678371208450048/UWr5BDUJ.png";' />
+            </a>
+        </div><!-- fetch-tweets-profile-image -->
+                <div class='fetch-tweets-main' style='margin-left: 48px;'>
+            <div class='fetch-tweets-heading'>
+            
+                           
+            
+                                <span class='fetch-tweets-user-name'>
+                    <strong>
+                        <a href='https://twitter.com/FreeWebTutor' target='_blank'>
+                            FreeWebTutorials                        </a>
+                    </strong>
+                </span>
+                                
+                                
+            </div><!-- fetch-tweets-heading -->
+            <div class='fetch-tweets-body'>
+                <p class='fetch-tweets-text'>10 SEO Traps to avoid Google Downranking in 2016
+<a href='http://wp.me/p67FWP-vz' target='_blank' rel='nofollow'>wp.me/p67FWP-vz</a>
+<a href="https://twitter.com/search?q=%23SEO&#038;src=hash" target="_blank" rel="nofollow">#SEO</a> <a href="https://twitter.com/search?q=%23google&#038;src=hash" target="_blank" rel="nofollow">#google</a> <a href="https://twitter.com/search?q=%23downranking&#038;src=hash" target="_blank" rel="nofollow">#downranking</a> <a href='http://twitter.com/FreeWebTutor/status/700453215364587520/photo/1' target='_blank' rel='nofollow'>pic.twitter.com/BNOTag28Nj</a>                                    </p><!-- fetch-tweets-text -->
+                                    <div class='fetch-tweets-media'><div class='fetch-tweets-media-photo'><a href='http://twitter.com/FreeWebTutor/status/700453215364587520/photo/1'><img src='http://pbs.twimg.com/media/CbiCfLwXIAAsAFC.jpg' alt='Twitter Media'></a></div><!-- fetch-tweets-media-photo --></div><!-- fetch-tweets-media -->                                                                        <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+                                        <ul class='fetch-tweets-intent-buttons'>
+                        <li class='fetch-tweets-intent-reply'>
+                            <a href='https://twitter.com/intent/tweet?in_reply_to=700453215364587520' rel='nofollow' target='_blank' title='Reply'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/reply_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Reply                                </span>
+                                                            </a>
+                        </li>
+                        <li class='fetch-tweets-intent-retweet'>
+                            <a href='https://twitter.com/intent/retweet?tweet_id=700453215364587520' rel='nofollow' target='_blank' title='Retweet'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/retweet_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Retweet                                </span>
+                                                            </a>
+                        </li>
+                        <li class='fetch-tweets-intent-favorite'>
+                            <a href='https://twitter.com/intent/favorite?tweet_id=700453215364587520' rel='nofollow' target='_blank' title='Favorite'>
+                                                                <span class='fetch-tweets-intent-icon' style='background-image: url("http://www.freewebtutorials.info/wp-content/plugins/fetch-tweets/asset/image/favorite_48x16.png");' ></span>
+                                                                                                <span class='fetch-tweets-intent-buttons-text'>
+                                    Favorite                                </span>
+                                                            </a>
+                        </li>        
+                    </ul><!-- fetch-tweets-intent-buttons -->
+                            </div><!-- fetch-tweets-body -->
+        </div><!-- fetch-tweets-main -->
+    </div><!-- fetch-tweets-item -->
+        
+</div><!-- fetch-tweets --></div>			
+		</div><!--/.sidebar-content-->
+		
+	</div><!--/.sidebar-->
+
+		
+
+				</div><!--/.main-inner-->
+			</div><!--/.main-->			
+		</div><!--/.container-inner-->
+	</div><!--/.container-->
+
+	<footer id="footer">
+		
+				
+				
+					<nav class="nav-container group" id="nav-footer">
+				<div class="nav-toggle"><i class="fa fa-bars"></i></div>
+				<div class="nav-text"><!-- put your mobile menu text here --></div>
+				<div class="nav-wrap"><ul id="menu-temp-1" class="nav container group"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-594"><a href="http://www.freewebtutorials.info/">Home</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2048"><a href="http://www.freewebtutorials.info/category/android/">Android</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-578"><a href="http://www.freewebtutorials.info/category/css/">CSS/CSS3</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-579"><a href="http://www.freewebtutorials.info/category/ecommerce/">eCommerce</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2284"><a href="http://www.freewebtutorials.info/category/frameworks/">Frameworks</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2271"><a href="http://www.freewebtutorials.info/category/freebies/">Freebies</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-580"><a href="http://www.freewebtutorials.info/category/graphics/">Graphics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-581"><a href="http://www.freewebtutorials.info/category/html/">HTML/HTML5</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-582"><a href="http://www.freewebtutorials.info/category/javascript/">JavaScript</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-583"><a href="http://www.freewebtutorials.info/category/mobile/">Mobile</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584"><a href="http://www.freewebtutorials.info/category/photoshop/">Photoshop</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1249"><a href="http://www.freewebtutorials.info/category/php/">PHP</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-585"><a href="http://www.freewebtutorials.info/category/responsive/">Responsive</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-586"><a href="http://www.freewebtutorials.info/category/review/">Review</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-587"><a href="http://www.freewebtutorials.info/category/seo/">SEO</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-588"><a href="http://www.freewebtutorials.info/category/social-media/">Social Media</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-589"><a href="http://www.freewebtutorials.info/category/templates/">Templates</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-590"><a href="http://www.freewebtutorials.info/category/trends/">Trends</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-591"><a href="http://www.freewebtutorials.info/category/tutorials/">Tutorials</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1491"><a href="http://www.freewebtutorials.info/category/ux-ui/">UX/UI</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-592"><a href="http://www.freewebtutorials.info/category/web-design/">Web Design</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1596"><a href="http://www.freewebtutorials.info/category/web-development/">Web Development</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-593"><a href="http://www.freewebtutorials.info/category/wordpress/">WordPress</a></li>
+</ul></div>
+			</nav><!--/#nav-footer-->
+				
+		<section class="container" id="footer-bottom">
+			<div class="container-inner">
+				
+				<a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+				
+				<div class="pad group">
+					
+					<div class="grid one-half">
+						
+												
+						<div id="copyright">
+															<p>Free Web Tutorials &copy; 2016. All Rights Reserved.</p>
+													</div><!--/#copyright-->
+						
+												
+					</div>
+					
+					<div class="grid one-half last">	
+						<ul class="social-links"><li><a rel="nofollow" class="social-tooltip" title="Follow us on Twitter" href="https://twitter.com/FreeWebTutor" target="Array"><i class="fa fa-twitter" ></i></a></li><li><a rel="nofollow" class="social-tooltip" title="Follow us on Facebook" href="https://www.facebook.com/pages/Gacik-Design/22567222050" target="Array"><i class="fa fa-facebook" ></i></a></li><li><a rel="nofollow" class="social-tooltip" title="Follow us on Tumblr" href="http://freewebtutorials.tumblr.com/" ><i class="fa fa-tumblr" ></i></a></li></ul>					</div>
+				
+				</div><!--/.pad-->
+				
+			</div><!--/.container-inner-->
+		</section><!--/.container-->
+		
+	</footer><!--/#footer-->
+
+</div><!--/#wrapper-->
+
+	<div style="display:none">
+	</div>
+<link rel='stylesheet' id='wpt_widget-css'  href='http://www.freewebtutorials.info/wp-content/plugins/wp-tab-widget/css/wp-tab-widget.css?ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.freewebtutorials.info/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201607'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2016Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.freewebtutorials.info/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.freewebtutorials.info/wp-content/themes/hueman/js/scripts.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.freewebtutorials.info/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpt = {"ajax_url":"http:\/\/www.freewebtutorials.info\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.freewebtutorials.info/wp-content/plugins/wp-tab-widget/js/wp-tab-widget.js?ver=4.4.2'></script>
+<!--[if lt IE 9]>
+<script src="http://www.freewebtutorials.info/wp-content/themes/hueman/js/ie/respond.js"></script>
+<![endif]-->
+<script type='text/javascript' src='http://stats.wp.com/e-201607.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.9.1',blog:'85425876',post:'0',tz:'1',srv:'www.freewebtutorials.info'} ]);
+	_stq.push([ 'clickTrackerInit', '85425876', '0' ]);
+</script>
+
+	
+
+</body>
+</html>

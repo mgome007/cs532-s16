@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class=" html_stretched responsive av-preloader-disabled av-default-lightbox  html_header_top html_logo_left html_main_nav_header html_menu_right html_slim html_header_sticky html_header_shrinking_disabled html_header_transparency html_header_glassy html_mobile_menu_phone html_disabled html_header_searchicon html_content_align_center html_header_stretch_disabled html_entry_id_97 ">
+<head>
+<meta charset="UTF-8" />
+
+<!-- page title, displayed in your browser bar -->
+<title>Home - The Inside Daily</title>
+
+
+
+<!-- mobile setting -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Scripts/CSS and wp_head hook -->
+
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Your daily resource."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://dailyinsi.de/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home - The Inside Daily" />
+<meta property="og:description" content="Your daily resource." />
+<meta property="og:url" content="http://dailyinsi.de/" />
+<meta property="og:site_name" content="The Inside Daily" />
+<meta property="og:image" content="http://dailyinsi.de/files/2013/12/dailyinside_whitebg.png" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/dailyinsi.de\/","name":"The Inside Daily","potentialAction":{"@type":"SearchAction","target":"http:\/\/dailyinsi.de\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="The Inside Daily &raquo; Feed" href="http://dailyinsi.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Inside Daily &raquo; Comments Feed" href="http://dailyinsi.de/comments/feed/" />
+
+<!-- google webfont font replacement -->
+<link rel='stylesheet' id='avia-google-webfont' href='//fonts.googleapis.com/css?family=Open+Sans:400,600' type='text/css' media='all'/> 
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/dailyinsi.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='avia-grid-css'  href='http://dailyinsi.de/wp-content/themes/theme-dailyinside/css/grid.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-base-css'  href='http://dailyinsi.de/wp-content/themes/theme-dailyinside/css/base.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-layout-css'  href='http://dailyinsi.de/wp-content/themes/theme-dailyinside/css/layout.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-scs-css'  href='http://dailyinsi.de/wp-content/themes/theme-dailyinside/css/shortcodes.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-popup-css-css'  href='http://dailyinsi.de/wp-content/themes/theme-dailyinside/js/aviapopup/magnific-popup.css?ver=1' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-media-css'  href='http://dailyinsi.de/wp-content/themes/theme-dailyinside/js/mediaelement/skin-1/mediaelementplayer.css?ver=1' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-print-css'  href='http://dailyinsi.de/wp-content/themes/theme-dailyinside/css/print.css?ver=1' type='text/css' media='print' />
+<link rel='stylesheet' id='avia-dynamic-css'  href='http://dailyinsi.de/files/dynamic_avia/daily_inside_enfold.css?ver=554e7ec57d562' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-custom-css'  href='http://dailyinsi.de/wp-content/themes/theme-dailyinside/css/custom.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='http://dailyinsi.de/wp-content/themes/theme-dailyinside/config-layerslider/LayerSlider/static/css/layerslider.css?ver=5.3.2' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal enabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-7775338-17', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://dailyinsi.de/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://dailyinsi.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://dailyinsi.de/wp-content/themes/theme-dailyinside/js/avia-compat.js?ver=2'></script>
+<script type='text/javascript' src='http://dailyinsi.de/wp-content/themes/theme-dailyinside/config-layerslider/LayerSlider/static/js/greensock.js?ver=1.11.8'></script>
+<script type='text/javascript' src='http://dailyinsi.de/wp-content/themes/theme-dailyinside/config-layerslider/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js?ver=5.3.2'></script>
+<script type='text/javascript' src='http://dailyinsi.de/wp-content/themes/theme-dailyinside/config-layerslider/LayerSlider/static/js/layerslider.transitions.js?ver=5.3.2'></script>
+<link rel='https://api.w.org/' href='http://dailyinsi.de/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dailyinsi.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dailyinsi.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.1" />
+<link rel='shortlink' href='http://dailyinsi.de/' />
+<script src='http://cainteractive.org/?dm=79f434613fefa9c0e6a35c9acd6790ab&amp;action=load&amp;blogid=9&amp;siteid=1&amp;t=1703065641&amp;back=http%3A%2F%2Fdailyinsi.de%2F' type='text/javascript'></script>
+<!-- Twitter Cards Meta By WPDeveloper.net -->
+<meta name="twitter:card" content="photo" />
+<meta name="twitter:site" content="@dailyinside" />
+<meta name="twitter:creator" content="@dailyinside" />
+<meta name="twitter:url" content="http://dailyinsi.de/" />
+<meta name="twitter:title" content="Home" />
+<meta name="twitter:description" content="Your daily resource." />
+<meta name="twitter:image" content="http://dailyinsi.de/files/2013/12/dailyinside_whitebg.png" />
+<!-- Twitter Cards Meta By WPDeveloper.net -->
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="alternate" type="application/rss+xml" title="The Inside Daily RSS2 Feed" href="http://dailyinsi.de/feed/" />
+<link rel="pingback" href="http://dailyinsi.de/xmlrpc.php" />
+<!--[if lt IE 9]><script src="http://dailyinsi.de/wp-content/themes/theme-dailyinside/js/html5shiv.js"></script><![endif]-->		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+
+<!--
+Debugging Info for Theme support: 
+
+Theme: Daily Inside (enfold)
+Version: 3.1.3
+Installed: theme-dailyinside
+AviaFramework Version: 2.1
+AviaBuilder Version: 0.8
+ML:256-PU:35-PLA:6
+WP:4.4.1
+Updates: disabled
+-->
+
+<style type='text/css'>
+@font-face {font-family: 'entypo-fontello'; font-weight: normal; font-style: normal;
+src: url('http://dailyinsi.de/wp-content/themes/theme-dailyinside/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot?v=3');
+src: url('http://dailyinsi.de/wp-content/themes/theme-dailyinside/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot?v=3#iefix') format('embedded-opentype'), 
+url('http://dailyinsi.de/wp-content/themes/theme-dailyinside/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff?v=3') format('woff'), 
+url('http://dailyinsi.de/wp-content/themes/theme-dailyinside/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.ttf?v=3') format('truetype'), 
+url('http://dailyinsi.de/wp-content/themes/theme-dailyinside/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.svg?v=3#entypo-fontello') format('svg');
+} #top .avia-font-entypo-fontello, body .avia-font-entypo-fontello, html body [data-av_iconfont='entypo-fontello']:before{ font-family: 'entypo-fontello'; }
+</style>
+</head>
+
+
+
+
+<body id="top" class="home page page-id-97 page-template-default stretched open_sans " itemscope="itemscope" itemtype="https://schema.org/WebPage" >
+
+	
+	<div id='wrap_all'>
+
+	
+<header id='header' class=' header_color light_bg_color  av_header_top av_logo_left av_main_nav_header av_menu_right av_slim av_header_sticky av_header_shrinking_disabled av_header_stretch_disabled av_mobile_menu_phone av_header_transparency av_header_glassy av_header_searchicon av_bottom_nav_disabled  av_alternate_logo_active av_header_border_disabled'  role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
+
+<a id="advanced_menu_toggle" href="#" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></a><a id="advanced_menu_hide" href="#" 	aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></a>
+
+
+		<div  id='header_main' class='container_wrap container_wrap_logo'>
+	
+        	
+				 <div class='container'>
+				 
+					<div class='inner-container'>
+						<strong class='logo'><a href='http://dailyinsi.de/'><img height='100' width='300' src='http://dailyinsi.de/files/2015/01/logo_dailyinside.png' alt='The Inside Daily' /><span class='subtext'><img src='http://dailyinsi.de/files/2015/01/dailyinside_transparent.png' class='alternate' alt='' /></span></a></strong><nav class='main_menu' data-selectname='Select a page'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia-menu av-main-nav-wrap"><ul id="avia-menu" class="menu av-main-nav"><li id="menu-item-54" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-top-level menu-item-top-level-1"><a href="http://dailyinsi.de"><span class="avia-bullet"></span><span class="avia-menu-text">Home</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-2"><a href="http://dailyinsi.de/celebrity/"><span class="avia-bullet"></span><span class="avia-menu-text">Celebrity</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-3"><a href="http://dailyinsi.de/entertainment/"><span class="avia-bullet"></span><span class="avia-menu-text">Entertainment</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-4"><a href="http://dailyinsi.de/funny/"><span class="avia-bullet"></span><span class="avia-menu-text">Funny</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-5"><a href="http://dailyinsi.de/healthy/"><span class="avia-bullet"></span><span class="avia-menu-text">Healthy</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-6"><a href="http://dailyinsi.de/technology/"><span class="avia-bullet"></span><span class="avia-menu-text">Technology</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-7"><a href="http://dailyinsi.de/nature/"><span class="avia-bullet"></span><span class="avia-menu-text">Nature</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-search" class="noMobile menu-item menu-item-search-dropdown">
+							<a href="?s=" rel="nofollow" data-avia-search-tooltip="
+
+&lt;form action=&quot;http://dailyinsi.de/&quot; id=&quot;searchform&quot; method=&quot;get&quot; class=&quot;&quot;&gt;
+	&lt;div&gt;
+		&lt;input type=&quot;submit&quot; value=&quot;&quot; id=&quot;searchsubmit&quot; class=&quot;button avia-font-entypo-fontello&quot; /&gt;
+		&lt;input type=&quot;text&quot; id=&quot;s&quot; name=&quot;s&quot; value=&quot;&quot; placeholder='Search' /&gt;
+			&lt;/div&gt;
+&lt;/form&gt;" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'><span class="avia_hidden_link_text">Search</span></a>
+	        		   </li></ul></div></nav>				
+					 <!-- end inner-container-->
+			        </div>
+						
+		        <!-- end container-->
+		        </div>
+
+		<!-- end container_wrap-->
+		</div>
+		
+		<div class='header_bg'></div>
+
+<!-- end header -->
+</header>
+		
+	<div id='main' data-scroll-offset='88'>
+
+	 <div id='layer_slider_1' class='avia-layerslider main_color avia-shadow  avia-builder-el-0  el_before_av_masonry_entries  avia-builder-el-first  container_wrap fullsize'    style='height: 151px;' ><script data-cfasync="false" type="text/javascript">var lsjQuery = jQuery;</script><script data-cfasync="false" type="text/javascript"> lsjQuery(document).ready(function() { if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_8','jquery'); } else { lsjQuery("#layerslider_8").layerSlider({responsiveUnder: 1140, layersContainer: 1140, autoStart: false, startInViewport: false, pauseOnHover: false, twoWaySlideshow: true, loops: 1, keybNav: false, touchNav: false, skin: 'fullwidth', globalBGColor: '#1f1f1f', globalBGImage: 'http://dailyinsi.de/files/2015/01/information_sliderbg.png', navPrevNext: false, hoverPrevNext: false, navStartStop: false, navButtons: false, showCircleTimer: false, thumbnailNavigation: 'disabled', lazyLoad: false, yourLogoStyle: 'left: 10px; top: 10px;', cbInit: function(element) { }, cbStart: function(data) { }, cbStop: function(data) { }, cbPause: function(data) { }, cbAnimStart: function(data) { }, cbAnimStop: function(data) { }, cbPrev: function(data) { }, cbNext: function(data) { }, skinsPath: 'http://dailyinsi.de/wp-content/themes/theme-dailyinside/config-layerslider/LayerSlider/static/skins/'}) } }); </script><div class="ls-wp-fullwidth-container" style="height:150px;"><div class="ls-wp-fullwidth-helper"><div id="layerslider_8" class="ls-wp-container" style="width:100%;height:150px;margin:0 auto;margin-bottom: 0px;"><div class="ls-slide" data-ls=" transition2d: all;"><img src="http://dailyinsi.de/wp-content/themes/theme-dailyinside/config-layerslider/LayerSlider/static/img/blank.gif" data-src="http://dailyinsi.de/files/2015/01/information_sliderbg.png" class="ls-bg" alt="information_sliderbg" /><p class="ls-l" style="top:50px;left:340px;font-size:40px;color:white;white-space: nowrap;" data-ls="offsetxin:0;durationin:2500;offsetxout:right;durationout:1500;fadeout:false;">Welcome to the <strong>Daily Inside</strong>.</p><h4 class="ls-l" style="top:100px;left:465px;font-size:25px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:1300;">Your daily resource.</h4></div></div></div></div></div>
+<div  class='main_color  avia-builder-el-1  el_after_av_layerslider  avia-builder-el-last  avia-no-border-styling masonry-not-first container_wrap fullsize'   ><div id='av-masonry-1' class='av-masonry noHover av-fixed-size av-no-gap av-hover-overlay-active av-masonry-col-flexible av-caption-on-hover ' ><div class='av-masonry-container isotope av-js-disabled ' ><div class='av-masonry-entry isotope-item av-masonry-item-no-image '></div><a href="http://dailyinsi.de/portfolio-item/disney-myths-revealed/" id='av-masonry-1-item-56' class='av-masonry-entry isotope-item post-56 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_entries-disney-myths-revealed portfolio_entries-entertainment portfolio_entries-portfolio  av-masonry-item-with-image' title="Disney myths revealed"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='av-inner-masonry-sizer'></div><figure class='av-inner-masonry main_color'><div class="av-masonry-outerimage-container"><div class="av-masonry-image-container" style="background-image: url(http://dailyinsi.de/files/2014/02/disney-rides.jpg);"><img src="http://dailyinsi.de/files/2014/02/disney-rides.jpg" title="Disney rides" alt="Disney rides" /></div></div><figcaption class='av-inner-masonry-content site-background'><div class='av-inner-masonry-content-pos'><div class='avia-arrow'></div><h3 class='av-masonry-entry-title entry-title'  itemprop="headline" >Disney myths revealed</h3><div class='av-masonry-entry-content entry-content'  itemprop="text" >We tell you the hard truth about the most popular myths surrounding Disney! Have a look.</div></div></figcaption></figure></a><!--end av-masonry entry--><a href="http://dailyinsi.de/portfolio-item/awesome-cake-designs/" id='av-masonry-1-item-26' class='av-masonry-entry isotope-item post-26 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_entries-awesome-cake-designs portfolio_entries-entertainment portfolio_entries-funny portfolio_entries-healthy portfolio_entries-portfolio  av-masonry-item-with-image' title="Awesome cake designs"  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='av-inner-masonry-sizer'></div><figure class='av-inner-masonry main_color'><div class="av-masonry-outerimage-container"><div class="av-masonry-image-container" style="background-image: url(http://dailyinsi.de/files/2013/12/birthday-cake.jpg);"><img src="http://dailyinsi.de/files/2013/12/birthday-cake.jpg" title="Birthday cake" alt="Birthday cake" /></div></div><figcaption class='av-inner-masonry-content site-background'><div class='av-inner-masonry-content-pos'><div class='avia-arrow'></div><h3 class='av-masonry-entry-title entry-title'  itemprop="headline" >Awesome cake designs</h3><div class='av-masonry-entry-content entry-content'  itemprop="text" >These cakes are not only delicious, but also a real eye candy. Simply amazing!</div></div></figcaption></figure></a><!--end av-masonry entry--></div></div></div>
+
+<div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div><div><div>		</div><!--end builder template--></div><!-- close default .container_wrap element -->		
+
+
+			
+
+			
+				<footer class='container_wrap socket_color' id='socket'  role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter" >
+                    <div class='container'>
+
+                        <span class='copyright'>Copyright &copy; 2016 Daily Inside. All rights reserved.</span>
+
+                        <nav class='sub_menu_socket'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia3-menu"><ul id="avia3-menu" class="menu"><li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="http://dailyinsi.de/imprint/">Imprint</a></li>
+<li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="http://dailyinsi.de/contact/">Contact us</a></li>
+<li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="http://dailyinsi.de/privacy-policy/">Privacy policy</a></li>
+<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="http://dailyinsi.de/sitemap/">Sitemap</a></li>
+</ul></div></nav>
+                    </div>
+
+	            <!-- ####### END SOCKET CONTAINER ####### -->
+				</footer>
+
+
+					<!-- end main -->
+		</div>
+		
+		<!-- end wrap_all --></div>
+
+
+ <script type='text/javascript'>
+ /* <![CDATA[ */  
+var avia_framework_globals = avia_framework_globals || {};
+    avia_framework_globals.frameworkUrl = 'http://dailyinsi.de/wp-content/themes/theme-dailyinside/framework/';
+    avia_framework_globals.installedAt = 'http://dailyinsi.de/wp-content/themes/theme-dailyinside/';
+    avia_framework_globals.ajaxurl = 'http://dailyinsi.de/wp-admin/admin-ajax.php';
+/* ]]> */ 
+</script>
+ 
+ <script type='text/javascript' src='http://dailyinsi.de/wp-content/themes/theme-dailyinside/js/avia.js?ver=3'></script>
+<script type='text/javascript' src='http://dailyinsi.de/wp-content/themes/theme-dailyinside/js/shortcodes.js?ver=3'></script>
+<script type='text/javascript' src='http://dailyinsi.de/wp-content/themes/theme-dailyinside/js/aviapopup/jquery.magnific-popup.min.js?ver=2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://dailyinsi.de/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.18.1'></script>
+<script type='text/javascript' src='http://dailyinsi.de/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.4.1'></script>
+<script type='text/javascript' src='http://dailyinsi.de/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+<a href='#top' title='Scroll to top' id='scroll-top-link' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'><span class="avia_hidden_link_text">Scroll to top</span></a>
+
+<div id="fb-root"></div>
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.366 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-02-19 00:09:50 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->

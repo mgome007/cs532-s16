@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Debugging life since 1991.
+">
+    
+        <meta name="description" content="kinda professional blog">
+    
+
+    <title>Фрей написал</title>
+
+    <link rel="canonical" href="http://frey.su/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Фрей написал</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="/">Хоум</a>
+        </li>
+        
+        <li>
+          <a href="/about/">Эбаут</a>
+        </li>
+        
+        <li>
+          <a href="/newsletter/">Рассылка</a>
+        </li>
+        
+        <li>
+          <a href="/status/">Статус</a>
+        </li>
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+
+
+  <!-- Page Header -->
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading">
+          <h1>Фрей написал</h1>
+          <hr class="small">
+          <span class="subheading">kinda professional blog</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			
+<div class="post-preview">
+  <a href="/reliably-deploying-rails-applications-in-russian/">
+    <h2 class="post-title">Книга "Reliably Deploying Rails Applications" на русском языке</h2>
+    
+    </a>
+    <p class="post-meta text-center">11.02.2016</p>
+</div>
+<hr>
+
+<div class="post-preview">
+  <a href="/how-people-learn/">
+    <h2 class="post-title">Как люди учатся</h2>
+    
+    </a>
+    <p class="post-meta text-center">29.01.2016</p>
+</div>
+<hr>
+
+<div class="post-preview">
+  <a href="/deploy-static-sites-to-vps-part-3/">
+    <h2 class="post-title">Деплой Jekyll и Middleman на VPS, часть третья</h2>
+    
+    </a>
+    <p class="post-meta text-center">18.01.2016</p>
+</div>
+<hr>
+
+<div class="post-preview">
+  <a href="/deploy-static-sites-to-vps-part-2/">
+    <h2 class="post-title">Деплой Jekyll и Middleman на VPS, часть вторая</h2>
+    
+    </a>
+    <p class="post-meta text-center">13.01.2016</p>
+</div>
+<hr>
+
+<div class="post-preview">
+  <a href="/deploy-static-sites-to-vps-part-1/">
+    <h2 class="post-title">Деплой Jekyll и Middleman на VPS, часть первая</h2>
+    
+    </a>
+    <p class="post-meta text-center">12.01.2016</p>
+</div>
+<hr>
+
+
+<!-- Pager -->
+
+<ul class="pager">
+  
+  
+  <li class="next">
+    <a href="/page2">Ранние посты &rarr;</a>
+  </li>
+  
+</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<hr>
+
+
+  <!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          <li>
+            <a href="/feed.xml">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://twitter.com/forever_frey">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="https://github.com/Freika">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Фрей написал 2016</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter24265621 = new Ya.Metrika({
+                    id:24265621,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/24265621" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+</body>
+
+</html>

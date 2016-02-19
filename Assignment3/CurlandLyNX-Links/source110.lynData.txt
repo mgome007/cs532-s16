@@ -1,0 +1,258 @@
+   #[1]Joshua Long » Feed [2]Joshua Long » Comments Feed
+
+[3]Joshua Long
+
+Desktop Support Technician & Website Developer
+
+   (BUTTON) (BUTTON)
+     * [4]Home
+     * [5]Statement
+     * [6]Curriculum Vitae
+     * [7]WordPress Development
+     * [8]Contact
+
+Recent Posts
+
+     * [9]Support Request: Asus R9 290 DirectCU II 4GB GDDR5
+     * [10]Review: Asus R9 290 DirectCU II 4GB GDDR5
+     * [11]Reddit: How do you recover from a screw up and save face
+     * [12]Windows 10: Forced Windows updates
+     * [13]Windows 7: Import from network to Windows MovieMaker
+
+Categories
+
+     * [14]Hardware
+     * [15]Linux
+     * [16]Technical Support
+     * [17]Windows
+
+About Joshua Long
+
+   Windows Desktop Support Technician, Linux Dabbler, Avid Gamer, Car
+   Enthusiast, Technophile and Netflix Addict.
+
+Social Media
+
+   Connect with me on [18]LinkedIn, follow me on [19]Twitter and watch me
+   play various games on [20]YouTube.
+
+[21]Support Request: Asus R9 290 DirectCU II 4GB GDDR5
+
+   [22]31st August 2015 by [23]Joshua·[24]0 Comments
+
+   [25]Asus R9 290 DirectCU II 4GB GDDR5 Since purchasing the Asus R9 290
+   DirectCU II 4GB GDDR5 from an online vendor I’ve had nothing but issues
+   with the graphics card.
+
+   This is the second R9 290 I’ve had this year will will more than likely
+   not be the last as the vendor refuses to give a refund after the first
+   28 days – a replacement card will be issued. Here is the ticket I have
+   created with the vendor.
+
+   [26]Continue reading
+
+[27]Review: Asus R9 290 DirectCU II 4GB GDDR5
+
+   [28]30th August 2015 by [29]Joshua·[30]0 Comments
+
+   Since purchasing the R9 290 back in March 2015, I’ve had nothing but
+   issues with it. The first card lasted one month before I started to
+   experience blackscreens, overheating and general performance issues.
+   After many hours of troubleshooting I decided that the only thing I had
+   left was to send the card back for a refund however I was told that I
+   was not allowed a refund and a replacement card would be send out
+   within 24 hours.
+
+   In the mean time, I decided to do some more research on the card and
+   found a large amount of people were experiencing the same problems as
+   myself;
+    1. “I experienced frequent BSCs (Black Screen Crash) every 20 minutes
+       or so during gaming. I followed a lot of ‘advice’ in the forums,
+       trying to fix this issue…but to no avail.”
+    2. “I got upon release, I kept getting Black Screen crashes from
+       roughly 2 to 10 minutes after I boot up. I spent a few hours
+       switching drivers and tinkering with settings but still got these
+       crashes.”
+    3. “Hi guys! I recently bought R9 290, and after few days it start
+       Black Screen. I could not enter in any game, the screen freez and
+       start Black.”
+
+   Since receiving the second card, it’s been great. The first two months
+   the card performed as expected until today – I’ve once again been left
+   in the same situation and the card is performing like the last.
+
+[31]Reddit: How do you recover from a screw up and save face
+
+   [32]25th August 2015 by [33]Joshua·[34]0 Comments
+
+   “I’m a junior and bit offs more than I should have. Thankfully it was
+   just a stand by of an active standby pair, but the engineer asked me to
+   investigate a minor issue and I ran the wrong command. Now I couldn’t
+   recover from it and it’s down until I can crawl to the engineer and
+   tell him what I did.
+
+   I hope he has a backup config and the rest I can get from the active
+   with his help and transfer to the standby, which I plan to offer to do
+   in the same sentence as asking for forgiveness. I’m just hoping that’s
+   enough to salvage any trust he’ll have for me.
+
+   Vague for reasons. Can anyone share some advice here or share their
+   experience so I feel less alone in my terror?” – [35]ACiDGRiM (Source)
+   [36]Continue reading
+
+[37]Windows 10: Forced Windows updates
+
+   [38]24th August 2015 by [39]Joshua·[40]0 Comments
+
+   The forced updates are by far the trickiest aspect of Windows 10. Yet
+   another problem that can occur is when a Windows update coincides with
+   a third party driver management software update. This can cause a
+   crash. The third party software can be halted, but the Windows update
+   cannot. Your best bet is uninstall third party driver management and
+   letting Windows take care of all the system updates, which gives
+   Microsoft power over another company’s products, which isn’t cool. I
+   hope there is a way to stop this happening in the near future.
+
+[41]Windows 7: Import from network to Windows MovieMaker
+
+   [42]24th August 2015 by [43]Joshua·[44]0 Comments
+   [45]Screencat_Windows_MoviewMaker
+
+   Ok, this is bizarre – Windows Live MovieMaker won’t let you import
+   network files by default. Okay, so they’ll be large and may monopolise
+   network traffic for a while, but shouldn’t that be your choice?
+
+   Anyway, a quick Registry tweak will solve this annoying problem. Simply
+   run REGEDIT, browse to HKEY_CURRENT_USER\Software\Microsoft\Windows
+   Live\Movie Maker, add a DWORD value called AllowNetworkFiles and set it
+   to 1: job done.
+
+[46]Windows 7: Standardising the taskbar
+
+   [47]24th August 2015 by [48]Joshua·[49]0 Comments
+
+   We love the Windows 7 taskbar, but many people seem less than impressed
+   with the new approach to taskbar buttons, finding it difficult to tell
+   at a glance whether an icon is a running application or a pinned
+   shortcut. If this sounds like you then there’s an easy way to restore
+   more standard taskbar buttons, though – right-click the taskbar, select
+   Properties, and set Taskbar Buttons to “Never combine” or “Combine when
+   taskbar is full”.
+
+   You can even restore the old Quick Launch toolbar in just a few clicks.
+   Simply right-click the taskbar, click Toolbars > New Toolbar, type
+   %userprofile%\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch
+   in the folder box and click Select Folder. The Quick Launch toolbar
+   should then reappear, and you can move and resize it to suit your
+   needs.
+
+[50]First Impressions of Kali Linux 2.0
+
+   [51]24th August 2015 by [52]Joshua·[53]0 Comments
+
+   Kali Linux 2.0 was released on August 11  2015. I downloaded 64-bit
+   full version and installed it on VMWare. The host computer has Intel i5
+   3570k, 8 GB RAM. I assigned 2 GB RAM to Kali Linux 2.0 and it was quite
+   quick surprisingly.
+
+   When installing via non-graphic interface, you may encounter no network
+   mirror repos, you need to bypass it by selecting “Continue without a
+   network mirror? Yes” and we will edit the /etc/apt/sources.list later.
+   Graphic interface may also has the same problem too. After the
+   installation is completed, we can edit the /etc/apt/sources.list if you
+   encountered no mirror repos when install.
+
+   [54]Continue reading
+
+[55]Offensive Security Introduces Kali Linux
+
+   [56]21st August 2015 by [57]Joshua·[58]0 Comments
+
+   Black Hat Europe, Amsterdam – March 13 – [59]Offensive Security today
+   announced the availability of [60]Kali Linux, the evolution of its
+   popular [61]BackTrack Linux, a free security auditing operating system
+   and toolkit. Showcased at [62]Black Hat Europe in Amsterdam, Kali Linux
+   incorporates more than 300 penetration testing and security auditing
+   programs with a Linux operating system, delivering an all-in-one
+   solution that enables IT administrators and security professionals to
+   test the effectiveness of risk mitigation strategies.
+
+   “For IT professionals, an experiment is worth a thousand theories.
+   Applied to security, it means that simulating attacks to assess the
+   defenses protecting your organization is the only sure way to
+   understand their effectiveness and the impact of an attack,” said Mati
+   Aharoni, Lead Trainer and Developer, Offensive Security. “That’s why we
+   created Kali Linux; we’ve developed the most advanced penetration
+   testing and security auditing toolkit available to help IT
+   administrators and security professionals put themselves in the shoes
+   of potential attackers.”
+
+   [63]Continue reading
+   [64]Desktop Support Technician & Website Developer - Joshua Long.
+
+References
+
+   1. http://www.joshualong.co.uk/feed/
+   2. http://www.joshualong.co.uk/comments/feed/
+   3. http://www.joshualong.co.uk/
+   4. http://www.joshualong.co.uk/
+   5. http://www.joshualong.co.uk/statement/
+   6. http://www.joshualong.co.uk/curriculum-vitae/
+   7. http://www.joshualong.co.uk/freelance-wordpress-development/
+   8. http://www.joshualong.co.uk/contact/
+   9. http://www.joshualong.co.uk/support-request-asus-r9-290-directcu-ii-4gb-gddr5/
+  10. http://www.joshualong.co.uk/review-asus-r9-290-directcu-ii-4gb-gddr5/
+  11. http://www.joshualong.co.uk/reddit-how-do-you-recover-from-a-screw-up-and-save-face/
+  12. http://www.joshualong.co.uk/windows-10-forced-windows-updates/
+  13. http://www.joshualong.co.uk/windows-7-import-from-network-to-windows-moviemaker/
+  14. http://www.joshualong.co.uk/category/hardware/
+  15. http://www.joshualong.co.uk/category/linux/
+  16. http://www.joshualong.co.uk/category/technical-support/
+  17. http://www.joshualong.co.uk/category/windows/
+  18. https://www.linkedin.com/pub/joshua-long/36/869/4a3
+  19. https://twitter.com/Moarderp
+  20. https://www.youtube.com/user/ItsMrXeon
+  21. http://www.joshualong.co.uk/support-request-asus-r9-290-directcu-ii-4gb-gddr5/
+  22. http://www.joshualong.co.uk/support-request-asus-r9-290-directcu-ii-4gb-gddr5/
+  23. http://www.joshualong.co.uk/author/joshua/
+  24. http://www.joshualong.co.uk/support-request-asus-r9-290-directcu-ii-4gb-gddr5/#respond
+  25. http://www.joshualong.co.uk/wp-content/uploads/2015/08/Asus-R9-290-DirectCU-II-4GB-GDDR5.jpg
+  26. http://www.joshualong.co.uk/support-request-asus-r9-290-directcu-ii-4gb-gddr5/
+  27. http://www.joshualong.co.uk/review-asus-r9-290-directcu-ii-4gb-gddr5/
+  28. http://www.joshualong.co.uk/review-asus-r9-290-directcu-ii-4gb-gddr5/
+  29. http://www.joshualong.co.uk/author/joshua/
+  30. http://www.joshualong.co.uk/review-asus-r9-290-directcu-ii-4gb-gddr5/#respond
+  31. http://www.joshualong.co.uk/reddit-how-do-you-recover-from-a-screw-up-and-save-face/
+  32. http://www.joshualong.co.uk/reddit-how-do-you-recover-from-a-screw-up-and-save-face/
+  33. http://www.joshualong.co.uk/author/joshua/
+  34. http://www.joshualong.co.uk/reddit-how-do-you-recover-from-a-screw-up-and-save-face/#respond
+  35. https://www.reddit.com/user/ACiDGRiM
+  36. http://www.joshualong.co.uk/reddit-how-do-you-recover-from-a-screw-up-and-save-face/
+  37. http://www.joshualong.co.uk/windows-10-forced-windows-updates/
+  38. http://www.joshualong.co.uk/windows-10-forced-windows-updates/
+  39. http://www.joshualong.co.uk/author/joshua/
+  40. http://www.joshualong.co.uk/windows-10-forced-windows-updates/#respond
+  41. http://www.joshualong.co.uk/windows-7-import-from-network-to-windows-moviemaker/
+  42. http://www.joshualong.co.uk/windows-7-import-from-network-to-windows-moviemaker/
+  43. http://www.joshualong.co.uk/author/joshua/
+  44. http://www.joshualong.co.uk/windows-7-import-from-network-to-windows-moviemaker/#respond
+  45. http://www.joshualong.co.uk/windows-7-import-from-network-to-windows-moviemaker/
+  46. http://www.joshualong.co.uk/windows-7-standardising-the-taskbar/
+  47. http://www.joshualong.co.uk/windows-7-standardising-the-taskbar/
+  48. http://www.joshualong.co.uk/author/joshua/
+  49. http://www.joshualong.co.uk/windows-7-standardising-the-taskbar/#respond
+  50. http://www.joshualong.co.uk/first-impressions-of-kali-linux-2-0/
+  51. http://www.joshualong.co.uk/first-impressions-of-kali-linux-2-0/
+  52. http://www.joshualong.co.uk/author/joshua/
+  53. http://www.joshualong.co.uk/first-impressions-of-kali-linux-2-0/#respond
+  54. http://www.joshualong.co.uk/first-impressions-of-kali-linux-2-0/
+  55. http://www.joshualong.co.uk/offensive-security-introduces-kali-linux/
+  56. http://www.joshualong.co.uk/offensive-security-introduces-kali-linux/
+  57. http://www.joshualong.co.uk/author/joshua/
+  58. http://www.joshualong.co.uk/offensive-security-introduces-kali-linux/#respond
+  59. http://www.offensive-security.com/
+  60. http://www.offensive-security.com/kali-distribution/kali-linux-released/
+  61. http://www.backtrack-linux.org/
+  62. http://www.blackhat.com/eu-13/
+  63. http://www.joshualong.co.uk/offensive-security-introduces-kali-linux/
+  64. http://www.joshualong.co.uk/

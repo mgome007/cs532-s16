@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Jordon Bedwell</title>
+    <meta name="description" content="I do it wrong so you can learn a new way to do it right
+Systems and Programming" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="/assets/theme.css?v=f1ec8d75dd">
+    <script type="text/javascript" src="/assets/prism.js?v=f1ec8d75dd"></script>
+    <link rel="canonical" href="https://envygeeks.io/" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="https://envygeeks.io/page/2/" />
+    
+    <meta property="og:site_name" content="Jordon Bedwell" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jordon Bedwell" />
+    <meta property="og:description" content="I do it wrong so you can learn a new way to do it right
+Systems and Programming" />
+    <meta property="og:url" content="https://envygeeks.io/" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Jordon Bedwell" />
+    <meta name="twitter:description" content="I do it wrong so you can learn a new way to do it right
+Systems and Programming" />
+    <meta name="twitter:url" content="https://envygeeks.io/" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "Jordon Bedwell",
+    "url": "https://envygeeks.io/",
+    "description": "I do it wrong so you can learn a new way to do it right\nSystems and Programming"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7" />
+    <link rel="alternate" type="application/rss+xml" title="Jordon Bedwell" href="https://envygeeks.io/rss/" />
+    <style type="text/css">
+    pre { font-size: 0.9rem; }
+    code[class*='language-'], pre[class*='language-'], code, pre { 
+        font-family: "Liberation Mono", "Monaco", "Consolas", mono;
+        width: auto;
+    	word-wrap: normal;
+        word-break: normal;
+    	white-space: pre;
+        overflow: auto;
+    }
+</style>
+  </head>
+  <body class="home-template">
+    <header class="main-header text center">
+    <div class="no-cover site_width padding border solid bottom">
+      <div class="site_width">
+        <div class="blog-title"><a href="https://envygeeks.io">Jordon Bedwell</a></div>
+        <p class="blog-description">I do it wrong so you can learn a new way to do it right
+Systems and Programming</p>
+      </div>
+      
+      <div class="social">
+  <a href="https://twitter.com/envygeeks" target="_blank"><i class="fa fa-twitter-square"></i></a>
+  <a href="https://github.com/envygeeks" target="_blank"><i class="fa fa-github-square"></i></a>
+</div>
+
+    </div>
+</header>
+<main class="site_width" role="main">
+    <article class="padding">
+    <header class="excerpt">
+      <h4>
+        <a href="/2016/02/02/on-bash-complete-in-ruby/">
+          On Bash complete in Ruby.
+        </a>
+      </h4>
+    </header>
+
+    <div>
+      <p>Your auto-completion is kind-of complicated.  You build it entirely in bash with the assumption that it provides more perf (and it probably does... it probably isn't to-be honest... based on what I can gander just from looking at it.) However, <a href="/2016/02/02/on-bash-complete-in-ruby/">&raquo;</a></p>
+    </div>
+
+    <footer class="author">
+        <div class="author-thumb inline middle">
+          <img src="//www.gravatar.com/avatar/981e99916a49a45a150bc02cf4fc9a39?s=250&amp;d=mm&amp;r=x" alt="Foo" class="border circle" />
+        </div>
+
+      <div class="inline middle">
+        <a href="/author/jordon/">Jordon Bedwell</a>
+         on <a href="/tag/bash/">bash</a>, <a href="/tag/ruby/">ruby</a>, <a href="/tag/thor/">thor</a>
+        <time datetime="2016-02-02">
+          Tuesday, February 02, 2016
+        </time>
+      </div>
+    </footer>
+  </article>
+  <article class="padding">
+    <header class="excerpt">
+      <h4>
+        <a href="/2015/12/06/super-simple-breadcrumbs-in-jekyll-3-0/">
+          Super-simple breadcrumbs in Jekyll 3.0
+        </a>
+      </h4>
+    </header>
+
+    <div>
+      <p>More tips for Jekyll 3.0: Breadcrumbs.  Over the years I've seen some overly complicated breadcrumb stuff for Jekyll, many of which do really complicated stuff for a trivial topic.  For Jekyll 3.0 lets show you how to do <a href="/2015/12/06/super-simple-breadcrumbs-in-jekyll-3-0/">&raquo;</a></p>
+    </div>
+
+    <footer class="author">
+        <div class="author-thumb inline middle">
+          <img src="//www.gravatar.com/avatar/981e99916a49a45a150bc02cf4fc9a39?s=250&amp;d=mm&amp;r=x" alt="Foo" class="border circle" />
+        </div>
+
+      <div class="inline middle">
+        <a href="/author/jordon/">Jordon Bedwell</a>
+         on <a href="/tag/jekyll/">jekyll</a>, <a href="/tag/jekyll3/">jekyll3</a>, <a href="/tag/ruby/">ruby</a>
+        <time datetime="2015-12-06">
+          Sunday, December 06, 2015
+        </time>
+      </div>
+    </footer>
+  </article>
+  <article class="padding">
+    <header class="excerpt">
+      <h4>
+        <a href="/2015/12/06/recursive-sub-navigation-with-jekyll-3-0/">
+          Recursive (sub-)navigation with Jekyll 3.0
+        </a>
+      </h4>
+    </header>
+
+    <div>
+      <p>Here it is, Jekyll 3 is finally stable and a lot of the sites I help manage that use Jekyll have all updated and a lot of them had some hefty customization's but with Jekyll 3.0 things got tons <a href="/2015/12/06/recursive-sub-navigation-with-jekyll-3-0/">&raquo;</a></p>
+    </div>
+
+    <footer class="author">
+        <div class="author-thumb inline middle">
+          <img src="//www.gravatar.com/avatar/981e99916a49a45a150bc02cf4fc9a39?s=250&amp;d=mm&amp;r=x" alt="Foo" class="border circle" />
+        </div>
+
+      <div class="inline middle">
+        <a href="/author/jordon/">Jordon Bedwell</a>
+         on <a href="/tag/jekyll/">jekyll</a>, <a href="/tag/jekyll3/">jekyll3</a>, <a href="/tag/ruby/">ruby</a>
+        <time datetime="2015-12-06">
+          Sunday, December 06, 2015
+        </time>
+      </div>
+    </footer>
+  </article>
+  <article class="padding">
+    <header class="excerpt">
+      <h4>
+        <a href="/2015/11/16/tag-your-bash-history/">
+          Tag your Bash history!
+        </a>
+      </h4>
+    </header>
+
+    <div>
+      <p>Everybody loves tags now.  You can't even escape them, so why not apply it to your Bash history? You can actually comment your Bash history the way you do your source code and just like a hash tag they start <a href="/2015/11/16/tag-your-bash-history/">&raquo;</a></p>
+    </div>
+
+    <footer class="author">
+        <div class="author-thumb inline middle">
+          <img src="//www.gravatar.com/avatar/981e99916a49a45a150bc02cf4fc9a39?s=250&amp;d=mm&amp;r=x" alt="Foo" class="border circle" />
+        </div>
+
+      <div class="inline middle">
+        <a href="/author/jordon/">Jordon Bedwell</a>
+        
+        <time datetime="2015-11-16">
+          Monday, November 16, 2015
+        </time>
+      </div>
+    </footer>
+  </article>
+<nav class="pagination" role="navigation">
+    <span class="page-number">Page 1 of 5</span>
+        <a class="older-posts" href="/page/2/">Older Posts &rarr;</a>
+</nav>
+</main>
+
+
+    <footer class="site-footer text center padding">
+      <div>&copy; 2016 <a href="/">Jordon Bedwell</a>.</div>
+    </footer>
+  </body>
+
+  <script type="text/javascript">
+    window.addEventListener('load',
+      Prism.highlightAll);
+  </script>
+  
+</html>

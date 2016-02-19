@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="ライブ,中継,チャット,ライブカメラ,コミュニティー,無料,Stickam,簡単,ライブ配信,スティッカム" />
+    <meta name="description" content="日本全国からライブ中継。ライブ・チャット・動画・画像が全て無料で楽しめるライブコミュニティStickam" />
+    <meta name="apple-itunes-app" content="app-id=1049709349" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:url" content="http://www.stickam.jp/profile/ta30" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Ta-chan*" />
+    <meta property="og:image" content="http://static.stickam.jp/media/image/converted/live/1100/0010/4614/179955249.jpg" />
+    <meta property="fb:app_id" content="143175959078964" />
+    <meta property="og:description" content="暇潰しにまったりと配信しております。
+色々な面で下手糞！
+とかね、そういうのは解りきっている事なので
+空気を読んでくらさいませｗ
+
+メッセージ欄も目を通してからの入室をお願い致します♪
+基本、マイペース＋ライトゲーマー＋雰囲気勢ｗ
+
+★ゲーム配信(深夜)はtwichで！
+http://www.twitch.tv/i_k_u_3/
+
+★ゲーム配信(昼～夜、続きモノ)はcavetubeで！
+http://gae.cavelis.net/live/IKU3" />
+    <meta property="og:site_name" content="Stickam JAPAN!（スティッカム)" />
+    <meta name="format-detection" content="telephone=no" />
+    <link type="text/css" rel="stylesheet" href="/32191/css/ja/global.css" /> 
+    <link type="text/css" rel="stylesheet" href="/32191/css/site.css" />
+    <link type="text/plain" rel="alternate" href="/rss/ta30" title="Ta-chan*さんのRSSフィード" />
+    <link type="text/css" rel="stylesheet" href="/32191/css/ja/profile.css" />
+    <link type="text/css" rel="stylesheet" href="/32191/lib/simple-color-picker/jquery.simple-color-picker.css" />
+    <style type="text/css">/*<![CDATA[*/
+#page-container .section .header h2 {color:#ffffff;}
+#page-container .section .header p a {color:#ffffff;}
+#page-container #userTop {background:#636363;color:#ffffff;}
+#page-container .section .contents {background:#636363;color:#ffffff;}
+#page-container {background:#ff549e;}
+#page-container #userTop .nav ul {background:#000000;}
+#page-container #userTop .nav ul li a {color:#ffffff;}
+#page-container .section .header {background:#000000;}
+#page-container .section {border-width:1px;}
+#page-container .section .contents a {color:#494747;}
+/*]]>*/</style>
+    <title>Ta-chan* プロフィール - Stickam JAPAN!(スティッカム)</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="/32191/lib/jquery/jquery-1.7.2.min.js"></script>
+    <script src="/32191/lib/jquery-cookie/jquery.cookie.js"></script>
+    <script src="/32191/lib/jquery-json/jquery.json.min.js"></script>
+    <script src="/32191/lib/jStorage/jstorage.min.js"></script>
+    <script src="/32191/lib/jquery.balloon/jquery.balloon.min.js"></script>
+    <script src="/32191/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/32191/lib/jquery.text-overflow/jquery.text-overflow.min.js"></script>
+    <script src="/32191/lib/CryptoJS/rollups/md5.js"></script>
+    <script src="/32191/lib/jQuery-URL-Parser/purl.js"></script>
+    <script src="/32018/js/site.js"></script>
+    <script src="/32191/lib/jquery-ui/ui/minified/jquery.effects.core.min.js"></script>
+    <script src="/12401/js/video_audio_play.js"></script>
+    <script src="/32134/js/ja/profile.js"></script>
+    <script src="/32191/lib/fabridge/FABridge.js"></script>
+    <script src="/32191/lib/simple-color-picker/jquery.simple-color-picker.js"></script>
+    <script type="text/javascript">
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-938921-1', 'stickam.jp');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>  </head>
+  <body id="page-profile">
+    <div id="page-container">
+      <header class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <p class="logo">
+              <a href="/" title="トップページ"><span>スティッカム</span></a>
+                          </p>
+            <a class="btn btn-navbar" id="btn-slide-navbar" data-target="#page-container>header nav #user-navigation,#page-container>header nav #user-navigation ul.dropdown-menu,#page-container>header nav #site-navigation"><i class="icon-list"></i></a>
+            <nav class="nav-collapse">
+              <div id="site-navigation" data-summary="サイトメニュー">
+                <ul class="nav">
+                  <li><a href="/explore/session" title="ステイッカムで行われているライブの一覧です">ライブ</a></li>
+                  <li><a href="/ranking" title="アクセス解析から日次でランキングをお届けします">番付</a></li>
+                  <li><a href="/explore/user" title="ステイッカムのユーザーさんを探すならこちらから">人物</a></li>
+                  <li><a href="/search" title="動画・静画、人気のコンテンツを検索">検索</a></li>
+                </ul>
+              </div>
+              <div id="user-navigation">
+                <ul class="visible-logoff nav pull-right">
+                  <li>ようこそ、ゲストさん</li>
+                  <li><a href="/signup" title="">新規会員登録</a></li>
+                  <li><a id="for-append-next-parameter" href="/authn" title="ログイン">ログイン</a><script>/*<![CDATA[*/jQuery('#for-append-next-parameter').attr('href','/authn'+(/[&?]next=/.test(location.search)?location.search:'?next='+encodeURIComponent(location.pathname+location.search)))/*]]>*/</script></li>
+                  <li class="start-chat"><button class="btn btn-stickam btn-mini">ライブ開始</button></li>
+                </ul>
+                <ul class="visible-logon nav pull-right">
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      <span class="myscreenname"></span>
+                      <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu" data-summary="メンバーメニュー">
+                      <li><a href="/mypage"><i class="icon-list-alt"></i>マイページ</a></li>
+                      <li><a href="/friend"><i class="icon-heart"></i>お友達リスト</a></li>
+                      <li><a href="/favorite/member"><i class="icon-star"></i>お気に入りメンバーリスト</a></li>
+                      <li><a class="link-myprofile" href="#"><i class="icon-file"></i>プロフィールページ</a></li>
+                      <li class="divider"></li>
+                      <li><a id="logout" href="/logout"><i class="icon-off"></i>ログアウト</a></li>
+                    </ul>
+                  </li>
+                  <li id="unread-messages" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      <span class="hidden-desktop">未読メッセージ</span>
+                      <span class="label"><i class="icon-envelope"></i><span></span> <b class="caret"></b></span>
+                    </a>
+                    <ul class="dropdown-menu" data-summary="未読メッセージ">
+                      <li id="unread-message">
+                        <a href="/message/inbox"><i class="icon-envelope"></i>未読メッセージ <span class="badge"></span></a>
+                      </li>
+                      <li id="unread-request">
+                        <a href="/friend/message/inbox"><i class="icon-heart"></i>未読お友達リクエスト <span class="badge"></span></a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      <span class="hidden-desktop">設定</span>
+                      <span class="label"><i class="icon-cog"></i><b class="caret"></b></span>
+                    </a>
+                    <div id="header-settings" class="dropdown-menu balloon-content">
+                      <label class="checkbox"><input type="checkbox" name="settings-soundeffect" />サイト内効果音を有効</label>
+                    </div>
+                  </li>
+                  <li class="start-chat"><button class="btn btn-stickam btn-mini">ライブ開始</button></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div id="contents">
+                <div id="containers">
+          <div class="container">
+            
+
+  <div id="profile">
+        <div id="container">
+   
+      <div id="userTop" class="section">
+        <div class="itunes_rss">
+          <ul class="share">
+            <li class="podcast"><a href="itpc://www.stickam.jp/rss/ta30" title="iTunesに登録"><img src="/images/ja/btn_podcast.png" alt="iTunesに登録" /></a>
+</li>
+            <li class="rss"><a href="/rss/ta30" title="Ta-chan*さんのRSSフィード"><img src="/images/ja/rss.png" width="14" height="14" alt="Ta-chan*さんのRSSフィード" /></a></li>
+          </ul>
+        </div>
+        <div id="navmenu-contents" class="clearfix">
+          <div id="user_info" class="clearfix">
+            <div id="nav_userimg">
+              <img src="http://static.stickam.jp/media/image/converted/live/1100/0010/4614/179955249.jpg" alt="Ta-chan*" height="60" width="80" />
+              <img class="status" src="/status/icon/v2/1100104614.png" alt="" />
+            </div>
+            <div id="nav_username">
+              <div id="user_status">
+                              </div>
+              <div id="nav_screenname">
+                <h1><span id="nav_namecolor">Ta-chan*</span></h1>
+              </div>
+            </div>
+          </div>
+         
+          <div id="menus" class="clearfix">
+            <div id="sitemenu">
+              <div class="nav">
+                <ul>
+                  <li>
+                    <a href="/profile/ta30" class="btn-follow">
+                      <i class="navmenu_icon"></i><span>お気に入りに追加</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/friend/1100104614" class="btn-addfriend">
+                      <i class="navmenu_icon"></i><span>お友達に追加</span>
+                    </a>
+                  </li>
+                </ul>
+                <form action="javascript:void(0);" method="post">
+                  <div><input type="hidden" name="token" value="" /></div>
+                </form>
+              </div>
+            </div>
+            <div id="socialmenu">
+              <div id="share">
+                <ul class="share-container">
+    <li>
+    <a title="mixiチェック" class="share-mixi social-window" href="http://mixi.jp/share.pl?u=http%3A%2F%2Fwww.stickam.jp%2Fprofile%2Fta30&amp;k=5daa0427f81e68b64d83fcc3f16c40315853fa76" target="_blank"><img src="/images/ja/share/sprite.gif" alt="mixi" /></a>
+  </li>
+    <li>
+    <a title="アメブロに書く" class="share-ameba social-window" href="http://blog.ameba.jp/ucs/entry/srventryinsertinput.do?entry_text=%3Ca%20href%3D%22http%3A%2F%2Fwww.stickam.jp%2Fprofile%2Fta30%22%20alt%3D%22%22%3E%3C%2Fa%3E" target="_blank"><img src="/images/ja/share/sprite.gif" alt="Ameba" /></a>
+  </li>
+    <li>
+    <a class="share-google social-window" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.stickam.jp%2Fprofile%2Fta30" target="_blank"><img src="/images/ja/share/sprite.gif" alt="Google+" /></a>
+  </li>
+    <li>
+    <a class="share-facebook fb-like social-window" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.stickam.jp%2Fprofile%2Fta30" target="_blank"><img src="/images/ja/share/sprite.gif" alt="Facebook" /></a>
+    <a class="share-facebook-count share-count">-</a>
+  </li>
+    <li>
+    <a class="share-twitter social-window" href="http://twitter.com/share?text=&amp;url=http%3A%2F%2Fwww.stickam.jp%2Fprofile%2Fta30&amp;via=stickamjp" target="_blank"><img src="/images/ja/share/sprite.gif" alt="Twitter" /></a>
+  </li>
+</ul>
+<div style="clear:both;"></div>
+
+<script>/*<![CDATA[*/
+// ソーシャルボタン用のスクリプト
+(function($) {
+    document.write(decodeURIComponent('%3Cscript src="/28523/js/ja/device_type.js"%3E%3C/script%3E'));
+    $(function($) {
+        if (device_type.type() === 'pc') {
+            // site.jsでの外部リンクポップアップを作動させないため、documentに設定してはいけない
+            $('a.social-window').on('click', function(event) {
+                event.stopPropagation();
+                event.preventDefault();
+                // facebookだけはwindow.name!=='socialwindow'となる
+                window.open(this.href, 'socialwindow', 'width=550,height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1');
+                return false;
+            });
+        }
+    });
+
+    $(function($) {
+        var url = decodeURIComponent('http%3A%2F%2Fwww.stickam.jp%2Fprofile%2Fta30');
+
+        var trackingSocial = function(network, action) {
+            var trackerName = 'stickam.jp';
+            var tracker = ga.getByName(trackerName);
+            if (!tracker) {
+                tracker = ga.create('UA-938921-1', trackerName);
+            }
+            ga(function() {
+                tracker.send('social', network, action, url);
+            });
+        }
+
+        var convertCount = function(count) {
+            var unit = [];
+            if (!$.isNumeric(count) || count < 1000) {
+                return count;
+            } else if (count < 1000000) {
+                unit = [1000, 'K'];
+            } else if (count < 100000000) {
+                unit = [1000000, 'M'];
+            } else {
+                return '100M+';
+            }
+            unit[0] = Math.floor((count * 10) / unit[0]) / 10;
+            return unit[0].toFixed(1) + unit[1];
+        };
+
+        // Twitter
+        $('a.share-twitter').on('click', function() {
+            trackingSocial('twitter', 'click');
+        });
+
+        // facebook
+        if (!document.getElementById('fb-root')) {
+            var fb_root = document.createElement('div');
+            fb_root.id = 'fb-root';
+            document.body.appendChild(fb_root);
+        }
+        window.fbAsyncInit = window.fbAsyncInit || function() {
+            FB.init({appId: '143175959078964',
+                     status: true,
+                     cookie: true,
+                     xfbml: true,
+                     version: 'v2.0'});
+        };
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = '//connect.facebook.net/ja_JP/sdk.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+                $.getJSON('https://graph.facebook.com/', {id: url}, function(data) {
+            if (data.shares) {
+                $('.share-facebook-count').text(convertCount(data.shares));
+            } else {
+                $.getJSON('https://api.facebook.com/method/fql.query',
+                          {format: 'json',
+                           query: 'select total_count from link_stat where url="' + url +  '"'},
+                          function(rows) {
+                              $('.share-facebook-count').text(convertCount((data.likes || 0) + rows[0].total_count));
+                          });
+            }
+        });
+        $('a.share-facebook').on('click', function() {
+            trackingSocial('facebook', 'click');
+        });
+
+        // Google+
+        $('a.share-google').on('click', function() {
+            trackingSocial('google', 'click');
+        });
+
+        // Ameba
+        $('a.share-ameba').on('click', function() {
+            trackingSocial('ameba', 'click');
+        });
+
+        // mixi
+        $('a.share-mixi').on('click', function() {
+            trackingSocial('mixi', 'click');
+        });
+    });
+})(jQuery);
+/*]]>*/</script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="profAds" style="width:100%!important;">
+        <strong>PR</strong>
+        <div class="adsWidth468" style="width: 50%;float:left;">    
+  <div id="bnr3982156604"></div>
+    <script type="text/javascript">/*<![CDATA[*/
+(function($) {
+    var banners = '28,'.replace(/,$/, '').split(',');
+    $('<iframe/>', {src: '/banner/' + banners[Math.ceil(banners.length * Math.random()) - 1],
+                    scrolling: 'no',
+                    frameborder: 0}).appendTo('div#bnr3982156604');
+})(jQuery);
+/*]]>*/</script>
+</div>
+        <div class="adsWidth468" style="width: 50%;">    
+  <div id="bnr9084697961"></div>
+    <script type="text/javascript">/*<![CDATA[*/
+(function($) {
+    var banners = '717,'.replace(/,$/, '').split(',');
+    $('<iframe/>', {src: '/banner/' + banners[Math.ceil(banners.length * Math.random()) - 1],
+                    scrolling: 'no',
+                    frameborder: 0}).appendTo('div#bnr9084697961');
+})(jQuery);
+/*]]>*/</script>
+</div>
+      </div>
+                  <div class="hero-unit">
+        <script>
+          (function($) {
+            if ($.cookie('token') && new RegExp('^/profile/' + $.cookie('token').split(':')[0] + '$').test(location.pathname)) {
+              document.write('<style>#message-to-owner{display:block;}#message-to-other{display:none;}</style>');
+              return;
+            }
+
+            document.write('<style>#message-to-owner{display:none;}#message-to-other{display:block:;}</style>');
+          })(jQuery);
+        </script>
+        <div id="message-to-other">
+                    <p>
+            Ta-chan*さんのライブ配信はホームで視聴できます。
+          </p>
+          <p class="align-center">
+            <a href="/ta30/stickon#webcam" class="btn btn-stickam btn-large">Ta-chan*さんのライブ配信を視聴する</a>
+          </p>
+                  </div>
+        <div id="message-to-owner">
+                  <p>
+            ライブ配信プレーヤーはホームに移動しました。
+          </p>
+          <p class="align-center">
+            <a href="/ta30/" class="btn btn-large btn-stickam">
+              自分のホームへ移動する
+            </a>
+            <a href="/ta30/stickon#webcam" class="btn btn-large btn-stickam">
+              ライブを配信する
+            </a>
+          </p>
+                </div>
+      </div>
+            <article id="live-member">
+        <h1>ライブメンバー</h1>
+        <a href="/explore/session" id="live-member-link">一覧を見る &gt;&gt;</a>
+        <div>
+          <span id="live-member-loading" class="live-member-content"></span>
+          <iframe width="100%" height="95" src="/widget/cruise" frameborder="0"></iframe>
+        </div>
+      </article>
+                            <div id="columnLeft" class="columnNormal01">
+                                  <div id="player" class="section" style="display:none;">
+          </div>
+            <div id="message" class="section">
+    <div class="header">
+      <h2>メッセージ</h2>
+    </div>
+    <div class="contents">
+      
+★ このお部屋のローカルルール ★<br>
+<br>
+※ ガチで操作下手なので、基本ｍ９の精神で見て下さい<br>
+※ 当方が荒らし・不適切と判断した方は無条件でキック致します<br>
+※ 友録は自動認証ですが適度に整理させて頂きます<br>
+※ ゲームは人並みに上手くなろうとは思っていません＞＜<br>
+※ マイペース+色々なゲームをしたいのでクラン関係お断り！<br>
+※ マルチではSkypeボイスチャットを楽しみたいタイプ<br>
+※ マナーの欠けている方、チート、ガチ勢の方々はごめんなさい(*- -)(*_ _)ﾍﾟｺﾘ<br>
+<br>
+<br>
+<br>
+～ 最近やっているゲーム ～<br>
+<br>
+PS4■THE METAL GEAR SOLID Ⅴ : THE PHANTOM PAIN 9/02～ 凄く楽しい！<br>
+PS3■THE LAST OF US 8/23～ 凄くストーリーが良かった！<br>
+PS4■METOROLASTLIGHT 8/17～8/23 2033のつもりでプレイしたら全く違いました<br>
+PS4■METORORIDUX 2033 8/13～ 8/17 サバイバルホラーとかいうジャンル初めて！<br>
+PS4■BIOHAZARD REVELATIONS2 6/5~6/24 1周目終了<br>
+PS4■BATTLEFIELD HADLINE 3/21~6/6~ランク132までいっちゃった<br>
+Steam■テラリア → 8/18 ～ 飽きました<br>
+PS4■WATCH DOGS → 06/25～ 飽きました<br>
+PS4■BATTLEFIELD 4 → 03/26～ すごく下手ですｗ<br>
+PS4■METAL GEAR SOLID 5 → 03/26～ 難しすぎるってば！<br>
+PS3■SNIPER GHOST WARRIOR 2 → 12/27～ 全モードクリア<br>
+3DS■モンスターハンター４ → 10/15～ 11/06 HR109ぐらい！のんびり進めてます♪<br>
+WiiU■ピクミン3 → 09/17 ～ カワイイなーコレ。<br>
+PS3■SNIPER ELITE V2 → 04/02～ イージーとノーマルはクリアｗ<br>
+PS3■SNIPER GHOST WARRIOR → 03/22～04/11全モードクリア♪<br>
+3DS■MH3G → 12/23 ～ 01/17 やっとhr64。実際のhrは4ぐらいかなｗ<br>
+PS3■METAL GEAR RISING REVENGEANCE → 02/21～慣れるまで大変そうだ！<br>
+PS3■BIOHAZARD 6 → 10/04～10/30 プラチナトロフィーゲット⌒★<br>
+PS3■BIOHAZARD 5 → 09/25～09/30 TwinPacを買って、4が楽しかったので続けます♪<br>
+PS3■BIOHAZARD 4 → 09/18～09/25 やってみたら楽しい！操作に慣れるため頑張ろ～<br>
+PS3■METAL GEAR SOLID 4 → 09/03～09/17〆 PSP意外でプレイするのは初めて！<br>
+<br>
+-----------------------------------------------------------------------------------------<br>
+
+<br>
+<center><font size="2" color=
+"#FFFFFF"><strong>【MHP3】狩り仲間と一緒に、縛りルールを考えました♪</strong></font>
+<font color="#000000" size="1" face="HGPｺﾞｼｯｸE"><br>
+初心者の人でもワイワイ遊べる、ゆるーい縛りです＾＾<br></font> <font size="1" color="#FF549E"
+face="HGPｺﾞｼｯｸE">※詳しいルールはこちら →</font> <a href=
+"http://ta30.web.fc2.com/egg.html" target="_blank"><font size="2"
+color="#FFFFFF" face="HGPｺﾞｼｯｸE">「エッグスナイパー」～It's no use crying over
+broken egg～</font></a><br>
+<font size="1" color="#FFFFFF" face=
+"HGPｺﾞｼｯｸE">2011.6.7　公開開始</font></center>
+<center><a href="http://ta30.web.fc2.com/egg.html" target=
+"_blank"></a><embed src=
+"http://www.youtube.com/v/8SJnABJQHVU?version=3&amp;hl=ja_JP" type=
+"application/x-shockwave-flash" width="520" height="326"></center>
+<br>
+<br>
+
+    </div>
+      </div>
+                                                  
+              
+                                        
+              
+                                        
+              
+                        <div id="comment" class="section">
+    <div class="header">
+      <h2>コメント</h2>
+      <p>
+                <a href="/profile/comment/ta30/add">コメントを書く</a>
+      </p>
+    </div>
+    <div class="contents">
+            <p>Ta-chan*さんに一言</p>
+          </div>
+    </div>
+            </div>
+                                    <div id="columnCenter" class="columnNormal02">
+                        <div id="profileinfo" class="section">
+                <div class="header">
+          <h2>プロフィール</h2>
+        </div>
+        <div class="contents">
+          <div class="userimg">
+                        <img src="http://static.stickam.jp/media/image/converted/live/1100/0010/4614/179955249.jpg" alt="Ta-chan*" height="120" width="160" />
+                      </div>
+          
+          <div class="main">
+            <dl class="main-in"><dt>名前: </dt><dd>Ta-chan*</dd></dl>
+                        <dl class="main-in"><dt>性別: </dt><dd>女性</dd></dl>            <dl class="main-in"><dt>カテゴリ: </dt><dd>ノンカテゴリ</dd></dl>            <dl class="main-in"><dt>閲覧数: </dt><dd>91,477</dd></dl>
+            <dl class="main-in"><dt>登録日: </dt><dd>2009/10/31</dd></dl>
+            <dl class="main-in"><dt>お気に入り登録者数: </dt><dd>75</dd></dl>
+            <dl class="main-in"><dt>最終ログイン: </dt><dd>今日</dd></dl>
+          </div>
+          <dl class="more">
+                        <dt>自己紹介:</dt><dd id="about-me">暇潰しにまったりと配信しております。<br />
+色々な面で下手糞！<br />
+とかね、そういうのは解りきっている事なので<br />
+空気を読んでくらさいませｗ<br />
+<br />
+メッセージ欄も目を通してからの入室をお願い致します♪<br />
+基本、マイペース＋ライトゲーマー＋雰囲気勢ｗ<br />
+<br />
+★ゲーム配信(深夜)はtwichで！<br />
+<a href="http://www.twitch.tv/i_k_u_3/" target="_blank">http://www.twitch.tv/i_k_u_3/</a><br />
+<br />
+★ゲーム配信(昼～夜、続きモノ)はcavetubeで！<br />
+<a href="http://gae.cavelis.net/live/IKU3" target="_blank">http://gae.cavelis.net/live/IKU3</a></dd>
+                                    <dt>パーソナルタグ:</dt>
+            <dd>              <a href="/tag/personal/%E9%9F%B3%E6%A5%BD">音楽</a>               <a href="/tag/personal/%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%97">スカイプ</a>               <a href="/tag/personal/%E3%82%B2%E3%83%BC%E3%83%A0">ゲーム</a>               <a href="/tag/personal/%E6%9A%87">暇</a>               <a href="/tag/personal/%E7%B5%B5">絵</a>               <a href="/tag/personal/%E9%9B%91%E8%AB%87">雑談</a>               <a href="/tag/personal/%E3%83%A2%E3%83%B3%E3%83%8F%E3%83%B3">モンハン</a>               <a href="/tag/personal/%E3%83%90%E3%82%A4%E3%82%AA">バイオ</a>               <a href="/tag/personal/%E3%83%A1%E3%82%BF%E3%82%AE%E3%82%A2">メタギア</a>               <a href="/tag/personal/mgs">mgs</a>               <a href="/tag/personal/%E5%9E%82%E3%82%8C%E6%B5%81%E3%81%97">垂れ流し</a>               <a href="/tag/personal/%E3%82%BD%E3%82%A6%E3%83%AB%E3%82%AD%E3%83%A3%E3%83%AA%E3%83%90%E3%83%BC">ソウルキャリバー</a>               <a href="/tag/personal/mh2g">mh2g</a>               <a href="/tag/personal/mhp3">mhp3</a>               <a href="/tag/personal/bf3">bf3</a>               <a href="/tag/personal/mh3g">mh3g</a>               <a href="/tag/personal/bf4">bf4</a>               <a href="/tag/personal/bfh">bfh</a> </dd>
+                                    <dt>リクエストタグ:</dt>
+            <dd>              <a href="/tag/request/%E3%82%B2%E3%83%BC%E3%83%A0">ゲーム</a>               <a href="/tag/request/%E5%9E%82%E3%82%8C%E6%B5%81%E3%81%97">垂れ流し</a>               <a href="/tag/request/%E7%B5%B5">絵</a>               <a href="/tag/request/%E9%9B%91%E8%AB%87">雑談</a>               <a href="/tag/request/%E9%9F%B3%E6%A5%BD">音楽</a> </dd>
+                                    <dt>ライブタグ:</dt>
+            <dd>              <a href="/tag/live/bf3">bf3</a>               <a href="/tag/live/bf4">bf4</a>               <a href="/tag/live/bfh">bfh</a>               <a href="/tag/live/mgs">mgs</a>               <a href="/tag/live/mgs4">mgs4</a>               <a href="/tag/live/mh2g">mh2g</a>               <a href="/tag/live/mh3g">mh3g</a>               <a href="/tag/live/mhp3">mhp3</a>               <a href="/tag/live/%E3%82%B2%E3%83%BC%E3%83%A0">ゲーム</a>               <a href="/tag/live/%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%97">スカイプ</a>               <a href="/tag/live/%E3%83%90%E3%82%A4%E3%82%AA">バイオ</a>               <a href="/tag/live/%E3%83%A1%E3%82%BF%E3%82%AE%E3%82%A2">メタギア</a>               <a href="/tag/live/%E3%83%A2%E3%83%B3%E3%83%8F%E3%83%B3">モンハン</a>               <a href="/tag/live/%E5%9E%82%E3%82%8C%E6%B5%81%E3%81%97">垂れ流し</a>               <a href="/tag/live/%E6%9A%87">暇</a>               <a href="/tag/live/%E7%B5%B5">絵</a>               <a href="/tag/live/%E9%9B%91%E8%AB%87">雑談</a>               <a href="/tag/live/%E9%9F%B3%E6%A5%BD">音楽</a> </dd>
+                      </dl>
+                    <div id="morehidden" style="display:none;">
+                                    <dl class="right">
+                                                        <dt>言語: </dt><dd>日本語</dd>
+                          </dl>
+                                    <dl>
+                            <dt>ここでやりたいこと:</dt><dd>×××しながら雑談とか馴れ合いｗ<br />
+ゲーム仲間作りなんかもしたいです^^v</dd>
+                                                                      <dt>好きなテレビ番組:</dt><dd>にけつッ！</dd>
+                                          <dt>好きな音楽:</dt><dd>何でも聞きます<br />
+※アニメの歌も好きで聴いてますが見てはいません＞ｗ＜</dd>
+                                                        <dt>私が好きなのは:</dt><dd>自由</dd>
+                                          <dt>私が嫌いなのは:</dt><dd>博愛主義っぽい人</dd>
+                          </dl>
+                      </div>
+                              <p id="infotoggle" class="links"><a href="/"><span>▼ </span>プロフィール詳細を表示</a></p>
+                  </div>
+          </div>
+                                                              <div id="twitter" class="section">
+                  <style type="text/css">/*<![CDATA[*/
+            #twitter iframe {
+              width: 100%;
+            }
+          /*]]>*/</style>
+          <div class="contents">
+            <a class="twitter-timeline" lang="ja" href="https://twitter.com/Ta_channnnn" data-widget-id="321639116792020992">@Ta_channnnn からのツイート</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+              </div>
+                <div class="profAds" style="width:388px!important;">
+    <strong>PR</strong>
+        
+  <div id="bnr6188968858"></div>
+    <script type="text/javascript">/*<![CDATA[*/
+(function($) {
+    var banners = '81,'.replace(/,$/, '').split(',');
+    $('<iframe/>', {src: '/banner/' + banners[Math.ceil(banners.length * Math.random()) - 1],
+                    scrolling: 'no',
+                    frameborder: 0}).appendTo('div#bnr6188968858');
+})(jQuery);
+/*]]>*/</script>
+
+  </div>
+                <div id="schedule" class="section">
+    <div class="header">
+      <h2>配信予定</h2>
+          </div>
+    <div class="contents">
+              <p>現在、配信予定は登録されていません。<span style="display:none;"> （<a href="/activate?from=layout5.menu.admin.event">予定を登録</a>）</span></p>
+            <p class="links"><a href="/ta30/event">ライブ番組表へ</a></p>
+    </div>
+      </div>
+          <div id="friend" class="section">
+    <div class="header">
+      <h2>お友達<span>（29）</span></h2>
+      <p><a href="/profile/ta30/friend">一覧へ</a></p>
+    </div>
+    <div class="contents">
+      <ul>
+              <li class="user">
+          <a class="profileimg" href="/profile/albeejay"><img src="http://static.stickam.jp/media/image/converted/thumb/1100/0038/5331/182447767.jpg" alt="アルビー" height="60" width="80" /></a>
+          <a class="nickname" href="/profile/albeejay">アルビー</a>
+          <p class="status"><img width="42" height="11" alt="ステータス" src="/status/icon/1100385331.gif" /></p>
+        </li>
+              <li class="user">
+          <a class="profileimg" href="/profile/airplane"><img src="http://static.stickam.jp/media/image/converted/thumb/1741/7947/8/180881726.jpg" alt="冷えたコーヒー" height="60" width="80" /></a>
+          <a class="nickname" href="/profile/airplane">冷えたコー...</a>
+          <p class="status"><img width="42" height="11" alt="ステータス" src="/status/icon/174179478.gif" /></p>
+        </li>
+              <li class="user">
+          <a class="profileimg" href="/profile/yuka242"><img src="http://static.stickam.jp/media/image/converted/thumb/1000/0001/5449/178265810.jpg" alt="ゆか　  " height="60" width="80" /></a>
+          <a class="nickname" href="/profile/yuka242">ゆか　  </a>
+          <p class="status"><img width="42" height="11" alt="ステータス" src="/status/icon/1000015449.gif" /></p>
+        </li>
+              <li class="user">
+          <a class="profileimg" href="/profile/mrahuro"><img src="http://static.stickam.jp/media/image/converted/thumb/1100/0014/1235/180367278.jpg" alt="mrアフロ" height="60" width="80" /></a>
+          <a class="nickname" href="/profile/mrahuro">mrアフロ</a>
+          <p class="status"><img width="42" height="11" alt="ステータス" src="/status/icon/1100141235.gif" /></p>
+        </li>
+              <li class="user">
+          <a class="profileimg" href="/profile/tomoakic"><img src="http://static.stickam.jp/media/image/converted/thumb/1100/0025/7725/180499813.jpg" alt="tomoakic" height="60" width="80" /></a>
+          <a class="nickname" href="/profile/tomoakic">tomoakic</a>
+          <p class="status"><img width="42" height="11" alt="ステータス" src="/status/icon/1100257725.gif" /></p>
+        </li>
+              <li class="user">
+          <a class="profileimg" href="/profile/camel1209"><img src="http://static.stickam.jp/media/image/converted/thumb/1100/0027/4634/180624331.jpg" alt="Mac G4 cube" height="60" width="80" /></a>
+          <a class="nickname" href="/profile/camel1209">Mac G4 cub...</a>
+          <p class="status"><img width="42" height="11" alt="ステータス" src="/status/icon/1100274634.gif" /></p>
+        </li>
+              <li class="user">
+          <a class="profileimg" href="/profile/anagoman"><img src="http://www.stickam.jp/images/ja/default/profile/na_80x60.jpg" alt="あなご" height="60" width="80" /></a>
+          <a class="nickname" href="/profile/anagoman">あなご</a>
+          <p class="status"><img width="42" height="11" alt="ステータス" src="/status/icon/1000004302.gif" /></p>
+        </li>
+              <li class="user">
+          <a class="profileimg" href="/profile/sooooooos"><img src="http://www.stickam.jp/images/ja/default/profile/na_80x60.jpg" alt="So-ichiro" height="60" width="80" /></a>
+          <a class="nickname" href="/profile/sooooooos">So-ichiro</a>
+          <p class="status"><img width="42" height="11" alt="ステータス" src="/status/icon/1100299112.gif" /></p>
+        </li>
+            </ul>
+    </div>
+      </div>
+                <div class="profAds" style="width:388px!important;">
+    <strong>PR</strong>
+        
+  <div id="bnr9472532440"></div>
+    <script type="text/javascript">/*<![CDATA[*/
+(function($) {
+    var banners = '496,'.replace(/,$/, '').split(',');
+    $('<iframe/>', {src: '/banner/' + banners[Math.ceil(banners.length * Math.random()) - 1],
+                    scrolling: 'no',
+                    frameborder: 0}).appendTo('div#bnr9472532440');
+})(jQuery);
+/*]]>*/</script>
+
+  </div>
+                      <div id="photo" class="section">
+    <div class="header">
+      <h2>画像<span>（10）</span></h2>
+      <p><a href="/photo/gallery/ta30">一覧へ</a></p>
+    </div>
+    <div class="contents media">
+      <ul>
+                                      
+        <li>
+          <div class="mediathumb">
+            <a href="/photo/181580007">
+              <img src="http://static.stickam.jp/media/image/converted/online/1100/0010/4614/181580007.jpg" alt="SFC" height="90" width="120" />
+            </a>
+          </div>
+          <span class="name">
+            <a href="/photo/181580007">SFC</a>
+          </span>
+        </li>
+                                        
+        <li>
+          <div class="mediathumb">
+            <a href="/photo/181063490">
+              <img src="http://static.stickam.jp/media/image/converted/online/1100/0010/4614/181063490.jpg" alt="おにゅーC" height="90" width="120" />
+            </a>
+          </div>
+          <span class="name">
+            <a href="/photo/181063490">おにゅーC</a>
+          </span>
+        </li>
+                                        
+        <li>
+          <div class="mediathumb">
+            <a href="/photo/180972339">
+              <img src="http://static.stickam.jp/media/image/converted/online/1100/0010/4614/180972339.jpg" alt="トンチンワニ" height="90" width="120" />
+            </a>
+          </div>
+          <span class="name">
+            <a href="/photo/180972339">トンチンワニ</a>
+          </span>
+        </li>
+                                        
+        <li>
+          <div class="mediathumb">
+            <a href="/photo/180966417">
+              <img src="http://static.stickam.jp/media/image/converted/online/1100/0010/4614/180966417.jpg" alt="カブトムシ" height="90" width="120" />
+            </a>
+          </div>
+          <span class="name">
+            <a href="/photo/180966417">カブトムシ</a>
+          </span>
+        </li>
+                                        
+        <li>
+          <div class="mediathumb">
+            <a href="/photo/180953346">
+              <img src="http://static.stickam.jp/media/image/converted/online/1100/0010/4614/180953346.jpg" alt="おにゅーB" height="90" width="120" />
+            </a>
+          </div>
+          <span class="name">
+            <a href="/photo/180953346">おにゅーB</a>
+          </span>
+        </li>
+                                        
+        <li>
+          <div class="mediathumb">
+            <a href="/photo/180538124">
+              <img src="http://static.stickam.jp/media/image/converted/online/1100/0010/4614/180538124.jpg" alt="おにゅーA" height="90" width="120" />
+            </a>
+          </div>
+          <span class="name">
+            <a href="/photo/180538124">おにゅーA</a>
+          </span>
+        </li>
+                        </ul>
+    </div>
+      </div>
+                                  </div>
+                                      </div>
+  </div>
+  <script type="text/javascript">/*<![CDATA[*/
+    jQuery(function() {
+        $("#infotoggle a").toggle(
+            function () {$("#morehidden").slideDown(500, function() {$("#infotoggle a").html("<span>▲ </span>プロフィール詳細を閉じる");});},
+            function () {$("#morehidden").fadeOut(500, function() {$("#infotoggle a").html("<span>▼ </span>プロフィール詳細を表示");});}
+        );
+        if ($('#schedule').size()) {
+            if (($.cookie('token') || '').split(':')[0] === Stickam.profile.username) {
+                              $('#schedule div.contents p span').show();
+                          }
+        }
+            $("#headerSticker-Wrap").prependTo("#profile");
+            });
+    /*]]>*/</script>
+<script src="/31823/js/ja/profile_inline.js"></script>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="controller">
+        <p><a class="scrolltop btn btn-large" href="#"><i class="icon-circle-arrow-up"></i>ページトップへ</a></p>
+      </div>
+      <div class="container">
+        <nav class="row-fluid">
+          <section class="span3">
+            <h2>メインページ</h2>
+            <ul>
+              <li><a href="/">Stickam JAPAN!トップ</a></li>
+              <li><a href="/explore/session" title="ステイッカムで行われているライブの一覧です">ライブ一覧</a></li>
+              <li><a href="/ranking" title="アクセス解析から日次でランキングをお届けします">番付</a></li>
+              <li><a href="/explore/user" title="ステイッカムのユーザーさんを探すならこちらから">人物</a></li>
+              <li><a href="/search" title="動画・静画、人気のコンテンツを検索">検索</a></li>
+            </ul>
+          </section>
+          <section class="span3">
+            <h2>マイページ</h2>
+            <ul>
+              <li><a href="/mypage">マイページトップ</a></li>
+              <li><a href="/message/inbox">受信ボックス</a></li>
+              <li><a href="/video/upload">動画管理</a></li>
+              <li><a href="/photo/upload">画像管理</a></li>
+              <li><a href="/friend">お友達リスト</a></li>
+              <li><a href="/mypage/profile">プロフィール編集</a></li>
+            </ul>
+          </section>
+          <section class="span3">
+            <h2>お問い合わせ関連</h2>
+            <ul>
+              <li><a href="http://webmaster.stickam.jp/help/">ヘルプページトップ</a></li>
+              <li><a href="http://webmaster.stickam.jp/help/sitemap.html">サイトマップ</a></li>
+              <li><a href="http://webmaster.stickam.jp/help/faq0080.html">サイト利用規約</a></li>
+              <li><a href="http://webmaster.stickam.jp/help/faq0017.html">プレミアム利用規約</a></li>
+              <li><a href="http://webmaster.stickam.jp/help/faq0081.html">プライバシーポリシー</a></li>
+              <li><a href="http://webmaster.stickam.jp/help/faq0009.html">著作権についての考え方</a></li>
+              <li><a href="http://webmaster.stickam.jp/help/faq0083.html">会社概要</a></li>
+              <li><a href="http://www.etimestech.jp/recruit.html">採用情報</a></li>
+              <li><a href="http://www.etimestech.jp/contact_02.html">広告掲載について</a></li>
+              <li><a href="http://webmaster.stickam.jp/archives/2009/04/post_475.html">リンクバナー</a></li>
+            </ul>
+          </section>
+          <div class="span3">
+            <section id="jasrac-lisense">
+              <h2>JASRAC承諾番号</h2>
+              <ul class="unstyled">
+                <li><img src="/images/ja/common/jasrac01.png" alt="JASRAC" /> 9011566001Y45123</li>
+              </ul>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <p><small>(C) 2005 Advanced Video Communications, Inc.</small></p>
+      <aside class="visible-mobile">
+        <p id="force-mode-mobile"><a href="#">モバイル版</a></p>
+        <p id="force-mode-pc"><a href="#">PC版</a></p>
+      </aside>
+    </footer>
+    <div id="notification"></div>
+  </body>
+</html>

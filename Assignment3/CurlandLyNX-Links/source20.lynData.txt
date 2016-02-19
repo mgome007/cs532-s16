@@ -1,0 +1,351 @@
+   #[1]kmkz's blog - Atom [2]kmkz's blog - RSS
+
+kmkz's blog
+
+   Just another web blog
+
+2016/01/17
+
+[3][Advisory] Vulnérabilité dans GRR <= 3.0.0-RC1
+
+   Salut à tous!
+   Nouvelle année, nouveaux ponçages et comme j'ai l'impression que
+   nombres de vulns encore présentes ne devraient plus l'être depuis
+   longtemps, je me permet un petit retour sur un de mes récents advisory.
+   En effet, il est question ici d'un cas d'école que j'ai eu le plaisir
+   de découvrir récemment sur un outils de réservation de salles... en
+   fait on pourrait se dire "ouai super.. so what!??"
+   Mais lorsque cet outil vous permet de pwn une infra lors d'un pentest
+   et de plus est présent sur TOUTES les versions de cette application
+   utilisée par nombre d'institutions notamment FR,  je pense qu'il peut
+   être pertinent d'en parler.
+   Toutefois  et avant de rentrer dans la vuln + l'advisory lui-même je
+   tiens à remercier les personnes maintenant ce projet open source avec
+   qui j'ai pu échanger afin de permettre de travailler sur un correctif
+   de sécurité qui sera donc backporté et inclu dans la future version de
+   l'application.
+   Vous trouverez les ressources nécéssaires en fin d'article comme
+   d'habitude sur le blog.
+   Assez parler place aux détails! :D
+   Ici tout d'abord le code vulnérable se trouvant dans le fichier
+   "admin/admin_config1.php" du projet [4]GRR ainsi que son lien direct
+   vers pastebin.com:
+   Bon comme vous pourrez le constater les parties intéréssantes sont déjà
+   commentées expliquant ainsi les grandes lignes de ce qui nous
+   intéresse.
+   On identifie ici 3 problèmes sur ce code:
+   1- On peu bypass le filtre d'upload car ce dernier n'effectue qu'un
+   seul test: l'extension!
+   Ainsi une double extension (backdoor.php.png) permet de contourner cela
+   aisément
+   2- Ce super script php sorti tout droit des années 90' nous permet de
+   déterminer le noms qu'aura notre backdoor ainsi que son chemin.
+   En effet, le script va simplement supprimer la seconde extension et
+   comme il effectue un explode() sur notre fichier afin de récupérer ce
+   qui se situe derrière notre ".", il va le renommer en "logo.php" car le
+   2ème élément du tableau "$tab" sera bel et bien notre extension... php
+   ou autre par ailleurs ;-).
+   3- Ici c'est la petite touche finale: le fichier sensé être un logo se
+   retrouve "chmod 666"  (RW pour tout le monde) ce qui permet en prime
+   d'obtenir les droits nécéssaires.
+   En effet, pour peu que les droits soient bien gérés il serait difficile
+   de faire exécuter ce que l'on souhaite, hors la tout est possible, on
+   peux même grâce à cela obtenir des privilèges largements supérieurs à
+   ceux attendus chose que j'ai pu tester et surtout réussir en gagnant
+   ainsi les droits NT Authority\System sur un environnement Microsoft de
+   manière triviale!
+   [5][system_rights.png]
+   Vous l'aurez compris, c'est assez easy à exploiter sous condition
+   toutefois d'avoir des privilèges au départ afin de pouvoir modifier le
+   logo en question (ce qui m'a été possible via une SQLI sur une
+   application tierce mais qui par ailleurs ne me permettait pas d'obtenir
+   de shell... ce qui fût donc réglé grâce au GRR présent).
+   Je vous laisse ici le soin de lire l'advisory en question ainsi que les
+   différents liens concernant ce dernier.
+   Ce fût court et assez faiblement technique mais il est vrai que ce
+   genre de vuln existe encore alors autant les étudiers car comem dis en
+   début d'article: ce sont des cas d'écoles que l'on ne devrait même plus
+   trouver hélas!!
+   =======================================================================
+   ==========================
+   Public Advisory
+   =======================================================================
+   ==========================
+   Title: GRR <= 3.0.0-RC1 (all versions) file upload filter bypass
+   (authenficated)  + privilege escalation(in some case)
+   Date: January 7th, 2016
+   Vendor Homepage: http://grr.devome.com/fr/
+   Software Link: [6]GRR project
+   Dork: inurl:/grr/ intext:réservation intitle:"GRR"
+   CVE ID: Requested (no response yet)
+   I. APPLICATION
+   =======================================================================
+   ===============
+
+   GRR is an open source resources manager tool used in many french public
+   institutions (not only!).
+   It permit for example to manage rooms reservations, and so much more.
+   II. ADVISORY
+   =======================================================================
+   ===============
+
+
+   The application allows administrators to change the enterprise's logo
+   uploading a new image with .png,.jpg or .gif extension only.
+
+   Once uploaded, image name is "splitted" in an array and renamed with
+   the
+   name "logo" followed by the extention saved as 2nd array's element.
+
+   This file called for example "logo.jpg" is also "chmoded" as 0666
+   permission
+   and directly accessible in image folder (img_grr by default) by all
+   users.
+
+   Besides, the application does only a basic conditional php test
+   on the extension of the uploaded file.
+
+   It's possible for an attacker to add a second extension that will be
+   used when the image will be renamed in order to bypass this basic
+   filter
+   (double extension upload filter bypassing).
+
+   So, a file called backdoor.php.jpg will be renamed as logo.php with
+   chmod 0666 permissions and could be used by attacker to gain more
+   privileges
+   on the targeted server (privesc due to bad file permissions and RCE).
+
+   To trigger this vulnerability it is necessary to have an administrator
+   account on the GRR application.
+
+   This vulnerability is a combination of 3 issues:
+    1. - predictable uploaded file names and path
+    2. - upload of any kind of file
+    3. - bad files permission when we upload this file that permit us to
+       gain privilegied access.
+
+
+   Note that it could be "dorkable" in order to find targets ... and
+   sometimes
+   with trivial admin credentials ;-).
+
+
+   III. PROOF OF CONCEPT
+   =======================================================================
+   ===============
+
+   Generate backdoor:
+
+       kmkz@Tapz:~#  weevely generate pass123 /tmp/3lrvs.php
+       Generated backdoor with password 'pass123' in '/tmp/3lrvs.php' of
+   1486 byte size.
+       kmkz@Tapz:~# mv /tmp/3lrvs.php /tmp/3lrvs.php.jpg
+
+
+   Login as admin and upload this new 'logo' > Administration > logo
+
+   Enjoy your shell!
+
+         kmkz@Tapz:~# weevely http://laboratoire.target.fr/images/logo.php
+   pass123
+       [+] weevely 3.2.0
+
+       [+] Target:    laboratoire.target.fr:F:\server\grr\images
+       [+] Session:
+   /kmkz/.weevely/sessions/laboratoire.target.fr/logo_1.session
+       [+] Shell:    System shell
+
+       [+] Browse the filesystem or execute commands starts the connection
+       [+] to the target. Type :help for more information.
+
+       weevely> whoami
+       autorite nt\system
+
+
+
+   IV. RISK
+   =======================================================================
+   ===============
+
+   By uploading a script, an attacker may be able to execute arbitrary
+   code
+   on the server with elevated privileges.
+
+   This flaw may compromise the integrity of the system
+   (with access to sensitive informations, network shares...) and it may
+   conduce
+   to  full information system's compromission using pivots techniques and
+   imagination!
+
+
+   V. VERSIONS AFFECTED
+   =======================================================================
+   ===============
+
+   GRR 3.0.0-RC1 is vulnerable (and all previous versions)
+
+
+   VI. TIMELINE
+   =======================================================================
+   ===============
+
+   December 17th, 2015: Vulnerability identification
+   January 7th, 2016: Vendor and project developers notification
+   January 11th, 2016: Project developers response
+   January 15th, 2016: Patch release
+   January 17th, 2016: Public disclosure
+   =======================================================================
+   ===============
+
+   [7]Projet GRR
+   [8]Git Hub du projet contenant le fix
+   [9]Publication de Nicolas Bouteiller (contributeur/dev de la prochaine
+   version GRR)
+   So now, update your GRR install ;-)
+   A bientôt pour de nouvelles aventures !!!
+   Publié par [10]kmkz à [11]19:05
+   Réactions :
+
+                IFRAME: [12]reactions
+
+   [13]Aucun commentaire: [14]Liens vers cet article
+   [15]Articles plus anciens [16]Accueil
+   Inscription à : [17]Articles (Atom)
+
+Archives
+
+     * [18]▼  [19]2016 (1)
+          + [20]▼  [21]janv. (1)
+               o [22][Advisory] Vulnérabilité dans GRR <= 3.0.0-RC1
+
+     * [23]►  [24]2014 (5)
+          + [25]►  [26]nov. (1)
+          + [27]►  [28]févr. (3)
+          + [29]►  [30]janv. (1)
+
+     * [31]►  [32]2012 (1)
+          + [33]►  [34]déc. (1)
+
+     * [35]►  [36]2011 (1)
+          + [37]►  [38]janv. (1)
+
+     * [39]►  [40]2010 (4)
+          + [41]►  [42]nov. (1)
+          + [43]►  [44]août (2)
+          + [45]►  [46]juil. (1)
+
+     * [47]►  [48]2009 (6)
+          + [49]►  [50]sept. (1)
+          + [51]►  [52]avr. (1)
+          + [53]►  [54]mars (2)
+          + [55]►  [56]févr. (2)
+
+     * [57]►  [58]2008 (13)
+          + [59]►  [60]oct. (1)
+          + [61]►  [62]sept. (1)
+          + [63]►  [64]août (2)
+          + [65]►  [66]juil. (2)
+          + [67]►  [68]avr. (7)
+
+   Friends
+
+        * [69]m_101
+        * [70]ZadYree
+        * [71]Tosh
+        * [72]Tryks
+        * [73]rootBSD
+        * [74]Newffr
+        * [75]Shp
+
+abonnés
+
+   Bourbon Jean-marie (kmkz) - sec0d . Modèle Awesome Inc.. Fourni par
+   [76]Blogger.
+
+References
+
+   Visible links
+   1. http://kmkz-web-blog.blogspot.com/feeds/posts/default
+   2. http://kmkz-web-blog.blogspot.com/feeds/posts/default?alt=rss
+   3. http://kmkz-web-blog.blogspot.com/2016/01/advisory-vulnerabilite-dans-grr-300-rc1.html
+   4. http://grr.devome.com/
+   5. http://1.bp.blogspot.com/-76zfLP72rtk/VpvRX4pHrRI/AAAAAAAAAKk/zdwWiU3Hr6Y/s1600/system_rights.png
+   6. http://grr.devome.com/fr/telechargement/category/3-versions-patch?download=7:grr-3-0-0-rc1
+   7. https://github.com/JeromeDevome/GRR/blob/master/admin/admin_config1.php
+   8. https://github.com/JeromeDevome/GRR/blob/master/admin/admin_config1.php
+   9. http://www.kaizendo.fr/php-how-to-manage-uploaded-image-in-secure-way/
+  10. https://www.blogger.com/profile/11354372095868320290
+  11. http://kmkz-web-blog.blogspot.com/2016/01/advisory-vulnerabilite-dans-grr-300-rc1.html
+  12. https://www.blogger.com/blog-post-reactions.g?options=[moyen,+pas+mal,+passionnant]&textColor=#333333#http://kmkz-web-blog.blogspot.com/2016/01/advisory-vulnerabilite-dans-grr-300-rc1.html
+  13. https://www.blogger.com/comment.g?blogID=4457623080129847893&postID=4063553058483654081
+  14. http://kmkz-web-blog.blogspot.com/2016/01/advisory-vulnerabilite-dans-grr-300-rc1.html#links
+  15. http://kmkz-web-blog.blogspot.com/search?updated-max=2016-01-17T19:05:00+01:00&max-results=1
+  16. http://kmkz-web-blog.blogspot.com/
+  17. http://kmkz-web-blog.blogspot.com/feeds/posts/default
+  18. javascript:void(0)
+  19. http://kmkz-web-blog.blogspot.com/search?updated-min=2016-01-01T00:00:00+01:00&updated-max=2017-01-01T00:00:00+01:00&max-results=1
+  20. javascript:void(0)
+  21. http://kmkz-web-blog.blogspot.com/2016_01_01_archive.html
+  22. http://kmkz-web-blog.blogspot.com/2016/01/advisory-vulnerabilite-dans-grr-300-rc1.html
+  23. javascript:void(0)
+  24. http://kmkz-web-blog.blogspot.com/search?updated-min=2014-01-01T00:00:00+01:00&updated-max=2015-01-01T00:00:00+01:00&max-results=5
+  25. javascript:void(0)
+  26. http://kmkz-web-blog.blogspot.com/2014_11_01_archive.html
+  27. javascript:void(0)
+  28. http://kmkz-web-blog.blogspot.com/2014_02_01_archive.html
+  29. javascript:void(0)
+  30. http://kmkz-web-blog.blogspot.com/2014_01_01_archive.html
+  31. javascript:void(0)
+  32. http://kmkz-web-blog.blogspot.com/search?updated-min=2012-01-01T00:00:00+01:00&updated-max=2013-01-01T00:00:00+01:00&max-results=1
+  33. javascript:void(0)
+  34. http://kmkz-web-blog.blogspot.com/2012_12_01_archive.html
+  35. javascript:void(0)
+  36. http://kmkz-web-blog.blogspot.com/search?updated-min=2011-01-01T00:00:00+01:00&updated-max=2012-01-01T00:00:00+01:00&max-results=1
+  37. javascript:void(0)
+  38. http://kmkz-web-blog.blogspot.com/2011_01_01_archive.html
+  39. javascript:void(0)
+  40. http://kmkz-web-blog.blogspot.com/search?updated-min=2010-01-01T00:00:00+01:00&updated-max=2011-01-01T00:00:00+01:00&max-results=4
+  41. javascript:void(0)
+  42. http://kmkz-web-blog.blogspot.com/2010_11_01_archive.html
+  43. javascript:void(0)
+  44. http://kmkz-web-blog.blogspot.com/2010_08_01_archive.html
+  45. javascript:void(0)
+  46. http://kmkz-web-blog.blogspot.com/2010_07_01_archive.html
+  47. javascript:void(0)
+  48. http://kmkz-web-blog.blogspot.com/search?updated-min=2009-01-01T00:00:00+01:00&updated-max=2010-01-01T00:00:00+01:00&max-results=6
+  49. javascript:void(0)
+  50. http://kmkz-web-blog.blogspot.com/2009_09_01_archive.html
+  51. javascript:void(0)
+  52. http://kmkz-web-blog.blogspot.com/2009_04_01_archive.html
+  53. javascript:void(0)
+  54. http://kmkz-web-blog.blogspot.com/2009_03_01_archive.html
+  55. javascript:void(0)
+  56. http://kmkz-web-blog.blogspot.com/2009_02_01_archive.html
+  57. javascript:void(0)
+  58. http://kmkz-web-blog.blogspot.com/search?updated-min=2008-01-01T00:00:00+01:00&updated-max=2009-01-01T00:00:00+01:00&max-results=13
+  59. javascript:void(0)
+  60. http://kmkz-web-blog.blogspot.com/2008_10_01_archive.html
+  61. javascript:void(0)
+  62. http://kmkz-web-blog.blogspot.com/2008_09_01_archive.html
+  63. javascript:void(0)
+  64. http://kmkz-web-blog.blogspot.com/2008_08_01_archive.html
+  65. javascript:void(0)
+  66. http://kmkz-web-blog.blogspot.com/2008_07_01_archive.html
+  67. javascript:void(0)
+  68. http://kmkz-web-blog.blogspot.com/2008_04_01_archive.html
+  69. http://binholic.blogspot.com/
+  70. http://z4d.tuxfamily.org/blog
+  71. file:///home/mgomez/CS432/A3/tosh-codes.tuxfamily.org
+  72. http://tryks.seraphicsquad.com/blog/
+  73. http://www.r00ted.com/doku.php?
+  74. http://www.newffr.com/
+  75. http://shp.seraphicsquad.com/blog/
+  76. https://www.blogger.com/
+
+   Hidden links:
+  78. https://github.com/JeromeDevome/GRR/blob/master/admin/admin_config1.php
+  79. https://www.blogger.com/post-edit.g?blogID=4457623080129847893&postID=4063553058483654081&from=pencil
+  80. file://www.blogger.com/rearrange?blogID=4457623080129847893&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1
+  81. file://www.blogger.com/rearrange?blogID=4457623080129847893&widgetType=LinkList&widgetId=LinkList3&action=editWidget&sectionId=sidebar-right-2-1
+  82. file://www.blogger.com/rearrange?blogID=4457623080129847893&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar-right-3
+  83. file://www.blogger.com/rearrange?blogID=4457623080129847893&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3

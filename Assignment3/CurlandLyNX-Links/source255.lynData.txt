@@ -1,0 +1,280 @@
+   #[1]Theodicius » Feed [2]Theodicius » Comments Feed [3]next
+
+                                 [4]Theodicius
+
+Good. Evil. Bratwurst.
+
+     * [5]Books
+     * [6]General
+     * [7]Mystery
+     * [8]Politics
+     * [9]Questions
+     * [10]Religion
+     * [11]Science Fiction/Fantasy
+     * [12]Technology
+     * [13]Theology
+     * [14]Web Design
+
+   Search for: ____________________ Search
+
+   [15]← Older posts
+   Dec 29 2012
+
+                               [16]My 15 Minutes
+
+   Filed under: [17]General,[18]Technology— arlen@ 5:21 pm
+
+   So, my guest shot on [19]Ruby Rogues is now in the can. I didn’t do as
+   well as I would have liked. Was it nerves, or the 100-degree fever I
+   was running at the time? More than likely it was that I simply prepared
+   for the wrong discussion.
+
+   It’s nobody’s fault but my own; it’s a wide topic and the narrow bit I
+   wanted to talk about soon was left behind as wider topics aired, and
+   the discussion ranged farther afield than I had prepared data for. Mea
+   Culpa. I did a bad job of preparing myself to guest. It happens. It
+   will be neither the first nor the last mistake I make. (At least I hope
+   it’s not my last; the day I make my last mistake will be the day I
+   die.) You learn from it and move on.
+   [20]Continue reading →
+   [21]1 Comment Nov 19 2012
+
+                            [22]Why I Like Mongrels
+
+   Filed under: [23]General,[24]Technology— arlen@ 5:02 pm
+
+   Given the recent [25]BritRuby brew-up and the associated wailing and
+   gnashing of teeth, I think it’s appropriate to put my own thoughts
+   forward on this topic. While I’ve not organized a technical conference
+   (yet) I’ve been the sole organizer of chess events catering to areas
+   spanning a single city up to a full hemisphere, and been part of groups
+   organizing literary conferences, so perhaps I have a little to
+   contribute to the public post-mortem currently going on.
+
+   Let me start out with a simple fact: I’m a dog-lover, and I prefer
+   mongrels. Pure-bred dogs (and my first dog was a pure Collie, so I’m
+   speaking from some experience) come with issues. They can be nervous,
+   even neurotic. Quick to anger (or hide). Prone to various diseases and
+   birth defects.
+
+   Most of these issues don’t show up in mongrels. The mongrels I’ve owned
+   were stable, loving and useful pets. They weren’t nervy, rarely got
+   sick. The hardiness comes from the genes of one breed canceling out the
+   weaknesses in the genes of another. (It’s like metallurgy. You want the
+   iron to be stronger, more useful, you mix in some other elements.
+   Alloys are the mongrels of metallurgy.)
+
+   So it goes when it comes to conferences. The wider the experience and
+   cultural base of the presenters, in general the more they have to offer
+   that I haven’t yet seen or learned. Yum.
+   [26]Continue reading →
+   [27]Leave a comment Nov 10 2012
+
+                         [28]Patterns of Understanding
+
+   Filed under: [29]General,[30]Technology,[31]Web Design— arlen@ 3:41 pm
+
+   I wrote a [32]little while ago about the advisability of teaching
+   software patterns to beginning developers as well as experienced ones.
+   But it occurs to me there’s reason for doing it that I may not have
+   covered completely.
+
+   I’m going to take as my starting point Donald Knuth’s idea that the
+   main task in software development is to explain to other developers
+   what we want the computer to do, that the primary audience of source
+   code is a human, not a machine. That seems obvious enough to not need
+   much supporting evidence. Nobody lives forever, no one stays in the
+   same job forever; everybody gets replaced, either voluntarily or
+   involuntarily.
+
+   While the syntax of the language makes this communication possible, we
+   still need a common conceptual base to make it efficient. Even in
+   English it’s easy to come away from a single sentence with multiple
+   meanings; development languages, with their near-total focus on what
+   over why, can be even more adept at hiding meaning.
+   [33]Continue reading →
+   [34]Leave a comment Oct 13 2012
+
+                     [35]On Chess and Software Development
+
+   Filed under: [36]General,[37]Technology— arlen@ 3:03 pm
+
+   Or, In Defense Of Software Patterns.
+
+   I was listening to [38]Ruby Rogues podcast episode #56 when the
+   discussion turned to software patterns, and my teeth started grinding.
+
+   It wasn’t so much about what was said (though there were enough of
+   those moments, to be sure) as about what was implied or left unsaid.
+   With one exception (to come later) I’m going to leave names out of
+   this, simply because I want the discussion to center on the ideas, not
+   the personalities. Listen to the podcast, and you’ll be clear enough
+   about who said what, if the who of it means that much to you. I’ll just
+   say the guest and the rogues are all not short of accomplishments and
+   as a group contain very good developers.
+
+   The implication that came out of it, and that was only halfheartedly
+   challenged, was that software patterns weren’t useful things to teach
+   beginning developers. The statement that made the show notes was “You
+   need to feel the pain and understand the pattern before you begin to
+   understand when and why to use it and when to deviate.” While the
+   statement itself is defensible, it’s really irrelevant to the value of
+   software patterns for either experienced or nascent developers. My own
+   first reaction was, “So?, What’s your point?” [39]Continue reading →
+   [40]3 Comments Sep 25 2012
+
+                     [41]What I Did To The Jasmine Phantom
+
+   Filed under: [42]General,[43]Technology,[44]Web Design— arlen@ 12:14 pm
+
+   Being a continuation of the saga began in [45]Jasmine And The Headless
+   Webkit.
+
+   OK, after the last installment I had a working in-browser test runner
+   (standalone Jasmine) and a working command-line test runner
+   (phantom-jasmine). But they were different files, meaning if anything
+   significant changed, I was going to have to duplicate the changes in
+   two different testing files. This, while workable short-term, is not an
+   acceptable solution.
+
+   So I dug in to the files.
+   [46]Continue reading →
+   [47]Leave a comment
+
+   [48]Next Page »
+
+   CAPTION: February 2016
+
+   M  T    W   T  F  S  S
+   [49]« Dec
+   1  2  3     4  5  6  7
+   8  9  10    11 12 13 14
+   15 16 17    18 19 20 21
+   22 23 24    25 26 27 28
+   29
+
+   Arlen Walker (Theodicius) is a web designer and developer based in
+   Milwaukee,Wisconsin United States. He runs a small agency called
+   Paladin Web Services, teaches people to play chess, and helps run
+   science fiction conventions. If you would like to hire Arlen, you can
+   e-mail him at moc.bewnidalap@eriw or call him at 414.581.0849.
+     *  Syndication
+          + [50] Everything (rss2)
+          + [51]Books (rss2)
+          + [52]Politics (rss2)
+          + [53]Religion (rss2)
+          + [54]SF/Fantasy (rss2)
+          + [55]Technology (rss2)
+          + [56]Theology (rss2)
+          + [57]Web Design (rss2)
+     * Blogroll
+          + [58]Ben Witherington
+          + [59]Dan Cody
+          + [60]Daring Fireball
+          + [61]I Love Typography
+          + [62]Jason Kottke
+          + [63]MIke McCallister
+          + [64]Rands
+     * Find me at
+          + [65]The Chessmill
+     * Fun
+          + [66]User Friendly
+          + [67]xkcd
+     * News
+          + [68]Macintouch
+          + [69]Sci-Fi Wire
+          + [70]Wi-Fi Net News
+     * Tools
+          + [71]BBEdit
+          + [72]WordPress
+     * Web Gurus
+          + [73]A List Apart
+          + [74]Eric Meyer
+          + [75]Jeff Veen
+          + [76]Jeffrey Zeldman
+          + [77]Steve Champeon
+
+   This blog is protected by [78]Dave's [79]Spam Karma 2: 42809 Spams
+   eaten and counting...
+
+References
+
+   1. http://www.theodicius.net/feed/
+   2. http://www.theodicius.net/comments/feed/
+   3. http://www.theodicius.net/page/2/
+   4. http://www.theodicius.net/
+   5. http://www.theodicius.net/archives/category/books/
+   6. http://www.theodicius.net/archives/category/general/
+   7. http://www.theodicius.net/archives/category/mystery/
+   8. http://www.theodicius.net/archives/category/politics/
+   9. http://www.theodicius.net/archives/category/questions/
+  10. http://www.theodicius.net/archives/category/religion/
+  11. http://www.theodicius.net/archives/category/science-fictionfantasy/
+  12. http://www.theodicius.net/archives/category/technology/
+  13. http://www.theodicius.net/archives/category/theology/
+  14. http://www.theodicius.net/archives/category/web-design/
+  15. http://www.theodicius.net/page/2/
+  16. http://www.theodicius.net/archives/2012/12/29/my-15-minutes/
+  17. http://www.theodicius.net/archives/category/general/
+  18. http://www.theodicius.net/archives/category/technology/
+  19. http://rubyrogues.com/
+  20. http://www.theodicius.net/archives/2012/12/29/my-15-minutes/#more-552
+  21. http://www.theodicius.net/archives/2012/12/29/my-15-minutes/#comments
+  22. http://www.theodicius.net/archives/2012/11/19/mongrels/
+  23. http://www.theodicius.net/archives/category/general/
+  24. http://www.theodicius.net/archives/category/technology/
+  25. http://2013.britruby.com/
+  26. http://www.theodicius.net/archives/2012/11/19/mongrels/#more-541
+  27. http://www.theodicius.net/archives/2012/11/19/mongrels/#respond
+  28. http://www.theodicius.net/archives/2012/11/10/patterns-of-understanding/
+  29. http://www.theodicius.net/archives/category/general/
+  30. http://www.theodicius.net/archives/category/technology/
+  31. http://www.theodicius.net/archives/category/web-design/
+  32. http://www.theodicius.net/archives/2012/10/13/on-chess-and-s…re-development/
+  33. http://www.theodicius.net/archives/2012/11/10/patterns-of-understanding/#more-535
+  34. http://www.theodicius.net/archives/2012/11/10/patterns-of-understanding/#respond
+  35. http://www.theodicius.net/archives/2012/10/13/on-chess-and-software-development/
+  36. http://www.theodicius.net/archives/category/general/
+  37. http://www.theodicius.net/archives/category/technology/
+  38. http://rubyrogues.com/056-rr-david-heinemeier-hansson/
+  39. http://www.theodicius.net/archives/2012/10/13/on-chess-and-software-development/#more-521
+  40. http://www.theodicius.net/archives/2012/10/13/on-chess-and-software-development/#comments
+  41. http://www.theodicius.net/archives/2012/09/25/what-i-did-to-the-jasmine-phantom/
+  42. http://www.theodicius.net/archives/category/general/
+  43. http://www.theodicius.net/archives/category/technology/
+  44. http://www.theodicius.net/archives/category/web-design/
+  45. http://www.theodicius.net/archives/2012/09/10/the-story-of-jasmine-and-the-headless-webkit/
+  46. http://www.theodicius.net/archives/2012/09/25/what-i-did-to-the-jasmine-phantom/#more-507
+  47. http://www.theodicius.net/archives/2012/09/25/what-i-did-to-the-jasmine-phantom/#respond
+  48. http://www.theodicius.net/page/2/
+  49. http://www.theodicius.net/archives/2012/12/
+  50. http://www.theodicius.net/feed/rss2/
+  51. http://www.theodicius.net/archives/category/books/feed/
+  52. http://www.theodicius.net/archives/category/politics/feed/rss2
+  53. http://www.theodicius.net/archives/category/religion/feed/rss2
+  54. http://www.theodicius.net/archives/category/science-fictionfantasy/feed/rss2
+  55. http://arlen.f2o.org/archives/category/technology/rss2
+  56. http://www.theodicius.net/archives/category/theology/feed/rss2
+  57. http://www.theodicius.net/archives/category/web-design/feed/rss2
+  58. http://blog.beliefnet.com/bibleandculture/
+  59. http://dancody.org/
+  60. http://www.daringfireball.net/
+  61. http://ilovetypography.com/
+  62. http://www.kottke.org/
+  63. http://metaverse.wordpress.com/
+  64. http://www.randsinrepose.com/
+  65. http://www.thechessmill.com/
+  66. http://www.userfriendly.org/
+  67. http://xkcd.com/
+  68. http://www.macintouch.com/
+  69. http://www.scifi.com/scifiwire/
+  70. http://wifinetnews.com/
+  71. http://www.barebones.com/products/bbedit/index.shtml
+  72. http://wordpress.org/
+  73. http://www.alistapart.com/
+  74. http://www.meyerweb.com/
+  75. http://www.veen.com/jeff/
+  76. http://www.zeldman.com/
+  77. http://interrupt-driven.com/
+  78. http://unknowngenius.com/blog/
+  79. http://unknowngenius.com/blog/wordpress/spam-karma/

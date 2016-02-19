@@ -1,0 +1,4177 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<script type='text/javascript'>//<![CDATA[
+var curl = window.location.href;if (curl.indexOf('m=1') != -1) {curl = curl.replace('m=1', 'm=0');window.location.href = curl;}
+//]]></script>
+<script src='https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js'></script>
+<title>Tech Junkie Blog</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700,800' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400italic,400,300,600,700,800' rel='stylesheet' type='text/css'/>
+<link href='//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet'/>
+<meta content='I Write Facts' property='og:site_name'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://www.techjunkieblog.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://www.techjunkieblog.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Tech Junkie Blog - Atom" href="http://www.techjunkieblog.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Tech Junkie Blog - RSS" href="http://www.techjunkieblog.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Tech Junkie Blog - Atom" href="https://www.blogger.com/feeds/1830041839784954098/posts/default" />
+<link rel="me" href="https://plus.google.com/104961171195924803982" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://www.techjunkieblog.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3978477444-ieretrofit.js"></script>
+<![endif]-->
+<link href='https://plus.google.com/104961171195924803982' rel='publisher'/>
+<meta content='Features blogs and source codes on ASP.NET, JQuery, HTML5, CSS, JavaScript, SQL, C#, T-SQL, ASP.NET MVC' name='description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<meta content='Description-here' name='description'/>
+<meta content='Keywords-here' name='keywords'/>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/2973171168-css_bundle_v2.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=1830041839784954098&zx=11ea9a47-1bd5-4ced-8065-c46a210272bb' />
+<style id='page-skin-1' type='text/css'><!--
+/*-----------------------------------------------
+Blogger Template Style
+Name:   Techism
+Author: Syed Faizan Ali
+URL 1:  http://www.templateism.com
+URL 2:  http://www.mybloggerlab.com
+Date:   November 2014
+License:  This free Blogger template is licensed under the Creative Commons Attribution 3.0 License, which permits both personal and commercial use.
+However, to satisfy the 'attribution' clause of the license, you are required to keep the footer links intact which provides due credit to its authors. For more specific details about the license, you may visit the URL below:
+http://creativecommons.org/licenses/by/3.0/
+----------------------------------------------- */
+/*=====================================
+= Layout Admin
+=====================================*/
+body#layout ul {
+list-style-type: none;
+list-style: none;
+}
+body#layout ul li {
+list-style-type: none;
+list-style: none;
+}
+/*=====================================
+= Body
+=====================================*/
+body {
+background: #e9e9e9;
+color: #555555;
+font-family: 'Open Sans', 'Helvetica Neue', Arial, Tahoma, sans-serif;
+font-size: 14px;
+margin: 0px;
+padding: 0px;
+}
+a:link,a:visited {
+color: #de1b1b;
+text-decoration: underline;
+outline: none;
+}
+a:hover {
+color: #FE7C6D;
+text-decoration: none;
+outline: none;
+}
+a img {
+border-width: 0;
+}
+#body-wrapper {
+margin: 0px;
+padding: 0px;
+}
+/*=====================================
+= Header
+=====================================*/
+#header-wrapper {
+width: 960px;
+margin: 0px auto 0px;
+height: 57px;
+}
+#header-inner {
+background-position: center;
+margin-left: auto;
+margin-right: auto;
+}
+#header {
+margin: 0;
+float: left;
+overflow: hidden;
+background: #c90909;
+padding: 14px;
+padding-top: 10px;
+padding-bottom: 20px;
+height: 20px;
+}
+#header h1 {
+color: #fff;
+margin: 0;
+padding: 0px 0px 0px 0px;
+font-weight: bold;
+font-size: 24px;
+line-height: 20px;
+text-transform: UPPERCASE;
+letter-spacing: -.5px;
+}
+#header .description {
+float: left;
+color: #fff;
+margin: 0px;
+font-family: open sans;
+font-size: 10px;
+}
+#header h1 a,#header h1 a:visited {
+color: #fff;
+text-decoration: none;
+}
+#header h2 {
+padding-left: 5px;
+color: #374142;
+font: 14px Arial,Helvetica,Sans-serif;
+}
+#header2 {
+float: right;
+width: 51%;
+margin-right: 0px;
+padding-right: 0px;
+overflow: hidden;
+}
+#header2 .widget {
+padding: 0px 0px 0px 0px;
+float: right;
+}
+/*=====================================
+= Outer Wrapper
+=====================================*/
+.margin-1200 {
+max-width: 100%;
+margin: 0 auto;
+position: relative;
+}
+#content-wrapper {
+background: #fff;
+float: left;
+width: 100%;
+}
+#main-wrapper {
+max-width: 52%;
+width: 100%;
+float: left;
+margin: 0px;
+border-right: 1px solid #ddd;
+padding: 20px;
+border-left: 1px solid #ddd;
+margin: 15px 0px 0px 20px;
+}
+#rsidebar-wrapper {
+width: 20%;
+float: right;
+padding: 0px 20px 0px 0px;
+overflow: hidden;
+padding-top: 20px;
+margin: 20px 0px 0px 0px;
+}
+h2.date-header {
+margin: 1.5em 0 .5em;
+display: none;
+}
+pre.prettyprint{
+width: auto;
+overflow: auto;
+max-height: 600px;
+}
+/*=====================================
+= Sidebar
+=====================================*/
+.sidebar {
+margin: 0 0 10px 0;
+font-size: 13px;
+color: #374142;
+}
+.sidebar a {
+text-decoration: none;
+color: #374142;
+}
+.sidebar a:hover {
+text-decoration: none;
+color:#de1b1b;
+}
+.sidebar h2, #lsidebar-wrapper h2 {
+font-size: 21px;
+font-weight: 500;
+line-height: 1;
+outline: 0px;
+padding: 0px;
+text-transform: capitalize;
+vertical-align: baseline;
+color: #555;
+border-bottom: 1px solid #ddd;
+padding-bottom: 17px;
+font-family: Roboto Slab;
+margin: 0px 0px 20px 0px;
+}
+.sidebar ul {
+list-style-type: none;
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+.sidebar ul li {
+padding: 0 0 9px 0;
+margin: 0 0 8px 0;
+}
+.sidebar .widget {
+margin: 35px 0px 40px 0px;
+padding: 0;
+color: #374142;
+float: left;
+}
+.main .widget {
+margin: 0 0 5px;
+padding: 0 0 2px;
+}
+.main .Blog {
+border-bottom-width: 0;
+}
+/*=====================================
+= Label's Cloud
+=====================================*/
+.Label li a {
+background: #628a34;  border: 1px solid #628a34;
+color: #fff;
+padding: 8px 10px;
+float: left;
+}
+.Label li {
+float: left;
+padding: 0px!important;
+margin: 5px 5px 0px 0px!important;
+}
+.Label li a:hover {color:#fff;background: #de1b1b;}
+/*=====================================
+= Footer Widget
+=====================================*/
+#footer {
+margin-bottom: 15px;
+text-shadow: 0px 1px 0px #fff;
+}
+.crelink {
+float: right;
+text-align: right;
+}
+#footer-widgets {
+padding: 20px 0 0 0;
+text-shadow: 0px 1px 0px #fff;
+}
+#footer-widgets-container {
+background: #313131;
+}
+.footer-widget-box {
+width: 150px;
+float: left;
+margin-left: 0px;
+}
+ul.foolinks {
+padding: 0px;
+}
+.footer-widget-box-last {
+}
+.footer-widget-box.firstbig {
+width: 440px;
+margin-right: 10px;
+}
+#footer-widgets .widget-container {
+color: #aeaeae;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+line-height: 20.15625px;
+text-shadow: none;
+}
+#footer-widgets .widget-container a {
+text-decoration: none;
+color: #374142;
+}
+#footer-widgets .widget-container a:hover {
+text-decoration: none;
+color: #F95C49;
+}
+#footer-widgets h2 {
+color: #fff;
+text-shadow: none;
+font-family: open sans;
+font-size: 16px;
+text-transform: uppercase;
+font-weight: bold;
+}
+#footer-widgets .widget ul li {
+padding: 0 0 9px 0;
+margin: 0 0 8px 0;
+}
+.footersec {
+}
+.footersec .widget {
+margin-bottom: 20px;
+}
+.footersec ul {
+}
+.footersec ul li {
+}
+.lastbig {
+float: right;
+}
+#blog-pager-newer-link {
+float: $startSide;
+}
+#blog-pager-older-link {
+float: $endSide;
+}
+#blog-pager {
+font-size: 11px;
+float: right;
+width: auto;
+margin-bottom: 50px;
+}
+.feed-links {
+display: none;
+clear: both;
+line-height: 2.5em;
+}
+#header-wrapper-rec {
+background: #de1b1b;
+height: 50px;
+border-bottom: 1px solid rgb(169, 0, 0);
+position: fixed;
+z-index: 20;
+width: 100%;
+}
+.arrowb {
+background: url(http://list25.com/wp-content/themes/list25/images/arrow-down.png) 100% 20px no-repeat;
+width: inherit;
+}
+#ads-wrapperss {
+background: #e9e9e9;
+padding: 60px 0px 5px 0px;
+float: left;
+width: 100%;
+}
+#ads-wrapper {
+width: 728px;
+margin: auto;
+}
+.menus.menu-secondary {
+float: left;
+margin-left: 15px;
+}
+/*=====================================
+= Post Meta
+=====================================*/
+.metalabels a {
+font-family: open sans;
+text-decoration: none;
+text-transform: uppercase;
+color: #de1b1b;
+font-size: 13px;
+}
+.metalabels {
+float: left;
+width: 100%;
+margin-bottom: 5px;
+margin-top: 10px;
+}
+.metalabels h6 {
+margin: 0px;
+}
+.post h2 {
+font-size: 22px;
+font-weight: 400;
+font-family: open sans;
+line-height: 30px;
+float: left;
+margin: 5px 0px 10px 0px;
+}
+.post h2 a {
+text-decoration: none;
+color: #666;
+float: left;
+font-family: Roboto Slab;
+}
+.meta_author {
+color: #b8b8b8;
+font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+line-height: 16.796875px;
+text-transform: uppercase;
+white-space: nowrap;
+}
+.meta_author a {
+color: #b8b8b8;
+font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+line-height: 16.796875px;
+text-transform: uppercase;
+text-decoration: none;
+white-space: nowrap;
+}
+/*=====================================
+= Footer
+=====================================*/
+.foolinks li a {
+color: #aeaeae!important;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+line-height: 20.15625px;
+text-shadow: none;
+}
+.foolinks li {
+display: block;
+list-style: none;
+padding: 0px!important;
+margin: 0px!important;
+}
+.foolinks {
+padding: 0px;
+margin: 0px;
+}
+.fooc p a {
+color: #aeadad;
+}
+.fooc p {
+color: #aeadad;
+font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+line-height: 16.796875px;
+text-transform: capitalize;
+margin: 0px;
+padding: 0px 20px 0px 20px;
+}
+.fooc {
+padding-top: 30px;
+padding-bottom: 40px;
+background: #242121;
+}
+/*=====================================
+= Pager
+=====================================*/
+.showpageOf {
+display: none;
+}
+.showpagePoint {
+background: #000000;
+padding: 5px;
+padding: 10px 12px 9px 12px;
+font-weight: bold;
+color: #fff;
+}
+.showpageNum a {
+background: #de1b1b;
+padding: 5px;
+padding: 10px 12px 9px 12px;
+color: #000;
+font-weight: bold;
+}
+.showpageArea a {
+text-decoration: none;
+}
+.showpageArea a:hover {
+transition: all 0.3s ease-out;
+background: #000000;
+}
+.showpage a {
+background: #de1b1b;
+padding: 5px;
+padding: 10px 12px 9px 12px;
+color: #000;
+font-weight: bold;
+}
+span.showpage a {
+margin-left: 10px;
+margin-right: 10px;
+}
+.showpageArea {
+float: left;
+}
+.showpagePoint {
+margin-right: 5px;
+}
+.showpageNum a {
+margin-right: 5px;
+}
+.showpageArea a {
+font-family: open sans;
+font-weight: 400;
+text-shadow: none;
+}
+.showpageArea {
+font-family: open sans;
+font-weight: 400;
+text-shadow: none;
+}
+.feed-links {
+display: none;
+}
+.showpageArea a {
+float: left;
+font-size: 15px;
+color: #fff!important;
+padding-left: 15px;
+padding-right: 15px;
+}
+.showpagePoint {
+float: left;
+font-size: 15px;
+padding-left: 15px;
+padding-right: 15px;
+}
+.tabs-widget {
+text-shadow: 0 1px 0 rgba(122, 122, 122, 0.85);
+list-style: none;
+list-style-type: none;
+margin: 0 0 10px 0;
+padding: 0;
+height: 48px!important;
+overflow: hidden;
+}
+/*=====================================
+= Tab Sidebar
+=====================================*/
+.tabs-widget li {
+list-style: none;
+list-style-type: none;
+padding: 0;
+float: left;
+}
+.heart {
+float: left;
+}
+.heart {
+float: left;
+margin: 2.0px;
+}
+.tabs-widget li a {
+color: #fff;
+display: block;
+text-transform: uppercase;
+padding-right: 16.5px;
+padding-left: 16px;
+font-size: 13px;
+padding-top: 15px;
+padding-bottom: 15px;
+text-decoration: none;
+background: #30383d;
+}
+.tabs-widget li a:hover,.tabs-widget li a.tabs-widget-current {
+text-decoration: none;
+background: #de1b1b;
+padding-bottom: 20px;
+color: #fff;
+}
+.tabs-widget-content {
+}
+.tabviewsection {
+margin-bottom: 10px;
+font-family: open sans;
+}
+.tabs-widget {
+height: 51px;
+}
+.tw-authors {
+width: 570px;
+}
+.tabviewsection h2 {
+display: none;
+}
+.item-title a {
+border: 0px;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+color: #666;
+font-weight: 400;
+line-height: 10px;
+margin: 0px 0px 5px;
+outline: 0px;
+padding: 0px;
+vertical-align: baseline;
+text-decoration: none;
+}
+.item-snippet {
+float: left;
+width: 200px;
+height: 40px;
+overflow: hidden;
+}
+.item-thumbnail img {
+width: 100%;
+height: auto;
+}
+.popularfeature img {
+width: 84px;
+height: 84px;
+float: left;
+padding-right: .4em;
+margin: 0 5px 5px 0;
+}
+h2.titlelabel {
+border: none;
+}
+.popularfeature h2 {
+border: none;
+border: 0px;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.3em;
+color: #de1b1b;
+font-weight: 400;
+line-height: 18px;
+margin: 0px 0px 5px;
+outline: 0px;
+padding: 0px;
+vertical-align: baseline;
+text-transform: capitalize;
+}
+.popularcon {
+float: left;
+width: 200px;
+font-family: open sans;
+height: 40px;
+overflow: hidden;
+}
+.popularfeature h2 a {
+color: #de1b1b;
+}
+.popularfeature li {
+border-bottom: 1px solid #ddd;
+padding: 0.7em 0;
+background: none;
+float: left;
+}
+/*=====================================
+= Home Section
+=====================================*/
+#section-home li {
+float: left;
+width: 31.6%;
+overflow: hidden;
+margin-right: 10px;
+padding-bottom: 15px;
+margin-bottom: 20px;
+}
+#section-home li:last-child {
+margin: 0px;
+}
+#section-home ul {
+margin: 0px;
+padding: 0px;
+}
+#section-home img {
+max-width: 100%;
+width: 100%;
+height: 100%;
+max-height: 175px;
+}
+#section-home h2 a {
+font-family: Roboto Slab;
+text-decoration: none;
+color: #666;
+}
+#section-home h2 {
+margin-bottom: 5px;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+}
+#section-home {
+float: left;
+width: 100%;
+margin-bottom: 20px;
+}
+li.recent-box:first-child {
+width: 100%!important;
+border-bottom: 1px solid #ddd;
+}
+li.recent-box:first-child h2 {
+font-size: 30px!important;
+line-height: 40px!important;
+}
+li.recent-box img:first-child {
+max-height: 100%!important;
+}
+/*=====================================
+= Posts
+=====================================*/
+.popularfeature .meta_author {
+display: none;
+}
+.post h1 {
+border: 0px;
+box-sizing: border-box;
+color: #666666;
+font-size: 38px;
+margin: 0px;
+outline: 0px;
+padding: 0px;
+text-decoration: none;
+vertical-align: baseline;
+font-family: open sans;
+margin-bottom: 10px;
+float:left;
+}
+.metalabels.posts {
+margin-bottom: 10px;
+}
+.meta_author.posts {
+margin-bottom: 20px;
+float: left;
+width: 100%;
+margin-top: 10px;
+}
+#related-posts a {
+width: 182px;
+height: 180px;
+margin-bottom: 10px;
+}
+#related-posts img {
+width: 190px!important;
+height: 120px!important;
+}
+#related-posts {
+float: left;
+width: 100%;
+border-top: 1px solid #d2d2d2;
+margin-top: 30px;
+border-bottom: 1px solid #d2d2d2;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#related-posts h2 {
+text-transform: uppercase;
+float: left;
+width: 100%;
+height: 30px;
+margin-top: 20px;
+}
+.post-body h2 {
+border: 0px;
+box-sizing: border-box;
+color: #666666;
+font-size: 38px;
+margin: 0px;
+line-height: 40px;
+outline: 0px;
+padding: 0px;
+text-decoration: none;
+vertical-align: baseline;
+font-family: open sans;
+margin-bottom: 10px;
+height: 50px!important;
+margin-top: 30px;
+}
+.post-body h3 {
+border: 0px;
+box-sizing: border-box;
+color: #666666;
+font-size: 30px;
+margin: 0px;
+line-height: 40px;
+outline: 0px;
+padding: 0px;
+text-decoration: none;
+vertical-align: baseline;
+font-family: open sans;
+margin-bottom: 10px;
+margin-top: 30px;
+}
+.post-body h4 {
+border: 0px;
+box-sizing: border-box;
+color: #666666;
+font-size: 25px;
+margin: 0px;
+line-height: 30px;
+outline: 0px;
+padding: 0px;
+text-decoration: none;
+vertical-align: baseline;
+font-family: open sans;
+margin-bottom: 10px;
+margin-top: 30px;
+}
+.imgautor {
+float: left;
+padding-right: 15px;
+}
+.postedby h2 {
+float: left;
+width: 100%;
+height: 30px;
+text-transform: uppercase;
+margin-top: 0px;
+}
+.postedby {
+float: left;
+margin: 0 auto 20px auto;
+background: #f0f0f0;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+padding: 20px;
+width: 94%;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+#blog-pager a {
+background: #de1b1b;
+text-transform: uppercase;
+padding: 10px 12px 9px 12px;
+color: #fff;
+text-decoration: none;
+font-family: open sans;
+font-weight: 400;
+text-shadow: none;
+float: left;
+font-size: 15px;
+color: #fff!important;
+padding-left: 15px;
+padding-right: 15px;
+}
+#blog-pager a:hover {
+background: #000000;
+}
+.PopularPosts .item-title {
+font-weight: bold;
+padding-bottom: 0.2em;
+text-shadow: 0px 1px 0px #fff;
+}
+.PopularPosts .widget-content ul li {
+border-bottom: 1px solid #ddd;
+padding: 0.7em 0;
+background: none;
+}
+.PopularPosts li {
+display: block;
+margin: 0px;
+padding: 0px;
+}
+.PopularPosts ul {
+padding: 0px;
+margin: 0px;
+}
+.widget-container {
+list-style-type: none;
+list-style: none;
+margin: 0 0 15px 0;
+padding: 0;
+color: #374142;
+font-size: 13px;
+}
+.post-body {
+color: #555555;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+line-height: 20.15625px;
+}
+.post-footer {
+margin: 5px 0;
+}
+.comment-link {
+margin-$startSide: .6em;
+}
+/*=====================================
+= Status Wrap
+=====================================*/
+.status-msg-body {
+text-align: left;
+font-size: 14px;
+}
+.status-msg-wrap {
+background: #fff;
+/* float: left; */
+text-align: left;
+margin-bottom: 20px;
+float: left;
+border-bottom: #d2d2d2 1px solid;
+padding-bottom: 10px;
+height:30px;
+margin-top:-32px;
+postion:absolute;
+}
+.status-msg-border {
+border: none;
+}
+.status-msg-body a {
+display: none;
+}
+.status-msg-body {
+background: #fff;
+}
+.numberlist {
+color: black;
+text-decoration: none;
+font-family: open sans;
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+float: left;
+width: 50px;
+line-height: 35px;
+padding-top: 20px;
+padding-bottom: 15px;
+border-right: 1px solid #ddd;
+padding-left: 15px;
+padding-right: 15px;
+}
+h4.posthead {
+font-size: 16px;
+float: left;
+margin-bottom: 5px;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-top: 5px;
+padding-left: 20px;
+}
+.headinglist {
+float: left;
+width: 99%;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+#footer-widgets .widget-container a:hover {
+color: #fff!important;
+}
+/*=====================================
+= Social Media Buttons
+=====================================*/
+div#buttoners .title {
+float: left;
+width: 100px;
+margin: 10px 0px 0px 10px;
+}
+#buttoners h3 {
+color: black;
+text-decoration: none;
+font-family: open sans;
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+float: left;
+text-transform: uppercase;
+margin: 0px;
+}
+#buttoners p {
+float: left;
+text-transform: uppercase;
+margin: 5px 0px;
+font-size: 13px;
+color: #b8b8b8;
+}
+#buttoners .box {
+padding-top: 5px;
+padding-bottom: 0px;
+border: 0px;
+margin: 0px;
+padding-right: 0px;
+}
+#twitter .count, #facebook .count {
+border: 1px solid rgb(221, 221, 221);
+box-sizing: border-box;
+color: #666666;
+float: left;
+font-size: 16px;
+height: 37px;
+line-height: 37px;
+margin: 0px 0px 5px;
+outline: 0px;
+padding: 0px;
+text-align: center;
+text-decoration: none;
+vertical-align: baseline;
+width: 56px;
+font-family: open sans;
+font-weight: 400;
+}
+#twitter-widget-0{
+margin-left: 20px;
+margin-top: 4px;
+}
+.box {
+float: left;
+border-right: 1px solid #ddd;
+margin-right: 0px;
+padding-top: 10px;
+padding-left: 20px;
+padding-bottom: 10px;
+width: 55px;
+padding-right: 20px;
+}
+#socialbuto {
+float: left;
+width: 98%;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 20px;
+}
+.box .share {
+float: left;
+text-decoration: none;
+font-family: open sans;
+color: #555;
+text-align: center;
+width: 55px;
+}
+.blogger-clickTrap {
+display: none;
+}
+.button.googleplus, .button.facebook, .button.twitter, {
+float: left;
+margin-left: 10px;
+margin-right: 20px;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+h3.title-text {
+font-size: 23px;
+border-bottom: 1px solid #d2d2d2;
+border-top: 1px solid #d2d2d2;
+padding-top: 20px;
+padding-bottom: 20px;
+font-weight: 500;
+text-transform: capitalize;
+margin: 0px 0px 20px 0px;
+font-family: Roboto Slab;
+}
+#lsidebar-wrapper {
+float: left;
+width: 20%;
+padding-top: 40px;
+padding-left: 20px;
+}
+/*=====================================
+= Masonry
+=====================================*/
+.index .post-outer.masonry-brick {
+float: left;
+width: 47.5%;
+overflow: hidden;
+margin-right: 10px;
+border-bottom: 1px solid #ddd;
+padding-bottom: 15px;
+margin-bottom: 20px;
+}
+.index .post-outer.masonry-brick img {
+max-width: 100%;
+width: 100%;
+height: 100%;
+max-height: 175px;
+}
+.index .post-outer.masonry-brick:nth-child(even) {
+margin: 0px 0px 20px 0px;
+}
+.widget .widget-item-control a img {
+width: 100%;
+height: 100%;
+}
+/*=====================================
+= Home Banner
+=====================================*/
+#imgbanner {
+height: 325px;
+overflow: hidden;
+float: left;
+width: 100%;
+position: relative;
+margin:0px;
+}
+#imgbanner img {
+margin-top: -410px;
+overflow: hidden;
+width: 100%;
+}
+div#imgbanner h2 {
+background: linear-gradient(to right,rgba(0,0,0,0.9),rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.6) 33%,rgba(0,0,0,0.3) 66%,rgba(0,0,0,0) 100%,rgba(0,0,0,0));
+float: left;
+position: absolute;
+color: #fff;
+padding: 20px;
+font-family: Roboto Slab;
+font-size: 50px;
+width: 450px;
+line-height: 55px;
+margin: 0px;
+left: 0;
+top: 0;
+padding: 52px;
+z-index: 10;
+}
+div#highlights-tint {
+background: rgba(0,0,0,0.3750676120604195);
+position: relative;
+z-index: 1;
+bottom: 0px;
+right: 0px;
+left: 0px;
+top: 0px;
+float: left;
+width: 100%;
+height: 325px;
+}
+.caption {
+background: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 33%,rgba(0,0,0,0.6) 66%,rgba(0,0,0,0.9) 100%,rgba(0,0,0,0.9));
+float: right;
+position: absolute;
+color: #fff;
+font-size: 25px;
+width: 450px;
+line-height: 35px;
+margin: 0px;
+font-weight: 300;
+padding: 52px;
+z-index: 10;
+right: 0;
+font-family: open sans;
+height: 220px;
+}
+span.social {
+float: right;
+}
+span.social li {
+float: left;
+display: block;
+margin-left: 20px;
+font-size: 20px;
+color: #fff;
+margin-top: 10px;
+}
+span.social li a {
+color: #fff;
+}
+.dropdown.searcgerrs .search-dropdown {
+width: 400px!important;
+margin-left: -336px;
+}
+.dropdown.searcgerrs:hover {
+border-right: 1px solid rgb(169, 0, 0);
+}
+.dropdown.searcgerrs {
+float: right;
+}
+.search-dropdown.lefraaa {
+margin-left: -275px;
+padding: 10px 10px 20px;
+}
+.dropdown.leftro {
+float: right;
+width: 110px;
+}
+.dropdown > div {
+position: absolute;
+z-index: 1000;
+top: 100%;
+right: -9999px;
+opacity: 0;
+transition: opacity 0.2;
+-o-transition: opacity 0.2;
+-ms-transition: opacity 0.2;
+-moz-transition: opacity 0.2;
+-webkit-transition: opacity 0.2;
+}
+ul.righthead li {
+display: block;
+float: left;
+font-family: Arial,Helvetica,sans-serif;
+font-weight: 700;
+text-transform: capitalize;
+font-size: 14px;
+border-left: 1px solid rgb(169, 0, 0);
+border-right: 1px solid rgb(169, 0, 0);
+height: 18px;
+padding: 12px 25px;
+padding-top: 16px;
+padding-bottom: 17px;
+font-size: 15px;
+margin-left: 20px;
+}
+ul.righthead li:hover {
+background-color: #c90909;
+}
+li.dropdown {
+padding-right: 0!important;
+}
+.righthead .dropdown > a {
+padding-right: 25px;
+color: #fff;
+}
+.righthead .dropdown:hover > div {
+left: 0;
+opacity: 1;
+}
+.righthead .navigation-right.dropdown:hover > div {
+right: 0;
+left: auto;
+}
+.righthead .search-dropdown {
+width: 389px;
+}
+.righthead form {
+margin-left: 10px;
+padding: 20px;
+}
+.righthead input,.righthead textarea,.righthead input:focus,.righthead textarea:focus {
+background-color: #fff;
+border: 1px solid #ccc;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+-webkit-transition: border linear 0.2s,box-shadow linear 0.2s;
+-moz-transition: border linear 0.2s,box-shadow linear 0.2s;
+-ms-transition: border linear 0.2s,box-shadow linear 0.2s;
+-o-transition: border linear 0.2s,box-shadow linear 0.2s;
+transition: border linear 0.2s,box-shadow linear 0.2s;
+padding: 8px;
+width: 250px;
+}
+.righthead {
+margin: 0;
+}
+.righthead .dropdown > div {
+background: #c90909;
+border-bottom: 1px solid #1d6d89;
+border-left: 1px solid #1d6d89;
+border-right: 1px solid #1d6d89;
+}
+.righthead li {
+position: relative;
+}
+button#buttonsinput {
+background: #628a34;
+border: 1px solid #628a34;
+padding: 6px 10px 7px 10px;
+color: #fff;
+font-family: open sans;
+}
+/*=====================================
+= Left Sidebar
+=====================================*/
+#lsidebar-wrapper .PopularPosts .item-title > a {
+font-family: Roboto Slab;
+font-size: 20px;
+line-height: 30px;
+}
+#lsidebar-wrapper .PopularPosts li {
+margin-bottom: 15px;
+}
+/*=====================================
+= Item
+=====================================*/
+.item div#main-wrapper {
+border-left: 0px;
+padding-left: 0px;
+max-width: 74%;
+}
+.post img {
+max-width: 100%;
+}
+/*=====================================
+= Item
+=====================================*/
+.static_page div#main-wrapper {
+border-left: 0px;
+padding-left: 0px;
+max-width: 67%;
+}
+.static_page .post h2 {
+border: 0px;
+box-sizing: border-box;
+color: #666666;
+font-size: 38px;
+margin: 0px;
+outline: 0px;
+padding: 0px 0px 20px 0px;
+text-decoration: none;
+vertical-align: baseline;
+font-family: open sans;
+margin-bottom: 10px;
+width: 100%;
+border-bottom: 1px solid #d2d2d2;
+}
+.static_page .post h2 a {
+border: 0px;  box-sizing: border-box;  color: #666666;  font-size: 38px;  margin: 0px;  outline: 0px;  padding: 0px;  text-decoration: none;  vertical-align: baseline;  font-family: open sans;  margin-bottom: 10px;
+}
+.static_page .post h2 {
+margin-top: 0px;
+}
+.static_page .meta_date {
+display: none;
+}
+.static_page .postmeta-primary {
+display: none;
+}
+.static_page .post-body h3 {
+font-size: 25px;
+line-height: 30px;
+margin-bottom: 0px;
+margin-top: 20px;
+}
+/*=====================================
+= Comments
+=====================================*/
+#comments {
+float: left;
+width: 100%;
+}
+#comments-block3 {
+padding: 0;
+margin: 0;
+float: left;
+overflow: hidden;
+position: relative;
+}
+#comment-name-url {
+width: 465px;
+float: left;
+}
+#comment-date {
+width: 465px;
+float: left;
+margin-top: 5px;
+font-size: 10px;
+}
+.avatar-image-container {
+background: none!important;
+border: none!important;
+;
+}
+.datetime.secondary-text {
+float: right;
+}
+.comments .comments-content .comment-content {
+line-height: 20px;
+font-size: 14px;
+}
+.comments .comment .comment-actions a {
+padding-right: 5px;
+padding-top: 5px;
+text-decoration: none;
+}
+.comments .comments-content .comment {
+margin-bottom: 40px;
+padding-bottom: 8px;
+}
+.user.blog-author a {
+font-size: 20px;
+text-decoration: none;
+}
+.comment-actions a {
+color: #fff;
+}
+.comment-actions {
+padding: 10px;
+margin-top: 20px;
+float: right;
+background: #222222;
+margin-bottom: 10px;
+}
+.comment-block {
+border: 1px solid #ddd;
+padding: 20px;
+}
+.comment-header {
+border-bottom: 1px solid #ddd;
+padding-bottom: 20px;
+}
+#comments h4 {
+margin-left: 0px;
+margin-top: 30px;
+line-height: 30px;
+font-size: 25px;
+}
+/*=====================================
+= Menu
+=====================================*/
+.menu-secondary.expanded,nav#nav-mobile .menu-secondary {
+margin-top: 52px;
+}
+.menus,.menus * {
+margin: 0;
+padding: 0;
+list-style: none;
+list-style-type: none;
+line-height: 1.0;
+}
+.menu-secondary-container {
+float: left;
+width: 51%;
+}
+.menus ul {
+position: absolute;
+top: -999em;
+width: 100%;
+}
+.menus ul li {
+width: 100%;
+}
+.menus li:hover {
+visibility: inherit;
+}
+.menus li {
+float: left;
+position: relative;
+}
+.menus a {
+display: block;
+position: relative;
+}
+.menus li:hover ul,.menus li.sfHover ul {
+left: 0;
+top: 100%;
+z-index: 99;
+}
+.menus li:hover li ul,.menus li.sfHover li ul {
+top: -999em;
+}
+.menus li li:hover ul,.menus li li.sfHover ul {
+left: 100%;
+top: 0;
+}
+.menus li li:hover li ul,.menus li li.sfHover li ul {
+top: -999em;
+}
+.menus li li li:hover ul,.menus li li li.sfHover ul {
+left: 100%;
+top: 0;
+}
+.sf-shadow ul {
+padding: 0 8px 9px 0;
+-moz-border-radius-bottomleft: 17px;
+-moz-border-radius-topright: 17px;
+-webkit-border-top-right-radius: 17px;
+-webkit-border-bottom-left-radius: 17px;
+}
+.menus .sf-shadow ul.sf-shadow-off {
+background: transparent;
+}
+.menu-primary-container {
+float: left;
+padding: 0 10px;
+position: relative;
+height: 36px;
+background: url(http://3.bp.blogspot.com/-MYS4dWVzP7E/UC7eq8_isMI/AAAAAAAAAw4/1EgVe7LFnos/s000/menu-primary-bg.png) left top repeat-x;
+z-index: 400;
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+.menu-primary {
+}
+.menu-primary ul {
+min-width: 160px;
+}
+.menu-primary li a {
+color: #222121;
+text-shadow: 0px 1px 0px #fff;
+padding: 12px 15px;
+text-decoration: none;
+text-transform: uppercase;
+font: normal 11px/11px Arial,Helvetica,Sans-serif;
+}
+.menu-primary li a:hover,.menu-primary li a:active,.menu-primary li a:focus,.menu-primary li:hover > a,.menu-primary li.current-cat > a,.menu-primary li.current_page_item > a,.menu-primary li.current-menu-item > a {
+color: #C72714;
+text-shadow: 0px 1px 0px #fff;
+outline: 0;
+background: url(http://3.bp.blogspot.com/-MYS4dWVzP7E/UC7eq8_isMI/AAAAAAAAAw4/1EgVe7LFnos/s000/menu-primary-bg.png) left -136px repeat-x;
+}
+.menu-primary li li a {
+color: #fff;
+text-shadow: 0px 1px 0px #000;
+text-transform: none;
+background: #E64633;
+padding: 10px 15px;
+margin: 0;
+border: 0;
+font-weight: normal;
+}
+.menu-primary li li a:hover,.menu-primary li li a:active,.menu-primary li li a:focus,.menu-primary li li:hover > a,.menu-primary li li.current-cat > a,.menu-primary li li.current_page_item > a,.menu-primary li li.current-menu-item > a {
+color: #fff;
+text-shadow: 0px 1px 0px #000;
+background: #F85B49;
+outline: 0;
+border-bottom: 0;
+text-decoration: none;
+}
+.menu-primary a.sf-with-ul {
+padding-right: 20px;
+min-width: 1px;
+}
+.menu-primary .sf-sub-indicator {
+position: absolute;
+display: block;
+overflow: hidden;
+right: 0;
+top: 0;
+padding: 11px 10px 0 0;
+}
+.menu-primary li li .sf-sub-indicator {
+padding: 9px 10px 0 0;
+}
+.wrap-menu-primary .sf-shadow ul {
+background: url('http://4.bp.blogspot.com/-HZR7XIAppvQ/UC7esBSSHsI/AAAAAAAAAxA/tOQJJyB__CI/s000/menu-primary-shadow.png') no-repeat bottom right;
+}
+.menu-secondary {
+}
+.menu-secondary ul {
+min-width: 160px;
+}
+.menu-secondary li a {
+color: #fff;
+padding: 13px 15px;
+text-decoration: none;
+text-transform: uppercase;
+font-family: open sans;
+font-weight: 400;
+margin-top: 4px;
+font-size: 13px;
+margin-bottom: 4px;
+}
+.menu-secondary li li a {
+color: #fff;
+background: #de1b1b;
+font-weight: 500;
+text-shadow: none;
+font-family: open sans;
+text-transform: uppercase;
+padding: 10px 15px;
+margin: 0;
+border-bottom: 1px solid #d21515;
+}
+.menu-secondary li li a:hover,.menu-secondary li li a:active,.menu-secondary li li a:focus,.menu-secondary li li:hover > a,.menu-secondary li li.current-cat > a,.menu-secondary li li.current_page_item > a,.menu-secondary li li.current-menu-item > a {
+color: #fff;
+outline: 0;
+}
+.menu-secondary a.sf-with-ul {
+padding-right: 26px;
+min-width: 1px;
+}
+.menu-secondary .sf-sub-indicator {
+position: absolute;
+display: block;
+overflow: hidden;
+right: 0;
+top: 0;
+padding: 12px 13px 0 0;
+}
+.menu-secondary li li .sf-sub-indicator {
+padding: 9px 13px 0 0;
+}
+.wrap-menu-secondary .sf-shadow ul {
+background: url('http://2.bp.blogspot.com/-ErWByFPNils/UC7etR9NBcI/AAAAAAAAAxQ/nHaZ5IKMRjM/s000/menu-secondary-shadow.png') no-repeat bottom right;
+}
+nav#nav-mobile {
+position: relatitve;
+display: none;
+}
+nav#nav-mobile ul {
+display: none;
+list-style-type: none;
+position: absolute;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: #F9F9F9;
+z-index: 10;
+padding: 0px;
+border-bottom: solid 1px #d2d2d2;
+}
+nav#nav-mobile li:last-child {
+border-bottom: none;
+}
+nav#nav-mobile a {
+display: block;
+color: #777777;
+padding: 10px 30px;
+text-decoration: none;
+border-bottom: solid 1px #d2d2d2;
+}
+nav#nav-mobile a:hover {
+color: #ff5500;
+}
+#nav-trigger {
+margin-left: 20px;
+float: left;
+display: none;
+text-align: center;
+}
+#nav-trigger span {
+color: #EEE;
+line-height: 57px;
+}
+nav#nav-mobile {
+margin: 0px;
+}
+nav#nav-mobile {
+display: none;
+}
+.children.expanded a {
+color: #fff!important;
+}
+#nav-trigger span .fa {
+font-size: 18px;
+}
+/*=====================================
+= Responsive
+=====================================*/
+@media screen and (max-width: 1110px) {
+.margin-1200 {
+max-width: 800px;
+}
+.caption {
+display: none;
+}
+span.social {
+display: none;
+}
+nav#nav-mobile,#nav-trigger {
+display: block!important;
+}
+.menu-secondary-container {
+display: none!important;
+;
+}
+.menus li {
+width: 100%;
+}
+div#imgbanner h2 {
+width: 695px;
+height: 230px;
+}
+#lsidebar-wrapper {
+width: 95%;
+}
+#main-wrapper {
+max-width: 95%;
+border: 0px;
+padding: 0;
+}
+.index .post-outer.masonry-brick {
+width: 100%;
+}
+#rsidebar-wrapper {
+width: 94%;
+padding-right: 20px;
+}
+#lsidebar-wrapper .PopularPosts .item-thumbnail {
+width: 100%;
+}
+.index .post-outer.masonry-brick img {
+max-height: 100%;
+}
+.post h2 {
+width: 100%;
+}
+.tabs-widget li {
+width: 33%;
+}
+.item div#main-wrapper {
+max-width: 97%;
+}
+.static_page div#main-wrapper {
+max-width: 95%;
+}
+.item #related-posts img {
+width: 170px!important;
+height: 100px!important;
+}
+.item #related-posts a {
+width: 170px!important;
+height: 150px!important;
+}
+.sidebar .widget {
+width: 100%;
+}
+.footer-widget-box.firstbig {
+width: 100%;
+float: left;
+text-align: center;
+}
+.lastbig {
+width: 500px;
+margin: auto;
+float: none;
+text-align: center;
+}
+.fooc p {
+text-align: center;
+}
+}
+@media screen and (max-width: 810px) {
+.margin-1200 {
+max-width: 320px;
+}
+nav#nav-mobile,#nav-trigger {
+display: block!important;
+}
+.menu-secondary-container {
+display: none!important;
+;
+}
+.menus li {
+width: 100%;
+}
+div#imgbanner h2 {
+width: 695px;
+height: 230px;
+}
+#lsidebar-wrapper {
+width: 87%;
+}
+#main-wrapper {
+width: 87%;
+border-right: 0px;
+padding-right: 0px;
+}
+.index .post-outer.masonry-brick img {
+max-height: 100%;
+}
+#section-home li {
+width: 100%;
+}
+#rsidebar-wrapper {
+width: 300px;
+padding-right: 10px;
+padding-left: 10px;
+}
+#ads-wrapper {
+width: 320px;
+overflow: hidden;
+}
+.righthead input {
+width: 165px;
+}
+.dropdown.searcgerrs .search-dropdown {
+width: 320px!important;
+margin-left: -257px;
+}
+.footer-widget-box.firstbig {
+width: 100%;
+}
+.footer-widget-box {
+width: 100%;
+}
+div#imgbanner h2 {
+width: 88%;
+padding: 80px 20px 20px 20px;
+font-size: 25px;
+line-height: 34px;
+text-align: center;
+}
+#imgbanner img {
+max-width: 100%;
+height: auto;
+}
+#socialbuto {
+width: 100%;
+}
+div#buttoners .title {
+margin: 10px 0px 10px 60px;
+width: 100%;
+text-align: center;
+}
+.box {
+padding-left: 12px;
+}
+.linken {
+display: none;
+}
+.postedby {
+width: 87%;
+}
+.lastbig {
+width: 100%;
+}
+.footer-widget-box.firstbig {
+width: 91%;
+}
+.item #related-posts img {
+width: 100%!important;
+height: 180px!important;
+}
+.item #related-posts a {
+width: 100%!important;
+height: 220px!important;
+}
+.footer-widget-box {
+margin: 0px;
+}
+}
+/*=====================================
+= Clearfix
+=====================================*/
+.clearfix:after {
+content: "\0020";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+overflow: hidden;
+}
+#container,#header,#main,#main-fullwidth,#footer,.clearfix {
+display: block;
+}
+.clear {
+clear: both;
+}
+h1,h2,h3,h4,h5,h6 {
+margin-bottom: 16px;
+font-weight: normal;
+line-height: 1;
+}
+h1 {
+font-size: 40px;
+}
+h2 {
+font-size: 30px;
+}
+h3 {
+font-size: 20px;
+}
+h4 {
+font-size: 16px;
+}
+h5 {
+font-size: 14px;
+}
+h6 {
+font-size: 12px;
+}
+h1 img,h2 img,h3 img,h4 img,h5 img,h6 img {
+margin: 0;
+}
+table {
+margin-bottom: 20px;
+width: 100%;
+}
+th {
+font-weight: bold;
+}
+thead th {
+background: #c3d9ff;
+}
+th,td,caption {
+padding: 4px 10px 4px 5px;
+}
+tr.even td {
+background: #e5ecf9;
+}
+tfoot {
+font-style: italic;
+}
+caption {
+background: #eee;
+}
+li ul,li ol {
+margin: 0;
+}
+ul,ol {
+margin: 0 20px 20px 0;
+padding-left: 40px;
+}
+ul {
+list-style-type: disc;
+}
+ol {
+list-style-type: decimal;
+}
+dl {
+margin: 0 0 20px 0;
+}
+dl dt {
+font-weight: bold;
+}
+dd {
+margin-left: 20px;
+}
+blockquote {
+margin: 20px;
+color: #666;
+border: 1px solid #ddd;
+padding: 20px;
+margin-left: 10px;
+background: rgba(238, 238, 238, 0.12);
+font-style: italic;
+}
+pre {
+margin: 20px 0;
+white-space: pre;
+}
+pre,code,tt {
+font: 13px 'andale mono','lucida console',monospace;
+line-height: 18px;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+/*=====================================
+= Layout Styles
+=====================================*/
+body#layout ul{list-style-type:none;list-style:none;padding:0px;}
+body#layout ul li{list-style-type:none;list-style:none;padding:0px;}
+body#layout div.widget { position: relative; margin: 0 4px 3px 4px; padding: 0; float: none; }
+body#layout { width: 1050px; }
+body#layout #imgbanner{height:auto}
+body#layout #header-wrapper-rec {position: static; margin-top: 70px;}
+body#layout #ads-wrapperss {padding: 0px;}
+body#layout .tabviewsection ul { height: 0px!important; margin: 0px!important; }
+body#layout #header-wrapper-rec:before {content: 'Templateism Admin Panel';}
+body#layout #ads-wrapperss:before {content: 'Ad (728x90)';}
+body#layout #imgbanner:before {content: 'Featured Image';}
+body#layout div#main-wrapper:before {  content: 'Post Body';  }
+body#layout #footer-widgets-container:before {  content: 'Footer Area';}
+body#layout #section-home:before { content: 'Featurea Post Area'; }
+body#layout div#main-wrapper:before,
+body#layout #header-wrapper-rec:before,
+body#layout #ads-wrapperss:before,#imgbanner:before,
+body#layout #footer-widgets-container:before,
+div#section-home:before { background-color: #00ab6f; color: #fff; padding: 15px 0; display: block; font-size: 23px; text-align: center; margin: 0 4px; margin-bottom: 8px; text-transform: uppercase; font-family: open sans,arial; }
+--></style>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+<script type='text/javascript'>//<![CDATA[
+/**
+this script was written by Confluent Forms LLC http://www.confluentforms.com
+for the BlogXpertise website http://www.blogxpertise.com
+any updates to this script will be posted to BlogXpertise
+please leave this message and give credit where credit is due!
+**/
+$(document).ready(function() {
+  // change the dimension variable below to be the pixel size you want
+  var height = 310;
+    var width = 610;
+  var dimension = 600;
+  // this identifies the PopularPosts1 div element, finds each image in it, and resizes it
+  $('#PopularPosts1, .postssection, #related-posts').find('img').each(function(n, image){
+    var image = $(image);
+    image.attr({src : image.attr('src').replace('/s72-c/','/s' + dimension)});
+    image.attr('width',width);
+    image.attr('height',height);
+  });
+});
+//]]></script>
+<script type='text/javascript'>
+var defaultnoimage="http://3.bp.blogspot.com/-PpjfsStySz0/UF91FE7rxfI/AAAAAAAACl8/092MmUHSFQ0/s1600/no_image.jpg";
+var maxresults=8;
+var splittercolor="#fff";
+var relatedpoststitle="What's Related?";
+</script>
+<script type='text/javascript'>
+var TemplateismSummary = {
+    displayimages: false,
+    imagePosition: 'left',
+    Widthimg: 200,
+    Heightimg: 0,
+    noThumb: 'https://lh3.googleusercontent.com/-GRP8IcURRsw/T9MjiNWXUcI/AAAAAAAAB88/QEDpDHxI55o/s1600/no-thumb.jpg',
+    SummaryWords: 1,
+    wordsNoImg: 1,
+    skipper: 0,
+    DisplayHome: true,
+    DisplayLabel: true
+};
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+
+function summary(h) {
+    summary.count = summary.count || 0;
+    summary.count++;
+    var g = location.href.indexOf("/search/label/") == -1 && location.href.indexOf("/search?") == -1,
+        c = location.href.indexOf("/search/label/") != -1;
+    if (summary.count <= TemplateismSummary.skipper) {
+        return
+    }
+    if (g && !TemplateismSummary.DisplayHome) {
+        return
+    }
+    if (c && !TemplateismSummary.DisplayLabel) {
+        return
+    }
+    var e = document.getElementById(h),
+        f = e.getElementsByTagName("img");
+    if (TemplateismSummary.displayimages) {
+        var a = '<img width="' + TemplateismSummary.Widthimg + '" height="' + TemplateismSummary.Heightimg + '"';
+        if (TemplateismSummary.imagePosition != "no") {
+            var b = TemplateismSummary.imagePosition == "left" ? ' style="float:left;padding:0 5px 5px 0"' : ' style="float:right;padding:0 0 5px 5px"';
+            a += b
+        }
+        a += ' src="' + (f.length > 0 ? f[0].src : TemplateismSummary.noThumb) + '" /><div class="contentos">';
+        var d = summary.strip(e.innerHTML, TemplateismSummary.SummaryWords)
+    } else {
+        var a = "",
+            d = summary.strip(e.innerHTML, TemplateismSummary.wordsNoImg)
+    }
+    e.innerHTML = a + d + ""
+}
+summary.strip = function (a, b) {
+    return a.replace(/<.*?>/ig, "").split(/\s+/).slice(0, b - 1).join(" ")
+};
+
+
+
+// recent posts by label Script
+function labelthumbs(e) {
+    document.write('<ul id="label_with_thumbs">');
+    for (var t = 0; t < numposts; t++) {
+        var n = e.feed.entry[t];
+        var r = n.title.$t;
+        var i;
+        if (t == e.feed.entry.length) break;
+        for (var o = 0; o < n.link.length; o++) {
+            if (n.link[o].rel == "replies" && n.link[o].type == "text/html") {
+                var u = n.link[o].title;
+                var f = n.link[o].href
+            }
+            if (n.link[o].rel == "alternate") {
+                i = n.link[o].href;
+                break
+            }
+        }
+        var l;
+        try {
+            l = n.media$thumbnail.url
+        } catch (h) {
+            s = n.content.$t;
+            a = s.indexOf("<img");
+            b = s.indexOf('src="', a);
+            c = s.indexOf('"', b + 5);
+            d = s.substr(b + 5, c - b - 5);
+            if (a != -1 && b != -1 && c != -1 && d != "") {
+                l = d
+            } else l = "http://3.bp.blogspot.com/-zP87C2q9yog/UVopoHY30SI/AAAAAAAAE5k/AIyPvrpGLn8/s1600/picture_not_available.png"
+        }
+        var p = n.published.$t;
+        var v = p.substring(0, 4);
+        var m = p.substring(5, 7);
+        var g = p.substring(8, 10);
+        var y = new Array;
+        y[1] = "January";
+        y[2] = "February";
+        y[3] = "March";
+        y[4] = "April";
+        y[5] = "May";
+        y[6] = "June";
+        y[7] = "July";
+        y[8] = "Augusy";
+        y[9] = "September";
+        y[10] = "October";
+        y[11] = "November";
+        y[12] = "December";
+        document.write('<li class="recent-box">');
+        if (showpostthumbnails == true) document.write('<div class="imageContainer"><a href="' + i + '" target ="_top"><img class="label_thumb" src="' + l + '" title="' + r + '" alt="' + r + '"/></a></div>');
+
+	p = n.published.$t;
+        var S = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+        var x = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var T = p.split("-")[2].substring(0, 2);
+        var N = p.split("-")[1];
+        var C = p.split("-")[0];
+        for (var k = 0; k < S.length; k++) {
+            if (parseInt(N) == S[k]) {
+                N = x[k];
+                break
+            }
+        }
+        var L = T + " " + N + " " + C;
+        if (showpostdate == true) {
+            document.write('<div class="metalabels"><a href="' + i + '" class="post-date">' + L + "</br></a></div>")
+        }
+        if (showcommentnum == false) {
+            if (E == 1) {
+                w = w + " | "
+            }
+            if (u == "1 Comments") u = "1 Comment";
+            if (u == "0 Comments") u = "No Comments";
+            w = w + u;
+            E = 1;
+            document.write('<a class="recent-com" href="' + f + '" target ="_top">' + u + "</a>");
+        }
+
+
+        document.write('<h2><a class="label_title" href="' + i + '" target ="_top">' + r + "</a></h2>");
+        var w = "";
+        var E = 0;
+        document.write("");
+        
+        if ("content" in n) {
+            var A = n.content.$t
+        } else if ("summary" in n) {
+            var A = n.summary.$t
+        } else var A = "";
+        var O = /<\S[^>]*>/g;
+        A = A.replace(O, "");
+        if (showpostsummary == true) {
+            if (A.length < numchars) {
+                document.write("");
+                document.write(A);
+                document.write("")
+            } else {
+                document.write("");
+                A = A.substring(0, numchars);
+                var M = A.lastIndexOf(" ");
+                A = A.substring(0, M);
+                document.write('<p class="post-summary">' + A + "...</p>")
+            }
+        }
+        document.write("</li>");
+        if (t != numposts - 1) document.write("")
+    }
+    document.write("</ul>")
+};
+$(document).ready(function() {
+    $('.label_thumb').attr('src', function(i, src) {
+        return src.replace('s72-c', 's1000');
+    });
+});
+$(document).ready(function() {
+    $('.label_thumb').attr('src', function(i, src) {
+        return src.replace('default.jpg', 'mqdefault.jpg');
+    });
+});
+
+
+
+var relatedTitles = new Array();
+var relatedTitlesNum = 0;
+var relatedUrls = new Array();
+var thumburl = new Array();
+function related_results_labels_thumbs(json) {
+for (var i = 0; i < json.feed.entry.length; i++) {
+var entry = json.feed.entry[i];
+relatedTitles[relatedTitlesNum] = entry.title.$t;
+try 
+{thumburl[relatedTitlesNum]=entry.media$thumbnail.url;}
+
+
+catch (error){
+
+s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);
+if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!=""))
+{thumburl[relatedTitlesNum]=d;} else {if(typeof(defaultnoimage) !== 'undefined') thumburl[relatedTitlesNum]=defaultnoimage; else thumburl[relatedTitlesNum]="http://3.bp.blogspot.com/-PpjfsStySz0/UF91FE7rxfI/AAAAAAAACl8/092MmUHSFQ0/s1600/no_image.jpg";}
+
+}
+
+if(relatedTitles[relatedTitlesNum].length>35) relatedTitles[relatedTitlesNum]=relatedTitles[relatedTitlesNum].substring(0, 35)+"...";
+for (var k = 0; k < entry.link.length; k++) {
+if (entry.link[k].rel == 'alternate') {
+relatedUrls[relatedTitlesNum] = entry.link[k].href;
+relatedTitlesNum++;
+
+
+}
+}
+}
+}
+function removeRelatedDuplicates_thumbs() {
+var tmp = new Array(0);
+var tmp2 = new Array(0);
+var tmp3 = new Array(0);
+for(var i = 0; i < relatedUrls.length; i++) {
+if(!contains_thumbs(tmp, relatedUrls[i])) 
+{
+tmp.length += 1;
+tmp[tmp.length - 1] = relatedUrls[i];
+tmp2.length += 1;
+tmp3.length += 1;
+tmp2[tmp2.length - 1] = relatedTitles[i];
+tmp3[tmp3.length - 1] = thumburl[i];
+}
+}
+relatedTitles = tmp2;
+relatedUrls = tmp;
+thumburl=tmp3;
+
+
+}
+
+function contains_thumbs(a, e) {
+for(var j = 0; j < a.length; j++) if (a[j]==e) return true;
+return false;
+}
+
+
+function printRelatedLabels_thumbs(current) {
+var splitbarcolor;
+if(typeof(splittercolor) !== 'undefined') splitbarcolor=splittercolor; else splitbarcolor="#DDDDDD";
+for(var i = 0; i < relatedUrls.length; i++)
+{
+if((relatedUrls[i]==current)||(!relatedTitles[i]))
+{
+relatedUrls.splice(i,1);
+relatedTitles.splice(i,1);
+thumburl.splice(i,1);
+i--;
+}
+}
+
+
+var r = Math.floor((relatedTitles.length - 1) * Math.random());
+var i = 0;
+
+if(relatedTitles.length>0) document.write('<h2>'+relatedpoststitle+'</h2>');
+document.write('<div style="clear: both;"/>');
+while (i < relatedTitles.length && i < 15 && i<maxresults) {
+document.write('<a style="text-decoration:none;padding:5px;float:left;');
+if(i!=0) document.write('border-left:solid 0.5px '+splitbarcolor+';"');
+else document.write('"');
+document.write(' href="' + relatedUrls[r] + '"><img style="width:200px;height:120px;border:0px;" src="'+thumburl[r]+'"/><br/><div id="titles"><div style="padding-left: 3px; border: 0pt none; margin: 3px 0pt 0pt; font-style: normal; font-variant: normal; font-weight: normal; line-height: normal;">'+relatedTitles[r]+'</div></div></a>');
+
+i++;
+
+
+if (r < relatedTitles.length - 1) {
+r++;
+} else {
+r = 0;
+}
+
+}
+document.write('</div>');
+
+relatedUrls.splice(0,relatedUrls.length);
+thumburl.splice(0,thumburl.length);
+relatedTitles.splice(0,relatedTitles.length);
+
+}
+
+
+
+
+$(document).ready(function(){
+    $("#nav-mobile").html($(".menu-secondary-container").html());
+    $("#nav-trigger span").click(function(){
+        if ($("nav#nav-mobile ul").hasClass("expanded")) {
+            $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
+            $(this).removeClass("open");
+        } else {
+            $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
+            $(this).addClass("open");
+        }
+    });
+});
+
+
+//]]>
+</script>
+<script type="text/javascript">var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='index'>
+<!--Header-->
+<div id='header-wrapper-rec'>
+<div class='margin-1200'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+<a href='http://www.techjunkieblog.com/'>Tech Junkie Blog</a>
+</h1>
+</div>
+</div>
+</div></div>
+<!--Menu-->
+<div class='menu-secondary-container'>
+<ul class='menus menu-secondary'>
+<li class='arrowb'><a href='#'>.NET</a>
+<ul class='children'>
+<li><a href='http://www.techjunkieblog.com/search/label/ASPNET'>ASP.NET</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/Entity%20Framework'>Entity Framework</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/ADO.NET'>ADO.NET</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/Visual%20Studio'>Visual Studio</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/C%23'>C#</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/ASP.NET%20MVC'>ASP.NET MVC</a></li>
+<li><a href='http://www.techjunkieblog.com/p/aspnet-mvc-getting-started.html'>Quickstart ASP.NET MVC</a>
+</li>
+</ul>
+</li>
+<li class='arrowb'><a href='#'>Client-Side</a>
+<ul class='children'>
+<li><a href='http://www.techjunkieblog.com/search/label/Javascript'>JavaScript</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/AJAX'>AJAX</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/JQuery'>JQuery</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/JSON'>JSON</a></li>
+</ul>
+</li>
+<li class='arrowb'><a href='#'>Database</a>
+<ul class='children'>
+<li><a href='http://www.techjunkieblog.com/search/label/DATA'>Database Home</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/SQL'>SQL</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/SQL%20Server'>SQL Server</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/T-SQL'>T-SQL</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/Stored%20Procedures'>Stored Procedures</a></li>
+</ul>
+</li>
+<li class='arrowb'><a href='#'>Virtualization</a>
+<ul class='children'>
+<li><a href='http://www.techjunkieblog.com/search/label/Linux'>Linux</a></li>
+</ul>
+</li>
+<li class='arrowb'><a href='#'>Web Design</a>
+<ul class='children'>
+<li><a href='http://www.techjunkieblog.com/search/label/HTML5'>HTML5</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/CSS'>CSS</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/Bootstrap'>Bootstrap</a></li>
+<li><a href='http://www.techjunkieblog.com/search/label/Graphics%20Design'>Graphics Design</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id='nav-trigger'>
+<span><i class='fa fa-list'></i></span>
+</div>
+<nav id='nav-mobile'></nav>
+<div id='menuheader'>
+<ul class='righthead'>
+<li class='dropdown searcgerrs'><a href='#'><i class='fa fa-search'></i></a>
+<div class='search-dropdown'>
+<form _lpchecked='1' action='/search' class='search-form' id='search_mini_form' method='get'>
+<div id='search'>
+<div class='search-input form-search'>
+<input id='s' name='q' onblur='if (this.value == &#39;&#39;) {this.value = &#39;Search the site&#39;;}' onfocus='if (this.value == &#39;Search the site&#39;) {this.value = &#39;&#39;;}' type='text' value='Search the site'/>
+<button id='buttonsinput' style='vertical-align: top;' type='submit'>Search!</button>
+</div></div>
+</form>
+</div>
+</li>
+</ul>
+</div>
+<!--Social-->
+<span class='social'>
+<!-- <li><a href='#'><i class='fa fa-facebook-square'/></a></li> <li><a href='#'><i class='fa fa-twitter-square'/></a></li> <li><a href='#'><i class='fa fa-google-plus-square'/></a></li>-->
+</span>
+<div style='clear:both;'></div>
+</div></div>
+<!--Ads wrap-->
+<div id='ads-wrapperss'>
+<div class='ads-wrapper section' id='ads-wrapper'>
+</div>
+</div>
+<!--Home Banner-->
+<div class='margin-1200'>
+<!-- <b:section class='imagebanner' id='imgbanner' preferred='yes'> <b:widget id='Image1' locked='false' title='iOS 8 vs. Android Lollipop: Same features, yet more distinct than ever' type='Image'> <b:includable id='main'> <b:if cond='data:title != &quot;&quot;'> <div id='highlights-tint'/> <h2><data:title/></h2> </b:if> <div class='widget-content'> <b:if cond='data:caption != &quot;&quot;'> <span class='caption'><data:caption/></span> </b:if> <b:if cond='data:link != &quot;&quot;'> <a expr:href='data:link'> <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/> </a> <b:else/> <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/> </b:if> <br/> </div> <b:include name='quickedit'/> </b:includable> </b:widget> </b:section> -->
+</div>
+<div class='margin-1200'>
+<div id='content-wrapper'>
+<!--Left Sidebar-->
+<div id='lsidebar-wrapper'>
+<div class='sidebar12 section' id='sidebartab12'><div class='widget HTML' id='HTML5'>
+<div class='widget-content'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- techjunkieblogging_sidebar-right-1_AdSense1_300x250_as -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-5470820057595844"
+     data-ad-slot="3005431483"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=sidebartab12' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' target='configHTML5' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget PopularPosts' id='PopularPosts1'>
+<h2>Popular Posts</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.techjunkieblog.com/2015/04/aspnet-mvc-5-create-aspnet-mvc-5-empty.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://4.bp.blogspot.com/-W--OecMDeWg/VQ2eNlrZYoI/AAAAAAAABZ0/llvTY_eBEk4/s72-c/1.png' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.techjunkieblog.com/2015/04/aspnet-mvc-5-create-aspnet-mvc-5-empty.html'>ASP.NET MVC 5 : Create an ASP.NET MVC 5 Empty Project</a></div>
+<div class='item-snippet'>       A lot of people think that you can only create one kind of ASP.NET MVC 5 project, the one with the sample application.&#160; But the reali...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.techjunkieblog.com/2015/07/angularjs-spa-part-1-setting-up-angular.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://2.bp.blogspot.com/-ThrXyC4bVwQ/VZTMAMkdScI/AAAAAAAACLk/F4NS-nCYd3Q/s72-c/angular-1.png' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.techjunkieblog.com/2015/07/angularjs-spa-part-1-setting-up-angular.html'>AngularJS SPA Part 1  : Setting Up Angular-Seed</a></div>
+<div class='item-snippet'>       angular-seed is an AngularJS application skeleton template. &#160;An application skeleton let&#39;s gives you a boiler plate template so t...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.techjunkieblog.com/2015/10/angularjs-spa-part-2-preparing-angular.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://1.bp.blogspot.com/-ndpAud5Vogg/Vhxsar8KViI/AAAAAAAACSk/rhN0dYD-D8E/s72-c/angular-seed-index.png' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.techjunkieblog.com/2015/10/angularjs-spa-part-2-preparing-angular.html'>AngularJS SPA Part 2 : Preparing Angular-Seed For The Shopping List Application</a></div>
+<div class='item-snippet'>              The previous blog  we setup the Angular-Seed boilerplate template for our SPA application. &#160;In this blog we are going to prepa...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.techjunkieblog.com/2015/06/aspnet-mvc-create-responsive-layout.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://2.bp.blogspot.com/-2JBsIzQf2eQ/VW5YXqzjFFI/AAAAAAAAB_Y/OlMQFfwPB_E/s72-c/layout-bootstrap.png' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.techjunkieblog.com/2015/06/aspnet-mvc-create-responsive-layout.html'>ASP.NET MVC : Create A Responsive Layout With Bootstrap</a></div>
+<div class='item-snippet'>              In our previous blog  we created a simple _Layout.cshtml file that does not have any markup just to make things simple. &#160;In th...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.techjunkieblog.com/2015/04/nodejs-setting-up-nodesj-hell-world.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://1.bp.blogspot.com/-V3tE06s4NxU/VSUIMZdBoYI/AAAAAAAABkg/Y7UqSyDpr7M/s72-c/downloads-nodeJS.png' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.techjunkieblog.com/2015/04/nodejs-setting-up-nodesj-hell-world.html'>Node.js : Setting Up Node.sj "Hello World" Node.js</a></div>
+<div class='item-snippet'>            So according to Node.js&#39;s official website http://www.nodejs.org , NodeJs is   &#8220;a platform built on Chrome&#8217;s JavaScript runt...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebartab12' onclick='return _WidgetManager._PopupConfig(document.getElementById("PopularPosts1"));' target='configPopularPosts1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' id='HTML4'>
+<div class='widget-content'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- techjunkieblogging_sidebar-right-1_AdSense1_300x250_as -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-5470820057595844"
+     data-ad-slot="3005431483"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=sidebartab12' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<h3 class='title-text'>
+<i class='fa fa-desktop'></i>
+	Blog Posts</h3>
+<div>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Monday, October 19, 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='wrapfullpost'>
+<div class='post hentry'>
+<a name='988301731468008733'></a>
+<script type='text/javascript'>
+//<![CDATA[
+function bp_thumbnail_resize(image_url,post_title)
+{
+var image_size=300;
+  var img_width=300;
+  var img_height=400;
+var show_default_thumbnail=true;
+var default_thumbnail="http://2.bp.blogspot.com/-erTXCq61ULM/TmHYAQBZ0GI/AAAAAAAACCs/6cBX54Dn6Gs/s72-c/default.png";
+if(show_default_thumbnail == true && image_url == "") image_url= default_thumbnail;
+image_tag='<img src="'+image_url.replace('/s72-c/','/s'+image_size+'')+'" class="postthumb" width="'+img_width+'" alt="'+post_title+'"/>';
+if(image_url!="") return image_tag; else return "";
+}
+//]]>
+</script>
+<div class='entrybody'>
+<a href='http://www.techjunkieblog.com/2015/10/install-centos-part-4-adding-new-user.html'><script type='text/javascript'>
+document.write(bp_thumbnail_resize("http://3.bp.blogspot.com/-YWCqWJTFLiw/ViWJ99_JRJI/AAAAAAAACYY/vvaEBXjbeHU/s72-c/useradd-1.png","Install CentOS Part 4 : Adding A New User With useradd and usermod Command"));
+</script></a></div>
+<div class='metalabels'>
+<h6>
+<a href='http://www.techjunkieblog.com/search/label/CentOS' rel='tag'>CentOS</a>, <a href='http://www.techjunkieblog.com/search/label/Linux' rel='tag'>Linux</a>, <a href='http://www.techjunkieblog.com/search/label/VirtualBox' rel='tag'>VirtualBox</a>, <a href='http://www.techjunkieblog.com/search/label/Virtualization' rel='tag'>Virtualization</a>
+</h6>
+</div>
+<h2 class='post-title entry-title'>
+<a href='http://www.techjunkieblog.com/2015/10/install-centos-part-4-adding-new-user.html'>Install CentOS Part 4 : Adding A New User With useradd and usermod Command</a>
+</h2>
+<span class='meta_author'>Posted By: Jason Huynh - 8:58 PM</span>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+<span id='988301731468008733'><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+One of the most common task you have to do as a Linux administrator is to add a new user. &nbsp;Especially developers who always wants root access. &nbsp;To accomplish this task you can use the useradd command in the Terminal session. &nbsp;Follow the steps below to add a new user to CentOS.<br />
+<br />
+1. &nbsp;Switch into the root user using <b>su - </b>command<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-YWCqWJTFLiw/ViWJ99_JRJI/AAAAAAAACYY/vvaEBXjbeHU/s1600/useradd-1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-YWCqWJTFLiw/ViWJ99_JRJI/AAAAAAAACYY/vvaEBXjbeHU/s1600/useradd-1.png" /></a></div>
+2. Type the following command <b>useradd -s &nbsp;/bin/bash -d /home/john -m john </b>then press "Enter"<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-5jgcMv28lEM/ViWLZi2o5II/AAAAAAAACYk/xhKUrxIEbIM/s1600/useradd-2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-5jgcMv28lEM/ViWLZi2o5II/AAAAAAAACYk/xhKUrxIEbIM/s1600/useradd-2.png" /></a></div>
+<br />
+useradd is the command to add a new user to CentOS, below is an explaination of what each switch means in the command above<br />
+<br />
+-s --shell SHELL - the login shell of the new account, which is the/bin/bash shell<br />
+-d --home-dir HOME_DIR - home directory of the new account, which is /home/john<br />
+<br />
+3. &nbsp;Type ls <b>/home</b> to list the content of the /home directory and you will see the <b>john</b> directory has been created for the user john<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-H-ykn4elb9Q/ViWNOaB8WdI/AAAAAAAACYw/cs033hHANvI/s1600/useradd-3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-H-ykn4elb9Q/ViWNOaB8WdI/AAAAAAAACYw/cs033hHANvI/s1600/useradd-3.png" /></a></div>
+4. &nbsp;We've created a new user name john, but he has no password, to set a password for john we can use the <b>passwd </b>command. &nbsp;Type the following command to assign john a password <b>passwd john &nbsp;</b>type in john's password when prompted with <b>New Password:</b> &nbsp; and confirm the password when prompted with <b>Retype new password:</b><br />
+<b><br /></b>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-RZG5R_rQ4Qc/ViWPgWuVD1I/AAAAAAAACY8/piJth3LBwNk/s1600/useradd-4.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="183" src="http://3.bp.blogspot.com/-RZG5R_rQ4Qc/ViWPgWuVD1I/AAAAAAAACY8/piJth3LBwNk/s640/useradd-4.png" width="640" /></a></div>
+5. &nbsp;Even though john has a login, we still don't know what John's full name is to assign a real name to the login john we can use the <b>usermod -c</b> command to assign the login name john a real name<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-gQdQjau39K4/ViWQv-DWnzI/AAAAAAAACZE/se4UM-QAJto/s1600/useradd-5.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-gQdQjau39K4/ViWQv-DWnzI/AAAAAAAACZE/se4UM-QAJto/s1600/useradd-5.png" /></a></div>
+the command above <b>usermod -c "John Wallace" john</b> assigns the name John Wallace to the user name john<br />
+<br />
+<br /></span>
+<script type='text/javascript'>summary("988301731468008733")</script>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-'></div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'>
+</div></div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Sunday, October 18, 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='wrapfullpost'>
+<div class='post hentry'>
+<a name='2705799426883450964'></a>
+<div class='entrybody'>
+<a href='http://www.techjunkieblog.com/2015/10/install-centos-on-virtualbox-part-3.html'><script type='text/javascript'>
+document.write(bp_thumbnail_resize("http://1.bp.blogspot.com/-57gAVUm3UP0/ViOqfl53zVI/AAAAAAAACVA/UvRpXRdSyYc/s72-c/centos-8.png","Install CentOS on VirtualBox Part 3 :  Installing the Gnome Desktop Environment"));
+</script></a></div>
+<div class='metalabels'>
+<h6>
+<a href='http://www.techjunkieblog.com/search/label/CentOS' rel='tag'>CentOS</a>, <a href='http://www.techjunkieblog.com/search/label/Linux' rel='tag'>Linux</a>, <a href='http://www.techjunkieblog.com/search/label/VirtualBox' rel='tag'>VirtualBox</a>, <a href='http://www.techjunkieblog.com/search/label/Virtualization' rel='tag'>Virtualization</a>
+</h6>
+</div>
+<h2 class='post-title entry-title'>
+<a href='http://www.techjunkieblog.com/2015/10/install-centos-on-virtualbox-part-3.html'>Install CentOS on VirtualBox Part 3 :  Installing the Gnome Desktop Environment</a>
+</h2>
+<span class='meta_author'>Posted By: Jason Huynh - 8:14 PM</span>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+<span id='2705799426883450964'><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+In previous <a href="http://www.techjunkieblog.com/2015/07/install-centos-iso-on-virtualbox-part-2.html" target="_blank">blog </a>we've installed the CentOS operating system on VirtualBox however, when we reboot, it takes us to a text prompt. &nbsp;In this blog we will be installing a graphical desktop environment to our operating system using "yum". &nbsp;Follow the steps below to get the Gnome desktop in your CentOS.<br />
+<br />
+1. &nbsp;Make sure you have internet connection<br />
+2. &nbsp;Click "Start" on your "CentOS" VM<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-57gAVUm3UP0/ViOqfl53zVI/AAAAAAAACVA/UvRpXRdSyYc/s1600/centos-8.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-57gAVUm3UP0/ViOqfl53zVI/AAAAAAAACVA/UvRpXRdSyYc/s1600/centos-8.png" /></a></div>
+<br />
+3. &nbsp;After the boot messages you will be presented with login prompt. &nbsp;Type in the login name of the Administrator user that you've created on the last <a href="http://www.techjunkieblog.com/2015/07/install-centos-iso-on-virtualbox-part-2.html" target="_blank">blog</a>.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-fHBYnM9GM5g/ViPPUtszFRI/AAAAAAAACWo/ZZEPhyYxFmM/s1600/tjunkie-login.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="106" src="http://4.bp.blogspot.com/-fHBYnM9GM5g/ViPPUtszFRI/AAAAAAAACWo/ZZEPhyYxFmM/s320/tjunkie-login.png" width="320" /></a></div>
+<br />
+<br />
+6. &nbsp;Now type <b>sudo&nbsp;yum groupinstall "GNOME Desktop"</b> without the quotes<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-8wNp5eJdaXE/ViPRMpNMcqI/AAAAAAAACW8/Eyv915uSDvk/s1600/yum-gnome.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-8wNp5eJdaXE/ViPRMpNMcqI/AAAAAAAACW8/Eyv915uSDvk/s1600/yum-gnome.png" /></a></div>
+<br />
+<br />
+7. &nbsp;Type <b>y </b>when asked "Is this ok [y/d/N]<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-0_fh_ZetCnw/ViPRrj2hHRI/AAAAAAAACXE/-8VUOw841YE/s1600/gnome-confirm.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-0_fh_ZetCnw/ViPRrj2hHRI/AAAAAAAACXE/-8VUOw841YE/s1600/gnome-confirm.png" /></a></div>
+<br />
+<br />
+8. After the Gnome desktop has been installed type <b>reboot now -r </b>to<b> </b>reboot CentOS<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-AZhiS9SFjkw/ViQwfIAT1vI/AAAAAAAACXk/zbs72R4PtLM/s1600/reboot-now.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-AZhiS9SFjkw/ViQwfIAT1vI/AAAAAAAACXk/zbs72R4PtLM/s1600/reboot-now.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+9. &nbsp;After the CentOS has been rebooted, login using the Administrator user and type <b>sudo systemctl set-default graphical.target </b>this step is optional. &nbsp;You only want to do this if you want to start up CentOS in desktop mode.</div>
+<div class="separator" style="clear: both; text-align: left;">
+<b><br /></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-1jbkDvs8hmo/ViQzFwXsHCI/AAAAAAAACXw/It3KJ39rMUU/s1600/set-default-gui.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-1jbkDvs8hmo/ViQzFwXsHCI/AAAAAAAACXw/It3KJ39rMUU/s1600/set-default-gui.png" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<b><br /></b></div>
+10. &nbsp;Now to see the installation work type sudo systemctl start graphical.target to start the Gnome Desktop<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-Y83_EhZUniU/ViQzv_Tb0UI/AAAAAAAACX4/ANO6VWLfBTc/s1600/start-gui.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-Y83_EhZUniU/ViQzv_Tb0UI/AAAAAAAACX4/ANO6VWLfBTc/s1600/start-gui.png" /></a></div>
+<br />
+<br />
+11. &nbsp;The Gnome Desktop login screen will appear<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-kQHgv3e92y4/ViQ0Q24AoCI/AAAAAAAACYA/150hxcE-uYY/s1600/gnome-login.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="300" src="http://2.bp.blogspot.com/-kQHgv3e92y4/ViQ0Q24AoCI/AAAAAAAACYA/150hxcE-uYY/s400/gnome-login.png" width="400" /></a></div>
+<br />
+12. &nbsp;Login and to start using the Gnome Desktop<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-b4p_ktBSH_E/ViQ0-4xY19I/AAAAAAAACYI/D7Gk9S84Cbk/s1600/gnome-desktop.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="301" src="http://4.bp.blogspot.com/-b4p_ktBSH_E/ViQ0-4xY19I/AAAAAAAACYI/D7Gk9S84Cbk/s400/gnome-desktop.png" width="400" /></a></div>
+<br /></span>
+<script type='text/javascript'>summary("2705799426883450964")</script>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-'></div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'>
+</div></div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Tuesday, October 13, 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='wrapfullpost'>
+<div class='post hentry'>
+<a name='3876161106184935288'></a>
+<div class='entrybody'>
+<a href='http://www.techjunkieblog.com/2015/10/angularjs-spa-part-2-preparing-angular.html'><script type='text/javascript'>
+document.write(bp_thumbnail_resize("http://1.bp.blogspot.com/-ndpAud5Vogg/Vhxsar8KViI/AAAAAAAACSk/rhN0dYD-D8E/s72-c/angular-seed-index.png","AngularJS SPA Part 2 : Preparing Angular-Seed For The Shopping List Application"));
+</script></a></div>
+<div class='metalabels'>
+<h6>
+<a href='http://www.techjunkieblog.com/search/label/angular-seed' rel='tag'>angular-seed</a>, <a href='http://www.techjunkieblog.com/search/label/AngularJS' rel='tag'>AngularJS</a>, <a href='http://www.techjunkieblog.com/search/label/Javascript' rel='tag'>Javascript</a>, <a href='http://www.techjunkieblog.com/search/label/Node.js' rel='tag'>Node.js</a>, <a href='http://www.techjunkieblog.com/search/label/SPA' rel='tag'>SPA</a>
+</h6>
+</div>
+<h2 class='post-title entry-title'>
+<a href='http://www.techjunkieblog.com/2015/10/angularjs-spa-part-2-preparing-angular.html'>AngularJS SPA Part 2 : Preparing Angular-Seed For The Shopping List Application</a>
+</h2>
+<span class='meta_author'>Posted By: Jason Huynh - 12:18 AM</span>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+<span id='3876161106184935288'><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+The previous <a href="http://www.techjunkieblog.com/2015/07/angularjs-spa-part-1-setting-up-angular.html" target="_blank">blog</a> we setup the Angular-Seed boilerplate template for our SPA application. &nbsp;In this blog we are going to prepare the Angular-Seed template for our SPA application which is going to be a simple shopping list application. &nbsp;The steps below describes the steps to clean up some of the pages in the angular-seed template for our application.<br />
+<br />
+1. &nbsp;Delete the content of the "index.html" page in the angular-seed main folder. &nbsp; It is located in the main folder of the angular-seed template "/angular-seed<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-ndpAud5Vogg/Vhxsar8KViI/AAAAAAAACSk/rhN0dYD-D8E/s1600/angular-seed-index.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-ndpAud5Vogg/Vhxsar8KViI/AAAAAAAACSk/rhN0dYD-D8E/s1600/angular-seed-index.png" /></a></div>
+<br />
+<br />
+2. &nbsp;The source code file "index.html" should look like the following<br />
+<br />
+<pre class="prettyprint">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+ &lt;meta charset="utf-8"&gt;
+ &lt;title&gt;Shopping List App&lt;/title&gt;
+ &lt;link rel="stylesheet" type="text/css" href="app.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="app.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="controller.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<br />
+The code above provides the plumbing for our SPA application. &nbsp;It's written using the HTML5 template format so that it is HTML5 compliant. &nbsp;The app.css contains all the styles associated with the application, the "angular.js" file contains the angularJS library framework. &nbsp;The "app.js" file contains the JavaScript codes that will be used for this application. &nbsp;The "controller.js" file contains the controller for the application.<br />
+<br />
+AngularJS uses the MVC framework, Model-View-Controller. &nbsp;Basically they all work together to make the application work. &nbsp;In a simple explanation the model is the data, the view is what the users see, and the controller is the flow of the application. &nbsp;The next step is the define our application in the app.js file.<br />
+<br />
+3. &nbsp;Open the "app.js" file<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/--eO985n_NvA/Vhxw1WODr-I/AAAAAAAACSw/ndXp_52cGSU/s1600/angular-seed-app-js.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/--eO985n_NvA/Vhxw1WODr-I/AAAAAAAACSw/ndXp_52cGSU/s1600/angular-seed-app-js.png" /></a></div>
+<br />
+4. &nbsp;The source code for the app.js file should look like the following<br />
+<br />
+<pre class="prettyprint">'use strict';
+
+angular.module('shoppingList',['shoppingList.controller']);
+</pre>
+<br />
+<br />
+The code above defines the application name 'shoppingList', and the modules that the application is dependent on ['shoppingList.controller'] in this case the application is dependent on the shoppingList.controller module. &nbsp;In the next step we will create the controller for the shoppingList application<br />
+<br />
+5. &nbsp;Create a file call "controller.js" and source code for the file should look like the following<br />
+<br />
+<br />
+<pre class="prettyprint">'use strict';
+
+angular.module('shoppingList.controller',[])
+ .controller('shoppingListController',["$scope",function($scope){
+  $scope.shoppingListName="My Shopping List";
+}]);
+
+</pre>
+<br />
+The code above registers a new module called shoppingList.controller with no dependencies. &nbsp;The controller itself passes in the angular object $scope. &nbsp;The $scope object in angular act as a conduit between the view and the controller. &nbsp;Meaning anything that is defined in the $scope object is accessible in the view (.html) page. &nbsp;In the example above we defined a variable in the $scope object call "shoppingListName". &nbsp;Since it's defined in the controller we can now access the data from our view (index.html) page. &nbsp;Now we are ready to make some changes to our "index.html" page to make this an angularJS SPA application.<br />
+<br />
+6. &nbsp;Open up the "index.html" file and make sure the source code looks like the following.<br />
+<br />
+<pre class="prettyprint">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+ &lt;meta charset="utf-8"&gt;
+ &lt;title&gt;Shopping List App&lt;/title&gt;
+ &lt;link rel="stylesheet" type="text/css" href="app.css"&gt;
+&lt;/head&gt;
+&lt;body ng-app="shoppingList" ng-controller="shoppingListController"&gt;
+{{shoppingListName}}
+&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="app.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="controller.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<br />
+7. &nbsp;Type int the following URL in your browser http://localhost:8000/app and you will see the following<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-e_OE8FonS3E/VhyFkX-J1nI/AAAAAAAACTA/1jsnST0cxq0/s1600/browser-shopping-list.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-e_OE8FonS3E/VhyFkX-J1nI/AAAAAAAACTA/1jsnST0cxq0/s1600/browser-shopping-list.png" /></a></div>
+<br />
+<br />
+<b>Note:</b> In order to see the application in your browser you must first run the "npm start" in your angular-seed folder first</span>
+<script type='text/javascript'>summary("3876161106184935288")</script>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-'></div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'>
+</div></div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Wednesday, July 8, 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='wrapfullpost'>
+<div class='post hentry'>
+<a name='1785739070639014347'></a>
+<div class='entrybody'>
+<a href='http://www.techjunkieblog.com/2015/07/install-centos-iso-on-virtualbox-part-2.html'><script type='text/javascript'>
+document.write(bp_thumbnail_resize("http://3.bp.blogspot.com/--CpB08Rc2os/VZsz1_TnGgI/AAAAAAAACM4/cJQ5orX-7FA/s72-c/centos-1.png","Install CentOS ISO on VirtualBox Part 2 : Install the CentOS Operating System"));
+</script></a></div>
+<div class='metalabels'>
+<h6>
+<a href='http://www.techjunkieblog.com/search/label/CentOS' rel='tag'>CentOS</a>, <a href='http://www.techjunkieblog.com/search/label/Linux' rel='tag'>Linux</a>, <a href='http://www.techjunkieblog.com/search/label/Virtualization' rel='tag'>Virtualization</a>
+</h6>
+</div>
+<h2 class='post-title entry-title'>
+<a href='http://www.techjunkieblog.com/2015/07/install-centos-iso-on-virtualbox-part-2.html'>Install CentOS ISO on VirtualBox Part 2 : Install the CentOS Operating System</a>
+</h2>
+<span class='meta_author'>Posted By: Jason Huynh - 12:26 AM</span>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+<span id='1785739070639014347'><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+On the previous <a href="http://goo.gl/95zFMY" target="_blank">blog</a>&nbsp;we went over how to create a new virtual machine for CentOS in VirtualBox. &nbsp;In this blog we will go over how to install the CentOS ISO file on the new virtual machine that we've just created. Below are the step by step instructions of how to install CentOS on VirtualBox.<br />
+<br />
+Step-By-Step Instructions:<br />
+<br />
+1. Launch VirtualBox, right-click then select "Settings"<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/--CpB08Rc2os/VZsz1_TnGgI/AAAAAAAACM4/cJQ5orX-7FA/s1600/centos-1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/--CpB08Rc2os/VZsz1_TnGgI/AAAAAAAACM4/cJQ5orX-7FA/s1600/centos-1.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+2. &nbsp;Click on "Storage", you will see the disc icon is "Empty"</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-JTHGCgJMpME/VZs0B566G_I/AAAAAAAACNA/2jbNkuSszZA/s1600/centos-2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-JTHGCgJMpME/VZs0B566G_I/AAAAAAAACNA/2jbNkuSszZA/s1600/centos-2.png" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+3. &nbsp;Select the "Empty" disc icon, the right hand side will change to "CD/DVD Drive", click on the disc icon next to the drive, like the screen shoot below.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-q-NHyEX11Ug/VZs02Tp0bjI/AAAAAAAACNI/O3MVsgCcTA8/s1600/centos-3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="187" src="http://3.bp.blogspot.com/-q-NHyEX11Ug/VZs02Tp0bjI/AAAAAAAACNI/O3MVsgCcTA8/s640/centos-3.png" width="640" /></a></div>
+<br />
+4. &nbsp;Browse to the CentOS ISO file that you've just downloaded in the previous blog. &nbsp;Select the .iso file then click on the "Open" button.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-HjCc7nAkra8/VZs3dzQxelI/AAAAAAAACNU/1y6vCCx9CbE/s1600/centos-6.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="489" src="http://2.bp.blogspot.com/-HjCc7nAkra8/VZs3dzQxelI/AAAAAAAACNU/1y6vCCx9CbE/s640/centos-6.png" width="640" /></a></div>
+<br />
+<br />
+5. &nbsp;The disc icon will now have the CentOS iso file mounted, click on the "OK" button<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-bDr0WegXTxw/VZyV1csn5ZI/AAAAAAAACNw/_3pvEC0BlQ8/s1600/centos-7.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="309" src="http://2.bp.blogspot.com/-bDr0WegXTxw/VZyV1csn5ZI/AAAAAAAACNw/_3pvEC0BlQ8/s320/centos-7.png" width="320" /></a></div>
+<br />
+6. In VirtualBox, click, right click on the CentOS machine and click "Start"<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-C41IMcUT42U/VZyWKekfnZI/AAAAAAAACN4/-FlbO5toTf0/s1600/centos-8.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-C41IMcUT42U/VZyWKekfnZI/AAAAAAAACN4/-FlbO5toTf0/s1600/centos-8.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+7. &nbsp;An Installation screen will appear press the "I" key to choose the installation option, which is the first option on the screen. &nbsp;Then press "Enter"</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-6_FPHiqBoRc/ViOiXMBlwLI/AAAAAAAACUo/9ckDUqDhfxY/s1600/install-screen.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="337" src="http://1.bp.blogspot.com/-6_FPHiqBoRc/ViOiXMBlwLI/AAAAAAAACUo/9ckDUqDhfxY/s400/install-screen.png" width="400" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+8. &nbsp;The CentOS iso file will be run to install the CentOS operating system</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-ciGtY-10P2w/VZyWh84hUtI/AAAAAAAACOA/WaaGIiA4o3o/s1600/centos-9.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="310" src="http://3.bp.blogspot.com/-ciGtY-10P2w/VZyWh84hUtI/AAAAAAAACOA/WaaGIiA4o3o/s400/centos-9.png" width="400" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+9. In the welcome screen select "English" as the language for the installation.</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-kiuDzG2Ltmg/VZyWwa16NVI/AAAAAAAACOI/XTzmF9_7zgw/s1600/centos-10.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="176" src="http://4.bp.blogspot.com/-kiuDzG2Ltmg/VZyWwa16NVI/AAAAAAAACOI/XTzmF9_7zgw/s400/centos-10.png" width="400" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+10. &nbsp;Then click "Continue"</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-H1qLsy0Hnjo/VZyW_UUKviI/AAAAAAAACOQ/CXFT02DLsoU/s1600/centos-11.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-H1qLsy0Hnjo/VZyW_UUKviI/AAAAAAAACOQ/CXFT02DLsoU/s1600/centos-11.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+11. &nbsp;A prompt will come up to say that your mouse will be captured in the virtual machine, check "Do not show this message again", then click "Capture". &nbsp;Make a note that host key is defined as the "Right Ctrl" key. &nbsp;This key will allow you to release the mouse from the virtual machine when you want your mouse click back on the host machine.</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-XLwRBD4hGVY/VZyXJKT2mbI/AAAAAAAACOY/quTL35wKvMg/s1600/centos-12.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-XLwRBD4hGVY/VZyXJKT2mbI/AAAAAAAACOY/quTL35wKvMg/s1600/centos-12.png" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+12. If you see the red warning text on the "INSTALLATION DESTINATION" icon click on the icon</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-s1o8wBn2MXU/VZyb8Mba0MI/AAAAAAAACOo/_E_jMpaIzUM/s1600/centos-13.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="189" src="http://4.bp.blogspot.com/-s1o8wBn2MXU/VZyb8Mba0MI/AAAAAAAACOo/_E_jMpaIzUM/s320/centos-13.png" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+13. &nbsp;In the next screen select the default settings and click "Done". &nbsp;This screen just allows you to configure your virtual hard disk. &nbsp;You can choose to encrypt the hard disk or create another partition on the disk if you want on this screen, but for now we just want to keep things simple so we will keep the default settings. &nbsp;I have given my VM a disk space of 64 GB<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-l2KHeSrLddM/ViOjrhA-khI/AAAAAAAACUw/FgZMvtSmBxg/s1600/install-screen-2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://2.bp.blogspot.com/-l2KHeSrLddM/ViOjrhA-khI/AAAAAAAACUw/FgZMvtSmBxg/s640/install-screen-2.png" width="496" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+14. &nbsp;Now the red warning text is gone because we've confirm the hard disk configuration</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-WTXLJnAGTH8/VZyeN0CgbHI/AAAAAAAACO8/g_odjGI8eFQ/s1600/centos-15.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="182" src="http://3.bp.blogspot.com/-WTXLJnAGTH8/VZyeN0CgbHI/AAAAAAAACO8/g_odjGI8eFQ/s320/centos-15.png" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+16. &nbsp;The next step is that you have to enable the network by click on the "NETWORK &amp; HOST NAME" setting<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-k9CEI8zj9zY/ViO7Qo3MfiI/AAAAAAAACV0/YBSKCEfRymo/s1600/centos-network.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://3.bp.blogspot.com/-k9CEI8zj9zY/ViO7Qo3MfiI/AAAAAAAACV0/YBSKCEfRymo/s400/centos-network.png" width="291" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+17. &nbsp;In the "NEWTORK &amp; HOST NAME" screen make sure you have the following settings. &nbsp;This is the steps that most people forget to do. &nbsp;CentOS does not enable networking by default you can do it manually on the command line, but doing it during the install is much easier.<br />
+<br />
+<br />
+<ul>
+<li>Host name: your host name goes here</li>
+<li>Make sure networking is turned on</li>
+<li>Click "Done" when you are done</li>
+</ul>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-8DtSdrg3bX0/ViO8ZRG4G0I/AAAAAAAACWA/1u6elZfXhVo/s1600/centos-network-2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="462" src="http://2.bp.blogspot.com/-8DtSdrg3bX0/ViO8ZRG4G0I/AAAAAAAACWA/1u6elZfXhVo/s640/centos-network-2.png" width="640" /></a></div>
+<div>
+<br /></div>
+<br />
+<br />
+18. We are now ready to proceed with the installation. &nbsp;Click on the "Begin Installation"<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-qvLNOuFPTb8/VZyebGbTKgI/AAAAAAAACPE/M0oRmeySCX0/s1600/centos-16.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-qvLNOuFPTb8/VZyebGbTKgI/AAAAAAAACPE/M0oRmeySCX0/s1600/centos-16.png" /></a></div>
+<br />
+19. &nbsp;On the next screen you will be prompted to set the root user's password, and create a default user before you can proceed, so click on the "Root Password" icon first<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-88gyDkRxh5Y/VZyf3DhtnvI/AAAAAAAACPY/5TwaAgTXEuc/s1600/centos-18.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="131" src="http://1.bp.blogspot.com/-88gyDkRxh5Y/VZyf3DhtnvI/AAAAAAAACPY/5TwaAgTXEuc/s400/centos-18.png" width="400" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+20. &nbsp;Set the root user's password in the "Root Password" and "Confirm" form fields, make sure the password string are the same in both form fields, then click on the "Done"</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-2GEoxiux75A/VZyggUtkILI/AAAAAAAACPg/07DnVLl6Jts/s1600/centos-20.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="208" src="http://1.bp.blogspot.com/-2GEoxiux75A/VZyggUtkILI/AAAAAAAACPg/07DnVLl6Jts/s640/centos-20.png" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+21. &nbsp;Now the "Root Password" icon is set to blue instead of red, we can continue with the installation now, however we want to set up a default user so that we don't have to use the root user if we don't have to, so click on the "User Creation" icon</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-VH3GG3oXzo8/VZyhNuYCdPI/AAAAAAAACPs/MyXGF6Pt1Og/s1600/centos-21.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="139" src="http://2.bp.blogspot.com/-VH3GG3oXzo8/VZyhNuYCdPI/AAAAAAAACPs/MyXGF6Pt1Og/s400/centos-21.png" width="400" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+22. &nbsp;Type in the user's name in the "Full name" form field, the "User name" field will be auto populated, just accept the default user name. &nbsp;Then check the "Make this user Administrator" check mark. &nbsp;Click "Done" to create a new user.</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-2MH8CNu93YY/ViPDG8w0BiI/AAAAAAAACWQ/7_7qo_Vq9vI/s1600/create-user.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="217" src="http://3.bp.blogspot.com/-2MH8CNu93YY/ViPDG8w0BiI/AAAAAAAACWQ/7_7qo_Vq9vI/s640/create-user.png" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+23. &nbsp;After you finish creating the user you will see "Finish configuration" button. &nbsp;Click on it.</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-p_WY_beRsmA/VZyjBBtLvjI/AAAAAAAACP8/CdULylsmsKY/s1600/centos-23.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="115" src="http://4.bp.blogspot.com/-p_WY_beRsmA/VZyjBBtLvjI/AAAAAAAACP8/CdULylsmsKY/s640/centos-23.png" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+24. &nbsp;You will get the "Complete" and "Reboot" button, click on the "Reboot" button to reboot the virtual machine</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-zRUQcJVInqQ/VZyj3rIh8YI/AAAAAAAACQQ/GVnJNykBCIY/s1600/centos-25.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="104" src="http://3.bp.blogspot.com/-zRUQcJVInqQ/VZyj3rIh8YI/AAAAAAAACQQ/GVnJNykBCIY/s640/centos-25.png" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+25. &nbsp;After a system reboot, a text login prompt is displayed</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-3dK6qOPvQfY/VZykfxAY5bI/AAAAAAAACQY/BWii2O0P7lw/s1600/centos-26.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-3dK6qOPvQfY/VZykfxAY5bI/AAAAAAAACQY/BWii2O0P7lw/s1600/centos-26.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+26. &nbsp;Login with the user that you created during the installation.</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/--8ksn5GEJX8/VZylg-aQ1yI/AAAAAAAACQk/TnniL8EoN38/s1600/centos-27.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/--8ksn5GEJX8/VZylg-aQ1yI/AAAAAAAACQk/TnniL8EoN38/s1600/centos-27.png" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+You now have CentOS installed in your Oracle VirtualBox. &nbsp;In the next blog we will go over how to install a lightweight desktop GUI to our CentOS.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-LvoT7UT1YIM/VZymy8OTctI/AAAAAAAACQs/urPwL4RM29U/s1600/centos-28.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="251" src="http://3.bp.blogspot.com/-LvoT7UT1YIM/VZymy8OTctI/AAAAAAAACQs/urPwL4RM29U/s640/centos-28.png" width="640" /></a></div>
+<br />
+27. &nbsp;After logging in, type "sudo yum update" to install the latest updates<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-DYg_BffVDIk/ViPDjHQMXcI/AAAAAAAACWY/UyfOrsApUt8/s1600/yum-update.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="354" src="http://1.bp.blogspot.com/-DYg_BffVDIk/ViPDjHQMXcI/AAAAAAAACWY/UyfOrsApUt8/s640/yum-update.png" width="640" /></a></div>
+<br />
+<br />
+&#8592; <b>Previous &nbsp;</b><span style="background-color: white; color: #333333; font-family: Cambria;"><span style="font-size: large;"><a href="http://www.techjunkieblog.com/2015/07/installing-centos-in-oracle-virtualbox.html" target="_blank">Installing CentOS in Oracle VirtualBox</a></span></span></span>
+<script type='text/javascript'>summary("1785739070639014347")</script>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-'></div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'>
+</div></div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Thursday, July 2, 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='wrapfullpost'>
+<div class='post hentry'>
+<a name='6984790338018932280'></a>
+<div class='entrybody'>
+<a href='http://www.techjunkieblog.com/2015/07/installing-centos-in-oracle-virtualbox.html'><script type='text/javascript'>
+document.write(bp_thumbnail_resize("http://4.bp.blogspot.com/-w7mQPPFPd1s/VY6nTFwR9jI/AAAAAAAACIg/hIeoqbMWJwU/s72-c/centos-1.png","Installing CentOS in Oracle VirtualBox Part 1: Create a New Virtual Machine For CentOS"));
+</script></a></div>
+<div class='metalabels'>
+<h6>
+<a href='http://www.techjunkieblog.com/search/label/CentOS' rel='tag'>CentOS</a>, <a href='http://www.techjunkieblog.com/search/label/Linux' rel='tag'>Linux</a>, <a href='http://www.techjunkieblog.com/search/label/Virtualization' rel='tag'>Virtualization</a>
+</h6>
+</div>
+<h2 class='post-title entry-title'>
+<a href='http://www.techjunkieblog.com/2015/07/installing-centos-in-oracle-virtualbox.html'>Installing CentOS in Oracle VirtualBox Part 1: Create a New Virtual Machine For CentOS</a>
+</h2>
+<span class='meta_author'>Posted By: Jason Huynh - 5:25 AM</span>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+<span id='6984790338018932280'><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+If you want to know your way around <a href="http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux" target="_blank">Red Hat Enterprise Linux</a> distribution, but the you don't have the financial ability to obtain a license.&nbsp; CentOS is your best bet get to the the Red Hat Enterprise Linux official experience.&nbsp; Because CentOS is a binary capatible version of Red Hat Enterprise Linux.&nbsp; Meaning all the things that matters are the same, only the branding and logos are different.&nbsp; CentOS is open sourced and can be downloaded for free.&nbsp; Although it might be a couple of versions behind Red Hat Enterprise Linux.&nbsp; But, you should be able to perform everything you can with CentOS that you can with Red Hat Enterprise.&nbsp; Below is a step by step instruction on how to install CentOS in Oracle VirtualBox.<br />
+<br />
+<b>Step-By-Step Instructions:</b><br />
+<br />
+1.&nbsp; Type <a href="http://centos.org/">http://centos.org</a> in your browser<br />
+2.&nbsp; Click on the "Get CentOS Now" button<br />
+<br />
+<div class="separator" style="clear: both; text-align: left;">
+<a href="http://4.bp.blogspot.com/-w7mQPPFPd1s/VY6nTFwR9jI/AAAAAAAACIg/hIeoqbMWJwU/s1600/centos-1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="396" src="http://4.bp.blogspot.com/-w7mQPPFPd1s/VY6nTFwR9jI/AAAAAAAACIg/hIeoqbMWJwU/s640/centos-1.png" width="640" />&nbsp;</a></div>
+<div class="separator" style="clear: both; text-align: left;">
+3.&nbsp; Click on "DVD ISO"</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-WYodzwiLyig/VY6n1DOiKSI/AAAAAAAACIo/doN0Lncn42Y/s1600/centos-2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="228" src="http://1.bp.blogspot.com/-WYodzwiLyig/VY6n1DOiKSI/AAAAAAAACIo/doN0Lncn42Y/s640/centos-2.png" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+4.&nbsp; Select the mirror site that is closest to you, or whatever fancies you, then save it to a folder that you will remember later on.</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-XzrXl6uX888/VY6oXiF2bgI/AAAAAAAACIw/MmjFKPt0CK4/s1600/centos-3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="388" src="http://3.bp.blogspot.com/-XzrXl6uX888/VY6oXiF2bgI/AAAAAAAACIw/MmjFKPt0CK4/s640/centos-3.png" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+4. &nbsp;Now we are ready to create a new machine in Oracle VirtualBox to prep for the installation of CentOS</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+2. Launch VirtualBox and click on the "New" button</div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-xx47iooZqKQ/VNe0MX_BsDI/AAAAAAAABBY/4CEVU6yJC7Q/s1600/1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="VirtualBox New Virtual Machine" border="0" height="203" src="http://1.bp.blogspot.com/-xx47iooZqKQ/VNe0MX_BsDI/AAAAAAAABBY/4CEVU6yJC7Q/s1600/1.png" title="VirtualBox New Virtual Machine" width="400" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+3. The "Create Virtual Machine" dialog box will be displayed, input the following information</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-AI0udUv9D0w/VZTDPB27b2I/AAAAAAAACK8/rKC7az7OSw8/s1600/centos-4.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-AI0udUv9D0w/VZTDPB27b2I/AAAAAAAACK8/rKC7az7OSw8/s1600/centos-4.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+4. It's important that you select 64-bit system, from the drop down if you want to install a 64-bit version of Red Hat</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+5. Give your virtual machine 2 GB of memory to start off with, you can increase this value later, if needed. &nbsp;Two GB should be enough for most tasks. &nbsp;You don't want to allocate too much memory to your VM machines because it might slow down your host machine.</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-IbiC_n6IkBw/VZTD30wjVUI/AAAAAAAACLE/7R5WR5hvtDk/s1600/centos-5.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-IbiC_n6IkBw/VZTD30wjVUI/AAAAAAAACLE/7R5WR5hvtDk/s1600/centos-5.png" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+6. &nbsp;Click "Next"</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+7. &nbsp;Select "Create a virtual hard drive now" option</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-dsvMgnEXzMQ/VNe21NBmFtI/AAAAAAAABBo/uxOEJ2fWuJM/s1600/5.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://4.bp.blogspot.com/-dsvMgnEXzMQ/VNe21NBmFtI/AAAAAAAABBo/uxOEJ2fWuJM/s1600/5.png" width="348" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+8. &nbsp;Click "Create"</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+9. On this screen you will see the flexibility of VirtualBox you can actually create Microsoft Virtual Machines with VirtualBox, it's the best of both worlds. &nbsp;Select "VDI (VirtualBox Disk Image)" to create a VirtualBox Disk Image. &nbsp;Then click "Next"</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-mFvYxFNvdY0/VNe3hAwkcaI/AAAAAAAABBw/fieax9N6f_0/s1600/6.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://1.bp.blogspot.com/-mFvYxFNvdY0/VNe3hAwkcaI/AAAAAAAABBw/fieax9N6f_0/s1600/6.png" width="378" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+10. &nbsp;Select "Dynamically allocated" option, this will grow your disk as needed. Then click "Next"</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-0DULqUOlek8/VNe4KZQGs9I/AAAAAAAABB4/eHcqWeJKGJc/s1600/7.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://1.bp.blogspot.com/-0DULqUOlek8/VNe4KZQGs9I/AAAAAAAABB4/eHcqWeJKGJc/s1600/7.png" width="385" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+11. The next screen is the "File location and size" screen. The initial disk space is 8 GB, &nbsp;I gave my VM 64 GB, but you can give the amount of disk space that you are comfortable with. &nbsp;After you've allocated the disk space, click the "Create" button.</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-Ks7EFojMqGE/VZTEg-YwxkI/AAAAAAAACLM/Bp_zzgwVFZM/s1600/centos-6.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-Ks7EFojMqGE/VZTEg-YwxkI/AAAAAAAACLM/Bp_zzgwVFZM/s1600/centos-6.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+12. Now you have a new virtual machine ready for a CentOS in VirtualBox</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="363" src="http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s640/centos-7.png" width="640" /></a><a href="http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a><a href="http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a><a href="http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a><a href="http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a><a href="http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a><a href="http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a><a href="http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a><a href="http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a><a href="http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<ul><a href="http://www.techjunkieblog.com/2015/07/install-centos-iso-on-virtualbox-part-2.html" target="_blank"><span style="color: black;">&#8594; Next &nbsp;</span>Install CentOS ISO on VirtualBox</a></ul>
+<br /></span>
+<script type='text/javascript'>summary("6984790338018932280")</script>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-'></div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'>
+</div></div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://www.techjunkieblog.com/search?updated-max=2015-07-02T05:25:00-04:00&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://www.techjunkieblog.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div></div>
+<div id='section-home'>
+<div class='recent section' id='recent1'><div class='widget HTML' id='HTML104'>
+<div class='widget-content'>
+<div class='title-wrap'>
+<div class='title'>
+</div>
+</div>
+<script type='text/javascript'>var numposts = 4;var showpostthumbnails = true;var showcommentnum = true;var showpostdate = true;var showpostsummary = false;var numchars = 100;</script>
+<script src='/feeds/posts/default/-/?published&alt=json-in-script&callback=labelthumbs' type='text/javascript'></script>
+</div>
+</div></div>
+</div>
+<div id='section-home'>
+<div class='recent section' id='recent2'><div class='widget HTML' id='HTML105'>
+<div class='widget-content'>
+<div class='title-wrap'>
+<div class='title'>
+</div>
+</div>
+<script type='text/javascript'>var numposts = 4;var showpostthumbnails = true;var showcommentnum = true;var showpostdate = true;var showpostsummary = false;var numchars = 100;</script>
+<script src='/feeds/posts/default/-/?published&alt=json-in-script&callback=labelthumbs' type='text/javascript'></script>
+</div>
+</div></div>
+</div>
+</div>
+<div id='rsidebar-wrapper'>
+<!-- Tab Widget [start] -->
+<div class='tabviewsection'>
+<script type='text/javascript'> 
+            jQuery(document).ready(function($){ 
+                $(".tabs-widget-content-widget-themater_tabs-1432447472-id").hide(); 
+                $("ul.tabs-widget-widget-themater_tabs-1432447472-id li:first a").addClass("tabs-widget-current").show(); 
+                $(".tabs-widget-content-widget-themater_tabs-1432447472-id:first").show(); 
+       
+                $("ul.tabs-widget-widget-themater_tabs-1432447472-id li a").click(function() { 
+                    $("ul.tabs-widget-widget-themater_tabs-1432447472-id li a").removeClass("tabs-widget-current a"); 
+                    $(this).addClass("tabs-widget-current"); 
+                    $(".tabs-widget-content-widget-themater_tabs-1432447472-id").hide(); 
+                    var activeTab = $(this).attr("href"); 
+                    $(activeTab).fadeIn(); 
+                    return false; 
+                }); 
+            }); 
+        </script>
+<!--<ul class='tabs-widget tabs-widget-widget-themater_tabs-1432447472-id'> <li><a href='#widget-themater_tabs-1432447472-id1'><img class='heart' src='http://1.bp.blogspot.com/-RCaBW11Brk0/UlSifRHhp0I/AAAAAAAAAks/uoHr5yBAHto/s1600/view-white-bg.png'/>Popular</a></li> <li><a href='#widget-themater_tabs-1432447472-id2'><img class='heart' src='http://4.bp.blogspot.com/-x1S5yfSfNKs/UlSim119pLI/AAAAAAAAAk0/vLoChPM6VEw/s1600/time-white.png'/>Tags</a></li> -->
+<!-- <li class='laster'><a href='#widget-themater_tabs-1432447472-id3'><img class='heart' src='http://1.bp.blogspot.com/-cSolSflo2pM/UlSi7cl3u1I/AAAAAAAAAk8/aj7qWYrigJk/s1600/komen-putih.png'/>Videos</a></li> -->
+<!-- </ul> -->
+<!-- Tab Widget 1 -->
+<div class='tabs-widget-content tabs-widget-content-widget-themater_tabs-1432447472-id' id='widget-themater_tabs-1432447472-id1'>
+<div class='sidebar section' id='sidebartab1'><div class='widget HTML' id='HTML3'>
+<div class='widget-content'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- techjunkieblogging_sidebar-right-1_AdSense1_300x250_as -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-5470820057595844"
+     data-ad-slot="3005431483"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebartab1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<!-- Tab Widget 2 -->
+<div class='tabs-widget-content tabs-widget-content-widget-themater_tabs-1432447472-id' id='widget-themater_tabs-1432447472-id2'>
+<div class='sidebar section' id='sidebartab2'></div>
+</div>
+<div class='tabs-widget-content tabs-widget-content-widget-themater_tabs-1432447472-id' id='widget-themater_tabs-1432447472-id3'>
+<!-- Tab Widget 3 -->
+<div class='sidebar section' id='sidebartab3'></div>
+</div>
+</div>
+<!-- Tab Widget [endt] -->
+<div class='sidebar section' id='sidebarright'><div class='widget Label' id='Label1'>
+<div class='widget-content list-label-widget-content'>
+<ul>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/DATA'>DATA</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/ASPNET'>ASPNET</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/SQL%20Server'>SQL Server</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/SQL'>SQL</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Javascript'>Javascript</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/ADO.NET'>ADO.NET</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/JQuery'>JQuery</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/C%23'>C#</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Linux'>Linux</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Virtualization'>Virtualization</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/ASP.NET%20MVC%205'>ASP.NET MVC 5</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/ASP.NET%20MVC'>ASP.NET MVC</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/T-SQL'>T-SQL</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Stored%20Procedures'>Stored Procedures</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Oracle'>Oracle</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Bootstrap'>Bootstrap</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/NuGet'>NuGet</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Ubuntu'>Ubuntu</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/CSS'>CSS</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Entity%20Framework'>Entity Framework</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/HTML5'>HTML5</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Blogger'>Blogger</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Blogging'>Blogging</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/CentOS'>CentOS</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Database'>Database</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Visual%20Studio'>Visual Studio</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/AJAX'>AJAX</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Computer%20Programming'>Computer Programming</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Design%20Pattern'>Design Pattern</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/GIMP'>GIMP</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Graphics%20Design'>Graphics Design</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/MVC'>MVC</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Node.js'>Node.js</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Web%20Design'>Web Design</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/ASP.NET%20MVC%204'>ASP.NET MVC 4</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/AngularJS'>AngularJS</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Errors'>Errors</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/SPA'>SPA</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Server'>Server</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Source%20Control'>Source Control</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Telerik'>Telerik</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/VirtualBox'>VirtualBox</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/git'>git</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Big%20Data'>Big Data</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Collections'>Collections</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Compatibility'>Compatibility</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Fedora'>Fedora</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Hadoop'>Hadoop</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/JSON'>JSON</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/KnockoutJS'>KnockoutJS</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/LINQ'>LINQ</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Mobile-First'>Mobile-First</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Open%20Source'>Open Source</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Prototype'>Prototype</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Responsive'>Responsive</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Unix'>Unix</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/View'>View</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/Web%20Forms'>Web Forms</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/XML'>XML</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/angular-seed'>angular-seed</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/cshtml'>cshtml</a>
+</li>
+<li>
+<a dir='ltr' href='http://www.techjunkieblog.com/search/label/log4net'>log4net</a>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebarright' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' id='HTML2'>
+<div class='widget-content'>
+<script type="text/javascript" language="javascript">
+   amzn_assoc_ad_type = "contextual";
+   amzn_assoc_tracking_id = "etronicplayco-20";
+   amzn_assoc_marketplace = "amazon";
+   amzn_assoc_region = "US";
+   amzn_assoc_placement = "6NYP4TQCJIUUGXR3";
+   amzn_assoc_linkid = "6NYP4TQCJIUUGXR3";
+   amzn_assoc_emphasize_categories = "";
+   amzn_assoc_fallback_products = "";
+   amzn_assoc_width = "300";
+   amzn_assoc_height = "250";
+</script>
+
+<script type="text/javascript" language="javascript" src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US&source=ac"></script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebarright' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/search?updated-min=2015-01-01T00:00:00-05:00&amp;updated-max=2016-01-01T00:00:00-05:00&amp;max-results=50'>2015</a>
+<span class='post-count' dir='ltr'>(95)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2015_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://www.techjunkieblog.com/2015/10/install-centos-part-4-adding-new-user.html'>Install CentOS Part 4 : Adding A New User With use...</a></li>
+<li><a href='http://www.techjunkieblog.com/2015/10/install-centos-on-virtualbox-part-3.html'>Install CentOS on VirtualBox Part 3 :  Installing ...</a></li>
+<li><a href='http://www.techjunkieblog.com/2015/10/angularjs-spa-part-2-preparing-angular.html'>AngularJS SPA Part 2 : Preparing Angular-Seed For ...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2015_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2015_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2015_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2015_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2015_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(34)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2015_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(25)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/search?updated-min=2014-01-01T00:00:00-05:00&amp;updated-max=2015-01-01T00:00:00-05:00&amp;max-results=22'>2014</a>
+<span class='post-count' dir='ltr'>(22)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2014_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2014_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2014_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2014_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/search?updated-min=2013-01-01T00:00:00-05:00&amp;updated-max=2014-01-01T00:00:00-05:00&amp;max-results=37'>2013</a>
+<span class='post-count' dir='ltr'>(37)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2013_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2013_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2013_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(12)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.techjunkieblog.com/2013_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(15)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebarright' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<p></p></div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class='clear'></div>
+</div>
+</div>
+<div style='clear:both;'></div>
+<!--<div id='footer-widgets-container'> <div class='margin-1200'> <div class='clearfix' id='footer-widgets'> <div class='footer-widget-box firstbig'> <ul class='widget-container'> <li> <b:section class='footersec' id='footersec1' showaddelement='yes'> <b:widget id='HTML5' locked='false' title='About IWF' type='HTML'> <b:includable id='main'> -->
+<!-- only display title if it's non-empty -->
+<!-- <b:if cond='data:title != &quot;&quot;'> <h2 class='title'><data:title/></h2> </b:if> <div class='widget-content'> <data:content/> </div> <b:include name='quickedit'/> </b:includable> </b:widget> </b:section> </li> </ul> </div> <div class='lastbig'> <div class='footer-widget-box'> <ul class='widget-container'> <li> <b:section class='footersec' id='footersec4' showaddelement='yes'> <b:widget id='HTML4' locked='false' title='Site Links' type='HTML'> <b:includable id='main'> -->
+<!-- only display title if it's non-empty -->
+<!-- <b:if cond='data:title != &quot;&quot;'> <h2 class='title'><data:title/></h2> </b:if> <div class='widget-content'> <data:content/> </div> <b:include name='quickedit'/> </b:includable> </b:widget> </b:section> </li> </ul> </div> <div class='footer-widget-box'> <ul class='widget-container'> <li> <b:section class='footersec' id='footersec6' showaddelement='yes'> <b:widget id='HTML14' locked='false' title='Site Links' type='HTML'> <b:includable id='main'> -->
+<!-- only display title if it's non-empty -->
+<!-- <b:if cond='data:title != &quot;&quot;'> <h2 class='title'><data:title/></h2> </b:if> <div class='widget-content'> <data:content/> </div> <b:include name='quickedit'/> </b:includable> </b:widget> </b:section> </li> </ul> </div> <div class='footer-widget-box footer-widget-box-last'> <ul class='widget-container'> <li> <b:section class='footersec' id='footersec3' showaddelement='yes'> <b:widget id='HTML3' locked='false' title='About' type='HTML'> <b:includable id='main'> -->
+<!-- only display title if it's non-empty -->
+<!-- <b:if cond='data:title != &quot;&quot;'> <h2 class='title'><data:title/></h2> </b:if> <div class='widget-content'> <data:content/> </div> <b:include name='quickedit'/> </b:includable> </b:widget> </b:section> </li> </ul> </div> </div> </div> </div></div> -->
+<div style='clear:both;'></div>
+<div class='fooc'>
+<div class='margin-1200'>
+<p>Copyright &#169; 2013 Tech Junkie Blog&#8482; is a registered trademark.</p>
+<!-- <p>Designed by <a href='http://www.templateism.com'>Templateism</a>. Hosted on Blogger Platform.</p> -->
+</div>
+</div>
+<script type='text/javascript'>
+var pageCount=6;
+var displayPageNum=1;
+var upPageWord ='Previous';
+var downPageWord ='Next';
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+function showpageCount(json) {
+    var thisUrl = home_page_url;
+    var htmlMap = new Array();
+    var thisNum = 1;
+    var postNum = 1;
+    var itemCount = 0;
+    var fFlag = 0;
+    var eFlag = 0;
+    var html = '';
+    var upPageHtml = '';
+    var downPageHtml = '';
+    for (var i = 0, post; post = json.feed.entry[i]; i++) {
+        var timestamp1 = post.published.$t.substring(0, 19) + post.published.$t.substring(23, 29);
+        timestamp = encodeURIComponent(timestamp1);
+        var title = post.title.$t;
+        if (title != '') {
+            if (itemCount == 0 || (itemCount % pageCount == (pageCount - 1))) {
+                if (thisUrl.indexOf(timestamp) != -1) {
+                    thisNum = postNum
+                }
+                if (title != '') postNum++;
+                htmlMap[htmlMap.length] = '/search?updated-max=' + timestamp + '&max-results=' + pageCount
+            }
+        }
+        itemCount++
+    }
+    for (var p = 0; p < htmlMap.length; p++) {
+        if (p >= (thisNum - displayPageNum - 1) && p < (thisNum + displayPageNum)) {
+            if (fFlag == 0 && p == thisNum - 2) {
+                if (thisNum == 2) {
+                    upPageHtml = '<span class="showpage"><a href="/">' + upPageWord + '</a></span>'
+                } else {
+                    upPageHtml = '<span class="showpage"><a href="' + htmlMap[p] + '">' + upPageWord + '</a></span>'
+                }
+                fFlag++
+            }
+            if (p == (thisNum - 1)) {
+                html += '<span class="showpagePoint">' + thisNum + '</span>'
+            } else {
+                if (p == 0) {
+                    html += '<span class="showpageNum"><a href="/">1</a></span>'
+                } else {
+                    html += '<span class="showpageNum"><a href="' + htmlMap[p] + '">' + (p + 1) + '</a></span>'
+                }
+            }
+            if (eFlag == 0 && p == thisNum) {
+                downPageHtml = '<span class="showpage"> <a href="' + htmlMap[p] + '">' + downPageWord + '</a></span>';
+                eFlag++
+            }
+        }
+    }
+    if (thisNum > 1) {
+        html = '' + upPageHtml + ' ' + html + ' '
+    }
+    html = '<div class="showpageArea"><span style="COLOR: #000;" class="showpageOf"> Pages (' + (postNum - 1) + ')</span>' + html;
+    if (thisNum < (postNum - 1)) {
+        html += downPageHtml
+    }
+    if (postNum == 1) postNum++;
+    html += '</div>';
+    var pageArea = document.getElementsByName("pageArea");
+    var blogPager = document.getElementById("blog-pager");
+    if (postNum <= 2) {
+        html = ''
+    }
+    for (var p = 0; p < pageArea.length; p++) {
+        pageArea[p].innerHTML = html
+    }
+    if (pageArea && pageArea.length > 0) {
+        html = ''
+    }
+    if (blogPager) {
+        blogPager.innerHTML = html
+    }
+}
+
+function showpageCount2(json) {
+    var thisUrl = home_page_url;
+    var htmlMap = new Array();
+    var isLablePage = thisUrl.indexOf("/search/label/") != -1;
+    var thisLable = isLablePage ? thisUrl.substr(thisUrl.indexOf("/search/label/") + 14, thisUrl.length) : "";
+    thisLable = thisLable.indexOf("?") != -1 ? thisLable.substr(0, thisLable.indexOf("?")) : thisLable;
+    var thisNum = 1;
+    var postNum = 1;
+    var itemCount = 0;
+    var fFlag = 0;
+    var eFlag = 0;
+    var html = '';
+    var upPageHtml = '';
+    var downPageHtml = '';
+    var labelHtml = '<span class="showpageNum"><a href="/search/label/' + thisLable + '?&max-results=' + pageCount + '">';
+    var thisUrl = home_page_url;
+    for (var i = 0, post; post = json.feed.entry[i]; i++) {
+        var timestamp1 = post.published.$t.substring(0, 19) + post.published.$t.substring(23, 29);
+        timestamp = encodeURIComponent(timestamp1);
+        var title = post.title.$t;
+        if (title != '') {
+            if (itemCount == 0 || (itemCount % pageCount == (pageCount - 1))) {
+                if (thisUrl.indexOf(timestamp) != -1) {
+                    thisNum = postNum
+                }
+                if (title != '') postNum++;
+                htmlMap[htmlMap.length] = '/search/label/' + thisLable + '?updated-max=' + timestamp + '&max-results=' + pageCount
+            }
+        }
+        itemCount++
+    }
+    for (var p = 0; p < htmlMap.length; p++) {
+        if (p >= (thisNum - displayPageNum - 1) && p < (thisNum + displayPageNum)) {
+            if (fFlag == 0 && p == thisNum - 2) {
+                if (thisNum == 2) {
+                    upPageHtml = labelHtml + upPageWord + '</a></span>'
+                } else {
+                    upPageHtml = '<span class="showpage"><a href="' + htmlMap[p] + '">' + upPageWord + '</a></span>'
+                }
+                fFlag++
+            }
+            if (p == (thisNum - 1)) {
+                html += '<span class="showpagePoint">' + thisNum + '</span>'
+            } else {
+                if (p == 0) {
+                    html = labelHtml + '1</a></span>'
+                } else {
+                    html += '<span class="showpageNum"><a href="' + htmlMap[p] + '">' + (p + 1) + '</a></span>'
+                }
+            }
+            if (eFlag == 0 && p == thisNum) {
+                downPageHtml = '<span class="showpage"> <a href="' + htmlMap[p] + '">' + downPageWord + '</a></span>';
+                eFlag++
+            }
+        }
+    }
+    if (thisNum > 1) {
+        if (!isLablePage) {
+            html = '' + upPageHtml + ' ' + html + ' '
+        } else {
+            html = '' + upPageHtml + ' ' + html + ' '
+        }
+    }
+    html = '<div class="showpageArea"><span style="COLOR: #000;" class="showpageOf"> Pages (' + (postNum - 1) + ')</span>' + html;
+    if (thisNum < (postNum - 1)) {
+        html += downPageHtml
+    }
+    if (postNum == 1) postNum++;
+    html += '</div>';
+    var pageArea = document.getElementsByName("pageArea");
+    var blogPager = document.getElementById("blog-pager");
+    if (postNum <= 2) {
+        html = ''
+    }
+    for (var p = 0; p < pageArea.length; p++) {
+        pageArea[p].innerHTML = html
+    }
+    if (pageArea && pageArea.length > 0) {
+        html = ''
+    }
+    if (blogPager) {
+        blogPager.innerHTML = html
+    }
+}
+var home_page_url = location.href;
+var thisUrl = home_page_url;
+if (thisUrl.indexOf("/search/label/") != -1) {
+    if (thisUrl.indexOf("?updated-max") != -1) {
+        var lblname1 = thisUrl.substring(thisUrl.indexOf("/search/label/") + 14, thisUrl.indexOf("?updated-max"))
+    } else {
+        var lblname1 = thisUrl.substring(thisUrl.indexOf("/search/label/") + 14, thisUrl.indexOf("?&max"))
+    }
+}
+var home_page = "/";
+if (thisUrl.indexOf("?q=") == -1) {
+    if (thisUrl.indexOf("/search/label/") == -1) {
+        document.write('<script src="' + home_page + 'feeds/posts/summary?alt=json-in-script&callback=showpageCount&max-results=99999" ><\/script>')
+    } else {
+        document.write('<script src="' + home_page + 'feeds/posts/full/-/' + lblname1 + '?alt=json-in-script&callback=showpageCount2&max-results=99999" ><\/script>')
+    }
+}
+
+
+//]]>
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45170331-1', 'iwritefacts.com');
+  ga('send', 'pageview');
+
+</script>
+<script>
+/* masonry */
+jQuery(document).ready(function($) {
+	$('.blog-masonry').masonry({
+		itemSelector : '.post-outer',
+		isAnimated: true,
+		animationOptions: {
+			duration: 450
+		}
+	});
+});
+</script>
+<script>
+/* Image loader */
+jQuery(document).ready(function($) {
+	var $container = $('.blog-masonry');
+	$container.imagesLoaded(function(){
+		$container.masonry({
+			itemSelector : '.post-outerr',
+		});
+	});
+});
+
+</script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2244687694-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '1830041839784954098';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1830041839784954098','//www.techjunkieblog.com/','1830041839784954098');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '1830041839784954098', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Tech Junkie Blog', 'pageType': 'index', 'url': 'http://www.techjunkieblog.com/', 'canonicalUrl': 'http://www.techjunkieblog.com/', 'homepageUrl': 'http://www.techjunkieblog.com/', 'canonicalHomepageUrl': 'http://www.techjunkieblog.com/', 'blogspotFaviconUrl': 'http://www.techjunkieblog.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': 'UA-60871128-1', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'Tech Junkie Blog', 'metaDescription': 'Features blogs and source codes on ASP.NET, JQuery, HTML5, CSS, JavaScript, SQL, C#, T-SQL, ASP.NET MVC', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Tech Junkie Blog - Atom\42 href\75\42http://www.techjunkieblog.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Tech Junkie Blog - RSS\42 href\75\42http://www.techjunkieblog.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Tech Junkie Blog - Atom\42 href\75\42https://www.blogger.com/feeds/1830041839784954098/posts/default\42 /\76\n', 'meTag': '\74link rel\75\42me\42 href\75\42https://plus.google.com/104961171195924803982\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://www.techjunkieblog.com/\42 /\76\n', 'googleProfileUrl': 'https://plus.google.com/104961171195924803982', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/3978477444-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/581377545bf84644', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'messages', 'data': {'archive': 'Archive', 'blogArchive': 'Blog Archive', 'by': 'By', 'byAuthor': 'By %1', 'byAuthorLink': 'By \74a href\75\42%2\42\76%1\74/a\076', 'deleteBacklink': 'Delete Backlink', 'deleteComment': 'Delete Comment', 'edit': 'Edit', 'emailAddress': 'Email Address', 'getEmailNotifications': 'Get email notifications', 'keepReading': 'Keep reading', 'labels': 'Labels', 'loadMorePosts': 'Load more posts', 'loading': 'Loading...', 'myBlogList': 'My Blog List', 'myFavoriteSites': 'My favorite sites', 'newer': 'Newer', 'newerPosts': 'Newer Posts', 'newest': 'Newest', 'noResultsFound': 'No results found', 'noTitle': 'No title', 'numberOfComments': '{numComments, plural, \0750 {No comments} \0751 {1 comment} other {# comments}}', 'older': 'Older', 'olderPosts': 'Older Posts', 'oldest': 'Oldest', 'onlyTeamMembersCanComment': 'Note: Only a member of this blog may post a comment.', 'popularPosts': 'Popular Posts', 'popularPostsFromThisBlog': 'Popular posts from this blog', 'postAComment': 'Post a Comment', 'postedBy': 'Posted by', 'postedByAuthor': 'Posted by %1', 'postedByAuthorLink': 'Posted by \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Read more', 'reportAbuse': 'Report Abuse', 'search': 'Search', 'searchBlog': 'Search blog', 'share': 'Share', 'showAll': 'Show all', 'someOfMyFavoriteSites': 'Some of my favorite sites', 'subscribe': 'Subscribe', 'subscribeToThisBlog': 'Subscribe to this blog', 'theresNothingHere': 'There\47s nothing here!', 'viewAll': 'View all', 'visitProfile': 'Visit profile'}}, {'name': 'skin', 'data': {'vars': {}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebartab12', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebartab12', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebartab12', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/3060979228-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/306752634-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML104', 'recent1', null, document.getElementById('HTML104'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML105', 'recent2', null, document.getElementById('HTML105'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebartab1', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebarright', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebarright', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebarright', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading...'}, 'displayModeFull'));
+</script>
+</body>
+</html>

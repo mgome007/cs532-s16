@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Space Ninja</title>
+    <meta name="description" content="CSS ninja, last of the freelance hackers, greatest swordfighter in the world" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico?v=bda6aae6ac">
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css?v=bda6aae6ac" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/ninja.css?v=bda6aae6ac" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/prism.css?v=bda6aae6ac" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="http://spaceninja.com/" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="http://spaceninja.com/page/2/" />
+    
+    <meta property="og:site_name" content="Space Ninja" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Space Ninja" />
+    <meta property="og:description" content="CSS ninja, last of the freelance hackers, greatest swordfighter in the world" />
+    <meta property="og:url" content="http://spaceninja.com/" />
+    <meta property="og:image" content="http://spaceninja.com/content/images/2014/Feb/wood4.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Space Ninja" />
+    <meta name="twitter:description" content="CSS ninja, last of the freelance hackers, greatest swordfighter in the world" />
+    <meta name="twitter:url" content="http://spaceninja.com/" />
+    <meta name="twitter:image:src" content="http://spaceninja.com/content/images/2014/Feb/wood4.jpg" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "Space Ninja",
+    "url": "http://spaceninja.com/",
+    "image": "http://spaceninja.com/content/images/2014/Feb/wood4.jpg",
+    "description": "CSS ninja, last of the freelance hackers, greatest swordfighter in the world"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7" />
+    <link rel="alternate" type="application/rss+xml" title="Space Ninja" href="http://spaceninja.com/rss/" />
+</head>
+<body class="home-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home nav-current" role="presentation"><a href="http://spaceninja.com/">Home</a></li>
+            <li class="nav-portfolio" role="presentation"><a href="http://spaceninja.com/portfolio/">Portfolio</a></li>
+            <li class="nav-last-bearded-prez" role="presentation"><a href="http://whowasthelastpresidentwithabeard.com/">Last bearded prez?</a></li>
+            <li class="nav-talk-like-ellis" role="presentation"><a href="http://talklikewarrenellis.com/">Talk like Ellis</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="http://spaceninja.com/rss/">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+<header class="main-header " style="background-image: url(/content/images/2014/Feb/wood4.jpg)">
+    <nav class="main-nav overlay clearfix">
+        <a class="blog-logo" href="http://spaceninja.com"><img src="/content/images/2015/04/spaceninja-1.png" alt="Space Ninja" /></a>
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">Space Ninja</h1>
+            <h2 class="page-description">CSS ninja, last of the freelance hackers, greatest swordfighter in the world</h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
+
+<main id="content" class="content" role="main">
+
+    <div class="extra-pagination inner">
+    <nav class="pagination" role="navigation">
+    <span class="page-number">Page 1 of 2</span>
+        <a class="older-posts" href="/page/2/">Older Posts <span aria-hidden="true">&rarr;</span></a>
+</nav>
+
+</div>
+
+<article class="post tag-css tag-web-development tag-refactoring">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2015/12/16/code-verbosity/">Code Verbosity</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>Recently I was refactoring some CSS, and I found something like this code snippet: body {     font-family: sans-serif;   font-size: 14px;   line-height: 1.4; } h1 {     font-family: serif;   font-size: <a class="read-more" href="/2015/12/16/code-verbosity/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="/content/images/2015/09/scott-256.jpg" alt="Scott Vandehey" nopin="nopin" />
+        <a href="/author/scott/">Scott Vandehey</a>
+         on <a href="/tag/css/">css</a>, <a href="/tag/web-development/">web development</a>, <a href="/tag/refactoring/">refactoring</a>
+        <time class="post-date" datetime="2015-12-16">16 December 2015</time>
+    </footer>
+</article>
+<article class="post tag-programming tag-myths tag-time">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2015/12/08/falsehoods-programmers-believe/">Falsehoods Programmers Believe</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>I'm in love with these lists of "Falsehoods Programmers Believe About X." In case you haven't had pleasure, I've collected all the ones I know of <a class="read-more" href="/2015/12/08/falsehoods-programmers-believe/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="/content/images/2015/09/scott-256.jpg" alt="Scott Vandehey" nopin="nopin" />
+        <a href="/author/scott/">Scott Vandehey</a>
+         on <a href="/tag/programming/">programming</a>, <a href="/tag/myths/">myths</a>, <a href="/tag/time/">time</a>
+        <time class="post-date" datetime="2015-12-08">08 December 2015</time>
+    </footer>
+</article>
+<article class="post tag-css tag-flexbox tag-web-development">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2015/08/24/what-is-flexbox/">What IS Flexbox?</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>An elegant layout method for a more civilized age. Flexbox is a new layout mode in CSS3. The previous version of CSS defined four layout modes: <a class="read-more" href="/2015/08/24/what-is-flexbox/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="/content/images/2015/09/scott-256.jpg" alt="Scott Vandehey" nopin="nopin" />
+        <a href="/author/scott/">Scott Vandehey</a>
+         on <a href="/tag/css/">css</a>, <a href="/tag/flexbox/">flexbox</a>, <a href="/tag/web-development/">web development</a>
+        <time class="post-date" datetime="2015-08-24">24 August 2015</time>
+    </footer>
+</article>
+<article class="post tag-work-culture tag-hiring tag-culture-fit">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2015/05/04/job-values/">What I value in a job</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>ATTENTION! I am not looking for work right now. This post is for my own reference, trying to record some thoughts following my most recent job <a class="read-more" href="/2015/05/04/job-values/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="/content/images/2015/09/scott-256.jpg" alt="Scott Vandehey" nopin="nopin" />
+        <a href="/author/scott/">Scott Vandehey</a>
+         on <a href="/tag/work-culture/">work culture</a>, <a href="/tag/hiring/">hiring</a>, <a href="/tag/culture-fit/">culture fit</a>
+        <time class="post-date" datetime="2015-05-04">04 May 2015</time>
+    </footer>
+</article>
+<article class="post tag-work-culture tag-metaphor tag-compromise">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2015/04/15/finding-your-door/">Finding Your Door</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>“Hey! I heard you got a new door. How is it?” “Oh, it’s pretty good. When my last door broke unexpectedly, I had to find <a class="read-more" href="/2015/04/15/finding-your-door/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="/content/images/2015/09/scott-256.jpg" alt="Scott Vandehey" nopin="nopin" />
+        <a href="/author/scott/">Scott Vandehey</a>
+         on <a href="/tag/work-culture/">work culture</a>, <a href="/tag/metaphor/">metaphor</a>, <a href="/tag/compromise/">compromise</a>
+        <time class="post-date" datetime="2015-04-15">15 April 2015</time>
+    </footer>
+</article>
+<article class="post tag-css tag-internet-explorer tag-web-development">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2015/03/31/ie-css-limits/">The Many Exciting CSS Limits of Internet Explorer</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>Internet Explorer has a number of limits in the way it loads CSS, which can cause some of your styles not to be applied if you <a class="read-more" href="/2015/03/31/ie-css-limits/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="/content/images/2015/09/scott-256.jpg" alt="Scott Vandehey" nopin="nopin" />
+        <a href="/author/scott/">Scott Vandehey</a>
+         on <a href="/tag/css/">css</a>, <a href="/tag/internet-explorer/">internet explorer</a>, <a href="/tag/web-development/">web development</a>
+        <time class="post-date" datetime="2015-03-31">31 March 2015</time>
+    </footer>
+</article>
+
+<nav class="pagination" role="navigation">
+    <span class="page-number">Page 1 of 2</span>
+        <a class="older-posts" href="/page/2/">Older Posts <span aria-hidden="true">&rarr;</span></a>
+</nav>
+
+
+</main>
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="http://spaceninja.com">Space Ninja</a> &copy; 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <!-- You can safely delete this line if your theme does not require jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js?v=bda6aae6ac"></script>
+    <script type="text/javascript" src="/assets/js/prism.js?v=bda6aae6ac"></script>
+    <script type="text/javascript" src="/assets/js/index.js?v=bda6aae6ac"></script>
+
+<img src="/view.gif?page=/" alt="" style="display:none" hidden />
+</body>
+</html>

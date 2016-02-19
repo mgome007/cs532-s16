@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Peter Cooper</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+  <body class="home">
+    <div id="header">
+      <div class="inner">
+      <ul>
+        <li class="img"><img src="img/thumb1.png" /></li>
+        <li class="home"><a href="index.html"><img src="img/petercooper.png" /></a></li>
+        <li class="rss"><a href="feed">RSS <span class="icon">&#8984;</span></a></li>
+        <li class="twitter"><a href="http://twitter.com/peterc">Twitter</a></li>
+        <li class="pedia"><a href="pedia/">Pædia</a></li>
+        <li class="blog"><a href="blog/">Blog</a></li>
+        <li class="home2"><a href="/">Home</a></li>
+      </ul>
+      </div>
+    </div>
+    <div id="page">
+      <div id="main"> 
+        <!--p><img src="/img/petercooper-standard.jpg" style="float:right; border: 2px solid #08e; margin-left: 12px; margin-top: -10px"></p -->
+<!-- div style="float: right"><iframe class="clarity-widget" data-c-id="8253" frameborder="0" style="border: 0; height: 0"></iframe>
+<script src="https://clarity.fm/assets/widget_loader.js"></script></div -->
+
+<h1 id="peter-cooper">Peter Cooper</h1>
+
+<p><a href="mailto:peter@peterc.org">peter@peterc.org</a> (<em><a href="http://twitter.com/peterc">Twitter</a>, <a href="http://www.facebook.com/people/Peter-Cooper/100001348969780">Facebook</a>, <a href="http://www.linkedin.com/in/petercooper">LinkedIn</a>, <a href="http://github.com/peterc/">GitHub</a>, <a href="http://del.icio.us/coop">Delicious</a></em>)</p>
+
+<p><a href="https://twitter.com/peterc" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @peterc</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+
+
+<h2 id="ap1">What</h2>
+
+<p>Peter Cooper is a:</p>
+
+<ul>
+<li>software developer and code experimenter (Ruby, JavaScript and C primarily)</li>
+  <!-- li>chair of <a href="http://fluentconf.com/" title="O'Reilly's Fluent JavaScript Conference">O’Reilly Fluent</a>, O’Reilly’s JavaScript, HTML5 and Web technology conference</li -->
+  <li>screencaster and podcaster</li>
+  <li>
+<a href="https://cooperpress.com/">niche publisher</a> and blogger</li>
+  <li><a href="http://beginningruby.org/">author</a></li>
+  <li><a href="blog/2010/257-three-years-ago-i-sold-my-startup.html">entrepreneur who has sold a couple of businesses</a></li>
+  <li>avid reader of as many programming and CS books as he can find</li>
+  <li>consultant specializing in e-mail newsletters</li>
+  <li>husband and <a href="http://cooperloop.org/">dad</a>
+</li>
+</ul>
+<p>I’m based in Louth, Lincolnshire in the United Kingdom. I mostly work online so I get to live where I love.</p>
+
+<h2 id="ap2">News</h2>
+
+<ul>
+<li>I’m currently <a href="http://blog.railsrumble.com/organizers/">evangelist</a> for <a href="http://railsrumble.com/">Rails Rumble</a>, a popular annual Web development contest. Registration starts October 1st if you’re interested!</li>
+  <li>I’m beginning to offer consulting services to companies who want to launch e-mail newsletters or otherwise make their e-mail newsletters work well for them. If you’re interested, get in touch.</li>
+  <li>I’m working on a book - <a href="http://selfpromotionforgeeks.com/">Self Promotion For Geeks</a> - due soon (been saying that a while ;-)). If you want to be notified and get a discount, fill in the form there.</li>
+  <li>I’ll be lecturing as a part of <a href="http://www.appacademy.io/staff">App Academy</a>
+</li>
+  <li>I’m speaking at <a href="http://allyourbaseconf.com/">All Your Base Conf</a> in Oxford this November. It’s a conference about NoSQL databases.</li>
+</ul>
+<h2 id="ap3">Web Projects</h2>
+
+<ul>
+<li>
+<a href="http://rubyweekly.com/">Ruby Weekly</a> - A weekly Ruby programming e-mail newsletter started in August 2010 and at about 16000 subscribers so far.</li>
+  <li>
+<a href="http://www.rubyinside.com/">Ruby Inside</a> - A blog about the Ruby programming language and associated technologies. Approximately 26,000 subscribers.</li>
+  <li>
+<a href="http://javascriptweekly.com/">JavaScript Weekly</a> - A weekly JavaScript programming e-mail newsletter started in January 2011 and at about 32,000 subscribers so far.</li>
+  <li>
+<a href="http://twitter.com/javascriptdaily">JavaScript Daily</a> - A JavaScript Twitter feed with daily JavaScript news, a sister Twitter account for JavaScript Weekly really. Over 6000 subscribers so far which, I believe, makes it the most popular JavaScript news account on Twitter(?)</li>
+  <li>
+<a href="http://twitter.com/codewisdom">Code Wisdom</a> - A Twitter feed dedicated to programming related quotes and wisdom. Now at 14,000 subscribers.</li>
+  <li>
+<a href="http://html5weekly.com/">HTML5 Weekly</a> - the latest in my line of curated e-mail newsletters, now close to 20,000 subscribers.</li>
+  <li>
+<a href="http://statuscode.org/">StatusCode</a> - a weekly e-mail digest for programmers. Now at 7,000 subscribers.</li>
+  <li>
+<a href="http://dartweekly.com/">Dart Weekly</a> - Another weekly newsletter, this time about Google’s new Dart language. Currently just over 1,000 subscribers but not going out every week due to lack of content in the Dart world.</li>
+  <li>
+<a href="http://fitnessinventor.com/">Fitness Inventor</a> - I’m responsible for the technology and design of Fitness Inventor, a health and fitness Q&amp;A site (think Quora or Stack Overflow but for health and nutrition). The team is led by Dr. Dan Reardon.</li>
+  <li>
+<a href="http://www.rubyflow.com/">RubyFlow</a> - A community driven link blog for the Ruby and Rails communities (~8000 subscribers and 2000 registered users).</li>
+  <li>
+<a href="http://hackerslide.com/">Hacker Slide</a> - Time based snapshots of Hacker News you can scroll through. Ideal for catching up due to the speed of HN’s front page now. The <a href="http://github.com/peterc/hackerslide">code is on GitHub</a> and BSD licensed.</li>
+  <li>
+<a href="http://www.railsinside.com/">Rails Inside</a> - A blog about the Rails Web application development framework (~6700 subscribers). Dormant.</li>
+  <li>
+<a href="http://tweetcanal.com/">TweetCanal</a> - A real time, automatically updating Twitter “dashboard”/river. Perfect for watching what’s going on in the world without any delays or queuing. I personally enjoy it for watching the heckling during The Apprentice and other TV shows. Developed along with Nelson K of <a href="http://www.safarista.com/">Safarista Design</a> at <a href="http://leedshack.com/">Leeds Hack</a> on November 6-7, 2010, where it won “Best Dashboard.”</li>
+  <li>
+<a href="http://coder.io/">coder.io</a> - A site I built focusing on aggregating news and links for software developers. I never truly launched it and while it’s still running OK, it’s currently on the backburner.</li>
+  <li>
+<a href="http://jobs.rubyinside.com/">Ruby Jobs Board</a> - A popular, paid Ruby and Rails jobs board. Post your Ruby and Rails job listings there.</li>
+  <li>
+<a href="http://disclosurecalculator.org.uk/">Criminal Record Disclosure Calculator</a> - A pro-bono project developed with an offender rehabilitation charity. It allows people to work out how long they need to disclose their convictions for (this is complex to work out under UK law).</li>
+</ul>
+<h2 id="ap4">Miscellaneous</h2>
+
+<ul>
+<!-- li>I chaired the inaugural <a href="http://fluentconf.com/">O’Reilly Fluent</a> conference. We had over 900 people registered by opening day, so one of the biggest JavaScript and HTML5 conferences on just its first outing! It was a lot of fun and the program rocked.</li -->
+</ul>
+<h2 id="ap5">Authorship</h2>
+
+<ul>
+<li>
+<a href="http://www.rubyinside.com/19walkthrough/">Ruby 1.9 Walkthrough</a>, a 3 hour screencast guiding Ruby 1.8.7 developers through the worlds of Ruby 1.9.2 and 1.9.3. I’ve sold about 1200 copies so far.</li>
+  <li>
+<a href="http://rubyreloaded.com/trickshots/">Ruby Trick Shots</a>, a video going over 24 Ruby tricks, in anticipation of collection together &gt; 100 tricks into a free e-book</li>
+  <li>Currently working on <a href="http://selfpromotionforgeeks.com/">Self Promotion For Geeks</a>, my first attempt at self-publishing a book.</li>
+  <li>Author of <a href="http://beginningruby.org/">Beginning Ruby</a>, published by Apress <em>(1st ed. 2007, 2nd ed. 2009.)</em> It has sold around 15,000 copies as of 2012.</li>
+  <li>Author of the <em>“Indexing and Searching”</em> chapter of <a href="http://www.manning.com/mcanally/">Ruby In Practice</a>, published by Manning in 2009.</li>
+  <li>Co-author of <a href="http://refcardz.dzone.com/refcardz/essential-ruby">Essential Ruby</a>, published by DZone in 2009.</li>
+  <li>Referee of <a href="http://jla.sagepub.com/content/12/1/56.full.pdf">Controlling a Robotic Marine Environmental Sampler with the Ruby Scripting Language</a> <em>(Roman, Scholin, Jensen, Massion, Marin)</em> for the <em>Journal of the Association for Laboratory Automation</em>.</li>
+  <li>Technical reviewer of <a href="http://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional/dp/0321490452">Design Patterns in Ruby</a> <em>(Russ Olsen)</em>, a book published by Addison-Wesley.</li>
+  <li>Reviewer for <a href="http://technicalblogging.com/">Technical Blogging</a> by Antonio Cangiano.</li>
+  <li>Technical reviewer for <em>Pragmatic Guide to Sass</em> by Hampton Catlin and Michael Lintorn.</li>
+  <li>Technical reviewer of <em>The Revolutionary Guide to QBasic</em> (1996) by Victor Munerman, Evgeny Yemelchenkov, and Tatyana Samoylova.</li>
+  <li>I frequently give ‘praise quotes’ that are used in the front matter of books. If you’re interested in this and, most importantly, have a good book that’s in my topic area, get in touch.</li>
+</ul>
+<h2 id="ap6">Podcasting</h2>
+
+<ul>
+<li>Since 2010, I have been the co-host of <a href="http://rubyshow.com/">The Ruby Show</a> with Jason Seifer. My first episode was: <a href="http://5by5.tv/rubyshow/135">#135</a>, we’re now up to around episode 209. We get around 6000 downloads of each episode.</li>
+  <li>I’m the co-host of <a href="http://javascriptshow.com/">The JavaScript Show</a> along with Jason Seifer. We’re now a year in and getting anywhere between 5000-9000 downloads per episode.</li>
+  <li>I was on the launch of <a href="http://javascriptjabber.com/001-jsj-asynchronous-programming/">JavaScript Jabber</a>, a new JavaScript podcast but due to time constraints have not returned yet.</li>
+  <li>I was one of the hosts of <a href="http://rubyrogues.com/">The Ruby Rogues</a> between episodes 1-10. I left to launch <a href="http://rubyreloaded.com/">my Ruby Reloaded course</a>.</li>
+  <li>
+<a href="http://10terms.com/">10Terms</a> - A topical vocabulary podcast, my first foray into running a podcast. (Now defunct. A failed experiment!)</li>
+</ul>
+<h2 id="ap7">Training</h2>
+
+<ul>
+<li>I’m running more Ruby Reloaded runs in October, and November 2012.</li>
+  <li>In July and August 2012 I ran <a href="http://rubyreloaded.com/">Ruby Reloaded 5</a>.</li>
+  <li>In December 2011 I ran <a href="http://rubyreloaded.com/">Ruby Reloaded 4</a>.</li>
+  <li>In November 2011 I ran <a href="http://rubyreloaded.com/">Ruby Reloaded 3</a>.</li>
+  <li>In late August 2011 I ran <a href="http://rubyreloaded.com/">Ruby Reloaded 2</a>.</li>
+  <li>In late July 2011 I ran a course called <a href="http://rubyreloaded.com/">Ruby Reloaded</a> for 24 students. It’s for intermediate and “pro newbie” Ruby and Rails developers who want to recover the Ruby basics in a more formal way and gain some confidence about becoming a professional Rubyist.</li>
+  <li>Over 2011 and 2012, I gave 6 4-week online Ruby courses at <a href="http://codelesson.com/ruby">CodeLesson</a> to 104 paying students on dates starting: January 10, 2011; February 28, 2011; May 4, 2011; October 3, 2011; 21 November 2011 and 31 January 2012.</li>
+</ul>
+<h2 id="ap8">Code</h2>
+
+<ul>
+<li>
+<a href="https://github.com/peterc/trtl">Trtl</a> - A turtle graphics system for Ruby.</li>
+  <li>
+<a href="https://github.com/peterc/massiveattract">Massive Attract</a> - An HTML5 and JavaScript game I rapidly developed for the Ludum Dare 23 gamedev contest.</li>
+  <li>
+<a href="https://github.com/peterc/testrocket">TestRocket</a> - A tiny testing library for Ruby. It won a <a href="http://codebrawl.com/contests/ruby-testing-libraries">publicly judged CodeBrawl contest</a> so I thought I’d release it properly.</li>
+  <li>
+<a href="https://github.com/peterc/monos">Bodge</a> - A game I developed in 48 hours for Ludum Dare 22, a game development contest. It’s open source and uses LWJGL from JRuby.</li>
+  <li>
+<a href="https://github.com/peterc/potc-jruby">Prelude of the Chambered - JRuby port</a> - A JRuby port of a Java game written by Notch (of Minecraft fame). Still not entirely complete, but functional. 2 solid days of fun porting Java ;-)</li>
+  <li>
+<a href="http://github.com/peterc/whatlanguage">WhatLanguage</a> - a Ruby library to detect the language of texts</li>
+  <li>
+<a href="http://github.com/peterc/pismo">Pismo</a> - a content analysis and metadata extraction library</li>
+  <li>
+<a href="http://github.com/Sutto/rubyflow">rubyflow build from 2008</a> - An old build of the RubyFlow.com Rails 2.x source code that I shared in 2008 and that has been maintained by 3rd parties. Heroku <a href="http://blog.heroku.com/archives/2009/2/10/build_a_news_site_with_rubyflow/">posted about how to install it.</a>
+</li>
+  <li>
+<a href="https://github.com/peterc/bitarray">bitarray</a> - Simple, pure Ruby bit array/bitfield implementation.</li>
+  <li>
+<a href="https://gist.github.com/1861451">code2png</a> - Render source code to a PNG image on OS X. Using this for my Kindle experiments.</li>
+  <li>
+<a href="http://www.youtube.com/watch?v=qWKkEaKL6DQ">16 step drum machine with CoffeeScript and Node</a> - A bit of fun.</li>
+  <li>
+<a href="http://github.com/peterc">My GitHub profile</a> - I have a few other minor things going on.</li>
+  <li>
+<a href="https://gist.github.com/peterc">My GitHub gists</a> - My most interesting bits of code are the short bits I share as ‘gists’ on GitHub :-) See a DNS server written in Ruby, a couple of mini test libraries, an IRB prompt for multiple installs of Ruby (at once), and my Twitter UI restyling (since the new Twitter UI is.. not good).</li>
+</ul>
+<h2 id="ap9">Past Projects</h2>
+
+<ul>
+<li>
+<a href="http://snippets.dzone.com/">Code Snippets</a> - A tagged code snippets site I built in 2005 and sold to <a href="http://dzone.com">DZone</a> in 2007.</li>
+  <li>
+<a href="http://feed.informer.com/">Feed Digest</a> <em>(now Feed Informer)</em> - Web feed manipulation and syndication service I launched in 2005 and sold to Vicman Technologies in August 2007. Users included NASA, The Denver Post, MIT, The Smithsonian Institution, and the US Department of Agriculture. Traffic was 250m requests per month. <em>Update: I’ve <a href="blog/2010/257-three-years-ago-i-sold-my-startup.html">written about the sale.</a></em>
+</li>
+  <li>
+<a href="http://www.mobileorchard.com/">Mobile Orchard</a> - iPhone developer news blog and podcast co-founded with Dan Grigsby in 2008. I designed the site and produced most of the content for the first 3 months. I handed it over entirely to Dan in 2009 as I was no longer involved with iPhone development. He has since put it on hiatus.</li>
+  <li>
+<a href="http://no.gd/apprentice">Apprentice Watch</a> - A small JavaScript “app” to monitor tweets about the BBC’s “The Apprentice” show in real time.</li>
+  <li>
+<strong>Switchpipe</strong> was a proof of concept Web application process manager and request proxy that made it easy to deploy persistent process Web applications such as Rails apps. It was superseded by Phusion Passenger within two months but the <a href="http://github.com/peterc/switchpipe">code remains on GitHub</a> for historical purposes.</li>
+  <li>Editor of <strong>WebPedia.com</strong> which was acquired by Internet.com in 1999. I was then joint editor of Internet.com’s <strong>WebDeveloper.com</strong> until 2000.</li>
+  <li>Editor of <strong>eboz.com</strong> in 1999 until it was acquired by iBoost.com in 2000.</li>
+</ul>
+<h2 id="ap10">Interviews and Press</h2>
+
+<ul>
+<li>I made <a href="http://thisdeveloperslife.com/post/2-0-9-drama">some comments about semicolons in This Developer’s Life 2.0.9</a>. September 2012.</li>
+  <li>
+<a href="http://blog.mailchimp.com/peter-cooper-makes-money-by-not-talking-about-himself/">Peter Cooper Makes Money. By Not Talking About Himself.</a> MailChimp, my e-mail service provider, ran an interview/profile of my e-mail newsletter business. June 2012.</li>
+  <li>
+<a href="http://radar.oreilly.com/2012/05/051012-radar-script-javascript.html">O’Reilly Radar - The Surprising Rise of JavaScript</a> was primarily an interview with me about JavaScript, May 2012.</li>
+  <li>
+<a href="http://rubyrogues.com/042-rr-producing-content-with-peter-cooper/">Ruby Rogues #42 - Producing Content with Peter Cooper</a> was largely about my projects, February 2012.</li>
+  <li>Interviewed for <a href="http://5by5.tv/founderstalk/30">Founders Talk #30: Peter Cooper / Cooper Press</a>, February 2012.</li>
+  <li>I was on <a href="http://techzinglive.com/page/893/160-tz-panel-the-british-invasion">the panel for TechZing 160</a>.</li>
+  <li>I was on <a href="http://www.officehours.tv/">OfficeHours.tv</a> offering ‘office hours’ for anyone who wanted me to give them business advice. Bidding ended Monday September 5th 2011 and I spoke to six people.</li>
+  <li>My projects were discussed (though I did not appear) on <a href="http://jawgrind.com/post/9729604918/episode-2-stephens-moustache">episode 2 of Jawgrind</a>, September 2011.</li>
+  <li>JavaScript Weekly was discussed (though I did not appear) on <a href="http://techzinglive.com/page/816/145-tz-discussion-bad-cop-sensitive-cop">episode 145 of TechZing</a>, August 2011.</li>
+  <li>
+<a href="http://www.ntileeds.co.uk/news/new-ruby-and-rails-training-course/">New Ruby and Rails Training Course - Interview</a>, May 2011.</li>
+  <li>
+<a href="http://www.mymotivation.com/2011/05/31/start-lots-and-start-small-with-peter-cooper/">My Motivation - Start Lots and Start Small with Peter Cooper</a>, May 2011.</li>
+  <li>
+<a href="http://blogs.sitepoint.com/2011/03/12/podcast-103-ruby-is-old-enough-to-drink-with-peter-cooper-and-jason-seifer/">Sitepoint Podcast: Ruby is Old Enough to Drink with Peter Cooper and Jason Seifer</a>, March 2011.</li>
+  <li>
+<a href="http://techzinglive.com/page/608/99-tz-panel-gabriel-weinberg-peter-cooper">TechZing Panel - Gabriel Weinberg and Peter Cooper</a>, January 2011.</li>
+  <li>
+<a href="http://lifeofthefreelancer.com/2010/12/02/online-domination-through-code-action-with-peter-cooper/">Online Domination Through Code and Action - with Peter Cooper</a>, December 2010.</li>
+  <li>
+<a href="http://teachmetocode.com/podcast/tmtc-37-peter-cooper/">Teach Me To Code Episode 37 - Peter Cooper</a>, October 2010.</li>
+  <li>
+<a href="http://hackermonthly.com/issue-4.html">Three Years Ago, I Sold My Startup Because I Was An Idiot</a> by Peter Cooper in <em>Hacker Monthly</em>, Issue 4 <a href="http://hackermonthly.com/issue-4.html">link</a>, September 2010.</li>
+  <li>
+<a href="http://www.foundora.com/2010/08/23/peter-cooper-founder-of-feed-digest/">Foundora Interview: Peter Cooper</a> on Foundora, August 2010.</li>
+  <li>
+<a href="http://techzinglive.com/?p=369">TechZing #60: Peter Cooper</a> on TechZing podcast, August 2010 <em>[audio interview]</em>.</li>
+  <li>
+<a href="http://coderpath.com/posts/5">coderpath 5: Peter Cooper</a> on CoderPath podcast, May 2010 <em>[audio interview]</em>.</li>
+  <li>30 minute radio slot/interview about the iPad on BBC Radio Lincolnshire, April 12, 2010.</li>
+  <li>
+<a href="http://belitsky.info/freelance/peter-cooper/">Peter Cooper: How to become a successful Rubyist</a> by Dmitry Belitsky, October 2009.</li>
+  <li>
+<a href="http://developer.51cto.com/art/200909/152677.htm">Peter Cooper谈Ruby是否将会流行</a> by 51CTO, September 2009.</li>
+  <li>
+<a href="http://twincities.bizjournals.com/twincities/stories/2008/12/01/story7.html?b=1228107600%5E1740386">Will iPhone ‘orchard’ bear fruit?</a> by <em>Katharine Grayson</em> for <em>Minneapolis St. Paul Business Journal</em>, November 2008.</li>
+  <li>
+<a href="http://blog.fiveruns.com/2008/1/25/rails-application-monitoring-takefive-five-questions-with-peter-cooper">Take Five: Questions with Peter Cooper</a> for FiveRuns <em>(now out of business)</em>, January 2008.</li>
+  <li>
+<a href="http://www.akitaonrails.com/2008/01/04/chatting-with-peter-cooper">Chatting with Peter Cooper</a> by Fabio Akita, January 2008.</li>
+  <li>
+<a href="http://larrywright.me/blog/articles/188-interview-peter-cooper-on-rails-and-entrepeneurship">Interview: Peter Cooper on Rails, Enterpreneurship, and Developing on Linux</a> by <em>Larry Wright</em>, December 2007.</li>
+  <li>
+<a href="http://www.odinjobs.com/blogs/careers/entry/ruby_experts_whythey_are_in">Ruby Experts: Why They Are In Love With Ruby/Rails</a> by <em>Naveen Bala</em>, December 2007.</li>
+  <li>
+<a href="http://laughingsquid.com/feed-digest-a-great-way-to-republish-feeds/">Feed Digest, A Great Way To Republish Feeds</a> at Laughing Squid, September 2007.</li>
+  <li>
+<a href="http://rubylearning.com/blog/2007/09/27/advice-for-ruby-beginners-1/">Advice for Ruby Beginners 1</a> by <em>Satish Talim</em>, September 2007.</li>
+  <li>
+<a href="http://podcast.rubyonrails.org/programs/1/episodes/peter_cooper">Peter Cooper</a> on the <em>Ruby on Rails Podcast</em>, May 2007 <em>[audio interview]</em>.</li>
+  <li>
+<a href="http://money.cnn.com/2006/02/28/magazines/business2/angelinvestor/">How to find your angel investor</a> by <em>Michael V. Copeland</em> for <em>Business 2.0 Magazine</em>, February 2006.</li>
+  <li>
+<a href="http://opensource.apress.com/article/73/an-interview-with-peter-cooper-author-of-beginning-ruby">Interview with Peter Cooper, author of Beginning Ruby</a> for <em>Apress</em>, 2006.</li>
+  <li>
+<a href="http://kenyarmosh.com/interview-with-peter-cooper/">Interview with Peter Cooper</a> by <em>Ken Yarmosh</em>, September 2005.</li>
+</ul>
+<h2 id="ap11">Talks</h2>
+<ul>
+<li>I’m speaking at <a href="http://allyourbaseconf.com/">All Your Base Conf</a> in Oxford this November. It’s a conference about NoSQL databases.</li>
+  <li>
+<strong>I Choo, Choo, Choose The Web</strong> - my keynote at <a href="http://scotlandjs.com/">ScotlandJS</a> on June 26, 2012.</li>
+  <!-- li>
+<strong>JavaScript Jumble</strong> at O’Reilly Fluent 2012 (emergency talk due to no show, prepared in 25 minutes!)</li -->
+  <li>
+<strong>Redis Steady Go</strong> for Ottawa Ruby, early 2012.</li>
+  <li>
+<strong>Stupid Stunts for Rampant Rubyists</strong> at <a href="http://surreyrubyists.tumblr.com/post/13606720439/surrey-rubyists-is-rebooting">Surrey Rubyists</a> on January 24, 2012.</li>
+  <li>
+<strong>Introduction to Ruby</strong> at <a href="http://nottdc.org.uk/2011/07/geekup-august-2011/">Geekup Nottingham</a> (a 90 minute intro and live coding demo of Ruby to a technical group) on August 1, 2011.</li>
+  <li>
+<strong>Self Promotion for Over-Thinkers</strong> at <a href="http://www.thinkvisibility.com/">Think Visibility</a>, a Web business and affiliate conference that took place for the fifth time in Leeds, UK on March 5, 2011. My talk was mentioned <a href="http://winwar.co.uk/2011/03/61-things-to-take-away-from-think-visibility-march-2011/">here</a>, <a href="http://www.affiliates4u.com/news/2011/03/view-thinkvisibility-2011/">here</a>, <a href="http://www.epiphanysolutions.co.uk/blog/think-visibility-march-2011-like-smx-at-charlie-sheens-house/">here</a>, and <a href="http://www.andrewburnett.com/uks-dampest-seo-conference/">here</a>. My speaker’s page is/was <a href="http://www.thinkvisibility.com/speakers/peter-cooper/">here</a>.</li>
+  <li>
+<strong>Obscurity Bytes! Self Promotion for Geeks</strong> at <a href="http://geekupdoncaster.eventbrite.com/">Geekup Doncaster</a> on September 22, 2010.</li>
+  <li>
+<strong>Ignoring Common Sense: The Aircraft Carrier Made of Ice and Other Technical Flights of Fancy</strong> at <a href="http://geekup.org/events/232/">Geekup Nottingham</a>, August 1, 2010.</li>
+  <li>
+<a href="http://no.gd/redis-presentation.pdf">Redis 101: A whirlwind tour of the next big thing in NoSQL storage</a> at <em>Hull Digital</em> in Hull, England, June 24, 2010.</li>
+  <li>
+<strong>Passion, Properly Pursued, and Why Journeys are Important</strong> at <em>Think Visibility</em> in Leeds, England, March 6, 2009 (<a href="http://www.theotherblog.com/Articles/2009/03/11/the-man-in-the-white-coat-or-my-think-visibility-review/">review</a>).</li>
+  <li>
+<a href="http://jaoo.dk/ruby-cph-2008/speaker/Peter+Cooper">Introduction to Ruby</a> at <em>Ruby Fools 2008</em> in Copenhagen, Denmark, April 1, 2008.</li>
+  <li>I chaired the evening panel of <em>Euruko 2008</em> (<a href="http://www.flickr.com/photos/manfreds/2377960336/">the photo proof!</a>) with Matz, Jamie van Dyke, David Black, et al. March 29, 2008.</li>
+  <li>
+<strong>Building a multi user dungeon in Ruby</strong> at <em>Barcamp Manchester</em> in Manchester, England, March 1, 2008.</li>
+  <li>I also give less formal talks at user groups and the like.</li>
+</ul>
+<h2 id="ap12">Ambition</h2>
+
+<p>I keep track of <a href="http://www.43things.com/person/petercooper">my main ambitions</a> on 43things. In terms of a “mission”, though, I want to make a significant contribution in and by applying the fields of mathematics, computer science and publishing/news.</p>
+      </div>
+      <div id="footer">
+        Last updated: September 15, 2012 by Peter Cooper
+      </div>
+    </div>
+    
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-2237791-6");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

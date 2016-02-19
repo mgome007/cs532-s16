@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-XRDS-Location" content="http://getify.myid.net/xrds">
+<title>Kyle Simpson, getify</title>
+
+
+<link rel="openid.server" href="http://server.myid.net/server">
+<link rel="openid.delegate" href="http://getify.myid.net/">
+
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<link rel="pavatar" href="http://www.gravatar.com/avatar/35761e3936deba2f8189c2d20982c771?s=80">
+<link rel="avatar" href="http://www.gravatar.com/avatar/35761e3936deba2f8189c2d20982c771?s=80">
+</head>
+
+<body>
+
+<div class="vcard">
+
+<h1 class="fn">Kyle Simpson</h1>
+<h2 class="nickname">getify</h2>
+
+<p><strong>My latest books, the <a href="http://YouDontKnowJS.com">You Don't Know JS</a> JavaScript book series, are now <a href="http://search.oreilly.com/?q=you+don%27t+know+js+kyle+simpson">for sale</a>!</strong></p>
+
+<ul>
+<li><a href="@patreon" rel="me" class="url">Patreon</a> (support me!)</li>
+<li><a href="@paypal" rel="me" class="url">Paypal</a> (support me!)</li>
+<li><a href="@keybase" rel="me" class="url">Keybase.io</a></li>
+<li>@<a href="@twitter" rel="me" class="url">getify</a></li>
+<li><a href="@app.net" rel="me" class="url">getify</a> (app.net)</li>
+<li><a href="@gravatar" rel="me" class="url">Gravatar</a></li>
+<li><a href="@google+" rel="profile" class="url">Google+</a></li>
+<li><a href="@linkedin" rel="profile" class="url">Linked In</a></li>
+<li><a href="@corp" rel="home" class="org url">Getify Solutions</a></li>
+<li><a href="@blog" rel="home" class="url">getiblog</a></li>
+<li><a href="@davidwalshblog" rel="me" class="url">posts on DavidWalshBlog</a></li>
+<li><a href="@github" rel="me" class="url">Github</a></li>
+<li><a href="@gratipay" rel="me" class="url">Gratipay (formerly Gittip)</a></li>
+<li><a href="@changetip" rel="me" class="url">ChangeTip</a></li>
+<li><a href="@npm" rel="me" class="url">npm</a></li>
+<li><a href="@kickstarter" rel="me" class="url">Kickstarter</a></li>
+<li><a href="@oreilly" rel="me" class="url">O'Reilly Author Page</a></li>
+<li><a href="@amazon" rel="me" class="url">Amazon Author Page</a></li>
+<li><a href="@jsperf" rel="me" class="url">jsPerf tests</a></li>
+<li><a href="@stackoverflow" rel="me" class="url">Stack Overflow</a></li>
+<li><a href="@klout" rel="me" class="url">Klout</a></li>
+<li><a href="@quora" rel="me" class="url">Quora</a></li>
+<li><a href="@lanyrd" rel="me" class="url">Lanyrd</a></li>
+<li><a href="@speakerrate" rel="me" class="url">SpeakerRate</a></li>
+<li><a href="@speakerdeck" rel="me" class="url">SpeakerDeck</a> <small>(Old: <a href="http://www.slideshare.net/shadedecho" rel="me" class="url">SlideShare</a>)</small></li>
+<li><a href="@facebook" rel="profile" class="url">Facebook</a></li>
+<li><a href="@aboutme" rel="me" class="url">About Me: Getify</a></li>
+<li><a href="@vimeo" rel="me" class="url">Vimeo</a></li>
+<li><a href="@email" rel="me" class="url">Email</a></li>
+<li><a href="@skype" rel="me" class="url">Skype</a></li>
+<li><a href="@gtalk" rel="me" class="url">gTalk</a></li>
+<li><a href="@mit" class="url">MIT License</a> I release all my open-source code via this license.</li>
+<li><a href="@square" class="url">Square</a> Merchant</li>
+<li><a href="@eventbrite" class="url">Eventbrite</a> Workshops</li>
+<li><a href="@tech.pro" class="url">Tech.Pro</a></li>
+</ul>
+
+<p>
+Kyle Simpson is Head of Curriculum for <a href="http://MakerSquare.com">MakerSquare</a> and an evangelist of the open web. He's passionate about all things JavaScript, writes books, teaches JavaScript, speaks, and contributes to the world of OSS.
+</p>
+
+<p>
+My projects include:
+</p>
+<ul>
+        <li><a href="http://github.com/getify/asynquence">asynquence</a> | promises-based async flow control lib</li>
+        <li><a href="http://github.com/getify/native-promise-only">Native Promise Only</a> | polyfill for ES6 Promises</li>
+        <li><a href="http://h5ive.com">h5ive</a> | thin facade wrappers around native HTML5 JavaScript APIs</li>
+        <li><a href="http://github.com/getify/grips">grips</a> <del>HandlebarJS</del> | Templating Engine</li>
+        <li><a href="http://labjs.com">LABjs</a> | (Loading And Blocking Javascript) load Javascript assets dynamically and in parallel, while still blocking when necessary for dependencies to load first</li>
+</ul>
+
+</div>
+
+</body>
+</html>

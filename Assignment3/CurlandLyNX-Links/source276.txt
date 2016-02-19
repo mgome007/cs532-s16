@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html  xmlns:wb="http://open.weibo.com/wb">
+    <head>
+  <!--站长求伯乐 wechat: 277031037 -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+
+  <title>数据科学家 - 汇聚全球最新数据资讯
+紧跟前沿科技发展步伐</title>
+  <meta name="google-site-verification" content="C8jqMqFn7ZsQVBczOvBl_-Nfl0tvep6tD_VIfIw0FU0" />
+  <meta name="baidu-site-verification" content="xfofiLZjdD" />
+  <meta name="description" content="汇聚全球最新数据资讯
+紧跟前沿科技发展步伐">
+  <link href="/img/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/how-to-code.css">
+  <link rel="canonical" href="http://blog.how-to-code.info/">
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?08ea3e5b88d3697f0b5eec9321160df3";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+
+</head>
+
+    <body>
+            
+            <header class="navbar navbar-inverse navbar-static-top" id="top" role="banner">
+  <div class = "container-fluid">
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#htc-navbar" aria-controls="bs-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">数据科学家</a>
+    </div>
+
+    <nav id="htc-navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li>
+          <a href="/category/dailynews.html">大数据日报</a>
+        </li>
+        <li>
+          <a href="/category/daniu.html">大牛传送门</a>
+        </li>
+        <li>
+          <a href="/category/tools.html">在线工具</a>
+        </li>
+        <li>
+          <a href="/category/other.html">技术资料</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <img src = "/img/logo.png" style = "display:none" />
+
+            <div class = "jumbotron">
+  <div class = "container text-center">
+    <h1>数据科学家</h1>
+    <pre>汇聚全球最新数据资讯
+紧跟前沿科技发展步伐</pre>
+    <p>
+      <a href = "/category/dailynews.html"><span class="label label-success">大数据日报</span></a>
+      <a href = "/category/daniu.html"><span class="label label-info">大牛传送门</span></a>
+      <a href = "/category/other.html"><span class="label label-warning">技术资料</span></a>
+    </p>
+  </div>
+</div>
+<div class = "container-fluid">  
+  <div class = "row">
+    <div class = "col-md-9">
+      
+        <p style = "border-bottom: 1px #DDD solid"><a href="/dailynews/20160218-daily-news.html" style = "padding-right:1em;">2016年02月18日</a>微信订阅号：<a class="text-success" href="#wechat">lovedatasci</a></p>
+        <p id="wwwdatacenterknowledgecomarchives20160218data-center-stocks-rackspace-pivot-to-cloud-support-fails-to-impress-investors" class="bookmark"></p>
+<ul>
+  <li>[Data Center Knowledge] <a href="http://www.datacenterknowledge.com/archives/2016/02/18/data-center-stocks-rackspace-pivot-to-cloud-support-fails-to-impress-investors/">Data Center Stocks: Rackspace Pivot to Cloud Support Fails to Impress Investors</a></li>
+</ul>
+
+<blockquote>
+  <p>From an investor’s point of view, Rackspace Hosting is now operating inuncharted territory, and Mr Market hates uncertaintyFanatical belief in “fanatical support” and anecdotes about the potential ofma …… <a href="http://www.datacenterknowledge.com/archives/2016/02/18/data-center-stocks-rackspace-pivot-to-cloud-support-fails-to-impress-investors/">阅读全文</a></p>
+</blockquote>
+
+<p id="www199itcomarchives440003html" class="bookmark"></p>
+<ul>
+  <li>[199IT数据资讯] <a href="http://www.199it.com/archives/440003.html">电子时报：预计2016年Q1苹果iPad销量为980万台 创2011年以来新低</a></li>
+</ul>
+
+<blockquote>
+  <p>根据台湾电子时报研究数据显示，苹果将在2016年第一季度推出980万台iPad，这可能是自苹果2011年中期推出iPad2以来，最低的季度平板电脑销量。该研究报告称，苹果ipad将占全球平板出货量21%，三星平板电脑将占全球平板出货量14%。如果今年第一季度980万台ipad销量预测正确的话，苹果iPad销量季度环比下降391%，比去年同季度下降20%。苹果上个季度共计售出1612万台iPad，在2 …… <a href="http://www.199it.com/archives/440003.html">阅读全文</a></p>
+</blockquote>
+
+<p id="www199itcomarchives440000html" class="bookmark"></p>
+<ul>
+  <li>[199IT数据资讯] <a href="http://www.199it.com/archives/440000.html">2016年春节中国在线旅游平台出游数据对比</a></li>
+</ul>
+
+<blockquote>
+  <p>根据人民网2月15日报道，2016猴年春节黄金周旅游市场供需两旺，旅游消费规模再创新高。约302亿人次出游，同比增长156%；实现旅游收入约3651亿元，同比增长163%。那么，线上、线下的旅游企业两相对比来看，春节期间，那个年龄段的人是消费主力？女人和男人谁更爱玩？哪个地区的游客花费高？最热门的出境目的地国家和地区？旅游大数据为你一一解读。1、春节出行群体年龄结构对比，8090后逐渐成主角驴妈妈： …… <a href="http://www.199it.com/archives/440000.html">阅读全文</a></p>
+</blockquote>
+
+<p id="www199itcomarchives439995html" class="bookmark"></p>
+<ul>
+  <li>[199IT数据资讯] <a href="http://www.199it.com/archives/439995.html">Consumer Reports：智能手机电池续航排行 Moto Droid Turbo夺冠</a></li>
+</ul>
+
+<blockquote>
+  <p>在当下这个移动时代，大家对于智能机的续航需求也是水涨船高。如果要在市场热门机型中挑选出一款续航表现最持久的智能机，你会选择哪一款呢？好消息是，《消费者报告》（Consumer Reports）已经专门进行了一番评测，并给出了“最佳电池续航规格”的排行。排名榜首的是摩托罗拉的DroidTurbo（BN），该机采用了不可拆卸的3900mAh电池，支持快充和Qi无线充电，连续通话突破24小时。榜单排名第二 …… <a href="http://www.199it.com/archives/439995.html">阅读全文</a></p>
+</blockquote>
+
+<p id="www199itcomarchives439994html" class="bookmark"></p>
+<ul>
+  <li>[199IT数据资讯] <a href="http://www.199it.com/archives/439994.html">如何让移动营销真正起作用？先思考这5大问题</a></li>
+</ul>
+
+<blockquote>
+  <p>智能手机的快速发展，让人们与品牌互动的方式发生了革命性的变化。当越来越多的品牌开始把营销重心转向移动时，新的问题产生了：进入2016年，品牌开展移动营销需先了解哪几大问题。背景是什么预计2016年智能手机仍将继续影响消费者搜索、购物以及与品牌互动的方式。如今消费者做出购买决定，很大程度上受到社交媒体上其他用户的推荐和产品评论的影响。移动用户在持续增长，用户的移动需求也在与日俱增，品牌很有必要适应这一 …… <a href="http://www.199it.com/archives/439994.html">阅读全文</a></p>
+</blockquote>
+
+<p id="www199itcomarchives439983html" class="bookmark"></p>
+<ul>
+  <li>[199IT数据资讯] <a href="http://www.199it.com/archives/439983.html">如何写电商商业计划书——信息图</a></li>
+</ul>
+
+<blockquote>
+  <p>传统企业想要做电商，有人创业做电商。但是在开展之前，亲还是先写份计划书吧！十大要点：1、电商要提供什么产品及服务；2、竞争对手的情况如何；3、渠道怎么建？；4、物流和供应链体系如何解决？5、预算多少，怎么分配……     …… <a href="http://www.199it.com/archives/439983.html">阅读全文</a></p>
+</blockquote>
+
+<p id="www199itcomarchives439989html" class="bookmark"></p>
+<ul>
+  <li>[199IT数据资讯] <a href="http://www.199it.com/archives/439989.html">星岛日报：中国访英游客平均花费2.5万元 且呈逐年上升趋势</a></li>
+</ul>
+
+<blockquote>
+  <p>据欧洲《星岛日报》报道，目前，平均每名中国旅客在英花费2688镑（约25万人民币），数字正逐年上升。随着各种庆新春活动在伦敦、曼城、伯明翰、布里斯托和布莱顿举行，估计今年的访英中国客的活动范围更广。以布莱顿为例，当地的VisitBrighton与东南区旅游局共同推行“GoChina”活动，同时安排中国旅游作家前来英国。HelenaBeard是一个中国出境游的代理，推广中国旅游和英国旅游业。她认为中国 …… <a href="http://www.199it.com/archives/439989.html">阅读全文</a></p>
+</blockquote>
+
+<p id="www199itcomarchives439986html" class="bookmark"></p>
+<ul>
+  <li>[199IT数据资讯] <a href="http://www.199it.com/archives/439986.html">Fami：日本地区销量最大的20款PS 4游戏 《合金装备5》夺冠</a></li>
+</ul>
+
+<blockquote>
+  <p>眼间PS4已经在日本上市整整2年时间，这期间有不少游戏大作发售，那么哪些最得到玩家认可呢？今天，日本游戏媒体Fami通公布了迄今（截止2月7日）日本地区销量最大的20款PS4游戏。其中，在2015年9月才正式发售的《合金装备5：幻痛》以近43万份的销量问鼎冠军。在该系列制作人小岛秀夫与Konami分道扬镳的背景下，这也算是玩家对其最大认可的表现。以下是详细榜单：1、合金装备5：幻痛 – 425971 …… <a href="http://www.199it.com/archives/439986.html">阅读全文</a></p>
+</blockquote>
+
+<p id="www199itcomarchives439979html" class="bookmark"></p>
+<ul>
+  <li>[199IT数据资讯] <a href="http://www.199it.com/archives/439979.html">First Annapolis：2015年美国经常使用Apple Pay的用户比例下降至15%</a></li>
+</ul>
+
+<blockquote>
+  <p>就在苹果Apple Pay登陆中国之际，一份新的研究显示，在美国iPhone用户中，这项手机支付服务的普及速度正在放缓。市场调研公司First Annapolis发现，对iPhone 6手机机主来说，在去年12月至少使用一次ApplePay的用户比例为20%，不及去年春季时的22%。而在所有使用Apple Pay的用户中，表示自己经常使用的人数比例只有15%，亦不及去年春季时的19%。First A …… <a href="http://www.199it.com/archives/439979.html">阅读全文</a></p>
+</blockquote>
+
+<p id="www199itcomarchives439976html" class="bookmark"></p>
+<ul>
+  <li>[199IT数据资讯] <a href="http://www.199it.com/archives/439976.html">CCS Insight：预计2020年VR头盔和AR智能眼镜销量将达9700万个</a></li>
+</ul>
+
+<blockquote>
+  <p>到了2020年，我们将会购买9700万个VR头盔和AR智能眼镜，而同年可穿戴设备总销量为441亿个。上述数据来自英国移动咨询公司CCSInsight的最新可穿戴技术预测报告，报告认为虚拟现实和增强现实将大有作为。CCS Insight预测，到2016年底三星Gear VR、ViewMaster DLXVR等的智能手机VR头盔的销量将达到1300万个，而头戴式设备的总销量预计1500万个，其中有200 …… <a href="http://www.199it.com/archives/439976.html">阅读全文</a></p>
+</blockquote>
+
+<p id="www199itcomarchives439864html" class="bookmark"></p>
+<ul>
+  <li>[199IT数据资讯] <a href="http://www.199it.com/archives/439864.html">『2016年春节人均使用手机流量135.7M』今日数据行业日报（2016.02.18）</a></li>
+</ul>
+
+<blockquote>
+  <p>用户研究   智能设备   硬件产业   创业投资   电子商务   营销广告   中国经济   旅行预订   大数据   生活数据 大数据导航（http:hao199itcom）今日新增医疗数据工具，欢迎访问收藏～     …… <a href="http://www.199it.com/archives/439864.html">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004454531" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004454531">为你的JavaScript代码写测试</a></li>
+</ul>
+
+<blockquote>
+  <p>下面会讲解如何使用 karama, jasmine 以及 webpack，来为我们的 ES6 代码编写测试。  （最后我写了一个可用的例子，请查看  ） 艰难的抉择 首先，我们要写测试，用什么写？自己写一个函数，还是使用某个测试框架？看起来，后者可观一点。 然后，有哪些测试框架可以选择？选哪个？于是，我们 google 之，找到 stackoverflow 的一个问题 。看了问题回答，很纠结，太多了 …… <a href="http://segmentfault.com/a/1190000004454531">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004454399" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004454399">【3】把 Elasticsearch 当数据库使</a></li>
+</ul>
+
+<blockquote>
+  <p>今天需要做一些最简单的聚合查询 COUNTSQL            $ cat  EOF  esquerypy http:127001:9200    select count from quote                                               EOF            {count: 20994400}Elasticsearch         …… <a href="http://segmentfault.com/a/1190000004454399">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004453860" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004453860">Java 实现线程死锁</a></li>
+</ul>
+
+<blockquote>
+  <p>概述春节的时候去面试了一家公司，笔试题里面有一道是使用简单的代码实现线程的‘死锁’，当时没有想到这道题考的是Synchronized关键字，于是自己定义了两个资源模拟了一下。后面想想肠子都悔青了，于是自己在电脑上敲了一遍，同时也是对自己的一个提醒，基础功夫还不够扎实。 Synchronized关键字Java语言的关键字，当它用来修饰一个方法或者一个代码块的时候，能够保证在同一时刻最多只有一个线程执 …… <a href="http://segmentfault.com/a/1190000004453860">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004453750" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004453750">用纯CSS美化radio和checkbox</a></li>
+</ul>
+
+<blockquote>
+  <p>Radio和checkbox需要美化吗？答案是必须的，因为设计风格一直都会变化，原生的样式百年不变肯定满足不了需求。先看看纯CSS美化过后的radio和checkbox效果：。项目地址：在CSS出现之前，我们美化radio和checkbox需要借助JavaScript，最具代表性的就是，它功能强大复杂并且主题很多。icheck这种美化方案很好很强大，但是也有很多缺点：   太重，需要引入JS、CSS …… <a href="http://segmentfault.com/a/1190000004453750">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004453295" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004453295">在同一台服务器上配置app1.domain.com和app2.domain.com多个web应用</a></li>
+</ul>
+
+<blockquote>
+  <p>自己第一次配置nginx，过程中参考。这篇文章就当自己的一个笔记把过程记录下来。 目的有一台阿里云服务器和自己的域名（jackyangme），想要在服务器上部署多个node express应用：blog和game。但是又不希望在访问时通过端口号来区分不同的应用（例如：jackyangme:3000为blog应用，jackyangme:3001为game应用）。那么就可以使用nginx来完成，访问时 …… <a href="http://segmentfault.com/a/1190000004453295">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004453249" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004453249">将footer固定在页面底部的实现方法</a></li>
+</ul>
+
+<blockquote>
+  <p>方法一：footer高度固定绝对定位HTML结构：                header        main content        footer    CSS设置：            html{height:100%;}    body{minheight:100%;margin:0;padding:0;position:relative;}        header{ba …… <a href="http://segmentfault.com/a/1190000004453249">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004452866" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004452866">博客引入漂亮字体二三事</a></li>
+</ul>
+
+<blockquote>
+  <p>最近兴致上来，就想更换了那Blog标题字体汉字的；网上搜索了一番，发现<code class="highlighter-rouge">蘇新詩柳繁體</code>这款甚合我心；然后就着手搞将了起来，分分钟也算是替换了；但，这仅仅是此次折腾的开始；这就细细道来作为学习笔记记载。http:wwwjeffjadecom2015102820151028css3webfont CSS3 @fontface当然要使用自定义字体，就得借助下@fontface：CSS3中的一个模块，他主要 …… <a href="http://segmentfault.com/a/1190000004452866">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004452276" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004452276">使用 Xtrabackup 在线对MySQL做主从复制</a></li>
+</ul>
+
+<blockquote>
+  <p>1 说明 11 xtrabackupmysqldump对于导出10G以下的数据库或几个表，还是适用的，而且更快捷。一旦数据量达到100500G，无论是对原库的压力还是导出的性能，mysqldump就力不从心了。PerconaXtrabackup备份工具，是实现MySQL在线热备工作的不二选择，可进行全量、增量、单表备份和还原。（但当数据量更大时，可能需要考虑分库分表，或使用LVM 快照来加快备份速 …… <a href="http://segmentfault.com/a/1190000004452276">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004451497" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004451497">前端知识普及之HTML</a></li>
+</ul>
+
+<blockquote>
+  <p>本文采用问答模式,目的是深入HTML内部，去学习一些我们不经常关注，但却实实在在存在的problem 文章内容略显装逼，如果大家受不了，请带好护目镜。 什么是Doctype?能吃吗？我想使用过sublime的同学，应该会有一个snippets。              比如已经废弃的 dir标签DOCTYPE  dir    H5  X  XHTML11  X  HTML 401  Transit …… <a href="http://segmentfault.com/a/1190000004451497">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004451493" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004451493">优化你的DOM</a></li>
+</ul>
+
+<blockquote>
+  <p>优化DOM的本质其实就是减少DOM树的重流与重绘。对于重流和重绘的理解，详见《》  优化DOM的结构，无非就是引用保存，动画优化，节点保存，更新节点等基本操作。  曾记得，以前在网上翻阅HTML的时候，很多人都会不约而同儿童的说道，获取到DOM节点后一定要记得保存。否则，下场很难看的。  为什么~为什么~为什么~  我们都知道所谓的js其实是DOM，BOM，ECMA结合的产物。 本来我js挺快的，你 …… <a href="http://segmentfault.com/a/1190000004451493">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004451119" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004451119">小记Linux/UNIX下错删文件恢复</a></li>
+</ul>
+
+<blockquote>
+  <p>一个月前，我的洁癖犯了，想执行<code class="highlighter-rouge">find  name ~ exec rm {} ;</code>清下某目录下由vim生成的~文件，不料漏打了<code class="highlighter-rouge">~</code>，把一些文件删掉了好在有用<code class="highlighter-rouge">git</code>做版本控制，即使<code class="highlighter-rouge">gitindex</code>也被删没了，但也可以通过<code class="highlighter-rouge">gitreset</code>恢复，之后再用<code class="highlighter-rouge">git</code>恢复版本管理中的其他被删文件即可。不料今天二月二号，我又犯二了，被做死历史<code class="highlighter-rouge">find  name  execrm {} ;</code>坑了 …… <a href="http://segmentfault.com/a/1190000004451119">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004451095" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004451095">使用 Promise 封装 FileReader</a></li>
+</ul>
+
+<blockquote>
+  <p>在处理异步的时候是个很好的选择，可以减少嵌套层次，让代码更好读，逻辑更清晰。 将其加入规范，jQuery 30 也修改实现向规范靠拢（）。一些新增元素比如  原生就 “thenable”，不过大多数以往的 API还要依赖回调，这个时候，我们只要将它们重新封装，就能避开嵌套陷阱，享受 Promise 带来的愉悦体验。 Promise 一般用法先来看下 Promise 的一般用法。            …… <a href="http://segmentfault.com/a/1190000004451095">阅读全文</a></p>
+</blockquote>
+
+<p id="segmentfaultcoma1190000004451036" class="bookmark"></p>
+<ul>
+  <li>[segmentfault] <a href="http://segmentfault.com/a/1190000004451036">编写爬虫的一些感想（就是高兴）</a></li>
+</ul>
+
+<blockquote>
+  <p>今天，根据网页的结构，尝试了下如何抓取上的文章。目标很简单：   根据首页上面的文章链接，载入文章，而后将文章的标题和正文（不带图片）抓取下来。   抓取首页上面文章的链接，标题，作者和所属标签。   按标题将文章写入一个<code class="highlighter-rouge">txt</code>格式的文件   将首页上抓取的内容整合起来，制作成格式如下的<code class="highlighter-rouge">Markdown</code>简介。首页的简介格式如下：            文章标题：鲸鱼有鲸语，鲸语有口音     …… <a href="http://segmentfault.com/a/1190000004451036">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwitworldcomarticle3034281big-data-gets-a-new-open-source-project-apache-arrowhtml" class="bookmark"></p>
+<ul>
+  <li>[Big Data News] <a href="http://www.itworld.com/article/3034281/big-data-gets-a-new-open-source-project-apache-arrow.html">Big data gets a new open-source project: Apache Arrow</a></li>
+</ul>
+
+<blockquote>
+  <p><code class="highlighter-rouge"> </code> and have already had a defininginfluence on the world of big data, and now theres yet another Apache projectwith the potential to shape the landscape even further: Apache ArrowThe Apache Software F …… <a href="http://www.itworld.com/article/3034281/big-data-gets-a-new-open-source-project-apache-arrow.html">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwdatacenterknowledgecomarchives20160218building-the-next-gen-it-management-infrastructure" class="bookmark"></p>
+<ul>
+  <li>[Data Center Knowledge] <a href="http://www.datacenterknowledge.com/archives/2016/02/18/building-the-next-gen-it-management-infrastructure/">Building the Next-Gen IT Management Infrastructure</a></li>
+</ul>
+
+<blockquote>
+  <p>Deep Bhattacharjee  ZeroStackDeep Bhattacharjee is Head of Product Management at ZeroStackCloud native apps are now being built using distributed systems, clusteringand builtin fault tolerance so that  …… <a href="http://www.datacenterknowledge.com/archives/2016/02/18/building-the-next-gen-it-management-infrastructure/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwinfoqcomcnarticlesmachine-learning-with-spark-book-review" class="bookmark"></p>
+<ul>
+  <li>[info Q] <a href="http://www.infoq.com/cn/articles/machine-learning-with-spark-book-review">《Machine Learning with Spark》书评与作者访谈</a></li>
+</ul>
+
+<blockquote>
+  <p>…… <a href="http://www.infoq.com/cn/articles/machine-learning-with-spark-book-review">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwdatacenterknowledgecomarchives20160218facebook-open-sources-data-center-network-fault-detection-tools" class="bookmark"></p>
+<ul>
+  <li>[Data Center Knowledge] <a href="http://www.datacenterknowledge.com/archives/2016/02/18/facebook-open-sources-data-center-network-fault-detection-tools/">Facebook Open Sources Data Center Network Fault Detection Tools</a></li>
+</ul>
+
+<blockquote>
+  <p>Several years ago Facebook shut down an entire data center to test theresiliency of its application According to Jay Parikh, the company’s head ofengineering, the test went smoothly The data center goi …… <a href="http://www.datacenterknowledge.com/archives/2016/02/18/facebook-open-sources-data-center-network-fault-detection-tools/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwdatacenterknowledgecomarchives20160218microsoft-builds-on-red-hat-momentum-with-more-open-source-love" class="bookmark"></p>
+<ul>
+  <li>[Data Center Knowledge] <a href="http://www.datacenterknowledge.com/archives/2016/02/18/microsoft-builds-on-red-hat-momentum-with-more-open-source-love/">Microsoft Builds on Red Hat Momentum with More Open Source Love</a></li>
+</ul>
+
+<blockquote>
+  <p>By Talkin’ CloudMicrosoft made a number of cloudrelated announcements on Wednesday, one ofwhich builds on Microsoft and Red Hat customers can now deploy Red Hat Enterprise Linuxinstances from the Azure …… <a href="http://www.datacenterknowledge.com/archives/2016/02/18/microsoft-builds-on-red-hat-momentum-with-more-open-source-love/">阅读全文</a></p>
+</blockquote>
+
+<p id="swwwthemarketingtechnologistcoa-recommendation-system-for-blogs-content-based-similarity-part-2" class="bookmark"></p>
+<ul>
+  <li>[The Marketing Technologist] <a href="https://www.themarketingtechnologist.co/a-recommendation-system-for-blogs-content-based-similarity-part-2/">A recommendation system for blogs: Content-based similarity (part 2)</a></li>
+</ul>
+
+<blockquote>
+  <p>…… <a href="https://www.themarketingtechnologist.co/a-recommendation-system-for-blogs-content-based-similarity-part-2/">阅读全文</a></p>
+</blockquote>
+
+<p id="swwwthemarketingtechnologistcobuilding-a-recommendation-engine-for-geek-setting-up-the-prerequisites-13" class="bookmark"></p>
+<ul>
+  <li>[The Marketing Technologist] <a href="https://www.themarketingtechnologist.co/building-a-recommendation-engine-for-geek-setting-up-the-prerequisites-13/">A recommendation system for blogs: Setting up the prerequisites (part 1)</a></li>
+</ul>
+
+<blockquote>
+  <p>…… <a href="https://www.themarketingtechnologist.co/building-a-recommendation-engine-for-geek-setting-up-the-prerequisites-13/">阅读全文</a></p>
+</blockquote>
+
+<p id="swwwthemarketingtechnologistcoprogress-timer-in-python" class="bookmark"></p>
+<ul>
+  <li>[The Marketing Technologist] <a href="https://www.themarketingtechnologist.co/progress-timer-in-python/">Is there time for coffee? Your execution time is ticking in Python!</a></li>
+</ul>
+
+<blockquote>
+  <p>…… <a href="https://www.themarketingtechnologist.co/progress-timer-in-python/">阅读全文</a></p>
+</blockquote>
+
+<p id="swwwthemarketingtechnologistcoslashception-with-regexp_extract-in-hive" class="bookmark"></p>
+<ul>
+  <li>[The Marketing Technologist] <a href="https://www.themarketingtechnologist.co/slashception-with-regexp_extract-in-hive/">Slashception with regexp_extract in Hive</a></li>
+</ul>
+
+<blockquote>
+  <p>…… <a href="https://www.themarketingtechnologist.co/slashception-with-regexp_extract-in-hive/">阅读全文</a></p>
+</blockquote>
+
+<p id="swwwthemarketingtechnologistcothe-gam-approach-to-spend-your-money-more-efficiently" class="bookmark"></p>
+<ul>
+  <li>[The Marketing Technologist] <a href="https://www.themarketingtechnologist.co/the-gam-approach-to-spend-your-money-more-efficiently/">The GAM approach to spend your money more efficiently!</a></li>
+</ul>
+
+<blockquote>
+  <p>…… <a href="https://www.themarketingtechnologist.co/the-gam-approach-to-spend-your-money-more-efficiently/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwonalyticacomblogpostsiot-2016-top-100-influencers-and-brands" class="bookmark"></p>
+<ul>
+  <li>[Onalytica] <a href="http://www.onalytica.com/blog/posts/iot-2016-top-100-influencers-and-brands/">IoT 2016: Top 100 Influencers and Brands</a></li>
+</ul>
+
+<blockquote>
+  <p>The Internet of Things IoT is the term used to describe the networking ofphysical objects, such as consumer electronic devices, vehicles, buildings,air conditioners, heating systems and other items The …… <a href="http://www.onalytica.com/blog/posts/iot-2016-top-100-influencers-and-brands/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwonalyticacomblogpostssuper-bowl-50-top-100-influencers-and-brands" class="bookmark"></p>
+<ul>
+  <li>[Onalytica] <a href="http://www.onalytica.com/blog/posts/super-bowl-50-top-100-influencers-and-brands/">The Super Bowl 50: Top 100 Influencers and Brands</a></li>
+</ul>
+
+<blockquote>
+  <p>Sunday 7th February 2016 saw one of the biggest sporting events in the worldtake place, the Super Bowl, where the Denver Broncos took on the CarolinaPanthers at the Levi’s Stadium, in Santa Clara, Cali …… <a href="http://www.onalytica.com/blog/posts/super-bowl-50-top-100-influencers-and-brands/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwonalyticacomblogpostshow-engaging-with-influencers-can-boost-your-content-marketing" class="bookmark"></p>
+<ul>
+  <li>[Onalytica] <a href="http://www.onalytica.com/blog/posts/how-engaging-with-influencers-can-boost-your-content-marketing/">How Engaging With Influencers Can Boost Your Content Marketing</a></li>
+</ul>
+
+<blockquote>
+  <p>If you think you moved a giant rock by developing your content, well now youhave to move a mountain to market it Brands create a lot of content and postit on their owned media channels, be it their web …… <a href="http://www.onalytica.com/blog/posts/how-engaging-with-influencers-can-boost-your-content-marketing/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwonalyticacomblogpoststhe-super-bowl-top-50-uk-influencers" class="bookmark"></p>
+<ul>
+  <li>[Onalytica] <a href="http://www.onalytica.com/blog/posts/the-super-bowl-top-50-uk-influencers/">The Super Bowl: Top 50 UK Influencers</a></li>
+</ul>
+
+<blockquote>
+  <p>This Sunday 7th February 2016 sees one of the biggest sporting events in theworld take place, the Super Bowl The Denver Broncos will take on the CarolinaPanthers at the Levi’s Stadium, in Santa Clara,  …… <a href="http://www.onalytica.com/blog/posts/the-super-bowl-top-50-uk-influencers/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwonalyticacomblogpostsbig-data-2016-top-100-influencers-and-brands" class="bookmark"></p>
+<ul>
+  <li>[Onalytica] <a href="http://www.onalytica.com/blog/posts/big-data-2016-top-100-influencers-and-brands/">Big Data 2016: Top 100 Influencers and Brands</a></li>
+</ul>
+
+<blockquote>
+  <p>The Big Data technology and services market is one of the fastest growing,multibillion dollar industries in the world This market is expected to growat a 264% compound annual growth rate to billion thr …… <a href="http://www.onalytica.com/blog/posts/big-data-2016-top-100-influencers-and-brands/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwonalyticacomblogpoststackling-obesity-top-100-influencers-and-brands" class="bookmark"></p>
+<ul>
+  <li>[Onalytica] <a href="http://www.onalytica.com/blog/posts/tackling-obesity-top-100-influencers-and-brands/">Tackling Obesity: Top 100 Influencers and Brands</a></li>
+</ul>
+
+<blockquote>
+  <p>Obesity worldwide has more than doubled since Thefundamental cause of obesity is an energy imbalance between calories consumedand calories expended Globally, there has been an increased intake of energ …… <a href="http://www.onalytica.com/blog/posts/tackling-obesity-top-100-influencers-and-brands/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwonalyticacomblogpostscloud-top-100-influencers-and-brands-for-2016" class="bookmark"></p>
+<ul>
+  <li>[Onalytica] <a href="http://www.onalytica.com/blog/posts/cloud-top-100-influencers-and-brands-for-2016/">Cloud: Top 100 Influencers and Brands for 2016</a></li>
+</ul>
+
+<blockquote>
+  <p>Cloud storage is the solution to the ever increasing demand for accessing dataanywhere, from any device In 2015 we uncovered the top 100 cloud influencersand brands in our , and wewere keen to revisit  …… <a href="http://www.onalytica.com/blog/posts/cloud-top-100-influencers-and-brands-for-2016/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwonalyticacomblogpostsces-2016-top-100-influencers-and-brands" class="bookmark"></p>
+<ul>
+  <li>[Onalytica] <a href="http://www.onalytica.com/blog/posts/ces-2016-top-100-influencers-and-brands/">CES 2016: Top 100 Influencers and Brands</a></li>
+</ul>
+
+<blockquote>
+  <p>CES 2016, the annual Consumer Electronics Show in Las Vegas, took place fromthe 6th9th January All the big tech brands, and a lot of new tech startupsas well, were there to showcase the best technology …… <a href="http://www.onalytica.com/blog/posts/ces-2016-top-100-influencers-and-brands/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwonalyticacomblogposts5-predictions-for-influencer-marketing-in-2016" class="bookmark"></p>
+<ul>
+  <li>[Onalytica] <a href="http://www.onalytica.com/blog/posts/5-predictions-for-influencer-marketing-in-2016/">5 Predictions for Influencer Marketing in 2016</a></li>
+</ul>
+
+<blockquote>
+  <p>Influencer marketing now makes up a significant part of marketing budgets andaccording to a report by , 59% of marketers have plans toincrease their influencer marketing budget in 2016 ofmarketing prof …… <a href="http://www.onalytica.com/blog/posts/5-predictions-for-influencer-marketing-in-2016/">阅读全文</a></p>
+</blockquote>
+
+<p id="wwwonalyticacomblogpostshealth-and-fitness-top-100-influencers-and-brands" class="bookmark"></p>
+<ul>
+  <li>[Onalytica] <a href="http://www.onalytica.com/blog/posts/health-and-fitness-top-100-influencers-and-brands/">Health and Fitness: Top 100 Influencers and Brands</a></li>
+</ul>
+
+<blockquote>
+  <p>Health and fitness bloggers took social media by storm in 2015, writing aboutfitness plans, workout routines, alternative diets and of course theincreasingly popular phenomenon of avocado on toast It i …… <a href="http://www.onalytica.com/blog/posts/health-and-fitness-top-100-influencers-and-brands/">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideaspredictive-modeling-striking-a-balance-between-accuracy-and-interpretability" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/predictive-modeling-striking-a-balance-between-accuracy-and-interpretability">Predictive modeling: Striking a balance between accuracy and interpretability</a></li>
+</ul>
+
+<blockquote>
+  <p>Predictive modeling: Striking a balance between accuracy andinterpretabilityTips for using machine learning models in regulated industriesBy February 11, 2016 Balancesource: Editors note: Register for …… <a href="https://www.oreilly.com/ideas/predictive-modeling-striking-a-balance-between-accuracy-and-interpretability">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasdelivering-data-as-you-like-it-with-self-service" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/delivering-data-as-you-like-it-with-self-service">Delivering data “as you like it” with self-service</a></li>
+</ul>
+
+<blockquote>
+  <p>Delivering data “as you like it” with selfserviceCollaboration and preparation are keyBy February 9, 2016 Prince Carol I handing over the flags ofthe Civic Guard  source: When organizations seek the b …… <a href="https://www.oreilly.com/ideas/delivering-data-as-you-like-it-with-self-service">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasis-my-developer-team-ready-for-big-data" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/is-my-developer-team-ready-for-big-data">Is my developer team ready for big data?</a></li>
+</ul>
+
+<blockquote>
+  <p>Is my developer team ready for big data?A business leader’s guide to beginning the big data journeyBy February 4, 2016 The HighlandShepherd, 1859  source: Editor’s note: On March 1516, 2016, Jesse And …… <a href="https://www.oreilly.com/ideas/is-my-developer-team-ready-for-big-data">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasinsightful-applications-the-next-inflection-in-big-data" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/insightful-applications-the-next-inflection-in-big-data">Insightful applications: The next inflection in big data</a></li>
+</ul>
+
+<blockquote>
+  <p>Insightful applications: The next inflection in big dataOne investor’s retrospective of data analytics over the last 25 yearsBy February 2, 2016 Timeline of lighting technologysource: Editor’s note: T …… <a href="https://www.oreilly.com/ideas/insightful-applications-the-next-inflection-in-big-data">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasdrowning-in-data-starved-for-insight" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/drowning-in-data-starved-for-insight">Drowning in data, starved for insight</a></li>
+</ul>
+
+<blockquote>
+  <p>Drowning in data, starved for insightWorth a billion dollars? The proof of the press release is in the dataexhaustBy February 2, 2016 Steam Phase eruption of Castle geyserwith double rainbow  source:  …… <a href="https://www.oreilly.com/ideas/drowning-in-data-starved-for-insight">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasdistributed-systems-require-clarity-control-and-capacity" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/distributed-systems-require-clarity-control-and-capacity">Distributed systems performance solutions require real-time intelligence</a></li>
+</ul>
+
+<blockquote>
+  <p>Distributed systems performance solutions require realtime intelligenceThe O’Reilly Podcast: Pepperdata CEO Sean Suchter discusses why todays bestpractices fall shortBy February 2, 2016 Selenite clust …… <a href="https://www.oreilly.com/ideas/distributed-systems-require-clarity-control-and-capacity">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasapproaching-big-data-from-a-business-perspective" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/approaching-big-data-from-a-business-perspective">Approaching big data from a business perspective</a></li>
+</ul>
+
+<blockquote>
+  <p>Approaching big data from a business perspectiveThe O’Reilly Podcast: Ben Sharma on the business value of realtime data, thedata lake, and sentiment analysisBy January 25, 2016 Sagano Bamboo Forest, A …… <a href="https://www.oreilly.com/ideas/approaching-big-data-from-a-business-perspective">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasthe-world-beyond-batch-streaming-102" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/the-world-beyond-batch-streaming-102">The world beyond batch: Streaming 102</a></li>
+</ul>
+
+<blockquote>
+  <p>The world beyond batch: Streaming 102The what, where, when, and how of unbounded data processingBy January 20, 2016 Boatmen on the Missouriby George Caleb Bingham  source: Editors note: This is the se …… <a href="https://www.oreilly.com/ideas/the-world-beyond-batch-streaming-102">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideastransactional-streaming-if-you-can-compute-it-you-can-probably-stream-it" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/transactional-streaming-if-you-can-compute-it-you-can-probably-stream-it">Transactional streaming: If you can compute it, you can probably stream it</a></li>
+</ul>
+
+<blockquote>
+  <p>Transactional streaming: If you can compute it, you can probably stream itIn the race to pair streaming systems with stateful systems, the real winnerswill be stateful systems that process streams nat …… <a href="https://www.oreilly.com/ideas/transactional-streaming-if-you-can-compute-it-you-can-probably-stream-it">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasstreaming-data-stream-processing-information" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/streaming-data-stream-processing-information">Streaming data + stream processing = information</a></li>
+</ul>
+
+<blockquote>
+  <p>Streaming data  stream processing  informationJohn Hugg discusses the business payoffs of stream processing withtransactionsJanuary 14, 2016 Hukou Waterfall of Yellow River, Chinasource: In this O’Rei …… <a href="https://www.oreilly.com/ideas/streaming-data-stream-processing-information">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideaseducating-data" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/educating-data">Educating data</a></li>
+</ul>
+
+<blockquote>
+  <p>Educating dataUsing data science to improve learning, motivation, and persistenceBy January 11, 2016The use of largescale and new, emerging sources of data to make betterdecisions has taken hold in in …… <a href="https://www.oreilly.com/ideas/educating-data">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideaswhere-should-you-put-your-data-scientists" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/where-should-you-put-your-data-scientists">Where should you put your data scientists?</a></li>
+</ul>
+
+<blockquote>
+  <p>Where should you put your data scientists?Standalone, embedded, or integrated teams? It depends on what you valueBy January 7, 2016 Detail photo of the tailored fiberplacment process  source: Editors  …… <a href="https://www.oreilly.com/ideas/where-should-you-put-your-data-scientists">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasi-heart-logs-realtime-stream-processing" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/i-heart-logs-realtime-stream-processing">Logs and real-time stream processing</a></li>
+</ul>
+
+<blockquote>
+  <p>Logs and realtime stream processingChapter 3 from I Heart LogsBy January 6, 2016Pair of Strutting Birds Dance a Jig  source: This is Chapter 3 from , by Jay KrepsSo far, I have only described what amo …… <a href="https://www.oreilly.com/ideas/i-heart-logs-realtime-stream-processing">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideashow-to-think-like-a-data-scientist" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/how-to-think-like-a-data-scientist">How to think like a data scientist</a></li>
+</ul>
+
+<blockquote>
+  <p>How to think like a data scientistUsing induction to test your hypothesesBy December 22, 2015b2d796313e8b7657604c61b615eedb8ajpg Stator of induction motorsource: jpg?Data science is about finding sign …… <a href="https://www.oreilly.com/ideas/how-to-think-like-a-data-scientist">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasdata-scientists-generalists-or-specialists" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/data-scientists-generalists-or-specialists">Data Scientists: Generalists or specialists?</a></li>
+</ul>
+
+<blockquote>
+  <p>Data Scientists: Generalists or specialists?The answer depends on your company’s stage of maturityBy December 17, 2015 Chess KnightsIn Battle  source: Editors note: This is the second in a threepart s …… <a href="https://www.oreilly.com/ideas/data-scientists-generalists-or-specialists">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideascausality-and-data-science" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/causality-and-data-science">Causality and data science</a></li>
+</ul>
+
+<blockquote>
+  <p>Causality and data scienceWhen using data to find causes, what assumptions must you make and why do theymatter?By December 14, 2015 An example of simulated data modeled forthe CMS particle detector on …… <a href="https://www.oreilly.com/ideas/causality-and-data-science">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasexploring-the-process-of-insight-generation" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/exploring-the-process-of-insight-generation">Exploring the process of insight generation</a></li>
+</ul>
+
+<blockquote>
+  <p>Exploring the process of insight generationTrue insights require a measurable action plan and domain knowledgeBy November 24, 2015 Nellis SolarPower Plant  source: The more I think about the concept o …… <a href="https://www.oreilly.com/ideas/exploring-the-process-of-insight-generation">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasmachine-learning-in-the-wild" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/machine-learning-in-the-wild">Machine learning in the wild</a></li>
+</ul>
+
+<blockquote>
+  <p>Machine learning in the wildA bridge between robust control and reinforcement learningBy November 24, 2015 Owachomo bridge in Natural BridgesNational Monument  source:  The following interview is one  …… <a href="https://www.oreilly.com/ideas/machine-learning-in-the-wild">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasbig-science-problems-big-data-solutions" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/big-science-problems-big-data-solutions">Big science problems, big data solutions</a></li>
+</ul>
+
+<blockquote>
+  <p>Big science problems, big data solutionsHow Lawrence Berkeley National Lab’s supercomputing center is tackling 10 dataanalytics problems across the sciencesBy November 10, 2015d1aa13465983d8330417ca01 …… <a href="https://www.oreilly.com/ideas/big-science-problems-big-data-solutions">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasspanning-the-stages-of-data-analytics" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/spanning-the-stages-of-data-analytics">Spanning the stages of data analytics</a></li>
+</ul>
+
+<blockquote>
+  <p>Spanning the stages of data analyticsSharing metadata is key to managing the data pipelineBy November 4, 2015 Pontdu Gard, Roman Empire, October 2007  source: Sites that run analytics tend to divide t …… <a href="https://www.oreilly.com/ideas/spanning-the-stages-of-data-analytics">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasevolutionary-computation-stepping-stones-and-unexpected-solutions" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/evolutionary-computation-stepping-stones-and-unexpected-solutions">Evolutionary computation: Stepping stones and unexpected solutions</a></li>
+</ul>
+
+<blockquote>
+  <p>Evolutionary computation: Stepping stones and unexpected solutionsAn interview with Risto MiikkulainenBy October 23, 2015 Meander pavement in the streets ofRhodes  source:  The followinginterview is o …… <a href="https://www.oreilly.com/ideas/evolutionary-computation-stepping-stones-and-unexpected-solutions">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasbeyond-algorithms-optimizing-the-search-experience" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/beyond-algorithms-optimizing-the-search-experience">Beyond algorithms: Optimizing the search experience</a></li>
+</ul>
+
+<blockquote>
+  <p>Beyond algorithms: Optimizing the search experienceMaking search smarter through better humancomputer interactionBy October 13, 2015 A woman posed with aHollerith pantograph: the keyboard is for the 1 …… <a href="https://www.oreilly.com/ideas/beyond-algorithms-optimizing-the-search-experience">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideashow-intelligent-data-platforms-are-powering-smart-cities" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/how-intelligent-data-platforms-are-powering-smart-cities">How intelligent data platforms are powering smart cities</a></li>
+</ul>
+
+<blockquote>
+  <p>How intelligent data platforms are powering smart citiesSmart cities and smart nations run on dataBy October 13, 2015 Marina Bay and the skyline of the Central Business District ofSingapore at dusk, b …… <a href="https://www.oreilly.com/ideas/how-intelligent-data-platforms-are-powering-smart-cities">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideaswe-need-open-and-vendor-neutral-metadata-services" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/we-need-open-and-vendor-neutral-metadata-services">We need open and vendor-neutral metadata services</a></li>
+</ul>
+
+<blockquote>
+  <p>We need open and vendorneutral metadata servicesComprehensive metadata collection and analysis can pave the way for manyinteresting applicationsBy October 12, 2015 Orinoco, Meta Rivers, Colombia and V …… <a href="https://www.oreilly.com/ideas/we-need-open-and-vendor-neutral-metadata-services">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasspecialized-and-hybrid-data-management-and-processing-engines" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/specialized-and-hybrid-data-management-and-processing-engines">Specialized and hybrid data management and processing engines</a></li>
+</ul>
+
+<blockquote>
+  <p>Specialized and hybrid data management and processing enginesA new crop of interesting solutions for the complexity of operating multiplesystems in a distributed computing settingBy October 1, 2015Shi …… <a href="https://www.oreilly.com/ideas/specialized-and-hybrid-data-management-and-processing-engines">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideastransforming-the-experience-of-sound-and-music" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/transforming-the-experience-of-sound-and-music">Transforming the experience of sound and music</a></li>
+</ul>
+
+<blockquote>
+  <p>Transforming the experience of sound and musicThe OReilly Radar Podcast: Poppy Crum on sensory perception, algorithmdesign, and fundamental changes in musicBy October 1, 2015 Part ofthe soundboard or  …… <a href="https://www.oreilly.com/ideas/transforming-the-experience-of-sound-and-music">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasimproving-corporate-planning-through-insight-generation" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/improving-corporate-planning-through-insight-generation">Improving corporate planning through insight generation</a></li>
+</ul>
+
+<blockquote>
+  <p>Improving corporate planning through insight generationData storage and management providers are becoming key contributors forinsight as a serviceBy September 24, 2015 Nikola Tesla, with his equipment …… <a href="https://www.oreilly.com/ideas/improving-corporate-planning-through-insight-generation">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideas2015-data-science-salary-survey" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/2015-data-science-salary-survey">2015 Data Science Salary Survey</a></li>
+</ul>
+
+<blockquote>
+  <p>2015 Data Science Salary SurveyTools, trends, what pays and what doesn’t for data professionalsBy September 23, 2015 Executive SummaryNow in its third edition, the 2015 version of the Data Science Sal …… <a href="https://www.oreilly.com/ideas/2015-data-science-salary-survey">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasdata-science-salary-survey-highlight-post" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/data-science-salary-survey-highlight-post">Uncovering patterns in data science tools, tasks, and compensation</a></li>
+</ul>
+
+<blockquote>
+  <p>Uncovering patterns in data science tools, tasks, and compensationThe 2015 Data Science Salary Survey reveals insights for data professionalsBy September 23, 2015 Newlibrary of Sainte Geneviève Paris, …… <a href="https://www.oreilly.com/ideas/data-science-salary-survey-highlight-post">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideashow-advanced-analytics-are-impacting-sports" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/how-advanced-analytics-are-impacting-sports">How advanced analytics are impacting sports</a></li>
+</ul>
+
+<blockquote>
+  <p>How advanced analytics are impacting sportsThe expanding role of data analytics in a trilliondollar industryBy September 22, 2015 Baseball PlayersPracticing, watercolor, by the American artist Thomas  …… <a href="https://www.oreilly.com/ideas/how-advanced-analytics-are-impacting-sports">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasold-school-drm-and-new-school-analytics" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/old-school-drm-and-new-school-analytics">Old-school DRM and new-school analytics</a></li>
+</ul>
+
+<blockquote>
+  <p>Oldschool DRM and newschool analyticsPiracy isn’t the threat; it’s centuries old Music Science is the gamechangerBy September 21, 2015 Derjunge Mozart am Spinett  source:  by Alistair Croll, tolearn m …… <a href="https://www.oreilly.com/ideas/old-school-drm-and-new-school-analytics">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideas2016-data-science-salary-survey" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/2016-data-science-salary-survey">2016 Data Science Salary Survey</a></li>
+</ul>
+
+<blockquote>
+  <p>2016 Data Science Salary SurveyAs a data professional, you are invited to share your valuable insights Helpus gain insight into the demographics, work environments, tools, andcompensation of practitio …… <a href="https://www.oreilly.com/ideas/2016-data-science-salary-survey">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasthe-music-science-trifecta" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/the-music-science-trifecta">The music science trifecta</a></li>
+</ul>
+
+<blockquote>
+  <p>The music science trifectaDigital content, the Internet, and data science have changed the musicindustryBy September 10, 2015 Timecoded vinylrecord  source:  byAlistair Croll, to learn more about musi …… <a href="https://www.oreilly.com/ideas/the-music-science-trifecta">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasdata-and-social-good" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/data-and-social-good">Data and social good</a></li>
+</ul>
+
+<blockquote>
+  <p>Data and social goodUsing data science to improve lives, fight injustice, and support democracyBy August 14, 2015Several years ago, large management consulting firms began describing data asthe “new o …… <a href="https://www.oreilly.com/ideas/data-and-social-good">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasgraphs-in-the-world-modeling-systems-as-networks" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/graphs-in-the-world-modeling-systems-as-networks">Graphs in the world: Modeling systems as networks</a></li>
+</ul>
+
+<blockquote>
+  <p>Graphs in the world: Modeling systems as networksSee, extract, and create value with networksBy June 30, 2015 Dancing in theStreets  source: Networks of all kinds drive the modern world You can build  …… <a href="https://www.oreilly.com/ideas/graphs-in-the-world-modeling-systems-as-networks">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasdata-science-in-the-cloud-with-microsoft-azure-machine-learning-and-r" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/data-science-in-the-cloud-with-microsoft-azure-machine-learning-and-r">Data Science in the Cloud with Microsoft Azure Machine Learning and R</a></li>
+</ul>
+
+<blockquote>
+  <p>Data Science in the Cloud with Microsoft Azure Machine Learning and RThis report covers the basics of manipulating data, as well as constructingand evaluating models in Azure ML, illustrated with a da …… <a href="https://www.oreilly.com/ideas/data-science-in-the-cloud-with-microsoft-azure-machine-learning-and-r">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasanalyzing-the-analyzers" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/analyzing-the-analyzers">Analyzing the Analyzers</a></li>
+</ul>
+
+<blockquote>
+  <p>Analyzing the AnalyzersAn Introspective Survey of Data Scientists and Their WorkBy May 4, 2015 Addresses andpapers  source:  IntroductionBinita, Chao, Dmitri, and Rebecca are data scientists What does …… <a href="https://www.oreilly.com/ideas/analyzing-the-analyzers">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideashow-data-science-is-transforming-health-care" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/how-data-science-is-transforming-health-care">How Data Science Is Transforming Health Care</a></li>
+</ul>
+
+<blockquote>
+  <p>How Data Science Is Transforming Health CareExplore how data analysis will help us structure the business of health caremore effectively around outcomes, and personalize medicine for each specificpati …… <a href="https://www.oreilly.com/ideas/how-data-science-is-transforming-health-care">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideasbuilding-data-science-teams" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/building-data-science-teams">Building data science teams</a></li>
+</ul>
+
+<blockquote>
+  <p>Building data science teamsData science teams need people with the skills and curiosity to ask the bigquestionsBy March 5, 2015 RomanCampagne Malaria Commission  source:  Building Data Science TeamsSt …… <a href="https://www.oreilly.com/ideas/building-data-science-teams">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideaswhy-the-data-center-needs-an-operating-system" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/why-the-data-center-needs-an-operating-system">Why the data center needs an operating system</a></li>
+</ul>
+
+<blockquote>
+  <p>Why the data center needs an operating systemIt’s time for applications — not servers — to rule the data centerBy December 3, 2014 Ad Reinhardt:Abstraction 193944  source: Developers today are buildin …… <a href="https://www.oreilly.com/ideas/why-the-data-center-needs-an-operating-system">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideas2014-data-science-salary-survey" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/2014-data-science-salary-survey">2014 Data Science Salary Survey</a></li>
+</ul>
+
+<blockquote>
+  <p>2014 Data Science Salary SurveyTools, trends, what pays and what doesnt for data professionalsBy November 1, 2014 Dollar Bill Crop Executive SummaryFor the second year, O’Reilly Media conducted an ano …… <a href="https://www.oreilly.com/ideas/2014-data-science-salary-survey">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideas2013-data-science-salary-survey" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/2013-data-science-salary-survey">2013 Data Science Salary Survey</a></li>
+</ul>
+
+<blockquote>
+  <p>2013 Data Science Salary SurveyTools, Trends, What Pays and What Doesnt for Data ProfessionalsBy May 4, 2013 DollarBill Crop 2013 Data Science Salary Survey Executive SummaryO’Reilly Media conducted a …… <a href="https://www.oreilly.com/ideas/2013-data-science-salary-survey">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideaswhat-is-hadoop" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/what-is-hadoop">Hadoop: What it is, how it works, and what it can do</a></li>
+</ul>
+
+<blockquote>
+  <p>Hadoop: What it is, how it works, and what it can doCloudera CEO Mike Olson on Hadoops architecture and its data applicationsBy January 12, 2011 FurnishingTextile LACMA  source:  gets a lot ofbuzz the …… <a href="https://www.oreilly.com/ideas/what-is-hadoop">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomideaswhat-is-data-science" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/ideas/what-is-data-science">What is data science?</a></li>
+</ul>
+
+<blockquote>
+  <p>What is data science?The future belongs to the companies and people that turn data into productsBy June 2, 2010 Maps are data made into a productsource: We’ve all heard it: according to Hal Varian,  F …… <a href="https://www.oreilly.com/ideas/what-is-data-science">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomlearningbuilding-data-science-teams-preparing-your-organization" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/learning/building-data-science-teams-preparing-your-organization">Building data science teams: Preparing your organization</a></li>
+</ul>
+
+<blockquote>
+  <p>Building data science teams: Preparing your organizationHow should you prepare when assembling and integrating a data science teaminto your organization? In this video training segment, Paco Nathan of …… <a href="https://www.oreilly.com/learning/building-data-science-teams-preparing-your-organization">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomlearninghandling-missing-data" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/learning/handling-missing-data">Handling missing data</a></li>
+</ul>
+
+<blockquote>
+  <p>Handling missing dataPython Data Science Handbook: Early ReleaseBy August 3, 2015 Not a numberThe difference between data found in many tutorials and data in the real worldis that realworld data is ra …… <a href="https://www.oreilly.com/learning/handling-missing-data">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomlearningoperations-in-pandas" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/learning/operations-in-pandas">Operations in Pandas</a></li>
+</ul>
+
+<blockquote>
+  <p>Operations in PandasPython Data Science Handbook: Early ReleaseBy July 27, 2015 Pandas operationsOne of the essential pieces of NumPy is the ability to perform quickelementwise operations, both with b …… <a href="https://www.oreilly.com/learning/operations-in-pandas">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomlearningdata-indexing-and-selection" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/learning/data-indexing-and-selection">Data Indexing and Selection</a></li>
+</ul>
+
+<blockquote>
+  <p>Data Indexing and SelectionPython Data Science Handbook: Early ReleaseBy July 20, 2015 Pandas indexing tableIn the previous chapter, we looked in detail at methods and tools to access,set, and modify  …… <a href="https://www.oreilly.com/learning/data-indexing-and-selection">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomlearningintroducing-pandas-objects" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/learning/introducing-pandas-objects">Introducing Pandas Objects</a></li>
+</ul>
+
+<blockquote>
+  <p>Introducing Pandas ObjectsPython Data Science Handbook: Early ReleaseBy July 13, 2015 Pandas tableAt the very basic level, Pandas objects can be thought of as enhanced versionsof NumPy structured arra …… <a href="https://www.oreilly.com/learning/introducing-pandas-objects">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomlearningintroduction-to-pandas" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/learning/introduction-to-pandas">Preface to Python Data Science Handbook (Early Release)</a></li>
+</ul>
+
+<blockquote>
+  <p>Preface to Python Data Science Handbook Early ReleasePython Data Science Handbook: Early ReleaseBy July 6, 2015 What Is Data Science?This is a book about doing data science with Python, which immediat …… <a href="https://www.oreilly.com/learning/introduction-to-pandas">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomlearningpivot-tables" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/learning/pivot-tables">Pivot Tables in Python</a></li>
+</ul>
+
+<blockquote>
+  <p>Pivot Tables in PythonPivot tables are an incredibly handy tool for exploring tabular data Thisexcerpt from the Python Data Science Handbook Early Release shows how to usethe elegant pivot table featu …… <a href="https://www.oreilly.com/learning/pivot-tables">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomlearningdata-science-at-the-command-line" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/learning/data-science-at-the-command-line">Data Science at the Command Line</a></li>
+</ul>
+
+<blockquote>
+  <p>Data Science at the Command LineWhether youre entirely new to the command line or already dreaming in shellscripts, by the end of this webcast you will have a solid understanding of howto leverage the …… <a href="https://www.oreilly.com/learning/data-science-at-the-command-line">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomlearningdata-science-from-scratch" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/learning/data-science-from-scratch">Data Science from Scratch</a></li>
+</ul>
+
+<blockquote>
+  <p>Data Science from ScratchToday’s messy glut of data holds answers to questions no one’s even thought toaskBy May 4, 2015 A Crash Course in Python People are still crazy about Python after twentyfive y …… <a href="https://www.oreilly.com/learning/data-science-from-scratch">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomlearningsimple-line-plots-with-matplotlib" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/learning/simple-line-plots-with-matplotlib">Simple Line Plots with Matplotlib</a></li>
+</ul>
+
+<blockquote>
+  <p>Simple Line Plots with MatplotlibThis recipe covers the basics of setting up a matplotlib plot, and how tocreate simple line plotsBy March 3, 2015 Simple line plot Simple Line PlotsThis recipe will te …… <a href="https://www.oreilly.com/learning/simple-line-plots-with-matplotlib">阅读全文</a></p>
+</blockquote>
+
+<p id="swwworeillycomlearningcomputational-thinking-just-enough-math" class="bookmark"></p>
+<ul>
+  <li>[OREILLY Data Science] <a href="https://www.oreilly.com/learning/computational-thinking-just-enough-math">Computational Thinking: Just Enough Math</a></li>
+</ul>
+
+<blockquote>
+  <p>Computational Thinking: Just Enough MathThe webcast introduces advanced math for business people, including graphtheory, abstract algebra, optimization, bayesian statistics, and more advancedareas of  …… <a href="https://www.oreilly.com/learning/computational-thinking-just-enough-math">阅读全文</a></p>
+</blockquote>
+
+<p>本期内容感谢：Data Center Knowledge、199IT数据资讯、segmentfault、Big Data News、info Q、The Marketing Technologist、Onalytica、OREILLY Data Science</p>
+
+
+      
+    </div>
+    <div class = "col-md-3">
+
+    <a href="https://twitter.com/lovedatasci" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @lovedatasci</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <div class = "hidden-sm hidden-xs">
+    <wb:share-button appkey="2050907889" addition="full" type="button" ralateUid="1077585930" default_text="数据科学家 - 汇聚全球最新数据资讯
+紧跟前沿科技发展步伐"></wb:share-button>
+    </div>
+    <div class = "hidden-md hidden-lg"><wb:follow-button uid="1077585930" type="red_1" width="67" height="24" ></wb:follow-button></div>
+    <p id = "wechat">微信<br/>lovedatasci</p>
+    <img src = "/img/qrcode.jpg"  style = "width: 96px;">
+    <p class = "hidden-md hidden-lg">长按关注</p>
+
+    <p class="page-heading hidden-sm hidden-xs">往期大数据日报</p>
+    <div class = "row hidden-sm hidden-xs">
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160218-daily-news.html" class="post-read-full" target = "_blank">2016年02月18日</a>
+         </div>
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160217-daily-news.html" class="post-read-full" target = "_blank">2016年02月17日</a>
+         </div>
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160216-daily-news.html" class="post-read-full" target = "_blank">2016年02月16日</a>
+         </div>
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160215-daily-news.html" class="post-read-full" target = "_blank">2016年02月15日</a>
+         </div>
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160214-daily-news.html" class="post-read-full" target = "_blank">2016年02月14日</a>
+         </div>
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160213-daily-news.html" class="post-read-full" target = "_blank">2016年02月13日</a>
+         </div>
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160212-daily-news.html" class="post-read-full" target = "_blank">2016年02月12日</a>
+         </div>
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160211-daily-news.html" class="post-read-full" target = "_blank">2016年02月11日</a>
+         </div>
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160210-daily-news.html" class="post-read-full" target = "_blank">2016年02月10日</a>
+         </div>
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160209-daily-news.html" class="post-read-full" target = "_blank">2016年02月09日</a>
+         </div>
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160208-daily-news.html" class="post-read-full" target = "_blank">2016年02月08日</a>
+         </div>
+         
+         <div class = "col-md-12">
+            <a href="/dailynews/20160207-daily-news.html" class="post-read-full" target = "_blank">2016年02月07日</a>
+         </div>
+         
+    </div>
+
+    </div>
+  </div>
+</div>
+
+            <footer>
+  <div class="container-fluid">
+  <div class = "row">
+  <div class = "col-md-12">
+    <div class = "container text-center visible-md-block visible-lg-block">
+<script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"wkh983","width":728,"height":90,"sid":"Chitika Default","color_site_link":"758AB5"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+
+    </div>
+  </div>
+  <div class="col-md-10 col-md-offset-1">
+
+    <h4>数据科学家</h4>
+
+    <div class="row">
+      <div class="col-md-3">
+        <ul class="contact-list">
+          <li><a href="mailto:kehao.wu@gmail.com"><img src = "/img/default-icon.png" style = "width:1em;padding:0;margin:0;">联系我们</a>  </li>
+          <li><a href="/feed.xml"><img src = "/img/rss-feed.png" style = "width:1em;padding:0;margin:0;">RSS订阅</a>  </li>
+        </ul>
+      </div>
+
+      <div class="col-md-9">
+        <ul class="contact-list">
+          <li class="text">友情链接:<a href="http://www.rzaixian.com">R语言在线</a> <a href="https://sketchfab.com"> 虚拟现实 sketchfab</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-12">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60236420-10', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).scroll(function(){
+    var scrollTop = $(this).scrollTop()
+    var currentElement
+    $.each($(".bookmark"),function(i,v){
+        if (scrollTop >= ($(v).offset().top - 30))
+        {
+            currentElement = v
+        }
+    })
+    var id = $(currentElement).attr("id")
+    if(id != undefined){
+        window.history.pushState(null,null,window.location.pathname+"#"+ id)
+        $("title").html(($(currentElement).next().children().children().html())+" - 数据科学家")
+      }else{
+        window.history.pushState(null,null,window.location.pathname)
+        $("title").html("数据科学家 - 汇聚全球最新数据资讯紧跟前沿科技发展步伐")
+      }
+})
+</script>
+<script type="text/javascript">
+  $("a").attr("target","_blank")
+  var l = function(){
+    var t = JSON.parse(window.localStorage.getItem("history"))
+    var r =  t == undefined ? [] : t
+    return r
+  }
+  var w = function(){
+    v.push({'title':$("title").html(),'url':window.location.pathname})
+    if (v.length > 5){
+      v.shift()
+    }
+    window.localStorage.setItem('history',JSON.stringify(v))
+  }
+  var v = l()
+  $.each(v, function(i,j){
+    var d = $("<p></p>").addClass("history-item").append($("<a></a>").html(j['title']).attr('href',j['url']))
+    $("#history").prepend(d)
+  })
+  w()
+  </script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+            
+    </body>
+</html>

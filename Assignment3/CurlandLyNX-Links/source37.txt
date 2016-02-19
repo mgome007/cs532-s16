@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Bob Clark" />
+		<meta name="description" content="Bob Clark" />
+		<title>Bob Clark - Home</title>
+		<link rel="stylesheet" href="/static/css/global.css" type="text/css" media="screen, projection" />
+
+		<!-- fancybox image viewer -->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="http://www.bobclark.com/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+		<script type="text/javascript" src="http://www.bobclark.com/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://www.bobclark.com/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("a[rel=gallery_photos]").fancybox({
+					'transitionIn'		: 'elastic',
+					'transitionOut'		: 'elastic',
+					'overlayColor'		: '#1a1a1a',
+					'overlayOpacity'	: '0.8'
+				});
+			});
+		</script>
+		<!-- end fancybox image viewer -->
+
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="http://www.bobclark.com/js/fadeslideshow.js"></script>
+		<script type="text/javascript">
+
+		var mygallery=new fadeSlideShow({
+			wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+			dimensions: [	532, 562], //width/height of gallery in pixels. Should reflect dimensions of largest image
+			imagearray: [
+				["http://bobclark.com/images/lefthand1.jpg", "", "", ""],
+				["http://bobclark.com/images/lefthand2.jpg", "", "", ""],
+				["http://bobclark.com/images/lefthand3.jpg", "", "", ""] //<--no trailing comma after very last image element!
+			],
+			displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
+			persist: false, //remember last viewed slide and recall within same session?
+			fadeduration: 3000, //transition duration (milliseconds)
+			descreveal: "ondemand",
+			togglerid: ""
+		})
+
+		var mygallery2=new fadeSlideShow({
+			wrapperid: "fadeshow2", //ID of blank DIV on page to house Slideshow
+			dimensions: [	428, 571], //width/height of gallery in pixels. Should reflect dimensions of largest image
+			imagearray: [
+				["http://bobclark.com/images/bob2.jpg", "", "", ""],
+				["http://bobclark.com/images/bob4.jpg", "", "", ""],
+				["http://bobclark.com/images/bob5.jpg", "", "", ""],
+				["http://bobclark.com/images/bob6.jpg", "", "", ""],
+				["http://bobclark.com/images/bob3.jpg", "", "", ""],
+				["http://bobclark.com/images/bob1.jpg", "", "", ""] //<--no trailing comma after very last image element!
+			],
+			displaymode: {type:'auto', pause:2750, cycles:0, wraparound:false},
+			persist: false, //remember last viewed slide and recall within same session?
+			fadeduration: 2500, //transition duration (milliseconds)
+			descreveal: "ondemand",
+			togglerid: ""
+		})
+		</script>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-28098021-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+
+		<link rel="stylesheet" href="http://bobclark.com/css/anythingslider.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="http://bobclark.com/js/jquery.anythingslider.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#slider').anythingSlider({
+			  // Appearance
+			  theme               : "default", // Theme name
+			  toggleArrows        : true,     // If true, side navigation arrows will slide out on hovering & hide @ other times
+			  startText           : "Start",   // Start button text
+			  stopText            : "Stop",    // Stop button text
+			  autoPlay            : true,     // If true, the slideshow will start running; replaces "startStopped" option
+			  pauseOnHover        : true,      // If true & the slideshow is active, the slideshow will pause on hover
+			  delay               : 5000,      // How long between slideshow transitions in AutoPlay mode (in milliseconds)
+			  resumeDelay         : 5000,     // Resume slideshow after user interaction, only if autoplayLocked is true (in milliseconds).
+			  animationTime       : 500,       // How long the slideshow transition takes (in milliseconds)
+			});
+		});
+	</script>
+	<!-- end AnythingSlider -->
+
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-28098021-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+
+	</head>
+
+	<body class="">
+				<div id="container">
+
+			<div id="top">
+				<!--<img src="images/lefthand1.jpg" alt="Bob's hand holding a hatchling snake" style="border: solid 1px #ccc;" />-->
+				<div id="fadeshow1outer"><div id="fadeshow1"></div></div>
+				<div id="bob"><div id="fadeshow2"></div><!--<img src="images/bob3.png" alt="Bob Clark" />--></div>
+				<div id="livingsnakes"><img src="http://www.bobclark.com/images/livingsnakes.png" alt="Living Snakes" /></div>
+				<div id="signature"><img src="http://www.bobclark.com/images/signature.png" alt="Bob Clark" /></div>
+
+				<div id="menuOuter">
+					<ul id="menu">
+						<li><a href="/">Home</a></li>
+						<li><a href="/about.html">About Me</a></li>
+						<li><a href="/shows.html">Upcoming Shows</a></li>
+						<li><a href="/projects.html">Projects</a></li>
+						<li><a href="/showcase.html">Showcase</a></li>
+						<li><a href="/articles.html">Articles</a></li>
+						<li class="no_link">Videos
+							<ul>
+								<li><a href="/instructional_videos.html">Instructional Videos</a></li>
+								<li><a href="/videos.html">Bob on TV</a></li>
+							</ul></li>
+						<li class="no_link">Available
+							<ul>
+								<li><a href="/available/ball_pythons/">Ball Pythons</a></li>
+								<li><a href="/available/blood_pythons/">Blood Pythons</a></li>
+								<li><a href="/available/burmese_pythons/">Burmese Pythons</a></li>
+								<li><a href="/available/reticulated_pythons/">Reticulated Pythons</a></li>
+								<li><a href="/available/boas/">Boas</a></li>
+								<li><a href="/available/other_reptiles/">Other Reptiles</a></li>
+							</ul></li>
+						<li><a href="/contact.html">Contact</a></li>
+					</ul>
+					<div id="signin">
+													<a href="/login/">Sign In</a>
+											</div>
+
+				</div><!-- end of div "menuOuter" -->
+
+			</div><!-- end of div "top" -->
+
+				<div id="main">
+	<table id="tableMain" cellspacing="0" cellpadding="0">
+		<tr>
+			<td class="w20"></td>
+
+			<td class="w30p">
+				<h2>Hello and welcome...</h2>
+			    <p>...to my web site! The coming year will mark my 40th year of breeding pythons. In that time I've been lucky enough to keep and breed many species of pythons and pioneer the production of many color and pattern variants of those species. I'll share articles, pictures and videos here as well as offer animals for sale.</p>
+			    <p><a href="photos/retic.jpg" rel="gallery_photos" title="Big Retic"><img src="photos/retic-s.jpg" alt="Big Retic" /></a>I intend for the web site to be a dynamic, evolving source of information and entertainment, at least for the people that share my interest in and passion for pythons! Please come back often!</p>
+		    </td>
+
+			<td class="w20">&nbsp;</td>
+
+			<td class="w30p">
+				<h2>Latest News...</h2>
+			    <div id="carousel">
+					<ul id="slider">
+													<li>
+								<div class="item">
+									<a href="/static/upload/1450273856.jpg" title="Ultra het anery ">
+										<img src="/static/upload/1450273856.jpg" alt="Image" />
+										<span>Ultra het anery </span>
+										<p>Female, 2015, $1200.00</p>
+									</a>
+								</div>
+							</li>
+													<li>
+								<div class="item">
+									<a href="/static/upload/1450273961.jpg" title="Banana">
+										<img src="/static/upload/1450273961.jpg" alt="Image" />
+										<span>Banana</span>
+										<p>Male, 2015, $250.00</p>
+									</a>
+								</div>
+							</li>
+													<li>
+								<div class="item">
+									<a href="/static/upload/1450274663.jpg" title="Pied">
+										<img src="/static/upload/1450274663.jpg" alt="Image" />
+										<span>Pied</span>
+										<p>Male, 2015, $475.00</p>
+									</a>
+								</div>
+							</li>
+													<li>
+								<div class="item">
+									<a href="/static/upload/1451167636.jpg" title="Bumble bee">
+										<img src="/static/upload/1451167636.jpg" alt="Image" />
+										<span>Bumble bee</span>
+										<p>Male, 2015, $200.00</p>
+									</a>
+								</div>
+							</li>
+													<li>
+								<div class="item">
+									<a href="/static/upload/1451167851.jpg" title="Pewter">
+										<img src="/static/upload/1451167851.jpg" alt="Image" />
+										<span>Pewter</span>
+										<p>Male, 2015, $200.00</p>
+									</a>
+								</div>
+							</li>
+													<li>
+								<div class="item">
+									<a href="/static/upload/1451225999.jpg" title="Banana Mojave">
+										<img src="/static/upload/1451225999.jpg" alt="Image" />
+										<span>Banana Mojave</span>
+										<p>Male, 2015, $375.00</p>
+									</a>
+								</div>
+							</li>
+													<li>
+								<div class="item">
+									<a href="/static/upload/1451841205.jpg" title="Pastel banana">
+										<img src="/static/upload/1451841205.jpg" alt="Image" />
+										<span>Pastel banana</span>
+										<p>, 2015, $600.00</p>
+									</a>
+								</div>
+							</li>
+													<li>
+								<div class="item">
+									<a href="/static/upload/1453997042.jpg" title="Banana">
+										<img src="/static/upload/1453997042.jpg" alt="Image" />
+										<span>Banana</span>
+										<p>Male, 2014, $250.00</p>
+									</a>
+								</div>
+							</li>
+													<li>
+								<div class="item">
+									<a href="/static/upload/1453998344.jpg" title="Banana pinstripe">
+										<img src="/static/upload/1453998344.jpg" alt="Image" />
+										<span>Banana pinstripe</span>
+										<p>Female, -0001, $750.00</p>
+									</a>
+								</div>
+							</li>
+													<li>
+								<div class="item">
+									<a href="/static/upload/1454000899.jpg" title="GHI">
+										<img src="/static/upload/1454000899.jpg" alt="Image" />
+										<span>GHI</span>
+										<p>Male, 2015, $375.00</p>
+									</a>
+								</div>
+							</li>
+						                        <!--<li><a href="showcase/retic_supermotley_egg.jpg" rel="gallery_photos" title="Super Motley Reticulated Python"><img src="showcase/retic_supermotley_egg.jpg" alt="Super Motley Reticulated" class="floatnone" /></a><br />
+		        <strong>Super Motley Reticulated Python</strong><br />
+                The motley mutation in reticulated pythons occurred at my facility spontaneously several years ago in a clutch of eggs from an albino to a het albino. The very first motley was also an albino. Earlier this season I bred two snakes showing the motley trait together. Those snakes produced eggs that are hatching now. The result is interesting and unexpected!</li>
+
+				<li><a href="showcase/regius_firepinlesserpastelyb_f01.jpg" rel="gallery_photos" title="Fire/HG Lesser/Pastel/Bling Yellow Belly/Pinstripe Ball Python"><img src="showcase/regius_firepinlesserpastelyb_f01.jpg" alt="Fire/HG Lesser/Pastel/Bling YellowBelly/Pinstripe Ball Python" class="floatnone" /></a><br />
+		        <strong>Fire/HG Lesser/Pastel/Bling Yellow Belly/Pinstripe Ball Python</strong></li>
+
+				<li><a href="photos/morelets_crocodile_02.jpg" rel="gallery_photos" title="Morelet's Crocodile"><img src="photos/morelets_crocodile_02.jpg" alt="Morelet's Crocodile" class="floatnone" /></a><br />
+		        <strong><a class="emphasis" href="available/other_reptiles.html#morelets_crocodile_01">Morelet's Crododile (C. moreletii)</a><br />Captive produced babies</strong><br />
+				The protection status of this uncommon crocodile has recently changed allowing commercial trade. I'm offering a small number of these animals for sale for <strong>$475</strong> each. Credit cards, Paypal and bank transfers accepted. <a class="emphasis" href="available/other_reptiles.html#morelets_crocodile_01">Buy Now &#187;</a></li>
+
+				<li><a href="photos/todayvideo.jpg" rel="gallery_photos" title="Bob on TODAY"><img src="photos/todayvideo.jpg" alt="Bob on TODAY" class="floatnone" /></a><br />
+		        <strong><a class="emphasis" href="videos.html#todayvideo">TODAY celebrates 25 years of weekend broadcast</a></strong>
+				<p><strong>Sep 16</strong><br />Bob appears in highlights of the best moments of the TODAY show's last 25 years. <a class="emphasis" href="videos.html#todayvideo">Watch our special edited version &#187;</a></p></li>-->
+					</ul>
+				</div>
+			</td>
+
+			<td class="w20">&nbsp;</td>
+
+	        <td class="w30p facebook">
+	        	<div id="facebookOuter"><iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FBob-Clark-Reptiles%2F161543363875626&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=false&amp;height=400&amp;width=355" scrolling="no" frameborder="0" style="border:none;overflow:hidden;width:350px;height:400px;margin:0;color:white;" allowTransparency="true"></iframe><div id="radiuscrnrTopright"><img src="http://bobclark.com/images/radiuscrnr.png" /></div></div>
+	        </td>
+
+			<td class="w20"></td>
+		</tr>
+	</table>
+</div>
+
+		</div>
+
+		</div><!-- end of div "container" -->
+
+		<div id="footer" class="">&copy; Copyright Robert W. Clark, Jr. Inc. All rights reserved. Registered address: 12316 Val Verde Drive, Oklahoma City, Oklahoma 73142. <a href="/privacy.html">Privacy Policy</a>. Website proudly designed by <a href="http://www.treefrogmultimedia.com" onclick="window.open(this.href,'_blank');return false;">Treefrog Multimedia</a>.</div>
+
+	</body>
+</html>

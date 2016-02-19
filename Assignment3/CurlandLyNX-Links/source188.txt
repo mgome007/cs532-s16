@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="es-ES"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="es-ES"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="es-ES"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="es-ES"> <![endif]-->
+<!--[if !(IE)]><!--><html lang="es-ES"> <!--<![endif]-->
+<head>
+      <!-- Basic Page Needs
+  	  ================================================== -->
+	<meta charset="UTF-8" />
+    <title>Omar Suazo | Par de Pebres</title>
+        <!-- Mobile Specific Metas
+  		================================================== -->
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicons
+        ================================================== -->
+                    <link rel="shortcut icon" href="http://pardepebres.com/wp-content/uploads/2015/09/faviconpde.png" type="image/x-icon" />       
+    
+				<meta property="og:image" content="http://pardepebres.com/wp-content/uploads/2016/01/does-this-offend-you_fr.png" />		
+			<link rel="alternate" type="application/rss+xml" title="Par de Pebres &raquo; Feed" href="http://pardepebres.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Par de Pebres &raquo; RSS de los comentarios" href="http://pardepebres.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Par de Pebres &raquo; RSS de las entradas de Omar Suazo" href="http://pardepebres.com/author/pixeltrooper/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/pardepebres.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='font-awesome-css'  href='http://pardepebres.com/wp-content/plugins/the-social-links/assets/css/font-awesome.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='the-social-links-style-css'  href='http://pardepebres.com/wp-content/plugins/the-social-links/assets/css/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='aqpb-view-css-css'  href='http://pardepebres.com/wp-content/themes/nanomag/inc/addon/aqua-page-builder-master/assets/stylesheets/aqpb-view.css?ver=1455840687' type='text/css' media='all' />
+<link rel='stylesheet' id='scfp-form-repeater-css-css'  href='http://pardepebres.com/wp-content/plugins/wcp-contact-form/agp-core/assets/repeater/css/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='scfp-css-css'  href='http://pardepebres.com/wp-content/plugins/wcp-contact-form/assets/css/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://pardepebres.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='gumby-css'  href='http://pardepebres.com/wp-content/themes/nanomag/css/gumby.css?ver=1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='carousel-css'  href='http://pardepebres.com/wp-content/themes/nanomag/css/owl.carousel.css?ver=1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-css'  href='http://pardepebres.com/wp-content/themes/nanomag/css/owl.theme.css?ver=1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://pardepebres.com/wp-content/themes/nanomag/style.css?ver=1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelementplayer-css'  href='http://pardepebres.com/wp-content/themes/nanomag/css/mediaelementplayer.css?ver=1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='http://pardepebres.com/wp-content/themes/nanomag/css/responsive.css?ver=1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-css'  href='http://pardepebres.com/wp-content/themes/nanomag/custom_style.php?ver=1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='decent-comments-widget-css'  href='http://pardepebres.com/wp-content/plugins/decent-comments/css/decent-comments-widget.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://pardepebres.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/plugins/wcp-contact-form/agp-core/assets/repeater/js/main.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://pardepebres.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://pardepebres.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pardepebres.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel='shortlink' href='http://pardepebres.com/4' />
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    
+<!-- BEGIN GADWP v4.9.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-68271118-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+                  	
+<!-- end head -->
+</head>
+<body class="archive author author-pixeltrooper author-4" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<div id="content_nav">
+        <div id="nav">
+	  	<ul id="menu-foot1" class=""><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1200"><a href="http://pardepebres.com">Inicio<span class="border-menu"></span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1201"><a href="http://pardepebres.com/category/1-juegos/">Juegos<span class="border-menu"></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1208"><a href="http://pardepebres.com/category/1-juegos/1-4-pc/">PC<span class="border-menu"></span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1209"><a href="http://pardepebres.com/category/1-juegos/1-2-nintendo/">Nintendo<span class="border-menu"></span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1210"><a href="http://pardepebres.com/category/1-juegos/1-3-sony/">Sony<span class="border-menu"></span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1211"><a href="http://pardepebres.com/category/1-juegos/1-1-microsoft/">Microsoft<span class="border-menu"></span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1212"><a href="http://pardepebres.com/category/1-juegos/1-5-analisis/">Reviews<span class="border-menu"></span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1202"><a href="http://pardepebres.com/category/2-telon-y-vinetas/">Telón y Viñetas<span class="border-menu"></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1213"><a href="http://pardepebres.com/category/2-telon-y-vinetas/2-2-series/">Series<span class="border-menu"></span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1214"><a href="http://pardepebres.com/category/2-telon-y-vinetas/2-3-peliculas/">Películas<span class="border-menu"></span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1215"><a href="http://pardepebres.com/category/2-telon-y-vinetas/2-1-comics/">Cómics<span class="border-menu"></span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1203"><a href="http://pardepebres.com/category/4-rincon-otaco/">Rincón Otaco<span class="border-menu"></span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1204"><a href="http://pardepebres.com/category/6-musica/">Música<span class="border-menu"></span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1205"><a href="http://pardepebres.com/category/7-opinion/">Análisis y Opinión<span class="border-menu"></span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1652"><a href="http://pardepebres.com/category/secciones/">#Secciones<span class="border-menu"></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1654"><a href="http://pardepebres.com/category/secciones/enlapuertadelhorno/">#EnLaPuertaDelHorno<span class="border-menu"></span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1657"><a href="http://pardepebres.com/category/secciones/elvhs/">#ElVHS<span class="border-menu"></span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1655"><a href="http://pardepebres.com/category/secciones/japonlohicistedenuevo/">#JapónLoHicisteDeNuevo<span class="border-menu"></span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2943"><a href="http://pardepebres.com/category/secciones/random/">#Random<span class="border-menu"></span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1206"><a href="http://pardepebres.com/quienes-somos/">¿Quienes Somos?<span class="border-menu"></span></a></li>
+</ul>   </div>
+    </div>    
+<div id="sb-site" class="body_wraper_full">     			
+
+<!-- Start header -->
+<header class="header-wraper">
+
+<div class="header_top_wrapper">
+<div class="row">
+<div class="six columns header-top-left-bar">
+
+              <div class="news_ticker_wrapper">
+<div class="row">
+<div class="twelve columns">
+  <div id="ticker">
+  <div class="tickerfloat_wrapper"><div class="tickerfloat">CONCURSOS</div></div>
+   <div class="marquee" id="mycrawler">
+           
+       <div>
+        <span class="ticker_dot"><i class="fa fa-chevron-right"></i></span><a class="ticker_title" href="http://pardepebres.com/2015/12/ganadores-2o-sorteo-par-de-pebres-se-raja-con-un-hyrule-historia-esta-navidad/">GANADORES 2º SORTEO: ¡Par de Pebres se raja con un Hyrule Historia esta Navidad!</a>
+      </div>
+
+            
+       <div>
+        <span class="ticker_dot"><i class="fa fa-chevron-right"></i></span><a class="ticker_title" href="http://pardepebres.com/2015/12/par-de-pebres-se-raja-esta-navidad-ganate-el-libro-hyrule-historia/">¡Par de Pebres se raja esta Navidad!: Gánate el libro Hyrule Historia</a>
+      </div>
+
+            
+       <div>
+        <span class="ticker_dot"><i class="fa fa-chevron-right"></i></span><a class="ticker_title" href="http://pardepebres.com/2015/11/ganadores-primer-sorteo-se-el-mas-otaco-con-estos-pases-premium-de-crunchyroll/">GANADORES PRIMER SORTEO: ¡Se el más otaco con estos pases premium de Crunchyroll!</a>
+      </div>
+
+            
+       <div>
+        <span class="ticker_dot"><i class="fa fa-chevron-right"></i></span><a class="ticker_title" href="http://pardepebres.com/2015/10/par-de-pebres-se-auspicia-con-crunchyroll/">Par de Pebres se auspicia: ¡Se el más otaco con estos pases premium de Crunchyroll!</a>
+      </div>
+
+                
+        </div>
+        </div>
+    
+</div>
+
+</div>
+</div>
+    
+</div>
+
+<div class="six columns header-top-right-bar">
+
+<a class="open toggle-lef sb-toggle-left navbar-left" href="#nav">
+        <div class="navicon-line"></div>
+        <div class="navicon-line"></div>
+        <div class="navicon-line"></div>
+        </a>
+
+
+ 
+<div class="clearfix"></div>
+</div>
+
+</div>
+</div>
+
+ 
+        
+ <div class="header_main_wrapper"> 
+        <div class="row">
+	<div class="four columns header-top-left">
+    
+      <!-- begin logo -->
+                           
+                           
+                                <a href="http://pardepebres.com/">
+                                                                           
+                                        <img src="http://pardepebres.com/wp-content/uploads/2015/09/PdPe1-e1443801551434.png" alt="¡Irrelevancia veraniega!" id="theme_logo_img" />
+                                                                    </a>
+                            
+                            <!-- end logo -->
+    </div>
+    	<div class="eight columns header-top-right">  
+  			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Head -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9090256440257752"
+     data-ad-slot="3536374702"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		    </div>
+        
+</div>
+
+</div>
+
+                
+<!-- end header, logo, top ads -->
+
+              
+<!-- Start Main menu -->
+<div id="menu_wrapper" class="menu_wrapper menu_sticky">
+<div class="menu_border_top_full"></div>
+<div class="row">
+	<div class="main_menu twelve columns"> 
+        <div class="menu_border_top"></div>
+                            <!-- main menu -->
+                           
+  <div class="menu-primary-container main-menu">
+<ul id="mainmenu" class="sf-menu"><li id="menu-item-1200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="http://pardepebres.com">Inicio<span class="border-menu"></span></a></li>
+<li id="menu-item-1201" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="http://pardepebres.com/category/1-juegos/">Juegos<span class="border-menu"></span></a><ul class="sub-menu">	<li id="menu-item-1208" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/1-juegos/1-4-pc/">PC<span class="border-menu"></span></a></li>
+	<li id="menu-item-1209" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/1-juegos/1-2-nintendo/">Nintendo<span class="border-menu"></span></a></li>
+	<li id="menu-item-1210" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/1-juegos/1-3-sony/">Sony<span class="border-menu"></span></a></li>
+	<li id="menu-item-1211" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/1-juegos/1-1-microsoft/">Microsoft<span class="border-menu"></span></a></li>
+	<li id="menu-item-1212" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/1-juegos/1-5-analisis/">Reviews<span class="border-menu"></span></a></li>
+
+					</ul></li>
+<li id="menu-item-1202" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="http://pardepebres.com/category/2-telon-y-vinetas/">Telón y Viñetas<span class="border-menu"></span></a><ul class="sub-menu">	<li id="menu-item-1213" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/2-telon-y-vinetas/2-2-series/">Series<span class="border-menu"></span></a></li>
+	<li id="menu-item-1214" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/2-telon-y-vinetas/2-3-peliculas/">Películas<span class="border-menu"></span></a></li>
+	<li id="menu-item-1215" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/2-telon-y-vinetas/2-1-comics/">Cómics<span class="border-menu"></span></a></li>
+
+					</ul></li>
+<li id="menu-item-1203" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/4-rincon-otaco/">Rincón Otaco<span class="border-menu"></span></a></li>
+<li id="menu-item-1204" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/6-musica/">Música<span class="border-menu"></span></a></li>
+<li id="menu-item-1205" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/7-opinion/">Análisis y Opinión<span class="border-menu"></span></a></li>
+<li id="menu-item-1652" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="http://pardepebres.com/category/secciones/">#Secciones<span class="border-menu"></span></a><ul class="sub-menu">	<li id="menu-item-1654" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/secciones/enlapuertadelhorno/">#EnLaPuertaDelHorno<span class="border-menu"></span></a></li>
+	<li id="menu-item-1657" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/secciones/elvhs/">#ElVHS<span class="border-menu"></span></a></li>
+	<li id="menu-item-1655" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/secciones/japonlohicistedenuevo/">#JapónLoHicisteDeNuevo<span class="border-menu"></span></a></li>
+	<li id="menu-item-2943" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://pardepebres.com/category/secciones/random/">#Random<span class="border-menu"></span></a></li>
+
+					</ul></li>
+<li id="menu-item-1206" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://pardepebres.com/quienes-somos/">¿Quienes Somos?<span class="border-menu"></span></a></li>
+</ul><div class="clearfix"></div>
+</div>                             
+                            <!-- end main menu -->
+                                                           
+                          
+                        </div>
+                                           
+                    </div>   
+                    </div>
+                    
+
+
+            </header>
+
+<section id="content_main" class="clearfix">
+<div class="row main_content">
+<div class="content_wraper three_columns_container">
+   <!-- Start content -->
+    <div class="eight columns content_display_col1" id="content">
+ <div class="widget_container content_page post-2755 post type-post status-publish format-standard has-post-thumbnail hentry category-7-opinion category-1-2-nintendo tag-censura tag-fire-emblem tag-informence-antes-de-hablar-weones-pencas tag-nintendo tag-polemica">
+ <div class="breadcrumbs_options"><a href="http://pardepebres.com">Home</a> <i class="fa fa-angle-right"></i> <span class="current">Articles posted by Omar Suazo</span></div> 
+  
+<div class="auth author_post_list">
+                            <div class="author-info">                                       
+                                 <div class="author-avatar"><img alt='' src='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=90&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=180&amp;d=mm&amp;r=g 2x' class='avatar avatar-90 photo' height='90' width='90' /></div> 
+                                    <div class="author-description"><h5>Omar Suazo</h5>
+                                <p>Vodka. Huskies. Honoka. El otro padre fundador de Par de Pebres y ya perfilado como un inmundo otaco. En los twitters me dicen @likeadamnfiddle</p>
+                                
+                                      <ul class="author-social clearfix">
+                              
+                               
+                                                               <li><a href="http://pardepebres.com/author/pixeltrooper/" target="_blank"><img alt="" src="http://pardepebres.com/wp-content/themes/nanomag/img/icons/website.png"></a></li>
+                                                                                              <li><a href="mailto:http://m71.edelweiss@gmail.com" target="_blank"><img alt="" src="http://pardepebres.com/wp-content/themes/nanomag/img/icons/email.png"></a></li>
+                                                                                                                                                                                                                                                                                               
+                                              
+                                                               <li><a href="https://twitter.com/likeadamnfiddle" target="_blank"><img alt="" src="http://pardepebres.com/wp-content/themes/nanomag/img/icons/twitter.png"></a></li>
+                                                                                                                              </ul>
+                                </div>
+                                 </div>
+                            </div>
+
+                    <div class="post_list_medium_widget">
+                    <div>
+                    
+                            <div class="feature-two-column medium-two-columns  left_post_align ">
+                            <div id="post-2755" class="post-2755 post type-post status-publish format-standard has-post-thumbnail hentry category-7-opinion category-1-2-nintendo tag-censura tag-fire-emblem tag-informence-antes-de-hablar-weones-pencas tag-nintendo tag-polemica">
+   <div class="image_post feature-item">
+                   <a  href="http://pardepebres.com/2016/01/fire-emblem-fates-la-nueva-victima-de-los-ofendidos-y-la-falsa-informacion/" class="feature-link" title="Fire Emblem Fates, la nueva victima de los ofendidos y la falsa información">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2016/01/does-this-offend-you_fr-400x260.png" class="attachment-medium-feature size-medium-feature wp-post-image" alt="does this offend you_fr" /></a>
+                                          
+                     </div>
+
+<div class="meta_holder">
+<span class="meta-category-small"><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/7-opinion/">Análisis y Opinión</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/1-juegos/1-2-nintendo/">Nintendo</a></span><div class="love_this_post_meta"><a href="#" class="jm-post-like" data-post_id="2755" title="Like"><i class="fa fa-heart-o"></i>6</a></div></div>
+ <h3 class="image-post-title feature_2col"><a href="http://pardepebres.com/2016/01/fire-emblem-fates-la-nueva-victima-de-los-ofendidos-y-la-falsa-informacion/">Fire Emblem Fates, la nueva victima de los ofendidos y la falsa información</a></h3>      
+<p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/pixeltrooper/" title="Entradas de Omar Suazo" rel="author">Omar Suazo</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Jan 22, 2016</span></p> <p>En PdP nos encantan las polémicas, y no tenemos recato en decirle a los siempre ofendidos que paren de llorar a favor de la censura y la falsa información. Partimos el... </p>
+ <div class="footer_meta"><a href="http://pardepebres.com/2016/01/fire-emblem-fates-la-nueva-victima-de-los-ofendidos-y-la-falsa-informacion/" class="footer_meta_readmore">Read more</a><span class="meta-commentd"><a href="http://pardepebres.com/2016/01/fire-emblem-fates-la-nueva-victima-de-los-ofendidos-y-la-falsa-informacion/#respond"><span class="dsq-postid" data-dsqidentifier="2755 http://pardepebres.com/?p=2755"><i class="fa fa-comments"></i>0 Comment</span></a></span></div>    </div>
+    </div>
+
+        
+
+                                <div class="feature-two-column medium-two-columns  right_post_align ">
+                            <div id="post-2739" class="post-2739 post type-post status-publish format-standard has-post-thumbnail hentry category-4-rincon-otaco tag-a-gamba-la-waifu tag-saekano tag-waifu-wars">
+   <div class="image_post feature-item">
+                   <a  href="http://pardepebres.com/2016/01/regocijaos-la-segunda-temporada-de-saekano-es-inminente/" class="feature-link" title="¡Regocijaos!: La segunda temporada de Saekano es inminente">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2016/01/saekano_front-400x260.jpg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="saekano_front" /></a>
+                                          
+                     </div>
+
+<div class="meta_holder">
+<span class="meta-category-small"><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/4-rincon-otaco/">Rincón Otaco</a></span><div class="love_this_post_meta"><a href="#" class="jm-post-like" data-post_id="2739" title="Like"><i class="fa fa-heart-o"></i>2</a></div></div>
+ <h3 class="image-post-title feature_2col"><a href="http://pardepebres.com/2016/01/regocijaos-la-segunda-temporada-de-saekano-es-inminente/">¡Regocijaos!: La segunda temporada de Saekano es inminente</a></h3>      
+<p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/pixeltrooper/" title="Entradas de Omar Suazo" rel="author">Omar Suazo</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Jan 18, 2016</span></p> <p>Nuevamente la revista Dragon Mag nos trae motivos para despertarse temprano día a día, ya que en su próxima publicación, fijada para este miércoles 20 de enero, se... </p>
+ <div class="footer_meta"><a href="http://pardepebres.com/2016/01/regocijaos-la-segunda-temporada-de-saekano-es-inminente/" class="footer_meta_readmore">Read more</a><span class="meta-commentd"><a href="http://pardepebres.com/2016/01/regocijaos-la-segunda-temporada-de-saekano-es-inminente/#respond"><span class="dsq-postid" data-dsqidentifier="2739 http://pardepebres.com/?p=2739"><i class="fa fa-comments"></i>0 Comment</span></a></span></div>    </div>
+    </div>
+
+    <div class="clearfix"></div>    
+
+                                <div class="feature-two-column medium-two-columns  left_post_align ">
+                            <div id="post-2636" class="post-2636 post type-post status-publish format-standard has-post-thumbnail hentry category-1-juegos category-2-3-peliculas tag-implosion tag-kickstarter tag-paperbox tag-rayark tag-zero_day">
+   <div class="image_post feature-item">
+                   <a  href="http://pardepebres.com/2016/01/implosion-zero_day-ya-es-una-realidad-en-kickstarter/" class="feature-link" title="¡Implosion: ZERO_DAY ya es una realidad en Kickstarter!">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2015/12/photo-or-400x260.png" class="attachment-medium-feature size-medium-feature wp-post-image" alt="photo-or" /></a>
+                                          
+                     </div>
+
+<div class="meta_holder">
+<span class="meta-category-small"><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/1-juegos/">Juegos</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/2-telon-y-vinetas/2-3-peliculas/">Películas</a></span><div class="love_this_post_meta"><a href="#" class="jm-post-like" data-post_id="2636" title="Like"><i class="fa fa-heart-o"></i>2</a></div></div>
+ <h3 class="image-post-title feature_2col"><a href="http://pardepebres.com/2016/01/implosion-zero_day-ya-es-una-realidad-en-kickstarter/">¡Implosion: ZERO_DAY ya es una realidad en Kickstarter!</a></h3>      
+<p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/pixeltrooper/" title="Entradas de Omar Suazo" rel="author">Omar Suazo</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Jan 11, 2016</span></p> <p>Ese proyecto cinematográfico de ciencia ficción, del cual te contamos el mes pasado, cumplió hoy su meta de $400.000USD con solo 7 días restantes para finalizar su... </p>
+ <div class="footer_meta"><a href="http://pardepebres.com/2016/01/implosion-zero_day-ya-es-una-realidad-en-kickstarter/" class="footer_meta_readmore">Read more</a><span class="meta-commentd"><a href="http://pardepebres.com/2016/01/implosion-zero_day-ya-es-una-realidad-en-kickstarter/#respond"><span class="dsq-postid" data-dsqidentifier="2636 http://pardepebres.com/?p=2636"><i class="fa fa-comments"></i>0 Comment</span></a></span></div>    </div>
+    </div>
+
+        
+
+                                <div class="feature-two-column medium-two-columns  right_post_align ">
+                            <div id="post-2611" class="post-2611 post type-post status-publish format-standard has-post-thumbnail hentry category-enlapuertadelhorno category-1-3-sony tag-odin-sphere tag-ps-vita tag-ps3 tag-ps4">
+   <div class="image_post feature-item">
+                   <a  href="http://pardepebres.com/2016/01/en-la-puerta-del-horno-odin-sphere-leifthrasir/" class="feature-link" title="[En la Puerta del Horno] Odin Sphere: Leifþrasir o como dejar una joya bien pulida">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2016/01/odin_sphere_demo-400x260.jpg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="Odin Sphere Leifthrasir" /></a>
+                                          
+                     </div>
+
+<div class="meta_holder">
+<span class="meta-category-small"><a class="post-category-color-text" style="color:#" href="http://pardepebres.com/category/secciones/enlapuertadelhorno/">#EnLaPuertaDelHorno</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/1-juegos/1-3-sony/">Sony</a></span><div class="love_this_post_meta"><a href="#" class="jm-post-like" data-post_id="2611" title="Like"><i class="fa fa-heart-o"></i>2</a></div></div>
+ <h3 class="image-post-title feature_2col"><a href="http://pardepebres.com/2016/01/en-la-puerta-del-horno-odin-sphere-leifthrasir/">[En la Puerta del Horno] Odin Sphere: Leifþrasir o como dejar una joya bien pulida</a></h3>      
+<p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/pixeltrooper/" title="Entradas de Omar Suazo" rel="author">Omar Suazo</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Jan 09, 2016</span></p> <p>Durante la mañana de ayer se puso disponible en la siempre interesante PSN japonesa, el demo de uno de los juegos de culto de la era del Playstation 2, a mano de los... </p>
+ <div class="footer_meta"><a href="http://pardepebres.com/2016/01/en-la-puerta-del-horno-odin-sphere-leifthrasir/" class="footer_meta_readmore">Read more</a><span class="meta-commentd"><a href="http://pardepebres.com/2016/01/en-la-puerta-del-horno-odin-sphere-leifthrasir/#respond"><span class="dsq-postid" data-dsqidentifier="2611 http://pardepebres.com/?p=2611"><i class="fa fa-comments"></i>0 Comment</span></a></span></div>    </div>
+    </div>
+
+    <div class="clearfix"></div>    
+
+                                <div class="feature-two-column medium-two-columns  left_post_align ">
+                            <div id="post-2593" class="post-2593 post type-post status-publish format-standard has-post-thumbnail hentry category-2-3-peliculas tag-star-wars tag-the-force-awakens tag-tr-8r tag-traitor tag-uragirimono">
+   <div class="image_post feature-item">
+                   <a  href="http://pardepebres.com/2016/01/el-stormtrooper-que-se-llevo-la-pantalla-en-the-force-awakens/" class="feature-link" title="Minuto de Gloria: El Stormtrooper que se llevó la pantalla en The Force Awakens">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2016/01/uragirimono-400x260.jpg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="uragirimono!" /></a>
+                                          
+                     </div>
+
+<div class="meta_holder">
+<span class="meta-category-small"><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/2-telon-y-vinetas/2-3-peliculas/">Películas</a></span><div class="love_this_post_meta"><a href="#" class="jm-post-like" data-post_id="2593" title="Like"><i class="fa fa-heart-o"></i>4</a></div></div>
+ <h3 class="image-post-title feature_2col"><a href="http://pardepebres.com/2016/01/el-stormtrooper-que-se-llevo-la-pantalla-en-the-force-awakens/">Minuto de Gloria: El Stormtrooper que se llevó la pantalla en The Force Awakens</a></h3>      
+<p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/pixeltrooper/" title="Entradas de Omar Suazo" rel="author">Omar Suazo</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Jan 07, 2016</span></p> <p>&#8220;Traitor!&#8221;. Como olvidar ese grito que se escuchó más de una vez en la ultima película de Star Wars, pero que más marcó en la pelea de Finn contra un... </p>
+ <div class="footer_meta"><a href="http://pardepebres.com/2016/01/el-stormtrooper-que-se-llevo-la-pantalla-en-the-force-awakens/" class="footer_meta_readmore">Read more</a><span class="meta-commentd"><a href="http://pardepebres.com/2016/01/el-stormtrooper-que-se-llevo-la-pantalla-en-the-force-awakens/#respond"><span class="dsq-postid" data-dsqidentifier="2593 http://pardepebres.com/?p=2593"><i class="fa fa-comments"></i>0 Comment</span></a></span></div>    </div>
+    </div>
+
+        
+
+                                <div class="feature-two-column medium-two-columns  right_post_align ">
+                            <div id="post-2574" class="post-2574 post type-post status-publish format-standard has-post-thumbnail hentry category-japonlohicistedenuevo category-4-rincon-otaco tag-japon tag-redbull-te-da-waifus-">
+   <div class="image_post feature-item">
+                   <a  href="http://pardepebres.com/2016/01/japon-ya-tiene-lista-una-edicion-de-redbull-para-celebrar-el-hanami/" class="feature-link" title="Japón ya tiene lista una edición de RedBull para celebrar el Hanami">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2016/01/redbull_front-400x260.png" class="attachment-medium-feature size-medium-feature wp-post-image" alt="redbull_front" /></a>
+                                          
+                     </div>
+
+<div class="meta_holder">
+<span class="meta-category-small"><a class="post-category-color-text" style="color:#" href="http://pardepebres.com/category/secciones/japonlohicistedenuevo/">#JapónLoHicisteDeNuevo</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/4-rincon-otaco/">Rincón Otaco</a></span><div class="love_this_post_meta"><a href="#" class="jm-post-like" data-post_id="2574" title="Like"><i class="fa fa-heart-o"></i>3</a></div></div>
+ <h3 class="image-post-title feature_2col"><a href="http://pardepebres.com/2016/01/japon-ya-tiene-lista-una-edicion-de-redbull-para-celebrar-el-hanami/">Japón ya tiene lista una edición de RedBull para celebrar el Hanami</a></h3>      
+<p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/pixeltrooper/" title="Entradas de Omar Suazo" rel="author">Omar Suazo</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Jan 06, 2016</span></p> <p>En la tierra de las waifus y las bebidas con sabores extraños, el Hanami es motivo para celebrar, carretear con los colegas o disfrutar con la pareja en los tantos... </p>
+ <div class="footer_meta"><a href="http://pardepebres.com/2016/01/japon-ya-tiene-lista-una-edicion-de-redbull-para-celebrar-el-hanami/" class="footer_meta_readmore">Read more</a><span class="meta-commentd"><a href="http://pardepebres.com/2016/01/japon-ya-tiene-lista-una-edicion-de-redbull-para-celebrar-el-hanami/#respond"><span class="dsq-postid" data-dsqidentifier="2574 http://pardepebres.com/?p=2574"><i class="fa fa-comments"></i>0 Comment</span></a></span></div>    </div>
+    </div>
+
+    <div class="clearfix"></div>    
+
+                                <div class="feature-two-column medium-two-columns  left_post_align ">
+                            <div id="post-2525" class="post-2525 post type-post status-publish format-standard has-post-thumbnail hentry category-1-juegos category-4-rincon-otaco tag-granblue-fantasy tag-slayers tag-waifus-del-vhs">
+   <div class="image_post feature-item">
+                   <a  href="http://pardepebres.com/2016/01/primer-vistazo-a-la-colaboracion-entre-slayers-y-granblue-fantasy/" class="feature-link" title="¡Primer vistazo a la colaboración entre Slayers y Granblue Fantasy!">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2016/01/slayers_mag-400x260.jpeg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="slayers_mag" /></a>
+                                          
+                     </div>
+
+<div class="meta_holder">
+<span class="meta-category-small"><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/1-juegos/">Juegos</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/4-rincon-otaco/">Rincón Otaco</a></span><div class="love_this_post_meta"><a href="#" class="jm-post-like" data-post_id="2525" title="Like"><i class="fa fa-heart-o"></i>2</a></div></div>
+ <h3 class="image-post-title feature_2col"><a href="http://pardepebres.com/2016/01/primer-vistazo-a-la-colaboracion-entre-slayers-y-granblue-fantasy/">¡Primer vistazo a la colaboración entre Slayers y Granblue Fantasy!</a></h3>      
+<p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/pixeltrooper/" title="Entradas de Omar Suazo" rel="author">Omar Suazo</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Jan 04, 2016</span></p> <p>Ah~ Slayers, o Los Justicieros (Como nos llegó por acá en Chile y el resto de la America que habla español), es sin duda es una de mis series favoritas de antaño,... </p>
+ <div class="footer_meta"><a href="http://pardepebres.com/2016/01/primer-vistazo-a-la-colaboracion-entre-slayers-y-granblue-fantasy/" class="footer_meta_readmore">Read more</a><span class="meta-commentd"><a href="http://pardepebres.com/2016/01/primer-vistazo-a-la-colaboracion-entre-slayers-y-granblue-fantasy/#comments"><span class="dsq-postid" data-dsqidentifier="2525 http://pardepebres.com/?p=2525"><i class="fa fa-comments"></i>1 Comment</span></a></span></div>    </div>
+    </div>
+
+        
+
+                                <div class="feature-two-column medium-two-columns  right_post_align ">
+                            <div id="post-2345" class="post-2345 post type-post status-publish format-standard has-post-thumbnail hentry category-7-opinion category-2-3-peliculas category-4-rincon-otaco tag-arpeggio-of-blue-steel tag-las-otras-barcas tag-takao-best-girl">
+   <div class="image_post feature-item">
+                   <a  href="http://pardepebres.com/2015/12/arpeggio-of-blue-steel-ars-nova-una-pelicula-con-sabor-a-ova/" class="feature-link" title="Arpeggio of Blue Steel -Ars Nova- DC, o una película con sabor a OVA">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2015/12/arpeggio-ars-nova--400x260.jpg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="arpeggio-ars nova-" /></a>
+                                          
+                     </div>
+
+<div class="meta_holder">
+<span class="meta-category-small"><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/7-opinion/">Análisis y Opinión</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/2-telon-y-vinetas/2-3-peliculas/">Películas</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/4-rincon-otaco/">Rincón Otaco</a></span><div class="love_this_post_meta"><a href="#" class="jm-post-like" data-post_id="2345" title="Like"><i class="fa fa-heart-o"></i>2</a></div></div>
+ <h3 class="image-post-title feature_2col"><a href="http://pardepebres.com/2015/12/arpeggio-of-blue-steel-ars-nova-una-pelicula-con-sabor-a-ova/">Arpeggio of Blue Steel -Ars Nova- DC, o una película con sabor a OVA</a></h3>      
+<p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/pixeltrooper/" title="Entradas de Omar Suazo" rel="author">Omar Suazo</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Dec 22, 2015</span></p> <p>Siempre había querido meterme de lleno en el mundo de las Arpeggio, esa serie con waifus barquito que poca relación tiene con las otras waifus barquito, las Kantai... </p>
+ <div class="footer_meta"><a href="http://pardepebres.com/2015/12/arpeggio-of-blue-steel-ars-nova-una-pelicula-con-sabor-a-ova/" class="footer_meta_readmore">Read more</a><span class="meta-commentd"><a href="http://pardepebres.com/2015/12/arpeggio-of-blue-steel-ars-nova-una-pelicula-con-sabor-a-ova/#respond"><span class="dsq-postid" data-dsqidentifier="2345 http://pardepebres.com/?p=2345"><i class="fa fa-comments"></i>0 Comment</span></a></span></div>    </div>
+    </div>
+
+    <div class="clearfix"></div>    
+
+                                <div class="feature-two-column medium-two-columns  left_post_align ">
+                            <div id="post-2356" class="post-2356 post type-post status-publish format-standard has-post-thumbnail hentry category-2-3-peliculas category-4-rincon-otaco tag-good-smile-company tag-nendoroid tag-star-wars tag-the-force-awakens">
+   <div class="image_post feature-item">
+                   <a  href="http://pardepebres.com/2015/12/la-primera-orden-invadira-tu-repisa-con-este-stormtrooper-de-bolsillo/" class="feature-link" title="La Primera Orden invadirá tu repisa con este Stormtrooper de bolsillo">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2015/12/nendofirstorder-400x260.jpg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="nendofirstorder" /></a>
+                                          
+                     </div>
+
+<div class="meta_holder">
+<span class="meta-category-small"><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/2-telon-y-vinetas/2-3-peliculas/">Películas</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/4-rincon-otaco/">Rincón Otaco</a></span><div class="love_this_post_meta"><a href="#" class="jm-post-like" data-post_id="2356" title="Like"><i class="fa fa-heart-o"></i>Like</a></div></div>
+ <h3 class="image-post-title feature_2col"><a href="http://pardepebres.com/2015/12/la-primera-orden-invadira-tu-repisa-con-este-stormtrooper-de-bolsillo/">La Primera Orden invadirá tu repisa con este Stormtrooper de bolsillo</a></h3>      
+<p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/pixeltrooper/" title="Entradas de Omar Suazo" rel="author">Omar Suazo</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Dec 22, 2015</span></p> <p>La fiebre por el recién estrenado filme de La Guerra de las Galaxias tiene para rato, y los amigos de Good Smile Co. lo saben bien, por lo que igual de contagiados que... </p>
+ <div class="footer_meta"><a href="http://pardepebres.com/2015/12/la-primera-orden-invadira-tu-repisa-con-este-stormtrooper-de-bolsillo/" class="footer_meta_readmore">Read more</a><span class="meta-commentd"><a href="http://pardepebres.com/2015/12/la-primera-orden-invadira-tu-repisa-con-este-stormtrooper-de-bolsillo/#respond"><span class="dsq-postid" data-dsqidentifier="2356 http://pardepebres.com/?p=2356"><i class="fa fa-comments"></i>0 Comment</span></a></span></div>    </div>
+    </div>
+
+        
+
+                                <div class="feature-two-column medium-two-columns  right_post_align ">
+                            <div id="post-2287" class="post-2287 post type-post status-publish format-standard has-post-thumbnail hentry category-1-juegos category-1-3-sony tag-fuckkonami tag-hideo-kojima tag-konami">
+   <div class="image_post feature-item">
+                   <a  href="http://pardepebres.com/2015/12/kojima-finalmente-deja-konami/" class="feature-link" title="Kojima finalmente deja Konami, mientras se toma unos tragos con Sony">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2015/12/kojima_gz-400x260.jpg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="kojima_gz" /></a>
+                                          
+                     </div>
+
+<div class="meta_holder">
+<span class="meta-category-small"><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/1-juegos/">Juegos</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/1-juegos/1-3-sony/">Sony</a></span><div class="love_this_post_meta"><a href="#" class="jm-post-like" data-post_id="2287" title="Like"><i class="fa fa-heart-o"></i>2</a></div></div>
+ <h3 class="image-post-title feature_2col"><a href="http://pardepebres.com/2015/12/kojima-finalmente-deja-konami/">Kojima finalmente deja Konami, mientras se toma unos tragos con Sony</a></h3>      
+<p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c601ed351f63429886bd8a5865574d5f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/pixeltrooper/" title="Entradas de Omar Suazo" rel="author">Omar Suazo</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Dec 15, 2015</span></p> <p>Como para marcar la fecha. El día de hoy, 15 de diciembre del 2015, nuestro rockstar favorito, Hideo Kojima, finalmente dejó todo tipo de relación con Konami. Ya te... </p>
+ <div class="footer_meta"><a href="http://pardepebres.com/2015/12/kojima-finalmente-deja-konami/" class="footer_meta_readmore">Read more</a><span class="meta-commentd"><a href="http://pardepebres.com/2015/12/kojima-finalmente-deja-konami/#comments"><span class="dsq-postid" data-dsqidentifier="2287 http://pardepebres.com/?p=2287"><i class="fa fa-comments"></i>1 Comment</span></a></span></div>    </div>
+    </div>
+
+    <div class="clearfix"></div>    
+
+                                            </div>
+<div class="clearfix"></div>
+</div>
+<div class="brack_space"></div>
+ <div class='pagination'><span class='current box'>1</span><a href='http://pardepebres.com/author/pixeltrooper/page/2/' class='inactive box' >2</a><a href='http://pardepebres.com/author/pixeltrooper/page/3/' class='inactive box' >3</a><a href='http://pardepebres.com/author/pixeltrooper/page/4/' class='inactive box' >4</a><a href="http://pardepebres.com/author/pixeltrooper/page/2/" class="page">Next Page</a></div>
+  
+        </div>
+
+  </div>
+  <!-- End content -->
+
+    <!-- Start sidebar -->
+                <div class="four columns content_display_col3" id="sidebar"><div id="the_social_links-2" class="widget widget_the_social_links"><div class="widget-title"><h2>   Redes</h2></div><a href="http://www.facebook.com/pardepebres" class="the-social-links tsl-square tsl-48 tsl-default tsl-facebook" target="_blank" alt="Facebook" title="Facebook"><i class="fa fa-facebook"></i></a>&nbsp;<a href="http://www.twitter.com/pardepebres" class="the-social-links tsl-square tsl-48 tsl-default tsl-twitter" target="_blank" alt="Twitter" title="Twitter"><i class="fa fa-twitter"></i></a>&nbsp;<a href="https://www.youtube.com/channel/UCCpSgnzQYFzc3WMDiUARbKw" class="the-social-links tsl-square tsl-48 tsl-default tsl-youtube" target="_blank" alt="YouTube" title="YouTube"><i class="fa fa-youtube"></i></a>&nbsp;<a href="http://pardepebres.com/feed/" class="the-social-links tsl-square tsl-48 tsl-default tsl-rss" target="_blank" alt="RSS Feed" title="RSS Feed"><i class="fa fa-rss"></i></a>&nbsp;<div class="margin-bottom"></div></div><div id="text-6" class="widget widget_text">			<div class="textwidget"><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-page" data-href="https://www.facebook.com/pardepebres" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pardepebres"><a href="https://www.facebook.com/pardepebres">Par de Pebres</a></blockquote></div></div></div>
+		<div class="margin-bottom"></div></div><div id="rec-carousel-posts-2" class="widget carousel_post"><div class="widget-title"><h2>Ultimos Reviews</h2></div><div class="owl_slider slider-large-widget content-sliders owl-carousel sidebar widget_caption_slider ">
+         
+                          <div class="item_slide widget_slider image_post">
+              <a  href="http://pardepebres.com/2016/01/link-start-sao-lost-song/" class="feature-link" title="¡Link Start! SAO: Lost Song">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2016/01/SAOI-400x260.jpg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="SAOI" /></a>
+<div class="review_circle_large_small">
+<input disabled class="post_review_bar" data-thickness=".2" data-fgColor="#f4b711" data-width="40" data-max="10" readonly value="5.4">
+</div> 
+<div class="item_slide_caption">
+                             <h1 class="widget_slider"><a href="http://pardepebres.com/2016/01/link-start-sao-lost-song/">¡Link Start! SAO: Lost Song</a></h1>
+                        </div>
+
+</div>
+
+ 
+             
+                          <div class="item_slide widget_slider image_post">
+              <a  href="http://pardepebres.com/2015/12/lo-tenemos-de-vuelta-guitar-hero-live/" class="feature-link" title="Lo tenemos de vuelta: ¡Guitar Hero Live!">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2015/12/maxresdefault-1-400x260.jpg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="maxresdefault" /></a>
+<div class="review_circle_large_small">
+<input disabled class="post_review_bar" data-thickness=".2" data-fgColor="#f4b711" data-width="40" data-max="10" readonly value="8">
+</div> 
+<div class="item_slide_caption">
+                             <h1 class="widget_slider"><a href="http://pardepebres.com/2015/12/lo-tenemos-de-vuelta-guitar-hero-live/">Lo tenemos de vuelta: ¡Guitar Hero Live!</a></h1>
+                        </div>
+
+</div>
+
+ 
+             
+                          <div class="item_slide widget_slider image_post">
+              <a  href="http://pardepebres.com/2015/11/surca-los-cielos-rodea-the-sky-soldier/" class="feature-link" title="¡Surca los cielos! Rodea: The Sky Soldier">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2015/11/4444-696x421-400x260.jpg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="4444-696x421" /></a>
+<div class="review_circle_large_small">
+<input disabled class="post_review_bar" data-thickness=".2" data-fgColor="#f4b711" data-width="40" data-max="10" readonly value="7.6">
+</div> 
+<div class="item_slide_caption">
+                             <h1 class="widget_slider"><a href="http://pardepebres.com/2015/11/surca-los-cielos-rodea-the-sky-soldier/">¡Surca los cielos! Rodea: The Sky Soldier</a></h1>
+                        </div>
+
+</div>
+
+ 
+             
+                          <div class="item_slide widget_slider image_post">
+              <a  href="http://pardepebres.com/2015/11/animal-crossing-not-so-much-an-amiibo-festival/" class="feature-link" title="Animal Crossing: Not so much an Amiibo Festival">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2015/11/animal-crossing-amiibo-festival-wii-u_265312-726x400-400x260.jpg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="animal-crossing-amiibo-festival-wii-u_265312-726x400" /></a>
+<div class="review_circle_large_small">
+<input disabled class="post_review_bar" data-thickness=".2" data-fgColor="#f4b711" data-width="40" data-max="10" readonly value="4.4">
+</div> 
+<div class="item_slide_caption">
+                             <h1 class="widget_slider"><a href="http://pardepebres.com/2015/11/animal-crossing-not-so-much-an-amiibo-festival/">Animal Crossing: Not so much an Amiibo Festival</a></h1>
+                        </div>
+
+</div>
+
+ 
+             
+                          <div class="item_slide widget_slider image_post">
+              <a  href="http://pardepebres.com/2015/11/revisamos-superbeatxonic/" class="feature-link" title="Revisamos SUPERBEAT:XONiC">              
+<img width="400" height="260" src="http://pardepebres.com/wp-content/uploads/2015/10/maxresdefault-3-e1444435674483-400x260.jpg" class="attachment-medium-feature size-medium-feature wp-post-image" alt="maxresdefault (3)" /></a>
+<div class="review_circle_large_small">
+<input disabled class="post_review_bar" data-thickness=".2" data-fgColor="#f4b711" data-width="40" data-max="10" readonly value="9.4">
+</div> 
+<div class="item_slide_caption">
+                             <h1 class="widget_slider"><a href="http://pardepebres.com/2015/11/revisamos-superbeatxonic/">Revisamos SUPERBEAT:XONiC</a></h1>
+                        </div>
+
+</div>
+
+ 
+            </div>
+<div class="margin-bottom"></div></div><div id="jellywp_video_widget-2" class="widget video_embed_widget">			<div class="widget-title"><h2>Videos Destacados</h2></div>
+<div class="widget_container">		
+		<iframe src="http://www.youtube.com/embed/EhyQwDdKcDo?wmode=transparent" width="300" height="200" ></iframe>				
+     <div class="clear"></div>
+    </div>
+    				
+
+			<div class="margin-bottom"></div></div><div id="popular_widget-2" class="widget post_list_widget"><div class="widget-title"><h2>Populais</h2></div>				<div class="widget_container">
+				<ul class="feature-post-list popular-post-widget">
+			
+                         <li class="">
+<a  href="http://pardepebres.com/2015/10/analisis-until-dawn/" class="feature-image-link image_post" title="Análisis a fondo: Until Dawn">              
+<img width="100" height="75" src="http://pardepebres.com/wp-content/uploads/2015/10/Until-Dawn-feat-100x75.png" class="attachment-small-feature size-small-feature wp-post-image" alt="Until Dawn feat" /></a>
+  <div class="item-details">
+  	<span class="meta-category-small"><a class="post-category-color-text" style="color:#" href="http://pardepebres.com/category/1-juegos/1-5-analisis/notas/">Puntuaciones</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/1-juegos/1-5-analisis/">Reviews</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/1-juegos/1-3-sony/">Sony</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/sin-categoria/">xPdP</a></span><div class="review_star_small_list"><i class="icon-star"></i><span class="number">8.2</span></div>   <h3 class="feature-post-title"><a href="http://pardepebres.com/2015/10/analisis-until-dawn/">Análisis a fondo: Until Dawn</a></h3>
+   <p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/f3efd78a259194a7db4244102c3a0469?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/f3efd78a259194a7db4244102c3a0469?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/piplash/" title="Entradas de Felipe Barriga" rel="author">Felipe Barriga</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Oct 01, 2015</span></p>   </div>
+   <div class="clearfix"></div>
+   </li>
+            
+
+		
+                         <li class="">
+<a  href="http://pardepebres.com/2015/10/aun-no-ves-sharknado/" class="feature-image-link image_post" title="¿Aún no ves Sharknado?">              
+<img width="100" height="75" src="http://pardepebres.com/wp-content/uploads/2015/10/sharknado-100x75.jpg" class="attachment-small-feature size-small-feature wp-post-image" alt="sharknado" /></a>
+  <div class="item-details">
+  	<span class="meta-category-small"><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/7-opinion/">Análisis y Opinión</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/2-telon-y-vinetas/2-3-peliculas/">Películas</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/sin-categoria/">xPdP</a></span>   <h3 class="feature-post-title"><a href="http://pardepebres.com/2015/10/aun-no-ves-sharknado/">¿Aún no ves Sharknado?</a></h3>
+   <p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://2.gravatar.com/avatar/88b801bdde10862159daa6db3c6a6725?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/88b801bdde10862159daa6db3c6a6725?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/insane/" title="Entradas de InsaneAdiction" rel="author">InsaneAdiction</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Oct 04, 2015</span></p>   </div>
+   <div class="clearfix"></div>
+   </li>
+            
+
+		
+                         <li class="">
+<a  href="http://pardepebres.com/2015/11/ver-o-no-ver-te-contamos-sobre-ruroini-kenshin-live-action/" class="feature-image-link image_post" title="¿Ver o no ver? Te contamos sobre Rurouni Kenshin, Live Action">              
+<img width="100" height="75" src="http://pardepebres.com/wp-content/uploads/2015/11/rkfeat-100x75.jpg" class="attachment-small-feature size-small-feature wp-post-image" alt="rkfeat" /></a>
+  <div class="item-details">
+  	<span class="meta-category-small"><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/7-opinion/">Análisis y Opinión</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/2-telon-y-vinetas/2-3-peliculas/">Películas</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/4-rincon-otaco/">Rincón Otaco</a></span>   <h3 class="feature-post-title"><a href="http://pardepebres.com/2015/11/ver-o-no-ver-te-contamos-sobre-ruroini-kenshin-live-action/">¿Ver o no ver? Te contamos sobre Rurouni Kenshin, Live Action</a></h3>
+   <p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://0.gravatar.com/avatar/f3efd78a259194a7db4244102c3a0469?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/f3efd78a259194a7db4244102c3a0469?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/piplash/" title="Entradas de Felipe Barriga" rel="author">Felipe Barriga</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Nov 20, 2015</span></p>   </div>
+   <div class="clearfix"></div>
+   </li>
+            
+
+		
+                         <li class="">
+<a  href="http://pardepebres.com/2015/09/un-vistazo-al-mundo-de-blazblue/" class="feature-image-link image_post" title="Un vistazo al mundo de BlazBlue">              
+<img width="100" height="75" src="http://pardepebres.com/wp-content/uploads/2015/09/tumblr_nt1zlzzPrG1r3rgkso3_1280-e1446325360862-100x75.jpg" class="attachment-small-feature size-small-feature wp-post-image" alt="tumblr_nt1zlzzPrG1r3rgkso3_1280" /></a>
+  <div class="item-details">
+  	<span class="meta-category-small"><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/7-opinion/">Análisis y Opinión</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/1-juegos/1-1-microsoft/">Microsoft</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/1-juegos/1-2-nintendo/">Nintendo</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/1-juegos/1-3-sony/">Sony</a><a class="post-category-color-text" style="color:" href="http://pardepebres.com/category/sin-categoria/">xPdP</a></span>   <h3 class="feature-post-title"><a href="http://pardepebres.com/2015/09/un-vistazo-al-mundo-de-blazblue/">Un vistazo al mundo de BlazBlue</a></h3>
+   <p class="post-meta meta-main-img"><span class="post-author"><img alt='' src='http://2.gravatar.com/avatar/88b801bdde10862159daa6db3c6a6725?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/88b801bdde10862159daa6db3c6a6725?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /><a href="http://pardepebres.com/author/insane/" title="Entradas de InsaneAdiction" rel="author">InsaneAdiction</a></span><span class="post-date"><i class="fa fa-clock-o"></i>Sep 29, 2015</span></p>   </div>
+   <div class="clearfix"></div>
+   </li>
+            
+
+		</ul>		
+</div>			
+<div class="margin-bottom"></div></div><div id="text-8" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Sidebar -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9090256440257752"
+     data-ad-slot="1920040700"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		<div class="margin-bottom"></div></div><div id="decent_comments_widget-2" class="widget widget_decent_comments_widget"><div class="widget-title"><h2>Se dice por ahí</h2></div><div class="decent-comments"><ul><li><div class="comment"><span class="comment-avatar"><a href="https://www.youtube.com/user/kenmasterchile" rel="external"><img alt='' src='http://2.gravatar.com/avatar/e7330af38900632940d6495bd867cb19?s=24&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/e7330af38900632940d6495bd867cb19?s=48&amp;d=mm&amp;r=g 2x' class='avatar avatar-24 photo' height='24' width='24' /></a></span><span class="comment-author"><a href='https://www.youtube.com/user/kenmasterchile' rel='external nofollow' class='url'>Aquosharp</a></span><span class="comment-link"> on <a href="http://pardepebres.com/2016/02/en-la-puerta-del-horno-probamos-la-beta-de-hitman-ps4/#comment-153">[En La Puerta del Horno] Probamos la beta de Hitman (PS4)</a></span><span class="comment-excerpt">Se nota que, como bien dices, nunca antes habias jugado...</span></div></li><li><div class="comment"><span class="comment-avatar"><a href="https://www.youtube.com/user/kenmasterchile" rel="external"><img alt='' src='http://2.gravatar.com/avatar/e7330af38900632940d6495bd867cb19?s=24&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/e7330af38900632940d6495bd867cb19?s=48&amp;d=mm&amp;r=g 2x' class='avatar avatar-24 photo' height='24' width='24' /></a></span><span class="comment-author"><a href='https://www.youtube.com/user/kenmasterchile' rel='external nofollow' class='url'>Aquosharp</a></span><span class="comment-link"> on <a href="http://pardepebres.com/2016/01/japonlohicistedenuevo-floating-bonsai/#comment-151">#JapónLoHicisteDeNuevo: Floating Bonsai</a></span><span class="comment-excerpt">Me cuesta imaginar una wea mas inutil -_- </span></div></li><li><div class="comment"><span class="comment-avatar"><img alt='' src='http://2.gravatar.com/avatar/88b801bdde10862159daa6db3c6a6725?s=24&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/88b801bdde10862159daa6db3c6a6725?s=48&amp;d=mm&amp;r=g 2x' class='avatar avatar-24 photo' height='24' width='24' /></span><span class="comment-author">InsaneAdiction</span><span class="comment-link"> on <a href="http://pardepebres.com/2016/01/en-la-puerta-del-horno-final-fantasy-explorers/#comment-150">[En la Puerta del Horno] Final Fantasy Explorers</a></span><span class="comment-excerpt">Yo estoy convencido de la 1 al menos :v </span></div></li><li><div class="comment"><span class="comment-avatar"><img alt='' src='http://0.gravatar.com/avatar/f3efd78a259194a7db4244102c3a0469?s=24&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/f3efd78a259194a7db4244102c3a0469?s=48&amp;d=mm&amp;r=g 2x' class='avatar avatar-24 photo' height='24' width='24' /></span><span class="comment-author">Piplash</span><span class="comment-link"> on <a href="http://pardepebres.com/2016/01/en-la-puerta-del-horno-final-fantasy-explorers/#comment-149">[En la Puerta del Horno] Final Fantasy Explorers</a></span><span class="comment-excerpt">No sé si me estás diciendo que valgo callampa o...</span></div></li></ul></div><div class="margin-bottom"></div></div><div id="text-7" class="widget widget_text">			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/PardePebres" data-widget-id="647936993486372864">Tweets by @PardePebres</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		<div class="margin-bottom"></div></div><div id="text-10" class="widget widget_text"><div class="widget-title"><h2>Visiten también</h2></div>			<div class="textwidget"><center><a href="http://www.universidadfriky.com" target="_blank"><img src="http://universidadfriky.com/wp-content/uploads/2013/12/logo_universidadfriky280.png" alt="" /></a></center></div>
+		<div class="margin-bottom"></div></div></div>  <!-- End sidebar -->
+</div>
+</div>
+ </section>
+<!-- end content --> 
+<!-- Start footer -->
+<footer id="footer-container">
+
+    <div class="footer-columns">
+        <div class="row">
+                        <div class="four columns"><div id="text-5" class="widget widget_text">			<div class="textwidget"><div align="justify"> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Par de Pebres</span> está distribuido bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons BY-NC-SA 4.0 Internacional</a>. Prohibida la reproducción total o parcial de contenidos sin nuestra autorización.</div></div>
+		</div></div>
+            <div class="four columns"><div id="text-4" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- foot -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9090256440257752"
+     data-ad-slot="7966574301"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</div></div>
+                                    <div class="four columns"></div>
+     		        </div>
+    </div>
+            <div class="footer-bottom">
+        <div class="row">
+            <div class="six columns footer-left"> Par de Pebres © 2015 - 2016</div>
+            <div class="six columns footer-right">                  
+                                        <ul id="menu-foot2" class="menu-footer"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"><a href="http://twitter.com/pardepebres">Twitter</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85"><a href="http://facebook.com/pardepebres">Facebook</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1231"><a href="http://pardepebres.com/contacto/">Contacto</a></li>
+</ul>             
+             </div>
+        </div>  
+    </div>
+      
+</footer>
+<!-- End footer -->
+</div>
+<div id="go-top"><a href="#go-top"><i class="fa fa-chevron-up"></i></a></div>
+<script type='text/javascript' src='http://pardepebres.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_var = {"url":"http:\/\/pardepebres.com\/wp-admin\/admin-ajax.php","nonce":"5aa5a3c59d"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/post-like.js?ver=1.0'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/inc/addon/aqua-page-builder-master/assets/javascripts/aqpb-view.js?ver=1455840687'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/marquee.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/superfish.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/owl.carousel.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/jquery.pageslide.min.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/mediaelement-and-player.min.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/fluidvids.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/jquery.sticky.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/waypoints.min.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/jquery.infinitescroll.min.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/jquery.slimscroll.min.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/jquery.knob.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/jquery.bxslider.min.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/themes/nanomag/js/custom.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pardepebres.com/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"pardepebres"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://pardepebres.com/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.4.2'></script>
+</body>
+</html>

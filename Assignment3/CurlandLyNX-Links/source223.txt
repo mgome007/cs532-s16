@@ -1,0 +1,326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+		"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml">
+			<head>
+				<title>Sea Lion Club</title>
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+				<link rel="stylesheet" type="text/css" href="https://sealion.club/local/plugins/Qvitter/css/qvitter.css?changed=20160114194233" />
+				<link rel="stylesheet" type="text/css" href="https://sealion.club/local/plugins/Qvitter/css/jquery.minicolors.css" />
+				<link rel="shortcut icon" type="image/x-icon" href="https://sealion.club/local/plugins/Qvitter/img/favicon.ico?v=4">
+				<link title="Notice feed for conrad1on (Activity Streams JSON)" type="application/stream+json" href="https://sealion.club/api/statuses/user_timeline/76.as" rel="alternate">
+				<link title="Notice feed for conrad1on (RSS 1.0)" type="application/rdf+xml" href="https://sealion.club/conrad1on/rss" rel="alternate">
+				<link title="Notice feed for conrad1on (RSS 2.0)" type="application/rss+xml" href="https://sealion.club/api/statuses/user_timeline/76.rss" rel="alternate">
+				<link title="Notice feed for conrad1on (Atom)" type="application/atom+xml" href="https://sealion.club/api/statuses/user_timeline/76.atom" rel="alternate">
+				<link title="FOAF for conrad1on" type="application/rdf+xml" href="https://sealion.club/conrad1on/foaf" rel="meta">
+				<link href="https://sealion.club/conrad1on/microsummary" rel="microsummary">
+				<link rel="openid2.provider" href="https://sealion.club/main/openidserver"/>
+				<link rel="openid2.local_id" href="https://sealion.club/conrad1on"/>
+				<link rel="openid2.server" href="https://sealion.club/main/openidserver"/>
+				<link rel="openid2.delegate" href="https://sealion.club/conrad1on"/>
+				<script>
+
+					/*
+					@licstart  The following is the entire license notice for the
+					JavaScript code in this page.
+
+					Copyright (C) 2015  Hannes Mannerheim and other contributors
+
+					This program is free software: you can redistribute it and/or modify
+					it under the terms of the GNU Affero General Public License as
+					published by the Free Software Foundation, either version 3 of the
+					License, or (at your option) any later version.
+
+					This program is distributed in the hope that it will be useful,
+					but WITHOUT ANY WARRANTY; without even the implied warranty of
+					MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+					GNU Affero General Public License for more details.
+
+					You should have received a copy of the GNU Affero General Public License
+					along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+					@licend  The above is the entire license notice
+					for the JavaScript code in this page.
+					*/
+
+					window.defaultAvatarStreamSize = "https:\/\/sealion.club\/theme\/neo-gnu\/default-avatar-stream.png";
+                    window.defaultAvatarProfileSize = "https:\/\/sealion.club\/theme\/neo-gnu\/default-avatar-profile.png";
+					window.textLimit = 1516;
+					window.registrationsClosed = false;
+					window.thisSiteThinksItIsHttpButIsActuallyHttps = false;
+					window.siteTitle = "Sea Lion Club";
+					window.loggedIn = false;
+					window.timeBetweenPolling = 5000;
+					window.apiRoot = 'https://sealion.club/api/';
+					window.fullUrlToThisQvitterApp = 'https://sealion.club/local/plugins/Qvitter/';
+					window.siteRootDomain = 'sealion.club';
+					window.siteInstanceURL = 'https://sealion.club/';
+					window.defaultLinkColor = '#750787';
+					window.defaultBackgroundColor = '#75b76a';
+					window.siteBackground = 'img/fvz1Bf.jpg';
+					window.enableWelcomeText = true;
+					window.customWelcomeText = false;
+					window.urlShortenerAPIURL = 'http://qttr.at/yourls-api.php';
+					window.urlShortenerSignature = 'b6afeec983';
+					window.commonSessionToken = '739446a9578543e8125e34dba0fb81e3f2239b31e10d0693ac77896a2b6332d43a4b3defcb713b5185875fecf6246f86388ebb9abc359eeacdc0f3cfcf09cf54';
+					window.siteMaxThumbnailSize = 3000;
+					window.siteAttachmentURLBase = 'https://sealion.club/attachment/';
+					window.siteEmail = 'hopestillfliesx360a@gmail.com';
+					window.siteLicenseTitle = '';
+					window.siteLicenseURL = '';
+					window.customTermsOfUse = false;
+                    window.siteLocalOnlyDefaultPath = false;
+                    
+					// available language files and their last update time
+					window.availableLanguages = {
+						"ar": "ar.json?changed=20160114194233",
+						"ast": "ast.json?changed=20160114194233",
+						"ca": "ca.json?changed=20160114194233",
+						"de": "de.json?changed=20160114194233",
+						"en": "en.json?changed=20160210091339",
+						"eo": "eo.json?changed=20160114194233",
+						"es": "es.json?changed=20160114194233",
+						"eu": "eu.json?changed=20160114194233",
+						"fa": "fa.json?changed=20160114194233",
+						"fi": "fi.json?changed=20160114194233",
+						"fr": "fr.json?changed=20160114194233",
+						"gl": "gl.json?changed=20160114194233",
+						"he": "he.json?changed=20160114194233",
+						"io": "io.json?changed=20160114194233",
+						"it": "it.json?changed=20160114194233",
+						"no": "no.json?changed=20160114194233",
+						"pt_br": "pt_br.json?changed=20160114194233",
+						"sv": "sv.json?changed=20160114194233",
+						"zh_cn": "zh_cn.json?changed=20160114194233",
+						"zh_tw": "zh_tw.json?changed=20160114194233",
+						};
+
+				</script>
+							</head>
+			<body style="background-color:#75b76a">
+                				<input id="upload-image-input" class="upload-image-input" type="file" name="upload-image-input">
+				<div class="topbar">
+					<a href="https://sealion.club/main/public"><div id="logo"></div></a><div id="top-compose" class="hidden"></div>
+					<ul class="quitter-settings dropdown-menu">
+						<li class="dropdown-caret right">
+							<span class="caret-outer"></span>
+							<span class="caret-inner"></span>
+						</li>
+						<li class="fullwidth"><a id="logout"></a></li>
+						<li class="fullwidth dropdown-divider"></li>
+						<li class="fullwidth"><a id="edit-profile-header-link"></a></li>
+						<li class="fullwidth"><a id="settings" href="https://sealion.club/settings/profile" donthijack></a></li>
+						<li class="fullwidth"><a id="faq-link"></a></li>
+                        <li class="fullwidth"><a id="shortcuts-link"></a></li>
+													<li class="fullwidth"><a id="invite-link" href="https://sealion.club/main/invite"></a></li>
+												<li class="fullwidth"><a id="classic-link"></a></li>
+						<li class="fullwidth language dropdown-divider"></li>
+						<li class="language"><a class="language-link" title="Arabic" data-lang-code="ar">العربية</a></li><li class="language"><a class="language-link" title="Asturian" data-lang-code="ast">Asturian</a></li><li class="language"><a class="language-link" title="Catalan" data-lang-code="ca">català</a></li><li class="language"><a class="language-link" title="German" data-lang-code="de">Deutsch</a></li><li class="language"><a class="language-link" title="English" data-lang-code="en">English</a></li><li class="language"><a class="language-link" title="Esperanto" data-lang-code="eo">esperanto</a></li><li class="language"><a class="language-link" title="Spanish" data-lang-code="es">español</a></li><li class="language"><a class="language-link" title="Basque" data-lang-code="eu">euskara</a></li><li class="language"><a class="language-link" title="Persian" data-lang-code="fa">فارسی</a></li><li class="language"><a class="language-link" title="Finnish" data-lang-code="fi">suomi</a></li><li class="language"><a class="language-link" title="French" data-lang-code="fr">français</a></li><li class="language"><a class="language-link" title="Galician" data-lang-code="gl">galego</a></li><li class="language"><a class="language-link" title="Hebrew" data-lang-code="he">עברית</a></li><li class="language"><a class="language-link" title="Ido" data-lang-code="io">Ido</a></li><li class="language"><a class="language-link" title="Italian" data-lang-code="it">italiano</a></li><li class="language"><a class="language-link" title="Norwegian" data-lang-code="no">norsk</a></li><li class="language"><a class="language-link" title="Portuguese" data-lang-code="pt_br">português (Brasil)&lrm;</a></li><li class="language"><a class="language-link" title="Swedish" data-lang-code="sv">svenska</a></li><li class="language"><a class="language-link" title="Chinese" data-lang-code="zh_cn">中文 (中国)&lrm;</a></li><li class="language"><a class="language-link" title="Chinese" data-lang-code="zh_tw">中文 (台灣)&lrm;</a></li>					</ul>
+					<div class="global-nav">
+						<div class="global-nav-inner">
+							<div class="container">
+								<div id="search">
+									<input type="text" spellcheck="false" autocomplete="off" name="q" placeholder="Sök" id="search-query" class="search-input">
+									<span class="search-icon">
+										<button class="icon nav-search" type="submit" tabindex="-1">
+											<span> Sök </span>
+										</button>
+									</span>
+								</div>
+								<ul class="language-dropdown">
+									<li class="dropdown">
+										<a class="dropdown-toggle">
+											<small></small>
+											<span class="current-language"></span>
+											<b class="caret"></b>
+										</a>
+										<ul class="dropdown-menu">
+											<li class="dropdown-caret right">
+												<span class="caret-outer"></span>
+												<span class="caret-inner"></span>
+											</li>
+											<li><a class="language-link" title="Arabic" data-lang-code="ar">العربية</a></li><li><a class="language-link" title="Asturian" data-lang-code="ast">Asturian</a></li><li><a class="language-link" title="Catalan" data-lang-code="ca">català</a></li><li><a class="language-link" title="German" data-lang-code="de">Deutsch</a></li><li><a class="language-link" title="English" data-lang-code="en">English</a></li><li><a class="language-link" title="Esperanto" data-lang-code="eo">esperanto</a></li><li><a class="language-link" title="Spanish" data-lang-code="es">español</a></li><li><a class="language-link" title="Basque" data-lang-code="eu">euskara</a></li><li><a class="language-link" title="Persian" data-lang-code="fa">فارسی</a></li><li><a class="language-link" title="Finnish" data-lang-code="fi">suomi</a></li><li><a class="language-link" title="French" data-lang-code="fr">français</a></li><li><a class="language-link" title="Galician" data-lang-code="gl">galego</a></li><li><a class="language-link" title="Hebrew" data-lang-code="he">עברית</a></li><li><a class="language-link" title="Ido" data-lang-code="io">Ido</a></li><li><a class="language-link" title="Italian" data-lang-code="it">italiano</a></li><li><a class="language-link" title="Norwegian" data-lang-code="no">norsk</a></li><li><a class="language-link" title="Portuguese" data-lang-code="pt_br">português (Brasil)&lrm;</a></li><li><a class="language-link" title="Swedish" data-lang-code="sv">svenska</a></li><li><a class="language-link" title="Chinese" data-lang-code="zh_cn">中文 (中国)&lrm;</a></li><li><a class="language-link" title="Chinese" data-lang-code="zh_tw">中文 (台灣)&lrm;</a></li>										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+                <div id="no-js-error">Please enable javascript to use this site.<script>var element = document.getElementById('no-js-error'); element.parentNode.removeChild(element);</script></div>
+				<div id="page-container">
+					                        <div class="front-welcome-text "></div>
+                        <div id="login-register-container">
+    						<div id="login-content">
+    							<form id="form_login" class="form_settings" action="https://sealion.club/main/qlogin" method="post">
+    								<div id="username-container">
+    									<input id="nickname" name="nickname" type="text" value="" tabindex="1" />
+    								</div>
+    								<table class="password-signin"><tbody><tr>
+    									<td class="flex-table-primary">
+    										<div class="placeholding-input">
+    											<input id="password" name="password" type="password" tabindex="2" value="" />
+    										</div>
+    									</td>
+    									<td class="flex-table-secondary">
+    										<button class="submit" type="submit" id="submit-login" tabindex="4"></button>
+    									</td>
+    								</tr></tbody></table>
+    								<div id="remember-forgot">
+    									<input type="checkbox" id="rememberme" name="rememberme" value="yes" tabindex="3" checked="checked"> <span id="rememberme_label"></span> · <a id="forgot-password" href="https://sealion.club/main/recoverpassword" ></a>
+    									<input type="hidden" id="token" name="token" value="739446a9578543e8125e34dba0fb81e3f2239b31e10d0693ac77896a2b6332d43a4b3defcb713b5185875fecf6246f86388ebb9abc359eeacdc0f3cfcf09cf54">
+    									<a href="https://sealion.club/main/openid" id="openid-login" title="OpenID" donthijack>OpenID</a>    								</div>
+    							</form>
+    						</div>
+    						<div class="front-signup">
+    							<h2></h2>
+    							<div class="signup-input-container"><input placeholder="" type="text" name="user[name]" autocomplete="off" class="text-input" id="signup-user-name"></div>
+    							<div class="signup-input-container"><input placeholder="" type="text" name="user[email]" autocomplete="off" id="signup-user-email"></div>
+    							<div class="signup-input-container"><input placeholder="" type="password" name="user[user_password]" class="text-input" id="signup-user-password"></div>
+    							<button id="signup-btn-step1" class="signup-btn" type="submit"></button>
+    						</div>
+                            <div id="other-servers-link"></div><div id="qvitter-notice-logged-out"></div>
+                        </div>
+                    <div id="feed">
+						<div id="feed-header">
+							<div id="feed-header-inner">
+								<h2></h2>
+								<div class="reload-stream"></div>
+							</div>
+						</div>
+						<div id="new-queets-bar-container" class="hidden"><div id="new-queets-bar"></div></div>
+						<div id="feed-body"></div>
+					</div>
+                    <div id="hidden-html"></div>
+					<div id="footer"><div id="footer-spinner-container"></div></div>
+				</div>
+				<script type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/lib/jquery-2.1.4.min.js?changed=20160114194233"></script>
+				<script type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/lib/jquery-ui.min.js?changed=20160114194233"></script>
+				<script type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/lib/jquery.minicolors.min.js?changed=20160114194233"></script>
+				<script type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/lib/jquery.jWindowCrop.js?changed=20160114194233"></script>
+				<script type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/lib/load-image.min.js?changed=20160114194233"></script>
+				<script type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/lib/xregexp-all-3.0.0-pre.js?changed=20160114194233"></script>
+                <script type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/lib/lz-string.js?changed=20160114194233"></script>
+                <script type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/lib/bowser.min.js?changed=20160114194233"></script>
+				<script charset="utf-8" type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/dom-functions.js?changed=20160114194233"></script>
+				<script charset="utf-8" type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/misc-functions.js?changed=20160114194233"></script>
+				<script charset="utf-8" type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/ajax-functions.js?changed=20160114194233"></script>
+                <script charset="utf-8" type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/stream-router.js?changed=20160114194233"></script>
+				<script charset="utf-8" type="text/javascript" src="https://sealion.club/local/plugins/Qvitter/js/qvitter.js?changed=20160114194233"></script>
+							<div id="dynamic-styles">
+				<style>
+					a, a:visited, a:active,
+					ul.stats li:hover a,
+					ul.stats li:hover a strong,
+					#user-body a:hover div strong,
+					#user-body a:hover div div,
+					.permalink-link:hover,
+					.stream-item.expanded > .queet .stream-item-expand,
+					.stream-item-footer .with-icn .requeet-text a b:hover,
+					.queet-text span.attachment.more,
+					.stream-item-header .created-at a:hover,
+					.stream-item-header a.account-group:hover .name,
+					.queet:hover .stream-item-expand,
+					.show-full-conversation:hover,
+					#new-queets-bar,
+					.menu-container div,
+					.cm-mention, .cm-tag, .cm-group, .cm-url, .cm-email,
+					div.syntax-middle span,
+					#user-body strong,
+					ul.stats,
+					.stream-item:not(.temp-post) ul.queet-actions li .icon:not(.is-mine):hover:before,
+					.show-full-conversation,
+					#user-body #user-queets:hover .label,
+					#user-body #user-groups:hover .label,
+					#user-body #user-following:hover .label,
+					ul.stats a strong,
+					.queet-box-extras button,
+					#openid-login:hover:after,
+                    .post-to-group {
+						color:/*COLORSTART*/#750787/*COLOREND*/;
+						}
+					#unseen-notifications,
+					.stream-item.notification.not-seen > .queet::before,
+					#top-compose,
+					#logo,
+					.queet-toolbar button,
+					#user-header,
+					.profile-header-inner,
+					.topbar,
+					.menu-container,
+					.member-button.member,
+					.external-follow-button.following,
+					.qvitter-follow-button.following,
+					.save-profile-button,
+					.crop-and-save-button,
+					.topbar .global-nav.show-logo:before,
+					.topbar .global-nav.pulse-logo:before,
+                    .dropdown-menu li:not(.dropdown-caret) a:hover {
+						background-color:/*BACKGROUNDCOLORSTART*/#750787/*BACKGROUNDCOLOREND*/;
+						}
+					.queet-box-syntax[contenteditable="true"]:focus,
+                    .stream-item.selected-by-keyboard::before {
+						border-color:/*BORDERCOLORSTART*/#999999/*BORDERCOLOREND*/;
+						}
+					#user-footer-inner,
+					.inline-reply-queetbox,
+					#popup-faq #faq-container p.indent {
+						background-color:/*LIGHTERBACKGROUNDCOLORSTART*/rgb(205,230,239)/*LIGHTERBACKGROUNDCOLOREND*/;
+						}
+					#user-footer-inner,
+					.queet-box,
+					.queet-box-syntax[contenteditable="true"],
+					.inline-reply-queetbox,
+					span.inline-reply-caret,
+				    .stream-item.expanded .stream-item.first-visible-after-parent,
+					#popup-faq #faq-container p.indent,
+                    .post-to-group,
+                    .quoted-notice:hover,
+                    .stream-item:hover:not(.expanded) .quoted-notice:hover {
+						border-color:/*LIGHTERBORDERCOLORSTART*/rgb(155,206,224)/*LIGHTERBORDERCOLOREND*/;
+						}
+					span.inline-reply-caret .caret-inner {
+						border-bottom-color:/*LIGHTERBORDERBOTTOMCOLORSTART*/rgb(205,230,239)/*LIGHTERBORDERBOTTOMCOLOREND*/;
+						}
+
+					.modal-close .icon,
+					.chev-right,
+					.close-right,
+					button.icon.nav-search,
+					.member-button .join-text i,
+					.external-member-button .join-text i,
+					.external-follow-button .follow-text i,
+					.qvitter-follow-button .follow-text i,
+					#logo,
+					.upload-cover-photo,
+					.upload-avatar,
+					.upload-background-image,
+					button.shorten i,
+					.reload-stream,
+					.topbar .global-nav:before,
+					.stream-item.notification.repeat .dogear,
+					.stream-item.notification.like .dogear,
+					.ostatus-link,
+					.close-edit-profile-window {
+						background-image: url("https://sealion.club/local/plugins/Qvitter/img/sprite.png?v=40");
+						background-size: 500px 1329px;
+						}
+					@media (max-width: 910px) {
+						#search-query,
+						.menu-container a,
+						.menu-container a.current,
+						.stream-selection.friends-timeline:after,
+						.stream-selection.notifications:after,
+						.stream-selection.my-timeline:after,
+						.stream-selection.public-timeline:after {
+							background-image: url("https://sealion.club/local/plugins/Qvitter/img/sprite.png?v=40");
+							background-size: 500px 1329px;
+							}
+						}
+
+				</style>
+			</div>
+			</body>
+		</html>
+
+
+			

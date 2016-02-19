@@ -1,0 +1,1670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ## for client-side less
+  <link rel="stylesheet/less" type="text/css" href="http://joelgrus.com/theme/css/style.less">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
+  -->
+  <link rel="stylesheet" type="text/css" href="http://joelgrus.com/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="http://joelgrus.com/theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Joel Grus">
+  <meta name="description" content="Posts and writings by Joel Grus">
+
+  <link href="http://joelgrus.com/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="Joel Grus Atom" />
+  <link href="http://joelgrus.com/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="Joel Grus RSS" />
+
+
+  <title>
+    Joel Grus
+  </title>
+
+</head>
+
+<body>
+  <aside>
+    <div id="user_meta">
+      <a href="http://joelgrus.com">
+        <img src="/images/joel.png" alt="logo">
+      </a>
+      <h2><a href="http://joelgrus.com">Joel Grus</a></h2>
+      <p>is sort of a famous author</p>
+      <ul>
+          <li><a href="http://joelgrus.com/about/">About</a></li>
+          <li><a href="http://joelgrus.com/books/">Books</a></li>
+          <li><a href="http://joelgrus.com/speaking/">Speaking</a></li>
+      
+        <li><a href="http://joelgrus.com/archives.html">Blog Archives</a></li>        
+        <!--        <li><a href="https://twitter.com/joelgrus" target="_blank">Twitter</a></li>
+        <li><a href="https://www.facebook.com/joel.grus" target="_blank">Facebook</a></li>
+        <li><a href="https://plus.google.com/+JoelGrus" target="_blank">Google+</a></li>
+        <li><a href="http://www.linkedin.com/in/joelgrus/" target="_blank">LinkedIn</a></li>
+-->
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    <header>
+      <p>
+      &brvbar; <a href="http://joelgrus.com/feeds/atom.xml">Atom</a>
+      &brvbar; <a href="http://joelgrus.com/feeds/rss.xml">RSS</a>
+      </p>
+    </header>
+
+
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2016/02/15/building-a-stupid-data-product-part-3-the-single-page-app-purescript/">Building a Stupid Data Product, Part 3: The Single-Page App (PureScript)</a></h2>
+  </div>
+  <div class="article_text">
+    <p>(<a href = "/2016/02/15/building-a-stupid-data-product-part-1-the-data-python/">part 1</a>,
+ <a href = "/2016/02/15/building-a-stupid-data-product-part-2-the-web-service-haskell/">part 2</a>)</p>
+<p>OK, so
+<a href = "/2016/02/15/building-a-stupid-data-product-part-2-the-web-service-haskell/">last time</a> we built a web service that responds to GET
+requests with random (bogus) elementary school science questions. In this third
+(and last) installment, we'll create a single-page quiz app that consumes the
+service.</p>
+<p>Here's a rough stab at a wireframe ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2016/02/15/building-a-stupid-data-product-part-3-the-single-page-app-purescript/">
+  2016-02-15 09:00 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2016/02/15/building-a-stupid-data-product-part-2-the-web-service-haskell/">Building a Stupid Data Product, Part 2: The Web Service (Haskell)</a></h2>
+  </div>
+  <div class="article_text">
+    <p>(<a href = "/2016/02/15/building-a-stupid-data-product-part-1-the-data-python/">part 1</a>,
+ <a href = "/2016/02/15/building-a-stupid-data-product-part-3-the-single-page-app-purescript/">part 3</a>)</p>
+<p>Last time we
+<a href = "/2016/02/15/building-a-stupid-data-product-part-1-the-data-python/">collected and processed the data</a>
+for generating stupid fake elementary school science questions and answers. The
+important parts to remember are</p>
+<ol>
+<li>we generated two files <code>questions.json</code> and <code>answers.json</code>
+   containing <em>transition dictionaries</em> mapping each word to an array / list of
+   possible following ...</li></ol>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2016/02/15/building-a-stupid-data-product-part-2-the-web-service-haskell/">
+  2016-02-15 08:00 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2016/02/15/building-a-stupid-data-product-part-1-the-data-python/">Building a Stupid Data Product, Part 1: The Data (Python)</a></h2>
+  </div>
+  <div class="article_text">
+    <p>(<a href = "/2016/02/15/building-a-stupid-data-product-part-2-the-web-service-haskell/">part 2</a>,
+ <a href = "/2016/02/15/building-a-stupid-data-product-part-3-the-single-page-app-purescript/">part 3</a>)</p>
+<p>As I'm not working right now<a href = "#footnote">* </a>,
+I have a surfeit of time to hack on stupid things.
+In particular, it seemed like a good idea to hack together a stupid data product.</p>
+<p>Inspiration (if you can call it such) struck when the Allen Institute released ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2016/02/15/building-a-stupid-data-product-part-1-the-data-python/">
+  2016-02-15 07:00 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2016/01/21/creating-a-function-index-using-cyclejs/">Creating a Function Index Using Cycle.js</a></h2>
+  </div>
+  <div class="article_text">
+    <p>The readers of my book have been clamoring for an <a href = "https://github.com/joelgrus/data-science-from-scratch/issues/21">index of functions</a>,
+so that -- for example -- when someone sees me use <code>vector_mean</code> on page 200 they can
+easily figure out where to find its definition.</p>
+<p>It was easy enough (if tedious) to go through the book and create a ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2016/01/21/creating-a-function-index-using-cyclejs/">
+  2016-01-21 09:00 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2015/12/31/polyglot-twitter-bot-part-4-purescript/">Polyglot Twitter Bot, Part 4: PureScript</a></h2>
+  </div>
+  <div class="article_text">
+    <p>[The fourth in an (at least) 6-part series, all code <a href = "https://github.com/joelgrus/polyglot-twitter-bot">on GitHub</a> as always.]</p>
+<ol>
+<li><a href="http://joelgrus.com/2015/12/29/polyglot-twitter-bot-part-1-nodejs/">Node.js</a></li>
+<li><a href="http://joelgrus.com/2015/12/29/polyglot-twitter-bot-part-2-nodejs-aws-lambda/">Node.js + AWS Lambda</a></li>
+<li><a href="http://joelgrus.com/2015/12/30/polyglot-twitter-bot-part-3-python-27-aws-lambda/">Python 2.7 + AWS Lambda</a></li>
+<li><b>PureScript</b></li>
+<li>PureScript + AWS Lambda</li>
+<li>Bonus: PureScript + Twitter Streaming</li>
+</ol>
+<p>I know, you're thinking, "I've already read three parts of this series,
+and I haven ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2015/12/31/polyglot-twitter-bot-part-4-purescript/">
+  2015-12-31 09:00 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2015/12/30/polyglot-twitter-bot-part-3-python-27-aws-lambda/">Polyglot Twitter Bot, Part 3: Python 2.7 + AWS Lambda</a></h2>
+  </div>
+  <div class="article_text">
+    <p>[The third in an (at least) 6-part series, all code <a href = "https://github.com/joelgrus/polyglot-twitter-bot">on GitHub</a> as always.]</p>
+<ol>
+<li><a href="http://joelgrus.com/2015/12/29/polyglot-twitter-bot-part-1-nodejs/">Node.js</a></li>
+<li><a href="http://joelgrus.com/2015/12/29/polyglot-twitter-bot-part-2-nodejs-aws-lambda/">Node.js + AWS Lambda</a></li>
+<li><b>Python 2.7 + AWS Lambda</b></li>
+<li>Purescript</li>
+<li>Purescript + AWS Lambda</li>
+<li>Bonus: Purescript + Twitter Streaming</li>
+</ol>
+<p>Lambda also allows Python functions, although only Python 2.7.  In practice,
+this won't affect us ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2015/12/30/polyglot-twitter-bot-part-3-python-27-aws-lambda/">
+  2015-12-30 12:00 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2015/12/29/polyglot-twitter-bot-part-2-nodejs-aws-lambda/">Polyglot Twitter Bot, Part 2: Node.js + AWS Lambda</a></h2>
+  </div>
+  <div class="article_text">
+    <p>[The second in an (at least) 6-part series, all code <a href = "https://github.com/joelgrus/polyglot-twitter-bot">on GitHub</a> as always.]</p>
+<ol>
+<li><a href="http://joelgrus.com/2015/12/29/polyglot-twitter-bot-part-1-nodejs/">Node.js</a></li>
+<li><b>Node.js + AWS Lambda</b></li>
+<li>Python 2.7 + AWS Lambda</li>
+<li>Purescript</li>
+<li>Purescript + AWS Lambda</li>
+<li>Bonus: Purescript + Twitter Streaming</li>
+</ol>
+<p>AWS has a recent-ish <a href = "https://aws.amazon.com/lambda/">Lambda</a> product,
+which lets you upload functions and then have them run on ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2015/12/29/polyglot-twitter-bot-part-2-nodejs-aws-lambda/">
+  2015-12-29 07:00 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2015/12/29/polyglot-twitter-bot-part-1-nodejs/">Polyglot Twitter Bot, Part 1: Node.js</a></h2>
+  </div>
+  <div class="article_text">
+    <p>[The first in an (at least) 6-part series, all code <a href = "https://github.com/joelgrus/polyglot-twitter-bot">on GitHub</a> as always.]</p>
+<ol>
+<li><b>Node.js</b></li>
+<li>Node.js + AWS Lambda</li>
+<li>Python 2.7 + AWS Lambda</li>
+<li>Purescript</li>
+<li>Purescript + AWS Lambda</li>
+<li>Bonus: Purescript + Twitter Streaming</li>
+</ol>
+<p>Like most of you, I've long dreamed of making a Twitter bot.
+And also like most ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2015/12/29/polyglot-twitter-bot-part-1-nodejs/">
+  2015-12-29 12:00 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2015/08/23/stupid-itertools-tricks-for-data-science/">Stupid Itertools Tricks for Data Science</a></h2>
+  </div>
+  <div class="article_text">
+    <p>(This is a blog post version of my <a href ="https://github.com/joelgrus/stupid-itertools-tricks-pydata">PyData Seattle talk</a>, slides and code at the link.)</p>
+<p>In my <a href="http://joelgrus.com/2015/07/07/haskell-style-fibonacci-in-python/">last post</a></p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2015/08/23/stupid-itertools-tricks-for-data-science/">
+  2015-08-23 12:00 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2015/07/07/haskell-style-fibonacci-in-python/">Haskell-Style Fibonacci in Python</a></h2>
+  </div>
+  <div class="article_text">
+    <p>If you've ever done a tech interview, you're probably familiar
+with the Fibonacci sequence:</p>
+<p>1, 1, 2, 3, 5, 8, 13, ....</p>
+<p>where each number is the sum of the previous two.  A relatively simple
+(and relatively overused)
+interview problem is to write a function that returns the n-th ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2015/07/07/haskell-style-fibonacci-in-python/">
+  2015-07-07 12:00 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2015/06/12/on-the-mathematics-of-spot-it/">On The Mathematics of Spot It!</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Last weekend we went to a party where one of the other attendees brought
+<a href = "http://www.amazon.com/Spot-it-Disney-Frozen-Alphabet/dp/B00LK0N1ZK">Spot It! Frozen</a> 
+for her kids. It's a simple game with circular cards, each of which has 8 pictures in it,
+most of them <i>Frozen</i>-themed.</p>
+<p><img alt="frozen" src="http://joelgrus.com/images/spot_it_frozen.jpg" /></p>
+<p>The setup is that any two cards in the ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2015/06/12/on-the-mathematics-of-spot-it/">
+  2015-06-12 12:00 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2015/04/26/data-science-from-scratch-first-principles-with-python/">Data Science From Scratch: First Principles with Python</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I am super-excited to announce that the book I've been working on for more than the last year, <i>Data Science from Scratch: First Principles with Python</i> is finally available! (buy from <a href="http://shop.oreilly.com/product/0636920033400.do">O'Reilly</a>, use discount code AUTHD to save some money) (buy from <a href="http://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X">Amazon</a>).</p>
+<p>My experience learning and teaching ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2015/04/26/data-science-from-scratch-first-principles-with-python/">
+  2015-04-26 12:00 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2015/01/15/2014-year-in-review/">2014 Year in Review</a></h2>
+  </div>
+  <div class="article_text">
+    <p>2014 was a crazy year, mostly because I took on two very large projects either of which would have made for a pretty crazy year.</p>
+<h2>1. The Book</h2>
+<p>I am writing a book.  (Yes, another one.)  Actually, the first draft is done, and I am right now revising it based ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2015/01/15/2014-year-in-review/">
+  2015-01-15 07:09 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2014/01/24/what-kind-of-data-scientist-are-you-hereifixeditforyou/">What Kind of Data Scientist Are You? #HereIFixedItForYou</a></h2>
+  </div>
+  <div class="article_text">
+    <p><a href="http://strata.oreilly.com/2013/06/theres-more-than-one-kind-of-data-scientist.html">The
+original</a>
+said nothing to me about my life.</p>
+<p><a href="http://joelgrus.com/wp-content/uploads/2014/01/whatKindOfDataScientistAreYou.png"><img alt="whatKindOfDataScientistAreYou" src="http://joelgrus.com/wp-content/uploads/2014/01/whatKindOfDataScientistAreYou.png" /></a></p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2014/01/24/what-kind-of-data-scientist-are-you-hereifixeditforyou/">
+  2014-01-24 07:33 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2013/12/24/why-programming-language-x-is-unambiguously-better-than-programming-language-y/">Why [Programming Language X] Is Unambiguously Better than [Programming Language Y]</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Recently I have seen a lot of people wondering about the difference
+between [X] and [Y]. After all, they point out, both are [paradigm]
+languages that target [platform] and encourage the [style] style of
+programming while leaving you enough flexibility to [write shitty code].</p>
+<p>Having written [simple program that's ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2013/12/24/why-programming-language-x-is-unambiguously-better-than-programming-language-y/">
+  2013-12-24 10:07 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2013/09/16/thinking-spreadsheet-free-on-the-web/">*Thinking Spreadsheet* Free On The Web</a></h2>
+  </div>
+  <div class="article_text">
+    <p>After talking about doing so forever, I've finally "web-ified" <em>Thinking
+Spreadsheet</em>. So if you ever wanted to learn everything I know about
+spreadsheets but were too cheap to actually buy the book, <a href="http://joelgrus.github.io/thinking-spreadsheet">here's your
+opportunity</a>. Share it
+with your friends and hope that Github doesn't decide I ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2013/09/16/thinking-spreadsheet-free-on-the-web/">
+  2013-09-16 07:12 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2013/08/26/constructive-mathematics-in-f-and-clojure/">Constructive Mathematics in F# (and Clojure)</a></h2>
+  </div>
+  <div class="article_text">
+    <p>(Tell me what a terrible person I am on <a href="https://news.ycombinator.com/item?id=6276848">Hacker
+News</a>.)</p>
+<p>For as long as I can remember^<a href="#footnote">1</a>^ I've dreamed of
+reimplementing the entirety of mathematics from scratch. And now that
+I've finished the "Wheel of Time" series I have a little bit of extra
+time on ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2013/08/26/constructive-mathematics-in-f-and-clojure/">
+  2013-08-26 06:23 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2013/06/24/t-shirts-feminism-parenting-and-data-science-part-2-eigenshirts/">T-Shirts, Feminism, Parenting, and Data Science, Part 2: Eigenshirts</a></h2>
+  </div>
+  <div class="article_text">
+    <p>(You might want to read <a href="http://joelgrus.com/2013/06/19/t-shirts-feminism-parenting-and-data-science-part-1-colors/">Part
+1</a>
+first.)</p>
+<p>When last we left off, we'd built a model using <em>shirt colors</em> to
+predict boy-ness / girl-ness.</p>
+<p>Our second attempt will involve the shirt images themselves (sort of).
+For our purposes, computer images are made up of
+<a href="https://en.wikipedia.org/wiki/Pixel">pixels</a>, each of whose color ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2013/06/24/t-shirts-feminism-parenting-and-data-science-part-2-eigenshirts/">
+  2013-06-24 08:37 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2013/06/19/t-shirts-feminism-parenting-and-data-science-part-1-colors/">T-Shirts, Feminism, Parenting, and Data Science, Part 1: Colors</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Before I was a parent I never gave much thought to children's clothing,
+other than to covet a few of the <a href="http://www.tshirthell.com/funny-shirts/now-that-im-safe-im-pro-choice/">baby
+shirts</a>
+at T-Shirt Hell. Now that I have a two-year-old daughter, I have trouble
+thinking of anything <em>but</em> children's clothing. (Don't tell my boss!)</p>
+<p>What ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2013/06/19/t-shirts-feminism-parenting-and-data-science-part-1-colors/">
+  2013-06-19 06:20 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2013/06/09/post-prism-data-science-venn-diagram/">Post-Prism Data Science Venn Diagram</a></h2>
+  </div>
+  <div class="article_text">
+    <p>In light of recent revelations, here's an updated version of Drew
+Conway's <a href="http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram">Data Science Venn
+Diagram</a>:</p>
+<p><a href="http://joelgrus.com/wp-content/uploads/2013/06/VennDiagram2.png"><img alt="VennDiagram2" src="http://joelgrus.com/wp-content/uploads/2013/06/VennDiagram2.png" /></a></p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2013/06/09/post-prism-data-science-venn-diagram/">
+  2013-06-09 04:18 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2013/05/23/espn-race-and-presidents/">ESPN, Race, and Presidents</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Inspired by (and lifting large amounts of code from) Trey Causey's
+<a href="http://thespread.us/blog/?p=39">investigation of the language that ESPN uses to discuss white and
+non-white quarterbacks</a>, I similarly
+wondered about the language ESPN uses to discuss white and non-white
+<em>Presidents</em>. For instance, a common stereotype is that non-white
+Presidents assassinate their ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2013/05/23/espn-race-and-presidents/">
+  2013-05-23 06:40 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2013/05/08/three-keys-to-successful-parenting/">Three Keys to Successful Parenting</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Now that Madeline is two, it seems appropriate to declare myself a
+success as a parent. Which means it's now appropriate for those of you
+with kids (as well as those of you thinking about having or abducting
+kids) to ask me, "Joel, what's your secret?" Which means ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2013/05/08/three-keys-to-successful-parenting/">
+  2013-05-08 06:15 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2013/04/16/should-you-get-a-ph-d/">Should you get a Ph.D.?</a></h2>
+  </div>
+  <div class="article_text">
+    <p>No.</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2013/04/16/should-you-get-a-ph-d/">
+  2013-04-16 08:02 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2013/03/16/vegas-with-a-lap-infant/">Vegas with a Lap Infant</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Madeline is about to turn two, which is the magical age at which kids
+transition from fly-for-free <em>lap infants</em> to
+requires-a-ticket-and-some-sort-of-kid-specific-restraint-and-did-I-mention-a-ticket
+<em>seat toddlers</em>. Which meant we needed to squeeze in one last vacation.
+And since Seattle weather kind of sucks, we wanted to go somewhere where
+the weather was nice ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2013/03/16/vegas-with-a-lap-infant/">
+  2013-03-16 11:28 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2013/02/25/secrets-of-fire-truck-society/">Secrets of Fire Truck Society</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Hi, I gave a talk at <a href="http://strataconf.com/strata2013/public/schedule/detail/28194">Ignite
+Strata</a>
+on "Secrets of Fire Truck Society" and at the end I promised that for
+more information you could visit this blog. Unfortunately, I haven't had
+time to write a blog post. Here are some links to tide you over until I ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2013/02/25/secrets-of-fire-truck-society/">
+  2013-02-25 04:16 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2012/07/24/on-on-leaving-academia/">On On Leaving Academia</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Several people in my influencesphere have linked to <a href="http://cs.unm.edu/~terran/academic_blog/?p=113">this
+essay</a> by a CS prof
+who's leaving academia to join Google in order to "make a positive
+difference in the world." I am, of course, wholly supportive of such a
+program, if not of his precise rationale, which is a ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2012/07/24/on-on-leaving-academia/">
+  2012-07-24 08:51 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2012/04/13/the-hardest-job-there-is/">The Hardest Job There Is</a></h2>
+  </div>
+  <div class="article_text">
+    <p>One summer during college I was stringing together temp jobs in order to
+make money so that I could afford to go out with my friends at night and
+play "Star Trek" pinball. (I would have preferred, of course, to spend
+my summer developing my idea for a "group couponing ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2012/04/13/the-hardest-job-there-is/">
+  2012-04-13 07:40 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2012/02/20/why-have-you-not-signed-up-for-bil-already/">Why Have You Not Signed Up For BIL Already?</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I'm sure you've heard of TED, which is a really expensive, really
+exclusive annual conference at which famous and/or accomplished people
+give lectures to wealthy and/or lucky people. Surprisingly, despite my
+fame, accomplishments, wealth, and luck, I have never been invited to
+attend or lecture. (Actually ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2012/02/20/why-have-you-not-signed-up-for-bil-already/">
+  2012-02-20 07:04 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2012/02/16/hacking-hacker-news/">Hacking Hacker News</a></h2>
+  </div>
+  <div class="article_text">
+    <p><a href="http://news.ycombinator.com/">Hacker News</a>, if you don't know it, is an
+aggregator / forum attached to <a href="http://ycombinator.com/">Y Combinator</a>.
+People submit links to news stories and blog posts, questions, examples,
+and so on. Other people vote them up or down, and still other people
+argue about them in the comments sections.</p>
+<p><img alt="" src="http://joelgrus.com/wp-content/uploads/2012/02/hn.png" title="hn" /></p>
+<p>If you ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2012/02/16/hacking-hacker-news/">
+  2012-02-16 06:07 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2012/02/01/hyphen-class-post-mortem/">Hyphen Class Post-Mortem</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Last fall I signed up for two of the hyphen classes: the Machine
+Learning <a href="http://www.ml-class.org">ml-class</a> (Ng) and the Artificial
+Intelligence <a href="https://www.ai-class.com/">ai-class</a> (Thrun and Norvig).
+Both were presented by Stanford professors but one of the conditions of
+taking the courses was that whenever I discuss them I am required to
+present ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2012/02/01/hyphen-class-post-mortem/">
+  2012-02-01 03:03 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/12/20/what-part-of-your-oath-do-you-not-understand/">What Part of Your Oath Do You Not Understand?</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I'm mad as hell, and I'm not going to something something anymore!</p>
+<p>It all started with Wil Wheaton^1^, who used to be the bartender (I
+believe) on "Star Trek", but who is now some sort of Twitter celebrity.
+I myself have zero tolerance for Twitter celebrities, but ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/12/20/what-part-of-your-oath-do-you-not-understand/">
+  2011-12-20 05:09 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/12/07/doubling-the-compost-box/">Doubling the Compost Box</a></h2>
+  </div>
+  <div class="article_text">
+    <p>If you are on Facebook you have probably seen the articles about <a href="http://www.washingtonpost.com/blogs/answer-sheet/post/when-an-adult-took-standardized-tests-forced-on-kids/2011/12/05/gIQApTDuUO_blog.html">the
+unnamed school board
+member</a>
+who couldn't do any of the math problems on the math standardized test
+(and who couldn't pass the reading section). Most of the discussion drew
+the conclusion that the tests were ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/12/07/doubling-the-compost-box/">
+  2011-12-07 09:13 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/12/03/fiction-the-difference-principle/">Fiction: The Difference Principle</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Jessica pointed at a pile of rags beside a dumpster.</p>
+<p>“This is the guy?” I asked.  I looked up and down the filthy alley we
+were standing in.  “This is a person?”</p>
+<p>“It is,” she said tentatively, and then she checked the little brown
+Moleskine she carried everywhere.  “It is ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/12/03/fiction-the-difference-principle/">
+  2011-12-03 09:29 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/10/27/pets-com-but-with-guns-and-a-no-knock-warrant/">Pets.com But With Guns And a No-Knock Warrant</a></h2>
+  </div>
+  <div class="article_text">
+    <p>The government has a CIO, it turns out, and when he's not hassling us to
+change our passwords <em>again</em> or to stop BitTorrenting on company time,
+he's got a plan to <a href="http://idealab.talkingpointsmemo.com/2011/10/americas-new-cio-wants-to-disrupt-government-and-make-it-a-startup.php">re-invent government
+itself</a>:</p>
+<blockquote>
+<p>On Tuesday, VanRoekel said that he wants to overhaul the federal
+bureaucracy to become ...</p></blockquote>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/10/27/pets-com-but-with-guns-and-a-no-knock-warrant/">
+  2011-10-27 09:54 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/09/29/machine-learning-beverage/">Machine Learning Beverage</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Although my formal training is in subjects like math and economics and
+animal husbandry, most of the money-work I do is in subjects like data
+science and fareology and writing over-the-top religious polemics. This
+is one of the reasons why I'm so sour on the value of college, as ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/09/29/machine-learning-beverage/">
+  2011-09-29 09:40 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/09/11/i-am-tired-of-911/">I Am Tired of 9/11</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Is it too soon to be tired of 9/11? Because I am.</p>
+<p>I'm tired of not being able to bring my pinking shears on plane trips.
+I'm tired of conspiracy theories (except for ones involving
+<a href="http://en.wikipedia.org/wiki/Reptilians">reptilians</a>.) I'm tired of
+pointless wars that waste trillions of dollars ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/09/11/i-am-tired-of-911/">
+  2011-09-11 11:42 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/08/07/college-savings-plans-are-the-modern-dowry/">College Savings Plans are the Modern Dowry</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Because baby Madeline is half-Indian and half-regular-person, she has
+both Indian friends and regular-person friends. The parents of her
+Indian friends worry about dowries, which are expensive gifts that they
+have to hand over when their daughters marry, and that they have to save
+for until then. The parents of ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/08/07/college-savings-plans-are-the-modern-dowry/">
+  2011-08-07 08:11 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/07/11/google-plus/">Google, Plus</a></h2>
+  </div>
+  <div class="article_text">
+    <p>If you have been living in a cave without Internet access, you might not
+be aware of Google Plus, which you might think of as Google's answer to
+Facebook (if Facebook were a question). After playing around with it a
+bit, it seems to have several advantages:</p>
+<ul>
+<li>not operated ...</li></ul>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/07/11/google-plus/">
+  2011-07-11 07:38 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/05/05/if-trees-could-scream/">If Trees Could Scream</a></h2>
+  </div>
+  <div class="article_text">
+    <p>So far parenthood isn't all that different from non-parenthood. I still
+eat at the same five restaurants and drink myself to sleep at night and
+occasionally get peed on. I just now have a car seat <a href="http://community.babycenter.com/post/a23997861/warning_upside_down_restaurant_high_chairs">wedged into an
+upside-down
+highchair</a>,
+am less discriminating about my liquor choices, and ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/05/05/if-trees-could-scream/">
+  2011-05-05 08:16 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/03/10/on-the-education-of-joelene-part-i-introduction/">On the Education of Joelene, Part I: Introduction</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Although little Joelene is expected to arrive in about 10 days (which
+means that she could show up today if she really felt like it), I toyed
+with fate and flew down to Long Beach last weekend to attend the <a href="http://bilconference.pbworks.com/">BIL
+conference</a>, which is (in some sense)
+the open-source equivalent ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/03/10/on-the-education-of-joelene-part-i-introduction/">
+  2011-03-10 09:24 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/03/04/too-much-grope/">Too Much Grope</a></h2>
+  </div>
+  <div class="article_text">
+    <p>The last time I flew anywhere was ~~January~~ May 2010, which predated
+all of the "don't touch my junk" craziness, toward which I've maintained
+an extremely passive sense of outrage.</p>
+<p>Somehow I assumed that only some small fraction of travelers were
+getting X-rayed, but I arrived at Sea-Tac ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/03/04/too-much-grope/">
+  2011-03-04 01:50 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/02/26/spreadsheet-book-now-available/">Spreadsheet Book Now Available</a></h2>
+  </div>
+  <div class="article_text">
+    <p>One reason I haven't been posting here very much is that I've been
+scrambling to put the finishing touches on my spreadsheet manifesto. I'm
+pleased to announce that it's now available:</p>
+<p><a href="http://ThinkingSpreadsheet.com"><img alt="" src="http://thinkingspreadsheet.com/wp-content/uploads/2011/02/tscoversmall.jpg" /></a></p>
+<p>I'm hoping this means more time to write about non-spreadsheet-related
+topics.</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/02/26/spreadsheet-book-now-available/">
+  2011-02-26 09:50 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/02/09/endogeneity-or-the-skill-of-the-brewmeister/">Endogeneity, or "The Skill of the Brewmeister"</a></h2>
+  </div>
+  <div class="article_text">
+    <p>The latest OkCupid <a href="http://blog.okcupid.com/index.php/the-best-questions-for-first-dates/">blog
+post</a>
+is one of their more interesting ones:</p>
+<blockquote>
+<p>No matter their gender or orientation, beer-lovers are 60% more likely
+to be okay with sleeping with someone they've just met. Sadly, this is
+the only question with a meaningful correlation for women.</p>
+</blockquote>
+<p>Of course, once every ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/02/09/endogeneity-or-the-skill-of-the-brewmeister/">
+  2011-02-09 07:27 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/01/15/i-hate-running/">I Hate Running</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I hate running. I ran on the Cross-Country team in high school,
+primarily because I thought it would look good on my college
+applications. I was totally one of those kids who did things because he
+thought it would look good on his college applications. (Adopting a
+Cambodian orphan sounds ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/01/15/i-hate-running/">
+  2011-01-15 04:21 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2011/01/08/fiction-dribmans-army/">Fiction: Dribman's Army</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Every few months NPR has a <a href="http://www.npr.org/series/105660765/three-minute-fiction">Three-Minute
+Fiction</a> short
+story contest. The "Three-Minute" really means "600 words," and each
+contest consists of one or more constraints that the story has to
+satisfy.</p>
+<p>The October contest (which was the first I heard about) specified the
+first and last sentences of the ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2011/01/08/fiction-dribmans-army/">
+  2011-01-08 08:35 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/12/20/lessons-forgotten/">Lessons Forgotten</a></h2>
+  </div>
+  <div class="article_text">
+    <p>1. Recently I gave a talk at Ignite Seattle on "How to Be Funny." For
+the most part the talk went well, although I had technical difficulties.
+To be clever, I had put <a href="http://www.gifsoup.com/view/1020470/jackass-3d-high-five-o.gif">an animated
+GIF</a> on
+one of the slides. This somehow caused Powerpoint to get "stuck" showing
+that ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/12/20/lessons-forgotten/">
+  2010-12-20 08:36 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/11/04/election-2010-post-mortem/">Election 2010 Post-Mortem</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Everything is different now. The dreadful "Patty Murray loves Dino
+Rossi" and "Dino Rossi loves Patti Murray" commercials they've been
+interrupting my football games with have overnight been replaced with
+commercials for Cialis and Levitra and new, less side-effect-y gout
+drugs. Our lack of a state income tax is ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/11/04/election-2010-post-mortem/">
+  2010-11-04 08:13 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/10/12/everything-i-know-about-accounting-fits-in-a-blog-post/">Everything I Know About Accounting Fits in a Blog Post</a></h2>
+  </div>
+  <div class="article_text">
+    <p>When I'm not writing books or arguing on the Internet or playing
+Spelunky, I run a small publishing company. By "small" I mean "zero
+employees" small. By necessity, I have to wear a number of hats.</p>
+<p>I'm the CEO, but I'm also the janitor. (And the janitor ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/10/12/everything-i-know-about-accounting-fits-in-a-blog-post/">
+  2010-10-12 03:51 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/10/03/sam-harris-is-nonsensical-in-principle/">Sam Harris is Nonsensical in Principle</a></h2>
+  </div>
+  <div class="article_text">
+    <p>In my younger days, when I was full of libertarian bluster, I used to
+formulate arguments in terms of "Natural Rights." Murder was Wrong (with
+a capital 'W') because it violated your "right to life." I used to go on
+like this all day, until finally my friend Cesar (I ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/10/03/sam-harris-is-nonsensical-in-principle/">
+  2010-10-03 05:53 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/09/28/political-satire/">Political Satire</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Once I left Microsoft I joined a Daytime Writing Group meetup, mostly as
+an excuse to get out of the house. Every week I'd go and share the
+latest chapter of my "Ayn Rand meets J.K. Rowling meets Joseph Heller
+meets Tom Wolfe" novel-in-progress and listen to everyone ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/09/28/political-satire/">
+  2010-09-28 08:15 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/09/27/correlation-and-causation/">Correlation and Causation</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Another day, another <a href="http://news.yahoo.com/s/yblog_upshot/20100927/us_yblog_upshot/obama-calls-for-longer-school-year">plan to spend more money on
+education</a>:</p>
+<blockquote>
+<p>President Obama said on the "Today" show Monday morning that American
+students attend school a month less than kids in other countries --
+contending that the school-year gap puts them at a competitive
+disadvantage in the global economy. "The idea of ...</p></blockquote>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/09/27/correlation-and-causation/">
+  2010-09-27 09:24 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/09/23/converts-are-the-worst/">Converts Are the Worst</a></h2>
+  </div>
+  <div class="article_text">
+    <p>The other day I was in the midst of killing a party by talking about my
+book when someone asked me for my favorite religious joke. It is, of
+course, Emo Philips's <a href="http://www.guardian.co.uk/stage/2005/sep/29/comedy.religion">funniest religious joke of all
+time</a>, and
+off the top of my head I did it very ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/09/23/converts-are-the-worst/">
+  2010-09-23 10:31 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/09/22/using-statistics-to-coddle-vagrants/">Using Statistics to Coddle Vagrants</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I left Microsoft at the end of May, largely so that I could write my
+<em>opus magnum</em> book on Excel. At the time I set a September 1 deadline
+for having the first draft done. That seemed like the right amount of
+time, but I failed to predict that I ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/09/22/using-statistics-to-coddle-vagrants/">
+  2010-09-22 01:02 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/09/10/blasphemy-and-forced-reverence/">Blasphemy and Forced Reverence</a></h2>
+  </div>
+  <div class="article_text">
+    <p>On Facebook I list my Religious Views as "irreverence," which is pretty
+perfectly descriptive. This means that you can believe any crazy thing
+you want, but I'm allowed to make fun of you for it if I like.
+Basically, I'm under no obligation to "respect" your beliefs just ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/09/10/blasphemy-and-forced-reverence/">
+  2010-09-10 12:02 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/09/08/book-burnings-and-americanism/">Book Burnings and "Americanism"</a></h2>
+  </div>
+  <div class="article_text">
+    <p>You have, I'm sure, heard the news that a church in Florida plans to
+acquire multiple copies of the Quran and burn them. The reaction I've
+seen from the "Muslim world" ranges from "that's how you dispose of them
+anyway, so knock yourself out" to "I'm ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/09/08/book-burnings-and-americanism/">
+  2010-09-08 08:56 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/09/07/catholic-iconography/">Catholic Iconography</a></h2>
+  </div>
+  <div class="article_text">
+    <p>My grasp of Catholic iconography apparently isn't what it used to be, as
+I can't for the life of me remember what the mop is supposed to
+symbolize:</p>
+<p><a href="http://www.latimes.com/news/local/la-me-labor-union-20100907,0,3930947.story"><img alt="" src="http://joelgrus.com/wp-content/uploads/2010/09/mopchurch.jpg" title="Labor Mass" /></a></p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/09/07/catholic-iconography/">
+  2010-09-07 11:27 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/08/17/reflections-on-the-ktru-transmitter/">Reflections on the KTRU Transmitter</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I like radio more than most people do. I only ever listen to it in the
+car, of course, and I don't actually drive very much, but I try to plan
+trips to coincide with favorite programs like Saturday's "Lunch With
+Led," Monday's "Think Pink," Thursday's ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/08/17/reflections-on-the-ktru-transmitter/">
+  2010-08-17 09:06 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/08/10/toys-r-us-andor-the-chinese-are-trying-to-kill-me-with-poison-monkeys/">Toys "R" Us and/or the Chinese are Trying to Kill Me with Poison Monkeys</a></h2>
+  </div>
+  <div class="article_text">
+    <p>For Christmas I bought my girlfriend a matched set of pink-and-purple
+monkeys at ToysRUs. I thought they'd make a good gift because she likes
+purple and she likes monkeys.^1^ We named the pink one Gulab ("pink")
+and the purple one Jamun ("purple") and they quickly became an
+indispensible ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/08/10/toys-r-us-andor-the-chinese-are-trying-to-kill-me-with-poison-monkeys/">
+  2010-08-10 06:33 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/08/09/will-someone-please-invent-the-virtual-locker-room/">Will Someone Please Invent the Virtual Locker Room</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Bill Gates, always a man with big ideas, suspects that the internet is
+going to shake up our educational system:</p>
+<blockquote>
+<p>“Five years from now on the web for free you’ll be able to find the
+best lectures in the world,” Gates said at the Techonomy conference in
+Lake Tahoe ...</p></blockquote>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/08/09/will-someone-please-invent-the-virtual-locker-room/">
+  2010-08-09 09:02 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/08/07/the-cornerstone-of-democracy/">The Cornerstone of Democracy</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Most towns have some sort of "school board," which is tasked with
+deciding which subjects need to have Biblically-influenced syllabi,
+taking kickbacks from textbook publishers, and not firing incompetent
+and/or criminally negligent teachers.</p>
+<p>They run for election every few years, filling our medians with campaign
+signs festooned with grade-school-evocative ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/08/07/the-cornerstone-of-democracy/">
+  2010-08-07 07:36 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/08/04/a-sky-daddy-is-a-sky-daddy/">A Sky Daddy Is a Sky Daddy</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Apparently a bunch of people want to build a new mosque somewhere or
+another, while a different bunch of people want them not to build it.
+This not only provides fuel for resuscitating our dwindling 24-hour news
+cycle, but also creates opportunities for <a href="http://www.guardian.co.uk/world/richard-adams-blog/2010/aug/03/michael-bloomberg-ground-zero-mosque">feel-good
+speechifying</a>,
+proclamations of
+"<a href="http://twitter.com/#search?q=mosque%20proud%20american">pride</a>" in
+one ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/08/04/a-sky-daddy-is-a-sky-daddy/">
+  2010-08-04 02:44 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/29/bicycle-race/">Bicycle Race</a></h2>
+  </div>
+  <div class="article_text">
+    <p>This weekend I am participating in a charity bicycle ride. This is
+hilarious on several levels: primarily the "charity," "bicycle," and
+"ride" levels. (The "participating" level is pretty funny too.)</p>
+<p>I've got my trusty old REI bicycle, an aftermarket memory-foam seat
+designed to stave off groin-numbness, an iPhone full ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/29/bicycle-race/">
+  2010-07-29 08:00 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/28/republican-tea-party-contract-on-america/">Republican Tea Party Contract on America</a></h2>
+  </div>
+  <div class="article_text">
+    <p>The Democrats seem to have decided that their strategy for this fall
+will be to conflate the Tea Party with the Republican Party. Toward this
+end, they've crafted a ten-point "<a href="http://my.democrats.org/page/content/tpgop">Republican Tea Party [sic] Contract
+on America</a>."</p>
+<p>This "Contract on America" is interesting for a couple of reasons. The ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/28/republican-tea-party-contract-on-america/">
+  2010-07-28 05:07 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/23/equal-protection-sex-with-teachers-and-student-athletes/">Equal Protection, Sex with Teachers, and Student-Athletes</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Call me an old softie, but it always bugs me when different laws apply
+to different people. For instance, during the most recent
+<a href="http://seattletimes.nwsource.com/html/localnews/2012345341_garfield14m.html">student-teacher-sex-scandal</a>
+I learned the following:</p>
+<blockquote>
+<p>While the age of consent for a sexual relationship in Washington state
+is 16, it is criminal for a teacher or anyone ...</p></blockquote>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/23/equal-protection-sex-with-teachers-and-student-athletes/">
+  2010-07-23 08:48 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/22/why-software-testers-should-run-for-congress/">Why Software Testers Should Run for Congress</a></h2>
+  </div>
+  <div class="article_text">
+    <p>In my <a href="http://joelgrus.com/2010/07/19/why-software-developers-shouldnt-run-for-congress/">previous
+post</a>
+"Why Software Developers Shouldn't Run for Congress" I poked fun at the
+idea, proposed by a pie-in-the-sky,
+government-would-work-well-if-only-it-were-run-by-<em>my</em>-kind-of-people
+type, that an influx of software developers would noticeably improve the
+quality of our laws.</p>
+<p>During a subsequent Facebook discussion, I came up with an ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/22/why-software-testers-should-run-for-congress/">
+  2010-07-22 08:51 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/21/the-gold-standard-of-health-care-reform/">The Gold Standard of Health Care Reform</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Back during the debate over the Obamacare bill I vehemently insisted
+that it wouldn't be "real" health care reform unless it addressed the
+shameful practice of not requiring people who buy and sell gold coins to
+file IRS form 1099 for most of their transactions. Thankfully, it looks
+like ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/21/the-gold-standard-of-health-care-reform/">
+  2010-07-21 09:42 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/19/why-software-developers-shouldnt-run-for-congress/">Why Software Developers Shouldn't Run for Congress</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Over on his blog, Clay Johnson gives five reasons why software
+developers <a href="http://infovegan.com/2010/07/19/why-developers-should-run-for-congress">ought to run for
+Congress</a>:</p>
+<p>1. They're underrepresented. (Similarly, so are <a href="http://www.scrippsnews.com/content/5-percent-congress-lack-college-degree">people without college
+degrees</a>,
+so perhaps they ought to run too.)</p>
+<p>2. Congress could use their expertise. For example, think about the
+more-than-1000-page Stimulus Bill. Not ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/19/why-software-developers-shouldnt-run-for-congress/">
+  2010-07-19 11:33 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/18/uncle-joels-youtube-concert-series-songs-from-before-i-was-born/">Uncle Joel's YouTube Concert Series: Songs from before I was born</a></h2>
+  </div>
+  <div class="article_text">
+    <p>The YouTube is possibly the greatest boon for music lovers in the
+history of the world. Some might point out that Napster or BitTorrent or
+iTunes made it easier to <em>acquire</em> and <em>collect</em> music, but acquisition
+and collection are not the same things as <em>love</em>.</p>
+<p>Here, then, is a lovingly-curated ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/18/uncle-joels-youtube-concert-series-songs-from-before-i-was-born/">
+  2010-07-18 09:48 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/15/the-validity-of-keynesian-economics/">The Validity of Keynesian Economics</a></h2>
+  </div>
+  <div class="article_text">
+    <p>This morning I saw a bus ad for <a href="http://en.wikipedia.org/wiki/City_University_of_Seattle">City
+University</a>
+reading "This traffic jam proves the validity of Keynesian economic
+theory."</p>
+<p>This is actually one of the better defenses I've seen of Keynesian
+economics; nonetheless, there was no traffic jam at the time.</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/15/the-validity-of-keynesian-economics/">
+  2010-07-15 11:43 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/13/fiction-non-fiction-humor-and-religion/">Fiction, Non-fiction, Humor, and Religion</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Occasionally someone will express to me a desire like "I want to climb
+Mount Rainier" or "I want to be a guest on 'The Price Is Right'" or "I
+want to record a swing-band cover version of REM's 'Everybody Hurts',"
+and then when I ask them <em>why</em> they say ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/13/fiction-non-fiction-humor-and-religion/">
+  2010-07-13 08:30 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/11/smash-the-synthesizers/">Smash the Synthesizers</a></h2>
+  </div>
+  <div class="article_text">
+    <p>There's a scourge stalking Broadway. It's called the "synthesizer," and
+it uses "technology" to generate sounds that heretofore could only be
+generated by human "musicians." And like other human-supplanting devices
+such as <a href="http://en.wikipedia.org/wiki/Luddite">mechanized looms</a>, <a href="http://en.wikipedia.org/wiki/Threshing_machine#Early_social_impacts">grain
+threshers</a>,
+and <a href="http://news.cnet.com/8301-17938_105-10432597-1.html">sex robots</a>,
+the "synthesizer" must be stopped.</p>
+<p><img alt="" src="http://joelgrus.com/wp-content/uploads/2010/07/luddites-300x287.jpg" title="luddites" /></p>
+<p>So warns violinist <a href="http://www.nytimes.com/2010/07/11/opinion/11woodiel.html">Paul ...</a></p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/11/smash-the-synthesizers/">
+  2010-07-11 03:07 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/07/tough-times-for-generation-y/">Tough Times for Generation Y</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Another day, another <a href="http://www.nytimes.com/2010/07/07/business/economy/07generation.html?ref=general&amp;src=me&amp;pagewanted=all">sob
+story</a>
+in the <em>New York Times</em>. Today's involves Scott Nicholson, who -- like
+so many in his "lost generation" -- had his expensive political science
+degree completely paid for by his grandparents, turned down a \$40k/year
+job because it was less than his brother makes, and ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/07/tough-times-for-generation-y/">
+  2010-07-07 08:28 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/06/the-modern-panoptic-university/">The Modern Panoptic University</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I've attended two schools with honor codes. At Rice, where I was an
+undergrad, we used to <a href="http://www.futureowls.rice.edu/futureowls/Honor_Code.asp?SnID=2">pledge in
+writing</a>
+not to cheat on exams, all the while taking an in-retrospect-bizarre
+pride that the "honor code" (and by extension "honor") applied only to
+schoolwork and not to (for example ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/06/the-modern-panoptic-university/">
+  2010-07-06 03:37 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/04/cars-freedom-taxpayer-funded-bailouts/">Cars + Freedom = Taxpayer-funded Bailouts?</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Next time we take several billion dollars from taxpayers and use it to
+<a href="http://www.marketwatch.com/story/chrysler-gets-4-billion-initial-government-bailout-loan">bailout a private
+automaker</a>,
+we should probably think about attaching a condition that forbids that
+company from running jingoistic commercials depicting a
+Dukes-of-Hazzard-style revolutionary war battle with George Washington
+driving a black Dodge Challenger, all while the ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/04/cars-freedom-taxpayer-funded-bailouts/">
+  2010-07-04 06:06 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/07/04/financial-weapons-of-mass-destruction-and-the-illinois-legislature/">Financial Weapons of Mass Destruction and the Illinois Legislature</a></h2>
+  </div>
+  <div class="article_text">
+    <p>There are a number of somewhat incredible articles floating around about
+<a href="http://www.msnbc.msn.com/id/38072919/ns/business-the_new_york_times/">the grotesque insolvency of the state of
+Illinois</a>.
+Many parts are appalling, but what leapt out at me most was the
+following:</p>
+<blockquote>
+<p>The state’s last elected governor, Rod R. Blagojevich, is on trial for
+racketeering and extortion. But ...</p></blockquote>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/07/04/financial-weapons-of-mass-destruction-and-the-illinois-legislature/">
+  2010-07-04 09:36 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/29/on-the-value-of-a-college-degree/">On the value of a college degree</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I believe this is what they call "<a href="http://www.businessweek.com/bschools/content/jun2010/bs20100618_385280.htm">throwing good money after
+bad</a>":</p>
+<blockquote>
+<p>She's making so little money with a college degree, she's considering
+returning to school for her master's.</p>
+</blockquote>
+<p>And don't even get me started on how a <em>BusinessWeek</em> writer has
+absolutely no clue what
+<a href="http://www.investopedia.com/terms/r/returnoninvestment.asp">ROI ...</a></p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/29/on-the-value-of-a-college-degree/">
+  2010-06-29 02:44 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/25/seth-godin-on-postal-monopolies/">Seth Godin on Postal Monopolies (sort of)</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Seth Godin discovers that stamps.com is trying to scam him out of money
+and
+<a href="http://sethgodin.typepad.com/seths_blog/2010/06/a-bias-for-scamminess.html">asks</a>:</p>
+<blockquote>
+<p>How is that a sleepy, conservative organization like the postal
+service ends up licensing its brand to a company that can't resist
+every honey pot scheme and opt out technique in the book ...</p></blockquote>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/25/seth-godin-on-postal-monopolies/">
+  2010-06-25 04:22 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/23/cleaning-out-elenas-inbox/">Cleaning Out Elena's Inbox</a></h2>
+  </div>
+  <div class="article_text">
+    <p>The <a href="http://sunlightfoundation.com/">Sunlight Foundation</a> has set up
+<a href="http://www.elenasinbox.com/">Elena's Inbox</a>, a site that makes it
+easy[er] to browse through the dump of Elena Kagan's Clinton-era emails.</p>
+<p><a href="http://www.elenasinbox.com/search/?q=penis+enlargement"><img alt="" src="http://joelgrus.com/wp-content/uploads/2010/06/elenasinbox1.png" title="elenasinbox" /></a></p>
+<p>However, it looks like they've certainly held something back. Can it
+really be that she sent no emails containing
+"<a href="http://www.elenasinbox.com/search/?q=lol">lol</a>" or
+"<a href="http://www.elenasinbox.com/search/?q=rofl">rofl ...</a></p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/23/cleaning-out-elenas-inbox/">
+  2010-06-23 09:10 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/22/department-of-lousy-journalism/">Department of Lousy Journalism</a></h2>
+  </div>
+  <div class="article_text">
+    <p>How on earth can you write an <a href="http://www.latimes.com/business/realestate/la-fi-china-bachelor-20100621,0,6167359.story">entire
+article</a>
+about the growing "market power" of Chinese women looking for husbands
+without even <em>mentioning</em> China's <a href="http://en.wikipedia.org/wiki/One-child_policy#Gender-based_birth_rate_disparity">severe gender
+imbalance</a>?</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/22/department-of-lousy-journalism/">
+  2010-06-22 08:03 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/21/new-coffee-plan-is-bad-karma/">New Coffee Plan Is Bad Karma</a></h2>
+  </div>
+  <div class="article_text">
+    <p>People throw away a lot of coffee cups. That was the motivation behind
+the <a href="http://www.thebetacup.com/about/">BetaCup Challenge</a>, a competition
+to create a more "sustainable" alternative to the disposable coffee cup.</p>
+<p>If I'd found out about the competition while it was going on, I might
+have entered my "dig paper cups ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/21/new-coffee-plan-is-bad-karma/">
+  2010-06-21 08:49 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/20/dear-facebook-i-am-skeptical-of-your-claims/">Dear Facebook, I am skeptical of your claims.</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Don't get me wrong, I like data mining as much as the next guy, and
+without your help I might never have realized that "People who like
+<em>Reason</em> magazine also like Rand Paul" and that 13 of my friends like
+something called "Burn Notice."</p>
+<p>Nonetheless, for some reason your ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/20/dear-facebook-i-am-skeptical-of-your-claims/">
+  2010-06-20 12:56 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/10/on-the-proper-role-of-government-in-a-free-society/">On the Proper Role of Government in a Free Society</a></h2>
+  </div>
+  <div class="article_text">
+    <p>There are various opinions and debates over the "proper" roles of
+government, but I'm pretty sure that <a href="http://www.seattlepi.com/national/1110ap_us_girls_solo_voyage.html">combing the Indian Ocean to find a
+missing 16-year-old who's sailing around the world by herself in order
+to break a world
+record</a>
+isn't one of them:</p>
+<blockquote>
+<p>Abby Sunderland's ...</p></blockquote>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/10/on-the-proper-role-of-government-in-a-free-society/">
+  2010-06-10 12:41 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/08/organizing-for-louisiana/">Organizing for Louisiana</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I live in a city that's full of Obama supporters. (The two notable
+exceptions are me and the guy in front of me on the freeway the other
+day with three different Dennis Kucinich stickers on his car.) And so
+during the 2008 elections I had ample opportunities to ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/08/organizing-for-louisiana/">
+  2010-06-08 07:40 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/05/great-ethicists-webcomics-game-theory-and-the-iterated-prisoners-dilemma/">Great Ethicists, Webcomics, Game Theory, and the Iterated Prisoner's Dilemma</a></h2>
+  </div>
+  <div class="article_text">
+    <p>The webcomic <a href="http://www.smbc-comics.com/index.php?db=comics&amp;id=1899#comic">Saturday Morning Breakfast
+Cereal</a>
+today covers one of my favorite topics: Game Theory and the Social
+Contract.</p>
+<p>The game theory, unfortunately, is not done very carefully. Here's the
+Prisoner's Dilemma setup:</p>
+<hr />
+<div class="highlight"><pre>                      <span class="n">RAT</span> <span class="n">OUT</span>                 <span class="n">REMAIN</span> <span class="n">SILENT</span>
+</pre></div>
+
+
+<p>RAT OUT                 Both get 1 year in      1 goes free, 2 ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/05/great-ethicists-webcomics-game-theory-and-the-iterated-prisoners-dilemma/">
+  2010-06-05 06:26 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/05/how-i-became-a-published-author-part-1/">How I Became a Published Author, Part 1</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Once upon a time I wasn't much of a writer. In high school I wrote
+crappy requisite <a href="http://en.wikipedia.org/wiki/Five_paragraph_essay">five-paragraph
+essays</a> about <a href="http://www.bartleby.com/198/1.html">T.S.
+Eliot</a> and <a href="http://en.wikipedia.org/wiki/Tender_Is_the_Night">F. Scott
+Fitzgerald</a> and <a href="http://en.wikipedia.org/wiki/Naming_the_American_Civil_War">The
+War Against Northern
+Aggression</a>,
+but they were unimaginative and mostly aimed at satisfying the teachers'
+expectations.</p>
+<p>In college I went ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/05/how-i-became-a-published-author-part-1/">
+  2010-06-05 08:21 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/04/time-is-money/">Time Is Money</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I just had an awesome idea for getting the economy going again. Instead
+of trading <em>money</em> for things, we'll just trade "time" for things. I
+know what you're thinking -- that sounds a lot like
+<a href="http://en.wikipedia.org/wiki/Barter">barter</a> and we'll just run into
+the <a href="http://en.wikipedia.org/wiki/Coincidence_of_wants">double coincidence of wants
+problem</a>. But ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/04/time-is-money/">
+  2010-06-04 08:13 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/06/01/helping-bp-stay-in-business/">Helping BP Stay in Business</a></h2>
+  </div>
+  <div class="article_text">
+    <p>In an upcoming <em>New York Times</em> piece, David Leonhardt points out that
+<a href="http://www.nytimes.com/2010/06/06/magazine/06fob-wwln-t.html?hp">people aren't good at reasoning about low-probability
+events</a>:</p>
+<blockquote>
+<p>We make two basic — and opposite — types of mistakes. When an event is
+difficult to imagine, we tend to underestimate its likelihood. This is
+the proverbial black swan. Most ...</p></blockquote>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/06/01/helping-bp-stay-in-business/">
+  2010-06-01 05:13 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/05/30/how-megan-mcardle-is-ruining-the-future-of-entertainment/">How Megan McArdle Is Ruining the Future of Entertainment</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Megan McArdle has just returned from a time-machine visit to the year
+2000, <a href="http://www.theatlantic.com/magazine/archive/2010/05/the-freeloaders/8027/">and she's worried about a new scourge called
+Napster</a>:</p>
+<blockquote>
+<p>People have been pirating intellectual property for centuries, but it
+used to be a time-consuming way to generate markedly inferior copies.
+These days, high-quality copies are effortless ...</p></blockquote>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/05/30/how-megan-mcardle-is-ruining-the-future-of-entertainment/">
+  2010-05-30 08:25 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/05/30/fix-it-faith-and-technocracy/">Fix-It Faith and Technocracy</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Tonight at dinner I ~~started~~ got into an extended argument about
+<a href="http://en.wikipedia.org/wiki/Technocracy">technocracy</a>, during which it
+was asserted to me that whatever faults I might find with our government
+could be quickly resolved if only we started electing really brilliant
+people to office.</p>
+<p>This not uncommon belief that enlightened technocrats and ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/05/30/fix-it-faith-and-technocracy/">
+  2010-05-30 12:32 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/05/28/in-which-joel-gives-advice-to-the-new-york-times/">In Which Joel Gives Advice to the New York Times</a></h2>
+  </div>
+  <div class="article_text">
+    <p>If you're going to write <a href="http://www.nytimes.com/2010/05/29/your-money/student-loans/29money.html">a detailed
+column</a>
+about a young college graduate who borrowed \$100K to attend NYU and
+can't pay it back, you probably shouldn't wait until the 30th (!)
+paragraph to let us know what sort of useful degree she got for her
+money:</p>
+<blockquote>
+<p>She ...</p></blockquote>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/05/28/in-which-joel-gives-advice-to-the-new-york-times/">
+  2010-05-28 04:57 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/05/27/bootleggers-baptists-unions-unions-and-small-grocers/">Bootleggers, Baptists, Unions, Unions, and Small Grocers</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Here in Washington State, hard liquor can only be purchased at dreary,
+state-run liquor stores. Most have DMV-ish levels of charm, DMV-ish
+levels of customer service, DMV-ish hours, DMV-ish selection, and
+DMV-ish prices.</p>
+<p>Every few years someone will propose <a href="http://seattletimes.nwsource.com/html/businesstechnology/2011962307_grocers27.html">getting the state out of the
+liquor-store
+business</a>,
+or at least ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/05/27/bootleggers-baptists-unions-unions-and-small-grocers/">
+  2010-05-27 08:31 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/05/26/off-away-gambling-and-the-strategy-of-the-dollar-auction/">Off & Away, Gambling, and the Strategy of the Dollar Auction</a></h2>
+  </div>
+  <div class="article_text">
+    <p>A common demonstration in economics classes is the <a href="http://ingrimayne.com/econ/Efficiency/NastyAuction.html">dollar
+auction</a>, in
+which the teacher offers a \$20 bill to the highest bidder. The twist --
+when economists are involved there is always a twist -- is that both the
+highest bidder and the second-highest bidder have to pay their bids,
+although only ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/05/26/off-away-gambling-and-the-strategy-of-the-dollar-auction/">
+  2010-05-26 02:30 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/05/20/big-change/">Big Change</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Today is my last day at Microsoft, as I will be leaving to pursue my
+boyhood dream of ~~eating the world's biggest hoagie~~ becoming a famous
+author someday. I'm sure you have many questions about this move, many
+of which I've preemptively answered below:</p>
+<p><strong>Frequently Asked Questions ...</strong></p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/05/20/big-change/">
+  2010-05-20 07:58 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/03/13/we-learn-to-give-each-other-what-we-need-to-survive/">We Learn to Give Each Other What We Need to Survive</a></h2>
+  </div>
+  <div class="article_text">
+    <p>If there's one thing we've learned from the song "Ebony and Ivory," it's
+that people are the same wherever we go. Alas, the educational
+establishment has been reluctant to embrace this truism, insisting on
+people-are-the-same-wherever-we-go-denying practices like
+<a href="http://en.wikipedia.org/wiki/Tracking_%28education%29">tracking</a> and
+<a href="http://en.wikipedia.org/wiki/Course_%28education%29#Required_and_elective_courses">electives</a>,
+and (grudgingly) allowing <a href="http://en.wikipedia.org/wiki/Charter_school">charter
+schools</a> a limited ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/03/13/we-learn-to-give-each-other-what-we-need-to-survive/">
+  2010-03-13 08:25 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/03/01/coffeefiltering-the-coffee-party/">Coffeefiltering the Coffee Party</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Yesterday the Facebook News Feed was moderately functional for a change,
+which is how I discovered the existence of the <a href="http://www.facebook.com/coffeeparty">Coffee
+Party</a>, which had been
+Facebook-fanned by several of my Facebook friends and/or stalkers and/or
+stalkees.</p>
+<p>Given that I drink approximately 10 cups of coffee a day, you ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/03/01/coffeefiltering-the-coffee-party/">
+  2010-03-01 10:12 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2010/01/03/movie-review-avatar-3-d/">Movie Review: Avatar 3-D</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I very rarely go to the movies. Sure, I saw <em>Harry Potter and the
+Half-Blood Prince</em> out of a misguided hope that they'd depart from the
+source material and have Harry snog Luna, but for the most part I'd
+rather stay home and watch <em><a href="http://www.youtube.com/watch?v=6PQ6335puOc">Conan the
+Barbarian</a></em> over ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2010/01/03/movie-review-avatar-3-d/">
+  2010-01-03 03:55 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2009/11/08/movie-review-change-congress-chronicles-volume-1/">Movie Review: Change Congress Chronicles, Volume 1</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Inspired, perhaps, by Quentin Tarantino's multi-part epic <em>Kill Bill</em>,
+auteur Larry Lessig has begun work on the not-dissimilar <em>Change
+Congress Chronicles</em>.</p>
+<p>Volume 1, "<a href="http://www.archive.org/details/Lessig-ChangeCongressChroniclesVol1JohnCampbell769">Congressman Campbell is a Friend of the Auto
+Industry</a>,"
+chronicles Congressman John Campbell, who is a friend of the auto
+industry.</p>
+<p>The film quickly establishes the ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2009/11/08/movie-review-change-congress-chronicles-volume-1/">
+  2009-11-08 10:14 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2009/11/07/the-corporate-shill-and-the-ideologue/">The Corporate Shill and the Ideologue</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Seattle, in case you don't follow our local politics, has got a mayoral
+election going on. (Technically it was last Tuesday, but they're still
+counting the ballots.)</p>
+<p>It's a fairly interesting election, as elections go, if only because we
+junked the good-for-nothing incumbent in the primary, mostly ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2009/11/07/the-corporate-shill-and-the-ideologue/">
+  2009-11-07 08:19 AM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2009/10/14/obama-lets-borrow-money-and-give-it-to-old-people/">Obama: Let's Borrow Money and Give it to Old People</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Great news, Senior Citizens! President Obama <a href="http://news.yahoo.com/s/ap/20091015/ap_on_go_pr_wh/us_social_security_obama">wants to give you
+\$250</a>!</p>
+<p>Why? Probably so you'll vote for him again come 2012.</p>
+<p>There's some sort of nominally non-tawdry reason, too.</p>
+<p>You see, by law, Social Security payments increase each year in a manner
+pegged to inflation. When <a href="http://www.youtube.com/watch?v=csuZHyW-iGI">Rascal
+Scooters ...</a></p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2009/10/14/obama-lets-borrow-money-and-give-it-to-old-people/">
+  2009-10-14 06:41 PM</a>
+</article>
+<hr />
+<article>
+  <div class="article_title">
+    <h2><a href="http://joelgrus.com/2009/10/07/got-my-domain-back/">Got My Domain Back</a></h2>
+  </div>
+  <div class="article_text">
+    <p>Due to a combination of carelessness, disorganization, and ineptitude, I
+let my domain expire a couple of years ago.  For many dark months, it
+pointed at a page of useless ads that I can't imagine anyone being
+willing to click on.</p>
+<p>Recently I checked and discovered that it was ...</p>
+  </div>
+  <a class="date-permalink" href="http://joelgrus.com/2009/10/07/got-my-domain-back/">
+  2009-10-07 09:02 PM</a>
+</article>
+
+<footer>
+</footer>
+
+    <div id="ending_message">
+      <p>&copy; Joel Grus. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme based on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">pelican-svbhack</a>. .</p>
+    </div>
+  </main>
+</body>
+</html>

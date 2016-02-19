@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>1st State Bank</title>
+<meta name="description" content="Business Bank for the Saginaw, Bay City areas." />
+<meta name="keywords" content="Business Bank, Business Loans, Home Mortgages, Merchant Services, Business Credit Cards, Individual Retirement Account (IRA)," />
+<base href="http://1ststatebk.com" /><!--http://-->
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="mediaboxAdvBlack.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="js/mootools.js"></script>
+<script language="javascript" type="text/javascript" src="js/mootools-1.2-more.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/randomBanner.js"></script>
+<script type="text/javascript" src="js/calcs.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider1.7.js"></script>
+<script type="text/javascript" src="js/reflection.js"></script>
+<script type="text/javascript" src="js/mediaboxAdv-1.1.7.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/nonverblaster.js"></script>
+<!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="iepngfixs.css" />
+<![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11774926-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body class="home onlinebanking mainimg logos">
+<!-- class: home | onlinebanking | mainimg | logos -->
+<div id="bgHighlight"></div>
+<div id="page">
+	<div id="headerContainer">
+    	<div id="header">
+    		<!--<div id="mainimgContainer2">-->
+    		<div id="randomBanner">
+			<SCRIPT LANGUAGE="JavaScript">
+				<!-- Begin
+				showImage();
+				//  End -->
+			</script></div>
+    		<!--<img src="images/1.jpg"  border="0" width="665" />
+    		<img src="images/2.jpg"  border="0" width="665" />
+    		<img src="images/3.jpg"  border="0" width="665" />
+    		</div> End of mainimgContainer2 div -->
+        	<div id="onlinebankingxy"></div><!-- End of onlinebankingxy div -->
+            <div id="onlinebanking">
+                    	<div id="obheader">ONLINE BANKING</div>
+<div id="obcontent">
+<!-- Javascript Functions //-->
+<script type='text/javascript'>
+<!--
+function setAction()
+{
+       //Fill in the Routing number below.
+       var rtNum = "072414158";
+       var x = document.forms.Remote;
+       
+       if(x.loginTo[0].checked) {
+               x.action = 'https://web6.secureinternetbank.com/pbi_pbi1961/Pbi1961.ashx?WCI=RemoteLogin&RT=072414158&LogonBy=connect3&PRMACCESS=Account';                   
+       } else {
+               x.nmUID.value = x.AccessID.value;
+               x.nmRTN.value = rtNum;
+               x.action = 'https://web6.secureinternetbank.com/ebc_ebc1961/ebc1961.ashx?WCI=Process&WCE=RemoteLogon&IRL=T&RT=072414158&mfa=2';
+       }
+}
+   
+function doLoginRefresh()
+{
+       var x = document.forms.Remote;
+       
+       if (x.AccessIDVisible.value != "") {
+               x.AccessID.value = x.AccessIDVisible.value;
+               x.AccessIDVisible.value = "";
+               
+               setAction();
+               return true;
+       } else {
+               alert("Please Enter a valid Access ID.  Thank you!"); 
+               return false;
+       }       
+}
+//-->
+</script>  
+<!-- HTML Login Form //-->
+<form action='' method='post' target='_blank' onsubmit='return doLoginRefresh()' id='Remote'>
+<input type="hidden" id='nmUID' name="nmUID" value="" />
+<input type="hidden" id='nmRTN' name="nmRTN" value="" />
+<input type="hidden" id='AccessID' name="AccessID" value="" />
+<table border="0" cellpadding="0" cellspacing="0" width="230" summary='Login Form'>
+<tr>
+   <td style="padding-bottom: 5px;"><b>Logon to:</b></td>
+   <td style="font-size: 11px; text-align: right; padding-bottom: 5px;">
+           <input type="radio" name="loginTo" value="ecom" checked='checked' />Personal  
+           <input type="radio" name="loginTo" value="ecorp" />Business								   </td>
+</tr>
+<tr>
+   <td style="padding-bottom: 5px;"><b>Access ID:</b></td>
+   <td style="text-align: right; padding-bottom: 5px;"><input class="lock" type='text' id='AccessIDVisible' name="AccessIDVisible" value="" size="18" maxlength="20" /></td>
+</tr>   
+<tr>
+   <td colspan='2' style="text-align: right;"><input class="obButton" type="submit" value="Log In" name="submit"></td>
+</tr>
+</table>
+</form>
+<div id="oblinks"><a href="https://web6.secureinternetbank.com/pbi_pbi1961/pbi1961.ashx?Rt=072414158&LogonBy=connect3&PRMACCESS=Account&enroll=true">First Time User</a></div>
+                    </div><!-- End of obcontent div -->
+                </div>
+           	  <!-- End of onlinebanking div -->
+        	<div id="logo"><a href="default.aspx"><img src="images/spacer.gif" width="100%" height="100%" border="0"/></a></div>
+        </div><!-- End of header div -->
+    </div><!-- End of headerContainer div -->
+	<div id="contentContainer">
+    	<div id="divider">
+        	<div id="nav1">
+             <div id="dividersp"></div>
+<ul class="nav1">
+    <li>
+        <a href="javascript:">BUSINESS</a>
+        <div class="panel" id="panel1">
+            <table cellpadding="5" border="0" width="400">
+                <tr>
+                    <td valign="top" width="200"><h4>Loans</h4></td>
+                    <td valign="top" width="200"><h4>Deposits</h4></td>
+                </tr>
+                <tr>
+                    <td valign="top" >
+                        <ul>
+                            <li><a href="Business-Loans.aspx">Business Term Loans</a></li>
+                            <li><a href="Business-Loans.aspx#sba">SBA Loans</a></li>
+                            <li><a href="Business-Loans.aspx#lc">Lines of Credit</a></li>
+                            <li><a href="Business-Loans.aspx#rem">Real Estate Mortgages</a></li>
+                            <li><a href="Business-Loans.aspx">Business Charge Cards</a></li>
+                        </ul>
+                    </td>
+                    <td valign="top" >
+                        <ul>
+                            <li><a href="Business-Checking.aspx">Checking Accounts</a></li>
+                            <li><a href="Business-Savings-MM.aspx">Savings &amp; Money Market</a></li>
+                            <li><a href="Certificate-Deposit.aspx">Certificate of Deposit</a></li>
+                            <li><a href="ContentDocumentHandler.ashx?documentId=22102" target="_blank">ICS/CDARS</a></li>
+                            <li><a href="Health-Savings-Accounts.aspx">Health Savings Accounts</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top"><h4>Cash Management</h4></td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <ul>
+                            <li><a href="Cash-Management.aspx#ob">Online Banking</a></li>
+                            <li><a href="Cash-Management.aspx#ach">ACH Service</a></li>
+                            <li><a href="Cash-Management.aspx#cs">Courier Service</a></li>
+                            <li><a href="Cash-Management.aspx#ls">Loan Sweep</a></li>
+                        </ul>
+                    </td>
+                    <td valign="top">
+                        <ul>
+                            <li><a href="Cash-Management.aspx#ms">Merchant Services</a></li>
+                            <li><a href="Cash-Management.aspx#lse">Lockbox Services</a></li>
+                            <li><a href="Cash-Management.aspx#wire">Wires</a></li>
+                            <li><a href="Cash-Management.aspx#pp">Positive Pay</a></li>
+                            <li><a href="Cash-Management.aspx#rd">Remote Deposit</a></li>
+                        </ul>
+                    </td>
+                </tr>             
+            </table>
+        </div>
+    </li>
+    <li>
+        <a href="javascript:">PUBLIC FUNDS</a>
+        <div class="panel" id="panel2">
+            <table cellpadding="5" border="0" width="550">
+                <tr>
+                    <td valign="top" width="275"><h4>Cash Collections</h4></td>
+                    <td valign="top" width="275"><h4>Cash Disbursements</h4></td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <ul>
+                            <li><a href="Cash-Collections.aspx#ccvs">Courier and Cash Vault Service</a></li>
+                            <li><a href="Cash-Collections.aspx#branch">Branch Service</a></li>
+                            <li><a href="Cash-Collections.aspx#nds">Night Depository Service</a></li>
+                            <li><a href="Cash-Collections.aspx#rds">Remote Deposit Service</a></li>
+                            <li><a href="Cash-Collections.aspx#ccach">Automated Clearing House (ACH) Service</a></li>
+                            <li><a href="Cash-Collections.aspx#ccms">Merchant Services</a></li>
+                            <li><a href="Cash-Collections.aspx#ccls">Lockbox Service</a></li>
+                        </ul>
+                    </td>
+                    <td valign="top">
+                        <ul>
+                            <li><a href="Cash-Disbursements.aspx#cdpps">Positive Pay Service</a></li>
+                            <li><a href="Cash-Disbursements.aspx#cdach">Automated Clearing House (ACH) Service</a></li>
+                            <li><a href="Cash-Disbursements.aspx#cdzba">Zero Balance Account (ZBA) Service</a></li>
+                            <li><a href="Cash-Disbursements.aspx#cdwts">Wire Transfer Service</a></li>
+                            <li><a href="Cash-Disbursements.aspx#cdvisa">Business Visa&reg; Card</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" width="275"><h4>Information Management</h4></td>
+                    <td valign="top" width="275"><h4>Deposits</h4></td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <ul>
+                            <li><a href="Information-Management.aspx#imob">Online Banking</a></li>
+                            <li><a href="Information-Management.aspx#imeis">Electronic Imaging Service</a></li>
+                        </ul>
+                    </td>
+                    <td valign="top">
+                        <ul>
+                            <li><a href="Deposits.aspx">Checking</a></li>
+                            <li><a href="Deposits.aspx">Plus Checking</a></li>
+                            <li><a href="Deposits.aspx">Sweep Checking</a></li>
+                            <li><a href="Deposits.aspx">Money Market Account</a></li>
+                            <li><a href="Certificate-Deposit.aspx">Certificate of Deposit</a></li>
+                            <li><a href="ContentDocumentHandler.ashx?documentId=22101" target="_blank">ICS/CDARS</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </li>  
+  <li><a href="javascript:">PERSONAL</a>
+    <div class="panel" id="panel3">
+       
+    <table cellpadding="5" border="0" width="400">
+        <tr>
+          <td valign="top"> <h4>Loans</h4></td>
+          <td valign="top"><h4>Deposits</h4></td>
+        </tr>
+        <tr>
+           <td valign="top" width="150">
+         
+            <ul>
+              <li><a href="Personal-Loans.aspx#mort">Home Mortgages</a></li>
+              <li><a href="Personal-Loans.aspx#heloc">Home Equity Loans</a></li>
+              <li><a href="Personal-Loans.aspx#ploans">Car &amp; Truck Loans</a></li>
+              <li><a href="Personal-Loans.aspx#ploans">RV/Boat Loans</a></li>
+              <li><a href="Personal-Loans.aspx#pcc">Charge Cards</a></li>
+            </ul></td>
+          <td valign="top" width="250">
+          
+            <ul>
+              <li><a href="Personal-Checking.aspx">Checking Accounts</a></li>
+              <li><a href="Personal-SavingsMM.aspx">Savings &amp; Money Market Accounts</a></li>
+              <li><a href="Personal-CD-IRAs.aspx">Certificate of Deposit</a></li>
+              <li><a href="Personal-CD-IRAs.aspx">Individual Retirement Accounts</a></li>
+              <li><a href="ContentDocumentHandler.ashx?documentId=22102" target="_blank">ICS/CDARS</a></li>
+              <li><a href="Personal-Checking.aspx">Health Savings Accounts</a></li>
+            </ul></td>
+        </tr>
+       
+      </table>
+
+    </div>
+  </li>
+
+  <li><a href="Locations.aspx">LOCATIONS &amp; HOURS</a>
+    <div class="panel" id="panel4">
+       
+    <table cellpadding="5" border="0" width="400">
+        <tr>
+          <td valign="top"> <h4>Main Office</h4></td>
+          <td valign="top"> <h4>Wilder Road Office</h4></td>
+        </tr>
+        <tr>
+           <td valign="top" >
+         
+            <ul>
+              <li><a href="Locations.aspx#towne">Location</a></li>
+              <li><a href="Locations.aspx#towne">Lobby Hours</a></li>
+               <li><a href="Locations.aspx#towne">Contact Information</a></li>
+              <li><a href="Locations.aspx#towne">ATM and Night Drop</a></li>
+           </ul></td>
+          <td valign="top" ><ul>
+          	<li><a href="Locations.aspx#wilder">Location</a></li>
+              <li><a href="Locations.aspx#wilder">Lobby Hours</a></li>
+              <li><a href="Locations.aspx#wilder">Contact Information</a></li>
+              <li><a href="Locations.aspx#wilder">ATM and Night Drop</a></li>
+                 
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top" ><h4>Downtown Bay City Office</h4></td>
+          <td valign="top"><h4>State Street Office</h4></td>
+        </tr>
+        <tr>
+          <td valign="top" width="200">
+            <ul>
+              <li><a href="Locations.aspx#downtown">Location</a></li>
+              <li><a href="Locations.aspx#downtown">Lobby Hours</a></li>
+              <li><a href="Locations.aspx#downtown">Contact Information</a></li>
+              <li><a href="Locations.aspx#downtown">ATM and Night Drop</a></li>
+            </ul></td>
+          <td valign="top" width="200">  <ul>
+              <li><a href="Locations.aspx#state">Location</a></li>
+              <li><a href="Locations.aspx#state">Lobby Hours</a></li>
+              <li><a href="Locations.aspx#state">Contact Information</a></li>
+              <li><a href="Locations.aspx#state">ATM and Night Drop</a></li>
+            </ul>    </td>
+        </tr>
+      </table>
+      
+    </div>
+  </li>
+  <li><a href="About-Us.aspx">ABOUT US</a>
+    <div class="panel" id="panel5">
+      
+      
+   <table cellpadding="5" border="0" width="300">
+        <tr>
+          <td valign="top"><h4>About Us</h4></td>
+        </tr>
+        <tr>
+           <td valign="top" >
+          
+          <ul>
+        <li><a href="About-Us.aspx">In town. In touch</a></li>
+        <li><a href="Bank-Management.aspx">Executive Management &amp; Board of Directors</a></li> 
+        <li><a href="Newsletter.aspx">Newsletter</a></li>
+        <li><a href="Press-Releases.aspx">Press Releases</a></li>
+        <li><a href="RUBY-Award.aspx">RUBY Award</a></li>     
+        
+      </ul></td>
+          
+        </tr>
+        </table>   
+      
+      
+      
+    </div>
+  </li>
+  <li><a href="Contact.aspx">CONTACT US</a></li>
+  <li class="none"><a href="Useful-Links.aspx">USEFUL LINKS</a>
+  </li>
+</ul>
+
+          </div> <!--End of nav1 div -->
+        </div><!-- End of divider div -->
+    	<div id="middleSection">
+        	<div id="middleContent">
+            	<table class="features" style="width: 100%; height: 100%;" border="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="width: 50%;" valign="top">
+<h4>A Bank for Business</h4>
+<p>Every business has its own unique needs. Every industry has its own unique dynamics. And every region has its own unique challenges. As a businessperson, you need a bank that understands all those&nbsp;things. A bank whose lenders are deeply experienced in the needs and dynamics of business finance.</p>
+<p>A bank that&rsquo;s in touch: 1st State Bank.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td valign="top">
+<p style="text-align: center;"><a title="RUBY Award" href="http://1ststatebk.com/RUBY-Award.aspx"><img title="Alert Sticky Revised" src="ContentImageHandler.ashx?ImageId=66060" alt="Alert Sticky Revised" border="0" /></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+            </div><!-- End of feature div -->
+        </div><!-- End of middleSection div --><!-- Remove on secondary pages -->    	
+<div id="content1">
+<div id="mainimgContainer">
+			<script type="text/javascript"> 
+			function slideShow( Obj ){
+			var pass = this;
+			// Initializing
+			this.slides = Obj;
+			pass.curImg = $random(0, this.slides.length - 1);
+			this.slides[ pass.curImg ].setStyle('visibility', 'visible');
+			this.slides[ pass.curImg ].setStyle('opacity', 1);
+			this.slides[ pass.curImg ].setStyle('z-index', 2);
+			
+			this.rand = function(){
+			randNum = pass.curImg;
+			while (randNum == pass.curImg) {
+			randNum = $random(0, this.slides.length - 1);
+			}
+			pass.curImg = randNum;
+			this.slides.each( function( img, index ){ 
+			img.morph({ opacity: 0 });
+			}, this);
+			this.slides[ pass.curImg ].morph({ opacity: 1 });
+			}
+			this.next = function(){
+			pass.curImg++;
+			this.slides.each( function( img, index ){ 
+			img.morph({ opacity: 0 });
+			}, this);
+			if( pass.curImg == this.slides.length ) pass.curImg = 0;
+			this.slides[ pass.curImg ].morph({ opacity: 1 });
+			}
+			this.prev = function(){
+			pass.curImg--;
+			this.slides.each( function( img, index ){ 
+			img.morph({ opacity: 0 });
+			}, this);
+			if( pass.curImg < 0 ) pass.curImg = this.slides.length - 1;
+			this.slides[ pass.curImg ].morph({ opacity: 1 });
+			}
+			}
+			
+			window.addEvent( 'load', function(){
+			sshow = new slideShow( $$('#mainimgContainer img') );
+			sshow.next.periodical( 20000, sshow );
+			});
+			</script>
+			<p><img title="BUSINESS NEEDS" src="ContentImageHandler.ashx?ImageId=37317" alt="BUSINESS NEEDS" border="0" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+        	<!--<img src="images/mainimg.jpg" width="600" height="200" border="0" />
+        	<img src="images/mainimg2.jpg" width="600" height="200" border="0" />
+        	<img src="images/mainimg3.jpg" width="600" height="200" border="0" />-->
+        </div><!-- End of mainimgContainer div -->
+               
+                <div id="mainimgOverlay"></div><!-- End of mainimgOverlay div -->
+               <!-- <div id="mainimgContent">
+                	
+     
+                </div> --> 
+              <!-- Remove on secondary pages -->  
+<p style="text-align: center; margin-top: -8px;"><img title="WE'VE GONE SOCIAL" src="ContentImageHandler.ashx?ImageId=77773" alt="WE'VE GONE SOCIAL" width="246" height="262" border="0" /></p>
+
+ </div><!-- End of content1 div -->
+    </div><!-- End of contentContainer div -->
+    <div id="footerContainer">
+    	<div id="footerShadow">
+    
+        	<div id="logos"><img src="images/fdic_logos.png" width="106" height="23" border="0" /></div>
+        	<div id="logoehl"><img src="images/logo-ehl.png" width="106" height="23" border="0" /></div>
+        	<div id="logofdic"><img src="images/logo-fdic.png" width="106" height="23" border="0" /></div>
+			
+        	<div id="footerContent">
+        		
+        		<ul>
+                	<li><a href="default.aspx">Home</a></li>
+        			<li><a href="Disclosures.aspx">Disclosures</a></li>
+        			<li><a href="Policies.aspx">Policies</a></li>
+        			<li><a href="Calculators.aspx">Calculators</a></li>
+        			<li><a href="Real-Estate.aspx">Real Estate</a></li>
+        			<li><a class="none" href="Contact.aspx">Contact Us</a></li>
+        		</ul>
+        	</div>
+        	 <div id="facebook"><a href="speedbump.aspx?link=https://www.facebook.com/1stStateBankGreatLakesBay/?fref=ts" target="_blank"><img src="images/facebook-24x24.png" border="0"></a></div>
+        	  <div id="twitter"><a href="speedbump.aspx?link=https://twitter.com/1stStateBk" target="_blank"><img src="images/twitter-24x24.png" border="0"></a></div>
+        	   <div id="linkedin"><a href="speedbump.aspx?link=https://www.linkedin.com/company/1213156" target="_blank"><img src="images/linkedin-24x24.png" border="0"></a></div>
+        </div>
+       
+    </div><!-- End of footerContainer div -->
+    
+</div><!-- End of page div -->
+
+
+</body>
+</html>

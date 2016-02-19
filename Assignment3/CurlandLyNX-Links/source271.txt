@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>
+      
+      San Diego Ruby on Rails Developer | Bradly Feeley
+    </title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <div id="header">
+      <h1 class="title"><a href="/">Bradly Feeley</a></h1>
+      <h2>San Diego Ruby on Rails Developer</h2>
+      <div id="twitter_link"><a href="http://www.twitter.com/bradly" target="_blank">Follow me on Twitter</a></div>
+      <div id="github_link"><a href="http://www.github.com/bradly" target="_blank">Fork me on Github</a></div>
+    </div>
+
+    <div id="content"><ul id="posts">
+  
+    <li>
+      <h3><a href="/2013/01/02/own-your-email">Own Your Email</a></h3>
+      <p>
+        It's the first of the year and you know what that means: resolutions. One change I'm making this year is taking back my email address. For years one of the most important pieces of my personal identity has been in the control of a large corporation. While this hasn't posed...
+        <br />
+        <a href="/2013/01/02/own-your-email" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2011/07/26/simple-rails-deployments-with-net-ssh">Simple Rails Deployments with Net/SSH</a></h3>
+      <p>
+        Recently I created a small Rails app as a sales/marketing site for the startup I am working at. The site is very basic with just a few models and controllers. We time came to deploy the site, Capistrano felt to big, but we didn't want to have to manually ssh...
+        <br />
+        <a href="/2011/07/26/simple-rails-deployments-with-net-ssh" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2010/08/11/why-yahoo-will-fail-part-1">On Yahoo</a></h3>
+      <p>
+        What are you suppose to do on this page?
+
+What are you suppose to do on this page?
+
+Now it could be Yahoo! doesn't consider themselves a search company. The problem is, everyone else does.
+
+        <br />
+        <a href="/2010/08/11/why-yahoo-will-fail-part-1" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2009/10/06/major-change-to-hash-from_xml-in-rails-2-3-4">Major Change to Hash.from_xml in Rails 2.3.4</a></h3>
+      <p>
+        Recently after upgrading a Rails app to Rails 2.3.4 I noticed some calls from a SOAP service throwing errors. After a little investigation I found this commit: The problem is that since String#underscore lowercases the string, any Hashes created using Hash.from_xml with xml that contain any capital letters in the...
+        <br />
+        <a href="/2009/10/06/major-change-to-hash-from_xml-in-rails-2-3-4" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2009/02/22/please-stop-making-iphone-specific-web-sites">Please Stop Making iPhone Specific Web Sites</a></h3>
+      <p>
+        Apple markets the iPhone as a true Internet device comparable to its desktop alternatives. One of its killer features is a real web browser. No longer are we stuck with mangled mobile versions with a quarter of the features. No longer do we need our laptops to use the web ...
+        <br />
+        <a href="/2009/02/22/please-stop-making-iphone-specific-web-sites" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2008/10/11/authentication-setup-with-merb-auth-and-merb-stack">Authentication Setup with Merb Auth and Merb Stack</a></h3>
+      <p>
+        This week I was lucky enough to spend two days at the Merb Sprint. At the sprint I spent some time testing the install and setup process for the Merb Stack and merb_auth (the merb authentication gem). Dan Neighman (aka hassox) spent some time with me going over the merb_auth...
+        <br />
+        <a href="/2008/10/11/authentication-setup-with-merb-auth-and-merb-stack" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2008/10/07/my-first-lesson-in-programming">My First Lesson In Programming</a></h3>
+      <p>
+        Today I stumbled upon the first program I ever wrote. It's an interesting story looking back twenty years later. When I was somewhere between 8-10 years old my uncle gave my family our first computer, a Coleco Adam. Along with the computer we were given the now classic book BASIC...
+        <br />
+        <a href="/2008/10/07/my-first-lesson-in-programming" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2008/10/03/merb-overheard-launched">Merb Overheard Launched</a></h3>
+      <p>
+        Recently, Merb has been getting a lot of attention. With significant changes leading up to the 1.0 release, and now with it's own conference, the Merb community needs a centralized place where relevant information can be found. Say hello to Merb Overheard. Merb Overheard follows the planet-type aggregation sites similar...
+        <br />
+        <a href="/2008/10/03/merb-overheard-launched" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2008/09/18/installing-a-ruby-on-rails-plugin-from-a-github-branch">Installing a Ruby on Rails Plugin from a Github Branch</a></h3>
+      <p>
+        One of the coolest things about Git is how easy it makes working with branches. Rails has been playing catch up with Git's distributed methodologies and recently took a nice step forward. Previously you could only use ./script/plugin install to install from the master branch of a Github repository. Now you...
+        <br />
+        <a href="/2008/09/18/installing-a-ruby-on-rails-plugin-from-a-github-branch" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2008/09/08/out-with-the-new-in-with-the-old">Out with the New, In with the Old</a></h3>
+      <p>
+        Recently I switched from Feather, a Merb blogging app, to Wordpress. Here is a small run down on why I made the switch. First off let me say this about Feather. It is an amazing application. I have contributed a bit to its development and can vouch on the quality...
+        <br />
+        <a href="/2008/09/08/out-with-the-new-in-with-the-old" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2008/09/03/update-a-github-fork-from-the-original-repo">Update a Github Fork from the Original Repo</a></h3>
+      <p>
+        Feather Blog has made some great progress recently and when looking to update my fork I found myself staring at my repo not sure what to do. My wonderful Github didn't give me a one-click way to pull updates from the original repository (or any other fork for that matter)....
+        <br />
+        <a href="/2008/09/03/update-a-github-fork-from-the-original-repo" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2008/09/02/google-chrome-made-me-sad">Google Chrome Made Me Sad</a></h3>
+      <p>
+        
+
+        <br />
+        <a href="/2008/09/02/google-chrome-made-me-sad" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2008/08/29/new-workflow-tools">New Workflow Tools</a></h3>
+      <p>
+        I recently added a couple of new tools to my project workflow, Hoptoad and Pivotal Tracker. Hoptoad is a Rails plugin that acts a replacement for the exception_notifier from the wonderfully talented Thoughbot team (of Paperclip and Shoulda fame). Hoptoad is a hosted solution that keeps track of duplicate bugs,...
+        <br />
+        <a href="/2008/08/29/new-workflow-tools" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2008/06/22/trust-your-source-control">Trust Your Source Control</a></h3>
+      <p>
+        Often times I see something like some_file_bak or image.jpg.old in a repository. Renaming the original to a new file name only makes things more confusing because now the _bak file has no history. Trust you code control and use it as it is intended.
+
+        <br />
+        <a href="/2008/06/22/trust-your-source-control" class="read_more">read more</a>
+      </p>
+    </li>
+  
+    <li>
+      <h3><a href="/2008/05/08/merb-093-and-feather-error-undefined-method-empty-for-nilnilclass">Merb 0.9.3 and Feather Error: undefined method `empty?' for nilNilClass</a></h3>
+      <p>
+        Recently when setting up this blog using Feather, a new blog app written with Merb, I started getting the following error when hitting the home page: undefined method `empty?' for nil:NilClass Turns out there is a bug is merb-cache (part of merb-more) that is causing the problem. It's patched in...
+        <br />
+        <a href="/2008/05/08/merb-093-and-feather-error-undefined-method-empty-for-nilnilclass" class="read_more">read more</a>
+      </p>
+    </li>
+  
+</ul>
+</div>
+
+    <p id="footer">Copyright &copy; 2013 Bradly Feeley</p>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-537540-7']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <script type="text/javascript">
+      var mpq = [];
+      mpq.push(["init", ""]);
+      (function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";
+      b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+
+      "//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];
+      a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push(
+      [f].concat(Array.prototype.slice.call(arguments,0)))}};d=["init","track","track_links",
+      "track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<
+      d.length;c++){mpq[d[c]]=e(d[c])}})();
+    </script>
+  </body>
+</html>

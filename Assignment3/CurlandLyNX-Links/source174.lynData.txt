@@ -1,0 +1,1207 @@
+   #[1]The Hacker who Rolls - Atom [2]The Hacker who Rolls - RSS
+
+The Hacker who Rolls
+
+   the ramblings of a soul new to the infosec industry and Brazilian Jiu
+   Jitsu
+
+Thursday, 17 September 2015
+
+[3]Security Cons & Twitter - Oh the value! New to infosec?
+
+   Hi all,
+   This blog post is about Security Cons and Twitter and the new
+   realisation in value I am finding.
+
+Depending on how you use them, there is enormous value in attending
+conferences and having a "vocal" twitter account.
+
+    1. You will meet heroes.
+
+    1. Great for self belief
+    2. Gain new mentors
+
+    1. You will meet others above, below and similar in skill level.
+
+    1. Great for motivation, inspiration, finding new passions
+    2. Make new friends
+
+    1. You will gain new ideas and motivation.
+
+    1. Great for keeping the daily grind going
+
+    1. You will find belief in yourself
+
+    1. Self belief is the most important in anything you do.
+    2. You will see your life beyond that of the work cubicle and your day
+       to day activities.
+
+   The caveat:
+   Learning is very lonely, people can help, guide, lead you to the water
+   as they say. However you must LEARN and UNDERSTAND it yourself. To
+   start learning is hard, to create habit is hard, but it must be done.
+   People, conferences help with to keep pushing, to feel part of a
+   community, but nothing changes that you must grind those hours (how
+   many is individual) in order to build those technical skills.
+   TL;DR: Go to Conferences, contribute on twitter == profit.
+   My reasons are based on my personal experiences below:
+   RUXCON:
+   Back in 2013 I was fortunate enough to be funded by my employer to
+   attend [4]Ruxcon, a security conference in Australia. I was super
+   excited and it lived up to all my hopes. Not only were there technical
+   talks where I could learn things, I was around people who enjoyed the
+   very same thing I did, security/hacking!  This is important because at
+   the time security was looked down on, due to the lack of engagement
+   opportunities of bringing money in, "go do internal audit" was the
+   response.
+   I was lucky enough to hang out with @thecolonial, @egypt, @troyhunt and
+   many others that one in infosec would typically look up too. The
+   realization that these people are just like you and I, they love to
+   chat, love to share knowledge is mind blowing. Mind blowing because
+   there is a invaluable amount of knowledge that can come from them, just
+   from a simply chat over a beer.
+   In addition to knowledge sharing, people at cons inspire you, everyday
+   people have very different and great ideas that it is very hard for
+   inspiration not to rub off on you. You could be like me, stuck in a job
+   that infosec is not a popular topic, so losing motivation can happen
+   easily.
+   DerbyCon:
+   I was lucky enough to gain a ticket to DerbyCon (next week), I have
+   already connected with people I am looking forward to meet, I have
+   gained advice on introducing myself to people. I have booked to attend
+   the DerbyCon family dinner. I am super excited! Enthusiasm is an all
+   time high. These times are needed to help get your through the tough
+   lonely nights of study.
+   Twitter:
+   I did not know many people in infosec within my community, reaching out
+   to those on twitter and receiving near real time responses is very
+   important. Twitter helps me to feel that I am part of a caring,
+   breaking the limits community.
+   I listen to 3 amazing podcasts, and the hosts reply on twitter! You ask
+   questions, debate what they said and get a feel for how and where you
+   are in relation to infosec.
+   Anyone new to infosec I always tell them to listen to:
+    1. [5]Defensive Security Podcast
+    2. [6]Down the Security Rabbit Hole Podcast
+    3. [7]Brakeing Down Security Podcast
+
+   Some people on twitter have certs I hope to achieve one day, to
+   interact with them lowers the belief that those certs are only for
+   rockstars.
+   A fellow OSCP:
+   I moved countries, and had a lot of things happen. I had people tell me
+   my learning curve is longer than most people and that their instincts
+   tell them I am not and never will be technical. That is a punch in the
+   guts, especially when your self beliefs are already that you have a
+   learning disability.
+   An OSCP joined the team, we caught up (over beers of course) and helped
+   change my self beliefs. Chatting about their story, sharing mine,
+   understanding that everyone starts at a different stage, which a
+   different baseline was beneficial. It was not fixed overnight, however
+   enough changed in me to decide once again to keep going.
+   Posted by [8]Haydn Johnson at [9]14:21 [10]No comments:
+   [11]Email This[12]BlogThis![13]Share to Twitter[14]Share to
+   Facebook[15]Share to Pinterest
+
+Sunday, 19 April 2015
+
+[16]Quickly evading AV– simple and basic
+
+   Hi all,
+
+   So I have been reading “The Hacker Playbook” found [17]here and was on
+   the topic of evading AV. I was also looking at my OSCP course guide as
+   I am starting the labs again soon and was on AV, so I thought why not
+   test it out instead of just knowing the theory!
+
+   The Hacker Playbook goes through using powersploit and executing a
+   command which can download scripts from there and run them in memory,
+   one example is using a [18]keylogger and having it execute in memory.
+   Pretty sweet.
+
+   Pyinstall and all sorts of techniques were explained, most of you would
+   be aware of the [19]veil-framework. So I thought I would try and inject
+   a payload into an executable via msfvenom and see if AV would pick it
+   up, if so I would try and see if I could evade AV.
+
+
+   Testing AV evasion
+
+   My setup is simple a Kali box and a Windows VM with Free AV installed,
+   nothing enterprise size.
+
+   So I decided to follow this tutorial from [20]Insecurety (note the 2012
+   date). It is old, but with security being behind in certain areas and
+   what not it was worth giving it a shot.
+
+   The idea of injecting into a payload is explained in the post quite
+   clearly as “By backdooring a legitimate executable, we can effectively
+   hide our “evil” code amongst a pile of “good” code, and backdoor it in
+   an undetectable manner. This means antivirus software will have a hard
+   time finding our backdoor – or at least that is what we hope.”
+
+   The key points being; hiding the malicious code amongst good code, the
+   only problem is that the malicious code does not interrupt the
+   execution of the program so it can easily be detected.It would be like
+   trying to hide a ‘B’ in front of or behind  a line of ‘A’s. The 3 B’s
+   being malicious code to launch a reverse shell for example.
+
+
+     * Example: AAAAAAAAAA
+     * Example of not interrupting the execution: BBBAAAAAA
+     * Example 2: ‘ AAABAAAAAAABAAAAABAA’
+
+
+   The example of not interrupting the execution shows the B stand out
+   like a sore thumb, so an AV would simple just scan a normal executable
+   and if the malicious code is all together as one, it could be flagged
+   as malicious.
+
+   Whereas in the example 2 the malicious code is broken up, making it
+   harder for the AV to detect the malicious code as being a reverse
+   shell.  This is a most basic example and it is how I visualize the
+   process of simply injecting malicious code into a normal executable say
+   putty.exe
+
+   So following the [21]Insecurety  tutorial I created a reverse https
+   meterpreter shell using putty.exe. I think copied it onto a shared
+   folder to then move it onto my windows testing machine. I dropped the
+   exe onto the windows machine and thought oh it worked, but after a few
+   seconds it scanned the exe and found it to be malicious (my low ram may
+   be the cause of the delay). I did not have to execute it, it was picked
+   up before that.
+
+
+   Avast picked it up a a trojan. I did a quick goole for win32 swrort and
+   found from [22]Lavasoft it detects as: “Trojan. A program that appears
+   to do one thing but actually does another (a.k.a. Trojan Horse).” Aka a
+   backdoor.
+
+   Example of AV warning:
+
+   [23]Selection_001
+
+   So I wanted to delve deeper and see if I could bypass basic AV. Since
+   you need those l33t skillz. “The Hacker Playbook” in the startup phase
+   has you install the veil-framework and also discusses it in the evade
+   AV section. So without reading more I jumped on to install Veil and
+   wanted to follow the steps in Veil for creating a payload to evade AV.
+
+   I am a BIG fan of Python and heard much about p2exe and pyinstaller, so
+   I wanted to create a Python executable that launched a meterpreter
+   reverse HTTPS payload (staged version). The same payload used in the
+   [24]Insecurety blog post, so I could bypass with the same reverse
+   shell.
+
+   So I followed the steps thought Veil, which is very simple.
+
+   I created a python meterpreter reverse shell via HTTPS encrypting
+   communications, and used pyherion (encrypts the data, I may do some
+   more reading and post for how it works).
+
+
+   You can see the options and output below:
+
+   [25]veil_1
+
+
+   So I did the same again having a new executable, nothing to do with
+   putty.exe this time, but I wanted to use the same payload which my AV
+   has the signature for and will detect. I dropped it on to my windows
+   machine and nothing happened, *yes its on the machine*.
+
+
+   I setup a msf multi handler listener to catch it. I had to choose the
+   payload to be
+
+   windows/meterpreter/reverse_https (the staged version). I believe if
+   you do not set a payload it by default expects the non staged version
+   of the windows meterpreter reverse https payload.
+   Setting the payload:
+
+   msf exploit(handler) > set payload windows/meterpreter/reverse_https
+   payload => windows/meterpreter/reverse_https
+   msf exploit(handler) > exploit
+
+   I double clicked the executable to launch it, the Free Avast popped up
+   with a ‘DEEP INSPECTION’ and thought crap its picked it up, but no! It
+   allowed it to execute.
+
+
+   Catching the reverse shell from my python executable with my
+   meterpreter shell Smile :
+
+
+   [26]veil_2
+
+
+
+   So that was a fun adventure, and it did not take too long to complete.
+   Feel free to add any comments on what you have done or more in-depth
+   explanation on the how and why of the evasion.
+   Posted by [27]Haydn Johnson at [28]12:39 [29]No comments:
+   [30]Email This[31]BlogThis![32]Share to Twitter[33]Share to
+   Facebook[34]Share to Pinterest
+
+Saturday, 4 April 2015
+
+[35]Priv_checker Recon script && Free material
+
+
+
+   Hi All,
+
+   Been a while since posting. Gone through a lot in a YEAR, but I think
+   that will be for another posting. I am more excited about some scripts
+   I have been working on.
+
+   I am planning to take the OSCP challenge in June so I thought I would
+   automate some things. So far automating the checking for privilege
+   checking on windows and Unix boxes and automating recon.
+
+
+Python Privilege Checker
+
+   The first I would like to present is my Python privilege checking
+   script. This one I gained the idea off of a blog for an OSCP review.
+   Which can be found at [36]Securitysift. Also [37]@securitysift.
+
+   He writes it in Python as well, and as I am a great fan of Python I
+   decided to write it in the same language.
+
+   My focus is that the output is to be reviewed by me so I did not need
+   to create a HTML template. As it is for when being on a box I wanted to
+   use native windows/Linux command to create text files for my output.
+
+   The most basic flow of my script is:
+     * Check if Linux or Windows OS
+          + If Linux: run all Linux system commands
+          + If Windows: run all Windows command
+
+
+   The code is on Pastebin for the month. I am figuring out an easier way
+   to highlight my python code.
+
+   I have also created a start of a batch file in case the windows box
+   does not a) have python installed or b) does not allow me to run
+   executables (py installer). A shell script is almost in the making in
+   case I find my self on a Unix box unable to run python scripts.
+
+   [38]http://pastebin.com/zfDihegh
+
+
+
+
+
+
+Recon script
+
+   I also gained the idea from the same blog from [39]@securitysift.
+
+   My recon script at the moment does a simple nmap scan on all ports,
+   parses the output from an XML file and runs other nmap scans based on
+   the ports it finds. I wanted to use the GREP format so as to not copy
+   cat [40]@securitysift but found that it is difficult to parse GREP and
+   XML was much easier. So why re-invent the wheel.
+
+   The code again can be found here:
+
+   [41]http://pastebin.com/8pGG4fG6
+
+
+   My code is in draft, aka work in progress. It does not run other
+   scripts off every port nor does it run every tool for the main ports. I
+   thought I would work on it more when I am in the labs  and can see what
+   more I need, or even if any problems are arising.
+
+   [42]@securitysift did the great idea of having separate python scripts
+   that the main executes, so that they can be used individually if
+   needed, for example dns_recon.py is a script focused on dns. Mine at
+   the current time does not do that. As the focus is oscp I feel that its
+   not necessary, but for real work who knows, or for team exercises
+   [43]@securitysift module based scripts would be great.
+
+
+
+
+Mentioning of Free material
+
+   #Infosec is great for sharing resources and most people you would
+   consider l33t are really open to questions as long as you have done
+   some research or considered options. Obviously there are exceptions to
+   every rule and not all people are so open, but in generally I feel it
+   is a great community.
+
+   A shout out I want to do is for [44]Cybrary.IT. You may have seen their
+   funding campaign or presence on twitter ([45]@cybraryIT).  Go to their
+   courses list at [46]http://www.cybrary.it/courses/ and you will see a
+   gigantic list of FREE material. You will notice that have Network
+   Administration and Systems administration and a BIG focus on  security,
+   which I really like.
+
+   So say for aspiring pentesters (yes I am still one) they have a great
+   source of foundational material as well as post exploitation (once you
+   get on a box). Many skilled pen testers / red teamers already have had
+   experience in Admin experience so do not discount the other ‘not so
+   infosecy courses’.
+
+
+   The one course I like is the Penetration Testing course, you could
+   follow this and learn a LOT of stuff. It covers basics like
+   footprinting yes, but the way it is white boarded in the video really
+   helps you gain the concepts. Having a quick look at additional study
+   material includes other free and not free materials (as shown below).
+   Their recommendations are valid, I am currently working through
+   TheHackerPlaybook and its great.
+
+
+   Just a little shout out to them, if you are wanting to upskill or learn
+   a little more, hit Cybrary.IT up. Its free, its good quality, just be
+   consistent keep at it and push through. So many materials I have that I
+   jump from and too, I am finally learning to stick to one! This is a
+   great path.
+
+
+   Testing the hooking in Beef Open-mouthed smile
+
+   [47][CByHIROUsAAxGI1.jpg]
+
+
+
+   [48]COPY PASTE FROM THEIR WEBSITE BELOW:
+
+   Recommended Additional Study Material
+     * [49]Penetration Testing: A Hands-On Guide by [50]Georgia Weidman
+     * [51]HackThisSite
+     * [52]America’s Cyber Future: Security and Prosperity in the
+       Information Age
+     * [53]The Hacker Playbook
+     * [54]Free CEH Study Guide
+     * Member Contributed Content:
+          + [55]Vulnerabilities vs Penetration Testing (pptx) – By
+            [56]Michael Lassiter Jr.
+          + [57]Information Security & Cyber Security White Paper (pdf) –
+            By [58]Michael Lassiter Jr.
+     * Free Sponsor White Papers:
+          + [59]Three Ways Companies Can Avoid DDoS Attacks *NEW*
+          + [60]Know Your Enemy: 5 Ways Identity Theft Can Occur *NEW*
+          + [61]Network Security Report: The State of Network Security in
+            Schools *NEW*
+          + [62]Protecting Your Website With Always On SSL
+          + [63]How to Secure Multiple Domains with SSL
+
+   Posted by [64]Haydn Johnson at [65]09:42 [66]No comments:
+   [67]Email This[68]BlogThis![69]Share to Twitter[70]Share to
+   Facebook[71]Share to Pinterest
+
+Thursday, 15 May 2014
+
+[72]Kali VM (NAT) + host = rookie mistake
+
+
+   So readers,
+
+   In getting back to practicing my l337 skills, I was attempting to
+   invoke remote ftp file transfers via a non-interactive shell.
+
+   Basically using the –s ftp command, which runs ftp commands in a
+   script.
+
+A non-interactive shell:
+
+   This is basically is a shell on a remote computer (bind or reverse)
+   that gives no feedback, and will not execute commands.
+
+   It starts off like an interactive shell where you can execute commands
+   remotely, then you invoke ftp, powershell and it closes the connection.
+
+
+   The setup:
+
+     Victim machine (my laptop)
+
+   [73]image
+
+
+   Attacker machine (my kali linux vm on the laptop)
+
+   [74]image
+
+   Normal interactive shell, you can execute commands like so
+
+   [75]image
+
+   Non interactive shell, invoked by the powershell command:
+
+   [76]image
+
+   Non interactive shell, invoked by ftp
+
+   [77]image
+
+   The victim (my windows laptop), breaks the remote connection, this is
+   what it looks like from the victim machine. This you would not normally
+   see.
+
+   [78]image
+
+   Due to the non–interactive shell, you are unable to execute ftp
+   commands sequentially, you may want to GET a file off the host to the
+   victim to do some credential dumping.
+
+ftp –s command
+
+   The –s command is explained here: [79]–s
+
+   It allows you to run a text file containing FTP commands.
+
+
+   So naturally you place ftp commands in a text file and run ftp
+   –s:<file>. In my case ftp- s:ftp2.txt
+
+   Like this:
+
+   [80]image
+
+   Which is executed from the HOST (my windows laptop), and gets a file
+   from the kali VM (attacker). The script runs fine.
+
+From Kali VM to HOST errors
+
+   But using the remote shell and invoking the script it errors as such:
+
+   [81]image
+
+   I let it run for a few minutes and it would not process any further.
+   Why you may ask? Well the name of the post must have given it away.
+
+   I do not know WHY in the technical sense, but it has to do with running
+   the kali vm in NAT network made, thus sharing the hosts IP address. I
+   am sorry, I cannot be anymore technical than that. But as I explain
+   below how I found about the issue, it must be that the ncat shell is
+   from a different IP than the vm, but if that was the case invoking the
+   –s command from my laptop (windows) should not be able to connect to
+   it.
+
+The work around/ fixxer upper
+
+   Set your Virtual Machine to bridged so that it has an IP,  in the same
+   network.
+
+   VM settings> select bridged> select replicate physical network
+   connection state> then click configure adapters
+
+   [82]image
+
+   My IP address goes from the internal VM IP address:
+
+   [83]image
+
+   To one in the same IP subnet as my laptop windows machine
+
+   [84]image
+
+
+   AND if we invoke the ftp –s command remotely:
+
+   it successfully runs ftp commands from the file as shown and puts
+   procdump.exe onto the victim machine (my windows laptop)
+
+   [85]image
+
+
+   note: Do change the IP address in the ftp command to the new IP address
+   for you Kali VM, or like me you will be wondering why it does not work
+   Smile
+
+
+   Hopefully this helps some people. As last night it was giving me a run
+   for my money. If anyone cares to read this far, I initially found the
+   issue by remoting from a vm on laptop B to my personal laptop with the
+   remote shell, I then realised the ncat connection from my kali linux
+   was from the laptop B IP address and not the Kali linux VM IP address.
+
+
+   Cheers,
+
+   Haydn
+   Posted by [86]Haydn Johnson at [87]19:13 [88]No comments:
+   [89]Email This[90]BlogThis![91]Share to Twitter[92]Share to
+   Facebook[93]Share to Pinterest
+
+Sunday, 11 May 2014
+
+[94]Some basic thoughts on the Target Data Breach
+
+
+   Hi All, I happened to be given a copy of the A “Kill Chain” Analysis of
+   the 2013
+   Target Data Breach (majority staff report for the Chairman Rockefeller
+   March 26, 2014). An article by the United States Senate. It can be
+   found [95]here.
+
+   Some basic notes:
+
+     * Target was PCI-DSS compliant prior to the breach.
+     * The initial breach was to a third-party vendor.
+     * Installed malware on Target systems
+     * Were able to pivot around the network
+     * Were able to copy large amounts of data via FTP.
+
+My basic thoughts on failings
+
+   The target breach has been covered to death, from every angle. My words
+   are from someone not so experienced and thinking how it could have been
+   done different.
+
+   A third party vendor was breached initially, giving the attackers the
+   basic access to Target’s network:
+
+
+     * There is minimal target could have done to stop attackers using
+       publicly available information to create phishing attacks onto
+       their vendor. I am sure nothing legal could be forced, other than
+       simply asking them to have process where they remove publicly
+       available information that is not required. The article explains
+       Targe could have done this, but with so many vendors how would that
+       be enforced, or how could it be checked that it was carried out.
+       Would contracts stating that such a thing been done have been
+       enough?
+
+
+     * The article explains that Target could have enforced a security
+       process on third parties, which I  am sure PCI-DSS compliance
+       requires; by that I mean the vendor could be more secure How could
+       one manage many vendors to have a base line of security? Could they
+       have forced each vendor to be PCI-DSS compliant?
+
+
+     * Security awareness training is recommended, saying it could have
+       stopped the attack that way. My argument to this is, that phishing
+       attacks are becoming so advanced these days, there is no way to
+       tell if the email is ‘not’ legit. If it is a work email requiring
+       some action of an employee will be in trouble, then the employee
+       must prove it is not legitimate. Therefore training has a limited
+       impact.
+
+
+     * It is said the vendor used a free version of Malwarebytes
+       antivirus. I am wondering if it would have been feasible to have a
+       basic checklist for basic security, such as software licensing, or
+       evidence of using a DLP or IPS for example. This could be used as
+       an on boarding process for each vendor.
+
+
+     * The article states that Target could have required 2 factor
+       authentication. This is a great idea. Again it could be part of the
+       on boarding process. I imagine this would have to be managed  by
+       the vendor, as Target managing it for every vendor would be death
+       by overhead. Target could simply require 2 factor authentication
+       and leave it to the vendor to decide the way it is delivered. This
+       would allow flexibility with vendors to choose sms to their phone,
+       an rsa token or other methods.
+
+
+   Installed malware on Target systems :
+     * Target staff failed to act on alerts generated by software. It is
+       also stated that that Target staff could have viewed this as a
+       false positive, possible being overwhelmed with alerts. I read
+       about this all the time, security software being misconfigured or
+       not being used to its full potential, there is no point spending
+       budget on something and not learning how to use it. How is one to
+       confirm if their software is sending too many false positives? Is
+       there a balance? A quality process of some sort should be put in
+       place, follow best practice for each software. Many pieces of
+       software have tuning guides.
+
+
+     * The articles states Target could have paid greater attention to
+       industry updates on RAM scraping malware (used in the breach). This
+       is true, but there are so many updates, so many articles to read,
+       how is one to keep up to date on the latest attacks. Perhaps there
+       needs to be (as always is said) more sharing between companies of
+       attack statistics, or a central Security Operations Centre for say
+       payment card industry. That may work, everyone puts in a lump sum
+       of money each year to support the SOC and the information learned
+       is shared between everyone. Or perhaps the way security alerts are
+       delivered via government could be improved, I can imagine industry
+       being bombarded with so many alerts.
+
+   Were able to pivot around the network
+     * The article advises that target could have used white listing, a
+       technique where only approved processes are allowed to run on a
+       machine. In theory this is great, but if I am an attacker, I would
+       assume you would be wiping any type of exe created on the file
+       system, as such I would attempt to use a current process, or at the
+       very least migrate into a process to look around. This can be very
+       easily done with the [96]Metasploit Framework’s meterpreter shell
+       command migrate which allows easy process migration (but of course
+       you must be on the box in the first place). As such white listing
+       does not work as well as it would sound. It is a great idea, just
+       be are of its down sides. The defensive security podcast gives a
+       great explanation [97]here.
+
+
+     * I do not think prevention at this stage is most important, I
+       believe detection to be the main focus. This is because if someone
+       is on your network, there is a plethora of opportunities for them
+       to privilege escalate or to pivot, just a simple default password
+       missed in audits or an old firewall rule left in place could be the
+       culprit. Detecting attempts or unusual behaviour would do great to
+       have in place in order to detect.
+
+   Were able to copy large amounts of data via FTP:
+     * I did read once that someone claimed the attackers copied 70gigs
+       via FTP. Whether that is true or not I do not know, but it is a
+       high amount of data and should have been noticeable. Anyhow, the
+       article says that one of the servers FTP was used to transfer the
+       data to was located in Russia via plain text. It also claims this
+       could have been prevented via whitelisting FTP servers. This is a
+       great idea, but what about location spoofing a FTP server. I would
+       have thought the attackers did that already. If whitelisting is not
+       strong enough in that they can pretend to be an allowed FTP server,
+       a limit to the amount of data that can be sent over time could
+       work. Or a warning  sent to the security team that in x amount of
+       time a high amount of data had been transferred and as such this
+       was not normal behaviour and has been flagged.
+
+
+   Hopefully that is a good read.
+
+   Just some food for thought as I learn to blog about current issues and
+   trends.
+
+
+   Cheers,
+
+   Haydn
+   Posted by [98]Haydn Johnson at [99]18:39 [100]No comments:
+   [101]Email This[102]BlogThis![103]Share to Twitter[104]Share to
+   Facebook[105]Share to Pinterest
+
+Saturday, 10 May 2014
+
+[106]My sexist twitter post and what I learned
+
+
+   Dear readers.
+
+   I have a confession, I ignorantly posted a sexist tweet/comment. I say
+   ignorantly because I thought I was being silly or just ‘joking’, a
+   simple tweet without a second thought. I went to bed thinking, oh
+   someone will laugh at that comment. Boy was I wrong, and I did cop it,
+   but I think they were lenient on me.
+
+   Anyhow, my intent is irrelevant, what I have learned is how my sexist
+   remark, being innocent or not is part of the whole culture of sexism,
+   not just in hacking or information security as an industry, but life.
+
+   This post is not to give an excuse, it is to show what I have learned
+   from this experience, and to hope raise further awareness.
+
+Due to the reaction my comment received I have done some research.
+
+     * This article titled: [107]Sexism and the single hacker: Where are
+       the women at Def Con?  (August 31, 2013) was a good read. Vegas is
+       a place which is commonly known for booze, drugs and
+       prostitutes/strippers, but as the article states it does not mean
+       that is ok at a conference, or ok at all.
+     * There is also this article: [108]Ending sexism in hacker culture: A
+       work in progress (updated January 2nd 2013). This article covers
+       the same Def Con game of Hacker Jeopardy as the above article. It
+       is also updated with “Fighting sexism: an on-going process”. It is
+       a good read. The following quote that I have made into a  screen
+       shot is powerful.
+
+   [109]image
+     * Before my sexist comment, I had read this article without thinking
+       too much into it. “[110]STOP SAYING "I HAVE A BOYFRIEND" TO DEFLECT
+       UNWANTED ATTENTION” At the time I read it I was thinking yes that
+       is true, women should not have to be taken for men to consider them
+       ‘out of bounds’. I have been guilty of it, at a night club, being
+       young and when the whole idea was to ‘get a girl’ (looking back
+       now, I can see that even then it was sexist, the whole young
+       culture is). When a girl is not interested, the first statement was
+       ‘oh you have a boyfriend’, which in hindsight is not always the
+       case. Women are allowed to not be interested due to many other
+       facts than simply being taken.
+
+   A side question to the above: In order for someone to decide if your
+   push is welcomed or unwelcomed your must ‘come on’ or show your
+   attracted to a women in the first place . If a woman likes the
+   attention, it is not sexist, but if she does not like it, it is sexist.
+   This is not to be controversial, but as this would be a typical male
+   response, has anyone thought on how to handle this. I can imagine
+   someone would say well it is discrimination if an attractive male hits
+   on a girl and an unattractive male hits on a girl the exact same way
+   and one is considered sexist while the other isn't. Is this a chick
+   before the egg kind of scenario, or am I completely off track with this
+   one?
+
+   It is not an a + b = c scenario, however some food for thought perhaps.
+     * A video I had watched, again prior to my sexist comment: [111]This
+       is What Everyday Sexism Feels Like...to a Man
+
+
+   IFRAME: [112]//www.youtube.com/embed/V4UWxlVvT1A
+
+   This video, is very off putting to watch. Especially to someone who
+   generally thinks of himself as non sexist (me) but through ignorance
+   continues the culture of sexism. The video is of a man walking a baby,
+   where men are treated as a sex object. It is quite an eye opener, to
+   women running down the street topless and females being the dominant
+   sex, purposefully opposite to the real world. Quite sad once accepting
+   it as it is. A man is being hit on by a group of women, and when he is
+   repulsed they call him a skank, an eye opener to that of women in the
+   real world being hit on by groups of guys, and if they do not like it,
+   it is the woman's fault.
+
+   A side note to sexism in my Fiancé's experience
+
+   Again, I did not think too much of this, perhaps I am guilty of not
+   accepting or seeing deeply into others situations.
+
+   My fiancé’ (lucky to have her now I think of it) and I opened a joint
+   account, as I work full time, she was placed as the primary account
+   holder. Despite this, the bank has sent a letter with my name on it,
+   asking how I like the account etc. They never sent her a letter asking
+   her the same thing, nor did they send a letter to the both of us.
+
+   She tried to get a credit card to build up credit  history. Having no
+   credit history she was forced to have a supported credit card (not the
+   right term), one with a $600 freeze on her own money, in case she did
+   not pay her account. While signing up, the banker (probably male) told
+   her that I (her fiancé’) could come in and get a credit card straight
+   away. Now I have no credit history either, so why that is different I
+   have no idea.
+
+   So even from a banks point of view, men are the dominant sex. She was
+   very upset and angry, and I simply replied with ‘that is how the world
+   is’, which neither helps or changes anything. I did say  I understood
+   how she felt and she had every reason to feel that way, although it is
+   not until now, that I truly understand how she felt/feels, and how
+   ingrained the sexist culture towards women is.
+
+I did not realise I was a contributor of sexism (like these articles) until
+it was pointed out
+
+   I felt completely terrible for my comment being taken as sexism, I
+   would have never considered my self sexist. Yet now I realise that the
+   comment was still made after I had clearly viewed awareness
+   articles/videos of sexism.
+
+   So why did it take ‘being made a fool out of on twitter’ to realise
+   that sexism has very deep roots?
+
+   Perhaps it is because whenever a sexism campaign is shown, it is at the
+   very extreme (not meaning to say that it is rare) and that I was able
+   to separate myself as being nowhere near what the campaigns show. This
+   I would consider to be akin to road toll campaigns, where someone is
+   texting or not paying attention and they are killed in some huge
+   horrific car accident, I would never consider myself an idiot to do
+   that, however just last night I was tired and hit a gutter driving
+   home. I could have so easily been the exact reason for road toll
+   campaigns, and yet I still did not think too much of it other than
+   ‘oops’.
+
+   Perhaps it is not until the ego is smashed to pieces and one can take a
+   step back, and say ‘oh I have made a really big mistake’ that one
+   learns the most. But it should not take your own mistake, or a big
+   mistake to learn something.
+
+   I do not have a solution to breaking the sexist culture, or to changing
+   the opinion of everyday people to thinking they are not part of the
+   problem, or as I mentioned above that they are not anywhere near like
+   that shown in a sexist campaign. All I can say, is that I now have a
+   greater understanding and awareness of sexism in hacking culture by
+   having the car accident (to use the road toll analogy).
+
+   Having a greater awareness and understanding means?
+
+   As I always try to be more self aware and improve myself and be a
+   better human being. Having a greater awareness allows me to not make
+   the mistake again, to notice when small sexist things are being done
+   (by small I mean not as noticeable) and to call them out. Hopefully I
+   can help better things for everyone.
+
+   I still struggle with the pulling the racist or sexist card
+
+   Some thing's can be said with no prior thought of sexism or racism and
+   people can just say you are racist or sexist in order to make your
+   argument invalid. How is one to tell the difference? After my
+   experience, I do not think it is worth the risk of getting it wrong, if
+   someone wants to say you are racist or sexist just to cause a problem,
+   that is fine, accept it, as you will never truly know.
+
+   If they feel you are being racist or sexist that is what matters. Try
+   to not be too quick to shrug off someone being upset and feeling you
+   are racist or sexist as just ‘playing that card’, as I have done many
+   times.
+
+
+The point of the post
+
+   The point of this post was to say I am sorry for being sexist. No
+   excuses, only that I apologize and I will and can do better.
+
+   Hopefully my post can make others aware that being ignorant does not
+   stop somebody being hurt, and it does not stop a sexist culture. One
+   may consider themselves separate to a sexist culture, however it could
+   be said that if you are not part of the solution, you are part of the
+   problem. Does that shake any bones?
+
+   I did try to write this post from the perspective of someone who has
+   constantly been attacked or abused (perhaps not the correct
+   terminology), trying to understand the real issues and not belittle any
+   feelings. I hope I have achieved that.
+
+
+   Any feedback is welcome.
+
+   Cheers,
+
+   Haydn
+   Posted by [113]Haydn Johnson at [114]19:58 [115]No comments:
+   [116]Email This[117]BlogThis![118]Share to Twitter[119]Share to
+   Facebook[120]Share to Pinterest
+
+Monday, 5 May 2014
+
+[121]Share point installation notes
+
+   Howdy all,
+   Just a short post for those wanting a hint in the right direction for
+   installing Share point 2013.
+   Please note:
+     * This is for a setup with a complete installation of sharepoint;
+       meaning not a stand alone with a built in sql server express
+     * The share point and sql server are on one server
+     * It is part of a domain, so DNS, accounts are created on the domain
+       controller
+
+   Start with this video:
+
+   IFRAME: [122]//www.youtube.com/embed/3Q9ddN0EY9M
+
+   Why you ask?
+   Because the MSDN documentation is very detailed, very exact and very
+   dry reading.
+   Be-careful of :
+   Installing Share point stand-alone for Domain environments. It does not
+   work with an active directory over a domain.
+   Please install via these tutorials.
+   Disclaimer:
+   I am in the middle of following them and have not yet finished the
+   installation. will update when it is up and running :)
+   Some issues I am finding:
+   Creating a web application works fine, completing a site collection
+   works fine, creating a site... not so much. By not so much, I mean I am
+   able to create it, just unable to access it.
+   I have tried a bit of googling and found some potential reasons such
+   as:
+     * [123]loop back check
+     * [124]Fully qualified domain name issues
+
+   The Administration site is accessible externally. My thoughts so far is
+   that through the install, windows is able to configure everything
+   correctly, but sharepoint is unable to configure sites correctly,
+   mainly the DNS, forward lookup etc.
+   Trouble shooting so far:
+   So far, there was an issue with an SSL site. What does SSL need,
+   certificates, as such we went through and created a self signed
+   certifcated, exported it, and added it to the share point trust zone.
+   A great tutorial for that can be found [125]here
+   The new issues:
+     * The site works in that it asks for credentials but gives a 404 file
+       not found error. So in order to troubleshoot I am trying to create
+       a non ssl site to see if it is to do with SSL somehow.
+     * Running slow.. very slow
+     * Is crashing quite a lot, when restarting the server, when create a
+       web application and a site collection
+
+   Addressing the 404 file not found error:
+   I was unable to directly fix the error in asking for credentials then
+   loading a 404, i.e nothing showing up. That is, I was unable to fix the
+   error for a web application that is directly created for SSL.
+   A work around instead, was to create a web application without SSL, and
+   then change it to have SSL. Basically creating on port 80 and then
+   changing to port 443.
+   As said early, the thought was the DNS server does not automatically
+   configure for site collection, or the creation of sites.
+   This [126]blog post, which also comes in a [127]white paper goes very
+   advanced to solving sites with SSL. But do read the first part, as it
+   gives great steps on creating a DNS new host A name. Which solves the
+   problem of 404 file not found.
+   The key take aways are:
+     * Configure the DNS, to have the correct FQDN, so that being on a
+       domain, allows you to connect to the site, whether it being ssl or
+       standard http
+     * generate a certificate for the ssl. I advise using the selfssl as
+       per step 3 in the guide. Please note: you must run it as
+       administrator, but doing so opens cmd at the default location. So
+       you have to manually move into the selfssl directory and execute
+       the command from there.
+     * When importing the certificate it can be hard to find the local
+       computer certificates, instead of just local user, this is why
+       selfssl is really great. It does that automatically
+     * Bind the website in IIS so that the website and certificate are
+       bound together, i.e it knows what certificate to expect.
+     * Within sharepoint, change the http to https. Alternate access
+       mappings can be found under central administration, not under
+       security as one would think
+     * add the trust in sharepoint, add the certificate and you should be
+       good to go.
+
+   It is working
+   I followed the videos, and fought with creating an ssl site within
+   sharepoint. I found that following the white paper (a guide to https
+   and secure sockets layer in sharepoint 2013) and changing the non ssl
+   site to an ssl site worked much better. Well technically, it actually
+   worked :)
+   Some logging things to note
+   There are many many logs consistently created. I will update this
+   tomorrow with the details.
+   update:
+   This [128]user expains: "In my sharepoint 2010 development server
+   owstimer.exe consumes  > 1.2 GB Memory". This is not exactly my problem
+   but owstimer just kept crashing.
+
+   The image:
+   [129]image
+
+   It constantly errors, so far share point is still working fine. I will
+   need to trouble shoot this I think.
+
+   Another constant error:
+
+   [130]image
+
+
+
+   Cheers,
+   Haydn
+   Posted by [131]Haydn Johnson at [132]14:54 [133]No comments:
+   [134]Email This[135]BlogThis![136]Share to Twitter[137]Share to
+   Facebook[138]Share to Pinterest
+
+   [139]Older Posts [140]Home
+
+   Subscribe to: [141]Posts (Atom)
+
+Blog Archive
+
+     * [142]▼  [143]2015 (3)
+          + [144]▼  [145]September (1)
+               o [146]Security Cons & Twitter - Oh the value! New to
+                 inf...
+          + [147]►  [148]April (2)
+
+     * [149]►  [150]2014 (5)
+          + [151]►  [152]May (5)
+
+     * [153]►  [154]2013 (21)
+          + [155]►  [156]December (1)
+          + [157]►  [158]November (3)
+          + [159]►  [160]August (2)
+          + [161]►  [162]July (2)
+          + [163]►  [164]June (10)
+          + [165]►  [166]May (3)
+
+   About Me
+
+      [167]My Photo
+
+      [168]Haydn Johnson
+
+      [169]View my complete profile
+
+Follow me on Twitter
+
+   Simple template. Powered by [170]Blogger.
+
+References
+
+   Visible links
+   1. http://thehackerwhorolls.blogspot.com/feeds/posts/default
+   2. http://thehackerwhorolls.blogspot.com/feeds/posts/default?alt=rss
+   3. http://thehackerwhorolls.blogspot.com.au/2015/09/security-cons-twitter-oh-value-new-to.html
+   4. https://ruxcon.org.au/
+   5. http://www.defensivesecurity.org/
+   6. http://podcast.wh1t3rabbit.net/
+   7. http://brakeingsecurity.blogspot.ca/
+   8. https://plus.google.com/101265934041343421308
+   9. http://thehackerwhorolls.blogspot.com.au/2015/09/security-cons-twitter-oh-value-new-to.html
+  10. http://thehackerwhorolls.blogspot.com.au/2015/09/security-cons-twitter-oh-value-new-to.html#comment-form
+  11. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=2485448778944172662&target=email
+  12. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=2485448778944172662&target=blog
+  13. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=2485448778944172662&target=twitter
+  14. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=2485448778944172662&target=facebook
+  15. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=2485448778944172662&target=pinterest
+  16. http://thehackerwhorolls.blogspot.com.au/2015/04/quickly-evading-av-simple-and-basic.html
+  17. http://thehackerplaybook.com/dashboard/
+  18. https://github.com/mattifestation/PowerSploit/blob/master/Exfiltration/Get-Keystrokes.ps1
+  19. https://www.veil-framework.com/
+  20. http://insecurety.net/?p=655
+  21. http://insecurety.net/?p=655
+  22. http://www.lavasoft.com/mylavasoft/malware-descriptions/blog/TrojanWin32Swrort31c848dcaf4
+  23. http://lh3.googleusercontent.com/-Vk40LAgxc2U/VTQESjkJR1I/AAAAAAAAAWw/4M-zoYRc2No/s1600-h/Selection_001%255B2%255D.jpg
+  24. http://insecurety.net/?p=655
+  25. http://lh3.googleusercontent.com/-OKu1Qpjcv-s/VTQETVAtpbI/AAAAAAAAAW8/0bu7fLwN1tE/s1600-h/veil_1%255B3%255D.jpg
+  26. http://lh3.googleusercontent.com/-IKVsqFYhVfA/VTQEUkBV1dI/AAAAAAAAAXU/ZFyGv1kRlMU/s1600-h/veil_2%255B4%255D.jpg
+  27. https://plus.google.com/101265934041343421308
+  28. http://thehackerwhorolls.blogspot.com.au/2015/04/quickly-evading-av-simple-and-basic.html
+  29. http://thehackerwhorolls.blogspot.com.au/2015/04/quickly-evading-av-simple-and-basic.html#comment-form
+  30. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8178787971688297809&target=email
+  31. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8178787971688297809&target=blog
+  32. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8178787971688297809&target=twitter
+  33. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8178787971688297809&target=facebook
+  34. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8178787971688297809&target=pinterest
+  35. http://thehackerwhorolls.blogspot.com.au/2015/04/privchecker-recon-free-material.html
+  36. http://www.securitysift.com/offsec-pwb-oscp/
+  37. https://twitter.com/SecuritySift?original_referer=http://www.securitysift.com/offsec-pwb-oscp/&profile_id=839940276&tw_i=581469509468463104&tw_p=embeddedtimeline&tw_w=422832532212559872
+  38. http://pastebin.com/zfDihegh
+  39. https://twitter.com/SecuritySift?original_referer=http://www.securitysift.com/offsec-pwb-oscp/&profile_id=839940276&tw_i=581469509468463104&tw_p=embeddedtimeline&tw_w=422832532212559872
+  40. https://twitter.com/SecuritySift?original_referer=http://www.securitysift.com/offsec-pwb-oscp/&profile_id=839940276&tw_i=581469509468463104&tw_p=embeddedtimeline&tw_w=422832532212559872
+  41. http://pastebin.com/8pGG4fG6
+  42. https://twitter.com/SecuritySift?original_referer=http://www.securitysift.com/offsec-pwb-oscp/&profile_id=839940276&tw_i=581469509468463104&tw_p=embeddedtimeline&tw_w=422832532212559872
+  43. https://twitter.com/SecuritySift?original_referer=http://www.securitysift.com/offsec-pwb-oscp/&profile_id=839940276&tw_i=581469509468463104&tw_p=embeddedtimeline&tw_w=422832532212559872
+  44. http://www.cybrary.it/
+  45. https://twitter.com/cybraryit
+  46. http://www.cybrary.it/courses/
+  47. https://twitter.com/RB_replication/status/58449071965983129
+  48. http://www.cybrary.it/video/footprinting-whiteboard/
+  49. http://www.amazon.com/gp/product/1593275641/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275641&linkCode=as2&tag=cybrary02-20&linkId=MTOKTFNMTLMW5CE2
+  50. http://www.cybrary.it/members/georgia/
+  51. https://www.hackthissite.org/
+  52. http://www.cnas.org/files/documents/publications/CNAS_Cyber_Volume I_0.pdf
+  53. http://www.amazon.com/gp/product/1494932636/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1494932636&linkCode=as2&tag=cybrary02-20&linkId=M72K37RUBJG7X5TR
+  54. http://www.cybrary.it/wp-content/uploads/guides/Pen_Testing_and_Ethical_Hacking_Study_Guide.pdf
+  55. http://www.cybrary.it/wp-content/uploads/powerpoint/Vulnerabilities-vs-Penetration-Testing.pptx
+  56. http://www.cybrary.it/members/ethicalmjpen/
+  57. http://www.cybrary.it/wp-content/uploads/guides/Information-Security-and-Cyber-Security-White-Paper-Michael-Lassiter-Jr.pdf
+  58. http://www.cybrary.it/members/ethicalmjpen/
+  59. http://cybrary-it.tradepub.com/free/w_dyni53/prgm.cgi&ch=CEH
+  60. http://cybrary-it.tradepub.com/free/w_jumi08/prgm.cgi&ch=CEH
+  61. http://cybrary-it.tradepub.com/free/w_aaaa2825/prgm.cgi&ch=CEH
+  62. http://cybrary-it.tradepub.com/free/w_sym195/prgm.cgi&ch=CEH
+  63. http://cybrary-it.tradepub.com/free/w_geot09/prgm.cgi&ch=CEH
+  64. https://plus.google.com/101265934041343421308
+  65. http://thehackerwhorolls.blogspot.com.au/2015/04/privchecker-recon-free-material.html
+  66. http://thehackerwhorolls.blogspot.com.au/2015/04/privchecker-recon-free-material.html#comment-form
+  67. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8385858265578888793&target=email
+  68. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8385858265578888793&target=blog
+  69. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8385858265578888793&target=twitter
+  70. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8385858265578888793&target=facebook
+  71. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8385858265578888793&target=pinterest
+  72. http://thehackerwhorolls.blogspot.com.au/2014/05/kali-vm-nat-host-rookie-mistake.html
+  73. http://lh5.ggpht.com/-Z42EYBRrdjc/U3Vz6UdGb3I/AAAAAAAAAOA/eAcCr-CARF4/s1600-h/image%255B52%255D.png
+  74. http://lh5.ggpht.com/-SkP88tMJI-k/U3Vz74lApBI/AAAAAAAAAOQ/en5cprxZvxA/s1600-h/image%255B53%255D.png
+  75. http://lh5.ggpht.com/-nZtjE-IRxDI/U3Vz9WiqCSI/AAAAAAAAAOg/qxpgaizGghQ/s1600-h/image%255B54%255D.png
+  76. http://lh6.ggpht.com/-BD5dgSF_Igk/U3Vz-aB_4NI/AAAAAAAAAOs/r5aIHsUHuwg/s1600-h/image%255B55%255D.png
+  77. http://lh6.ggpht.com/-_lU0kFfOw7g/U3Vz_yWVYKI/AAAAAAAAAPA/7a-aMBpXXgk/s1600-h/image%255B45%255D.png
+  78. http://lh5.ggpht.com/-5IiDPedwWKo/U3V0BWR6Z6I/AAAAAAAAAPQ/jAfKCB6Rr-4/s1600-h/image%255B56%255D.png
+  79. http://ss64.com/nt/ftp.html
+  80. http://lh4.ggpht.com/-Tu-gilvpfR8/U3V0DCvK_GI/AAAAAAAAARI/28lGtqnM9u4/s1600-h/image%255B62%255D.png
+  81. http://lh6.ggpht.com/-gSD1cmklb2A/U3V0EfOj7WI/AAAAAAAAAPw/tbNjjRLFgjY/s1600-h/image%255B58%255D.png
+  82. http://lh4.ggpht.com/-bb5oy2Kt-j8/U3V0F8ZjyUI/AAAAAAAAAQA/h9cthbgWRR4/s1600-h/image%255B59%255D.png
+  83. http://lh3.ggpht.com/-ArujVkdc0BA/U3V0HJhJywI/AAAAAAAAAQQ/zl4PnSw353M/s1600-h/image%255B60%255D.png
+  84. http://lh6.ggpht.com/-Fz5v_NxUgNM/U3V0I3Ip_cI/AAAAAAAAAQg/x9zlqW5Fiqg/s1600-h/image%255B51%255D.png
+  85. http://lh4.ggpht.com/-1xbzHf1MFB8/U3V0Km6otaI/AAAAAAAAARY/iVuZcoFr6Yk/s1600-h/image%255B63%255D.png
+  86. https://plus.google.com/101265934041343421308
+  87. http://thehackerwhorolls.blogspot.com.au/2014/05/kali-vm-nat-host-rookie-mistake.html
+  88. http://thehackerwhorolls.blogspot.com.au/2014/05/kali-vm-nat-host-rookie-mistake.html#comment-form
+  89. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=2817245419732967320&target=email
+  90. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=2817245419732967320&target=blog
+  91. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=2817245419732967320&target=twitter
+  92. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=2817245419732967320&target=facebook
+  93. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=2817245419732967320&target=pinterest
+  94. http://thehackerwhorolls.blogspot.com.au/2014/05/some-basic-thoughts-on-target-data.html
+  95. https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CC0QFjAA&url=http://www.commerce.senate.gov/public/?a=Files.Serve&File_id=24d3c229-4f2f-405d-b8db-a3a67f183883&ei=QxZwU-_iDoqBogSe2YDwAQ&usg=AFQjCNHU_i4wzqMvPc4JW5rcT8zltwfhAA&sig2=mI3JvtN7z7YN6OY9_4ujDw&bvm=bv.66330100,d.cGU
+  96. http://www.offensive-security.com/metasploit-unleashed/Meterpreter_Basics
+  97. https://www.defensivesecurity.org/defensive-security-podcast-episode-28/
+  98. https://plus.google.com/101265934041343421308
+  99. http://thehackerwhorolls.blogspot.com.au/2014/05/some-basic-thoughts-on-target-data.html
+ 100. http://thehackerwhorolls.blogspot.com.au/2014/05/some-basic-thoughts-on-target-data.html#comment-form
+ 101. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8175121204416818216&target=email
+ 102. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8175121204416818216&target=blog
+ 103. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8175121204416818216&target=twitter
+ 104. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8175121204416818216&target=facebook
+ 105. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=8175121204416818216&target=pinterest
+ 106. http://thehackerwhorolls.blogspot.com.au/2014/05/my-sexist-twitter-post-and-what-i.html
+ 107. http://pando.com/2013/08/31/hackers-and-sexism-at-defcon/
+ 108. http://adainitiative.org/2013/01/ending-sexism-in-hacker-culture-a-work-in-progress/
+ 109. http://lh4.ggpht.com/-9eZOcR6KLic/U27nVyGiyPI/AAAAAAAAANk/eFV-LVz_d1M/s1600-h/image%255B3%255D.png
+ 110. http://www.xojane.com/relationships/stop-saying-i-have-a-boyfriend
+ 111. http://http://wifey.tv/video/this-is-what-everyday-sexism-feels-like-to-a-man/
+ 112. file://www.youtube.com/embed/V4UWxlVvT1A
+ 113. https://plus.google.com/101265934041343421308
+ 114. http://thehackerwhorolls.blogspot.com.au/2014/05/my-sexist-twitter-post-and-what-i.html
+ 115. http://thehackerwhorolls.blogspot.com.au/2014/05/my-sexist-twitter-post-and-what-i.html#comment-form
+ 116. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=511533118305633231&target=email
+ 117. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=511533118305633231&target=blog
+ 118. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=511533118305633231&target=twitter
+ 119. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=511533118305633231&target=facebook
+ 120. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=511533118305633231&target=pinterest
+ 121. http://thehackerwhorolls.blogspot.com.au/2014/05/share-point-installation-notes.html
+ 122. file://www.youtube.com/embed/3Q9ddN0EY9M
+ 123. http://community.spiceworks.com/topic/361273-sharepoint-2013-beginner-cannot-view-new-site
+ 124. http://sharepointgeorge.com/2012/create-web-application-site-collection-sharepoint-2013-preview/
+ 125. http://blogs.msdn.com/b/fabdulwahab/archive/2013/01/21/configure-ssl-for-sharepoint-2013.aspx
+ 126. http://blog.blksthl.com/2012/12/20/a-guide-to-https-and-secure-sockets-layer-in-sharepoint-2013/
+ 127. http://gallery.technet.microsoft.com/A-guide-to-https-and-c13e12b7
+ 128. http://social.technet.microsoft.com/Forums/sharepoint/en-US/89a2379e-50e5-4051-b333-3342e814d56f/shareponit-2010-error-in-owstimerexe?forum=sharepointadminprevious
+ 129. http://lh5.ggpht.com/-DRPpcqvJi7U/U20gLatymbI/AAAAAAAAAM4/YUyAUNyLvYs/s1600-h/image%255B4%255D.png
+ 130. http://lh4.ggpht.com/-CPFyrc5ec-M/U20gNVR9fFI/AAAAAAAAANI/-zjrhxVZ8L8/s1600-h/image%255B8%255D.png
+ 131. https://plus.google.com/101265934041343421308
+ 132. http://thehackerwhorolls.blogspot.com.au/2014/05/share-point-installation-notes.html
+ 133. http://thehackerwhorolls.blogspot.com.au/2014/05/share-point-installation-notes.html#comment-form
+ 134. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=7441071031487587636&target=email
+ 135. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=7441071031487587636&target=blog
+ 136. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=7441071031487587636&target=twitter
+ 137. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=7441071031487587636&target=facebook
+ 138. https://www.blogger.com/share-post.g?blogID=1868333967153413800&postID=7441071031487587636&target=pinterest
+ 139. http://thehackerwhorolls.blogspot.com.au/search?updated-max=2014-05-05T14:54:00-07:00&max-results=7
+ 140. http://thehackerwhorolls.blogspot.com.au/
+ 141. http://thehackerwhorolls.blogspot.com/feeds/posts/default
+ 142. javascript:void(0)
+ 143. http://thehackerwhorolls.blogspot.com.au/search?updated-min=2015-01-01T00:00:00-08:00&updated-max=2016-01-01T00:00:00-08:00&max-results=3
+ 144. javascript:void(0)
+ 145. http://thehackerwhorolls.blogspot.com.au/2015_09_01_archive.html
+ 146. http://thehackerwhorolls.blogspot.com.au/2015/09/security-cons-twitter-oh-value-new-to.html
+ 147. javascript:void(0)
+ 148. http://thehackerwhorolls.blogspot.com.au/2015_04_01_archive.html
+ 149. javascript:void(0)
+ 150. http://thehackerwhorolls.blogspot.com.au/search?updated-min=2014-01-01T00:00:00-08:00&updated-max=2015-01-01T00:00:00-08:00&max-results=5
+ 151. javascript:void(0)
+ 152. http://thehackerwhorolls.blogspot.com.au/2014_05_01_archive.html
+ 153. javascript:void(0)
+ 154. http://thehackerwhorolls.blogspot.com.au/search?updated-min=2013-01-01T00:00:00-08:00&updated-max=2014-01-01T00:00:00-08:00&max-results=21
+ 155. javascript:void(0)
+ 156. http://thehackerwhorolls.blogspot.com.au/2013_12_01_archive.html
+ 157. javascript:void(0)
+ 158. http://thehackerwhorolls.blogspot.com.au/2013_11_01_archive.html
+ 159. javascript:void(0)
+ 160. http://thehackerwhorolls.blogspot.com.au/2013_08_01_archive.html
+ 161. javascript:void(0)
+ 162. http://thehackerwhorolls.blogspot.com.au/2013_07_01_archive.html
+ 163. javascript:void(0)
+ 164. http://thehackerwhorolls.blogspot.com.au/2013_06_01_archive.html
+ 165. javascript:void(0)
+ 166. http://thehackerwhorolls.blogspot.com.au/2013_05_01_archive.html
+ 167. https://plus.google.com/101265934041343421308
+ 168. https://plus.google.com/101265934041343421308
+ 169. https://plus.google.com/101265934041343421308
+ 170. https://www.blogger.com/
+
+   Hidden links:
+ 172. https://www.blogger.com/post-edit.g?blogID=1868333967153413800&postID=2485448778944172662&from=pencil
+ 173. https://www.blogger.com/post-edit.g?blogID=1868333967153413800&postID=8178787971688297809&from=pencil
+ 174. https://www.blogger.com/post-edit.g?blogID=1868333967153413800&postID=8385858265578888793&from=pencil
+ 175. https://www.blogger.com/post-edit.g?blogID=1868333967153413800&postID=2817245419732967320&from=pencil
+ 176. https://www.blogger.com/post-edit.g?blogID=1868333967153413800&postID=8175121204416818216&from=pencil
+ 177. https://www.blogger.com/post-edit.g?blogID=1868333967153413800&postID=511533118305633231&from=pencil
+ 178. https://www.blogger.com/post-edit.g?blogID=1868333967153413800&postID=7441071031487587636&from=pencil
+ 179. file://www.blogger.com/rearrange?blogID=1868333967153413800&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1
+ 180. file://www.blogger.com/rearrange?blogID=1868333967153413800&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-2-1
+ 181. file://www.blogger.com/rearrange?blogID=1868333967153413800&widgetType=Gadget&widgetId=Gadget1&action=editWidget&sectionId=sidebar-right-3
+ 182. file://www.blogger.com/rearrange?blogID=1868333967153413800&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3

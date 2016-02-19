@@ -1,0 +1,779 @@
+   #[1]Tech Junkie Blog - Atom [2]Tech Junkie Blog - RSS [3]publisher
+
+[4]Tech Junkie Blog
+
+     * [5].NET
+          + [6]ASP.NET
+          + [7]Entity Framework
+          + [8]ADO.NET
+          + [9]Visual Studio
+          + [10]C#
+          + [11]ASP.NET MVC
+          + [12]Quickstart ASP.NET MVC
+     * [13]Client-Side
+          + [14]JavaScript
+          + [15]AJAX
+          + [16]JQuery
+          + [17]JSON
+     * [18]Database
+          + [19]Database Home
+          + [20]SQL
+          + [21]SQL Server
+          + [22]T-SQL
+          + [23]Stored Procedures
+     * [24]Virtualization
+          + [25]Linux
+     * [26]Web Design
+          + [27]HTML5
+          + [28]CSS
+          + [29]Bootstrap
+          + [30]Graphics Design
+
+     * Search the site_____ (BUTTON) Search!
+
+   [INS: :INS]
+
+Popular Posts
+
+     * [31]ASP.NET MVC 5 : Create an ASP.NET MVC 5 Empty Project
+       A lot of people think that you can only create one kind of ASP.NET
+       MVC 5 project, the one with the sample application.  But the
+       reali...
+     * [32]AngularJS SPA Part 1 : Setting Up Angular-Seed
+       angular-seed is an AngularJS application skeleton template.  An
+       application skeleton let's gives you a boiler plate template so
+       t...
+     * [33]AngularJS SPA Part 2 : Preparing Angular-Seed For The Shopping
+       List Application
+       The previous blog we setup the Angular-Seed boilerplate template
+       for our SPA application.  In this blog we are going to prepa...
+     * [34]ASP.NET MVC : Create A Responsive Layout With Bootstrap
+       In our previous blog we created a simple _Layout.cshtml file that
+       does not have any markup just to make things simple.  In th...
+     * [35]Node.js : Setting Up Node.sj "Hello World" Node.js
+       So according to Node.js's official website http://www.nodejs.org ,
+       NodeJs is “a platform built on Chrome’s JavaScript runt...
+
+   [INS: :INS]
+
+Blog Posts
+
+Monday, October 19, 2015
+
+[36]CentOS, [37]Linux, [38]VirtualBox, [39]Virtualization
+
+[40]Install CentOS Part 4 : Adding A New User With useradd and usermod
+Command
+
+   Posted By: Jason Huynh - 8:58 PM
+   One of the most common task you have to do as a Linux administrator is
+   to add a new user.  Especially developers who always wants root access.
+    To accomplish this task you can use the useradd command in the
+   Terminal session.  Follow the steps below to add a new user to CentOS.
+   1.  Switch into the root user using su - command
+   [41][useradd-1.png]
+   2. Type the following command useradd -s  /bin/bash -d /home/john -m
+   john then press "Enter"
+   [42][useradd-2.png]
+   useradd is the command to add a new user to CentOS, below is an
+   explaination of what each switch means in the command above
+   -s --shell SHELL - the login shell of the new account, which is
+   the/bin/bash shell
+   -d --home-dir HOME_DIR - home directory of the new account, which is
+   /home/john
+   3.  Type ls /home to list the content of the /home directory and you
+   will see the john directory has been created for the user john
+   [43][useradd-3.png]
+   4.  We've created a new user name john, but he has no password, to set
+   a password for john we can use the passwd command.  Type the following
+   command to assign john a password passwd john  type in john's password
+   when prompted with New Password:   and confirm the password when
+   prompted with Retype new password:
+   [44][useradd-4.png]
+   5.  Even though john has a login, we still don't know what John's full
+   name is to assign a real name to the login john we can use the usermod
+   -c command to assign the login name john a real name
+   [45][useradd-5.png]
+   the command above usermod -c "John Wallace" john assigns the name John
+   Wallace to the user name john
+
+Sunday, October 18, 2015
+
+[46]CentOS, [47]Linux, [48]VirtualBox, [49]Virtualization
+
+[50]Install CentOS on VirtualBox Part 3 : Installing the Gnome Desktop
+Environment
+
+   Posted By: Jason Huynh - 8:14 PM
+   In previous [51]blog we've installed the CentOS operating system on
+   VirtualBox however, when we reboot, it takes us to a text prompt.  In
+   this blog we will be installing a graphical desktop environment to our
+   operating system using "yum".  Follow the steps below to get the Gnome
+   desktop in your CentOS.
+   1.  Make sure you have internet connection
+   2.  Click "Start" on your "CentOS" VM
+   [52][centos-8.png]
+   3.  After the boot messages you will be presented with login prompt.
+   Type in the login name of the Administrator user that you've created on
+   the last [53]blog.
+   [54][tjunkie-login.png]
+   6.  Now type sudo yum groupinstall "GNOME Desktop" without the quotes
+   [55][yum-gnome.png]
+   7.  Type y when asked "Is this ok [y/d/N]
+   [56][gnome-confirm.png]
+   8. After the Gnome desktop has been installed type reboot now -r to
+   reboot CentOS
+   [57][reboot-now.png]
+   9.  After the CentOS has been rebooted, login using the Administrator
+   user and type sudo systemctl set-default graphical.target this step is
+   optional.  You only want to do this if you want to start up CentOS in
+   desktop mode.
+   [58][set-default-gui.png]
+   10.  Now to see the installation work type sudo systemctl start
+   graphical.target to start the Gnome Desktop
+   [59][start-gui.png]
+   11.  The Gnome Desktop login screen will appear
+   [60][gnome-login.png]
+   12.  Login and to start using the Gnome Desktop
+   [61][gnome-desktop.png]
+
+Tuesday, October 13, 2015
+
+[62]angular-seed, [63]AngularJS, [64]Javascript, [65]Node.js, [66]SPA
+
+[67]AngularJS SPA Part 2 : Preparing Angular-Seed For The Shopping List
+Application
+
+   Posted By: Jason Huynh - 12:18 AM
+   The previous [68]blog we setup the Angular-Seed boilerplate template
+   for our SPA application.  In this blog we are going to prepare the
+   Angular-Seed template for our SPA application which is going to be a
+   simple shopping list application.  The steps below describes the steps
+   to clean up some of the pages in the angular-seed template for our
+   application.
+   1.  Delete the content of the "index.html" page in the angular-seed
+   main folder.   It is located in the main folder of the angular-seed
+   template "/angular-seed
+   [69][angular-seed-index.png]
+   2.  The source code file "index.html" should look like the following
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>Shopping List App</title>
+ <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angular
+js/1.4.2/angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="controller.js"></script>
+</body>
+</html>
+
+   The code above provides the plumbing for our SPA application.  It's
+   written using the HTML5 template format so that it is HTML5 compliant.
+    The app.css contains all the styles associated with the application,
+   the "angular.js" file contains the angularJS library framework.  The
+   "app.js" file contains the JavaScript codes that will be used for this
+   application.  The "controller.js" file contains the controller for the
+   application.
+   AngularJS uses the MVC framework, Model-View-Controller.  Basically
+   they all work together to make the application work.  In a simple
+   explanation the model is the data, the view is what the users see, and
+   the controller is the flow of the application.  The next step is the
+   define our application in the app.js file.
+   3.  Open the "app.js" file
+   [70][angular-seed-app-js.png]
+   4.  The source code for the app.js file should look like the following
+'use strict';
+
+angular.module('shoppingList',['shoppingList.controller']);
+
+   The code above defines the application name 'shoppingList', and the
+   modules that the application is dependent on
+   ['shoppingList.controller'] in this case the application is dependent
+   on the shoppingList.controller module.  In the next step we will create
+   the controller for the shoppingList application
+   5.  Create a file call "controller.js" and source code for the file
+   should look like the following
+'use strict';
+
+angular.module('shoppingList.controller',[])
+ .controller('shoppingListController',["$scope",function($scope){
+  $scope.shoppingListName="My Shopping List";
+}]);
+
+
+   The code above registers a new module called shoppingList.controller
+   with no dependencies.  The controller itself passes in the angular
+   object $scope.  The $scope object in angular act as a conduit between
+   the view and the controller.  Meaning anything that is defined in the
+   $scope object is accessible in the view (.html) page.  In the example
+   above we defined a variable in the $scope object call
+   "shoppingListName".  Since it's defined in the controller we can now
+   access the data from our view (index.html) page.  Now we are ready to
+   make some changes to our "index.html" page to make this an angularJS
+   SPA application.
+   6.  Open up the "index.html" file and make sure the source code looks
+   like the following.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>Shopping List App</title>
+ <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body ng-app="shoppingList" ng-controller="shoppingListController">
+{{shoppingListName}}
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angular
+js/1.4.2/angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="controller.js"></script>
+</body>
+</html>
+
+   7.  Type int the following URL in your browser
+   http://localhost:8000/app and you will see the following
+   [71][browser-shopping-list.png]
+   Note: In order to see the application in your browser you must first
+   run the "npm start" in your angular-seed folder first
+
+Wednesday, July 8, 2015
+
+[72]CentOS, [73]Linux, [74]Virtualization
+
+[75]Install CentOS ISO on VirtualBox Part 2 : Install the CentOS Operating
+System
+
+   Posted By: Jason Huynh - 12:26 AM
+   On the previous [76]blog we went over how to create a new virtual
+   machine for CentOS in VirtualBox.  In this blog we will go over how to
+   install the CentOS ISO file on the new virtual machine that we've just
+   created. Below are the step by step instructions of how to install
+   CentOS on VirtualBox.
+   Step-By-Step Instructions:
+   1. Launch VirtualBox, right-click then select "Settings"
+   [77][centos-1.png]
+   2.  Click on "Storage", you will see the disc icon is "Empty"
+   [78][centos-2.png]
+   3.  Select the "Empty" disc icon, the right hand side will change to
+   "CD/DVD Drive", click on the disc icon next to the drive, like the
+   screen shoot below.
+   [79][centos-3.png]
+   4.  Browse to the CentOS ISO file that you've just downloaded in the
+   previous blog.  Select the .iso file then click on the "Open" button.
+   [80][centos-6.png]
+   5.  The disc icon will now have the CentOS iso file mounted, click on
+   the "OK" button
+   [81][centos-7.png]
+   6. In VirtualBox, click, right click on the CentOS machine and click
+   "Start"
+   [82][centos-8.png]
+   7.  An Installation screen will appear press the "I" key to choose the
+   installation option, which is the first option on the screen.  Then
+   press "Enter"
+   [83][install-screen.png]
+   8.  The CentOS iso file will be run to install the CentOS operating
+   system
+   [84][centos-9.png]
+   9. In the welcome screen select "English" as the language for the
+   installation.
+   [85][centos-10.png]
+   10.  Then click "Continue"
+   [86][centos-11.png]
+   11.  A prompt will come up to say that your mouse will be captured in
+   the virtual machine, check "Do not show this message again", then click
+   "Capture".  Make a note that host key is defined as the "Right Ctrl"
+   key.  This key will allow you to release the mouse from the virtual
+   machine when you want your mouse click back on the host machine.
+   [87][centos-12.png]
+   12. If you see the red warning text on the "INSTALLATION DESTINATION"
+   icon click on the icon
+   [88][centos-13.png]
+   13.  In the next screen select the default settings and click "Done".
+   This screen just allows you to configure your virtual hard disk.  You
+   can choose to encrypt the hard disk or create another partition on the
+   disk if you want on this screen, but for now we just want to keep
+   things simple so we will keep the default settings.  I have given my VM
+   a disk space of 64 GB
+   [89][install-screen-2.png]
+   14.  Now the red warning text is gone because we've confirm the hard
+   disk configuration
+   [90][centos-15.png]
+   16.  The next step is that you have to enable the network by click on
+   the "NETWORK & HOST NAME" setting
+   [91][centos-network.png]
+   17.  In the "NEWTORK & HOST NAME" screen make sure you have the
+   following settings.  This is the steps that most people forget to do.
+   CentOS does not enable networking by default you can do it manually on
+   the command line, but doing it during the install is much easier.
+     * Host name: your host name goes here
+     * Make sure networking is turned on
+     * Click "Done" when you are done
+
+   [92][centos-network-2.png]
+   18. We are now ready to proceed with the installation.  Click on the
+   "Begin Installation"
+   [93][centos-16.png]
+   19.  On the next screen you will be prompted to set the root user's
+   password, and create a default user before you can proceed, so click on
+   the "Root Password" icon first
+   [94][centos-18.png]
+   20.  Set the root user's password in the "Root Password" and "Confirm"
+   form fields, make sure the password string are the same in both form
+   fields, then click on the "Done"
+   [95][centos-20.png]
+   21.  Now the "Root Password" icon is set to blue instead of red, we can
+   continue with the installation now, however we want to set up a default
+   user so that we don't have to use the root user if we don't have to, so
+   click on the "User Creation" icon
+   [96][centos-21.png]
+   22.  Type in the user's name in the "Full name" form field, the "User
+   name" field will be auto populated, just accept the default user name.
+    Then check the "Make this user Administrator" check mark.  Click
+   "Done" to create a new user.
+   [97][create-user.png]
+   23.  After you finish creating the user you will see "Finish
+   configuration" button.  Click on it.
+   [98][centos-23.png]
+   24.  You will get the "Complete" and "Reboot" button, click on the
+   "Reboot" button to reboot the virtual machine
+   [99][centos-25.png]
+   25.  After a system reboot, a text login prompt is displayed
+   [100][centos-26.png]
+   26.  Login with the user that you created during the installation.
+   [101][centos-27.png]
+   You now have CentOS installed in your Oracle VirtualBox.  In the next
+   blog we will go over how to install a lightweight desktop GUI to our
+   CentOS.
+   [102][centos-28.png]
+   27.  After logging in, type "sudo yum update" to install the latest
+   updates
+   [103][yum-update.png]
+   ← Previous  [104]Installing CentOS in Oracle VirtualBox
+
+Thursday, July 2, 2015
+
+[105]CentOS, [106]Linux, [107]Virtualization
+
+[108]Installing CentOS in Oracle VirtualBox Part 1: Create a New Virtual
+Machine For CentOS
+
+   Posted By: Jason Huynh - 5:25 AM
+   If you want to know your way around [109]Red Hat Enterprise Linux
+   distribution, but the you don't have the financial ability to obtain a
+   license.  CentOS is your best bet get to the the Red Hat Enterprise
+   Linux official experience.  Because CentOS is a binary capatible
+   version of Red Hat Enterprise Linux.  Meaning all the things that
+   matters are the same, only the branding and logos are different.
+   CentOS is open sourced and can be downloaded for free.  Although it
+   might be a couple of versions behind Red Hat Enterprise Linux.  But,
+   you should be able to perform everything you can with CentOS that you
+   can with Red Hat Enterprise.  Below is a step by step instruction on
+   how to install CentOS in Oracle VirtualBox.
+   Step-By-Step Instructions:
+   1.  Type [110]http://centos.org in your browser
+   2.  Click on the "Get CentOS Now" button
+   [111][centos-1.png]
+   3.  Click on "DVD ISO"
+   [112][centos-2.png]
+   4.  Select the mirror site that is closest to you, or whatever fancies
+   you, then save it to a folder that you will remember later on.
+   [113][centos-3.png]
+   4.  Now we are ready to create a new machine in Oracle VirtualBox to
+   prep for the installation of CentOS
+   2. Launch VirtualBox and click on the "New" button
+   [114]VirtualBox New Virtual Machine
+   3. The "Create Virtual Machine" dialog box will be displayed, input the
+   following information
+   [115][centos-4.png]
+   4. It's important that you select 64-bit system, from the drop down if
+   you want to install a 64-bit version of Red Hat
+   5. Give your virtual machine 2 GB of memory to start off with, you can
+   increase this value later, if needed.  Two GB should be enough for most
+   tasks.  You don't want to allocate too much memory to your VM machines
+   because it might slow down your host machine.
+   [116][centos-5.png]
+   6.  Click "Next"
+   7.  Select "Create a virtual hard drive now" option
+   [117][5.png]
+   8.  Click "Create"
+   9. On this screen you will see the flexibility of VirtualBox you can
+   actually create Microsoft Virtual Machines with VirtualBox, it's the
+   best of both worlds.  Select "VDI (VirtualBox Disk Image)" to create a
+   VirtualBox Disk Image.  Then click "Next"
+   [118][6.png]
+   10.  Select "Dynamically allocated" option, this will grow your disk as
+   needed. Then click "Next"
+   [119][7.png]
+   11. The next screen is the "File location and size" screen. The initial
+   disk space is 8 GB,  I gave my VM 64 GB, but you can give the amount of
+   disk space that you are comfortable with.  After you've allocated the
+   disk space, click the "Create" button.
+   [120][centos-6.png]
+   12. Now you have a new virtual machine ready for a CentOS in VirtualBox
+   [121][centos-7.png]
+
+
+
+
+
+
+
+
+   [122]→ Next  Install CentOS ISO on VirtualBox
+
+   [123]Older Posts
+   Subscribe to: [124]Posts (Atom)
+   [INS: :INS]
+     * [125]DATA
+     * [126]ASPNET
+     * [127]SQL Server
+     * [128]SQL
+     * [129]Javascript
+     * [130]ADO.NET
+     * [131]JQuery
+     * [132]C#
+     * [133]Linux
+     * [134]Virtualization
+     * [135]ASP.NET MVC 5
+     * [136]ASP.NET MVC
+     * [137]T-SQL
+     * [138]Stored Procedures
+     * [139]Oracle
+     * [140]Bootstrap
+     * [141]NuGet
+     * [142]Ubuntu
+     * [143]CSS
+     * [144]Entity Framework
+     * [145]HTML5
+     * [146]Blogger
+     * [147]Blogging
+     * [148]CentOS
+     * [149]Database
+     * [150]Visual Studio
+     * [151]AJAX
+     * [152]Computer Programming
+     * [153]Design Pattern
+     * [154]GIMP
+     * [155]Graphics Design
+     * [156]MVC
+     * [157]Node.js
+     * [158]Web Design
+     * [159]ASP.NET MVC 4
+     * [160]AngularJS
+     * [161]Errors
+     * [162]SPA
+     * [163]Server
+     * [164]Source Control
+     * [165]Telerik
+     * [166]VirtualBox
+     * [167]git
+     * [168]Big Data
+     * [169]Collections
+     * [170]Compatibility
+     * [171]Fedora
+     * [172]Hadoop
+     * [173]JSON
+     * [174]KnockoutJS
+     * [175]LINQ
+     * [176]Mobile-First
+     * [177]Open Source
+     * [178]Prototype
+     * [179]Responsive
+     * [180]Unix
+     * [181]View
+     * [182]Web Forms
+     * [183]XML
+     * [184]angular-seed
+     * [185]cshtml
+     * [186]log4net
+
+Blog Archive
+
+     * [187]▼  [188]2015 (95)
+          + [189]▼  [190]October (3)
+               o [191]Install CentOS Part 4 : Adding A New User With
+                 use...
+               o [192]Install CentOS on VirtualBox Part 3 : Installing ...
+               o [193]AngularJS SPA Part 2 : Preparing Angular-Seed For
+                 ...
+          + [194]►  [195]July (4)
+          + [196]►  [197]June (6)
+          + [198]►  [199]May (7)
+          + [200]►  [201]April (16)
+          + [202]►  [203]March (34)
+          + [204]►  [205]February (25)
+
+     * [206]►  [207]2014 (22)
+          + [208]►  [209]October (2)
+          + [210]►  [211]August (3)
+          + [212]►  [213]July (16)
+          + [214]►  [215]January (1)
+
+     * [216]►  [217]2013 (37)
+          + [218]►  [219]October (1)
+          + [220]►  [221]September (9)
+          + [222]►  [223]August (12)
+          + [224]►  [225]July (15)
+
+   Copyright © 2013 Tech Junkie Blog™ is a registered trademark.
+
+References
+
+   Visible links
+   1. http://www.techjunkieblog.com/feeds/posts/default
+   2. http://www.techjunkieblog.com/feeds/posts/default?alt=rss
+   3. https://plus.google.com/104961171195924803982
+   4. http://www.techjunkieblog.com/
+   5. file:///home/mgomez/CS432/A3/source32.txt
+   6. http://www.techjunkieblog.com/search/label/ASPNET
+   7. http://www.techjunkieblog.com/search/label/Entity Framework
+   8. http://www.techjunkieblog.com/search/label/ADO.NET
+   9. http://www.techjunkieblog.com/search/label/Visual Studio
+  10. http://www.techjunkieblog.com/search/label/C#
+  11. http://www.techjunkieblog.com/search/label/ASP.NET MVC
+  12. http://www.techjunkieblog.com/p/aspnet-mvc-getting-started.html
+  13. file:///home/mgomez/CS432/A3/source32.txt
+  14. http://www.techjunkieblog.com/search/label/Javascript
+  15. http://www.techjunkieblog.com/search/label/AJAX
+  16. http://www.techjunkieblog.com/search/label/JQuery
+  17. http://www.techjunkieblog.com/search/label/JSON
+  18. file:///home/mgomez/CS432/A3/source32.txt
+  19. http://www.techjunkieblog.com/search/label/DATA
+  20. http://www.techjunkieblog.com/search/label/SQL
+  21. http://www.techjunkieblog.com/search/label/SQL Server
+  22. http://www.techjunkieblog.com/search/label/T-SQL
+  23. http://www.techjunkieblog.com/search/label/Stored Procedures
+  24. file:///home/mgomez/CS432/A3/source32.txt
+  25. http://www.techjunkieblog.com/search/label/Linux
+  26. file:///home/mgomez/CS432/A3/source32.txt
+  27. http://www.techjunkieblog.com/search/label/HTML5
+  28. http://www.techjunkieblog.com/search/label/CSS
+  29. http://www.techjunkieblog.com/search/label/Bootstrap
+  30. http://www.techjunkieblog.com/search/label/Graphics Design
+  31. http://www.techjunkieblog.com/2015/04/aspnet-mvc-5-create-aspnet-mvc-5-empty.html
+  32. http://www.techjunkieblog.com/2015/07/angularjs-spa-part-1-setting-up-angular.html
+  33. http://www.techjunkieblog.com/2015/10/angularjs-spa-part-2-preparing-angular.html
+  34. http://www.techjunkieblog.com/2015/06/aspnet-mvc-create-responsive-layout.html
+  35. http://www.techjunkieblog.com/2015/04/nodejs-setting-up-nodesj-hell-world.html
+  36. http://www.techjunkieblog.com/search/label/CentOS
+  37. http://www.techjunkieblog.com/search/label/Linux
+  38. http://www.techjunkieblog.com/search/label/VirtualBox
+  39. http://www.techjunkieblog.com/search/label/Virtualization
+  40. http://www.techjunkieblog.com/2015/10/install-centos-part-4-adding-new-user.html
+  41. http://3.bp.blogspot.com/-YWCqWJTFLiw/ViWJ99_JRJI/AAAAAAAACYY/vvaEBXjbeHU/s1600/useradd-1.png
+  42. http://4.bp.blogspot.com/-5jgcMv28lEM/ViWLZi2o5II/AAAAAAAACYk/xhKUrxIEbIM/s1600/useradd-2.png
+  43. http://2.bp.blogspot.com/-H-ykn4elb9Q/ViWNOaB8WdI/AAAAAAAACYw/cs033hHANvI/s1600/useradd-3.png
+  44. http://3.bp.blogspot.com/-RZG5R_rQ4Qc/ViWPgWuVD1I/AAAAAAAACY8/piJth3LBwNk/s1600/useradd-4.png
+  45. http://3.bp.blogspot.com/-gQdQjau39K4/ViWQv-DWnzI/AAAAAAAACZE/se4UM-QAJto/s1600/useradd-5.png
+  46. http://www.techjunkieblog.com/search/label/CentOS
+  47. http://www.techjunkieblog.com/search/label/Linux
+  48. http://www.techjunkieblog.com/search/label/VirtualBox
+  49. http://www.techjunkieblog.com/search/label/Virtualization
+  50. http://www.techjunkieblog.com/2015/10/install-centos-on-virtualbox-part-3.html
+  51. http://www.techjunkieblog.com/2015/07/install-centos-iso-on-virtualbox-part-2.html
+  52. http://1.bp.blogspot.com/-57gAVUm3UP0/ViOqfl53zVI/AAAAAAAACVA/UvRpXRdSyYc/s1600/centos-8.png
+  53. http://www.techjunkieblog.com/2015/07/install-centos-iso-on-virtualbox-part-2.html
+  54. http://4.bp.blogspot.com/-fHBYnM9GM5g/ViPPUtszFRI/AAAAAAAACWo/ZZEPhyYxFmM/s1600/tjunkie-login.png
+  55. http://4.bp.blogspot.com/-8wNp5eJdaXE/ViPRMpNMcqI/AAAAAAAACW8/Eyv915uSDvk/s1600/yum-gnome.png
+  56. http://4.bp.blogspot.com/-0_fh_ZetCnw/ViPRrj2hHRI/AAAAAAAACXE/-8VUOw841YE/s1600/gnome-confirm.png
+  57. http://2.bp.blogspot.com/-AZhiS9SFjkw/ViQwfIAT1vI/AAAAAAAACXk/zbs72R4PtLM/s1600/reboot-now.png
+  58. http://2.bp.blogspot.com/-1jbkDvs8hmo/ViQzFwXsHCI/AAAAAAAACXw/It3KJ39rMUU/s1600/set-default-gui.png
+  59. http://4.bp.blogspot.com/-Y83_EhZUniU/ViQzv_Tb0UI/AAAAAAAACX4/ANO6VWLfBTc/s1600/start-gui.png
+  60. http://2.bp.blogspot.com/-kQHgv3e92y4/ViQ0Q24AoCI/AAAAAAAACYA/150hxcE-uYY/s1600/gnome-login.png
+  61. http://4.bp.blogspot.com/-b4p_ktBSH_E/ViQ0-4xY19I/AAAAAAAACYI/D7Gk9S84Cbk/s1600/gnome-desktop.png
+  62. http://www.techjunkieblog.com/search/label/angular-seed
+  63. http://www.techjunkieblog.com/search/label/AngularJS
+  64. http://www.techjunkieblog.com/search/label/Javascript
+  65. http://www.techjunkieblog.com/search/label/Node.js
+  66. http://www.techjunkieblog.com/search/label/SPA
+  67. http://www.techjunkieblog.com/2015/10/angularjs-spa-part-2-preparing-angular.html
+  68. http://www.techjunkieblog.com/2015/07/angularjs-spa-part-1-setting-up-angular.html
+  69. http://1.bp.blogspot.com/-ndpAud5Vogg/Vhxsar8KViI/AAAAAAAACSk/rhN0dYD-D8E/s1600/angular-seed-index.png
+  70. http://1.bp.blogspot.com/--eO985n_NvA/Vhxw1WODr-I/AAAAAAAACSw/ndXp_52cGSU/s1600/angular-seed-app-js.png
+  71. http://1.bp.blogspot.com/-e_OE8FonS3E/VhyFkX-J1nI/AAAAAAAACTA/1jsnST0cxq0/s1600/browser-shopping-list.png
+  72. http://www.techjunkieblog.com/search/label/CentOS
+  73. http://www.techjunkieblog.com/search/label/Linux
+  74. http://www.techjunkieblog.com/search/label/Virtualization
+  75. http://www.techjunkieblog.com/2015/07/install-centos-iso-on-virtualbox-part-2.html
+  76. http://goo.gl/95zFMY
+  77. http://3.bp.blogspot.com/--CpB08Rc2os/VZsz1_TnGgI/AAAAAAAACM4/cJQ5orX-7FA/s1600/centos-1.png
+  78. http://2.bp.blogspot.com/-JTHGCgJMpME/VZs0B566G_I/AAAAAAAACNA/2jbNkuSszZA/s1600/centos-2.png
+  79. http://3.bp.blogspot.com/-q-NHyEX11Ug/VZs02Tp0bjI/AAAAAAAACNI/O3MVsgCcTA8/s1600/centos-3.png
+  80. http://2.bp.blogspot.com/-HjCc7nAkra8/VZs3dzQxelI/AAAAAAAACNU/1y6vCCx9CbE/s1600/centos-6.png
+  81. http://2.bp.blogspot.com/-bDr0WegXTxw/VZyV1csn5ZI/AAAAAAAACNw/_3pvEC0BlQ8/s1600/centos-7.png
+  82. http://4.bp.blogspot.com/-C41IMcUT42U/VZyWKekfnZI/AAAAAAAACN4/-FlbO5toTf0/s1600/centos-8.png
+  83. http://1.bp.blogspot.com/-6_FPHiqBoRc/ViOiXMBlwLI/AAAAAAAACUo/9ckDUqDhfxY/s1600/install-screen.png
+  84. http://3.bp.blogspot.com/-ciGtY-10P2w/VZyWh84hUtI/AAAAAAAACOA/WaaGIiA4o3o/s1600/centos-9.png
+  85. http://4.bp.blogspot.com/-kiuDzG2Ltmg/VZyWwa16NVI/AAAAAAAACOI/XTzmF9_7zgw/s1600/centos-10.png
+  86. http://4.bp.blogspot.com/-H1qLsy0Hnjo/VZyW_UUKviI/AAAAAAAACOQ/CXFT02DLsoU/s1600/centos-11.png
+  87. http://1.bp.blogspot.com/-XLwRBD4hGVY/VZyXJKT2mbI/AAAAAAAACOY/quTL35wKvMg/s1600/centos-12.png
+  88. http://4.bp.blogspot.com/-s1o8wBn2MXU/VZyb8Mba0MI/AAAAAAAACOo/_E_jMpaIzUM/s1600/centos-13.png
+  89. http://2.bp.blogspot.com/-l2KHeSrLddM/ViOjrhA-khI/AAAAAAAACUw/FgZMvtSmBxg/s1600/install-screen-2.png
+  90. http://3.bp.blogspot.com/-WTXLJnAGTH8/VZyeN0CgbHI/AAAAAAAACO8/g_odjGI8eFQ/s1600/centos-15.png
+  91. http://3.bp.blogspot.com/-k9CEI8zj9zY/ViO7Qo3MfiI/AAAAAAAACV0/YBSKCEfRymo/s1600/centos-network.png
+  92. http://2.bp.blogspot.com/-8DtSdrg3bX0/ViO8ZRG4G0I/AAAAAAAACWA/1u6elZfXhVo/s1600/centos-network-2.png
+  93. http://3.bp.blogspot.com/-qvLNOuFPTb8/VZyebGbTKgI/AAAAAAAACPE/M0oRmeySCX0/s1600/centos-16.png
+  94. http://1.bp.blogspot.com/-88gyDkRxh5Y/VZyf3DhtnvI/AAAAAAAACPY/5TwaAgTXEuc/s1600/centos-18.png
+  95. http://1.bp.blogspot.com/-2GEoxiux75A/VZyggUtkILI/AAAAAAAACPg/07DnVLl6Jts/s1600/centos-20.png
+  96. http://2.bp.blogspot.com/-VH3GG3oXzo8/VZyhNuYCdPI/AAAAAAAACPs/MyXGF6Pt1Og/s1600/centos-21.png
+  97. http://3.bp.blogspot.com/-2MH8CNu93YY/ViPDG8w0BiI/AAAAAAAACWQ/7_7qo_Vq9vI/s1600/create-user.png
+  98. http://4.bp.blogspot.com/-p_WY_beRsmA/VZyjBBtLvjI/AAAAAAAACP8/CdULylsmsKY/s1600/centos-23.png
+  99. http://3.bp.blogspot.com/-zRUQcJVInqQ/VZyj3rIh8YI/AAAAAAAACQQ/GVnJNykBCIY/s1600/centos-25.png
+ 100. http://1.bp.blogspot.com/-3dK6qOPvQfY/VZykfxAY5bI/AAAAAAAACQY/BWii2O0P7lw/s1600/centos-26.png
+ 101. http://2.bp.blogspot.com/--8ksn5GEJX8/VZylg-aQ1yI/AAAAAAAACQk/TnniL8EoN38/s1600/centos-27.png
+ 102. http://3.bp.blogspot.com/-LvoT7UT1YIM/VZymy8OTctI/AAAAAAAACQs/urPwL4RM29U/s1600/centos-28.png
+ 103. http://1.bp.blogspot.com/-DYg_BffVDIk/ViPDjHQMXcI/AAAAAAAACWY/UyfOrsApUt8/s1600/yum-update.png
+ 104. http://www.techjunkieblog.com/2015/07/installing-centos-in-oracle-virtualbox.html
+ 105. http://www.techjunkieblog.com/search/label/CentOS
+ 106. http://www.techjunkieblog.com/search/label/Linux
+ 107. http://www.techjunkieblog.com/search/label/Virtualization
+ 108. http://www.techjunkieblog.com/2015/07/installing-centos-in-oracle-virtualbox.html
+ 109. http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
+ 110. http://centos.org/
+ 111. http://4.bp.blogspot.com/-w7mQPPFPd1s/VY6nTFwR9jI/AAAAAAAACIg/hIeoqbMWJwU/s1600/centos-1.png
+ 112. http://1.bp.blogspot.com/-WYodzwiLyig/VY6n1DOiKSI/AAAAAAAACIo/doN0Lncn42Y/s1600/centos-2.png
+ 113. http://3.bp.blogspot.com/-XzrXl6uX888/VY6oXiF2bgI/AAAAAAAACIw/MmjFKPt0CK4/s1600/centos-3.png
+ 114. http://1.bp.blogspot.com/-xx47iooZqKQ/VNe0MX_BsDI/AAAAAAAABBY/4CEVU6yJC7Q/s1600/1.png
+ 115. http://4.bp.blogspot.com/-AI0udUv9D0w/VZTDPB27b2I/AAAAAAAACK8/rKC7az7OSw8/s1600/centos-4.png
+ 116. http://1.bp.blogspot.com/-IbiC_n6IkBw/VZTD30wjVUI/AAAAAAAACLE/7R5WR5hvtDk/s1600/centos-5.png
+ 117. http://4.bp.blogspot.com/-dsvMgnEXzMQ/VNe21NBmFtI/AAAAAAAABBo/uxOEJ2fWuJM/s1600/5.png
+ 118. http://1.bp.blogspot.com/-mFvYxFNvdY0/VNe3hAwkcaI/AAAAAAAABBw/fieax9N6f_0/s1600/6.png
+ 119. http://1.bp.blogspot.com/-0DULqUOlek8/VNe4KZQGs9I/AAAAAAAABB4/eHcqWeJKGJc/s1600/7.png
+ 120. http://2.bp.blogspot.com/-Ks7EFojMqGE/VZTEg-YwxkI/AAAAAAAACLM/Bp_zzgwVFZM/s1600/centos-6.png
+ 121. http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png
+ 122. http://www.techjunkieblog.com/2015/07/install-centos-iso-on-virtualbox-part-2.html
+ 123. http://www.techjunkieblog.com/search?updated-max=2015-07-02T05:25:00-04:00&max-results=7
+ 124. http://www.techjunkieblog.com/feeds/posts/default
+ 125. http://www.techjunkieblog.com/search/label/DATA
+ 126. http://www.techjunkieblog.com/search/label/ASPNET
+ 127. http://www.techjunkieblog.com/search/label/SQL Server
+ 128. http://www.techjunkieblog.com/search/label/SQL
+ 129. http://www.techjunkieblog.com/search/label/Javascript
+ 130. http://www.techjunkieblog.com/search/label/ADO.NET
+ 131. http://www.techjunkieblog.com/search/label/JQuery
+ 132. http://www.techjunkieblog.com/search/label/C#
+ 133. http://www.techjunkieblog.com/search/label/Linux
+ 134. http://www.techjunkieblog.com/search/label/Virtualization
+ 135. http://www.techjunkieblog.com/search/label/ASP.NET MVC 5
+ 136. http://www.techjunkieblog.com/search/label/ASP.NET MVC
+ 137. http://www.techjunkieblog.com/search/label/T-SQL
+ 138. http://www.techjunkieblog.com/search/label/Stored Procedures
+ 139. http://www.techjunkieblog.com/search/label/Oracle
+ 140. http://www.techjunkieblog.com/search/label/Bootstrap
+ 141. http://www.techjunkieblog.com/search/label/NuGet
+ 142. http://www.techjunkieblog.com/search/label/Ubuntu
+ 143. http://www.techjunkieblog.com/search/label/CSS
+ 144. http://www.techjunkieblog.com/search/label/Entity Framework
+ 145. http://www.techjunkieblog.com/search/label/HTML5
+ 146. http://www.techjunkieblog.com/search/label/Blogger
+ 147. http://www.techjunkieblog.com/search/label/Blogging
+ 148. http://www.techjunkieblog.com/search/label/CentOS
+ 149. http://www.techjunkieblog.com/search/label/Database
+ 150. http://www.techjunkieblog.com/search/label/Visual Studio
+ 151. http://www.techjunkieblog.com/search/label/AJAX
+ 152. http://www.techjunkieblog.com/search/label/Computer Programming
+ 153. http://www.techjunkieblog.com/search/label/Design Pattern
+ 154. http://www.techjunkieblog.com/search/label/GIMP
+ 155. http://www.techjunkieblog.com/search/label/Graphics Design
+ 156. http://www.techjunkieblog.com/search/label/MVC
+ 157. http://www.techjunkieblog.com/search/label/Node.js
+ 158. http://www.techjunkieblog.com/search/label/Web Design
+ 159. http://www.techjunkieblog.com/search/label/ASP.NET MVC 4
+ 160. http://www.techjunkieblog.com/search/label/AngularJS
+ 161. http://www.techjunkieblog.com/search/label/Errors
+ 162. http://www.techjunkieblog.com/search/label/SPA
+ 163. http://www.techjunkieblog.com/search/label/Server
+ 164. http://www.techjunkieblog.com/search/label/Source Control
+ 165. http://www.techjunkieblog.com/search/label/Telerik
+ 166. http://www.techjunkieblog.com/search/label/VirtualBox
+ 167. http://www.techjunkieblog.com/search/label/git
+ 168. http://www.techjunkieblog.com/search/label/Big Data
+ 169. http://www.techjunkieblog.com/search/label/Collections
+ 170. http://www.techjunkieblog.com/search/label/Compatibility
+ 171. http://www.techjunkieblog.com/search/label/Fedora
+ 172. http://www.techjunkieblog.com/search/label/Hadoop
+ 173. http://www.techjunkieblog.com/search/label/JSON
+ 174. http://www.techjunkieblog.com/search/label/KnockoutJS
+ 175. http://www.techjunkieblog.com/search/label/LINQ
+ 176. http://www.techjunkieblog.com/search/label/Mobile-First
+ 177. http://www.techjunkieblog.com/search/label/Open Source
+ 178. http://www.techjunkieblog.com/search/label/Prototype
+ 179. http://www.techjunkieblog.com/search/label/Responsive
+ 180. http://www.techjunkieblog.com/search/label/Unix
+ 181. http://www.techjunkieblog.com/search/label/View
+ 182. http://www.techjunkieblog.com/search/label/Web Forms
+ 183. http://www.techjunkieblog.com/search/label/XML
+ 184. http://www.techjunkieblog.com/search/label/angular-seed
+ 185. http://www.techjunkieblog.com/search/label/cshtml
+ 186. http://www.techjunkieblog.com/search/label/log4net
+ 187. javascript:void(0)
+ 188. http://www.techjunkieblog.com/search?updated-min=2015-01-01T00:00:00-05:00&updated-max=2016-01-01T00:00:00-05:00&max-results=50
+ 189. javascript:void(0)
+ 190. http://www.techjunkieblog.com/2015_10_01_archive.html
+ 191. http://www.techjunkieblog.com/2015/10/install-centos-part-4-adding-new-user.html
+ 192. http://www.techjunkieblog.com/2015/10/install-centos-on-virtualbox-part-3.html
+ 193. http://www.techjunkieblog.com/2015/10/angularjs-spa-part-2-preparing-angular.html
+ 194. javascript:void(0)
+ 195. http://www.techjunkieblog.com/2015_07_01_archive.html
+ 196. javascript:void(0)
+ 197. http://www.techjunkieblog.com/2015_06_01_archive.html
+ 198. javascript:void(0)
+ 199. http://www.techjunkieblog.com/2015_05_01_archive.html
+ 200. javascript:void(0)
+ 201. http://www.techjunkieblog.com/2015_04_01_archive.html
+ 202. javascript:void(0)
+ 203. http://www.techjunkieblog.com/2015_03_01_archive.html
+ 204. javascript:void(0)
+ 205. http://www.techjunkieblog.com/2015_02_01_archive.html
+ 206. javascript:void(0)
+ 207. http://www.techjunkieblog.com/search?updated-min=2014-01-01T00:00:00-05:00&updated-max=2015-01-01T00:00:00-05:00&max-results=22
+ 208. javascript:void(0)
+ 209. http://www.techjunkieblog.com/2014_10_01_archive.html
+ 210. javascript:void(0)
+ 211. http://www.techjunkieblog.com/2014_08_01_archive.html
+ 212. javascript:void(0)
+ 213. http://www.techjunkieblog.com/2014_07_01_archive.html
+ 214. javascript:void(0)
+ 215. http://www.techjunkieblog.com/2014_01_01_archive.html
+ 216. javascript:void(0)
+ 217. http://www.techjunkieblog.com/search?updated-min=2013-01-01T00:00:00-05:00&updated-max=2014-01-01T00:00:00-05:00&max-results=37
+ 218. javascript:void(0)
+ 219. http://www.techjunkieblog.com/2013_10_01_archive.html
+ 220. javascript:void(0)
+ 221. http://www.techjunkieblog.com/2013_09_01_archive.html
+ 222. javascript:void(0)
+ 223. http://www.techjunkieblog.com/2013_08_01_archive.html
+ 224. javascript:void(0)
+ 225. http://www.techjunkieblog.com/2013_07_01_archive.html
+
+   Hidden links:
+ 227. file://localhost/home/mgomez/CS432/A3/source32.txt
+ 228. file://www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=sidebartab12
+ 229. http://www.techjunkieblog.com/2015/04/aspnet-mvc-5-create-aspnet-mvc-5-empty.html
+ 230. http://www.techjunkieblog.com/2015/07/angularjs-spa-part-1-setting-up-angular.html
+ 231. http://www.techjunkieblog.com/2015/10/angularjs-spa-part-2-preparing-angular.html
+ 232. http://www.techjunkieblog.com/2015/06/aspnet-mvc-create-responsive-layout.html
+ 233. http://www.techjunkieblog.com/2015/04/nodejs-setting-up-nodesj-hell-world.html
+ 234. file://www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebartab12
+ 235. file://www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=sidebartab12
+ 236. http://www.techjunkieblog.com/2015/10/install-centos-part-4-adding-new-user.html
+ 237. http://www.techjunkieblog.com/2015/10/install-centos-on-virtualbox-part-3.html
+ 238. http://www.techjunkieblog.com/2015/10/angularjs-spa-part-2-preparing-angular.html
+ 239. http://www.techjunkieblog.com/2015/07/install-centos-iso-on-virtualbox-part-2.html
+ 240. http://www.techjunkieblog.com/2015/07/installing-centos-in-oracle-virtualbox.html
+ 241. http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png
+ 242. http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png
+ 243. http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png
+ 244. http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png
+ 245. http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png
+ 246. http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png
+ 247. http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png
+ 248. http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png
+ 249. http://1.bp.blogspot.com/-Hgv-nFvTe-o/VZTE8ks6PeI/AAAAAAAACLU/xAH1ti4mOro/s1600/centos-7.png
+ 250. file://www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebartab1
+ 251. file://www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebarright
+ 252. file://www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebarright
+ 253. file://www.blogger.com/rearrange?blogID=1830041839784954098&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebarright

@@ -1,0 +1,929 @@
+   #[1]Mi diario Python - Atom [2]Mi diario Python - RSS
+
+[3]Mi diario Python
+
+   Diario sobre el aprendizaje en python. Ejercicios paso a paso,
+   tutoriales en español, traducción de manuales en ingles y alguna cosa
+   mas...
+     * [4]Home
+     * [5]Ejercicios
+     * [6]Modulos
+     * [7]Tutorial Python
+     * [8]Juegos
+     * [9]Tips
+     * [10]Aplicaciones Gráficas
+
+   Buscar en el Blog___ Buscar
+   [Choose category_____________________]
+
+lunes, 15 de febrero de 2016
+
+[11]Enviar Tweets con Python y Twython
+
+   [12]Enviar un Tweet con Python
+   Enviar un Tweet con Python
+   Estoy tratando de que la cuenta de Twitter de Mi Diario Python tenga un
+   poco más de movimiento, pero eso de andar todo el día en las redes
+   sociales (a parte de sacar un tiempo muy valioso) no es lo mío, por eso
+   he decidido investigar un poco para automatizar esta tarea, por lo
+   tanto la entrada de hoy pretende enseñar como enviar un tweet con
+   Python y la librería Twython.
+   De paso les dejo la cuenta Twitter del blog para que nos sigan y vean
+   como sigue esta investigación: [13]@PythonDiario
+
+Pasos a seguir para utilizar Twitter con Python
+
+   1 - Para utilizar este método debemos registrar nuestro teléfono móvil
+   en la cuenta de Twitter donde queremos utilizar nuestro script. Para
+   eso, dentro de Twitter, vamos a configuración y en Móvil agregamos
+   nuestro teléfono. Nos enviaran un código de verificación el cual
+   debemos validar.
+   2 - Debemos crear una app en Twitter, los pasos son muy sencillos, los
+   explico a continuación:
+     * Entrar en el siguiente link [14]twitter developers
+     * Ir al boton "Create New App"
+     * Llenar los campos y aceptar las condiciones de Uso. (No probé, pero
+       si no tienen web pueden probar con su [15]cuenta de Facebook que
+       leí que funciona)
+     * Una vez creada la App deberán ir a la pestaña "Permissions" y
+       cambiar los permisos a "Read, Write and Access direct messages"
+     * Luego vamos a "Keys and Access Tokens" y presionamos sobre "Create
+       My Access Token"
+
+                             [16]App en Twitter
+                               App en Twitter
+
+   3 - Ya tenemos todos los datos necesarios del lado de Twitter (Puedes
+   verlo en la pestaña "Keys and Access Tokens". Ahora debemos instalar la
+   librería Twython y la forma más fácil es utilizar pip:
+$ pip install twython
+
+   Ver también: [17]Documentación de Twython
+   4 - Por útlimo, con todo ya instalado, viene la parte linda, el código:
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# www.pythondiario.com
+
+from twython import Twython
+
+CUSTOMER_KEY = ""
+CUSTOMER_SECRET= ""
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
+
+twitter = Twython(CUSTOMER_KEY,
+                  CUSTOMER_SECRET,
+                  ACCESS_TOKEN,
+                  ACCESS_TOKEN_SECRET)
+
+twitter.update_status(status='Siguenos @PythonDiario')
+
+   Los datos CUSTOMER_KEY, CUSTOMER_SECRET, ACCESS_TOKEN y
+   ACCESS_TOKEN_SECRET los sacamos de la pestaña "Keys and Access Tokens"
+   en la App de Twitter y van dentro de las comillas.
+   El mensaje va donde dice "Siguenos [18]@PythonDiario"
+   Espero que esta entrada sea de ayuda, seguiré buscando información para
+   crear Tweets un poco más divertidos. Cualquier duda o sugerencia no
+   olviden dejar su comentario.
+   Fuente:
+   [19]http://www.thebrokendesk.com/post/sending-tweets-from-the-beaglebon
+   e-black/
+
+   [20]app [21]eviar tweets [22]facebook [23]pip [24]Tips [25]twitter
+   [26]twython
+   Diego Caraballo
+
+miércoles, 10 de febrero de 2016
+
+[27]Generar contraseñas aleatorias en python
+
+   [28]Generar password aleatorio en python
+   Generar password aleatorio en python
+   La idea de esta entrada es mostrar un par de script que generan
+   contraseñas (password) aleatorias y luego comprobaremos su seguridad.
+   En el primer script utilizaremos 2 librerías que vienen integradas en
+   Python: random y string. El módulo String se utiliza para trabajar con
+   cadenas y el [29]módulo random se utiliza para generar valores
+   aleatorios.
+   En el segundo scritp utilizaremos el módulo strgen el cual tendremos
+   que instalar porque no viene integrado con python. Este módulo utiliza
+   la sintaxis parecida a las [30]expresiones regulares.
+   Enlace para descargar e instrucciones para instalar el módulo strgen:
+   [31]https://pypi.python.org/pypi/StringGenerator
+   Para comprobar la seguridad de los password generados utilizaremos la
+   página: [32]https://howsecureismypassword.net/
+
+Primer script
+
+import random
+import string
+password = ''.join(random.choice(string.ascii_uppercase + string.digits) for x i
+n range(15))
+
+print password
+
+   Esto nos devuelve:
+
+                           [33]Contraseña generada
+                             Contraseña generada
+
+   Probamos su seguridad:
+
+                         [34]Seguridad del Password
+                           Seguridad del Password
+
+   Al parecer nuestro password es bastante seguro.
+   Podemos cambiar la cantidad de caracteres que tiene nuestro password
+   (cambiemos a 6):
+for x in range(6))
+
+   Ejecutamos:
+
+                           [35]Contraseña generada
+                             Contraseña generada
+
+   Probamos su seguridad:
+
+                         [36]Seguridad del password
+                           Seguridad del password
+
+   Y al agregarle menos caracteres al password lógicamente pierde
+   seguridad.
+
+Segundo Script
+
+   Para instalar el módulo recomiendo utilizar la herramienta pip, se
+   utiliza para descargar e instalar módulos de python de manera fácil. La
+   mejor guía que encontré para instalr pip la encontré en este enlace:
+   [37]http://recursospython.com/guias-y-manuales/instalacion-y-utilizacio
+   n-de-pip-en-windows-linux-y-os-x/
+   Luego que de tener instalado el módulo strgen, el script es el
+   siguiente:
+from strgen import StringGenerator as SG
+print SG("[\w\p\d]{20}").render()
+
+   Ejecutamos:
+
+                           [38]Password con strgen
+                             Password con strgen
+
+   Probamos su seguridad:
+
+                         [39]Seguridad del password
+                           Seguridad del password
+
+   Al parecer es bastante segura jeje. Pueden probar cambiar las variables
+   y revisar  la documentación oficial para generar contraseñas que se
+   adecuen a sus necesidades, por hoy esto fue todo. Espero les pueda ser
+   de ayuda en algún momento. No olviden dejar sus comentarios ;)
+   Saludos, Diego...
+   Fuente:
+   [40]http://code.activestate.com/recipes/578920-random-password-generati
+   on/
+
+   [41]contraseñas seguras [42]Modulos [43]password [44]python [45]random
+   [46]strgen [47]string [48]Tips
+   Diego Caraballo
+
+lunes, 8 de febrero de 2016
+
+[49]Instalar Youtube-dl con Python para descargar videos
+
+   [50]Instalar Youtube-dl con Python
+   Instalar Youtube-dl con Python
+   ¿Qué es Youtube-dl?
+   Youtube-dl es una de las mejores herramientas que tienen los usuarios
+   GNU/Linux para descargar vídeos de Youtube.
+   El artículo que sigue a continuación fue enviado por Jonay, usuario que
+   se comunicó con nosotros a través de Facebook con la intención de dar a
+   conocer su script para instalar Youtube-dl desde Python.
+   Su Facebook: [51]https://www.facebook.com/archdesktop
+   Recuerda que si quieres enviarnos un artículo o ser parte del equipo de
+   redactores puedes comunicarte a través de las redes sociales o por el
+   formulario de contacto: [52]Se parte del equipo
+   ¿Porque hacer este script si se puede instalar youtube-dl de otra
+   manera?
+   Ubuntu y sus problemas, durante meses, he usado Ubuntu como
+   distribución principal, he luchado contra sus bug, y sus dependencias.
+   Uno de mis problemas y el que más me ha molestado fue Youtube-dl, lo
+   instalé como cualquier ubuntero:
+   # apt-get install youtube-dl
+   Quería bajar un canal entero de música, el problema fue que me dio un
+   error, así que lo eliminé, también su configuración, limpié con
+   autoclean, autoremove, clean, luego actualicé los repositorios,
+   actualicé el sistema, volví a instalar youtube-dl, probé nuevamente y
+   otra vez surgió el mismo error. Pensé que el sistema se había roto o
+   que pasaba algo con el paquete. Decidí entonces buscar en
+   stackoverflow, y al parecer no era el único (eso me alegró un poco).
+   Así que dije "coño" voy a buscar youtube-dl en la web oficial para ver
+   si tiene un enlace a github, y así probarlo, claro, al principio es una
+   flojera (en mi caso) bajar todo, luego pasarlo a dicha carpeta, darle
+   los permisos, pero esos sí, al final funcionó. Fue ahí que se me
+   ocurrió la idea de crear un script en python3 que me facilite la tarea.
+   Y bueno eso fue todo, un poco largo, pero entretenida la historia ;)
+   Puedes ver el código en hithub:
+   [53]https://github.com/jonaypython/youtube-dl-install/blob/master/youtu
+   be-dl-install.py
+#!usr/local/bin/python3
+
+import os
+import urllib.request
+import getpass
+
+
+print("bienvenid@ / welcolme " + getpass.getuser())
+
+
+def youtube():
+    print("""
+Y88b   d88P                   888             888                           888
+888
+ Y88b d88P                    888             888                           888
+888
+  Y88o88P                     888             888                           888
+888
+   Y888P     .d88b.  888  888 888888 888  888 88888b.   .d88b.          .d88888
+888
+    888     d88""88b 888  888 888    888  888 888 "88b d8P  Y8b        d88" 888
+888
+    888     888  888 888  888 888    888  888 888  888 88888888 888888 888  888
+888
+    888     Y88..88P Y88b 888 Y88b.  Y88b 888 888 d88P Y8b.            Y88b 888
+888
+    888      "Y88P"   "Y88888  "Y888  "Y88888 88888P"   "Y8888          "Y88888
+888
+
+
+    by:https://www.facebook.com/archdesktop""")
+
+
+    dir = os.chdir("/usr/local/bin/")
+    descarga = urllib.request.urlretrieve("https://yt-dl.org/latest/youtube-dl",
+"youtube-dl")
+    permisos = os.system("sudo chmod a+x /usr/local/bin/youtube-dl")
+
+
+    print ("""
+______  _         _       _
+|  ___|(_)       (_)     | |
+| |_    _  _ __   _  ___ | |__
+|  _|  | || '_ \ | |/ __|| '_ \
+| |    | || | | || |\__ \| | | |
+\_|    |_||_| |_||_||___/|_| |_|""")
+
+    limpiar = os.system("clear")
+
+    print ("""
+  ,ad8888ba,                                      88      88
+
+ d8"'    `"8b                                     88      88
+
+d8'                                               88      88
+
+88              ,adPPYba,    ,adPPYba,    ,adPPYb,88      88,dPPYba,   8b
+d8   ,adPPYba,
+88      88888  a8"     "8a  a8"     "8a  a8"    `Y88      88P'    "8a  `8b     d
+8'  a8P_____88
+Y8,        88  8b       d8  8b       d8  8b       88      88       d8   `8b   d8
+'   8PP"""""""
+ Y8a.    .a88  "8a,   ,a8"  "8a,   ,a8"  "8a,   ,d88      88b,   ,a8"    `8b,d8'
+    "8b,   ,aa
+  `"Y88888P"    `"YbbdP"'    `"YbbdP"'    `"8bbdP"Y8      8Y"Ybbd8"'       Y88'
+     `"Ybbd8"'
+                                                                           d8'
+
+                                                                          d8'
+              """)
+
+if getpass.getuser() =="root":
+    youtube()
+
+else:
+    print("""please,you run script : sudo su ; python3 youtube_dl.py
+
+                     ***                  ***
+                    *****                *****
+                    *****                *****
+                     ***                  ***
+          ***                                        ***
+           ***                                      ***
+            ***                                    ***
+             ***                                  ***
+               ***                              ***
+                 ***                          ***
+                   ***                      ***
+                      **********************
+                         ****************
+""")
+
+   Empecemos a analizar el código:
+   #! usr/local/bin/python3
+   Esta línea comentada, especifica la ruta, de py3. En este caso a pesar
+   de que no es obligatoria, es recomendable usarla, ya que de paso estás
+   indicando al usuario que versión de Python requiere el script. Si no
+   estás familiarizado con GNU/Linux, tecleando en la terminal: Python,
+   este detectará la versión del mismo
+   import os
+   import urllib.request
+   import getpass
+   Aquí, se importa la librería del sistema (os) la cual nos va a permitir
+   ir a directorios, ejecutar comandos y demás.
+   urllib.request, nos permitirá interactuar con las páginas web, es
+   decir, bajar archivos, etc..
+   getpass, esta librería, no es que tenga muchas opciones, pero es
+   espectacular. Podemos saber el usuario de la sesión actual, y escribir
+   las claves de manera oculta (si no lo entiendes, ya lo verás,
+   tranqui...)
+   print("bienvenid@ / welcome" + getpass.getuser())
+   No hace falta decir para que es :), si el nombre de tu sesión actual es
+   "maría" el script dirá lo siguiente: "bienvenid@ / welcome maría, para
+   eso se utiliza GET+user
+   Dentro de la función def youtube() encontramos lo siguiente:
+   dir = os.chdir("/usr/local/bin/")
+   Aquí en la variable "dir" vemos que utilice algo con la librería os ¿El
+   qué?, tal y como dije más arriba, esta librería nos da la opción de ir
+   a directorios, comandos y demás cosas del sistema, así que nos
+   dirigimos a la siguiente ruta con os.chdir. Es recomendable no olvidar
+   escribir la ruta completa, si no es así, suelen reproducirse muchos
+   errores, y nos volveremos locos tratando de buscar el error.
+   descarga =
+   urllib.request.urlretrieve("https://yt-dl.org/latest/youtube-dl",
+   "youtube-dl")
+   urllib, la librería que nos permite interactuar con las páginas web, en
+   este caso, urlretrieve, nos da la opción de bajar archivos, claro,
+   siempre y cuando se respeten varias normas, una de ellas, como indica
+   la documentación oficial, es que hay que darle un nombre si no nos
+   devolverá un error, por eso, el script baja youtube-dl, y a
+   continuación se escribe el nombre del archivo bajado.
+   permisos = os.system("sudo chmod a+x /usr/local/bin/youtube-dl")
+   Aquí, usamos la librería os para darle los permisos necesarios y poder
+   ejecutar youtube-dl, si no, devolverá un error :)
+   limpiar = os.system("clear")
+   Limpiamos la terminal de GNU/Linux
+   if getpass.getuser() == "root":
+       youtube()
+   Si la estructura de control, detecta que el usuario que está ejecutando
+   el script es el usuario root, entonces el correrá el script en py.
+   Mucho cuidado con el "==" que he visto muchos a usuarios solo añadirle
+   uno... Ojo, nada de tabulación, que luego aparecen los errores, dar 4
+   espacios. Algunos ides, ya están preparados para esto y automáticamente
+   cambian la tabulación por 4 espacios, alguno de ellos:
+   NotepadQQ(GNU/Linux), Ninja IDE (Windows y Linux).
+   else:
+       print("""please, you run script: sudo su; python3 youtube_dl.py
+   En caso de que no se cumpla la primera condición, mostrará el mensaje,
+   de que ejecute el script de la siguiente manera.
+   -----------------------------------------------------------------------
+   -----------------
+   Espero esta entrada sea de su agrado y nuevamente gracias Jonay por
+   compartir en [54]Mi Diario Python y por supuesto, por compartir para
+   toda la comunidad Python.
+   Saludos, Diego...
+
+   [55]descargar videos [56]getpass [57]GNU/Linux [58]os [59]Tips
+   [60]urllib.request [61]Youtube [62]Youtube-dl
+   Diego Caraballo
+
+jueves, 4 de febrero de 2016
+
+[63]Listas en python: borrar datos
+
+ Python: Borrar Items en una lista
+
+   [64][letters-483010_1920.jpg]
+   Es sabido que en el lenguaje python es posible modificar el contenido
+   de una lista fácilmente y a discreción, el contenido de una lista puede
+   ser cambiado por varias razones y en diversas ocasiones, algunos
+   ejemplos de cuando se hace necesaria la modificación de una lista son:
+   Actualización de datos
+   eliminar o agregar nuevos items (elementos)...
+   Existen dos formas de eliminar el contenido de una lista, ya que en
+   ocasiones puede ser poco viable el eliminar elementos mediante el
+   índice y es mucho mas facil hacerlo mediante el valor directo del
+   propio item (esto puede servir cuando el script tenga interacción con
+   algún usuario que no conozca el indice pero si el item)
+   1. Eliminar datos mediante el Index:
+
+                            1.1 El metodo .pop():
+
+   Este es un método estándar de python que nos permite eliminar un item
+   pasando por argumento el valor “index” que este tiene dentro de la
+   lista a modificar.
+   Este posee una sintaxis bastante sencilla y limpia, en donde anterior
+   al punto se nombra la lista y posterior a este se aplica el método y a
+   continuación se encierra en paracentesis el valor index del item:
+   “lista.pop(index)” (sin las comillas)
+   Ejemplo:
+   numeros=[1,2,3,4,5] #Declaramos la variable números que contiene la
+   lista con los items: “1,2,3,4,5”
+   numeros.pop(2)        #aplicamos el método .pop al elemento con índice
+   2(en este caso el numero”3”)
+                                        dentro de la lista números
+   print n                       #nos dará como resultado : “1,2,4,5”
+
+                             1.2 Función del():
+
+   Es similar a .pop pero tiene como principal diferencia que este no
+   devuelve el valor que a sido eliminado, su sintaxis tal y como veremos
+   a continuación también dista del anterior método.
+   Cuando utilizamos la función “del()” pasamos por argumento la lista y
+   el índice del valor a eliminar;
+   del(lista[indice])
+   Ejemplo:
+   Números=[1,6,3,2,5]
+   del(Números[3])             # Le indicamos a “del” que dentro de la
+   lista “Números” elimine el valor con
+                                              índice “3”, cuyo efecto es
+   que el numero 2 de dicha lista quede borrado.
+   print Números                 #Imprimimos en pantalla la lista Números,
+   lo cual nos arroja el resultado
+                                              “1.6.3.5”
+   2 Eliminar Datos mediante Item:
+
+                           2.1 Método .remove():
+
+   Este método aunque posee una sintaxis similar a la del método .pop,
+   tiene por diferencia que recibe por argumento el item a eliminar y NO
+   el índice del mismo, por lo que es efectivo cuando se desea eliminar
+   una entrada en concreto que bien podría ser un nombre, numero o
+   cualquier otro; por lo cual debemos tener cuidado de ingresar el valor
+   especifico a eliminar y no la posición del mismo.
+   Ejemplo:
+   nombres=[Adrian, Pedro, Andrea, Marcela]
+   nombres.remove(“Adrian”) #eliminamos el Item “Adrian” de la lista
+   “nombres”
+   print nombres #Imprimimos en pantalla: “Pedro, Andrea, Marcela.”
+   Cabe mencionar que este método elimina un elemento de la lista si y
+   solo si este es real, es decir; si el elemento que deseas borrar no
+   existe, este deja la lista intacta.
+   Si conoces algún otro método o función para eliminar datos de una
+   lista, puedes enriquecer este articulo y llenarlo de mas conocimiento,
+   así que no dudes en comentarlo.
+
+   [65]curso python [66]eliminar elementos [67]funciones [68]items
+   [69]listas [70]metodos
+   Angel España
+
+jueves, 19 de noviembre de 2015
+
+[71]Condicional if, elif, else en python
+
+   [72]Condicionales if, elif, else en python
+   Condicionales if, elif, else en python
+   Siguiendo con el [73]Tutorial Python, hoy veremos los condicionales if,
+   elif y else en python.
+   En programación, como ocurre también en la vida real (Foto), debemos
+   elegir diferentes caminos si ciertas condiciones se cumplen o no.
+   La estructura sería la siguiente: el condicional if hace que se ejecute
+   una parte de nuestro código si el valor es True (verdadero), de lo
+   contrario nuestro programa seguirá otro camino. A menudo, asociado con
+   el condicional if encontramos los condicionales elif y else.
+   Veamos un ejemplo en diagrama:
+
+                       [74]Diagrama if, else en python
+                         Diagrama if, else en python
+
+   Veamos un ejemplo en código, pueden probar en consola o crear un nuevo
+   archivo en Geany como ya hemos visto:
+   #!/usr/bin/python
+   # -*- coding: utf-8 -*-
+   ana = 18
+   if ana >= 18:
+       print "Ana es mayor de edad"
+   else:
+       print "Ana es menor de edad"
+   En el ejemplo anterior creamos una variable ana que es igual a 18.
+   Luego utilizamos una condición if vara evaluar si ana es mayor o igual
+   a 18, si esto se cumple se ejecuta el código del if, si no, se ejecuta
+   el código del else. Pueden cambiar el valor de la variable a 15 para
+   ver como se comporta el programa.
+   En este tema de los condicionales aparecen dos nuevo conceptos: los
+   bloques y la identación (sangrado, sangría, etc). ¿Como funcionan?:
+   Todas las declaraciones de código con la misma distancia a la derecha
+   pertenecen al mismo bloque de código (el bloque termina en una línea
+   con menos sangría o al final del código). Los bloques se pueden anidar
+   agregando más sangrías a la derecha. La identación se utiliza para que
+   los códigos sean más legibles, comprensibles para los programadores.
+   Como se puede ver, el código que sigue al condicional if y else
+   comienza con una identación de 4 espacios (un tabulador).
+
+                     [75]Bloques e identación en python
+                       Bloques e identación en python
+
+   Veamos otro ejemplo utilizando el condicional elif:
+   #!/usr/bin/python
+   # -*- coding: utf-8 -*-
+   a = 25
+   if a < 22:
+       print "if"
+   elif a == 25:
+       print "elif"
+   else:
+       print "else"
+   Como en el ejemplo anterior, declaramos una variable a con valor 25.
+   Luego utilizamos un condicional if para ver si a es menor a 22, si se
+   cumple imprime "if", luego un condicional elif para ver si a es igual a
+   25, si se cumple se imprime "elif", luego si ninguna de las dos se
+   cumple se imprime "else". Pueden cambiar el valor de la variable a para
+   jugar y ver como se comporta el programa.
+   En los siguientes capítulos del tutorial se seguirán viendo ejemplos de
+   los condicionales if, elif y else.
+   Espero que la entrada le sea de ayuda para seguir incursionando en este
+   maravilloso lenguaje de programación.
+   Saludos, Diego...
+
+   [76]condicional [77]curso python [78]elif [79]else [80]if [81]tutorial
+   [82]Tutorial Python
+   Diego Caraballo
+
+lunes, 16 de noviembre de 2015
+
+[83]Ejercicios de clases y objetos en python (parte 1)
+
+   [84][a.JPG] Buenas, la idea de esta entrada es comenzar a practicar con
+   algunos ejercicios la programación orientada a objetos en python.
+   La programación orientada a objetos (POO) es un enfoque formal de
+   programación que combina los datos y las acciones asociadas (métodos)
+   en estructuras lógicas (objetos). Este enfoque mejora la capacidad de
+   gestionar software complejos como también así el desarrollo y
+   mantenimiento de aplicaciones de gran tamaño.
+   Puedes ver la entrada sobre [85]Programación Orientada a Objetos en
+   python que escribí ya hace algún tiempo. También puedes dar una vuelta
+   por todo el repertorio de ejercicios que hemos ido publicando en el
+   blog aquí: [86]Ejercicios Python
+   Espero estos ejercicios te sean de ayuda.
+   Ejercicio 1
+   Escribir una clase en python que convierta un número entero a número
+   romano
+   Ejercicio 2
+   Escribir una clase en python que convierta un número romano en un
+   número entero
+   Ejercicio 3
+   Escribir una clase en python para encontrar la validez de una cadena de
+   paréntesis, '(', ')', '{', '}', '['  ']. Los paréntesis deben aparecer
+   en el orden correcto, por ejemplo "()" y "()[]{}" son validos, pero
+   "[)", "({[)]" y "{{{" son inválidos.
+   Ejercicio 4
+   Escribir una clase en python que obtenga todos los posibles
+   subconjuntos únicos de un conjunto de números enteros distintos.
+   Entrada: [4, 5, 6]
+   Salida: [[], [6], [5], [5, 6], [4], [4, 6], [4, 5], [4, 5, 6]]
+   Ejercicio 5
+   Escribir una clase en python que encuentre un par de elementos (índice
+   de los números) de una matriz dada cuya suma es igual a un número de
+   destino especifico.
+   Entrada: numeros = [10,20,10,40,50,60,70], objetivo=50
+   Salida: 3, 4
+   Ejercicio 6
+   Escribir una clase en python que encuentre los 3 elementos que sumen 0
+   a partir de números reales
+   Entrada: [-25, -10, -7, -3, 2, 4, 8, 10]
+   Salida: [[-10, 2, 8], [-7, -3, 10]]
+   Ejercicio 7
+   Escribir una clase en python que calcule pow(x, n)
+   x = es la base
+   n = es el exponente
+   Entrada: pow(2, -3)
+   Salida: 0.125
+   Entrada: pow(3, 5)
+   Salida: 234
+   Ejercicio 8
+   Escribir una clase en python que revierta una cadena de palabras
+   Entrada: "Mi Diario Python"
+   Salida: "Python Diario Mi"
+   Ejercicio 9
+   Escribir una clase en python con 2 métodos: get_string y print_string.
+   get_string acepta una cadena ingresada por el usuario y print_string
+   imprime la cadena en mayúsculas.
+   Ejercicio 10
+   Escribir una clase en python llamada rectangulo que contenga una base y
+   una altura, y que contenga un método que devuelva el área del
+   rectángulo.
+   Ejercicio 11
+   Escribir una clase en python llamada circulo que contenga un radio, con
+   un método que devuelva el área y otro que devuelva el perímetro del
+   circulo.
+   Las soluciones a los ejercicios pueden publicarlas en los comentarios.
+   Hasta acá los ejercicios, a meter código muchachos, nos vemos en las
+   soluciones ;)
+   Saludos, Diego...
+
+   [87]clases [88]ejercicios [89]ejercicios de programacion [90]Ejercicios
+   Resueltos [91]objetos [92]POO [93]programacion orientada a objetos
+   Diego Caraballo
+
+lunes, 9 de noviembre de 2015
+
+[94]Ejercicios en python (parte 6)
+
+   [95]Ejercicios para arrancar la semana
+   Ejercicios para arrancar la semana
+   Buenos días, dejo algunos ejercicios para arrancar el lunes con todas
+   las neuronas encendidas. Si bien estos ejercicios no tienen gran
+   complejidad, serán de ayuda para quienes están arrancando, algunos que
+   estén medios olvidados y demás. Recuerda que si recién estás arrancando
+   puedes pasarte por el [96]tutorial python, seguiré completando el
+   tutorial a la brevedad. También puedes pasarte y ver todos los
+   ejercicios del blog aquí: [97]Ejercicios de programación python. Espero
+   que les guste y les sea de ayuda para seguir avanzando en el lenguaje
+   de programción python.
+   Puedes dejar tus soluciones a los ejercicios en los comentarios de la
+   entrada
+   Saludos y gracias por participar en el blog ;)
+   Ejercicio 1
+   Determinar la cantidad de dígitos de un numero (1- 100000)
+
+   Ejercicio 2
+   Para un numero N menor de 100. Mostrar la suma de los cuadrados de los
+   números que están separados entre si cuatro posiciones.
+
+   Ejercicio 3
+   Imprimir 10 veces la serie de números de 1 a 10.
+
+   Ejercicio 4
+   Para un número N imprimir su tabla de multiplicar.
+
+   Ejercicio 5
+   Identificar si la suma de los dígitos de un numero es par o impar.
+
+   Ejercicio 6
+   Solicitar un número e imprimir los dígitos pares de este.
+
+   Ejercicio 7
+   Los números de las claves de dos cajas fuertes están mezcladas en un
+   número entero llamado clave maestra. Determine ambas claves, la primera
+   clave se construye con los dígitos impares de la clave maestra y la
+   segunda con los pares. Ejemplo: Clave Maestra= 12345, clave1=135,
+   clave2=24.
+
+   [98]ejercicio [99]Ejercicios Resueltos [100]resultados de ejercicios
+   [101]soluciones de ejercicios
+   Diego Caraballo
+   [102]Entradas antiguas
+
+   E-mail Newsletter
+
+   Registra tu correo para recibir las noticias de ulima hora
+
+   ____________________ OK
+
+Articulos Recientes
+
+   [103]Ver el perfil de Diego Caraballo en LinkedIn
+
+Destacado
+
+     * [104]Tutorial Django desde cero
+     * [105]Tutorial python desde cero --> 2.7
+     * [106]Ejercicios de programación python
+
+   [107]Seguir a @PythonDiario
+
+Escritores Activos
+
+     * [108]Pedro Araujo
+     * [109]Diego Caraballo
+     * [110]marco garcia baturan
+     * [111]Salvador Ramírez
+     * [112]Angel España
+
+Google+ Seguidores
+
+Tu contribución permite que este sitio continúe en funcionamiento
+
+                PayPal - The safer, easier way to pay online!
+
+Buscamos Bloggeros!!!
+
+   Si te gusta nuestro Blog y deseas participar en él, te invitamos a ser
+   Bloggero!
+   Para más informacion haz Clic [113]Aquí
+   [INS: :INS]
+
+Entradas Populares
+
+     * [114]Ejercicios resueltos en python (Parte 1)
+       En esta entrada dejare mis soluciones a la primera parte de los
+       ejercicios en Ejercicios Resueltos python , si no viste los
+       ejercicios y...
+     * [115]Modulo random en python con ejemplos
+       Modulo Random En la sección Módulo s , intentare ir explicando cada
+       uno de los módulos y las funciones que ellos contienen, vistos en
+       e...
+     * [116]Obtener fecha y hora actual en python (datetime - time)
+       Fecha y hora en python ¿Como puedo saber la fecha y hora actual en
+       python ? ¿Cuál es la función o módulo que debo usar para obtener
+       la...
+     * [117]Primera aplicacion con Qt Designer y Python
+       Conversor de temperaturas La idea de esta entrada es crear una
+       sencilla aplicación gráfica utilizando el binding PyQt de la
+       bibliotec...
+     * [118]Ejercicios en python (Parte 1)
+       Voy a dejar algunos ejercicios en python . Si hay alguna dificultad
+       no duden en Ejercicios Python comentar. También voy a crear un
+       post...
+     * [119]Eclipse y Pydev - Configuracion del IDE para python
+       Eclipse + Pydev Hoy vamos aprender a configurar eclipse + pydev
+       para poder utilizarlo con python. Lo primero es instalar Eclipse
+       P...
+     * [120]Aplicaciones graficas con Tkinter en python (parte 1)
+       Aplicación gráfica en Python con Tkinter En esta entrada
+       aprenderemos a crear Aplicaciones Gráficas (GUI) paso a paso con
+       python , utili...
+     * [121]Ciclo o bucle for in en python
+       Ciclo o bucle for in en python Hoy vamos a ver de que trata el
+       ciclo for in en python. En la sección Tutorial Python iré dejando
+       todas...
+     * [122]Como instalar PyQt4 en Windows, Linux y Mac OS X
+       Qt Hace tiempo ando con ganas de incursionar en el mundo gráfico de
+       python, por eso en la entrada de hoy voy a explicar que es y como
+       se...
+     * [123]Numeros primos en python
+       Números primos en python He visto que hay muchas consultas en la
+       web relacionadas a  ejercicios en python con números primos , ya
+       sea i...
+
+Etiquetas
+
+     * [124]Aplicaciones Gráficas (9)
+     * [125]Desafíos (1)
+     * [126]ejercicios (14)
+     * [127]IDE python (2)
+     * [128]juegos (12)
+     * [129]Modulos (7)
+     * [130]POO (2)
+     * [131]soluciones de ejercicios (6)
+     * [132]Tips (15)
+     * [133]Tutorial Python (12)
+
+Text Widget
+
+   .
+   © 2014 [134]Mi diario Python | Distributed By [135]My Blogger Themes |
+   Created By [136]BloggerTheme9
+   [137]TOP
+
+References
+
+   Visible links
+   1. http://www.pythondiario.com/feeds/posts/default
+   2. http://www.pythondiario.com/feeds/posts/default?alt=rss
+   3. http://www.pythondiario.com/
+   4. http://www.pythondiario.com/
+   5. http://www.pythondiario.com/p/ejercicios-de-programacion-python.html
+   6. http://www.pythondiario.com/search/label/Modulos
+   7. http://www.pythondiario.com/p/tutorial-python-desde-cero.html
+   8. http://www.pythondiario.com/search/label/juegos
+   9. http://www.pythondiario.com/search/label/Tips
+  10. http://www.pythondiario.com/search/label/Aplicaciones Gráficas
+  11. http://www.pythondiario.com/2016/02/enviar-tweets-con-python-y-twython.html
+  12. http://3.bp.blogspot.com/-SRkUixHS4OA/VsJ-28lHcsI/AAAAAAAAF3A/yDcuG-Zw63o/s1600/tweet.jpg
+  13. https://twitter.com/pythondiario
+  14. https://dev.twitter.com/apps
+  15. https://www.facebook.com/PythonDiario?fref=nf
+  16. https://4.bp.blogspot.com/-FAejW_SRvII/VsKL6p0ngEI/AAAAAAAAF3U/xqKC2Ah4K6g/s1600/App+Twitter.png
+  17. http://twython.readthedocs.org/en/latest/usage/starting_out.html#oauth1
+  18. https://twitter.com/PythonDiario
+  19. http://www.thebrokendesk.com/post/sending-tweets-from-the-beaglebone-black/
+  20. http://www.pythondiario.com/search/label/app
+  21. http://www.pythondiario.com/search/label/eviar tweets
+  22. http://www.pythondiario.com/search/label/facebook
+  23. http://www.pythondiario.com/search/label/pip
+  24. http://www.pythondiario.com/search/label/Tips
+  25. http://www.pythondiario.com/search/label/twitter
+  26. http://www.pythondiario.com/search/label/twython
+  27. http://www.pythondiario.com/2016/02/generar-contrasenas-aleatorias-en-python.html
+  28. http://4.bp.blogspot.com/-wR_ACRpUxkI/Vrq4BmoVGoI/AAAAAAAAF0k/KXAiivWOTQM/s1600/b.jpg
+  29. http://www.pythondiario.com/2013/06/modulo-random-en-python-con-ejemplos.html
+  30. http://www.pythondiario.com/2015/03/introduccion-las-expresiones-regulares.html
+  31. https://pypi.python.org/pypi/StringGenerator
+  32. https://howsecureismypassword.net/
+  33. https://4.bp.blogspot.com/-1Tw7Rau-2K4/Vrq9nrJOBiI/AAAAAAAAF0w/YUaxhupSy9Y/s1600/ms.PNG
+  34. https://2.bp.blogspot.com/-siIqEJBHm4g/Vrq-ZCOwBEI/AAAAAAAAF08/HlR_vntf6bI/s1600/a.png
+  35. https://1.bp.blogspot.com/-NaO68x2Jo08/VrvMenTvo2I/AAAAAAAAF1M/pywUcDQ8R24/s1600/ms.PNG
+  36. https://4.bp.blogspot.com/-KlOxIN-f0lI/VrvNAlIKAOI/AAAAAAAAF1Q/T3jyMxK4k5A/s1600/a.png
+  37. http://recursospython.com/guias-y-manuales/instalacion-y-utilizacion-de-pip-en-windows-linux-y-os-x/
+  38. https://4.bp.blogspot.com/-Q6Pw7QDtmpU/VrvYGvowCjI/AAAAAAAAF1g/oRNKzvzRt8M/s1600/ms.PNG
+  39. https://1.bp.blogspot.com/-dXU18fTCmV0/VrvZAG0pGgI/AAAAAAAAF1s/uYEP9fmGxSw/s1600/a.png
+  40. http://code.activestate.com/recipes/578920-random-password-generation/
+  41. http://www.pythondiario.com/search/label/contraseñas seguras
+  42. http://www.pythondiario.com/search/label/Modulos
+  43. http://www.pythondiario.com/search/label/password
+  44. http://www.pythondiario.com/search/label/python
+  45. http://www.pythondiario.com/search/label/random
+  46. http://www.pythondiario.com/search/label/strgen
+  47. http://www.pythondiario.com/search/label/string
+  48. http://www.pythondiario.com/search/label/Tips
+  49. http://www.pythondiario.com/2016/02/instalar-youtube-dl-con-python-para.html
+  50. https://3.bp.blogspot.com/-U76GdGLEgh0/Vrk75i9OJqI/AAAAAAAAFz0/AzfR99guclo/s1600/YouTubeDL.png
+  51. https://www.facebook.com/archdesktop?__mref=message_bubble
+  52. http://www.pythondiario.com/p/buscamos-bloggeros.html
+  53. https://github.com/jonaypython/youtube-dl-install/blob/master/youtube-dl-install.py
+  54. http://www.pythondiario.com/
+  55. http://www.pythondiario.com/search/label/descargar videos
+  56. http://www.pythondiario.com/search/label/getpass
+  57. http://www.pythondiario.com/search/label/GNU/Linux
+  58. http://www.pythondiario.com/search/label/os
+  59. http://www.pythondiario.com/search/label/Tips
+  60. http://www.pythondiario.com/search/label/urllib.request
+  61. http://www.pythondiario.com/search/label/Youtube
+  62. http://www.pythondiario.com/search/label/Youtube-dl
+  63. http://www.pythondiario.com/2016/02/listas-en-python-borrar-datos.html
+  64. https://2.bp.blogspot.com/-kTgYLhW5ipU/VrOtAhAWnqI/AAAAAAAAAIQ/lQa0Rv4LcM8/s1600/letters-483010_1920.jpg
+  65. http://www.pythondiario.com/search/label/curso python
+  66. http://www.pythondiario.com/search/label/eliminar elementos
+  67. http://www.pythondiario.com/search/label/funciones
+  68. http://www.pythondiario.com/search/label/items
+  69. http://www.pythondiario.com/search/label/listas
+  70. http://www.pythondiario.com/search/label/metodos
+  71. http://www.pythondiario.com/2015/11/condicional-if-elif-else-en-python.html
+  72. http://2.bp.blogspot.com/-NXLaBwRAHb4/Vk5VkhatHWI/AAAAAAAAFvs/3vGLCiMjm9U/s1600/a.jpg
+  73. http://www.pythondiario.com/p/tutorial-python-desde-cero.html
+  74. http://4.bp.blogspot.com/-y7BUSaA5_GU/Vk5chQCT9AI/AAAAAAAAFv8/XV1njZ5jivU/s1600/a.JPG
+  75. http://4.bp.blogspot.com/-8HYz94Vko-U/Vk5jRbOetEI/AAAAAAAAFwM/_9UDxaYmXkU/s1600/a.png
+  76. http://www.pythondiario.com/search/label/condicional
+  77. http://www.pythondiario.com/search/label/curso python
+  78. http://www.pythondiario.com/search/label/elif
+  79. http://www.pythondiario.com/search/label/else
+  80. http://www.pythondiario.com/search/label/if
+  81. http://www.pythondiario.com/search/label/tutorial
+  82. http://www.pythondiario.com/search/label/Tutorial Python
+  83. http://www.pythondiario.com/2015/11/ejercicios-de-clases-y-objetos-en.html
+  84. http://2.bp.blogspot.com/-yJ-4TqhUTNI/VkpyeNtbo2I/AAAAAAAAFvM/LSa3HitOQfg/s1600/a.JPG
+  85. http://www.pythondiario.com/2014/10/clases-y-objetos-en-python-programacion.html
+  86. http://www.pythondiario.com/p/ejercicios-de-programacion-python.html
+  87. http://www.pythondiario.com/search/label/clases
+  88. http://www.pythondiario.com/search/label/ejercicios
+  89. http://www.pythondiario.com/search/label/ejercicios de programacion
+  90. http://www.pythondiario.com/search/label/Ejercicios Resueltos
+  91. http://www.pythondiario.com/search/label/objetos
+  92. http://www.pythondiario.com/search/label/POO
+  93. http://www.pythondiario.com/search/label/programacion orientada a objetos
+  94. http://www.pythondiario.com/2015/11/ejercicios-en-python-parte-6.html
+  95. http://3.bp.blogspot.com/-vfZbjgQvPo4/VkCpXn5qU6I/AAAAAAAAFt4/sPlrMfcbnlM/s1600/a.JPG
+  96. http://www.pythondiario.com/p/tutorial-python-desde-cero.html
+  97. http://www.pythondiario.com/p/ejercicios-de-programacion-python.html
+  98. http://www.pythondiario.com/search/label/ejercicio
+  99. http://www.pythondiario.com/search/label/Ejercicios Resueltos
+ 100. http://www.pythondiario.com/search/label/resultados de ejercicios
+ 101. http://www.pythondiario.com/search/label/soluciones de ejercicios
+ 102. http://www.pythondiario.com/search?updated-max=2015-11-09T06:25:00-08:00&max-results=7
+ 103. https://uy.linkedin.com/pub/diego-caraballo/ba/a62/336
+ 104. http://www.pythondiario.com/p/tutorial-django-desde-cero.html
+ 105. http://www.pythondiario.com/p/tutorial-python-desde-cero.html
+ 106. http://www.pythondiario.com/p/ejercicios-de-programacion-python.html
+ 107. https://twitter.com/PythonDiario
+ 108. https://plus.google.com/105825190071109674832
+ 109. https://plus.google.com/100420156123567362280
+ 110. https://plus.google.com/100837451149458188014
+ 111. https://plus.google.com/118188717629195488985
+ 112. https://plus.google.com/114579574925691364076
+ 113. http://www.pythondiario.com/p/buscamos-bloggeros.html
+ 114. http://www.pythondiario.com/2013/05/ejercicios-resueltos-en-python-parte-1.html
+ 115. http://www.pythondiario.com/2013/06/modulo-random-en-python-con-ejemplos.html
+ 116. http://www.pythondiario.com/2014/05/obtener-fecha-y-hora-actual-en-python.html
+ 117. http://www.pythondiario.com/2014/11/primera-aplicacion-con-qt-designer-y_16.html
+ 118. http://www.pythondiario.com/2013/05/ejercicios-en-python-parte-1.html
+ 119. http://www.pythondiario.com/2013/06/eclipse-y-pydev-configuracion-del-ide.html
+ 120. http://www.pythondiario.com/2014/11/aplicaciones-graficas-con-tkinter-en.html
+ 121. http://www.pythondiario.com/2013/06/ciclo-o-bucle-for-in-en-python.html
+ 122. http://www.pythondiario.com/2013/11/como-instalar-pyqt4-en-windows-linux-y.html
+ 123. http://www.pythondiario.com/2014/04/numeros-primos-en-python.html
+ 124. http://www.pythondiario.com/search/label/Aplicaciones Gráficas
+ 125. http://www.pythondiario.com/search/label/Desafíos
+ 126. http://www.pythondiario.com/search/label/ejercicios
+ 127. http://www.pythondiario.com/search/label/IDE python
+ 128. http://www.pythondiario.com/search/label/juegos
+ 129. http://www.pythondiario.com/search/label/Modulos
+ 130. http://www.pythondiario.com/search/label/POO
+ 131. http://www.pythondiario.com/search/label/soluciones de ejercicios
+ 132. http://www.pythondiario.com/search/label/Tips
+ 133. http://www.pythondiario.com/search/label/Tutorial Python
+ 134. http://www.pythondiario.com/
+ 135. http://mybloggerthemes.com/
+ 136. http://www.bloggertheme9.com/
+ 137. file:///home/mgomez/CS432/A3/source175.txt
+
+   Hidden links:
+ 139. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=header-rside
+ 140. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=HTML&widgetId=HTML8&action=editWidget&sectionId=sidebar1
+ 141. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=LinkList&widgetId=LinkList1&action=editWidget&sectionId=sidebar1
+ 142. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=sidebar1
+ 143. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar1
+ 144. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar1
+ 145. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=sidebar1
+ 146. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar1
+ 147. http://www.pythondiario.com/2013/05/ejercicios-resueltos-en-python-parte-1.html
+ 148. http://www.pythondiario.com/2013/06/modulo-random-en-python-con-ejemplos.html
+ 149. http://www.pythondiario.com/2014/05/obtener-fecha-y-hora-actual-en-python.html
+ 150. http://www.pythondiario.com/2014/11/primera-aplicacion-con-qt-designer-y_16.html
+ 151. http://www.pythondiario.com/2013/05/ejercicios-en-python-parte-1.html
+ 152. http://www.pythondiario.com/2013/06/eclipse-y-pydev-configuracion-del-ide.html
+ 153. http://www.pythondiario.com/2014/11/aplicaciones-graficas-con-tkinter-en.html
+ 154. http://www.pythondiario.com/2013/06/ciclo-o-bucle-for-in-en-python.html
+ 155. http://www.pythondiario.com/2013/11/como-instalar-pyqt4-en-windows-linux-y.html
+ 156. http://www.pythondiario.com/2014/04/numeros-primos-en-python.html
+ 157. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar1
+ 158. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebar1
+ 159. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=HTML&widgetId=HTML7&action=editWidget&sectionId=sidebar1
+ 160. file://www.blogger.com/rearrange?blogID=9008053624313923355&widgetType=HTML&widgetId=HTML6&action=editWidget&sectionId=sidebar1

@@ -1,0 +1,993 @@
+   #[1]RSS Feed for 's blog
+
+[2]The Particular Finest
+
+   The Particular Finest
+
+   Presented by aurynn shaw
+   [3]Archives [4]About [5]Photos [6]RSS
+
+[7]Contempt Culture
+
+   December 16, 2015
+
+   So when I started programming in 2001, it was du jour in the
+   communities I participated in to be highly critical of other languages.
+   Other languages sucked, the people using them were losers or stupid, if
+   they would just use a real language, such as the one we used,
+   everything would just be better.
+
+   Right?
+
+   This sort of culturally-encoded language was really prevalent around
+   condemning PHP and Java. Developers in these languages were actively
+   referred to as less competent than developers in the other, more
+   blessed languages.
+
+   And at the time, as a new developer, I internalised this pretty
+   heavily. The language I was in was blessed, obviously, not because I
+   was using it but because it was better designed than a language like
+   PHP, less wordy and annoying than Java, more flexible than many other
+   options.
+
+   It didn’t matter that it was (and remains) difficult to read, it was
+   that we were better for using it.
+
+   I repeated this pattern for a really long time, and as I learned new
+   languages and patterns I’d repeat the same behaviour in those new
+   environments. I was almost certainly not that fun to be around, a
+   microcosm of the broader unpleasantness in tech.
+
+   At least, until I got called on it.
+
+“Have you thought about…”
+
+   I’d been making critical comments about PHP the language, and PHP
+   developers, nothing more than standard “PHP sucks” sort of language.
+   The same thing I’d been doing, and supported in doing, for years.
+
+   Getting called out was hard, and I was asked to consider who and what I
+   was criticising. I was able to access a very specific version of the
+   self-taught narrative, where I used “real” programming languages and
+   had “real” passion and drive, the result of which was that I fit the
+   early hacker archetypes and was permitted status - as long as I
+   participated in gate keeping. My self-taught narrative is not other
+   peoples’ self-taught narrative, and I was very firmly reminded of that.
+   Other self-taught narratives, such as starting with Wordpress-based
+   design backgrounds and moving from more simple themes to more complex
+   themes where PHP knowledge is required, to plugin development is a
+   completely valid narrative, but a path that is predominately for women.
+
+   This was a bombshell. I’d been loudly criticising the language and,
+   through that criticism, implying that people using the language weren’t
+   as good me, weren’t good programmers. And suddenly I was thinking about
+   all the myriad ways that someone with that background would feel
+   othered by me, like they didn’t belong and weren’t welcome in the
+   communities I was a part of.
+
+   All of the ways in which I was actively participating in the exclusion
+   of women from STEM.
+
+Intent is Not Magic[8]1
+
+   Of course, I hadn’t intended to do any of these things, but as I came
+   to realise, it doesn’t matter what I intended to do, what matters is
+   that I did it and that it had real repercussions.
+
+   I intended to make fun of a language, the repercussion is that people
+   from minority backgrounds wouldn’t want to talk to me about the things
+   they’d done in that language, they wouldn’t feel safe talking about
+   their achievements and exploits.
+
+   And why would they feel safe? If they say what they use, we as a
+   culture laugh at their choice. We tell them they should know better,
+   tell them that it’s a horrible tool. Tell them that they are wrong. We
+   ignore the achievement and focus exclusively on how it was reached, on
+   how much better we are because we had access to narratives that the
+   broader culture had already deemed more real.
+
+   Not better narratives or better tools, just more accepted, more
+   permitted, more discriminatory.
+
+Contempt Currency
+
+   I was taught to be contemptuous of the non-blessed narratives, and I
+   was taught to pay for my continued access to the technical communities
+   through perpetuating that contempt. I was taught to have an elevated
+   sense of self-worth, driven by the elitism baked into the hacker ethos
+   as I learned to program. By adopting the same patterns that other, more
+   knowledgable people expressed I could feel more credible, more like a
+   real part of the community, more like I belonged.
+
+   I bought my sense of belonging, with contempt, and paid for it with
+   contempt and exclusionary behaviour.
+
+   And now, I realise how much of it is an anxiety response. What if I
+   chose the wrong thing? What if other people judge me for my choices and
+   assert that my hard-earned skills actually aren’t worth anything?
+
+   What if people find out I’m a fraud?
+
+   By perpetuating a culture of contempt as the means of acquiring
+   credibility, I was able to avoid these difficult, introspective
+   questions. We don’t have to look at how we’re harming other people who
+   want in, don’t have to acknowledge the niggling little voice in the
+   back of our head asking are you good enough. It wasn’t me that was
+   wrong, it was them.
+
+   Instead, I was taught to use emotional weaponry to silence and exclude
+   others, resulting in the remaining voices being the most toxic and
+   exclusionary, the most able to tolerate toxicity and exclusionary
+   attitudes.
+
+   This pattern is common in tech, from extremely high-profile projects
+   like the Linux kernel to the ongoing os/language/editor “wars” to the
+   vile reactionary attitudes towards the introduction of Codes of
+   Conduct, to any developers making disparaging comments about other
+   peoples’ ability to code, and the growing contempt around people whose
+   first or primary language is JavaScript.
+
+And now
+
+   This culture has ramifications. PHP communities, for example, have
+   lacked access to the development of DevOps tooling, the use of PHP is
+   widely derided as being insecure by default, are they are widely mocked
+   for being an “objectively bad language.”
+
+   Yet people make their livings working with PHP, deploying PHP, trying
+   to secure PHP. Don’t they deserve the help that we received, the help
+   of good practises and security-first development? These people who
+   can’t improve their work because we won’t work with them and drive them
+   away from our communities with mockery and spite.
+
+   And then they engineer things on their own, because they still need
+   these tools, and we have the gall to ask why they didn’t use these
+   other tools.
+
+   Tools that we mocked them for asking about, telling them to get a real
+   language, to rewrite their entire app, to rebuild from scratch because
+   their particular path was not blessed enough.
+
+   Because we were the problematic elements.
+
+I’m Tired of This
+
+   It’s 2015, and I saw a presenter at a Python conference make fun of
+   Java. How would that feel to people trying to move from Java into
+   something else? I wouldn’t feel welcome, and I’d have learned that the
+   idea that the Python community is welcoming wasn’t true.
+
+   I’m tired of calling people out again and again for dumping on PHP.
+
+   I’m tired of people dumping on Windows, that most popular operating
+   system, because it’s not what we choose to use, tired of the fact that
+   we don’t make it easy to use our tools and teach them how to move, when
+   they’re ready.
+
+   Instead, we lecture and dismiss and heap scorn upon them. We don’t
+   reinforce our communities with respect or a sense of achievement, but
+   with shame and contempt and awfulness. We exclude people.
+
+   I’ve excluded people. Directly, me. I have to own up to that and deal
+   with it.
+
+   We excluded people. Directly. All of us. Even if we didn’t intend to,
+   it does not matter. We make fun of the things others care about, make
+   them feel small, make them feel like their achievements didn’t matter.
+   Make them feel like they’re not welcome.
+
+What can we Do?
+
+   SHUT. UP.
+
+   No, really, cut it out. If you need to make fun of a language, do it
+   with your own language, inside your own community. JavaScript is really
+   good at this, because they’re trying to help people write better code
+   within JavaScript.
+
+   Do it around friends only, and acknowledge that it’s extremely
+   problematic that you’re doing it at all.
+
+   Find some amazing project to celebrate in a language you’re
+   contemptuous of.
+
+   Go to meetups of what you despise. Say you don’t know anything, and see
+   how welcoming they are to new people. See what they say, what they do,
+   and ask if you’d be as welcoming to them when they come to your
+   meetups.
+
+   Work to change your community. Ask people who try to pay for their
+   membership in contempt to stop, or to leave. Make it unacceptable to
+   use these behaviours as a means of obtaining social wealth.
+
+   The best advice we give programmers is to leave things better than how
+   they started. We do it with code, why don’t we do it with communities?
+   Why don’t we do it with people, colleagues, friends?
+
+   Ask why it’s okay to do these things in your community, and leave
+   things better than when you started.
+     __________________________________________________________________
+
+    1. [9]Intent is magic![10]↩
+
+     * [11]#culture
+     * [12]#philsoraptor
+     * [13]#opinions
+     * [14]#tech
+     * [15]#programming
+     * [16]#feminism
+     * [17]#shut up already
+
+[18]Destiny
+
+   November 23, 2015
+
+   So.
+
+   Destiny.
+
+   [19]Destiny.
+
+   I’ve been playing Destiny since July 2015 and I started with just the
+   base game. I didn’t know what to expect. An FPS obviously, but I’d
+   ignored all of the hype and trailers and reviews and basically
+   everything that was said about Destiny. Not because I didn’t want to be
+   spoiled, but since I wasn’t hugely into Halo I wasn’t terribly
+   intrigued by a new property from Bungie. I’d heard vague noises that it
+   was an MMO and that it was extremely pretty, but that was quite
+   literally all I knew.
+
+   It’s now late November 2015, and I’m up to two raid-capable toons and a
+   bit of a collection of Year 2 exotic weapons.
+
+   You could say I’m hooked.
+
+So what is Destiny?
+
+   The best way of describing Destiny is that it’s an MMO+FPS-lite. Almost
+   all of the story content is single-player, with occasional bits of
+   collaborative content, like shared missions called “Strikes” where a
+   group of players take on a harder boss.
+
+   I find this a really nice structure for the majority of the PvE
+   content. I don’t have to organise groups or try to build a community, I
+   can just sit down and push a button and sometimes need to be matched
+   with some random people and just enjoy content.
+
+   In the main worlds interaction with other people is extremely limited,
+   which is really nice. Occasionally you might bump into some people and
+   tackle a timed boss or mini-event, but most of the time it’s just you
+   and the big open worlds. This ends up surprisingly pleasant, as the
+   amount of griefing seems to be quite minimal. I can’t interact with
+   others, I just run through them. I can have my kills stolen, but only
+   until I leave the area and move to another shard.
+
+Story
+
+   The story in the PvE parts of Destiny is… well, the first year’s
+   content was atrocious. Badly written, poorly exposited rubbish that
+   barely scratched the surface of what could have been an impressive and
+   interesting world, but completely missed the mark.
+
+   Missed the mark so badly that [20]Kotaku wrote an [21]extremely
+   in-depth article on why it was so badly screwed up.
+
+   TL;DR: they fired their writers and “rewrote” the story with only a
+   couple of months before launch.
+
+   The story was rubbish to the point of being endlessly, actively mocked
+   on the internet. Lines such as “I don’t have time to explain why I
+   don’t have time to explain” and “Be careful! Its power is dark!”
+
+   Given it’s Bungie, it ought to have been so very much better.
+
+   With the first of the Year 2 content, “The Taken King”, it appears they
+   hired (or re-hired) competent writers. There’s considerably more
+   interaction between characters and considerably more exposition and
+   content that illuminates and expands the world. The writing isn’t on
+   the stellar levels of Mass Effect, but compared to Year 1 it’s a
+   pinnacle of literary achievement.
+
+MMO
+
+   Once you’ve exhausted the story missions there’s the grind, and Destiny
+   is quite grindy. Finding a bunch of materials to resolve quests, across
+   several days. Having to collect currency, which can only be done over
+   several days. Collecting better gear, which can only be done by
+   repeatedly and continually playing the same parts of the game and doing
+   the same things over and over.
+
+   The post-game content is starting to do the Actual MMO parts, the raids
+   and weekly strike missions. These are high-level content and require
+   actively working to find groups of people to play with. This is as
+   predictably hit-or-miss as any collection of people will end up being.
+   Racism and homophobia abounds, angry people and shitty environments.
+
+   But also really great people who are kind, form groups that work
+   together really well and work to help people approach content they’ve
+   never approached before.
+
+   Variable.
+
+   It’s most sensible to find a regular group to play with, a clan in the
+   Destiny parlance.
+
+PVP
+
+   The PvP gaming is as much fun as PvP gaming ever is; a lot of fun if
+   you’re great, stressful and miserable if you’re merely good. There
+   appears to be a binning function in the matchmaking functionality,
+   which tries to pair you against players of a similar skill. This would
+   probably be great… if you weren’t on the edge of a bin, as I seem to
+   be. My games tend to follow the pattern of being completely outmatched
+   for several games, get matched down a bin, do really well, get matched
+   up a bin, rinse, repeat.
+
+   This makes for intensely frustrating gaming. As soon as I start to feel
+   competent and capable and like I’m having fun, Destiny reminds me that
+   I’m actually immensely terrible and that misery should be my only
+   reward.
+
+So Would I recommend it?
+
+   No. Mostly.
+
+   The no part comes in because of how fundamentally awful the base story
+   is.
+
+   Getting to the good part of the game, The Taken King, can happen almost
+   immediately, and all the Y1 DLC can largely be ignored, but the result
+   will be that your character will be frightfully underskilled and
+   require considerable grinding to level up the skills and abilities,
+   abilities that are critical to any sort of non-miserable PvP play.
+
+   Playing the Y1 content can help with that, but it’s a miserable slog of
+   poor writing.
+
+   PvP is a crapshoot. End content is only as good as your friends.
+
+   It’s super grindy.
+
+   On the mostly side, I really enjoy playing Destiny. The FPS mechanics
+   are well-tuned and very satisfying, and it’s a lot of fun mastering
+   techniques for the raid and getting content that took several days to
+   complete the first time down to an hour and a half of gaming.
+
+   The Year 2 story is markedly better, on the border of “good”. The lore
+   of why things have happened is fleshed out, and we begin to see
+   motivations and forces beyond “here’s some mooks, shoot them,” and
+   that’s extremely appealing. There’s hooks for the next DLC content that
+   have me extremely excited. There’s a there there now, a place that
+   feels larger than myself and a world that feels like I want to explore
+   it further.
+
+   But on the whole, it’s such an investment of time and energy for such
+   terrible writing that I just can’t recommend it.
+     * [22]#gaming
+     * [23]#opinion
+     * [24]#MMO
+     * [25]#augh
+
+[26]So I Started a Business
+
+   November 18, 2015
+
+   So as you noticed, I’ve not really been blogging very much since March,
+   and there’s a really good reason for it.
+
+   And that reason is I started a company, [27]Eiara Devops. I’ve been
+   running for the last 7 months, since the beginning of April, and it’s
+   been a huge amount of fun and stress, but as all small businesses do it
+   expanded to occupy all the time in the world.
+
+   Time that I would be blogging in, for instance, got overwhelmed with
+   the intensity that is starting and trying to grow a business. Heady
+   stuff!
+
+   With recently recovering my blog and moving fully to [28]blot.im, I
+   feel like I’ve refined the process enough to have space in which my
+   thoughts can once again be a part of the greater internet discussion.
+
+   Thanks for your patience!
+     * [29]#life stuff
+     * [30]#devops
+
+[31]A New Place
+
+   November 17, 2015
+
+   Hello, and welcome to The Particular Finest 2.0.
+
+   You may have noticed that we had an outage for a while! I discovered,
+   much to my chagrin and annoyance, that my previous host [32]Scriptogram
+   had shut down without much of a notification that they were doing so.
+
+   I’d always it was a matter of time. Scriptogram didn’t charge any money
+   for the service, and running services costs money to keep the servers
+   up and the bandwidth flowing. But it’s always easier to do nothing than
+   to migrate when there’s no pressing need, and even though other
+   Dropbox-backed blogging engines existed before Scriptogram failed I
+   didn’t feel an urgent pressure to move.
+
+   The content you’re now reading is on [33]blot.im, a paid service for
+   doing the Dropbox-backed static blog.
+
+   My nice theme is being migrated over, so you’ll be seeing that soon.
+   I’m also in a bit of a better place and have a few more spoons to
+   start, you know, actually blogging again.
+
+   Welcome back!
+     * [34]#meta
+
+[35]100% Schmundred percent
+
+   May 23, 2015
+
+   I spoke about [36]Ori the other day, and I still stand by all those
+   words. It’s beautiful and wonderful and magical in all sorts of good
+   ways.
+
+   It’s also deeply, immensely frustrating. Let’s talk a bit about why.
+
+   In most Metroidvania games the primary focusses are exploration and
+   combat. You explore the space to find upgrades to help you explore
+   further and shoot the things you find there.
+
+   Ori chooses a different pair of primary focusses, using exploration and
+   movement instead. Combat is present in the same way that platforming is
+   present in Metroid, a perfunctory nod to a system that’s intended to
+   give variety to the major focusses.
+
+   The movement upgrades in Super Metroid serve the exploration and the
+   combat, with the screw attack and speed boost providing new ways of
+   engaging in combat, the others providing new ways to reach enemies to
+   shoot. This is present even in the first two upgrades, the Morph Ball
+   and Bomb, powers to help you reach new enemies, and then blow them up.
+
+   In Ori, all the upgrades focus on movement, and only movement. This
+   different focus has a remarkably interesting side-effect:
+
+   There are no boss fights.
+
+Run, run, run, run away
+
+   In Ori, the player never engages in combat with the primary antagonist,
+   and only in one scene do we even injure the antagonist directly. But,
+   we still have major challenges that we face, challenges that are
+   analogous to the missing boss fights.
+
+   In Ori we are expected to repair three major Temple constructs, each of
+   which has world-changing repurcussions when completed, and would
+   normally have a boss battle at the end.
+
+   Ori challenges that normality by making platforming itself the boss
+   fight, placing the player in a challenging and stressful environment
+   and requiring them to escape using the movement tools unlocked so far.
+   I thought this was a great idea, as Ori isn’t a combat-oriented
+   character and the game isn’t about combat. A boss battle would have
+   violated the theme and the style of the game and the world and broken
+   our expectations on how things worked.
+
+Again, from the top
+
+   Unfortunately, these were the sequences in Ori that I found the most
+   grindingly frustrating.
+
+   Throughout the game, the player is expected to manage their
+   checkpoints, and the game is usually good about allowing checkpoints to
+   be spawned pretty much anywhere. This permission to checkpoint at whim
+   drives a considerable amount of the challenge in the platforming, as
+   once you’re through a difficult patch you can checkpoint, and relax.
+   It’s a powerful reward.
+
+   It’s also an action you can’t take, at all, during the escape
+   sequences.
+
+   The escape sequences in Ori are difficult, requiring considerable
+   precision and timing to succeed at. This would be fine, but what you
+   are escaping from is a mechanic that will instantly kill you. Every
+   time.
+
+   Over and over and over and over until you get it just perfectly right.
+
+   Each new subsection of the escape will be filled with new hazards, that
+   will kill you, pushing you back to the beginning of the whole sequence.
+   What should be a challenging, stressful but ultimately satisfying
+   sequence turns into a frustrating grind of making it far enough to
+   discover the next thing that will kill you, dodging that, and repeating
+   until you’ve reached the end.
+
+   This leaves that final run where the sequence is completed, what ought
+   to be the glorious culmination of skill and precision to overcome
+   incredible odds as merely the last episode of seething frustration. I
+   didn’t feel glorious or rewarded or like I had mastered the mechanics
+   when I completed these sections, I felt finally I am done that fucking
+   awful bit.
+
+   This isn’t a good feeling.
+
+Replay
+
+   While I was playing, I really lovedOri. It was the Metroidvania game
+   I’ve wanted to have since I played Shadow Complex and Insanely Twisted
+   Shadow Planet. I loved the amazing graphics, I loved that all the
+   characters were female.
+
+   Having completed the game, do I want to replay it?
+
+   No. Categorically no.
+
+   Unlike Metroid, where I want to revisit and discover and explore more,
+   the Forest of Ori remains more frustration than enjoyment, more endured
+   than pleasant. I remain glad I played it, but it’s become considerably
+   harder to recommend to anyone but those who truly love the Metroidvania
+   style or are looking for precision platforming gaming.
+     * [37]#gaming
+     * [38]#metroidvania
+     * [39]#ori and the blind forest
+     * [40]#how did I not throw my controller
+
+[41](Almost) Actually Better Cameras
+
+   March 24, 2015
+
+   Say, who remembers when I wrote about the [42]Sony QX100
+   NFC-wireless-camera accessory thing? It was a cool piece of tech, but
+   pretty limited, as first generations often are.
+
+   I remarked at the time that it would be an amazing piece of HERE IS MY
+   MONEY PLEASE TAKE IT tech if, instead of it being a point-and-shoot
+   system, it offered a real sensor and an interchangable lens mount.
+
+   Someone was listening! Sony has released almost what I asked for, and
+   it’s called the (again, unimaginatively named) [43]ILCE-QX1. In all
+   seriousness, whoever is naming these things needs to stop. This is
+   terrible.
+
+   I haven’t bought one of these, but I do want to talk about what it is
+   versus what it ought to be.
+
+The Good!
+
+   This is really amazing: Sony has taken an [44]APS-C sensor and jammed
+   it into a tiny cylinder, divorced from much of the legacy that is
+   “camera bodies.” I can replace the lens! I can get really awesome
+   lenses and put them on! I can share the really good photos I take
+   immediately, closing the irritatingly arduous loop of take, go home,
+   upload.
+
+   DSLR-quality Instagram, anyone?
+
+The Everything Else!
+
+   Of course, there’s always bad parts. It’s the rule number one of
+   shipping technology.
+
+   For starters, Sony didn’t improve on the connection process from the
+   QX100. In order to use your phone with the camera, you have to do the
+   NFC dance, adding a considerable delay from want to shoot to shooting.
+   And that’s just on Android! The entire process is considerably worse on
+   iOS, requiring pairing your phone with the camera over WiFi.
+
+   On both Android and iOS, you’re required to use the terrible[45]1
+   “PlayMemories Mobile” app instead of the native camera, rendering any
+   advances the phone makes in Time To Shooting as moot.
+
+   Now, this isn’t entirely Sony’s fault. Apple keeps these sorts of
+   things quite tightly locked down, and Android was almost certainly
+   never designed with the idea of a custom Bluetooth lens contraption
+   replacing the native camera.
+
+   However.
+
+   There’s this interesting other fact in play, which is that Sony also
+   makes a smartphone. [46]A range of them, in fact, that you may have
+   heard of!
+
+   I even use one!
+
+   So what, you might reply, and justly so. Well, it seems to me that Sony
+   offers this terribly-named, extremely interesting tech gadget with
+   abysmal user experience on most smartphones, and Sony also offers their
+   own smartphone where they maintain full control of the operating
+   system.
+
+   But they don’t ship a separate app or any integration for users on
+   their own platform to have a better experience. An Xperia owner is
+   forced to use the same terrible app as the Galaxy S owner or the Moto G
+   owner. Everyone endures the same terrible experience.
+
+   But an Xperia owner shouldn’t have to. An Xperia owner could have a
+   device upon which the native camera is overridden by the Sony-branded
+   external camera modules, could have a device where Time To Shoot is
+   considerably faster and more intuitive, enabled by Sony owning their
+   own underlying platform.
+
+The Funnel
+
+   Overall, this device which looks so good but isn’t is quite obviously
+   not meant for established photographers. It’s worse than a standalone
+   camera in most ways and lacks the platform integration that would
+   really make it exceptional. For a photographer, it’d be a shallow
+   bauble.
+
+   I don’t think it’s aiming at existing photographers, but rather at
+   people wanting considerably better photos with the cellphone they have,
+   a camera that can be upgraded indepentently of their phone, and
+   vice-versa.
+
+   Which this is, in spades.
+
+   On Sony’s side, this is an excellent mechanism to capture photographers
+   moving into systems with replaceable lenses, as the QX1 uses their
+   proprietary E-mount format. As good glass is one of the most expensive
+   and least likely to be upgraded aspects of a photographers’ arsenal,
+   Sony provides a clean upgrade path for a photographer to move into
+   dedicated camera bodies without losing their investment.
+
+   Their use of industry-standard MicroSD cards also makes it more likely
+   to get uptake in camera shops, enabling re-use of existing hardware
+   that a customer may have.
+
+   As a photographer with dedicated bodies and an existing investment in
+   lenses, the QX1 isn’t for me. It’s close, and as phones become more
+   powerful and vendors aim for interesting points of differentiation it
+   will get closer.
+
+   Hopefully it won’t be long before we see a “camera” body has been
+   designed to work with a phone, a phone that has been designed to work
+   with that camera body, while using micro 4/3rds. A device good enough
+   that a dedicated body is no longer necessary, a device that is,
+   effectively, just carrying the lens by itself.
+
+   The QX1 isn’t.
+
+   Soon, though. Soon.
+     __________________________________________________________________
+
+    1. hearsay, obviously[47]↩
+
+     * [48]#cameras
+     * [49]#tech
+     * [50]#sony
+     * [51]#the future is now
+     * [52]#why is it even named this
+
+[53]Twitter
+
+   March 17, 2015
+
+   Hi, Twitter.
+
+   It’s time we had a bit of a talk.
+
+   We met in 2007. It was a heavy time for me, full of self-discovery and
+   emotions and difficulties and, well, the general ephemera of life
+   itself. You were so young, but then, so was I.
+
+   With you I felt so free, I felt so able to share and be myself, to not
+   be afraid of anything. I could be anything or anyone with you, and you
+   showed us all how the world could change. You were there when I needed
+   friends, Twitter, gave me tweetups and connections spanning the globe.
+   You were there when I publicly came out as trans. You’ve been there
+   through hardness and joy, helped with my depression and shared in my
+   victories.
+
+   I wouldn’t trade any of that for the world.
+
+   But.
+
+   But, but, but.
+
+   It’s been a long time since I’ve felt safe with you, Twitter, a long
+   time since I had that freedom. I’m afraid all the time, afraid that if
+   I say the wrong thing that you’ll fly into a rage. Instead of seeing
+   you treat my friends well, I see you hurt people and revel in it. I
+   watch you ignore their pain and the harm that you’re doing.
+
+   But then, when I was so depressed for so long and I reached out to you
+   for help, sometimes you were really there and you really cared, and
+   that was really great.
+
+   Sometimes. Sometimes you weren’t there and I would still be talking to
+   you and hoping that my friends would overhear, instead of just talking
+   to my friends. I let you maintain my social network, and didn’t notice
+   as you changed how I interact.
+
+   It hurt when I noticed that I was doing that, how I felt like I’d
+   forgotten how to be a good friend, that I needed to re-learn how to
+   connect.
+
+   The more I’ve grown to depend on you, the more you’ve drawn away.
+   Sometimes you make me feel like I don’t matter and that what we had
+   before doesn’t exist.
+
+   Maybe it never did.
+
+   The hardest part, Twitter, is seeing how abusive you’ve become.
+
+   Maybe you always were, and it just took me this long to notice. We have
+   so much history together, history I don’t want to lose, and maybe that
+   blinded me.
+
+   We’ve tried separation before, and I’ve always come crawling back. I’ve
+   never said how smug I think you feel when I do, how you enjoy my
+   dependency. You want me here, you love that I want it. I’ve never said
+   how dirty I feel, when I do come back.
+
+   But I do come back. You’ve become a part of me, changed who I am and
+   who I can become. I’ll keep coming back, and it’s time to accept that.
+
+   Instead of a teary departure, my dear Twitter, how we’re together is
+   going to change. The way you’re so ephemeral has changed how I speak,
+   but not for the better. I’m still going to rely on you, but I don’t
+   want you to be the first to hear my thoughts.
+
+   Instead, I’m going to speak to myself first, and let you know I’ve said
+   something.
+
+   Instead, I’m going to talk to my friends on my own, not speak to the
+   wind and hope they hear.
+
+   Instead, Twitter, as we walk together, I’m going to lead.
+     * [54]#twitter
+     * [55]#tech
+     * [56]#philosoraptor
+
+[57]Ori and the Blind Forest
+
+   March 16, 2015
+
+   [58]Ori and the Blind Forest came out last week, and I was very, very
+   excited that it did.
+
+   I’d first seen a trailer for Ori, oh, sometime in 2014. It looked
+   incredible, sad humming music over amazing artwork of a giant black
+   creature and its small, white companion.
+
+   Obviously it immediately went on my wishlist, and I didn’t even know
+   what kind of game it was.
+
+   Fast-forward to last week, and its release. It’s out! I said, and leapt
+   to Steam to purchase my copy, and start the download. It’s out! What
+   did I buy? It turns out, I hadn’t read anything about the game and had
+   no idea if it was even good. I was excited for the beauty of it, for
+   the smoothness of the world and the delight of the music, and it was
+   worth it for that alone.
+
+   Oh, but the game, what did I buy? Well, let me talk about that.
+
+   Ori is a side-scroller. It’s a platformer. It’s Metroidvania, my most
+   beloved of all genres. It is gloriously pretty, what appears to be
+   hand-drawn and animated to silky smooth perfection, and Ori’s movement
+   is fluid and responsive and breathtaking to behold.
+
+   It’s amazingly pretty. Did I say that already?
+
+   I am loving this game. Except for the tree, all the major characters
+   are referred to with female pronouns. Ori is a she, the angry owl is,
+   Naru. Everyone has been she so far. I can’t describe how wonderful it
+   is to just have “she did this” or “she did that” as the standard
+   narration.
+
+   It’s such a wonderful change from the Male As Endless Default that
+   we’re subjected to.
+
+But…
+
+   This game isn’t for everyone. You have to enjoy the Metroidvania style
+   of considerable backtracking and exploration, working through areas
+   where you’ve already been. Repeatedly. If you like your levels to be
+   new and distinct, this perhaps isn’t for you.
+
+   The other thing about Ori is that its platforming is really hard.
+   There’s a sequence about a third of the way in where you have to use a
+   newly unlocked movement ability while being chased by insta-death. And
+   this way goes a long way, and it’s hard. As a sequence it’s about 2
+   minutes long but it took me over an hour to clear, solely because of
+   the perfection required.
+
+   As a result, I’d describe Ori as a love-letter to platformers and old,
+   2D Metroid games. It’s intentionally challenging and frustrating,
+   asking a great deal of the player in terms of dexerity and precision,
+   rewarding excellent play with a heady rush of, wow, I just outran THAT.
+
+   And I barely touched the ground.
+
+Buy it.
+
+   It’s pretty. The music is lovely. It stars female creatures. It does so
+   many things right and it makes me so happy, even when it makes me want
+   to throw the controller because I can’t quite get the precision right.
+
+   If this sounds like your thing, I wholly recommend Ori.
+
+   If it’s not your thing, I don’t recommend it because it will be a
+   wholly frustrating experience.
+     * [59]#gaming
+     * [60]#metroidvania
+     * [61]#welcome to the luvvies
+
+[62]Why Can't We Have Nice Things
+
+   March 11, 2015
+
+   A few months ago there was an announcement about a new Ghostbusters
+   movie. This is interesting, Ghostbusters was a fun movie back in the
+   day and it’d be neat to see a modern take on it. Great.
+
+   Even cooler was the fact that the Ghostbusters team was going to be
+   entirely composed of women. Excellent! The lack of gender diversity is
+   hugely glaring, and the growing awareness of how awful things are is
+   resulting in positive steps like this.
+
+   I’m happy, but of course there’s a never-endingly whiny contingent of
+   entitled men proclaiming that ACTUALLY THIS IS THE REAL SEXISM. I’m not
+   going to link to any of it because, really, who wants to read that kind
+   of dreck?
+
+   But I’m happy with Ghostbusters, and life carries on.
+
+   Until the other day, [63]when Sony decides to announce that they’re
+   booting Another Ghostbusters Movie.
+
+   And I’m just
+
+   no.
+
+   Go read that article, it’s a great summation of why this is hugely
+   problematic.
+
+   Or, as someone on Metafilter (paraphrased) said: “Instead of having The
+   Ghostbusters, which happened to star women, now we have Ghostbusters
+   and Lady Ghostbusters.”
+     * [64]#sony
+     * [65]#sexism
+     * [66]#ghostbusters
+
+[67]What does this Solve?
+
+   March 10, 2015
+
+   So it’s a big tech show-annouce-press-everything-thing right now. Just
+   past? CES maybe? MWC? I don’t actually know. Stuff’s going on, things
+   have been announced, some of them look shiny.
+
+   Some of those things don’t look shiny.
+
+   One of the not shiny-things that big company extraordinare Sony
+   announced is their Google Glass-alike augmented reality glasses thing.
+   It’s $840 US dollars. You can [68]look at a video about it and
+   everything, and really, this can only be seen to be believed. Giant,
+   bulky frames complemented by a giant, bulky hockey puck prominently
+   clipped to your jacket.
+
+   In spite of that, I’d still wear and use them if they were any good.
+   Augmented reality is cool, it’s the future, it’s things that I want to
+   see come about in real life. I want my heads-up goggles that integrate
+   the Internet, providing useful passive information about the real
+   spaces that I’m in.
+
+   What I don’t want is to have notifications popping up before my eyes,
+   because there’s no integration of the virtual with the physical. I
+   don’t want to try to reply to a text message with dodgy voice detection
+   or terrible in-my-glasses UI.
+
+   Directions being overlaid on the world would be useful, but Google
+   Glass got there years ago.
+
+What Would Be Cool
+
+   If you watch the video, the puck-glasses have to be paired with your
+   phone, so they’re obviously being treated as an extension of the phone.
+   Why not take advantage of that?
+
+   Say, when the user looks at their phone their glasses could detect and
+   turn the phone on, or maybe draw a simple UI over of the phone with the
+   current notifications. A phone placed on a flat surface and turned on,
+   could be used to project a larger display across that surface.
+
+   Imagine, placing your phone on a surface and the phone becomes the
+   surface, but just for you! Adding a second camera for binocular vision
+   and you could easily provide Kinect-style depth mapping, letting the
+   user drag elements around or type on a virtual keyboard. This would be
+   the promise of the Ubuntu Edge without the necessity of a full HDMI
+   monitor, keyboard and mouse to dock with. Any surface could become a
+   simple, usable computer system.
+
+   If the company wasn’t privacy-invadingly malicious or in a malicious
+   legal environment, another useful overlay would be letting users have a
+   pop-up beside their head with a small blurb about who they are. Add a
+   name! Or don’t! By having the device itself advertise who is the owner,
+   we avoid the considerable unpleasantness around early versions of such
+   technologies requiring constantly-active facial recognition technology.
+
+What Isn’t Cool
+
+   This device is a Pebble, only strapped to your face. It doesn’t bring
+   anything new or interesting to what we already have, and doesn’t make
+   use of any of the powers that augmented reality or the powerful pocket
+   computers can provide.
+
+   Ugliness can be forgiven for magical, and from the video Sony’s glasses
+   aren’t magical. There’s no there there, just a scrolling banner of text
+   remaining divorced from the contextual world.
+     * [69]#augmented reality
+     * [70]#tech
+     * [71]#why would you do this
+     * [72]#sony
+
+References
+
+   1. file:///feed.rss
+   2. file:///
+   3. file:///archives
+   4. file:///about
+   5. http://aurynn.photography/
+   6. file:///feed.rss
+   7. file:///86/contempt-culture
+   8. file:///home/mgomez/CS432/A3/source70.txt#note-1
+   9. http://www.shakesville.com/2011/12/harmful-communication-part-one-intent.html
+  10. file:///home/mgomez/CS432/A3/source70.txt#ref-1
+  11. file:///tagged/culture
+  12. file:///tagged/philsoraptor
+  13. file:///tagged/opinions
+  14. file:///tagged/tech
+  15. file:///tagged/programming
+  16. file:///tagged/feminism
+  17. file:///tagged/shut-up-already
+  18. file:///85/destiny
+  19. https://www.bungie.net/en/pub/AboutDestiny
+  20. https://www.kotaku.com/
+  21. http://kotaku.com/the-messy-true-story-behind-the-making-of-destiny-1737556731
+  22. file:///tagged/gaming
+  23. file:///tagged/opinion
+  24. file:///tagged/mmo
+  25. file:///tagged/augh
+  26. file:///84/so-i-started-a-business
+  27. http://www.eiara.nz/
+  28. file:///home/mgomez/CS432/A3/blot.im
+  29. file:///tagged/life-stuff
+  30. file:///tagged/devops
+  31. file:///83/a-new-place
+  32. http://scriptogr.am/
+  33. http://blot.im/
+  34. file:///tagged/meta
+  35. file:///3/100-schmundred-percent
+  36. http://blog.aurynn.com/68/ori-and-the-blind-forest
+  37. file:///tagged/gaming
+  38. file:///tagged/metroidvania
+  39. file:///tagged/ori-and-the-blind-forest
+  40. file:///tagged/how-did-i-not-throw-my-controller
+  41. file:///8/almost-actually-better-cameras
+  42. http://blog.aurynn.com/48/towards-amazing-cameras
+  43. http://en.m.wikipedia.org/wiki/Sony_ILCE-QX1
+  44. http://en.m.wikipedia.org/wiki/APS-C
+  45. file:///home/mgomez/CS432/A3/source70.txt#note-1
+  46. http://en.m.wikipedia.org/wiki/Sony_Xperia
+  47. file:///home/mgomez/CS432/A3/source70.txt#ref-1
+  48. file:///tagged/cameras
+  49. file:///tagged/tech
+  50. file:///tagged/sony
+  51. file:///tagged/the-future-is-now
+  52. file:///tagged/why-is-it-even-named-this
+  53. file:///55/twitter
+  54. file:///tagged/twitter
+  55. file:///tagged/tech
+  56. file:///tagged/philosoraptor
+  57. file:///68/ori-and-the-blind-forest
+  58. http://www.oriblindforest.com/
+  59. file:///tagged/gaming
+  60. file:///tagged/metroidvania
+  61. file:///tagged/welcome-to-the-luvvies
+  62. file:///43/why-cant-we-have-nice-things
+  63. http://thedissolve.com/news/5029-dueling-ghostbusters/
+  64. file:///tagged/sony
+  65. file:///tagged/sexism
+  66. file:///tagged/ghostbusters
+  67. file:///67/what-does-this-solve
+  68. https://recode.net/2015/02/18/reactions-sonys-840-smart-glasses-are-too-dorky-to-be-believed/
+  69. file:///tagged/augmented-reality
+  70. file:///tagged/tech
+  71. file:///tagged/why-would-you-do-this
+  72. file:///tagged/sony

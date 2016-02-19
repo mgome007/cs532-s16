@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Learn Python - Learn Python Tutorial</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Welcome to the most reliable source to Learn Python. We have been teaching Python for years now and we have been told we have the best Python tutorials."/>
+<meta name="robots" content="noodp"/>
+<meta name="keywords" content="Python tutorials, Python tutorial, Learn Python, Best Python Tutorial"/>
+<link rel="canonical" href="http://learnpythontutorial.com/" />
+<link rel="publisher" href="https://plus.google.com/b/111349649412158821277/+LearnpythontutorialFree/posts"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Learn Python - Learn Python Tutorial" />
+<meta property="og:description" content="Welcome to the most reliable source to Learn Python. We have been teaching Python for years now and we have been told we have the best Python tutorials." />
+<meta property="og:url" content="http://learnpythontutorial.com/" />
+<meta property="og:site_name" content="Learn Python Tutorial" />
+<meta property="og:image" content="http://learnpythontutorial.com/wp-content/uploads/2015/08/logo1-e1440638795466.png" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="Welcome to the most reliable source to Learn Python. We have been teaching Python for years now and we have been told we have the best Python tutorials."/>
+<meta name="twitter:title" content="Learn Python - Learn Python Tutorial"/>
+<meta name="twitter:site" content="@LearnPythonTut"/>
+<meta name="twitter:image" content="http://learnpythontutorial.com/wp-content/uploads/2015/08/logo1-e1440638795466.png"/>
+<meta name="twitter:creator" content="@learnpythontutorial"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/learnpythontutorial.com\/","name":"Learn Python Tutorial","potentialAction":{"@type":"SearchAction","target":"http:\/\/learnpythontutorial.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/learnpythontutorial.com\/","sameAs":["https:\/\/plus.google.com\/b\/111349649412158821277\/+LearnpythontutorialFree\/posts","https:\/\/www.youtube.com\/channel\/UCbhm6TbMBTWn_GxrIbPFapA","https:\/\/www.pinterest.com\/pythontutorial\/","https:\/\/twitter.com\/LearnPythonTut"],"name":"Learn Python Tutorial","logo":"http:\/\/learnpythontutorial.com\/wp-content\/uploads\/2015\/08\/logo-e1440638777377.png"}</script>
+<meta name="alexaVerifyID" content="iUvJMFkUgA9nqwF-qSXifnYnLfI" />
+<meta name="msvalidate.01" content="5FB4D33DE7F4D175C8BA1E98F81D1188" />
+<meta name="google-site-verification" content="p7Sp0yZMrtxR8XhDa24Op5kJsnDsb_zs3dWOh97aZug" />
+<meta name="p:domain_verify" content="eac254220e6020b47243b6ba3133551e" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Learn Python Tutorial &raquo; Feed" href="http://learnpythontutorial.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Learn Python Tutorial &raquo; Comments Feed" href="http://learnpythontutorial.com/comments/feed/" />
+<link rel="shortcut icon" type="image/x-icon" href="http://learnpythontutorial.com/wp-content/uploads/2015/08/learnpythontutorial.png" />		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/learnpythontutorial.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=567c1e17b13f0384d59e7315de494a0f"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='crayon-css'  href='http://learnpythontutorial.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://learnpythontutorial.com/wp-content/plugins/tablepress/css/default.min.css?ver=567c1e17b13f0384d59e7315de494a0f' type='text/css' media='all' />
+<link rel='stylesheet' id='kadence_theme-css'  href='http://learnpythontutorial.com/wp-content/themes/virtue/assets/css/virtue.css?ver=567c1e17b13f0384d59e7315de494a0f' type='text/css' media='all' />
+<link rel='stylesheet' id='virtue_skin-css'  href='http://learnpythontutorial.com/wp-content/themes/virtue/assets/css/skins/default.css' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-virtue-css'  href='http://fonts.googleapis.com/css?family=Lato%3A400&#038;ver=567c1e17b13f0384d59e7315de494a0f' type='text/css' media='all' />
+<link rel='stylesheet' id='tooltip-css'  href='http://learnpythontutorial.com/wp-content/plugins/enhanced-tooltipglossary/frontend/assets/css/tooltip.css?ver=567c1e17b13f0384d59e7315de494a0f' type='text/css' media='all' />
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-includes/js/jquery/jquery.js?ver=567c1e17b13f0384d59e7315de494a0f'></script>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=567c1e17b13f0384d59e7315de494a0f'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/learnpythontutorial.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cmtt_data = {"tooltip":{"clickable":0,"top":3,"left":23,"endalpha":95,"borderStyle":"none","borderWidth":"0px","borderColor":"#000","fontSize":"13px","padding":"2px 12px 3px 7px","borderRadius":"6px"},"ajaxurl":"http:\/\/learnpythontutorial.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-content/plugins/enhanced-tooltipglossary/frontend/assets/js/tooltip.js?ver=567c1e17b13f0384d59e7315de494a0f'></script>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-content/themes/virtue/assets/js/vendor/modernizr.min.js'></script>
+<link rel='https://api.w.org/' href='http://learnpythontutorial.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://learnpythontutorial.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://learnpythontutorial.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='http://learnpythontutorial.com/' />
+<style type="text/css">	.ssba {
+									
+									
+									
+									
+								}
+								.ssba img
+								{
+									width: px !important;
+									padding: px;
+									border:  0;
+									box-shadow: none !important;
+									display: inline !important;
+									vertical-align: middle;
+								}
+								.ssba, .ssba a
+								{
+									text-decoration:none;
+									border:0;
+									background: none;
+									
+									
+									
+									font-weight: bold;
+								}.ssba_sharecount:after, .ssba_sharecount:before {
+									right: 100%;
+									border: solid transparent;
+									content: " ";
+									height: 0;
+									width: 0;
+									position: absolute;
+									pointer-events: none;
+								}
+								.ssba_sharecount:after {
+									border-color: rgba(224, 221, 221, 0);
+									border-right-color: #f5f5f5;
+									border-width: 5px;
+									top: 50%;
+									margin-top: -5px;
+								}
+								.ssba_sharecount:before {
+									border-color: rgba(85, 94, 88, 0);
+									border-right-color: #e0dddd;
+									border-width: 6px;
+									top: 50%;
+									margin-top: -6px;
+								}
+								.ssba_sharecount {
+									font: 11px Arial, Helvetica, sans-serif;
+
+									padding: 5px;
+									-khtml-border-radius: 6px;
+									-o-border-radius: 6px;
+									-webkit-border-radius: 6px;
+									-moz-border-radius: 6px;
+									border-radius: 6px;
+									position: relative;
+									border: 1px solid #e0dddd;color: #ffffff;
+										background: #42a7e2;
+									}
+									.ssba_sharecount:after {
+										border-right-color: #42a7e2;
+									}</style><style type="text/css">#logo {padding-top:25px;}#logo {padding-bottom:10px;}#logo {margin-left:0px;}#logo {margin-right:0px;}#nav-main {margin-top:40px;}#nav-main {margin-bottom:10px;}.headerfont, .tp-caption {font-family:Lato;} 
+  .topbarmenu ul li {font-family:Lato;}
+  #kadbreadcrumbs {font-family:Verdana, Geneva, sans-serif;}input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; } input[type=number] {-moz-appearance: textfield;}.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button {display: none;}.product_item .product_details h5 {text-transform: none;}.product_item .product_details h5 {min-height:40px;}@media (max-width: 767px) {.kad-desktop-slider {display:none;}}</style><!--[if lt IE 9]>
+<script src="http://learnpythontutorial.com/wp-content/themes/virtue/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- BEGIN GADWP v4.9.1.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-59821372-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+<style type="text/css" title="dynamic-css" class="options-output">header #logo a.brand,.logofont{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:32px;}.kad_tagline{font-family:Lato;line-height:20px;font-weight:400;font-style:normal;color:#444444;font-size:14px;}.product_item .product_details h5{font-family:Lato;line-height:20px;font-weight:normal;font-style:700;font-size:16px;}h1{font-family:Lato;line-height:40px;font-weight:normal;font-style:400;font-size:38px;}h2{font-family:Lato;line-height:40px;font-weight:normal;font-style:normal;font-size:32px;}h3{font-family:Lato;line-height:40px;font-weight:normal;font-style:400;font-size:28px;}h4{font-family:Lato;line-height:40px;font-weight:normal;font-style:400;font-size:24px;}h5{font-family:Lato;line-height:24px;font-weight:normal;font-style:700;font-size:18px;}body{font-family:Verdana, Geneva, sans-serif;line-height:20px;font-weight:normal;font-style:400;font-size:14px;}#nav-main ul.sf-menu a{font-family:Lato;line-height:18px;font-weight:400;font-style:normal;font-size:12px;}#nav-second ul.sf-menu a{font-family:Lato;line-height:22px;font-weight:400;font-style:normal;font-size:18px;}.kad-nav-inner .kad-mnav, .kad-mobile-nav .kad-nav-inner li a,.nav-trigger-case{font-family:Lato;line-height:20px;font-weight:400;font-style:normal;font-size:16px;}</style>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-content/plugins/wp-spamshield/js/jscripts.php'></script> 
+</head>
+  <body class="home page page-id-7 page-template page-template-page-feature page-template-page-feature-php wide">
+    <div id="wrapper" class="container">
+    <div id="kt-skip-link"><a href="#content">Skip to Main Content</a></div><header class="banner headerclass" role="banner">
+  <section id="topbar" class="topclass">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 kad-topbar-left">
+          <div class="topbarmenu clearfix">
+                                            </div>
+        </div><!-- close col-md-6 --> 
+        <div class="col-md-6 col-sm-6 kad-topbar-right">
+          <div id="topbar-search" class="topbar-widget">
+            <form role="search" method="get" id="searchform" class="form-search" action="http://learnpythontutorial.com/">
+  <label class="hide" for="s">Search for:</label>
+  <input type="text" value="" name="s" id="s" class="search-query" placeholder="Search">
+  <button type="submit" id="searchsubmit" class="search-icon"><i class="icon-search"></i></button>
+</form>        </div>
+        </div> <!-- close col-md-6-->
+      </div> <!-- Close Row -->
+    </div> <!-- Close Container -->
+  </section>
+  <div class="container">
+    <div class="row">
+          <div class="col-md-4 clearfix kad-header-left">
+            <div id="logo" class="logocase">
+              <a class="brand logofont" href="http://learnpythontutorial.com/">
+                Learn Python Tutorial              </a>
+                              <p class="kad_tagline belowlogo-text">Learn Python for Free!</p>
+                         </div> <!-- Close #logo -->
+       </div><!-- close logo span -->
+                <div class="col-md-8 kad-header-right">
+           <nav id="nav-main" class="clearfix" role="navigation">
+              <ul id="menu-main" class="sf-menu"><li  class="menu-home current-menu-item current_page_item menu-item-16"><a href="http://learnpythontutorial.com/">Home</a></li>
+<li  class="menu-python-tutorials sf-dropdown menu-item-17"><a href="http://learnpythontutorial.com/category/python-tutorials/">Python Tutorials</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-getting-started menu-item-18"><a href="http://learnpythontutorial.com/category/python-tutorials/getting-started/">Getting Started</a></li>
+	<li  class="menu-python-basics menu-item-91"><a href="http://learnpythontutorial.com/category/python-tutorials/python-basics/">Python Basics</a></li>
+	<li  class="menu-python-variables menu-item-166"><a href="http://learnpythontutorial.com/category/python-tutorials/python-variables/">Python Variables</a></li>
+	<li  class="menu-python-numbers menu-item-165"><a href="http://learnpythontutorial.com/category/python-tutorials/python-numbers/">Python Numbers</a></li>
+	<li  class="menu-python-strings menu-item-220"><a href="http://learnpythontutorial.com/category/python-tutorials/python-strings/">Python Strings</a></li>
+	<li  class="menu-python-list menu-item-477"><a href="http://learnpythontutorial.com/category/python-tutorials/python-list/">Python List</a></li>
+</ul>
+</li>
+<li  class="menu-django sf-dropdown menu-item-576"><a href="http://learnpythontutorial.com/category/django/">Django</a>
+<ul class="sf-dropdown-menu">
+	<li  class="menu-django-setup menu-item-580"><a href="http://learnpythontutorial.com/category/django/django-setup/">Django Setup</a></li>
+	<li  class="menu-first-django-project menu-item-605"><a href="http://learnpythontutorial.com/category/django/lpt-project/">First Django Project</a></li>
+</ul>
+</li>
+<li  class="menu-python-glossary menu-item-95"><a href="http://learnpythontutorial.com/python-glossary/">Python Glossary</a></li>
+</ul>           </nav> 
+          </div> <!-- Close menuclass-->
+               
+    </div> <!-- Close Row -->
+               <div id="mobile-nav-trigger" class="nav-trigger">
+              <button class="nav-trigger-case mobileclass collapsed" data-toggle="collapse" data-target=".kad-nav-collapse">
+                <span class="kad-navbtn"><i class="icon-reorder"></i></span>
+                <span class="kad-menu-name">Menu</span>
+              </button>
+            </div>
+            <div id="kad-mobile-nav" class="kad-mobile-nav">
+              <div class="kad-nav-inner mobileclass">
+                <div class="kad-nav-collapse">
+                <ul id="menu-mobile" class="kad-mnav"><li  class="menu-pythontutorials sf-dropdown sf-dropdown-toggle menu-item-241"><a href="http://learnpythontutorial.com/category/python-tutorials/">Python Tutorials<span class="sf-description">You are on the verge of learning one of the greatest programming languages in the world. Here at Learn Python Tutorial we offer some of the most in-depth Python tutorials ever created. We will teach you everything you have to know about the Python Programming language. If you follow every one of our tutorials at the end, you will become one of the most advanced Python programmers in the world.</span></a><span class="kad-submenu-accordion collapse-next  kad-submenu-accordion-open" data-parent=".kad-nav-collapse" data-toggle="collapse" data-target=""><i class="icon-chevron-down"></i><i class="icon-chevron-up"></i></span>
+<ul class="sf-dropdown-menu collapse">
+	<li  class="menu-gettingstarted menu-item-245"><a href="http://learnpythontutorial.com/category/python-tutorials/getting-started/">Getting Started</a></li>
+	<li  class="menu-pythonbasics menu-item-243"><a href="http://learnpythontutorial.com/category/python-tutorials/python-basics/">Python Basics</a></li>
+	<li  class="menu-pythonvariables menu-item-244"><a href="http://learnpythontutorial.com/category/python-tutorials/python-variables/">Python Variables</a></li>
+	<li  class="menu-pythonnumbers menu-item-242"><a href="http://learnpythontutorial.com/category/python-tutorials/python-numbers/">Python Numbers</a></li>
+	<li  class="menu-pythonstrings menu-item-246"><a href="http://learnpythontutorial.com/category/python-tutorials/python-strings/">Python Strings</a></li>
+	<li  class="menu-pythonlist menu-item-469"><a href="http://learnpythontutorial.com/category/python-tutorials/python-list/">Python List</a></li>
+</ul>
+</li>
+</ul>               </div>
+            </div>
+          </div>   
+           
+  </div> <!-- Close Container -->
+   
+     </header>      <div class="wrap contentclass" role="document">
+
+      <div class="sliderclass kad-mobile-slider">
+<div id="imageslider" class="container">
+			<div class="videofit">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/P74JAYCD45A" frameborder="0" allowfullscreen></iframe>                  </div>
+        </div><!--Container-->
+</div><!--feat--><div class="sliderclass kad-desktop-slider">
+<div id="imageslider" class="container">
+				<div class="videofit" style="max-width:1170px; margin-left: auto; margin-right:auto;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/P74JAYCD45A" frameborder="0" allowfullscreen></iframe>            </div>
+</div><!--Container-->
+</div><!--feat-->
+    <div id="content" class="container homepagecontent">
+   		<div class="row">
+          	<div class="main col-md-12" role="main">
+          	<div class="entry-content" itemprop="mainContentOfPage">
+
+      										<div class="homecontent clearfix home-margin"> 
+									  <h1 style="text-align: center;">Learn Python</h1>
+<p>We have set out to teach you everything you have to know about Python. Our goal is to continue teaching Python since learning everything thing there is to know about Python would take years and we have made it our goal to keep adding tutorials to this site daily and when we finally learn everything there is to know about the <a href="http://learnpythontutorial.com/python-glossary/python-programming-language/" title="Glossary: Python Programming Language"  data-tooltip="Python Programming LanguageThe python programming language is a general purpose and high level programming language. The language was introduced(...) &lt;strong&gt;&lt;/strong&gt;"  class="glossaryLink " target="_blank" >Python programming language</a>. Python would have probably changed so we will start over teaching the changes in the language. We are determined to be the number one source for learning Python.</p>
+<!-- Quick Adsense WordPress Plugin: http://quicksense.net/ -->
+<div style="float:none;margin:10px 0 10px 0;text-align:center;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- learnpythontutorial2 --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1376156697869064" data-ad-slot="4841487835" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<p>Our tutorials are different than most on the internet. We try to educate by explaining every little thing and repeating ourselves since we have learned over the past year that our users tend to learn better by taking baby steps and we drive home the information by repeating ourselves. We know our site may not be as cool looking as other Python tutorial sites but this is a small operation and if we took on building a cool looking site that was interactive. We would look like the next site and you would not learn that much because we be tied to managing the site and not teaching. We decided to go simple and educate rather than look cool.</p>
+<!-- Quick Adsense WordPress Plugin: http://quicksense.net/ -->
+<div style="float:none;margin:10px 0 10px 0;text-align:center;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- learnpythontutorial3 --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1376156697869064" data-ad-slot="6318221034" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<p>Each Python tutorial contains a written tutorial along with a video tutorial. We know some people need to see it written while others need to hear or see it so we have tried to cover both angles. Our tutorials start out very basic and slowly move towards the more complicated parts of language. This project is a work in progress and we ask that you check back often for more updates. We are working hard adding at least seven tutorials a week which will help you learn Python.</p>
+<!-- Quick Adsense WordPress Plugin: http://quicksense.net/ -->
+<div style="float:none;margin:10px 0 10px 0;text-align:center;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- learnpythontutorial --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1376156697869064" data-ad-slot="3364754639" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<p>We like feedback and interaction if you have question please ask we are there to help you learn the Python language.</p>
+<h2>Complete List&nbsp;of Python Tutorials</h2>
+<p>*Note &ndash; If you do not see the tutorial you are looking for check back we are sure it is coming.</p>
+
+<div class="panel-group" id="accordionname48"><div class="panel panel-default panel-even"><div class="panel-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionname48" href="#collapse480"><h5><i class="icon-minus primary-color"></i><i class="icon-plus"></i>Getting Started With Python</h5></a></div><div id="collapse480" class="panel-collapse collapse "><div class="panel-body postclass">
+In this Python Tutorial section, we show you how to install Python on a Mac or Windows machine. We talk about the <a href="http://learnpythontutorial.com/python-glossary/python-programming-language/" title="Glossary: Python Programming Language"  data-tooltip="Python Programming LanguageThe python programming language is a general purpose and high level programming language. The language was introduced(...) &lt;strong&gt;&lt;/strong&gt;"  class="glossaryLink " target="_blank" >Python programming language</a> including the history and why you should learn the language. If you have no knowledge about Python. This is a good spot to start learning about Python.
+<h2>Python Tutorials In The Getting Started With Python Section</h2>
+<ol><li><a href="http://learnpythontutorial.com/getting-started-with-python-python-tutorial/">Getting Started With Python</a></li>
+<li><a href="http://learnpythontutorial.com/why-should-you-learn-python-python-tutorial/">Why Should You Learn Python</a></li>
+<li><a href="http://learnpythontutorial.com/history-of-the-python-programming-language-python-tutorial/">History Of The Python Programming Language</a></li>
+<li><a href="http://learnpythontutorial.com/how-to-install-python-3-on-mac-os-x-python-tutorial/">How To Install Python 3 On Mac OS X</a></li>
+<li><a href="http://learnpythontutorial.com/how-to-install-python-3-on-windows-python-tutorial/">How To Install Python 3 On Windows</a></li>
+<li><a href="http://learnpythontutorial.com/mac-os-x-terminal-commands-python-tutorial/">Mac OS X Terminal Commands</a></li>
+</ol></div></div></div>
+<div class="panel panel-default panel-odd"><div class="panel-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionname48" href="#collapse481"><h5><i class="icon-minus primary-color"></i><i class="icon-plus"></i>Python Basics</h5></a></div><div id="collapse481" class="panel-collapse collapse "><div class="panel-body postclass">
+In this section of Python Tutorials we will take a brief tour of all Python&rsquo;s data types. Understanding data types in Python is important and will help you a long the way.
+<h2>Python Tutorials In The Python Basics Section</h2>
+<ol><li><a href="http://learnpythontutorial.com/python-basics-python-tutorial/">Python Basics</a></li>
+<li><a href="http://learnpythontutorial.com/assign-a-variable-in-python-python-tutorial/">Assign A Variable in Python 3</a></li>
+<li><a href="http://learnpythontutorial.com/python-numbers-python-tutorial/">Python Numbers</a></li>
+<li><a href="http://learnpythontutorial.com/python-string-basics-python-tutorial/">Python String Basics</a></li>
+<li><a href="http://learnpythontutorial.com/python-list-basics-python-tutorial/">Python List Basics</a></li>
+<li><a href="http://learnpythontutorial.com/python-dictionary-basics-python-tutorial/">Python Dictionary Basics</a></li>
+<li><a href="http://learnpythontutorial.com/basics-of-the-python-tuple-python-tutorial/">Basics Of The Python Tuple</a></li>
+<li><a href="http://learnpythontutorial.com/how-to-install-sublime-text-on-mac-os-x-python-tutorial/">How To Install Sublime Text On Mac OS X</a></li>
+<li><a href="http://learnpythontutorial.com/how-to-install-sublime-text-on-windows-python-tutorial/">How To Install Sublime Text on Windows</a></li>
+</ol><p>&nbsp;</p>
+</div></div></div>
+<div class="panel panel-default panel-even"><div class="panel-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionname48" href="#collapse482"><h5><i class="icon-minus primary-color"></i><i class="icon-plus"></i>Python Variables</h5></a></div><div id="collapse482" class="panel-collapse collapse "><div class="panel-body postclass">
+<p>In this Python Tutorial section, we will learn how Python variables work. Python variables are different from a lot of other programming languages. We will discuss how variables work in Python along with Python objects.</p>
+<h2>Python Tutorials in the Variables Section</h2>
+<ol><li><a href="http://learnpythontutorial.com/python-variables-python-tutorial/">Python Variables</a></li>
+<li><a href="http://learnpythontutorial.com/complete-guide-to-python-variables-python-tutorial/">Complete Guide To Python Variables</a></li>
+<li><a href="http://learnpythontutorial.com/why-there-is-no-type-declaration-in-python-python-tutorial/">Why There Is No Type Declaration in Python</a></li>
+<li><a href="http://learnpythontutorial.com/how-python-variables-reference-objects/">How Python Variables Reference Objects</a></li>
+<li><a href="http://learnpythontutorial.com/python-keywords-python-tutorial/">Python Keywords</a></li>
+<li><a href="http://learnpythontutorial.com/access-the-objects-reference-count-python-tutorial/">Access The Object&rsquo;s Reference Count</a></li>
+<li><a href="http://learnpythontutorial.com/python-garbage-collection-python-tutorial/">Python Garbage Collection</a></li>
+</ol></div></div></div>
+<div class="panel panel-default panel-odd"><div class="panel-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionname48" href="#collapse483"><h5><i class="icon-minus primary-color"></i><i class="icon-plus"></i>Python Numbers</h5></a></div><div id="collapse483" class="panel-collapse collapse "><div class="panel-body postclass">
+<p>In this Python Tutorial section, we look at numbers in Python. We focus on the different number types along with how to use numbers in equations to help our programs run.</p>
+<h2>Python Tutorials in The Python Numbers Section</h2>
+<ol><li><a href="http://learnpythontutorial.com/python-numbers-python-tutorial-2/">Python Numbers</a></li>
+<li><a href="http://learnpythontutorial.com/why-are-floating-point-calculations-so-inaccurate-python-tutorial/">Why are floating point numbers so inaccurate?</a></li>
+<li><a href="http://learnpythontutorial.com/round-built-in-function-in-python-python-tutorial/">Round() Built in Function</a></li>
+<li><a href="http://learnpythontutorial.com/python-decimal-module-python-tutorial/">Python Decimal Module</a></li>
+<li><a href="http://learnpythontutorial.com/addition-in-python-python-tutorial/">Addition in Python</a></li>
+<li><a href="http://learnpythontutorial.com/subtraction-in-python-python-tutorial/">Subtraction in Python</a></li>
+<li><a href="http://learnpythontutorial.com/multiplication-in-python-python-tutorial/">Multiplication in Python</a></li>
+<li><a href="http://learnpythontutorial.com/division-in-python-python-tutorial/">Division in Python</a></li>
+<li><a href="http://learnpythontutorial.com/modulo-in-python-python-tutorial/">Modulo in Python</a></li>
+<li><a href="http://learnpythontutorial.com/exponents-in-python-python-tutorial/">Exponents in Python</a></li>
+<li><a href="http://learnpythontutorial.com/operator-precedence-in-python-python-tutorial/">Operator Precedence In Python</a></li>
+<li><a href="http://learnpythontutorial.com/manually-adjust-operator-precedence-in-python/">Manually Adjust The Operator Precedence in Python</a></li>
+<li><a href="http://learnpythontutorial.com/how-to-convert-number-types-in-python/">How To Convert Number Types in Python</a></li>
+<li><a href="http://learnpythontutorial.com/learn-about-python-booleans/">Python Booleans</a></li>
+<li><a href="http://learnpythontutorial.com/comparison-operators-in-python/">Comparison Operators in Python</a></li>
+<li><a href="http://learnpythontutorial.com/boolean-operators-in-python/">Boolean Operators In Python</a></li>
+</ol></div></div></div>
+<div class="panel panel-default panel-even"><div class="panel-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionname48" href="#collapse484"><h5><i class="icon-minus primary-color"></i><i class="icon-plus"></i>Python Strings</h5></a></div><div id="collapse484" class="panel-collapse collapse "><div class="panel-body postclass">
+<p>In this section, we focus on Python strings including how they work, how to use strings, the built-in functions associated with strings and string methods.</p>
+<h2>Python Tutorials in The Strings Section</h2>
+<ol><li><a href="http://learnpythontutorial.com/python-strings-section/">Python String Section</a></li>
+<li><a href="http://learnpythontutorial.com/single-double-or-triple-quote-strings-in-python/">Single, Double and Triple Quote Strings in Python</a></li>
+<li><a href="http://learnpythontutorial.com/single-double-or-triple-quote-strings-in-python/">Escape Sequences in Python&nbsp;3</a></li>
+<li><a href="http://learnpythontutorial.com/find-the-length-of-a-string-in-python/">Find the length of a String in Python</a></li>
+<li><a href="http://learnpythontutorial.com/how-to-concatenate-in-python/">How to Concatenate in Python</a></li>
+<li><a href="http://learnpythontutorial.com/how-to-repeat-strings-in-python/">How to Repeat String in Python</a></li>
+<li><a href="http://learnpythontutorial.com/indexing-and-slicing-a-string-in-python/">Indexing and Slicing in Python</a></li>
+<li><a href="http://learnpythontutorial.com/changing-strings-in-python/">Changing a String in Python</a></li>
+<li><a href="http://learnpythontutorial.com/python-capitalize-string-method/">Python Capitalize String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-casefold-string-method/">Python Casefold String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-center-string-method/">Python Center String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-count-string-method/">Python Count String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-endswith-string-method/">Python Endswith String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-find-string-method/">Python Find String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-index-string-method/">Python Index String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-isalnum-string-method/">Python Isalnum String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-isalpha-string-method/">Python Isalpha String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-islower-string-method/">Python Islower String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-isspace-string-method/">Python Isspace String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-istitle-string-method/">Python Istitle String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-isupper-string-method/">Python Isupper String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-join-string-method/">Python Join String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-ljust-string-method/">Python Ljust String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-lower-string-method/">Python Lower String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-lstrip-string-method/">Python Lstrip String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-replace-string-method/">Python Replace String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-rfind-string-method/">Python Rfind String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-rindex-string-method/">Python Rindex String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-rjust-string-method/">Python Rjust String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-rstrip-string-method/">Python Rstrip String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-startswith-string-method/">Python Startswith String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-strip-string-method/">Python Strip String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-swapcase-string-method/">Python Swapcase String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-upper-string-method/">Python Upper String Method</a></li>
+<li><a href="http://learnpythontutorial.com/python-string-formatting-the-old-way/">Python String Formatting The Oldway</a></li>
+<li><a href="http://learnpythontutorial.com/python-string-formatting-method/">Python Format String Method</a></li>
+<li><a href="http://learnpythontutorial.com/advanced-string-formatting-in-python/">Advanced String Formatting in Python</a></li>
+<li><a href="http://learnpythontutorial.com/python-string-review/">Python String Review</a></li>
+</ol></div></div></div>
+<div class="panel panel-default panel-odd"><div class="panel-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionname48" href="#collapse485"><h5><i class="icon-minus primary-color"></i><i class="icon-plus"></i>Python List</h5></a></div><div id="collapse485" class="panel-collapse collapse "><div class="panel-body postclass">
+<p>In this section, we focus on the Python list. Python list are objects that contain other objects. We will cover Python list in full in this section.</p>
+<h2>Python Tutorials In The Python List Section</h2>
+<ol><li><a href="http://learnpythontutorial.com/python-list-section/">Python List Section</a></li>
+<li><a href="http://learnpythontutorial.com/list-in-python/">List in Python</a></li>
+<li><a href="http://learnpythontutorial.com/list-in-python/">Creating List In Python</a></li>
+<li><a href="http://learnpythontutorial.com/list-built-in-function/">List Built-in Function</a></li>
+<li><a href="http://learnpythontutorial.com/extending-list-function-with-range-function/">Extending List Built-in Function</a></li>
+<li><a href="http://learnpythontutorial.com/find-the-length-of-a-list-in-python/">Find Length of a Python List</a></li>
+<li><a href="http://learnpythontutorial.com/indexing-list-in-python/">Indexing List in Python</a></li>
+<li><a href="http://learnpythontutorial.com/slicing-list-in-python/">Slicing Python List</a></li>
+<li><a href="http://learnpythontutorial.com/concatenating-and-repeating-list/">Concatenating and Repeating List</a></li>
+<li><a href="http://learnpythontutorial.com/iterating-through-list-in-python/">Iterating Through List</a></li>
+<li><a href="http://learnpythontutorial.com/python-list-membership-operators/">List Membership in Python</a></li>
+<li><a href="http://learnpythontutorial.com/python-list-append-method/">List Append Method in Python</a></li>
+<li><a href="http://learnpythontutorial.com/extend-list-method-in-python/">Extend List Method in Python</a></li>
+<li><a href="http://learnpythontutorial.com/insert-list-method-in-python/">Insert List Method in Python</a></li>
+<li><a href="http://learnpythontutorial.com/count-list-method-in-python/">Count List Method in Python</a></li>
+<li><a href="http://learnpythontutorial.com/sort-list-method-in-python/">Sort List Method in Python</a></li>
+<li><a href="http://learnpythontutorial.com/how-to-use-the-copy-list-method-in-python/">How To Use Copy Method In Python</a></li>
+<li><a href="http://learnpythontutorial.com/clear-list-method-in-python/">Clear List Method In Python</a></li>
+<li><a href="http://learnpythontutorial.com/pop-list-method-in-python/">Pop List Method in Python</a></li>
+<li><a href="http://learnpythontutorial.com/remove-list-method-in-python/">Remove List Method in Python</a></li>
+<li><a href="http://learnpythontutorial.com/delete-list-objects-using-del-statement/">Delete List Method in Python</a></li>
+<li><a href="http://learnpythontutorial.com/index-and-slice-assignment-in-python-list/">Index and Slicing Assignment In Python</a></li>
+</ol></div></div></div></div>
+
+
+<div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div><!-- Simple Share Buttons Adder (6.1.4) simplesharebuttons.com --><div class="ssba ssba-wrap"><div style="text-align:left">Share The Knowledge<br><a data-site="" class="ssba_facebook_share" href="http://www.facebook.com/sharer.php?u=http://learnpythontutorial.com/" target="_blank"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/facebook.png" title="Facebook" class="lazy lazy-hidden ssba ssba-img" alt="Share on Facebook"/><noscript><img src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/facebook.png" title="Facebook" class="ssba ssba-img" alt="Share on Facebook"/></noscript></a><span class="ssba_sharecount">124</span><a data-site="" class="ssba_twitter_share" href="http://twitter.com/share?url=http://learnpythontutorial.com/&amp;text=Home+" target="_blank"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/twitter.png" title="Twitter" class="lazy lazy-hidden ssba ssba-img" alt="Tweet about this on Twitter"/><noscript><img src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/twitter.png" title="Twitter" class="ssba ssba-img" alt="Tweet about this on Twitter"/></noscript></a><a data-site="" class="ssba_google_share" href="https://plus.google.com/share?url=http://learnpythontutorial.com/" target="_blank"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/google.png" title="Google+" class="lazy lazy-hidden ssba ssba-img" alt="Share on Google+"/><noscript><img src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/google.png" title="Google+" class="ssba ssba-img" alt="Share on Google+"/></noscript></a><span class="ssba_sharecount">386</span><a data-site="pinterest" class="ssba_pinterest_share" href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/pinterest.png" title="Pinterest" class="lazy lazy-hidden ssba ssba-img" alt="Pin on Pinterest"/><noscript><img src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/pinterest.png" title="Pinterest" class="ssba ssba-img" alt="Pin on Pinterest"/></noscript></a><span class="ssba_sharecount">0</span><a data-site="linkedin" class="ssba_linkedin_share ssba_share_link" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://learnpythontutorial.com/" target="_blank"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/linkedin.png" title="LinkedIn" class="lazy lazy-hidden ssba ssba-img" alt="Share on LinkedIn"/><noscript><img src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/linkedin.png" title="LinkedIn" class="ssba ssba-img" alt="Share on LinkedIn"/></noscript></a><span class="ssba_sharecount">0</span><a data-site="stumbleupon" class="ssba_stumbleupon_share ssba_share_link" href="http://www.stumbleupon.com/submit?url=http://learnpythontutorial.com/&amp;title=Home" target="_blank"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/stumbleupon.png" title="StumbleUpon" class="lazy lazy-hidden ssba ssba-img" alt="Share on StumbleUpon"/><noscript><img src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/stumbleupon.png" title="StumbleUpon" class="ssba ssba-img" alt="Share on StumbleUpon"/></noscript></a><span class="ssba_sharecount">1</span><a data-site="reddit" class="ssba_reddit_share" href="http://reddit.com/submit?url=http://learnpythontutorial.com/&amp;title=Home" target="_blank"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/reddit.png" title="Reddit" class="lazy lazy-hidden ssba ssba-img" alt="Share on Reddit"/><noscript><img src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/reddit.png" title="Reddit" class="ssba ssba-img" alt="Share on Reddit"/></noscript></a><span class="ssba_sharecount">91</span><a data-site="tumblr" class="ssba_tumblr_share" href="http://www.tumblr.com/share/link?url=http://learnpythontutorial.com/" target="_blank"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/tumblr.png" title="tumblr" class="lazy lazy-hidden ssba ssba-img" alt="Share on Tumblr"/><noscript><img src="http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/buttons/arbenta/tumblr.png" title="tumblr" class="ssba ssba-img" alt="Share on Tumblr"/></noscript></a><span class="ssba_sharecount">0</span></div></div>  								</div>
+							<div class="home_blog home-margin clearfix home-padding">
+		<div class="clearfix"><h3 class="hometitle"></h3></div>
+		<div class="row">
+						<div class="col-md-6 col-sm-6 clearclass0">
+				  	<article id="post-657" class="post-657 post type-post status-publish format-standard has-post-thumbnail hentry category-django category-lpt-project">
+	                    <div class="rowtight">
+	                    									 <div class="tcol-md-5 tcol-sm-12 tcol-ss-12">
+									 <div class="imghoverclass">
+		                           		<a href="http://learnpythontutorial.com/set-up-static-files-in-django/" title="Set Up Static Files In Django">
+		                           			<img src="http://learnpythontutorial.com/wp-content/uploads/2015/12/SetUpStaticFilesInDjango-270x270.png" alt="Set Up Static Files In Django" class="iconhover" style="display:block;">
+		                           		</a> 
+		                             </div>
+		                         </div>
+
+                           		 
+                           			                       		<div class="tcol-md-7 tcol-sm-12 tcol-ss-12 postcontent">
+	                       			<div class="postmeta updated color_gray">
+				                        	<div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+				                        		<span class="postday">31</span>
+				                        		Dec 2015				                        	</div>
+				                            
+				                        </div>
+				                    <header class="home_blog_title">
+			                          	<a href="http://learnpythontutorial.com/set-up-static-files-in-django/">
+			                          		<h4 class="entry-title">Set Up Static Files In Django</h4>
+			                          	</a>
+
+			                          		<div class="subhead color_gray">
+			                          			<span class="postauthortop author vcard" data-toggle="tooltip" data-placement="top" data-original-title="Tom">
+			                          				<span itemprop="author" class="kt_hidden"><a href="http://learnpythontutorial.com/author/pws18974/" class="fn" rel="author">Tom</a></span>
+			                          				<i class="icon-user"></i>
+			                          			</span>
+			                          			<span class="kad-hidepostauthortop"> | </span>
+			                          				 
+			                          					<span class="postedintop" data-toggle="tooltip" data-placement="top" data-original-title="Django&nbsp;LPT Project&nbsp;"><i class="icon-folder-open"></i></span>
+			                          		 					                          						                          				<span class="kad-hidepostedin">|</span>
+			                        				<span class="postcommentscount" data-toggle="tooltip" data-placement="top" data-original-title="0">
+			                        					<i class="icon-comments-alt"></i>
+			                        				</span>
+			                        						                        		</div>
+			                        </header>
+		                        	<div class="entry-content">
+		                          		<p>In this tutorial we are going to set up static files in Django. This process should only be used in development and not used when we deploy our project. When we deploy a Django... <a href="http://learnpythontutorial.com/set-up-static-files-in-django/">READ MORE</a></p>
+		                        	</div>
+		                      		<footer>
+                       				</footer>
+							</div>
+	                   	</div>
+                    </article>
+                </div>
+
+                    				<div class="col-md-6 col-sm-6 clearclass1">
+				  	<article id="post-625" class="post-625 post type-post status-publish format-standard has-post-thumbnail hentry category-django category-lpt-project">
+	                    <div class="rowtight">
+	                    									 <div class="tcol-md-5 tcol-sm-12 tcol-ss-12">
+									 <div class="imghoverclass">
+		                           		<a href="http://learnpythontutorial.com/creating-first-view-django/" title="Creating Our First View In Django">
+		                           			<img src="http://learnpythontutorial.com/wp-content/uploads/2015/12/CreatingOurFirstViewInDjango-270x270.png" alt="Creating Our First View In Django" class="iconhover" style="display:block;">
+		                           		</a> 
+		                             </div>
+		                         </div>
+
+                           		 
+                           			                       		<div class="tcol-md-7 tcol-sm-12 tcol-ss-12 postcontent">
+	                       			<div class="postmeta updated color_gray">
+				                        	<div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+				                        		<span class="postday">31</span>
+				                        		Dec 2015				                        	</div>
+				                            
+				                        </div>
+				                    <header class="home_blog_title">
+			                          	<a href="http://learnpythontutorial.com/creating-first-view-django/">
+			                          		<h4 class="entry-title">Creating Our First View In Django</h4>
+			                          	</a>
+
+			                          		<div class="subhead color_gray">
+			                          			<span class="postauthortop author vcard" data-toggle="tooltip" data-placement="top" data-original-title="Tom">
+			                          				<span itemprop="author" class="kt_hidden"><a href="http://learnpythontutorial.com/author/pws18974/" class="fn" rel="author">Tom</a></span>
+			                          				<i class="icon-user"></i>
+			                          			</span>
+			                          			<span class="kad-hidepostauthortop"> | </span>
+			                          				 
+			                          					<span class="postedintop" data-toggle="tooltip" data-placement="top" data-original-title="Django&nbsp;LPT Project&nbsp;"><i class="icon-folder-open"></i></span>
+			                          		 					                          						                          				<span class="kad-hidepostedin">|</span>
+			                        				<span class="postcommentscount" data-toggle="tooltip" data-placement="top" data-original-title="0">
+			                        					<i class="icon-comments-alt"></i>
+			                        				</span>
+			                        						                        		</div>
+			                        </header>
+		                        	<div class="entry-content">
+		                          		<p>In this Django tutorial, we are going to start some coding by Creating Our First View In Django. The main objective of this tutorial is to show you how to make a basic view... <a href="http://learnpythontutorial.com/creating-first-view-django/">READ MORE</a></p>
+		                        	</div>
+		                      		<footer>
+                       				</footer>
+							</div>
+	                   	</div>
+                    </article>
+                </div>
+
+                    				<div class="col-md-6 col-sm-6 clearclass0">
+				  	<article id="post-621" class="post-621 post type-post status-publish format-standard has-post-thumbnail hentry category-django category-lpt-project">
+	                    <div class="rowtight">
+	                    									 <div class="tcol-md-5 tcol-sm-12 tcol-ss-12">
+									 <div class="imghoverclass">
+		                           		<a href="http://learnpythontutorial.com/creating-first-django-app/" title="Creating Our First Django App">
+		                           			<img src="http://learnpythontutorial.com/wp-content/uploads/2015/12/CreatingOurFirstDjangoApp-270x270.png" alt="Creating Our First Django App" class="iconhover" style="display:block;">
+		                           		</a> 
+		                             </div>
+		                         </div>
+
+                           		 
+                           			                       		<div class="tcol-md-7 tcol-sm-12 tcol-ss-12 postcontent">
+	                       			<div class="postmeta updated color_gray">
+				                        	<div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+				                        		<span class="postday">30</span>
+				                        		Dec 2015				                        	</div>
+				                            
+				                        </div>
+				                    <header class="home_blog_title">
+			                          	<a href="http://learnpythontutorial.com/creating-first-django-app/">
+			                          		<h4 class="entry-title">Creating Our First Django App</h4>
+			                          	</a>
+
+			                          		<div class="subhead color_gray">
+			                          			<span class="postauthortop author vcard" data-toggle="tooltip" data-placement="top" data-original-title="Tom">
+			                          				<span itemprop="author" class="kt_hidden"><a href="http://learnpythontutorial.com/author/pws18974/" class="fn" rel="author">Tom</a></span>
+			                          				<i class="icon-user"></i>
+			                          			</span>
+			                          			<span class="kad-hidepostauthortop"> | </span>
+			                          				 
+			                          					<span class="postedintop" data-toggle="tooltip" data-placement="top" data-original-title="Django&nbsp;LPT Project&nbsp;"><i class="icon-folder-open"></i></span>
+			                          		 					                          						                          				<span class="kad-hidepostedin">|</span>
+			                        				<span class="postcommentscount" data-toggle="tooltip" data-placement="top" data-original-title="0">
+			                        					<i class="icon-comments-alt"></i>
+			                        				</span>
+			                        						                        		</div>
+			                        </header>
+		                        	<div class="entry-content">
+		                          		<p>Now that we have installed and configured our default Django project we can create our first app. In the previous sentence, I used project and app. What is the difference and why do... <a href="http://learnpythontutorial.com/creating-first-django-app/">READ MORE</a></p>
+		                        	</div>
+		                      		<footer>
+                       				</footer>
+							</div>
+	                   	</div>
+                    </article>
+                </div>
+
+                    				<div class="col-md-6 col-sm-6 clearclass1">
+				  	<article id="post-613" class="post-613 post type-post status-publish format-standard has-post-thumbnail hentry category-django category-django-how-to">
+	                    <div class="rowtight">
+	                    									 <div class="tcol-md-5 tcol-sm-12 tcol-ss-12">
+									 <div class="imghoverclass">
+		                           		<a href="http://learnpythontutorial.com/find-the-path-of-base_dir-in-django/" title="Find The Path of BASE_DIR in Django">
+		                           			<img src="http://learnpythontutorial.com/wp-content/uploads/2015/12/django-270x270.png" alt="Find The Path of BASE_DIR in Django" class="iconhover" style="display:block;">
+		                           		</a> 
+		                             </div>
+		                         </div>
+
+                           		 
+                           			                       		<div class="tcol-md-7 tcol-sm-12 tcol-ss-12 postcontent">
+	                       			<div class="postmeta updated color_gray">
+				                        	<div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+				                        		<span class="postday">29</span>
+				                        		Dec 2015				                        	</div>
+				                            
+				                        </div>
+				                    <header class="home_blog_title">
+			                          	<a href="http://learnpythontutorial.com/find-the-path-of-base_dir-in-django/">
+			                          		<h4 class="entry-title">Find The Path of BASE_DIR in Django</h4>
+			                          	</a>
+
+			                          		<div class="subhead color_gray">
+			                          			<span class="postauthortop author vcard" data-toggle="tooltip" data-placement="top" data-original-title="Tom">
+			                          				<span itemprop="author" class="kt_hidden"><a href="http://learnpythontutorial.com/author/pws18974/" class="fn" rel="author">Tom</a></span>
+			                          				<i class="icon-user"></i>
+			                          			</span>
+			                          			<span class="kad-hidepostauthortop"> | </span>
+			                          				 
+			                          					<span class="postedintop" data-toggle="tooltip" data-placement="top" data-original-title="Django&nbsp;Django How To&nbsp;"><i class="icon-folder-open"></i></span>
+			                          		 					                          						                          				<span class="kad-hidepostedin">|</span>
+			                        				<span class="postcommentscount" data-toggle="tooltip" data-placement="top" data-original-title="0">
+			                        					<i class="icon-comments-alt"></i>
+			                        				</span>
+			                        						                        		</div>
+			                        </header>
+		                        	<div class="entry-content">
+		                          		<p>There may be a time when you need to find the path of BASE_DIR in Django. This process will return your the path to the root of your Django project. Step 1 &#8211;... <a href="http://learnpythontutorial.com/find-the-path-of-base_dir-in-django/">READ MORE</a></p>
+		                        	</div>
+		                      		<footer>
+                       				</footer>
+							</div>
+	                   	</div>
+                    </article>
+                </div>
+
+                                    
+				
+								
+	</div>
+</div> <!--home-blog -->  
+			</div>
+		</div><!-- /.main -->            
+                    </div><!-- /.row-->
+        </div><!-- /.content -->
+      </div><!-- /.wrap -->
+      <footer id="containerfooter" class="footerclass" role="contentinfo">
+  <div class="container">
+  	<div class="row">
+  								        						            </div>
+        <div class="footercredits clearfix">
+    		
+    		        	<p>&copy; 2016 Learn Python Tutorial </p>
+    	</div>
+
+  </div>
+
+</footer>
+
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+r3f5x9JS=escape(document['referrer']);
+hf4N='bce06f8337f8c97a4db824ad3ed8b8ee';
+hf4V='25f5013b083755e0cb6e4ebed326ed63';
+jQuery(document).ready(function($){var e="#commentform, .comment-respond form, .comment-form, #lostpasswordform, #registerform, #loginform, #login_form, #wpss_contact_form";$(e).submit(function(){$("<input>").attr("type","hidden").attr("name","r3f5x9JS").attr("value",r3f5x9JS).appendTo(e);$("<input>").attr("type","hidden").attr("name",hf4N).attr("value",hf4V).appendTo(e);return true;});$("#comment").attr({minlength:"15",maxlength:"15360"})});
+/* ]]> */
+</script> 
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-content/plugins/simple-share-buttons-adder/js/ssba.min.js?ver=567c1e17b13f0384d59e7315de494a0f'></script>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-content/plugins/bj-lazy-load/js/bj-lazy-load.min.js?ver=567c1e17b13f0384d59e7315de494a0f'></script>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-content/plugins/wp-spamshield/js/jscripts-ftr-min.js'></script>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-includes/js/masonry.min.js?ver=567c1e17b13f0384d59e7315de494a0f'></script>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=567c1e17b13f0384d59e7315de494a0f'></script>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-content/themes/virtue/assets/js/main.js?ver=567c1e17b13f0384d59e7315de494a0f'></script>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-includes/js/wp-embed.min.js?ver=567c1e17b13f0384d59e7315de494a0f'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icegram_pre_data = {"ajax_url":"http:\/\/learnpythontutorial.com\/wp-admin\/admin-ajax.php","post_obj":{"is_home":true,"page_id":7,"action":"display_messages","shortcodes":[],"cache_compatibility":"no","device":"laptop"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://learnpythontutorial.com/wp-content/plugins/icegram/assets/js/main.js?ver=567c1e17b13f0384d59e7315de494a0f'></script>
+    </div><!--Wrapper-->
+  </body>
+</html>

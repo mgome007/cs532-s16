@@ -1,0 +1,207 @@
+   #[1]GitHub [2]Recent Commits to npm-tweets:master
+
+   [3]Skip to content
+
+   [4]Sign up [5]Sign in
+   This repository
+   ____________________
+     * [6]Explore
+     * [7]Features
+     * [8]Enterprise
+     * [9]Pricing
+
+     * [10]Watch [11]3
+     * [12]Star [13]53
+     * [14]Fork [15]9
+
+[16]bcoe/[17]npm-tweets
+
+   [18]Code [19]Issues 0 [20]Pull requests 0 [21]Pulse [22]Graphs
+   Publishes tweets when libraries are updated on NPM.
+     * [23]83 commits
+     * [24]1 branch
+     * [25]1 release
+     * [26]Fetching contributors
+
+    1. [27]JavaScript 99.7%
+    2. [28]Makefile 0.3%
+
+   JavaScript Makefile
+   (BUTTON) New file [29]Find file
+   (BUTTON) HTTPS
+   https://github.com/b
+   (BUTTON)
+   Choose a clone URL
+   (*) HTTPS (recommended) Clone with Git or checkout with SVN using the
+   repository's web address.
+   (BUTTON) HTTPS
+   https://github.com/b
+   (BUTTON)
+   Learn more about clone URLs
+   [30]Download ZIP
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * [31]Branches
+     * [32]Tags
+
+   [33]master
+   Nothing to show
+   [34]v3.1.1
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit…
+   Cannot retrieve the latest commit at this time.
+   [35]Permalink
+   Failed to load latest commit information.
+   [36]bin [37]don't load dotenv May 14, 2015
+   [38]lib [39]had tweets turned off May 14, 2015
+   [40]test [41]Replace npmjs.org by npmjs.com in tweet URL Mar 16, 2015
+   [42].env.default [43]pulling cache in to its own class. Sep 29, 2013
+   [44].gitignore
+   [45]LICENSE.txt
+   [46]Makefile [47]moved tests over to mocha. Sep 29, 2013
+   [48]Procfile [49]updating npm-tweets to work with new twitter and
+   npmjs.org APIs. Jul 2, 2013
+   [50]README.markdown
+   [51]package.json
+
+README.markdown
+
+npm-tweets
+
+   I published a library recently that didn't get nearly as many followers
+   as expected.
+
+   A person of lesser hubris might have assumed that the library was was
+   less useful than they initially assumed. Luckily I didn't make this
+   false assumption...
+
+   The problem was that there aren't enough tweets when Node.js packages
+   are published or updated
+
+   npm-tweets is an open-source twitter bot that tweets as packages are
+   updated on npmjs.org:
+
+   [52]http://twitter.com/#!/nodenpm
+
+Usage
+
+   I've open-sourced npm-tweets so that anyone can easily setup an npm
+   Twitter Bot.
+
+   Creating the Bot:
+var NPMTweets = require('npm-tweets').NPMTweets;
+
+npmTweets = new NPMTweets({
+    consumer_key: 'CONSUMER_KEY',
+    consumer_secret: 'CONSUMER_SECRET',
+    access_token_key: 'TOKEN_KEY',
+    access_token_secret: 'TOKEN_SECRET',
+    filter: function(package){ return package.name === 'npm-tweets'; }
+});
+
+Copyright
+
+   Copyright (c) 2011 Benjamin Coe See LICENSE.txt for further details.
+
+     * [53]Status
+     * [54]API
+     * [55]Training
+     * [56]Shop
+     * [57]Blog
+     * [58]About
+     * [59]Pricing
+
+     * © 2016 GitHub, Inc.
+     * [60]Terms
+     * [61]Privacy
+     * [62]Security
+     * [63]Contact
+     * [64]Help
+
+   (BUTTON) Something went wrong with that request. Please try again.
+
+   You signed in with another tab or window. [65]Reload to refresh your
+   session. You signed out in another tab or window. [66]Reload to refresh
+   your session.
+
+   (BUTTON)
+
+References
+
+   Visible links
+   1. file:///opensearch.xml
+   2. https://github.com/bcoe/npm-tweets/commits/master.atom
+   3. file:///home/mgomez/CS432/A3/source0.txt#start-of-content
+   4. file:///join?source=header-repo
+   5. file:///login?return_to=/bcoe/npm-tweets
+   6. file:///explore
+   7. file:///features
+   8. https://enterprise.github.com/
+   9. file:///pricing
+  10. file:///login?return_to=/bcoe/npm-tweets
+  11. file:///bcoe/npm-tweets/watchers
+  12. file:///login?return_to=/bcoe/npm-tweets
+  13. file:///bcoe/npm-tweets/stargazers
+  14. file:///login?return_to=/bcoe/npm-tweets
+  15. file:///bcoe/npm-tweets/network
+  16. file:///bcoe
+  17. file:///bcoe/npm-tweets
+  18. file:///bcoe/npm-tweets
+  19. file:///bcoe/npm-tweets/issues
+  20. file:///bcoe/npm-tweets/pulls
+  21. file:///bcoe/npm-tweets/pulse
+  22. file:///bcoe/npm-tweets/graphs
+  23. file:///bcoe/npm-tweets/commits/master
+  24. file:///bcoe/npm-tweets/branches
+  25. file:///bcoe/npm-tweets/releases
+  26. file:///bcoe/npm-tweets/graphs/contributors
+  27. file:///bcoe/npm-tweets/search?l=javascript
+  28. file:///bcoe/npm-tweets/search?l=makefile
+  29. file:///bcoe/npm-tweets/find/master
+  30. file:///bcoe/npm-tweets/archive/master.zip
+  31. file:///home/mgomez/CS432/A3/source0.txt
+  32. file:///home/mgomez/CS432/A3/source0.txt
+  33. file:///bcoe/npm-tweets/tree/master
+  34. file:///bcoe/npm-tweets/tree/v3.1.1
+  35. file:///bcoe/npm-tweets/tree/d843380d536757956bdc57f7699e0f7fbb09ffd4
+  36. file:///bcoe/npm-tweets/tree/master/bin
+  37. file:///bcoe/npm-tweets/commit/ec5037de86b2bb3ac8431cc3fa57cb6aeb7d3e58
+  38. file:///bcoe/npm-tweets/tree/master/lib
+  39. file:///bcoe/npm-tweets/commit/a8f017a29e91ab9f190ce1228a8d66e1092a3e9a
+  40. file:///bcoe/npm-tweets/tree/master/test
+  41. file:///bcoe/npm-tweets/commit/080cba214d7edee2dccf97923695eb89356f718d
+  42. file:///bcoe/npm-tweets/blob/master/.env.default
+  43. file:///bcoe/npm-tweets/commit/9f82f5d913aa5a98d822de73c88ebc178401901a
+  44. file:///bcoe/npm-tweets/blob/master/.gitignore
+  45. file:///bcoe/npm-tweets/blob/master/LICENSE.txt
+  46. file:///bcoe/npm-tweets/blob/master/Makefile
+  47. file:///bcoe/npm-tweets/commit/38fb6d12546c30eac0f302fc6d0b9665d3eea920
+  48. file:///bcoe/npm-tweets/blob/master/Procfile
+  49. file:///bcoe/npm-tweets/commit/bb27661ae8753c75b0e7afb2b0ce89e1f75df760
+  50. file:///bcoe/npm-tweets/blob/master/README.markdown
+  51. file:///bcoe/npm-tweets/blob/master/package.json
+  52. http://twitter.com/#!/nodenpm
+  53. https://status.github.com/
+  54. https://developer.github.com/
+  55. https://training.github.com/
+  56. https://shop.github.com/
+  57. https://github.com/blog
+  58. https://github.com/about
+  59. https://github.com/pricing
+  60. https://github.com/site/terms
+  61. https://github.com/site/privacy
+  62. https://github.com/security
+  63. https://github.com/contact
+  64. https://help.github.com/
+  65. file:///home/mgomez/CS432/A3/source0.txt
+  66. file:///home/mgomez/CS432/A3/source0.txt
+
+   Hidden links:
+  68. https://github.com/
+  69. https://help.github.com/articles/which-remote-url-should-i-use
+  70. file://localhost/home/mgomez/CS432/A3/source0.txt#npm-tweets
+  71. file://localhost/home/mgomez/CS432/A3/source0.txt#usage
+  72. file://localhost/home/mgomez/CS432/A3/source0.txt#copyright
+  73. https://github.com/

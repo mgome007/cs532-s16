@@ -1,0 +1,571 @@
+   #[1]A MEAN Magazine - Atom [2]A MEAN Magazine - RSS
+
+[3]A MEAN Magazine
+
+A Magazine about the MEAN stack: Node.js, AngularJS & MongoDB
+
+   Widgets
+   Social Links
+   Search
+   [4]Skip to content
+     * [5]Home
+     * [6]Business
+          + [7]Internet
+          + [8]Market
+          + [9]Stock
+     * [10]Downloads
+          + [11]Dvd
+          + [12]Games
+          + [13]Software
+               o [14]Office
+     * [15]Parent Category
+          + [16]Child Category 1
+               o [17]Sub Child Category 1
+               o [18]Sub Child Category 2
+               o [19]Sub Child Category 3
+          + [20]Child Category 2
+          + [21]Child Category 3
+          + [22]Child Category 4
+     * [23]Featured
+     * [24]Health
+          + [25]Childcare
+          + [26]Doctors
+     * [27]Uncategorized
+
+     * [28]Google+
+     * [29]Twitter
+     * [30][*] Flipboard
+     * [31]RSS Feed
+
+Node.js
+
+   Node.js is a cross-platform runtime environment for server-side and
+   networking applications. Node.js applications are written in
+   JavaScript, and can be run within the Node.js runtime on OS X,
+   Microsoft Windows and Linux with no changes.
+
+AngularJS
+
+   AngularJS is a structural framework for dynamic web apps. It lets you
+   use HTML as your template language and lets you extend HTML's syntax to
+   express your application's components clearly and succinctly. Angular's
+   data binding and dependency injection eliminate much of the code you
+   currently have to write.
+
+MongoDB
+
+   MongoDB is an open source, document-oriented database designed with
+   both scalability and developer agility in mind. Instead of storing your
+   data in tables and rows as you would with a relational database, in
+   MongoDB you store JSON-like documents with dynamic schemas.
+   Search for: ____________________ Search
+   [INS: :INS]
+
+Thursday, February 18, 2016
+
+[32]EclairJS sweetens Spark for JavaScript coders
+
+   [33][1PIYvQh]
+   The other night I ran into Jackie Barbetta and Don Rosenberg at our
+   local Apache Spark meetup group. Barbetta and Rosenberg work in IBM
+   Emerging Technologies on an open source project called EclairJS. Why on
+   earth would you want to do that?
+   [34]Full article
+   [35]Read More
+   9:56 PM[36]Mean Magazine[37]No comments
+
+[38]AquaJS floats a framework for JavaScript microservices
+
+   [39][1pUbswh]
+   The AquaJS framework for Node.js looks to speed up app dev by
+   streamlining integration processes. In development at enterprise
+   connectivity services provider Equinix, AquaJS moved to public beta
+   stage this week with a general release, available as an Npm, expected
+   in a month.
+   [40]Full article
+   [41]Read More
+   9:21 PM[42]Mean Magazine[43]No comments
+
+Monday, February 15, 2016
+
+[44]Angular2 and Electron - The definitive guide
+
+   [45][2140V0N]
+   Building cross platform apps for desktop operating systems became
+   really simple compared to the past. With GitHub's Electron is a
+   framework available that takes away the pain for abstracting all common
+   platform APIs from us as web developers.
+   [46]Full article
+   [47]Read More
+   9:48 AM[48]Mean Magazine[49]No comments
+
+Saturday, February 13, 2016
+
+[50]Squeeze the juice out of Node
+
+   [51][1RxlIr9]
+   Why is this Node service only handling X requests per second but
+   neither memory, CPU nor network usage is saturated? How does Node
+   handle HTTP connections? Can it process more than one request at the
+   same time for a single non-HTTP/2 connection? If these questions spark
+   your curiosity, read on.
+   [52]Full article
+   [53]Read More
+   12:30 AM[54]Mean Magazine[55]No comments
+
+[56]Announcing Ionic Framework 2 Beta
+
+   [57][1RxlIr6]
+   Over the past several months, the Ionic team has been hard at work on
+   the next generation of Ionic. We took everything we learned from
+   building Ionic 1 and made significant improvements to the way Ionic
+   apps look, how they perform, and their ability to adapt to future
+   technology shifts.
+   [58]Full article
+   [59]Read More
+   12:30 AM[60]Mean Magazine[61]No comments
+
+[62]Why npm Scripts?
+
+   [63][1RxlKzb]
+   The following is a guest post by Damon Bauer. There has been a growing
+   sentiment (for instance) that using node packages directly, with the
+   command line interfaces they provide, is a good route to take. As
+   opposed to abstracting the functionality away behind a task runner.
+   [64]Full article
+   [65]Read More
+   12:30 AM[66]Mean Magazine[67]No comments
+
+Wednesday, February 10, 2016
+
+[68]Node.js Foundation to Add Express as an Incubator Project — Medium
+
+   [69][1pUbswh]
+   We are very excited to announce that Express and some of its
+   constituent modules are on track to become an incubation project of the
+   Node.js Foundation.
+   [70]Full article
+   [71]Read More
+   10:24 PM[72]Mean Magazine[73]No comments
+
+Tuesday, February 9, 2016
+
+[74]The Ultimate NodeJS Development Setup with Docker
+
+   [75][1PhIlgr]
+   I've found myself writing a lot of JavaScript lately, both client- and
+   server-side. And over the past several projects, a common pattern has
+   emerged: I'll have to develop a single page application with a matching
+   back-end web API.
+   [76]Full article
+   [77]Read More
+   12:04 AM[78]Mean Magazine[79]No comments
+
+   [80][1pUbswh]
+   [81]Full article
+   [82]Read More
+   12:04 AM[83]Mean Magazine[84]No comments
+
+Sunday, February 7, 2016
+
+[85]Angular 2 and Ionic 2 Data Services Part 2: Using REST Services
+
+   [86][1RdY4zL]
+   In part 1 of this series, I shared two approaches to create Mock
+   services in Angular 2 / Ionic 2 applications: using a Promise-based or
+   an Observable-based API.
+   [87]Full article
+   [88]Read More
+   12:06 AM[89]Mean Magazine[90]No comments
+   [91]Older Posts → [92]Home
+
+     A Mean Magazine publish workflow [93]http://t.co/tPj5FSplhW How we
+     use node.js+twitter to find relevant MEAN info and publish it to the
+     web.
+     — Mean Magazine (@ameanmagazine) [94]October 6, 2014
+
+Popular Posts
+
+     * [95]Simple login example with ionic and AngularJS
+       Many times you may want to have a login at the beginning of your
+       app. Handling a login with ionic and Angular is very straight
+       forward. F...
+     * [96]AngularJS Tutorial: A Comprehensive 10,000 Word Guide
+       Angular is a client-side MVW JavaScript framework for writing
+       compelling web applications. It’s built and maintained by Google
+       and offers ...
+     * [97]The Evolution of Asynchronous JavaScript
+       The async functions are just around the corner - but the journey to
+       here was quite long. Not too long ago we just wrote callbacks, then
+       the...
+     * [98]How to connect Lego Mindstorms NXT ev3 to Azure IoT Hub using
+       node.js
+       Recently, I’ve played with node.js and Azure IoT Hub. You can see
+       my previous blog posts here, here and here. And as I’m a huge fan
+       of Lego...
+     * [99]A Mean Magazine publishing workflow
+       Have you asked yourself how all this articles reach your favourite
+       reader? First, there is a node.js (of course) application, running
+       on H...
+
+Categories
+
+   [100].net (1) [101]1.3 (4) [102]1.4 (2) [103]2.0 (5) [104]3.0 (1)
+   [105]amazon (1) [106]angular (242) [107]api (6) [108]appnow (1)
+   [109]architecture (13) [110]arduino (2) [111]aria (1) [112]async (1)
+   [113]authentication (15) [114]authorization (1) [115]automation (4)
+   [116]availability (1) [117]azure (3) [118]backbone (1) [119]bluemix (7)
+   [120]books (2) [121]bootstrap (1) [122]bower (4) [123]browser (1)
+   [124]callbacks (1) [125]cassandra (1) [126]chrome (1) [127]ci (5)
+   [128]cli (1) [129]client (1) [130]clojure (1) [131]closures (1)
+   [132]cloudant (2) [133]cluster (1) [134]cms (2) [135]components (1)
+   [136]conference (1) [137]controllers (4) [138]couchdb (1) [139]coverage
+   (2) [140]cryptography (1) [141]css (2) [142]d3 (2) [143]dart (1)
+   [144]databases (2) [145]debug (5) [146]debugging (1) [147]dependencies
+   (1) [148]design (1) [149]development (2) [150]direc (1) [151]directive
+   (1) [152]directives (13) [153]docker (1) [154]ec2 (2) [155]email (1)
+   [156]ember (1) [157]encryption (1) [158]errors (6) [159]exceptions (4)
+   [160]express (7) [161]facebook (3) [162]factories (1) [163]filters (6)
+   [164]firebase (1) [165]firewall (1) [166]forms (2) [167]framework (1)
+   [168]frameworks (2) [169]ghost (1) [170]google (4) [171]grid (1)
+   [172]grunt (11) [173]gulp (6) [174]heroku (3) [175]hosting (3)
+   [176]http (1) [177]i18n (4) [178]IndexedDB (1) [179]interceptors (1)
+   [180]io (7) [181]ionic (17) [182]ios (2) [183]jasmine (4) [184]java (2)
+   [185]javascript (14) [186]jobs (1) [187]joyent (1) [188]jquery (3)
+   [189]karma (2) [190]logging (5) [191]maps (1) [192]maven (1) [193]mean
+   (1) [194]meteor (3) [195]microservices (1) [196]minification (1)
+   [197]minify (1) [198]mms (1) [199]mobile (4) [200]mock (1) [201]mongo
+   (46) [202]mongolab (1) [203]monitoring (1) [204]MVC (2) [205]mysql (1)
+   [206]netflix (1) [207]ngix (1) [208]node (243) [209]npm (10) [210]oauth
+   (3) [211]pagination (2) [212]patterns (2) [213]paypal (1)
+   [214]performance (17) [215]phantomjs (2) [216]phonegap (1) [217]php (2)
+   [218]pinterest (1) [219]plugins (1) [220]polymer (1) [221]postgres (1)
+   [222]promises (5) [223]providers (2) [224]proxy (2) [225]rails (1)
+   [226]raspberry (1) [227]react (2) [228]redis (4) [229]regex (1)
+   [230]replication (1) [231]resources (3) [232]responsive (1) [233]rest
+   (9) [234]ror (1) [235]router (4) [236]ruby (1) [237]s3 (2) [238]Sails
+   (5) [239]schemas (1) [240]scope (2) [241]security (8) [242]selenium (2)
+   [243]seo (1) [244]services (2) [245]sharepoint (1) [246]sockets (13)
+   [247]software (1) [248]splunk (1) [249]spring (5) [250]sql (2) [251]ssl
+   (1) [252]sso (1) [253]stacks (1) [254]stamplay (1) [255]static (1)
+   [256]streams (6) [257]strongloop (1) [258]templates (5) [259]testing
+   (24) [260]tools (1) [261]travis (1) [262]trends (1) [263]tutorial (12)
+   [264]twilio (1) [265]twitter (7) [266]upload (2) [267]validation (5)
+   [268]virtualization (3) [269]visual studio (2) [270]web (2) [271]webgl
+   (1) [272]webkit (1) [273]websockets (1) [274]wordpress (1) [275]worker
+   (1) [276]workers (2) [277]yeoman (1)
+
+Blog Archive
+
+   [Blog Archive__]
+   Powered by [278]Blogger.
+
+Contributors
+
+     * [279]Nicolás Cornaglia Schlieman
+     * [280]Mean Magazine
+
+   Copyright © [281]A MEAN Magazine | Powered by [282]Blogger
+   Design by [283]Automattic | Blogger Theme by [284]NewBloggerThemes.com
+
+References
+
+   Visible links
+   1. http://www.ameanmagazine.com/feeds/posts/default
+   2. http://www.ameanmagazine.com/feeds/posts/default?alt=rss
+   3. http://www.ameanmagazine.com/
+   4. file:///home/mgomez/CS432/A3/source19.txt#content
+   5. http://www.ameanmagazine.com/
+   6. file:///home/mgomez/CS432/A3/source19.txt
+   7. file:///home/mgomez/CS432/A3/source19.txt
+   8. file:///home/mgomez/CS432/A3/source19.txt
+   9. file:///home/mgomez/CS432/A3/source19.txt
+  10. file:///home/mgomez/CS432/A3/source19.txt
+  11. file:///home/mgomez/CS432/A3/source19.txt
+  12. file:///home/mgomez/CS432/A3/source19.txt
+  13. file:///home/mgomez/CS432/A3/source19.txt
+  14. file:///home/mgomez/CS432/A3/source19.txt
+  15. file:///home/mgomez/CS432/A3/source19.txt
+  16. file:///home/mgomez/CS432/A3/source19.txt
+  17. file:///home/mgomez/CS432/A3/source19.txt
+  18. file:///home/mgomez/CS432/A3/source19.txt
+  19. file:///home/mgomez/CS432/A3/source19.txt
+  20. file:///home/mgomez/CS432/A3/source19.txt
+  21. file:///home/mgomez/CS432/A3/source19.txt
+  22. file:///home/mgomez/CS432/A3/source19.txt
+  23. file:///home/mgomez/CS432/A3/source19.txt
+  24. file:///home/mgomez/CS432/A3/source19.txt
+  25. file:///home/mgomez/CS432/A3/source19.txt
+  26. file:///home/mgomez/CS432/A3/source19.txt
+  27. file:///home/mgomez/CS432/A3/source19.txt
+  28. https://www.twitter.com/ameanmagazine
+  29. https://plus.google.com/+MeanMagazine
+  30. https://flipboard.com/@ncornag/node-angular-mongo-&-express-321t8iury
+  31. http://www.ameanmagazine.com/feeds/posts/default
+  32. http://www.ameanmagazine.com/2016/02/eclairjs-sweetens-spark-for-javascript.html
+  33. http://bit.ly/1PIYvQh
+  34. http://bit.ly/1oNArmo
+  35. http://www.ameanmagazine.com/2016/02/eclairjs-sweetens-spark-for-javascript.html
+  36. https://plus.google.com/102714383139257852703
+  37. http://www.ameanmagazine.com/2016/02/eclairjs-sweetens-spark-for-javascript.html#comment-form
+  38. http://www.ameanmagazine.com/2016/02/aquajs-floats-framework-for-javascript.html
+  39. http://ift.tt/1pUbswh
+  40. http://bit.ly/1XAnB6R
+  41. http://www.ameanmagazine.com/2016/02/aquajs-floats-framework-for-javascript.html
+  42. https://plus.google.com/102714383139257852703
+  43. http://www.ameanmagazine.com/2016/02/aquajs-floats-framework-for-javascript.html#comment-form
+  44. http://www.ameanmagazine.com/2016/02/angular2-and-electron-definitive-guide.html
+  45. http://bit.ly/2140V0N
+  46. http://bit.ly/1TihiUU
+  47. http://www.ameanmagazine.com/2016/02/angular2-and-electron-definitive-guide.html
+  48. https://plus.google.com/102714383139257852703
+  49. http://www.ameanmagazine.com/2016/02/angular2-and-electron-definitive-guide.html#comment-form
+  50. http://www.ameanmagazine.com/2016/02/squeeze-juice-out-of-node.html
+  51. http://bit.ly/1RxlIr9
+  52. http://bit.ly/1XoxvZ8
+  53. http://www.ameanmagazine.com/2016/02/squeeze-juice-out-of-node.html
+  54. https://plus.google.com/102714383139257852703
+  55. http://www.ameanmagazine.com/2016/02/squeeze-juice-out-of-node.html#comment-form
+  56. http://www.ameanmagazine.com/2016/02/announcing-ionic-framework-2-beta.html
+  57. http://bit.ly/1RxlIr6
+  58. http://bit.ly/1XoxxjT
+  59. http://www.ameanmagazine.com/2016/02/announcing-ionic-framework-2-beta.html
+  60. https://plus.google.com/102714383139257852703
+  61. http://www.ameanmagazine.com/2016/02/announcing-ionic-framework-2-beta.html#comment-form
+  62. http://www.ameanmagazine.com/2016/02/why-npm-scripts.html
+  63. http://bit.ly/1RxlKzb
+  64. http://bit.ly/1XoxvIR
+  65. http://www.ameanmagazine.com/2016/02/why-npm-scripts.html
+  66. https://plus.google.com/102714383139257852703
+  67. http://www.ameanmagazine.com/2016/02/why-npm-scripts.html#comment-form
+  68. http://www.ameanmagazine.com/2016/02/nodejs-foundation-to-add-express-as.html
+  69. http://ift.tt/1pUbswh
+  70. http://bit.ly/1QWnRue
+  71. http://www.ameanmagazine.com/2016/02/nodejs-foundation-to-add-express-as.html
+  72. https://plus.google.com/102714383139257852703
+  73. http://www.ameanmagazine.com/2016/02/nodejs-foundation-to-add-express-as.html#comment-form
+  74. http://www.ameanmagazine.com/2016/02/the-ultimate-nodejs-development-setup.html
+  75. http://bit.ly/1PhIlgr
+  76. http://bit.ly/1Q5H67H
+  77. http://www.ameanmagazine.com/2016/02/the-ultimate-nodejs-development-setup.html
+  78. https://plus.google.com/102714383139257852703
+  79. http://www.ameanmagazine.com/2016/02/the-ultimate-nodejs-development-setup.html#comment-form
+  80. http://ift.tt/1pUbswh
+  81. http://bit.ly/1PhIlgq
+  82. http://www.ameanmagazine.com/2016/02/blog-post_9.html
+  83. https://plus.google.com/102714383139257852703
+  84. http://www.ameanmagazine.com/2016/02/blog-post_9.html#comment-form
+  85. http://www.ameanmagazine.com/2016/02/angular-2-and-ionic-2-data-services.html
+  86. http://bit.ly/1RdY4zL
+  87. http://bit.ly/1W00S2O
+  88. http://www.ameanmagazine.com/2016/02/angular-2-and-ionic-2-data-services.html
+  89. https://plus.google.com/102714383139257852703
+  90. http://www.ameanmagazine.com/2016/02/angular-2-and-ionic-2-data-services.html#comment-form
+  91. http://www.ameanmagazine.com/search?updated-max=2016-02-07T00:06:00+01:00&max-results=10
+  92. http://www.ameanmagazine.com/
+  93. http://t.co/tPj5FSplhW
+  94. https://twitter.com/ameanmagazine/status/519214282354200576
+  95. http://www.ameanmagazine.com/2014/12/simple-login-example-with-ionic-and.html
+  96. http://www.ameanmagazine.com/2014/10/blog-post.html
+  97. http://www.ameanmagazine.com/2015/08/the-evolution-of-asynchronous-javascript.html
+  98. http://www.ameanmagazine.com/2016/01/how-to-connect-lego-mindstorms-nxt-ev3.html
+  99. http://www.ameanmagazine.com/2014/10/a-mean-magazine-publish-workflow.html
+ 100. http://www.ameanmagazine.com/search/label/.net
+ 101. http://www.ameanmagazine.com/search/label/1.3
+ 102. http://www.ameanmagazine.com/search/label/1.4
+ 103. http://www.ameanmagazine.com/search/label/2.0
+ 104. http://www.ameanmagazine.com/search/label/3.0
+ 105. http://www.ameanmagazine.com/search/label/amazon
+ 106. http://www.ameanmagazine.com/search/label/angular
+ 107. http://www.ameanmagazine.com/search/label/api
+ 108. http://www.ameanmagazine.com/search/label/appnow
+ 109. http://www.ameanmagazine.com/search/label/architecture
+ 110. http://www.ameanmagazine.com/search/label/arduino
+ 111. http://www.ameanmagazine.com/search/label/aria
+ 112. http://www.ameanmagazine.com/search/label/async
+ 113. http://www.ameanmagazine.com/search/label/authentication
+ 114. http://www.ameanmagazine.com/search/label/authorization
+ 115. http://www.ameanmagazine.com/search/label/automation
+ 116. http://www.ameanmagazine.com/search/label/availability
+ 117. http://www.ameanmagazine.com/search/label/azure
+ 118. http://www.ameanmagazine.com/search/label/backbone
+ 119. http://www.ameanmagazine.com/search/label/bluemix
+ 120. http://www.ameanmagazine.com/search/label/books
+ 121. http://www.ameanmagazine.com/search/label/bootstrap
+ 122. http://www.ameanmagazine.com/search/label/bower
+ 123. http://www.ameanmagazine.com/search/label/browser
+ 124. http://www.ameanmagazine.com/search/label/callbacks
+ 125. http://www.ameanmagazine.com/search/label/cassandra
+ 126. http://www.ameanmagazine.com/search/label/chrome
+ 127. http://www.ameanmagazine.com/search/label/ci
+ 128. http://www.ameanmagazine.com/search/label/cli
+ 129. http://www.ameanmagazine.com/search/label/client
+ 130. http://www.ameanmagazine.com/search/label/clojure
+ 131. http://www.ameanmagazine.com/search/label/closures
+ 132. http://www.ameanmagazine.com/search/label/cloudant
+ 133. http://www.ameanmagazine.com/search/label/cluster
+ 134. http://www.ameanmagazine.com/search/label/cms
+ 135. http://www.ameanmagazine.com/search/label/components
+ 136. http://www.ameanmagazine.com/search/label/conference
+ 137. http://www.ameanmagazine.com/search/label/controllers
+ 138. http://www.ameanmagazine.com/search/label/couchdb
+ 139. http://www.ameanmagazine.com/search/label/coverage
+ 140. http://www.ameanmagazine.com/search/label/cryptography
+ 141. http://www.ameanmagazine.com/search/label/css
+ 142. http://www.ameanmagazine.com/search/label/d3
+ 143. http://www.ameanmagazine.com/search/label/dart
+ 144. http://www.ameanmagazine.com/search/label/databases
+ 145. http://www.ameanmagazine.com/search/label/debug
+ 146. http://www.ameanmagazine.com/search/label/debugging
+ 147. http://www.ameanmagazine.com/search/label/dependencies
+ 148. http://www.ameanmagazine.com/search/label/design
+ 149. http://www.ameanmagazine.com/search/label/development
+ 150. http://www.ameanmagazine.com/search/label/direc
+ 151. http://www.ameanmagazine.com/search/label/directive
+ 152. http://www.ameanmagazine.com/search/label/directives
+ 153. http://www.ameanmagazine.com/search/label/docker
+ 154. http://www.ameanmagazine.com/search/label/ec2
+ 155. http://www.ameanmagazine.com/search/label/email
+ 156. http://www.ameanmagazine.com/search/label/ember
+ 157. http://www.ameanmagazine.com/search/label/encryption
+ 158. http://www.ameanmagazine.com/search/label/errors
+ 159. http://www.ameanmagazine.com/search/label/exceptions
+ 160. http://www.ameanmagazine.com/search/label/express
+ 161. http://www.ameanmagazine.com/search/label/facebook
+ 162. http://www.ameanmagazine.com/search/label/factories
+ 163. http://www.ameanmagazine.com/search/label/filters
+ 164. http://www.ameanmagazine.com/search/label/firebase
+ 165. http://www.ameanmagazine.com/search/label/firewall
+ 166. http://www.ameanmagazine.com/search/label/forms
+ 167. http://www.ameanmagazine.com/search/label/framework
+ 168. http://www.ameanmagazine.com/search/label/frameworks
+ 169. http://www.ameanmagazine.com/search/label/ghost
+ 170. http://www.ameanmagazine.com/search/label/google
+ 171. http://www.ameanmagazine.com/search/label/grid
+ 172. http://www.ameanmagazine.com/search/label/grunt
+ 173. http://www.ameanmagazine.com/search/label/gulp
+ 174. http://www.ameanmagazine.com/search/label/heroku
+ 175. http://www.ameanmagazine.com/search/label/hosting
+ 176. http://www.ameanmagazine.com/search/label/http
+ 177. http://www.ameanmagazine.com/search/label/i18n
+ 178. http://www.ameanmagazine.com/search/label/IndexedDB
+ 179. http://www.ameanmagazine.com/search/label/interceptors
+ 180. http://www.ameanmagazine.com/search/label/io
+ 181. http://www.ameanmagazine.com/search/label/ionic
+ 182. http://www.ameanmagazine.com/search/label/ios
+ 183. http://www.ameanmagazine.com/search/label/jasmine
+ 184. http://www.ameanmagazine.com/search/label/java
+ 185. http://www.ameanmagazine.com/search/label/javascript
+ 186. http://www.ameanmagazine.com/search/label/jobs
+ 187. http://www.ameanmagazine.com/search/label/joyent
+ 188. http://www.ameanmagazine.com/search/label/jquery
+ 189. http://www.ameanmagazine.com/search/label/karma
+ 190. http://www.ameanmagazine.com/search/label/logging
+ 191. http://www.ameanmagazine.com/search/label/maps
+ 192. http://www.ameanmagazine.com/search/label/maven
+ 193. http://www.ameanmagazine.com/search/label/mean
+ 194. http://www.ameanmagazine.com/search/label/meteor
+ 195. http://www.ameanmagazine.com/search/label/microservices
+ 196. http://www.ameanmagazine.com/search/label/minification
+ 197. http://www.ameanmagazine.com/search/label/minify
+ 198. http://www.ameanmagazine.com/search/label/mms
+ 199. http://www.ameanmagazine.com/search/label/mobile
+ 200. http://www.ameanmagazine.com/search/label/mock
+ 201. http://www.ameanmagazine.com/search/label/mongo
+ 202. http://www.ameanmagazine.com/search/label/mongolab
+ 203. http://www.ameanmagazine.com/search/label/monitoring
+ 204. http://www.ameanmagazine.com/search/label/MVC
+ 205. http://www.ameanmagazine.com/search/label/mysql
+ 206. http://www.ameanmagazine.com/search/label/netflix
+ 207. http://www.ameanmagazine.com/search/label/ngix
+ 208. http://www.ameanmagazine.com/search/label/node
+ 209. http://www.ameanmagazine.com/search/label/npm
+ 210. http://www.ameanmagazine.com/search/label/oauth
+ 211. http://www.ameanmagazine.com/search/label/pagination
+ 212. http://www.ameanmagazine.com/search/label/patterns
+ 213. http://www.ameanmagazine.com/search/label/paypal
+ 214. http://www.ameanmagazine.com/search/label/performance
+ 215. http://www.ameanmagazine.com/search/label/phantomjs
+ 216. http://www.ameanmagazine.com/search/label/phonegap
+ 217. http://www.ameanmagazine.com/search/label/php
+ 218. http://www.ameanmagazine.com/search/label/pinterest
+ 219. http://www.ameanmagazine.com/search/label/plugins
+ 220. http://www.ameanmagazine.com/search/label/polymer
+ 221. http://www.ameanmagazine.com/search/label/postgres
+ 222. http://www.ameanmagazine.com/search/label/promises
+ 223. http://www.ameanmagazine.com/search/label/providers
+ 224. http://www.ameanmagazine.com/search/label/proxy
+ 225. http://www.ameanmagazine.com/search/label/rails
+ 226. http://www.ameanmagazine.com/search/label/raspberry
+ 227. http://www.ameanmagazine.com/search/label/react
+ 228. http://www.ameanmagazine.com/search/label/redis
+ 229. http://www.ameanmagazine.com/search/label/regex
+ 230. http://www.ameanmagazine.com/search/label/replication
+ 231. http://www.ameanmagazine.com/search/label/resources
+ 232. http://www.ameanmagazine.com/search/label/responsive
+ 233. http://www.ameanmagazine.com/search/label/rest
+ 234. http://www.ameanmagazine.com/search/label/ror
+ 235. http://www.ameanmagazine.com/search/label/router
+ 236. http://www.ameanmagazine.com/search/label/ruby
+ 237. http://www.ameanmagazine.com/search/label/s3
+ 238. http://www.ameanmagazine.com/search/label/Sails
+ 239. http://www.ameanmagazine.com/search/label/schemas
+ 240. http://www.ameanmagazine.com/search/label/scope
+ 241. http://www.ameanmagazine.com/search/label/security
+ 242. http://www.ameanmagazine.com/search/label/selenium
+ 243. http://www.ameanmagazine.com/search/label/seo
+ 244. http://www.ameanmagazine.com/search/label/services
+ 245. http://www.ameanmagazine.com/search/label/sharepoint
+ 246. http://www.ameanmagazine.com/search/label/sockets
+ 247. http://www.ameanmagazine.com/search/label/software
+ 248. http://www.ameanmagazine.com/search/label/splunk
+ 249. http://www.ameanmagazine.com/search/label/spring
+ 250. http://www.ameanmagazine.com/search/label/sql
+ 251. http://www.ameanmagazine.com/search/label/ssl
+ 252. http://www.ameanmagazine.com/search/label/sso
+ 253. http://www.ameanmagazine.com/search/label/stacks
+ 254. http://www.ameanmagazine.com/search/label/stamplay
+ 255. http://www.ameanmagazine.com/search/label/static
+ 256. http://www.ameanmagazine.com/search/label/streams
+ 257. http://www.ameanmagazine.com/search/label/strongloop
+ 258. http://www.ameanmagazine.com/search/label/templates
+ 259. http://www.ameanmagazine.com/search/label/testing
+ 260. http://www.ameanmagazine.com/search/label/tools
+ 261. http://www.ameanmagazine.com/search/label/travis
+ 262. http://www.ameanmagazine.com/search/label/trends
+ 263. http://www.ameanmagazine.com/search/label/tutorial
+ 264. http://www.ameanmagazine.com/search/label/twilio
+ 265. http://www.ameanmagazine.com/search/label/twitter
+ 266. http://www.ameanmagazine.com/search/label/upload
+ 267. http://www.ameanmagazine.com/search/label/validation
+ 268. http://www.ameanmagazine.com/search/label/virtualization
+ 269. http://www.ameanmagazine.com/search/label/visual studio
+ 270. http://www.ameanmagazine.com/search/label/web
+ 271. http://www.ameanmagazine.com/search/label/webgl
+ 272. http://www.ameanmagazine.com/search/label/webkit
+ 273. http://www.ameanmagazine.com/search/label/websockets
+ 274. http://www.ameanmagazine.com/search/label/wordpress
+ 275. http://www.ameanmagazine.com/search/label/worker
+ 276. http://www.ameanmagazine.com/search/label/workers
+ 277. http://www.ameanmagazine.com/search/label/yeoman
+ 278. https://www.blogger.com/
+ 279. https://plus.google.com/102356125861763202687
+ 280. https://plus.google.com/102714383139257852703
+ 281. http://www.ameanmagazine.com/
+ 282. http://www.blogger.com/
+ 283. http://automattic.com/
+ 284. http://newbloggerthemes.com/
+
+   Hidden links:
+ 286. file://www.blogger.com/rearrange?blogID=2482458504646703748&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=panelbwrapwidget1
+ 287. file://www.blogger.com/rearrange?blogID=2482458504646703748&widgetType=HTML&widgetId=HTML41&action=editWidget&sectionId=panelbwrapwidget2
+ 288. file://www.blogger.com/rearrange?blogID=2482458504646703748&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=panelbwrapwidget3
+ 289. file://www.blogger.com/rearrange?blogID=2482458504646703748&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=mainblogsec
+ 290. http://www.ameanmagazine.com/2016/02/blog-post_9.html
+ 291. file://www.blogger.com/rearrange?blogID=2482458504646703748&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebarbtop
+ 292. http://www.ameanmagazine.com/2014/10/a-mean-magazine-publish-workflow.html
+ 293. file://www.blogger.com/rearrange?blogID=2482458504646703748&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebarbtop
+ 294. file://www.blogger.com/rearrange?blogID=2482458504646703748&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebarbtop
+ 295. file://www.blogger.com/rearrange?blogID=2482458504646703748&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebarbtop
+ 296. file://www.blogger.com/rearrange?blogID=2482458504646703748&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=sidebarbtop
+ 297. file://www.blogger.com/rearrange?blogID=2482458504646703748&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebarbtop

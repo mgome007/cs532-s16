@@ -1,0 +1,207 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HeyUpdate</title>
+        <meta name="description" content="Keep your team in sync. Write an update at the end of the day and receive a summary of your team’s accomplishments the following morning. HeyUpdate is a simple and effective tool for teams that like to get things done.">
+        <link href="//fonts.googleapis.com/css?family=Bad+Script|Cabin:400|Lato:300,400,700" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/css/app.css?20160214053856" rel="stylesheet">
+        <script src="/libs/modernizr/modernizr.js?20160214053856"></script>
+    </head>
+    <body>
+                <div class="header contain-to-grid">
+            <nav class="top-bar" data-topbar>
+                <ul class="title-area">
+                    <li class="name">
+                        <h1><a href="/"><span class="heyupdate-hey">Hey</span>Update</a></h1>
+                    </li>
+
+                    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                </ul>
+
+                <section class="top-bar-section">
+                    <ul class="right">
+                        <li><a href="https://app.heyupdate.com/signup">See pricing &amp; start free trial</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="http://help.heyupdate.com">Support</a></li>
+                        <li><a href="https://app.heyupdate.com/signin">Sign in</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </div>
+        
+            <section class="hero">
+        <div class="row">
+            <div class="large-12 columns">
+                <h1>Keep your team in sync</h1>
+                <h3>Progress reporting for teams that love to get things done.</h3>
+
+                <div class="row show-for-medium-up">
+                    <div class="large-2 columns">
+                        <div class="hero-faces">
+                            <a href="https://app.heyupdate.com/signup"><img src="/images/faces/8.png?20160214053856"></a>
+                            <a href="https://app.heyupdate.com/signup"><img src="/images/faces/45.png?20160214053856"></a>
+                            <a href="https://app.heyupdate.com/signup"><img src="/images/faces/39.png?20160214053856"></a>
+                            <a href="https://app.heyupdate.com/signup"><img src="/images/faces/47.png?20160214053856"></a>
+                        </div>
+                    </div>
+                    <div class="large-8 columns hero-video">
+                        <div class="browser">
+                            <div class="browser-chrome"></div>
+                            <div class="browser-viewport">
+                                <img src="/images/screenshots/hero-screenshot.png?20160214053856">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-2 columns">
+                        <div class="hero-logos">
+                            <a href="https://app.heyupdate.com/signup"><img class="hero-logo-github" src="/images/integrations/github-white.png?20160214053856"></a>
+                            <a href="https://app.heyupdate.com/signup"><img class="hero-logo-helpscout" src="/images/integrations/helpscout.png?20160214053856"></a>
+                            <a href="https://app.heyupdate.com/signup"><img class="hero-logo-closeio" src="/images/integrations/closeio.png?20160214053856"></a>
+                            <a href="https://app.heyupdate.com/signup"><img class="hero-logo-pivotal-tracker" src="/images/integrations/pivotal-tracker.png?20160214053856"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Add context to your activity stream with short written updates from your team.</p>
+
+                <p><a href="https://app.heyupdate.com/signup" class="button-cta">Start your 14-day free trial</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="customers">
+        <div class="row">
+            <div class="medium-12 columns">
+                <img class="trayio" src="/images/customers/trayio.png?20160214053856">
+                <img class="gosquared" src="/images/customers/gosquared.png?20160214053856">
+                <img class="plutotv" src="/images/customers/plutotv.png?20160214053856">
+                <img class="tui" src="/images/customers/tui.png?20160214053856">
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <h2>Our customers love us</h2>
+                <blockquote>
+                    <p>HeyUpdate lets our geographically distributed team quickly and easily share progress with the rest of the company. The diverse set of integrations allow us to stay focused and in the groove of our toolset. Thanks, HeyUpdate!</p>
+                </blockquote>
+                <cite>
+                    <img src="/images/testimonials/christopher-plutotv.png?20160214053856">
+                    <span class="author">Christopher Burns, Director of Engineering</span>
+                    <span class="company"><a href="https://www.pluto.tv/" target="new">Pluto TV</a></span>
+                </cite>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefit benefit-writen-updates">
+        <div class="row">
+            <div class="medium-6 columns">
+                <h2>Write daily updates</h2>
+                <p>Write a short update with what you got done at the end of the day or after each task. Taking the time to reflect on your work is a simple but effective method to increase productivity.</p>
+                <!-- <p><a class="button-benefit" href="">Read more</a></p> -->
+            </div>
+            <div class="medium-6 columns">
+                <img class="screenshot" src="/images/screenshots/write-update.png?20160214053856">
+            </div>
+        </div>
+    </section>
+
+    <section class="benefit benefit-track-progress">
+        <div class="row">
+            <div class="medium-6 columns">
+                <img class="screenshot" src="/images/screenshots/track-progress.png?20160214053856">
+            </div>
+            <div class="medium-6 columns">
+                <h2>Track progress</h2>
+                <p>Know what everyone in your team is working on. Each morning we’ll send a summary of what your team got done by email or in your Slack channel. Whether you’re working in the same office or across time zones, you’ll find it easy to keep in sync.</p>
+                <!-- <p><a class="button-alt-benefit" href="">Read more</a></p> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="benefit benefit-activity-stream">
+        <div class="row">
+            <div class="medium-6 columns">
+                <h2>Activity reporting</h2>
+                <p>HeyUpdate automatically reports what everyone has been working on by integrating with the tools and services you already use. Escape notification overload with a simple summary of your team’s daily activity.</p>
+                <!-- <p><a class="button-benefit-activity" href="">Read more</a></p> -->
+            </div>
+            <div class="medium-6 columns">
+                <img class="screenshot" src="/images/screenshots/activity.png?20160214053856">
+            </div>
+        </div>
+    </section>
+
+    <section class="integrations">
+        <div class="row">
+            <div class="medium-12 columns">
+                <h3>Integrate with the tools you use every day.</h3>
+                <ul>
+                    <li><a href="/integrations/slack" title="See how the Slack integration works"><img src="/images/integrations/slack.png?20160214053856"><span>Slack</span></a></li>
+                    <li><a href="/integrations/hipchat" title="See how the HipChat integration works"><img src="/images/integrations/hipchat.png?20160214053856"> <span>HipChat</span></a></li>
+                    <li><img src="/images/integrations/github.png?20160214053856"><span>GitHub</span></li>
+                    <li><img src="/images/integrations/bitbucket.png?20160214053856"><span>BitBucket</span></li>
+                    <li><img src="/images/integrations/beanstalk.png?20160214053856"><span>Beanstalk</span></li>
+                    <li><img src="/images/integrations/gitlab.png?20160214053856"><span>GitLab</span></li>
+                    <li><img src="/images/integrations/closeio.png?20160214053856"><span>Close.io</span></li>
+                    <li><img src="/images/integrations/groove.png?20160214053856"><span>Groove</span></li>
+                    <li><img src="/images/integrations/helpscout.png?20160214053856"><span>Help Scout</span></li>
+                    <li><img src="/images/integrations/intercom.png?20160214053856"><span>Intercom</span></li>
+                    <li><img src="/images/integrations/pivotal-tracker.png?20160214053856"><span>Pivotal Tracker</span></li>
+                    <li><img src="/images/integrations/jira.png?20160214053856"><span>Jira</span></li>
+                    <li><img src="/images/integrations/sprintly.png?20160214053856"><span>Sprintly</span></li>
+                    <li><img src="/images/integrations/trello.png?20160214053856"><span>Trello</span></li>
+                </ul>
+                <p>More being added all the time. <a href="mailto:support@heyupdate.com">Have a service you’d like adding?</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta cta-large">
+        <div class="row">
+            <div class="large-12 columns">
+                <h3>Are you ready to keep your team in sync?</h3>
+                <p><a href="https://app.heyupdate.com/signup" class="button-cta">Start your free 14-day trial</a></p>
+                <p>No credit card required.</p>
+            </div>
+        </div>
+    </section>
+
+                <div class="footer">
+            <div class="row">
+                <div class="small-8 large-centered columns footer__links">
+                    <a href="https://app.heyupdate.com/signup">Pricing</a>
+                    <a href="/blog">Blog</a>
+                    <a href="http://help.heyupdate.com">Support</a>
+                    <a href="mailto:support@heyupdate.com">Contact us</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-8 large-centered columns">
+                    &copy; Copyright 2016 HeyUpdate Ltd. Built in the heart of the National Forest.
+                </div>
+            </div>
+        </div>
+        
+        <script src="/libs/jquery/dist/jquery.min.js?20160214053856"></script>
+        <script src="/libs/foundation/js/foundation.js?20160214053856"></script>
+        <script src="/js/app.js?20160214053856"></script>
+
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-53457033-3', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>

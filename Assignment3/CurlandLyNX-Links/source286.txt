@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html>
+<head>
+<title>simeonfranklin.com - 
+     Index Page</title>
+
+
+<link rel="icon" type="image/png" href="/media/favicon.png">
+
+<meta name="description" content="Simeon Franklin - Web Developer" >
+<meta name="keywords" content="PHP, Python, Django" >
+<link rel="stylesheet" type="text/css" href="/media/nautica/css/combined.css" media="all" >
+<link rel="stylesheet" type="text/css" href="/media/nautica/css/print.css" media="print" >
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://simeonfranklin.com/feeds/blog/">
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1803191-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</head>
+<body>
+<div id="content">
+  <div id="headerImg" class="width">
+    <h1>Simeon Franklin</h1>
+    <ul id="menu_2" class="menu" >
+   <li id="item_2"> <a href="/"><span>Home</span></a> </li>
+   <li id="item_5"> <a href="/blog/"><span>Blog</span></a> </li>
+   <li id="item_6"> <a href="/contact/"><span>Contact</span></a> </li>
+   <li id="item_7"> <a href="/python-fundamentals/"><span>Python Fundamentals Class</span></a> </li>
+   <li id="item_7"> <a href="/pro-django-class/"><span>Django Class</span></a> </li>
+   <li id="item_7"> <a href="/jquery-class/"><span>jQuery Class</span></a> </li>   
+</ul>
+
+  </div>
+
+
+     <div style="padding-left:20px;padding-right:20px;">
+     
+      
+       
+<h1>Welcome to simeonfranklin.com</h1>
+
+<p><object width="260" height="95" align="right"><param name="movie" value="https://clients4.google.com/voice/embed/webCallButton"></param><param name="wmode" value="transparent"></param><param name="FlashVars" value="id=8fd9c5a957442007375887949342fa9099b66779&style=0"></param><embed src="https://clients4.google.com/voice/embed/webCallButton" type="application/x-shockwave-flash"wmode="transparent" width="260" height="95" align="right" FlashVars="id=8fd9c5a957442007375887949342fa9099b66779&style=0"></embed></object>I'm Simeon Franklin. I've been an independent software developer for more than a decade. Lately I've specializing in web applications and dynamic websites using Python/Django and jQuery. Recently I've become a language instructor for <a href="http://marakana.com">a great training company in San Francisco</a>. If you're looking for one of my course pages - see the menu above. If you're just looking to contact me you can fill out my <a href="/contact/">contact form</a>, email me at sf@simeonfranklin.com, or call me by clicking on the <em>Google Voice</em> flash widget - I'm always happy to talk to former or future students!
+</p>
+
+<div style="clear:both;"></div>
+
+      
+
+     </div>
+
+  <div id="footer" style="text-align:center;">
+      <a href="http://metapundit.net/">metapundit.net</a>
+          - <a href="http://twitter.com/simeonfranklin/">@simeonfranklin</a>
+	  <br>  <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/">Creative Commons Attribution-NoDerivs 3.0 Unported License</a>.
+   <br>Looking for <a href="http://marakana.com/training/python/">great Python instruction</a>?
+  </div>
+</div>
+</body>
+</html>

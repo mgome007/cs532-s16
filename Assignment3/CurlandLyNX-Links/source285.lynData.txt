@@ -1,0 +1,239 @@
+   #[1]JamesRobertson.eu RSS
+
+     * "Achievement isn't a result of doing what is expected, it's a
+       result of making sacrifices."
+     * Everyone has the potential to realise their talents it's just a
+       question of how they approach it.
+     * My favourite TED video
+       http://www.ted.com/talks/graham_hill_less_stuff_more_happiness
+       #happiness #less #storage
+
+   [2]read more wise words
+   html________________ [BUTTON Input] (not implemented)__
+   [3]page-lookup.xml
+     * [4]Timeline
+
+     * [5][jrsnippets.png]
+       Introducing the Humble_RPi-plugin-piezoelements gem #buzzer #gem
+       #piezo #humblerpipluginpiezoelements #plugin [6]Read more
+     * [7][jrsnippets.png]
+       Introducing the Humble_rpi-plugin-magneticswitch gem
+       #humblerpipluginmagneticswitch #plugin #humblerpi #gem #sensor
+       [8]Read more
+     * [9][jrsnippets.png]
+       Sniffing HTTP traffic using the packetfu gem #packetfu #gem
+       #sniffer #libpcap #debian [10]Read more
+     * [11][jrsnippets.png]
+       Converting a hex to ascii #hex #ascii #convert #chr #pack [12]Read
+       more
+     * [13][jrsnippets.png]
+       Generate a buzzing sound using Raspberry Pi + Piezo drum disc
+       sounder + RPi-PDDB gem #rpipddb #gem #buzzer #raspberrypi [14]Read
+       more
+     * [15][jrimages.jpg]
+       Piezo buzzer #piezo #buzzer #raspberrypi #sound [16]Read more
+     * [17][jraudio.jpg]
+       Buzzer #buzzer #raspberrypi #piezzodrumdisc [18]Read more
+     * [19][dynarex_logo.png]
+       System SPS messages for RSF jobs #sps #system #rsf #jobs [20]Read
+       more
+     * [21][jrarduino.png]
+       Using a magnetic door switch #magnetic #switch #sensor #door #alarm
+       [22]Read more
+     * [23][cpages_logo.svg]
+       10 Pairs MC 38 Wired Door Window Sensor Magnetic Switch
+       (ebay.co.uk) #magnetic #switch #door #arduino #ebay [24]Read more
+
+   [25]RSS
+
+[26]Quick links
+
+     * [27]liveblog
+     * [28]jrmedia list
+     * [29]Ruby Gems
+     * [30]feeds
+     * [31]daily links
+     * [32]HTML copy
+     * [33]MyMedia instructions
+
+     * [34][jrblog.jpg]
+     * [35][jrsnippets.png]
+     * [36][jrjssnippets.png]
+     * [37][jrimages.jpg]
+     * [38][jraudio.jpg]
+     * [39][jrvideos.png]
+     * [40][jrclf.png]
+     * [41][jrbugtracker.png]
+     * [42][jrarduino.png]
+     * [43][twitxr.png]
+     * [44][jrideas.png]
+     * [45][python_logo.png]
+     * [46][health_logo.png]
+     * [47][dynarex_logo.png]
+     * [48][perl_logo.png]
+     * [49][polyrex_logo.png]
+     * [50][vim_logo.png]
+     * [51][pages_logo.png]
+     * [52][svg_logo.png]
+     * [53][asterisk_logo.png]
+     * [54][nodejs_logo.png]
+     * [55][bookmarks_logo.png]
+     * [56][dandelion_logo.png]
+     * [57][pdf_logo.png]
+     * [58][donetoday_logo.png]
+     * [59][featurerequest_logo.png]
+     * [60][rails_logo.png]
+     * [61][file_logo.png]
+     * [62][css_logo.png]
+     * [63][wiki_logo.png]
+     * [64][notes_logo.png]
+     * [65][xslt_logo.png]
+     * [66][sectionx-logo.svg]
+     * [67][kvx_logo.svg]
+     * [68][txt_logo.svg]
+     * [69][c_logo.svg]
+     * [70][cpages_logo.svg]
+     * [71][csharp_logo.svg]
+
+   source: [72]main-directory.xml
+
+Static
+
+[73]Dynarex files
+
+     * [74]system-sps-messages.xml
+     * [75]sps-keywords.xml
+     * [76]rpi-family.xml
+
+[77]Polyrex files
+
+     * [78]my-rf-codes.xml
+     * [79]p261215T1745.xml
+     * [80]svg-elements.xml
+
+[81]Pages
+
+     * [82]How to create the test files using the CFL command #cfl #test
+       #testing #howto
+     * [83]Building an image from a Dockerfile #docker #dockerfile
+     * [84]Email virus warning | JamesRobertson.eu
+
+[85]Progress
+
+     * 23rd Jan 2012 I'm hoping to fix Rexle's XPath limitations within
+       the next month. Fingers crossed.
+     * 23rd Feb 2012 Today I started learning Python as part of the
+       Udacity course CS101: Building a Search Engine.
+     * 6th Feb 2012 I'm currently learning JavaScript <a
+       href="http://ciwcertified.com/">CIW</a> material provided by <a
+       href="http://www.uws.ac.uk/">UWS</a>. My <a href="/ciw">CIW working
+       directory</a> is where I store my files from the Lessons from the
+       <a
+       href="http://education2.certification-partners.com/upload/product/5
+       94/documents/javascript_spec_v1.01_labfiles.zip">Lab files</a>.
+
+Personal lists
+
+[86]Pinned
+
+     * CV
+     * Finding out disk space
+     * Backup with rsync
+     * Introducing the activity-logger gem
+     * machines-used-for-remote-ssh-commands.xml
+     * getting things done
+     * website accounts
+     * HTML5 editor with toolbar
+
+     * 6:00 8:00
+     * 10:40 13:10
+     * 14:45 22:00
+
+References
+
+   1. http://www.jamesrobertson.eu/timeline/dynarex_rss.xml
+   2. file:///dynarex/wisewords.xml
+   3. http://www.jamesrobertson.eu/dynarex/page-lookup.xml
+   4. file:///home/mgomez/CS432/A3/timeline/index.html
+   5. file:///snippets/
+   6. http://www.jamesrobertson.eu/snippets/2016/feb/18/introducing-the-humble_rpi-plugin-piezoelements-gem.html
+   7. file:///snippets/
+   8. http://www.jamesrobertson.eu/snippets/2016/feb/18/introducing-the-humble_rpi-plugin-magneticswitch-gem.html
+   9. file:///snippets/
+  10. http://www.jamesrobertson.eu/snippets/2016/feb/18/sniffing-http-traffic-using-the-packetfu-gem.html
+  11. file:///snippets/
+  12. http://www.jamesrobertson.eu/snippets/2016/feb/18/converting-a-hex-to-ascii.html
+  13. file:///snippets/
+  14. http://www.jamesrobertson.eu/snippets/2016/feb/18/generate-a-buzzing-sound-using-raspberry-pi-piezo-drum-disc-sounder-rpi-pddb-gem.html
+  15. file:///images/
+  16. http://www.jamesrobertson.eu/images/2016/feb/18/piezo-buzzer.html
+  17. file:///audio/
+  18. http://www.jamesrobertson.eu/audio/2016/feb/18/buzzer.html
+  19. file:///dynarex/
+  20. http://www.jamesrobertson.eu/dynarex/system-sps-messages.xml
+  21. file:///arduino/
+  22. http://www.jamesrobertson.eu/arduino/2016/feb/17/using-a-magnetic-door-switch.html
+  23. file:///cpages/
+  24. http://www.jamesrobertson.eu/cpages/2016/feb/17/10-pairs-mc-38-wired-door-window-sensor-magnetic-switch-ebay-co-uk.html
+  25. http://www.jamesrobertson.eu/timeline/dynarex_rss.xml
+  26. file:///dynarex/quicklinks.xml
+  27. http://a1.jamesrobertson.eu/do/liveblog/go
+  28. http://a1.jamesrobertson.eu/do/dynarex/edit/d140215T2317.txt
+  29. http://www.jamesrobertson.eu/dynarex/my-gems.xml
+  30. http://www.jamesrobertson.eu/feeds/
+  31. http://www.jamesrobertson.eu/dynarex/daily-links.xml
+  32. http://www.jamesrobertson.eu/pages/2014/dec/07/html-auto-copy.html
+  33. http://www.jamesrobertson.eu/polyrex/2015/dec/02/instructions-for-copying-mymedia-pages.xml
+  34. file:///blog/
+  35. file:///snippets/
+  36. file:///jssnippets/
+  37. file:///images/
+  38. file:///audio/
+  39. file:///videos/
+  40. file:///clf/
+  41. file:///bugtracker/
+  42. file:///arduino/
+  43. file:///twitxr/
+  44. file:///ideas/
+  45. file:///pysnippets/
+  46. file:///health/
+  47. file:///dynarex/
+  48. file:///perl/
+  49. file:///polyrex/
+  50. file:///vim/
+  51. file:///pages/
+  52. file:///svg/
+  53. file:///asterisk/
+  54. file:///nodejs/
+  55. file:///bookmarks/
+  56. file:///dandelion/
+  57. file:///pdf/
+  58. file:///dt/
+  59. file:///fr/
+  60. file:///rails/
+  61. file:///files/
+  62. file:///cssdev/
+  63. file:///wiki/
+  64. file:///notes/
+  65. file:///xslt/
+  66. file:///sectionx/
+  67. file:///kvx/
+  68. file:///txt/
+  69. file:///c/
+  70. file:///cpages/
+  71. file:///csharp/
+  72. http://www.jamesrobertson.eu/dynarex/main-directory.xml
+  73. http://www.jamesrobertson.eu/dynarex/static.xml
+  74. http://www.jamesrobertson.eu/dynarex/system-sps-messages.xml
+  75. http://www.jamesrobertson.eu/dynarex/sps-keywords.xml
+  76. http://www.jamesrobertson.eu/dynarex/rpi-family.xml
+  77. http://www.jamesrobertson.eu/polyrex/static.xml
+  78. http://www.jamesrobertson.eu/polyrex/my-rf-codes.xml
+  79. http://www.jamesrobertson.eu/polyrex/p261215T1745.xml
+  80. http://www.jamesrobertson.eu/polyrex/svg-elements.xml
+  81. http://www.jamesrobertson.eu/pages/static.xml
+  82. http://www.jamesrobertson.eu/pages/howto-cfl.html
+  83. http://www.jamesrobertson.eu/pages/building-an-image-from-a-dockerfile.html
+  84. http://www.jamesrobertson.eu/pages/Email-virus-warning--virus--email--malicious.html
+  85. file:///home/mgomez/CS432/A3/progress/index.html
+  86. http://www.jamesrobertson.eu/dynarex/pinned.xml

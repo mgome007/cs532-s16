@@ -1,0 +1,514 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Wasabi Ventures &ndash; Venture Capital Firm and Incubator</title>
+    <link rel='icon' href='http://www.wasabiventures.com/images/favicon.ico' type='image/x-icon' />
+    <script src="http://www.wasabiventures.com/vendors/jquery/jquery-1.12.0.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="http://www.wasabiventures.com/scripts/func.validate.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="http://www.wasabiventures.com/scripts/homepage.js?new" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" media="all" href="http://www.wasabiventures.com/css/new_styles.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.wasabiventures.com/css/bootstrap.min.css" />
+
+
+	
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+
+</head>
+<body >
+
+<div id="wrapper" class="wrapper">
+
+	<div class="wrap">
+
+<div id="header_wrap">
+	<div id="header">
+	
+	<div id="logo">
+		<a href="http://www.wasabiventures.com"><img src="http://www.wasabiventures.com/images/i/logo.png" alt="" /></a>
+	</div><!--logo-->
+	
+	<ul id="but">
+		<li><a href="http://www.wasabiventures.com/static/view/about.html">About us</a></li>
+		<li><a href="http://www.wasabiventures.com/team">Team</a></li>
+		<li><a href="http://www.wasabiventures.com/portfolio">Portfolio</a></li>
+		<li><a href="http://www.wasabiventures.com/contact">Contact</a></li>
+	</ul>
+	
+	<ul id="soc">
+		<li><a href="http://www.facebook.com/pages/Wasabi-Ventures/432771326787529" target="_blank"><img src="http://www.wasabiventures.com/images/i/header/fb.png" alt="" /></a></li>
+		<li><a href="https://twitter.com/WasabiVentures" target="_blank"><img src="http://www.wasabiventures.com/images/i/header/tw.png" alt="" /></a></li>
+		<li><a href="http://www.linkedin.com/company/2356290?trk=tyah" target="_blank"><img src="http://www.wasabiventures.com/images/i/header/ln.png" alt="" /></a></li>
+		<li><a href="https://www.youtube.com/channel/UC6HSPyLRDSN7k3ihqWV8h_g" target="_blank"><img src="http://www.wasabiventures.com/images/i/header/yt.png" alt="" /></a></li>
+	</ul>
+	
+	<div class="clear"></div>
+	
+	<h3 id="wv">Wasabi Ventures</h3>
+	
+	<ul id="found">
+		<li id="fnd">
+		<a href="http://www.wasabiventures.com/founders">
+		<span>&nbsp;</span>
+		<h3>Founder</h3>
+		<p>I want to be a startup founder.</p>
+		</a></li>
+		<li id="cpt">
+		<a href="http://www.wasabiventures.com/capital">
+		<span>&nbsp;</span>
+		<h3>Capital</h3>
+		<p>I am raising money for my startup.</p>
+		</a></li>
+		<li id="prtn">
+		<a href="http://www.wasabiventures.com/techtransfer">
+		<span>&nbsp;</span>
+		<h3>T2 Partner</h3>
+		<p>I need a tech transfer and commercialization partner.</p>
+		</a></li>
+		<li id="strt">
+		<a href="http://www.wasabiventures.com/startupeducation">
+		<span>&nbsp;</span>
+		<h3>Startup<br>education</h3>
+		<p>I am looking for<br /> startup education.</p>
+		</a></li>
+		<div style="clear: both;"></div>
+	</ul>
+	
+	</div><!--header-->
+
+</div><!--header_wrap-->
+
+
+<div id="contentwrapper" >
+
+	<div id="startup">
+	<h3>200+ Startups</h3>
+	<p>Wasabi Ventures has cofounded, incubated, advised, and invested in over 200+ early-stage technology companies.</p>
+</div><!--startup-->
+
+<div class="clear"></div>
+
+<div id="testimonials_wrap">
+	<div class="testimonials">
+	
+								
+		    <div class="slide">
+				<span class="t_title">Testimonials</span>
+			<span class="img_wrap">
+				<div class='img_circle' style='background: url("http://www.wasabiventures.com/uploads/images/testimonials/polina_raygorodskaya.jpg") center center;background-size: cover;'></div>
+				
+				<h3 class="name">Polina Raygorodskaya</h3>
+			</span><!--img_wrap-->
+			<span class="bio_wrap">
+				<h3>CEO of Wanderu</h3>
+				<p><strong>Bio:</strong> I was the founder and president of Polina Fashion LLC, a boutique fashion, travel and luxury PR firm. My entrepreneurial endeavors have been recognized by Business Week, the Fox Business Channel and Legal Zoom. In 2007 Business Week named Polina as one of the "Best 25 Entrepreneurs Under 25." I love to travel, and I bring that passion to being the founder of Wanderu.</p>
+
+				<p><strong>Question:</strong> What has been like to have Wasabi Ventures as an Investor?</p>
+				<p>We loved the fast, painless process that Wasabi Ventures used for being one of our earliest investors. They have believed in our vision from the earliest stages and have always tried to value-add to our start-up journey.</p>
+			</span><!--bio_wrap-->
+
+			</div><!--slide-->
+
+								
+		    <div class="slide">
+				<span class="t_title">Testimonials</span>
+			<span class="img_wrap">
+				<div class='img_circle' style='background: url("http://www.wasabiventures.com/uploads/images/testimonials/chris_herbert.jpg") center center;background-size: cover;'></div>
+				
+				<h3 class="name">Chris Herbert</h3>
+			</span><!--img_wrap-->
+			<span class="bio_wrap">
+				<h3>CEO and Co-Founder of Trackr</h3>
+				<p><strong>Bio:</strong> I went surfing and my key fell out of my wetsuit on the beach. My car was parked below the high tide line and when I came in to move my car, I couldn’t find my keys! Luckily people with metal detectors came by and found my keys before the ocean swept away my car. That made me wish for a easy way to keep track of items.</p>
+
+				<p><strong>Question:</strong> What has been like to have Wasabi Ventures as an Investor?</p>
+				<p>Wasabi Ventures has been a great early stage funder and cheerleader for us. They are constantly trying to add value to the operation above and beyond the cash investment that they made.</p>
+			</span><!--bio_wrap-->
+
+			</div><!--slide-->
+
+								
+		    <div class="slide">
+				<span class="t_title">Testimonials</span>
+			<span class="img_wrap">
+				<div class='img_circle' style='background: url("http://www.wasabiventures.com/uploads/images/testimonials/1452105164.jpg") center center;background-size: cover;'></div>
+				
+				<h3 class="name">Joel Robinson</h3>
+			</span><!--img_wrap-->
+			<span class="bio_wrap">
+				<h3>CEO and Co-Founder at VidFall</h3>
+				<p><strong>Bio:</strong> Inspired to invent and create new products and services, I am now working to build a large user base around my company,&nbsp;<a target="_blank" href="http://vidfall.com/">VidFall.com</a>. I enjoy travel, airplanes, hip hop music, and eco-friendly technologies. I hope to turn my passion for innovation into an exciting and fulfilling career.</p>
+
+				<p><strong>Question:</strong> Why did you become an EiR with Wasabi Ventures?</p>
+				<p>After going through the Start-up Foundations of Wasabi Ventures Academy, I was amazed at the level of commitment Wasabi Ventures has for its co-founded companies. I knew I wanted to build my company with WV and they have not disappointed. They have provided every resource and funding aspect we have needed to be the startup we are today.</p>
+			</span><!--bio_wrap-->
+
+			</div><!--slide-->
+
+								
+		    <div class="slide">
+				<span class="t_title">Testimonials</span>
+			<span class="img_wrap">
+				<div class='img_circle' style='background: url("http://www.wasabiventures.com/uploads/images/testimonials/branko_cerny.jpg") center center;background-size: cover;'></div>
+				
+				<h3 class="name">Branko Cerny</h3>
+			</span><!--img_wrap-->
+			<span class="bio_wrap">
+				<h3>CEO and Co-Founder Immediately</h3>
+				<p><strong>Bio:</strong> Dartmouth grad with the love of great wine and great startups.</p>
+
+				<p><strong>Question:</strong> What was the best part about being a WV EiR?</p>
+				<p>We entered Wasabi Ventures EiR program, which allowed us to get experienced management help and engineering talent we went from concept to MVP. We were impressed with the dedicated time from TK, Chris Yeh, and the rest of the staff. They cared about us as founders and people and this allowed us to grow from an idea to a fundable startup.</p>
+			</span><!--bio_wrap-->
+
+			</div><!--slide-->
+
+								
+		    <div class="slide">
+				<span class="t_title">Testimonials</span>
+			<span class="img_wrap">
+				<div class='img_circle' style='background: url("http://www.wasabiventures.com/uploads/images/testimonials/william_wolf.jpg") center center;background-size: cover;'></div>
+				
+				<h3 class="name">William Wolf</h3>
+			</span><!--img_wrap-->
+			<span class="bio_wrap">
+				<h3>Griffiss Institute Director</h3>
+				<p><strong>Bio:</strong> I joined Griffiss Institute after 11 years as the Chief of the Cyber Operations Branch of the Air Force Research Laboratory in Rome, New York.</p>
+
+				<p><strong>Question:</strong> What has it been like to have Wasabi Ventures as an tech transfer partner?</p>
+				<p>Bringing in Wasabi Ventures to our tech transfer efforts at GI has been transformative. Their approach with fostering relationships with startups, lab personnel, and community leaders has created a tech transfer program that is truly revolutionary.</p>
+			</span><!--bio_wrap-->
+
+			</div><!--slide-->
+
+								
+		    <div class="slide">
+				<span class="t_title">Testimonials</span>
+			<span class="img_wrap">
+				<div class='img_circle' style='background: url("http://www.wasabiventures.com/uploads/images/testimonials/annette_zinky.jpg") center center;background-size: cover;'></div>
+				
+				<h3 class="name">Annette Zinky</h3>
+			</span><!--img_wrap-->
+			<span class="bio_wrap">
+				<h3>President & CEO of Northern Arizona Center for Entrepreneurship and Technology </h3>
+				<p><strong>Bio:</strong> I joined NACET in 2011. I have worked with startups, small business and growing companies for 9 years, and in my own small consumer products company for 11 years before that.</p>
+
+				<p><strong>Question:</strong> What has it been like to have Wasabi Ventures as an educational partner?</p>
+				<p>The Wasabi Ventures team has been a great partner in our educational offerings for startups and entrepreneurs. Chris and TK as investors specifically offer a level of individual attention and incredible access to participants, making it so that no question goes unanswered or is off-limits. This kind of access and transparency is not normally available in most startup educational programs.</p>
+			</span><!--bio_wrap-->
+
+			</div><!--slide-->
+
+								
+		    <div class="slide">
+				<span class="t_title">Testimonials</span>
+			<span class="img_wrap">
+				<div class='img_circle' style='background: url("http://www.wasabiventures.com/uploads/images/testimonials/mark_kaplan.jpg") center center;background-size: cover;'></div>
+				
+				<h3 class="name">Mark Kaplan</h3>
+			</span><!--img_wrap-->
+			<span class="bio_wrap">
+				<h3>CEO of Alpha Loft</h3>
+				<p><strong>Bio:</strong> CEO of Alpha Loft has three decades of executive, venture capital, financial, and investment industry experience. He led the creation of the current Alpha Loft organization in New Hampshire through the combination of three separate entities.</p>
+
+				<p><strong>Question:</strong> What is special about partnering with Wasabi Ventures?</p>
+				<p>We have a close relationship with Wasabi Ventures both in our daily activities and our leadership, as TK Kuegler serves on Alpha Loft's Board of Directors. Wasabi works very hard to develop companies in our state and to add value to the state's ecosystem. They bring great expertise and are a highly valued partner to our organization and many others. TK has a strong reputation in New Hampshire as a venture capitalist who provides excellent feedback and guidance to entrepreneurs, even those that are not backed by Wasabi" They are a 'go to' firm in the startup ecosystem of the state.</p>
+			</span><!--bio_wrap-->
+
+			</div><!--slide-->
+
+								
+		    <div class="slide">
+				<span class="t_title">Testimonials</span>
+			<span class="img_wrap">
+				<div class='img_circle' style='background: url("http://www.wasabiventures.com/uploads/images/testimonials/jen_meyer.jpg") center center;background-size: cover;'></div>
+				
+				<h3 class="name">Jen Meyer</h3>
+			</span><!--img_wrap-->
+			<span class="bio_wrap">
+				<h3>CEO Betamore</h3>
+				<p><strong>Bio:</strong> I went to school here in Maryland for both undergrad and graduate school. My undergrad was in business at Frostburg. I got my MBA at Loyola and then my first job was actually in the high-tech field, so I worked for a website hosting company and a domain name registrar. And then I actually worked at Athire [a recruiting service for tech companies], so that kind of started my love affair with technology and with early-stage start-ups.</p>
+
+				<p><strong>Question:</strong> Why did you partner with Wasabi Ventures?</p>
+				<p>Through our partnership with Wasabi Ventures we have collaborated on a Venture Capital Bootcamp as well as continued educational opportunities for our entrepreneurs scheduled for 2016. We have found Wasabi Ventures to be a committed partner in developing our local ecosystem and supporting the growth of the technology-based startup community in Baltimore. Their programs and workshops are targeted to meet the needs of a given region and provide participants with tools and strategies for success. Additionally, their team provides continued support and mentorship to the entrepreneurs, which makes them an invaluable member of Betamore’s coworking community.</p>
+			</span><!--bio_wrap-->
+
+			</div><!--slide-->
+
+								
+		    <div class="slide">
+				<span class="t_title">Testimonials</span>
+			<span class="img_wrap">
+				<div class='img_circle' style='background: url("http://www.wasabiventures.com/uploads/images/testimonials/rudi_leismann.jpg") center center;background-size: cover;'></div>
+				
+				<h3 class="name">Rudi Leismann</h3>
+			</span><!--img_wrap-->
+			<span class="bio_wrap">
+				<h3>CEO MyTraining.pro</h3>
+				<p><strong>Bio:</strong>Fitness has been a lifelong passion of mine, leading me to Found an early stage internet startup in the fitness industry. MyTraining is a fitness platform that is redefining the way people workout. As I worked through the WV Academy I learned many insights that I could directly apply in my startup and generate results.</p>
+
+				<p><strong>Question:</strong> What would you say to someone considering applying to the WV Academy?</p>
+				<p>The WV Academy is a big opportunity for people starting or working with startups. Entrepreneurs learn the fundamentals of the startup world, from some of the best instructors in the world! </p>
+			</span><!--bio_wrap-->
+
+			</div><!--slide-->
+
+								
+		    <div class="slide">
+				<span class="t_title">Testimonials</span>
+			<span class="img_wrap">
+				<div class='img_circle' style='background: url("http://www.wasabiventures.com/uploads/images/testimonials/justin_ballou.jpg") center center;background-size: cover;'></div>
+				
+				<h3 class="name">Justin Ballou</h3>
+			</span><!--img_wrap-->
+			<span class="bio_wrap">
+				<h3>Educator and Innovator</h3>
+				<p><strong>Bio:</strong> I am a high school social studies educator who specializes in human behavior. After working in the public school system in New Hampshire, I felt their were ways to improve opportunities for students, educators and communities. This led to my immersion into entrepreneurship and the surrounding areas of VC.</p>
+
+				<p><strong>Question:</strong> What was your favorite part of the WV Academy and why?</p>
+				<p>The best part for me was interacting with a group of like-minded individuals. people who had ideas and perspectives that can only help you in the long run.</p>
+			</span><!--bio_wrap-->
+
+			</div><!--slide-->
+
+																								
+		    <div class="slide">
+				<span class="t_title">Testimonials</span>
+			<span class="img_wrap">
+				<div class='img_circle' style='background: url("http://www.wasabiventures.com/uploads/images/testimonials/annette_zinky_1.jpg") center center;background-size: cover;'></div>
+				
+				<h3 class="name">Annette Zinky</h3>
+			</span><!--img_wrap-->
+			<span class="bio_wrap">
+				<h3>President & CEO of Northern Arizona Center for Entrepreneurship and Technology </h3>
+				<p><strong>Bio:</strong> I joined NACET in 2011. I have worked with startups, small business and growing companies for 9 years, and in my own small consumer products company for 11 years before that.</p>
+
+				<p><strong>Question:</strong> What has it been like to have Wasabi Ventures as an educational partner?</p>
+				<p>The Wasabi Ventures team has been a great partner in our educational offerings for startups and entrepreneurs. Chris and TK as investors specifically offer a level of individual attention and incredible access to participants, making it so that no question goes unanswered or is off-limits. This kind of access and transparency is not normally available in most startup educational programs.</p>
+			</span><!--bio_wrap-->
+
+			</div><!--slide-->
+
+												
+			
+
+
+	</div>
+</div>
+
+
+
+<div class="clear"></div>
+<div class="container col-sm-12">
+<div class="row">
+<div id="watch">
+<h3>Take the first step toward  
+<span>Becoming a startup founder today</span>
+<span id="sm">by enrolling in the Wasabi Ventures Academy</span>
+</h3>
+	<a href="http://www.wasabiventures.com/founders" onclick="$('#video_modal').modal(); return false;">Watch Video</a>
+</div><!--watch-->
+</div>
+</div>
+<div class="clear"></div>
+
+<div style="margin: 0 53px 0 58px;">
+<div class="container-fluid">
+<div class="row">
+<div id="media">
+<ul>
+	<li class="col-md-4 col-sm-12" style="margin-bottom: 20px;">
+		<div id="newsletter" class="m_item">
+		<h3 class="m_title">Newsletter</h3>
+			<div class="media_wrap">
+			<ul id="tuned">
+				<li><img src="http://www.wasabiventures.com/images/i/stay.jpg" alt="" /><p>Stay up-to-date on local startup activity in your area and around the world</p></li>
+				<li><img src="http://www.wasabiventures.com/images/i/tuned.jpg" alt="" /><p>Stay tuned to what Wasabi Ventures is investing in and working on</p></li>
+				<li><img src="http://www.wasabiventures.com/images/i/learn.jpg" alt="" /><p>Learn about opportunities at Wasabi Ventures</p></li>
+			</ul>
+			
+			<h4>Subscribe to the Wasabi Ventures Start-Up Life Newsletter</h4>
+			<form method="get" action='' id='subscribe'>
+
+			<div id="error" style="margin: 6px; padding: 6px;">
+				<div id="error_container">
+					First name is too short.
+				</div>
+			</div>
+
+			<div id="subscribe_inputs">
+				<input type='text' class='default-input radius3 fname homepage_input' placeholder='First name' name='fname'><br>
+				<input type='text' class='default-input radius3 lname homepage_input' placeholder='Last name' name='lname'><br>
+				<input type='text' class='default-input radius3 email homepage_input' placeholder='Email'  name='email'><br>
+				<input type='submit' class='default-btn-sm radius3 center-block' value='Subscribe'>
+			</div>
+
+			<div id="subscribe_success">
+				<div id="subscribe_success_container">
+					You have been subscribed. Thank You!
+				</div>
+			</div>
+			</div><!--media_wrap-->
+
+			</form>
+			</div>
+	</li>
+	<li class="col-md-4 col-sm-6" style="margin-bottom: 20px;">
+		<div id="twitter" class="m_item">
+		<h3 class="m_title">Twitter</h3>
+			<div class="media_wrap" style="text-align: right;">
+			
+				<a class="twitter-timeline" href="https://twitter.com/WasabiVentures" data-chrome="noheader transparent" data-widget-id="427778860722057216"  width="350"  height="550">Tweets by @WasabiVentures</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			
+			</div><!--media_wrap-->
+		<div>
+	</li>
+	<li class="col-md-4 col-sm-6">
+		<div id="media_news" class="m_item">
+		<h3 class="m_title">Media</h3>
+			<div class="media_wrap">
+
+								 					<div class="news_item">
+											<img src="http://www.wasabiventures.com/uploads/images/portfolio/500friends_1.jpg" alt="" />
+										<p><a href="http://www.wasabiventures.com/news/view/enhancing_customer_experience_using_realtime_data.html">Enhancing Customer Experience Using Real-Time Data </a></p>
+					<span class="date">February 15, 2016</span>
+					</div><!--news_item-->
+				 					<div class="news_item">
+											<img src="http://www.wasabiventures.com/uploads/images/portfolio/proven_2.jpg" alt="" />
+										<p><a href="http://www.wasabiventures.com/news/view/a_big_part_of_success_is_helping_others.html">&#039;A Big Part of Success Is Helping Others&#039;  </a></p>
+					<span class="date">February 15, 2016</span>
+					</div><!--news_item-->
+				 					<div class="news_item">
+											<img src="http://www.wasabiventures.com/uploads/images/portfolio/blackburn_energy_1.jpg" alt="" />
+										<p><a href="http://www.wasabiventures.com/news/view/blackburn_energy_receives_50000_in_funding_from_the_massachusetts_clean_energy_center.html">Blackburn Energy Receives $50,000 in Funding from the Massachusetts Clean Energy Center </a></p>
+					<span class="date">February 15, 2016</span>
+					</div><!--news_item-->
+				 					<div class="news_item">
+											<img src="http://www.wasabiventures.com/uploads/images/portfolio/pathsource_3.jpg" alt="" />
+										<p><a href="http://www.wasabiventures.com/news/view/high_college_costs_are_creating_a_middleskills_talent_gap.html">High College Costs Are Creating a Middle-Skills Talent Gap </a></p>
+					<span class="date">February  8, 2016</span>
+					</div><!--news_item-->
+				 					<div class="news_item">
+											<img src="http://www.wasabiventures.com/uploads/images/portfolio/appthis.jpg" alt="" />
+										<p><a href="http://www.wasabiventures.com/news/view/appthis_opens_first_international_office_in_israel.html">AppThis Opens First International Office in Israel </a></p>
+					<span class="date">February  8, 2016</span>
+					</div><!--news_item-->
+				 					<div class="news_item">
+											<img src="http://www.wasabiventures.com/uploads/images/portfolio/sravel_1.jpg" alt="" />
+										<p><a href="http://www.wasabiventures.com/news/view/sravel_launches_app_in_the_app_store.html">Sravel Launches App in the App Store </a></p>
+					<span class="date">February  8, 2016</span>
+					</div><!--news_item-->
+				 					<div class="news_item">
+											<img src="http://www.wasabiventures.com/uploads/images/portfolio/ustream_1.jpg" alt="" />
+										<p><a href="http://www.wasabiventures.com/news/view/ibm_acquires_ustream_to_extend_its_cloud_platform.html">IBM Acquires Ustream to Extend its Cloud Platform</a></p>
+					<span class="date">January 31, 2016</span>
+					</div><!--news_item-->
+				 					<div class="news_item">
+											<img src="http://www.wasabiventures.com/uploads/images/portfolio/caplinked.jpg" alt="" />
+										<p><a href="http://www.wasabiventures.com/news/view/caplinked_announces_new_round_of_funding_totaling_35_million.html">CapLinked Announces New Round of Funding Totaling $3.5 million </a></p>
+					<span class="date">January 31, 2016</span>
+					</div><!--news_item-->
+				 					<div class="news_item">
+											<img src="http://www.wasabiventures.com/uploads/images/portfolio/vidfall_3.jpg" alt="" />
+										<p><a href="http://www.wasabiventures.com/news/view/vidfall_one_of_32_startups_advancing_to_round_2_of_2016_venture_madness_competition.html">VidFall One of 32 Startups Advancing to Round 2 of 2016 Venture Madness Competition</a></p>
+					<span class="date">January 31, 2016</span>
+					</div><!--news_item-->
+				 					<div class="news_item">
+											<img src="http://www.wasabiventures.com/uploads/images/portfolio/roomi_1.jpg" alt="" />
+										<p><a href="http://www.wasabiventures.com/news/view/roomi_announces_exciting_developments_in_2016.html">Roomi Announces Exciting Developments in 2016! </a></p>
+					<span class="date">January 20, 2016</span>
+					</div><!--news_item-->
+				 								
+			</div><!--media_wrap-->
+		</div>
+	</li>
+	<div style="clear: both"></div>
+</ul>
+	<div style="clear: both"></div>
+</div><!--media-->
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="video_modal">
+  <div class="modal-dialog" style="">
+    <div class="modal-content" style="">
+      <div class="modal-body">
+
+		<iframe width="640" height="360" src="https://www.youtube.com/embed/6s8l6HYWanU" frameborder="0" allowfullscreen></iframe>
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+</div><!--contentwrapper-->
+
+
+</div><!--contentwrapper-->
+
+	
+		<div class="push"></div>
+</div><!--wrapper-->
+	
+
+<div id="footer">
+	<div id="footer_wrap">
+	
+		<img src="http://www.wasabiventures.com/images/i/footer/logo.jpg" alt="" />
+	
+	<ul>
+		<li><a href="http://www.wasabiventures.com/static/view/about.html">About us</a></li>
+		<li><a href="http://www.wasabiventures.com/team">Team</a></li>
+		<li><a href="http://www.wasabiventures.com/portfolio">Portfolio</a></li>
+		<li><a href="http://www.wasabiventures.com/contact">Contact</a></li>
+	</ul>
+	
+	<p>Copyright &copy; 2007-2016  Wasabi Ventures, LLC</p>
+	</div><!--footer_wrap-->
+</div><!--footer-->
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-38572225-1']);
+	  _gaq.push(['_setDomainName', 'wasabiventures.com']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.testimonials').slick({
+		infinite: true,
+		slidesToShow: 1,
+		autoplay: false,
+		arrows: true,
+		autoplaySpeed: 5000,
+		initialSlide: 2,
+		centerMode: true,
+		variableWidth: false,
+		centerPadding: '60px'
+    });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Arbatrage</title>
+	<link rel="profile" href="//gmpg.org/xfn/11">
+	<link rel="pingback" href="//arbatrage.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="//arbatrage.com/wp-content/themes/notredam/js/html5.js"></script>
+	<![endif]-->
+					<script type="text/javascript">document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+						<style>
+				.wishlist_table .add_to_cart, a.add_to_wishlist.button.alt { border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; }			</style>
+			<script type="text/javascript">
+				var yith_wcwl_plugin_ajax_web_url = 'http://arbatrage.com/wp-admin/admin-ajax.php';
+			</script>
+		<link rel="alternate" type="application/rss+xml" title="Arbatrage &raquo; Feed" href="//arbatrage.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Arbatrage &raquo; Comments Feed" href="//arbatrage.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Arbatrage &raquo; Home full-width Comments Feed" href="//arbatrage.com/home-full-width/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/arbatrage.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='thickbox.css-css'  href='//arbatrage.com/wp-includes/js/thickbox/thickbox.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='//arbatrage.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='paginationstyle-css'  href='//arbatrage.com/wp-content/plugins/faster-pagination/assests/pagination.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='//arbatrage.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.0.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='//arbatrage.com/wp-content/plugins/wp-to-twitter/css/twitter-feed.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css'  href='//arbatrage.com/wp-content/plugins/woocommerce/assets/css/prettyPhoto.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-selectBox-css'  href='//arbatrage.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox.css?ver=1.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcwl-main-css'  href='//arbatrage.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style.css?ver=2.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='PI_stt_front-css'  href='//arbatrage.com/wp-content/plugins/simple-twitter-tweets/css/stt.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wwcAmzAffProducts-css'  href='//arbatrage.com/wp-content/plugins/woozone/modules/product_in_post/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='//arbatrage.com/wp-content/plugins/js_composer/assets/css/js_composer.css?ver=4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-xz_options-css'  href='//fonts.googleapis.com/css?family=Vesper+Libre%3A400%7CMontserrat%7CCourgette%3A400&#038;subset=latin&#038;ver=1454615604' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='//arbatrage.com/wp-content/themes/notredam/css/font-awesome.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='//arbatrage.com/wp-content/themes/notredam/css/bootstrap.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='xz-style-css'  href='//arbatrage.com/wp-content/themes/notredam/style.css?ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='//arbatrage.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/woozone//lib/frontend/frontend.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.0.6'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.0.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"http:\/\/arbatrage.com\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.4.6'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=4.7'></script>
+<link rel='https://api.w.org/' href='//arbatrage.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="//arbatrage.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="//arbatrage.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<meta name="generator" content="WooCommerce 2.4.6" />
+<link rel="canonical" href="//arbatrage.com/" />
+<link rel='shortlink' href='//arbatrage.com/' />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@arbatrage" />
+<meta name="twitter:url" content="http://arbatrage.com/" />
+<meta name="twitter:title" content="Home full-width" />
+<meta name="twitter:description" content="&hellip;" />
+			<link rel="shortcut icon" href="//arbatrage.com/wp-content/uploads/2015/08/transparent-logo.png">
+			<link rel="apple-touch-icon-precomposed" sizes="152x152" href="//arbatrage.com/wp-content/themes/notredam/images/icons/apple-touch-icon-152x152-precomposed.png">
+				
+		<!-- Logo CSS -->
+		<style type="text/css">
+			.site-logo {
+				width: 20%;
+			}		
+
+            .single-product-content .tabs li a, .masonry-filter li a, .woocommerce .cart-empty, .xz-navigation .menu &gt; li.menu-item-design-full-width .sub-menu &gt; li &gt; a, .xz-navigation .menu &gt; li.menu-item-design-sized .sub-menu &gt; li &gt; a {
+    font-family: Montserrat,&#039;MS Sans Serif&#039;, Geneva, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+}
+.product-design-alt .entry-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+        color: #000000;
+}
+		</style>
+
+		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="//arbatrage.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="//arbatrage.com/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.0.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<style type="text/css" title="dynamic-css" class="options-output">.page-title-default{background-color:#212121;}.topbar-wrapp{background-color:#212121;}.footer-container{background-color:#0a0a0a;background-repeat:no-repeat;background-size:cover;background-attachment:scroll;background-position:left bottom;background-image:url('http://arbatrage.com/wp-content/uploads/2015/08/FullSizeRender-162.jpg');}body,p,
+.widget_nav_mega_menu .menu > li > a, 
+.mega-navigation .menu > li > a,
+.xz-navigation .menu > li.menu-item-design-full-width .sub-sub-menu li a, 
+.xz-navigation .menu > li.menu-item-design-sized .sub-sub-menu li a,
+.xz-navigation .menu > li.menu-item-design-default .sub-menu li a
+			{font-family:"Vesper Libre",Tahoma,Geneva, sans-serif;font-weight:400;font-style:normal;}h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1, h2, h3, h4, h5, h6, .title,table th,
+.single-product-content .tabs li a,
+.masonry-filter li a,
+.woocommerce .cart-empty,
+.xz-navigation .menu > li.menu-item-design-full-width .sub-menu > li > a, 
+.xz-navigation .menu > li.menu-item-design-sized .sub-menu > li > a
+			{font-family:Montserrat,'MS Sans Serif', Geneva, sans-serif;font-weight:normal;font-style:normal;color:#e5e5e5;}.title-alt, .subtitle, .font-alt, .type-post .entry-meta{font-family:Courgette,'Comic Sans MS', cursive;font-weight:400;font-style:normal;}.widgettitle, .widget-title{color:#000000;}.main-nav ul > li > a{color:#000000;}.xz-navigation .menu > li.menu-item-design-full-width .sub-menu > li > a:hover,.xz-navigation .menu > li.menu-item-design-sized .sub-menu > li > a:hover,.btn.btn-color-primary.btn-style-bordered,.button.btn-color-primary.btn-style-bordered,button.btn-color-primary.btn-style-bordered,.added_to_cart.btn-color-primary.btn-style-bordered,input[type=submit].btn-color-primary.btn-style-bordered,.single-post-navigation a:hover,blockquote footer:before,blockquote cite,.type-post .entry-meta .meta-author a,.search-no-results.woocommerce .site-content:before,.search-no-results .not-found .entry-header:before,.error404 .page-title,.menu-label-new:after,.xz-hover-effect-4 .swap-elements > a,.xz-hover-effect-4 .swap-elements > a:hover,.product-design-alt .entry-summary .price > .amount,.product-design-alt .entry-summary .price ins .amount,.blog-post-loop .entry-content ul li:before,.comments-area #cancel-comment-reply-link:hover,.comments-area .comment-body .comment-edit-link:hover,.woocommerce-checkout-review-order-table tfoot .order-total td .amount,.title-wrapper.xz-title-color-primary .title-subtitle,.widget_shopping_cart .widget_shopping_cart_content > .total .amount{color:#494949;}.xz-cart-icon > a > span,.sticky-header .xz-cart-alt > a > span,.xz-cart-design-3 > a:before,.btn.btn-color-primary,.button.btn-color-primary,button.btn-color-primary,.added_to_cart.btn-color-primary,input[type=submit].btn-color-primary,.btn.btn-color-primary:hover, .btn.btn-color-primary:focus, .button.btn-color-primary:hover, .button.btn-color-primary:focus, button.btn-color-primary:hover, button.btn-color-primary:focus, .added_to_cart.btn-color-primary:hover, .added_to_cart.btn-color-primary:focus, input[type=submit].btn-color-primary:hover, input[type=submit].btn-color-primary:focus,.btn.btn-color-primary.btn-style-bordered:hover,.btn.btn-color-primary.btn-style-bordered:focus,.button.btn-color-primary.btn-style-bordered:hover,.button.btn-color-primary.btn-style-bordered:focus,button.btn-color-primary.btn-style-bordered:hover,button.btn-color-primary.btn-style-bordered:focus,.register .button,.register .button:hover,.register .button:focus,.added_to_cart.btn-color-primary.btn-style-bordered:hover,.added_to_cart.btn-color-primary.btn-style-bordered:focus,input[type=submit].btn-color-primary.btn-style-bordered:hover,input[type=submit].btn-color-primary.btn-style-bordered:focus,.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout,.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:hover, .widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:focus,.right-column .search-button .dropdown-wrap-search .dropdown-search form button,.right-column .search-button .dropdown-wrap-search .dropdown-search form button:hover,.right-column .search-button .dropdown-wrap-search .dropdown-search form button:focus,.no-results .searchform #searchsubmit,.no-results .searchform #searchsubmit:hover,.no-results .searchform #searchsubmit:focus,.single-product-content .cart .button,.single-product-content .cart .button:hover, .single-product-content .cart .button:focus,.mc4wp-form input[type=submit],.mc4wp-form input[type=submit]:hover, .mc4wp-form input[type=submit]:focus,.single-product-content .comment-form .form-submit input[type=submit],.single-product-content .comment-form .form-submit input[type=submit]:hover, .single-product-content .comment-form .form-submit input[type=submit]:focus,.comments-area .comment-respond input[type=submit],.comments-area .comment-respond input[type=submit]:hover,.comments-area .comment-respond input[type=submit]:focus,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a:hover,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a:focus,.woocommerce .checkout_coupon .button,.woocommerce .checkout_coupon .button:hover,.woocommerce .checkout_coupon .button:focus,.woocommerce .place-order input[type=submit],.woocommerce .place-order input[type=submit]:hover,.woocommerce .place-order input[type=submit]:focus,.woocommerce .login .button,.woocommerce .login .button:hover,.woocommerce .login .button:focus,.woocommerce input[name=track],.woocommerce input[name=track]:hover,.woocommerce input[name=track]:focus,.woocommerce input[name=save_account_details],.woocommerce input[name=save_address],.woocommerce-page input[name=save_account_details],.woocommerce-page input[name=save_address],.woocommerce input[name=save_account_details]:hover,.woocommerce input[name=save_account_details]:focus,.woocommerce input[name=save_address]:hover,.woocommerce input[name=save_address]:focus,.woocommerce-page input[name=save_account_details]:hover,.woocommerce-page input[name=save_account_details]:focus,.woocommerce-page input[name=save_address]:hover,.woocommerce-page input[name=save_address]:focus,.search-no-results .not-found .entry-content .searchform #searchsubmit,.search-no-results .not-found .entry-content .searchform #searchsubmit:hover, .search-no-results .not-found .entry-content .searchform #searchsubmit:focus,.error404 .page-content > .searchform #searchsubmit,.error404 .page-content > .searchform #searchsubmit:hover,.error404 .page-content > .searchform #searchsubmit:focus,.popup-quick-view .entry-summary > .product_type_simple, .popup-quick-view .entry-summary .product_type_variable,.popup-quick-view .entry-summary > .product_type_simple:hover, .popup-quick-view .entry-summary > .product_type_simple:focus, .popup-quick-view .entry-summary .product_type_variable:hover, .popup-quick-view .entry-summary .product_type_variable:focus,.woocommerce .return-to-shop .button,.woocommerce .return-to-shop .button:hover,.woocommerce .return-to-shop .button:focus,.title-shop .nav-shop > a:hover,.widget_price_filter .ui-slider .ui-slider-handle,.widget_tag_cloud .tagcloud a:hover,.widget_product_tag_cloud .tagcloud a:hover,div.bbp-submit-wrapper button,div.bbp-submit-wrapper button:hover,div.bbp-submit-wrapper button:focus,#bbpress-forums .bbp-search-form #bbp_search_submit,#bbpress-forums .bbp-search-form #bbp_search_submit:hover,#bbpress-forums .bbp-search-form #bbp_search_submit:focus,.mobile-nav ul li .up-icon,.menu-label-new,.portfolio-with-bg-alt .portfolio-entry:hover .entry-header > .portfolio-info,.blog-post-loop .post-date .post-date-month{background-color:#494949;}.btn.btn-color-primary,.button.btn-color-primary,button.btn-color-primary,.added_to_cart.btn-color-primary,input[type=submit].btn-color-primary,.btn.btn-color-primary:hover, .btn.btn-color-primary:focus, .button.btn-color-primary:hover, .button.btn-color-primary:focus, button.btn-color-primary:hover, button.btn-color-primary:focus, .added_to_cart.btn-color-primary:hover, .added_to_cart.btn-color-primary:focus, input[type=submit].btn-color-primary:hover, input[type=submit].btn-color-primary:focus,.btn.btn-color-primary.btn-style-bordered:hover,.btn.btn-color-primary.btn-style-bordered:focus,.button.btn-color-primary.btn-style-bordered:hover,.button.btn-color-primary.btn-style-bordered:focus,button.btn-color-primary.btn-style-bordered:hover,button.btn-color-primary.btn-style-bordered:focus,.single-product-content .cart .button,.single-product-content .cart .button:hover, .single-product-content .cart .button:focus,.register .button,.register .button:hover,.register .button:focus,.single-product-content .comment-form .form-submit input[type=submit],.single-product-content .comment-form .form-submit input[type=submit]:hover, .single-product-content .comment-form .form-submit input[type=submit]:focus,.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout,.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:hover,.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:focus,.right-column .search-button .dropdown-wrap-search .dropdown-search form button,.right-column .search-button .dropdown-wrap-search .dropdown-search form button:hover,.right-column .search-button .dropdown-wrap-search .dropdown-search form button:focus,.comments-area .comment-respond input[type=submit],.comments-area .comment-respond input[type=submit]:hover,.comments-area .comment-respond input[type=submit]:focus,.mc4wp-form input[type=submit],.mc4wp-form input[type=submit]:hover, .mc4wp-form input[type=submit]:focus,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a:hover,.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a:focus,.woocommerce .checkout_coupon .button,.woocommerce .checkout_coupon .button:hover,.woocommerce .checkout_coupon .button:focus,.woocommerce .place-order input[type=submit],.woocommerce .place-order input[type=submit]:hover,.woocommerce .place-order input[type=submit]:focus,.woocommerce .login .button,.woocommerce .login .button:hover,.woocommerce .login .button:focus,.woocommerce input[name=track],.woocommerce input[name=track]:hover,.woocommerce input[name=track]:focus,.woocommerce input[name=save_account_details],.woocommerce input[name=save_address],.woocommerce-page input[name=save_account_details],.woocommerce-page input[name=save_address],.woocommerce input[name=save_account_details]:hover,.woocommerce input[name=save_account_details]:focus, .woocommerce input[name=save_address]:hover, .woocommerce input[name=save_address]:focus, .woocommerce-page input[name=save_account_details]:hover, .woocommerce-page input[name=save_account_details]:focus, .woocommerce-page input[name=save_address]:hover, .woocommerce-page input[name=save_address]:focus,.search-no-results .not-found .entry-content .searchform #searchsubmit,.search-no-results .not-found .entry-content .searchform #searchsubmit:hover, .search-no-results .not-found .entry-content .searchform #searchsubmit:focus,.error404 .page-content > .searchform #searchsubmit,.error404 .page-content > .searchform #searchsubmit:hover, .error404 .page-content > .searchform #searchsubmit:focus,.popup-quick-view .entry-summary > .product_type_simple, .popup-quick-view .entry-summary .product_type_variable,.popup-quick-view .entry-summary > .product_type_simple:hover, .popup-quick-view .entry-summary > .product_type_simple:focus, .popup-quick-view .entry-summary .product_type_variable:hover, .popup-quick-view .entry-summary .product_type_variable:focus,.no-results .searchform #searchsubmit,.no-results .searchform #searchsubmit:hover,.no-results .searchform #searchsubmit:focus,.woocommerce .return-to-shop .button,.woocommerce .return-to-shop .button:hover,.woocommerce .return-to-shop .button:focus,.title-shop .nav-shop ul li a:after,.widget_tag_cloud .tagcloud a:hover,.widget_product_tag_cloud .tagcloud a:hover,div.bbp-submit-wrapper button,div.bbp-submit-wrapper button:hover,div.bbp-submit-wrapper button:focus,#bbpress-forums .bbp-search-form #bbp_search_submit,#bbpress-forums .bbp-search-form #bbp_search_submit:hover,#bbpress-forums .bbp-search-form #bbp_search_submit:focus,.xz-hover-effect-4 .swap-elements > a,.xz-hover-effect-4 .swap-elements > a:hover,blockquote{border-color:#494949;}.btn.btn-color-alt.btn-style-bordered, .button.btn-color-alt.btn-style-bordered, button.btn-color-alt.btn-style-bordered, .added_to_cart.btn-color-alt.btn-style-bordered, input[type=submit].btn-color-alt.btn-style-bordered,.title-wrapper.xz-title-color-alt .title-subtitle{color:#f70707;}.btn.btn-color-alt, .button.btn-color-alt, button.btn-color-alt, .added_to_cart.btn-color-alt, input[type=submit].btn-color-alt,.btn.btn-color-alt:hover, .btn.btn-color-alt:focus, .button.btn-color-alt:hover, .button.btn-color-alt:focus, button.btn-color-alt:hover, button.btn-color-alt:focus, .added_to_cart.btn-color-alt:hover, .added_to_cart.btn-color-alt:focus, input[type=submit].btn-color-alt:hover, input[type=submit].btn-color-alt:focus,.btn.btn-color-alt.btn-style-bordered:hover, .btn.btn-color-alt.btn-style-bordered:focus, .button.btn-color-alt.btn-style-bordered:hover, .button.btn-color-alt.btn-style-bordered:focus, button.btn-color-alt.btn-style-bordered:hover, button.btn-color-alt.btn-style-bordered:focus, .added_to_cart.btn-color-alt.btn-style-bordered:hover, .added_to_cart.btn-color-alt.btn-style-bordered:focus, input[type=submit].btn-color-alt.btn-style-bordered:hover, input[type=submit].btn-color-alt.btn-style-bordered:focus{background-color:#f70707;}.btn.btn-color-alt, .button.btn-color-alt, button.btn-color-alt, .added_to_cart.btn-color-alt, input[type=submit].btn-color-alt,.btn.btn-color-alt:hover, .btn.btn-color-alt:focus, .button.btn-color-alt:hover, .button.btn-color-alt:focus, button.btn-color-alt:hover, button.btn-color-alt:focus, .added_to_cart.btn-color-alt:hover, .added_to_cart.btn-color-alt:focus, input[type=submit].btn-color-alt:hover, input[type=submit].btn-color-alt:focus,.btn.btn-color-alt.btn-style-bordered:hover, .btn.btn-color-alt.btn-style-bordered:focus, .button.btn-color-alt.btn-style-bordered:hover, .button.btn-color-alt.btn-style-bordered:focus, button.btn-color-alt.btn-style-bordered:hover, button.btn-color-alt.btn-style-bordered:focus, .added_to_cart.btn-color-alt.btn-style-bordered:hover, .added_to_cart.btn-color-alt.btn-style-bordered:focus, input[type=submit].btn-color-alt.btn-style-bordered:hover, input[type=submit].btn-color-alt.btn-style-bordered:focus{border-color:#f70707;}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1434807047200{margin-bottom: 0px !important;}.vc_custom_1434807052194{margin-top: -40px !important;margin-bottom: 0px !important;}.vc_custom_1438774483393{margin-top: -1px !important;margin-bottom: 0px !important;padding-top: 50px !important;padding-bottom: 50px !important;background: #0a0a0a url(http://xtemos.com/demo/wp-content/uploads/2015/06/testimonials.jpg?id=286) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1434807047200{margin-bottom: 0px !important;}.vc_custom_1434807047200{margin-bottom: 0px !important;}.vc_custom_1449543295354{padding-top: 1px !important;padding-right: 1px !important;padding-bottom: 1px !important;padding-left: 1px !important;background-color: #000000 !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1448895242486{padding-top: 3% !important;padding-right: 5% !important;padding-bottom: 3% !important;padding-left: 5% !important;background: #ffffff url(http://arbatrage.com/wp-content/uploads/2015/08/BRAND-AND-LUXURY-READY-TO-USE3.jpg?id=22661) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1438266534836{margin-bottom: 0px !important;}.vc_custom_1438266518799{margin-bottom: 35px !important;padding-right: 30px !important;}.vc_custom_1449545921768{background-color: #ffffff !important;}.vc_custom_1449938178912{background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;border-radius: 3px !important;}.vc_custom_1448920355877{padding-top: 3% !important;padding-right: 5% !important;padding-bottom: 2% !important;padding-left: 5% !important;}.vc_custom_1448920355877{padding-top: 3% !important;padding-right: 5% !important;padding-bottom: 2% !important;padding-left: 5% !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="home page page-id-19392 page-template-default wrapper-full-width global-cart-design-1 global-wishlist-enable enable-sticky-header sticky-header-clone wpb-js-composer js-comp-ver-4.7 vc_responsive">
+
+			<div class="mobile-nav">
+				<form role="search" method="get" id="searchform" class="searchform" action="//arbatrage.com/">
+	<div>
+		<label class="screen-reader-text" for="s"></label>
+		<input type="text" placeholder="Search" value="" name="s" id="s" />
+		<input type="hidden" name="post_type" id="post_type" value="product">
+		<button type="submit" id="searchsubmit">Search</button>
+	</div>
+</form><div class="menu-categories-container"><ul id="menu-categories" class="site-mobile-menu"><li id="menu-item-31391" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-31391 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/">LUXURY &#038; BRAND</a>
+<div class="sub-menu-dropdown">
+
+<div class="container">
+
+<ul class="sub-menu">
+	<li id="menu-item-31552" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31552 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/">SHOP BRANDS</a></li>
+	<li id="menu-item-31553" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31553 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/beauty-stop/">COSMETICS</a></li>
+	<li id="menu-item-31554" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31554 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/cozy-home-and-decor/">HOME</a></li>
+	<li id="menu-item-31555" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31555 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/fit-the-shoe/">SHOES</a></li>
+	<li id="menu-item-31556" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31556 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/small-world/">KIDS</a></li>
+	<li id="menu-item-31557" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31557 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/top-high-end-jewelery/">JEWELERY</a></li>
+	<li id="menu-item-31558" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31558 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/sportwear/">SPORTWEAR</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-31399" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-31399 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/">WOMEN SHOP</a>
+<div class="sub-menu-dropdown">
+
+<div class="container">
+
+<ul class="sub-menu">
+	<li id="menu-item-31600" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31600 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/accesories-women/">W. Accesories</a></li>
+	<li id="menu-item-31601" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31601 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/w-bags/">W. bags</a></li>
+	<li id="menu-item-31602" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31602 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/beauty-products/">W. Beauty products</a></li>
+	<li id="menu-item-31603" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31603 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/w-bottom-wear/">W. Bottom Wear</a></li>
+	<li id="menu-item-31604" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31604 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/shoes/">W. Shoes</a></li>
+	<li id="menu-item-31605" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31605 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/sport-women/">W. Sport</a></li>
+	<li id="menu-item-31606" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31606 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/top-wear/">W. Top wear</a></li>
+	<li id="menu-item-31607" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31607 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/dresses/">Dresses</a></li>
+	<li id="menu-item-31909" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31909 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/lingerie-shop/">LINGERIE SHOP</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-31397" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-31397 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/">MEN SHOP</a>
+<div class="sub-menu-dropdown">
+
+<div class="container">
+
+<ul class="sub-menu">
+	<li id="menu-item-31608" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31608 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/beauty-grooming/">M .Beauty &#038; Grooming</a></li>
+	<li id="menu-item-31609" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31609 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/accesories/">M. Accesories</a></li>
+	<li id="menu-item-31610" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31610 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/bags/">M. Bags</a></li>
+	<li id="menu-item-31611" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31611 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/m-bottom-wear/">M. Bottom Wear</a></li>
+	<li id="menu-item-31612" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31612 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/shoes-men/">M. Shoes</a></li>
+	<li id="menu-item-31613" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31613 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/sport/">M. Sport</a></li>
+	<li id="menu-item-31614" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31614 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/top-wear-men/">M. Top wear</a></li>
+	<li id="menu-item-31615" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31615 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/suits/">Suits</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-31562" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31562 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/winter-holidays/">INSPIRED BY HOLIDAYS&#8230;</a></li>
+<li id="menu-item-33812" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-33812 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/electronics/">ELECTRONICS</a>
+<div class="sub-menu-dropdown">
+
+<div class="container">
+
+<ul class="sub-menu">
+	<li id="menu-item-33814" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-33814 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/electronics/apple/">APPLE</a></li>
+	<li id="menu-item-33815" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-33815 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/electronics/samsung/">SAMSUNG</a></li>
+	<li id="menu-item-33813" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-33813 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/electronics/accessories/">ACCESSORIES</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-37320" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-37320 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/handmade-choices/">HANDMADE CHOICES</a>
+<div class="sub-menu-dropdown">
+
+<div class="container">
+
+<ul class="sub-menu">
+	<li id="menu-item-37434" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-37434 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/handmade-choices/handmade-jewelry/">Handmade jewelry</a></li>
+	<li id="menu-item-37435" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-37435 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/handmade-choices/artworks/">Artworks</a></li>
+	<li id="menu-item-37436" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-37436 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/handmade-choices/custom-furniture/">Custom furniture</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li id="menu-item-37893" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-37893 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/organic-world/">ORGANIC WORLD</a></li>
+</ul></div>			</div><!--END MOBILE-NAV-->
+		
+<div class="website-wrapper">
+
+			<div class="topbar-wrapp color-scheme-light">
+			<div class="container">
+				<div class="topbar-content">
+					<div class="top-bar-left">
+						
+												
+						
+					</div>
+					<div class="top-bar-right">
+						<div class="topbar-menu">
+													</div>
+					</div>
+				</div>
+			</div>
+		</div> <!--END TOP HEADER-->
+	
+	
+	<!-- HEADER -->
+	<header class="main-header icons-design-line header-1 color-scheme-dark">
+
+		<div class="container">
+<div class="wrapp-header">
+			<div class="site-logo">
+				<a href="http://arbatrage.com/" rel="home">
+					<img src="//arbatrage.com/wp-content/uploads/2015/08/Arb-Logo.png" alt="Arbatrage" />				</a>
+			</div>
+					<div class="widgetarea-head">
+				<div id="text-16" class="header-widget widget_text">			<div class="textwidget"><a href="http://www.jdoqocy.com/click-7988832-10365187-1127413918000" target="_top">
+<img src="//www.awltovhc.com/image-7988832-10365187-1127413918000" width="88" height="31" alt="Click Here To Visit AllBrands.com." border="0"/></a></div>
+		</div>			</div>
+		<div class="right-column">
+			<div class="mobile-nav-icon">
+				<i class="fa fa-bars"></i>
+			</div><!--END MOBILE-NAV-ICON-->
+					<div class="shopping-cart xz-cart-design-1 xz-cart-icon">
+				<a href="http://arbatrage.com/checkout/">
+					<span>Cart (<span>0</span>)</span>
+				</a>
+				<div class="dropdown-wrap-cat">
+					<div class="dropdown-cat">
+						 <div class="widget woocommerce widget_shopping_cart"><div class="widget_shopping_cart_content"></div></div> 
+					</div>
+				</div>
+			</div>
+					<div class="wishlist-info-widget">
+				<a href="http://arbatrage.com/wishlist/view/">Wishlist <span>0</span></a>
+			</div>
+					<div class="search-button">
+				<a href="#">
+					<i class="fa fa-search"></i>
+				</a>
+
+				<div class="dropdown-wrap-search">
+					<div class="dropdown-search">
+						<form role="search" method="get" id="searchform" class="searchform" action="//arbatrage.com/">
+	<div>
+		<label class="screen-reader-text" for="s"></label>
+		<input type="text" placeholder="Search" value="" name="s" id="s" />
+		<input type="hidden" name="post_type" id="post_type" value="product">
+		<button type="submit" id="searchsubmit">Search</button>
+	</div>
+</form>					</div>
+				</div>
+
+			</div>
+		</div>
+</div>
+</div>
+<div class="navigation-wrap">
+<div class="container">
+			<div class="main-nav site-navigation xz-navigation" role="navigation">
+				<div class="menu-categories-container"><ul id="menu-categories-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-31391 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/">LUXURY &#038; BRAND</a>
+<div class="sub-menu-dropdown">
+
+<div class="container">
+
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31552 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/">SHOP BRANDS</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31553 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/beauty-stop/">COSMETICS</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31554 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/cozy-home-and-decor/">HOME</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31555 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/fit-the-shoe/">SHOES</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31556 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/small-world/">KIDS</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31557 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/top-high-end-jewelery/">JEWELERY</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31558 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/luxury-and-brand/sportwear/">SPORTWEAR</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-31399 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/">WOMEN SHOP</a>
+<div class="sub-menu-dropdown">
+
+<div class="container">
+
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31600 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/accesories-women/">W. Accesories</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31601 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/w-bags/">W. bags</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31602 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/beauty-products/">W. Beauty products</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31603 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/w-bottom-wear/">W. Bottom Wear</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31604 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/shoes/">W. Shoes</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31605 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/sport-women/">W. Sport</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31606 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/top-wear/">W. Top wear</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31607 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/dresses/">Dresses</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31909 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/women/lingerie-shop/">LINGERIE SHOP</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-31397 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/">MEN SHOP</a>
+<div class="sub-menu-dropdown">
+
+<div class="container">
+
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31608 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/beauty-grooming/">M .Beauty &#038; Grooming</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31609 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/accesories/">M. Accesories</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31610 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/bags/">M. Bags</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31611 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/m-bottom-wear/">M. Bottom Wear</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31612 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/shoes-men/">M. Shoes</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31613 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/sport/">M. Sport</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31614 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/top-wear-men/">M. Top wear</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31615 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/men/suits/">Suits</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-31562 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/winter-holidays/">INSPIRED BY HOLIDAYS&#8230;</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-33812 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/electronics/">ELECTRONICS</a>
+<div class="sub-menu-dropdown">
+
+<div class="container">
+
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-33814 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/electronics/apple/">APPLE</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-33815 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/electronics/samsung/">SAMSUNG</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-33813 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/electronics/accessories/">ACCESSORIES</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-37320 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/handmade-choices/">HANDMADE CHOICES</a>
+<div class="sub-menu-dropdown">
+
+<div class="container">
+
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-37434 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/handmade-choices/handmade-jewelry/">Handmade jewelry</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-37435 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/handmade-choices/artworks/">Artworks</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-37436 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/handmade-choices/custom-furniture/">Custom furniture</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-37893 menu-item-design-default item-event-hover"><a href="http://arbatrage.com/product-category/organic-world/">ORGANIC WORLD</a></li>
+</ul></div>			</div><!--END MAIN-NAV-->
+		</div>
+</div>
+
+	</header><!--END MAIN HEADER-->
+
+	<div class="clear"></div>
+	
+	
+	<!-- MAIN CONTENT AREA -->
+		<div class="container">
+		<div class="row">
+
+
+<div class="site-content col-sm-12" role="main">
+
+								<article id="post-19392" class="post-19392 page type-page status-publish hentry">
+
+					<div class="entry-content">
+						<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1434807047200 equal-columns vc_row-no-padding">
+	<div class="vc_col-sm-4 vc_col-lg-6 vc_col-md-6 vc_hidden-sm wpb_column vc_column_container  vc_custom_1449543295354">
+		<div class="wpb_wrapper">
+			<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1438266534836"><div class="wpb_column vc_column_container vc_col-sm-6 vc_custom_1438266518799"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			
+		</div> 
+	</div> </div></div></div><div class="woocommerce columns-3">
+
+<div class="products elements-grid  row grid-columns-3"><div class="category-grid-item  col-xs-6 col-sm-4 col-md-4 first ">
+	
+	<div class="category-content">
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/tory-burch/">
+	
+
+		<img src="//arbatrage.com/wp-content/uploads/2015/12/Tory-Burch-Nylon-Mini-Ella-Tote-Black-0-e1451771507132.jpg" alt="TORY BURCH" width="600" height="800" />		</a>
+	<div class="hover-mask">
+		<h3>
+			TORY BURCH <mark class="count">(28)</mark>		</h3>
+
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/tory-burch/">View products</a>
+
+			</div>
+
+	</div>
+</div>
+
+<div class="category-grid-item  col-xs-6 col-sm-4 col-md-4">
+	
+	<div class="category-content">
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/hugo-boss/">
+	
+
+		<img src="//arbatrage.com/wp-content/uploads/2015/11/Boss-In-Motion-By-Hugo-Boss-For-Men-Eau-De-Toilette-Spray-3-Ounces-0.jpg" alt="HUGO BOSS" width="600" height="800" />		</a>
+	<div class="hover-mask">
+		<h3>
+			HUGO BOSS <mark class="count">(46)</mark>		</h3>
+
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/hugo-boss/">View products</a>
+
+			</div>
+
+	</div>
+</div>
+
+<div class="clearfix visible-xs-block"></div><div class="category-grid-item  col-xs-6 col-sm-4 col-md-4 last ">
+	
+	<div class="category-content">
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/fendi/">
+	
+
+		<img src="//arbatrage.com/wp-content/uploads/2015/11/Fendi-3Baguette-yellow-leather-shoulder-bag-0-4.jpg" alt="FENDI" width="600" height="800" />		</a>
+	<div class="hover-mask">
+		<h3>
+			FENDI <mark class="count">(65)</mark>		</h3>
+
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/fendi/">View products</a>
+
+			</div>
+
+	</div>
+</div>
+
+<div class="clearfix visible-sm-block"></div><div class="clearfix visible-md-block visible-lg-block"></div><div class="category-grid-item  col-xs-6 col-sm-4 col-md-4 first ">
+	
+	<div class="category-content">
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/escada/">
+	
+
+		<img src="//arbatrage.com/wp-content/uploads/2015/11/Escada-Sunglasses-SES806-300F-Cat-Eye-Sunglasses-0-2-e1449351020347.jpg" alt="ESCADA" width="600" height="800" />		</a>
+	<div class="hover-mask">
+		<h3>
+			ESCADA <mark class="count">(49)</mark>		</h3>
+
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/escada/">View products</a>
+
+			</div>
+
+	</div>
+</div>
+
+<div class="clearfix visible-xs-block"></div><div class="category-grid-item  col-xs-6 col-sm-4 col-md-4">
+	
+	<div class="category-content">
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/dolce-gabbana/">
+	
+
+		<img src="//arbatrage.com/wp-content/uploads/2015/11/Dolce-Gabbana-Black-Rose-Fondo-Leather-Miss-Sicily-Mini-Crossbody-Bag-0-e1449351280844.jpg" alt="DOLCE &amp; GABBANA" width="600" height="800" />		</a>
+	<div class="hover-mask">
+		<h3>
+			DOLCE &amp; GABBANA <mark class="count">(78)</mark>		</h3>
+
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/dolce-gabbana/">View products</a>
+
+			</div>
+
+	</div>
+</div>
+
+<div class="category-grid-item  col-xs-6 col-sm-4 col-md-4 last ">
+	
+	<div class="category-content">
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/dkny/">
+	
+
+		<img src="//arbatrage.com/wp-content/uploads/2015/11/DKNY-Cora-Leather-Wedges-Heels-Shoes-0-2.jpg" alt="DKNY" width="600" height="800" />		</a>
+	<div class="hover-mask">
+		<h3>
+			DKNY <mark class="count">(84)</mark>		</h3>
+
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/dkny/">View products</a>
+
+			</div>
+
+	</div>
+</div>
+
+<div class="clearfix visible-xs-block"></div><div class="clearfix visible-sm-block"></div><div class="clearfix visible-md-block visible-lg-block"></div><div class="category-grid-item  col-xs-6 col-sm-4 col-md-4 first ">
+	
+	<div class="category-content">
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/christian-siriano/">
+	
+
+		<img src="//arbatrage.com/wp-content/uploads/2015/11/Christian-Siriano-Organza-Silk-Ruffle-Strapless-Evening-Dress-0-0.jpg" alt="CHRISTIAN SIRIANO" width="600" height="800" />		</a>
+	<div class="hover-mask">
+		<h3>
+			CHRISTIAN SIRIANO <mark class="count">(15)</mark>		</h3>
+
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/christian-siriano/">View products</a>
+
+			</div>
+
+	</div>
+</div>
+
+<div class="category-grid-item  col-xs-6 col-sm-4 col-md-4">
+	
+	<div class="category-content">
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/christian-louboutin/">
+	
+
+		<img src="//arbatrage.com/wp-content/uploads/2015/12/Christian-Louboutin-Attention-100-Karung-Mesh-Cut-Out-Boots-Size-65-37-Eu-0-e1451776300811.jpg" alt="CHRISTIAN LOUBOUTIN" width="600" height="800" />		</a>
+	<div class="hover-mask">
+		<h3>
+			CHRISTIAN LOUBOUTIN <mark class="count">(15)</mark>		</h3>
+
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/christian-louboutin/">View products</a>
+
+			</div>
+
+	</div>
+</div>
+
+<div class="clearfix visible-xs-block"></div><div class="category-grid-item  col-xs-6 col-sm-4 col-md-4 last ">
+	
+	<div class="category-content">
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/chanel/">
+	
+
+		<img src="//arbatrage.com/wp-content/uploads/2015/11/Chanel-Womens-Red-Leather-Long-Wallet-A80288-Y04639-Zip-Around-0-7.jpg" alt="CHANEL" width="600" height="800" />		</a>
+	<div class="hover-mask">
+		<h3>
+			CHANEL <mark class="count">(48)</mark>		</h3>
+
+		<a href="http://arbatrage.com/product-category/luxury-and-brand/discover-brands/chanel/">View products</a>
+
+			</div>
+
+	</div>
+</div>
+
+<div class="clearfix visible-sm-block"></div><div class="clearfix visible-md-block visible-lg-block"></div></div></div>
+		</div> 
+	</div> 
+
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 wpb_column vc_column_container  vc_custom_1448895242486">
+		<div class="wpb_wrapper">
+			<div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="http://arbatragecom/product-category/luxury-and-brand/ wpb_column vc_column_container vc_col-sm-12"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_bottom-to-top">
+		<div class="wpb_wrapper">
+			<h6 style="font-weight: 800; font-size: 72px; color: #2b2b2b; text-align: left;"></h6>
+<h6 style="font-weight: 800; font-size: 72px; color: #2b2b2b; text-align: left;"></h6>
+<h6 style="font-weight: 800; font-size: 72px; color: #2b2b2b; text-align: left;"></h6>
+<h6 style="text-align: left;"></h6>
+<h6 style="text-align: left;"></h6>
+<h6 style="text-align: left;"></h6>
+<h6 style="font-weight: 800; font-size: 72px; color: #2b2b2b; text-align: left;"><span style="color: #ffffff;"> LUXURY&amp;BRAND</span></h6>
+
+		</div> 
+	</div> </div></div></div>
+		</div> 
+	</div> 
+</div><div class="vc_row-full-width"></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1434807052194">
+	<div class="vc_col-sm-12 wpb_column vc_column_container ">
+		<div class="wpb_wrapper">
+			<div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12 vc_custom_1449545921768"><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
+		<div class="wpb_wrapper">
+			<p>
+<br /><br /><br /><br />
+</p>
+		</div>
+	</div>
+</div></div></div>
+		</div> 
+	</div> 
+</div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1438774483393">
+	<div class="vc_col-sm-2 color-scheme-light  wpb_column vc_column_container ">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h1></h1>
+<h1><strong> </strong></h1>
+<h1><strong> </strong><strong><span style="color: #ffffff;">BRAND</span></strong></h1>
+
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+
+	<div class="vc_col-sm-8 color-scheme-light  wpb_column vc_column_container ">
+		<div class="wpb_wrapper">
+			<div class="wpb_images_carousel wpb_content_element shoes vc_clearfix">
+	<div class="wpb_wrapper">
+				<div id="vc_images-carousel-1-1455840722" class="vc_slide vc_images_carousel items-with-space">
+
+			<!-- Wrapper for slides -->
+			<div class="owl-carousel">
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-Black-Leather-Loafers-Slip-On-Shoes-0-5.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-Black-Leather-Loafers-Slip-On-Shoes-0-5-200x200.jpg" class="attachment-thumbnail" alt="Alexander-McQueen-Black-Leather-Loafers-Slip-On-Shoes-0-5" srcset="//arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-Black-Leather-Loafers-Slip-On-Shoes-0-5-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-Black-Leather-Loafers-Slip-On-Shoes-0-5-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-Black-Leather-Loafers-Slip-On-Shoes-0-5-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-Black-Leather-Loafers-Slip-On-Shoes-0-5-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-Black-Leather-Loafers-Slip-On-Shoes-0-5.jpg 500w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/11/Alexander-Mcqueen-Mens-Calf-Leather-Loafers-Shoes-0.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/Alexander-Mcqueen-Mens-Calf-Leather-Loafers-Shoes-0-200x200.jpg" class="attachment-thumbnail" alt="Alexander-Mcqueen-Mens-Calf-Leather-Loafers-Shoes-0" srcset="//arbatrage.com/wp-content/uploads/2015/11/Alexander-Mcqueen-Mens-Calf-Leather-Loafers-Shoes-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-Mcqueen-Mens-Calf-Leather-Loafers-Shoes-0-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/11/Fendi-womens-suede-pumps-court-shoes-high-heel-spazzolato-black-0-6.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/Fendi-womens-suede-pumps-court-shoes-high-heel-spazzolato-black-0-6-200x200.jpg" class="attachment-thumbnail" alt="Fendi-womens-suede-pumps-court-shoes-high-heel-spazzolato-black-0-6" srcset="//arbatrage.com/wp-content/uploads/2015/11/Fendi-womens-suede-pumps-court-shoes-high-heel-spazzolato-black-0-6-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/Fendi-womens-suede-pumps-court-shoes-high-heel-spazzolato-black-0-6-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/11/Alexander-Mcqueen-Black-Leather-High-Heel-Ankle-Boots-Shoes-0-2.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/Alexander-Mcqueen-Black-Leather-High-Heel-Ankle-Boots-Shoes-0-2-200x200.jpg" class="attachment-thumbnail" alt="Alexander-Mcqueen-Black-Leather-High-Heel-Ankle-Boots-Shoes-0-2" srcset="//arbatrage.com/wp-content/uploads/2015/11/Alexander-Mcqueen-Black-Leather-High-Heel-Ankle-Boots-Shoes-0-2-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-Mcqueen-Black-Leather-High-Heel-Ankle-Boots-Shoes-0-2-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-Mcqueen-Black-Leather-High-Heel-Ankle-Boots-Shoes-0-2-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-Mcqueen-Black-Leather-High-Heel-Ankle-Boots-Shoes-0-2-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-Mcqueen-Black-Leather-High-Heel-Ankle-Boots-Shoes-0-2.jpg 500w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/12/Lauren-Ralph-Lauren-Womens-Tally-Rain-Shoe-BlackReal-Bright-Red-Solid-Polyvinyl-ChlorideElastic-5-B-US-0.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/12/Lauren-Ralph-Lauren-Womens-Tally-Rain-Shoe-BlackReal-Bright-Red-Solid-Polyvinyl-ChlorideElastic-5-B-US-0-200x200.jpg" class="attachment-thumbnail" alt="Lauren-Ralph-Lauren-Womens-Tally-Rain-Shoe-BlackReal-Bright-Red-Solid-Polyvinyl-ChlorideElastic-5-B-US-0" srcset="//arbatrage.com/wp-content/uploads/2015/12/Lauren-Ralph-Lauren-Womens-Tally-Rain-Shoe-BlackReal-Bright-Red-Solid-Polyvinyl-ChlorideElastic-5-B-US-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/12/Lauren-Ralph-Lauren-Womens-Tally-Rain-Shoe-BlackReal-Bright-Red-Solid-Polyvinyl-ChlorideElastic-5-B-US-0-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/11/Fendi-Womens-Satin-Ballerina-Moccasin-Shoes-0-2.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/Fendi-Womens-Satin-Ballerina-Moccasin-Shoes-0-2-200x200.jpg" class="attachment-thumbnail" alt="Fendi-Womens-Satin-Ballerina-Moccasin-Shoes-0-2" srcset="//arbatrage.com/wp-content/uploads/2015/11/Fendi-Womens-Satin-Ballerina-Moccasin-Shoes-0-2-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/Fendi-Womens-Satin-Ballerina-Moccasin-Shoes-0-2-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/12/Stuart-Weitzman-Womens-Nudist-Dress-Sandal-0-3.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/12/Stuart-Weitzman-Womens-Nudist-Dress-Sandal-0-3-200x200.jpg" class="attachment-thumbnail" alt="Stuart-Weitzman-Womens-Nudist-Dress-Sandal-0-3" srcset="//arbatrage.com/wp-content/uploads/2015/12/Stuart-Weitzman-Womens-Nudist-Dress-Sandal-0-3-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/12/Stuart-Weitzman-Womens-Nudist-Dress-Sandal-0-3-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Uomo-Mens-Gershwin-OxfordTan8-M-US-0.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Uomo-Mens-Gershwin-OxfordTan8-M-US-0-200x200.jpg" class="attachment-thumbnail" alt="Bugatchi-Uomo-Mens-Gershwin-OxfordTan8-M-US-0" srcset="//arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Uomo-Mens-Gershwin-OxfordTan8-M-US-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Uomo-Mens-Gershwin-OxfordTan8-M-US-0-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/12/Missoni-Womens-Pointy-Toe-Platform-Dress-Pump-0-1.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/12/Missoni-Womens-Pointy-Toe-Platform-Dress-Pump-0-1-200x200.jpg" class="attachment-thumbnail" alt="Missoni-Womens-Pointy-Toe-Platform-Dress-Pump-0-1" srcset="//arbatrage.com/wp-content/uploads/2015/12/Missoni-Womens-Pointy-Toe-Platform-Dress-Pump-0-1-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/12/Missoni-Womens-Pointy-Toe-Platform-Dress-Pump-0-1-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/12/Missoni-Womens-Pointy-Toe-Platform-Dress-Pump-0-1-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/12/Missoni-Womens-Pointy-Toe-Platform-Dress-Pump-0-1-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/12/Missoni-Womens-Pointy-Toe-Platform-Dress-Pump-0-1.jpg 500w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Mens-Britto-Platnum-Loafer-95-M-0.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Mens-Britto-Platnum-Loafer-95-M-0-200x200.jpg" class="attachment-thumbnail" alt="Bugatchi-Mens-Britto-Platnum-Loafer-95-M-0" srcset="//arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Mens-Britto-Platnum-Loafer-95-M-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Mens-Britto-Platnum-Loafer-95-M-0-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/12/Nui-Organics-Kina-Collection-Lamb-Booties-0-0.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/12/Nui-Organics-Kina-Collection-Lamb-Booties-0-0-200x200.jpg" class="attachment-thumbnail" alt="Nui-Organics-Kina-Collection-Lamb-Booties-0-0" srcset="//arbatrage.com/wp-content/uploads/2015/12/Nui-Organics-Kina-Collection-Lamb-Booties-0-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/12/Nui-Organics-Kina-Collection-Lamb-Booties-0-0-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Uomo-Mens-Alta-Oxford-0-4.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Uomo-Mens-Alta-Oxford-0-4-200x200.jpg" class="attachment-thumbnail" alt="Bugatchi-Uomo-Mens-Alta-Oxford-0-4" srcset="//arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Uomo-Mens-Alta-Oxford-0-4-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/12/Bugatchi-Uomo-Mens-Alta-Oxford-0-4-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/12/Lauren-Ralph-Lauren-Womens-Rossalyn-II-BootStuart-Charles-Edward5-B-US-0.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/12/Lauren-Ralph-Lauren-Womens-Rossalyn-II-BootStuart-Charles-Edward5-B-US-0-200x200.jpg" class="attachment-thumbnail" alt="Lauren-Ralph-Lauren-Womens-Rossalyn-II-BootStuart-Charles-Edward5-B-US-0" srcset="//arbatrage.com/wp-content/uploads/2015/12/Lauren-Ralph-Lauren-Womens-Rossalyn-II-BootStuart-Charles-Edward5-B-US-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/12/Lauren-Ralph-Lauren-Womens-Rossalyn-II-BootStuart-Charles-Edward5-B-US-0-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/12/John-Varvatos-Mens-Star-Erik-Workboot-0.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/12/John-Varvatos-Mens-Star-Erik-Workboot-0-200x200.jpg" class="attachment-thumbnail" alt="John-Varvatos-Mens-Star-Erik-Workboot-0" srcset="//arbatrage.com/wp-content/uploads/2015/12/John-Varvatos-Mens-Star-Erik-Workboot-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/12/John-Varvatos-Mens-Star-Erik-Workboot-0-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+																				<div class="owl-carousel-item ">
+								<div class="owl-carousel-item-inner">
+																											<a class="prettyphoto"
+									   href="http://arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-By-Puma-McQ-Move-Lo-Men-US-9-Red-Sneakers-0.jpg"  rel="prettyPhoto[rel-1862572175]">
+										<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-By-Puma-McQ-Move-Lo-Men-US-9-Red-Sneakers-0-200x200.jpg" class="attachment-thumbnail" alt="Alexander-McQueen-By-Puma-McQ-Move-Lo-Men-US-9-Red-Sneakers-0" srcset="//arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-By-Puma-McQ-Move-Lo-Men-US-9-Red-Sneakers-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-By-Puma-McQ-Move-Lo-Men-US-9-Red-Sneakers-0-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-By-Puma-McQ-Move-Lo-Men-US-9-Red-Sneakers-0-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-By-Puma-McQ-Move-Lo-Men-US-9-Red-Sneakers-0-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/11/Alexander-McQueen-By-Puma-McQ-Move-Lo-Men-US-9-Red-Sneakers-0.jpg 500w" sizes="(max-width: 200px) 100vw, 200px" />									</a>
+																	</div>
+							</div>
+									</div>
+		</div>
+	</div></div>
+
+		</div> 
+	</div> 
+
+	<div class="vc_col-sm-2 wpb_column vc_column_container ">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h1></h1>
+<h1><strong> </strong></h1>
+<h1><strong> </strong><strong><span style="color: #ffffff;">SHOES</span></strong></h1>
+
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+</div><div class="vc_row-full-width"></div><div class="vc_row wpb_row vc_row-fluid">
+	<div class="vc_col-sm-12 wpb_column vc_column_container ">
+		<div class="wpb_wrapper">
+				<div class="vc_empty_space"  style="height: 32px" ><span
+			class="vc_empty_space_inner"></span></div>
+		</div> 
+	</div> 
+</div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid">
+	<div class="vc_col-sm-12 color-scheme-light  wpb_column vc_column_container  vc_custom_1449938178912">
+		<div class="wpb_wrapper">
+			<div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  color-scheme-dark  wpb_animate_when_almost_visible wpb_appear">
+		<div class="wpb_wrapper">
+			<p><img class="wp-image-31404 size-full aligncenter" src="//arbatrage.com/wp-content/uploads/2015/08/Slide1-e1449805329488.png" alt="Slide1" width="1177" height="192" srcset="//arbatrage.com/wp-content/uploads/2015/08/Slide1-e1449805329488-300x49.png 300w, //arbatrage.com/wp-content/uploads/2015/08/Slide1-e1449805329488-1024x167.png 1024w, //arbatrage.com/wp-content/uploads/2015/08/Slide1-e1449805329488-280x46.png 280w, //arbatrage.com/wp-content/uploads/2015/08/Slide1-e1449805329488-600x98.png 600w, //arbatrage.com/wp-content/uploads/2015/08/Slide1-e1449805329488.png 1177w" sizes="(max-width: 1177px) 100vw, 1177px" /></p>
+<p style="text-align: center;">
+
+		</div> 
+	</div> 	<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-3d vc_btn3-color-inverse" href="http://arbatrage.com/product-category/winter-holidays/" title="" target="_self">VIEW COLLECTION</a></div></div></div></div>
+		</div> 
+	</div> 
+</div><div class="vc_row-full-width"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1434807047200 equal-columns vc_row-no-padding">
+	<div class="vc_col-sm-6 vc_col-lg-6 vc_col-md-6 color-scheme-light  wpb_column vc_column_container  vc_custom_1448920355877">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h1 style="text-align: center;"><span style="color: #000000;">ALEXIS BITTAR</span></h1>
+<h6 style="text-align: center;"><span style="color: #000000;">Alexis Bittar is best known for his signature Lucite bangles and high fashion runway collaborations.</span></h6>
+
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+</div><div class="vc_row-full-width"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1434807047200 equal-columns vc_row-no-padding">
+	<div class="vc_col-sm-6 vc_col-lg-6 vc_col-md-6 color-scheme-light  wpb_column vc_column_container  vc_custom_1448920355877">
+		<div class="wpb_wrapper">
+				<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-3d vc_btn3-color-inverse" href="http://arbatrage.com/product-category/alexis-bittar-jewelery/" title="Shop Now" target="_self">SHOP NOW</a></div><h3 class="title slider-title">alexis</h3>				<div id="carousel-439" class="vc_carousel_container">
+					<div class="owl-carousel product-items ">
+
+															<div class="product-item owl-carousel-item">
+										<div class="owl-carousel-item-inner">	
+
+																																			<div class="product-grid-item xz-hover-effect-1 post-19628 product type-product status-publish has-post-thumbnail product_cat-alexis-bittar-jewelery pa_binding-jewelry pa_brand-alexis-bittar pa_brand-prada pa_color-black pa_color-black-bluette pa_color-bluette pa_department-womens pa_itemdimensions-1060-hundredths-inches-1390-hundredths-inches-680-hundredths-inches pa_label-alexis-bittar pa_manufacturer-alexis-bittar pa_model-275 pa_model-bc41b002 pa_mpn-bc41b002 pa_partnumber-bc41b002 pa_productgroup-jewelry pa_productgroup-shoes pa_producttypename-fashionnecklacebraceletanklet pa_producttypename-handbag pa_publisher-alexis-bittar pa_studio-alexis-bittar shipping-taxable purchasable product-type-simple product-cat-alexis-bittar-jewelery instock">
+
+	
+	<div class="product-element-top">
+		<a href="http://arbatrage.com/product/alexis-bittar-scallop-aigrette-cuff-in-gold-with-amazonite-crystals/">
+			
+<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-200x200.jpg" class="content-product-image attachment-thumbnail" alt="ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0" srcset="//arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0.jpg 500w" sizes="(max-width: 200px) 100vw, 200px" />		</a>
+
+			
+									<div class="hover-img">
+						<a href="http://arbatrage.com/product/alexis-bittar-scallop-aigrette-cuff-in-gold-with-amazonite-crystals/">
+							<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Small-Hinged-Green-Grey-Gold-Lucite-Bracelet-Jewelry-0-200x200.jpg" class="content-product-image attachment-thumbnail" alt="Alexis-Bittar-Small-Hinged-Green-Grey-Gold-Lucite-Bracelet-Jewelry-0" srcset="//arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Small-Hinged-Green-Grey-Gold-Lucite-Bracelet-Jewelry-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Small-Hinged-Green-Grey-Gold-Lucite-Bracelet-Jewelry-0-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" />						</a>
+					</div>
+				
+			
+			
+				<div class="hover-mask">
+
+					<div class="product-actions-btns">
+
+						<a href="/?add-to-cart=19628" rel="nofollow" data-product_id="19628" data-product_sku="" data-quantity="1" class="button add_to_cart_button product_type_simple">Add to cart</a>						
+									<div class="quick-view">
+				<a 
+					href="http://arbatrage.com/product/alexis-bittar-scallop-aigrette-cuff-in-gold-with-amazonite-crystals/" 
+					class="open-quick-view" 
+					data-loop="0"
+					data-loop-name="main-loop"
+					data-id="19628">Quick View</a>
+			</div>
+		
+						
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-19628">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=19628" rel="nofollow" data-product-id="19628" data-product-type="simple" class="add_to_wishlist" >
+        Add to Wishlist</a>
+<img src="//arbatrage.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" width="16" height="16" style="visibility:hidden" />
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://arbatrage.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://arbatrage.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>
+					</div>
+
+				</div> 
+
+					
+					</div>
+
+			<h3 class="product-title"><a href="http://arbatrage.com/product/alexis-bittar-scallop-aigrette-cuff-in-gold-with-amazonite-crystals/">Alexis Bittar Scallop Aigrette Cuff In Gold With Amazonite Crystals</a></h3>
+
+		
+
+	<span class="price"><span class="amount">&#36;345.00</span></span>
+	
+</div>
+
+											
+										</div>
+									</div>
+																	<div class="product-item owl-carousel-item">
+										<div class="owl-carousel-item-inner">	
+
+																																			<div class="product-grid-item xz-hover-effect-1 post-19626 product type-product status-publish has-post-thumbnail product_cat-alexis-bittar-jewelery pa_binding-jewelry pa_brand-alexis-bittar pa_department-womens pa_productgroup-jewelry pa_producttypename-fashionearring shipping-taxable product-type-simple product-cat-alexis-bittar-jewelery instock">
+
+	
+	<div class="product-element-top">
+		<a href="http://arbatrage.com/product/alexis-bittar-liquid-earrings-in-warm-grey-lucite/">
+			
+<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-200x200.jpg" class="content-product-image attachment-thumbnail" alt="ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0" srcset="//arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0.jpg 500w" sizes="(max-width: 200px) 100vw, 200px" />		</a>
+
+			
+									<div class="hover-img">
+						<a href="http://arbatrage.com/product/alexis-bittar-liquid-earrings-in-warm-grey-lucite/">
+							<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-200x200.jpg" class="content-product-image attachment-thumbnail" alt="ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0" srcset="//arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Liquid-Earrings-in-Warm-Grey-Lucite-0.jpg 500w" sizes="(max-width: 200px) 100vw, 200px" />						</a>
+					</div>
+				
+			
+			
+				<div class="hover-mask">
+
+					<div class="product-actions-btns">
+
+						<a href="http://arbatrage.com/product/alexis-bittar-liquid-earrings-in-warm-grey-lucite/" rel="nofollow" data-product_id="19626" data-product_sku="" data-quantity="1" class="button  product_type_simple">Read More</a>						
+									<div class="quick-view">
+				<a 
+					href="http://arbatrage.com/product/alexis-bittar-liquid-earrings-in-warm-grey-lucite/" 
+					class="open-quick-view" 
+					data-loop="1"
+					data-loop-name="main-loop"
+					data-id="19626">Quick View</a>
+			</div>
+		
+						
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-19626">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=19626" rel="nofollow" data-product-id="19626" data-product-type="simple" class="add_to_wishlist" >
+        Add to Wishlist</a>
+<img src="//arbatrage.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" width="16" height="16" style="visibility:hidden" />
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://arbatrage.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://arbatrage.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>
+					</div>
+
+				</div> 
+
+					
+					</div>
+
+			<h3 class="product-title"><a href="http://arbatrage.com/product/alexis-bittar-liquid-earrings-in-warm-grey-lucite/">ALEXIS BITTAR &#8211; Liquid Earrings in Warm Grey Lucite</a></h3>
+
+		
+
+	
+</div>
+
+											
+										</div>
+									</div>
+																	<div class="product-item owl-carousel-item">
+										<div class="owl-carousel-item-inner">	
+
+																																			<div class="product-grid-item xz-hover-effect-1 post-19615 product type-product status-publish has-post-thumbnail product_cat-alexis-bittar-jewelery pa_binding-jewelry pa_brand-alexis-bittar pa_department-womens pa_packagedimensions-100-hundredths-inches-400-hundredths-inches-5-hundredths-pounds-400-hundredths-inches pa_productgroup-jewelry pa_producttypename-fashionearring shipping-taxable product-type-simple product-cat-alexis-bittar-jewelery instock">
+
+	
+	<div class="product-element-top">
+		<a href="http://arbatrage.com/product/alexis-bittar-small-gold-sliver-earrings/">
+			
+<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0-200x200.jpg" class="content-product-image attachment-thumbnail" alt="ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0" srcset="//arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0.jpg 500w" sizes="(max-width: 200px) 100vw, 200px" />		</a>
+
+			
+									<div class="hover-img">
+						<a href="http://arbatrage.com/product/alexis-bittar-small-gold-sliver-earrings/">
+							<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0-200x200.jpg" class="content-product-image attachment-thumbnail" alt="ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0" srcset="//arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/11/ALEXIS-BITTAR-Small-Gold-Sliver-Earrings-0.jpg 500w" sizes="(max-width: 200px) 100vw, 200px" />						</a>
+					</div>
+				
+			
+			
+				<div class="hover-mask">
+
+					<div class="product-actions-btns">
+
+						<a href="http://arbatrage.com/product/alexis-bittar-small-gold-sliver-earrings/" rel="nofollow" data-product_id="19615" data-product_sku="" data-quantity="1" class="button  product_type_simple">Read More</a>						
+									<div class="quick-view">
+				<a 
+					href="http://arbatrage.com/product/alexis-bittar-small-gold-sliver-earrings/" 
+					class="open-quick-view" 
+					data-loop="2"
+					data-loop-name="main-loop"
+					data-id="19615">Quick View</a>
+			</div>
+		
+						
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-19615">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=19615" rel="nofollow" data-product-id="19615" data-product-type="simple" class="add_to_wishlist" >
+        Add to Wishlist</a>
+<img src="//arbatrage.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" width="16" height="16" style="visibility:hidden" />
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://arbatrage.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://arbatrage.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>
+					</div>
+
+				</div> 
+
+					
+					</div>
+
+			<h3 class="product-title"><a href="http://arbatrage.com/product/alexis-bittar-small-gold-sliver-earrings/">ALEXIS BITTAR- Small Gold Sliver Earrings</a></h3>
+
+		
+
+	
+</div>
+
+											
+										</div>
+									</div>
+																	<div class="product-item owl-carousel-item">
+										<div class="owl-carousel-item-inner">	
+
+																																			<div class="product-grid-item xz-hover-effect-1 post-19608 product type-product status-publish has-post-thumbnail product_cat-alexis-bittar-jewelery pa_binding-jewelry pa_brand-alexis-bittar pa_department-womens pa_label-alexis-bittar pa_manufacturer-alexis-bittar pa_model-bc44n015 pa_mpn-bc44n015 pa_partnumber-bc44n015 pa_productgroup-jewelry pa_producttypename-fashionnecklacebraceletanklet pa_publisher-alexis-bittar pa_studio-alexis-bittar shipping-taxable product-type-simple product-cat-alexis-bittar-jewelery instock">
+
+	
+	<div class="product-element-top">
+		<a href="http://arbatrage.com/product/alexis-bittar-multi-stone-bib-necklace-with-custom-cut-two-tone-chrysocolla/">
+			
+<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0-200x200.jpg" class="content-product-image attachment-thumbnail" alt="Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0" srcset="//arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0.jpg 357w" sizes="(max-width: 200px) 100vw, 200px" />		</a>
+
+			
+									<div class="hover-img">
+						<a href="http://arbatrage.com/product/alexis-bittar-multi-stone-bib-necklace-with-custom-cut-two-tone-chrysocolla/">
+							<img width="200" height="200" src="//arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0-200x200.jpg" class="content-product-image attachment-thumbnail" alt="Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0" srcset="//arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Multi-Stone-Bib-Necklace-with-Custom-Cut-Two-Tone-Chrysocolla-0.jpg 357w" sizes="(max-width: 200px) 100vw, 200px" />						</a>
+					</div>
+				
+			
+			
+				<div class="hover-mask">
+
+					<div class="product-actions-btns">
+
+						<a href="http://arbatrage.com/product/alexis-bittar-multi-stone-bib-necklace-with-custom-cut-two-tone-chrysocolla/" rel="nofollow" data-product_id="19608" data-product_sku="" data-quantity="1" class="button  product_type_simple">Read More</a>						
+									<div class="quick-view">
+				<a 
+					href="http://arbatrage.com/product/alexis-bittar-multi-stone-bib-necklace-with-custom-cut-two-tone-chrysocolla/" 
+					class="open-quick-view" 
+					data-loop="3"
+					data-loop-name="main-loop"
+					data-id="19608">Quick View</a>
+			</div>
+		
+						
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-19608">
+		    <div class="yith-wcwl-add-button show" style="display:block">
+
+	        
+<a href="/?add_to_wishlist=19608" rel="nofollow" data-product-id="19608" data-product-type="simple" class="add_to_wishlist" >
+        Add to Wishlist</a>
+<img src="//arbatrage.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif" class="ajax-loading" alt="loading" width="16" height="16" style="visibility:hidden" />
+	    </div>
+
+	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+	        <span class="feedback">Product added!</span>
+	        <a href="http://arbatrage.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+	        <span class="feedback">The product is already in the wishlist!</span>
+	        <a href="http://arbatrage.com/wishlist/view/" rel="nofollow">
+	            Browse Wishlist	        </a>
+	    </div>
+
+	    <div style="clear:both"></div>
+	    <div class="yith-wcwl-wishlistaddresponse"></div>
+	
+</div>
+
+<div class="clear"></div>
+					</div>
+
+				</div> 
+
+					
+					</div>
+
+			<h3 class="product-title"><a href="http://arbatrage.com/product/alexis-bittar-multi-stone-bib-necklace-with-custom-cut-two-tone-chrysocolla/">Alexis Bittar Multi Stone Bib Necklace with Custom Cut Two-Tone Chrysocolla</a></h3>
+
+		
+
+	
+</div>
+
+											
+										</div>
+									</div>
+								
+					</div> <!-- end product-items -->
+				</div> <!-- end #carousel-439 -->
+
+				
+		</div> 
+	</div> 
+
+	<div class="vc_col-sm-6 wpb_column vc_column_container ">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_single_image wpb_content_element vc_align_center">
+		<div class="wpb_wrapper">
+			<h2 class="wpb_heading wpb_singleimage_heading"> </h2>
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="500" height="500" src="//arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Amethyst-Embellished-Tusk-Ivory-Hinge-Bracelet-0.jpg" class="vc_single_image-img attachment-large" alt="Alexis-Bittar-Amethyst-Embellished-Tusk-Ivory-Hinge-Bracelet-0" srcset="//arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Amethyst-Embellished-Tusk-Ivory-Hinge-Bracelet-0-200x200.jpg 200w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Amethyst-Embellished-Tusk-Ivory-Hinge-Bracelet-0-300x300.jpg 300w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Amethyst-Embellished-Tusk-Ivory-Hinge-Bracelet-0-280x280.jpg 280w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Amethyst-Embellished-Tusk-Ivory-Hinge-Bracelet-0-45x45.jpg 45w, //arbatrage.com/wp-content/uploads/2015/11/Alexis-Bittar-Amethyst-Embellished-Tusk-Ivory-Hinge-Bracelet-0.jpg 500w" sizes="(max-width: 500px) 100vw, 500px" /></div>
+		</div>
+	</div>
+
+		</div> 
+	</div> 
+</div><div class="vc_row-full-width"></div>
+											</div>
+
+					
+				</article><!-- #post -->
+
+				
+		
+</div><!-- .site-content -->
+
+
+
+					</div> <!-- end row -->
+	</div> <!-- end container -->
+
+	<!-- FOOTER -->
+	<footer class="footer-container color-scheme-light">
+		
+			<div class="container main-footer">
+		<aside class="footer-sidebar widget-area row" role="complementary">
+									<div class="footer-column footer-column-1 col-md-3 col-sm-6">
+							<div id="text-15" class="footer-widget widget_text"><h5 class="widget-title">CONTACT US</h5>			<div class="textwidget"><strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="80e1f2e2e1f4f2e1e7e5c0e7ede1e9ecaee3efed">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></strong></div>
+		</div>						</div>
+																	<div class="footer-column footer-column-2 col-md-3 col-sm-6">
+							<div id="woocommerce_product_tag_cloud-13" class="footer-widget woocommerce widget_product_tag_cloud"><h5 class="widget-title">Product Tags</h5><div class="tagcloud"><a href='http://arbatrage.com/product-tag/100/' class='tag-link-5710' title='6 topics' style='font-size: 8pt;'>100</a>
+<a href='http://arbatrage.com/product-tag/analog/' class='tag-link-5821' title='10 topics' style='font-size: 12.433333333333pt;'>Analog</a>
+<a href='http://arbatrage.com/product-tag/armani/' class='tag-link-5823' title='12 topics' style='font-size: 14.066666666667pt;'>Armani</a>
+<a href='http://arbatrage.com/product-tag/black/' class='tag-link-5595' title='21 topics' style='font-size: 19.433333333333pt;'>Black</a>
+<a href='http://arbatrage.com/product-tag/blue/' class='tag-link-5649' title='7 topics' style='font-size: 9.1666666666667pt;'>Blue</a>
+<a href='http://arbatrage.com/product-tag/burberry/' class='tag-link-5892' title='27 topics' style='font-size: 22pt;'>Burberry</a>
+<a href='http://arbatrage.com/product-tag/case/' class='tag-link-5589' title='26 topics' style='font-size: 21.533333333333pt;'>Case</a>
+<a href='http://arbatrage.com/product-tag/ceramic/' class='tag-link-5948' title='12 topics' style='font-size: 14.066666666667pt;'>Ceramic</a>
+<a href='http://arbatrage.com/product-tag/chanel/' class='tag-link-5944' title='8 topics' style='font-size: 10.333333333333pt;'>Chanel</a>
+<a href='http://arbatrage.com/product-tag/check/' class='tag-link-5889' title='7 topics' style='font-size: 9.1666666666667pt;'>Check</a>
+<a href='http://arbatrage.com/product-tag/color/' class='tag-link-5671' title='10 topics' style='font-size: 12.433333333333pt;'>Color</a>
+<a href='http://arbatrage.com/product-tag/cotton/' class='tag-link-5680' title='17 topics' style='font-size: 17.566666666667pt;'>Cotton</a>
+<a href='http://arbatrage.com/product-tag/crossbody/' class='tag-link-5607' title='8 topics' style='font-size: 10.333333333333pt;'>Crossbody</a>
+<a href='http://arbatrage.com/product-tag/dial/' class='tag-link-5587' title='8 topics' style='font-size: 10.333333333333pt;'>Dial</a>
+<a href='http://arbatrage.com/product-tag/dkny/' class='tag-link-5676' title='14 topics' style='font-size: 15.7pt;'>Dkny</a>
+<a href='http://arbatrage.com/product-tag/dolce/' class='tag-link-5616' title='9 topics' style='font-size: 11.5pt;'>Dolce</a>
+<a href='http://arbatrage.com/product-tag/dress/' class='tag-link-5681' title='9 topics' style='font-size: 11.5pt;'>Dress</a>
+<a href='http://arbatrage.com/product-tag/eau/' class='tag-link-5634' title='12 topics' style='font-size: 14.066666666667pt;'>Eau</a>
+<a href='http://arbatrage.com/product-tag/escada/' class='tag-link-6000' title='10 topics' style='font-size: 12.433333333333pt;'>Escada</a>
+<a href='http://arbatrage.com/product-tag/fendi/' class='tag-link-6048' title='15 topics' style='font-size: 16.166666666667pt;'>Fendi</a>
+<a href='http://arbatrage.com/product-tag/gabbana/' class='tag-link-5619' title='10 topics' style='font-size: 12.433333333333pt;'>Gabbana</a>
+<a href='http://arbatrage.com/product-tag/gold/' class='tag-link-5613' title='8 topics' style='font-size: 10.333333333333pt;'>Gold</a>
+<a href='http://arbatrage.com/product-tag/gown/' class='tag-link-5860' title='9 topics' style='font-size: 11.5pt;'>Gown</a>
+<a href='http://arbatrage.com/product-tag/handbag/' class='tag-link-5610' title='11 topics' style='font-size: 13.366666666667pt;'>Handbag</a>
+<a href='http://arbatrage.com/product-tag/leather/' class='tag-link-5600' title='23 topics' style='font-size: 20.366666666667pt;'>Leather</a>
+<a href='http://arbatrage.com/product-tag/men/' class='tag-link-5650' title='9 topics' style='font-size: 11.5pt;'>Men</a>
+<a href='http://arbatrage.com/product-tag/new/' class='tag-link-5717' title='7 topics' style='font-size: 9.1666666666667pt;'>New</a>
+<a href='http://arbatrage.com/product-tag/oneyear/' class='tag-link-5908' title='9 topics' style='font-size: 11.5pt;'>Oneyear</a>
+<a href='http://arbatrage.com/product-tag/original/' class='tag-link-5665' title='10 topics' style='font-size: 12.433333333333pt;'>Original</a>
+<a href='http://arbatrage.com/product-tag/pocket/' class='tag-link-5603' title='6 topics' style='font-size: 8pt;'>Pocket</a>
+<a href='http://arbatrage.com/product-tag/purse/' class='tag-link-5609' title='8 topics' style='font-size: 10.333333333333pt;'>Purse</a>
+<a href='http://arbatrage.com/product-tag/quartz/' class='tag-link-5822' title='7 topics' style='font-size: 9.1666666666667pt;'>Quartz</a>
+<a href='http://arbatrage.com/product-tag/resistant/' class='tag-link-5838' title='20 topics' style='font-size: 18.966666666667pt;'>Resistant</a>
+<a href='http://arbatrage.com/product-tag/shoulder/' class='tag-link-5605' title='8 topics' style='font-size: 10.333333333333pt;'>Shoulder</a>
+<a href='http://arbatrage.com/product-tag/silver/' class='tag-link-5591' title='8 topics' style='font-size: 10.333333333333pt;'>Silver</a>
+<a href='http://arbatrage.com/product-tag/sleeve/' class='tag-link-5687' title='13 topics' style='font-size: 15pt;'>Sleeve</a>
+<a href='http://arbatrage.com/product-tag/spray/' class='tag-link-5633' title='6 topics' style='font-size: 8pt;'>Spray</a>
+<a href='http://arbatrage.com/product-tag/stainless/' class='tag-link-5593' title='6 topics' style='font-size: 8pt;'>Stainless</a>
+<a href='http://arbatrage.com/product-tag/steel/' class='tag-link-5590' title='12 topics' style='font-size: 14.066666666667pt;'>Steel</a>
+<a href='http://arbatrage.com/product-tag/sunglasses/' class='tag-link-5625' title='17 topics' style='font-size: 17.566666666667pt;'>Sunglasses</a>
+<a href='http://arbatrage.com/product-tag/toilette/' class='tag-link-5745' title='11 topics' style='font-size: 13.366666666667pt;'>Toilette</a>
+<a href='http://arbatrage.com/product-tag/watch/' class='tag-link-5586' title='15 topics' style='font-size: 16.166666666667pt;'>Watch</a>
+<a href='http://arbatrage.com/product-tag/women/' class='tag-link-5637' title='7 topics' style='font-size: 9.1666666666667pt;'>Women</a>
+<a href='http://arbatrage.com/product-tag/womens/' class='tag-link-5611' title='12 topics' style='font-size: 14.066666666667pt;'>Womens</a>
+<a href='http://arbatrage.com/product-tag/zip/' class='tag-link-5604' title='7 topics' style='font-size: 9.1666666666667pt;'>Zip</a></div></div>						</div>
+													<div class="clearfix visible-sm-block"></div>
+																	<div class="footer-column footer-column-3 col-md-3 col-sm-6">
+							<div id="text-14" class="footer-widget widget_text"><h5 class="widget-title">OUR SPECIAL EDITIONS</h5>			<div class="textwidget"><p></p></div>
+		</div><div id="text-21" class="footer-widget widget_text"><h5 class="widget-title">#DIAMOND COLLECTION</h5>			<div class="textwidget"><a href="http://www.tkqlhce.com/click-7988832-11294785-1412700813000" target="_top">Diamonds International</a><img src="//www.lduhtrp.net/image-7988832-11294785-1412700813000" width="1" height="1" border="0"/></div>
+		</div><div id="text-24" class="footer-widget widget_text"><h5 class="widget-title">#COLIBRI MEN ACCESSORIES</h5>			<div class="textwidget"><a href="http://www.tkqlhce.com/click-7988832-11258978-1423067781000" target="_top">Save now on men's accessories including cuff links, bracelets + more. Free shipping. All orders. All the time. </a><img src="//www.lduhtrp.net/image-7988832-11258978-1423067781000" width="1" height="1" border="0"/></div>
+		</div><div id="text-25" class="footer-widget widget_text"><h5 class="widget-title">#BONSAI</h5>			<div class="textwidget"><a href="http://www.kqzyfj.com/click-7988832-10389993-1435791457000" target="_top">One of a Kind Bonsai Trees</a><img src="//www.lduhtrp.net/image-7988832-10389993-1435791457000" width="1" height="1" border="0"/></div>
+		</div><div id="text-27" class="footer-widget widget_text"><h5 class="widget-title">#AUTHENTIC WATCHES</h5>			<div class="textwidget"><a href="http://www.anrdoezrs.net/click-7988832-12403097-1448391189000" target="_top">Shop Now & Save Up to 75% Off Retail</a><img src="//www.lduhtrp.net/image-7988832-12403097-1448391189000" width="1" height="1" border="0"/></div>
+		</div><div id="text-29" class="footer-widget widget_text"><h5 class="widget-title">#DENIM SHOP</h5>			<div class="textwidget"><a href="http://www.anrdoezrs.net/click-7988832-11006161-1407316490000" target="_top">DL1961 Smart Denim Technology</a><img src="//www.ftjcfx.com/image-7988832-11006161-1407316490000" width="1" height="1" border="0"/></div>
+		</div><div id="text-30" class="footer-widget widget_text"><h5 class="widget-title">#starwars</h5>			<div class="textwidget"><a href="http://www.kqzyfj.com/click-7988832-12332466-1447694353000" target="_top">CA: Shop Click® Star Wars®  Collection at Cross! While Supplies Last.</a><img src="//www.tqlkg.com/image-7988832-12332466-1447694353000" width="1" height="1" border="0"/></div>
+		</div><div id="text-34" class="footer-widget widget_text"><h5 class="widget-title">#RAYBAN</h5>			<div class="textwidget"><a href="http://www.tkqlhce.com/click-7988832-11211696-1447956004000" target="_top">Ray Ban Sunglasses</a><img src="//www.ftjcfx.com/image-7988832-11211696-1447956004000" width="1" height="1" border="0"/></div>
+		</div>						</div>
+																	<div class="footer-column footer-column-4 col-md-3 col-sm-6">
+							<div id="text-18" class="footer-widget widget_text">			<div class="textwidget"><a href="http://www.anrdoezrs.net/click-7988832-12334577-1441635697000" target="_top">
+<img src="//www.awltovhc.com/image-7988832-12334577-1441635697000" width="200" height="200" alt="" border="0"/></a></div>
+		</div><div id="text-28" class="footer-widget widget_text">			<div class="textwidget"><a href="http://www.anrdoezrs.net/click-7988832-11625955-1386001061000" target="_top">
+<img src="//www.tqlkg.com/image-7988832-11625955-1386001061000" width="200" height="200" alt="" border="0"/></a></div>
+		</div><div id="text-33" class="footer-widget widget_text">			<div class="textwidget"><a href="http://www.kqzyfj.com/click-7988832-12486414-1453896937000" target="_top">
+<img src="//www.tqlkg.com/image-7988832-12486414-1453896937000" width="300" height="250" alt="" border="0"/></a></div>
+		</div><div id="mc4wp_form_widget-15" class="footer-widget widget_mc4wp_form_widget"></div>						</div>
+													</aside><!-- .footer-sidebar -->
+	</div>
+	
+		
+		<div class="copyrights-wrapper copyrights-centered">
+			<div class="container">
+				<div class="min-footer">
+					<div class="col-left">
+													<p>&copy; 2016 <a href="http://arbatrage.com/">Arbatrage</a>. All rights reserved</p>
+											</div>
+					<div class="col-right">
+															
+			<ul class="social-icons text-right icons-design-colored icons-size-small social-follow ">
+									<li class="social-facebook"><a href="https://www.facebook.com/arbatrage" target="_blank" class=""><i class="fa fa-facebook"></i>Facebook</a></li>
+				
+									<li class="social-twitter"><a href="https://twitter.com/arbatrage" target="_blank" class=""><i class="fa fa-twitter"></i>Twitter</a></li>
+				
+									<li class="social-google"><a href="#" target="_blank" class=""><i class="fa fa-google-plus"></i>Google</a></li>
+				
+				
+									<li class="social-instagram"><a href="https://www.instagram.com/arbatrage1/" target="_blank" class=""><i class="fa fa-instagram"></i>Instagram</a></li>
+				
+									<li class="social-pinterest"><a href="https://www.pinterest.com/Arbatrage/" target="_blank" class=""><i class="fa fa-pinterest"></i>Pinterest</a></li>
+							</ul>
+	
+													</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div> <!-- end wrapper -->
+
+
+<!-- start/ wwcAmzAff woocommerce-tabs amazon fix -->
+<script type="text/javascript">
+jQuery('.woocommerce-tabs #tab-description .aplus p img[height=1]').css({ 'height': '1px' });
+</script>
+<!-- end/ wwcAmzAff woocommerce-tabs amazon fix -->
+
+<span id="wwcAmzAff_current_aff" class="display: none;" data-current_aff="{&quot;user_country&quot;:{&quot;key&quot;:&quot;com&quot;,&quot;website&quot;:&quot;.com&quot;,&quot;affID&quot;:&quot;arbatragecom-20&quot;}}" /></span>			<a href="#" class="scrollToTop xz-tooltip">Scroll To Top</a>
+		<link rel='stylesheet' id='prettyphoto-css'  href='//arbatrage.com/wp-content/plugins/js_composer/assets/lib/prettyphoto/css/prettyPhoto.css?ver=4.7' type='text/css' media='screen' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/arbatrage.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//arbatrage.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/arbatrage.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3.1'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.4.6'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.4.6'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.5'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.init.min.js?ver=2.4.6'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var yith_wcwl_l10n = {"ajax_url":"http:\/\/arbatrage.com\/wp-admin\/admin-ajax.php","redirect_to_cart":"yes","multi_wishlist":"","hide_add_button":"1","is_user_logged_in":"","ajax_loader_url":"http:\/\/arbatrage.com\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader.gif","remove_from_wishlist_after_add_to_cart":"no","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies are enabled on your browser.","added_to_cart_message":"<div class=\"woocommerce-message\">Product correctly added to cart<\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","move_to_another_wishlist_action":"move_to_another_wishlsit","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.js?ver=2.0.13'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=4.7'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=4.7'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/themes/notredam/js/libraries.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var xz_settings = {"adding_to_cart":"Processing","added_to_cart":"Product was successfully added to your cart.","continue_shopping":"Continue shopping","view_cart":"View Cart","go_to_checkout":"Checkout","loading":"Loading...","cart_url":"http:\/\/arbatrage.com\/cart\/","ajaxurl":"http:\/\/arbatrage.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/themes/notredam/js/functions.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/js_composer/assets/js/js_composer_front.js?ver=4.7'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='//arbatrage.com/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.js?ver=4.7'></script>
+
+		<script type="text/javascript">
+			jQuery( document ).ready(function( $ ) {
+				$("#vc_images-carousel-1-1455840722 .owl-carousel").owlCarousel({
+		            items: 3, 
+		            itemsDesktop: [1199,3],
+		            itemsDesktopSmall: [979,2],
+		            itemsTablet: [768,1],
+		            itemsMobile: [479,1],
+		            lazyLoad : false,
+		            autoPlay: 4000,
+		            pagination: true,
+		            navigation: true,
+		            scrollPerPage:  true,
+		            navigationText:false,
+		            rewindNav: true,
+		            afterUpdate: function() {
+		            	$(window).resize();
+		            }
+				});
+            	$(window).resize();
+			});
+		</script>
+
+		
+						<script type="text/javascript">
+							jQuery( document ).ready(function( $ ) {
+								$("#carousel-439 .owl-carousel").owlCarousel({
+						            items: 2, 
+						            itemsDesktop: [1199,2],
+						            itemsDesktopSmall: [979,1],
+						            itemsTablet: [768,1],
+						            itemsMobile: [479,1],
+						            lazyLoad : false,
+						            autoPlay: 4000,
+						            pagination: false,
+						            navigation: false,
+						            scrollPerPage:  true,
+						            navigationText:false,
+						            rewindNav: true,
+						            afterUpdate: function() {
+						            	$(window).resize();
+						            }
+								});
+				            	$(window).resize();
+							});
+						</script>
+
+						
+</body>
+</html>

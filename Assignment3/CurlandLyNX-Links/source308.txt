@@ -1,0 +1,1106 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="ie9 no-mobile-device" lang="en-US"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-mobile-device" lang="en-US"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+	<link rel="shortcut icon" href="http://dain.io/wp-content/uploads/2015/11/avatar_75c5de51d87b_64.ico" />
+
+	<link rel="alternate" type="application/rss+xml" title="Dain Miller RSS Feed" href="http://dain.io/feed/" />
+	<link rel="alternate" type="application/atom+xml" title="Dain Miller Atom Feed" href="http://dain.io/feed/atom/" />
+	<link rel="pingback" href="http://dain.io/xmlrpc.php" />
+
+	<title>Dain Miller &#8211; Dain.io</title>
+<link rel="alternate" type="application/rss+xml" title="Dain Miller &raquo; Feed" href="http://dain.io/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dain Miller &raquo; Comments Feed" href="http://dain.io/comments/feed/" />
+<meta property='og:site_name' content='Dain Miller'/><meta property='og:url' content='http://dain.io/kent-becks-making-making-coffeescript/'/><meta property='og:title' content='Dain Miller'/><meta property='og:type' content='website'/>		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/dain.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='crayon-css'  href='http://dain.io/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://dain.io/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wspsc-style-css'  href='http://dain.io/wp-content/plugins/wordpress-simple-paypal-shopping-cart/wp_shopping_cart_style.css?ver=4.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='instag-slider-css'  href='http://dain.io/wp-content/plugins/instagram-slider-widget/assets/css/instag-slider.css?ver=1.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='components-css'  href='http://dain.io/wp-content/themes/alison/assets/css/components.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://dain.io/wp-content/themes/alison/assets/css/font-awesome.css' type='text/css' media='all' />
+<link rel='stylesheet' id='body-font-css'  href='//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='headings-font-css'  href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='navigation-font-css'  href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://dain.io/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.18.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://dain.io/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='core-style-css'  href='http://dain.io/wp-content/themes/alison/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='core-responsive-css'  href='http://dain.io/wp-content/themes/alison/assets/css/style-responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-css'  href='http://dain.io/wp-content/uploads/alison_styles/custom.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://dain.io/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://dain.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/dain.io\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://dain.io/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta'></script>
+<script type='text/javascript' src='http://dain.io/wp-content/plugins/instagram-slider-widget/assets/js/jquery.flexslider-min.js?ver=2.2'></script>
+<link rel='https://api.w.org/' href='http://dain.io/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dain.io/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dain.io/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+
+<!-- WP Simple Shopping Cart plugin v4.1.6 - https://www.tipsandtricks-hq.com/wordpress-simple-paypal-shopping-cart-plugin-768/ -->
+
+	<script type="text/javascript">
+	<!--
+	//
+	function ReadForm (obj1, tst) 
+	{ 
+	    // Read the user form
+	    var i,j,pos;
+	    val_total="";val_combo="";		
+	
+	    for (i=0; i<obj1.length; i++) 
+	    {     
+	        // run entire form
+	        obj = obj1.elements[i];           // a form element
+	
+	        if (obj.type == "select-one") 
+	        {   // just selects
+	            if (obj.name == "quantity" ||
+	                obj.name == "amount") continue;
+		        pos = obj.selectedIndex;        // which option selected
+		        val = obj.options[pos].value;   // selected value
+		        val_combo = val_combo + " (" + val + ")";
+	        }
+	    }
+		// Now summarize everything we have processed above
+		val_total = obj1.product_tmp.value + val_combo;
+		obj1.wspsc_product.value = val_total;
+	}
+	//-->
+	</script><style type="text/css" id="syntaxhighlighteranchor"></style>
+	<script src="//load.sumome.com/" data-sumo-site-id="a04b9131a2ae78b4a6dd13bb4db78bca9c8a00fb14ade5ce5b67220b75f2a825" async="async"></script>
+</head>
+
+<body class="home blog ">
+
+<div id="wrapper">
+
+		<div class="main-navigation-wrapper">
+
+						<div id="top-social-items">
+				<div id="top-social-items-inner">
+				
+										<a href="http://twitter.com/dainmiller" target="_blank"><i class="fa fa-twitter"></i></a>					<a href="http://instagram.com/dainmiller" target="_blank"><i class="fa fa-instagram"></i></a>					<a href="https://www.pinterest.com/dainmiller" target="_blank"><i class="fa fa-pinterest"></i></a>																								
+				</div>
+			</div>
+				
+			<div class="container clearfix">
+
+								
+				<nav class="main-navigation clearfix ">
+				<ul id="menu-main" class="nav-menu"><li id="menu-item-255" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-255"><a href="http://dain.io">Home</a></li>
+<li id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11"><a href="http://dain.io/about/">About</a></li>
+<li id="menu-item-556" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-556"><a href="http://notebook.dain.io">Open Notebook</a></li>
+<li id="menu-item-368" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"><a href="http://ctrldev.dain.io">Devlog</a></li>
+<li id="menu-item-699" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-699"><a href="http://dain.io/startherefm">StartHereFM</a></li>
+<li id="menu-item-698" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-698"><a href="http://tinypress.co">TinyPress</a></li>
+<li id="menu-item-575" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-575"><a href="http://dain.io/software/">Software</a></li>
+<li id="menu-item-566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-566"><a href="http://dain.io/publications/">Publications</a></li>
+<li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-307"><a href="http://dain.io/contact/">Contact</a></li>
+</ul>				</nav>
+					
+				<div class="menu-mobile"></div>
+				
+								<div class="top-search-area">
+					<a href="#"><i class="fa fa-search"></i></a>
+					<div class="search-form-area">
+						
+<form role="search" method="get" class="search-form" action="http://dain.io/">
+    <div>
+		<input type="text" placeholder="Start Typing and Hit Enter..." name="s" class="search" />
+		<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+	 </div>
+</form>					</div>
+				</div>
+								
+			</div>
+
+		</div>
+
+		<header id="main-header">
+			<div id="main-top-wrapper">
+				<div class="container">
+					
+					<div id="logo">
+						
+							
+							<h1><a href="http://dain.io">Dain Miller</a></h1>
+												
+					</div>
+
+										
+				</div>
+			</div>
+		
+		</header>
+
+			
+	
+	<div id="main-container">
+	
+		<div class="container sidebar-open clearfix full-container">
+		
+			<div id="content">
+
+				<div class="post-list full">
+				
+								
+													
+					
+<div id="post-791" class="article-item post post-791 type-post status-publish format-standard hentry category-uncategorized">
+	
+	
+		<div class="post-header">
+
+				<div class="format-icon">
+<i class="elegant elegant-pencil2"></i>	</div>
+			
+							<h2><a href="http://dain.io/kent-becks-making-making-coffeescript/">Kent Beck&#8217;s Making Making CoffeeScript</a></h2>
+			
+							<div class="date-author">
+					<p>
+																					<span class="author">Dain</span>
+										<span class='seperator'>-</span>											<span class="date">January 25, 2016</span>
+										</p>
+				</div>
+						
+		</div>
+							
+		
+		
+	
+			<div class="post-entry">
+		
+		<div class="post-entry-text">
+		<p>I love Kent Beck: his books, his talks, his programming, his philosophies, and now his videos! This is an <strong>amazing </strong>short video on watching Kent learn Coffeescript using a short feedback loop.</p>
+<p>This is truly a master programmer at work. Incredibly inspiring.</p>
+<p><iframe width="960" height="720" src="https://www.youtube.com/embed/nIonZ6-4nuU?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+				</div>
+	</div>
+
+			<div class="post-entry-bottom clearfix">
+							<a class="custom-more-link animative-btn" href="http://dain.io/kent-becks-making-making-coffeescript/">Continue Reading</a>
+						
+			<!-- Like Button -->
+			<div class="like-comment-buttons-wrapper clearfix">
+				<div class="like-comment-buttons">
+					<a href="#" class="jm-post-like" data-post_id="791" title="Like"><i class="fa fa-heart-o unlike"></i>&nbsp;0</a>					<a class="comment-button" href="http://dain.io/kent-becks-making-making-coffeescript/#respond"><i class="fa fa-comment-o"></i> 0</a>				</div>
+			</div>
+			<!-- Like Button -->
+		</div>
+	
+		
+</div>
+
+
+
+
+
+						
+													
+					
+<div id="post-779" class="article-item post post-779 type-post status-publish format-standard hentry category-uncategorized">
+	
+	
+		<div class="post-header">
+
+				<div class="format-icon">
+<i class="elegant elegant-pencil2"></i>	</div>
+			
+							<h2><a href="http://dain.io/darwin-documentary-take-aways/">Darwin Documentary &#038; Take Aways</a></h2>
+			
+							<div class="date-author">
+					<p>
+																					<span class="author">Dain</span>
+										<span class='seperator'>-</span>											<span class="date">December 27, 2015</span>
+										</p>
+				</div>
+						
+		</div>
+							
+		
+		
+	
+			<div class="post-entry">
+		
+		<div class="post-entry-text">
+		<p>Great documentary, my take aways below.</p>
+<p><iframe width="960" height="540" src="https://www.youtube.com/embed/AYBRbCLI4zU?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<ul>
+<li>Darwin spent 5 years at sea collecting samples before he started analyzing any of them. Then, back at his home in England, he began reviewing them. He understood the seasons of life at almost an expert level.</li>
+<li>Darwin would perform &#8216;stream of consciousness&#8217; or &#8216;mental rioting&#8217;, as he called it, in which he&#8217;d write notebooks worth of thought until something solidifies.</li>
+<li>Whales have teeth in their embryo, but they don&#8217;t exist in adult whales because of Darwinistic changes throughout the lives of multiple generations of whale.</li>
+<li>Darwin realized that creatures change before he knew why they changed. Thus, allowing himself to have insight before comprehension.</li>
+<li>The most brutal things in nature (aka the most extreme conflict like death of an animal from another) is actually the <strong>most creative </strong>possible thing for the gene pool. Fascinating.</li>
+</ul>
+				</div>
+	</div>
+
+			<div class="post-entry-bottom clearfix">
+							<a class="custom-more-link animative-btn" href="http://dain.io/darwin-documentary-take-aways/">Continue Reading</a>
+						
+			<!-- Like Button -->
+			<div class="like-comment-buttons-wrapper clearfix">
+				<div class="like-comment-buttons">
+					<a href="#" class="jm-post-like" data-post_id="779" title="Like"><i class="fa fa-heart-o unlike"></i>&nbsp;0</a>					<a class="comment-button" href="http://dain.io/darwin-documentary-take-aways/#respond"><i class="fa fa-comment-o"></i> 0</a>				</div>
+			</div>
+			<!-- Like Button -->
+		</div>
+	
+		
+</div>
+
+
+
+
+
+						
+													
+					
+<div id="post-683" class="article-item post post-683 type-post status-publish format-standard hentry category-uncategorized">
+	
+	
+		<div class="post-header">
+
+				<div class="format-icon">
+<i class="elegant elegant-pencil2"></i>	</div>
+			
+							<h2><a href="http://dain.io/how-will-durant-introduces-the-lessons-of-history/">Man is a Moment in Astronomic Time</a></h2>
+			
+							<div class="date-author">
+					<p>
+																					<span class="author">Dain</span>
+										<span class='seperator'>-</span>											<span class="date">December 1, 2015</span>
+										</p>
+				</div>
+						
+		</div>
+							
+		
+		
+	
+			<div class="post-entry">
+		
+		<div class="post-entry-text">
+		<p>How <a href="https://en.wikipedia.org/wiki/Will_Durant">Will Durant</a> introduces the book <a href="http://www.amazon.com/The-Lessons-History-Will-Durant/dp/143914995X">The Lessons of History</a>&#8230;</p>
+<div class="quote-post">
+<p>Since man is a moment in astronomic time, a transient guest of the earth, a spore of his species, a scion of his race, a composite of body, character, and mind, a member of a family and a community, a believer or doubter of a faith, a unit in an economy, perhaps a citizen in a state or soldier in an army, we may ask under the corresponding heads &#8211; astronomy, geology, geography, biology, ethnology, psychology, morality, religion, economics, politics, and war &#8211; what history has to say about the nature, conduct, and prospects of man. It is a precarious enterprise, and only a fool would try to compress a hundred centuries into a hundred pages of hazardous conclusions. We proceed.</p>
+</div>
+<p>Wow.</p>
+				</div>
+	</div>
+
+			<div class="post-entry-bottom clearfix">
+							<a class="custom-more-link animative-btn" href="http://dain.io/how-will-durant-introduces-the-lessons-of-history/">Continue Reading</a>
+						
+			<!-- Like Button -->
+			<div class="like-comment-buttons-wrapper clearfix">
+				<div class="like-comment-buttons">
+					<a href="#" class="jm-post-like" data-post_id="683" title="Like"><i class="fa fa-heart-o unlike"></i>&nbsp;0</a>					<a class="comment-button" href="http://dain.io/how-will-durant-introduces-the-lessons-of-history/#respond"><i class="fa fa-comment-o"></i> 0</a>				</div>
+			</div>
+			<!-- Like Button -->
+		</div>
+	
+		
+</div>
+
+
+
+
+
+						
+													
+					
+<div id="post-629" class="article-item post post-629 type-post status-publish format-standard hentry category-uncategorized">
+	
+	
+		<div class="post-header">
+
+				<div class="format-icon">
+<i class="elegant elegant-pencil2"></i>	</div>
+			
+							<h2><a href="http://dain.io/plotting-your-side-projects-performance-using-emacs-org-mode-and-python/">Tracking Your Side Project&#8217;s Performance Using Emacs, Org-Mode, and Python</a></h2>
+			
+							<div class="date-author">
+					<p>
+																					<span class="author">Dain</span>
+										<span class='seperator'>-</span>											<span class="date">November 30, 2015</span>
+										</p>
+				</div>
+						
+		</div>
+							
+		
+		
+	
+			<div class="post-entry">
+		
+		<div class="post-entry-text">
+		<p>I&#8217;ve been experimenting with using <a href="https://www.gnu.org/software/emacs/" target="_blank">Emacs</a> <a href="http://orgmode.org/" target="_blank">Org-Mode </a><a href="http://orgmode.org/manual/Tables.html" target="_blank">tables</a> to track my <em><a href="http://searchcrm.techtarget.com/definition/key-performance-indicator" target="_blank">key performance indicators</a> </em>for my different side projects.</p>
+<p>I like the idea of using emacs and org-mode for this type of data because it allows for quick data analysis via the programming language of your choice.</p>
+<p>Alternatively, when using Google Spreadsheets you don&#8217;t have any integration with a programming language right at-hand.</p>
+<p>Having a deep integration with a programming language on the data you collect, is invaluable. In this case, we are using the Emacs integration with <a href="http://orgmode.org/worg/org-contrib/babel/" target="_blank">babel&#8217;s</a> <em><a href="https://en.wikipedia.org/wiki/Literate_programming" target="_blank">literate coding</a></em> source code blocks.</p>
+<p>This article is meant to be a very basic bare-bones intro to emacs org-mode, passing data from org-mode tables to souce-code, plotting, and rendering the result.</p>
+<p>Due to the fact that we want to keep this approachable, we will use very basic data that produces very basic plots for this workflow tutorial.</p>
+<p>Let&#8217;s dive in&#8230;</p>
+<p><strong>Here&#8217;s our scenario</strong></p>
+<p>We have a side project called <a href="http://starthere.fm" target="_blank">StartHereFM</a> (spoiler: true story). <a href="http://starthere.fm">StartHereFM</a> is a podcast network and the team needs to be able to see a range of different statistics on a daily basis.</p>
+<p>Here&#8217;s a preview of the final result, let&#8217;s reverse engineer it.</p>
+<p><a href="http://dain.io/wp-content/uploads/2015/11/Screen-Shot-2015-11-30-at-1.42.36-AM6.png"><img class="alignnone wp-image-642 size-full" src="http://dain.io/wp-content/uploads/2015/11/Screen-Shot-2015-11-30-at-1.42.36-AM6.png" alt="Screen-Shot-2015-11-30-at-1.42.36-AM" width="1196" height="656" srcset="http://dain.io/wp-content/uploads/2015/11/Screen-Shot-2015-11-30-at-1.42.36-AM6-300x165.png 300w, http://dain.io/wp-content/uploads/2015/11/Screen-Shot-2015-11-30-at-1.42.36-AM6-1024x562.png 1024w, http://dain.io/wp-content/uploads/2015/11/Screen-Shot-2015-11-30-at-1.42.36-AM6-1100x603.png 1100w, http://dain.io/wp-content/uploads/2015/11/Screen-Shot-2015-11-30-at-1.42.36-AM6-650x357.png 650w, http://dain.io/wp-content/uploads/2015/11/Screen-Shot-2015-11-30-at-1.42.36-AM6-440x241.png 440w, http://dain.io/wp-content/uploads/2015/11/Screen-Shot-2015-11-30-at-1.42.36-AM6.png 1196w" sizes="(max-width: 1196px) 100vw, 1196px" /></a></p>
+<p><em>I&#8217;m assuming you know how to install emacs, install org-mode, open a website and read the basics of org-mode.</em></p>
+<p>Let&#8217;s first create the org-mode file: I named mine &#8216;dashboard.org&#8217;.</p>
+<p>The next thing we need is the data, which we store in <a href="http://orgmode.org/manual/Tables.html" target="_blank">org-mode tables</a>. Pick a few stats from your side project, and go ahead and replicate this table setup above. Enter your dates on the left, and columns with the data rows. FYI: You can automate this step if you want, but I won&#8217;t go into detail about it. At a high level you can use apps like <a href="https://ifttt.com/" target="_blank">IFTT</a> to send data to a backend service that you write that formats the data then serializes it into your file&#8217;s table on Dropbox/etc.</p>
+<p><em>NOTE: Make sure you use the &#8220;#+TBLNAME&#8221; syntax to put a name on the table, for use in code in a minute.</em></p>
+<p>Now that we have the data, let&#8217;s go ahead and send it on over into a code block, in this case we are using <a href="https://www.python.org/download/releases/3.0/">Python 3</a> primarily to take advantage of the <a href="http://www.scipy.org/" target="_blank">SciPy</a> stack.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+** StartHereFM
+   #+begin_src python :var data=startherefm :exports both :results output :width 300
+     import numpy as np
+     import matplotlib.pyplot as plt
+     import matplotlib.dates as mdates
+     import datetime 
+</pre>
+<p>You can see the source code block begins with<em> &#8220;#+begin_src&#8221;</em> and ends with <em>&#8220;#+end_src&#8221;</em>. Inside of that you put your code. You can hit <em>Ctrl-&#8216; </em>to edit the code in the block with syntax highlighting for that language. Then hit <em>Ctrl-&#8216;</em> again to get back to your source code block.</p>
+<p>The next thing you&#8217;ll notice is the params I&#8217;m passing into the block. You can see I&#8217;m setting a <em>&#8220;data&#8221;</em> variable equal to the table name I defined above. This is very easy to do with org-mode and is a very cool way to toss data around. Thanks org! I&#8217;m also passing in <a href="http://orgmode.org/manual/Code-block-specific-header-arguments.html" target="_blank">a few options</a> to verify the org file displays the <em>stdout </em>of the script&#8217;s execution. And you can ignore the width bit.</p>
+<p>Now that we have the data in the source code block with the SciPy stack, let&#8217;s make use of it!</p>
+<p>First, let&#8217;s assign all columns data to a variable.</p>
+<p>dates, daily_dls, total_dls, total_yt_views, site_views, email_list, twitter_followers = zip(*data)<br />
+Next, let&#8217;s clean the data. Also called &#8220;data munging&#8221;.</p>
+<p>Actually, pause, before we jump in let&#8217;s review data analysis 101 which states that there are four phases to managing data: <a href="https://en.wikipedia.org/wiki/Data_extraction" target="_blank">data extraction</a>, <a href="https://en.wikipedia.org/wiki/Data_wrangling" target="_blank">data munging</a> (cleaning), <a href="http://searchdatamanagement.techtarget.com/definition/data-governance" target="_blank">data governance</a> (controlling data quality), and <a href="https://en.wikipedia.org/wiki/Data_architecture" target="_blank">data architecture</a> (breaking silo&#8217;d data warehouses).</p>
+<p>Okay, now that we have that out of the way let&#8217;s dive into munging or cleaning this data..</p>
+<pre class="brush: python; title: ; notranslate" title=""> 
+     dates = list(dates)
+     dates = dates[1:]
+     if &quot;&quot; in dates: dates.remove(&quot;&quot;)
+
+     daily_dls = list(daily_dls)
+     daily_dls = daily_dls[1:]
+     if &quot;&quot; in daily_dls: daily_dls.remove(&quot;&quot;)
+
+     total_dls = list(total_dls)
+     total_dls = total_dls[1:]
+     if &quot;&quot; in total_dls: total_dls.remove(&quot;&quot;)
+
+     _total_dls = []
+     for dl in total_dls:
+         dl = int(dl.replace(',',''))
+         _total_dls.append(dl)
+
+     total_yt_views = list(total_yt_views)
+     total_yt_views = total_yt_views[1:]
+     if &quot;&quot; in total_yt_views: total_yt_views.remove(&quot;&quot;)
+
+     _total_yt_views = []
+     for yt in total_yt_views:
+         yt = int(yt.replace(',',''))
+         _total_yt_views.append(yt)
+
+</pre>
+<p><em>NOTE: I&#8217;m aware there are better ways to write this in Python, but I&#8217;m not a big Python coder and this works fine for my scripts like this one.</em></p>
+<p>Very basic cleaning procedure for this example, just converting some strings to integers, and removing some empty strings from an array, etc.</p>
+<p><strong>The end goal of this cleaning step is to verify you have two arrays in their <em>ready-to-</em><em>plot </em><em>data-type</em>, which for now means integers and date objects.</strong></p>
+<p>To that end, let&#8217;s get our dates array ready&#8230;</p>
+<pre class="brush: python; title: ; notranslate" title="">
+     _dates = []
+     for date in dates:
+         date = datetime.datetime.strptime(date, &quot;%b %d %Y&quot;).date()
+         _dates.append(date)
+</pre>
+<p><em>NOTE: I&#8217;m aware there are better ways to write this in Python, but I&#8217;m not a big Python coder and this works fine for my scripts like this one.</em></p>
+<p>Now the data is fairly cleaned up and we have our 3 arrays (1 dates array, and 2 integer arrays to plot) let&#8217;s go ahead and create the figures using <a href="http://matplotlib.org/" target="_blank">matplotlib</a> and lay the data onto it in the most simple possible fashion.</p>
+<p>The first thing you have to ask when plotting data is how many plots do I need? Could I plot all of this data on one plot?</p>
+<p>Plotting all the arrays of data on one figure usually only works if the data sets are within the same range. <strong>If you have a diverse pool of ranges on the y axis the visualization will lose its ocular efficiency.</strong></p>
+<p>Based on that, we know that this data is very different and probably won&#8217;t work on 1 figure. Why? Mainly because we are plotting <em>total_downloads </em>which is near the 100 thousands but the <em>daily_downloads </em>is very low around the couple hundred mark. Thus, this will be optimally plotted in two separate plots.</p>
+<p>So, we are going to create two plots: the first is <em>total downloads</em> and the second is <em>daily downloads</em>. They both are going to have the dates in the x axis for this example, and the y axis will be the respective download count.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+     fig = plt.gcf()
+     fig.set_size_inches(5,2)
+     fig2 = plt.figure()
+     fig2.set_size_inches(5,2)
+     fig3 = plt.figure()
+     fig3.set_size_inches(5,2)
+
+     fig.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %d %Y'))
+     fig.gca().xaxis.set_major_locator(mdates.DayLocator())
+
+     fig2.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %d %Y'))
+     fig2.gca().xaxis.set_major_locator(mdates.DayLocator())
+
+     fig3.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %d %Y'))
+     fig3.gca().xaxis.set_major_locator(mdates.DayLocator())
+
+     ax = fig.add_subplot(111)
+     ax2 = fig2.add_subplot(111)
+     ax3 = fig3.add_subplot(111)
+
+     ax.plot(_dates, _total_dls, label=&quot;Total Downloads&quot;)
+     ax.legend(loc='upper center', bbox_to_anchor=(0.5, 1.09))
+     fig.tight_layout()
+     fig.savefig('starthere.png')
+
+     ax2.plot(_dates, daily_dls, label=&quot;Daily Downloads&quot;)
+     ax2.legend(loc='upper center', bbox_to_anchor=(0.5, 1.09))
+     fig2.tight_layout()
+     fig2.savefig('starthere-daily.png')
+
+     ax3.plot(_dates, _total_yt_views, label=&quot;YouTube Views&quot;)
+     ax3.legend(loc='upper center', bbox_to_anchor=(0.5, 1.09))
+     fig3.tight_lay
+     fig3.savefig('starthere-ytviews.png')
+</pre>
+<p><em>NOTE: I&#8217;m aware this is not compact or DRY, but it works for mer. Also, you&#8217;ll notice we are plotting a third chart &#8211; please ignore that for this tutorial.</em></p>
+<p>The first thing we do is create the figures and set their size. You can read up on the options by visiting the <a href="http://matplotlib.org/contents.html" target="_blank">matplotlib documentation</a>.</p>
+<p>Next we set the formatting for the date axis on the plots. Then we add subplots. Then we call plot! <a href="http://matplotlib.org/api/pyplot_api.html" target="_blank">Plot simply takes</a> as params an <em>x, y, and label. </em>How amazing right?</p>
+<p>I then call<em> tight_layout()</em>, which is a nice helper function that basically makes tiny charts look better by using a different spacing technique on the axis labels.</p>
+<p><strong>Then I save the figure, because want to the visualization to appear in the document.</strong></p>
+<p>How do we do that? Well, first you should know that Emacs is basically an <a href="http://unix.stackexchange.com/questions/986/what-are-the-pros-and-cons-of-vim-and-emacs" target="_blank">operating system for text</a>. Thus, <a href="http://orgmode.org/manual/External-links.html" target="_blank">files can be linked to and fro&#8217;</a>, and you do that by using the syntax: <em>&#8220;[[file_name.png]]&#8221;. </em></p>
+<p>Here we want to put these links in for the plots we just saved.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+   *StartHereFM Key Performance Indicators Over Time*
+   [[starthere.png]]
+
+   [[./starthere-daily.png]]
+   
+   [[./starthere-ytviews.png]]
+</pre>
+<p>Once these are set, you can put your cursor in the source code block and hit Ctrl-c Ctrl-c and it will run the <em>babel-execute </em>function for the language you listed in the <em>&#8220;#+begin_src python&#8221; </em>snippet.</p>
+<p>Now your plots should be saved in the folder you&#8217;ve placed this <em>.org </em>file.</p>
+<p><strong>The magic is now possible and you can </strong><strong>toggle between the <em>link to your plot</em> and <em>the plot image itself inline</em> with <em>Ctrl-c Ctrl-x Ctrl-v</em>.</strong></p>
+<p>Here&#8217;s the <a href="https://gist.githubusercontent.com/dainmiller/9f2e38f7a09e25dcd2a9/raw/ca63ef5a0fa1dfe703ce16d90e04cfdb71e376ca/dash-example.org">full org file source</a> for you to run (<em>Ctrl-c Ctrl-c </em>in code block then <em>Ctrl-c Ctrl-x Ctrl-v</em>) in org-mode and learn from.</p>
+<hr />
+<p>&nbsp;</p>
+<p>That wraps the tutorial.</p>
+<p>I&#8217;m a huge believer in the &#8220;you only change what you track, you only track what you measure&#8221; thing, and that&#8217;s why I think having good automated routines to plot your data for analysis later is hugely important.</p>
+<p>What if these tables were being automatically populated and there was 100 columns of project statistics? At that point we are sort of replicating something like <a href="https://mixpanel.com/" target="_blank">Mixpanel</a> here, but that data is incredibly useful when planning features or prioritizing work as well. And because it&#8217;s integrated in your editor with a programming environment you can actually set up ways to ask questions of the data during stand up meetings. You can query your user data and basically &#8220;ask it&#8221; which feature should be prioritized over the other based on assumed impact and user benefit, etc.</p>
+<p>Point is, <strong>it gets more interesting the more data you have</strong>. Always keep that in mind, and keep collecting.</p>
+				</div>
+	</div>
+
+			<div class="post-entry-bottom clearfix">
+							<a class="custom-more-link animative-btn" href="http://dain.io/plotting-your-side-projects-performance-using-emacs-org-mode-and-python/">Continue Reading</a>
+						
+			<!-- Like Button -->
+			<div class="like-comment-buttons-wrapper clearfix">
+				<div class="like-comment-buttons">
+					<a href="#" class="jm-post-like" data-post_id="629" title="Like"><i class="fa fa-heart-o unlike"></i>&nbsp;2</a>					<a class="comment-button" href="http://dain.io/plotting-your-side-projects-performance-using-emacs-org-mode-and-python/#respond"><i class="fa fa-comment-o"></i> 0</a>				</div>
+			</div>
+			<!-- Like Button -->
+		</div>
+	
+		
+</div>
+
+
+
+
+
+						
+													
+					
+<div id="post-620" class="article-item post post-620 type-post status-publish format-standard hentry category-uncategorized">
+	
+	
+		<div class="post-header">
+
+				<div class="format-icon">
+<i class="elegant elegant-pencil2"></i>	</div>
+			
+							<h2><a href="http://dain.io/physicists-prove-time-travel-possible-by-sending-particles-of-light-into-the-past/">Physicists Prove Time Travel Possible by Sending Particles of Light into the Past</a></h2>
+			
+							<div class="date-author">
+					<p>
+																					<span class="author">Dain</span>
+										<span class='seperator'>-</span>											<span class="date">November 30, 2015</span>
+										</p>
+				</div>
+						
+		</div>
+							
+		
+		
+	
+			<div class="post-entry">
+		
+		<div class="post-entry-text">
+		<p>Amazing writeup.</p>
+<div class="quote-post">
+<p>In the first case, one photon passed through a wormhole and then interacted with its older self. In the second case, when a photon travels through normal space-time and interacts with another photon trapped inside a closed timeline curve forever.</p>
+</div>
+<p>Read the full article <a href="http://www.ibtimes.co.uk/physicists-prove-time-travel-possible-by-sending-particles-light-into-past-1453839">here</a>. It&#8217;s fascinating.</p>
+				</div>
+	</div>
+
+			<div class="post-entry-bottom clearfix">
+							<a class="custom-more-link animative-btn" href="http://dain.io/physicists-prove-time-travel-possible-by-sending-particles-of-light-into-the-past/">Continue Reading</a>
+						
+			<!-- Like Button -->
+			<div class="like-comment-buttons-wrapper clearfix">
+				<div class="like-comment-buttons">
+					<a href="#" class="jm-post-like" data-post_id="620" title="Like"><i class="fa fa-heart-o unlike"></i>&nbsp;0</a>					<a class="comment-button" href="http://dain.io/physicists-prove-time-travel-possible-by-sending-particles-of-light-into-the-past/#respond"><i class="fa fa-comment-o"></i> 0</a>				</div>
+			</div>
+			<!-- Like Button -->
+		</div>
+	
+		
+</div>
+
+
+
+
+
+						
+													
+					
+<div id="post-535" class="article-item post post-535 type-post status-publish format-standard hentry category-uncategorized">
+	
+	
+		<div class="post-header">
+
+				<div class="format-icon">
+<i class="elegant elegant-pencil2"></i>	</div>
+			
+							<h2><a href="http://dain.io/dark-matter/">Syfy: &#8220;Dark Matter&#8221;</a></h2>
+			
+							<div class="date-author">
+					<p>
+																					<span class="author">Dain</span>
+										<span class='seperator'>-</span>											<span class="date">November 27, 2015</span>
+										</p>
+				</div>
+						
+		</div>
+							
+		
+		
+	
+			<div class="post-entry">
+		
+		<div class="post-entry-text">
+		<p><a href="http://www.syfy.com/darkmatter/">Dark Matter</a> is a new show on the Syfy network about a crew aboard a ship with no memories. You can find season 1 streaming <a href="http://www.netflix.com/browse?jbv=80023289&amp;jbp=1&amp;jbr=1">Netflix</a>. Season 2 is scheduled for release in 2016. I&#8217;d also like to point out the <a href="http://www.syfy.com/darkmatter/where-to-watch">awesome &#8220;where to watch&#8221; pages</a> on syfy.com.</p>
+<p>This show has a unique balance between corny, fun, and is somehow not pandering. It&#8217;s an interesting combination and a very solid Syfy show. And check out the <a href="http://www.syfy.com/darkmatter/photos/character-gallery" target="_blank">character gallery</a>!</p>
+				</div>
+	</div>
+
+			<div class="post-entry-bottom clearfix">
+							<a class="custom-more-link animative-btn" href="http://dain.io/dark-matter/">Continue Reading</a>
+						
+			<!-- Like Button -->
+			<div class="like-comment-buttons-wrapper clearfix">
+				<div class="like-comment-buttons">
+					<a href="#" class="jm-post-like" data-post_id="535" title="Like"><i class="fa fa-heart-o unlike"></i>&nbsp;0</a>					<a class="comment-button" href="http://dain.io/dark-matter/#respond"><i class="fa fa-comment-o"></i> 0</a>				</div>
+			</div>
+			<!-- Like Button -->
+		</div>
+	
+		
+</div>
+
+
+
+
+
+						
+													
+					
+<div id="post-523" class="article-item post post-523 type-post status-publish format-standard hentry category-uncategorized">
+	
+	
+		<div class="post-header">
+
+				<div class="format-icon">
+<i class="elegant elegant-pencil2"></i>	</div>
+			
+							<h2><a href="http://dain.io/deep-work-book-pre-order/">Deep Work Book Pre-Order</a></h2>
+			
+							<div class="date-author">
+					<p>
+																					<span class="author">Dain</span>
+										<span class='seperator'>-</span>											<span class="date">November 27, 2015</span>
+										</p>
+				</div>
+						
+		</div>
+							
+		
+		
+	
+			<div class="post-entry">
+		
+		<div class="post-entry-text">
+		<p>I&#8217;m really excited for Cal Newport&#8217;s new book <a href="http://www.amazon.com/gp/product/1455586692/ref=as_li_qf_sp_asin_il?ie=UTF8&#038;camp=1789&#038;creative=9325&#038;creativeASIN=1455509124&#038;linkCode=as2&#038;tag=stuhac-20" target="_blank">Deep Work: Rules for Focused Success in a Distracted World</a>. Every knowledge worker should pre-order this book. </p>
+<p>Never pre-ordered a book before? Here&#8217;s why you should:</p>
+<div class="quote-post">
+<p>Pre-orders carry a great weight in the modern book business. Major retailers such as Barnes &#038; Noble, for example, now use pre-order numbers to determine how seriously to take a new release.</p>
+</div>
+<p>&#8211; <a href="http://calnewport.com/blog/2015/11/27/i-want-to-show-you-exactly-how-i-prioritize-deep-work-in-my-busy-life/" target="_blank">via Cal Newport</a></p>
+				</div>
+	</div>
+
+			<div class="post-entry-bottom clearfix">
+							<a class="custom-more-link animative-btn" href="http://dain.io/deep-work-book-pre-order/">Continue Reading</a>
+						
+			<!-- Like Button -->
+			<div class="like-comment-buttons-wrapper clearfix">
+				<div class="like-comment-buttons">
+					<a href="#" class="jm-post-like" data-post_id="523" title="Like"><i class="fa fa-heart-o unlike"></i>&nbsp;0</a>					<a class="comment-button" href="http://dain.io/deep-work-book-pre-order/#respond"><i class="fa fa-comment-o"></i> 0</a>				</div>
+			</div>
+			<!-- Like Button -->
+		</div>
+	
+		
+</div>
+
+
+
+
+
+						
+													
+					
+<div id="post-492" class="article-item post post-492 type-post status-publish format-standard hentry category-uncategorized">
+	
+	
+		<div class="post-header">
+
+				<div class="format-icon">
+<i class="elegant elegant-pencil2"></i>	</div>
+			
+							<h2><a href="http://dain.io/following-magic/">Following a Magical Girl</a></h2>
+			
+							<div class="date-author">
+					<p>
+																					<span class="author">Dain</span>
+										<span class='seperator'>-</span>											<span class="date">November 26, 2015</span>
+										</p>
+				</div>
+						
+		</div>
+							
+		
+		
+	
+			<div class="post-entry">
+		
+		<div class="post-entry-text">
+		<p>I&#8217;ve followed <a href="http://heyamberrae.com">Amber Rae</a> on <a href="https://www.instagram.com/heyamberrae/">instagram</a> for a while. I&#8217;ve never met her, but found her to be inspirational. That&#8217;s an understatement.</p>
+<p>Following her is like getting flicked by magic once a week.</p>
+<div class="quote-post">
+<p>If there’s one thing I want to leave you with on this holiday, it’s this: See into your loved ones. Love the light they can’t yet see for themselves and love the pain they are going through. No matter where they are at on their journey, love and see them for exactly where they are at. The power of unconditional love is infinite.</p>
+</div>
+<p>&#8211; <a href="http://heyamberrae.com/post/133997066324/a-friend-recently-told-me-that-the-most-important">via Amber Rae</a></p>
+				</div>
+	</div>
+
+			<div class="post-entry-bottom clearfix">
+							<a class="custom-more-link animative-btn" href="http://dain.io/following-magic/">Continue Reading</a>
+						
+			<!-- Like Button -->
+			<div class="like-comment-buttons-wrapper clearfix">
+				<div class="like-comment-buttons">
+					<a href="#" class="jm-post-like" data-post_id="492" title="Like"><i class="fa fa-heart-o unlike"></i>&nbsp;0</a>					<a class="comment-button" href="http://dain.io/following-magic/#respond"><i class="fa fa-comment-o"></i> 0</a>				</div>
+			</div>
+			<!-- Like Button -->
+		</div>
+	
+		
+</div>
+
+
+
+
+
+						
+													
+					
+<div id="post-478" class="article-item post post-478 type-post status-publish format-standard hentry category-uncategorized">
+	
+	
+		<div class="post-header">
+
+				<div class="format-icon">
+<i class="elegant elegant-pencil2"></i>	</div>
+			
+							<h2><a href="http://dain.io/the-hard-way-1writer-to-medium/">Automation The Hard Way</a></h2>
+			
+							<div class="date-author">
+					<p>
+																					<span class="author">Dain</span>
+										<span class='seperator'>-</span>											<span class="date">November 25, 2015</span>
+										</p>
+				</div>
+						
+		</div>
+							
+		
+		
+	
+			<div class="post-entry">
+		
+		<div class="post-entry-text">
+		<div class="quote-post">
+<p>A toast to the brave ones that followed me into the lair of the danger feared across the seven kingdom named Javascript. Download the scaffold action to get started.</p>
+</div>
+<p>&#8211; <a href="https://onetapless.com/post-to-medium-from-1writer">via Phillip Gruneich</a></p>
+<p>If you want to blog on the iPad using a really nice writing environment, 1Writer is a pretty good way to go.</p>
+<p>This is a cool write up on how to take your post and with one button publish to <a href="http://medium.com">Medium</a>.</p>
+				</div>
+	</div>
+
+			<div class="post-entry-bottom clearfix">
+							<a class="custom-more-link animative-btn" href="http://dain.io/the-hard-way-1writer-to-medium/">Continue Reading</a>
+						
+			<!-- Like Button -->
+			<div class="like-comment-buttons-wrapper clearfix">
+				<div class="like-comment-buttons">
+					<a href="#" class="jm-post-like" data-post_id="478" title="Like"><i class="fa fa-heart-o unlike"></i>&nbsp;0</a>					<a class="comment-button" href="http://dain.io/the-hard-way-1writer-to-medium/#respond"><i class="fa fa-comment-o"></i> 0</a>				</div>
+			</div>
+			<!-- Like Button -->
+		</div>
+	
+		
+</div>
+
+
+
+
+
+						
+													
+					
+<div id="post-474" class="article-item post post-474 type-post status-publish format-standard hentry category-uncategorized">
+	
+	
+		<div class="post-header">
+
+				<div class="format-icon">
+<i class="elegant elegant-pencil2"></i>	</div>
+			
+							<h2><a href="http://dain.io/well-said/">Well Said&#8230;</a></h2>
+			
+							<div class="date-author">
+					<p>
+																					<span class="author">Dain</span>
+										<span class='seperator'>-</span>											<span class="date">November 25, 2015</span>
+										</p>
+				</div>
+						
+		</div>
+							
+		
+		
+	
+			<div class="post-entry">
+		
+		<div class="post-entry-text">
+		<div class="quote-post">
+<p>When Brent posted this five days ago, I imported the entire OPML file into my Feed Wrangler sync account. Since then, their posts have been coming steadily into my feed reader.</p>
+<p>It’s not overwhelming at all — it’s maybe ten more posts a day, total — and it’s nice to get a different perspective added to my otherwise embarrassingly non-diverse blog subscriptions. If you like reading Apple developer and power-user blogs, I highly recommend adding the entire OPML file to your feed reader, too.</p>
+<p>We should do more of this kind of thing.</p>
+</div>
+<p>&#8211; <a href="http://marco.org">Marco Arment</a></p>
+				</div>
+	</div>
+
+			<div class="post-entry-bottom clearfix">
+							<a class="custom-more-link animative-btn" href="http://dain.io/well-said/">Continue Reading</a>
+						
+			<!-- Like Button -->
+			<div class="like-comment-buttons-wrapper clearfix">
+				<div class="like-comment-buttons">
+					<a href="#" class="jm-post-like" data-post_id="474" title="Like"><i class="fa fa-heart-o unlike"></i>&nbsp;1</a>					<a class="comment-button" href="http://dain.io/well-said/#respond"><i class="fa fa-comment-o"></i> 0</a>				</div>
+			</div>
+			<!-- Like Button -->
+		</div>
+	
+		
+</div>
+
+
+
+
+
+						
+								
+				
+				</div>
+				
+					
+	<div class="pagination clearfix">
+		<div class="older animative-btn"><a href="http://dain.io/page/2/" >Older Posts</a></div>
+		<div class="newer animative-btn"></div>
+	</div>
+					
+					
+				
+			</div>
+
+			
+				<aside id="sidebar">
+				<div id="sidebar-inner">
+					<div id="gorilla_about_widget-3" class="widget gorilla_about_widget"><h4 class="widget-title">About Dain Miller</h4>			
+			<div class="about-widget">
+				<div class="widget-content clearfix">
+												<div class="img">
+								<img src="http://dain.io/wp-content/uploads/2015/09/A23E0E98-D70F-4C0D-8A27-02816E4A87C6.png" alt="About Dain Miller" />
+							</div>
+					
+															<div class="widget-content-desription">
+						<p>Taking what I've learned, and flipping it around to help you. 
+<hr />
+Director of Engineering &amp; Technology Software Architect • Data Engineer • Creator of <a href="http://tinypress.co" target="_blank">TinyPress</a> and <a href="http://starthere.fm" target="_blank">StartHereFM</a> • Consultant <a href="http://www.state.gov/m/irm/ediplomacy/" target="_blank">@statedept</a> • Former <a target="_blank" href="http://pif.gov">PIF</a> <a href="http://whitehouse.gov">@whitehouse</a> • Part-time CS Grad Student <a target="_blank" href="http://astronomy.fas.harvard.edu/">@Harvard</a></p>
+					</div>
+									</div>
+
+					
+			</div>
+			
+		</div><div id="text-6" class="widget widget_text"><h4 class="widget-title">Help us build an open source blogging engine!</h4>			<div class="textwidget"><a target="_blank" href="http://tinypress.co" style="color: #E87A55"> TinyPress</a> is a GitHub blogging platform. All aspects are able to be customized, even the theme itself.
+
+<br /><br />
+
+We are building version 2 totally open source! Want to join us? Email: <a style="color: #E87A55" href="mailto:d@dain.io">miller.dain@gmail.com</a> or  <a href="http://github.com/tinypressco/tinypress-web-v2">hop over to GitHub</a> and join us!
+
+<img src="http://dain.io/wp-content/uploads/2015/11/Screen-Shot-2015-11-27-at-2.06.31-AM1.png" /></div>
+		</div><div id="text-5" class="widget widget_text"><h4 class="widget-title">I&#8217;m writing a book! </h4>			<div class="textwidget"><div style="text-align: justify">I've learned a lot helping folks transition into web development from other careers, via my podcast <a style="color: #E87A55" href="http://starthere.fm/category/webdev" target="_blank">Start Here: Web Dev</a>.</div>
+
+<br />
+
+<a style="color: #E87A55" href="https://github.com/dainmiller/book-buildingacareerinwebdev" target="_blank">Follow along</a> as I write about the lessons learned.
+
+<br />
+
+<img src="http://dain.io/wp-content/uploads/2015/11/2.png" /></div>
+		</div>				</div>
+			</aside>
+				
+		</div>
+		
+	</div>
+	
+		
+
+		
+		<div id="footer-widget-area" class="footer">
+	
+		<div class="container clearfix ">
+			
+			<div class="widget-columns">
+									<div id="text-2" class="widget first widget_text">			<div class="textwidget">Remember that you write your own original story. It doesn’t matter how old you are or what you’ve been through so far: you can start at any moment.</div>
+		</div>							</div>
+			
+			<div class="widget-columns">
+									<div id="text-3" class="widget widget_text">			<div class="textwidget"><div style="text-align: center">One superficial “friendship” could cost you becoming the person you’ve always dreamt of being by leading you off your path to success.</div></div>
+		</div>							</div>
+
+			<div class="widget-columns last">
+									<div id="text-4" class="widget widget_text">			<div class="textwidget">You've got one shot at life. You should be obsessed with that thought and let it fuel your passion for reaching goals that your friends and family think are unrealistic.</div>
+		</div>							</div>
+
+						
+		</div>
+		
+	</div>
+	
+	
+	
+	<footer id="footer-copyright">
+		
+		<div class="container">
+		
+			<a href="#" class="goto-top"><i class="fa fa-angle-up"></i></a>
+			
+			
+
+							<p>(c) 2015 <a href="http://dain.io">Dain Miller</a></p>
+						
+		</div>
+		
+	</footer>
+
+</div>
+
+	<!-- Root element of PhotoSwipe. Must have class pswp. -->
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+	    <!-- Background of PhotoSwipe. 
+	         It's a separate element as animating opacity is faster than rgba(). -->
+	    <div class="pswp__bg"></div>
+
+	    <!-- Slides wrapper with overflow:hidden. -->
+	    <div class="pswp__scroll-wrap">
+
+	        <!-- Container that holds slides. 
+	            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+	            Don't modify these 3 pswp__item elements, data is added later on. -->
+	        <div class="pswp__container">
+	            <div class="pswp__item"></div>
+	            <div class="pswp__item"></div>
+	            <div class="pswp__item"></div>
+	        </div>
+
+	        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+	        <div class="pswp__ui pswp__ui--hidden">
+
+	            <div class="pswp__top-bar">
+
+	                <!--  Controls are self-explanatory. Order can be changed. -->
+
+	                <div class="pswp__counter"></div>
+
+	                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+	                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+	                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+	                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+	                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+	                <!-- element will get class pswp__preloader-active when preloader is running -->
+	                <div class="pswp__preloader">
+	                    <div class="pswp__preloader__icn">
+	                      <div class="pswp__preloader__cut">
+	                        <div class="pswp__preloader__donut"></div>
+	                      </div>
+	                    </div>
+	                </div>
+	            </div>
+
+	            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+	                <div class="pswp__share-tooltip"></div> 
+	            </div>
+
+	            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+	            </button>
+
+	            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+	            </button>
+
+	            <div class="pswp__caption">
+	                <div class="pswp__caption__center"></div>
+	            </div>
+
+	        </div>
+
+	    </div>
+
+	</div>
+	
+	<script src="//my.hellobar.com/caf391e6823c5283308c5f0a69c4c22ffc3e987c.js" type="text/javascript" async="async"></script><script type='text/javascript' src='http://dain.io/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b'></script>
+<script type='text/javascript' src='http://dain.io/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.9b'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://dain.io/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://dain.io/wp-content/plugins/syntaxhighlighter-evolved-themes/themes/tomorrow-night.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = true;
+	SyntaxHighlighter.defaults['tab-size'] = 2;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_var = {"url":"http:\/\/dain.io\/wp-admin\/admin-ajax.php","nonce":"424b40a4e1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://dain.io/wp-content/themes/alison/assets/js/post-like.min.js'></script>
+<script type='text/javascript' src='http://dain.io/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/dain.io\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://dain.io/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://dain.io/wp-content/themes/alison/assets/js/components.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://dain.io/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.18.1'></script>
+<script type='text/javascript' src='http://dain.io/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://dain.io/wp-content/themes/alison/assets/js/core.js'></script>
+<script type='text/javascript' src='http://dain.io/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+	
+	<script>
+	  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-57676730-3', 'auto');
+  		ga('send', 'pageview');
+
+	</script>
+	<script>
+		jQuery('.featured-post-wrapper').find('span').first().text('Featured Projects');
+		jQuery('.featured-posts.side-item').find('.recent_post_text').find('span').remove();
+		jQuery('.side-item-category-inner').remove();
+ function addEmoji() {
+    if (navigator.userAgent.indexOf('Mac OS X') != -1) {
+      window.location.hash = "🌨☃️🌨";
+    }
+  };
+  addEmoji();
+	</script>
+</body>
+
+</html>

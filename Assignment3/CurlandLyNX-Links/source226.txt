@@ -1,0 +1,874 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script type="text/javascript"> var ucoz_prerollenable = 1; 		
+if(ucoz_prerollenable){
+	if (typeof jQuery == 'undefined') {
+		document.write('<scr' + 'ipt type="text/javascript" src="http://s101.ucoz.net/src/jquery-1.7.2.js"></scr' + 'ipt>');
+	}
+	if (typeof _uWnd == 'undefined') {
+		document.write('<scr' + 'ipt type="text/javascript" src="http://s101.ucoz.net/src/uwnd.js"></scr' + 'ipt>');
+	}	
+	function UranCooks1() {
+		var urantimest = Date.now() / 1000 | 0;
+		document.cookie = 'uaoffc1=' + urantimest + ';domain=.' + window.location.host + ';path=/';
+	}	
+	var uPreroll = {		
+		ad_duration: 30,
+		top_label: 'реклама',
+		country : 'us',	
+		isEnglish: function(){
+			return (['us','ca','gb','au','nz','ie','sg','za','jm','hk','in','ph','pk','lt','lv','ee'].indexOf(uPreroll.country)>=0);
+
+		},	
+		geo: {
+			city: "Norfolk",
+			region: "Virginia"
+		},			
+		themes: [		
+			{
+				header:'<div id="popup4"><div class="close_popup"><div class="rotate_left"><span></span></div><div class="rotate_right"><span></span></div></div><div class="title_popup"><span class="r_label_top">%s</span><span class="counter"></span></div>',
+				footer: '<div class="bottom_popup"><div class="bottom_text"><p>Не хотите видеть рекламы вообще?<span>Скачайте браузер без рекламы</span></p></div><div class="logo"><a href="javascript://" class="download_link" target="_blank" id="uran_download_link_1">Cкачать URAN</a><a href="javascript://" class="download_img" id="uran_download_link_2"><img src="/.s/img/bnr/uran.jpg"></a></div><div class="clr"></div></div></div></div>'
+			},
+			{
+				header:'<div class="modal"><div class="toppanel"><div id="popup4"><div class="close_popup"><div class="rotate_left"><span></span></div><div class="rotate_right"><span></span></div></div><div class="title_popup"><span class="r_label_top">%s</span><span class="counter"></span></div></div></div>',
+				footer: '<div class="modal_text" id="wrapper_uran_footer"><div><span class="modal_head">Не хотите видеть рекламы вообще?</span><span>Скачайте браузер без рекламы</span></div><div class="modal_text_right"><a href="" target="_blank" class="modal_button">Cкачать URAN</a><a href="" target="_blank" class="modal_icon"><img src="/.s/img/bnr/uran_logo.png"></a></div></div></div>'
+			},	
+			{
+				header:'<div class="modal modal_2"><div class="toppanel"><div id="popup4"><div class="close_popup"><div class="rotate_left"><span></span></div><div class="rotate_right"><span></span></div></div><div class="title_popup"><span class="r_label_top">%s</span><span class="counter"></span></div></div></div>',
+				footer: '<div class="modal_text"><div><span class="modal_head">Не хотите видеть рекламы вообще?</span><span>Скачайте браузер без рекламы</span></div><div class="modal_text_right"><a href="" target="_blank" class="modal_button">Cкачать URAN</a><a href="" class="modal_icon"><img src="/.s/img/bnr/uran_logo.png"></a></div></div></div>'
+			},			
+			{
+				header:'<div class="modal modal_4"><div class="toppanel"><div id="popup4"><div class="close_popup"><div class="rotate_left"><span></span></div><div class="rotate_right"><span></span></div></div><div class="title_popup"><span class="r_label_top">%s</span><span class="counter"></span></div></div></div>',
+				footer: '<div class="modal_text"><div><span class="modal_head">Нужен бизнес-сайт?</span><span>Решения для бизнеса на любой вкус и кошелек</span></div><div class="modal_buttons"><a href="" target="_blank" class="modal_button">Создать сайт</a><a href="" target="_blank" class="modal_logo"><img src="/.s/img/bnr/ukit_logo.png"></a></div>'
+			},			
+			{
+				header:'<div class="modal modal_3"><div class="toppanel"><div id="popup4"><div class="close_popup"><div class="rotate_left"><span></span></div><div class="rotate_right"><span></span></div></div><div class="title_popup"><span class="r_label_top">%s</span><span class="counter"></span></div></div></div>',
+				footer: '<div class="modal_text"><div><span class="modal_head">Нужен сайт-визитка?</span><span>Создайте свой бизнес-сайт сами!</span></div><div class="modal_text_right"><a href="" target="_blank" class="modal_button">Создать сайт</a></div>'
+			}
+
+		
+		],
+		ga_var_ukit_theme: [
+			{
+				theme: 0,
+				url: false,			
+				track: 'uran_design_violet'
+			},
+			{
+				theme: 1,
+				url: false,			
+				track: 'uran_design_darkblue'
+			},
+			{
+				theme: 2,
+				url: false,			
+				track: 'uran_design_blue'
+			}			
+		],
+		ga_var_landing: [
+			{
+				theme: 1,
+				url:false,
+				track: 'lpnone'
+			},
+			{
+				theme: 1,
+				url: 'http://uran-browser.ucoz.com/',
+				track: 'lp1'
+			},
+			{
+				theme: 1,
+				url:'http://uran-browser.ucoz.com/index/0-2',
+				track: 'lp2'
+			},
+			{
+				theme: 1,
+				url:'http://uran-browser.ucoz.com/index/0-3',
+				track: 'lp3'
+			},
+			{
+				theme: 1,
+				url:'http://uran-browser.ucoz.com/index/0-4',
+				track: 'lp4'
+			}
+		],
+		ga_variations: [
+			{
+				theme: 0,
+				url:false,
+				track: '0_uran_violet_lpnone'
+			},
+			{
+				theme: 0,
+				url:'http://uran-browser.ucoz.com/',
+				track: '1_uran_violet_lp1'
+			},
+			{
+				theme: 0,
+				url:'http://uran-browser.ucoz.com/index/0-2',
+				track: '2_uran_violet_lp2'
+			},
+			{
+				theme: 0,
+				url:'http://uran-browser.ucoz.com/index/0-3',
+				track: '3_uran_violet_lp3'
+			},
+			{
+				theme: 0,
+				url:'http://uran-browser.ucoz.com/index/0-4',
+				track: '4_uran_violet_lp4'
+			},
+			{
+				theme: 1,
+				url:false,
+				track: '5_uran_darkblue_lpnone'
+			},
+			{
+				theme: 1,
+				url:'http://uran-browser.ucoz.com/',
+				track: '6_uran_darkblue_lp1'
+			},
+			{
+				theme: 1,
+				url:'http://uran-browser.ucoz.com/index/0-2',
+				track: '7_uran_darkblue_lp2'
+			},
+			{
+				theme: 1,
+				url:'http://uran-browser.ucoz.com/index/0-3',
+				track: '8_uran_darkblue_lp3'
+			},
+			{
+				theme: 1,
+				url:'http://uran-browser.ucoz.com/index/0-4',
+				track: '9_uran_darkblue_lp4'
+			},
+			{
+				theme: 2,
+				url:false,
+				track: '10_uran_blue_lpnone'
+			},
+			{
+				theme: 2,
+				url:'http://uran-browser.ucoz.com/',
+				track: '11_uran_blue_lp1'
+			},
+			{
+				theme: 2,
+				url:'http://uran-browser.ucoz.com/index/0-2',
+				track: '12_uran_blue_lp2'
+			},
+			{
+				theme: 2,
+				url:'http://uran-browser.ucoz.com/index/0-3',
+				track: '13_uran_blue_lp3'
+			},
+			{
+				theme: 2,
+				url:'http://uran-browser.ucoz.com/index/0-4',
+				track: '14_uran_blue_lp4'
+			},
+			{
+				theme: 3,
+				url:'http://business.ukit.com/hit1.html',
+				track: '15_ukit_blue_lp_hit1'
+
+			},
+			{
+				theme: 3,
+				url:'http://business.ukit.com/enterprise/1.html',
+				track: '16_ukit_blue_lp_enterprise'
+			}
+		],	
+		show_preroll: function(){},	
+		user_agent: '',				
+		ukit_data : {
+			getLink: function(lang, server){				
+				var idx = Math.floor(Math.random()*this[server][lang].length);  				
+				return this[server][lang][idx];
+			},
+			getUkitWrapperLink: function(){				
+				var idx = Math.floor(Math.random()*this['ukitWrapperLinks'].length);  				
+				return this['ukitWrapperLinks'][idx];
+			},
+			ru:{
+				text: 'Попробовать на www.ukit.com',	
+				vlink: '/.s/flash/bnr/TRY4-HD.mp4'
+			},
+			en: {				
+				text: 'Try it on www.ukit.com',				
+				vlink: '/.s/flash/bnr/ukit-eng-popup-HD.mp4'
+			},
+			ucoz:{
+				ru: [['http://business.ukit.com/hit', 'http://business.ukit.com/hit1.html']],
+				en: [['http://en-business.ukit.com/v1', 'http://en-business.ukit.com/v2'],
+					['http://business-en.ukit.com/index/v1/0-5', 'http://business-en.ukit.com/index/v2/0-6']]
+			},
+			narod:{
+				ru: [['http://business.ukit.com/hit3.html', 'http://business.ukit.com/hit4.html']],
+				en: [['http://en-business.ukit.com/v1', 'http://en-business.ukit.com/v2'],
+					['http://business-en.ukit.com/index/v1/0-5', 'http://business-en.ukit.com/index/v2/0-6']],
+			},
+			ukitWrapperLinks:[
+				'http://uhome.ucoz.net/v1'
+			],
+			duration:20
+		},
+		counters: {
+			advmaker_ucoz_ru: 'preroll_advmaker',
+			advmaker_narod_ru: 'preroll_advmaker_narod',			
+			advmaker_ucoz_ua: 'preroll_advmaker_sng_ucoz',
+			advmaker_narod_ua: 'preroll_advmaker_sng_narod', 			
+			advmaker_ucoz_sng: 'preroll_advmaker_sng_ucoz',
+			advmaker_narod_sng: 'preroll_advmaker_sng_narod', 
+
+			winwideo_ucoz_ru: 'preroll_winwideo_sts_ucoz',
+			winwideo_narod_ru:'preroll_winwideo_sts_narod',
+			winwideo_ucoz_ua: 'preroll_winwideo_sts_ucoz',
+			winwideo_narod_ua: 'preroll_winwideo_sts_narod',
+			winwideo_ucoz_sng: 'preroll_winwideo_sts_ucoz',
+			winwideo_narod_sng: 'preroll_winwideo_sts_narod',
+
+			adwideo_ucoz_ru: 'preroll_adwideo_sts_ucoz',
+			adwideo_narod_ru:'preroll_adwideo_sts_narod',
+
+			ukit_ucoz_ru: 'preroll_ukit1',
+			ukit_ucoz_ua: 'preroll_ukit1',	
+			ukit_ucoz_sng: 'preroll_ukit1',				
+
+			ukit_narod_ru: 'preroll_narod_ukit1',
+			ukit_narod_ua: 'preroll_narod_ukit1',	
+			ukit_narod_sng: 'preroll_narod_ukit1',
+			ukit_narod_en: 'preroll_narod_ukiten1',
+			ukit_ucoz_en: 'preroll_ukiten1',
+
+			pladform_ucoz_ru: 'preroll_pladform_ucoz',
+			pladform_narod_ru: 'preroll_pladform_narod',
+			pladform_ucoz_ua: 'preroll_pladform_ucoz_sng',
+			pladform_narod_ua: 'preroll_pladform_narod_sng',
+			pladform_ucoz_sng: 'preroll_pladform_ucoz_sng',
+			pladform_narod_sng: 'preroll_pladform_narod_sng'
+		},
+		site_type: 'ucoz',
+		uran_wrap_rate: 0.5,
+		isUcoz: function(){
+			return (uPreroll.site_type=='ucoz');
+		},
+		getRegion: function(){
+			switch (uPreroll.country){
+				case 'ru': 
+				case 'md':
+				case 'am':
+				case 'ge':   
+				return 'ru';				
+				case 'ua': return 'ua';
+				case 'az':
+				case 'by':
+				case 'kz':
+				case 'kg':
+				case 'tj':
+				case 'uz':
+				case 'tm': return 'sng';
+				default: return 'en'
+			};
+		},
+
+		setCounter: function(name, finalName){
+			if(!finalName){
+				name = uPreroll.counters[name+'_'+uPreroll.site_type+'_'+uPreroll.getRegion()];	
+			}		
+			new Image().src = "//counter.yadro.ru/hit;"+name+"?r"+
+				escape(document.referrer)+((typeof(screen)=="undefined")?"":
+				";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+				screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+				";"+Math.random();			
+		},
+		setUranLink: function(){		
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','uranga');  
+        uranga('create', 'UA-45896238-1', 'auto', {'name': 'uranTracker','cookieName': '_uranga'});  
+        uranga('uranTracker.set', 'referrer', 'http://'+document.location.hostname);
+        uranga('uranTracker.send', 'pageview', '/uran_install_show_'+uPreroll.type);               
+        $('.bottom_popup:not(a), #uran_download_link_1, #uran_download_link_2').on('click', function() {          
+           var clientId;        
+           uranga('uranTracker.send', 'pageview', {'page':'/uran_install_type_'+uPreroll.type, 
+          'hitCallback': function(){
+            uranga(function() {
+                clientId =  uranga.getByName('uranTracker').get('clientId');
+              });
+              $('#urangacid').attr('value', clientId);
+              $("#geturaninstaller").submit();
+          }
+        });
+    });        
+		},
+		set_close_button: function(c_right, c_bottom, b_right, b_bottom){
+			document.write("<style>#preroll_counter{width: 40px; height: 40px; position: fixed; text-align: center; right: "+c_right+"px; bottom: "+c_bottom+"px; z-index: 1000000;} #preroll_close_btn {display: none; width: 40px; height: 40px; position: fixed; right: "+b_right+"px; bottom: "+b_bottom+"px; z-index: 1000000; background-color:transparent;background-image:url(data:image/png;base64,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);background-size:95% 95%;background-repeat:no-repeat;background-position:center;opacity:1}</style>");
+			document.write("<img src='' /><div id='preroll_counter'></div><a id='preroll_close_btn' href='javascript://' onclick='javascript: uPreroll.close_preroll_banners();' class='ucoz-ppp-close-popup'></a>");				
+		},		
+		close_preroll_banners: function(){			
+			$('#uPreroll-holder, #uPreroll-wrapper, #preroll_close_btn, .myWinGrid').remove();				
+			if(this.isEnglish()){
+				UranCooks1();
+			}				
+		},
+
+		dummy : {
+			ukit: {
+				rate: 1 ,
+				show : function(containerid) {
+					$('.myWinGrid , #uPreroll-holder').remove();
+					$('#uPreroll-wrapper').html('');
+					uPreroll.ukit_data.duration = 0 ;
+					uPreroll.ads.ukit();
+				}
+			} ,
+			banner : {
+				rate: 0 ,
+				show : function(containerid) {
+					$('.close_popup , #preroll_close_btn').click() ;
+					document.getElementById('bannerY'+ucoz_rndid).value=400;
+					document.getElementById('bannerX'+ucoz_rndid).value=240;
+					$('#hideAdBlock240x400').detach();
+					resizeDiv();
+					uShowRuAdBanner() ;
+				}
+			}
+		},
+		dummy_video : function(containerid){
+			var rnd = Math.random() ;
+			for(key in uPreroll.dummy) {
+				if(rnd < uPreroll.dummy[key].rate) {
+					uPreroll.dummy[key].show(containerid);
+					break ;
+				} else {
+					rnd -= uPreroll.dummy[key].rate ;
+				}
+			}
+		} ,
+		closeTimerExpired : false ,
+		closeCounter: false,
+		setCloseCounter: function(){
+			var cid = '.counter';
+			var wid = '#uPreroll-wrapper';
+			var tmr = uPreroll.ad_duration;
+			$(cid).html(tmr);
+			uPreroll.closeCounter = setInterval(function() {
+				$(cid).html(tmr--);
+				if (tmr==-1){
+					$(wid + ' .close_popup').addClass('appeared');
+					$(cid).css('display','none');
+					clearInterval(uPreroll.closeCounter);
+					uPreroll.closeTimerExpired = true ;
+				}
+			}, 1000);
+
+			$(wid + ' .close_popup').click(function(){
+				uPreroll.close_preroll_banners();
+			});
+
+		},
+		add_close_events: function(tmr){
+			var uPreroll_count = setInterval(function () {
+					$("#preroll_counter").html(tmr--);	
+					if (tmr==-1){
+						$("#preroll_close_btn").show();	
+						$("#preroll_counter").hide();	
+						clearInterval(uPreroll_count);					
+					}
+				}, 1000);				
+			
+				$("#preroll_close_btn").click(function(){				
+					uPreroll.close_preroll_banners();
+				});
+
+		},
+		init_gae: function(){
+		    if(uPreroll.random_num < uPreroll.uran_wrap_rate){
+		        function gaeuranwraponload(event) {
+		            //var experimentid = "HFjPvEF9QYyr6nZ-lFqjMA"; //all
+		            //var experimentid = "2rq77eKqQLWF6aidxQW50w"; //design
+		            var experimentid = "o4sJN8YWTbaosZzwch_3mQ";  //landing
+		            $.getScript("//www.google-analytics.com/cx/api.js?experiment="+experimentid, function(){
+		                var gavariation = cxApi.chooseVariation();
+		                var ga_idx = uPreroll.ga_var_landing[gavariation];
+		                $("#uPreroll-wrapper").html(uPreroll.themes[ga_idx.theme].header.replace("%s", uPreroll.top_label) + '<div class="uPreroll-dummy" ></div>'+ uPreroll.themes[ga_idx.theme].footer);
+		                $("#uPreroll-holder").show();
+		                uPreroll.setCloseCounter();
+		                $('.close_popup').click(function(){
+		                    uPreroll.close_preroll_banners();
+		                });
+
+		                if(ga_idx.url){
+		                    $('#uPreroll-wrapper .modal_button, #uPreroll-wrapper .modal_icon, #uPreroll-wrapper .download_link, #uPreroll-wrapper .download_img').attr('href', ga_idx.url);
+		                } else {
+		                    $('#uPreroll-wrapper .modal_button, #uPreroll-wrapper .modal_icon').removeAttr('target').removeAttr('href');
+		                }
+		                console.log(gavariation);
+		                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		                })(window,document,'script','//www.google-analytics.com/analytics.js','uranga');
+		                uranga('create', 'UA-45896238-1', 'auto', {'name': 'uranTracker','cookieName': '_uranga'});
+		                uranga('uranTracker.set', 'referrer', 'http://'+document.location.hostname);
+		                uranga('uranTracker.send', 'pageview', '/uran_show_wrap_' + ga_idx.track);
+		                $('#wrapper_uran_footer a').click(function(e){
+		                    e.stopPropagation();
+		                })
+		                /*$('#wrapper_uran_footer:not(a), .modal_button:not(a)').on('click', function(e) {
+		                    uranga('uranTracker.send', 'pageview', '/uran_click_wrap_' + ga_idx.track);
+		                });*/
+		                var clickfunction = function(e) {
+		                    var clientId;
+		                    if(ga_idx.url && this.id == 'wrapper_uran_footer'){
+		                        window.open(ga_idx.url,'_blank');
+		                    }
+		                    uranga('uranTracker.send', 'pageview', {
+		                        'page':'/uran_click_wrap_' + ga_idx.track,
+		                        'hitCallback': function() {
+		                            if(!ga_idx.url){
+		                                uranga(function() {
+		                                    clientId =  uranga.getByName('uranTracker').get('clientId');
+		                                });
+		                                $('#urangacid').attr('value', clientId);
+		                                $("#geturaninstaller").submit();
+		                            }
+		                        }
+		                    });
+
+		                    //return false;
+		                } ;
+		                $('#wrapper_uran_footer:not(a), .modal_button, .modal_icon, .download_link, .download_img').each(function(index , elem){
+		                    elem.addEventListener('click' , clickfunction);
+		                })
+
+		                //experiment end
+		            });
+		        }
+		        if(document.readyState == 'loading')
+		        document.addEventListener("DOMContentLoaded", function (event) {
+		        gaeuranwraponload();
+		        });
+		        else gaeuranwraponload();
+
+		    } else { //ukit theme
+		        $("#uPreroll-wrapper").html(uPreroll.themes[3].header.replace("%s", uPreroll.top_label) + '<div class="uPreroll-dummy" ></div>'+ uPreroll.themes[3].footer);
+		        $("#uPreroll-holder").show();
+
+		        var lndg_link = uPreroll.ukit_data.getUkitWrapperLink();
+
+		        uPreroll.setCounter('ukit_video_wrap',true);
+		        uPreroll.setCloseCounter();
+		        $('.close_popup').click(function(){
+		            uPreroll.close_preroll_banners();
+		        });
+
+		        $('.modal_text a').click(function(e){
+		            e.stopPropagation();
+		        });
+
+		        $('.modal_text').click(function(e) {
+		            console.log(e.currentTarget);
+		            if($(this).hasClass('modal_text')){
+		                window.open(lndg_link,'_blank');
+		            }
+		        });
+		        $('#uPreroll-wrapper .modal_button, #uPreroll-wrapper .modal_logo, #uPreroll-wrapper .download_link, #uPreroll-wrapper .download_img').attr('href', lndg_link);
+
+				if(typeof uPreroll.ukt_wrap_text1 == 'string') $('#dV'+ucoz_rndid+' .modal_head').text(uPreroll.ukt_wrap_text1);
+				if(typeof uPreroll.ukt_wrap_text2 == 'string') $('#dV'+ucoz_rndid+' .modal_head').parent().children('span:not(.modal_head)').text(uPreroll.ukt_wrap_text2);
+				if(typeof uPreroll.ukt_wrap_text3 == 'string') $('#dV'+ucoz_rndid+' .modal_button').text(uPreroll.ukt_wrap_text3);
+				if(typeof uPreroll.ukt_wrap_removelogo != "undefined" && uPreroll.ukt_wrap_removelogo) {
+				    $('#dV'+ucoz_rndid+' .modal_logo').remove();
+				    $('#dV'+ucoz_rndid+' .modal_buttons').css('text-align','right');
+				}
+				if(typeof uPreroll.ukt_wrap_onclick == 'function') $('#dV'+ucoz_rndid+' .modal_text , #dV'+ucoz_rndid+' .modal_text a').click(uPreroll.ukt_wrap_onclick);
+		    }
+		},
+		gads: {},
+		ads:{			
+			ukit: function(){
+				var printdiv ;
+				if(typeof(ucoz_rndid) != 'undefined') printdiv = document.getElementById('mainadsdv' + ucoz_rndid) ;
+				else printdiv = document.body ;
+				printdiv.innerHTML += ('<div class="myWinGrid" style="width: 100%; height: 100%; z-index: 21003; position: fixed; left: 0px; top: 0px; opacity: 1; background: rgba(0, 0, 0, 0.6);"></div>');
+				printdiv.innerHTML += ("<style>#preroll_counter{width: 40px; height: 40px; position: fixed; left: 50%; top: 50%; text-align: center; margin: -300px 0 0 360px; z-index: 99999999999; color: #000;} #preroll_close_btn {display: none; width: 40px; height: 40px; position: fixed; left: 50%; top: 50%; margin: -300px 0 0 360px; z-index: 99999999999; background-color:transparent;background-image:url(data:image/png;base64,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);background-size:95% 95%;background-repeat:no-repeat;background-position:center;opacity:1}</style><div id='preroll_counter'></div><a id='preroll_close_btn' href='javascript://' onclick='javascript: uPreroll.close_preroll_banners();' class='ucoz-ppp-close-popup'></a>");
+				printdiv.innerHTML += ('<style>.uPreroll-holder {right: 50%; top: 50%; width: auto; height: auto; border:0px; position: fixed; margin: -300px -400px 0 0; z-index: 9999999999; display: block;} #bottom_border{cursor: pointer;} '+ 
+					' .ucoz-ppp-link {margin-top: -3px; background: #2b8b67 !important; text-align: center !important; color: white !important; font-size: 20px !important; padding-top: 5px; text-decoration: none !important; width:'
+					+ ' 100%;height: 32px;cursor: pointer;display: block;} .ucoz-ppp-link:hover {background: none;} .ucoz-ppp-video-wrapper video{width: 850px;height:auto;left:0;top:0;cursor:pointer} </style>');
+
+				printdiv.innerHTML += ("<style>.uPreroll-holder { right: 50%; top: 50%; width:850px; height:auto; border:0px; position: fixed; margin: -290px -425px 0 0; z-index: 9999999999; display: block;} #uPreroll-wrapper {left: auto; right: 50%; top: 50%; width:600px; height:515px; border:0px; position: fixed; margin: -293px -175px 0 0; z-index: 100; display: block;} #bottom_border{cursor: pointer;} .uPreroll-dummy{width: 850px; height: 518px}</style>");
+				
+				var lang_code = uPreroll.isEnglish()?'en':'ru';
+				var newIframe = false;				
+				var landing_link = uPreroll.ukit_data.getLink(lang_code, (uPreroll.isUcoz()?'ucoz':'narod'));
+				var lang_data = uPreroll.ukit_data[lang_code];
+				printdiv.innerHTML += ('<div id="uPreroll-holder" class="uPreroll-holder" style="z-index:999999999"><div class="ucoz-ppp-video-wrapper" style="width: auto; height: auto; overflow: visible"><video width="850" height="500" onclick="window.open(\''+landing_link[0]+'\', \'_blank\');" src="'+lang_data.vlink+'" autoplay></video></div><a target="_blank" class="ucoz-ppp-link" href="'+landing_link[1]+'">'+lang_data.text+'</a></div>');
+
+				function ukitonload(){
+					uPreroll.add_close_events(uPreroll.ukit_data.duration);	
+					uPreroll.setCounter('ukit');
+					if(uPreroll.isEnglish()){
+						setTimeout(function(){UranCooks1();}, 7000);
+					}
+				}
+				if(document.readyState == 'loading')
+					document.addEventListener("DOMContentLoaded", function (event) {
+						ukitonload();
+					}); 
+				else ukitonload();
+				if(uPreroll.country == 'ru'){
+					uPreroll.uran_wrap_rate = 1;
+					uPreroll.init_gae() ;
+					document.getElementsByClassName('myWinGrid')[0].remove();
+					printdiv.innerHTML += ('<style>.toppanel{display:none;}</style>');
+				}
+				document.getElementById('preroll_close_btn').style.margin = '-280px 0 0 370px';
+				document.getElementById('preroll_counter').style.margin = '-280px 0 0 370px';
+			}
+		}
+	}
+	
+uPreroll.random_num = Math.random();		
+uPreroll.unique = (window.uPreroll_showed !== undefined && !uPreroll_showed);
+document.write('<link type="text/css" rel="StyleSheet" href="http://s101.ucoz.net/bnr/wrappers/wrapper_video.css" /> <form method="post" id="geturaninstaller" action="http://uranupdates.com/installers/UranSetup.exe"><input type="hidden" id="urangacid" name="gacid" value=""></form><div id="uPreroll-wrapper"></div>');
+if(uPreroll.isEnglish()){
+	document.write('<scr'+'ipt type="text/javascript" src="http://c.morgdm.ru/?src=ucfs"></scr'+'ipt>');
+}
+function uPreroll_setcookie(){
+	var s = document.createElement('script');
+	s.src="http://s101.ucoz.net/cgi/uutils.fcg?a=get_preroll_cookie&aa=1&r=0.315389086984673" ;
+	document.head.appendChild(s);
+}
+
+} </script><div><script type="text/javascript">new Image().src = "http://counter.yadro.ru/hit;ucoznet?r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";"+Math.random();</script></div><div><script type="text/javascript">new Image().src = "http://counter.yadro.ru/hit;ucoz_total_category_tech?r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";"+Math.random();</script></div><html>
+<head>
+<title>ìммσгταlίтγ &#124;&#124; Simple Site OpenSource - Main page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="RtxbGIpEJQB6a7P63AW1FuL+LzfYgomyFHBpfT+3JFg=" name="verify-v1"><link type="text/css" rel="StyleSheet" href="http://s101.ucoz.net/src/css/878.css" />
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-12140414-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics --><script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'A-12140414-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+<link type="text/css" rel="StyleSheet" href="http://s101.ucoz.net/src/base.css" />
+
+<link type="text/css" rel="StyleSheet" href="http://s101.ucoz.net/src/layer6.css" />
+<script type="text/javascript" src="http://s101.ucoz.net/src/jquery-1.7.2.js"></script>
+<script type="text/javascript">window.ulb = {photoPage: "Go to the page with the photo",closeBtn: "Close", error: "The requested content can&#39;t be uploaded&lt;br/&gt;Please try again later.", next: "Next", prev: "Previous", btnPlay: "Start slideshow", btnToggle: "Change size"}</script>
+<link href="http://s101.ucoz.net/src/ulightbox/ulightbox.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="http://s101.ucoz.net/src/ulightbox/ulightbox.js"></script>
+<script type="text/javascript" src="http://s101.ucoz.net/src/uwnd.js?2"></script><style type="text/css">.UhideBlock {display:none}</style><link type="text/css" rel="StyleSheet" href="http://s101.ucoz.net/src/gstoolbar2/css/style.css" /><link type="text/css" rel="StyleSheet" href="http://s101.ucoz.net/src/gstoolbar2/css/share.css" /><script type="text/javascript" src="http://s101.ucoz.net/src/gstoolbar2/js/tool.js"></script><script type="text/javascript">//------------UCOZ-JS-CODE-----------
+document.write("\n\n<div id=\"utbAllToolbar\" class=\" navbar-share\"><div class=\"showToolbarButton\">\n<i id=\"buttonShowToolbar\" data-toggle=\"tooltip\" title=\"Show Social Bar\" class=\"toolMenuIcon\"></i>\n</div>\n<div class=\"u-container\" id=\"toolbarMainContainer\">\n<div class=\"navbar\">\n<div class=\"navbar-inner utbToolbarInner\">\n<a id=\"utbTitle\" data-toggle=\"tooltip\" title=\"To main page\" class=\"brand\" href=\"http://immortal.ucoz.com/\"><img width=\"24\" height=\"24\" src=\"http://s101.ucoz.net/img/toolbar_favicon.png?cur_time\" /></a>\n<ul id=\"utbMenuContainer\" class=\"u-nav\">\n<li class=\"divider-vertical\"></li>\n\n        <li class=\"utbMenuItem\">\n	        <div id=\"fbLike_s\" data-counter=\"http://graph.facebook.com/?id=http://immortal.ucoz.com/&callback=?\" data-href=\"https://www.facebook.com/sharer/sharer.php?u=http://immortal.ucoz.com/\" class=\"utbWidgetContainer utbShareButtons\">\n	            <span id=\"btnFacebook\" class=\"toolMenuIcon\"></span>\n	            <span id=\"fbCounter\" class=\"utbShareCounter\"></span>\n	        </div>\n	    </li>\n\n        <script>\n        $(function(){\n        	var page_title=encodeURIComponent($(\"title\").text());\n        	$(\"#twShare_s\").attr(\'data-href\', $(\"#twShare_s\").attr(\'data-href\')+\"&text=\"+page_title);\n        });\n        \x3c/script>\n        <li class=\"utbMenuItem\">\n        <div id=\"twShare_s\" data-counter=\"http://urls.api.twitter.com/1/urls/count.json?url=http://immortal.ucoz.com/&callback=?\" data-href=\"https://twitter.com/intent/tweet?source=webclient&url=http://immortal.ucoz.com/\" class=\"utbWidgetContainer utbShareButtons\"\">\n            <span id=\"btnTwitter\" class=\"toolMenuIcon\"></span>\n            <span id=\"twCounter\" class=\"utbShareCounter\"></span>\n        </div>\n    	</li>\n<li class=\"utbMenuItem\">\n	        <div id=\"gPlus_s\" data-counter=\"http://immortal.ucoz.com//index/98\" data-href=\"https://plus.google.com/share?url=http://immortal.ucoz.com/\" class=\"utbWidgetContainer utbShareButtons\">\n	            <span id=\"btnGoogle\" class=\"toolMenuIcon\"></span>\n	            <span id=\"gpCounter\" class=\"utbShareCounter\"></span>\n	        </div>\n	    </li>\n\n\n\n<li class=\"utbMenuItem\">\n<div id=\"lnLike_s\" data-counter=\"http://linkedin.com/countserv/count/share?url=http://immortal.ucoz.com/&format=jsonp&callback=?\" data-href=\"http://www.linkedin.com/cws/share?url=http://immortal.ucoz.com/\" class=\"utbWidgetContainer utbShareButtons\">\n<span id=\"btnLn\" class=\"toolMenuIcon\"></span>\n<span id=\"lnCounter\" class=\"utbShareCounter\"></span>\n</div>\n</li>\n\n\n\n<li class=\"utbMenuItem toolbarMmButton\">\n<div id=\"mmLike_s\" data-counter=\"http://connect.mail.ru/share_count?callback=1&func=?&url_list=http://immortal.ucoz.com/\" data-href=\"http://connect.mail.ru/share?url=http://immortal.ucoz.com/\" class=\"utbWidgetContainer utbShareButtons\">\n<span id=\"btnMm\" class=\"toolMenuIcon\"></span>\n<span id=\"mmCounter\" class=\"utbShareCounter\"></span>\n</div>\n</li>\n\n</ul>\n<ul id=\"utbToolsContainer\" class=\"u-nav\">\n\n<li class=\"divider-vertical\"></li>\n<li id=\"itemSearch\" class=\"utbMenuItem toolbarWidget\">\n<a class=\"toolMenuLink\" role=\"button\">\n<i id=\"btnSearch\" data-toggle=\"tooltip\" title=\"Search\" class=\"utbButtons toolMenuIcon pull-right\"></i>\n</a>\n\n<div class=\"utbWidgetContainer\">\n<input id=\"utbSearchField\" type=\"text\" class=\"navbar-search span2 utbSearchQuery searchField\" placeholder=\"Search\">\n<span id=\"utbSearchIndicator\"></span>\n <div class=\"searchRes bottom\" id=\"utbSearchResult\"><div class=\"arrow\"></div><h3 class=\"searchRes-title\">You searched for: <span id=\"searchTerm\"></span></h3><div class=\"searchRes-content\"><ul id=\"utbSearchCnt\"></ul></div>\n </div>\n</div>\n</li>\n\n<li class=\"divider-vertical\"></li>\n<li id=\"itemFriends\" class=\"utbMenuItem toolbarWidget\">\n<a class=\"toolMenuLink\" role=\"button\">\n<i id=\"btnFriends\" data-toggle=\"tooltip\" title=\"Site friends\" class=\"utbButtons toolMenuIcon pull-right\"></i>\n</a>\n\n<div class=\"utbWidgetContainer\">\n<label class=\"linksLabel\">Site friends</label>\n<div id=\"utbFriendsContainer\" class=\"resContainer\">\n<ul><ul class=\"uz\">\n<li class=\"menus\"><a href=\"http://www.ucoz.com/\" target=\"_blank\" class=\"noun\">Register your site</a></li></ul>\n</ul>\n<script type=\"text/javascript\">\n		var elem = document.getElementById(\'utbFriendsContainer\');\n		if (elem.getElementsByTagName(\'li\').length < 6){1\n			elem.style.setProperty(\'height\', \'auto\', \'important\');	\n		} else {\n			elem.style.removeProperty(\'height\');\n		}\n		\n\x3c/script>\n</div>\n</div>\n</li>\n<li class=\"divider-vertical\"></li>\n<li class=\"utbMenuItem \">\n<span class=\"rdbWrapper\" style=\"display: none;\"></span>\n<a class=\"toolMenuLink\">\n<i id=\"btnReadNow\" data-toggle=\"tooltip\" title=\"Read\" class=\"utbButtons toolMenuIcon\"></i>\n</a>\n</li>\n\n<li class=\"utbMenuItem\">\n<span id=\"readLater\" style=\"display: none;\"></span>\n<a class=\"toolMenuLink\">\n<i id=\"btnReadLater\" data-toggle=\"tooltip\" title=\"Add to bookmarks\" class=\"utbButtons toolMenuIcon\"></i>\n</a>\n</li><li class=\"divider-vertical\"></li>\n</ul>\n<ul class=\"u-nav pull-right\">\n<li class=\"utbMenuItem\">\n<a class=\"toolMenuLink\">\n<i id=\"utbScroll\" class=\"rScroll utbButtons toolMenuIcon pull-right\"></i>\n</a>\n</li>\n<li class=\"utbMenuItem\">\n<a class=\"toolMenuLink\">\n<i id=\"btnSlideOut\" data-toggle=\"tooltip\" title=\"Hide Social Bar\" class=\"utbButtons toolMenuIcon pull-right\"></i>\n</a>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n")
+window.shareBar = true;
+$(document).ready(function () {var toolbarController = new tController('toolbarMainContainer');
+toolbarController.control();
+
+});
+tsigns = {
+nores: "Nothing was found... Try to search in",
+allRes: "All results",
+searchya: "yandex.com"
+}
+//------------UCOZ-JS-END-----------
+</script>
+
+<style type="text/css">div.showToolbarButton{display:none;}
+</style><script src="http://ucounter.ucoz.net/?src=ss2&data=Mjo5OjM4OjEwOTo1MzoyMjoyOTo5Mjo2ODo2NDozMTo0Mzo0OToyOTo2MjoxOjUxOjgwOjEyNDo3Nzo5NTo4Nzo4NjoxMDo5Mjo1ODozODo1NDo4OjEyOjExMTozOjExMzo3Mjo3NToyOjI6Mzg6Nzc6NTk6MTA5Ojg4OjgzOjkwOjEwMjoxOjExODo3Njo5MTo4Mzo3MTo5NTo3NDozMzozNjo1NDoxODoyODo1MTo3MDoxMjQ6MzE6MzE6NDoyMTo5NTo3NDozMzozNjo1NDo1Ojc6NjM6MTU6NTI6MjY6MjoyNw==&cb=0.354805977586341" async></script><script>new Image().src = "http://counter.yadro.ru/hit;ucoz_sscounter_1?r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";"+Math.random();</script>
+</head>
+<body>
+<div id="contanier">
+<div id="topBlock">
+<table id="topTable" align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody><script type="text/javascript" src="/widget/?2;15"></script><script type="text/javascript" src="/widget/?15;true|In%20the%20days%20before%20memory%2C%20there%20were%20the%20Immortals.%20We%20were%20with%20you%20then%2C%20and%20we%20are%20with%20you%20now."></script>
+<tr>
+<font size="1.5pt"><td class="dataBar">Thursday, 2016 February 18, 19:12:10<br>Welcome <b>Guest</b></td></tr></font>
+<tr>
+<td class="logoBar">
+<font color="#0000aa" size="1.5pt">You're Using:</font>
+<SCRIPT>
+<!-- Begin
+ document.write(', '+ navigator.appName + ' (<i>' + navigator.appCodeName + '</i>) v. ' + navigator.appVersion + '/' + navigator.platform)
+// End -->
+</SCRIPT>
+<br><font color="#0000aa" size="1.5pt">Version App:</font>
+
+<br><font color="#0000aa" size="1.5pt">You're IP:</font>
+128.82.4.182
+<h1>
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<td>
+<h1><img style="border: 7px outset; width: 117px; height: 123px;" alt="" src="http://immortal.ucoz.com/Images/07271.jpg" align="left" height="30" width="29"><span style="text-decoration: blink;">н`ραηтзгα нσмз ѕίтз</span></h1>
+</td></tr></tbody></table></h1></td></tr>
+<tr>
+<td class="navBar"><a href="http://immortal.ucoz.com/">Home</a>   | <a href="/index/3">Registration</a>  | <a href="javascript://" rel="nofollow" onclick="new _uWnd('LF',' ',-250,-110,{autosize:1,closeonesc:1,resize:1},{url:'/index/40'});return false;">Login</a> | <a href="http://immortal.ucoz.com/news/rss/">RSS</a></td></tr></tbody></table><!--/Header--></div>
+<div id="centerBlock"><!--Body-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="94%">
+<tbody>
+<tr>
+<td class="column" valign="top">
+<table class="boxTable" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="boxTitle"><b>Site menu</b></td></tr>
+<tr>
+<td class="boxContent">
+<div class="boxText">
+<!--U1AAMENU1Z--><div style="display:inline;" id="menuDiv"><!-- UcoZMenu --><UL class=uz>
+<LI class=m><A class=m href="http://immortal.ucoz.com/">Home</A> 
+<LI class=m><A class=m href="http://immortal.ucoz.com/index/0-2">About</A> 
+<LI class=m><A class=m href="http://immortal.ucoz.com/news/">News</A>
+<LI class=m><A class=m href="http://immortal.ucoz.com/load/">Download</A> 
+<LI class=m><A class=m href="http://immortal.ucoz.com/publ/">Articles</A> 
+<LI class=m><A class=m href="http://immortal.ucoz.com/blog/">Blog</A> 
+<LI class=m><A class=m href="http://immortal.ucoz.com/forum/">Forum</A> 
+<LI class=m><A class=m href="http://immortal.ucoz.com/photo/">Image</A> 
+<LI class=m><A class=m href="http://immortal.ucoz.com/gb/">Guestbook</A> 
+<LI class=m><A class=m href="http://immortal.ucoz.com/index/0-3">Contact Us</A> 
+<LI class=m><A class=m href="http://immortal.ucoz.com/dir/">Site Catalog</A> 
+<LI class=m><A class=m href="http://immortal.ucoz.com/faq/">FAQ</A> 
+<LI class=m><A class=m href="http://immortal.ucoz.com/board/">Ad Board</A>
+<LI class=m><A class=m href="http://immortal.ucoz.com/stuff/">Online games</A>
+</ul><!-- /UcoZMenu --></div><script type="text/javascript">try { var nl=document.getElementById('menuDiv').getElementsByTagName('a'); var found=-1; var url=document.location.href+'/'; var len=0; for (var i=0;i<nl.length;i++){ if (url.indexOf(nl[i].href)>=0){ if (found==-1 || len<nl[i].href.length){ found=i; len=nl[i].href.length; } } } if (found>=0){ nl[found].className='ma'; } } catch(e){}</script><!--/U1AAMENU1Z-->
+</div></td></tr></tbody></table>
+<table class="boxTable" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="boxTitle"><b>Our poll</b></td></tr>
+<tr>
+<td class="boxContent">
+<div class="boxText"><script type="text/javascript">function pollnow088(){document.getElementById('PlBtn088').disabled=true;_uPostForm('pollform088',{url:'/poll/',type:'POST'});}function polll088(id,i){_uPostForm('',{url:'/poll/'+id+'-1-'+i+'-088',type:'GET'});}</script><div id="pollBlock088"><form id="pollform088" onsubmit="pollnow088();return false;"><div class="pollBlock" style="font-family:Tahoma,Arial;">
+<div class="pollQue" style="font-size:8pt;padding-top:2px;text-align:left;"><b>Rate my site</b></div>
+<div class="pollAns" style="font-size:8pt;text-align:left;"><div class="answer"><input id="a0881" type="radio" name="answer" value="1" style="vertical-align:middle;" /> <label style="vertical-align:middle;display:inline;" for="a0881">Excellent</label></div>
+<div class="answer"><input id="a0882" type="radio" name="answer" value="2" style="vertical-align:middle;" /> <label style="vertical-align:middle;display:inline;" for="a0882">Good</label></div>
+<div class="answer"><input id="a0883" type="radio" name="answer" value="3" style="vertical-align:middle;" /> <label style="vertical-align:middle;display:inline;" for="a0883">Not bad</label></div>
+<div class="answer"><input id="a0884" type="radio" name="answer" value="4" style="vertical-align:middle;" /> <label style="vertical-align:middle;display:inline;" for="a0884">Bad</label></div>
+<div class="answer"><input id="a0885" type="radio" name="answer" value="5" style="vertical-align:middle;" /> <label style="vertical-align:middle;display:inline;" for="a0885">Awful</label></div>
+<div align="center" id="pollSbm088" class="pollButton"><input type="hidden" name="ssid" value="161162257733717511255" /><input class="pollBut" id="PlBtn088" type="submit" value="Rate" /></div>
+<input type="hidden" name="id" value="1" />
+<input type="hidden" name="a" value="1" /><input type="hidden" name="ajax" value="088" /></div>
+<div class="pollLnk" style="padding-top:4px;text-align:center;">[ <a style="font-size:7pt;" href="javascript://" rel="nofollow" onclick="new _uWnd('PollR','Poll results',660,200,{closeonesc:1,maxh:400},{url:'http://immortal.ucoz.com/poll/1'});return false;">Results</a> &middot; <a style="font-size:7pt;" href="javascript://" rel="nofollow" onclick="new _uWnd('PollA','Polls archive',660,250,{closeonesc:1,maxh:400,max:1,min:1},{url:'http://immortal.ucoz.com/poll/0-2'});return false;">Polls archive</a> ]</div>
+<div class="pollTot" style="padding-top:4px;font-size:7pt;text-align:center;">Total of answers: <b>51</b></div>
+</div>
+</form></div></div></td></tr></tbody></table><a href="http://s02.flagcounter.com/more/d6Lt"><img alt="free counters" src="http://s02.flagcounter.com/count/d6Lt/bg=FFFFFF/txt=000000/border=660000/columns=2/maxflags=40/viewers=0/labels=1/" border="0"></a>
+<script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/translatemypage.xml&up_source_language=en&w=160&h=60&title=&border=&output=js"> </script><a href="https://s3.amazonaws.com/com.alexa.toolbar/atbp/AazPw7/download/index.htm"><img src="http://www.alexa.com/tbplatform/images/promotebuttons/lightGreen/TB-banner3-2.jpg" alt="Get our toolbar!"></a><script type="text/javascript" src="/widget/?39;%2F.s%2Fflash%2Faskins%2Fgreen.png|%2FMusic%2FJoe_Satriani_-_Unstoppable_Momentum.mp3|%2FMusic%2FJoe_Satriani_-_Crushing_Day.mp3|%2FMusic%2FJoe_Satriani_-_Chords_Of_Life.mp3|%2FMusic%2FJoe_Satriani_-_Lies_And_Truths.mp3|%2FMusic%2FJoeSatriani_-_AlwaysWithMeAlwaysWithYou.mp3|%2FMusic%2FSteveVai_-_ForTheLoveOfGod.mp3|%2FMusic%2FMetallica_-_Orion.mp3"></script></td>
+<td style="padding: 0px 10px;" valign="top"><div id="nativeroll_video_cont" style="display:none;"></div><div style="padding-bottom: 3px; text-align: right;">[ <a href="">Add news entry</a> ]</div><div id="myGrid" style="display:none;"><div style="position:fixed;width:100%;text-align:center;padding-top:250px;"><img alt="" src="http://s101.ucoz.net/img/ma/m/i3.gif" border="0" width="220" height="19" /></div></div><script type="text/javascript">function spages(p, link){if (0){document.location.href=link.href; return;}try{document.getElementById('myGrid').style.cssText = 'position:absolute; z-index:8; top:0;left:0; display:block; background: url(\'http://s101.ucoz.net/img/fr/g.gif\'); text-align:center; width:'+document.body.scrollWidth+'px; height:'+document.body.scrollHeight+'px;';}catch(e){}_uPostForm('',{url:''+atob('aHR0cDovL2ltbW9ydGFsLnVjb3ouY29tL2luZGV4Lw==')+'0-0-0-'+p+'-'+Math.floor(Math.random()*1e8)});}</script><div id="allEntries"><div id="entryID74"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://immortal.ucoz.com/news/rsyslog/2013-12-18-74">rsyslog</a></div>
+<div class="eMessage" style="text-align:left;clear:both;padding-top:2px;padding-bottom:2px;"><font color="#32cd32">rsyslog 7.4.7 stable released!</font><br>Author: Rainer Gerhards<br>Rsyslog is an enhanced syslogd supporting, among others, MySQL, PostgreSQL, failover log destinations, syslog/tcp, fine grain output format control, high precision timestamps, queued operations and the ability to filter on any message part. It is quite compatible to stock sysklogd and can be used as a drop-in replacement. Its advanced features make it suitable for enterprise-class, encryption protected syslog relay chains while at the same time being very easy to setup for the novice user. And as we know what enterprise users really need, there are also rsyslog professional services available directly from the source!<br><br><u><font color="#0000cd">Changelog for 7.4.7 stable:</font></u><br><blockquote>√ bugfix: limiting queue disk space did not work properly<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » queue.maxdiskspace actually initializes queue.maxfilesize<br>&nbsp;&nbsp;&nbsp;&<!--"--><span class="entDots">... </span><span class="entryReadAll"><a class="entryReadAllLink" href="http://immortal.ucoz.com/news/rsyslog/2013-12-18-74">Read more &raquo;</a></span></div>
+<div class="eDetails" style="clear:both;">
+<div style="float:right">
+		<style type="text/css">
+			.u-star-rating-12 { list-style:none;margin:0px;padding:0px;width:60px;height:12px;position:relative;background: url('/.s/img/stars/3/12.png') top left repeat-x }
+			.u-star-rating-12 li{ padding:0px;margin:0px;float:left }
+			.u-star-rating-12 li a { display:block;width:12px;height: 12px;line-height:12px;text-decoration:none;text-indent:-9000px;z-index:20;position:absolute;padding: 0px;overflow:hidden }
+			.u-star-rating-12 li a:hover { background: url('/.s/img/stars/3/12.png') left center;z-index:2;left:0px;border:none }
+			.u-star-rating-12 a.u-one-star { left:0px }
+			.u-star-rating-12 a.u-one-star:hover { width:12px }
+			.u-star-rating-12 a.u-two-stars { left:12px }
+			.u-star-rating-12 a.u-two-stars:hover { width:24px }
+			.u-star-rating-12 a.u-three-stars { left:24px }
+			.u-star-rating-12 a.u-three-stars:hover { width:36px }
+			.u-star-rating-12 a.u-four-stars { left:36px }
+			.u-star-rating-12 a.u-four-stars:hover { width:48px }
+			.u-star-rating-12 a.u-five-stars { left:48px }
+			.u-star-rating-12 a.u-five-stars:hover { width:60px }
+			.u-star-rating-12 li.u-current-rating { top:0 !important; left:0 !important;margin:0 !important;padding:0 !important;outline:none;background: url('/.s/img/stars/3/12.png') left bottom;position: absolute;height:12px !important;line-height:12px !important;display:block;text-indent:-9000px;z-index:1 }
+		</style><script type="text/javascript">var usrarids={};function ustarrating(id,mark){if (!usrarids[id]){usrarids[id]=1;$(".u-star-li-"+id).hide();_uPostForm('',{type:'POST',url:'/news/',data:{'a':'65','id':id,'mark':mark,'mod':'news','ajax':'2'}});}}</script><ul id="uStarRating74" class="uStarRating74 u-star-rating-12" title="Rating: 0.0/0">
+<li class="u-current-rating uCurStarRating74" id="uCurStarRating74" style="width:0%;"></li></ul></div>
+
+<span class="e-reads"><span class="ed-title">Views:</span> <span class="ed-value">25563</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Added by:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://immortal.ucoz.com/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">immortal</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Date:</span> <span class="ed-value" title="00:16:58">2013 December 18</span></span>
+<span class="ed-sep"> | </span><a class="e-comments" href="http://immortal.ucoz.com/news/rsyslog/2013-12-18-74#comments">Comments (0)</a>
+</div></td></tr></table><br />
+</div><div id="entryID73"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://immortal.ucoz.com/news/qt/2013-12-14-73">Qt</a></div>
+<div class="eMessage" style="text-align:left;clear:both;padding-top:2px;padding-bottom:2px;">Qt 5.2 released!<br>Author: Digia plc<br><img alt="" src="/Images/Qt-logo.png"><br>Qt ("cute”) is a leading cross-platform application and UI development framework for leading desktop, embedded and mobile operating systems. Qt uses standard C++ and is widely used for developing software applications with a GUI and also for developing non-GUI applications with features such as file handling, database access, XML parsing, thread management and network support.<br>Qt’s powerful full-framework capabilities allows for the creation of highly-performing native applications as well as for hybrid development where the developer can choose which tools provide the best user experience.<br><br><font color="#0000cd">New Features:</font><br><ul><li>Qt Core [doc-snapshot.qt-project.org]</li><ul><li>Added class QCommandLineParser for command-line arguments parsing</li><li>Added new overload to QObject::connect() to add a context object when connecting to a lambda</li><li>Added new QStringRef methods; <!--"--><span class="entDots">... </span><span class="entryReadAll"><a class="entryReadAllLink" href="http://immortal.ucoz.com/news/qt/2013-12-14-73">Read more &raquo;</a></span></div>
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating73" class="uStarRating73 u-star-rating-12" title="Rating: 0.0/0">
+<li class="u-current-rating uCurStarRating73" id="uCurStarRating73" style="width:0%;"></li></ul></div>
+
+<span class="e-reads"><span class="ed-title">Views:</span> <span class="ed-value">2535</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Added by:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://immortal.ucoz.com/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">immortal</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Date:</span> <span class="ed-value" title="01:16:08">2013 December 14</span></span>
+<span class="ed-sep"> | </span><a class="e-comments" href="http://immortal.ucoz.com/news/qt/2013-12-14-73#comments">Comments (0)</a>
+</div></td></tr></table><br />
+</div><div id="entryID72"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://immortal.ucoz.com/news/kshutdown/2013-12-14-72">KShutdown</a></div>
+<div class="eMessage" style="text-align:left;clear:both;padding-top:2px;padding-bottom:2px;"><font color="#32cd32">KShutdown 3.1 Beta released!</font><br>Author: Konrad Twardowski<br><img alt="" src="/Images/kshutdown-3.0-linux-kde4.jpg"><br>KShutdown is a graphical shutdown utility for Linux and Windows. It allows you to turn off or suspend a computer at a specified time. It features various time and delay options, command-line support, and notifications.<br><font color="#0000cd">Features:</font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Turn Off Computer, Restart<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Hibernate, Suspend<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Lock Screen, Logout<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Detect user inactivity/application exit<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Command-line support<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Portable version for Windows<br<!--"--><span class="entDots">... </span><span class="entryReadAll"><a class="entryReadAllLink" href="http://immortal.ucoz.com/news/kshutdown/2013-12-14-72">Read more &raquo;</a></span></div>
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating72" class="uStarRating72 u-star-rating-12" title="Rating: 0.0/0">
+<li class="u-current-rating uCurStarRating72" id="uCurStarRating72" style="width:0%;"></li></ul></div>
+
+<span class="e-reads"><span class="ed-title">Views:</span> <span class="ed-value">754</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Added by:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://immortal.ucoz.com/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">immortal</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Date:</span> <span class="ed-value" title="23:47:22">2013 December 13</span></span>
+<span class="ed-sep"> | </span><a class="e-comments" href="http://immortal.ucoz.com/news/kshutdown/2013-12-14-72#comments">Comments (0)</a>
+</div></td></tr></table><br />
+</div><div id="entryID71"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://immortal.ucoz.com/news/metawidget/2013-12-14-71">Metawidget</a></div>
+<div class="eMessage" style="text-align:left;clear:both;padding-top:2px;padding-bottom:2px;"><font color="#32cd32">Metawidget 3.7 released!</font><br>Author: Kennard Consulting<br><img alt="" src="/Images/Metawidget.jpg"><br><img alt="" src="/Images/2013-12-14_08_20_28-Metawidget_Supported_Technolog.png"><img alt="" src="/Images/2013-12-14_08_41_14-Metawidget_integrates.png"><br>Metawidget is a smart User Interface widget that populates itself, at runtime, with UI components to match the properties of your business objects. Supports Swing, Java Server Faces (JSF), GWT, Spring, Struts, Android, Hibernate, Groovy, JPA and more.<br><br><font color="#0000cd">Features:</font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » inspects existing back-end architectures (many supported)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » creates widgets for slotting into existing UI frameworks (many supported)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » generates UIs either statically or at runtime<br><br>Metawidget r<!--"--><span class="entDots">... </span><span class="entryReadAll"><a class="entryReadAllLink" href="http://immortal.ucoz.com/news/metawidget/2013-12-14-71">Read more &raquo;</a></span></div>
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating71" class="uStarRating71 u-star-rating-12" title="Rating: 0.0/0">
+<li class="u-current-rating uCurStarRating71" id="uCurStarRating71" style="width:0%;"></li></ul></div>
+
+<span class="e-reads"><span class="ed-title">Views:</span> <span class="ed-value">684</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Added by:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://immortal.ucoz.com/index/8-1','up1','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">immortal</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Date:</span> <span class="ed-value" title="22:36:18">2013 December 13</span></span>
+<span class="ed-sep"> | </span><a class="e-comments" href="http://immortal.ucoz.com/news/metawidget/2013-12-14-71#comments">Comments (0)</a>
+</div></td></tr></table><br />
+</div><div id="entryID70"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://immortal.ucoz.com/news/polarity_browser/2013-12-11-70">Polarity Browser</a></div>
+<div class="eMessage" style="text-align:left;clear:both;padding-top:2px;padding-bottom:2px;">Polarity Browser<br>Author: Stan Lim<br><img alt="Scores on HTML5" src="/Images/Polarity-ScreenHunter_01_Nov.28.14.51-700x.jpg"><br>Polarity is a web browser that uses Chromium thanks to Awesomium. This browser was also programmed to be optimized for Windows. Browse the web with an uncomplicated UI and a well rounded engine. All credit has been given in the about dialog.<br>Features:<br><ul><li>Ad Blocker</li><li>Web Filter</li><li>Garbage Collector greatly reducing memory usage.</li><li>Crash Recovery</li><li>Built in Translator</li><li>Themes</li><li>Voice Recognition</li><li>Dual Engine browsing.</li><li>Hardware Acceleration</li><li>Native WebGL support.</li><li>Live Search results.</li></ul><a href="http://u.to/89tQBQ" title="http://www.polarityweb.webs.com" title="Homepage" target="_blank">Homepage</a><br><a href="http://u.to/8ttQBQ" title="http://polarityweb.webs.com/download.htm" title="Download page" target="_blank">Download</a><br></div>
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating70" class="uStarRating70 u-star-rating-12" title="Rating: 5.0/1">
+<li class="u-current-rating uCurStarRating70" id="uCurStarRating70" style="width:100%;"></li></ul></div>
+
+<span class="e-reads"><span class="ed-title">Views:</span> <span class="ed-value">796</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Added by:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://immortal.ucoz.com/index/8-9','up9','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">arthaz</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Date:</span> <span class="ed-value" title="00:57:22">2013 December 11</span></span>
+<span class="ed-sep"> | </span><a class="e-comments" href="http://immortal.ucoz.com/news/polarity_browser/2013-12-11-70#comments">Comments (0)</a>
+</div></td></tr></table><br />
+</div><div id="entryID69"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://immortal.ucoz.com/news/cyberdragon_browser/2013-12-11-69">CyberDragon Browser</a></div>
+<div class="eMessage" style="text-align:left;clear:both;padding-top:2px;padding-bottom:2px;">CyberDragon Browser 1.5.4 released!<br>Author: Stefan Froberg<br><img alt="CDB1.5.4 tabs support" src="/Images/CyberDragon_Browser1.5.4-tabs_support-700x.jpg"><br>CyberDragon Browser is an privacy enhanced browser that protects your surfing habits.<br>Still in early beta but the following features have been implemented:<br><ul><li>Tracker blocker. It will block over 6000 various trackers from following your daily surfing habits.Later version will allow user defined tracker blocker rules that can be exported/imported and also automatic master tracker blocker file updater to always keep your surfing data safe from bad guys.<br></li></ul><ul><li>Very strict, zero-tolerance cookie control. By default, only session cookies that have Secure and HttpOnly cookie attributes set are allowed. Also, all 3rd party cookies are blocked by default. Later version will have ability to define site specific cookie rules to override these global settings.</li></ul><ul><li>Proxy fetcher. Will allow you to f<!--"--><span class="entDots">... </span><span class="entryReadAll"><a class="entryReadAllLink" href="http://immortal.ucoz.com/news/cyberdragon_browser/2013-12-11-69">Read more &raquo;</a></span></div>
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating69" class="uStarRating69 u-star-rating-12" title="Rating: 0.0/0">
+<li class="u-current-rating uCurStarRating69" id="uCurStarRating69" style="width:0%;"></li></ul></div>
+
+<span class="e-reads"><span class="ed-title">Views:</span> <span class="ed-value">790</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Added by:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://immortal.ucoz.com/index/8-9','up9','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">arthaz</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Date:</span> <span class="ed-value" title="00:49:05">2013 December 11</span></span>
+<span class="ed-sep"> | </span><a class="e-comments" href="http://immortal.ucoz.com/news/cyberdragon_browser/2013-12-11-69#comments">Comments (0)</a>
+</div></td></tr></table><br />
+</div><div id="entryID68"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://immortal.ucoz.com/news/orientdb/2013-12-10-68">OrientDB</a></div>
+<div class="eMessage" style="text-align:left;clear:both;padding-top:2px;padding-bottom:2px;"><font color="#32cd32">OrientDB 1.6.2 released!</font><br>Author: Luca Garulli<br><img alt="" src="/Images/OrientDB.jpg"><br>OrientDB is a new Open Source NoSQL DBMS born with the best features of all the others.<br>Changelog:<br><ul><li>SBTree: new index engine with the support for transactions and range queries</li><li>Hotfixes against 1.6.1</li></ul><a href="http://www.orientdb.org/" title="Homepage" target="_blank">Homepage</a><br><a href="http://www.orientdb.org/download.htm" title="Download" target="_blank">Download</a><br></div>
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating68" class="uStarRating68 u-star-rating-12" title="Rating: 0.0/0">
+<li class="u-current-rating uCurStarRating68" id="uCurStarRating68" style="width:0%;"></li></ul></div>
+
+<span class="e-reads"><span class="ed-title">Views:</span> <span class="ed-value">601</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Added by:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://immortal.ucoz.com/index/8-3','up3','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">harry</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Date:</span> <span class="ed-value" title="04:28:37">2013 December 10</span></span>
+<span class="ed-sep"> | </span><a class="e-comments" href="http://immortal.ucoz.com/news/orientdb/2013-12-10-68#comments">Comments (0)</a>
+</div></td></tr></table><br />
+</div><div id="entryID67"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://immortal.ucoz.com/news/samba/2013-12-10-67">Samba</a></div>
+<div class="eMessage" style="text-align:left;clear:both;padding-top:2px;padding-bottom:2px;"><font color="#32cd32">Samba 4.1.3 stable released!</font><br>Author: Andrew Tridgell<br><img alt="" src="/Images/Samba.jpg"><br>Samba is software that can be run on a platform other than Microsoft Windows, for example, UNIX, Linux, IBM System 390, OpenVMS, and other operating systems. Samba uses the TCP/IP protocol that is installed on the host server. When correctly configured, it allows that host to interact with a Microsoft Windows client or server as if it is a Windows file and print server.<br><a href="http://www.samba.org/samba/" title="Homepage" target="_blank">Homepage</a><br><a href="http://http://www.samba.org/samba/ftp/stable/samba-4.1.3.tar.gz" title="Download Samba 4.1.3" target="_blank">Download</a></div>
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating67" class="uStarRating67 u-star-rating-12" title="Rating: 0.0/0">
+<li class="u-current-rating uCurStarRating67" id="uCurStarRating67" style="width:0%;"></li></ul></div>
+
+<span class="e-reads"><span class="ed-title">Views:</span> <span class="ed-value">487</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Added by:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://immortal.ucoz.com/index/8-3','up3','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">harry</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Date:</span> <span class="ed-value" title="03:50:58">2013 December 10</span></span>
+<span class="ed-sep"> | </span><a class="e-comments" href="http://immortal.ucoz.com/news/samba/2013-12-10-67#comments">Comments (0)</a>
+</div></td></tr></table><br />
+</div><div id="entryID66"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://immortal.ucoz.com/news/hotshots/2013-12-10-66">HotShots</a></div>
+<div class="eMessage" style="text-align:left;clear:both;padding-top:2px;padding-bottom:2px;">HotShots 2.0.0 released!<br>Author: xbee<br><img alt="HotShots - Main" src="/Images/Main.jpg"><br>HotShots is an application for capturing screens and saving them in a variety of image formats as well as adding annotations and graphical data (arrows, lines, texts, etc).<br>OS: Windows, FreeBSD &amp; Linux.<br><a href="http://thehive.xbee.net/index.php?module=pages&amp;func=display&amp;pageid=31" title="Homepage" target="_blank">Homepage</a><br><a href="http://sourceforge.net/projects/hotshots/files/2.0.0/" title="Download HotShots-v.2.0.0" target="_blank">Download</a></div>
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating66" class="uStarRating66 u-star-rating-12" title="Rating: 0.0/0">
+<li class="u-current-rating uCurStarRating66" id="uCurStarRating66" style="width:0%;"></li></ul></div>
+
+<span class="e-reads"><span class="ed-title">Views:</span> <span class="ed-value">401</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Added by:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://immortal.ucoz.com/index/8-3','up3','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">harry</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Date:</span> <span class="ed-value" title="18:08:39">2013 December 09</span></span>
+<span class="ed-sep"> | </span><a class="e-comments" href="http://immortal.ucoz.com/news/hotshots/2013-12-10-66#comments">Comments (0)</a>
+</div></td></tr></table><br />
+</div><div id="entryID65"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a href="http://immortal.ucoz.com/news/webissues/2013-12-06-65">WebIssues</a></div>
+<div class="eMessage" style="text-align:left;clear:both;padding-top:2px;padding-bottom:2px;"><span style="color: rgb(30, 144, 255);"><b>WebIssues 1.1.1 released!</b></span><br>Author: Michał Męciński<br><img alt="" src="/Images/WebIssues_Desktop_Client-Main.jpg"><br><br><span style="font-size: 12pt; font-family: Times New Roman;">WebIssues is an open source, multi-platform system for issue tracking and team collaboration. It can be used to store, share and track issues with various attributes, description, comments and file attachments. It is easy to install and use but has many capabilities and is highly customizable.</span><br><span style="font-size: 14pt;"><b><span style="color: rgb(30, 144, 255);">Features:<br></span></b></span><ul><li><span style="font-size: 10pt; font-family: Times New Roman;">The Desktop Client application can run natively on Windows, Linux and OS X</span></li><li><span style="font-size: 10pt; font-family: Times New Roman;">The Web Client can be used to access the system using a web browser</span></li><li><span style="font-size: 10pt; font-family: Times<!--"--><span class="entDots">... </span><span class="entryReadAll"><a class="entryReadAllLink" href="http://immortal.ucoz.com/news/webissues/2013-12-06-65">Read more &raquo;</a></span></div>
+<div class="eDetails" style="clear:both;">
+<div style="float:right"><ul id="uStarRating65" class="uStarRating65 u-star-rating-12" title="Rating: 0.0/0">
+<li class="u-current-rating uCurStarRating65" id="uCurStarRating65" style="width:0%;"></li></ul></div>
+
+<span class="e-reads"><span class="ed-title">Views:</span> <span class="ed-value">526</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title">Added by:</span> <span class="ed-value" ><a href="javascript://" rel="nofollow" onclick="window.open('http://immortal.ucoz.com/index/8-3','up3','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">harry</a></span></span><span class="ed-sep"> | </span>
+<span class="e-date"><span class="ed-title">Date:</span> <span class="ed-value" title="07:19:34">2013 December 06</span></span>
+<span class="ed-sep"> | </span><a class="e-comments" href="http://immortal.ucoz.com/news/webissues/2013-12-06-65#comments">Comments (0)</a>
+</div></td></tr></table><br />
+</div><div class="catPages1" align="center" style="clear:both;" id="pagesBlock1"><b class="swchItemA"><span>1</span></b> <a class="swchItem" href="/news/?page2" onclick="spages('2', this);return false;"><span>2</span></a> <a class="swchItem" href="/news/?page3" onclick="spages('3', this);return false;"><span>3</span></a> <span class="swchItemDots"><span>...</span></span> <a class="swchItem" href="/news/?page7" onclick="spages('7', this);return false;"><span>7</span></a> <a class="swchItem" href="/news/?page8" onclick="spages('8', this);return false;"><span>8</span></a>  <a class="swchItem" href="/news/?page2" onclick="spages('2', this);return false;"><span>&raquo;</span></a></div></div></td>
+<td class="column" valign="top">
+<table class="boxTable" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="boxTitle"><b>News calendar</b></td></tr>
+<tr>
+<td class="boxContent" align="middle">
+<div class="boxText"><table border="0" cellspacing="1" cellpadding="2" class="calTable"><tr><td align="center" class="calMonth" colspan="7"><a title="January 2016" class="calMonthLink" href="javascript://" rel="nofollow" onclick="window.location.href=''+atob('aHR0cDovL2ltbW9ydGFsLnVjb3ouY29tL25ld3Mv')+'2016-01';return false;">&laquo;</a>&nbsp; <a class="calMonthLink" href="javascript://" rel="nofollow" onclick="window.location.href=''+atob('aHR0cDovL2ltbW9ydGFsLnVjb3ouY29tL25ld3Mv')+'2016-02';return false;">February 2016</a> &nbsp;<a title="March 2016" class="calMonthLink" href="javascript://" rel="nofollow" onclick="window.location.href=''+atob('aHR0cDovL2ltbW9ydGFsLnVjb3ouY29tL25ld3Mv')+'2016-03';return false;">&raquo;</a></td></tr><tr><td align="center" class="calWdaySu">Su</td><td align="center" class="calWday">Mo</td><td align="center" class="calWday">Tu</td><td align="center" class="calWday">We</td><td align="center" class="calWday">Th</td><td align="center" class="calWday">Fr</td><td align="center" class="calWdaySe">Sa</td></tr><tr><td>&nbsp;</td><td align="center" class="calMday">1</td><td align="center" class="calMday">2</td><td align="center" class="calMday">3</td><td align="center" class="calMday">4</td><td align="center" class="calMday">5</td><td align="center" class="calMday">6</td></tr><tr><td align="center" class="calMday">7</td><td align="center" class="calMday">8</td><td align="center" class="calMday">9</td><td align="center" class="calMday">10</td><td align="center" class="calMday">11</td><td align="center" class="calMday">12</td><td align="center" class="calMday">13</td></tr><tr><td align="center" class="calMday">14</td><td align="center" class="calMday">15</td><td align="center" class="calMday">16</td><td align="center" class="calMday">17</td><td align="center" class="calMdayA">18</td><td align="center" class="calMday">19</td><td align="center" class="calMday">20</td></tr><tr><td align="center" class="calMday">21</td><td align="center" class="calMday">22</td><td align="center" class="calMday">23</td><td align="center" class="calMday">24</td><td align="center" class="calMday">25</td><td align="center" class="calMday">26</td><td align="center" class="calMday">27</td></tr><tr><td align="center" class="calMday">28</td><td align="center" class="calMday">29</td></tr></table></div></td></tr></tbody></table>
+<table class="boxTable" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="boxTitle"><b>Search</b></td></tr>
+<tr>
+<td class="boxContent" align="middle">
+<div class="boxText"><div class="searchForm"><form onsubmit="this.sfSbm.disabled=true" method="get" style="margin:0" action="/search/"><div align="center" class="schQuery"><input type="text" name="q" maxlength="30" size="20" class="queryField" /></div><div align="center" class="schBtn"><input type="submit" class="searchSbmFl" name="sfSbm" value="Search" /></div></form></div></div></td></tr></tbody></table>
+<table class="boxTable" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="boxTitle"><b>Site friends</b></td></tr>
+<tr>
+<td class="boxContent">
+<div class="boxText"><!--U1FRIENDS1Z--><ul class="uz">
+<li class="menus"><a href="http://www.ucoz.com/" target="_blank" class="noun">Register your site</a></li></ul><!--/U1FRIENDS1Z--></div></td></tr></tbody></table>
+<table class="boxTable" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="boxTitle"><b>Statistics</b></td></tr>
+<tr>
+<td class="boxContent" align="middle">
+<div class="boxText"><a rel="nofollow" href="http://immortal.ucoz.com/panel/?a=ustat;u=immortal;d=d;il=en" target="_blank" title="uCoz Counter"><img alt="" style="margin:0;padding:0;border:0;" src="http://immortal.ucoz.com/stat/1455840730" height="31" width="88" /></a></div></td></tr></tbody></table><a href="http://www4.clustrmaps.com/counter/maps.php?url=http://immortal.ucoz.com" id="clustrMapsLink"><img src="http://www4.clustrmaps.com/counter/index2.php?url=http://immortal.ucoz.com" style="border:0px;" alt="Locations of visitors to this page" title="Locations of visitors to this page" id="clustrMapsImg" />
+</a>
+<script type="text/javascript">
+function cantload() {
+img = document.getElementById("clustrMapsImg");
+img.onerror = null;
+img.src = "http://www2.clustrmaps.com/images/clustrmaps-back-soon.jpg";
+document.getElementById("clustrMapsLink").href = "http://www2.clustrmaps.com";
+}
+img = document.getElementById("clustrMapsImg");
+img.onerror = cantload;
+</script>
+<li><script type="text/javascript" src="http://feedjit.com/serve/?vv=955&amp;tft=3&amp;dd=0&amp;wid=32d91e043639480b&amp;pid=0&amp;proid=0&amp;bc=FFFFFF&amp;tc=000000&amp;brd1=0DB83B&amp;lnk=135D9E&amp;hc=FFFFFF&amp;hfc=9E1C18&amp;btn=0FBDD4&amp;ww=240&amp;wne=10&amp;wh=Live+Traffic+Feed&amp;hl=0&amp;hlnks=0&amp;hfce=0&amp;srefs=1&amp;hbars=0"></script><noscript><a href="http://feedjit.com/">Feedjit Live Blog Stats</a></noscript></li>
+<li><br>
+</li></td></tr></tbody></table><!--/Body--></div><!--Footer-->
+<table id="footer" border="0" cellpadding="5" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td align="middle">Copyright ImmortalCorp@ucoz &copy; 2016</td></tr>
+<tr>
+<td align="middle"><!-- "' --><span class="pbnyQVAV"><a href="http://www.ucoz.com/"><img style="margin:0;padding:0;border:0;width:80px;height:15px;" src="http://s101.ucoz.net/img/cp/47.gif" alt=""  /></a></span></td></tr></tbody></table></div></body></html>
+<!-- 0.10862 (s101) -->

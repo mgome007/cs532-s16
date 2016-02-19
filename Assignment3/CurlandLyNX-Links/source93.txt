@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta name="robots" content="nofollow" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, post-check=0, pre-check=0" />
+	<meta http-equiv="Expires" content="Thu, 01 Dec 1994 16:00:00 GMT" />
+	<title>てつや@K(@mutsugoro17)のプロフィール - ツイフィール</title>
+	<meta property="og:locale" content="ja_JP" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://twpf.jp/mutsugoro17" />
+	<meta property="og:image" content="http://pbs.twimg.com/profile_images/696012699847622656/m-1MTzJN_normal.jpg" />
+	<meta property="og:title" content="てつや@K(@mutsugoro17)のプロフィール - ツイフィール" />
+	<meta property="og:site_name" content="ツイフィール" />
+	<meta property="og:description" content="@てつや@K(@mutsugoro17)さんのプロフィールです。" />
+	<meta name="description" content="@てつや@K(@mutsugoro17)さんのプロフィールです。" />
+	<link rel="alternate" media="handheld" href="http://twpf.jp/mutsugoro17" />
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" type="text/css" href="/css/common.css?1407302277" />
+	<link rel="stylesheet" type="text/css" href="/css/style_default.css?1407302277" />
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.laquu.custom.js?1407302279"></script>
+	<script type="text/javascript" src="/js/style_default.js?1407302280"></script>
+	<script type="text/javascript" src="/js/showFeed.js?1407302280"></script>
+	<style type="text/css">
+		body {
+							background-image: url("http://abs.twimg.com/images/themes/theme2/bg.gif");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+						background-color: #C6E2EE !important;
+		}
+		#container a { color: #1F98C7 !important; }
+	</style>
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-11147513-7' ]);
+	_gaq.push( [ '_trackPageview' ]);
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+<div id="topbar">
+	<div class="wrapper cf">
+		<div id="topbar-logo"><a href="/"><img src="/img/twpf-logo-mini.png?1407302278" alt="" /></a></div>
+		<ul id="topbar-navi">
+			<li><a href="/about">サイトについて</a></li>
+			<li><a href="/search/profile">プロフィール検索</a></li>
+			<li><a href="#">遊ぶ▼</a>
+				<ul>
+					<li><a href="http://tonchi.jp/" target="_blank">大喜利する</a></li>
+					<li><a href="http://qa-note.com/" target="_blank">質問する</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul id="topbar-login-navi">
+							<li><a href="/signup">プロフィール作成</a></li>
+				<li><a href="/login">ログイン</a></li>
+					</ul>
+	</div>
+</div>
+<div id="container">
+	<div id="header">
+	<h1 id="h-profile">mutsugoro17's Profile</h1>
+	<div id="twitter-user" class="box">
+		<div class="pad">
+			<table id="user">
+				<tr>
+					<td id="user-icon">
+						<a href="https://twitter.com/mutsugoro17" title="mutsugoro17" target="_blank" rel="nofollow"><img src="http://pbs.twimg.com/profile_images/696012699847622656/m-1MTzJN_reasonably_small.jpg" alt="mutsugoro17" /></a>					</td>
+					<td id="user-info">
+						<div class="uib-top uib-bottom clearfix">
+							<h2 id="h-screen-name" class="ui-top">ユーザー名</h2>
+							<p class="ui-top"><a href="https://twitter.com/mutsugoro17" target="_blank" rel="nofollow">@mutsugoro17</a></p>
+						</div>
+						<div class="uib-bottom clearfix">
+							<h2 id="h-name">名前</h2>
+							<p>てつや@K</p>
+						</div>
+												<div class="uib-bottom clearfix">
+							<h2 id="h-location">場所</h2>
+							<p>C++の闇</p>
+						</div>
+																		<div class="uib-bottom clearfix">
+							<h2 id="h-web">Web</h2>
+							<p><a href="http://twpf.jp/mutsugoro17" title="http://twpf.jp/mutsugoro17" target="_blank" rel="nofollow">http://twpf.jp/mutsugoro17</a></p>
+						</div>
+											</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<div id="contents" class="clearfix">
+	<div class="tabs">
+		<ul class="tab">
+			<li><a href="#profile">プロフィール</a></li>
+			<li><a href="#data">データ</a></li>
+								</ul>
+
+		<div id="profile" class="tab-panel">
+			<div class="box">
+				<h2 id="h-description">自己紹介</h2>
+				<div class="pad">ツイフィール見てね♡</div>
+			</div>
+
+			<div class="box">
+				<h2 id="h-motto">もっと自己紹介</h2>
+				<div class="pad">春日高校→TUS3E<br />
+ITC Prog、CG部所属(｀･ω･´)<br />
+ジャグリングサークルDominus Somni葛飾支部にも所属しています。ヨーヨー楽しい。<br />
+基本的に雑食ですので、呟きに統一性はありません！<br />
+でもここ最近はPCとかプログラミングとかゲームとかアツい。<br />
+それでもよければフォローお願いします(`･艸･´*)</div>
+			</div>
+
+			
+			
+			
+					</div>
+
+		<div id="data" class="tab-panel">
+			<div class="box">
+				<h2 id="h-count">カウントデータ</h2>
+				<div class="pad">
+					<table id="tbl-count">
+						<tbody>
+							<tr>
+								<th>フォロー</th><td>391</td>
+								<th>お気に入り</th><td>619</td>
+							</tr>
+							<tr>
+								<th>フォロワー</th><td>200</td>
+								<th>リスト</th><td>5</td>
+							</tr>
+							<tr>
+								<th>ツイート</th><td>7,463</td>
+								<th>平均ツイート</th><td>10.9 / 日</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="box">
+				<h2 id="h-date">日付データ</h2>
+				<div class="pad">
+					<table id="tbl-date">
+						<tbody>
+							<tr>
+								<th>Twitter歴</th><td>684日</td>
+								<th>プロフ作成日</th><td>2014/10/06 13:54</td>
+							</tr>
+							<tr>
+								<th>Twitter登録日</th><td>2014/04/06 23:53</td>
+								<th>プロフ更新日</th><td>2016/02/11 04:39</td>
+							</tr>
+							<tr>
+								<th>API取得完了</th><td>2016/02/11 16:14</td>
+								<th>API取得予定</th><td>2016/02/12 16:14</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+			</div>
+
+</div>
+<div class="pr">	
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8179295293876270";
+/* twpf.jp big */
+google_ad_slot = "5297021042";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<div id="footer">
+	<p>&copy; 2010-2016 <a href="/">ツイフィール</a></p>
+</div></div>
+</body>
+</html>

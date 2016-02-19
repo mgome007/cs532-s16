@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Home - Blog of Ryan Bigg</title>
+    <link href="http://feeds.feedburner.com/ryanbigg" rel="alternate" title="The Life of a Radar" type="application/atom+xml" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='/css/style.css' media='screen'>
+    <link rel='stylesheet' href='/css/mobile.css'>
+    <link rel='stylesheet' href='/css/highlight.css'>
+
+  <body>
+    <h1 align='center'>The Life of a Radar</h1>
+    <div id='page'>
+      <div id="header">
+        <p>Hi there, my parents and friends call me Ryan Bigg, but you may know me as "Radar". Either is fine.</p>
+        <p>I'm a technical writer for Ruby / Rails based in Australia. I have written a Rails book with <a href="https://github.com/sevenseacat">Rebecca Skinner</a> called <a href="https://www.manning.com/books/rails-4-in-action">Rails 4 in Action</a>, which is available also on <a href='http://www.amazon.com/Rails-4-Action-Ryan-Bigg/dp/1617291099'>Amazon</a>. I also wrote <a href='http://leanpub.com/multi-tenancy-rails-2'>Multitenancy With Rails</a>.
+        </p>
+
+        <div id="more">
+          <p> Occasionally I find some time to write interesting blog posts such as the ones you see below.</p>
+          <p>I also have done quite a lot of <a href="http://github.com/radar">open-source work</a> and I <a href="http://twitter.com/ryanbigg">tweet</a>. Find out more <a href="http://ryanbigg.com/about-me">about me</a>.</p> 
+          <p>If you like what you see you can <a href='http://feeds.feedburner.com/ryanbigg'>subscribe to this blog</a>.</p>
+        </div>
+      </div>
+      <header></header>
+      
+
+<!-- Layout inspired by Nick Quaranto's "Litany Against Fear" blog 
+     http://litanyagainstfear.com -->
+<article>
+  <a href="/2015/12/programming-phoenix"><header>Programming Phoenix Review</header></a>
+  <small>24 Dec 2015</small><br>
+  <p>During this Christmas break I&#39;ve been taking some time off from writing Multitenancy with Rails -- which I&#39;ll get back to <em>after</em> Christmas is over -- and instead of writing books I&#39;m reading them.</p>
+
+<p><a href="https://pragprog.com/titles/phoenix/">Programming Phoenix</a> is the only book that I&#39;ve been reading so far. I&#39;ve now read through the whole thing. Despite that I&#39;ve filed over 40 errata on the book (hey, it is a beta book) I <em>mostly</em> enjoyed the book.</p>
+
+<hr>
+
+<p>Programming Phoenix takes you through building a complete Phoenix application, introducing familiar concepts like controllers, models and templates. Those parts are familiar because they&#39;re much the same in Phoenix as they are in Rails; with some differences. Models have changesets. Templates relate to Views. Unlike Rails&#39; &quot;magical&quot; callbacks (in both models and controllers), these are just simply defined and used functions in Phoenix.</p>
+
+<p>The latter chapters cover a range of things, like adding in live &quot;annotations&quot; to a video as its being watched. Think of that kind of like a live chatroom, except as the video plays, the annotations from previous watches also appear. This is done using Websockets, which are supported in Rails now with ActionCable, but it just <em>feels</em> a lot less hacky with Phoenix than it does with Rails. Elixir handles it better, <a href="http://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections">reaching two million connections recently</a> to a single (albeit quite beefy) server. I can&#39;t myself think of something to use Websockets for, but it is still exciting nevertheless.</p>
+
+<p>The final two chapters, &quot;OTP&quot; (Open Telecom Platform) and &quot;Observer and Umbrellas&quot; cover some of the real strengths of Elixir and its underlying foundation of Erlang. These two chapters get you to build a system which connects to Wolfram Alpha&#39;s API, and then demonstrate how to keep this new system separate from the original application, while still being able to connect these two systems together and communicate between them. In the Ruby world, typically this would be done with HTTP calls, but in the Elixir world it is just a matter of communicating across Elixir processes. This inter-process communication is quite quick in comparison to HTTP because it doesn&#39;t have that overhead.</p>
+
+<p>What I loved from these final chapters was seeing Elixir&#39;s supervision capabilities in action. In one of those latter chapters, you create a small application (<code>Rumbl.Counter</code>) which dies after a couple of seconds. A Supervisor for the main application (<code>Rumbl</code>) restarts this smaller application automatically when it dies. Ruby doesn&#39;t have that kind of capability; instead you need to rely on tools like upstart. It&#39;s quite nice having it built into the language because then you don&#39;t have to learn something completely different to ensure your servers don&#39;t fall over.</p>
+
+<hr>
+
+<p>The book is written by Jos&eacute; &quot;The Elixir Guy&quot; Valim, Chris &quot;The Phoenix Guy&quot; McCord and Bruce &quot;The <a href="https://pragprog.com/book/btlang/seven-languages-in-seven-weeks">Seven Languages</a> Guy&quot; Tate. It&#39;s great to see that it&#39;s the core developers who are invested in writing documentation for the community. Unlike a certain other community who has a main core developer who tells contributors to go fuck themselves when they ask for documentation regarding new features. Further to that point, both Jos&eacute; and Chris are extremely active on the #elixir-lang channel on Freenode, which is also great to see.</p>
+
+<p>I am not sure if it is because the book has three authors, but there are some parts where I&#39;m reading it and enjoying it. Then there are sections like &quot;Anatomy of a Plug&quot; which goes <em>way too deep</em> into what a Plug is and how it works, and &quot;Exploring Ecto in the Console&quot; which, again, goes rather deep but doesn&#39;t tie that content <em>solidly</em> back to what we&#39;re doing in the book at that present moment. It&#39;d be like a fiction book <em>intricately</em> explaining what&#39;s in the house of the neighbour of the protagonist, but then the neighbour is not mentioned any more past that. </p>
+
+<p>Like, why does it even matter that Ecto supports &quot;search functions like <code>ilike</code> and <code>like</code>&quot; or that Plug has <code>path_info</code> and <code>scheme</code> fields? Neither of those are relevant to the content at-hand at that point of time, and it feels disconnected. Those things should be mentioned in their respective guides, not in this book. Perhaps those sections will mysteriously disappear once this book reaches the production editing phase. </p>
+
+<p>It feels like it would be better off showing what a Plug is within the context of the application... and they do that later on. Then after that go into the detail. But I could do without the pages and pages of extra seemingly &quot;useless&quot; info <em>before</em> I get hooked on what you&#39;re trying to sell.</p>
+
+<p>In addition to that, there are some places where the content feels like it&#39;s saying &quot;we&#39;re going to do this now because I said we&#39;re going to do it&quot;; particularly in Chapter 5, the Authentication chapter. The chapter jumps to creating a registration changeset with no reason why it needs to be created, then later on explains why it has to be created. The explanation needs work there.</p>
+
+<p>This is where the TDD/BDD of Rails 4 in Action holds up. In that book, it&#39;s more like &quot;we&#39;re going to do this because the test says we need to do it&quot;. Programming Phoenix saves that kind of testing for Chapter 8, with the given reason being that having testing throughout every chapter can be distracting and repetitive. While I can see the point there -- there was vigorous nodding over here reading Chapter 8&#39;s intro -- that very same testing can be helpful for demonstrating industry best-practices to newbies. Otherwise what you&#39;ll get is a bunch of newbies who read the first 7 chapters and think that writing code without tests is How It Is Done(tm). </p>
+
+<p>Having tests also helps show off the usefulness of regression testing too. A thing broke and now we&#39;re going to write a test for a fix, watch the test go red, fix the thing, and watch the test go green. I think that kind of thing is helpful to newbies to have, as they&#39;re the most likely to make mistakes within their application.</p>
+
+<p>Despite these complaints, the book has been worthwhile reading. I am mainly nitpicking, because I&#39;m an author of another programming book and I have moments where I think that I could write parts better. That has yet to be proven.</p>
+
+<p>The parallels between Rails and Phoenix are helping with the learning of the new framework, and the differences between them are not too mind-bending to be beyond comprehension. The first 8 chapters cover topics that should be familiar to any Rails developer: starting a new project, adding in models and controllers. Adding validations to the model with changesets -- which are a <em>very</em> cool feature that I wouldn&#39;t be surprised if Active Record 6.0 picked up. </p>
+
+<p>The remaining 4 chapters of the book venture off into territory that is probably unexplored by most Rails developers. I know that I personally have never spent time using Websockets or having to do anything like inter-process communication in Ruby. These last four chapters were a breath of fresh air for my skills. I feel like I really learned something valuable in those chapters.</p>
+
+<p>Overall, Programming Phoenix is a fantastic book that will become even better once the authors spend more time on it and the editors do their bit. I really recommend reading this book, but with a small caveat: read <a href="https://pragprog.com/book/elixir/programming-elixir">Programming Elixir</a> first to get familiar with the underlying language of the Phoenix framework. Then it&#39;ll be smooth sailing for you.</p>
+
+</article>
+
+<div id='archive'>
+  <h2>25 back</h2>
+  <ul>
+    
+      <li><a href="/2015/11/open-source-work">Open source work</a><abbr>16 Nov 2015</abbr></li>
+  
+      <li><a href="/2015/11/active-record-change_column-and-scales">Active Record, change_column and scales</a><abbr>10 Nov 2015</abbr></li>
+  
+      <li><a href="/2015/08/my-self-publishing-success-story">My self-publishing success story</a><abbr>06 Aug 2015</abbr></li>
+  
+      <li><a href="/2015/07/deploying-a-rails-application-on-ubuntu-passenger-edition">Deploying a Rails application on Ubuntu: Passenger Edition</a><abbr>08 Jul 2015</abbr></li>
+  
+      <li><a href="/2015/06/mac-os-x-ruby-ruby-install-chruby-and-you">Mac OS X, Ruby, ruby-install, chruby and You</a><abbr>09 Jun 2015</abbr></li>
+  
+      <li><a href="/2015/04/getting-started-with-ruby-and-rails">Getting started with Ruby and Rails</a><abbr>30 Apr 2015</abbr></li>
+  
+      <li><a href="/2014/12/filtering-by-index-in-elasticsearch">Filtering by index in Elasticsearch</a><abbr>03 Dec 2014</abbr></li>
+  
+      <li><a href="/2014/10/ubuntu-ruby-ruby-install-chruby-and-you">Ubuntu, Ruby, ruby-install, chruby, Rails and You</a><abbr>05 Oct 2014</abbr></li>
+  
+      <li><a href="/2014/10/working-remotely">Working Remotely</a><abbr>02 Oct 2014</abbr></li>
+  
+      <li><a href="/2014/09/go-package-management">Go package management</a><abbr>02 Sep 2014</abbr></li>
+  
+      <li><a href="/2014/08/thoughts-on-go">Thoughts on Go</a><abbr>08 Aug 2014</abbr></li>
+  
+      <li><a href="/2014/08/add-header-to-rack-test-request">Add header to Rack::Test request</a><abbr>06 Aug 2014</abbr></li>
+  
+      <li><a href="/2014/07/ryan-bigg-is-now-a-git">Ryan Bigg is now a Git...</a><abbr>22 Jul 2014</abbr></li>
+  
+      <li><a href="/2014/06/initial-thoughts-on-lotus">Initial thoughts on Lotus</a><abbr>19 Jun 2014</abbr></li>
+  
+      <li><a href="/2014/06/spree-factories-and-callbacks">Spree, Factories and Callbacks</a><abbr>17 Jun 2014</abbr></li>
+  
+      <li><a href="/2014/04/community-management">Community Management</a><abbr>02 Apr 2014</abbr></li>
+  
+      <li><a href="/2013/10/violence-in-the-ruby-community">Violence in the Ruby community</a><abbr>14 Oct 2013</abbr></li>
+  
+      <li><a href="/2013/09/order-adjustments">Order adjustments within Spree</a><abbr>24 Sep 2013</abbr></li>
+  
+      <li><a href="/2013/09/debugging-rails-controllers">Debugging Rails Controllers</a><abbr>05 Sep 2013</abbr></li>
+  
+      <li><a href="/2013/08/bundler-local-paths">Bundler local paths</a><abbr>16 Aug 2013</abbr></li>
+  
+      <li><a href="/2013/07/waiting-for-ajax-in-capybara">Waiting for AJAX in Capybara</a><abbr>09 Jul 2013</abbr></li>
+  
+      <li><a href="/2013/06/finding-sql-queries-in-rails">Finding SQL queries in Rails</a><abbr>26 Jun 2013</abbr></li>
+  
+      <li><a href="/2013/02/about-spec-support">About spec/support</a><abbr>02 Feb 2013</abbr></li>
+  
+      <li><a href="/2013/01/multitenancy-with-rails">Multitenancy with Rails</a><abbr>21 Jan 2013</abbr></li>
+  
+      <li><a href="/2013/01/a-story-about-scaffolding">A story about scaffolding</a><abbr>07 Jan 2013</abbr></li>
+  
+  </ul>
+  <center><a href='/blogography.html'>The Complete Blogography</a></center>
+</div>
+
+    </div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60556315-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>

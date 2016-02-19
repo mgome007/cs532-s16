@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+    <meta charset="utf-8">
+    <title>CSnipp - Social Code Sharing</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="stylesheet" src="css/bootstrap.css" %>
+    <link href="http://assets.csnipp.com/assets/application_front-0bba7b450c162731d948c46c8f8e0cd2.css" media="all" rel="stylesheet"/>
+    <title>CSnipp - Social Code Sharing</title><meta content="nwaZ0swgWUJ1nAj-SQ9Azox2WwzYfexC7gdcgDgXD8g" name="google-site-verification"/><meta content="code snippet, CSnipp, HTML snippets,CSS snippets,PHP snippets,JavaScript snippets, ruby snippets, jquery snippets, python snippets, bootstrap snippets, node js snippets, angular snippets, Snippet Management Tool, Knowledge Sharing, store, share, collaborate code" name="keywords"/><meta name='description' content='CSnipp is a code snippet management tool which helps coders to share knowledge, recieve feedback and reduce their time spend on writing code'>
+    <link href="http://assets.csnipp.com/assets/favicon-csnipp-fc421353a05d07083669216bf4080bc8.png" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+  </head>
+  <body>
+    <meta content="authenticity_token" name="csrf-param"/>
+<meta content="YG23Tb2ROGbyZ8Lj4aQgXwkzHDUhVsyrtRHuJ2lCQUc=" name="csrf-token"/>
+
+    
+
+<header id="header" class="site-header">
+      <div class="container">
+        <h1><a class="site-title pull-left" href="#">&nbsp;</h1>
+        <div class="btn-users text-right">
+          <a class="btn btn-login" href="/why-csnipp">Why use CSnipp?</a>&nbsp;&nbsp;
+          <a class="btn btn-login" href="/users/sign_in">Login</a>&nbsp;&nbsp;
+          <a class="btn btn-register" href="/users/sign_up">Register</a>
+        </div>
+      </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="header-description">
+            <h1>CSnipp<br/></h1>
+            <h2><span class="sub-heading">Share knowledge with your team and the community</span></h2>
+            <a class="header-btn" href="/users/sign_up">Signup for, FREE</a>
+          </div><!-- /header-description -->
+
+          <div class="header-features">
+            <div class="row">
+              <div class="col-sm-6 header-feature">
+                 <h3><i class="fa fa-random"></i> &nbsp; What is it?</h3>
+                  <ul>
+                    <li>An application for sharing and collaborating code</li>
+                    <li>Personal journal to store what you learned while working</li>
+                    <li>A code snippet repository for you and your team</li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 header-feature">
+                 <h3> <i class="fa fa-users"></i> &nbsp; How does it work?</h3>
+                <ul>
+                  <li>You store solutions as snippets online.</li>
+                  <li>Organize them using category or label.</li>
+                  <li>Share them with your peers for review. </li>
+                </ul>
+              </div>
+            </div>
+          </div> 
+
+        </div><!-- /col-12 -->
+      </div><!-- /row-fluid -->
+    </div><!-- /container -->
+  </header>
+
+
+<section id="features" class="features">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-4">
+        <div class="feature" style="border-left: none;">
+          
+          <h4><i class="fa fa-globe"></i> &nbsp; Over 5,000+</h4>
+          <p>Be a part of the community that shares your interest..</p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="feature">
+          <h4><i class="fa fa-send"></i>&nbsp;
+          Accessibility</h4>
+          <p>You can access your account from anywhere, any device and any time.</p>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="feature">
+          <h4><i class="fa fa-search"></i>
+          Search</h4>
+          <p>Tailored results for what you wish to know.</p>
+        </div>
+      </div>
+
+    </div><!-- /row-fluid -->
+  </div><!-- /container -->
+</section>
+
+<footer id="footer" class="footer">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="col-sm-12">
+          
+        
+        <div class="pull-left copyright col-sm-3">
+          <h1 class="footer-title pull-left">© 2013 - 14 CSnipp. All rights reserved</h1>
+        </div>
+        <div class="pull-right footer-links">
+          <small>
+            <a href="https://twitter.com/csnipphq"> Twitter</a>  |
+            <a href="https://facebook.com/csnipphq"> Facebook</a>  |
+            <a href="https://plus.google.com/109619413917019154850" rel="publisher">Google+</a>  |
+            <a href="http://secret.csnipp.com">  Secret Snipp</a>  |
+            <a href="/s"> Public TimeLine</a>  |
+            <a href="/l"> Languages</a>   |
+            <a href="http://csnipp.com/tag-cloud">  Statistics</a>
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script type="text/javascript">if(typeof NREUMQ!=="undefined"){if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","bam.nr-data.net","9c982650b0","3030956","dw1dFkpbWQoAQU1cW1kHHAtWUFAe",0,6,new Date().getTime(),"","","","",""]);}</script></body>
+  <script src="http://assets.csnipp.com/assets/application_front-2523e06adc3fc1211af8ddddf38c2453.js"></script>
+  <script type="text/javascript">var sc_project=9355230;var sc_invisible=1;var sc_security="837ba5c6";var scJsHost=(("https:"==document.location.protocol)?"https://secure.":"http://www.");document.write("<sc"+"ript type='text/javascript' src='"+scJsHost+"statcounter.com/counter/counter.js'></"+"script>");</script><noscript><div class="statcounter"><a href="http://statcounter.com/" target="_blank" title="web analytics"><img alt="web analytics" class="statcounter" src="http://c.statcounter.com/9355230/0/837ba5c6/1/"/></a></div></noscript><!--End of StatCounter Code for Default Guide-->
+  <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-45021068-1','csnipp.com');ga('send','pageview');</script>
+  <script>UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/gXD6USY8RTiLTv5zxJ1wA.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();UserVoice.push(['set',{accent_color:'#448dd6',trigger_color:'white',trigger_background_color:'#e23a39'}]);UserVoice.push(['identify',{}]);UserVoice.push(['addTrigger',{mode:'contact',trigger_position:'bottom-right'}]);UserVoice.push(['autoprompt',{}]);</script>
+</html>

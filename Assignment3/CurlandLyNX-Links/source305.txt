@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en-us"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <!-- www.phpied.com/conditional-comments-block-downloads/ -->
+    <!-- Always force latest IE rendering engine
+         (even in intranet) & Chrome Frame
+         Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--  Mobile Viewport Fix
+          j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
+          device-width: Occupy full width of the screen in its current orientation
+          initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+          user-scalable = yes allows the user to zoom in -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServersQuestions.com</title>
+    <!-- http://dev.w3.org/html5/markup/meta.name.html -->
+    <meta name="application-name" content="sq">
+    <!-- Speaking of Google, don't forget to set your site up:
+         http://google.com/webmasters -->
+    <meta name="google-site-verification" content="">
+    <!-- include stylesheets -->
+    <link rel="stylesheet" href="/sq/static/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/sq/static/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="/sq/static/css/web2py-bootstrap3.css"/>
+    <link rel="shortcut icon" href="/sq/static/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/sq/static/images/favicon.png">
+    <!-- All JavaScript at the bottom, except for Modernizr which enables
+         HTML5 elements & feature detects -->
+    <script src="/sq/static/js/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="/sq/static/js/respond-1.4.2.min.js"></script>
+        <![endif]-->
+    <!-- Favicons -->
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_disable_with_message = "Working...";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    var ajax_error_500 = 'An error occured, please <a href="/sq/questions/index/1">reload</a> the page'
+    //--></script>
+
+<meta name="keywords" content="servers,questions,answers,technology,sccm,linux,scom,systemcenter,NAS,SAN,storage,FibreChannel,routers,switches,script,programming,configuration,cisco,dell,avaya,security,hacking,cracking" />
+<meta name="description" content="The easiest, richest and most versatile tech questions and answers site on the web!" />
+<meta name="generator" content="Hooks Web Framework" />
+<meta name="author" content="Servers Questions &lt;servers.questions@gmail.com&gt;" />
+<script src="/sq/static/js/jquery.js" type="text/javascript"></script><link href="/sq/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/sq/static/js/calendar.js" type="text/javascript"></script><script src="/sq/static/js/web2py.js" type="text/javascript"></script>
+ <!-- this includes jquery.js, calendar.js/.css and web2py.js -->
+    
+    
+      <meta name="msvalidate.01" content="21A0E190E6FCC3E9BCB47CB5E1400C2C" />
+  </head>
+  <body>
+    <!--[if lt IE 8]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+    <div class="flash alert alert-dismissable"></div>
+    <!-- Navbar ======================================= -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://www.serversquestions.com/" id="web2py-logo"><img alt="servers-questions-logo" src="/sq/static/images/sq.png" style="height:50px; width:auto;" /></a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" rel="nofollow">Log In</a><ul class="dropdown-menu"><li><a href="/sq/default/user/register?_next=/sq/questions/index/1" rel="nofollow"><i class="icon icon-user glyphicon glyphicon-user"></i> Sign Up</a></li><li><a href="/sq/default/user/request_reset_password?_next=/sq/questions/index/1" rel="nofollow"><i class="icon icon-lock glyphicon glyphicon-lock"></i> Lost password?</a></li><li class="divider"></li><li><a href="/sq/default/user/login?_next=/sq/questions/index/1" rel="nofollow"><i class="icon icon-off glyphicon glyphicon-off"></i> Log In</a></li></ul></li>
+          </ul>
+          
+          <ul class="nav navbar-nav"><li class="web2py-menu-first"><a href="/sq/questions/index">Home</a></li></ul>
+          
+        </div>
+      </div>
+    </nav>
+    <!-- Masthead ===================================== -->    
+    
+ <header class="container-fluid" style="background-image:url('http://serversquestions.com/sq/static/images/server_room.jpg')">
+      <div class="jumbotron text-center">
+        
+            <h1>Servers Questions
+          </h1>
+          <h3>
+              <font color="white">The easiet tech Q&amp;A site, EVER!</font> </h3>
+        
+      </div>
+    </header>
+
+
+    <!-- Main ========================================= -->
+    <!-- Begin page content -->
+    <div class="container-fluid main-container">
+      
+
+      <div class="col-md-12">
+        
+        
+
+
+
+
+
+
+
+<center>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Question Title</th>
+            <th>Posted On</th>
+        </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211050" > Filtering even ip address from a router </a></td>
+            <td>2016-01-01 08:21:09(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211049" > Is SRS rewriting absolutely necessary for a forwarding mailserver? </a></td>
+            <td>2016-01-01 06:59:39(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211048" > Automatically assuming master for several zone files </a></td>
+            <td>2015-12-31 23:56:28(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211047" > Mysql master-slave replication very slow </a></td>
+            <td>2015-12-31 22:53:45(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211046" > Dealing with server overload bursts?  </a></td>
+            <td>2015-12-31 22:50:09(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211045" > apache redmine getting directory listing on /redmine </a></td>
+            <td>2015-12-31 21:45:44(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211044" > Force at to email effective user instead of logged in user </a></td>
+            <td>2015-12-31 20:27:24(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211043" > Reset GID/UID auto-increment numbers </a></td>
+            <td>2015-12-31 20:03:17(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211042" > Firebird Backups Failing with Two Installations on Windows </a></td>
+            <td>2015-12-31 19:37:55(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211041" > Docker no space left on device  </a></td>
+            <td>2015-12-31 19:33:54(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211040" > SiteMinder web agent freeze with apached 2.4 (32bit) on Windows 2012 64 </a></td>
+            <td>2015-12-31 19:21:16(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211039" > Getting &quot;ssh_exchange_identification: read: Connection reset by peer&quot; when trying to SSH a remote Ubuntu server </a></td>
+            <td>2015-12-31 19:02:54(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211038" > Is it possible to use Kerberos over TLS through sssd? </a></td>
+            <td>2015-12-31 18:55:09(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211037" > How do I connect a disk array?  </a></td>
+            <td>2015-12-31 18:46:30(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211036" > Notifications from Nagios4 to Telegram </a></td>
+            <td>2015-12-31 18:19:17(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211035" > Removed cluster disk that wouldn&#x27;t come online, now it wants to be formatted. Can I recover the data? </a></td>
+            <td>2015-12-31 18:05:33(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211034" > Reusable scope in windows firewall </a></td>
+            <td>2015-12-31 17:59:37(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211033" > View custom selinux policies </a></td>
+            <td>2015-12-31 17:38:57(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211032" > Apache piped logging failing </a></td>
+            <td>2015-12-31 17:28:46(GMT)</td>
+        </tr>
+    
+        <tr>
+            <td><a href="/sq/questions/./view/211031" > nginx, redirection http to https not working as expected </a></td>
+            <td>2015-12-31 17:24:35(GMT)</td>
+        </tr>
+    
+    </tbody>
+</table>
+
+
+    <a rel="next" href="/sq/questions/./index/2" class="btn btn-sm btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;Next Page&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-right"></span></a>  <br />
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- app -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6767420583500113"
+     data-ad-slot="1808071987"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    
+<!-- <script type='text/javascript' src='//eclkmpbn.com/adServe/banners?tid=82391_132711_3&type=footer&size=728x90'></script> -->
+    </center>
+
+        
+      </div>
+
+      
+
+    </div>
+
+     <!-- this is default footer -->      
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="copyright pull-left">&#169; 2016 ServersQuestions.com</div>
+         
+      </div>
+    </footer>
+    
+    <!-- The javascript =============================== -->
+    <script src="/sq/static/js/bootstrap.min.js"></script>
+    <script src="/sq/static/js/web2py-bootstrap3.js"></script>
+    
+    
+    <!-- Analytics ==================================== -->
+  <!-- <script src="/sq/static/js/analytics.min.js"></script>
+    <script type="text/javascript">
+      analytics.initialize({
+      'Google Analytics':{trackingId:'UA-69454567-1'}
+      });
+    </script> -->
+      
+      
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69454567-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+      
+      
+    
+      
+   
+      
+    <!-- Share ============================y============ -->
+    <script src="/sq/static/js/share.js?static=%2Fsq%2Fstatic%2Fimages"></script>
+  </body>
+</html>

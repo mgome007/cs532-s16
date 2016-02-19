@@ -1,0 +1,390 @@
+                   Thursday, 2016 February 18, 19:12:10
+                               Welcome Guest
+                                             You're Using:
+                                             Version App:
+                                        You're IP: 128.82.4.182
+
+
+             н`ραηтзгα нσмз ѕίтз
+
+               [1]Home | [2]Registration | [3]Login | [4]RSS
+
+
+                            Site menu
+                              * [5]Home
+                              * [6]About
+                              * [7]News
+                              * [8]Download
+                              * [9]Articles
+                              * [10]Blog
+                              * [11]Forum
+                              * [12]Image
+                              * [13]Guestbook
+                              * [14]Contact Us
+                              * [15]Site Catalog
+                              * [16]FAQ
+                              * [17]Ad Board
+                              * [18]Online games
+
+
+                    Our poll
+                    Rate my site
+                    (*) Excellent
+                    ( ) Good
+                    ( ) Not bad
+                    ( ) Bad
+                    ( ) Awful
+
+                                                     Rate
+
+                    [ [19]Results · [20]Polls archive ]
+                    Total of answers: 51
+
+                   [21]free counters [22]Get our toolbar!
+
+   [ [23]Add news entry ]
+
+
+   [24]rsyslog
+   rsyslog 7.4.7 stable released!
+   Author: Rainer Gerhards
+   Rsyslog is an enhanced syslogd supporting, among others, MySQL,
+   PostgreSQL, failover log destinations, syslog/tcp, fine grain output
+   format control, high precision timestamps, queued operations and the
+   ability to filter on any message part. It is quite compatible to stock
+   sysklogd and can be used as a drop-in replacement. Its advanced
+   features make it suitable for enterprise-class, encryption protected
+   syslog relay chains while at the same time being very easy to setup for
+   the novice user. And as we know what enterprise users really need,
+   there are also rsyslog professional services available directly from
+   the source!
+   Changelog for 7.4.7 stable:
+
+     √ bugfix: limiting queue disk space did not work properly
+               » queue.maxdiskspace actually initializes
+     queue.maxfilesize
+        &... [25]Read more »
+
+     *
+
+   Views: 25563 | Added by: [26]immortal | Date: 2013 December 18 |
+   [27]Comments (0)
+      [28]Qt
+      Qt 5.2 released!
+      Author: Digia plc
+      Qt ("cute”) is a leading cross-platform application and UI development
+      framework for leading desktop, embedded and mobile operating systems.
+      Qt uses standard C++ and is widely used for developing software
+      applications with a GUI and also for developing non-GUI applications
+      with features such as file handling, database access, XML parsing,
+      thread management and network support.
+      Qt’s powerful full-framework capabilities allows for the creation of
+      highly-performing native applications as well as for hybrid development
+      where the developer can choose which tools provide the best user
+      experience.
+      New Features:
+        * Qt Core [doc-snapshot.qt-project.org]
+
+        * Added class QCommandLineParser for command-line arguments parsing
+        * Added new overload to QObject::connect() to add a context object
+          when connecting to a lambda
+        * Added new QStringRef methods; ... [29]Read more »
+             +
+          Views: 2535 | Added by: [30]immortal | Date: 2013 December 14 |
+          [31]Comments (0)
+
+
+   [32]KShutdown
+
+   KShutdown 3.1 Beta released!
+   Author: Konrad Twardowski
+   KShutdown is a graphical shutdown utility for Linux and Windows. It
+   allows you to turn off or suspend a computer at a specified time. It
+   features various time and delay options, command-line support, and
+   notifications.
+   Features:
+               » Turn Off Computer, Restart
+               » Hibernate, Suspend
+               » Lock Screen, Logout
+               » Detect user inactivity/application exit
+               » Command-line support
+               » Portable version for Windows
+   ... [33]Read more »
+
+          +
+
+   Views: 754 | Added by: [34]immortal | Date: 2013 December 13 |
+   [35]Comments (0)
+
+
+   [36]Metawidget
+
+   Metawidget 3.7 released!
+   Author: Kennard Consulting
+   Metawidget is a smart User Interface widget that populates itself, at
+   runtime, with UI components to match the properties of your business
+   objects. Supports Swing, Java Server Faces (JSF), GWT, Spring, Struts,
+   Android, Hibernate, Groovy, JPA and more.
+   Features:
+               » inspects existing back-end architectures (many supported)
+               » creates widgets for slotting into existing UI frameworks
+   (many supported)
+               » generates UIs either statically or at runtime
+   Metawidget r... [37]Read more »
+
+          +
+
+   Views: 684 | Added by: [38]immortal | Date: 2013 December 13 |
+   [39]Comments (0)
+
+
+   [40]Polarity Browser
+
+   Polarity Browser
+   Author: Stan Lim
+   Scores on HTML5
+   Polarity is a web browser that uses Chromium thanks to Awesomium. This
+   browser was also programmed to be optimized for Windows. Browse the web
+   with an uncomplicated UI and a well rounded engine. All credit has been
+   given in the about dialog.
+   Features:
+          + Ad Blocker
+          + Web Filter
+          + Garbage Collector greatly reducing memory usage.
+          + Crash Recovery
+          + Built in Translator
+          + Themes
+          + Voice Recognition
+          + Dual Engine browsing.
+          + Hardware Acceleration
+          + Native WebGL support.
+          + Live Search results.
+
+   [41]Homepage
+   [42]Download
+          +
+
+   Views: 796 | Added by: [43]arthaz | Date: 2013 December 11 |
+   [44]Comments (0)
+
+
+      [45]CyberDragon Browser
+
+      CyberDragon Browser 1.5.4 released!
+      Author: Stefan Froberg
+      CDB1.5.4 tabs support
+      CyberDragon Browser is an privacy enhanced browser that protects your
+      surfing habits.
+      Still in early beta but the following features have been implemented:
+             + Tracker blocker. It will block over 6000 various trackers from
+               following your daily surfing habits.Later version will allow
+               user defined tracker blocker rules that can be
+               exported/imported and also automatic master tracker blocker
+               file updater to always keep your surfing data safe from bad
+               guys.
+
+             + Very strict, zero-tolerance cookie control. By default, only
+               session cookies that have Secure and HttpOnly cookie
+               attributes set are allowed. Also, all 3rd party cookies are
+               blocked by default. Later version will have ability to define
+               site specific cookie rules to override these global settings.
+
+             + Proxy fetcher. Will allow you to f... [46]Read more »
+                  o
+               Views: 790 | Added by: [47]arthaz | Date: 2013 December 11 |
+               [48]Comments (0)
+
+
+   [49]OrientDB
+
+   OrientDB 1.6.2 released!
+   Author: Luca Garulli
+   OrientDB is a new Open Source NoSQL DBMS born with the best features of
+   all the others.
+   Changelog:
+               o SBTree: new index engine with the support for
+                 transactions and range queries
+               o Hotfixes against 1.6.1
+
+   [50]Homepage
+   [51]Download
+               o
+
+   Views: 601 | Added by: [52]harry | Date: 2013 December 10 |
+   [53]Comments (0)
+
+
+   [54]Samba
+
+   Samba 4.1.3 stable released!
+   Author: Andrew Tridgell
+   Samba is software that can be run on a platform other than Microsoft
+   Windows, for example, UNIX, Linux, IBM System 390, OpenVMS, and other
+   operating systems. Samba uses the TCP/IP protocol that is installed on
+   the host server. When correctly configured, it allows that host to
+   interact with a Microsoft Windows client or server as if it is a
+   Windows file and print server.
+   [55]Homepage
+   [56]Download
+
+               o
+
+   Views: 487 | Added by: [57]harry | Date: 2013 December 10 |
+   [58]Comments (0)
+
+
+   [59]HotShots
+
+   HotShots 2.0.0 released!
+   Author: xbee
+   HotShots - Main
+   HotShots is an application for capturing screens and saving them in a
+   variety of image formats as well as adding annotations and graphical
+   data (arrows, lines, texts, etc).
+   OS: Windows, FreeBSD & Linux.
+   [60]Homepage
+   [61]Download
+
+               o
+
+   Views: 401 | Added by: [62]harry | Date: 2013 December 09 |
+   [63]Comments (0)
+
+
+   [64]WebIssues
+
+   WebIssues 1.1.1 released!
+   Author: Michał Męciński
+   WebIssues is an open source, multi-platform system for issue tracking
+   and team collaboration. It can be used to store, share and track issues
+   with various attributes, description, comments and file attachments. It
+   is easy to install and use but has many capabilities and is highly
+   customizable.
+   Features:
+               o The Desktop Client application can run natively on
+                 Windows, Linux and OS X
+               o The Web Client can be used to access the system using a
+                 web browser
+               o ... [65]Read more »
+                    #
+                 Views: 526 | Added by: [66]harry | Date: 2013 December 06
+                 | [67]Comments (0)
+
+                    1 [68]2 [69]3 ... [70]7 [71]8 [72]»
+
+
+   News calendar
+
+     [73]«  [74]February 2016  [75]»
+   Su Mo Tu We Th Fr         Sa
+      1  2  3  4  5          6
+   7  8  9  10 11 12         13
+   14 15 16 17 18 19         20
+   21 22 23 24 25 26         27
+   28 29
+
+
+   Search
+
+                            ____________________
+
+                                   Search
+
+
+   Site friends
+     # [76]Register your site
+
+
+   Statistics
+   [77]Locations of visitors to this page
+               o [78]Feedjit Live Blog Stats
+               o
+
+
+                 Copyright ImmortalCorp@ucoz © 2016
+
+References
+
+   Visible links
+   1. http://immortal.ucoz.com/
+   2. file:///index/3
+   3. javascript:///
+   4. http://immortal.ucoz.com/news/rss/
+   5. http://immortal.ucoz.com/
+   6. http://immortal.ucoz.com/index/0-2
+   7. http://immortal.ucoz.com/news/
+   8. http://immortal.ucoz.com/load/
+   9. http://immortal.ucoz.com/publ/
+  10. http://immortal.ucoz.com/blog/
+  11. http://immortal.ucoz.com/forum/
+  12. http://immortal.ucoz.com/photo/
+  13. http://immortal.ucoz.com/gb/
+  14. http://immortal.ucoz.com/index/0-3
+  15. http://immortal.ucoz.com/dir/
+  16. http://immortal.ucoz.com/faq/
+  17. http://immortal.ucoz.com/board/
+  18. http://immortal.ucoz.com/stuff/
+  19. javascript:///
+  20. javascript:///
+  21. http://s02.flagcounter.com/more/d6Lt
+  22. https://s3.amazonaws.com/com.alexa.toolbar/atbp/AazPw7/download/index.htm
+  23. file:///home/mgomez/CS432/A3/source226.txt
+  24. http://immortal.ucoz.com/news/rsyslog/2013-12-18-74
+  25. http://immortal.ucoz.com/news/rsyslog/2013-12-18-74
+  26. javascript:///
+  27. http://immortal.ucoz.com/news/rsyslog/2013-12-18-74#comments
+  28. http://immortal.ucoz.com/news/qt/2013-12-14-73
+  29. http://immortal.ucoz.com/news/qt/2013-12-14-73
+  30. javascript:///
+  31. http://immortal.ucoz.com/news/qt/2013-12-14-73#comments
+  32. http://immortal.ucoz.com/news/kshutdown/2013-12-14-72
+  33. http://immortal.ucoz.com/news/kshutdown/2013-12-14-72
+  34. javascript:///
+  35. http://immortal.ucoz.com/news/kshutdown/2013-12-14-72#comments
+  36. http://immortal.ucoz.com/news/metawidget/2013-12-14-71
+  37. http://immortal.ucoz.com/news/metawidget/2013-12-14-71
+  38. javascript:///
+  39. http://immortal.ucoz.com/news/metawidget/2013-12-14-71#comments
+  40. http://immortal.ucoz.com/news/polarity_browser/2013-12-11-70
+  41. http://u.to/89tQBQ
+  42. http://u.to/8ttQBQ
+  43. javascript:///
+  44. http://immortal.ucoz.com/news/polarity_browser/2013-12-11-70#comments
+  45. http://immortal.ucoz.com/news/cyberdragon_browser/2013-12-11-69
+  46. http://immortal.ucoz.com/news/cyberdragon_browser/2013-12-11-69
+  47. javascript:///
+  48. http://immortal.ucoz.com/news/cyberdragon_browser/2013-12-11-69#comments
+  49. http://immortal.ucoz.com/news/orientdb/2013-12-10-68
+  50. http://www.orientdb.org/
+  51. http://www.orientdb.org/download.htm
+  52. javascript:///
+  53. http://immortal.ucoz.com/news/orientdb/2013-12-10-68#comments
+  54. http://immortal.ucoz.com/news/samba/2013-12-10-67
+  55. http://www.samba.org/samba/
+  56. http://http://www.samba.org/samba/ftp/stable/samba-4.1.3.tar.gz
+  57. javascript:///
+  58. http://immortal.ucoz.com/news/samba/2013-12-10-67#comments
+  59. http://immortal.ucoz.com/news/hotshots/2013-12-10-66
+  60. http://thehive.xbee.net/index.php?module=pages&func=display&pageid=31
+  61. http://sourceforge.net/projects/hotshots/files/2.0.0/
+  62. javascript:///
+  63. http://immortal.ucoz.com/news/hotshots/2013-12-10-66#comments
+  64. http://immortal.ucoz.com/news/webissues/2013-12-06-65
+  65. http://immortal.ucoz.com/news/webissues/2013-12-06-65
+  66. javascript:///
+  67. http://immortal.ucoz.com/news/webissues/2013-12-06-65#comments
+  68. file:///news/?page2
+  69. file:///news/?page3
+  70. file:///news/?page7
+  71. file:///news/?page8
+  72. file:///news/?page2
+  73. javascript:///
+  74. javascript:///
+  75. javascript:///
+  76. http://www.ucoz.com/
+  77. http://www4.clustrmaps.com/counter/maps.php?url=http://immortal.ucoz.com
+  78. http://feedjit.com/
+
+   Hidden links:
+  80. http://immortal.ucoz.com/panel/?a=ustat;u=immortal;d=d;il=en
+  81. http://www.ucoz.com/

@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+	ITP Alumni Association</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://itpalumni.org/xmlrpc.php" />
+<meta name='robots' content='noindex,follow' />
+<link rel="alternate" type="application/rss+xml" title="ITP Alumni Association &raquo; Feed" href="http://itpalumni.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ITP Alumni Association &raquo; Comments Feed" href="http://itpalumni.org/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/itpalumni.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dls-sus-style-css'  href='http://itpalumni.org/wp-content/plugins/sign-up-sheets/css/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mailchimp-for-wp-checkbox-css'  href='http://itpalumni.org/wp-content/plugins/mailchimp-for-wp/assets/css/checkbox.min.css?ver=2.2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='spacious_style-css'  href='http://itpalumni.org/wp-content/themes/spacious-pro/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='spacious_googlefonts-css'  href='http://fonts.googleapis.com/css?family=Lato&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mailchimp-for-wp-form-css'  href='http://itpalumni.org/wp-content/plugins/mailchimp-for-wp/assets/css/form.min.css?ver=2.2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='sccss_style-css'  href='http://itpalumni.org?sccss=1&#038;ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://itpalumni.org/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://itpalumni.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://itpalumni.org/wp-content/themes/spacious-pro/js/spacious-custom.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://itpalumni.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://itpalumni.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://itpalumni.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel="canonical" href="http://itpalumni.org/" />
+<link rel='shortlink' href='http://itpalumni.org/' />
+
+<!-- BEGIN GADWP v4.5.1 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60847682-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- END GADWP Universal Tracking -->
+
+		<style type="text/css"> blockquote { border-left: 3px solid #553290; }
+			.spacious-button, input[type="reset"], input[type="button"], input[type="submit"], button { background-color: #553290; }
+			.previous a:hover, .next a:hover { 	color: #553290; }
+			a { color: #553290; }
+			#site-title a:hover { color: #553290; }
+			.main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a { color: #553290; }
+			.main-navigation ul li ul { border-top: 1px solid #553290; }
+			.main-navigation ul li ul li a:hover, .main-navigation ul li ul li:hover > a, .main-navigation ul li.current-menu-item ul li a:hover { color: #553290; }
+			.site-header .menu-toggle:hover { background: #553290; }
+			.main-small-navigation li:hover { background: #553290; }
+			.main-small-navigation ul > .current_page_item, .main-small-navigation ul > .current-menu-item { background: #553290; }
+			.main-navigation a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a  { color: #553290; }
+			.small-menu a:hover, .small-menu ul li.current-menu-item a, .small-menu ul li.current_page_ancestor a, .small-menu ul li.current-menu-ancestor a, .small-menu ul li.current_page_item a, .small-menu ul li:hover > a { color: #553290; }
+			#featured-slider .slider-read-more-button { background-color: #553290; }
+			#controllers a:hover, #controllers a.active { background-color: #553290; color: #553290; }
+			.breadcrumb a:hover { color: #553290; }
+			.tg-one-half .widget-title a:hover, .tg-one-third .widget-title a:hover, .tg-one-fourth .widget-title a:hover { color: #553290; }
+			.pagination span { background-color: #553290; }
+			.pagination a span:hover { color: #553290; border-color: .#553290; }
+			.widget_testimonial .testimonial-post { border-color: #553290 #EAEAEA #EAEAEA #EAEAEA; }
+			.call-to-action-content-wrapper { border-color: #EAEAEA #EAEAEA #EAEAEA #553290; }
+			.call-to-action-button { background-color: #553290; }
+			#content .comments-area a.comment-permalink:hover { color: #553290; }
+			.comments-area .comment-author-link a:hover { color: #553290; }
+			.comments-area .comment-author-link span { background-color: #553290; }
+			.comment .comment-reply-link:hover { color: #553290; }
+			.nav-previous a:hover, .nav-next a:hover { color: #553290; }
+			#wp-calendar #today { color: #553290; }
+			.widget-title span { border-bottom: 2px solid #553290; }
+			.footer-widgets-area a:hover { color: #553290 !important; }
+			.footer-socket-wrapper .copyright a:hover { color: #553290; }
+			a#back-top:before { background-color: #553290; }
+			.read-more, .more-link { color: #553290; }
+			.post .entry-title a:hover, .page .entry-title a:hover { color: #553290; }
+			.entry-meta .read-more-link { background-color: #553290; }
+			.entry-meta a:hover, .type-page .entry-meta a:hover { color: #553290; }
+			.single #content .tags a:hover { color: #553290; }
+			.widget_testimonial .testimonial-icon:before { color: #553290; }
+			a#scroll-up { background-color: #553290; }
+			#search-form span { background-color: #553290; }
+			.widget_featured_posts .tg-one-half .entry-title a:hover { color: #553290; }
+			.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button { background-color: #553290; }
+			.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover,.woocommerce #respond input#submit:hover,.woocommerce #content input.button:hover,.woocommerce-page a.button:hover,.woocommerce-page button.button:hover,.woocommerce-page input.button:hover,.woocommerce-page #respond input#submit:hover,.woocommerce-page #content input.button:hover { background-color: #553290; }
+			#content .wp-pagenavi .current, #content .wp-pagenavi a:hover { background-color: #553290; } #featured-slider .slider-read-more-button { background-color: #553290; } .entry-meta a, .type-page .entry-meta a { color: #999999; } .entry-meta .read-more-link { background-color: #553290; } .read-more, .more-link { color: #553290; } .call-to-action-button  { background-color: #553290; }</style>
+			<style type="text/css">
+			#site-title,
+		#site-description {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<style type="text/css">.mc4wp-form input[name="_mc4wp_required_but_not_really"] { display: none !important; }</style></head>
+
+<body class="home page page-id-2 page-template-default ">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header clearfix">
+
+					<div id="header-meta" class="clearfix">
+				<div class="inner-wrap">
+						<div class="social-links clearfix">
+		<ul>
+		<li class="spacious-facebook"><a href="https://www.facebook.com/groups/409737989147331/"></a></li><li class="spacious-twitter"><a href="https://twitter.com/itpalumni"target="_blank"></a></li><li class="spacious-flickr"><a href="https://www.flickr.com/photos/129165284@N05/"target="_blank"></a></li><li class="spacious-youtube"><a href="https://www.youtube.com/channel/UCN3b1CO7LR6BMgpvMctU7iA"></a></li>				
+		</ul>
+	</div><!-- .social-links -->
+						<nav class="small-menu" class="clearfix">
+							    			</nav>
+				</div>
+			</div>
+				
+		 
+
+		<div id="header-text-nav-container">
+			<div class="inner-wrap">
+				
+				<div id="header-text-nav-wrap" class="clearfix">
+					<div id="header-left-section">
+													<div id="header-logo-image">
+								<a href="http://itpalumni.org/" title="ITP Alumni Association" rel="home"><img src="http://itpalumni.org/wp-content/uploads/2014/09/ITPAALogo4.png" alt="ITP Alumni Association"></a>
+							</div><!-- #header-logo-image -->
+											</div><!-- #header-left-section -->
+					<div id="header-right-section">
+												<nav id="site-navigation" class="main-navigation" role="navigation">
+							<h1 class="menu-toggle">Menu</h1>
+							<div class="menu-itpaa-container"><ul id="menu-itpaa" class="menu"><li id="menu-item-349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349"><a href="http://itpalumni.org/itpers-in-the-news/">ITPers in the News</a></li>
+<li id="menu-item-354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-354"><a href="http://itpalumni.org/board-members/">Board Members</a></li>
+<li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-169"><a href="http://itpalumni.org/events/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="http://itpalumni.org/events/itp-35/">ITP 35</a></li>
+	<li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="http://itpalumni.org/events/2014-hackathon/">Hackathon 2014</a></li>
+	<li id="menu-item-298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298"><a href="http://itpalumni.org/events/town-hall-2013/">Town Hall 2013</a></li>
+	<li id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177"><a href="http://itpalumni.org/2013-picnic/">Picnic 2013</a></li>
+</ul>
+</li>
+</ul></div>						</nav>					
+			    	</div><!-- #header-right-section --> 
+			    	
+			   </div><!-- #header-text-nav-wrap -->
+			</div><!-- .inner-wrap -->
+		</div><!-- #header-text-nav-container -->
+
+		
+				<section id="featured-slider">
+			<div class="slider-cycle">
+										<div class="slides displayblock">
+							<figure>
+								<img alt="35 ITP Fest" src="http://itpalumni.org/wp-content/uploads/2014/09/Spring03.jpg">
+							</figure>
+							<div class="entry-container">
+																<div class="entry-description-container">
+									<div class="slider-title-head"><h3 class="entry-title"><a href="http://itpalumni.org/events/itp-35/" title="35 ITP Fest"><span>35 ITP Fest</span></a></h3></div>
+									<div class="entry-content"><p>This winter we’re celebrating the 35th anniversary of ITP in style!
+For 35 years the ITP body has impacted the world with creativity and technology...</p></div>
+								</div>
+																<div class="clearfix"></div>
+																<a class="slider-read-more-button" href="http://itpalumni.org/events/itp-35/" title="35 ITP Fest">35 ITP Fest >></a>
+															</div>
+						</div>
+												<div class="slides displaynone">
+							<figure>
+								<img alt="Hackathon 2014" src="http://itpalumni.org/wp-content/uploads/2014/08/cropped-Screen-Shot-2014-08-05-at-1.28.36-AM1.png">
+							</figure>
+							<div class="entry-container">
+																<div class="entry-description-container">
+									<div class="slider-title-head"><h3 class="entry-title"><a href="http://itpalumni.org/events/2014-hackathon/" title="Hackathon 2014"><span>Hackathon 2014</span></a></h3></div>
+									<div class="entry-content"><p>In March of of this year, alums gathered together on the 4th floor to try to tackle the problem of how to better connect alumni...</p></div>
+								</div>
+																<div class="clearfix"></div>
+																<a class="slider-read-more-button" href="http://itpalumni.org/events/2014-hackathon/" title="Hackathon 2014">Hackathon 2014 >></a>
+															</div>
+						</div>
+												<div class="slides displaynone">
+							<figure>
+								<img alt="Town Hall 2013" src="http://itpalumni.org/wp-content/uploads/2014/08/cropped-cropped-tumblr_mnl6vgtwx51stuey6o1_1280.jpg">
+							</figure>
+							<div class="entry-container">
+																<div class="entry-description-container">
+									<div class="slider-title-head"><h3 class="entry-title"><a href="http://itpalumni.org/town-hall-2013/" title="Town Hall 2013"><span>Town Hall 2013</span></a></h3></div>
+									<div class="entry-content"><p>ITPAA serves alumni and the graduate program itself by providing a bridge between the academic and professional
+worlds...</p></div>
+								</div>
+																<div class="clearfix"></div>
+																<a class="slider-read-more-button" href="http://itpalumni.org/town-hall-2013/" title="Town Hall 2013">Town Hall 2013 >></a>
+															</div>
+						</div>
+												<div class="slides displaynone">
+							<figure>
+								<img alt="35 ITP fest" src="http://itpalumni.org/wp-content/uploads/2014/09/Fall12.jpg">
+							</figure>
+							<div class="entry-container">
+																<div class="entry-description-container">
+									<div class="slider-title-head"><h3 class="entry-title"><a href="http://itpalumni.org/events/itp-35/" title="35 ITP fest"><span>35 ITP fest</span></a></h3></div>
+									<div class="entry-content"><p>This winter we’re celebrating the 35th anniversary of ITP in style!
+For 35 years the ITP body has impacted the world with creativity and technology...
+</p></div>
+								</div>
+																<div class="clearfix"></div>
+																<a class="slider-read-more-button" href="http://itpalumni.org/events/itp-35/" title="35 ITP fest">35 ITP Fest >></a>
+															</div>
+						</div>
+												<div class="slides displaynone">
+							<figure>
+								<img alt="Hackathon 2014" src="http://itpalumni.org/wp-content/uploads/2014/08/cropped-tumblr_mnl2qv0izK1stuey6o1_12801.jpg">
+							</figure>
+							<div class="entry-container">
+																<div class="entry-description-container">
+									<div class="slider-title-head"><h3 class="entry-title"><a href="http://itpalumni.org/events/2014-hackathon/" title="Hackathon 2014"><span>Hackathon 2014</span></a></h3></div>
+									<div class="entry-content"><p>In March of of this year, alums gathered together on the 4th floor to try to tackle the problem of how to better connect alumni...</p></div>
+								</div>
+																<div class="clearfix"></div>
+																<a class="slider-read-more-button" href="http://itpalumni.org/events/2014-hackathon/" title="Hackathon 2014">Hackathon 2014 >></a>
+															</div>
+						</div>
+									</div>
+			<nav id="controllers" class="clearfix"></nav>
+		</section>
+
+			</header>
+			<div id="main" class="clearfix">
+		<div class="inner-wrap">
+	
+	<div id="primary">
+		<div id="content" class="clearfix">
+			
+				
+<article id="post-2" class="post-2 page type-page status-publish hentry">
+		<div class="entry-content clearfix">
+		<h2>Alumni Profile: Ben Kaufmann, Class of 2014</h2>
+<p><a href="http://itpalumni.org/alumni-focus/ben-kauffman/"><img class="alignnone wp-image-502 size-medium" src="http://itpalumni.org/wp-content/uploads/2015/06/BKauffman-236x300.png" alt="" width="236" height="300" /></a><br />
+<a href="http://itpalumni.org/alumni-focus/ben-kauffman/">Read More</a></p>
+<h2>Alumni Profile &#8211; Artur Maklyarevsky, Class of 1997</h2>
+<p><a href="http://itpalumni.org/alumni-focus/artur-maklyarevsky/"><img class="alignnone wp-image-477 size-full" src="http://itpalumni.org/wp-content/uploads/2015/04/me-circle-anime.png" alt="" width="228" height="228" srcset="http://itpalumni.org/wp-content/uploads/2015/04/me-circle-anime-150x150.png 150w, http://itpalumni.org/wp-content/uploads/2015/04/me-circle-anime.png 228w" sizes="(max-width: 228px) 100vw, 228px" /></a><br />
+<a href="http://itpalumni.org/alumni-focus/artur-maklyarevsky/">Read More</a></p>
+<h2>Alumni Profile &#8211; Sonia Li, Class of 2013</h2>
+<p><a href="http://itpalumni.org/alumni-focus/alumni-profile-sonia-li/"><img class="alignnone wp-image-466 size-medium" src="http://itpalumni.org/wp-content/uploads/2015/03/unnamed-169x300.jpg" alt="" width="169" height="300" srcset="http://itpalumni.org/wp-content/uploads/2015/03/unnamed-169x300.jpg 169w, http://itpalumni.org/wp-content/uploads/2015/03/unnamed.jpg 203w" sizes="(max-width: 169px) 100vw, 169px" /></a><br />
+<a href="http://itpalumni.org/alumni-focus/alumni-profile-sonia-li/">Read More</a></p>
+<h2>Alumni Focus &#8211; Lina Maria Giraldo, Class of 2010</h2>
+<p><a href="http://itpalumni.org/alumni-focus/alumni-profile-lina-maria-giraldo-10/"><img class="alignnone wp-image-449 size-medium" src="http://itpalumni.org/wp-content/uploads/2015/03/Lina_web2-300x199.jpg" alt="Lina_web" width="300" height="199" /></a><br />
+<a title="Alumni Profile - Lina Maria Giraldo, Class of 2010" href="http://itpalumni.org/alumni-focus/alumni-profile-lina-maria-giraldo-10/">Read More</a></p>
+<h2>Alumni Focus &#8211; Mike Rosenthal, Class of 2009</h2>
+<p><a href="http://itpalumni.org/alumni-focus/mike-rosenthal/"><img class="alignnone size-medium wp-image-407" src="http://itpalumni.org/wp-content/uploads/2015/03/mike_headshot2-225x300.jpg" alt="mike_headshot2" width="225" height="300" /></a></p>
+<p><a href="http://itpalumni.org/alumni-focus/mike-rosenthal">Read More<br />
+</a></p>
+<h2>The ITP Alumni Association invites you to ITP$$$ (Money, Money, Money)</h2>
+<p>A day-long event to keep it 100% about debt, raising money for your projects, and other financial matters.</p>
+<p>We will have guest speakers talk about issues like debt consolidation and creative ways to fund your post-ITP startup or creative project.<br />
+<span class="aBn" tabindex="0" data-term="goog_2069556866"><span class="aQJ"><br />
+11 am &#8211; 6 pm</span></span> (Happy Hour afterwards!)</p>
+<p><a href="https://www.eventbrite.com/e/itp-tickets-15886345487">Register here</a></p>
+<h2>Alumni Focus &#8211; Matt Parker, Class of 2009</h2>
+<p><a href="http://itpalumni.org/alumni-focus/matt-parker/"><img class="alignnone size-medium wp-image-394" src="http://itpalumni.org/wp-content/uploads/2015/02/mattParker-300x283.png" alt="mattParker" width="300" height="283" srcset="http://itpalumni.org/wp-content/uploads/2015/02/mattParker-300x283.png 300w, http://itpalumni.org/wp-content/uploads/2015/02/mattParker.png 706w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href="http://itpalumni.org/alumni-focus/matt-parker/">Read More</a></p>
+<h2>Alumni Focus &#8211; Fanny Chung Davidson, Class of 2000</h2>
+<p><a href="http://itpalumni.org/alumni-focus/fanny-chung-davidson/"><img class="alignnone wp-image-371 size-full" src="http://itpalumni.org/wp-content/uploads/2015/02/3ccb641.jpg" alt="3ccb641" width="286" height="286" srcset="http://itpalumni.org/wp-content/uploads/2015/02/3ccb641-150x150.jpg 150w, http://itpalumni.org/wp-content/uploads/2015/02/3ccb641-270x270.jpg 270w, http://itpalumni.org/wp-content/uploads/2015/02/3ccb641-230x230.jpg 230w, http://itpalumni.org/wp-content/uploads/2015/02/3ccb641.jpg 286w" sizes="(max-width: 286px) 100vw, 286px" /></a><br />
+<a href="http://itpalumni.org/alumni-focus/fanny-chung-davidson/">Read More</a></p>
+<h2 class="boxed">Alumni Focus &#8211; Nisma Zaman, Class of 2011</h2>
+<p><a href="http://itpalumni.org/alumni-focus/nisma-zaman/"><img class="alignnone wp-image-376 size-full" src="http://itpalumni.org/wp-content/uploads/2015/02/Nisma-Gugg-NoCountry2013_4LinkedIn.jpg" alt="Nisma-Gugg-NoCountry2013_4LinkedIn" width="200" height="200" srcset="http://itpalumni.org/wp-content/uploads/2015/02/Nisma-Gugg-NoCountry2013_4LinkedIn-150x150.jpg 150w, http://itpalumni.org/wp-content/uploads/2015/02/Nisma-Gugg-NoCountry2013_4LinkedIn.jpg 200w" sizes="(max-width: 200px) 100vw, 200px" /></a><br />
+<a href="itpalumni.org/alumni-focus/nisma-zaman/">Read More</a></p>
+			</div>
+	<footer class="entry-meta-bar clearfix">	        			
+		<div class="entry-meta clearfix">
+       			</div>
+	</footer>
+	</article>
+
+
+				
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	
+	
+
+	
+
+		</div><!-- .inner-wrap -->
+	</div><!-- #main -->	
+			<footer id="colophon" class="clearfix">	
+			
+	
+			<div class="footer-socket-wrapper clearfix">
+				<div class="inner-wrap">
+					<div class="footer-socket-area">
+						<div class="copyright">© [2014] [www.itpaliumni.org]</div>						<nav class="small-menu" class="clearfix">
+									    			</nav>
+					</div>
+				</div>
+			</div>			
+		</footer>
+		<a href="#masthead" id="scroll-up"></a>	
+	</div><!-- #page -->
+	<script type='text/javascript' src='http://itpalumni.org/wp-content/themes/spacious-pro/js/jquery.cycle.all.min.js?ver=2.9999.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var spacious_slider_value = {"transition_effect":"fade","transition_delay":"4000","transition_duration":"1000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://itpalumni.org/wp-content/themes/spacious-pro/js/spacious-slider-setting.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://itpalumni.org/wp-content/themes/spacious-pro/js/navigation.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://itpalumni.org/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+</body>
+</html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                              K E Y   B A S E
+
+                            crypto for everyone
+
+                        because no one we know ever
+                      seems to have a public key. :-(
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+  <head>
+    <title>Adrian Parreiras-Horta (m0dular) | Keybase</title>
+    <meta       name="viewport"    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link       href="/_/brew/_/0f0e68fc/sitewide-css.css"      rel="stylesheet" media="screen">
+    
+    <script      src="/_/brew/_/7d44b7ac/sitewide-js.js"></script>
+
+    <meta    charset="UTF-8" />
+    <meta       name="Description" content="Public key crypto for everyone, publicly auditable proofs of identity.">
+    
+    <meta property="og:description" content="Adrian Parreiras-Horta (m0dular) is on Keybase, a place to establish public keys and prove your identity in a publicly auditable way.">
+      
+    <meta property="og:image"        content="https://s3.amazonaws.com/keybase_processed_uploads/ed475b56fe33bee4629bb746641fe005_200_200_square_200.png">
+    <meta property="og:image:width"  content="200">
+    <meta property="og:image:height" content="200">
+      
+    <script>
+    window.csrf_token="";
+    </script>
+  </head>
+
+  <body>
+  <div class="run-mode run-mode-prod">
+    <div class="grid-monitor"> 
+      <input id="url_base" type="hidden" value="https://keybase.io/"/>
+
+        <div id="navbar-top">
+          <div class="navbar navbar-fixed-top navbar-inverse" role="navigation" data-active-tab="">
+
+            <div class="container navbar-container">
+              <div class="row">
+
+                <div class="col-xs-2 col-sm-3">
+                  <div class="hidden-xs navbar-header">
+                    <div class="navbar-brand"><a href="/" aria-label="home"><img src="/images/logo.png" width="610" height="160" class="img-responsive" /></a>
+                    </div>
+                    <div class="staging-notice">Keybase Staging Server</div>
+                  </div>
+                  <div class="visible-xs navbar-header">
+                    <div class="navbar-brand"><a href="/" aria-label="home"><img src="/images/logo_no_text.png" width="42" height="42" /></a>
+                    </div>
+                    <div class="staging-notice">Keybase Staging Server</div>
+                  </div>
+                </div>
+
+                <div class="col-xs-10 col-sm-3">
+                  <div class="nav-search-wrapper">
+                    <div class="input-group form-group">
+                      <input type="text" class="form-control auto-focus nav-search-input 1pw-reject" data-focus-priority="0" placeholder=""
+                      autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+                      <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6">    
+
+      <table class="nav navbar-right navbar-buttons pull-right">
+        <tr>
+        
+            <td><a onclick="return false;" href="#_" class="navbar-link link-join">Join</a></td>
+            <td><a onclick="return false;" href="#_" class="navbar-link link-login ">Login</a></td>
+            <td class="nav-btn "><div class="auto-tooltip" title="Encrypt"><a href="/encrypt" aria-label="encrypt"><i class="fa fa-lock"></i></a></div></td>
+            <td class="nav-btn " ><div class="auto-tooltip" title="Verify"><a href="/verify" aria-label="verify"><i class="fa fa-check"></i></a></div></td>
+            <td class="hidden-xs nav-btn "   ><div class="auto-tooltip" title="Docs"><a href="/docs" aria-label="docs"><i class="fa fa-question"></i></a></div></td>
+          
+        </tr>
+      </table>
+</div>
+
+                <div class="nav-hiring-notice hidden-xs">
+                  Keybase is hiring: <a href="/jobs">engineers!</a>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+    <div class="twitter-interests-bar hidden-sm hidden-xs">
+      <div class="container">
+        <table class="twitter-interests-table">
+          <tr>
+            <th>
+              
+                  Surf Keybase:
+                
+            </th>
+            
+                <td>
+                  
+                      <a href="/aloria"><img class="img img-rounded" src="https://s3.amazonaws.com/keybase_processed_uploads/d5ab638180e6b533fac633f5a5b45705_200_200_square_200.jpeg" width="40" height="40"></a>
+                    
+                </td>
+                <td class="td-follower-info">
+                  <a href="/aloria">aloria</a><br>
+                </td>
+              
+                <td>
+                  
+                      <a href="/isaacs"><img class="img img-rounded" src="https://s3.amazonaws.com/keybase_processed_uploads/ff114e476f2ead54fedb0fe65ca54605_200_200_square_200.jpeg" width="40" height="40"></a>
+                    
+                </td>
+                <td class="td-follower-info">
+                  <a href="/isaacs">isaacs</a><br>
+                </td>
+              
+                <td>
+                  
+                      <a href="/felt"><img class="img img-rounded" src="https://s3.amazonaws.com/keybase_processed_uploads/d602ba717352b8e4a59752dc6b8f2705_200_200_square_200.jpeg" width="40" height="40"></a>
+                    
+                </td>
+                <td class="td-follower-info">
+                  <a href="/felt">felt</a><br>
+                </td>
+              
+                <td>
+                  
+                      <a href="/snipe"><img class="img img-rounded" src="https://s3.amazonaws.com/keybase_processed_uploads/2f57d3fd493e640ba6e1971e549f8505_200_200_square_200.jpeg" width="40" height="40"></a>
+                    
+                </td>
+                <td class="td-follower-info">
+                  <a href="/snipe">snipe</a><br>
+                </td>
+              
+                <td>
+                  
+                      <a href="/chris"><img class="img img-rounded" src="https://s3.amazonaws.com/keybase_processed_uploads/df0330321ae7c639bd0e793ac9858205_200_200_square_200.jpeg" width="40" height="40"></a>
+                    
+                </td>
+                <td class="td-follower-info">
+                  <a href="/chris">chris</a><br>
+                </td>
+              
+          </tr>
+        </table>
+      </div>
+    </div>
+  
+
+
+      
+      <div class="modal fade" id="shared-modal" data-backdrop="static">
+      </div>
+
+      
+      <div class="content">
+        
+
+<input type="hidden" id="is-self-view" value="0">
+<div id="page-user">
+    <div class="user-header">
+    <div class="container">
+      <div class="row header-row">
+        <div class="col-sm-4 col-lg-3 col-profile-heading">
+          
+<div class="profile-heading" data-username="m0dular" data-uid="ea04683f3885e6d5ed4a28bbc80a6819">
+
+  <div class="picture">
+    
+        <img src="https://s3.amazonaws.com/keybase_processed_uploads/ed475b56fe33bee4629bb746641fe005_200_200_square_200.png" class="img-circle" width="100" height="100">
+      
+  </div>
+
+
+  <div class="full-name">
+    
+        Adrian Parreiras-Horta
+      
+  </div>
+
+  
+      <div class="bio">
+        
+            Avid Democracy Now! listener and supporter; Collector and consumer of video game culture; Fearful subject of the Omnicidal God-Machine
+          
+      </div>
+    
+
+</div>
+
+        </div>
+        <div class="col-sm-8 col-lg-9 col-identity-heading">
+          
+<div class="identity-heading">
+
+  <div class="visible-xs">
+      
+
+  </div>
+
+  <div class="row">
+    <div class="col-sm-7">
+      <h3>
+        <span class="url">keybase.io/</span><span class="username">m0dular</span>
+        <i class="fa fa-eye" style="display: none"></i>
+      </h3>
+    </div>
+    <div class="col-sm-5 col-dropdown">
+      
+    </div>
+  </div>
+
+  
+  <div class="identity-table">
+    
+
+
+<!-- <li></li> -->
+
+<div class="it-item">
+  <i class="fa fa-key"></i>
+  
+  <span class="proof-tags">
+    <a href="#show-public"
+   onclick="return false;"
+   class="link-show-public"
+   data-kid="01019dd134c73109de9da602410e81a86b23ec0a4f49784da43a2fca2694f33b88110a"
+><span class="pgp-fingerprint"><span class="even">1C7B</span><span class="odd">8748</span><span class="even">35AD</span><span class="odd">99B2</span></span></a>
+
+    
+  </span>
+</div>
+
+<div class="it-item">
+  <i class="fa fa-twitter"></i>
+  <a href="https://twitter.com/Phobos_4nomaly" rel="me">phobos_4nomaly</a>
+  <span class="proof-tags">
+  
+        <a class="proof-tag proof-tag-state-1" href="https://twitter.com/Phobos_4nomaly/status/638783966749790209"><i class="fa fa-certificate"></i>
+          tweet
+        </a>
+      
+  </span>
+</div>
+
+<div class="it-item">
+  <i class="fa fa-github"></i>
+  <a href="https://github.com/sensei-de-loafage" rel="me">sensei-de-loafage</a>
+  <span class="proof-tags">
+  
+        <a class="proof-tag proof-tag-state-1" href="https://gist.github.com/4c7c9726648744be02c8"><i class="fa fa-certificate"></i>
+          gist
+        </a>
+      
+  </span>
+</div>
+
+    <div class="clearfix"></div>
+  </div>
+
+  
+<div class="identity-table">
+  
+
+  <div class="clearfix"></div>
+</div>
+
+  
+        <div class="invitation-available">
+          <i class="fa fa-envelope"></i>
+          <b>m0dular has an invitation available</b><br>If you know m0dular,
+          you can ask them for an invitation to Keybase.
+        </div>
+      
+
+  <div class="hidden-xs">
+      
+
+  </div>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="user-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-stuff">
+          
+
+<div class="big-crypto-buttons">
+  <div class="row">
+    <div class="col-xs-6">
+      <a href="/encrypt#m0dular" class="btn btn-block btn-lg btn-super-light " ><i class="fa fa-lock"></i> Encrypt</a>
+    </div>
+    <div class="col-xs-6">
+      <a href="/verify" class="btn btn-block btn-lg btn-super-light " ><i class="fa fa-check"></i> Verify</a>
+    </div>
+  </div>
+</div>
+
+<div class="command-line-examples hidden-xs">
+  
+      <h4><b>m0dular</b> from the <b><a href="/docs/command_line">command line <i class="fa fa-download"></i></a></b></h4>
+    
+  
+      <pre class="code code-highlighted"><span class="hljs-comment"># first</span>
+keybase signup  <span class="hljs-comment"># if you're new, or</span>
+keybase login   <span class="hljs-comment"># if you're not.</span>
+
+<span class="hljs-comment"># then</span>
+keybase pgp select  <span class="hljs-comment"># if you already have a public key, or</span>
+keybase pgp gen     <span class="hljs-comment"># if this is all new to you</span>
+</pre>
+    
+
+  
+
+      <pre class="code code-highlighted">keybase id m0dular <span class="hljs-comment"># verify identity proofs</span>
+</pre>
+
+      <pre class="code code-highlighted">keybase pgp encrypt m0dular -m <span class="hljs-string">'a secret msg'</span>
+keybase pgp encrypt m0dular <span class="hljs-operator">-s</span> -m <span class="hljs-string">'a signed secret msg'</span>
+</pre>
+
+      <pre class="code code-highlighted"><span class="hljs-comment"># optionally track m0dular, so you don't</span>
+<span class="hljs-comment"># have to keep id'ing them, even when</span>
+<span class="hljs-comment"># switching machines</span>
+keybase track m0dular
+
+<span class="hljs-comment"># and psst, people you track are pulled into GPG too</span>
+gpg --encrypt <span class="hljs-comment"># etc.</span>
+</pre>
+
+    
+
+  <hr>
+  <p>
+    Once you're in, you can sign, verify, encrypt and decrypt in variety of ways. Check out the <a href="/docs/command_line">examples</a> and, if necessary, the
+    <a href="/download">installation instructions</a>. All the crypto is performed with GPG. For an overview
+    of Keybase, check out our <a href="/">splash page</a>.
+  </p>
+</div>
+
+        </div>
+        <div class="col-sm-6 col-tracking">
+          
+
+<div class="tracking" id="profile-tracking-section">
+  <div class="row">
+    <div class="equal-height">
+      <div class="col-md-6 tracking-col">
+        <h4><a href="/docs/tracking">Tracking <span class="num">(1)</span></a></h4>
+        <table class="follower-table">
+          
+      <tr data-uid="f6b1cbf3a14ca51bc72bd9eea1522119" class="follower-row">
+        <td>
+          
+              <a href="/trevrosen"><img src="https://s3.amazonaws.com/keybase_processed_uploads/8a0f0fe8960cac6b789f329e74b99605_200_200_square_200.jpeg" width="60" height="60"></a>
+            
+        </td>
+        <td class="td-follower-info">
+          <a href="/trevrosen">trevrosen</a>
+        </td>
+      </tr>
+    
+        </table>
+      </div>
+      <div class="col-md-6 trackers-col">
+        <h4><a href="/docs/tracking">Trackers <span class="num">(0)</span></a></h4>
+        <table class="follower-table">
+          
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+      </div>
+
+      <div class="footer">
+    
+        <div class="container hidden-xs">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+              <img src="/images/walkthrough/footprints.jpg"  class="img-responsive" width="1000" height="272">
+            </div>
+          </div>
+        </div>
+      
+
+  <div class="container text-center hidden-xs">
+    <div>
+
+      Keybase, 2016
+      Available within Tor at <strong>http://fncuwbiisyh6ak3i.onion</strong><br>
+
+      <a href="/download">install Keybase</a>
+      | <a href="/blog">read our blog</a>
+      | <a href="/docs">documentation</a>
+      | <a href="https://github.com/keybase/keybase-issues">bug reporting</a>
+      | <a href="/docs/terms">terms</a>
+      &amp; <a href="/docs/privacypolicy">privacy</a>
+    </div>
+  </div>
+  <div class="container text-center visible-xs">
+    <div>
+      <a href="https://github.com/keybase/keybase-issues">Please send us feedback &amp; bug reports</a>.
+    </div>
+    Keybase (still alpha), 2016
+      | <a href="/docs/terms">terms</a>
+      &amp; <a href="/docs/privacypolicy">privacy</a>
+  </div>
+</div>
+
+
+      <script type="text/javascript">
+        window.session = new Session()
+      </script>
+    </div>
+  </div>
+  </body>
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       No Google Analytics or other 3rd party hosted script tags on Keybase.
+
+       And this has the added bonus that we'll never be able to serve ad code.
+
+                         \o/   \o/
+                        chris  max
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+</html>

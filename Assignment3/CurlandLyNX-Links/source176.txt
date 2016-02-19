@@ -1,0 +1,2050 @@
+<script type="text/javascript">
+  <!--
+  if (screen.width <= 800) {
+    window.location = "http://donganhillsweather.net/mobile.php";
+  }
+  //-->
+</script>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dongan Hills Weather</title>
+				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="author" href="Tom Refano">
+		<meta property="og:image" content="imgs/logo.png">
+		<meta property="og:title" content="Dongan Hills Weather">
+		<meta property="og:url" content="http://donganhillsweather.net">
+		<meta property="og:site_name" content="Dongan Hills Weather">
+		<meta property="og:description" content="Dongan Hills Weather.">
+		<script type="text/javascript" src="http://donganhillsweather.net/scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="http://donganhillsweather.net/scripts/jquery-ui.js"></script>
+		<script type="text/javascript" src="http://donganhillsweather.net/scripts/jquery.tooltipster.js"></script>
+		<script src="http://donganhillsweather.net/scripts/scrolltop.js"></script>		
+		<script type="text/javascript" src="http://donganhillsweather.net/scripts/tableExport.js"></script>
+		<script type="text/javascript" src="http://donganhillsweather.net/scripts/html2canvas.js"></script>
+		<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-73677146-1', 'auto');
+			  ga('send', 'pageview');
+		</script>
+				
+
+		<style>
+			#userSettings{
+				width: 40px;
+				cursor: pointer;
+				opacity: 0.7;
+			}
+			#userSettings:hover{
+				opacity: 1;			
+			}
+			#settingsDialog{
+				z-index: 9999!important;
+			}
+			.customUnitsIcon{
+				width: 30px;
+			}
+			.langIcon{
+				width: 30px;
+				opacity: 0.7;
+				cursor: pointer;
+			}
+			.langIcon:hover{
+				opacity: 1;
+			}
+			#header{
+				height: 180px;
+			}
+			#title1{
+				font-size: 3.5em;
+				font-variant: small-caps;
+				text-shadow: 2px 2px #333333;
+			}
+			#title2{
+				font-size: 2.5em;
+				font-variant: small-caps;
+				text-shadow: 2px 2px #333333;
+			}
+			#country_text{
+				font-variant: small-caps;
+				text-shadow: 2px 2px #333333;
+				font-family:"PT Sans","Arial Narrow",Arial,Helvetica,sans-serif;
+			}
+			.banner {
+				height: 150px;
+				border-radius: 5px;
+				margin-left:auto;
+				margin-right:auto;
+				border: 0.8px solid #0D47A1;
+				color: white;
+				padding: 10px;
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				position: relative;
+			}
+			.banner table {
+				color: white;
+			}
+			.flag{
+				width:100px;
+			}
+			.canvas { 
+				margin: 0px auto; 
+				width: 98%; 
+				height: 100px; 
+			}
+			.canvas-moon{
+				margin: 0px auto; 
+				width: 100px; 
+				height: 100px; 
+			}
+			.canvas-snow { 
+				margin: 0px auto; 
+				width: 98%; 
+				height: 160px; 
+			}
+			.bg{
+				background-image: url("http://donganhillsweather.net/imgs/forecastImgs/weather_bg/night_main.jpg");
+			}
+			.smallcaps{
+				font-variant: small-caps;
+			}
+				
+		</style>
+			
+		<link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="http://donganhillsweather.net/icons/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet"  href="http://donganhillsweather.net/css/main.php" media="all" title="screen">
+		<link rel="stylesheet" type="text/css" href="http://donganhillsweather.net/css/tooltipster.css" media="all" title="screen">
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/vader/jquery-ui.css">
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script src="homepage/scripts/jquery.elevatezoom.js" type="text/javascript"></script>
+		<style>
+		h1{
+			font-size: 2.5vw;
+		}
+		h2{
+			font-size: 1.5vw;
+		}
+		@media all and (min-width: 960px) {
+			body{
+				font-size: 1em;
+			}
+		}
+
+		@media all and (max-width: 959px) and (min-width: 600px) {
+			body{
+				font-size: 1.5vw; 
+			}
+			 .button{
+				 font-size: 0.7em;
+			}
+		}
+
+		@media all and (max-width: 599px) and (min-width: 50px) {
+			body{
+				font-size: 1.6vw;
+			}
+			.button{
+				font-size: 0.7em;
+			}
+		}
+		.block table th, td{
+			padding: 0px;
+		}
+	#main{
+				background: #757575;color: white;			}
+			h1, h2, h3{
+				color: white;			}
+						.block{
+										width: 98%;
+						margin: 0 auto;
+						border: 1px solid #1976D2;
+						background: #212121;
+												border-radius: 3px;
+						padding: 5px;
+						margin-bottom: 10px;
+						position: relative;
+							}
+			.details{
+				display:none;
+			}
+			.more, #moreYrNo, #moreWU, .more2{
+				font-weight: bold;
+				font-variant: small-caps;
+				cursor: pointer;
+			}
+			.more:hover, #moreYrNo:hover, #moreWU:hover, .more2:hover{
+				color: #2196F3;
+			}
+			.divIcon{
+				position: absolute;
+				top: 5px;
+				left: 5px;
+				z-index: 2;
+				opacity: 0.8;
+			}
+								.table th{
+						background: #000000;
+												color: #ffffff;
+					}
+					.table tr:nth-child(even) {
+						background: #757575;
+						color: #FFFFFF;
+					}
+					.table tr:nth-child(odd) {
+						background: #424242;
+						color: #FFFFFF;
+					}
+					.table tbody tr:hover td{
+						background: #1565C0;
+						color: #FFFFFF;
+					}
+					.table tfoot tr{
+						background: #212121;
+						color: #FFFFFF;
+					}
+									.shadow{
+									
+						text-shadow: 1px 1px 1px #000;
+						font-weight: bolder;
+							}
+																				.spinner {
+						width: 40px;
+						height: 40px;
+						margin: 50px auto;
+						background-color: #2196F3;
+						border-radius: 100%;  
+						-webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+						animation: sk-scaleout 1.0s infinite ease-in-out;
+					}
+					@-webkit-keyframes sk-scaleout {
+						0% { -webkit-transform: scale(0) }
+						100% {
+							-webkit-transform: scale(1.0);
+							opacity: 0;
+						}
+					}
+					@keyframes sk-scaleout {
+						0% { 
+							-webkit-transform: scale(0);
+							transform: scale(0);
+						} 100% {
+							-webkit-transform: scale(1.0);
+							transform: scale(1.0);
+							opacity: 0;
+						}
+					}
+																					</style>		<style>
+			
+		</style>
+	</head>
+	<!--<body style="overflow-x:hidden">-->
+	<body>
+		<div id="main_top">
+				<div id="header" style="position:relative">
+		<div class="banner bg">
+				<div id="canvas-snow" style="position:absolute; z-index:5; top:10px" class="canvas-snow">
+		</div>
+		<div style="position:absolute; z-index:20; width:100%">
+			<table style="vertical-align: middle;width:100%;height:100%">
+				<tr>
+					<td style="border: 0 solid #000000;width:120px;text-align:center">
+							<img src="http://donganhillsweather.net/imgs/flags/big/us.png" class='flag' style="border: none" alt="">
+					</td>
+					<td style="border: 0 solid #000000;text-align:center">
+						<span id="title2">Dongan Hills Weather</span><br><span id='title2'></span>			
+					</td>
+					<td style="border: 0 solid #000000;text-align:right;width:120px">
+						<div id="moon2" style="opacity: 0.5;padding-right:50px" class="canvas-moon"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		</div>
+		<div id="settingsDiv">
+			<img src="http://donganhillsweather.net/icons/settings.png" style="width:40px" id="userSettings" alt=""> 
+		</div>
+	</div>
+	
+	<script>
+	$(document).ready(function(){
+			})
+</script>
+<script>
+			$(document).ready(function(){
+				d = new Date();
+
+				illumination = getMoonIllumination(d)['fraction']*10000;
+				illumination = Math.round(illumination);
+				illumination = illumination / 100;
+				illumination = illumination + " %";
+				phase = getMoonIllumination(d)['phase'];
+				intervals = 118;
+				if(phase<0.5){
+					phase = phase + 0.5;
+				}
+				else{
+					phase = phase - 0.5;
+				}
+				moonIcon = Math.round((phase/(1/intervals)));			
+				$('#moon2').html("<img src='http://donganhillsweather.net/imgs/moon/"+moonIcon+".png' style='width:100px'>");
+			})
+			function getMoonIllumination(date) {
+
+				var d = toDays(date),
+					s = sunCoords(d),
+					m = moonCoords(d),
+
+					sdist = 149598000, // distance from Earth to Sun in km
+
+					phi = acos(sin(s.dec) * sin(m.dec) + cos(s.dec) * cos(m.dec) * cos(s.ra - m.ra)),
+					inc = atan(sdist * sin(phi), m.dist - sdist * cos(phi)),
+					angle = atan(cos(s.dec) * sin(s.ra - m.ra), sin(s.dec) * cos(m.dec) -
+							cos(s.dec) * sin(m.dec) * cos(s.ra - m.ra));
+
+				return {
+					fraction: (1 + cos(inc)) / 2,
+					phase: 0.5 + 0.5 * inc * (angle < 0 ? -1 : 1) / Math.PI,
+					angle: angle
+				};
+			};
+			
+			var PI   = Math.PI,
+				sin  = Math.sin,
+				cos  = Math.cos,
+				tan  = Math.tan,
+				asin = Math.asin,
+				atan = Math.atan2,
+				acos = Math.acos,
+				rad  = PI / 180;
+			var dayMs = 1000 * 60 * 60 * 24,
+				J1970 = 2440588,
+				J2000 = 2451545;
+			var e = rad * 23.4397; // obliquity of the Earth
+
+			function toJulian(date) { return date.valueOf() / dayMs - 0.5 + J1970; }
+			function toDays(date)   { return toJulian(date) - J2000; }
+			function getMoonIllumination(date) {
+
+				var d = toDays(date),
+					s = sunCoords(d),
+					m = moonCoords(d),
+
+					sdist = 149598000, // distance from Earth to Sun in km
+
+					phi = acos(sin(s.dec) * sin(m.dec) + cos(s.dec) * cos(m.dec) * cos(s.ra - m.ra)),
+					inc = atan(sdist * sin(phi), m.dist - sdist * cos(phi)),
+					angle = atan(cos(s.dec) * sin(s.ra - m.ra), sin(s.dec) * cos(m.dec) -
+							cos(s.dec) * sin(m.dec) * cos(s.ra - m.ra));
+
+				return {
+					fraction: (1 + cos(inc)) / 2,
+					phase: 0.5 + 0.5 * inc * (angle < 0 ? -1 : 1) / Math.PI,
+					angle: angle
+				};
+			};
+			
+			function sunCoords(d) {
+
+				var M = solarMeanAnomaly(d),
+					L = eclipticLongitude(M);
+
+				return {
+					dec: declination(L, 0),
+					ra: rightAscension(L, 0)
+				};
+			}
+			function solarMeanAnomaly(d) { return rad * (357.5291 + 0.98560028 * d); }
+
+			function eclipticLongitude(M) {
+
+				var C = rad * (1.9148 * sin(M) + 0.02 * sin(2 * M) + 0.0003 * sin(3 * M)), // equation of center
+					P = rad * 102.9372; // perihelion of the Earth
+
+				return M + C + P + PI;
+			}
+			function rightAscension(l, b) { return atan(sin(l) * cos(e) - tan(b) * sin(e), cos(l)); }
+			function declination(l, b)    { return asin(sin(b) * cos(e) + cos(b) * sin(e) * sin(l)); }
+
+			function azimuth(H, phi, dec)  { return atan(sin(H), cos(H) * sin(phi) - tan(dec) * cos(phi)); }
+			function altitude(H, phi, dec) { return asin(sin(phi) * sin(dec) + cos(phi) * cos(dec) * cos(H)); }
+
+			function siderealTime(d, lw) { return rad * (280.16 + 360.9856235 * d) - lw; }
+
+			</script>
+			<script>
+			//-----Utility Funtions------------------------------------------------------------
+			function INT(  n )  { return Math.floor( n ); } 	//Emulates BASIC's INT Funtion
+			function POW2( n )  { return Math.pow( n, 2 );}	//Square a number
+			function noSubmit() { return false; }  //Prevent form submission
+			function moonCoords(d) { // geocentric ecliptic coordinates of the moon
+
+				var L = rad * (218.316 + 13.176396 * d), // ecliptic longitude
+					M = rad * (134.963 + 13.064993 * d), // mean anomaly
+					F = rad * (93.272 + 13.229350 * d),  // mean distance
+
+					l  = L + rad * 6.289 * sin(M), // longitude
+					b  = rad * 5.128 * sin(F),     // latitude
+					dt = 385001 - 20905 * cos(M);  // distance to the moon in km
+
+				return {
+					ra: rightAscension(l, b),
+					dec: declination(l, b),
+					dist: dt
+				};
+			}
+
+			 // Validates that the input year is a valid integer between -4712 to +3500
+			 
+			//-----Correct TDT to UTC----------------------------------------------------------------
+			// Meeus Astronomical Algorithms Chapter 10
+			function fromTDTtoUTC( tobj ) {
+				// Correction lookup table has entry for every even year between TBLfirst and TBLlast
+				var TBLfirst = 1620, TBLlast = 2002;	// Range of years in lookup table
+				var TBL = new Array(					// Corrections in Seconds
+					/*1620*/ 121,112,103, 95, 88,  82, 77, 72, 68, 63,  60, 56, 53, 51, 48,  46, 44, 42, 40, 38,
+					/*1660*/  35, 33, 31, 29, 26,  24, 22, 20, 18, 16,  14, 12, 11, 10,  9,   8,  7,  7,  7,  7,
+					/*1700*/   7,  7,  8,  8,  9,   9,  9,  9,  9, 10,  10, 10, 10, 10, 10,  10, 10, 11, 11, 11,
+					/*1740*/  11, 11, 12, 12, 12,  12, 13, 13, 13, 14,  14, 14, 14, 15, 15,  15, 15, 15, 16, 16,
+					/*1780*/  16, 16, 16, 16, 16,  16, 15, 15, 14, 13,  
+					/*1800*/ 13.1, 12.5, 12.2, 12.0, 12.0,  12.0, 12.0, 12.0, 12.0, 11.9,  11.6, 11.0, 10.2,  9.2,  8.2,
+					/*1830*/  7.1,  6.2,  5.6,  5.4,  5.3,   5.4,  5.6,  5.9,  6.2,  6.5,   6.8,  7.1,  7.3,  7.5,  7.6,
+					/*1860*/  7.7,  7.3,  6.2,  5.2,  2.7,   1.4, -1.2, -2.8, -3.8, -4.8,  -5.5, -5.3, -5.6, -5.7, -5.9,
+					/*1890*/ -6.0, -6.3, -6.5, -6.2, -4.7,  -2.8, -0.1,  2.6,  5.3,  7.7,  10.4, 13.3, 16.0, 18.2, 20.2,
+					/*1920*/ 21.1, 22.4, 23.5, 23.8, 24.3,  24.0, 23.9, 23.9, 23.7, 24.0,  24.3, 25.3, 26.2, 27.3, 28.2,
+					/*1950*/ 29.1, 30.0, 30.7, 31.4, 32.2,  33.1, 34.0, 35.0, 36.5, 38.3,  40.2, 42.2, 44.5, 46.5, 48.5,
+					/*1980*/ 50.5, 52.5, 53.8, 54.9, 55.8,  56.9, 58.3, 60.0, 61.6, 63.0,  63.8, 64.3); /*2002 last entry*/
+					// Values for Delta T for 2000 thru 2002 from NASA
+				var deltaT = 0; // deltaT = TDT - UTC (in Seconds)
+				var Year = tobj.getUTCFullYear();
+				var t = (Year - 2000) / 100;	// Centuries from the epoch 2000.0
+				
+				if ( Year >= TBLfirst && Year <= TBLlast ) { // Find correction in table
+					if (Year%2) { // Odd year - interpolate
+						deltaT = ( TBL[(Year-TBLfirst-1)/2] + TBL[(Year-TBLfirst+1)/2] ) / 2;
+					} else { // Even year - direct table lookup
+						deltaT = TBL[(Year-TBLfirst)/2];
+					}
+				} else if( Year < 948) { 
+					deltaT = 2177 + 497*t + 44.1*POW2(t);
+				} else if( Year >=948) {
+					deltaT =  102 + 102*t + 25.3*POW2(t);
+					if (Year>=2000 && Year <=2100) { // Special correction to avoid discontinurity in 2000
+						deltaT += 0.37 * ( Year - 2100 );
+					}
+				} else {  }
+				return( new Date( tobj.getTime() - (deltaT*1000) ) ); // JavaScript native time is in milliseonds
+			} // End fromTDTtoUTC
+
+			//-----Julian Date to UTC Date Object----------------------------------------------------
+			// Meeus Astronomical Algorithms Chapter 7 
+			function fromJDtoUTC( JD ){
+				// JD = Julian Date, possible with fractional days
+				// Output is a JavaScript UTC Date Object
+				var A, alpha;
+				var Z = INT( JD + 0.5 ); // Integer JD's
+				var F = (JD + 0.5) - Z;	 // Fractional JD's
+				if (Z < 2299161) { A = Z; }
+				else {
+					alpha = INT( (Z-1867216.25) / 36524.25 );
+					A = Z + 1 + alpha - INT( alpha / 4 );
+				}
+				var B = A + 1524;
+				var C = INT( (B-122.1) / 365.25 );
+				var D = INT( 365.25*C );
+				var E = INT( ( B-D )/30.6001 );
+				var DT = B - D - INT(30.6001*E) + F;	// Day of Month with decimals for time
+				var Mon = E - (E<13.5?1:13);			// Month Number
+				var Yr  = C - (Mon>2.5?4716:4715);		// Year    
+				var Day = INT( DT ); 					// Day of Month without decimals for time
+				var H = 24*(DT - Day);					// Hours and fractional hours 
+				var Hr = INT( H ); 						// Integer Hours
+				var M = 60*(H - Hr);					// Minutes and fractional minutes
+				var Min = INT( M );						// Integer Minutes
+				var Sec = INT( 60*(M-Min) );			// Integer Seconds (Milliseconds discarded)
+				//Create and set a JavaScript Date Object and return it
+				var theDate1 = new Date(0);
+				theDate1.setUTCFullYear(Yr, Mon-1, Day);
+				theDate1.setUTCHours(Hr, Min, Sec);
+				return( theDate1 );
+			} //End fromJDtoUTC
+
+			//-----Moon Phase Calculation-----------------------------------------------------
+			function calcMoonPhase( Y ) {
+				if(Y=='now'){
+					d = new Date();
+					Y = d.getFullYear();
+				}
+				newMoons = [];
+				fullMoons = [];
+			  //Converted from Basic by Roger W. Sinnot, Sky & Telescope, March 1985.
+			  var R1 = Math.PI / 180;
+			  var U = false;
+			  var K0, T, T2, T3, J0, F0, J, F, M0, M1, B1, K9, K, M5, M6, B6, str;
+			  var s = ""; // Formatted Output String
+			  K0 = INT((Y-1900)*12.3685);
+			  T = (Y-1899.5) / 100;
+			  T2 = T*T; T3 = T*T*T;
+			  J0 = 2415020 + 29*K0;
+			  F0 = 0.0001178*T2 - 0.000000155*T3;
+			  F0 += (0.75933 + 0.53058868*K0);
+			  F0 -= (0.000837*T + 0.000335*T2);
+			  M0 = K0*0.08084821133;
+			  M0 = 360*(M0 - INT(M0)) + 359.2242;
+			  M0 -= 0.0000333*T2;
+			  M0 -= 0.00000347*T3;
+			  M1 = K0*0.07171366128;
+			  M1 = 360*(M1 - INT(M1)) + 306.0253;
+			  M1 += 0.0107306*T2;
+			  M1 += 0.00001236*T3;
+			  B1 = K0*0.08519585128;
+			  B1 = 360*(B1 - INT(B1)) + 21.2964;
+			  B1 -= 0.0016528*T2;
+			  B1 -= 0.00000239*T3;
+			  for ( K9=0; K9 <= 28; K9++ ) {
+				J = J0 + 14*K9; F = F0 + 0.765294*K9;
+				K = K9/2;
+				M5 = (M0 + K* 29.10535608)*R1;
+				M6 = (M1 + K*385.81691806)*R1;
+				B6 = (B1 + K*390.67050646)*R1;
+				F -= 0.4068*Math.sin(M6);
+				F += (0.1734 - 0.000393*T)*Math.sin(M5);
+				F += 0.0161*Math.sin(2*M6);
+				F += 0.0104*Math.sin(2*B6);
+				F -= 0.0074*Math.sin(M5 - M6);
+				F -= 0.0051*Math.sin(M5 + M6);
+				F += 0.0021*Math.sin(2*M5);
+				F += 0.0010*Math.sin(2*B6-M6);
+				F += 0.5 / 1440; //Adds 1/2 minute for proper rounding to minutes per Sky & Tel article
+				var JDE = J + F; 				// Julian Empheris Day with fractions for time of day
+				var TDT = fromJDtoUTC( JDE );		// Convert Julian Days to TDT in a Date Object
+				var UTC = fromTDTtoUTC( TDT );		// Correct TDT to UTC, both as Date Objects	
+				if ( Y==UTC.getFullYear() ) {	//Filter output
+				
+				if ( !U ) { 
+					newMoons[newMoons.length] = (UTC.toLocaleString());
+				}
+				else{
+					fullMoons[fullMoons.length] = (UTC.toLocaleString());
+				}
+				
+				
+				}
+				U = !U;
+			  } // Next
+			}
+		</script>
+	
+			<script src="http://donganhillsweather.net/scripts/digimeg.js"></script>
+
+<div class="digimeg-nav-wrap"> 
+	<ul class="digimeg-group digimeg-main-nav" style="margin:0;padding:0;">
+		<li id="home-subnav">
+			<img src='http://donganhillsweather.net/icons/home.png' id="homeIcon" onclick="window.location='http://donganhillsweather.net/index.php'" alt="" style="width:32px">
+		</li>
+	
+		<!-- MENU ITEMS -->
+		
+		<!-- MAIN TABS (level 1) -->
+		<li> 
+			<a href="#" data-subnav="weatherStation-subnav" class="digimeg-nav-item"> 
+				Weather station			</a> 
+		</li>
+		<li> 
+			<a href="#" data-subnav="weather-subnav" class="digimeg-nav-item"> 
+				Weather 
+			</a> 
+		</li>
+		<li> 
+			<a href="#" data-subnav="climate-subnav" class="digimeg-nav-item"> 
+				Climate 
+			</a> 
+		</li>
+		<li> 
+			<a href="#" data-subnav="astronomy-subnav" class="digimeg-nav-item"> 
+				Astronomy			</a> 
+		</li>
+		<li> 
+			<a href="#" data-subnav="links-subnav" class="digimeg-nav-item"> 
+				Links			</a> 
+		</li>
+		<li> 
+			<a href="#" data-subnav="info-subnav" class="digimeg-nav-item"> 
+				Info			</a> 
+		</li>
+		<li> 
+			<a href="#" data-subnav="Graphs-subnav" class="digimeg-nav-item"> 
+				Graphs			</a> 
+		</li>
+		<li> 
+			<a href="#" data-subnav="calc-subnav" class="digimeg-nav-item"> 
+				Calc			</a> 
+		</li>
+		<li> 
+			<a href="#" data-subnav="styles-subnav" class="digimeg-nav-item"> 
+				Styles			</a> 
+		</li>
+	</ul>
+		<!-- END OF MAIN TABS SECTION -->
+	
+	
+	<!-- WEATHER STATION TAB -->
+	<ul class="digimeg-nav-down-content digimeg-sub-nav">
+		<li id="weatherStation-subnav">
+			<div class="digimeg-nav-item-content digimeg-group"> 
+				<div style="display:inline-block;width:18%;vertical-align:top">
+					<img src="http://donganhillsweather.net/icons/station.png" style="width:100px" alt=""><br><br>
+					<h3>Weather station</h3>
+					<br>
+					<div style="width:100%;text-align:center;font-size:0.9em;padding-bottom:3px">
+						Ambient Weather 1001					</div>
+					<div id="stationStatus" style="background-color: #008C23;">
+						online					</div>
+					<br>
+					<div style="width:100%;text-align:center">
+						<span style='font-size:2.2em;font-weight:bold'>32</span>.7 °F						&nbsp;&nbsp;&nbsp;<span style='font-size:1.4em;font-weight:bold;display:inline-block'>0.000</span>&nbsp;in					</div>
+					<div style="width:100%;text-align:center;font-size:0.9em;padding-bottom:3px">
+						07.06 PM, ,02/18/2016					</div>
+				</div>
+				<div style="display:inline-block;width:80%;padding-top:20px">
+					<table style="width:100%">
+						<tr>
+							<td style="width:25%"><span class="subheading">LIVE</span></td>
+							<td style="width:25%"><span class="subheading">INTERACTIVE VIEWS</span></td>
+							<td style="width:25%"><span class="subheading">STATISTICS</span></td>
+							<td style="width:25%"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/measurements.png" style="width:60px" id="liveData" class="iconMenu tooltip" title="Current data" alt="">
+								<img src="http://donganhillsweather.net/icons/gauges.png" style="width:60px" id="liveGauges" class="iconMenu tooltip" title="Gauges" alt="">
+							</td>
+							<td>
+								<img src="http://donganhillsweather.net/icons/graph.png" style="width:60px" id="interactiveGraph" class="iconMenu tooltip" title="Interactive graphs" alt="">
+								<img src="http://donganhillsweather.net/icons/table.png" style="width:60px" id="interactiveTable" class="iconMenu tooltip" title="Interactive tables" alt="">
+							</td>
+							<td>
+								<img src="http://donganhillsweather.net/icons/temp.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Temperature" id="statsT" alt="">
+								<img src="http://donganhillsweather.net/icons/humidity.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Humidity" id="statsH" alt="">
+								<img src="http://donganhillsweather.net/icons/pressure.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Pressure" id="statsP" alt="">
+							</td>
+							<td rowspan="3">
+							
+							</td>
+						</tr>
+						<tr>
+							<td style="width:25%">
+								<span class="subheading">REPORTS</span>
+							</td>
+							<td style="width:25%">
+								<span class="subheading">HISTORY AND TRENDS</span>
+							</td>
+							<td style="width:25%">
+								<img src="http://donganhillsweather.net/icons/wind.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Wind speed" id="statsW" alt="">
+								<img src="http://donganhillsweather.net/icons/gust.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Wind gust" id="statsG" alt="">
+								<img src="http://donganhillsweather.net/icons/rain.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Precipitation" id="statsR" alt="">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/calendar_day.png" style="width:30px;padding:7px" class="iconMenu tooltip" id="daySelectOpenerMenu" title="Day report" alt="">
+								<img src="http://donganhillsweather.net/icons/calendar_month.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Month report" id="monthSelectOpener" alt="">
+								<img src="http://donganhillsweather.net/icons/calendar_year.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Annual report" id="yearSelectOpener" alt="">
+							</td>
+							<td>
+								<img src="http://donganhillsweather.net/icons/history.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="History" id="history" alt="">
+								<img src="http://donganhillsweather.net/icons/calendar.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Calendar" id="calendar" alt="">
+								<span class="menuSlideHeader">
+									<img src="http://donganhillsweather.net/icons/trend.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Trends" id="trends" alt="">
+								</span>
+								<div class="menuSlideContent">
+									<img src="http://donganhillsweather.net/icons/temp.png" style="width:15px;padding:3px" class="iconMenu tooltip" title="Temperature" id="trendsT" alt="">
+									<img src="http://donganhillsweather.net/icons/humidity.png" style="width:15px;padding:3px" class="iconMenu tooltip" title="Humidity" id="trendsH" alt="">
+									<img src="http://donganhillsweather.net/icons/pressure.png" style="width:15px;padding:3px" class="iconMenu tooltip" title="Pressure" id="trendsP" alt="">
+									<img src="http://donganhillsweather.net/icons/wind.png" style="width:15px;padding:3px" class="iconMenu tooltip" title="Wind speed" id="trendsW" alt="">
+									<img src="http://donganhillsweather.net/icons/gust.png" style="width:15px;padding:3px" class="iconMenu tooltip" title="Wind gust" id="trendsG" alt="">
+									<img src="http://donganhillsweather.net/icons/apparent.png" style="width:15px;padding:3px" class="iconMenu tooltip" title="Apparent temperature" id="trendsA" alt="">
+									<img src="http://donganhillsweather.net/icons/dewpoint.png" style="width:15px;padding:3px" class="iconMenu tooltip" title="Dew point" id="trendsD" alt="">
+																			<img src="http://donganhillsweather.net/icons/sun.png" style="width:15px;padding:3px" class="iconMenu tooltip" title="Solar radiation" id="trendsS" alt="">
+																	</div>
+							</td>
+							<td>
+								<img src="http://donganhillsweather.net/icons/dewpoint.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Dew point" id="statsD" alt="">
+								<img src="http://donganhillsweather.net/icons/apparent.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Apparent temperature" id="statsA" alt="">
+																	<img src="http://donganhillsweather.net/icons/sun.png" style="width:30px;padding:7px" class="iconMenu tooltip" title="Solar radiation" id="statsS" alt="">
+															</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</li>
+	</ul>
+	
+	<!-- WEATHER TAB -->
+	<ul class="digimeg-nav-down-content digimeg-sub-nav">
+		<li id="weather-subnav">
+			<div class="digimeg-nav-item-content digimeg-group"> 
+				<div style="display:inline-block;width:18%;vertical-align:top;text-align:left">
+					<img src="http://donganhillsweather.net/icons/weather.png" style="width:50px" alt=""><br><br>
+					<h3 style="text-align:left;padding-left:15px">Weather</h3>
+				</div>
+				<div style="display:inline-block;width:23.3%;padding-left:20px;padding-top:20px;vertical-align:top">
+					<span class="menuHeading">Forecast</span>
+					<table>
+					       <td>
+						   <a href='http://donganhillsweather.net/pages/forecast/worldweatheronline.php'>World Wide Weather Online</a>
+	                       </td>
+                    </table>							
+					<table>
+					       <td>
+						   <a href='http://donganhillsweather.net/plugins/radar/radar.php'>US Live Radar</a>
+						   </td>
+				    </table>
+					<table>
+					       <td>
+					       <a href='http://donganhillsweather.net/plugins/nwsWarnings/nws.php'>NWS General Warnings</a>
+						   </td>
+					</table>
+					</br>
+										<span class="menuHeading">Models</span>
+					<div style="width:100%;text-align:left">
+						<a href='http://donganhillsweather.net/plugins/forecastModelUS/usNWS.php'>
+							<img src="http://donganhillsweather.net/imgs/continentOutlines/namerica.png" class="hoverIcon" alt="">
+						</a>
+						<a href='http://donganhillsweather.net/plugins/forecastModelEU/europeModel.php'>
+							<img src="http://donganhillsweather.net/imgs/continentOutlines/europe.png" class="hoverIcon" alt="">
+						</a>
+					</div>
+										
+					
+					<span class="menuHeading">Radar</span>
+					<div style="width:100%;text-align:left">
+					    <a href='http://donganhillsweather.net/plugins/usRadar/radar.php'> 
+							<img src="http://donganhillsweather.net/imgs/menuicon.png" class="hoverIcon" alt="">
+						</a>
+						<a href='http://donganhillsweather.net/plugins/canadaRadar/radar.php'>
+							<img src="http://donganhillsweather.net/imgs/continentOutlines/namerica.png" class="hoverIcon" alt="">
+						</a>
+						<a href='http://donganhillsweather.net/plugins/radarEU/europeRadar.php'>
+							<img src="http://donganhillsweather.net/imgs/continentOutlines/europe.png" class="hoverIcon" alt="">
+						</a>
+						<a href='http://donganhillsweather.net/plugins/radarAustralia/australiaRadar.php'>
+							<img src="http://donganhillsweather.net/imgs/continentOutlines/australia.png" class="hoverIcon" alt="">
+						</a>
+						
+					</div>
+					
+				</div>
+				<div style="display:inline-block;width:23.3%;padding-left:20px;padding-top:20px;vertical-align:top">
+				
+					<span class="menuHeading">Current conditions</span>
+					<div style="width:100%;text-align:left">
+						<a href='http://donganhillsweather.net/plugins/cityConditions/cityConditions.php'>
+							<img src="http://donganhillsweather.net/imgs/continentOutlines/world.png" class="hoverIcon" style="height:60px" alt="">
+						</a>
+						
+						<table>
+						<tr>
+							<td>
+								 <img src="http://donganhillsweather.net/icons/globe.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								 <a href='http://donganhillsweather.net/pages/maps/global.php'>Global Map</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								 <img src="http://donganhillsweather.net/icons/metar.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								 <a href='http://donganhillsweather.net/pages/metar/index.php'>METAR</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+					    <tr>
+							<td>
+								<img src="http://donganhillsweather.net/plugins/globalSnow/ca.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/globalSnow/index.php'>Global Snow</a>
+							</td>
+						</tr>
+				    </table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/earthquake.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/earthquakes/index.php'>Earthquakes</a>
+							</td>
+						</tr>
+					</table>
+					</div>
+				</div>
+				<div style="display:inline-block;width:23.3%;padding-left:20px;padding-top:20px;vertical-align:top">
+					
+					<span class="menuHeading">Extremes</span>
+						<a href='http://donganhillsweather.net/plugins/worldExtremes/extremes.php'>
+							<img src="http://donganhillsweather.net/imgs/continentOutlines/world.png" class="hoverIcon" alt="">
+						</a>
+						<a href='http://donganhillsweather.net/plugins/usExtremes/usExtremes.php'>
+							<img src="http://donganhillsweather.net/imgs/continentOutlines/namerica.png" class="hoverIcon" alt="">
+						</a>
+				
+					
+					
+					<span class="menuHeading">Warnings</span>
+						<a href='http://donganhillsweather.net/plugins/nwsWarnings/nws.php'>
+							<img src="http://donganhillsweather.net/imgs/continentOutlines/namerica.png" class="hoverIcon" alt="">
+						</a>
+						<a href='http://donganhillsweather.net/plugins/warningsEU/warningsEU.php'>
+							<img src="http://donganhillsweather.net/imgs/continentOutlines/europe.png" class="hoverIcon" alt="">
+						</a>
+										
+				</div>
+			</div>
+		</li>
+	</ul>
+	
+	<!-- CLIMATE TAB -->
+	<ul class="digimeg-nav-down-content digimeg-sub-nav">
+		<li id="climate-subnav">
+			<div class="digimeg-nav-item-content digimeg-group" style="width:100%"> 
+				<div style="display:inline-block;width:18%;vertical-align:top;text-align:left">
+					<img src="http://donganhillsweather.net/icons/seasons.png" style="width:50px" alt=""><br><br>
+					<h3 style="text-align:left;padding-left:15px">Climate</h3>
+				</div>
+				<div style="display:inline-block;padding-left:20px;padding-top:20px;vertical-align:top;text-align:center">
+					<img src="http://donganhillsweather.net/imgs/continentOutlines/world.png" style="opacity:0.7;width:130px" alt=""><br><br>
+					<a href='http://donganhillsweather.net/pages/climate/map.php'>Global map</a>
+				</div>
+				<div style="display:inline-block;padding-left:20px;padding-top:20px;vertical-align:top;text-align:center">
+					<img src="http://donganhillsweather.net/imgs/continentOutlines/europe.png" class="climateIcon" alt=""><br>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/cz.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=752'>Brno</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/cz.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=756'>Prague</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/gb.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=3202'>London</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="display:inline-block;padding-left:20px;padding-top:20px;vertical-align:top;text-align:center">
+					<img src="http://donganhillsweather.net/imgs/continentOutlines/namerica.png" class="climateIcon" alt=""><br>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/us.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=3960'>Washington D.C.</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/us.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=3743'>New York</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/ca.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=627'>Ottawa</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="display:inline-block;padding-left:20px;padding-top:20px;vertical-align:top;text-align:center">
+					<img src="http://donganhillsweather.net/imgs/continentOutlines/australia.png" class="climateIcon" alt=""><br>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/au.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=195'>Sydney</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/nz.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=2453'>Wellington</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="display:inline-block;padding-left:20px;padding-top:20px;vertical-align:top;text-align:center">
+					<img src="http://donganhillsweather.net/imgs/continentOutlines/asia.png" class="climateIcon" alt=""><br>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/jp.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=1580'>Tokyo</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/cn.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=1177'>Beijing</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="display:inline-block;padding-left:20px;padding-top:20px;vertical-align:top;text-align:center">
+					<img src="http://donganhillsweather.net/imgs/continentOutlines/samerica.png" class="climateIcon" alt=""><br>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/br.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=261'>Brazil</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="display:inline-block;padding-left:20px;padding-top:20px;vertical-align:top;text-align:center">
+					<img src="http://donganhillsweather.net/imgs/continentOutlines/africa.png" class="climateIcon" alt=""><br>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/imgs/flags/big/za.png" class="flagIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/climate/index.php?q=2905'>Cape Town</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</li>
+	</ul>
+	<!-- ASTRONOMY TAB -->
+	<ul class="digimeg-nav-down-content digimeg-sub-nav">
+		<li id="astronomy-subnav">
+			<div class="digimeg-nav-item-content digimeg-group"> 
+				<div style="display:inline-block;width:18%;vertical-align:top;text-align:left">
+					<img src="http://donganhillsweather.net/icons/astronomical.png" style="width:50px" alt=""><br><br>
+					<h3 style="text-align:left;padding-left:15px">Astronomy</h3>
+					<br>
+					<div style="text-align:left;padding-left:25px">
+						<table>
+							<tr>
+								<td style="width:50%;text-align:right;padding-right:20px">
+									<img src="http://donganhillsweather.net/icons/sunrise.png" style="width:40px" alt="">
+								</td>
+								<td style="width:50%;text-align:left;padding-left:20px">
+									<img src="http://donganhillsweather.net/icons/sunset.png" style="width:40px" alt="">
+								</td>
+							</tr>
+							<tr>
+								<td style="width:50%;text-align:right;padding-right:20px">
+									06:45								</td>
+								<td style="width:50%;text-align:left;padding-left:20px">
+									17:34								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div style="display:inline-block;width:23.3%;padding-left:20px;padding-top:20px;vertical-align:top">
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/moon.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/astronomy/moonPhase.php'>Moon phase</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/sunriset.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/astronomy/sun.php'>Sunrise/Sunset</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="display:inline-block;width:23.3%;padding-left:20px;padding-top:20px;vertical-align:top">
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/equisol.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/astronomy/equisol.php'>Solstice and equinox</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/daynight.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/astronomy/dayLight.php'>Day/Night</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/asteroids.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/astronomy/asteroids.php'>Asteroids</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="display:inline-block;width:23.3%;padding-left:20px;padding-top:20px;vertical-align:top">
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/plugins/spaceWeather/solarWind.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/spaceWeather/spaceWeather.php'>Space Weather</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/plugins/eclipses/imgs/solar.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/eclipses/eclipses.php'>Eclipses</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</li>
+	</ul>
+	
+	<!-- links TAB -->
+	<ul class="digimeg-nav-down-content digimeg-sub-nav">
+		<li id="links-subnav">
+			<div class="digimeg-nav-item-content digimeg-group"> 
+				<div style="display:inline-block;width:18%;vertical-align:top;text-align:left">
+					<img src="http://donganhillsweather.net/icons/globe.png" style="width:50px" alt=""><br><br>
+					<h3 style="text-align:left;padding-left:15px">Links</h3>
+				</div>
+				<div style="display:inline-block;width:35%;padding-left:20px;padding-top:20px;vertical-align:top">
+				<table>
+                        <tr>
+						    <td>
+							     <img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+							     <a href="http://donganhillsweather.net/custom/noaaRadio.php">NOAA Radio</a></li>
+							</td>
+						</tr>
+					</table>
+                    <table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href="http://donganhillsweather.net/custom/nycdotCam.php">NYC Traffic Cams</a>
+							</td>
+						</tr>
+					</table>				
+                    <table>
+					<table>
+					    <tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+							    <a href="http://donganhillsweather.net/custom/nycPlow.php">NYC Snow Plow</a>      		
+							</td>
+						</tr>
+					</table>
+					<table>
+					    <tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+							    <a href="http://donganhillsweather.net/custom/conedPower.php">Power Outage Map</a>      		
+							</td>
+						</tr>
+					</table>
+					<table>
+					    <tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+							    <a href="http://donganhillsweather.net/custom/flightRadar.php">Flight Radar</a>      		
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="display:inline-block;width:23.3%;padding-left:20px;padding-top:20px;vertical-align:top">
+        		    <table>
+					    <tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+							    <a href="http://statenislandweather.net/buoy-data.php">NE Buoy Data</a>      		
+							</td>
+						</tr>
+					</table>
+					<table>
+					    <tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+							    <a href="http://donganhillsweather.net/custom/obs.php">Airport Observations</a>      		
+							</td>
+						</tr>
+					</table>
+					<table>
+					    <tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+							    <a href="http://donganhillsweather.net/custom/spaceWeather.php">Space Weather</a>      		
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/other/links.php'>Weather equipment</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</li>
+	</ul>
+	
+	<!-- INFO TAB -->
+	<ul class="digimeg-nav-down-content digimeg-sub-nav">
+		<li id="info-subnav">
+			<div class="digimeg-nav-item-content digimeg-group"> 
+				<div style="display:inline-block;width:18%;vertical-align:top;text-align:left">
+					<img src="http://donganhillsweather.net/icons/info.png" style="width:50px" alt=""><br><br>
+					<h3 style="text-align:left;padding-left:15px">Info</h3>
+				</div>
+				<div style="display:inline-block;width:35%;padding-left:20px;padding-top:20px;vertical-align:top">
+					
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/station.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/other/aboutStation.php'>Weather station</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+					    <tr>
+							<td>
+								<img src="http://donganhillsweather.net/plugins/diary/diary.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/diary/diaryIndex.php'>Station Diary</a>
+							</td>
+						</tr>
+				    </table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/social.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/socialNetworks/socialNetworks.php'>Social networks</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+					    <tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/calendar_year.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/history/history.php'>Historical Weather</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/contact.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/contact/contact.php'>Contact</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="display:inline-block;width:35%;padding-left:20px;padding-top:20px;vertical-align:top">
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/gps.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/other/aboutLocation.php'>Dongan Hills</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/pages/other/website.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/other/aboutPage.php'>WWW</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+					    <tr>
+							<td>
+								 <img src="http://donganhillsweather.net/icons/globe.png" class="astronomyIcon" alt="">
+						    </td>
+                            <td>                          
+							<a href="plugins/userMap/index.php">Meteotemplate User Map</a>
+                            </td>
+						</tr>
+				    </table>
+					
+		<!-- error			<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/table.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/pages/other/dbInfo.php'>Database</a>
+							</td>
+						</tr>
+					</table>
+		-->			
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/sticker.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/stickers/stickers.php'>Stickers</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/station.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/custom/led.php'>Weather Panel</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</li>
+	</ul>
+	<!-- Graphs TAB -->
+	<ul class="digimeg-nav-down-content digimeg-sub-nav">
+		<li id="Graphs-subnav">
+			<div class="digimeg-nav-item-content digimeg-group"> 
+				<div style="display:inline-block;width:18%;vertical-align:top;text-align:left">
+					<img src="http://donganhillsweather.net/plugins/extendedGraphs/Areachart.png" style="width:50px" alt=""><br><br>
+					<h3 style="text-align:left;padding-left:15px">Graphs</h3>
+				</div>
+				<div style="display:inline-block;width:35%;padding-left:20px;padding-top:20px;vertical-align:top">
+				    <table>
+					    <tr>
+							<td>
+								<img src="http://donganhillsweather.net/plugins/extendedGraphs/graph" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/extendedGraphs/index.php'>Extended Graphs</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/apparent.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/distributions/distributions.php'>Apparent temperature</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/plugins/extendedGraphs/Areachart.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/yearNormals/normals.php'>Annual Normals</a>
+							</td>
+						</tr>
+					</table>
+					<table>	
+				        <tr>
+						    <td>
+						        <img src="http://donganhillsweather.net/plugins/riverHeightsUS/river.png" class="astronomyIcon" alt="">
+						    </td>
+						    <td>
+						        <a href='http://donganhillsweather.net/plugins/riverHeightsUS/index.php'>US River Heights</a>
+						    </td>
+						</tr>
+				    </table>
+					<table>
+						<tr>
+							<td>
+								 <img src="http://donganhillsweather.net//plugins/co2/icons/co2.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								 <a href='http://donganhillsweather.net/plugins/co2/co2.php'>CO2 Emissions</a>
+							</td>
+						</tr>
+					</table>
+					</div>
+					<div style="display:inline-block;width:35%;padding-left:20px;padding-top:20px;vertical-align:top">
+					<table>
+					    <tr>
+							<td>
+								 <img src="http://donganhillsweather.net/plugins/stationExtremes/extremes.png" class="astronomyIcon" alt="">
+						    </td>
+							<td>
+                             	 <a href='http://donganhillsweather.net/plugins/stationExtremes/index.php'>Station Extremes</a>
+                            </td>
+						</tr>
+				    </table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/barchart.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+											
+								<a href='http://donganhillsweather.net/plugins/yearComparison/comparison.php'>Year Comparison</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/plugins/snow/snow.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/snow'>Snow Report</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+                        <tr>
+							<td>
+								<img src="http://donganhillsweather.net/plugins/fireDanger/fire.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/fireDanger/fireDanger.php'>Fire Danger Index</a>
+							</td>
+						</tr>
+					</table>
+				</div>				
+			</div>
+		</li>	
+	</ul>
+	<!-- calc TAB -->
+	<ul class="digimeg-nav-down-content digimeg-sub-nav">
+		<li id="calc-subnav">
+			<div class="digimeg-nav-item-content digimeg-group"> 
+				<div style="display:inline-block;width:18%;vertical-align:top;text-align:left">
+					<img src="http://donganhillsweather.net/icons/calculator.png" style="width:50px" alt=""><br><br>
+					<h3 style="text-align:left;padding-left:15px">Calc</h3>
+				</div>
+				<div style="display:inline-block;width:35%;padding-left:20px;padding-top:20px;vertical-align:top">
+					<table>
+					    <tr>
+							<td>
+							    <img src="http://donganhillsweather.net/plugins/cloudCalculations/icons/cloudHeight.png" class="astronomyIcon" alt="">
+							</td>
+                            <td>							
+								<a href='http://donganhillsweather.net/plugins/cloudCalculations/calc.php'>Cloud Calulations</a>
+							</td>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/dewpoint.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/dewpoint/dewpoint.php'>Dew point</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/calculator.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/units/units.php'>Unit conversion</a>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/plugins/et/et.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/et/et.php'>Evapotranspiration</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="display:inline-block;width:35%;padding-left:20px;padding-top:20px;vertical-align:top">
+					<table>
+						<tr>
+							<td>
+								<img src="http://donganhillsweather.net/icons/time.png" class="astronomyIcon" alt="">
+							</td>
+							<td>
+								<a href='http://donganhillsweather.net/plugins/worldTime/index.php'>World Time</a>
+							</td>
+						</tr>
+					</table>				
+				</div>
+			</div>	
+		</li>	
+	</ul>
+	<!-- stats TAB -->
+	
+	<!-- styles TAB -->
+	<ul class="digimeg-nav-down-content digimeg-sub-nav">
+        <li id="styles-subnav">
+			<div class="digimeg-nav-item-content digimeg-group"> 
+				<div style="display:inline-block;width:18%;vertical-align:top;text-align:left">
+					<img src="http://donganhillsweather.net/icons/links.png" style="width:50px" alt=""><br><br>
+					<h3 style="text-align:left;padding-left:15px">Styles</h3>
+				</div>
+			<div style="display:inline-block;width:35%;padding-left:20px;padding-top:20px;vertical-align:top">
+			 	<table>
+					<tr>
+						<td>
+							<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+						</td>
+						<td>
+							<a href='http://donganhillsweather.net/mobile.php'>Mobile Website - 1 Column</a>
+						</td>
+					</tr>
+				</table>	
+               	<table>
+					<tr>
+						<td>
+							<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+						</td>
+						<td>
+							<a href='http://donganhillsweather.net/index.php'>Classic PC Website - 3 Columns</a>
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+						</td>
+						<td>
+							<a href='http://donganhillsweather.net/index4.php'>MeteoTemplate - 4 Columns</a>
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+						</td>
+						<td>
+							<a href='http://donganhillsweather.net/test.php'>TEST site</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div style="display:inline-block;width:35%;padding-left:20px;padding-top:20px;vertical-align:top">
+				<table>
+					<tr>
+						<td>
+							<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+						</td>
+						<td>
+							<a href='http://statenislandweather.net'>Saragota - StatenIslandWeather.net</a>
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<img src="http://donganhillsweather.net/icons/links.png" class="astronomyIcon" alt="">
+						</td>
+						<td>
+							<a href='http://dhweather.net'>Leuven - DHWeather.net</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>		
+		</li>
+	</ul>
+</div>
+
+<!-- DO NOT EDIT BELOW -->
+<script>
+$(function() {
+	$("#liveGauges").click(function() {
+		url = escape("live.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#liveData").click(function() {
+		url = escape("liveData.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#interactiveGraph").click(function() {
+		url = escape("graph.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#interactiveTable").click(function() {
+		url = escape("table.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#history").click(function() {
+		url = escape("history.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#calendar").click(function() {
+		url = escape("calendar.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#monthSelected").click(function() {
+		month = eval($("#monthSelect .ui-datepicker-month :selected").val())+1;
+		year = $("#monthSelect .ui-datepicker-year :selected").val();
+		selected = year+"/"+month;
+		url = "report_monthly.php?date="+ escape(selected);
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+		$("#dialogMonthReport").dialog('close');
+	});
+	$("#yearSelected").click(function() {
+		year = $("#selectedYear").val();
+		url = "report_annual.php?y="+ year;
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+		$("#dialogYearReport").dialog('close');
+	});
+	$("#statsT").click(function() {
+		url = escape("climateT.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#statsH").click(function() {
+		url = escape("climateH.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#statsP").click(function() {
+		url = escape("climateP.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#statsR").click(function() {
+		url = escape("climateR.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#statsW").click(function() {
+		url = escape("climateW.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#statsS").click(function() {
+		url = escape("climateS.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#statsG").click(function() {
+		url = escape("climateG.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#statsD").click(function() {
+		url = escape("climateD.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#statsA").click(function() {
+		url = escape("climateA.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#trendsT").click(function() {
+		url = escape("trendsT.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#trendsH").click(function() {
+		url = escape("trendsH.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#trendsP").click(function() {
+		url = escape("trendsP.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#trendsA").click(function() {
+		url = escape("trendsA.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#trendsD").click(function() {
+		url = escape("trendsD.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#trendsS").click(function() {
+		url = escape("trendsS.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#trendsW").click(function() {
+		url = escape("trendsW.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$("#trendsG").click(function() {
+		url = escape("trendsG.php");
+		url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+		window.location = url;
+	});
+	$(".menuSlideContent").hide();
+	$(".menuSlideHeader").click(function(){
+		$(this).next(".menuSlideContent").slideToggle(800);
+	});
+});
+</script>		</div>
+		<div id="main" style="text-align:center">
+			<table style="width:98%;margin:0 auto">
+				<tr>
+												<td style="width:25%;vertical-align:top;padding:5px">
+																		<div class="block" id="weatherNetworksBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="webcamBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="noaaBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="airQualityUSBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="meteogramBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="payPalBlock">												<div class="spinner"></div>
+																	</div>
+															</td>
+												<td style="width:50%;vertical-align:top;padding:5px">
+																		<div class="block" id="warningsUSRegionsBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="currentBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="nwsForecastBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="radarUSBlock">												<div class="spinner"></div>
+																	</div>
+															</td>
+												<td style="width:25%;vertical-align:top;padding:5px">
+																		<div class="block" id="clockDigitalBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="stationDataBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="risetBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="moonPhaseBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="infoBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="ForecastBlock">												<div class="spinner"></div>
+																	</div>
+																		<div class="block" id="dotBlock">												<div class="spinner"></div>
+																	</div>
+															</td>
+									</tr>
+			</table>
+		</div>
+		<div id="footer">
+	<div style="display:inline-block;width:10%;text-align:left">
+	</div>
+	<div style="display:inline-block;text-align:center">
+		Template by: <a href="http://www.meteotemplate.com"> meteotemplate.com</a> 2016 
+		<br>
+		Meteotemplate 4.1 Mango
+		<br>
+		<a href="/custom/disclaimer.php">Privacy & Terms</a>
+		
+	</div>
+				
+	<div style="display:inline-block;width:10%;text-align:right;float:right;padding-right:10px">
+		<img src="http://donganhillsweather.net/icons/lock.png" class="admin" id="admin" alt="">
+	</div>
+</div>
+<div id="settingsDialog" title="Settings" style="text-align:center">
+					<h2>Design</h2>
+			<a href="http://donganhillsweather.net/css/settingExamples.php">Design selection...</a>
+		<br><br>
+							<h2>Units</h2>
+			<table style="margin-right:auto;margin-left:auto">
+				<tr>
+					<td style="text-align:left">
+						<img src="http://donganhillsweather.net/icons/temp.png" class="customUnitsIcon" alt="">
+					</td>
+					<td style="text-align:right">
+						<select id="userTemperature" class="button">
+							<option value="C">C</option>
+							<option value="F">F</option>
+						</select>
+					</td>
+					<td style="width:20%" rowspan="3">
+					<td style="text-align:left">
+						<img src="http://donganhillsweather.net/icons/wind.png" class="customUnitsIcon" alt="">
+					</td>
+					<td style="text-align:right">
+						<select id="userWind" class="button">
+							<option value="kmh">km/h</option>
+							<option value="ms">m/s</option>
+							<option value="mph">mph</option>
+							<option value="kt">kt</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:left">
+						<img src="http://donganhillsweather.net/icons/rain.png" class="customUnitsIcon" alt="">
+					</td>
+					<td style="text-align:right">
+						<select id="userRain" class="button">
+							<option value="mm">mm</option>
+							<option value="in">in</option>
+						</select>
+					</td>
+					<td style="text-align:left">
+						<img src="http://donganhillsweather.net/icons/pressure.png" class="customUnitsIcon" alt="">
+					</td>
+					<td style="text-align:right">
+						<select id="userPressure" class="button">
+							<option value="hpa">hPa</option>
+							<option value="mmhg">mmHg</option>
+							<option value="inhg">inHg</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:left">
+						<img src="http://donganhillsweather.net/icons/cloudbase.png" class="customUnitsIcon" alt="">
+					</td>
+					<td style="text-align:right">
+						<select id="userCloudbase" class="button">
+							<option value="m">m</option>
+							<option value="ft">ft</option>
+						</select>
+					</td>
+					<td style="text-align:left">
+						<img src="http://donganhillsweather.net/icons/visibility.png" class="customUnitsIcon" alt="">
+					</td>
+					<td style="text-align:right">
+						<select id="userVisibility" class="button">
+							<option value="m">m</option>
+							<option value="km">km</option>
+							<option value="mi">mi</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+						<h2>Language</h2>
+			<img src='http://donganhillsweather.net/imgs/flags/big/gb.png' style='width:30px' class='langIcon' onclick="setLang('gb')" id='langgb' alt=''><img src='http://donganhillsweather.net/imgs/flags/big/cz.png' style='width:30px' class='langIcon' onclick="setLang('cz')" id='langcz' alt=''><img src='http://donganhillsweather.net/imgs/flags/big/de.png' style='width:30px' class='langIcon' onclick="setLang('de')" id='langde' alt=''><img src='http://donganhillsweather.net/imgs/flags/big/es.png' style='width:30px' class='langIcon' onclick="setLang('es')" id='langes' alt=''><img src='http://donganhillsweather.net/imgs/flags/big/fr.png' style='width:30px' class='langIcon' onclick="setLang('fr')" id='langfr' alt=''><img src='http://donganhillsweather.net/imgs/flags/big/it.png' style='width:30px' class='langIcon' onclick="setLang('it')" id='langit' alt=''><img src='http://donganhillsweather.net/imgs/flags/big/nl.png' style='width:30px' class='langIcon' onclick="setLang('nl')" id='langnl' alt=''><img src='http://donganhillsweather.net/imgs/flags/big/dk.png' style='width:30px' class='langIcon' onclick="setLang('dk')" id='langdk' alt=''><img src='http://donganhillsweather.net/imgs/flags/big/no.png' style='width:30px' class='langIcon' onclick="setLang('no')" id='langno' alt=''><img src='http://donganhillsweather.net/imgs/flags/big/sk.png' style='width:30px' class='langIcon' onclick="setLang('sk')" id='langsk' alt=''>			<input type="hidden" id="userLang" value="gb">
+		<br><br>
+		<input type="button" value="OK" id="saveSettings" class="button">
+		<input type="button" value="RESET TO DEFAULT" id="resetDefaults" class="button">
+	</div>
+	<div id="dialogDayReport" style="text-align:center" class="forceDefaultDatepicker">
+	<div id="daySelectMenu" style="margin-left:auto;margin-right:auto"></div>
+</div>
+<div id="dialogMonthReport" style="text-align:center" class="forceDefaultDatepicker">
+	<div id="monthSelect" style="margin-left:auto;margin-right:auto"></div>
+	<br>
+	<input type="button" class="button" value="OK" id="monthSelected">
+</div>
+		<div id="dialogYearReport" style="text-align:center" class="forceDefaultDatepicker">
+			<select id="selectedYear">
+				<option value=2015>2015</option><option value=2016>2016</option>			</select>
+			<br><br>
+			<input type="button" class="button" value="OK" id="yearSelected">
+		</div>
+<script>
+	$("#admin").click(function(){
+		password = prompt("You are about to enter the admin section. Please enter admin password.");
+		if (password != null) {
+			window.location = "http://donganhillsweather.net/admin/index.php?password="+password;	
+		}
+	});		
+</script>
+<script>
+		$(function() {
+			$div = $('#main');
+			$( "#settingsDialog" ).dialog({
+				autoOpen: false,
+				show: {
+					effect: "puff",
+					duration: 500
+				},
+				hide: {
+					effect: "puff",
+					duration: 500
+				},
+				width: 800,
+				 my: "top",
+				  at: "left top",
+				  of: $div
+			});
+			$( "#dialogDayReport" ).dialog({
+		autoOpen: false,
+		show: {
+			effect: "puff",
+			duration: 500
+		},
+		hide: {
+			effect: "puff",
+			duration: 500
+		},
+		height: 440,
+		width: 450,
+		position:{
+			my: 'top', 
+			at: 'top+30%'
+		},
+	});
+	$( "#daySelectOpenerMenu" ).click(function() {
+		var theDialog = $("#dialogDayReport").dialog();
+		theDialog.dialog("open");
+		//$( "#dialogDayReport" ).dialog( "open" );
+	});	
+	$( "#dialogMonthReport" ).dialog({
+		autoOpen: false,
+		show: {
+			effect: "puff",
+			duration: 500
+		},
+		hide: {
+			effect: "puff",
+			duration: 500
+		},
+		height: 340,
+		width: 350,
+		position:{
+			my: 'top', 
+			at: 'top+30%'
+		},
+	});
+	$( "#dialogYearReport" ).dialog({
+		autoOpen: false,
+		show: {
+			effect: "puff",
+			duration: 500
+		},
+		hide: {
+			effect: "puff",
+			duration: 500
+		},
+		height: 200,
+		width: 350,
+		position:{
+			my: 'top', 
+			at: 'top+30%'
+		},
+	});
+	$( "#monthSelectOpener" ).click(function() {
+		$( "#dialogMonthReport" ).dialog( "open" );
+	});
+	$( "#yearSelectOpener" ).click(function() {
+		$( "#dialogYearReport" ).dialog( "open" );
+	});
+	var availableDays = ["2015-10-23","2015-10-24","2015-10-25","2015-10-26","2015-10-27","2015-10-28","2015-10-29","2015-10-30","2015-10-31","2015-11-1","2015-11-2","2015-11-3","2015-11-4","2015-11-5","2015-11-6","2015-11-7","2015-11-8","2015-11-9","2015-11-10","2015-11-11","2015-11-12","2015-11-13","2015-11-14","2015-11-15","2015-11-16","2015-11-17","2015-11-18","2015-11-19","2015-11-20","2015-11-21","2015-11-22","2015-11-23","2015-11-24","2015-11-25","2015-11-26","2015-11-27","2015-11-28","2015-11-29","2015-11-30","2015-12-1","2015-12-2","2015-12-3","2015-12-4","2015-12-5","2015-12-6","2015-12-7","2015-12-8","2015-12-9","2015-12-10","2015-12-11","2015-12-12","2015-12-13","2015-12-14","2015-12-15","2015-12-16","2015-12-17","2015-12-18","2015-12-19","2015-12-20","2015-12-21","2015-12-22","2015-12-23","2015-12-24","2015-12-25","2015-12-26","2015-12-27","2015-12-28","2015-12-29","2015-12-30","2015-12-31","2016-1-1","2016-1-2","2016-1-3","2016-1-4","2016-1-5","2016-1-6","2016-1-7","2016-1-8","2016-1-9","2016-1-10","2016-1-11","2016-1-12","2016-1-13","2016-1-14","2016-1-15","2016-1-16","2016-1-17","2016-1-18","2016-1-19","2016-1-20","2016-1-21","2016-1-22","2016-1-23","2016-1-24","2016-1-25","2016-1-26","2016-1-27","2016-1-28","2016-1-29","2016-1-30","2016-1-31","2016-2-1","2016-2-2","2016-2-3","2016-2-4","2016-2-5","2016-2-6","2016-2-7","2016-2-8","2016-2-9","2016-2-10","2016-2-11","2016-2-12","2016-2-13","2016-2-14","2016-2-15","2016-2-16","2016-2-17","2016-2-18",];
+	// day report datepicker
+	$( "#daySelectMenu" ).datepicker({
+		changeMonth: true,
+		changeYear: true,
+		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+		monthNamesShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+		monthNames: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+		firstDay: 0,
+		minDate: new Date(2015, 10 - 1, 23),
+		maxDate: new Date(2016, 2 - 1, 18),
+		beforeShowDay: function(date) {
+			if($.inArray($.datepicker.formatDate('yy-m-d', date ), availableDays) > -1){
+				return [true,"",""];
+			}
+			else{
+				return [false,'',""];
+			}
+		},
+		dateFormat: "dd.mm.yy",
+		yearRange: "2015:2016",
+		onSelect: function(date) {
+			d = date.slice(0,2);
+			m = date.slice(3,5);
+			y = date.slice(6,10);
+			url = escape("report_daily.php?d="+d+"&m="+m+"&y="+y);
+			url = "http://donganhillsweather.net/pages/station/redirect.php?url="+url;
+			window.location = url;
+			$("#dialogDayReport").dialog('close');
+		},
+	});
+	$('#monthSelect').datepicker({
+		changeMonth: true,
+		changeYear: true,
+		monthNames: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+		showButtonPanel: false,
+		minDate: new Date(2015, 10 - 1, 23),
+		maxDate: new Date(2016, 2 - 1, 18),
+		yearRange: "2015:2016",
+		dateFormat: 'yy/m'
+	}).focus(function() {
+		var thisCalendar = $(this);
+		$('#monthSelect .ui-datepicker-calendar').detach();
+	});
+			$( "#userSettings" ).click(function() {
+				$("#settingsDialog" ).dialog( "open" );
+			});
+			$( "#saveSettings" ).click(function() {
+				tempUnits = $("#userTemperature").val();
+				windUnits = $("#userWind").val();
+				rainUnits = $("#userRain").val();
+				pressureUnits = $("#userPressure").val();
+				visibilityUnits = $("#userVisibility").val();
+				cloudbaseUnits = $("#userCloudbase").val();
+				userLang = $("#userLang").val();
+				
+				$.ajax({url: "http://donganhillsweather.net/userSettings.php?tempUnits="+tempUnits+"&windUnits="+windUnits+"&rainUnits="+rainUnits+"&pressureUnits="+pressureUnits+"&visibilityUnits="+visibilityUnits+"&cloudbaseUnits="+cloudbaseUnits+"&userLang="+userLang+"&design=grey&design2=blue&designFont=Arial&designFont2=Arial", success: function(result){		
+					$("#settingsDialog" ).dialog( "close" );
+					location.reload();
+				}});
+			});
+			$( "#resetDefaults" ).click(function() {
+				$.ajax({url: "http://donganhillsweather.net/userSettings.php?reset=1", success: function(result){		
+					$("#settingsDialog" ).dialog( "close" );
+					location.reload();
+				}});
+			});
+							$('#settingsDiv').css('visibility','visible');
+				  });
+	  function setLang(selected){
+		  $("#userLang").val(selected);
+		  $(".langIcon").css("opacity","0.7");
+		  $(".langIcon").css("width","30px");
+		  $("#lang"+selected).css("opacity","1");
+		  $("#lang"+selected).css("width","40px");
+	  }
+	</script>
+	<script type="text/javascript" src="http://donganhillsweather.net/scripts/jquery.tooltipster.js"></script>
+	<script>
+		$('.tooltip').tooltipster({
+			delay: 2
+		});
+	</script>		<script>
+			$(document).ready(function(){
+											$("#weatherNetworksBlock").load("homepage/blocks/weatherNetworks/weatherNetworksBlock.php");
+											$("#webcamBlock").load("homepage/blocks/webcam/webcamBlock.php");
+											$("#noaaBlock").load("homepage/blocks/noaa/noaaBlock.php");
+											$("#airQualityUSBlock").load("homepage/blocks/airQualityUS/airQualityUSBlock.php");
+											$("#meteogramBlock").load("homepage/blocks/meteogram/meteogramBlock.php");
+											$("#payPalBlock").load("homepage/blocks/payPal/payPalBlock.php");
+											$("#warningsUSRegionsBlock").load("homepage/blocks/warningsUSRegions/warningsUSRegionsBlock.php");
+											$("#currentBlock").load("homepage/blocks/current/currentBlock.php");
+											$("#nwsForecastBlock").load("homepage/blocks/nwsForecast/nwsForecastBlock.php");
+											$("#radarUSBlock").load("homepage/blocks/radarUS/radarUSBlock.php");
+											$("#clockDigitalBlock").load("homepage/blocks/clockDigital/clockDigitalBlock.php");
+											$("#stationDataBlock").load("homepage/blocks/stationData/stationDataBlock.php");
+											$("#risetBlock").load("homepage/blocks/riset/risetBlock.php");
+											$("#moonPhaseBlock").load("homepage/blocks/moonPhase/moonPhaseBlock.php");
+											$("#infoBlock").load("homepage/blocks/info/infoBlock.php");
+											$("#ForecastBlock").load("homepage/blocks/Forecast/ForecastBlock.php");
+											$("#dotBlock").load("homepage/blocks/dot/dotBlock.php");
+							})
+		</script>
+	</body>
+</html>

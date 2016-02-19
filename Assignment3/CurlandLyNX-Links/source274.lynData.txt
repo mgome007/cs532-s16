@@ -1,0 +1,227 @@
+   #[1]The Life of a Radar
+
+                             The Life of a Radar
+
+   Hi there, my parents and friends call me Ryan Bigg, but you may know me
+   as "Radar". Either is fine.
+
+   I'm a technical writer for Ruby / Rails based in Australia. I have
+   written a Rails book with [2]Rebecca Skinner called [3]Rails 4 in
+   Action, which is available also on [4]Amazon. I also wrote
+   [5]Multitenancy With Rails.
+
+   Occasionally I find some time to write interesting blog posts such as
+   the ones you see below.
+
+   I also have done quite a lot of [6]open-source work and I [7]tweet.
+   Find out more [8]about me.
+
+   If you like what you see you can [9]subscribe to this blog.
+   [10]Programming Phoenix Review 24 Dec 2015
+
+   During this Christmas break I've been taking some time off from writing
+   Multitenancy with Rails -- which I'll get back to after Christmas is
+   over -- and instead of writing books I'm reading them.
+
+   [11]Programming Phoenix is the only book that I've been reading so far.
+   I've now read through the whole thing. Despite that I've filed over 40
+   errata on the book (hey, it is a beta book) I mostly enjoyed the book.
+     __________________________________________________________________
+
+   Programming Phoenix takes you through building a complete Phoenix
+   application, introducing familiar concepts like controllers, models and
+   templates. Those parts are familiar because they're much the same in
+   Phoenix as they are in Rails; with some differences. Models have
+   changesets. Templates relate to Views. Unlike Rails' "magical"
+   callbacks (in both models and controllers), these are just simply
+   defined and used functions in Phoenix.
+
+   The latter chapters cover a range of things, like adding in live
+   "annotations" to a video as its being watched. Think of that kind of
+   like a live chatroom, except as the video plays, the annotations from
+   previous watches also appear. This is done using Websockets, which are
+   supported in Rails now with ActionCable, but it just feels a lot less
+   hacky with Phoenix than it does with Rails. Elixir handles it better,
+   [12]reaching two million connections recently to a single (albeit quite
+   beefy) server. I can't myself think of something to use Websockets for,
+   but it is still exciting nevertheless.
+
+   The final two chapters, "OTP" (Open Telecom Platform) and "Observer and
+   Umbrellas" cover some of the real strengths of Elixir and its
+   underlying foundation of Erlang. These two chapters get you to build a
+   system which connects to Wolfram Alpha's API, and then demonstrate how
+   to keep this new system separate from the original application, while
+   still being able to connect these two systems together and communicate
+   between them. In the Ruby world, typically this would be done with HTTP
+   calls, but in the Elixir world it is just a matter of communicating
+   across Elixir processes. This inter-process communication is quite
+   quick in comparison to HTTP because it doesn't have that overhead.
+
+   What I loved from these final chapters was seeing Elixir's supervision
+   capabilities in action. In one of those latter chapters, you create a
+   small application (Rumbl.Counter) which dies after a couple of seconds.
+   A Supervisor for the main application (Rumbl) restarts this smaller
+   application automatically when it dies. Ruby doesn't have that kind of
+   capability; instead you need to rely on tools like upstart. It's quite
+   nice having it built into the language because then you don't have to
+   learn something completely different to ensure your servers don't fall
+   over.
+     __________________________________________________________________
+
+   The book is written by José "The Elixir Guy" Valim, Chris "The Phoenix
+   Guy" McCord and Bruce "The [13]Seven Languages Guy" Tate. It's great to
+   see that it's the core developers who are invested in writing
+   documentation for the community. Unlike a certain other community who
+   has a main core developer who tells contributors to go fuck themselves
+   when they ask for documentation regarding new features. Further to that
+   point, both José and Chris are extremely active on the #elixir-lang
+   channel on Freenode, which is also great to see.
+
+   I am not sure if it is because the book has three authors, but there
+   are some parts where I'm reading it and enjoying it. Then there are
+   sections like "Anatomy of a Plug" which goes way too deep into what a
+   Plug is and how it works, and "Exploring Ecto in the Console" which,
+   again, goes rather deep but doesn't tie that content solidly back to
+   what we're doing in the book at that present moment. It'd be like a
+   fiction book intricately explaining what's in the house of the
+   neighbour of the protagonist, but then the neighbour is not mentioned
+   any more past that.
+
+   Like, why does it even matter that Ecto supports "search functions like
+   ilike and like" or that Plug has path_info and scheme fields? Neither
+   of those are relevant to the content at-hand at that point of time, and
+   it feels disconnected. Those things should be mentioned in their
+   respective guides, not in this book. Perhaps those sections will
+   mysteriously disappear once this book reaches the production editing
+   phase.
+
+   It feels like it would be better off showing what a Plug is within the
+   context of the application... and they do that later on. Then after
+   that go into the detail. But I could do without the pages and pages of
+   extra seemingly "useless" info before I get hooked on what you're
+   trying to sell.
+
+   In addition to that, there are some places where the content feels like
+   it's saying "we're going to do this now because I said we're going to
+   do it"; particularly in Chapter 5, the Authentication chapter. The
+   chapter jumps to creating a registration changeset with no reason why
+   it needs to be created, then later on explains why it has to be
+   created. The explanation needs work there.
+
+   This is where the TDD/BDD of Rails 4 in Action holds up. In that book,
+   it's more like "we're going to do this because the test says we need to
+   do it". Programming Phoenix saves that kind of testing for Chapter 8,
+   with the given reason being that having testing throughout every
+   chapter can be distracting and repetitive. While I can see the point
+   there -- there was vigorous nodding over here reading Chapter 8's intro
+   -- that very same testing can be helpful for demonstrating industry
+   best-practices to newbies. Otherwise what you'll get is a bunch of
+   newbies who read the first 7 chapters and think that writing code
+   without tests is How It Is Done(tm).
+
+   Having tests also helps show off the usefulness of regression testing
+   too. A thing broke and now we're going to write a test for a fix, watch
+   the test go red, fix the thing, and watch the test go green. I think
+   that kind of thing is helpful to newbies to have, as they're the most
+   likely to make mistakes within their application.
+
+   Despite these complaints, the book has been worthwhile reading. I am
+   mainly nitpicking, because I'm an author of another programming book
+   and I have moments where I think that I could write parts better. That
+   has yet to be proven.
+
+   The parallels between Rails and Phoenix are helping with the learning
+   of the new framework, and the differences between them are not too
+   mind-bending to be beyond comprehension. The first 8 chapters cover
+   topics that should be familiar to any Rails developer: starting a new
+   project, adding in models and controllers. Adding validations to the
+   model with changesets -- which are a very cool feature that I wouldn't
+   be surprised if Active Record 6.0 picked up.
+
+   The remaining 4 chapters of the book venture off into territory that is
+   probably unexplored by most Rails developers. I know that I personally
+   have never spent time using Websockets or having to do anything like
+   inter-process communication in Ruby. These last four chapters were a
+   breath of fresh air for my skills. I feel like I really learned
+   something valuable in those chapters.
+
+   Overall, Programming Phoenix is a fantastic book that will become even
+   better once the authors spend more time on it and the editors do their
+   bit. I really recommend reading this book, but with a small caveat:
+   read [14]Programming Elixir first to get familiar with the underlying
+   language of the Phoenix framework. Then it'll be smooth sailing for
+   you.
+
+25 back
+
+     * [15]Open source work16 Nov 2015
+     * [16]Active Record, change_column and scales10 Nov 2015
+     * [17]My self-publishing success story06 Aug 2015
+     * [18]Deploying a Rails application on Ubuntu: Passenger Edition08
+       Jul 2015
+     * [19]Mac OS X, Ruby, ruby-install, chruby and You09 Jun 2015
+     * [20]Getting started with Ruby and Rails30 Apr 2015
+     * [21]Filtering by index in Elasticsearch03 Dec 2014
+     * [22]Ubuntu, Ruby, ruby-install, chruby, Rails and You05 Oct 2014
+     * [23]Working Remotely02 Oct 2014
+     * [24]Go package management02 Sep 2014
+     * [25]Thoughts on Go08 Aug 2014
+     * [26]Add header to Rack::Test request06 Aug 2014
+     * [27]Ryan Bigg is now a Git...22 Jul 2014
+     * [28]Initial thoughts on Lotus19 Jun 2014
+     * [29]Spree, Factories and Callbacks17 Jun 2014
+     * [30]Community Management02 Apr 2014
+     * [31]Violence in the Ruby community14 Oct 2013
+     * [32]Order adjustments within Spree24 Sep 2013
+     * [33]Debugging Rails Controllers05 Sep 2013
+     * [34]Bundler local paths16 Aug 2013
+     * [35]Waiting for AJAX in Capybara09 Jul 2013
+     * [36]Finding SQL queries in Rails26 Jun 2013
+     * [37]About spec/support02 Feb 2013
+     * [38]Multitenancy with Rails21 Jan 2013
+     * [39]A story about scaffolding07 Jan 2013
+
+                        [40]The Complete Blogography
+
+References
+
+   1. http://feeds.feedburner.com/ryanbigg
+   2. https://github.com/sevenseacat
+   3. https://www.manning.com/books/rails-4-in-action
+   4. http://www.amazon.com/Rails-4-Action-Ryan-Bigg/dp/1617291099
+   5. http://leanpub.com/multi-tenancy-rails-2
+   6. http://github.com/radar
+   7. http://twitter.com/ryanbigg
+   8. http://ryanbigg.com/about-me
+   9. http://feeds.feedburner.com/ryanbigg
+  10. file:///2015/12/programming-phoenix
+  11. https://pragprog.com/titles/phoenix/
+  12. http://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections
+  13. https://pragprog.com/book/btlang/seven-languages-in-seven-weeks
+  14. https://pragprog.com/book/elixir/programming-elixir
+  15. file:///2015/11/open-source-work
+  16. file:///2015/11/active-record-change_column-and-scales
+  17. file:///2015/08/my-self-publishing-success-story
+  18. file:///2015/07/deploying-a-rails-application-on-ubuntu-passenger-edition
+  19. file:///2015/06/mac-os-x-ruby-ruby-install-chruby-and-you
+  20. file:///2015/04/getting-started-with-ruby-and-rails
+  21. file:///2014/12/filtering-by-index-in-elasticsearch
+  22. file:///2014/10/ubuntu-ruby-ruby-install-chruby-and-you
+  23. file:///2014/10/working-remotely
+  24. file:///2014/09/go-package-management
+  25. file:///2014/08/thoughts-on-go
+  26. file:///2014/08/add-header-to-rack-test-request
+  27. file:///2014/07/ryan-bigg-is-now-a-git
+  28. file:///2014/06/initial-thoughts-on-lotus
+  29. file:///2014/06/spree-factories-and-callbacks
+  30. file:///2014/04/community-management
+  31. file:///2013/10/violence-in-the-ruby-community
+  32. file:///2013/09/order-adjustments
+  33. file:///2013/09/debugging-rails-controllers
+  34. file:///2013/08/bundler-local-paths
+  35. file:///2013/07/waiting-for-ajax-in-capybara
+  36. file:///2013/06/finding-sql-queries-in-rails
+  37. file:///2013/02/about-spec-support
+  38. file:///2013/01/multitenancy-with-rails
+  39. file:///2013/01/a-story-about-scaffolding
+  40. file:///blogography.html

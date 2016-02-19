@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=4407ac63b04a974114891da19b333539"></script>
+<!doctype html>
+
+<!-- ----------------------------------
+     Theme Urban 2, Preview °1
+     
+     Theme is made by Max Davis.
+     More free tumblr themes at: 
+     http://themes.themaxdavis.com  
+     ---------------------------------- -->
+
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<meta name="color:background" content="#ffffff"/>
+<meta name="color:center" content="#ffffff"/>
+<meta name="color:text" content="#999999"/>
+<meta name="color:title" content="#333333"/>
+<meta name="color:link" content="#333333"/>
+<meta name="color:link hover" content="#999999"/>
+<meta name="color:border" content="#eeeeee"/>
+<meta name="color:Post hover" content="#000000"/>
+<meta name="color:Post hover text" content="#ffffff"/>
+
+<meta name="image:Background" content="http://static.tumblr.com/b2ajd3k/x24lz7b4l/nail.png" />
+<meta name="image:Header" content="" />
+<meta name="image:Sidebar" content="http://static.tumblr.com/b2ajd3k/Gaplz7byn/mateus-verdelho-por-omar-macchiavelli-5-680x1024.jpg" />
+
+<meta name="if:Header Transparent" content="0"/>
+<meta name="if:sidebar" content="1"/>
+<meta name="if:sidebar fixed" content="1"/>
+<meta name="if:sidebar left or right" content="0"/>
+<meta name="if:infinite scrolling" content="0"/>
+<meta name="if:borders" content="0"/>
+<meta name="if:Shadow" content="1"/>
+<meta name="if:Vignette" content="0"/>
+<meta name="if:Notes Zoom In" content="0"/>
+<meta name="if:Show archive" content="1"/>
+<meta name="if:Show random" content="1"/>
+<meta name="if:Show rss" content="1"/>
+
+<meta name="text:Ask title" content=""/>
+<meta name="text:Next Page" content="Next Page" />
+<meta name="text:Previous Page" content="Previous Page" />
+<meta name="text:Link 1" content="" />
+<meta name="text:Link 1 Title" content="" />
+<meta name="text:Link 2" content="" />
+<meta name="text:Link 2 Title" content="" />
+<meta name="text:Link 3" content="" />
+<meta name="text:Link 3 Title" content="" />
+<meta name="text:Link 4" content="" />
+<meta name="text:Link 4 Title" content="" />
+
+<title>ADESOYE RICHARD</title>
+<style>figure{margin:0}</style>
+<link rel="stylesheet" href="http://static.tumblr.com/usaykzx/o8Bku9w35/reset.css" type="text/css" />
+<link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_05f350827abb_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://richh-kid.tumblr.com/rss">
+<meta name="description" content="Here&#039;s my life in pictures. Being disliked is part of life, you can never satisfy everyone. But that was never my goal, I live for me and only me." />
+ <script type="text/javascript" src="http://themaxdavisthemes.com/code/jQuery.js"></script>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=richh-kid" />
+<link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=richh-kid" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=8b0553f75283ecbeb78be24f096f4c2c"></script>
+
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="ADESOYE RICHARD" /><meta property="og:url" content="http://richh-kid.tumblr.com/?og=1" /><meta property="og:description" content="Here&#039;s my life in pictures. Being disliked is part of life, you can never satisfy everyone. But that..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://31.media.tumblr.com/avatar_05f350827abb_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=richh-kid" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=richh-kid" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="app" /><meta name="twitter:description" content="richh-kid" /><meta name="twitter:title" content="richh-kid" /><meta name="twitter:creator" content="Richh_Kid" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=richh-kid&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=richh-kid&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=richh-kid&amp;referrer=twitter-cards" />
+
+<!-- GOOGLE CAROUSEL --><script type="application/ld+json">{"@type":"ItemList","url":"http:\/\/richh-kid.tumblr.com","itemListElement":[{"@type":"ListItem","position":1,"url":"http:\/\/richh-kid.tumblr.com\/post\/138466486280"},{"@type":"ListItem","position":2,"url":"http:\/\/richh-kid.tumblr.com\/post\/137464497390"},{"@type":"ListItem","position":3,"url":"http:\/\/richh-kid.tumblr.com\/post\/137464492655\/bye-bye-little-sebastian-the-awesome-quotes"},{"@type":"ListItem","position":4,"url":"http:\/\/richh-kid.tumblr.com\/post\/137464471260\/lol"},{"@type":"ListItem","position":5,"url":"http:\/\/richh-kid.tumblr.com\/post\/137464431205\/darkskinnedblackbeauty-oluwatobi-twitter"},{"@type":"ListItem","position":6,"url":"http:\/\/richh-kid.tumblr.com\/post\/137464343415\/fxckyeahnigerianbeauties-wcw-something-about"},{"@type":"ListItem","position":7,"url":"http:\/\/richh-kid.tumblr.com\/post\/137464332695\/fxckyeahnigerianbeauties-oluwatobi"},{"@type":"ListItem","position":8,"url":"http:\/\/richh-kid.tumblr.com\/post\/137464319780\/fxckyeahnigerianbeauties"},{"@type":"ListItem","position":9,"url":"http:\/\/richh-kid.tumblr.com\/post\/137464314900\/blackbeauties-miminat"},{"@type":"ListItem","position":10,"url":"http:\/\/richh-kid.tumblr.com\/post\/137464277205\/alltheco0lkidsrdoinit-tryna-get-on-this"}],"@context":"http:\/\/schema.org"}</script>
+<link rel="canonical" href="http://richh-kid.tumblr.com" />
+
+</head>
+<style type="text/css"> body{ margin-top: 0px; text-align:justify; color: #999999; font-family:arial; font-size: 11px; background-color:#ffffff; background-image:url(http://static.tumblr.com/9i6vlni/5nCmctcgq/keep-calm-and-follow-my-tumblr-27.png); background-attachment: fixed; background-position:top center; background-repeat: repeat;} a:link, a:visited, a:active{ color:#333333; text-decoration:none; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; transition: all 0.2s ease-out;} a:hover{ color:#999999; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; transition: all 0.2s ease-out;} a:active{outline: none;} a:focus{-moz-outline-style: none;} :-moz-any-link:focus{outline: none;} img{border:none;} div#center{ width:930px; margin:30px auto;} #container { margin-top: 10px; color: #999999; font-size: 10px;   width:624px;   } #sidebar{ width:280px; padding:10px; margin-top:5px; background-color:#ffffff; font-size:10px;   margin-left:629px;       -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.2); box-shadow: 0px 0px 5px rgba(0,0,0,0.2);   border:1px solid #eeeeee; } #sidebar.absolute{ position:absolute;} #sidebar.fixed{ position:fixed; top:15px;} div#header{ margin:5px; font-size: 11px; color:#999999; color:;  width:904px;   padding: 10px;   display:none;    background:transparent; } div#header h1{ text-align:center; color:; font-size:45px; line-height: 70px; letter-spacing: 0px; font-weight:bold; font-style:normal;} .link{ color:; font-size:11px; font-weight:bold; font-style:normal; margin:0 5px;} .navi { font-weight: normal; color:#999999; font-style:normal;} #entry {border:1px solid #eeeeee;background-color:#ffffff;float:left;width:300px;height: 200px;overflow:hidden;margin:5px;-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);box-shadow: 0px 0px 5px rgba(0,0,0,0.2);} #photo {width:500px; height: 140px;} p{ margin-top:0px; margin-bottom:0px;} .label {font-weight:bold;} ul.chat, .chat ol, .chat li {list-style:none; margin:0px; padding:0px;} blockquote{padding:0px; padding-left:5px; margin:5px;} blockquote img{display:block; width:100%;} blockquote p{padding:0px; margin:0px;} blockquote blockquote{position:relative;left:-2px;margin-top:0px;margin-right:0px;padding-right:0px;}#entry img{margin-top:0px;}#entry img{width:300px;} #entry object, embed{width:300px; margin-left:0px; margin-top:0px;} #notes{background-color:#ffffff;display:block;width: 490px;line-height: 18px;float: right;padding: 5px;margin-top: 10px;text-align: left;} .notes img{width:15px;position:relative;top:2.5px;} ol.notes, .notes li{list-style:none;margin-left:20px;padding:0px;} .audioinfo{display:block;margin-left:0px;margin-top:0px;margin-bottom:4px;text-align: left;height:10px;padding:2px;width:100px;} a img{border:none;} #video object{position:relative; margin-top:-20px;} #video{overflow:hidden;} .label {color: ;font-weight: bold;line-height:12px;} .odd {padding:2px;} h1 { color: #333333; font-size: 52px; font-family:'Open Sans', sans-serif; font-weight: 800; line-height: 46px; letter-spacing: -2px;} h2 { color: #333333; font-family:'Open Sans', sans-serif; font-weight: 800; font-size: 20px;line-height: 20px; letter-spacing: -1px; font-style:normal;} h3 { color: #333333; font-size: 10px;f font-family: 'Open Sans', sans-serif; font-weight: 800; letter-spacing: 0px;} #quote{padding:10px;} #textadd{padding:10px;} #linkadd{padding:10px;} #audioadd{padding:10px;} #chatadd{padding:10px;} #questionadd{padding-top:10px; padding-left:20px; padding-right:20px; padding-bottom: 5px;} #answeradd{padding-top:0px; padding-left:10px; padding-right:20px; padding-bottom: 0px;} .permalink_notes{font-size:40px;width:300px;letter-spacing: -2px;display:block; position:absolute; color:#ffffff;font-weight:bold;opacity:0;margin-top: 90px; text-align: center; padding-left: 5px;padding-top:4px;padding-bottom:2px;font-style:normal;-webkit-transition: all 0.3s linear;-moz-transition: all 0.3s linear; -o-transition: all 0.3s linear;} #entry:hover .permalink_notes {opacity:1;font-size:40px;width:300px; margin-left:0px;display: block;-webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear;}.permalink_notes a {color:#ffffff;} .permalink_info{ font-size:11px;display:block; position:absolute;width:300px; font-weight:bold;opacity:0;margin-top: 115px; text-align:center; padding-left: 5px;padding-top:4px;color:#ffffff;padding-bottom:2px;-webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear;} .permalink_info a {color:#ffffff;} #entry:hover .permalink_info {opacity:1;display: block; -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -o-transition: all 0.15s linear;} .permalink{font-size:184px;display:block;position:absolute;width:300px;height:200px;margin-top:0px;text-align: center;background-color:#000000;opacity: 0;-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transition: all 0.2s linear;} #entry:hover .permalink {display:block; opacity: 0.9;-webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear;-o-transition: all 0.2s linear;}.date2 a {color:;}.date2 a:hover {color:;} #answer{margin-top: 1px;}div#audioinfo{z-index:2;position:absolute;background:white;opacity:0.7;padding:10px;width:280px;margin-top:75px;overflow:hidden;} div#audioinfo2{ z-index:2; position:absolute; background:white; opacity:0.7; padding:0 10px; width:280px; margin-top:124px; height:0px; overflow:hidden; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear;} #entry:hover div#audioinfo2{ z-index:2; position:absolute; background:white; opacity:0.7; padding:10px; height:auto; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear;} #permalinkpage{width:500px;margin:15px 75px;height:auto;padding:20px;background-color:#ffffff;-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);box-shadow:0px 0px 5px rgba(0,0,0,0.2);border:1px solid #eeeeee;} #permalinkinfo{border:1px solid #eeeeee;margin-left:75px;width:500px;padding:20px;text-align:center;background-color:#ffffff;-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);box-shadow:0px 0px 5px rgba(0,0,0,0.2);}  </style>
+</head>
+<body>
+<div id="center">
+   <div id="header">
+        <center>
+        <a href="/"><img src="http://static.tumblr.com/9i6vlni/Glhmctc7d/tumblr_m8em1mmy5t1ry9k7ao1_400.png"style="max-width:930px; max-height:400px" /></a>
+        </center><br><br>
+        
+        
+        
+   </div>
+
+
+<div id="sidebar" class="absolute"><center>
+        
+        <a href="/"><img src="http://static.tumblr.com/9i6vlni/l76mctc8r/tumblr_m8em1mmy5t1ry9k7ao1_400.png"style="max-width:280px;" /></a>
+        <br><br>
+        
+        <a href="/"><h2>ADESOYE RICHARD</h2></a>
+        <br>Here's my life in pictures.<br />
+Being disliked is part of life, you can never satisfy everyone. But that was never my goal, I live for me and only me.<br><br>
+        <a href="/ask" class="link">
+        Any question?
+        </a><br>
+        
+        
+        
+        
+        
+        
+        <a href="/archive" class="link">Archive</a><br> 
+        <a href="/random" class="link">Random</a><br>
+        <a href="http://richh-kid.tumblr.com/rss" class="link">Rss</a><br>
+        </center>
+       <center><br><span class="current_page" class="navi"><strong>1</strong></span><a class="jump_page" href="/page/2" class="navi">2</a><a class="jump_page" href="/page/3" class="navi">3</a><a class="jump_page" href="/page/4" class="navi">4</a><a class="jump_page" href="/page/5" class="navi">5</a><a class="jump_page" href="/page/6" class="navi">6</a><a class="jump_page" href="/page/7" class="navi">7</a><a class="jump_page" href="/page/8" class="navi">8</a><a href="/page/2" class="navi">   Next Page</a><br></center>
+        
+</div>
+
+
+   <div id="container">
+      <a href="http://maxdavis-themes.tumblr.com/"><div id="link"></div></a>
+        <div class="autopagerize_page_element">
+           <div id="entry">
+              
+              
+              
+                 
+                 <a href="http://richh-kid.tumblr.com/post/138466486280"><div class="permalink"></div></a>
+                 <div class="permalink_notes">
+                 <a href="http://richh-kid.tumblr.com/post/138466486280"> 5723 NOTES</a>
+                 </div>
+                 <div class="permalink_info">
+                    <a href="https://www.tumblr.com/reblog/138466486280/xgO5OR81"target="_blank">Reblog</a>
+                 </div>
+                    <div id="photo"><a href="http://richh-kid.tumblr.com/post/138466486280">
+                    <img src="http://40.media.tumblr.com/7dbfee228c50a09d93e1d02b5a6ce638/tumblr_nrshbkM2jl1rszxjjo1_500.jpg" alt="" width=500px/></a>
+                    </div>
+                 
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              </div>
+              
+                
+
+<div id="entry">
+              
+              
+              
+                 
+                 <a href="http://richh-kid.tumblr.com/post/137464497390"><div class="permalink"></div></a>
+                 <div class="permalink_notes">
+                 <a href="http://richh-kid.tumblr.com/post/137464497390"> 9176 NOTES</a>
+                 </div>
+                 <div class="permalink_info">
+                    <a href="https://www.tumblr.com/reblog/137464497390/L12u3j7d"target="_blank">Reblog</a>
+                 </div>
+                    <div id="photo"><a href="http://richh-kid.tumblr.com/post/137464497390">
+                    <img src="http://41.media.tumblr.com/e801ff8fa2e6e40ddb9ec3d35a15f9d3/tumblr_nxhti6V9Dq1ujgrepo1_500.jpg" alt="" width=500px/></a>
+                    </div>
+                 
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              </div>
+              
+                
+
+<div id="entry">
+              
+              
+              
+
+              
+                 <a href="http://richh-kid.tumblr.com/post/137464492655/bye-bye-little-sebastian-the-awesome-quotes"><div class="permalink"></div></a>
+                 <div class="permalink_notes">
+                 <a href="http://richh-kid.tumblr.com/post/137464492655/bye-bye-little-sebastian-the-awesome-quotes"> 351167 NOTES</a>
+                 </div>
+                 <center>
+                    <div id="photoset_137464492655" class="html_photoset">    <iframe id="photoset_iframe_137464492655" class="photoset" scrolling="no" frameborder="0" height="6681" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://richh-kid.tumblr.com/post/137464492655/photoset_iframe/richh-kid/tumblr_nw0s8kS7nx1u8pcxq/500/false" name="photoset_iframe_137464492655"></iframe></div>
+                 </center>
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              </div>
+              
+                
+
+<div id="entry">
+              
+              
+              
+                 
+                 <a href="http://richh-kid.tumblr.com/post/137464471260/lol"><div class="permalink"></div></a>
+                 <div class="permalink_notes">
+                 <a href="http://richh-kid.tumblr.com/post/137464471260/lol"> 183945 NOTES</a>
+                 </div>
+                 <div class="permalink_info">
+                    <a href="https://www.tumblr.com/reblog/137464471260/OOs4eCXa"target="_blank">Reblog</a>
+                 </div>
+                    <div id="photo"><a href="http://richh-kid.tumblr.com/post/137464471260/lol">
+                    <img src="http://40.media.tumblr.com/38075201cbd69807e5f89ef95b28f53a/tumblr_nvakxpN5B81tm1x8po1_500.jpg" alt="Lol" width=500px/></a>
+                    </div>
+                 
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              </div>
+              
+                
+
+<div id="entry">
+              
+              
+              
+
+              
+                 <a href="http://richh-kid.tumblr.com/post/137464431205/darkskinnedblackbeauty-oluwatobi-twitter"><div class="permalink"></div></a>
+                 <div class="permalink_notes">
+                 <a href="http://richh-kid.tumblr.com/post/137464431205/darkskinnedblackbeauty-oluwatobi-twitter"> 104 NOTES</a>
+                 </div>
+                 <center>
+                    <div id="photoset_137464431205" class="html_photoset">    <iframe id="photoset_iframe_137464431205" class="photoset" scrolling="no" frameborder="0" height="184" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://richh-kid.tumblr.com/post/137464431205/photoset_iframe/richh-kid/tumblr_o0siexv67x1qd09ey/500/false" name="photoset_iframe_137464431205"></iframe></div>
+                 </center>
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              </div>
+              
+                
+
+<div id="entry">
+              
+              
+              
+
+              
+                 <a href="http://richh-kid.tumblr.com/post/137464343415/fxckyeahnigerianbeauties-wcw-something-about"><div class="permalink"></div></a>
+                 <div class="permalink_notes">
+                 <a href="http://richh-kid.tumblr.com/post/137464343415/fxckyeahnigerianbeauties-wcw-something-about"> 78 NOTES</a>
+                 </div>
+                 <center>
+                    <div id="photoset_137464343415" class="html_photoset">    <iframe id="photoset_iframe_137464343415" class="photoset" scrolling="no" frameborder="0" height="3252" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://richh-kid.tumblr.com/post/137464343415/photoset_iframe/richh-kid/tumblr_o0wxd52PVO1s2ynmi/500/false" name="photoset_iframe_137464343415"></iframe></div>
+                 </center>
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              </div>
+              
+                
+
+<div id="entry">
+              
+              
+              
+
+              
+                 <a href="http://richh-kid.tumblr.com/post/137464332695/fxckyeahnigerianbeauties-oluwatobi"><div class="permalink"></div></a>
+                 <div class="permalink_notes">
+                 <a href="http://richh-kid.tumblr.com/post/137464332695/fxckyeahnigerianbeauties-oluwatobi"> 39 NOTES</a>
+                 </div>
+                 <center>
+                    <div id="photoset_137464332695" class="html_photoset">    <iframe id="photoset_iframe_137464332695" class="photoset" scrolling="no" frameborder="0" height="184" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://richh-kid.tumblr.com/post/137464332695/photoset_iframe/richh-kid/tumblr_o0sibhcHqZ1s2ynmi/500/false" name="photoset_iframe_137464332695"></iframe></div>
+                 </center>
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              </div>
+              
+                
+
+<div id="entry">
+              
+              
+              
+                 
+                 <a href="http://richh-kid.tumblr.com/post/137464319780/fxckyeahnigerianbeauties"><div class="permalink"></div></a>
+                 <div class="permalink_notes">
+                 <a href="http://richh-kid.tumblr.com/post/137464319780/fxckyeahnigerianbeauties"> 33 NOTES</a>
+                 </div>
+                 <div class="permalink_info">
+                    <a href="https://www.tumblr.com/reblog/137464319780/56Rh59oL"target="_blank">Reblog</a>
+                 </div>
+                    <div id="photo"><a href="http://richh-kid.tumblr.com/post/137464319780/fxckyeahnigerianbeauties">
+                    <img src="http://40.media.tumblr.com/7d61a00501cacc05390eca12ccd597a5/tumblr_o0rwepbGD51s2ynmio1_500.jpg" alt="fxckyeahnigerianbeauties:
+
+👑" width=500px/></a>
+                    </div>
+                 
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              </div>
+              
+                
+
+<div id="entry">
+              
+              
+              
+
+              
+                 <a href="http://richh-kid.tumblr.com/post/137464314900/blackbeauties-miminat"><div class="permalink"></div></a>
+                 <div class="permalink_notes">
+                 <a href="http://richh-kid.tumblr.com/post/137464314900/blackbeauties-miminat"> 155 NOTES</a>
+                 </div>
+                 <center>
+                    <div id="photoset_137464314900" class="html_photoset">    <iframe id="photoset_iframe_137464314900" class="photoset" scrolling="no" frameborder="0" height="245" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://richh-kid.tumblr.com/post/137464314900/photoset_iframe/richh-kid/tumblr_o0rsegWobL1qafozx/500/false" name="photoset_iframe_137464314900"></iframe></div>
+                 </center>
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              </div>
+              
+                
+
+<div id="entry">
+              
+              
+              
+
+              
+                 <a href="http://richh-kid.tumblr.com/post/137464277205/alltheco0lkidsrdoinit-tryna-get-on-this"><div class="permalink"></div></a>
+                 <div class="permalink_notes">
+                 <a href="http://richh-kid.tumblr.com/post/137464277205/alltheco0lkidsrdoinit-tryna-get-on-this"> 20624 NOTES</a>
+                 </div>
+                 <center>
+                    <div id="photoset_137464277205" class="html_photoset">    <iframe id="photoset_iframe_137464277205" class="photoset" scrolling="no" frameborder="0" height="3077" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://richh-kid.tumblr.com/post/137464277205/photoset_iframe/richh-kid/tumblr_nxs6odhMKc1rvbmgr/500/false" name="photoset_iframe_137464277205"></iframe></div>
+                 </center>
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              </div>
+              
+                
+
+<br><br>
+</div>
+</div></div>
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?ab5d9138df4f39e0a422d6b59713a84e#" +
+                              "http://richh-kid.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/';
+                    var tumblelog_id = '52237353';
+                    var yahoo_space_id = '1197719229';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455840731&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvcmljaGgta2lkLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=KDBKDHNBOE&K=128915f21ca5b041910df5d890b4b6af540cb2ef858d79db69ba2db476da5d06&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455840731&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvcmljaGgta2lkLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=KDBKDHNBOE&K=3e3d00e99eb07044953e7f1ce9db1ee1f2a83b433d6d0687b1ee9f2b84527d59&R="></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455840731&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3JpY2hoLWtpZC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiNDk1NTY1NzYiLCJyb290X3Bvc3RpZCI6IjEyNTM1MzMzOTY0NCIsInBvc3RpZCI6IjEzODQ2NjQ4NjI4MCIsImJsb2dpZCI6IjUyMjM3MzUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI1OTgyNzE5MiIsInJvb3RfcG9zdGlkIjoiMTMyNzkwODE4MjQ5IiwicG9zdGlkIjoiMTM3NDY0NDk3MzkwIiwiYmxvZ2lkIjoiNTIyMzczNTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjE4NzM3MjYxIiwicm9vdF9wb3N0aWQiOiIxMzA4OTc2ODc1MDYiLCJwb3N0aWQiOiIxMzc0NjQ0OTI2NTUiLCJibG9naWQiOiI1MjIzNzM1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDMxMDA1ODgiLCJyb290X3Bvc3RpZCI6IjEyOTkyMzQ5MzgyMyIsInBvc3RpZCI6IjEzNzQ2NDQ3MTI2MCIsImJsb2dpZCI6IjUyMjM3MzUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY1MjUyOTciLCJyb290X3Bvc3RpZCI6IjEzNzEyNDgwMTMyMyIsInBvc3RpZCI6IjEzNzQ2NDQzMTIwNSIsImJsb2dpZCI6IjUyMjM3MzUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg4MTI4MjM1Iiwicm9vdF9wb3N0aWQiOiIxMzcyNDQ4ODA1NzMiLCJwb3N0aWQiOiIxMzc0NjQzNDM0MTUiLCJibG9naWQiOiI1MjIzNzM1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4ODEyODIzNSIsInJvb3RfcG9zdGlkIjoiMTM3MjQ1MDcyMTQzIiwicG9zdGlkIjoiMTM3NDY0MzMyNjk1IiwiYmxvZ2lkIjoiNTIyMzczNTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODgxMjgyMzUiLCJyb290X3Bvc3RpZCI6IjEzNzI0NTA3OTY5OCIsInBvc3RpZCI6IjEzNzQ2NDMxOTc4MCIsImJsb2dpZCI6IjUyMjM3MzUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI3OTUyMjgiLCJyb290X3Bvc3RpZCI6IjEzNzA2NDQ1NDE5MiIsInBvc3RpZCI6IjEzNzQ2NDMxNDkwMCIsImJsb2dpZCI6IjUyMjM3MzUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjU0NzA4MDUwIiwicm9vdF9wb3N0aWQiOiIxMzMxNjU5ODUzMjUiLCJwb3N0aWQiOiIxMzc0NjQyNzcyMDUiLCJibG9naWQiOiI1MjIzNzM1MyIsInNvdXJjZSI6MzN9XX0=&U=DFCDMFPNLA&K=c23c8fe94dc87790abbb511a05f50bc2feca8469cbde027b5cc73f3bf0d10e94&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455840731&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3JpY2hoLWtpZC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiNDk1NTY1NzYiLCJyb290X3Bvc3RpZCI6IjEyNTM1MzMzOTY0NCIsInBvc3RpZCI6IjEzODQ2NjQ4NjI4MCIsImJsb2dpZCI6IjUyMjM3MzUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI1OTgyNzE5MiIsInJvb3RfcG9zdGlkIjoiMTMyNzkwODE4MjQ5IiwicG9zdGlkIjoiMTM3NDY0NDk3MzkwIiwiYmxvZ2lkIjoiNTIyMzczNTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjE4NzM3MjYxIiwicm9vdF9wb3N0aWQiOiIxMzA4OTc2ODc1MDYiLCJwb3N0aWQiOiIxMzc0NjQ0OTI2NTUiLCJibG9naWQiOiI1MjIzNzM1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDMxMDA1ODgiLCJyb290X3Bvc3RpZCI6IjEyOTkyMzQ5MzgyMyIsInBvc3RpZCI6IjEzNzQ2NDQ3MTI2MCIsImJsb2dpZCI6IjUyMjM3MzUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY1MjUyOTciLCJyb290X3Bvc3RpZCI6IjEzNzEyNDgwMTMyMyIsInBvc3RpZCI6IjEzNzQ2NDQzMTIwNSIsImJsb2dpZCI6IjUyMjM3MzUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg4MTI4MjM1Iiwicm9vdF9wb3N0aWQiOiIxMzcyNDQ4ODA1NzMiLCJwb3N0aWQiOiIxMzc0NjQzNDM0MTUiLCJibG9naWQiOiI1MjIzNzM1MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4ODEyODIzNSIsInJvb3RfcG9zdGlkIjoiMTM3MjQ1MDcyMTQzIiwicG9zdGlkIjoiMTM3NDY0MzMyNjk1IiwiYmxvZ2lkIjoiNTIyMzczNTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODgxMjgyMzUiLCJyb290X3Bvc3RpZCI6IjEzNzI0NTA3OTY5OCIsInBvc3RpZCI6IjEzNzQ2NDMxOTc4MCIsImJsb2dpZCI6IjUyMjM3MzUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI3OTUyMjgiLCJyb290X3Bvc3RpZCI6IjEzNzA2NDQ1NDE5MiIsInBvc3RpZCI6IjEzNzQ2NDMxNDkwMCIsImJsb2dpZCI6IjUyMjM3MzUzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjU0NzA4MDUwIiwicm9vdF9wb3N0aWQiOiIxMzMxNjU5ODUzMjUiLCJwb3N0aWQiOiIxMzc0NjQyNzcyMDUiLCJibG9naWQiOiI1MjIzNzM1MyIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=DFCDMFPNLA&K=dcae5dbd6c95d7f188f91cdc450be88ae6ec5c661527c7d9b7ec0b3688db1bea&R="></noscript>
+<noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;TumblelogIframe&quot;:{&quot;tumblelogBundleSrc&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.js?_v=7e99ae1182af3b984855ee73042bff77&quot;,&quot;tumblelogName&quot;:&quot;richh-kid&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;tumblelogTitle&quot;:&quot;ADESOYE RICHARD&quot;,&quot;tumblelogAvatar&quot;:&quot;http:\/\/33.media.tumblr.com\/avatar_05f350827abb_40.png&quot;,&quot;tumblelogHost&quot;:&quot;http:\/\/richh-kid.tumblr.com&quot;,&quot;brag&quot;:true,&quot;currentPage&quot;:&quot;1&quot;,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;http:\/\/richh-kid.tumblr.com\/&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;http:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=282357db21d8a5883cc1c780ace4cb5f&quot;,&quot;appInstallUrl&quot;:&quot;https:\/\/go.onelink.me\/893408789?pid=tumblr_blog_network\u0026c=tumblr_blog_network\u0026af_sub3=blog_name&quot;}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aV9wYXJzZV90ZXN0Ijp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJkZXByZWNhdGVfZmVhdHVyZWRfdGFncyI6dHJ1ZSwicmVibG9nX3VpX3JlZnJlc2giOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJkYXNoYm9hcmRfcmVmcmVzaCI6dHJ1ZSwibW9iaWxlX3dlYl9waG90b3NldHMiOnRydWUsIm1vYmlsZV93ZWJfZ2F0ZSI6dHJ1ZSwibW9iaWxlX3dlYl9wYWdlX3RpdGxlcyI6dHJ1ZSwibW9iaWxlX3dlYl9zZWFyY2giOnRydWUsIm1vYmlsZV93ZWJfc2VhcmNoX2ZpbHRlciI6dHJ1ZSwibW9iaWxlX3dlYl9hYnVzZV9mb3JtIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX25ld192ZW5kb3JfYnV0dG9ucyI6dHJ1ZSwiYmxvY2tfZmVhdHVyZSI6dHJ1ZSwicmVhY3RpdmF0aW9uX2Zsb3ciOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2VwaGVtZXJhbF9sb2ciOnRydWUsImxvZ19sYWR5Ijp0cnVlLCJjc2xvZ2dlcl9qcyI6dHJ1ZSwiZGlzY292ZXJ5X2h1Yl9hY2Nlc3MiOnRydWUsImhlYWRlcl9hY2NvdW50X21lbnUiOnRydWUsImVuYWJsZV9wcmltYV9zaGFyZV9wb3BvdmVyIjp0cnVlLCJlbmFibGVfc2hhcmVfZW1iZWRfY29kZSI6dHJ1ZSwicGludGVyZXN0X3NoYXJpbmciOnRydWUsInJlZGRpdF9zaGFyaW5nIjp0cnVlLCJwb3N0X2l0X2ZvcndhcmQiOnRydWUsInBlZXByX3NlYXJjaF9hbmRfZmlsdGVyIjp0cnVlLCJpbnRlcm5zX3BhZ2UiOnRydWUsImZvbGxvd2VkX3NlYXJjaGVzX2JpZ193ZWIiOnRydWUsImRpc2FibGVfcHVibGljX3JlcGxpZXMiOnRydWUsImRpc2FibGVfeWFob29fYl9jb29raWUiOnRydWUsInByaW1hX3R1bWJsZWxvZ19idW5kbGUiOnRydWV9&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1455840730000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;http:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/secure.assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;http:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;http:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;http:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;},&quot;Translations&quot;:[]}"></noscript>
+<script src="http://assets.tumblr.com/client/prod/standalone/tumblelog/index.js?_v=7e99ae1182af3b984855ee73042bff77"></script>
+
+</body>
+<script type='text/javascript'>
+
+sitePath = 'http://vanessaluiza.com/_utilidades/script/let-it-snow/';
+
+sflakesMax = 0.15;
+
+sflakesMaxActive = 110;
+
+svMaxX = 1;
+
+svMaxY = 1;
+
+ssnowStick = 0;
+
+sfollowMouse = 1;
+
+</script>
+
+<script src='http://blogonthenet.xpg.com.br/ttricks/snowstorm.js' type='text/javascript'></script>
+</html>

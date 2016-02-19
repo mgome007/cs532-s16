@@ -1,0 +1,567 @@
+   #[1]RSS
+
+   [2]Fork me on GitHub
+
+   [3][logo.png]
+   PYTHON ДАЙДЖЕСТ
+   Всё самое интересное прямо здесь и сейчас!
+
+   ____________________ (BUTTON)
+
+   [4]Система Orphus
+   [5]Заметили ошибку в тексте? Выделите мышкой и нажмите Ctrl + Enter
+   (BUTTON) Toggle navigation
+     *
+     * [6]ВЫПУСКИ
+     * [7]ЛЕНТА
+     * [8]ПОМОЧЬ ПРОЕКТУ
+
+   Новости собираются с мира по нитке на совершенно безвозмездной основе.
+   Ты легко можешь посодействовать проекту, добавив ссылку на интересную
+   новость, статью, интервью или проект о python.
+
+                     [9]Добавить новость
+
+   А еще можно форкнуть код этого проекта на Github и помочь в развитии
+   его функциональности.
+
+Текущий выпуск: Выпуск 112 (08.02.2016 - 14.02.2016)
+
+   Скандалы, интриги, расследования. Adobe удаляет данные с дисков
+   пользователей Mac OS; Amazon уточняют правила использования своих
+   сервисов на случай зомби-апокалипсиса; Sublime Text обновился,
+   выпустили Cassandra 3.3, Docker 1.10, PostgreSQL 9.5.1. А ниже
+   множество менее скандальных, но не менее интересных новостей из мира
+   Python. Читайте с удовольствием, пишите нам комментарии к выпускам,
+   подписывайтесь на обновления через [10]RSS, [11]Twitter или Telegram
+   @py_digest. Общайтесь с нами напрямую в [12]Slack (инвайт по
+   [13]ссылке). Эта неделя в России будет длинной - давайте сделаем за нее
+   все, что давно откладывали!
+
+   Поддержите проект [14]рублем или руками (мы ищем дизайнера и
+   верстальщика)
+   pythondigest.ru: Выпуск 112
+
+                            НАШИ ДРУЗЬЯ
+
+                                [15]python.su
+
+                             [16]pythonworld.ru
+
+                                [17]djbook.ru
+
+                                 [18]pep8.ru
+
+                        [19]vk.com/python_programing
+
+                              [20]vk.com/pynsk
+
+                            [21]vk.com/vk_python
+
+Python-конференция
+
+   [22][piterpy_3_350x350.jpg]
+
+Новости
+
+     [23]PyCharm 5.1 EAP
+
+     [24]PEP 0515 -- символ подчеркивания для чисел [25]PythonWeekly
+
+   Этот PEP расширяет синтаксис Python - добавляет символ подчеркивания
+   для ввода целочисленных, дробных и комплексных литералов. Это может
+   позволить повысить читаемость длинных чисел.
+# grouping decimal numbers by thousands
+amount = 10_000_000.0
+
+# grouping hexadecimal addresses by words
+addr = 0xDEAD_BEEF
+
+# grouping bits into nibbles in a binary literal
+flags = 0b_0011_1111_0100_1110
+
+# making the literal suffix stand out more
+imag = 1.247812376e-15_j
+
+Статьи
+
+     [26]Пишем игру Breakout на micropython [27]PythonWeekly
+
+   IFRAME: [28]https://www.youtube.com/embed/4YKx9z6j1aA
+
+     [29]Проверяем телефонный номер с помощью Twilio Lookup API
+   [30]PythonWeekly
+
+     [31]Значение Unit тестов
+
+     [32]Метод Ньютона в 10 строк Python кода [33]PythonWeekly
+
+     [34]Celery: начинаем правильно
+
+   Заметка с советами по работе с Celery в production.
+     [35]Сравниваем цены в книжных интернет магазинах c помощью python,
+   pandas и matplotlib [36]Хабрахабр
+
+   Сегодня мы попробуем найти самый дешевый и самый дорогой интернет
+   магазин книг.
+   Сравнивать будем бумажные книги, которые есть в наличии. В разных
+   магазинах очень разное количество книг. Где-то менее 1000, а где-то
+   более 200 000 книг.
+     [37]Polyglot PyCharm for Rich Web Front-ends Part 2 [38]PythonWeekly
+
+   Это вторая часть вебинара об использовании PyCharm для web-frontend
+   разработки
+     [39]Решения “реальных” задач с помощью SymPy
+
+   SymPy - это удивительная библиотека для символьных вычислений в Python.
+   Это как система Mathematica, и ее онлайн версия оболочки вместе. SymPy
+   Gamma похожа на Wolfram Alpha (WA).
+     [40]Определяем фигуры с помощью OpenCV
+
+   Это вторая часть о поиске объектов. Сегодня мы будем использовать
+   контуры чтобы идентифицировать фигуры в изображение.
+   shape_detection_results
+     [41]Полноценный REST API для перфекционистов за 5 минут [42]Хабрахабр
+
+   Речь пойдёт об инструменте, который позволит вам построить полноценный
+   и простой в использовании REST API за минимальное количество времени.
+   Называется он – [43]Python Eve.
+   К сожалению в Интернете очень много инструкций на эту тему, но все они
+   вводят в заблуждение. Начинающие разработчики, начитавшись подобных
+   статей, думают, что REST API это GET/POST/PUT/DELETE. Заказчики думают,
+   что это дело пары часов. А когда они встречаются вместе, происходят
+   магия в виде Express.js/Mongoose/Passport и ещё кучи хлама, который
+   течёт и временами блокирует event-loop. Всё это запускается с помощью
+   какого-нибудь supervisor, потому что иногда падает и надо как-то
+   перезапускать.
+     [44]asyncio — Asynchronous I/O, event loop, and concurrency tools —
+   PyMOTW 3
+
+   Модуль предоставляет средства для создания параллельных приложений с
+   использованием сопрограмм.
+
+Видео
+
+     [45]Raspberry Pi + MCP3008 [46]PythonWeekly
+
+   В видео вы найдете пример работы с Python библиотекой для MCP3008 АЦП
+   на Raspberry Pi. Рассмотрим структуру библиотеки, научимся работать с
+   SPI
+
+   IFRAME: [47]https://www.youtube.com/embed/lS_3aAW-wqc?feature=oembed
+
+     [48]Туториал: введение в data science на Python [49]PythonWeekly
+
+   Пробовали попасть в науку о данных или в машинное обучение? Но
+   сталкиваетесь со сложным технологическим стеком или математикой?
+
+   В видео вы найдете пошаговое руководство по настройке ОС, будет
+   расмотрен стек технологий, рассмотрим стандартные наборы данных для
+   обучения.
+
+   IFRAME: [50]https://www.youtube.com/embed/irK30feqdlg?feature=oembed
+
+Колонка автора
+
+     [51]Полезные инструменты: GeoIP - определяем город пользователя по IP
+   [52]PyNSK
+
+   Уже давно фраза "я тебя вычислю по IP" реальна.
+
+   Хочется представить очень простой инструмент для определения
+   местоположения по IP - GeoIP. Рассматривать GeoIP стоит как базу данных
+   соответствия интернет и физических адресов. Базы могут отличатся
+   точностью - одна точно определяет страну, а друга может дать точность
+   до улицы.
+     [53]Интересные концепции: REPL (Read-eval-print loop) [54]PyNSK
+
+   REPL (Read-eval-print loop) — простая интерактивная среда
+   программирования.
+
+   В такой среде пользователь может вводить выражения, которые среда тут
+   же будет вычислять, а результат вычисления отображать пользователю.
+   Название read-eval-print loop происходит от имён примитивов языка Lisp,
+   которые реализуют подобную функциональность
+
+   Зачем нужен REPL? Очевидно что REPL нужен для обучения, проверки
+   каких-то идей/кода, чтобы вспомнить как работает какой-то метод, для
+   замены калькулятора, иными словаи когда цикл "Написал код -> запустил
+   -> посмотрел результат" должен быть минимальным по времени.
+     [55]Python уроки: тестирование с помощью unittest [56]PyNSK
+
+   unittest - инструмент для тестирования в Python. Это стандартный модуль
+   для написания юнит-тестов на Python. Unittest это порт JUnit с Java.
+   Иными словами, и в коде модуля, и при написании тестов легко
+   прослеживается ООП стиль, что весьма удобно для тестирования процедур и
+   классов.
+
+   Документация доступна по следующим ссылкам: [57]python3, [58]python2
+
+   В данном инструменте много возможностей: проверки (assert*),
+   декораторы, позволяющие пропустить отдельный тест (@skip, @skipIf) или
+   обозначить сломанные тесты (@expectedFailure) и этим не заканчивается
+   список. Использование assert'ов с лихвой покрывает нужды при написании
+   тестов.
+
+   Полезная черта unittest - автоматизированное тестирование. Есть и
+   другие:
+     * можно собирать тесты в группы
+     * собирать результаты выполнения тестов (например, для отчета)
+     * ООП стиль позволяет уменьшить дублирование кода при схожих объектах
+       тестирования
+
+     [59]Синтаксис Python: enum, перечисления [60]PyNSK
+
+   Программист время от времени сталкивается с необходимостью ограничить
+   множество допустимых значений для некоторого типа данных. Например,
+   день недели это 7 различных значений, а месяцев у нас 12. Для удобного
+   хранения подобных данных придуманы перечисления - enum.
+
+   Стандартная реализация enum появилась в Python начиная с версии 3.4 (
+   PEP 435. До этого ее легко заменяли словарями. Реализация представлена
+   модулем enum. Модуль содержит несколько классы Enum, IntEnum (константы
+   могут иметь только тип int) и декоратор unique, который проверяет ваш
+   набор констант на дубликаты.
+     [61]Python уроки: Введение в тестирование на Python [62]PyNSK
+
+   Этот урок имеет вводный характер и знакомит с общей информацией о
+   тестировании и простой конструкцией, которая позволяет значительно
+   улучшить Python-код.
+
+   Тестирование программного обеспечения (Software Testing) - проверка
+   соответствия между реальным и ожидаемым поведением программы,
+   осуществляемая при конечном наборе тестов, выбранном определенным
+   образом. [IEEE Guide to Software Engineering Body of Knowledge, SWEBOK,
+   2004]
+
+Интересные проекты, инструменты, библиотеки
+
+     [63]redis-memory-analyzer - профайлер памяти для Redis
+
+     [64]BinaryNet - нейронная сеть для обучения на весах только +1 или -1
+
+     [65]neural-summary-tensorflow - реализация "A Neural Attention Model
+   for Abstractive Summarization"
+
+     [66]bandit - статистический анализатор на основе AST
+
+     [67]PyAuth - Google Authenticator (TOTP) desktop client [68]py3k
+
+     [69]BigchainDB - масштабируемая блочная БД [70]py3k
+
+     [71]dask - планировщик задач и блокирующие алгоритмы для
+   многопоточной обработки
+
+     [72]PyDataset - модуль для доступа ко многим наборам данных
+
+     [73]gmusicapi - неофициальный API для Google Play Music [74]py3k
+
+from gmusicapi import Mobileclient
+
+api = Mobileclient()
+api.login('user@gmail.com', 'my-password', Mobileclient.FROM_MAC_ADDRESS)
+# => True
+
+library = api.get_all_songs()
+sweet_track_ids = [track['id'] for track in library
+                   if track['artist'] == 'The Cat Empire']
+
+playlist_id = api.create_playlist('Rad muzak')
+api.add_songs_to_playlist(playlist_id, sweet_track_ids)
+
+     [75]arduinoserial - интерфейс для работы с serial портами на Arduino
+   [76]py3k
+
+import arduinoserial
+
+arduino = arduinoserial.SerialPort('/dev/ttyUSB0', 19200)
+print arduino.read_until('\n')
+arduino.write('a5050')
+
+     [77]hdu - утилита для создания сводки использования дискового
+   пространства [78]py3k
+
+     [79]pyqtool - утилита поиска Python кода с помощью jQuery-подобных
+   селекторов [80]py3k
+
+❯ pyq3 'class:extends(IntegerField)' django/forms
+django/forms/fields.py:278 class FloatField(IntegerField):
+django/forms/fields.py:315 class DecimalField(IntegerField):
+
+     [81]sortedmap - реализация sortedmap из С++ [82]py3k
+
+     [83]pyfastcopy - модуль для ускорения операции shutil.copyfile
+   [84]py3k
+
+   Модуль ускоряет работу shutil.copyfile с помощью системного
+   вызова sendfile
+     [85]ipytest - Unit тесты в IPython notebooks. [86]py3k
+
+   Модуль позволяет упростить написание unit-тестов в IPython
+     [87]Dynaconf - модуль для динамической загрузки конфигов в Python
+   [88]Reddit - канал о python
+
+     [89]curses-menu - меню для консольных приложений с помощью библиотеки
+   curses
+
+   ./images/curses-menu_screenshot1.png
+     [90]qcrash - фреймворк для отправки отчета об ошибке для PyQt/PySide
+   приложений [91]py3k
+
+   https://raw.githubusercontent.com/ColinDuquesnoy/QCrash/master/docs/_st
+   atic/qcrash_report.png
+     [92]patch - библиотека для парсинга diff'ов [93]py3k
+
+   [unified_diff_svn.png]
+     [94]lang - модуль добавляет private, public и другие директивы из
+   Java [95]Reddit - канал о python
+
+     [96]hitchs3 - Mock S3 server. [97]py3k
+
+     [98]django-slack - интеграция Django и Slack
+
+     [99]requests-cache-latest - персистентный(постоянный) кэш для
+   библиотеки requests [100]py3k
+
+import requests
+import requests_cache
+
+requests_cache.install_cache('demo_cache')
+
+   Код:
+for i in range(10):
+    requests.get('http://httpbin.org/delay/1')
+
+   Отработает в разы быстрее
+     [101]pysenteishon - управляем презентацией со смартфона [102]py3k
+
+   Проект позволяет просматривать презентацию в браузере, а также
+   управлять им с телефона
+     [103]dnsgate - набор списков /etc/hosts для блокирования сайтов
+
+     [104]tryagain - модуль для повторения выполнения кода [105]py3k
+
+   Модуль подходит для повторного выполнения кода с каким-то условием.
+   Например, что функция зависнет не более чем на 5 секунд
+import tryagain
+
+def unstable():
+    ...
+
+# retry calling 'unstable' until it returns without raising an exception
+tryagain.call(unstable)
+
+# limit to maximum 5 attempts
+tryagain.call(unstable, max_attempts=5)
+
+# only retry after specific exceptions
+tryagain.call(unstable, exceptions=[ValueError, TypeError])
+
+     [106]isign - подписываем iOS приложения без Apple софта и железа
+
+     [107]gwpy - пакет для анализа данных с гравитационо-волновых
+   детекторов
+
+     [108]pyriodic - планировщик задач на Python для запуска периодических
+   задач [109]py3k
+
+from pyriodic import DurationJob
+from pyriodic import DatetimeJob
+from pyriodic import Scheduler
+
+now = datetime.now
+s = Scheduler()
+
+start = now()
+
+def func1(arg1=None, arg2=None, arg3=None, arg4=None):
+    print('Func1', arg1, arg2, arg3, arg4, now() - start, now())
+
+def func2():
+    print('Func2', now() - start, now())
+
+def func3():
+    print('Func3', now() - start, now())
+
+s.add_job(DurationJob(func1,
+                    when='30m',
+                    args=('This', 'is'),
+                    kwargs={'arg3': 'the', 'arg4': 'first function'},
+                    name='MyJob'))
+s.add_job(DurationJob(func2, when='2h'))
+s.add_job(DatetimeJob(func3, when='12:00 pm'))
+
+print(s.next_run_times())
+
+     [110]vprof - профайлер с визуализацией [111]PythonWeekly
+
+   flame-chart
+     [112]twtxt - децентрализованный сервис микроблогов [113]PythonWeekly
+
+     [114]flask-multistatic - flask-plugin для переопределения static
+   файлов [115]py3k
+
+     [116]tdubs - библиотека для тестирования в стиле TDD [117]py3k
+
+     [118]transcrypt - транслятор Python 3.5 кода в JavaScript [119]Reddit
+   - канал о python
+
+   Python and JavaScript side by side
+
+Релизы
+
+     [120]virtualenv - 14.0.6 [121]allmychanges.com
+
+   Инструмент создания виртуального рабочего окружения. Изменения описаны
+   по ссылке [122]https://allmychanges.com/p/python/virtualenv/#14.0.6.
+   Скачать можно по ссылке: [123]http://pypi.python.org/pypi/virtualenv/
+     [124]cffi - 1.5.2 [125]allmychanges.com
+
+   Интерфейс для вызова C-кода. Изменения описаны по ссылке
+   [126]https://allmychanges.com/p/python/cffi/#1.5.2. Скачать можно по
+   ссылке: [127]http://pypi.python.org/pypi/cffi/
+   Please enable JavaScript to view the [128]comments powered by Disqus.
+   [129]comments powered by Disqus
+   Контакты:      Фиды:
+
+              © Дайджест новостей о python 2013 — 2016
+
+References
+
+   Visible links
+   1. file:///rss/
+   2. https://github.com/pythondigest/pythondigest
+   3. http://pythondigest.ru/
+   4. http://orphus.ru/
+   5. http://orphus.ru/
+   6. file:///issues/
+   7. file:///feed/
+   8. http://yasobe.ru/na/pydigest
+   9. file:///add/
+  10. http://pythondigest.ru/rss/
+  11. https://twitter.com/pydigest
+  12. https://python-ru.slack.com/messages/pythondigest/
+  13. https://python.stamplayapp.com/
+  14. http://yasobe.ru/na/pydigest
+  15. http://python.su/
+  16. http://pythonworld.ru/
+  17. http://djbook.ru/
+  18. http://pep8.ru/
+  19. http://vk.com/python_programing
+  20. http://vk.com/pynsk
+  21. https://vk.com/vk_python
+  22. http://piterpy.ru/
+  23. http://feedproxy.google.com/~r/Pycharm/~3/nOHj-QG7oKY/
+  24. https://www.python.org/dev/peps/pep-0515/
+  25. http://www.pythonweekly.com/
+  26. https://nvbn.github.io/2016/02/10/pyboard-breakout/
+  27. http://www.pythonweekly.com/
+  28. https://www.youtube.com/embed/4YKx9z6j1aA
+  29. https://www.twilio.com/blog/2016/02/how-to-verify-phone-numbers-in-python-with-the-twilio-lookup-api.html
+  30. http://www.pythonweekly.com/
+  31. http://nedbatchelder.com//blog/201602/the_value_of_unit_tests.html
+  32. http://danielhomola.com/2016/02/09/newtons-method-with-10-lines-of-python/
+  33. http://www.pythonweekly.com/
+  34. https://khashtamov.com/2016/02/celery-best-practices/
+  35. https://habrahabr.ru/post/276745/
+  36. http://habrahabr.ru/
+  37. http://blog.jetbrains.com/pycharm/2016/02/webinar-recording-polyglot-pycharm-for-rich-web-front-ends-part-2/
+  38. http://www.pythonweekly.com/
+  39. http://danielhomola.com/2016/02/06/solving-real-world-problems-with-sympy/
+  40. http://www.pyimagesearch.com/2016/02/08/opencv-shape-detection/
+  41. https://habrahabr.ru/post/276731/
+  42. http://habrahabr.ru/
+  43. http://python-eve.org/index.html
+  44. https://doughellmann.com/blog/2016/02/08/asyncio-asynchronous-io-event-loop-and-concurrency-tools-pymotw-3/
+  45. https://www.youtube.com/watch?v=lS_3aAW-wqc
+  46. http://www.pythonweekly.com/
+  47. https://www.youtube.com/embed/lS_3aAW-wqc?feature=oembed
+  48. https://www.youtube.com/watch?v=irK30feqdlg
+  49. http://www.pythonweekly.com/
+  50. https://www.youtube.com/embed/irK30feqdlg?feature=oembed
+  51. http://pynsk.ru/blog/2016/02/13/geoip/
+  52. http://vk.com/pynsk
+  53. http://pynsk.ru/blog/2016/02/08/repl-intro/
+  54. http://vk.com/pynsk
+  55. http://pynsk.ru/blog/2016/02/11/unit-test/
+  56. http://vk.com/pynsk
+  57. https://docs.python.org/3/library/unittest.html
+  58. https://docs.python.org/2/library/unittest.html
+  59. http://pynsk.ru/blog/2016/02/13/enum/
+  60. http://vk.com/pynsk
+  61. http://pynsk.ru/blog/2016/02/10/intro-test/
+  62. http://vk.com/pynsk
+  63. http://github.com/gamenet/redis-memory-analyzer
+  64. http://github.com/MatthieuCourbariaux/BinaryNet
+  65. http://github.com/carpedm20/neural-summary-tensorflow
+  66. http://github.com/openstack/bandit
+  67. http://pypi.python.org/pypi/PyAuth/
+  68. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  69. http://pypi.python.org/pypi/BigchainDB/
+  70. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  71. http://github.com/blaze/dask
+  72. http://github.com/iamaziz/PyDataset
+  73. http://pypi.python.org/pypi/gmusicapi/
+  74. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  75. http://pypi.python.org/pypi/arduinoserial/
+  76. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  77. http://pypi.python.org/pypi/hdu/
+  78. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  79. http://pypi.python.org/pypi/pyqtool/
+  80. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  81. http://pypi.python.org/pypi/sortedmap/
+  82. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  83. http://pypi.python.org/pypi/pyfastcopy/
+  84. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  85. http://pypi.python.org/pypi/ipytest/
+  86. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  87. http://github.com/rochacbruno/dynaconf
+  88. http://reddit.com/r/Python/
+  89. http://github.com/pmbarrett314/curses-menu
+  90. http://pypi.python.org/pypi/qcrash/
+  91. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  92. http://pypi.python.org/pypi/patch/
+  93. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  94. https://github.com/amitassaraf/lang
+  95. http://reddit.com/r/Python/
+  96. http://pypi.python.org/pypi/hitchs3/
+  97. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+  98. http://github.com/lamby/django-slack
+  99. http://pypi.python.org/pypi/requests-cache-latest/
+ 100. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+ 101. http://pypi.python.org/pypi/pysenteishon/
+ 102. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+ 103. http://github.com/jakeogh/dnsgate
+ 104. http://pypi.python.org/pypi/tryagain/
+ 105. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+ 106. http://github.com/saucelabs/isign
+ 107. http://github.com/gwpy/gwpy
+ 108. http://pypi.python.org/pypi/pyriodic/
+ 109. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+ 110. https://github.com/nvdv/vprof
+ 111. http://www.pythonweekly.com/
+ 112. https://github.com/buckket/twtxt
+ 113. http://www.pythonweekly.com/
+ 114. http://pypi.python.org/pypi/flask-multistatic/
+ 115. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+ 116. http://pypi.python.org/pypi/tdubs/
+ 117. https://pypi.python.org/pypi?:action=browse&c=533&show=all
+ 118. http://www.transcrypt.org/
+ 119. http://reddit.com/r/Python/
+ 120. https://allmychanges.com/p/python/virtualenv/#14.0.6
+ 121. http://allmychanges.com/
+ 122. https://allmychanges.com/p/python/virtualenv/#14.0.6
+ 123. http://pypi.python.org/pypi/virtualenv/
+ 124. https://allmychanges.com/p/python/cffi/#1.5.2
+ 125. http://allmychanges.com/
+ 126. https://allmychanges.com/p/python/cffi/#1.5.2
+ 127. http://pypi.python.org/pypi/cffi/
+ 128. http://disqus.com/?ref_noscript
+ 129. http://disqus.com/
+
+   Hidden links:
+ 131. file://localhost/
+ 132. https://github.com/alrusdi
+ 133. https://plus.google.com/u/0/101808311197928974123/posts
+ 134. file://localhost/rss/
+ 135. https://twitter.com/pydigest

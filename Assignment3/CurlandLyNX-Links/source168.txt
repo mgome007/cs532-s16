@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en"> <!--<![endif]-->
+
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Exploration of 3D printing at home.">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    
+
+    
+    
+    <title>Beep Boop Click | Beep Boop Click</title>
+
+    
+	<!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/extra/css/header-logo-jade.css">
+    
+
+    
+
+    
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+
+      <link rel="canonical" href="http://beepboop.click/index.html">
+
+
+    
+        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
+
+    
+
+
+
+
+
+</head>
+<body>
+<div class="wrapper">
+	<!--=== Header ===-->
+	<div class="header">
+		<div class="container">
+			<!-- Logo -->
+			<a class="logo" href="http://beepboop.click/">
+					<img src="mascot/mascot_jade_100.png" alt="Beep Boop Click" id="logo">
+
+					<span id="blog-title">Beep Boop Click</span>
+			</a>
+			<!-- End Logo -->
+			<!-- Toggle get grouped for better mobile display -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="fa fa-bars"></span>
+            </button>
+			<!-- End Toggle -->
+		</div> 
+		<!-- End container -->
+		<!-- Navbar -->
+		<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+			<div class="container">
+				<ul class="nav navbar-nav">
+					
+                <li>
+<a href="archive.html">Archive</a>
+                </li>
+<li>
+<a href="categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="rss.xml">RSS feed</a>
+
+					</li>
+<li><a href="stories/simplify3d-profiles.html">Simplify3D Profiles</a></li>
+					
+				</ul>	
+			
+				
+				
+			</div>
+			<!-- End Container -->
+		</div>            
+		<!-- End Collapse -->
+	</div>
+	<!--=== End Header ===-->
+
+
+
+<!--=== Content Part  ===-->
+<div class="container content">
+	
+	
+<div class="postindex">
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/all-about-the-site.html" class="u-url">All about Lulzbot, Simplify3D, and 3D Printing</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Brian J. Geiger</span></p>
+            <p class="dateline"><a href="posts/all-about-the-site.html" rel="bookmark"><time class="published dt-published" datetime="2015-03-05T17:00:00-05:00" itemprop="datePublished" title="Publication date">2015-03-05 17:00</time></a></p>
+        </div>
+    </header>
+    <div class="e-content entry-content">
+    <p>Welcome to Beep Boop Click, my new site for discussing some of my journey in 3D Printing. I've been working with some printers over the years, but I've just gotten a <a href="http://www.amazon.com/gp/product/B00S54E1AI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00S54E1AI&amp;linkCode=as2&amp;tag=egowaffle&amp;linkId=ZOLXXNLWNKQXXJ3J">LulzBot Mini</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=egowaffle&amp;l=as2&amp;o=1&amp;a=B00S54E1AI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;">
+ (Amazon Affiliate Link), which is their brand-new model. </p>
+<p>Indeed, it's a new line for them, as Aleph Objects has mostly stuck with the Taz line until now. Which is important, because while there's a bunch of knowledge out there for the Taz line, the Mini has some cool new features like the auto-leveling bed, and it has a new form factor, different motherboard, and all the little things that make it harder for people to use the information that already exists. So I figured I would document what I learn here.</p>
+<p>I'm also using Simplify3D for my slicing, which means transferring all the existing profiles for <a href="https://www.lulzbot.com/cura">Cura</a> into <a href="https://www.simplify3d.com">Simplify3D</a> and learning what sorts of cool things I can do with that for a better slicing experience. As I create those profiles, I'll go ahead and put them in a convenient location on the site. Hopefully I can give people a better idea of if Simplify3D is worth the $150 (it is for me, and probably is for you) as there's no free trial, so it's a big leap to go from the Free/Open Source tools to something like that.</p>
+<p>Of course, when I make 3D models, I will share them on various sites and talk about them here.</p>
+<p>Finally, as of when I purchased, just about the only videos that I could find for the LulzBot Mini were printing out the <a href="https://www.lulzbot.com/rocktopus">Rocktopus</a>, so I think it would be worthwhile adding a bunch of videos as well. </p>
+<p>So welcome again, and let's see what sorts of trouble we can get into with 3D Printing, shall we?</p>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+</div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/zqU4o1KnZ4/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_top">Bear figure. Suitable for role playing games.</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Brian Geiger (@thefoodgeek) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-02-28T22:18:43+00:00">Feb 28, 2015 at 2:18pm PST</time></p>
+</div></blockquote>
+
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
+<p>This is the <a href="http://www.thingiverse.com/thing:561286">Black Bear (28mm scale for D&amp;D/tabletop games)</a> by <a href="http://www.thingiverse.com/osarusan/about">Matthew Meyer</a>. Though obviously more of a blue bear here.</p>
+    </div>
+    </article>
+</div>
+
+
+
+
+
+
+
+</div>
+<!--/container-->
+<!--=== End Content Part  ===-->
+
+
+
+
+<!--=== Footer Version 1 ===-->
+    <div class="footer-v1">
+		<div class="footer">
+			<div class="container">
+				
+				
+			</div>
+		</div>
+    </div>
+<!--/footer-v1-->
+
+    <div class="copyright">
+        <div class="container">
+		
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+ <a href="mailto:bgeiger@pobox.com">Brian J. Geiger</a>. Mascot created by <a href="http://www.jadegordon.com/">Jade Gordon</a>.	
+		
+        </div>
+    </div>
+<!--/copyright-->
+<!--=== End Footer Version 1 ===-->
+
+
+
+</div>
+
+<!-- JS Global Compulsory -->
+<script src="assets/plugins/jquery/jquery.min.js"></script>
+<script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="assets/plugins/back-to-top.js"></script>
+
+<!-- JS Customization -->
+<script type="text/javascript" src="assets/js/custom.js"></script>
+
+<!-- JS Page Level -->
+<script src="assets/js/app.js"></script>
+<script>
+jQuery(document).ready(function() {
+    App.init();
+});
+</script>
+
+<!--[if lt IE 9]>
+    <script src="/assets/plugins/respond.js"></script>
+    <script src="/assets/plugins/html5shiv.js"></script>
+    <script src="/assets/js/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+
+
+</body>
+</html>

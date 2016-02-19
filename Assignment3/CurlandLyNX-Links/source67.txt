@@ -1,0 +1,113 @@
+<html>
+
+<head>
+	<link type="text/css" rel="stylesheet" href="htp://fonts.googleapis.com/css?family=Montserrat:400,700"></link>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"></link>
+	<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css"></link>
+
+	<link type="text/css" rel="stylesheet" href="css/main.css"></link>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.teletype.min.js"></script>
+	<script src="js/jquery.scrollify.js"></script>
+
+	<script src="js/main.js"></script>
+
+ <script src="//load.sumome.com/" data-sumo-site-id="4a324ec5e8bcd7d0d1cb70bf4024c3fab5628124d96aba02f25c73ab6a6a81dc" async="async"></script>
+
+</head>
+
+<body>
+	<header>
+
+
+	</header>
+	<main>
+
+		<section id="prima">
+			<div>
+
+				<span class="teletype-prefix">[bash~]# </span>
+				<span class="type-text"></span>
+			</div>
+
+
+			<div class="sociale">
+
+
+				<ul class="social">
+
+					<li>
+
+						<a href="https://github.com/pietrondo">
+							<span class="fa fa-github-square fa-5x"></span>
+						</a>
+					</li>
+					<li>
+
+						<a href="http://www.youtube.com/user/PietroCapriata">
+							<span class="fa fa-youtube-square fa-5x"></span>
+						</a>
+					</li>
+					<li>
+						<a href="https://it.linkedin.com/in/pietrocappa">
+							<span class="fa fa-linkedin-square fa-5x"></span>
+						</a>
+
+					</li>
+					<li>
+
+						<a href="https://twitter.com/pietrobravo">
+							<span class="fa fa-twitter-square fa-5x"></span>
+						</a>
+					</li>
+
+
+				</ul>
+
+
+			</div>
+			<div class="arrow bounce" id="prima">
+
+			</div>
+		</section>
+
+
+
+
+
+
+		<section id="seconda">
+			<div>
+
+				<h1>Diverse competenze tutte insieme</h1>
+				<p>
+
+					Grazie alla laurea in filosofia ho potuto sviluppare il problem solving e la visione di insieme delle cose. Attraverso esperienze stressanti come assistente presso un MEP europeo e come educatore di comunit&#224 ho sviluppato una forte gestione dello
+					stress e una grande capacit&#224 di adattamento delle novit&#224 e della gestione degli imprevisti. Con la mia passione per il mondo dei computer (sono utilizzatore di Gnu/Linux dall'et&#224 di 16 anni) e dei corsi offerti in e-elearning da CodeSchool
+					e TeamTreeHouse, sto apprendendo diverse competenze in ambito informatico (html, css, javascript, php, python esql).
+					<br> Grazie all'esperienza di <a href="http://www.e-come.it">E-come</a> invece mi ha spinto verso il marketing attraverso i social networking e mi ha permesso "sperimentare" le mie capacità di webmaster. Le attivit&#224 lavorative presso OpenHs, Asl
+					VCO e Polizia Municipale mi hanno invece fatto amare la formazione sia "tradizionale" che FAD.
+				</p>
+
+				<div class="arrow bounce">
+
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- Piwik -->
+
+	<noscript>
+		<p>
+			<img src="//statistiche.pietrocapriata.me/piwik.php?idsite=5" style="border:0;" alt="" />
+		</p>
+	</noscript>
+	<!-- End Piwik Code -->
+
+</body>
+
+
+</html>

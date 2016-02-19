@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title>Los Angeles &amp; San Francisco JavaScript, Ruby on Rails, Cloud Computing, Internet of Things - The Hybrid Group</title>
+    <meta content="Based in Los Angeles &amp; San Francisco, our software developers &amp; designers specialize in JavaScript, Ruby on Rails, Cloud Computing, Internet of Things, Mobile Development, Application Design, and most importantly, helping you solve problems." name="description">
+    <meta content="The Hybrid Group" name="author">
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/javascripts/cycle.js"></script>
+    <script src="/javascripts/main.js"></script>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/gif">
+    <script>
+      WebFontConfig = {
+        google: { families: [ 'Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800:latin' ] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="app">
+      <div class="hero">
+        <div class="container">
+          <header class="main">
+            <h1 class="logo">
+              <a href="/">The Hybrid Group</a>
+            </h1>
+            <nav class="main">
+              <a href="/blog">Blog</a>
+              <a class="scroll" href="#contact">Contact Us</a>
+            </nav>
+          </header>
+          <div class="content">
+            <h1>
+              We are <b>passionate</b> about making<br>
+              useful things with technology.
+              <div class="sub">
+                With outstanding craftsmanship.
+              </div>
+            </h1>
+            <h2>
+              Based in Los Angeles &amp; San Francisco, our software developers &amp; designers specialize in<br>
+              JavaScript, Ruby on Rails, Internet of Things, Cloud Computing, Mobile Development, Application Design,<br>
+              and most importantly, helping you solve problems.
+            </h2>
+            <a class="call-to-action" href="#contact">
+              Speak with a Human
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="content">
+            The Hybrid Group will be your partner to make you happy with our hard-won skills in <br class="hide-tablet">
+            <b>Web Development</b>, <b>Design</b>, <b>User Experience</b>, and <b>Hardware Integration</b>.
+          </div>
+        </div>
+      </div>
+      <div class="section alternate down">
+        <div class="container">
+          <div class="content">
+            <h3>Who We've Helped</h3>
+            You may not know it, but you've likely seen our work. We're proud to labor behind the scenes <br class="only-desktop">
+            with some of the best and brightest in the business.
+          </div>
+        </div>
+      </div>
+      <div class="section quotes">
+        <div class="container">
+          <div class="content">
+            <div class="quotes-text cycle-quotes">
+              <blockquote>
+                <p>The Hybrid Group writes text-book code. It's clean, well-tested, and we learned a lot from their code structure. They also produced some really cool open source projects using Pebble.<span class="only-desktop">"</span></p>
+                <p class="author">- Benjamin Bryant, Web and Ecommerce, <br class="only-mobile"> <a href="https://getpebble.com/"><img src="/images/icon-pebble.png"> Pebble</a></p>
+              </blockquote>
+              <blockquote>
+                <p>The Hybrid Group is crazy fast. They got their software integration working with our hardware before we got our own software working with our hardware. True story.<span class="only-desktop">"</span></p>
+                <p class="author">- Zach Supalla, CEO &amp; Co-Founder, <br class="only-mobile"> <a href="http://spark.io"><img src="/images/icon-spark.png"> Spark</a></p>
+              </blockquote>
+              <blockquote>
+                <p>We had built a working app, but needed expert development to help refine it. The Hybrid Group delivered. And even with an in-house team, we still call on them whenever we need the extra leverage of specialized knowledge or to push a deadline.<span class="only-desktop">"</span></p>
+                <p class="author">– Eric M. Jackson, CEO and Co-Founder, <br class="only-mobile"> <a href="http://caplinked.com"><img src="/images/icon-caplinked.png"> CapLinked</a></p>
+              </blockquote>
+              <blockquote>
+                <p>The Hybrid Group has been a valuable partner that we've grown to trust and I look forward to working with them more. They have a deep knowledge of hardware and software that is unmatched. They get it.<span class="only-desktop">"</span></p>
+                <p class="author">- Ross Ingram, Community Manager, <br class="only-mobile"> <a href="http://gosphero.com"><img src="/images/icon-orbotix.png"> Orbotix</a></p>
+              </blockquote>
+              <blockquote>
+                <p>One of the best business decisions I have ever made was selecting The Hybrid Group to build our web community. Not only did The Hybrid Group do what we asked from them, they were always one step ahead. The team is first rate and the comfort of knowing they have our back is priceless.<span class="only-desktop">"</span></p>
+                <p class="author">- David Codr, CEO/Founder, <br class="only-mobile"> <a href="http://musicpage.com"><img src="/images/icon-musicpage.png"> Musicpage</a></p>
+              </blockquote>
+              <blockquote>
+                <p>The Hybrid Group helped us hit a seemingly impossible deadline. Usually quality is a tradeoff for speed but with The Hybrid Group you get both.<span class="only-desktop">"</span></p>
+                <p class="author">- Ian Hunter, CTO and Co-Founder, <br class="only-mobile"> <a href="http://zaarly.com"><img src="/images/icon-zaarly.png"> Zaarly</a></p>
+              </blockquote>
+              <div class="quotes-pager only-desktop"></div>
+            </div>
+            <div class="quotes-screen cycle-quotes">
+              <img alt="" src="/images/quote-pebble.jpg">
+              <img alt="" src="/images/quote-spark.jpg">
+              <img alt="" src="/images/quote-caplinked.jpg">
+              <img alt="" src="/images/quote-orbotix.jpg">
+              <img alt="" src="/images/quote-musicpage.jpg">
+              <img alt="" src="/images/quote-zaarly.jpg">
+            </div>
+            <div class="quotes-pager only-tablet"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section alternate down">
+        <div class="container">
+          <div class="content">
+            <h3>What We've Created</h3>
+            We also built some things for ourselves, as seen in
+            <a href="http://motherboard.vice.com/blog/opening-up-the-world-of-robotics">Vice</a>,
+            <a href="http://www.wired.com/2015/04/internet-anything-time-everyone-able-hack-robots/">Wired</a>
+            <a href="http://www.wired.co.uk/news/archive/2012-01/17/kidsruby-released">(twice)</a>,
+            <a href="http://makezine.com/2014/05/31/building-robots-and-rockets-with-javascript/">Make</a>,
+            <a href="http://www.fastcompany.com/1770128/nothing-certain-uncertainty-heres-how-manage-it-your-business">Fast Company</a>,
+            <a href="http://www.theguardian.com/teacher-network/2012/jan/10/how-to-teach-code">The Guardian UK</a>,
+            <br class="only-desktop">
+            <a href="http://www.nytimes.com/2011/11/10/technology/personaltech/computer-programming-for-children-minus-cryptic-syntax.html?_r=0">The New York Times</a> &amp;
+            <a href="http://thenextweb.com/dd/2012/09/06/kidsruby-goes-global-french-japanese-spanish-versions/#!yWbyr">The Next Web</a>.
+          </div>
+        </div>
+      </div>
+      <div class="section created">
+        <div class="container">
+          <div class="content">
+            <ul class="projects only-desktop">
+              <li>
+                <a data-id="2" href="http://www.cylonjs.com" target="blank">
+                  <span>Cylon.js</span>
+                  | JavaScript Robotics, By Your Command
+                </a>
+              </li>
+              <li>
+                <a data-id="3" href="http://www.kidsruby.com" target="blank">
+                  <span>KidsRuby</span>
+                  | Award-winning Software Teaches Kids to Code
+                </a>
+              </li>
+              <li>
+                <a data-id="4" href="http://www.gobot.io" target="blank">
+                  <span>Gobot</span>
+                  | Go, Robot, Go! Golang Powered Robotics
+                </a>
+              </li>
+              <li>
+                <a data-id="5" href="http://gort.io" target="blank">
+                  <span>Gort</span>
+                  | Command Line Toolkit for RobotOps
+                </a>
+              </li>
+              <li>
+                <a data-id="6" href="http://commander.io/" target="blank">
+                  <span>Commander</span>
+                  | Mobile Remote Control for Robots
+                </a>
+              </li>
+              <li>
+                <a data-id="1" href="http://www.artoo.io" target="blank">
+                  <span>Artoo</span>
+                  | Ruby on Robots
+                </a>
+              </li>
+              <li>
+                <a data-id="7" href="http://www.code2014.com/" target="blank">
+                  <span>#Code2014</span>
+                  | Twitter Programming Language Survey
+                </a>
+              </li>
+              <li>
+                <a data-id="8" href="http://the.techscene.mx" target="blank">
+                  <span>TechScene.mx</span>
+                  | The Best of Mexico's Tech Community
+                </a>
+              </li>
+              <li>
+                <a data-id="9" href="http://gitnesse.com" target="blank">
+                  <span>Gitnesse</span>
+                  | Collaborate on Project Specifications
+                </a>
+              </li>
+            </ul>
+            <div class="projects-slider">
+              <div class="project-card" data-id="2">
+                <p class="hide-desktop">
+                  <a href="http://www.cylonjs.com" target="blank">
+                    <strong>Cylon</strong>
+                    | JavaScript Robotics, By Your Command
+                  </a>
+                </p>
+                <img alt="" src="/images/projects-02.png">
+                <p class="only-desktop">
+                  <a href="http://www.cylonjs.com">Visit Cylon.js</a>
+                </p>
+              </div>
+              <div class="project-card" data-id="3">
+                <p class="hide-desktop">
+                  <a href="http://www.kidsruby.com" target="blank">
+                    <strong>KidsRuby</strong>
+                    | Award-winning Software Teaches Kids to Code
+                  </a>
+                </p>
+                <img alt="" src="/images/projects-03.png">
+                <p class="only-desktop">
+                  <a href="http://www.kidsruby.com">Visit Kids Ruby</a>
+                </p>
+              </div>
+              <div class="project-card" data-id="4">
+                <p class="hide-desktop">
+                  <a href="http://www.gobot.io" target="blank">
+                    <strong>Gobot</strong>
+                    | Go, Robot, Go! Golang Powered Robotics
+                  </a>
+                </p>
+                <img alt="" src="/images/projects-04.png">
+                <p class="only-desktop">
+                  <a href="http://www.gobot.io">Visit Gobot</a>
+                </p>
+              </div>
+              <div class="project-card" data-id="5">
+                <p class="hide-desktop">
+                  <a data-id="5" href="http://gort.io" target="blank">
+                    <strong>Gort</strong>
+                    | Command Line Toolkit for RobotOps
+                  </a>
+                </p>
+                <img alt="" src="/images/projects-10.png">
+                <p class="only-desktop">
+                  <a href="http://gort.io">Visit Gort</a>
+                </p>
+              </div>
+              <div class="project-card" data-id="6">
+                <p class="hide-desktop">
+                  <a data-id="6" href="http://commander.io/" target="blank">
+                    <strong>Commander</strong>
+                    | Mobile Remote Control for Robots
+                  </a>
+                </p>
+                <img alt="" src="/images/projects-11.png">
+                <p class="only-desktop">
+                  <a href="http://commander.io/">Visit Commander</a>
+                </p>
+              </div>
+              <div class="project-card" data-id="1">
+                <p class="hide-desktop">
+                  <a href="http://www.artoo.io" target="blank">
+                    <strong>Artoo</strong>
+                    | Ruby on Robots
+                  </a>
+                </p>
+                <img alt="" src="/images/projects-01.png">
+                <p class="only-desktop">
+                  <a href="http://www.artoo.io">Visit Artoo</a>
+                </p>
+              </div>
+              <div class="project-card" data-id="7">
+                <p class="hide-desktop">
+                  <a href="http://www.code2014.com/" target="blank">
+                    <strong>#Code2014</strong>
+                    | Twitter Programming Language Survey
+                  </a>
+                </p>
+                <img alt="" src="/images/projects-06.png">
+                <p class="only-desktop">
+                  <a href="http://www.code2014.com/">Visit Code 2014</a>
+                </p>
+              </div>
+              <div class="project-card" data-id="8">
+                <p class="hide-desktop">
+                  <a href="http://the.techscene.mx" target="blank">
+                    <strong>TechScene.mx</strong>
+                    | The Best of Mexico's Tech Community
+                  </a>
+                </p>
+                <img alt="" src="/images/projects-07.png">
+                <p class="only-desktop">
+                  <a href="http://the.techscene.mx">Visit TechScene</a>
+                </p>
+              </div>
+              <div class="project-card" data-id="9">
+                <p class="hide-desktop">
+                  <a href="http://gitnesse.com" target="blank">
+                    <strong>Gitnesse</strong>
+                    | Collaborate on Project Specifications
+                  </a>
+                </p>
+                <img alt="" src="/images/projects-09.png">
+                <p class="only-desktop">
+                  <a href="http://gitnesse.com">Visit Gitnesse</a>
+                </p>
+              </div>
+            </div>
+            <div class="projects-pager">
+              <a data-id="2" href="#"></a>
+              <a data-id="3" href="#"></a>
+              <a data-id="4" href="#"></a>
+              <a data-id="5" href="#"></a>
+              <a data-id="6" href="#"></a>
+              <a data-id="1" href="#"></a>
+              <a data-id="7" href="#"></a>
+              <a data-id="8" href="#"></a>
+              <a data-id="9" href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section alternate help down">
+        <div class="container">
+          <div class="content">
+            <h3>How We Can Help</h3>
+            <p>
+              You can augment your current development efforts, or increase your power to take on new projects.<br class="only-desktop">
+              Our team is ready to help you make it happen.
+            </p>
+            <div class="showcase">
+              <div class="showcase-icons"></div>
+              <div class="item-text" id="item-features">
+                <span class="icon-features"></span>
+                <strong>Add Features</strong>
+                <br>
+                We can add new features to your existing code, or remove what is getting in the way of success.
+              </div>
+              <div class="item-text" id="item-integration">
+                <span class="icon-integration"></span>
+                <strong>M2M Integration</strong>
+                <br>
+                Machine 2 Machine Integration that works with all of the hardware your business needs.
+              </div>
+              <div class="item-text" id="item-mobile">
+                <span class="icon-mobile"></span>
+                <strong>Mobile Apps</strong>
+                <br>
+                We specialize in hybrid mobile apps, and can take you native on iOS and Android when you're ready.
+              </div>
+              <div class="item-text" id="item-scale">
+                <span class="icon-integration"></span>
+                <strong>Scale Your App</strong>
+                <br>
+                Go big when you need it, we know how to help you handle seriously huge amounts of traffic.
+              </div>
+              <div class="item-text" id="item-apis">
+                <span class="icon-api"></span>
+                <strong>Hook up API's</strong>
+                <br>
+                Get your app hooked up to outside services, or provide API's to other apps to add value.
+              </div>
+              <div class="item-text" id="item-ux">
+                <span class="icon-ux"></span>
+                <strong>User Experience</strong>
+                <br>
+                Your solution is only as good as your users think it is. We can help improve your design and implementation.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section contact">
+        <a id="contact"></a>
+        <div class="container">
+          <div class="content">
+            <h3>Get in Touch</h3>
+            <form action="">
+              <div class="contact-form">
+                <div class="before-send">
+                  <input id="name" placeholder="Name" type="text">
+                  <input id="mail" placeholder="E-Mail Address" type="text">
+                  <p>I'd like to contact THG about:</p>
+                  <div class="contact-subject">
+                    <label for="subject-features">
+                      <input id="subject-features" name="subject[]" type="checkbox" value="Features">
+                      Features
+                    </label>
+                    <label for="subject-scaling">
+                      <input id="subject-scaling" name="subject[]" type="checkbox" value="Scaling">
+                      Scaling
+                    </label>
+                    <label for="subject-apis">
+                      <input id="subject-apis" name="subject[]" type="checkbox" value="APIs">
+                      APIs
+                    </label>
+                    <label for="subject-m2m">
+                      <input id="subject-m2m" name="subject[]" type="checkbox" value="M2M">
+                      M2M
+                    </label>
+                    <label for="subject-mobile">
+                      <input id="subject-mobile" name="subject[]" type="checkbox" value="Mobile">
+                      Mobile
+                    </label>
+                    <label for="subject-ux">
+                      <input id="subject-ux" name="subject[]" type="checkbox" value="UX">
+                      UX
+                    </label>
+                    <label for="subject-other">
+                      <input id="subject-other" name="subject[]" type="checkbox" value="Other">
+                      Other
+                    </label>
+                  </div>
+                  <div class="suscribe-newsletter">
+                    <label for="suscribe">
+                      <input id="suscribe" name="suscribe" type="checkbox" value="1">
+                      Send me a monthly email newsletter
+                    </label>
+                  </div>
+                  <button class="call-to-action" id="btn-send" type="button">
+                    Speak with a Human
+                  </button>
+                </div>
+                <div class="after-sent">
+                  <h4>Your message has been sent, we will contact you as soon as possible.</h4>
+                </div>
+              </div>
+              <div class="contact-side only-desktop">
+                <a class="contact-phone" href="tel:+13109169924">
+                  LOS ANGELES
+                  <span>+1 310.916.9924</span>
+                </a>
+                <a class="contact-phone" href="tel:+13109169924">
+                  SAN FRANCISCO
+                  <span>+1 415.813.3262</span>
+                </a>
+                <div class="contact-social">
+                  FOLLOW US
+                  <span>
+                    <a class="twitter" href="http://twitter.com/hybrid_group"></a>
+                    <a class="facebook" href="https://www.facebook.com/thehybridgroup"></a>
+                    <a class="github" href="http://github.com/hybridgroup"></a>
+                  </span>
+                </div>
+                <a class="contact-social" href="http://hybridgroup.us2.list-manage.com/subscribe?u=281b52acbc791fcbe2127e282&amp;id=169e8f5219" target="blank">
+                  SUBSCRIBE TO OUR NEWSLETTER
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="contact-side hide-desktop">
+          <a class="contact-phone" href="tel:+13109169924">
+            LOS ANGELES
+            <span>+1 310.916.9924</span>
+          </a>
+          <a class="contact-phone" href="tel:+13109169924">
+            SAN FRANCISCO
+            <span>+1 415.813.3262</span>
+          </a>
+          <div class="contact-social">
+            FOLLOW US
+            <span>
+              <a class="twitter" href="http://twitter.com/hybrid_group"></a>
+              <a class="facebook" href="https://www.facebook.com/thehybridgroup"></a>
+              <a class="github" href="http://github.com/hybridgroup"></a>
+            </span>
+          </div>
+          <a class="contact-social" href="http://hybridgroup.us2.list-manage.com/subscribe?u=281b52acbc791fcbe2127e282&amp;id=169e8f5219" target="blank">
+            SUBSCRIBE TO OUR NEWSLETTER
+          </a>
+        </div>
+      </div>
+      <footer class="main">
+        <div class="container">
+          <div class="partners">
+            <a class="heroku-logo" href="http://heroku.com" target="blank">
+              <span>Heroku</span>
+            </a>
+            <a class="engineyard-logo" href="http://engineyard.com" target="blank">
+              <span>Engine Yard</span>
+            </a>
+          </div>
+          <span class="copyright only-desktop">
+            Copyright ©
+            2010 - 2015
+            The Hybrid Group
+          </span>
+        </div>
+        <div class="copyright-mobile">
+          Copyright ©
+          2010 - 2015
+          The Hybrid Group
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

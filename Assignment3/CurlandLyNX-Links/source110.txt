@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-GB" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<head>
+		<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://www.joshualong.co.uk/xmlrpc.php" />
+	<title>Joshua Long | Desktop Support Technician &amp; Website Developer</title>
+
+<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) -->
+	<meta name="description" content="Read the latest from Joshua Long a Windows Desktop Support Technician, Linux Dabbler, Avid Gamer, Car Enthusiast, Technophile and Netflix Addict." />
+	<meta property="og:type" content="blog" />
+	<meta property="og:title" content="Joshua Long" />
+	<meta property="og:description" content="Desktop Support Technician &amp; Website Developer" />
+	<meta property="og:url" content="http://www.joshualong.co.uk/" />
+	<meta property="og:site_name" content="Joshua Long" />
+	<meta name="twitter:card" content="summary" />
+<!-- /SEO Ultimate -->
+
+<link rel="alternate" type="application/rss+xml" title="Joshua Long &raquo; Feed" href="http://www.joshualong.co.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Joshua Long &raquo; Comments Feed" href="http://www.joshualong.co.uk/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.joshualong.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-customer-reviews-3-frontend-css' href='http://www.joshualong.co.uk/wp-content/plugins/wp-customer-reviews/css/wp-customer-reviews-generated.css?ver=3.0.5' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='http://www.joshualong.co.uk/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3' media='all' />
+<link rel='stylesheet' id='flat-fonts-css' href='//fonts.googleapis.com/css?family=Amatic+SC%7CRoboto:400,700%7CRoboto+Slab%7CRoboto+Condensed' media='all' />
+<link rel='stylesheet' id='flat-theme-css' href='http://www.joshualong.co.uk/wp-content/themes/flat/assets/css/flat.min.css?ver=1.7.4' media='all' />
+<link rel='stylesheet' id='flat-style-css' href='http://www.joshualong.co.uk/wp-content/themes/flat/style.css?ver=4.3.3' media='all' />
+<script src='http://www.joshualong.co.uk/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script src='http://www.joshualong.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script src='http://www.joshualong.co.uk/wp-content/plugins/wp-customer-reviews/js/wp-customer-reviews.js?ver=3.0.5'></script>
+<script src='http://www.joshualong.co.uk/wp-content/themes/flat/assets/js/flat.min.js?ver=1.7.4'></script>
+<!--[if lt IE 9]>
+<script src='http://www.joshualong.co.uk/wp-content/themes/flat/assets/js/html5shiv.min.js?ver=3.7.2'></script>
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.joshualong.co.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.joshualong.co.uk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+<style type="text/css"></style><style type="text/css">#masthead .site-title {font-family:Amatic SC}body {font-family:Roboto }h1,h2,h3,h4,h5,h6 {font-family:Roboto Slab}#masthead .site-description, .hentry .entry-meta {font-family:Roboto Condensed}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://www.joshualong.co.uk/wp-content/uploads/2015/08/new_wallpaper_final_full_size_noise02a.jpg'); background-repeat: repeat-y; background-position: top left; background-attachment: scroll; }
+</style>
+
+<!-- BEGIN GADWP v4.8.3 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-66653189-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- END GADWP Universal Tracking -->
+
+	</head>
+
+<body class="home blog custom-background" itemscope itemtype="http://schema.org/WebPage">
+<div id="page">
+	<div class="container">
+		<div class="row row-offcanvas row-offcanvas-left">
+			<div id="secondary" class="col-lg-3">
+								<header id="masthead" class="site-header" role="banner">
+										<div class="hgroup">
+						<h1 class="site-title display-title"><a href="http://www.joshualong.co.uk/" title="Joshua Long" rel="home"><span itemprop="name">Joshua Long</span></a></h1><h2 itemprop="description" class="site-description">Desktop Support Technician &amp; Website Developer</h2>					</div>
+					<button type="button" class="btn btn-link hidden-lg toggle-sidebar" data-toggle="offcanvas" aria-label="Sidebar"><i class="fa fa-gear"></i></button>
+					<button type="button" class="btn btn-link hidden-lg toggle-navigation" aria-label="Navigation Menu"><i class="fa fa-bars"></i></button>
+					<nav id="site-navigation" class="navigation main-navigation" role="navigation">
+						<ul id="menu-main-menu" class="nav-menu"><li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14"><a href="http://www.joshualong.co.uk/">Home</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="http://www.joshualong.co.uk/statement/">Statement</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="http://www.joshualong.co.uk/curriculum-vitae/">Curriculum Vitae</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="http://www.joshualong.co.uk/freelance-wordpress-development/">WordPress Development</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="http://www.joshualong.co.uk/contact/">Contact</a></li>
+</ul>					</nav>
+									</header>
+				
+				<div class="sidebar-offcanvas">
+					<div id="main-sidebar" class="widget-area" role="complementary">
+													<aside id="recent-posts-2" class="widget widget_recent_entries">
+								<h3 class='widget-title'>Recent Posts</h3>
+		<ul>
+					<li>
+				<a href="http://www.joshualong.co.uk/support-request-asus-r9-290-directcu-ii-4gb-gddr5/">Support Request: Asus R9 290 DirectCU II 4GB GDDR5</a>
+						</li>
+					<li>
+				<a href="http://www.joshualong.co.uk/review-asus-r9-290-directcu-ii-4gb-gddr5/">Review: Asus R9 290 DirectCU II 4GB GDDR5</a>
+						</li>
+					<li>
+				<a href="http://www.joshualong.co.uk/reddit-how-do-you-recover-from-a-screw-up-and-save-face/">Reddit: How do you recover from a screw up and save face</a>
+						</li>
+					<li>
+				<a href="http://www.joshualong.co.uk/windows-10-forced-windows-updates/">Windows 10: Forced Windows updates</a>
+						</li>
+					<li>
+				<a href="http://www.joshualong.co.uk/windows-7-import-from-network-to-windows-moviemaker/">Windows 7: Import from network to Windows MovieMaker</a>
+						</li>
+				</ul>
+							</aside>
+					<aside id="categories-2" class="widget widget_categories">
+						<h3 class='widget-title'>Categories</h3>
+		<ul>
+	<li class="cat-item cat-item-8"><a href="http://www.joshualong.co.uk/category/hardware/" >Hardware</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.joshualong.co.uk/category/linux/" >Linux</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.joshualong.co.uk/category/technical-support/" >Technical Support</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.joshualong.co.uk/category/windows/" >Windows</a>
+</li>
+		</ul>
+					</aside>
+					<aside id="text-3" class="widget widget_text">
+						<h3 class='widget-title'>About Joshua Long</h3>
+			<div class="textwidget">Windows Desktop Support Technician, Linux Dabbler, Avid Gamer, Car Enthusiast, Technophile and Netflix Addict.</div>
+							</aside>
+					<aside id="text-2" class="widget widget_text">
+						<h3 class='widget-title'>Social Media</h3>
+			<div class="textwidget">Connect with me on <a href="https://www.linkedin.com/pub/joshua-long/36/869/4a3">LinkedIn</a>, follow me on <a href="https://twitter.com/Moarderp">Twitter</a> and watch me play various games on <a href="https://www.youtube.com/user/ItsMrXeon">YouTube</a>.</div>
+							</aside>
+											</div>
+				</div>
+			</div>
+
+						<div id="primary" class="content-area col-lg-9" itemprop="mainContentOfPage">
+						<div id="content" class="site-content" role="main">
+		
+						<article itemscope itemtype="http://schema.org/Article" id="post-93" class="post-93 post type-post status-publish format-standard hentry category-hardware category-technical-support tag-asus tag-faulty tag-graphics-card tag-online-vendor tag-r9-290">
+	<header class="entry-header">
+		<h2 class="entry-title" itemprop="name">
+			<a itemprop="url" href="http://www.joshualong.co.uk/support-request-asus-r9-290-directcu-ii-4gb-gddr5/" title="Permalink to Support Request: Asus R9 290 DirectCU II 4GB GDDR5" rel="bookmark">Support Request: Asus R9 290 DirectCU II 4GB GDDR5</a>
+		</h2>
+							<div class="entry-meta"><span class="entry-date"><a href="http://www.joshualong.co.uk/support-request-asus-r9-290-directcu-ii-4gb-gddr5/" rel="bookmark"><time class="entry-date published" datetime="2015-08-31T15:54:52+00:00" itemprop="datepublished">31st August 2015</time></a></span> by <span class="author vcard" itemscope itemprop="author" itemtype="http://schema.org/Person"><a class="url fn n" href="http://www.joshualong.co.uk/author/joshua/" rel="author" itemprop="url"><span itemprop="name">Joshua</span></a></span><span class="sep">&middot;</span><span class="comments-link"><a href="http://www.joshualong.co.uk/support-request-asus-r9-290-directcu-ii-4gb-gddr5/#respond" itemprop="discussionUrl">0 Comments</a></span></div>
+			</header>
+								<div class="entry-content" itemprop="articleBody">
+						<p><a href="http://www.joshualong.co.uk/wp-content/uploads/2015/08/Asus-R9-290-DirectCU-II-4GB-GDDR5.jpg"><img class="wp-image-98 size-medium alignright" src="http://www.joshualong.co.uk/wp-content/uploads/2015/08/Asus-R9-290-DirectCU-II-4GB-GDDR5-300x214.jpg" alt="Asus R9 290 DirectCU II 4GB GDDR5" width="300" height="214" /></a>Since purchasing the Asus R9 290 DirectCU II 4GB GDDR5 from an online vendor I&#8217;ve had nothing but issues with the graphics card.</p>
+<p>This is the second R9 290 I&#8217;ve had this year will will more than likely not be the last as the vendor refuses to give a refund after the first 28 days &#8211; a replacement card will be issued. Here is the ticket I have created with the vendor.</p>
+<p><a class="btn btn-default btn-sm" href="http://www.joshualong.co.uk/support-request-asus-r9-290-directcu-ii-4gb-gddr5/">Continue reading <i class="fa fa-angle-double-right"></i></a></p>
+								</div>
+			</article>
+					<article itemscope itemtype="http://schema.org/Article" id="post-88" class="post-88 post type-post status-publish format-standard hentry category-hardware tag-asus tag-graphics-card tag-r9-290 tag-review">
+	<header class="entry-header">
+		<h2 class="entry-title" itemprop="name">
+			<a itemprop="url" href="http://www.joshualong.co.uk/review-asus-r9-290-directcu-ii-4gb-gddr5/" title="Permalink to Review: Asus R9 290 DirectCU II 4GB GDDR5" rel="bookmark">Review: Asus R9 290 DirectCU II 4GB GDDR5</a>
+		</h2>
+							<div class="entry-meta"><span class="entry-date"><a href="http://www.joshualong.co.uk/review-asus-r9-290-directcu-ii-4gb-gddr5/" rel="bookmark"><time class="entry-date published" datetime="2015-08-30T23:47:16+00:00" itemprop="datepublished">30th August 2015</time></a></span> by <span class="author vcard" itemscope itemprop="author" itemtype="http://schema.org/Person"><a class="url fn n" href="http://www.joshualong.co.uk/author/joshua/" rel="author" itemprop="url"><span itemprop="name">Joshua</span></a></span><span class="sep">&middot;</span><span class="comments-link"><a href="http://www.joshualong.co.uk/review-asus-r9-290-directcu-ii-4gb-gddr5/#respond" itemprop="discussionUrl">0 Comments</a></span></div>
+			</header>
+								<div class="entry-content" itemprop="articleBody">
+						<p>Since purchasing the R9 290 back in March 2015, I&#8217;ve had nothing but issues with it. The first card lasted one month before I started to experience blackscreens, overheating and general performance issues. After many hours of troubleshooting I decided that the only thing I had left was to send the card back for a refund however I was told that I was not allowed a refund and a replacement card would be send out within 24 hours.</p>
+<p>In the mean time, I decided to do some more research on the card and found a large amount of people were experiencing the same problems as myself;</p>
+<ol>
+<li>&#8220;I experienced frequent BSCs (Black Screen Crash) every 20 minutes or so during gaming. I followed a lot of &#8216;advice&#8217; in the forums, trying to fix this issue&#8230;but to no avail.&#8221;</li>
+<li>&#8220;I got upon release, I kept getting Black Screen crashes from roughly 2 to 10 minutes after I boot up. I spent a few hours switching drivers and tinkering with settings but still got these crashes.&#8221;</li>
+<li>&#8220;Hi guys! I recently bought R9 290, and after few days it start Black Screen. I could not enter in any game, the screen freez and start Black.&#8221;</li>
+</ol>
+<p>Since receiving the second card, it&#8217;s been great. The first two months the card performed as expected until today &#8211; I&#8217;ve once again been left in the same situation and the card is performing like the last.</p>
+								</div>
+			</article>
+					<article itemscope itemtype="http://schema.org/Article" id="post-82" class="post-82 post type-post status-publish format-standard hentry category-technical-support tag-engineer tag-it tag-reddit tag-sysadmin">
+	<header class="entry-header">
+		<h2 class="entry-title" itemprop="name">
+			<a itemprop="url" href="http://www.joshualong.co.uk/reddit-how-do-you-recover-from-a-screw-up-and-save-face/" title="Permalink to Reddit: How do you recover from a screw up and save face" rel="bookmark">Reddit: How do you recover from a screw up and save face</a>
+		</h2>
+							<div class="entry-meta"><span class="entry-date"><a href="http://www.joshualong.co.uk/reddit-how-do-you-recover-from-a-screw-up-and-save-face/" rel="bookmark"><time class="entry-date published" datetime="2015-08-25T14:15:18+00:00" itemprop="datepublished">25th August 2015</time></a></span> by <span class="author vcard" itemscope itemprop="author" itemtype="http://schema.org/Person"><a class="url fn n" href="http://www.joshualong.co.uk/author/joshua/" rel="author" itemprop="url"><span itemprop="name">Joshua</span></a></span><span class="sep">&middot;</span><span class="comments-link"><a href="http://www.joshualong.co.uk/reddit-how-do-you-recover-from-a-screw-up-and-save-face/#respond" itemprop="discussionUrl">0 Comments</a></span></div>
+			</header>
+								<div class="entry-content" itemprop="articleBody">
+						<p>&#8220;I&#8217;m a junior and bit offs more than I should have. Thankfully it was just a stand by of an active standby pair, but the engineer asked me to investigate a minor issue and I ran the wrong command. Now I couldn&#8217;t recover from it and it&#8217;s down until I can crawl to the engineer and tell him what I did.</p>
+<p>I hope he has a backup config and the rest I can get from the active with his help and transfer to the standby, which I plan to offer to do in the same sentence as asking for forgiveness. I&#8217;m just hoping that&#8217;s enough to salvage any trust he&#8217;ll have for me.</p>
+<p>Vague for reasons. Can anyone share some advice here or share their experience so I feel less alone in my terror?&#8221; &#8211; <a href="https://www.reddit.com/user/ACiDGRiM">ACiDGRiM (Source)<br />
+</a><br />
+<a class="btn btn-default btn-sm" href="http://www.joshualong.co.uk/reddit-how-do-you-recover-from-a-screw-up-and-save-face/">Continue reading <i class="fa fa-angle-double-right"></i></a></p>
+								</div>
+			</article>
+					<article itemscope itemtype="http://schema.org/Article" id="post-80" class="post-80 post type-post status-publish format-standard hentry category-technical-support category-windows tag-3rd-party-applications tag-crash tag-drivers tag-windows-10 tag-windows-updates">
+	<header class="entry-header">
+		<h2 class="entry-title" itemprop="name">
+			<a itemprop="url" href="http://www.joshualong.co.uk/windows-10-forced-windows-updates/" title="Permalink to Windows 10: Forced Windows updates" rel="bookmark">Windows 10: Forced Windows updates</a>
+		</h2>
+							<div class="entry-meta"><span class="entry-date"><a href="http://www.joshualong.co.uk/windows-10-forced-windows-updates/" rel="bookmark"><time class="entry-date published" datetime="2015-08-24T12:06:50+00:00" itemprop="datepublished">24th August 2015</time></a></span> by <span class="author vcard" itemscope itemprop="author" itemtype="http://schema.org/Person"><a class="url fn n" href="http://www.joshualong.co.uk/author/joshua/" rel="author" itemprop="url"><span itemprop="name">Joshua</span></a></span><span class="sep">&middot;</span><span class="comments-link"><a href="http://www.joshualong.co.uk/windows-10-forced-windows-updates/#respond" itemprop="discussionUrl">0 Comments</a></span></div>
+			</header>
+								<div class="entry-content" itemprop="articleBody">
+						<p>The forced updates are by far the trickiest aspect of Windows 10. Yet another problem that can occur is when a Windows update coincides with a third party driver management software update. This can cause a crash. The third party software can be halted, but the Windows update cannot. Your best bet is uninstall third party driver management and letting Windows take care of all the system updates, which gives Microsoft power over another company&#8217;s products, which isn&#8217;t cool. I hope there is a way to stop this happening in the near future.</p>
+								</div>
+			</article>
+					<article itemscope itemtype="http://schema.org/Article" id="post-75" class="post-75 post type-post status-publish format-standard has-post-thumbnail hentry category-technical-support category-windows">
+	<header class="entry-header">
+		<h2 class="entry-title" itemprop="name">
+			<a itemprop="url" href="http://www.joshualong.co.uk/windows-7-import-from-network-to-windows-moviemaker/" title="Permalink to Windows 7: Import from network to Windows MovieMaker" rel="bookmark">Windows 7: Import from network to Windows MovieMaker</a>
+		</h2>
+							<div class="entry-meta"><span class="entry-date"><a href="http://www.joshualong.co.uk/windows-7-import-from-network-to-windows-moviemaker/" rel="bookmark"><time class="entry-date published" datetime="2015-08-24T12:01:26+00:00" itemprop="datepublished">24th August 2015</time></a></span> by <span class="author vcard" itemscope itemprop="author" itemtype="http://schema.org/Person"><a class="url fn n" href="http://www.joshualong.co.uk/author/joshua/" rel="author" itemprop="url"><span itemprop="name">Joshua</span></a></span><span class="sep">&middot;</span><span class="comments-link"><a href="http://www.joshualong.co.uk/windows-7-import-from-network-to-windows-moviemaker/#respond" itemprop="discussionUrl">0 Comments</a></span></div>
+			</header>
+				<div class="entry-thumbnail"><a href="http://www.joshualong.co.uk/windows-7-import-from-network-to-windows-moviemaker/" title="Permalink to Windows 7: Import from network to Windows MovieMaker" rel="bookmark"><img width="665" height="537" src="http://www.joshualong.co.uk/wp-content/uploads/2015/08/images.duckduckgo.com_.png" class="attachment-post-thumbnail wp-post-image" alt="Screencat_Windows_MoviewMaker" itemprop="thumbnailUrl" /></a></div>
+							<div class="entry-content" itemprop="articleBody">
+						<p>Ok, this is bizarre &#8211; Windows Live MovieMaker won&#8217;t let you import network files by default. Okay, so they&#8217;ll be large and may monopolise network traffic for a while, but shouldn&#8217;t that be your choice?</p>
+<p>Anyway, a quick Registry tweak will solve this annoying problem. Simply run REGEDIT, browse to HKEY_CURRENT_USER\Software\Microsoft\Windows Live\Movie Maker, add a DWORD value called AllowNetworkFiles and set it to 1: job done.</p>
+								</div>
+			</article>
+					<article itemscope itemtype="http://schema.org/Article" id="post-73" class="post-73 post type-post status-publish format-standard hentry category-technical-support category-windows tag-quick-launch tag-revert tag-standard tag-taskbar tag-windows-7">
+	<header class="entry-header">
+		<h2 class="entry-title" itemprop="name">
+			<a itemprop="url" href="http://www.joshualong.co.uk/windows-7-standardising-the-taskbar/" title="Permalink to Windows 7: Standardising the taskbar" rel="bookmark">Windows 7: Standardising the taskbar</a>
+		</h2>
+							<div class="entry-meta"><span class="entry-date"><a href="http://www.joshualong.co.uk/windows-7-standardising-the-taskbar/" rel="bookmark"><time class="entry-date published" datetime="2015-08-24T11:57:09+00:00" itemprop="datepublished">24th August 2015</time></a></span> by <span class="author vcard" itemscope itemprop="author" itemtype="http://schema.org/Person"><a class="url fn n" href="http://www.joshualong.co.uk/author/joshua/" rel="author" itemprop="url"><span itemprop="name">Joshua</span></a></span><span class="sep">&middot;</span><span class="comments-link"><a href="http://www.joshualong.co.uk/windows-7-standardising-the-taskbar/#respond" itemprop="discussionUrl">0 Comments</a></span></div>
+			</header>
+								<div class="entry-content" itemprop="articleBody">
+						<p>We love the Windows 7 taskbar, but many people seem less than impressed with the new approach to taskbar buttons, finding it difficult to tell at a glance whether an icon is a running application or a pinned shortcut. If this sounds like you then there&#8217;s an easy way to restore more standard taskbar buttons, though &#8211; right-click the taskbar, select Properties, and set Taskbar Buttons to &#8220;Never combine&#8221; or &#8220;Combine when taskbar is full&#8221;.</p>
+<p>You can even restore the old Quick Launch toolbar in just a few clicks. Simply right-click the taskbar, click Toolbars &gt; New Toolbar, type %userprofile%\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch in the folder box and click Select Folder. The Quick Launch toolbar should then reappear, and you can move and resize it to suit your needs.</p>
+								</div>
+			</article>
+					<article itemscope itemtype="http://schema.org/Article" id="post-57" class="post-57 post type-post status-publish format-standard hentry category-linux tag-installation tag-kali-linux tag-linux tag-os tag-review tag-virtual-machine tag-virtualisation">
+	<header class="entry-header">
+		<h2 class="entry-title" itemprop="name">
+			<a itemprop="url" href="http://www.joshualong.co.uk/first-impressions-of-kali-linux-2-0/" title="Permalink to First Impressions of Kali Linux 2.0" rel="bookmark">First Impressions of Kali Linux 2.0</a>
+		</h2>
+							<div class="entry-meta"><span class="entry-date"><a href="http://www.joshualong.co.uk/first-impressions-of-kali-linux-2-0/" rel="bookmark"><time class="entry-date published" datetime="2015-08-24T10:20:43+00:00" itemprop="datepublished">24th August 2015</time></a></span> by <span class="author vcard" itemscope itemprop="author" itemtype="http://schema.org/Person"><a class="url fn n" href="http://www.joshualong.co.uk/author/joshua/" rel="author" itemprop="url"><span itemprop="name">Joshua</span></a></span><span class="sep">&middot;</span><span class="comments-link"><a href="http://www.joshualong.co.uk/first-impressions-of-kali-linux-2-0/#respond" itemprop="discussionUrl">0 Comments</a></span></div>
+			</header>
+								<div class="entry-content" itemprop="articleBody">
+						<p>Kali Linux 2.0 was released on August 11  2015. I downloaded 64-bit full version and installed it on VMWare. The host computer has Intel i5 3570k, 8 GB RAM. I assigned 2 GB RAM to Kali Linux 2.0 and it was quite quick surprisingly.</p>
+<p>When installing via non-graphic interface, you may encounter no network mirror repos, you need to bypass it by selecting &#8220;Continue without a network mirror? Yes&#8221; and we will edit the /etc/apt/sources.list later. Graphic interface may also has the same problem too. After the installation is completed, we can edit the /etc/apt/sources.list if you encountered no mirror repos when install.</p>
+<p><a class="btn btn-default btn-sm" href="http://www.joshualong.co.uk/first-impressions-of-kali-linux-2-0/">Continue reading <i class="fa fa-angle-double-right"></i></a></p>
+								</div>
+			</article>
+					<article itemscope itemtype="http://schema.org/Article" id="post-24" class="post-24 post type-post status-publish format-standard hentry category-linux tag-ethical-hacking tag-kali-linux tag-linux tag-metasploit tag-offensive-security tag-os">
+	<header class="entry-header">
+		<h2 class="entry-title" itemprop="name">
+			<a itemprop="url" href="http://www.joshualong.co.uk/offensive-security-introduces-kali-linux/" title="Permalink to Offensive Security Introduces Kali Linux" rel="bookmark">Offensive Security Introduces Kali Linux</a>
+		</h2>
+							<div class="entry-meta"><span class="entry-date"><a href="http://www.joshualong.co.uk/offensive-security-introduces-kali-linux/" rel="bookmark"><time class="entry-date published" datetime="2015-08-21T11:59:07+00:00" itemprop="datepublished">21st August 2015</time></a></span> by <span class="author vcard" itemscope itemprop="author" itemtype="http://schema.org/Person"><a class="url fn n" href="http://www.joshualong.co.uk/author/joshua/" rel="author" itemprop="url"><span itemprop="name">Joshua</span></a></span><span class="sep">&middot;</span><span class="comments-link"><a href="http://www.joshualong.co.uk/offensive-security-introduces-kali-linux/#respond" itemprop="discussionUrl">0 Comments</a></span></div>
+			</header>
+								<div class="entry-content" itemprop="articleBody">
+						<p>Black Hat Europe, Amsterdam – March 13 – <a title="Offensive Security Training" href="http://www.offensive-security.com" target="_blank">Offensive Security</a> today announced the availability of <a title="Kali Linux Released" href="http://www.offensive-security.com/kali-distribution/kali-linux-released/" target="_blank">Kali Linux</a>, the evolution of its popular <a class="external" title="BackTrack Linux" href="http://www.backtrack-linux.org" target="_blank" rel="nofollow">BackTrack Linux</a>, a free security auditing operating system and toolkit. Showcased at <a class="external" title="BlackHat Europe 2013" href="http://www.blackhat.com/eu-13/" target="_blank" rel="nofollow">Black Hat Europe</a> in Amsterdam, Kali Linux incorporates more than 300 penetration testing and security auditing programs with a Linux operating system, delivering an all-in-one solution that enables IT administrators and security professionals to test the effectiveness of risk mitigation strategies.</p>
+<p>“For IT professionals, an experiment is worth a thousand theories. Applied to security, it means that simulating attacks to assess the defenses protecting your organization is the only sure way to understand their effectiveness and the impact of an attack,” said Mati Aharoni, Lead Trainer and Developer, Offensive Security. “That’s why we created Kali Linux; we’ve developed the most advanced penetration testing and security auditing toolkit available to help IT administrators and security professionals put themselves in the shoes of potential attackers.”</p>
+<p><a class="btn btn-default btn-sm" href="http://www.joshualong.co.uk/offensive-security-introduces-kali-linux/">Continue reading <i class="fa fa-angle-double-right"></i></a></p>
+								</div>
+			</article>
+					
+			</div>
+												<footer class="site-info" itemscope itemtype="http://schema.org/WPFooter">
+										<a href="http://www.joshualong.co.uk" title="Joshua Long - Desktop Support Technician &amp; Website Developer">Desktop Support Technician & Website Developer - Joshua Long</a>.
+				</footer>
+														</div>
+					</div>
+	</div>
+</div>
+<div id="su-footer-links" style="text-align: center;"></div><script src='http://www.joshualong.co.uk/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.joshualong.co.uk\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script src='http://www.joshualong.co.uk/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script>
+</body>
+</html>

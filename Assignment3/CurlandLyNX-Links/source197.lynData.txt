@@ -1,0 +1,150 @@
+   [1]Ruby Performance Optimization Book
+
+     This book is a must-have for anyone bringing performance-sensitive
+     Ruby programs to production. It will teach you how to efficiently
+     hunt down and correct the bottlenecks that make users sad and
+     prevent teams from spending time building new functionality.
+     -- Matt Margolis, Director of application development, Getty Images
+
+     A fantastic book. Probably the best tech book I have read in the
+     last few years. It brings together information I can’t just find in
+     30 minutes of web searches. This book has taught me to be a better
+     developer and to start filling a hole in my skill set.
+     -- Charley Stran, Web developer, TheBlaze | Mercury Radio Arts
+
+     Ruby Performance Optimization has changed the way I develop. I now
+     think about simple performance tweaks before I commit code. It is a
+     book I keep close for reference when solving tough performance
+     issues.
+     -- Jeff Holland, Senior software engineer, Ackmann & Dickenson
+
+     For programmers who aren’t familiar with what is going on "under the
+     covers," I think this book will open their eyes to new levels of
+     understanding their code.
+     -- Kim Shrier, Principal, Westryn Internet Services, Shrier and
+     Deihl
+
+About the Ruby Performance Optimization Book
+
+   From this book you will learn to:
+     * write Ruby and Rails code that is fast from the start;
+     * spot slow code at first glance in both plain Ruby and Rails;
+     * optimize what's really important (read, memory consumption);
+     * measure performance in a way that doesn't mislead you into
+       optimizing the wrong thing;
+     * use profiling tools to optimize the complex cases;
+     * write performance tests to make sure performance does not degrade
+       with the next commit.
+
+   Ruby Performance Optimization is the first book on Ruby performance
+   that actually teaches performance optimization and is not a mere
+   collection of tips and tricks.
+
+   No need to dig through the various blog posts, screencasts, and
+   conference presentation recordings anymore! Everything that's important
+   is in the book. It does not describe any of the microoptimizations
+   (like inlining to get rid of the function call), and features only one
+   chapter on performance tips and tricks. Other chapters concentrate on
+   what's really important for performance: reducing high memory
+   utilization, profiling CPU and memory, reducing the garbage collector's
+   load.
+
+Frequently Asked Questions
+
+Shall I Read This Book If I Only Do Rails?
+
+   Definitely! I learned Ruby performance optimization myself by trying to
+   speed up Rails applications. So you can expect that all advice I have
+   actually applies to Rails. More, Chapter 3 of the book specifically
+   focuses on making Rails faster.
+
+Is Your Book Still Relevant for Ruby 2.3?
+
+   Of course. I wrote this book when Ruby 2.2 was the current version.
+   Ruby 2.3 is a bit faster overall and has an improved iterator
+   implementation (my advice from Section 2.2 does not apply anymore). But
+   it's still largerly the same Ruby as 2.2 and 2.1. So you can expect 99%
+   of the material of the book to be applicable to Ruby 2.3.
+
+Recent Blog Posts
+
+   Is Ruby 2.3 Faster? Immutable (Frozen) String Literals Performance
+   Feb 18, 2016
+   Ruby 2.3 was released last month with yet another bunch of performance
+   improvements. But is it really faster than 2.2? Let's take a look. This
+   is the fourth post in my series about Ruby 2.3 performance. This time
+   we'll look at the immutable (aka frozen) string literals, the
+   experimental feature that will be enabled by default in Ruby 3.0.
+   [2]Read more... »
+   Is Ruby 2.3 Faster? Rails ERB Template Rendering Performance
+   Feb 08, 2016
+   Ruby 2.3 was released last month with yet another bunch of performance
+   improvements. But is it really faster than 2.2? Let's take a look. This
+   is the third post in my series about Ruby 2.3 performance. This time
+   we'll look at the html escaping performance improvements that, in
+   theory, can yield dramatic speedup in Rails template rendering.
+   [3]Read more... »
+   Is Ruby 2.3 Faster? Date Parsing Performance
+   Feb 02, 2016
+   Ruby 2.3 was released last month with yet another bunch of performance
+   improvements. But is it really faster than 2.2? Let's take a look. This
+   is the second post in my series about Ruby 2.3 performance. This time
+   we'll look at date parsing performance. [4]Read more... »
+
+Most Popular Blog Posts
+
+   [5]Why Read the Ruby Performance Optimization Book
+   [6]Ruby Performance Optimization Book Is In Print
+
+   [7]See all blog posts
+   [8]Buy Now
+
+   [9]Buy Now
+
+   $24 - eBook
+   $36 - Paper Book
+   [DEL: $60 :DEL] $46 - eBook + Paper Book Combo
+
+   About the Book
+
+   Learn how to write faster Ruby code. See exactly what makes Ruby and
+   Rails code slow, and how to fix it by optimizing memory and CPU usage.
+   Learn to profile, measure, and test performance. Understand Ruby
+   garbage collector, and learn how to tune it for best performance.
+   [10]Learn more
+
+   Read Excerpts
+
+   [11]Chapter 1. What Makes Ruby Code Fast
+   [12]Section 2.2. Optimize Your Iterators
+   [13]Section 6.3. Analyze and Compare Measurements Using Statistics
+
+   [14]Table of Contents
+
+   [15]Book discussion forum
+
+   Follow the author on:
+   [16][twitter.png] Twitter   [17][google-plus.png] Google+
+
+   Copyright © 2016 [18]Alexander Dymo
+
+References
+
+   1. https://pragprog.com/cart/add/skus?sku_id=762_761
+   2. file:///blog/2016/02/is-ruby-2-3-faster-frozen-string-literals-performance.html
+   3. file:///blog/2016/02/is-ruby-2-3-faster-rails-erb-template-rendering-performance.html
+   4. file:///blog/2016/02/is-ruby-2-3-faster-date-parsing-performance.html
+   5. file:///blog/2015/12/why-read-ruby-performance-optimization-book.html
+   6. file:///blog/2015/12/ruby-performance-optimization-book-is-in-print.html
+   7. file:///blog
+   8. https://pragprog.com/cart/add/skus?sku_id=762_761
+   9. https://pragprog.com/cart/add/skus?sku_id=762_761
+  10. file:///#about
+  11. http://media.pragprog.com/titles/adrpo/optimize.pdf
+  12. http://media.pragprog.com/titles/adrpo/iterators.pdf
+  13. http://media.pragprog.com/titles/adrpo/statistics.pdf
+  14. file:///table-of-contents.html
+  15. https://forums.pragprog.com/forums/366
+  16. https://twitter.com/alexander_dymo
+  17. https://plus.google.com/117794624398803940592
+  18. https://plus.google.com/117794624398803940592?rel=author

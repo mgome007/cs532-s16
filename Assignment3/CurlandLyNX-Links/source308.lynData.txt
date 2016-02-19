@@ -1,0 +1,617 @@
+    #[1]Dain Miller RSS Feed [2]Dain Miller Atom Feed [3]Dain Miller »
+   Feed [4]Dain Miller » Comments Feed
+
+     * [5]Home
+     * [6]About
+     * [7]Open Notebook
+     * [8]Devlog
+     * [9]StartHereFM
+     * [10]TinyPress
+     * [11]Software
+     * [12]Publications
+     * [13]Contact
+
+   ____________________ (BUTTON)
+
+[14]Dain Miller
+
+[15]Kent Beck’s Making Making CoffeeScript
+
+   Dain - January 25, 2016
+
+   I love Kent Beck: his books, his talks, his programming, his
+   philosophies, and now his videos! This is an amazing short video on
+   watching Kent learn Coffeescript using a short feedback loop.
+
+   This is truly a master programmer at work. Incredibly inspiring.
+
+   IFRAME: [16]https://www.youtube.com/embed/nIonZ6-4nuU?feature=oembed
+
+   [17]Continue Reading
+   [18] 0 [19]0
+
+[20]Darwin Documentary & Take Aways
+
+   Dain - December 27, 2015
+
+   Great documentary, my take aways below.
+
+   IFRAME: [21]https://www.youtube.com/embed/AYBRbCLI4zU?feature=oembed
+
+     * Darwin spent 5 years at sea collecting samples before he started
+       analyzing any of them. Then, back at his home in England, he began
+       reviewing them. He understood the seasons of life at almost an
+       expert level.
+     * Darwin would perform ‘stream of consciousness’ or ‘mental rioting’,
+       as he called it, in which he’d write notebooks worth of thought
+       until something solidifies.
+     * Whales have teeth in their embryo, but they don’t exist in adult
+       whales because of Darwinistic changes throughout the lives of
+       multiple generations of whale.
+     * Darwin realized that creatures change before he knew why they
+       changed. Thus, allowing himself to have insight before
+       comprehension.
+     * The most brutal things in nature (aka the most extreme conflict
+       like death of an animal from another) is actually the most
+       creative possible thing for the gene pool. Fascinating.
+
+   [22]Continue Reading
+   [23] 0 [24]0
+
+[25]Man is a Moment in Astronomic Time
+
+   Dain - December 1, 2015
+
+   How [26]Will Durant introduces the book [27]The Lessons of History…
+
+   Since man is a moment in astronomic time, a transient guest of the
+   earth, a spore of his species, a scion of his race, a composite of
+   body, character, and mind, a member of a family and a community, a
+   believer or doubter of a faith, a unit in an economy, perhaps a citizen
+   in a state or soldier in an army, we may ask under the corresponding
+   heads – astronomy, geology, geography, biology, ethnology, psychology,
+   morality, religion, economics, politics, and war – what history has to
+   say about the nature, conduct, and prospects of man. It is a precarious
+   enterprise, and only a fool would try to compress a hundred centuries
+   into a hundred pages of hazardous conclusions. We proceed.
+
+   Wow.
+   [28]Continue Reading
+   [29] 0 [30]0
+
+[31]Tracking Your Side Project’s Performance Using Emacs, Org-Mode, and
+Python
+
+   Dain - November 30, 2015
+
+   I’ve been experimenting with using [32]Emacs [33]Org-Mode [34]tables to
+   track my [35]key performance indicators for my different side projects.
+
+   I like the idea of using emacs and org-mode for this type of data
+   because it allows for quick data analysis via the programming language
+   of your choice.
+
+   Alternatively, when using Google Spreadsheets you don’t have any
+   integration with a programming language right at-hand.
+
+   Having a deep integration with a programming language on the data you
+   collect, is invaluable. In this case, we are using the Emacs
+   integration with [36]babel’s [37]literate coding source code blocks.
+
+   This article is meant to be a very basic bare-bones intro to
+   emacs org-mode, passing data from org-mode tables to souce-code,
+   plotting, and rendering the result.
+
+   Due to the fact that we want to keep this approachable, we will use
+   very basic data that produces very basic plots for this workflow
+   tutorial.
+
+   Let’s dive in…
+
+   Here’s our scenario
+
+   We have a side project called [38]StartHereFM (spoiler: true story).
+   [39]StartHereFM is a podcast network and the team needs to be able to
+   see a range of different statistics on a daily basis.
+
+   Here’s a preview of the final result, let’s reverse engineer it.
+
+   [40]Screen-Shot-2015-11-30-at-1.42.36-AM
+
+   I’m assuming you know how to install emacs, install org-mode, open
+   a website and read the basics of org-mode.
+
+   Let’s first create the org-mode file: I named mine ‘dashboard.org’.
+
+   The next thing we need is the data, which we store in [41]org-mode
+   tables. Pick a few stats from your side project, and go ahead and
+   replicate this table setup above. Enter your dates on the left, and
+   columns with the data rows. FYI: You can automate this step if you
+   want, but I won’t go into detail about it. At a high level you can use
+   apps like [42]IFTT to send data to a backend service that you
+   write that formats the data then serializes it into your file’s table
+   on Dropbox/etc.
+
+   NOTE: Make sure you use the “#+TBLNAME” syntax to put a name on the
+   table, for use in code in a minute.
+
+   Now that we have the data, let’s go ahead and send it on over into a
+   code block, in this case we are using [43]Python 3 primarily to take
+   advantage of the [44]SciPy stack.
+** StartHereFM
+   #+begin_src python :var data=startherefm :exports both :results output :width
+ 300
+     import numpy as np
+     import matplotlib.pyplot as plt
+     import matplotlib.dates as mdates
+     import datetime
+
+   You can see the source code block begins with “#+begin_src” and ends
+   with “#+end_src”. Inside of that you put your code. You can hit
+   Ctrl-‘ to edit the code in the block with syntax highlighting for that
+   language. Then hit Ctrl-‘ again to get back to your source code block.
+
+   The next thing you’ll notice is the params I’m passing into the block.
+   You can see I’m setting a “data” variable equal to the table name I
+   defined above. This is very easy to do with org-mode and is a very cool
+   way to toss data around. Thanks org! I’m also passing in [45]a few
+   options to verify the org file displays the stdout of the script’s
+   execution. And you can ignore the width bit.
+
+   Now that we have the data in the source code block with the
+   SciPy stack, let’s make use of it!
+
+   First, let’s assign all columns data to a variable.
+
+   dates, daily_dls, total_dls, total_yt_views, site_views, email_list,
+   twitter_followers = zip(*data)
+   Next, let’s clean the data. Also called “data munging”.
+
+   Actually, pause, before we jump in let’s review data analysis 101 which
+   states that there are four phases to managing data: [46]data
+   extraction, [47]data munging (cleaning), [48]data governance
+   (controlling data quality), and [49]data architecture (breaking silo’d
+   data warehouses).
+
+   Okay, now that we have that out of the way let’s dive into munging or
+   cleaning this data..
+
+     dates = list(dates)
+     dates = dates[1:]
+     if "" in dates: dates.remove("")
+
+     daily_dls = list(daily_dls)
+     daily_dls = daily_dls[1:]
+     if "" in daily_dls: daily_dls.remove("")
+
+     total_dls = list(total_dls)
+     total_dls = total_dls[1:]
+     if "" in total_dls: total_dls.remove("")
+
+     _total_dls = []
+     for dl in total_dls:
+         dl = int(dl.replace(',',''))
+         _total_dls.append(dl)
+
+     total_yt_views = list(total_yt_views)
+     total_yt_views = total_yt_views[1:]
+     if "" in total_yt_views: total_yt_views.remove("")
+
+     _total_yt_views = []
+     for yt in total_yt_views:
+         yt = int(yt.replace(',',''))
+         _total_yt_views.append(yt)
+
+
+   NOTE: I’m aware there are better ways to write this in Python, but I’m
+   not a big Python coder and this works fine for my scripts like this
+   one.
+
+   Very basic cleaning procedure for this example, just converting some
+   strings to integers, and removing some empty strings from an array,
+   etc.
+
+   The end goal of this cleaning step is to verify you have two arrays in
+   their ready-to-plot data-type, which for now means integers and date
+   objects.
+
+   To that end, let’s get our dates array ready…
+     _dates = []
+     for date in dates:
+         date = datetime.datetime.strptime(date, "%b %d %Y").date()
+         _dates.append(date)
+
+   NOTE: I’m aware there are better ways to write this in Python, but I’m
+   not a big Python coder and this works fine for my scripts like this
+   one.
+
+   Now the data is fairly cleaned up and we have our 3 arrays (1 dates
+   array, and 2 integer arrays to plot) let’s go ahead and create the
+   figures using [50]matplotlib and lay the data onto it in the most
+   simple possible fashion.
+
+   The first thing you have to ask when plotting data is how many plots do
+   I need? Could I plot all of this data on one plot?
+
+   Plotting all the arrays of data on one figure usually only works if the
+   data sets are within the same range. If you have a diverse pool of
+   ranges on the y axis the visualization will lose its ocular efficiency.
+
+   Based on that, we know that this data is very different and probably
+   won’t work on 1 figure. Why? Mainly because we are plotting
+   total_downloads which is near the 100 thousands but
+   the daily_downloads is very low around the couple hundred mark. Thus,
+   this will be optimally plotted in two separate plots.
+
+   So, we are going to create two plots: the first is total downloads and
+   the second is daily downloads. They both are going to have the dates in
+   the x axis for this example, and the y axis will be the respective
+   download count.
+     fig = plt.gcf()
+     fig.set_size_inches(5,2)
+     fig2 = plt.figure()
+     fig2.set_size_inches(5,2)
+     fig3 = plt.figure()
+     fig3.set_size_inches(5,2)
+
+     fig.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %d %Y'))
+     fig.gca().xaxis.set_major_locator(mdates.DayLocator())
+
+     fig2.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %d %Y'))
+     fig2.gca().xaxis.set_major_locator(mdates.DayLocator())
+
+     fig3.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %d %Y'))
+     fig3.gca().xaxis.set_major_locator(mdates.DayLocator())
+
+     ax = fig.add_subplot(111)
+     ax2 = fig2.add_subplot(111)
+     ax3 = fig3.add_subplot(111)
+
+     ax.plot(_dates, _total_dls, label="Total Downloads")
+     ax.legend(loc='upper center', bbox_to_anchor=(0.5, 1.09))
+     fig.tight_layout()
+     fig.savefig('starthere.png')
+
+     ax2.plot(_dates, daily_dls, label="Daily Downloads")
+     ax2.legend(loc='upper center', bbox_to_anchor=(0.5, 1.09))
+     fig2.tight_layout()
+     fig2.savefig('starthere-daily.png')
+
+     ax3.plot(_dates, _total_yt_views, label="YouTube Views")
+     ax3.legend(loc='upper center', bbox_to_anchor=(0.5, 1.09))
+     fig3.tight_lay
+     fig3.savefig('starthere-ytviews.png')
+
+   NOTE: I’m aware this is not compact or DRY, but it works for mer. Also,
+   you’ll notice we are plotting a third chart – please ignore that for
+   this tutorial.
+
+   The first thing we do is create the figures and set their size. You can
+   read up on the options by visiting the [51]matplotlib documentation.
+
+   Next we set the formatting for the date axis on the plots. Then we add
+   subplots. Then we call plot! [52]Plot simply takes as params an x, y,
+   and label. How amazing right?
+
+   I then call tight_layout(), which is a nice helper function that
+   basically makes tiny charts look better by using a different spacing
+   technique on the axis labels.
+
+   Then I save the figure, because want to the visualization to appear in
+   the document.
+
+   How do we do that? Well, first you should know that Emacs is basically
+   an [53]operating system for text. Thus, [54]files can be linked to and
+   fro’, and you do that by using the syntax: “[[file_name.png]]”.
+
+   Here we want to put these links in for the plots we just saved.
+   *StartHereFM Key Performance Indicators Over Time*
+   [[starthere.png]]
+
+   [[./starthere-daily.png]]
+
+   [[./starthere-ytviews.png]]
+
+   Once these are set, you can put your cursor in the source code block
+   and hit Ctrl-c Ctrl-c and it will run the babel-execute function for
+   the language you listed in the “#+begin_src python” snippet.
+
+   Now your plots should be saved in the folder you’ve placed this
+   .org file.
+
+   The magic is now possible and you can toggle between the link to your
+   plot and the plot image itself inline with Ctrl-c Ctrl-x Ctrl-v.
+
+   Here’s the [55]full org file source for you to run (Ctrl-c Ctrl-c in
+   code block then Ctrl-c Ctrl-x Ctrl-v) in org-mode and learn from.
+     __________________________________________________________________
+
+
+   That wraps the tutorial.
+
+   I’m a huge believer in the “you only change what you track, you only
+   track what you measure” thing, and that’s why I think having good
+   automated routines to plot your data for analysis later is hugely
+   important.
+
+   What if these tables were being automatically populated and there was
+   100 columns of project statistics? At that point we are sort of
+   replicating something like [56]Mixpanel here, but that data is
+   incredibly useful when planning features or prioritizing work as well.
+   And because it’s integrated in your editor with a programming
+   environment you can actually set up ways to ask questions of the data
+   during stand up meetings. You can query your user data and basically
+   “ask it” which feature should be prioritized over the other based
+   on assumed impact and user benefit, etc.
+
+   Point is, it gets more interesting the more data you have. Always keep
+   that in mind, and keep collecting.
+   [57]Continue Reading
+   [58] 2 [59]0
+
+[60]Physicists Prove Time Travel Possible by Sending Particles of Light into
+the Past
+
+   Dain - November 30, 2015
+
+   Amazing writeup.
+
+   In the first case, one photon passed through a wormhole and then
+   interacted with its older self. In the second case, when a photon
+   travels through normal space-time and interacts with another photon
+   trapped inside a closed timeline curve forever.
+
+   Read the full article [61]here. It’s fascinating.
+   [62]Continue Reading
+   [63] 0 [64]0
+
+[65]Syfy: “Dark Matter”
+
+   Dain - November 27, 2015
+
+   [66]Dark Matter is a new show on the Syfy network about a crew aboard a
+   ship with no memories. You can find season 1 streaming [67]Netflix.
+   Season 2 is scheduled for release in 2016. I’d also like to point out
+   the [68]awesome “where to watch” pages on syfy.com.
+
+   This show has a unique balance between corny, fun, and is somehow not
+   pandering. It’s an interesting combination and a very solid Syfy show.
+   And check out the [69]character gallery!
+   [70]Continue Reading
+   [71] 0 [72]0
+
+[73]Deep Work Book Pre-Order
+
+   Dain - November 27, 2015
+
+   I’m really excited for Cal Newport’s new book [74]Deep Work: Rules for
+   Focused Success in a Distracted World. Every knowledge worker should
+   pre-order this book.
+
+   Never pre-ordered a book before? Here’s why you should:
+
+   Pre-orders carry a great weight in the modern book business. Major
+   retailers such as Barnes & Noble, for example, now use pre-order
+   numbers to determine how seriously to take a new release.
+
+   – [75]via Cal Newport
+   [76]Continue Reading
+   [77] 0 [78]0
+
+[79]Following a Magical Girl
+
+   Dain - November 26, 2015
+
+   I’ve followed [80]Amber Rae on [81]instagram for a while. I’ve never
+   met her, but found her to be inspirational. That’s an understatement.
+
+   Following her is like getting flicked by magic once a week.
+
+   If there’s one thing I want to leave you with on this holiday, it’s
+   this: See into your loved ones. Love the light they can’t yet see for
+   themselves and love the pain they are going through. No matter where
+   they are at on their journey, love and see them for exactly where they
+   are at. The power of unconditional love is infinite.
+
+   – [82]via Amber Rae
+   [83]Continue Reading
+   [84] 0 [85]0
+
+[86]Automation The Hard Way
+
+   Dain - November 25, 2015
+
+   A toast to the brave ones that followed me into the lair of the danger
+   feared across the seven kingdom named Javascript. Download the scaffold
+   action to get started.
+
+   – [87]via Phillip Gruneich
+
+   If you want to blog on the iPad using a really nice writing
+   environment, 1Writer is a pretty good way to go.
+
+   This is a cool write up on how to take your post and with one button
+   publish to [88]Medium.
+   [89]Continue Reading
+   [90] 0 [91]0
+
+[92]Well Said…
+
+   Dain - November 25, 2015
+
+   When Brent posted this five days ago, I imported the entire OPML file
+   into my Feed Wrangler sync account. Since then, their posts have been
+   coming steadily into my feed reader.
+
+   It’s not overwhelming at all — it’s maybe ten more posts a day, total —
+   and it’s nice to get a different perspective added to my otherwise
+   embarrassingly non-diverse blog subscriptions. If you like reading
+   Apple developer and power-user blogs, I highly recommend adding the
+   entire OPML file to your feed reader, too.
+
+   We should do more of this kind of thing.
+
+   – [93]Marco Arment
+   [94]Continue Reading
+   [95] 1 [96]0
+   [97]Older Posts
+
+About Dain Miller
+
+   About Dain Miller
+
+   Taking what I've learned, and flipping it around to help you.
+     __________________________________________________________________
+
+   Director of Engineering & Technology Software Architect • Data Engineer
+   • Creator of [98]TinyPress and [99]StartHereFM • Consultant
+   [100]@statedept • Former [101]PIF [102]@whitehouse • Part-time CS Grad
+   Student [103]@Harvard
+
+Help us build an open source blogging engine!
+
+   [104]TinyPress is a GitHub blogging platform. All aspects are able to
+   be customized, even the theme itself.
+   We are building version 2 totally open source! Want to join us? Email:
+   [105]miller.dain@gmail.com or [106]hop over to GitHub and join us!
+   [Screen-Shot-2015-11-27-at-2.06.31-AM1.png]
+
+I’m writing a book!
+
+   I've learned a lot helping folks transition into web development from
+   other careers, via my podcast [107]Start Here: Web Dev.
+   [108]Follow along as I write about the lessons learned.
+   [2.png]
+   Remember that you write your own original story. It doesn’t matter how
+   old you are or what you’ve been through so far: you can start at any
+   moment.
+   One superficial “friendship” could cost you becoming the person you’ve
+   always dreamt of being by leading you off your path to success.
+   You've got one shot at life. You should be obsessed with that thought
+   and let it fuel your passion for reaching goals that your friends and
+   family think are unrealistic.
+
+   (c) 2015 [109]Dain Miller
+
+   (BUTTON) (BUTTON) (BUTTON) (BUTTON)
+   (BUTTON) (BUTTON)
+
+References
+
+   Visible links
+   1. http://dain.io/feed/
+   2. http://dain.io/feed/atom/
+   3. http://dain.io/feed/
+   4. http://dain.io/comments/feed/
+   5. http://dain.io/
+   6. http://dain.io/about/
+   7. http://notebook.dain.io/
+   8. http://ctrldev.dain.io/
+   9. http://dain.io/startherefm
+  10. http://tinypress.co/
+  11. http://dain.io/software/
+  12. http://dain.io/publications/
+  13. http://dain.io/contact/
+  14. http://dain.io/
+  15. http://dain.io/kent-becks-making-making-coffeescript/
+  16. https://www.youtube.com/embed/nIonZ6-4nuU?feature=oembed
+  17. http://dain.io/kent-becks-making-making-coffeescript/
+  18. file:///home/mgomez/CS432/A3/source308.txt
+  19. http://dain.io/kent-becks-making-making-coffeescript/#respond
+  20. http://dain.io/darwin-documentary-take-aways/
+  21. https://www.youtube.com/embed/AYBRbCLI4zU?feature=oembed
+  22. http://dain.io/darwin-documentary-take-aways/
+  23. file:///home/mgomez/CS432/A3/source308.txt
+  24. http://dain.io/darwin-documentary-take-aways/#respond
+  25. http://dain.io/how-will-durant-introduces-the-lessons-of-history/
+  26. https://en.wikipedia.org/wiki/Will_Durant
+  27. http://www.amazon.com/The-Lessons-History-Will-Durant/dp/143914995X
+  28. http://dain.io/how-will-durant-introduces-the-lessons-of-history/
+  29. file:///home/mgomez/CS432/A3/source308.txt
+  30. http://dain.io/how-will-durant-introduces-the-lessons-of-history/#respond
+  31. http://dain.io/plotting-your-side-projects-performance-using-emacs-org-mode-and-python/
+  32. https://www.gnu.org/software/emacs/
+  33. http://orgmode.org/
+  34. http://orgmode.org/manual/Tables.html
+  35. http://searchcrm.techtarget.com/definition/key-performance-indicator
+  36. http://orgmode.org/worg/org-contrib/babel/
+  37. https://en.wikipedia.org/wiki/Literate_programming
+  38. http://starthere.fm/
+  39. http://starthere.fm/
+  40. http://dain.io/wp-content/uploads/2015/11/Screen-Shot-2015-11-30-at-1.42.36-AM6.png
+  41. http://orgmode.org/manual/Tables.html
+  42. https://ifttt.com/
+  43. https://www.python.org/download/releases/3.0/
+  44. http://www.scipy.org/
+  45. http://orgmode.org/manual/Code-block-specific-header-arguments.html
+  46. https://en.wikipedia.org/wiki/Data_extraction
+  47. https://en.wikipedia.org/wiki/Data_wrangling
+  48. http://searchdatamanagement.techtarget.com/definition/data-governance
+  49. https://en.wikipedia.org/wiki/Data_architecture
+  50. http://matplotlib.org/
+  51. http://matplotlib.org/contents.html
+  52. http://matplotlib.org/api/pyplot_api.html
+  53. http://unix.stackexchange.com/questions/986/what-are-the-pros-and-cons-of-vim-and-emacs
+  54. http://orgmode.org/manual/External-links.html
+  55. https://gist.githubusercontent.com/dainmiller/9f2e38f7a09e25dcd2a9/raw/ca63ef5a0fa1dfe703ce16d90e04cfdb71e376ca/dash-example.org
+  56. https://mixpanel.com/
+  57. http://dain.io/plotting-your-side-projects-performance-using-emacs-org-mode-and-python/
+  58. file:///home/mgomez/CS432/A3/source308.txt
+  59. http://dain.io/plotting-your-side-projects-performance-using-emacs-org-mode-and-python/#respond
+  60. http://dain.io/physicists-prove-time-travel-possible-by-sending-particles-of-light-into-the-past/
+  61. http://www.ibtimes.co.uk/physicists-prove-time-travel-possible-by-sending-particles-light-into-past-1453839
+  62. http://dain.io/physicists-prove-time-travel-possible-by-sending-particles-of-light-into-the-past/
+  63. file:///home/mgomez/CS432/A3/source308.txt
+  64. http://dain.io/physicists-prove-time-travel-possible-by-sending-particles-of-light-into-the-past/#respond
+  65. http://dain.io/dark-matter/
+  66. http://www.syfy.com/darkmatter/
+  67. http://www.netflix.com/browse?jbv=80023289&jbp=1&jbr=1
+  68. http://www.syfy.com/darkmatter/where-to-watch
+  69. http://www.syfy.com/darkmatter/photos/character-gallery
+  70. http://dain.io/dark-matter/
+  71. file:///home/mgomez/CS432/A3/source308.txt
+  72. http://dain.io/dark-matter/#respond
+  73. http://dain.io/deep-work-book-pre-order/
+  74. http://www.amazon.com/gp/product/1455586692/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=1789&creative=9325&creativeASIN=1455509124&linkCode=as2&tag=stuhac-20
+  75. http://calnewport.com/blog/2015/11/27/i-want-to-show-you-exactly-how-i-prioritize-deep-work-in-my-busy-life/
+  76. http://dain.io/deep-work-book-pre-order/
+  77. file:///home/mgomez/CS432/A3/source308.txt
+  78. http://dain.io/deep-work-book-pre-order/#respond
+  79. http://dain.io/following-magic/
+  80. http://heyamberrae.com/
+  81. https://www.instagram.com/heyamberrae/
+  82. http://heyamberrae.com/post/133997066324/a-friend-recently-told-me-that-the-most-important
+  83. http://dain.io/following-magic/
+  84. file:///home/mgomez/CS432/A3/source308.txt
+  85. http://dain.io/following-magic/#respond
+  86. http://dain.io/the-hard-way-1writer-to-medium/
+  87. https://onetapless.com/post-to-medium-from-1writer
+  88. http://medium.com/
+  89. http://dain.io/the-hard-way-1writer-to-medium/
+  90. file:///home/mgomez/CS432/A3/source308.txt
+  91. http://dain.io/the-hard-way-1writer-to-medium/#respond
+  92. http://dain.io/well-said/
+  93. http://marco.org/
+  94. http://dain.io/well-said/
+  95. file:///home/mgomez/CS432/A3/source308.txt
+  96. http://dain.io/well-said/#respond
+  97. http://dain.io/page/2/
+  98. http://tinypress.co/
+  99. http://starthere.fm/
+ 100. http://www.state.gov/m/irm/ediplomacy/
+ 101. http://pif.gov/
+ 102. http://whitehouse.gov/
+ 103. http://astronomy.fas.harvard.edu/
+ 104. http://tinypress.co/
+ 105. mailto:d@dain.io
+ 106. http://github.com/tinypressco/tinypress-web-v2
+ 107. http://starthere.fm/category/webdev
+ 108. https://github.com/dainmiller/book-buildingacareerinwebdev
+ 109. http://dain.io/
+
+   Hidden links:
+ 111. http://twitter.com/dainmiller
+ 112. http://instagram.com/dainmiller
+ 113. https://www.pinterest.com/dainmiller
+ 114. file://localhost/home/mgomez/CS432/A3/source308.txt
+ 115. file://localhost/home/mgomez/CS432/A3/source308.txt

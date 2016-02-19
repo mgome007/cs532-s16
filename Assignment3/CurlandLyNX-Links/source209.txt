@@ -1,0 +1,3073 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://www.mad3linux.org/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://www.mad3linux.org/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="MAD3 Linux - Atom" href="http://www.mad3linux.org/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="MAD3 Linux - RSS" href="http://www.mad3linux.org/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="MAD3 Linux - Atom" href="https://www.blogger.com/feeds/4315013234587932472/posts/default" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://www.mad3linux.org/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/2562766807-ieretrofit.js"></script>
+<![endif]-->
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>MAD3 Linux</title>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/2973171168-css_bundle_v2.css' />
+<link type='text/css' rel='stylesheet' href='//www.google.com/uds/css/gsearch.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4315013234587932472&zx=ec7afa39-7d3a-478c-80f1-6ad07bfc5743' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Simple
+Designer: Josh Peterson
+URL:      www.noaesthetic.com
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#66bbdd"/>
+<Group description="Page Text" selector=".content-inner">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#66bbdd"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="#ffffff"/>
+<Variable name="header.background.color" description="Header Background" type="color" default="transparent"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#2288bb"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#888888"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
+</Group>
+<Group description="Blog Title" selector=".header">
+<Variable name="header.font" description="Font" type="font"
+default="normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Title Color" type="color" default="#3399bb" />
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#777777" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-outer .PageList">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#999999"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#000000"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="#f5f5f5"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Post Title" selector=".post">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+</Group>
+<Group description="Date Header" selector=".date-header">
+<Variable name="date.header.color" description="Text Color" type="color"
+default="#444444"/>
+<Variable name="date.header.background.color" description="Background Color" type="color"
+default="transparent"/>
+</Group>
+<Group description="Post Footer" selector=".post-footer">
+<Variable name="post.footer.text.color" description="Text Color" type="color" default="#666666"/>
+<Variable name="post.footer.background.color" description="Background Color" type="color"
+default="#f9f9f9"/>
+<Variable name="post.footer.border.color" description="Shadow Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Gadgets" selector=".sidebar .widget">
+<Variable name="widget.title.font" description="Title Font" type="font"
+default="normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#000000"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#999999"/>
+</Group>
+<Group description="Images" selector=".main-inner">
+<Variable name="image.background.color" description="Background Color" type="color" default="#ffffff"/>
+<Variable name="image.border.color" description="Border Color" type="color" default="#eeeeee"/>
+<Variable name="image.text.color" description="Caption Text Color" type="color" default="#444444"/>
+</Group>
+<Group description="Accents" selector=".content-inner">
+<Variable name="body.rule.color" description="Separator Line Color" type="color" default="#eeeeee"/>
+<Variable name="tabs.border.color" description="Tabs Border Color" type="color" default="#eeeeee"/>
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#eeaa00" default="$(color) none repeat scroll top left"/>
+<Variable name="body.background.override" description="Body Background Override" type="string" default=""/>
+<Variable name="body.background.gradient.cap" description="Body Gradient Cap" type="url"
+default="url(http://www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="body.background.gradient.tile" description="Body Gradient Tile" type="url"
+default="url(http://www.blogblog.com/1kt/simple/body_gradient_tile_light.png)"/>
+<Variable name="content.background.color.selector" description="Content Background Color Selector" type="string" default=".content-inner"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="10px"/>
+<Variable name="content.padding.horizontal" description="Content Horizontal Padding" type="length" default="10px"/>
+<Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="40px"/>
+<Variable name="content.shadow.spread.webkit" description="Content Shadow Spread (WebKit)" type="length" default="5px"/>
+<Variable name="content.shadow.spread.ie" description="Content Shadow Spread (IE)" type="length" default="10px"/>
+<Variable name="main.border.width" description="Main Border Width" type="length" default="0"/>
+<Variable name="header.background.gradient" description="Header Gradient" type="url" default="none"/>
+<Variable name="header.shadow.offset.left" description="Header Shadow Offset Left" type="length" default="-1px"/>
+<Variable name="header.shadow.offset.top" description="Header Shadow Offset Top" type="length" default="-1px"/>
+<Variable name="header.shadow.spread" description="Header Shadow Spread" type="length" default="1px"/>
+<Variable name="header.padding" description="Header Padding" type="length" default="30px"/>
+<Variable name="header.border.size" description="Header Border Size" type="length" default="1px"/>
+<Variable name="header.bottom.border.size" description="Header Bottom Border Size" type="length" default="0"/>
+<Variable name="header.border.horizontalsize" description="Header Horizontal Border Size" type="length" default="0"/>
+<Variable name="description.text.size" description="Description Text Size" type="string" default="140%"/>
+<Variable name="tabs.margin.top" description="Tabs Margin Top" type="length" default="0" />
+<Variable name="tabs.margin.side" description="Tabs Side Margin" type="length" default="30px" />
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(http://www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="tabs.border.width" description="Tabs Border Width" type="length" default="1px"/>
+<Variable name="tabs.bevel.border.width" description="Tabs Bevel Border Width" type="length" default="1px"/>
+<Variable name="date.header.padding" description="Date Header Padding" type="string" default="inherit"/>
+<Variable name="date.header.letterspacing" description="Date Header Letter Spacing" type="string" default="inherit"/>
+<Variable name="post.margin.bottom" description="Post Bottom Margin" type="length" default="25px"/>
+<Variable name="image.border.small.size" description="Image Border Small Size" type="length" default="2px"/>
+<Variable name="image.border.large.size" description="Image Border Large Size" type="length" default="5px"/>
+<Variable name="page.width.selector" description="Page Width Selector" type="string" default=".region-inner"/>
+<Variable name="page.width" description="Page Width" type="string" default="auto"/>
+<Variable name="main.section.margin" description="Main Section Margin" type="length" default="15px"/>
+<Variable name="main.padding" description="Main Padding" type="length" default="15px"/>
+<Variable name="main.padding.top" description="Main Padding Top" type="length" default="30px"/>
+<Variable name="main.padding.bottom" description="Main Padding Bottom" type="length" default="30px"/>
+<Variable name="paging.background"
+color="#ffffff"
+description="Background of blog paging area" type="background"
+default="transparent none no-repeat scroll top center"/>
+<Variable name="footer.bevel" description="Bevel border length of footer" type="length" default="0"/>
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 14px 'Trebuchet MS', Trebuchet, sans-serif;;
+color: #444444;
+background: #eeaa00 none repeat scroll top left;
+padding: 0 40px 40px 40px;
+}
+body.mobile {
+padding: 0 5px 5px;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+a:link {
+text-decoration:none;
+color: #cc6611;
+}
+a:visited {
+text-decoration:none;
+color: #888888;
+}
+a:hover {
+text-decoration:underline;
+color: #ff9900;
+}
+.body-fauxcolumn-outer .fauxcolumn-inner {
+background: transparent url(http://www.blogblog.com/1kt/simple/body_gradient_tile_light.png) repeat scroll top left;
+_background-image: none;
+}
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 400px;
+width: 100%;
+background: #eeaa00 none repeat scroll top left;
+}
+.body-fauxcolumn-outer .cap-top .cap-left {
+width: 100%;
+background: transparent url(http://www.blogblog.com/1kt/simple/gradients_light.png) repeat-x scroll top left;
+_background-image: none;
+}
+.content-outer {
+-moz-box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 10px #333333;
+box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+margin-bottom: 1px;
+}
+.content-inner {
+padding: 10px 10px;
+}
+.content-inner {
+background-color: #ffffff;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+background: #cc6611 url(http://www.blogblog.com/1kt/simple/gradients_light.png) repeat-x scroll 0 -400px;
+_background-image: none;
+}
+.Header h1 {
+font: normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #ffffff;
+text-shadow: 1px 2px 3px rgba(0, 0, 0, .2);
+}
+.Header h1 a {
+color: #ffffff;
+}
+.Header .description {
+font-size: 140%;
+color: #ffffff;
+}
+.header-inner .Header .titlewrapper {
+padding: 22px 30px;
+}
+.header-inner .Header .descriptionwrapper {
+padding: 0 30px;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner .section:first-child {
+border-top: 0 solid #eeeeee;
+}
+.tabs-inner .section:first-child ul {
+margin-top: -0;
+border-top: 0 solid #eeeeee;
+border-left: 0 solid #eeeeee;
+border-right: 0 solid #eeeeee;
+}
+.tabs-inner .widget ul {
+background: #f5f5f5 url(http://www.blogblog.com/1kt/simple/gradients_light.png) repeat-x scroll 0 -800px;
+_background-image: none;
+border-bottom: 1px solid #eeeeee;
+margin-top: 0;
+margin-left: -30px;
+margin-right: -30px;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .6em 1em;
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #999999;
+border-left: 1px solid #ffffff;
+border-right: 1px solid #eeeeee;
+}
+.tabs-inner .widget li:first-child a {
+border-left: none;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+color: #000000;
+background-color: #eeeeee;
+text-decoration: none;
+}
+/* Columns
+----------------------------------------------- */
+.main-outer {
+border-top: 0 solid #eeeeee;
+}
+.fauxcolumn-left-outer .fauxcolumn-inner {
+border-right: 1px solid #eeeeee;
+}
+.fauxcolumn-right-outer .fauxcolumn-inner {
+border-left: 1px solid #eeeeee;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+margin: 0 0 1em 0;
+font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #000000;
+text-transform: uppercase;
+}
+/* Widgets
+----------------------------------------------- */
+.widget .zippy {
+color: #999999;
+text-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+.widget .popular-posts ul {
+list-style: none;
+}
+/* Posts
+----------------------------------------------- */
+.date-header span {
+background-color: #eeeeee;
+color: #444444;
+padding: inherit;
+letter-spacing: inherit
+}
+.main-inner {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.main-inner .column-center-inner {
+padding: 0 15px;
+}
+.main-inner .column-center-inner .section {
+margin: 0 15px;
+}
+.post {
+margin: 0 0 25px 0;
+}
+h3.post-title, .comments h4 {
+font: normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+margin: .75em 0 0;
+}
+.post-body {
+font-size: 110%;
+line-height: 1.4;
+position: relative;
+}
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
+.BlogList .item-thumbnail img {
+padding: 2px;
+background: #ffffff;
+border: 1px solid #eeeeee;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+}
+.post-body img, .post-body .tr-caption-container {
+padding: 5px;
+}
+.post-body .tr-caption-container {
+color: #444444;
+}
+.post-body .tr-caption-container img {
+padding: 0;
+background: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+.post-header {
+margin: 0 0 1.5em;
+line-height: 1.6;
+font-size: 90%;
+}
+.post-footer {
+margin: 20px -2px 0;
+padding: 5px 10px;
+color: #666666;
+background-color: #f9f9f9;
+border-bottom: 1px solid #eeeeee;
+line-height: 1.6;
+font-size: 90%;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: 1px solid #eeeeee;
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+#comments .avatar-image-container img {
+border: 1px solid #eeeeee;
+}
+/* Accents
+---------------------------------------------- */
+.section-columns td.columns-cell {
+border-left: 1px solid #eeeeee;
+}
+.blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.blog-pager-older-link, .home-link,
+.blog-pager-newer-link {
+background-color: #ffffff;
+padding: 5px;
+}
+.footer-outer {
+border-top: 0 dashed #bbbbbb;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 1100px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1100px;
+max-width: 1100px;
+_width: 1100px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 300px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 300px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("300px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 300px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 300px;
+margin-right: -300px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<meta content='463717030349044' property='fb:app_id'/>
+<script type="text/javascript">var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading'>
+<!-- Facebook comentarios -->
+<div class='navbar section' id='navbar'>
+</div>
+<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+<meta content='MAD3 Linux' itemprop='name'/>
+</div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+MAD3 Linux
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>Blog que foca abordar sobre basicamente 3 assuntos: Software Livre, Tutoriais e How-To(Como fazer), Tecnologia em geral. Follow us @mad3linux.</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol'><div class='widget PageList' id='PageList1'>
+<h2>Páginas</h2>
+<div class='widget-content'>
+<ul>
+<li class='selected'><a href='http://www.mad3linux.org/'>Início</a></li>
+<li><a href='http://www.mad3linux.org/p/mad3linux-team.html'>MAD3Linux Team</a></li>
+<li><a href='http://www.mad3linux.org/p/downloads.html'>Downloads</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=crosscol' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList1"));' target='configPageList1' title='Editar'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<div class='tabs section' id='crosscol-overflow'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>4 de nov de 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='3041544565897369036'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.mad3linux.org/2015/11/recuperando-discos-rigidos-com-bad.html'>Recuperando Discos Rígidos com Bad Blocks ou Setores Defeituosos</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'><div class='post-share-buttons'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=3041544565897369036&target=email' target='_blank' title='Enviar por e-mail'><span class='share-button-link-text'>Enviar por e-mail</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=3041544565897369036&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=3041544565897369036&target=twitter' target='_blank' title='Compartilhar no Twitter'><span class='share-button-link-text'>Compartilhar no Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=3041544565897369036&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Compartilhar no Facebook'><span class='share-button-link-text'>Compartilhar no Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=3041544565897369036&target=pinterest' target='_blank' title='Compartilhar com o Pinterest'><span class='share-button-link-text'>Compartilhar com o Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://www.mad3linux.org/2015/11/recuperando-discos-rigidos-com-bad.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+</div>
+<div class='post-body entry-content'>
+Bad block ou setor defeituoso é o nome dado a uma área danificada em um disco rígido. É um problema físico, i. e., a mídia magnética do disco rígido está com defeito. Quando usamos um utilitário de disco como o Scandisk ou Norton Disk Doctor esses setores com defeito são marcados com um "B".<div>
+<br /></div>
+<div>
+Vários usuários nos escrevem perguntando como proceder para recuperar discos rígidos com bad blocks. Muitos referem que os&nbsp;bad blocks&nbsp;desaparecem depois de formatar os discos rígidos em baixo nível.<br /><br />O que realmente acontece, porém, é que os atuais programas de formatação física não formatam fisicamente o disco. Se isso fosse possível, o disco rígido seria danificado, uma vez que as trilhas de um disco rígido tem um sinal chamado <i>servo</i> que funciona como um guia para a cabeça do disco rígido. Se realmente um disco rígido for&nbsp;formatado&nbsp;em baixo nível, esses servos seriam apagados e a cabeça do&nbsp;disco rígido seria incapaz de se mover.<br /><br />Programas de formatação de baixo nível são utilitários para detectar os setores defeituosos e para apagar o disco (por razões de segurança, por exemplo, após terminar um projeto confidencial), não efetuando - apesar do nome - a formatação de baixo nível.<br /><br />Estes programas têm uma função interessante, que é atualizar o mapa de setores defeituosos do disco. Quando você usa esta opção, o programa varre o disco procurando por setores defeituosos e atualiza o mapa do disco.<br /><br />Quando você faz uma formatação em alto nível (através do comando <i>format</i>), esse comando ignora os setores constantes nessa tabela de setores defeituosos. Assim, não haverá qualquer sector marcado com B ("Bad Block") no sistema de arquivo (por exemplo FAT, NTFS, ext4), embora os setores defeituosos permanecem no disco.<br /><br />Os setores defeituosos não são removidos, mas apenas marcados nessa tabela de setores defeituosos, resultando na evasão deles pelo sistema (em outras palavras, os setores se tornam ocultos).<br /><br />Se novos setores ruins continuarem a ocorrer depois de executar este procedimento, você deve se livrar do disco, pois a superfície magnética está se deteriorando, por algum motivo.<br /><br />O melhor programa para ser aplicada no processo é o do próprio fabricante. Entre no site do fabricante e baixe o utilitário específico para disco rígido.<div>
+<br /></div>
+<h3>
+Alternativa no Linux</h3>
+<div>
+Existe um comando chamado <b>badblocks</b>&nbsp;que faz parte do projeto <a href="http://e2fsprogs.sourceforge.net/" target="_blank">e2fsprogs</a> (livre). Aprenda como usar através do manual:</div>
+<blockquote class="tr_bq">
+man badblocks</blockquote>
+<div>
+<br /></div>
+<br />Escrito por Gabriel Torres, adaptado por Samir Costa.<div>
+<br /><span style="font-size: x-small;">Fonte:&nbsp;<a href="http://www.clubedohardware.com.br/artigos/recuperando-discos-rigidos-com-bad-block/561">http://www.clubedohardware.com.br/artigos/recuperando-discos-rigidos-com-bad-block/561</a></span></div>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Postado por
+<span class='fn'>Samir Costa</span>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-542430695'>
+<a href='https://www.blogger.com/post-edit.g?blogID=4315013234587932472&postID=3041544565897369036&from=pencil' title='Editar postagem'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Marcadores:
+<a href='http://www.mad3linux.org/search/label/hardware' rel='tag'>hardware</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+<div class='inline-ad'>
+<script type="text/javascript"><!--
+google_ad_client="pub-6043149033739006";
+google_ad_host="pub-1556223355139109";
+google_ad_width=336;
+google_ad_height=280;
+google_ad_format="336x280_as";
+google_ad_type="text_image";
+google_ad_host_channel="0001+S0011+L0007";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="CC6611";
+google_color_url="666666";
+google_color_text="444444";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>2 de out de 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='1630599041622348592'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.mad3linux.org/2015/10/usando-docker-em-seu-projeto-php.html'>Usando Docker em seu Projeto PHP</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'><div class='post-share-buttons'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=1630599041622348592&target=email' target='_blank' title='Enviar por e-mail'><span class='share-button-link-text'>Enviar por e-mail</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=1630599041622348592&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=1630599041622348592&target=twitter' target='_blank' title='Compartilhar no Twitter'><span class='share-button-link-text'>Compartilhar no Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=1630599041622348592&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Compartilhar no Facebook'><span class='share-button-link-text'>Compartilhar no Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=1630599041622348592&target=pinterest' target='_blank' title='Compartilhar com o Pinterest'><span class='share-button-link-text'>Compartilhar com o Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://www.mad3linux.org/2015/10/usando-docker-em-seu-projeto-php.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+</div>
+<div class='post-body entry-content'>
+<h1>
+<a href="https://draft.blogger.com/null" id="Introduo_0"></a>Introdução</h1>
+Depois de muito tempo tentando apenas entender o que é o Docker, achei melhor aprender colocando a mão na massa: Fazer um projeto que usa PHP e PostgreSQL rodar no Docker.<br />
+O projeto escolhido foi o <a href="http://comsolid.github.io/sige/">SiGE</a>, um Sistema de Gerência de Eventos utilizado principalmente na organização do <a href="http://comsolid.org/">COMSOLiD</a> (evento realizado por alunos e ex-alunos do IFCE Campus Maracanaú).<br />
+<br />
+<h3>
+O que é o Docker?</h3>
+<h3>
+&nbsp;</h3>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-ixnbUywtcyI/VhKzOzVvALI/AAAAAAAACKQ/pqYhA7VhWIw/s1600/DockerLogo.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="95" src="http://3.bp.blogspot.com/-ixnbUywtcyI/VhKzOzVvALI/AAAAAAAACKQ/pqYhA7VhWIw/s400/DockerLogo.png" width="400" /></a></div>
+<h3>
+</h3>
+<br />
+Segundo o site<br />
+<blockquote>
+Docker é uma plataforma de código aberto para construção, implantação e execução de aplicações distribuídas. Ele oferece a programadores, equipes de desenvolvimento e engenheiros um conjunto de ferramentas comum para tirar vantagem da natureza distribuída e em rede de aplicações modernas.</blockquote>
+Ou seja, ao montar um ambiente de desenvolvimento fica mais fácil imitar o ambiente de produção e testes. Imagine o seguinte cenário:<br />
+<br />
+O servidor de produção possui o PHP 5.4 instalado juntamente com o PostgreSQL 9.3. Você, desenvolvedor, tem o PHP 5.5 e o PostgreSQL 9.4. Ao realizar uma tarefa você percebe que o código usado só funciona na versão 5.5 do PHP e que na 5.4, versão do servidor, não existe essa funcionalidade ainda. O que acontece é que você só vai perceber o erro quando o servidor estiver em produção, o que com certeza irá causar uma dor de cabeça.<br />
+<br />
+Usando Docker você é capaz de usar exatamente as mesmas versões das ferramentas, tanto no servidor quanto local, sem que elas causem conflitos em sua máquina. O Docker utiliza uma tecnologia chamada <a href="https://linuxcontainers.org/lxc/introduction/">LXC</a> ou Linux Containers (na verdade essa é a tecnologia padrão, mas existem outras).<br />
+<br />
+Podemos pensar no LXC como uma máquina virtual leve, isso porque diferente da máquina virtual que sobe uma instância do sistema, o LXC usa o mesmo kernel da máquina host com a vantagem do Kernel namespaces - Componentes virtuais: ipc, uts, mount, pid, network e user.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-LN9cdLP5JxE/VhKzqashjZI/AAAAAAAACKY/2l7rVpcPoIk/s1600/docker-vm-container.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="360" src="http://4.bp.blogspot.com/-LN9cdLP5JxE/VhKzqashjZI/AAAAAAAACKY/2l7rVpcPoIk/s640/docker-vm-container.png" width="640" /></a></div>
+<br />
+<h3>
+Instalação</h3>
+<h3>
+&nbsp;</h3>
+<h3>
+</h3>
+No Linux: <a href="http://docs.docker.com/linux/step_one/">http://docs.docker.com/linux/step_one/</a><br />
+Além do Docker é ideal instalar também o Docker Compose <a href="http://docs.docker.com/compose/install/">http://docs.docker.com/compose/install/</a><br />
+<br />
+<h3>
+Utilização</h3>
+<h3>
+&nbsp;</h3>
+<h4>
+<a href="https://draft.blogger.com/null" id="Obervao_Abaixo_esto_apenas_os_passos_importantes_para_entender_a_ferramenta_veja_o_cdigo_completo_no_cdigofonte_26"></a>Obervação: Abaixo estão apenas os passos importantes para entender a ferramenta, veja o código completo no código-fonte.</h4>
+As configurações de uma imagem do Docker devem ser feitas em um arquivo de texto, por padrão chamado de <code>Dockerfile</code>.<br />
+O SiGE precisa inicialmente do PHP. Optei por utilizar a imagem <code>nmcteam/php56</code>, ou seja, PHP 5.6.<br />
+Para utilizar a imagem basta colocar no seu <code>Dockerfile</code>:<br />
+<br />
+<pre><code><span class="hljs-built_in">FROM</span> nmcteam/php5<span class="hljs-number">6
+</span>
+COPY . /usr/share/nginx/html/site
+
+<span class="hljs-built_in">WORKDIR</span> <span class="bash">/usr/share/nginx/html/site
+</span>
+<span class="hljs-built_in">RUN</span> <span class="bash">php -r <span class="hljs-string">"readfile('https://getcomposer.org/installer');"</span> | php
+</span><span class="hljs-built_in">RUN</span> <span class="bash">[<span class="hljs-string">"/bin/bash"</span>, <span class="hljs-string">"-c"</span>, <span class="hljs-string">"php composer.phar install"</span>]</span></code></pre>
+<pre><code><span class="bash">&nbsp;</span></code></pre>
+O arquivo acima mostra que nossa imagem vai ser criada a partir de <code>nmcteam/php56</code> (FROM). Tudo que estiver no diretório atual (<code>.</code>) deve ser colocado em <code>/usr/share/nginx/html/site</code> (COPY). Ao executar comandos, execute a partir de <code>/usr/share/nginx/html/site</code> (WORKDIR). Em seguida o SIGE utiliza o <a href="https://getcomposer.org/">composer do PHP</a> (<b>Não confundir com o Docker Compose!</b>), para isso é preciso instalá-lo (RUN).<br />
+No final das contas esse arquivo é como um script bash que executa alguns comandos para configurar o sistema.<br />
+Para fazer o build da imagem execute:<br />
+<br />
+<pre><code><span class="hljs-label">docker</span> <span class="hljs-keyword">build </span>-t main/sige .</code></pre>
+<pre><code>&nbsp;</code></pre>
+A opção <code>-t</code> é o nome da sua imagem, dê o nome adequado.<br />
+Arquivo completo com outros comandos necessários somente para o SiGE:
+<a href="https://github.com/comsolid/sige/blob/master/Dockerfile">https://github.com/comsolid/sige/blob/master/Dockerfile</a><br />
+Em seguida criei um <code>Dockerfile</code> separado para o PostgreSQL. Quando usar o Docker tente sempre separar os componentes do sistema em pequenos serviços que funcionam independentes um do outro (Micro Services!).<br />
+<br />
+<pre><code><span class="hljs-built_in">FROM</span> postgres:<span class="hljs-number">9.4</span>.<span class="hljs-number">4</span>
+
+<span class="hljs-built_in">COPY</span> <span class="bash">docker-entrypoint-initdb.d/database.sql /docker-entrypoint-initdb.d/database.sql
+</span>
+<span class="hljs-built_in">RUN</span> <span class="bash">pg_createcluster <span class="hljs-number">9.4</span> main</span></code></pre>
+<pre><code><span class="bash">&nbsp;</span></code></pre>
+A equipe do PostgreSQL oferece uma imagem oficial. Ao subir uma instância dessa imagem (container), um script irá executar qualquer arquivo <code>.sql</code> dentro do diretório <code>docker-entrypoint-initdb.d/</code>, use quando precisar subir uma base de dados populada (COPY).<br />
+Usaremos também a imagem do Nginx, mas como ela não precisa de muita configuração usaremos apenas declarada no Docker Compose.<br />
+<br />
+<h3>
+<a href="https://draft.blogger.com/null" id="Arquivo_dockercomposeyml_74"></a>Arquivo docker-compose.yml</h3>
+<h3>
+&nbsp;</h3>
+O Docker Compose utiliza uma linguagem chamada <a href="http://yaml.org/">YML</a> para seu arquivo docker-compose.yml (arquivo padrão do Docker Compose).<br />
+É uma linguagem simples como JSON. Abaixo um exemplo para iniciar um serviço Nginx:<br />
+<br />
+<pre><code><span class="hljs-attribute">web</span>:
+  <span class="hljs-attribute">image</span>: nginx
+  <span class="hljs-attribute">ports</span>:
+    - <span class="hljs-string">"8080:8080"</span></code></pre>
+<pre><code><span class="hljs-string">&nbsp;</span>
+</code></pre>
+Iniciamos com uma label (<code>web</code>), a partir da imagem <code>nginx</code>, e mapeando a porta <code>8080</code> para <code>8080</code> (a primeira indica a porta que você vai utilizar, a segunda é a porta interna, usada pelo container).<br />
+Em seguida podemos colocar nossa imagem do PHP 5.6 e PostgreSQL 9.4 fazendo uso de <code>links</code>, que faz com que um container converse com outro:<br />
+<br />
+<pre><code><span class="hljs-attribute">web</span>:
+  <span class="hljs-attribute">image</span>: nginx
+  <span class="hljs-attribute">ports</span>:
+    - <span class="hljs-string">"8080:8080"</span>
+  <span class="hljs-attribute">links</span>:
+    - php
+
+<span class="hljs-attribute">php</span>:
+  <span class="hljs-attribute">image</span>: main/sige
+  <span class="hljs-attribute">links</span>:
+    - pg
+
+<span class="hljs-attribute">pg</span>:
+  <span class="hljs-attribute">image</span>: sige/pg</code></pre>
+<pre><code>&nbsp;</code></pre>
+Veja que fizemos links de um serviço com outro para que eles conversem, ou seja, um serviço Nginx não conhece a linguagem PHP então ele pede que o serviço PHP execute o código para ele e entrega de volta o resultado.<br />
+Da mesmo forma quando um trecho de código PHP tenta acessar o banco de dados do serviço PostgreSQL.<br />
+Para subir todos os serviços de uma vez basta executar:<br />
+<br />
+<pre><code>docker-compose up <span class="hljs-operator">-d</span></code></pre>
+<pre><code><span class="hljs-operator">&nbsp;</span>
+</code></pre>
+Como foi dito anteriormente o Docker utiliza LXC. Se você executar <code>ifconfig</code> em seu terminal vai ver várias interfaces de rede configuradas. É assim que os containers se comunicam. Para saber o IP principal basta procurar pela inteface <code>docker0</code>.<br />
+Para ver os serviços rodando basta acessar (no meu caso): 172.17.42.1:8080<br />
+<br />
+<h3>
+Conclusão</h3>
+<h3>
+&nbsp;</h3>
+Lembrando que os trechos acima estão incompletos mas são essenciais.
+Se eu fosse mostrar passo a passo você provavelmente ia cansar de ler e desistir. Então se você leu e se interessou abaixo estão os links de todos os arquivo envolvidos:<br />
+<ul>
+<li><a href="https://github.com/comsolid/sige/blob/master/Dockerfile">https://github.com/comsolid/sige/blob/master/Dockerfile</a></li>
+<li><a href="https://github.com/comsolid/sige/blob/master/build.sh">https://github.com/comsolid/sige/blob/master/build.sh</a></li>
+<li><a href="https://github.com/comsolid/sige/tree/master/docker/php56">https://github.com/comsolid/sige/tree/master/docker/php56</a> (arquivos de configuração do php)</li>
+<li><a href="https://github.com/comsolid/sige/tree/master/docker/nginx">https://github.com/comsolid/sige/tree/master/docker/nginx</a> (arquivos de configuração do nginx)</li>
+<li><a href="https://github.com/comsolid/sige/blob/master/docker/pg/Dockerfile">https://github.com/comsolid/sige/blob/master/docker/pg/Dockerfile</a></li>
+<li><a href="https://github.com/comsolid/sige/blob/master/docker/pg/build.sh">https://github.com/comsolid/sige/blob/master/docker/pg/build.sh</a></li>
+<li><a href="https://github.com/comsolid/sige/blob/master/docker-compose.yml">https://github.com/comsolid/sige/blob/master/docker-compose.yml</a></li>
+</ul>
+Você provavelmente não precisará mexer muita coisa, mas por exemplo meu arquivo <a href="https://github.com/comsolid/sige/blob/master/docker/nginx/vhost.conf">https://github.com/comsolid/sige/blob/master/docker/nginx/vhost.conf</a> está configurado para uso do Zend 1.12 (que usa reescrita (rewrite) da URI). Basta lembrar que a tecnologia não mudou, apenas aumentamos um nível de acesso. Quer dizer, se você tem um arquivo <code>vhost.conf</code> que roda fora do Docker, ele pode ser usado dentro do Docker sem problemas.<br />
+É isso aí, até a próxima!
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Postado por
+<span class='fn'>Átila Camurça</span>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1428588148'>
+<a href='https://www.blogger.com/post-edit.g?blogID=4315013234587932472&postID=1630599041622348592&from=pencil' title='Editar postagem'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Marcadores:
+<a href='http://www.mad3linux.org/search/label/banco%20de%20dados' rel='tag'>banco de dados</a>,
+<a href='http://www.mad3linux.org/search/label/COMSOLiD' rel='tag'>COMSOLiD</a>,
+<a href='http://www.mad3linux.org/search/label/containers' rel='tag'>containers</a>,
+<a href='http://www.mad3linux.org/search/label/dicas' rel='tag'>dicas</a>,
+<a href='http://www.mad3linux.org/search/label/docker' rel='tag'>docker</a>,
+<a href='http://www.mad3linux.org/search/label/Softwares' rel='tag'>Softwares</a>,
+<a href='http://www.mad3linux.org/search/label/Tecnologias' rel='tag'>Tecnologias</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+<div class='inline-ad'>
+<script type="text/javascript"><!--
+google_ad_client="pub-6043149033739006";
+google_ad_host="pub-1556223355139109";
+google_ad_width=336;
+google_ad_height=280;
+google_ad_format="336x280_as";
+google_ad_type="text_image";
+google_ad_host_channel="0001+S0011+L0007";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="CC6611";
+google_color_url="666666";
+google_color_text="444444";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>23 de jun de 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='8231724474240041184'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.mad3linux.org/2015/06/convertendo-mkv-para-mp4-sem-perda.html'>Convertendo MKV para MP4 sem perda (lossless) e sem reencodar</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'><div class='post-share-buttons'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=8231724474240041184&target=email' target='_blank' title='Enviar por e-mail'><span class='share-button-link-text'>Enviar por e-mail</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=8231724474240041184&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=8231724474240041184&target=twitter' target='_blank' title='Compartilhar no Twitter'><span class='share-button-link-text'>Compartilhar no Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=8231724474240041184&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Compartilhar no Facebook'><span class='share-button-link-text'>Compartilhar no Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=8231724474240041184&target=pinterest' target='_blank' title='Compartilhar com o Pinterest'><span class='share-button-link-text'>Compartilhar com o Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://www.mad3linux.org/2015/06/convertendo-mkv-para-mp4-sem-perda.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+</div>
+<div class='post-body entry-content'>
+Fazer conversão de vídeo demora muito e é um saco esperar. Atualmente, os dispositivos mais recentes (TVs, home teathers, consoles, celulares, tablets) conseguem reproduzir vários formatos e vários <i>codecs</i>. Entretanto, os modelos mais antigos ainda sofrem com a restrição de formatos e codecs. Por exemplo, quando você baixa um vídeo num formato (também chamado de contêiner) MKV ou MP4 e sua TV só reproduz um desses formatos, saiba que não é preciso 'reencodar' todo o vídeo e áudio. Basta fazer o chamado <i>demux</i> e <i>mux</i>, que é muito mais rápido, pois não realiza cálculos complexos para encodar (ou compactar) vídeo e áudio. Para fazer isso, você pode usar tanto o <a href="https://www.ffmpeg.org/" target="_blank">FFmpeg</a> quanto o&nbsp;<a href="https://libav.org/" target="_blank">Libav</a>.<br />
+<br />
+Como alguns releases do Ubuntu não têm o ffmpeg (<a href="http://blog.pkh.me/p/13-the-ffmpeg-libav-situation.html" target="_blank">explicação detalhada em inglês</a>&nbsp;[<a href="https://drive.google.com/file/d/0BwIZj8djOAj2QUhoeWZfVzZVdlE/view?usp=sharing" target="_blank">pdf</a>]), você terá que usar o <a href="apt://libav-tools" target="_blank">avconv</a>&nbsp;(pacote <a href="http://packages.ubuntu.com/trusty/libav-tools" target="_blank">libav-tools</a>, do projeto <a href="https://libav.org/" target="_blank">Libav</a>) que funciona basicamente com os mesmos parâmetros.<br />
+<br />
+<h3>
+De MKV para MP4:</h3>
+<blockquote class="tr_bq">
+<span style="font-family: 'Courier New', Courier, monospace;">$ avconv -i input.mkv -c:v copy -c:a copy -sn output.mp4</span></blockquote>
+<h3>
+De MP4 para MKV:</h3>
+<blockquote class="tr_bq">
+<span style="font-family: 'Courier New', Courier, monospace;">$ avconv -i input.mp4 -c:v copy -c:a copy -sn output.mkv</span></blockquote>
+<br />
+<span style="font-size: x-small;">Fontes: &nbsp;</span><br />
+<br />
+<ul>
+<li><a href="http://askubuntu.com/questions/50433/how-to-convert-mkv-file-into-mp4-file-losslessly#comment307558_195346" target="_blank"><span style="font-size: x-small;">http://askubuntu.com/questions/50433/how-to-convert-mkv-file-into-mp4-file-losslessly#comment307558_195346</span></a></li>
+<li><span style="font-size: x-small;"><a href="http://blog.pkh.me/p/13-the-ffmpeg-libav-situation.html">http://blog.pkh.me/p/13-the-ffmpeg-libav-situation.html</a>&nbsp;[<a href="https://drive.google.com/file/d/0BwIZj8djOAj2QUhoeWZfVzZVdlE/view?usp=sharing" target="_blank">pdf</a>]</span></li>
+<li><a href="http://www.webupd8.org/2014/11/ffmpeg-returns-to-official-ubuntu.html"><span style="font-size: x-small;">http://www.webupd8.org/2014/11/ffmpeg-returns-to-official-ubuntu.html</span></a></li>
+<li><span style="font-size: x-small;"><a href="https://wiki.debian.org/Debate/libav-provider/ffmpeg">https://wiki.debian.org/Debate/libav-provider/ffmpeg</a>&nbsp;[<a href="https://drive.google.com/file/d/0BwIZj8djOAj2aEtQZ0JTNElGOEk/view?usp=sharing" target="_blank">pdf</a>]</span></li>
+<li><a href="http://askubuntu.com/questions/432542/is-ffmpeg-missing-from-the-official-repositories-in-14-04"><span style="font-size: x-small;">http://askubuntu.com/questions/432542/is-ffmpeg-missing-from-the-official-repositories-in-14-04</span></a></li>
+</ul>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Postado por
+<span class='fn'>Samir Costa</span>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-542430695'>
+<a href='https://www.blogger.com/post-edit.g?blogID=4315013234587932472&postID=8231724474240041184&from=pencil' title='Editar postagem'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Marcadores:
+<a href='http://www.mad3linux.org/search/label/canonical' rel='tag'>canonical</a>,
+<a href='http://www.mad3linux.org/search/label/comandos' rel='tag'>comandos</a>,
+<a href='http://www.mad3linux.org/search/label/compatibilidade' rel='tag'>compatibilidade</a>,
+<a href='http://www.mad3linux.org/search/label/dicas' rel='tag'>dicas</a>,
+<a href='http://www.mad3linux.org/search/label/encoding' rel='tag'>encoding</a>,
+<a href='http://www.mad3linux.org/search/label/Linux' rel='tag'>Linux</a>,
+<a href='http://www.mad3linux.org/search/label/ubuntu' rel='tag'>ubuntu</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>4 de mai de 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4372250005003244636'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.mad3linux.org/2015/05/jessie.html'>Jessie</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'><div class='post-share-buttons'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=4372250005003244636&target=email' target='_blank' title='Enviar por e-mail'><span class='share-button-link-text'>Enviar por e-mail</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=4372250005003244636&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=4372250005003244636&target=twitter' target='_blank' title='Compartilhar no Twitter'><span class='share-button-link-text'>Compartilhar no Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=4372250005003244636&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Compartilhar no Facebook'><span class='share-button-link-text'>Compartilhar no Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=4372250005003244636&target=pinterest' target='_blank' title='Compartilhar com o Pinterest'><span class='share-button-link-text'>Compartilhar com o Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://www.mad3linux.org/2015/05/jessie.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+</div>
+<div class='post-body entry-content'>
+Uma das distribuições linux mais famosas que existe há pouco tempo ganhou uma nova versão denominada Jessie, seguindo o padrão de usar nomes de personagens do filme <i>Toy Story</i>. O Debian 8 vem com várias novidades como por exemplo é possibilidade de escolha do ambiente desktop a ser instalado (GNOME, XFCE, KDE, LXDE e novo Cinnamon e MATE). Ele também já vem com vários pacotes atualizados.<br />
+<br />
+Lista de Pacotes:<br />
+<ul>
+<li>Apache 2.4.10</li>
+<li>Asterisk 11.13.1</li>
+<li>GIMP 2.8.14</li>
+<li>an updated version of the GNOME desktop environment 3.14</li>
+<li>GNU Compiler Collection 4.9.2</li>
+<li>Icedove 31.6.0 (an unbranded version of Mozilla Thunderbird)</li>
+<li>Iceweasel 31.6.0esr (an unbranded version of Mozilla Firefox)</li>
+<li>KDE Plasma Workspaces and KDE Applications 4.14.2</li>
+<li>LibreOffice 4.3.3</li>
+<li>Linux 3.16.7-ckt9</li>
+<li>MariaDB 10.0.16 and MySQL 5.5.42</li>
+<li>Nagios 3.5.1</li>
+<li>OpenJDK 7u75</li>
+<li>Perl 5.20.2</li>
+<li>PHP 5.6.7</li>
+<li>PostgreSQL 9.4.1</li>
+<li>Python 2.7.9 and 3.4.2</li>
+<li>Samba 4.1.17</li>
+<li>Tomcat 7.0.56 and 8.0.14</li>
+<li>Xen Hypervisor 4.4.1</li>
+<li>the Xfce 4.10 desktop environment</li>
+<li>more than 43,000 other ready-to-use software packages, built from
+nearly 20,100 source packages.</li>
+</ul>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-9laWONlfvtU/VUesM5gWiuI/AAAAAAAACIc/ieu9Ag4KBb4/s1600/Debian_logo.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="200" src="http://3.bp.blogspot.com/-9laWONlfvtU/VUesM5gWiuI/AAAAAAAACIc/ieu9Ag4KBb4/s200/Debian_logo.png" width="151" /></a></div>
+<br />
+Baixe, teste e use o Debian, é uma distribuição com uma competente equipe de desenvolvedores e normalmente lançam novas versões quando realmente é necessário, isso faz do Debian uma versão bem estável.<br />
+<br />
+<a href="https://www.debian.org/" target="_blank">Para saber mais sobre o Debian</a><br />
+<br />
+<a href="https://www.debian.org/distrib/" target="_blank">Download da distribuição</a><br />
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Postado por
+<span class='fn'>Darlildo</span>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-605949153'>
+<a href='https://www.blogger.com/post-edit.g?blogID=4315013234587932472&postID=4372250005003244636&from=pencil' title='Editar postagem'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Marcadores:
+<a href='http://www.mad3linux.org/search/label/Apache' rel='tag'>Apache</a>,
+<a href='http://www.mad3linux.org/search/label/Debian' rel='tag'>Debian</a>,
+<a href='http://www.mad3linux.org/search/label/Gerenciadores%20de%20Janelas' rel='tag'>Gerenciadores de Janelas</a>,
+<a href='http://www.mad3linux.org/search/label/GIMP' rel='tag'>GIMP</a>,
+<a href='http://www.mad3linux.org/search/label/GNOME' rel='tag'>GNOME</a>,
+<a href='http://www.mad3linux.org/search/label/Iceweasel' rel='tag'>Iceweasel</a>,
+<a href='http://www.mad3linux.org/search/label/Jessie' rel='tag'>Jessie</a>,
+<a href='http://www.mad3linux.org/search/label/KDE' rel='tag'>KDE</a>,
+<a href='http://www.mad3linux.org/search/label/Linux' rel='tag'>Linux</a>,
+<a href='http://www.mad3linux.org/search/label/Nagios' rel='tag'>Nagios</a>,
+<a href='http://www.mad3linux.org/search/label/php' rel='tag'>php</a>,
+<a href='http://www.mad3linux.org/search/label/postgresql' rel='tag'>postgresql</a>,
+<a href='http://www.mad3linux.org/search/label/python' rel='tag'>python</a>,
+<a href='http://www.mad3linux.org/search/label/Samba' rel='tag'>Samba</a>,
+<a href='http://www.mad3linux.org/search/label/Softwares' rel='tag'>Softwares</a>,
+<a href='http://www.mad3linux.org/search/label/Tomcat' rel='tag'>Tomcat</a>,
+<a href='http://www.mad3linux.org/search/label/XFCE' rel='tag'>XFCE</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://www.mad3linux.org/search?updated-max=2015-05-04T14:43:00-03:00&amp;max-results=4' id='Blog1_blog-pager-older-link' title='Postagens mais antigas'>Postagens mais antigas</a>
+</span>
+<a class='home-link' href='http://www.mad3linux.org/'>Página inicial</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Assinar:
+<a class='feed-link' href='http://www.mad3linux.org/feeds/posts/default' target='_blank' type='application/atom+xml'>Postagens (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'pt_BR'};</script>
+</div><div class='widget HTML' id='HTML1'>
+<script type='text/javascript'>
+                var disqus_shortname = 'mad3linux';
+                var disqus_blogger_current_url = "http://www.mad3linux.org/";
+                if (!disqus_blogger_current_url.length) {
+                    disqus_blogger_current_url = "http://www.mad3linux.org/";
+                }
+                var disqus_blogger_homepage_url = "http://www.mad3linux.org/";
+                var disqus_blogger_canonical_homepage_url = "http://www.mad3linux.org/";
+            </script>
+<style type='text/css'>
+                    .post-comment-link { visibility: hidden; }
+                </style>
+<script type='text/javascript'>
+                (function() {
+                    var bloggerjs = document.createElement('script');
+                    bloggerjs.type = 'text/javascript';
+                    bloggerjs.async = true;
+                    bloggerjs.src = 'http://'+disqus_shortname+'.disqus.com/blogger_index.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bloggerjs);
+                })();
+                </script>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget CustomSearch' id='CustomSearch1'>
+<h2 class='title'>Pesquisar</h2>
+<div class='widget-content'>
+<div id='CustomSearch1_form'>
+<span class='cse-status'>Carregando...</span>
+</div>
+</div>
+<style type='text/css'>
+      #uds-searchControl .gs-result .gs-title,
+      #uds-searchControl .gs-result .gs-title *,
+      #uds-searchControl .gsc-results .gsc-trailing-more-results,
+      #uds-searchControl .gsc-results .gsc-trailing-more-results * {
+        color:#cc6611;
+      }
+
+      #uds-searchControl .gs-result .gs-title a:visited,
+      #uds-searchControl .gs-result .gs-title a:visited * {
+        color:#888888;
+      }
+
+      #uds-searchControl .gs-relativePublishedDate,
+      #uds-searchControl .gs-publishedDate {
+        color: #ffffff;
+      }
+
+      #uds-searchControl .gs-result a.gs-visibleUrl,
+      #uds-searchControl .gs-result .gs-visibleUrl {
+        color: #cc6611;
+      }
+
+      #uds-searchControl .gsc-results {
+        border-color: #eeeeee;
+        background-color: #ffffff;
+      }
+
+      #uds-searchControl .gsc-tabhActive {
+        border-color: #eeeeee;
+        border-top-color: #eeeeee;
+        background-color: #ffffff;
+        color: #444444;
+      }
+
+      #uds-searchControl .gsc-tabhInactive {
+        border-color: #eeeeee;
+        background-color: transparent;
+        color: #cc6611;
+      }
+
+      #uds-searchClearResults {
+        border-color: #eeeeee;
+      }
+
+      #uds-searchClearResults:hover {
+        border-color: #eeeeee;
+      }
+
+      #uds-searchControl .gsc-cursor-page {
+        color: #cc6611;
+      }
+
+      #uds-searchControl .gsc-cursor-current-page {
+        color: #444444;
+      }
+    </style>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=CustomSearch&widgetId=CustomSearch1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("CustomSearch1"));' target='configCustomSearch1' title='Editar'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget AdSense' id='AdSense1'>
+<div class='widget-content'>
+<script type="text/javascript"><!--
+google_ad_client="pub-6043149033739006";
+google_ad_host="pub-1556223355139109";
+google_alternate_ad_url="http://img2.blogblog.com/img/blogger_ad.html";
+google_ad_width=250;
+google_ad_height=250;
+google_ad_format="250x250_as";
+google_ad_type="text_image";
+google_ad_host_channel="0001+S0008+L0001";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="CC6611";
+google_color_text="444444";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=AdSense&widgetId=AdSense1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("AdSense1"));' target='configAdSense1' title='Editar'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' id='HTML2'>
+<h2 class='title'>MAD 3 Linux no Facebook</h2>
+<div class='widget-content'>
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMAD-3-Linux%2F164610873600079&amp;width=240&amp;colorscheme=light&amp;show_faces=true&amp;stream=true&amp;header=true&amp;height=427" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:430px;" allowtransparency="true"></iframe>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Editar'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML5'>
+<div class='widget-content'>
+<script type="text/javascript" src="http://twittercounter.com/embed/?username=mad3linux&style=bird"></script><noscript><a href="http://twittercounter.com/mad3linux">MAD3 Linux on Twitter Counter</a></noscript>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' target='configHTML5' title='Editar'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML3'>
+<h2 class='title'>MAD 3 Linux no Twitter</h2>
+<div class='widget-content'>
+<a class="twitter-timeline" href="https://twitter.com/mad3linux" data-widget-id="312733098720763904">Tweets de @mad3linux</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Editar'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Label' id='Label1'>
+<h2>Tags</h2>
+<div class='widget-content cloud-label-widget-content'>
+<span class='label-size label-size-5'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/dicas'>dicas</a>
+<span class='label-count' dir='ltr'>(34)</span>
+</span>
+<span class='label-size label-size-5'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/ubuntu'>ubuntu</a>
+<span class='label-count' dir='ltr'>(29)</span>
+</span>
+<span class='label-size label-size-5'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Softwares'>Softwares</a>
+<span class='label-count' dir='ltr'>(24)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Softwares%20%C3%9Ateis'>Softwares Úteis</a>
+<span class='label-count' dir='ltr'>(17)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Tecnologias'>Tecnologias</a>
+<span class='label-count' dir='ltr'>(14)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Tutorial%20de%20Instala%C3%A7%C3%A3o'>Tutorial de Instalação</a>
+<span class='label-count' dir='ltr'>(12)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/comandos'>comandos</a>
+<span class='label-count' dir='ltr'>(12)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Curiosidades'>Curiosidades</a>
+<span class='label-count' dir='ltr'>(10)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/COMSOLiD'>COMSOLiD</a>
+<span class='label-count' dir='ltr'>(8)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Programa%C3%A7%C3%A3o'>Programação</a>
+<span class='label-count' dir='ltr'>(8)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/apt-get'>apt-get</a>
+<span class='label-count' dir='ltr'>(8)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/how%20to'>how to</a>
+<span class='label-count' dir='ltr'>(8)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Java'>Java</a>
+<span class='label-count' dir='ltr'>(7)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Jogos'>Jogos</a>
+<span class='label-count' dir='ltr'>(7)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Jogos%20Linux'>Jogos Linux</a>
+<span class='label-count' dir='ltr'>(7)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/De%20desenvolvedor%20para%20desenvolvedor'>De desenvolvedor para desenvolvedor</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Jogos%20Open%20Source'>Jogos Open Source</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/deb'>deb</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/bash'>bash</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/FPS%20Linux'>FPS Linux</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Fotos'>Fotos</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Jogos%20FPS'>Jogos FPS</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Videos'>Videos</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/banco%20de%20dados'>banco de dados</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/canonical'>canonical</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/github'>github</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/pacotes'>pacotes</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/postgresql'>postgresql</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/server'>server</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/shell'>shell</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Editor%20de%20V%C3%ADdeo'>Editor de Vídeo</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Gerenciadores%20de%20Janelas'>Gerenciadores de Janelas</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Urban%20Terror'>Urban Terror</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/bots'>bots</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/caracteres'>caracteres</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/customiza%C3%A7%C3%A3o'>customização</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/firefox'>firefox</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/jogar%20com%20bots'>jogar com bots</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/netbeans'>netbeans</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/node'>node</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/pacote'>pacote</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/reposit%C3%B3rio'>repositório</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/video%20editor'>video editor</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Apresenta%C3%A7%C3%A3o'>Apresentação</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Criador%20de%20DVD'>Criador de DVD</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/LCD'>LCD</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Linux'>Linux</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Plasma'>Plasma</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/android'>android</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/bug'>bug</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/caractere'>caractere</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/chrome'>chrome</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/compatibilidade'>compatibilidade</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/dispositivo'>dispositivo</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/economia'>economia</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/encoding'>encoding</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/flisol'>flisol</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/javascript'>javascript</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/mdm'>mdm</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/monitor'>monitor</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/multiseat'>multiseat</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/multiterminal'>multiterminal</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/nautilus'>nautilus</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/nodejs'>nodejs</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/php'>php</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/ppa'>ppa</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/python'>python</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/reposit%C3%B3rios%20off-line'>repositórios off-line</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/sql'>sql</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/ssh'>ssh</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/ubuntu%2012.04'>ubuntu 12.04</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/ubuntu%20hardy'>ubuntu hardy</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/%2Fvar%2Flib%2Fdpkg%2Fstatus'>/var/lib/dpkg/status</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Apache'>Apache</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Content-Type'>Content-Type</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Debian'>Debian</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Enemy%20Territory'>Enemy Territory</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/GIMP'>GIMP</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/GNOME'>GNOME</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Iceweasel'>Iceweasel</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Jessie'>Jessie</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/KDE'>KDE</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Nagios'>Nagios</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Para%20apaixonados%20por%20Downloads'>Para apaixonados por Downloads</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Pasta%20Pessoal'>Pasta Pessoal</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Samba'>Samba</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Slide%20Show'>Slide Show</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/Tomcat'>Tomcat</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/XFCE'>XFCE</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/adobe'>adobe</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/angular'>angular</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/ascii'>ascii</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/asm.js'>asm.js</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/atom'>atom</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/bower'>bower</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/broffice'>broffice</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/centos'>centos</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/certificados'>certificados</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/cgi'>cgi</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/charset'>charset</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/chromium'>chromium</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/clementine'>clementine</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/codifica%C3%A7%C3%A3o'>codificação</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/color-grab'>color-grab</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/containers'>containers</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/content'>content</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/convers%C3%A3o'>conversão</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/cor'>cor</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/css'>css</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/dbus'>dbus</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/default'>default</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/desinstalar'>desinstalar</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/distros'>distros</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/docker'>docker</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/dpkg'>dpkg</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/editar%20menu'>editar menu</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/editor%20de%20texto'>editor de texto</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/empathy'>empathy</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/energia'>energia</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/eruby'>eruby</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/facebook'>facebook</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/featured'>featured</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/firefox%205'>firefox 5</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/flash'>flash</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/flashplugin'>flashplugin</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/grunt'>grunt</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/hal'>hal</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/hardening'>hardening</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/hardware'>hardware</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/imagemagick'>imagemagick</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/impressora'>impressora</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/ionic'>ionic</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/lighttpd'>lighttpd</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/lx%20330'>lx 330</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/menu'>menu</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/menu%20ubuntu'>menu ubuntu</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/mimetype'>mimetype</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/montagem'>montagem</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/mssql'>mssql</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/m%C3%A1scara'>máscara</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/npm'>npm</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/ocomon'>ocomon</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/opni%C3%A3o'>opnião</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/partner'>partner</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/pendrive'>pendrive</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/phonegap'>phonegap</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/ping'>ping</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/plpgsql'>plpgsql</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/plugin'>plugin</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/ruby'>ruby</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/ssl'>ssl</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/stream'>stream</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/string'>string</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/sybase'>sybase</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/torrent'>torrent</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/tpl%202844'>tpl 2844</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/type'>type</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/uml'>uml</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/unity.%20mozilla'>unity. mozilla</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/urt'>urt</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/utf-8'>utf-8</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/vnc'>vnc</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/webgl'>webgl</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/writer'>writer</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.mad3linux.org/search/label/xephyr'>xephyr</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Editar'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Profile' id='Profile1'>
+<h2>MAD3Linux Team</h2>
+<div class='widget-content'>
+<ul>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/14557629805296818798' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Darlildo</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/08670327777878510352' style='background-image: url(//www.blogger.com/img/logo-16.png);'>' MarceloO</a></li>
+<li><a class='profile-name-link g-profile' href='https://plus.google.com/104586527475297511565' style='background-image: url(//www.google.com/images/icons/ui/gprofile_button-16.png);'>Átila Camurça</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/05838167030568443564' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Beto</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/04373542813156036965' style='background-image: url(//www.blogger.com/img/logo-16.png);'>MAD3</a></li>
+<li><a class='profile-name-link g-profile' href='https://plus.google.com/117240253861018251952' style='background-image: url(//www.google.com/images/icons/ui/gprofile_button-16.png);'>Samir Costa</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Editar'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Arquivo do blog</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/search?updated-min=2015-01-01T00:00:00-03:00&amp;updated-max=2016-01-01T00:00:00-03:00&amp;max-results=6'>
+2015
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2015_11_01_archive.html'>
+Novembro
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://www.mad3linux.org/2015/11/recuperando-discos-rigidos-com-bad.html'>Recuperando Discos Rígidos com Bad Blocks ou Setor...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2015_10_01_archive.html'>
+Outubro
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2015_06_01_archive.html'>
+Junho
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2015_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2015_03_01_archive.html'>
+Março
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2015_01_01_archive.html'>
+Janeiro
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/search?updated-min=2014-01-01T00:00:00-03:00&amp;updated-max=2015-01-01T00:00:00-03:00&amp;max-results=10'>
+2014
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2014_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2014_07_01_archive.html'>
+Julho
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2014_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2014_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2014_03_01_archive.html'>
+Março
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2014_01_01_archive.html'>
+Janeiro
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/search?updated-min=2013-01-01T00:00:00-03:00&amp;updated-max=2014-01-01T00:00:00-03:00&amp;max-results=9'>
+2013
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2013_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2013_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2013_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2013_03_01_archive.html'>
+Março
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2013_02_01_archive.html'>
+Fevereiro
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2013_01_01_archive.html'>
+Janeiro
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/search?updated-min=2012-01-01T00:00:00-03:00&amp;updated-max=2013-01-01T00:00:00-03:00&amp;max-results=16'>
+2012
+</a>
+<span class='post-count' dir='ltr'>(16)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2012_10_01_archive.html'>
+Outubro
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2012_09_01_archive.html'>
+Setembro
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2012_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2012_06_01_archive.html'>
+Junho
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2012_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2012_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2012_02_01_archive.html'>
+Fevereiro
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/search?updated-min=2011-01-01T00:00:00-03:00&amp;updated-max=2012-01-01T00:00:00-03:00&amp;max-results=24'>
+2011
+</a>
+<span class='post-count' dir='ltr'>(24)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2011_12_01_archive.html'>
+Dezembro
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2011_11_01_archive.html'>
+Novembro
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2011_10_01_archive.html'>
+Outubro
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2011_09_01_archive.html'>
+Setembro
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2011_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2011_07_01_archive.html'>
+Julho
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2011_06_01_archive.html'>
+Junho
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2011_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2011_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2011_02_01_archive.html'>
+Fevereiro
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/search?updated-min=2010-01-01T00:00:00-03:00&amp;updated-max=2011-01-01T00:00:00-03:00&amp;max-results=12'>
+2010
+</a>
+<span class='post-count' dir='ltr'>(12)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2010_09_01_archive.html'>
+Setembro
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2010_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2010_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2010_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2010_03_01_archive.html'>
+Março
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2010_02_01_archive.html'>
+Fevereiro
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2010_01_01_archive.html'>
+Janeiro
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/search?updated-min=2009-01-01T00:00:00-03:00&amp;updated-max=2010-01-01T00:00:00-03:00&amp;max-results=19'>
+2009
+</a>
+<span class='post-count' dir='ltr'>(19)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2009_12_01_archive.html'>
+Dezembro
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2009_11_01_archive.html'>
+Novembro
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2009_10_01_archive.html'>
+Outubro
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2009_09_01_archive.html'>
+Setembro
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2009_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2009_06_01_archive.html'>
+Junho
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2009_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.mad3linux.org/2009_03_01_archive.html'>
+Março
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Editar'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Followers' id='Followers1'>
+<h2 class='title'>Seguidores</h2>
+<div class='widget-content'>
+<div id='Followers1-wrapper'>
+<div style='margin-right:2px;'>
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="//www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+          
+          
+            holder.postFeed = "https://www.blogger.com/feeds/4315013234587932472/posts/default";
+          
+          
+          
+            holder.commentFeed = "https://www.blogger.com/feeds/4315013234587932472/comments/default";
+          
+          holder.currentBlogUrl = "http://www.mad3linux.org/";
+          holder.currentBlogId = "4315013234587932472";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<div id="div-raohdlrob33h" style="width: 100%; "></div>
+<script type="text/javascript">
+    var skin = {};
+    skin['FACE_SIZE'] = '32';
+    skin['HEIGHT'] = "260";
+    skin['BORDER_COLOR'] = "transparent";
+    skin['ENDCAP_BG_COLOR'] = "transparent";
+    skin['ENDCAP_TEXT_COLOR'] = "#444444";
+    skin['ENDCAP_LINK_COLOR'] = "#cc6611";
+    
+    skin['CONTENT_BG_COLOR'] = "transparent";
+    skin['CONTENT_LINK_COLOR'] = "#cc6611";
+    skin['CONTENT_TEXT_COLOR'] = "#444444";
+    skin['CONTENT_SECONDARY_LINK_COLOR'] = "#cc6611";
+    skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#999999";
+    skin['CONTENT_HEADLINE_COLOR'] = "#000000";
+    google.friendconnect.container.setParentUrl("/");
+    google.friendconnect.container["renderMembersGadget"](
+    {id: "div-raohdlrob33h",
+     height: 260,
+     
+     
+     
+     site: "03149308357313489204",
+     locale: 'pt_BR' },
+     skin);
+  </script>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers1"));' target='configFollowers1' title='Editar'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3'><div class='widget Attribution' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Tecnologia do <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Editar'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/3419481628-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript" src="//www.google.com/jsapi"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '4315013234587932472';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4315013234587932472','//www.mad3linux.org/','4315013234587932472');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '4315013234587932472', 'bloggerUrl': 'https://www.blogger.com', 'title': 'MAD3 Linux', 'pageType': 'index', 'url': 'http://www.mad3linux.org/', 'canonicalUrl': 'http://www.mad3linux.org/', 'homepageUrl': 'http://www.mad3linux.org/', 'canonicalHomepageUrl': 'http://www.mad3linux.org/', 'blogspotFaviconUrl': 'http://www.mad3linux.org/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'MAD3 Linux', 'encoding': 'UTF-8', 'locale': 'pt_BR', 'localeUnderscoreDelimited': 'pt_br', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42MAD3 Linux - Atom\42 href\75\42http://www.mad3linux.org/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42MAD3 Linux - RSS\42 href\75\42http://www.mad3linux.org/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42MAD3 Linux - Atom\42 href\75\42https://www.blogger.com/feeds/4315013234587932472/posts/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://www.mad3linux.org/\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId': 'pub-6043149033739006', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/2562766807-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/581377545bf84644', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'messages', 'data': {'archive': 'Arquivo', 'blogArchive': 'Arquivo do blog', 'by': 'Por', 'byAuthor': 'De %1', 'byAuthorLink': 'De \74a href\75\42%2\42\76%1\74/a\076', 'deleteBacklink': 'Excluir backlink', 'deleteComment': 'Excluir comentário', 'emailAddress': 'Endereço de e-mail', 'getEmailNotifications': 'Receber notificações por e-mail', 'keepReading': 'Continuar lendo', 'labels': 'Marcadores', 'loadMorePosts': 'Carregar mais postagens', 'loading': 'Carregando...', 'myBlogList': 'Minha lista de blogs', 'myFavoriteSites': 'Meus sites favoritos', 'newer': 'Mais recentes', 'newerPosts': 'Postagens mais recentes', 'newest': 'Mais recentes', 'noResultsFound': 'Nenhum resultado encontrado', 'noTitle': 'Sem título', 'numberOfComments': '{numComments,plural, \0750{Nenhum comentário}\0751{1 comentário}other{# comentários}}', 'older': 'Antigos', 'olderPosts': 'Postagens mais antigas', 'oldest': 'Mais antigos', 'onlyTeamMembersCanComment': 'Observação: somente um membro deste blog pode postar um comentário.', 'popularPosts': 'Postagens populares', 'popularPostsFromThisBlog': 'Postagens populares deste blog', 'postAComment': 'Postar um comentário', 'postedBy': 'Postado por', 'postedByAuthor': 'Postado por %1', 'postedByAuthorLink': 'Postado por \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Leia mais', 'reportAbuse': 'Denunciar abuso', 'search': 'Pesquisar', 'searchBlog': 'Pesquisar blog', 'share': 'Compartilhar', 'showAll': 'Mostrar tudo', 'someOfMyFavoriteSites': 'Alguns dos meus sites preferidos', 'subscribe': 'Inscrever-se', 'subscribeToThisBlog': 'Inscrever-se neste blog', 'theresNothingHere': 'Não há nada aqui.', 'viewAll': 'Visualizar todos', 'visitProfile': 'Visitar perfil'}}, {'name': 'skin', 'data': {'vars': {'post_footer_background_color': '#f9f9f9', 'image_background_color_transparent': 'rgba(255, 255, 255, 0)', 'tabs_text_color': '#999999', 'widget_title_text_color_transparent': 'rgba(0, 0, 0, 0)', 'content_shadow_spread': '40px', 'body_background_color_transparent': 'rgba(238, 170, 0, 0)', 'description_text_color_transparent': 'rgba(255, 255, 255, 0)', 'tabs_selected_text_color_transparent': 'rgba(0, 0, 0, 0)', 'header_shadow_spread': '3px', 'tabs_background_color_transparent': 'rgba(245, 245, 245, 0)', 'image_border_color': '#eeeeee', 'post_footer_text_color_transparent': 'rgba(102, 102, 102, 0)', 'widget_alternate_text_color_transparent': 'rgba(153, 153, 153, 0)', 'keycolor_transparent': 'rgba(204, 102, 17, 0)', 'tabs_border_color': '#eeeeee', 'tabs_bevel_border_width': '1px', 'description_text_color': '#ffffff', 'main_section_margin': '15px', 'post_title_font': 'normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'page_width': 'auto', 'header_background_gradient': 'url(http://www.blogblog.com/1kt/simple/gradients_light.png)', 'post_margin_bottom': '25px', 'content_background_color': '#ffffff', 'link_visited_color': '#888888', 'header_text_color_transparent': 'rgba(255, 255, 255, 0)', 'tabs_margin_side': '30px', 'image_border_large_size': '5px', 'post_footer_background_color_transparent': 'rgba(249, 249, 249, 0)', 'main_border_width': '0', 'link_color': '#cc6611', 'paging_background_color': 'transparent', 'tabs_text_color_transparent': 'rgba(153, 153, 153, 0)', 'date_header_background_color_transparent': 'rgba(238, 238, 238, 0)', 'content_padding_horizontal': '10px', 'image_border_color_transparent': 'rgba(238, 238, 238, 0)', 'header_border_size': '0', 'footer_bevel': '0', 'image_border_small_size': '2px', 'body_rule_color_transparent': 'rgba(238, 238, 238, 0)', 'content_shadow_spread_ie': '10px', 'image_background_color': '#ffffff', 'header_bottom_border_size': '0', 'page_width_selector': '.region-inner', 'date_header_background_color': '#eeeeee', 'tabs_border_width': '1px', 'link_hover_color': '#ff9900', 'header_background_color': '#cc6611', 'keycolor': '#cc6611', 'main_padding_bottom': '30px', 'post_footer_text_color': '#666666', 'tabs_margin_top': '0', 'link_color_transparent': 'rgba(204, 102, 17, 0)', 'header_background_color_transparent': 'rgba(204, 102, 17, 0)', 'date_header_letterspacing': 'inherit', 'body_background_override': '', 'description_text_size': '140%', 'post_footer_border_color_transparent': 'rgba(238, 238, 238, 0)', 'date_header_color': '#444444', 'header_shadow_offset_top': '2px', 'header_border_horizontalsize': '0', 'widget_title_font': 'normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'body_background_gradient_tile': 'url(http://www.blogblog.com/1kt/simple/body_gradient_tile_light.png)', 'paging_background': 'transparent none no-repeat scroll top center', 'body_text_color': '#444444', 'content_padding': '10px', 'body_text_color_transparent': 'rgba(68, 68, 68, 0)', 'header_shadow_offset_left': '1px', 'tabs_background_color': '#f5f5f5', 'body_background_gradient_cap': 'url(http://www.blogblog.com/1kt/simple/gradients_light.png)', 'main_padding_top': '30px', 'widget_alternate_text_color': '#999999', 'image_text_color': '#444444', 'content_background_color_transparent': 'rgba(255, 255, 255, 0)', 'content_shadow_spread_webkit': '5px', 'tabs_selected_text_color': '#000000', 'content_background_color_selector': '.content-inner', 'post_footer_border_color': '#eeeeee', 'link_hover_color_transparent': 'rgba(255, 153, 0, 0)', 'tabs_background_gradient': 'url(http://www.blogblog.com/1kt/simple/gradients_light.png)', 'header_font': 'normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'startSide': 'left', 'link_visited_color_transparent': 'rgba(136, 136, 136, 0)', 'tabs_font': 'normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'widget_title_text_color': '#000000', 'tabs_selected_background_color': '#eeeeee', 'endSide': 'right', 'body_rule_color': '#eeeeee', 'date_header_padding': 'inherit', 'body_background_color': '#eeaa00', 'header_text_color': '#ffffff', 'main_padding': '15px', 'body_font': 'normal normal 14px \47Trebuchet MS\47, Trebuchet, sans-serif;', 'header_padding': '30px', 'tabs_selected_background_color_transparent': 'rgba(238, 238, 238, 0)'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'crosscol', null, document.getElementById('PageList1'), {'title': 'Páginas', 'links': [{'href': 'http://www.mad3linux.org/', 'title': 'Início', 'isCurrentPage': true}, {'href': 'http://www.mad3linux.org/p/mad3linux-team.html', 'title': 'MAD3Linux Team', 'isCurrentPage': false, 'id': '6184929733014566000'}, {'href': 'http://www.mad3linux.org/p/downloads.html', 'title': 'Downloads', 'isCurrentPage': false, 'id': '6736207588468459559'}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/1408842214-lbx__pt_br.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/1060280877-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'main', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_CustomSearchView', new _WidgetInfo('CustomSearch1', 'sidebar-right-1', null, document.getElementById('CustomSearch1'), {'title': 'Pesquisar', 'includeBlog': true, 'includePostLinks': true, 'includeWeb': false, 'linkLists': [], 'blogUrl': 'http://www.mad3linux.org/', 'loadingMsg': 'Carregando...', 'thisBlogMsg': 'Este Blog', 'linkedFromHereMsg': 'Link daqui', 'theWebMsg': 'A web', 'backgroundColor': '#ffffff', 'textColor': '#444444', 'dateColor': '#ffffff', 'linkColor': '#cc6611', 'urlColor': '#cc6611', 'visitedLinkColor': '#888888', 'borderColor': '#eeeeee', 'activeBorderColor': '#eeeeee', 'cse_ua': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense1', 'sidebar-right-1', null, document.getElementById('AdSense1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar-right-1', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar-right-1', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar-right-1', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar-right-1', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar-right-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Carregando...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar-right-1', null, document.getElementById('Followers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': 'Tecnologia do \74a href\75\47https://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+</script>
+</body>
+</html>

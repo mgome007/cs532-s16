@@ -1,0 +1,674 @@
+   #[1]Byte Mining RSS Feed [2]Byte Mining Atom Feed
+
+
+   [3]Comments[4]Posts
+
+      My thoughts on data mining, machine learning, programming languages,
+      open-source software and general nerdery.
+
+   [5]It’s Been a While
+
+   This past three years has really flown. It’s time for me to finally get
+   back to my roots and also start blogging more, like I did previously.
+   My last post was about Strata 2013. During this time period, I was
+   taking a break from working full-time to finish a Ph.D. dissertation
+   that I had neglected during my previous two positions. I learned my
+   lesson the hard way, never work externally if you want a Ph.D. in a
+   reasonable amount of time! I quickly got my dissertation from an intro
+   to the first 65 pages or so during this gap. I then received an offer
+   from Facebook. I was ready to move to Silicon Valley and enjoy all the
+   things I had been envious over for so many years: the perks, the
+   culture of innovation and intelligence, and the technology community.
+   This was an opportunity I could not pass, and the dissertation went on
+   the back-burner for another two years as I spent the majority of my
+   waking hours, both during the week and the weekend… and on holidays…
+   coding into a frenzy. I was looking forward to living in a world where
+   I was entrenched in the technology and data ecosystem. But…
+
+The Grass Isn’t Greener on the Other Side
+
+   The technology community is definitely there and is obviously very
+   strong, but it isn’t what I thought it would be. Due to the sheer size
+   of the industry, meetups and other events were very impersonal compared
+   to what I was used to in the LA area. Additionally, it seems that most
+   of that original Silicon Valley startup energy has moved to San
+   Francisco. To get to meetups, I would spend hours on shuttles,
+   Caltrain, BART and Muni getting to SoMa and then being disappointed at
+   the frequent company pitches instead of discussing actual science and
+   technology. Not all groups are like that, as I attended plenty of
+   meetups that were technical and whetted my appetite to learn more. Of
+   course, there was also the question if I could even get into the
+   meetup. The majority of the meetup groups I was a part of would fill up
+   in a few hours for a hot topic or engaging speaker with waiting lists
+   sometimes 100 to 200 people long. The final blow was that my attendance
+   assumed I could get away from my projects at work, which I really could
+   not. My technology community ended up being the others at the company,
+   which may have been helpful for my job, but gave me a narrower focus
+   than I wanted, and was just one more thing that kept me at work.
+   Meetups are not the only important thing in the technology community
+   though. I did attend a few conferences such as [6]ACM SIGCIKM,
+   [7]BayLearn, [8]Strata 2014 (but for recruiting), and I spoke at
+   [9]PyData when it was held at Facebook. To be fully immersed in the
+   technology community and experience, it seems one now needs to live in
+   San Francisco, and San Francisco is definitely not the city for me — I
+   am more of a Silicon Valley suburb type but the energy wasn’t the same.
+
+   I am not alone when I say that I spent most of my waking life working.
+   Since I had moved there for a job, and I didn’t have any roots, friends
+   or family in the area I thought it would make sense for me to do this.
+   But, working at this rate took a toll on me physically, mentally and
+   emotionally. Although there is a lot to do in the Bay Area, there
+   really wasn’t any time to do it because of the work culture. And people
+   didn’t seem to have time for me for the same reason. This is not true
+   for everyone, but I found it much more true in the Bay Area than
+   anywhere else I have lived. To add to the long work hours, this is not
+   the first time I have been an “overachiever” in life — this is
+   something I had been afflicted with since high school (the 90s).
+   Not only is there stress from long hours and a lack of any outside
+   world, [10]the Bay Area is extremely expensive — nobody argues against
+   this point. My 850 square foot one-bedroom apartment in Mountain View
+   is now on the market for $4200/month. [11]Buying a house is typically
+   not practical for new and mid-career engineers unless they have been at
+   a large company for a while, or had a big payout from a startup, or
+   were willing to have a longer commute from outside of the valley. A
+   small one-bedroom house can easily list at over one-million dollars in
+   Mountain View and Palo Alto. Next, there are going to be n other
+   bidders that also want the same house. It is incredibly common for
+   already ridiculously overpriced houses in Palo Alto to sell for a lot
+   more than the listing price. If you are single, you are going to need
+   that tax writeoff, or you are in for a huge surprise at tax time. This
+   lifestyle is not sustainable in the long run. And for me, it was an
+   issue that does not make me miss the area much.
+   On the other hand, many parts of the Bay Area are absolutely beautiful.
+   From the green forests above Santa Cruz, to the pristine coastline from
+   Monterey north, the green rolling hills in San Jose and the East Bay,
+   to the bizarre other-worldly marshes along the bay. It was a dry two
+   years so the weather was not all that different from LA.
+
+   I learned a valuable lesson. It’s true that the grass isn’t greener on
+   the other side. You can shower a person with free meals, free rides and
+   other perks (I even forget what they were… they ended up not being
+   important), but all it does is keep you at work, and keep you engaged
+   with only that one part of your life. Your “friends” end up being at
+   the company and ends up being a bad thing in such a competitive
+   environment. Other perks like an onsite doctor, dentist and physical
+   therapist may sound nice, but they were not up to par with services I
+   received elsewhere, and again are just ways to keep you at work. These
+   things are gimmicks. They are good to entice people, they are good to
+   make life convenient, but they really are just ways to keep you at work
+   and pay you less.
+
+Burn Out: Time to Reflect and Slow Down
+
+   When I returned to LA, I drove down Pacific Coast Highway and looked
+   out to the ocean. As the orange winter sun beat on my face through the
+   window, I could not believe it had been 2 years since I had taken that
+   drive. That was not like me. I lived for the beach atmosphere and the
+   sense of unwinding it provided me. At that moment, I realized that I
+   wanted to slow down my “nerves” — not only back to my original levels,
+   but even slower. I wanted to take time out for myself, not only to
+   finish my research, but also to enjoy life, and think about what makes
+   me happy both as a person and as a professional. I realized that in
+   that two years, I lost myself and with each lonely day, I lost my
+   passion for my interests and I did not have many hobbies other than
+   working.
+   For the past ten years, I’ve spent time in the Eastern Sierra but not
+   nearly enough. I was finally able to buy a vacation home in [12]Mammoth
+   and now have the time to enjoy it. I have spent the past several months
+   hiking, mountain biking, snowshoeing and taking drives through some of
+   nature’s finest beauty. The solitude and intrigue of the wilderness is
+   very cleansing and good for the soul. I’ve also lost quite a bit of
+   weight since leaving behind the free meals and becoming so active. I
+   had always been a brisk walker, and always preferred to use my legs
+   rather than my wheels, but this was the first time since college I did
+   vigorous heart-pumping activity on a routine basis. When I look back, I
+   realize it was not just the past three years that have burned me out.
+   It’s the entire way I have been living my adulthood.
+
+Things Have Changed
+
+   I am not closing any doors in this post, but I have learned to value a
+   sane work environment and work hours over perks and pure compensation.
+   Rather than focus on compensation and working at a “hot” company, my
+   intention is to do work that benefits the common good with respect to
+   my interests, while providing me with the means to live, retire, and
+   have funds available for my own hobbies and side projects. There is
+   only one thing that I will not compromise on (ok, two): I must be able
+   to wear shorts, and I must be able to have flexible hours. Whether or
+   not to accept a position is now a lot more complex than looking at a
+   company’s base product and having coding, machine learning and
+   statistics in the job requirements/description. I do not want spend 1%
+   of my time doing machine learning using some basic model (i.e. Naive
+   Bayes or Logistic Regression) and the other 99% scaling it to billions
+   of observations. Rather, I would like to be able to explore more on the
+   machine learning side, and learn new algorithms and methods for
+   prediction and classification. This does not mean that
+   I completely want to move away from the systems engineering stuff, but
+   it will really depend on the product and the team rather than just
+   the company.
+   For the time being, I am consulting and also mentoring a startup. I may
+   continue to do that as my career, I may not. I have several ideas for
+   startups that I may pursue, but I may not. Who knows, maybe I will
+   return to the Bay Area (under the constraints I mentioned earlier), or
+   I may not. I will probably return to being more active in the community
+   like I used to be, but I have realized that there is a lot of noise,
+   hype and ego in the blogosphere, Twittersphere, and these thousands of
+   dollars conferences. There is something to be said by just doing my own
+   thing. Maybe I have just grown as a professional, I don’t know. I just
+   know that these things should be taken with a grain of salt.
+
+Switching Fields?
+
+   After a lot of introspection, I want to take a look at some other
+   fields outside of “pure tech” including but not limited to:
+     * Environmental and activity geospatial data. After living in the
+       mountains, I’ve become very interested in environmental data,
+       particularly using time series, GPS telemetry and geospatial
+       analysis. My interest in this field has applications from
+       everything from efficient placement of snowmobiles for SAR
+       operations, to action sports and activity intelligence, even
+       navigation.
+     * Finance. Finance used to be on my list of “never ever.” After
+       learning more about economics and Wall Street from my time in
+       startups and Silicon Valley, I am also interested in some
+       applications in finance. Machine learning is obviously very useful
+       for automated investing, but data visualization has proven to be
+       useful in manual transactions for me.
+     * Education. My original draw to statistics was the field of
+       psychometrics and the develop of educational assessments. I am
+       considering going back in this direction. I am also interested in
+       the educational technology sector improving the delivery of
+       educational materials and assessment of learning. Of course, I may
+       go into teaching altogether, most likely at the college level, or
+       as some type of training consultant.
+     * Aviation: Airliners and drones. People that know me well know that
+       I love airports, airlines and flying. Aviation uses a lot of
+       different data science techniques. Drones are an emerging
+       technology and routing drones in the sky has become a challenge
+       that companies are working on. Routing, both for drones and
+       airliners, uses geospatial/map data and network/graph data and
+       takes into account many variables that affect flight, airspace
+       congestion, and airport/ground resource usage. Wait time and
+       queuing theory is also very important for runway operations. There
+       is a lot of game theory, network analysis, and other data science
+       involved in pricing and scheduling of airliner flights. All of
+       these challenges are interesting to me.
+     * “Internet of Things.” It annoys me that the emerging field of
+       embedded systems, their development and data processing has become
+       yet another cheap buzzword like “big data” or the misuse of the
+       term “data science.” Devices such as the Raspberry Pi, Arduino and
+       custom printed circuit boards allow the masses to create new data
+       collection devices that unobtrusively fit anywhere data need
+       recording. While the data itself is interesting, in this one
+       particular case, I am actually more interested in the hardware, and
+       pure engineering side rather than the data science side.
+     * Security is an exponentially growing field that has become pivotal
+       not only for national security, but for privacy. Security is a
+       field that is very interesting to me, but one I know very little
+       about, and thus is an option for a more ambitious change of field.
+       I can see it being a field I would be passionate about the more I
+       learn about it. Security would be unchartered waters for me, but I
+       do not see it as a field that will be disappearing anytime soon.
+
+   After typing up this list and re-reading it, I realize I still have the
+   same level of passion I always did, and perhaps my soul needed to focus
+   on something else for a while. Now I just have to make the choices of
+   which ones are the most rewarding, and which ones provide the best
+   opportunities for me. In any job interview, there is always the “Do you
+   have any questions for me/us?” Over the past several years, I have
+   compiled a long list of questions. And if I do not like the answer, or
+   if I can tell the interviewer is BSing the answer, abort! Perks and big
+   names are not the key to happiness or a more fulfilled life — becoming
+   a better person and being able to enjoy the process of life is.
+
+   Below are some pictures from my neighborhood!
+   [13]The Village at Mammoth [14]The View from my Window [15]Twin Lakes
+   near Tamarack Lodge, During a Snowstorm [16]Minaret Summit facing the
+   White Mountains [17]Minaret Vista [18]Shadow Lake [19]Agnew Meadows
+   [20]The Road to Red's Meadow Valley [21]Twin Lakes in Summer [22]Duck
+   Lake [23]Mountain Bike! [24]Lakes George and Mary [25]Mountain Biking
+   off the top of Mammoth Mountain [26]Rainbow Falls [27]Lake George
+   February 18th, 2016 | Category: [28]Thoughts | [29]Leave a comment
+
+[30]Summary of My First Trip to Strata #strataconf
+
+   In this post I am goIing to summarize some of the things that I learned
+   at Strata Santa Clara 2013. For now, I will only discuss the conference
+   sessions as I have a much longer post about the tutorial sessions that
+   I am still working on and will post at a later date. I will add to this
+   post as the conference winds down.
+
+   The slides for most talks will be available here but not all speakers
+   will share their slides.
+
+   This is/was my first trip to Strata so I was eagerly awaiting
+   participating as an attendant. In the past, I had been put off by the
+   cost and was also concerned that the conference would be an endless
+   advertisement for the conference sponsors and Big Data platforms. I am
+   happy to say that for the most part I was proven wrong. For easier
+   reading, I am summarizing talks by topic rather than giving a laundry
+   list schedule for a long day and also skip sessions that I did not find
+   all that illuminating. I also do not claim 100% accuracy of this text
+   as the days are very long and my ears and mind can only process so much
+   data when I am context […]
+   February 28th, 2013 | Category: [31]Amazon EC2, [32]Big Data,
+   [33]Conferences, [34]Data Mining, [35]Hadoop, [36]Machine Learning,
+   [37]MapReduce, [38]Natural Language Processing, [39]Programming
+   Languages, [40]Python, [41]R, [42]Statistics and Statistical Computing,
+   [43]Web Mining | [44]4 comments
+
+[45]Merry Christmas and Happy Holidays!
+
+   Wishing you all a very Merry Christmas, Happy Holidays and Happy New
+   Year!
+
+   An update on me. In October, I began working at Riot Games, the
+   developers of League of Legends. It has been an amazing experience and
+   has occupied the majority of my free time as has my dissertation. My
+   New Year’s resolution this year is to dust the cobwebs off this blog!
+
+   Have a safe holiday season!
+
+   Here in California, I will be having Christmas in the Sand
+   December 24th, 2012 | Category: [46]Uncategorized | [47]Leave a comment
+
+[48]A New Data Toy -- Unboxing the Raspberry Pi
+
+   Last week I received two Raspberry Pis in the mail from AdaFruit and
+   just now have some time to play with them. The Raspberry Pi is a
+   minimal computer system that is about the size of a credit card. In the
+   embedded systems community, the excitement is for obvious reasons, but
+   I strongly believe that such a device can help collect and use data to
+   help us make better decisions because not only is it a computer, but it
+   is small and portable.
+
+   For development, Raspberry Pi can connect to a television (or other
+   display) via HDMI or composite video (the “yellow” plug for those still
+   stuck in the 1900s haha). A keyboard, mouse and other devices can be
+   connected via two USB ports. A powered hub can provide support for even
+   more devices. There are also various pins for connecting to a
+   breadboard for analyzing analog signals, for a camera or for an
+   external (or touchscreen) display. An SD Card essentially serves as the
+   hard disk and probably a portion of the RAM. The more recent Model B
+   ships with 256MB RAM. Raspberry Pi began shipping in February 2012 and
+   these little guys have been very difficult to get a […]
+   October 9th, 2012 | Category: [49]Startups, [50]Statistics and
+   Statistical Computing | [51]5 comments
+
+[52]Adventures at My First JSM (Joint Statistical Meetings) #JSM2012
+
+   During the past few decades that I have been in graduate school (no,
+   not literally) I have boycotted JSM on the notion that “I am not a
+   statistician.” Ok, I am a renegade statistician, a statistician by
+   training. JSM 2012 was held in San Diego, CA, one of the best places to
+   spend a week during the summer. This time, I had no excuse not to go,
+   and I figured that in order to get my Ph.D. in Statistics, I have to
+   have been to at least one JSM. […]
+   August 6th, 2012 | Category: [53]Big Data, [54]Conferences, [55]Data
+   Mining, [56]R, [57]Statistics and Statistical Computing | [58]2
+   comments
+
+[59]OpenPaths and a Progressive Approach to Privacy
+
+   OpenPaths is a service that allows users with mobile phones to transmit
+   and store their location. It is an initiative by the New York Times
+   that allows users to use their own data, or to contribute their
+   location data for research projects and perhaps startups that wish to
+   get into the geospatial space. OpenPaths brands itself as “a secure
+   data locker for personal location information.” There is one aspect
+   where OpenPaths is very different from other services like Google
+   Latitude: Only the user has access to his/her own data and it is never
+   shared with anybody else unless the user chooses to do so.
+   Additionally, initiatives that wish to use a user’s location data must
+   be asked personally via email (pictured below), and the user has the
+   ability to deny the request.The data shared with each initiative
+   provides only location, and not other data that may be personally
+   identifiable such as name, email, browser, mobile type etc. In this
+   sense, OpenPaths has provided a barebones platform for the collection
+   and storage of location information. Google Latitude is similar, but
+   the data stored on Google’s servers is obviously used by other Google
+   services without explicit user permission.
+
+   The service is also opt-in, that […]
+   July 8th, 2012 | Category: [60]Data Mining, [61]Geospatial,
+   [62]Startups, [63]Web Mining | [64]2 comments
+
+[65]SIAM Data Mining 2012 Conference
+
+   Note: This would have been up a lot sooner but I have been dealing with
+   a bug on and off for pretty much the past month!
+
+   From April 26-28 I had the pleasure to attend the SIAM Data Mining
+   conference in Anaheim on the Disneyland Resort grounds. Aside from
+   KDD2011, most of my recent conferences had been more “big data” and
+   “data science” oriented, and I wanted to step away from the hype and
+   just listen to talks that had more substance.
+
+   Attending a conference on Disneyland property was quite a bizarre
+   experience. I wanted to get everything I could out of the conference,
+   but the weather was so nice that I also wanted to get everything out of
+   Disneyland as I could. Seeing adults wearing Mickey ears carrying
+   Mickey shaped balloons, and seeing girls dressed up as their favorite
+   Disney princesses screams “fun” rather than “business”, but I managed
+   to make time for both.
+
+   The first two days started with a plenary talk from industry or
+   research labs. After a coffee break, there were the usual breakout
+   sessions followed by lunch. During my free 90 minutes, I ran over to
+   Disneyland and California Adventure both days to eat lunch. I managed
+   to […]
+   May 15th, 2012 | Category: [66]Algorithms, [67]Data Mining, [68]Machine
+   Learning, [69]Natural Language Processing | [70]One comment
+
+[71]My Interview about the Statistics Major
+
+   Recently, I participated in an email interview about what being a
+   Statistics major entailed, how I got interested in the field and the
+   future of Statistics. I figured this might be of interest to those that
+   are contemplating majoring in Statistics, or considering a career in
+   Data Science.
+
+   Q1: Why did you decide to pursue a major in statistics in college?
+
+   A: “When I was a kid, I really enjoyed looking at graphs, plots and
+   maps. My parents and I could not make of what was behind the interest.
+   At the same time, I was also heavily interested in education. My mother
+   was a teacher and the first set of statistics I ever encountered were
+   standardized test scores. I strived to understand what the scores
+   attempted to say about me, and why such scores and tests are so
+   trustworthy. When the stakes increased with the AP and SAT exams, I
+   began reading articles published by the Educational Testing Service and
+   learned a ton about how these tests are constructed to minimize bias,
+   and how scores are comparable across forms. It fascinated me how much
+   science goes into these tests, but in the end of the day they are still
+   just one factor […]
+   March 16th, 2012 | Category: [72]Uncategorized | [73]One comment
+
+[74]“Hold Only That Pair of 2s?” Studying a Video Poker Hand with R
+
+   Whenever I tell people in my family that I study Statistics, one of the
+   first questions I get from laypeople is “do you count cards?” A blank
+   look comes over their face when I say “no.”
+
+   Look, if I am at a casino, I am well aware that the odds are against
+   me, so why even try to think that I can use statistics to make money in
+   this way? Although I love numbers and math, the stuff flows through my
+   brain all day long (and night long), every day. If the goal is to enjoy
+   and have fun, I do not want to sit there crunching probability formulas
+   in my head (yes that’s fun, but it is also work). So that leaves me at
+   the video Poker machines enjoying the free drinks. Another positive
+   about video Poker is that $20 can sometimes last a few hours. So it
+   should be no surprise that I do not agree with using Poker to teach
+   probability.  Poker is an extremely superficial way to introduce such a
+   powerful tool and gives the impression that probability is a way to
+   make a quick buck, rather than as an important tool in science and
+   society. The only […]
+   January 8th, 2012 | Category: [75]Algorithms, [76]R, [77]Statistics and
+   Statistical Computing | [78]18 comments
+
+[79]Merry Christmas 2011 From Byte Mining!
+
+   To all of my readers and followers, I wish you a very Merry Christmas
+   and a very joyous and safe Happy New Year! This year, I am thankful for
+   the community that has sprung up around Data Science and open-source
+   data collection and processing. This blog is almost two years old, and
+   like with Twitter, I have been able to communicate with many data
+   scientists, enthusiasts and some of the most prolific contributors to
+   the data science software community. I am thankful for all of the
+   wonderful people I have met and have yet to meet, and for your comments
+   and reading.
+   December 24th, 2011 | Category: [80]Uncategorized | [81]Leave a comment
+
+     [82]Older Entries »
+
+The Author
+
+     * [83]About Ryan Rosario
+     * [84]Contact Ryan
+
+   [85]My Last 5 Tweets
+
+Popular Posts
+
+     * [86]My First Few Days with RStudio (31)
+     * [87]Hadoop Fatigue -- Alternatives to Hadoop (29)
+     * [88]Hitting the Big Data Ceiling in R (21)
+
+Categories
+
+     * [89]Algorithms
+     * [90]Conferences
+     * [91]Data Mining
+          + [92]Big Data
+               o [93]Amazon EC2
+               o [94]MapReduce
+                    # [95]Hadoop
+     * [96]Databases and Datastores
+          + [97]NoSQL
+               o [98]MongoDB
+     * [99]Geospatial
+     * [100]LaTeX
+     * [101]Machine Learning
+          + [102]Natural Language Processing
+     * [103]Programming Languages
+          + [104]Python
+     * [105]Startups
+     * [106]Statistics and Statistical Computing
+          + [107]R
+     * [108]Thoughts
+     * [109]Uncategorized
+     * [110]Web Mining
+
+Archive
+
+     * [111]February 2016
+     * [112]February 2013
+     * [113]December 2012
+     * [114]October 2012
+     * [115]August 2012
+     * [116]July 2012
+     * [117]May 2012
+     * [118]March 2012
+     * [119]January 2012
+     * [120]December 2011
+     * [121]November 2011
+     * [122]September 2011
+     * [123]August 2011
+     * [124]June 2011
+     * [125]May 2011
+     * [126]April 2011
+     * [127]March 2011
+     * [128]February 2011
+     * [129]January 2011
+     * [130]December 2010
+     * [131]November 2010
+     * [132]October 2010
+     * [133]September 2010
+     * [134]August 2010
+     * [135]July 2010
+     * [136]June 2010
+     * [137]May 2010
+     * [138]April 2010
+     * [139]March 2010
+     * [140]February 2010
+     * [141]January 2010
+
+Meta
+
+     * [142]Log in
+     * [143]Entries RSS
+     * [144]Comments RSS
+     * [145]WordPress.org
+
+Blogroll
+
+     * [146]Dataists New data science blog by Hilary Mason and Vince
+       Buffalo.
+     * [147]FlowingData Fellow graduate student in Statistics. The
+       visualization resource.
+     * [148]R Bloggers
+     * [149]StatisticsBlog.com
+
+   [150]Locations of visitors to this page
+
+   Copyright © 2016 [151]Ryan Rosario - All Rights Reserved
+   Powered by [152]WordPress & the [153]Atahualpa Theme by
+   [154]BytesForAll. Discuss on our [155]WP Forum
+
+References
+
+   1. http://www.bytemining.com/feed/
+   2. http://www.bytemining.com/feed/atom/
+   3. http://www.bytemining.com/comments/feed/
+   4. http://www.bytemining.com/feed/
+   5. http://www.bytemining.com/2016/02/its-been-a-while/
+   6. http://www.cikm2013.org/
+   7. https://www.facebook.com/academics/posts/591070350944376
+   8. http://conferences.oreilly.com/strata/strata2014
+   9. https://www.youtube.com/watch?v=y3ZTKFZ-1QQ
+  10. http://www.sfgate.com/business/networth/article/Tech-wages-rents-still-soaring-in-Bay-Area-6671315.php
+  11. http://sanfrancisco.cbslocal.com/2014/04/04/zillow-55-of-bay-area-homes-not-affordable-prices-rising-beyond-historic-highs/
+  12. http://www.visitmammoth.com/
+  13. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_3d8ee5a678087317c7dc6a1672949b46_RT_80.jpg
+  14. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_e7511b735f573cdd704c3bd8fd188b5c_RT_80.jpg
+  15. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_2d9a2270215537923bbd658bcb00eaeb_RT_80.jpg
+  16. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_7d08784705547a9427be19ca9755f0bc_RT_80.jpg
+  17. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_e643a6bb89b3ff2e1f57fa69ac448e73_RT_80.jpg
+  18. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_6c59522b41388c2b105eae5ca02d3069_RT_80.jpg
+  19. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_12a2816b55f750a1b0dd7cd2b37255ca_RT_80.jpg
+  20. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_ec605250ebabf485a2306991938de1fc_RT_80.jpg
+  21. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_403e884470d3f77a3ce3fb19127a1139_RT_80.jpg
+  22. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_a4d31ef70bd228ff78a94b42d01062f6_RT_80.jpg
+  23. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_96950bee675fa7f14c1636564e7c36f8_RT_80.jpg
+  24. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_5670cdd18e73998d7ebc1d6034f9987d_RT_80.jpg
+  25. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_89bf58cdefdb2d1953cb59d7bf4e1ff8_RT_80.jpg
+  26. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_ee5ed285fcd828c3ec4b8987b3ae4e70_RT_80.jpg
+  27. http://www.bytemining.com/wp-content/plugins/global-gallery/cache/gg_watermarked_a7470ec4c311488a1ce61d7b318adf70_RT_80.jpg
+  28. http://www.bytemining.com/category/thoughts/
+  29. http://www.bytemining.com/2016/02/its-been-a-while/#respond
+  30. http://www.bytemining.com/2013/02/summary-of-my-first-trip-to-strata-strataconf/
+  31. http://www.bytemining.com/category/data-mining/bigdata/ec2/
+  32. http://www.bytemining.com/category/data-mining/bigdata/
+  33. http://www.bytemining.com/category/conferences/
+  34. http://www.bytemining.com/category/data-mining/
+  35. http://www.bytemining.com/category/data-mining/bigdata/mapreduce/hadoop/
+  36. http://www.bytemining.com/category/machine-learning/
+  37. http://www.bytemining.com/category/data-mining/bigdata/mapreduce/
+  38. http://www.bytemining.com/category/machine-learning/natural-language-processing/
+  39. http://www.bytemining.com/category/languages/
+  40. http://www.bytemining.com/category/languages/python/
+  41. http://www.bytemining.com/category/stats_and_comp/r/
+  42. http://www.bytemining.com/category/stats_and_comp/
+  43. http://www.bytemining.com/category/web-mining/
+  44. http://www.bytemining.com/2013/02/summary-of-my-first-trip-to-strata-strataconf/#comments
+  45. http://www.bytemining.com/2012/12/merry-christmas-and-happy-holidays/
+  46. http://www.bytemining.com/category/uncategorized/
+  47. http://www.bytemining.com/2012/12/merry-christmas-and-happy-holidays/#respond
+  48. http://www.bytemining.com/2012/10/a-new-data-toy-unboxing-the-raspberry-pi/
+  49. http://www.bytemining.com/category/startups/
+  50. http://www.bytemining.com/category/stats_and_comp/
+  51. http://www.bytemining.com/2012/10/a-new-data-toy-unboxing-the-raspberry-pi/#comments
+  52. http://www.bytemining.com/2012/08/adventures-at-my-first-jsm-joint-statistical-meetings-jsm2012/
+  53. http://www.bytemining.com/category/data-mining/bigdata/
+  54. http://www.bytemining.com/category/conferences/
+  55. http://www.bytemining.com/category/data-mining/
+  56. http://www.bytemining.com/category/stats_and_comp/r/
+  57. http://www.bytemining.com/category/stats_and_comp/
+  58. http://www.bytemining.com/2012/08/adventures-at-my-first-jsm-joint-statistical-meetings-jsm2012/#comments
+  59. http://www.bytemining.com/2012/07/openpaths-and-a-progressive-approach-to-privacy/
+  60. http://www.bytemining.com/category/data-mining/
+  61. http://www.bytemining.com/category/geospatial/
+  62. http://www.bytemining.com/category/startups/
+  63. http://www.bytemining.com/category/web-mining/
+  64. http://www.bytemining.com/2012/07/openpaths-and-a-progressive-approach-to-privacy/#comments
+  65. http://www.bytemining.com/2012/05/siam-data-mining-2012-conference/
+  66. http://www.bytemining.com/category/algorithms/
+  67. http://www.bytemining.com/category/data-mining/
+  68. http://www.bytemining.com/category/machine-learning/
+  69. http://www.bytemining.com/category/machine-learning/natural-language-processing/
+  70. http://www.bytemining.com/2012/05/siam-data-mining-2012-conference/#comments
+  71. http://www.bytemining.com/2012/03/my-interview-about-the-statistics-major/
+  72. http://www.bytemining.com/category/uncategorized/
+  73. http://www.bytemining.com/2012/03/my-interview-about-the-statistics-major/#comments
+  74. http://www.bytemining.com/2012/01/hold-only-that-pair-of-2s-studying-a-video-poker-hand-with-r/
+  75. http://www.bytemining.com/category/algorithms/
+  76. http://www.bytemining.com/category/stats_and_comp/r/
+  77. http://www.bytemining.com/category/stats_and_comp/
+  78. http://www.bytemining.com/2012/01/hold-only-that-pair-of-2s-studying-a-video-poker-hand-with-r/#comments
+  79. http://www.bytemining.com/2011/12/merry-christmas-2011-from-byte-mining/
+  80. http://www.bytemining.com/category/uncategorized/
+  81. http://www.bytemining.com/2011/12/merry-christmas-2011-from-byte-mining/#respond
+  82. http://www.bytemining.com/page/2/
+  83. http://www.bytemining.com/about-ryan/
+  84. http://www.bytemining.com/contact-ryan/
+  85. https://twitter.com/DataJunkie
+  86. http://www.bytemining.com/2011/03/my-first-few-days-with-rstudio/
+  87. http://www.bytemining.com/2011/08/hadoop-fatigue-alternatives-to-hadoop/
+  88. http://www.bytemining.com/2010/05/hitting-the-big-data-ceiling-in-r/
+  89. http://www.bytemining.com/category/algorithms/
+  90. http://www.bytemining.com/category/conferences/
+  91. http://www.bytemining.com/category/data-mining/
+  92. http://www.bytemining.com/category/data-mining/bigdata/
+  93. http://www.bytemining.com/category/data-mining/bigdata/ec2/
+  94. http://www.bytemining.com/category/data-mining/bigdata/mapreduce/
+  95. http://www.bytemining.com/category/data-mining/bigdata/mapreduce/hadoop/
+  96. http://www.bytemining.com/category/dbs/
+  97. http://www.bytemining.com/category/dbs/nosql/
+  98. http://www.bytemining.com/category/dbs/nosql/mongodb/
+  99. http://www.bytemining.com/category/geospatial/
+ 100. http://www.bytemining.com/category/latex/
+ 101. http://www.bytemining.com/category/machine-learning/
+ 102. http://www.bytemining.com/category/machine-learning/natural-language-processing/
+ 103. http://www.bytemining.com/category/languages/
+ 104. http://www.bytemining.com/category/languages/python/
+ 105. http://www.bytemining.com/category/startups/
+ 106. http://www.bytemining.com/category/stats_and_comp/
+ 107. http://www.bytemining.com/category/stats_and_comp/r/
+ 108. http://www.bytemining.com/category/thoughts/
+ 109. http://www.bytemining.com/category/uncategorized/
+ 110. http://www.bytemining.com/category/web-mining/
+ 111. http://www.bytemining.com/2016/02/
+ 112. http://www.bytemining.com/2013/02/
+ 113. http://www.bytemining.com/2012/12/
+ 114. http://www.bytemining.com/2012/10/
+ 115. http://www.bytemining.com/2012/08/
+ 116. http://www.bytemining.com/2012/07/
+ 117. http://www.bytemining.com/2012/05/
+ 118. http://www.bytemining.com/2012/03/
+ 119. http://www.bytemining.com/2012/01/
+ 120. http://www.bytemining.com/2011/12/
+ 121. http://www.bytemining.com/2011/11/
+ 122. http://www.bytemining.com/2011/09/
+ 123. http://www.bytemining.com/2011/08/
+ 124. http://www.bytemining.com/2011/06/
+ 125. http://www.bytemining.com/2011/05/
+ 126. http://www.bytemining.com/2011/04/
+ 127. http://www.bytemining.com/2011/03/
+ 128. http://www.bytemining.com/2011/02/
+ 129. http://www.bytemining.com/2011/01/
+ 130. http://www.bytemining.com/2010/12/
+ 131. http://www.bytemining.com/2010/11/
+ 132. http://www.bytemining.com/2010/10/
+ 133. http://www.bytemining.com/2010/09/
+ 134. http://www.bytemining.com/2010/08/
+ 135. http://www.bytemining.com/2010/07/
+ 136. http://www.bytemining.com/2010/06/
+ 137. http://www.bytemining.com/2010/05/
+ 138. http://www.bytemining.com/2010/04/
+ 139. http://www.bytemining.com/2010/03/
+ 140. http://www.bytemining.com/2010/02/
+ 141. http://www.bytemining.com/2010/01/
+ 142. http://www.bytemining.com/wp-login.php
+ 143. http://www.bytemining.com/feed/
+ 144. http://www.bytemining.com/comments/feed/
+ 145. https://wordpress.org/
+ 146. http://www.dataists.com/
+ 147. http://www.flowingdata.com/
+ 148. http://www.r-bloggers.com/
+ 149. http://www.StatisticsBlog.com/
+ 150. http://www3.clustrmaps.com/counter/maps.php?url=http://www.bytemining.com
+ 151. http://www.stat.ucla.edu/~rosario
+ 152. http://wordpress.org/
+ 153. http://wordpress.bytesforall.com/
+ 154. http://www.bytesforall.com/
+ 155. http://forum.bytesforall.com/

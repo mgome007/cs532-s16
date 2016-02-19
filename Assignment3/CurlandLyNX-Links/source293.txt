@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	
+			
+	
+	<link rel="pingback" href="http://hawspets.org/xmlrpc.php" />
+
+		<!--[if lt IE 9]>
+	<script src="http://hawspets.org/wp-content/themes/Divi/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Humane Animal Welfare Society | Waukesha County Animal Shelter</title>
+<meta name="description" content="The Humane Animal Welfare Society | Waukesha County Animal Shelter leads the community in animal welfare and assures sanctuary for animals in need."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://hawspets.org/" />
+<link rel="publisher" href="https://plus.google.com/+HawsWaukeshaPets1965/posts"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Humane Animal Welfare Society | Waukesha County Animal Shelter" />
+<meta property="og:description" content="The Humane Animal Welfare Society | Waukesha County Animal Shelter leads the community in animal welfare and assures sanctuary for animals in need." />
+<meta property="og:url" content="http://hawspets.org/" />
+<meta property="og:site_name" content="Humane Animal Welfare Society" />
+<meta property="og:image" content="http://hawspets.org/wp-content/uploads/2015/01/DEV_CompanionCircle_logo-wtext_103x97.jpg" />
+<meta property="og:image" content="http://hawspets.org/wp-content/uploads/2015/02/Untitled-design-5.png" />
+<meta property="og:image" content="http://hawspets.org/wp-content/uploads/2015/01/1658ede-e1438283625547.jpg" />
+<meta property="og:image" content="http://hawspets.org/wp-content/uploads/2015/02/HAWSLogo_1965-2002_141x155.jpg" />
+<meta property="og:image" content="http://hawspets.org/wp-content/uploads/2015/01/PAW-e1440632698161.png" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="The Humane Animal Welfare Society | Waukesha County Animal Shelter leads the community in animal welfare and assures sanctuary for animals in need."/>
+<meta name="twitter:title" content="Humane Animal Welfare Society | Waukesha County Animal Shelter"/>
+<meta name="twitter:site" content="@HAWS_Waukesha"/>
+<meta name="twitter:image" content="http://hawspets.org/wp-content/uploads/2015/01/DEV_CompanionCircle_logo-wtext_103x97.jpg"/>
+<meta name="twitter:creator" content="@HAWS_Waukesha"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/hawspets.org\/","name":"Humane Animal Welfare Society","alternateName":"HAWS","potentialAction":{"@type":"SearchAction","target":"http:\/\/hawspets.org\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/hawspets.org\/","sameAs":["https:\/\/www.facebook.com\/Humane-Animal-Welfare-Society-HAWS-of-Waukesha-80865767710\/timeline\/","https:\/\/www.linkedin.com\/groups\/HAWS-Humane-Animal-Welfare-Society-2686068\/about","https:\/\/plus.google.com\/+HawsWaukeshaPets1965\/posts","https:\/\/www.youtube.com\/channel\/UCBYKWiK0c4RYZuH9EMm37iA","https:\/\/twitter.com\/HAWS_Waukesha"],"name":"Humane Animal Welfare Society","logo":"http:\/\/hawspets.org\/wp-content\/uploads\/2015\/01\/HAWS-logo_358x123.png"}</script>
+<meta name="msvalidate.01" content="727E29B83C18F84593F4077991EC7F17" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Humane Animal Welfare Society &raquo; Feed" href="http://hawspets.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Humane Animal Welfare Society &raquo; Comments Feed" href="http://hawspets.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Humane Animal Welfare Society &raquo; Home Comments Feed" href="http://hawspets.org/home/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/hawspets.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<meta content="Divi v.2.3" name="generator"/><style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='slideshow2-css'  href='http://hawspets.org/wp-content/plugins/blip-slideshow/Slideshow/css/slideshow.css?ver=1.3.1.110417' type='text/css' media='all' />
+<link rel='stylesheet' id='et-gf-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='et_monarch-css-css'  href='http://hawspets.org/wp-content/plugins/monarch/css/style.css?ver=1.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='seamless_donations_css-css'  href='http://hawspets.org/wp-content/plugins/seamless-donations/css/styles.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,700,800&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='et-gf-nunito-css'  href='http://fonts.googleapis.com/css?family=Nunito:400,300,700&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='et-gf-droid-sans-css'  href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css'  href='http://hawspets.org/wp-content/themes/Divi/style.css?ver=2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='et-shortcodes-css-css'  href='http://hawspets.org/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='et-shortcodes-responsive-css-css'  href='http://hawspets.org/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes_responsive.css?ver=3.0' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal enabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-40385027-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/blip-slideshow/blip.js?ver=1.2.7'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/blip-slideshow/Slideshow/js/mootools-1.3.1-core.js?ver=1.3.1'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/blip-slideshow/Slideshow/js/mootools-1.3.1.1-more.js?ver=1.3.1.1'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/blip-slideshow/Slideshow/js/slideshow.js?ver=1.3.1.110417'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/blip-slideshow/Slideshow/js/slideshow.flash.js?ver=1.3.1.110417'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/blip-slideshow/Slideshow/js/slideshow.fold.js?ver=1.3.1.110417'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/blip-slideshow/Slideshow/js/slideshow.kenburns.js?ver=1.3.1.110417'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/blip-slideshow/Slideshow/js/slideshow.push.js?ver=1.3.1.110417'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/blip-slideshow/blip-mootools.js?ver=1.2.7'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dgxDonateAjax = {"ajaxurl":"http:\/\/hawspets.org\/wp-admin\/admin-ajax.php","nonce":"aa250c7560","postalCodeRequired":["AU","AT","BE","BR","CA","CN","CZ","DK","FO","FI","FR","DE","GR","GL","HU","IN","ID","IT","JP","KR","LI","LU","MY","MX","MC","NL","NO","PH","PL","PT","RU","SZ","ZA","ES","SE","CH","TH","TR","SG","GB","US"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/seamless-donations/js/script.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/seamless-donations/legacy/js/geo-selects.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/seamless-donations/js/paypalstd-script.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dgxDonateAjax = {"ajaxurl":"http:\/\/hawspets.org\/wp-admin\/admin-ajax.php","nonce":"aa250c7560","postalCodeRequired":["AU","AT","BE","BR","CA","CN","CZ","DK","FO","FI","FR","DE","GR","GL","HU","IN","ID","IT","JP","KR","LI","LU","MY","MX","MC","NL","NO","PH","PL","PT","RU","SZ","ZA","ES","SE","CH","TH","TR","SG","GB","US"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/seamless-donations/js/seamless-donations.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://hawspets.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://hawspets.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://hawspets.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel='shortlink' href='http://hawspets.org/' />
+<script>
+			jQuery(document).ready(function() {
+                                // expand-content-link renamed to expand-cnt-link for compatibility with twentyfourteen theme
+				jQuery(".expand-content-link").removeClass("expand-content-link").addClass("expand-cnt-link");
+				jQuery(".expand-cnt-link").click(function() {
+					jQuery(this).toggleClass("ecf_closed").parent(".exp-col-content-holder").find(".hidden-content").first().stop().slideToggle("slow").css("display","block");
+					return false;
+				});	
+				jQuery(".expand-cnt-link").toggleClass("ecf_closed").parent(".exp-col-content-holder").find(".hidden-content").css("display","none");
+			
+			//images with no float styles , get floated left
+			if(typeof jQuery(".hidden-content > img").attr("float") === "undefined") {
+				jQuery(".hidden-content > img:not([class])").addClass("alignleft");
+			}
+			
+			/*
+			jQuery(".hidden-content").each(function() {
+				if (jQuery(this).find("img").length) {
+					var hiddenContentpLength = jQuery(this).find(".hiddenContentp").text().length;
+						if( hiddenContentpLength < 200 ) {
+							jQuery(this).css("height","150px");
+						}
+				}
+			});
+			*/
+			
+			jQuery(".textwidget > .exp-col-content-holder > .hidden-content > img+p").attr("style","display:inherit !important;");
+			
+			});
+				</script><style>
+			.expand-cnt-link { font-weight:bold; display:block; margin-bottom:.5em; }
+			.expand-cnt-link:before { font-family: "ecf-icons"; content: "\e601  ";  font-size:16px; }
+			.hidden-content { display:block; vertical-align:top}
+			.exp-col-content-holder { margin:15px 0px 15px 0 !important; }
+			.exp-col-content-holder a { display:inline; }
+			.exp-col-content-holder+p, .exp-col-content-holder img+p, .expand-cnt-link+p { display:none !important; }
+			.ecf_closed:before { font-family: "ecf-icons"; content: "\e600  ";  font-size:16px; }
+			.hiddenContentp { margin:0 !important; }
+			.hiddenContentp+p { display:none;}
+			.hidden-content img { width:20%; }
+			.hidden-content img.alignright { margin-right:0 !important; margin-left:10px; margin-bottom:0px; }
+			.hidden-content img.alignleft { margin-left:0 !important; margin-right:10px; margin-bottom:0px; }
+			.hidden-content .videoWrapper+p { margin-bottom:0; }
+			@font-face {
+				font-family: "ecf-icons";
+				src: url("fonts/ecf-icons.eot");
+			}
+			@font-face {
+				font-family: "ecf-icons";
+				src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg6v8ysAAAC8AAAAYGNtYXDL8hqdAAABHAAAADxnYXNwAAAAEAAAAVgAAAAIZ2x5ZpFu6gUAAAFgAAABZGhlYWT+7sbiAAACxAAAADZoaGVhBigD3wAAAvwAAAAkaG10eAbbADMAAAMgAAAAEGxvY2EAvABeAAADMAAAAAptYXhwAAcAOAAAAzwAAAAgbmFtZUPPHeQAAANcAAABS3Bvc3QAAwAAAAAEqAAAACAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACDmAQPA/8D/wAPAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACACDmAf//AAAAIOYA////4RoCAAEAAAAAAAAAAQAB//8ADwABAAAAAAAAAAAAAgAANzkBAAAAAAIABwC+Ai8C+QAaADUAAAEUBwEGIyIvASY1ND8BJyY1ND8BNjMyFwEWFTMUBwEGIyIvASY1ND8BJyY1ND8BNjMyFwEWFQFUBv72BgcIBR0GBuHhBgYdBQgHBgEKBtsF/vUFCAcGHAYG4OAGBhwGBwgFAQsFAdsHBv72BgYdBQgHBuDhBgcIBR0GBv72BggHBv72BgYdBQgHBuDhBgcIBR0GBv72BggAAAIALAD1AmYDHQAaADUAAAEUBwEGIyInASY1ND8BNjMyHwE3NjMyHwEWFTUUBwEGIyInASY1ND8BNjMyHwE3NjMyHwEWFQJmBf71BQgHBv72BgYcBgcIBuDhBQgHBh0FBf71BQgHBv72BgYcBgcIBuDhBQgHBh0FAhIHBv72BgYBCgYHCAUdBgbh4QYGHQUI3AgF/vUFBQELBQgHBhwGBuDgBgYcBgcAAAEAAAABAADFBlcuXw889QALBAAAAAAAzrVBZAAAAADOtUFkAAAAAAJmAx0AAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAAAaAmYAAQAAAAAAAAAAAAAAAAAAAAQAAAAAAgAAAAJJAAcCkgAsAAAAAAAKAF4AsgAAAAEAAAAEADYAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAOAK4AAQAAAAAAAQASAAAAAQAAAAAAAgAOAFUAAQAAAAAAAwASACgAAQAAAAAABAASAGMAAQAAAAAABQAWABIAAQAAAAAABgAJADoAAQAAAAAACgAoAHUAAwABBAkAAQASAAAAAwABBAkAAgAOAFUAAwABBAkAAwASACgAAwABBAkABAASAGMAAwABBAkABQAWABIAAwABBAkABgASAEMAAwABBAkACgAoAHUAZQBjAGYALQBpAGMAbwBuAHMAVgBlAHIAcwBpAG8AbgAgADAALgAwAGUAYwBmAC0AaQBjAG8AbgBzZWNmLWljb25zAGUAYwBmAC0AaQBjAG8AbgBzAFIAZQBnAHUAbABhAHIAZQBjAGYALQBpAGMAbwBuAHMARwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format("truetype"),
+					 url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAUUAAsAAAAABMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDq/zK2NtYXAAAAFoAAAAPAAAADzL8hqdZ2FzcAAAAaQAAAAIAAAACAAAABBnbHlmAAABrAAAAWQAAAFkkW7qBWhlYWQAAAMQAAAANgAAADb+7sbiaGhlYQAAA0gAAAAkAAAAJAYoA99obXR4AAADbAAAABAAAAAQBtsAM2xvY2EAAAN8AAAACgAAAAoAvABebWF4cAAAA4gAAAAgAAAAIAAHADhuYW1lAAADqAAAAUsAAAFLQ88d5HBvc3QAAAT0AAAAIAAAACAAAwAAAAMEAAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAg5gEDwP/A/8ADwABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAMAAAAUAAMAAQAAABQABAAoAAAABgAEAAEAAgAg5gH//wAAACDmAP///+EaAgABAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAACAAcAvgIvAvkAGgA1AAABFAcBBiMiLwEmNTQ/AScmNTQ/ATYzMhcBFhUzFAcBBiMiLwEmNTQ/AScmNTQ/ATYzMhcBFhUBVAb+9gYHCAUdBgbh4QYGHQUIBwYBCgbbBf71BQgHBhwGBuDgBgYcBgcIBQELBQHbBwb+9gYGHQUIBwbg4QYHCAUdBgb+9gYIBwb+9gYGHQUIBwbg4QYHCAUdBgb+9gYIAAACACwA9QJmAx0AGgA1AAABFAcBBiMiJwEmNTQ/ATYzMh8BNzYzMh8BFhU1FAcBBiMiJwEmNTQ/ATYzMh8BNzYzMh8BFhUCZgX+9QUIBwb+9gYGHAYHCAbg4QUIBwYdBQX+9QUIBwb+9gYGHAYHCAbg4QUIBwYdBQISBwb+9gYGAQoGBwgFHQYG4eEGBh0FCNwIBf71BQUBCwUIBwYcBgbg4AYGHAYHAAABAAAAAQAAxQZXLl8PPPUACwQAAAAAAM61QWQAAAAAzrVBZAAAAAACZgMdAAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAAGgJmAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAIAAAACSQAHApIALAAAAAAACgBeALIAAAABAAAABAA2AAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEAEgAAAAEAAAAAAAIADgBVAAEAAAAAAAMAEgAoAAEAAAAAAAQAEgBjAAEAAAAAAAUAFgASAAEAAAAAAAYACQA6AAEAAAAAAAoAKAB1AAMAAQQJAAEAEgAAAAMAAQQJAAIADgBVAAMAAQQJAAMAEgAoAAMAAQQJAAQAEgBjAAMAAQQJAAUAFgASAAMAAQQJAAYAEgBDAAMAAQQJAAoAKAB1AGUAYwBmAC0AaQBjAG8AbgBzAFYAZQByAHMAaQBvAG4AIAAwAC4AMABlAGMAZgAtAGkAYwBvAG4Ac2VjZi1pY29ucwBlAGMAZgAtAGkAYwBvAG4AcwBSAGUAZwB1AGwAYQByAGUAYwBmAC0AaQBjAG8AbgBzAEcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format("woff");
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			[class^="ecf-icon-"], [class*=" ecf-icon-"] {
+				font-family: "ecf-icons";
+				speak: none;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				line-height: 1;
+
+				/* Better Font Rendering =========== */
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+			.videoWrapper {
+				position: relative;
+				padding-bottom: 56.25%; /* 16:9 */
+				padding-top: 25px;
+				height: 0;
+			}
+			.videoWrapper iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		</style><style type="text/css" id="et-social-custom-css">
+				 
+			</style><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />	<style>
+		a { color: #2EA3F2; }
+
+		body { color: #666666; }
+
+		.et_pb_counter_amount, .et_pb_featured_table .et_pb_pricing_heading, .et_quote_content, .et_link_content, .et_audio_content { background-color: #18a33f; }
+
+		#main-header, #main-header .nav li ul, .et-search-form, #main-header .et_mobile_menu { background-color: #ffffff; }
+
+		#top-header, #et-secondary-nav li ul { background-color: #18a33f; }
+
+		.woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce-message, .woocommerce-error, .woocommerce-info { background: #18a33f !important; }
+
+		#et_search_icon:hover, .mobile_menu_bar:before, .footer-widget h4, .et-social-icon a:hover, .comment-reply-link, .form-submit input, .et_pb_sum, .et_pb_pricing li a, .et_pb_pricing_table_button, .et_overlay:before, .entry-summary p.price ins, .woocommerce div.product span.price, .woocommerce-page div.product span.price, .woocommerce #content div.product span.price, .woocommerce-page #content div.product span.price, .woocommerce div.product p.price, .woocommerce-page div.product p.price, .woocommerce #content div.product p.price, .woocommerce-page #content div.product p.price, .et_pb_member_social_links a:hover { color: #18a33f !important; }
+
+		.woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before, .et_pb_widget li a:hover, .et_pb_bg_layout_light .et_pb_promo_button, .et_pb_bg_layout_light .et_pb_more_button, .et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active, .et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active, .et_pb_gallery .et_pb_gallery_pagination ul li a.active, .wp-pagenavi span.current, .wp-pagenavi a:hover, .et_pb_contact_submit, .et_password_protected_form .et_submit_button, .et_pb_bg_layout_light .et_pb_newsletter_button, .nav-single a, .posted_in a { color: #18a33f !important; }
+
+		.et-search-form, .nav li ul, .et_mobile_menu, .footer-widget li:before, .et_pb_pricing li:before, blockquote { border-color: #18a33f; }
+
+		#main-footer { background-color: #222222; }
+
+		#top-menu a { color: #666666; }
+
+		#top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a, .bottom-nav li.current-menu-item > a { color: #2EA3F2; }
+
+	h1, h2, h3, h4, h5, h6 { font-family: 'Nunito', Helvetica, Arial, Lucida, sans-serif; }body, input, textarea, select { font-family: 'Droid Sans', Helvetica, Arial, Lucida, sans-serif; }	</style>
+<link rel="shortcut icon" href="http://haws.fuelwebmedia.com/wp-content/uploads/2015/02/Paw-Vector_vectorized.png" /><style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://haws.fuelwebmedia.com/wp-content/uploads/2015/06/haws-wallpaper.jpg'); background-repeat: no-repeat; background-position: top center; background-attachment: fixed; }
+</style>
+<meta name="google-site-verification" content="cy6MNRKVFteg5kqIAqi-l5F6pT43d-rUe6YfdFkqgCM" />
+
+<meta name="msvalidate.01" content="727E29B83C18F84593F4077991EC7F17" />
+
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="http://4348454.fls.doubleclick.net/activityi;src=4348454;type=invmedia;cat=3wwqtr18;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="http://4348454.fls.doubleclick.net/activityi;src=4348454;type=invmedia;cat=3wwqtr18;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+
+<!-- BEGIN GADWP v4.9.1.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-40385027-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+<style type="text/css" id="et-custom-css">
+.et_fixed_nav #logo { max-height: 120px; margin-bottom: 10px; }
+.et-fixed-header #logo { max-height: 50px; }
+
+.et_color_scheme_green .et_pb_counter_amount, .et_color_scheme_green .et_pb_featured_table .et_pb_pricing_heading, .et_color_scheme_green #top-header {
+background: none repeat scroll 0 0 #006545 !important;
+}
+
+.et_color_scheme_green a { color: #006545; }
+
+
+.et_color_scheme_green .et_pb_counter_amount, .et_color_scheme_green .et_pb_featured_table .et_pb_pricing_heading, .et_color_scheme_green #top-header { background: #006545 !important; }
+
+.et_color_scheme_green.woocommerce a.button.alt, .et_color_scheme_green.woocommerce-page a.button.alt, .et_color_scheme_green.woocommerce button.button.alt, .et_color_scheme_green.woocommerce-page button.button.alt, .et_color_scheme_green.woocommerce input.button.alt, .et_color_scheme_green.woocommerce-page input.button.alt, .et_color_scheme_green.woocommerce #respond input#submit.alt, .et_color_scheme_green.woocommerce-page #respond input#submit.alt, .et_color_scheme_green.woocommerce #content input.button.alt, .et_color_scheme_green.woocommerce-page #content input.button.alt, .et_color_scheme_green.woocommerce a.button, .et_color_scheme_green.woocommerce-page a.button, .et_color_scheme_green.woocommerce button.button, .et_color_scheme_green.woocommerce-page button.button, .et_color_scheme_green.woocommerce input.button, .et_color_scheme_green.woocommerce-page input.button, .et_color_scheme_green.woocommerce #respond input#submit, .et_color_scheme_green.woocommerce-page #respond input#submit, .et_color_scheme_green.woocommerce #content input.button, .et_color_scheme_green.woocommerce-page #content input.button, .et_color_scheme_green .woocommerce-message, .et_color_scheme_green .woocommerce-error, .et_color_scheme_green .woocommerce-info { background: #006545 !important; }
+
+.et_color_scheme_green #et_search_icon:hover, .et_color_scheme_green .mobile_menu_bar:before, .et_color_scheme_green .footer-widget h4, .et_color_scheme_green .et_pb_sum, .et_color_scheme_green .et_pb_pricing li a, .et_color_scheme_green .et_pb_pricing_table_button, .et_color_scheme_green .comment-reply-link, .et_color_scheme_green .form-submit input, .et_color_scheme_green .et_pb_bg_layout_light .et_pb_newsletter_button, .et_color_scheme_green .et_pb_contact_submit, .et_color_scheme_green .et_pb_bg_layout_light .et_pb_more_button, .et_color_scheme_green .et_pb_bg_layout_light .et_pb_promo_button, .et_color_scheme_green .et_overlay:before, .et_color_scheme_green .entry-summary p.price ins, .et_color_scheme_green.woocommerce div.product span.price, .et_color_scheme_green.woocommerce-page div.product span.price, .et_color_scheme_green.woocommerce #content div.product span.price, .et_color_scheme_green.woocommerce-page #content div.product span.price, .et_color_scheme_green.woocommerce div.product p.price, .et_color_scheme_green.woocommerce-page div.product p.price, .et_color_scheme_green.woocommerce #content div.product p.price, .et_color_scheme_green.woocommerce-page #content div.product p.price, .et_color_scheme_green #top-menu li.current-menu-ancestor > a, .et_color_scheme_green #top-menu li.current-menu-item > a, .et_color_scheme_green .bottom-nav li.current-menu-item > a { color: #006545 !important; }
+
+.et_color_scheme_green .woocommerce .star-rating span:before, .et_color_scheme_green .woocommerce-page .star-rating span:before { color: #006545 !important; }
+
+.et_color_scheme_green .et-search-form, .et_color_scheme_green .nav li ul, .et_color_scheme_green .et_mobile_menu, .et_color_scheme_green .footer-widget li:before, .et_color_scheme_green .et_pb_pricing li:before { border-color: #006545; }
+
+.et_pb_audio_module_content {
+    padding: 0px 10px 0px 10px;
+}
+.et_nav_text_color_light, .et_nav_text_color_light #et-secondary-nav a, .et_nav_text_color_light .et-social-icon a, .et_nav_text_color_light #et-info a {
+    color: rgba(255, 255, 255, 1.6);
+    font-weight: bold;
+}
+.et_pb_section {
+    padding: 20px 0px;
+    position: relative;
+}
+.et_pb_widget_area_right {
+    border-left: 1px solid #838383;
+}
+</style></head>
+<body class="home page page-id-39 page-parent page-template-default custom-background et_monarch et_color_scheme_green et_fixed_nav et_boxed_layout et_cover_background et_secondary_nav_enabled et_secondary_nav_two_panels et_header_style_centered et_pb_pagebuilder_layout et_right_sidebar unknown">
+	<div id="page-container">
+
+			<div id="top-header" class="et_nav_text_color_light">
+			<div class="container clearfix">
+
+			
+				<div id="et-info">
+									<span id="et-info-phone">262-542-8851</span>
+				
+									<a href="mailto:"><span id="et-info-email"></span></a>
+				
+				<ul class="et-social-icons">
+
+	<li class="et-social-icon et-social-facebook">
+		<a href="https://www.facebook.com/pages/Humane-Animal-Welfare-Society-HAWS-of-Waukesha/80865767710" class="icon">
+			<span>Facebook</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-twitter">
+		<a href="https://twitter.com/HAWS_Waukesha" class="icon">
+			<span>Twitter</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-google-plus">
+		<a href="https://plus.google.com/111637304848412784088/posts" class="icon">
+			<span>Google</span>
+		</a>
+	</li>
+
+<li class="et-social-icon et-social-youtube">
+<a href="https://www.youtube.com/channel/UCBYKWiK0c4RYZuH9EMm37iA" class="icon">
+<span>YouTube</span>
+</a>
+</li>
+
+<li class="et-social-icon et-social-linkedin">
+<a href="https://www.linkedin.com/company/10227063" class="icon">
+<span>LinkedIn</span>
+</a>
+</li>
+
+	<li class="et-social-icon et-social-rss">
+		<a href="http://hawspets.org/feed/" class="icon">
+			<span>RSS</span>
+		</a>
+	</li>
+
+</ul>				</div> <!-- #et-info -->
+
+			
+				<div id="et-secondary-menu">
+				<div class="et_duplicate_social_icons">
+								<ul class="et-social-icons">
+
+	<li class="et-social-icon et-social-facebook">
+		<a href="https://www.facebook.com/pages/Humane-Animal-Welfare-Society-HAWS-of-Waukesha/80865767710" class="icon">
+			<span>Facebook</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-twitter">
+		<a href="https://twitter.com/HAWS_Waukesha" class="icon">
+			<span>Twitter</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-google-plus">
+		<a href="https://plus.google.com/111637304848412784088/posts" class="icon">
+			<span>Google</span>
+		</a>
+	</li>
+
+<li class="et-social-icon et-social-youtube">
+<a href="https://www.youtube.com/channel/UCBYKWiK0c4RYZuH9EMm37iA" class="icon">
+<span>YouTube</span>
+</a>
+</li>
+
+<li class="et-social-icon et-social-linkedin">
+<a href="https://www.linkedin.com/company/10227063" class="icon">
+<span>LinkedIn</span>
+</a>
+</li>
+
+	<li class="et-social-icon et-social-rss">
+		<a href="http://hawspets.org/feed/" class="icon">
+			<span>RSS</span>
+		</a>
+	</li>
+
+</ul>
+							</div>				</div> <!-- #et-secondary-menu -->
+
+			</div> <!-- .container -->
+		</div> <!-- #top-header -->
+	
+		<header id="main-header" class="et_nav_text_color_dark">
+			<div class="container clearfix">
+							<a href="http://hawspets.org/">
+					<img src="http://haws.fuelwebmedia.com/wp-content/uploads/2015/01/HAWS-logo_358x123.png" alt="Humane Animal Welfare Society" id="logo" />
+				</a>
+
+				<div id="et-top-navigation">
+					<nav id="top-menu-nav">
+					<ul id="top-menu" class="nav"><li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-39 current_page_item menu-item-41"><a href="http://hawspets.org/">Home</a></li>
+<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-58"><a href="http://hawspets.org/adopt-a-pet/">Adopt</a>
+<ul class="sub-menu">
+	<li id="menu-item-1889" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1889"><a href="/adopt/">Pet Showcase</a></li>
+	<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="http://hawspets.org/adoption-guidelines/">Adoption Guidelines</a></li>
+	<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://hawspets.org/mobile-adoption-center/">Mobile Adoption Center</a></li>
+	<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="http://hawspets.org/rescue-tails/">Rescue Tails</a></li>
+	<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a href="http://hawspets.org/tell-haws-your-story/">Tell HAWS Your Story</a></li>
+	<li id="menu-item-204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204"><a href="http://hawspets.org/tribute-form/">Tribute Form</a></li>
+</ul>
+</li>
+<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-261"><a href="http://hawspets.org/events-and-news/">Events and News</a>
+<ul class="sub-menu">
+	<li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="http://hawspets.org/calendar-of-events/">Calendar of Events</a></li>
+	<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="http://hawspets.org/pet-walk-a-thon/">Pet Walk</a></li>
+	<li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358"><a href="http://hawspets.org/kitten-shower/">Kitten Shower</a></li>
+	<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="http://hawspets.org/haws-pet-fair/">HAWS Pet Fair</a></li>
+	<li id="menu-item-325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a href="http://hawspets.org/ride-for-rover/">Ride for Rover</a></li>
+	<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="http://hawspets.org/annual-haws-fundraiser/">Annual Fall Fundraiser</a></li>
+	<li id="menu-item-361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361"><a href="http://hawspets.org/haws-in-the-news/">HAWS In The News</a></li>
+	<li id="menu-item-464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-464"><a href="http://hawspets.org/haws-blogs/">HAWS Blogs</a></li>
+	<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="http://hawspets.org/tattle-tails-newsletter/">Newsletter</a></li>
+</ul>
+</li>
+<li id="menu-item-501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-501"><a href="http://hawspets.org/programs-and-services/">Programs and Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-504" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-504"><a href="http://hawspets.org/lost-pet/">Lost Pet</a></li>
+	<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="http://hawspets.org/behavior-department/">Behavior Department</a></li>
+	<li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="http://hawspets.org/pet-training-classes-waukesha-wi/">Pet Training Classes</a></li>
+	<li id="menu-item-445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-445"><a href="http://hawspets.org/humane-education/">Humane Education</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2153"><a href="http://hawspets.org/scouts/">Scouts</a></li>
+		<li id="menu-item-2245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2245"><a href="http://hawspets.org/teacher-resources/">Teacher Resources</a></li>
+		<li id="menu-item-2246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2246"><a href="http://hawspets.org/birthday-parties/">Birthday Parties</a></li>
+		<li id="menu-item-2692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2692"><a href="http://hawspets.org/spring-seminar/">Spring Seminar</a></li>
+		<li id="menu-item-2691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2691"><a href="http://hawspets.org/kids-clubs/">Kids Clubs</a>
+		<ul class="sub-menu">
+			<li id="menu-item-2152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2152"><a href="http://hawspets.org/haws-ace/">HAWS Ace</a></li>
+			<li id="menu-item-2151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2151"><a href="http://hawspets.org/critter-club/">Critter Club</a></li>
+			<li id="menu-item-2150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2150"><a href="http://hawspets.org/khaws/">KHAWS</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-3085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3085"><a href="http://hawspets.org/kids-n-critters-summer-camp/">Kids &#8216;N Critters Summer Camp</a></li>
+	<li id="menu-item-894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-894"><a href="http://hawspets.org/spay-and-neuter-program/">Spay and Neuter Program</a></li>
+	<li id="menu-item-1642" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1642"><a href="http://hawspets.org/surrender-a-pet/">Surrender a Pet</a></li>
+	<li id="menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-903"><a href="http://hawspets.org/links-and-resources/">Links and Resources</a></li>
+	<li id="menu-item-906" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-906"><a href="http://hawspets.org/wildlife/">Wildlife</a></li>
+</ul>
+</li>
+<li id="menu-item-920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-920"><a href="http://hawspets.org/get-involved/">Get Involved- Volunteer</a>
+<ul class="sub-menu">
+	<li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805"><a href="http://hawspets.org/become-a-member/">Become A Member</a></li>
+	<li id="menu-item-968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-968"><a href="http://hawspets.org/business-partners/">Business Partners</a></li>
+	<li id="menu-item-1616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1616"><a href="http://hawspets.org/caring-kids-for-haws/">Caring Kids  &#8211; 2016 Honorees!</a></li>
+	<li id="menu-item-1111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1111"><a href="http://hawspets.org/executive-director-blog/">Executive Director Blog</a></li>
+	<li id="menu-item-1112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1112"><a href="http://hawspets.org/report-animal-abuse/">Report Abuse</a></li>
+	<li id="menu-item-915" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-915"><a href="http://hawspets.org/other-ways-to-help/">Other Ways to Help</a></li>
+	<li id="menu-item-1043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1043"><a href="http://hawspets.org/our-jingle-and-ad-campaign/">Our Jingle and Ad Campaign</a></li>
+</ul>
+</li>
+<li id="menu-item-918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-918"><a href="http://hawspets.org/friends-of-haws/">Friends of HAWS</a></li>
+<li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1054"><a href="http://hawspets.org/donate-to-haws/">Ways to Give</a>
+<ul class="sub-menu">
+	<li id="menu-item-2091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2091"><a href="http://hawspets.org/2-step-project/">2-Step Project</a></li>
+	<li id="menu-item-1049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1049"><a href="http://hawspets.org/sponsor-an-event/">Sponsor an Event</a></li>
+	<li id="menu-item-845" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-845"><a href="http://hawspets.org/haws-wish-list/">Wish List</a></li>
+	<li id="menu-item-1113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1113"><a href="http://hawspets.org/bequests-and-other-gifts/">Bequests and Other Gifts</a></li>
+	<li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1108"><a href="http://hawspets.org/annies-fund-the-story/">Annie&#8217;s Fund &#8211; The Story</a></li>
+	<li id="menu-item-1114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1114"><a href="http://hawspets.org/holidays-and-haws/">Holidays and HAWS</a></li>
+</ul>
+</li>
+<li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-45"><a href="http://hawspets.org/about/">About HAWS</a>
+<ul class="sub-menu">
+	<li id="menu-item-1118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1118"><a href="http://hawspets.org/haws-and-the-no-kill-movement/">HAWS and the No-Kill Movement</a></li>
+	<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a href="http://hawspets.org/history/">History</a></li>
+	<li id="menu-item-1738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1738"><a href="http://hawspets.org/haws-facility-expansion-2015-2016/">HAWS FACILITY EXPANSION 2015-2016</a></li>
+	<li id="menu-item-1140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1140"><a href="http://hawspets.org/careers/">Careers</a></li>
+	<li id="menu-item-1149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1149"><a href="http://hawspets.org/board-of-directors/">Board of Directors</a></li>
+	<li id="menu-item-499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-499"><a href="http://hawspets.org/contact-us/">Contact Us</a></li>
+</ul>
+</li>
+</ul>					</nav>
+
+					
+					
+					<div id="et_mobile_nav_menu">
+			<a href="#" class="mobile_nav closed">
+				<span class="select_page">Select Page</span>
+				<span class="mobile_menu_bar"></span>
+			</a>
+		</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+		</header> <!-- #main-header -->
+
+		<div id="et-main-area">
+<div id="main-content">
+
+
+			
+				<article id="post-39" class="post-39 page type-page status-publish hentry">
+
+				
+					<div class="entry-content">
+					<div class="et_pb_section et_section_regular">
+			
+			
+				
+				<div class="et_pb_row">
+			<div class="et_pb_column et_pb_column_1_4">
+			<a href="/ways-to-give/"><img src="http://hawspets.org/wp-content/uploads/2015/01/DONATE-4-e1437504656708.png" alt="The Humane Animal Welfare Society | Waukesha County Animal Shelter" title="Donate to HAWS" class="et-waypoint et_pb_image et_pb_animation_fade_in" /></a><a href="http://hawspets.org/home/haws-rescue/"><img src="http://hawspets.org/wp-content/uploads/2015/01/DONATE-9.jpg" alt="Animal Rescue" title="Animal Rescue" class="et-waypoint et_pb_image et_pb_animation_fade_in" /></a>
+		</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_4">
+			<a href="/adopt/"><img src="http://hawspets.org/wp-content/uploads/2015/01/DONATE-5-e1437504958689.png" alt="Adopt from The Humane Animal Welfare Society" title="Waukesha county Animal Shelter" class="et-waypoint et_pb_image et_pb_animation_fade_in" /></a><a href="/humane-education/"><img src="http://hawspets.org/wp-content/uploads/2015/07/DONATE-10.jpg" alt="Humane Education" title="Humane Education" class="et-waypoint et_pb_image et_pb_animation_fade_in" /></a>
+		</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_4">
+			<a href="/spay-and-neuter-program/"><img src="http://hawspets.org/wp-content/uploads/2015/07/DONATE-6.png" alt="Control the animal population. Spay or Neuter your pet" title="Spay-Neuter" class="et-waypoint et_pb_image et_pb_animation_fade_in" /></a><a href="/calendar-of-events/"><img src="http://hawspets.org/wp-content/uploads/2015/07/EVENTS.jpg" alt="Humane Animal Walefare Society Events" title="Humane Animal Walefare Society Events" class="et-waypoint et_pb_image et_pb_animation_fade_in" /></a>
+		</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_4">
+			<a href="/pet-training-classes/"><img src="http://hawspets.org/wp-content/uploads/2015/01/DONATE-7.png" alt="Pet training at HAWS" title="Pet training at HAWS" class="et-waypoint et_pb_image et_pb_animation_fade_in" /></a><a href="http://hawspets.org/surrender-a-pet/"><img src="http://hawspets.org/wp-content/uploads/2015/07/SURRENDER.jpg" alt="Surrender a pet" title="Surrender A Pet" class="et-waypoint et_pb_image et_pb_animation_fade_in" /></a>
+		</div> <!-- .et_pb_column -->
+		</div> <!-- .et_pb_row -->
+			
+		</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_fullwidth_section et_section_regular" style='background-color:#db6125;'>
+			
+			
+				
+				<section class="et_pb_fullwidth_header et_pb_bg_layout_dark et_pb_text_align_center">
+			<div class="et_pb_row">
+				<h1>The Humane Animal Welfare Society of Waukesha County leads the community in animal welfare and assures sanctuary for animals in need.</h1>
+				<p class="et_pb_fullwidth_header_subhead">- HAWS Mission Statement</p>
+			</div>
+		</section>
+			
+		</div> <!-- .et_pb_section --><div class="et_pb_section et_section_specialty">
+			
+			<div class="et_pb_row">
+				
+				<div class="et_pb_column et_pb_column_3_4">
+			<div class="et_pb_row_inner">
+			<div class="et_pb_column et_pb_column_4_4 et_pb_column_inner">
+			<div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left">
+			
+<h2 style="text-align: center;">WELCOME TO HAWS!</h2>
+<h3 style="text-align: center;">The Humane Animal Welfare Society | Waukesha County Animal Shelter</h3>
+<p><strong><a href="http://hawspets.org/bequests-and-other-gifts/"><img class="alignright size-full wp-image-426" src="http://hawspets.org/wp-content/uploads/2015/01/DEV_CompanionCircle_logo-wtext_103x97.jpg" alt="DEV_CompanionCircle_logo-wtext_103x97" width="103" height="97" /></a></strong>The Humane Animal Welfare Society | Waukesha County Animal Shelter HAWS, is a non-profit organization established in 1965 that assists 8,000 animals each year and welcomes more than 35,000 human visitors annually. As an “open admissions” shelter, we accept animals regardless of age, health, temperament or breed. Our full service humane society offers programs and services that promote responsible pet ownership, preventing animal abuse and neglect in our community and beyond. HAWS promotes the humane care and treatment of all animals, in support of cooperative humane efforts throughout the state of Wisconsin. HAWS is a member of the Wisconsin Federated Humane Societies, and not affiliated with any other local or national humane society. We invite you to explore our site and learn more about us! 
+		</div> <!-- .et_pb_text --><hr class="et_pb_space et_pb_divider" style='border-color: #b2b2b2;' />
+		</div> <!-- .et_pb_column -->
+		</div> <!-- .et_pb_row_inner --><div class="et_pb_row_inner">
+			<div class="et_pb_column et_pb_column_3_8 et_pb_column_inner">
+			<div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left">
+			
+<h2 style="text-align: left;"><strong><span style="color: #993300;"><a style="color: #993300;" href="http://hawspets.org/haws-in-the-news/">NEWS</a> AND <a style="color: #993300;" href="http://hawspets.org/events-and-news/">EVENT</a> HIGHLIGHTS</span></strong></h2>
+
+		</div> <!-- .et_pb_text --><div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left">
+			
+<h3><span style="color: #000000;"><strong>Welcome, 2016:<br />
+HAWS is almost ready to build!</strong></span></h3>
+<p>HAWS&#8217; latest facility expansion campaign has made fantastic progress! We are just $200,000 short of our goal to raise $1.2 million, and hope to raise that last amount quickly so we can break ground this spring. HAWS is committed to make life better for our community&#8217;s pets and their people, and we&#8217;re so grateful for YOUR support.</p>
+<h3><strong>With your help, we can achieve our goal&#8230;SOON!</strong></h3>
+<p><span style="color: #008000;"><strong><a style="color: #008000;" href="http://hawspets.org/donate-to-haws/">YOUR DONATION FOR TODAY</a> </strong><span style="color: #000000;">gives HAWS a strong, stable foundation.</span></span><strong><span style="color: #008000;"> <a style="color: #008000;" href="http://hawspets.org/haws-facility-expansion-2015-2016/">YOUR PLEDGE FOR TOMORROW</a> </span></strong><span style="color: #008000;"><span style="color: #000000;">will help HAWS to continue to meet our community&#8217;s needs and <strong><span style="color: #ff6600;">Build a Society that&#8217;s Humane. <span style="color: #000000;">Please donate today!</span><br />
+</span></strong></span></span></p>
+
+		</div> <!-- .et_pb_text --><a href="http://hawspets.org/haws-facility-expansion-2015-2016/"><img src="http://hawspets.org/wp-content/uploads/2015/01/2015_HAWS_CurrentFacility_homepage.jpg" alt="The Humane Animal Welfare Society | Waukesha County Animal Shelter" title="The Humane Animal Welfare Society (HAWS)" class="et-waypoint et_pb_image et_pb_animation_left" /></a>
+		</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_3_8 et_pb_column_inner">
+			<a href="http://hawspets.org/pet-walk-a-thon/"><img src="http://hawspets.org/wp-content/uploads/2015/02/RnR_SaveTheDateCard.gif" alt="The Humane Animal Welfare Society | Waukesha County Animal Shelter" title="HAWS Romp &#039;n Rally Pet Walk" class="et-waypoint et_pb_image et_pb_animation_bottom" /></a><div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left">
+			
+<h4 style="text-align: left;"><span style="color: #993300;"><strong>READ THE LATEST FROM HAWS&#8217; BLOGS!</strong></span></h4>
+<p style="text-align: left;"><a href="/wp-content/uploads/2015/02/Untitled-design-5.png"><img class=" wp-image-1880 alignleft" src="http://hawspets.org/wp-content/uploads/2015/02/Untitled-design-5.png" alt="Untitled design (5)" width="47" height="47" /></a></p>
+<p style="text-align: left;"><strong> <a href="/executive-director-blog/">Lynn Olenik</a> (Executive Director)</strong></p>
+<p><a href="/wp-content/uploads/2015/01/1658ede-e1438283625547.jpg"><img class=" wp-image-1931 alignleft" src="/wp-content/uploads/2015/01/1658ede-e1438283625547.jpg" alt="1658ede" width="47" height="47" /></a> <strong><a href="http://hawscritterconnection.blogspot.com/" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://hawscritterconnection.blogspot.com/', 'Khris Erickson');">Khris Erickson</a> (Humane Educator)</strong></p>
+<p>&nbsp;</p>
+<p><strong><a href="/wp-content/uploads/2015/02/HAWSLogo_1965-2002_141x155.jpg"><img class=" wp-image-803 alignleft" src="/wp-content/uploads/2015/02/HAWSLogo_1965-2002_141x155.jpg" alt="HAWSLogo_1965-2002_141x155" width="45" height="51" /></a></strong><strong><a href="http://www.waukeshanow.com/blogs/institutionalblogs/50639802.html" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.waukeshanow.com/blogs/institutionalblogs/50639802.html', 'HAWS General Blog on Now.com');">HAWS General Blog on Now.com</a></strong></p>
+<p>&nbsp;</p>
+<p><img class="alignleft size-full wp-image-2179" src="http://hawspets.org/wp-content/uploads/2015/01/PAW-e1440632698161.png" alt="PAW" width="47" height="50" /> <strong><a href="http://hawspets.org/rescue-tails/">Rescue Tails &amp; Success Stories</a></strong></p>
+
+		</div> <!-- .et_pb_text -->
+		</div> <!-- .et_pb_column -->
+		</div> <!-- .et_pb_row_inner --><div class="et_pb_row_inner">
+			<div class="et_pb_column et_pb_column_4_4 et_pb_column_inner">
+			<hr class="et_pb_space et_pb_divider" style='border-color: #d8d8d8;' /><a href="http://hawspets.org/2-step-project/"><img src="http://hawspets.org/wp-content/uploads/2015/01/2-Step-Banner_All-3.jpg" alt="2 Step Project - HAWS Facility Expansion Campaign" title="The Humane Animal Welfare Society Facility Expansion Campaign" class="et-waypoint et_pb_image et_pb_animation_top" /></a>
+		</div> <!-- .et_pb_column -->
+		</div> <!-- .et_pb_row_inner -->
+		</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_4">
+			<div class="et_pb_widget_area et_pb_widget_area_right clearfix et_pb_bg_layout_light">
+			<div id="text-13" class="et_pb_widget widget_text">			<div class="textwidget"><a href="/2-step-project/" target="_blank"><img src="/wp-content/uploads/2015/01/Final-Logo-e1437940502531.jpg" width="194" height="100%"/></a></div>
+		</div> <!-- end .et_pb_widget --><div id="text-2" class="et_pb_widget widget_text"><h4 class="widgettitle">Donate to HAWS Today!</h4>			<div class="textwidget">General donations help us provide shelter 24/7 365 for lost, abandoned, unwanted or stray companion pets.
+</br>
+
+<div align="center"><form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_blank">
+<input name="cmd" value="_s-xclick" type="hidden" /><input name="hosted_button_id" value="31628" type="hidden" /><input name="submit" alt="" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" type="image" />
+<img id="img_1" alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" border="0" height="1" width="1" />
+</form></div></div>
+		</div> <!-- end .et_pb_widget --><div id="text-3" class="et_pb_widget widget_text">			<div class="textwidget"><a href="/adopt" title=""><IMG SRC="/wp-content/uploads/2015/01/adopt-me_190x174.png" WIDTH="200" /></a></div>
+		</div> <!-- end .et_pb_widget --><div id="text-4" class="et_pb_widget widget_text"><h4 class="widgettitle">Special Promotions!</h4>			<div class="textwidget"><p><a href="http://visitor.r20.constantcontact.com/manage/optin/ea?v=001VD4-Imo8CTzbsVxBWZjbrA%3D%3D" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://visitor.r20.constantcontact.com/manage/optin/ea?v=001VD4-Imo8CTzbsVxBWZjbrA%3D%3D', 'Sign up for our Newsletter'); __gaTracker('send', 'event', 'outbound-article', 'http://visitor.r20.constantcontact.com/manage/optin/ea?v=001VD4-Imo8CTzbsVxBWZjbrA%3D%3D', 'Sign up for our Newsletter');" title="" target="_blank"><IMG SRC="/wp-content/uploads/2015/01/News.png" WIDTH="50" align="right" />Sign up for our Newsletter</a></p>
+<p><a href="/mobile-adoption-center/" title=""><IMG SRC="/wp-content/uploads/2015/01/haws_mobile_adoption_vehicle_79x44.jpg" WIDTH="50" align="right" />Mobile Adoptions Center</a></p>
+<p><a href="/home/haws-rescue/" title=""><IMG SRC="/wp-content/uploads/2015/01/HAWS-RESCUE_73x38.jpg" WIDTH="50" align="right"/>HAWS Rescue</a></p>
+</div>
+		</div> <!-- end .et_pb_widget --><div id="text-5" class="et_pb_widget widget_text">			<div class="textwidget"><a href="/humane-education/" title=""><IMG SRC="
+/wp-content/uploads/2015/01/Just-For-Kids.png" WIDTH="200" /></a>
+</div>
+		</div> <!-- end .et_pb_widget --><div id="text-6" class="et_pb_widget widget_text">			<div class="textwidget"><a href="/project-guardian/" title=""><IMG SRC="
+/wp-content/uploads/2015/01/HAWS-guardian_191x54.jpg" WIDTH="200" /></a>
+
+
+</div>
+		</div> <!-- end .et_pb_widget -->
+		</div> <!-- .et_pb_widget_area --><a href="http://hawspets.org/calendar-of-events/"><img src="http://hawspets.org/wp-content/uploads/2015/02/2016_2-21_AdsDogDay_QuickAd.gif" alt="" class="et-waypoint et_pb_image et_pb_animation_off" /></a><a href="http://hawspets.org/friends-of-haws/"><img src="http://hawspets.org/wp-content/uploads/2015/02/2016_2-27_Media-Sale_QuickAd.gif" alt="Friends of HAWS Media Sale 2/27" title="Friends of HAWS Media Sale 2/27" class="et-waypoint et_pb_image et_pb_animation_off" /></a><a href="http://hawspets.org/kids-n-critters-summer-camp/"><img src="http://hawspets.org/wp-content/uploads/2015/01/2016_KnC_Camp_QuickAd2.gif" alt="HAWS&#039; Kids &#039;N Critters Day Camp" title="HAWS&#039; Kids &#039;N Critters Day Camp" class="et-waypoint et_pb_image et_pb_animation_off" /></a>
+		</div> <!-- .et_pb_column -->
+			</div> <!-- .et_pb_row -->
+		</div> <!-- .et_pb_section -->
+					</div> <!-- .entry-content -->
+
+				
+				</article> <!-- .et_pb_post -->
+
+			
+
+</div> <!-- #main-content -->
+
+
+			<footer id="main-footer">
+				
+<div class="container">
+	<div id="footer-widgets" class="clearfix">
+	<div class="footer-widget"><div id="text-8" class="fwidget et_pb_widget widget_text"><h4 class="title">Contact Us</h4>			<div class="textwidget"><strong>Humane Animal Welfare Society (HAWS)</strong></br>
+701 Northview Road</br>
+Waukesha, WI 53188</br>
+</br>
+<strong>Phone:</strong> 262-542-8851</br>
+</br>
+<strong>Viewing/Adopting Hours</strong></br>
+Mon – Fri: 1pm – 6pm</br>
+Saturday: 11am - 4pm</br>
+Sunday: 12pm - 4pm</br>
+</br>
+<strong>Receiving Hours</strong></br>
+Mon – Fri: 9am - 6pm</br>
+Saturday: 9am - 4pm</br>
+Sunday: 12pm - 4pm</br></div>
+		</div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget"><div id="text-9" class="fwidget et_pb_widget widget_text"><h4 class="title">About HAWS</h4>			<div class="textwidget">The Humane Animal Welfare Society of Waukesha County, Wisconsin, is an open admission animal shelter and full service humane society that offers pet adoption and re-homing, dog training, kids camps, spay and neuter programs, education and training, animal rescue and so much more!
+
+Incorporated in 1965, HAWS has grown along with our community, evolving into a vibrant organization and a lively facility that is the #1 resource for pets and their people.
+</br></br>
+HAWS is a 501(c)(3) tax-exempt non-profit organization. | License #267280-DS
+</br></br>
+Member, Wisconsin Federated Humane Societies, Inc.
+</br></br>
+Winner of the 2010 Waukesha County Executive Awards: Large Non-Profit of the Year
+</br></br>
+Inaugural Winner of the "Chamber's Choice Award" presented in 2008 by the Waukesha County Chamber of Commerce and the Small Business Times.</div>
+		</div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget"><div id="text-10" class="fwidget et_pb_widget widget_text"><h4 class="title">Follow Us on Facebook</h4>			<div class="textwidget"><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FHumane-Animal-Welfare-Society-HAWS-of-Waukesha%2F80865767710&amp;width=229&amp;height=500&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=207081249336406" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:229px; height:500px;" allowTransparency="true"></iframe></div>
+		</div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget last">		<div id="recent-posts-2" class="fwidget et_pb_widget widget_recent_entries">		<h4 class="title">Blogging with HAWS</h4>		<ul>
+					<li>
+				<a href="http://hawspets.org/thank-you-for-being-that-special-someone/">Thank you for being that &#8220;Special Someone&#8221;</a>
+						</li>
+					<li>
+				<a href="http://hawspets.org/building-a-no-kill-community/">Building a No-Kill COMMUNITY</a>
+						</li>
+					<li>
+				<a href="http://hawspets.org/we-need-a-little-christmas/">WE NEED A LITTLE CHRISTMAS&#8230;</a>
+						</li>
+					<li>
+				<a href="http://hawspets.org/the-mod-squad-celebrates-its-1000th-graduate/">The Mod Squad Celebrates its 1,000th Graduate!</a>
+						</li>
+					<li>
+				<a href="http://hawspets.org/snickers-gets-a-new-family-friends/">Snickers gets a new family&#8230;&#038; friends!</a>
+						</li>
+				</ul>
+		</div> <!-- end .fwidget -->		</div> <!-- end .footer-widget -->	</div> <!-- #footer-widgets -->
+</div>	<!-- .container -->
+
+		
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<ul class="et-social-icons">
+
+	<li class="et-social-icon et-social-facebook">
+		<a href="https://www.facebook.com/pages/Humane-Animal-Welfare-Society-HAWS-of-Waukesha/80865767710" class="icon">
+			<span>Facebook</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-twitter">
+		<a href="https://twitter.com/HAWS_Waukesha" class="icon">
+			<span>Twitter</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-google-plus">
+		<a href="https://plus.google.com/111637304848412784088/posts" class="icon">
+			<span>Google</span>
+		</a>
+	</li>
+
+<li class="et-social-icon et-social-youtube">
+<a href="https://www.youtube.com/channel/UCBYKWiK0c4RYZuH9EMm37iA" class="icon">
+<span>YouTube</span>
+</a>
+</li>
+
+<li class="et-social-icon et-social-linkedin">
+<a href="https://www.linkedin.com/company/10227063" class="icon">
+<span>LinkedIn</span>
+</a>
+</li>
+
+	<li class="et-social-icon et-social-rss">
+		<a href="http://hawspets.org/feed/" class="icon">
+			<span>RSS</span>
+		</a>
+	</li>
+
+</ul>
+						<p id="footer-info">&copy; <a href="http://hawspets.org" title="Humane Animal Welfare Society of Waukesha County">Humane Animal Welfare Society of Waukesha County</a> | Designed by <a href="http://debralopezpublicrelations.com" title="Debra Lopez Public Relations">DLPR</a> | <a href="/wp-admin">Admin Login</a></p>
+					</div>	<!-- .container -->
+				</div>
+			</footer> <!-- #main-footer -->
+		</div> <!-- #et-main-area -->
+
+
+	</div> <!-- #page-container -->
+
+	<link rel='stylesheet' id='style-name-css'  href='http://hawspets.org/wp-content/plugins/homepage-pop-up/css/mlab_popup.css?ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.2.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monarchSettings = {"ajaxurl":"http:\/\/hawspets.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/hawspets.org\/","stats_nonce":"3416b80073","share_counts":"059b59408d","follow_counts":"2024b42d29","total_counts":"e908768543","media_single":"02d3fec0a7","media_total":"921b2a15dc","generate_all_window_nonce":"484685f93f","no_img_message":"No images available for sharing on this page"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/monarch/js/custom.js?ver=1.2.4'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/themes/Divi/js/jquery.fitvids.js?ver=2.3'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/themes/Divi/js/waypoints.min.js?ver=2.3'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/themes/Divi/js/jquery.magnific-popup.js?ver=2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var et_custom = {"ajaxurl":"http:\/\/hawspets.org\/wp-admin\/admin-ajax.php","images_uri":"http:\/\/hawspets.org\/wp-content\/themes\/Divi\/images","et_load_nonce":"318b3e72c8","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","fill":"Fill","field":"field","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/themes/Divi/js/custom.js?ver=2.3'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://hawspets.org/wp-content/plugins/homepage-pop-up/js/mlab_popup.js?ver=1.0.0'></script>
+</body>
+</html>

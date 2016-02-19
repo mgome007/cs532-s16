@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>JPG - UI/UX Designer 2015</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="assets/js/modernizr.custom.js"></script>
+    
+  </head>
+
+  <body>
+
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">LINK</a></h1>
+			<i class="fa fa-arrow-right menu-close"></i>
+			<a href="index.html">Home</a>
+<!--
+			<a href="">Services</a>
+			<a href="">Portfolio</a>
+			<a href="">About</a>
+			<a href="#contact">Contact</a>
+-->
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-dribbble"></i></a>
+			<a href="#"><i class="fa fa-envelope"></i></a>
+		</div>
+		
+		<!-- Menu button -->
+<!-- 		<div id="menuToggle"><i class="fa fa-bars"></i></div> -->
+	</nav>
+	
+	<!-- MAIN IMAGE SECTION -->
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<img class="logo" src="assets/img/logo/grey/JPG_icon%20grey.png">
+					<h2 class="home-page">UI & UX Hybrid Designer</h2>
+					<h2 class="home-page sub"><small><a href="tel:6314336593">631.433.6593</a></small></h2>
+					<h2 class="home-page sub"><small><a style="color:white" href="mailto:jpguidice@gmail.com">jpguidice@gmail.com</a></small></h2>
+<!-- 					<h2 class="home-page sub"><small><a style="color:white" href="assets/img/jpguidice3.pdf" download="JonathanPaulGuidice's Resume">PDF Resume</small></h2> -->
+<!-- 					<h2 class="home-page sub"><small><a style="color:white" href="assets/img/jpguidice4.pdf" download="JonathanPaulGuidice's Resume">PDF Resume</small></h2> -->
+
+<!--
+					<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+					<script type="IN/MemberProfile" data-id="linkedin.com/jpguidice" data-format="inline"></script>
+-->
+<!-- 					<div class="spacer"></div> -->
+					<i class="fa fa-download"></i></a>
+				</div>
+			</div><!-- row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+	<!-- WELCOME SECTION -->
+<!--
+    <div class="container">
+      <div class="row mt">
+      	<div class="col-lg-8">
+	        <h1>I build websites & apps that people love!</h1>
+	        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      	</div>
+      	<div class="col-lg-4">
+      		<p class="pull-right"><br><button type="button" class="btn btn-green btn-lg">CONTACT ME</button></p>
+      	</div>
+      </div>
+    </div>
+--><!-- /.container -->
+    
+    <!-- PORTFOLIO SECTION -->
+<!--
+    <div id="portfolio">
+    	<div class="container"
+	    	<div class="row mt">
+				<ul class="grid effect-2" id="grid">
+					<li><a href=""><img src="assets/img/portfolio/cc_app_1.png"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/CAMERAS.png"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/pm_idea_main.jpg"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/a7_cards_all-1.jpg"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/cc home page.png"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/plan_obx.png"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/imedia.png"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/step3.jpg"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/pcnew_desktopapp1.png"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/avail_cal.png.jpg"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/twiddy-seach-new.png"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/a7v1_popup.png"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/"></a></li>
+					<li><a href=""><img src="assets/img/portfolio/"></a></li>
+				</ul>
+	    	</div>
+	    </div>
+    </div>
+-->
+
+
+	<!-- SERVICES SECTION -->
+<!--
+	<div id="services">
+		<div class="container">
+			<div class="row mt">
+				<div class="col-lg-1 centered">
+					<i class="fa fa-certificate"></i>
+				</div>
+				<div class="col-lg-3">
+					<h3>Quality Design</h3>
+					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				</div>
+
+				<div class="col-lg-1 centered">
+					<i class="fa fa-question-circle"></i>
+				</div>
+				<div class="col-lg-3">
+					<h3>Awesome Support</h3>
+					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				</div>
+			
+			
+				<div class="col-lg-1 centered">
+					<i class="fa fa-globe"></i>
+				</div>
+				<div class="col-lg-3">
+					<h3>Global Services</h3>
+					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+-->
+	
+	
+	<!-- BLOG POSTS -->
+<!--
+	<div class="container">
+		<div class="row mt">
+			<div class="col-lg-12">
+				<h1>Recent Posts</h1>
+			</div>
+--><!-- col-lg-12 -->
+<!--
+			<div class="col-lg-8">
+				<p>Our latests thoughts about things that only matters to us.</p>
+			</div>
+--><!-- col-lg-8-->
+<!--
+			<div class="col-lg-4 goright">
+				<p><a href="#"><i class="fa fa-angle-right"></i> See All Posts</a></p>
+			</div>
+		</div>
+--><!-- row -->
+		
+<!--
+		<div class="row mt">
+			<div class="col-lg-4">
+				<img class="img-responsive" src="assets/img/post01.jpg" alt="">
+				<h3><a href="#">Designing for the reader experience</a></h3>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
+			</div>
+			<div class="col-lg-4">
+				<img class="img-responsive" src="assets/img/post02.jpg" alt="">
+				<h3><a href="#">25 Examples of flat web & application design</a></h3>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
+			</div>
+			<div class="col-lg-4">
+				<img class="img-responsive" src="assets/img/post03.jpg" alt="">
+				<h3><a href="#">We are an award winning design agency</a></h3>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
+			</div>		
+		</div>
+--><!-- row -->
+<!-- 	</div> --><!-- container -->
+	
+	
+	<!-- CLIENTS LOGOS -->
+<!--
+	<div id="lg">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-2 col-lg-offset-1">
+					<img src="assets/img/clients/c01.gif" alt="">
+				</div>
+				<div class="col-lg-2">
+					<img src="assets/img/clients/c02.gif" alt="">
+				</div>
+				<div class="col-lg-2">
+					<img src="assets/img/clients/c03.gif" alt="">
+				</div>
+				<div class="col-lg-2">
+					<img src="assets/img/clients/c04.gif" alt="">
+				</div>
+				<div class="col-lg-2">
+					<img src="assets/img/clients/c05.gif" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+	
+	
+	<!-- CALL TO ACTION -->
+<!--
+	<div id="call">
+		<div class="container">
+			<div class="row">
+				<h3>THIS IS A CALL TO ACTION AREA</h3>
+				<div class="col-lg-8 col-lg-offset-2">
+					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+					<p><button type="button" class="btn btn-green btn-lg">Call To Action Button</button></p>
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+	
+<!--
+	<div class="container">
+		<div class="row mt">
+			<div class="col-lg-12">
+				<h1>Stay Connected</h1>
+				<p>Join us on our social networks for all the latest updates, product/service announcements and more.</p>
+				<br>
+			</div>
+		</div>
+	</div>
+-->
+	
+	
+	<!-- SOCIAL FOOTER --->
+<!--
+	<section id="contact"></section>
+	<div id="sf">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<script src="https://platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/jpguidice" data-format="inline" data-related="false"></script>
+
+				</div>
+				<div class="col-lg-6 lg">
+					<h4 class="ml">TWITTER</h4>
+					<p class="centered"><a href="#"><i class="fa fa-twitter"></i></a></p>
+					<p class="ml">> Follow Me</p>
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+	
+	<!-- CONTACT FOOTER --->
+<!--
+	<div id="cf">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+		        	<div id="mapwrap">
+<iframe src="" width="100%" height="400" frameborder="0" style="border:0"></iframe>					</div>	
+				</div>
+				<div class="col-lg-4">
+					<h4>ADDRESS<br/>Office</h4>
+					<br>
+					<p>
+						343 Gold St.
+						Brooklyn, NY 11201
+					</p>
+					<p>
+						P: 631 433 6593<br/>
+						E: <a href="mailto:#">jpguidice@gmail.com</a>
+					</p>
+					<p>JPG Designs takes a sharp and focused look at web and app development, using its unique and 
+
+varied expertise to hone in on smart and simple user interface, as well as clean and modern 
+
+design. It is a creative and young company run by a creative and young man who is excited about 
+
+the boundless possibilities of current and future interface design.</p>
+				</div>
+			</div>
+		</div
+-->
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="assets/js/masonry.pkgd.min.js"></script>
+	<script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/classie.js"></script>
+	<script src="assets/js/AnimOnScroll.js"></script>
+	<script>
+		new AnimOnScroll( document.getElementById( 'grid' ), {
+			minDuration : 0.4,
+			maxDuration : 0.7,
+			viewportFactor : 0.2
+		} );
+	</script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68554538-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

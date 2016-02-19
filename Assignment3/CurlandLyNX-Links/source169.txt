@@ -1,0 +1,394 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    
+<head>
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="icon" type="image/png" 		href="/hn-version-2014/images/logo/favicon.ico" />
+
+    
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/normalise.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/main.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/typography.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/lists.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/layouts.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/video-player.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/orbit.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/forms.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/colours.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/break-points.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/icons.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/font-face.css">
+        <link rel="stylesheet" type="text/css" href="/hn-version-2014/css/global/reveal-modal.css">
+         
+        <link rel="stylesheet" media="all and (max-device-width: 1024px)" href="/hn-version-2014/css/global/break-points-tablet-phone.css" />
+        
+        <script src="/hn-version-2014/javascripts/global/modernizr.custom.js"></script>
+        
+        
+<title>Harvey Nash – Global Recruitment Experts</title>
+<meta name="description" content="Harvey Nash has supported many of the world's leading organisations globally to recruit, source and manage the highly skilled talent they need to succeed in an increasingly competitive and technology driven world.">
+
+<meta property="og:title" content="Harvey Nash – Global Recruitment Experts" />
+<meta property="og:description" content="Harvey Nash has supported many of the world's leading organisations globally to recruit, source and manage the highly skilled talent they need to succeed in an increasingly competitive and technology driven world." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.harveynash.com/" />
+<meta property="og:image" content="http://www.harveynash.com/images/logo/hn-logo-110x75.png" />
+
+</head>
+
+
+
+<body>
+
+
+<body>
+
+
+<div class="content">
+
+
+<!-- GLOBAL NAVIGATION START -->     
+
+
+<div class="header theme-black">
+    <div class="row">
+        <div class="column-12">
+        
+            <a href="/"><div class="logo"></div></a>
+<div class="logo-text"><h4>The Power Of Talent</h4></div>
+
+            
+            <div class="list-header">
+                <ul class="list-horizontal" id="header-horizontal-nav">
+                
+                    <li class="global-navigation-highlight-1"><a onclick="menuControll(0);"  href="#"><p>CHANGE LOCATION</p></a></li>
+<li class="global-navigation-highlight-2"><a href="/group/contact/"><p>CONTACT US</p></a></li>
+
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+<!--GLOBAL NAVIGATION END -->     
+
+
+
+<!-- SITE NAV START -->     
+
+
+<div class="header-navbar theme-black">
+
+    <div class="row">
+    
+        <div class="column-12">
+        
+            <div class="bar theme-black">
+            
+                <ul class="list-icons right" id="main-horizontal-icons">
+					<li><a href="/group/contact/"><div class="icon icon-phone"></div></a></li>
+<li><a onclick="menuControll(0);" href="#"><div class="icon icon-world"></div></a></li>
+<li><a onclick="menuControll(1);" href="#"><div class="icon icon-show"></div></a></li>
+                </ul>
+                
+                <ul class="list-horizontal site-navigation-highlight" id="main-horizontal-text">
+                	<li class="site-navigation-highlight-1"><a href="/group/our-company/"><p>OUR COMPANY</p></a></li>
+<li class="site-navigation-highlight-2"><a href="/group/what-we-do/"><p>WHAT WE DO</p></a></li>
+<li class="site-navigation-highlight-3"><a href="/group/mediacentre/"><p>NEWS &amp; BLOGS</p></a></li>
+<li class="site-navigation-highlight-4"><a href="/group/hntv/"><p>HNTV</p></a></li>
+<li class="site-navigation-highlight-5"><a href="/group/diversity/"><p>DIVERSITY</p></a></li>
+<li class="site-navigation-highlight-6"><a onclick="menuControll(0);"  href="#"><p>JOBS &amp; CAREERS</p></a></li>
+<li class="site-navigation-highlight-7"><a href="/group/investors/"><p>INVESTORS</p></a></li>
+
+
+
+                </ul>
+
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</div>
+
+
+<!-- SITE NAV END -->     
+
+
+<!-- BANNER START -->     
+
+
+<div class="row">
+
+    <div class="column-12">
+    
+        <div id="featured" style="height:360px;overflow: hidden;cursor:pointer">
+
+            <!-- item -->
+            
+             <img src="/assets/images/banners/960x360-hr-survey-2016-small.jpg" alt="HR Leaders feel undervalued" onclick="windowOpen('/hrsurvey/?utm_source=website&utm_medium=banner&utm_content=Banner1&utm_campaign=Group')" data-caption="#caption-1" class="orbit-slide" style="display: block; opacity: 1; z-index: 1;">
+            
+            <!-- end item -->
+
+            <!-- item -->
+            <img src="/assets/images/banners/960x360-cio-survey-2016.jpg" alt="Thinking digital?" onclick="windowOpen('/group/mediacentre/2016/01/diving_into_digital_or_heading_for_the_cloud_take_part_in_the_2016_cio_survey_see_how_you_compare_wi/index.asp?utm_source=website&utm_medium=banner&utm_content=Banner2&utm_campaign=Group')" data-caption="#caption-2" class="orbit-slide" style="display: block; opacity: 1; z-index: 1;">
+            
+            <!-- end item -->
+            
+            <!-- item -->
+            <img src="/assets/images/banners/960x360-businessman-ladder.jpg"			alt="Unchartered territory" onclick="windowOpen('/group/mediacentre/2015/11/uk_boards_lack_skills_to_tackle_digital_disruption/index.asp?utm_source=website&utm_medium=banner&utm_content=Banner3&utm_campaign=Group')" data-caption="#caption-3" class="orbit-slide" style="display: block; opacity: 1; z-index: 1;">
+            <!-- end item -->
+
+        </div>
+
+        <!-- item -->
+        
+        <div class="orbit-caption" id="caption-1">
+            <h4>HR Leaders feel undervalued</h4>
+            <p>Find out what else they think in our 2016 HR Survey</p>
+        </div>
+
+        <!-- end item -->
+        
+        <!-- item -->
+        
+        <div class="orbit-caption" id="caption-2">
+            <h4>Thinking digital?</h4>
+            <p>Let us know your thoughts in the 2016 Harvey Nash / KPMG CIO Survey</p>
+        </div>
+        
+        <!-- end item -->
+        
+        <!-- item -->
+        
+        <div class="orbit-caption" id="caption-3">
+            <h4>Unchartered territory</h4>
+            <p>Over half of UK boards lack skills to tackle digital disruption</p>
+        </div>
+        
+        <!-- end item -->
+
+    </div>
+    
+</div>
+
+
+
+<!-- BANNER END -->     
+
+
+ 
+<!-- PUSH MENU START -->     
+
+
+<div>
+
+    <div class="push-menu">
+    
+        <div id="push-menu-0">
+            <ul class="list-vertical">
+                <li class="theme-red"><p>SELECT COUNTRY</p></li>
+<li><a href="/uk/"><p>United Kingdom</p></a></li>
+<li><a href="/au/"><p>Australia</p></a></li> 
+<li><a href="/be/"><p>Belgium</p></a></li>
+<li><a href="http://www.alumniglobal.com/"><p>Denmark</p></a></li>
+<li><a href="/fi/"><p>Finland</p></a></li>
+<li><a href="/fr/"><p>France</p></a></li>
+<li><a href="/de/"><p>Germany</p></a></li>
+<li><a href="/hk/"><p>Hong Kong</p></a></li>
+<li><a href="/ie/"><p>Ireland</p></a></li>
+<li><a href="/jp/"><p>Japan</p></a></li>
+<li><a href="/luxembourg/"><p>Luxemburg</p></a></li>
+<li><a href="/nl/"><p>Netherlands</p></a></li>
+<li><a href="/no/"><p>Norway</p></a></li>
+<li><a href="/pl/"><p>Poland</p></a></li>
+<li><a href="/scotland/"><p>Scotland</p></a></li>
+<li><a href="/sg/"><p>Singapore</p></a></li>
+<li><a href="/se/"><p>Sweden</p></a></li>
+<li><a href="/ch/"><p>Switzerland</p></a></li>
+<li><a href="/usa/"><p>USA</p></a></li>
+<li><a href="http://www.harveynash.vn/"><p>Vietnam</p></a></li>
+<li class="theme-red"><p>SELECT DIVISION</p></li>
+<li><a href="/"><p>Harvey Nash Group Home</p></a></li>
+<li><a href="/executivesearch/"><p>Executive Search &amp; Leadership Consulting</p></a></li>
+<li><a href="http://www.impactexecutives.com/"><p>Interim Management Services</p></a></li>
+<li><a href="/recruitmentsolutions/"><p>Recruitment Solutions</p></a></li>
+<li><a href="http://www.nashtechsoftware.com/"><p>Software Development and BPO Services</p></a></li>
+<li><a href="http://www.nashtech.com/"><p>Telecommunications R&amp;D</p></a></li>
+<li><a href="http://www.harveynash.com/talent/"><p>Talent Management</p></a></li>
+<li><a href="/oilandgas/"><p>Oil & Gas</p></a></li>
+                   
+            </ul>
+        </div>
+        
+      </div> 
+      
+      
+      <div class="push-menu"> 
+        
+        <div id="push-menu-1">
+            <ul class="list-vertical" >
+                <li class="site-navigation-highlight-1"><a href="/group/our-company/"><p>OUR COMPANY</p></a></li>
+<li class="site-navigation-highlight-2"><a href="/group/what-we-do/"><p>WHAT WE DO</p></a></li>
+<li class="site-navigation-highlight-3"><a href="/group/mediacentre/"><p>NEWS &amp; BLOGS</p></a></li>
+<li class="site-navigation-highlight-4"><a href="/group/hntv/"><p>HNTV</p></a></li>
+<li class="site-navigation-highlight-5"><a href="/group/diversity/"><p>DIVERSITY</p></a></li>
+<li class="site-navigation-highlight-6"><a onclick="menuControll(0);"  href="#"><p>JOBS &amp; CAREERS</p></a></li>
+<li class="site-navigation-highlight-7"><a href="/group/investors/"><p>INVESTORS</p></a></li>
+
+
+
+            </ul>
+        </div>
+    
+    </div>
+    
+</div>  
+
+
+<!-- PUSH MENU END -->     
+
+
+
+<!-- PANELS 3 START -->       
+
+
+	<div class="row fixed-height-250">
+    
+    	<div class="column-4 theme-black">
+        	<a onclick="menuControll(0);"  href="#">
+           		<div class="bar">
+                	Jobs &amp; Careers<div class="icon icon-arrowRight"></div>
+                </div>
+            </a>
+          <div class="panel"><p>The power of our network at your fingertips. Search the globe for the highest quality opportunities and take advantage of valuable advice; from white papers, to videos to podcasts.</p>
+          </div>
+        </div>
+        
+    	<div class="column-4 theme-black">
+        	<a href="/group/what-we-do/">
+           		<div class="bar">
+                	What we do<div class="icon icon-arrowRight"></div>
+                </div>
+            </a>
+            <div class="panel">
+           	  <p>We help companies recruit, source and manage the highly skilled talent they need to succeed in an increasingly competitive technology driven world. Find out more about our executive search, professional recruitment and outsourcing services.</p>
+            </div>
+        </div>
+        
+    	<div class="column-4 theme-black">
+        	<a onclick="menuControll(0);"  href="#">
+           		<div class="bar">
+                	Locations<div class="icon icon-arrowRight"></div>
+                </div>
+            </a>
+           
+            <div class="panel">
+                <p><a href="/uk/">United Kingdom</a>,  
+                        <a href="/au/">Australia</a>, <a href="/be/">Belgium</a>, 
+                        <a href="http://www.alumniglobal.com/">Denmark</a>, <a href="/fi/">Finland</a>, 
+                        <a href="/fr/">France</a>, <a href="/de/">Germany</a>,
+                        <a href="/hk/">Hong Kong</a>, <a href="/ie/">Ireland</a>,
+                        <a href="/jp/">Japan</a>, <a href="/luxembourg/">Luxemburg</a>, <a href="/nl/">Netherlands</a>, 
+                        <a href="/no/">Norway</a>, <a href="/pl/">Poland</a>, <a href="/scotland/">Scotland</a>, <a href="/sg/">Singapore</a>, <a href="/se/">Sweden</a>, 
+                        <a href="/ch/">Switzerland</a>, <a href="/usa/">USA</a>, <a href="http://www.harveynash.vn/">Vietnam</a>.</p>	
+             </div>
+        </div>
+        
+    </div>
+    
+<!-- PANELS 3 END -->       
+
+<!-- FOOTER START -->       
+
+<div class="row">
+    <div class="column-12 theme-black">
+        <div class="bar">
+            <ul class="list-icons left">
+            
+            <li><p>FOLLOW US ON</p></li>
+<li><a href="https://www.youtube.com/user/harveynashuk"><div class="icon icon-youtube"></div></a></li>
+<li><a href="https://www.linkedin.com/company/harvey-nash"><div class="icon icon-linkedin"></div></a></li>
+<li><a href="https://twitter.com/HarveyNashGroup"><div class="icon icon-twitter"></div></a></li>
+<li><a href="http://www.facebook.com/pages/Harvey-Nash-Group/143435569018031?fref=ts"><div class="icon icon-facebook"></div></a></li>   
+                
+                </ul>
+            
+            <ul class="list-text right">
+            
+                <li><a href="http://harveynash.com/"><p>© HARVEY NASH</p></a></li>
+<li><a href="http://harveynash.com/group/legal.asp"><p>LEGAL</p></a></li>
+<li><a href="http://harveynash.com/digitallabs/"><p>CREATED BY HARVEY NASH DIGITAL LABS</p></a></li> 
+                
+            </ul>
+        </div>
+    </div>
+</div> 
+
+ 
+<!-- FOOTER END -->       
+
+ 
+<!-- JAVA SCRIPT START -->     
+    
+
+<script src="/hn-version-2014/javascripts/global/foundation-2.2/jquery.min.js"></script>
+<script src="/hn-version-2014/javascripts/global/foundation-2.2/jquery.reveal.js"></script>
+<script src="/hn-version-2014/javascripts/global/jquery.orbit-1.4.0.js"></script>
+<script src="/hn-version-2014/javascripts/global/hntv.js"></script>
+<script src="/hn-version-2014/javascripts/global/jquery.offcanvasmenu.js"></script>
+<script src="/hn-version-2014/javascripts/global/offcanvasmenuStart.js"></script>
+<script src="/hn-version-2014/javascripts/global/parsley.js"></script>
+<script src="/hn-version-2014/javascripts/global/nav-highlight.js"></script>
+
+<script type="text/javascript">
+	 
+	offCanvasStart(["push-menu-0","push-menu-1"]);
+	 
+	function windowOpen(url){
+		window.open (url,'_self',false);
+	};
+	
+    $(document).ready(function($){
+		
+        $('.push-menu').css('visibility','visible');
+    });
+	
+	$(window).load(function() {
+         $('#featured').orbit();
+    });
+
+</script>
+
+<script src="/hn-version-2014/javascripts/global/google-analytics.js"></script>
+
+
+
+ 
+
+
+<!-- JAVA SCRIPT END -->     
+ 
+</div>
+</body>
+</html>
+
+
+
+
+ 
+    
+    
+    
+
+
+
+

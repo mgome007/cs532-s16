@@ -1,0 +1,2088 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://www.webmastersid.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://www.webmastersid.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="WebMaster - Atom" href="http://www.webmastersid.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="WebMaster - RSS" href="http://www.webmastersid.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="WebMaster - Atom" href="https://www.blogger.com/feeds/6649239829669006952/posts/default" />
+<link rel="me" href="https://plus.google.com/110862261077370804145" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://www.webmastersid.com/" />
+<link href='https://plus.google.com/110862261077370804145' rel='publisher'/>
+<meta content='An expert webmaster and SEO specialist who applies up-to-date optimization methods.' name='description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>
+WebMaster
+</title>
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<link href='http://www.webmastersid.com/url/to/amp/document.html' rel='amphtml'/>
+<link href='http://www.webmastersid.com/url/to/full/document.html' rel='canonical'/>
+<script async='async' src='https://cdn.ampproject.org/v0.js'></script>
+<link href='http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' id='fontawesome' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:300,400,700,900|Pacifico&subset=cyrillic' rel='stylesheet' type='text/css'/>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/1708208307-widget_css_bundle.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=6649239829669006952&zx=3b961bfc-285b-4198-b9d7-3ca01c162263' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Tradition Blogger Template
+Designer: VeeThemes
+URL:      http://www.veethemes.com
+Version:  Full Version
+----------------------------------------------- */
+*, *:before, *:after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+/*------------------------------------------------------
+Variable @ Template Designer
+--------------------------------------------------------
+<Variable name="keycolor" description="Main Color" type="color" default="#757575"/>
+<Group description="Body-background" selector="body">
+<Variable name="bg.body.color" description="Body Color" type="color" default="#ededed"/>
+<Variable name="primary.background.color" description="Main background Color" type="color" default="#00a498"/>
+<Variable name="image.border.color" description="Image border color" type="color" default="#F8524A" />
+</Group>
+------------------------------------------------------*/
+/*****************************************
+reset.css
+******************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, figure {    margin: 0;    padding: 0;}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {     display:block;}
+table {    border-collapse: separate;    border-spacing: 0;}
+caption, th, td {    text-align: left;    font-weight: normal;}
+blockquote:before, blockquote:after,
+q:before, q:after {    content: "";}
+blockquote, q {    quotes: "" "";}
+sup{    vertical-align: super;    font-size:smaller;}
+code{    font-family: 'Courier New', Courier, monospace;    font-size:12px;    color:#272727;}
+::selection {  background: #333;  color: #fff;  }
+::-moz-selection {  background: #333;  color: #fff;  }
+a img{	border: none;}
+img{vertical-align:middle;max-width:100%;}
+ol, ul { padding: 10px 0 20px;  margin: 0 0 0 35px;  text-align: left;  }
+ol li { list-style-type: decimal;  padding:0 0 5px;  }
+ul li { list-style-type: square;  padding: 0 0 5px;  }
+ul ul, ol ol { padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-family: 'lato', San-serif; font-weight: normal; }
+.post-body h1 { line-height: 48px; font-size: 42px; margin: 10px 0; }
+.post-body h2 { font-size: 36px; line-height: 44px; padding-bottom: 5px; margin: 10px 0; }
+.post-body h3 { font-size: 32px; line-height: 40px; padding-bottom: 5px; margin: 10px 0; }
+.post-body h4 { font-size: 28px; line-height: 36px; margin: 10px 0;  }
+.post-body h5 { font-size: 24px; line-height: 30px; margin: 10px 0;  }
+.post-body h6 { font-size: 18px; line-height: 24px; margin: 10px 0;  }
+/*****************************************
+Global Links CSS
+******************************************/
+a{ color: #DCB130; outline:none; text-decoration: none; }
+a:hover { color: #282828; text-decoration:none; }
+body{
+background:rgb(243, 243, 243);
+padding: 0;
+font-family: lato,sans-serif;
+font-size: 16px;
+line-height: 1.7;
+color:#333;
+}
+p{
+font-weight: 400;
+letter-spacing: 0.5px;
+color: #333;
+}
+.clr { clear:both; float:none; }
+/*****************************************
+Wrappers
+******************************************/
+.ct-wrapper { padding: 0px 15px; position: relative; max-width: 1122px; width:auto;margin: 0 auto;}
+.outer-wrapper { margin: 40px 0; position: relative; }
+.header-wrapper { display: inline-block; float: left; width: 100%; border-bottom: 1px solid #eaeaea; }
+.main-wrapper { width:70%; float:left; }
+.sidebar-wrapper { width:30%; float: right; }
+/**** Layout Styling CSS *****/
+body#layout .header-wrapper { margin-top: 40px; }
+body#layout .outer-wrapper, body#layout .sidebar-wrapper, body#layout .ct-wrapper { margin: 0; padding: 0; }
+body#layout #About { width: 100%; }
+/*------------ *|*|*| BLog Top_header *|*|* */
+.blog_top-header {
+background: #222;
+color: #acacac;
+padding: 0;
+font-size: 12px;
+height: 37px;
+display: block;
+float:left;
+width: 100%;
+line-height: 1;
+border-top:2px solid #DCB130;
+}
+.topbar-left,.topbar-right{display:inline-block;}
+.topbar-left {float: left;}
+.topbar-right {
+text-align: right;
+padding-right: 15px;
+float: right;
+}
+.top_menu_bar,.header_social {
+float: left;
+}
+.top_menu_bar ul {
+margin: 0;
+padding: 0;
+}
+.top_menu_bar li {
+list-style: none;
+float: left;
+display: inline-block;
+margin-left: 10px;
+padding: 0;
+position: relative;
+}
+.top_menu_bar li:after {
+content: "/";
+float: left;
+position: absolute;
+right: -6px;
+color: #fff;
+top: 12.5px;
+font-size: 10px;
+}
+.top_menu_bar li:last-child:after {content: "";}
+.top_menu_bar li a {
+display: block;
+height: 37px;
+padding: 13px 7px;
+font-size: 10px;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #fff;
+}
+.header_social {
+padding-right: 10px;
+}
+.header_social a {
+display: inline-block;
+font-size: 14px;
+color: #e3e3e3;
+padding: 12px 2px;
+transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+width: 26px;
+height: 37px;
+text-align: center;
+}
+div#nt-search {
+position: relative;
+float: right;
+width: 37px;
+height: 3px;
+z-index: 10;
+margin-top: 0px;
+line-height: 1!important;
+}
+.nt-search-input-wrap {
+position: absolute;
+right: 37px;
+height: 37px;
+width: 0;
+border: 0;
+overflow: hidden;
+-webkit-transition: width 200ms;
+-moz-transition: width 200ms;
+transition: width 200ms;
+}
+input[type="text"].nt-search-input {
+border: none!important;
+outline: none;
+width: 270px;
+height: 35px;
+margin: 0;
+padding: 2px 7px;
+}
+#s{
+-webkit-appearance: none!important;
+outline: none;
+font-size: 12px;
+padding: 5px 15px;
+letter-spacing: 2px;
+font-weight: normal;
+vertical-align: top;
+display: block;
+margin-bottom: 10px;
+-webkit-transition: all .1s ease-in-out;
+-moz-transition: all .1s ease-in-out;
+-o-transition: all .1s ease-in-out;
+transition: all .1s ease-in-out;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+input#s {
+display: block;
+position: relative;
+width: 100%;
+margin-bottom: 0;
+border:0;
+outline:0;
+}
+#s:focus {
+outline: none;
+}
+.nt-search-input-wrap #s {
+background: #383838!important;
+}
+input#go {
+line-height: 1;
+background: transparent;
+box-shadow: none;
+border: 0;
+opacity:0;
+}
+span.nt.fa-search {
+color: #fff;
+background: #DCB130;
+}
+input#go, span.nt.fa-search {
+right: 0;
+top: 0;
+width: 35px;
+height: 35px;
+padding: 11px 0;
+display: block;
+position: absolute;
+text-align: center;
+cursor: pointer;
+margin: 0!important;
+}
+.nt.fa-search:before {
+font-family: "FontAwesome";
+content: '\f002';
+color: #fff;
+}
+.nt-search.nt-search-open .nt-search-input-wrap {
+width: 238px;
+opacity:1!important;
+}
+.nt-search-open .nt.fa-search {
+color: #fff;
+}
+.nt-search-open input#go{
+opacity:1;
+}
+/*-------- featured posts and slider stylesheet -----*/
+.blog_item_featured_image {
+background-color: rgb(0, 0, 0);
+padding: 95px 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+position: relative;
+overflow:hidden;
+}
+.blog_post_feature_image {
+display: block;
+width: 100%;
+height: 100%;
+min-height: 300px;
+position: absolute;
+top: 0;
+background-size: cover;
+background-position: 50%;
+}
+div#featured_post_details {
+color:white;
+z-index:10;
+}
+h1.featured_entry-title {
+color: white;
+font-weight: 900;
+text-transform: uppercase;
+font-size: 48px;
+line-height: 1.25;
+letter-spacing: 2px;
+margin-bottom: 20px;
+}
+.bckpic .badge {
+display: inline-block;
+margin-bottom: 20px;
+}
+/*---- slider ---*/
+div#blog_featured_content {
+display: inline-block;
+width: 100%;
+}
+.blog_featured_posts {
+background: #000;
+}
+.blog_featured_post {
+width: 100%;
+height: 400px;
+float: left;
+position: relative;
+}
+.blog_contents {
+z-index: 1;
+position: relative;
+}
+.blog_featured_post .feat-img {
+display: inline-block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+background-position: center;
+background-size: cover;
+}
+/*****************************************
+Header CSS
+******************************************/
+header#blog_header {
+background: white;
+}
+#header {
+display: block;
+width: auto;
+text-align: center;
+}
+#header-inner{ margin: 40px 5px 40px; padding: 0; }
+#header h1 {
+font-family: "lato",sans-serif;
+font-size: 40px;
+font-style: normal;
+line-height: 1;
+font-weight: 900;
+letter-spacing: 3px;
+display: inline-block;
+position: relative;
+text-transform: uppercase;
+padding:20px 0;
+}
+h1.title:after {
+content: "";
+position: absolute;
+width: 7px;
+height: 7px;
+background: #00a498;
+border-radius: 50%;
+left: 50%;
+top: 0px;
+box-shadow: 14px -10px 0px 0 #00a498,28px 0px 0px 0 #00a498,43px 0px 0px 0 #00a498,58px 0px 0px 0 #00a498,74px 0px 0px 0 #00a498,90px 0px 0px 0 #00a498;
+}
+#header h1 a, #header h1 a:hover {  color: #282828;  }
+#header p.description{ color: #333; font-size: 12px; font-style: italic; text-shadow: 1px 1px #FFFFFF; margin: 0; padding: 0; text-transform:capitalize; }
+#header img{   border:0 none; background:none; width:auto; height:auto; max-height:115px; margin:0 auto;}
+/*****************************************
+Main Menu CSS
+******************************************/
+.blog_nav_wrapper {
+border-bottom: 1px solid #DFDFDF;
+}
+.mobile-link {
+display: none;
+}
+.mobile-link a {
+font-size: 25px;
+color: #222;
+}
+.mobile-link {
+position: absolute;
+top: -105px;
+left: 30px;
+}
+.nav-menu{}
+.nav-menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+.nav-menu ul li {
+display:inline-block;
+position: relative;
+list-style: none;
+padding: 0;
+}
+.nav-menu li a {
+color: #181818;
+display: block;
+position: relative;
+font-family: georgia,serif;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+font-style: normal;
+font-size: 12px;
+padding: 20px 25px;
+line-height: 1em;
+-webkit-transition: all 0.15s ease;
+-moz-transition: all 0.15s ease;
+-ms-transition: all 0.15s ease;
+-o-transition: all 0.15s ease;
+transition: all 0.15s ease;
+}
+.nav-menu li a:before,.nav-menu li a.current:before {
+content: "";
+position: absolute;
+width: 95%;
+border-top: 3px solid rgba(255, 255, 255, 0);
+top: 0;
+left: 5px;
+-webkit-transition: all 0.15s linear;
+-moz-transition: all 0.15s linear;
+-ms-transition: all 0.15s linear;
+-o-transition: all 0.15s linear;
+transition: all 0.15s linear;
+}
+.nav-menu li a:hover:before,.nav-menu li a.current:before {
+border-color: #DCB130;
+}
+/*----------- |*|*|*|*|*| Main section stylesheet *|*|*|*|*| ----------*/
+.blog_posts{width:100%;
+margin:0 auto;
+display:inline-block;
+}
+.blog_posts:after {
+content: '';
+display: block;
+clear: both;
+}
+.post-outer {
+position: relative;
+float: left;
+display: block;
+margin: 0 2px 40px 2px;
+}
+.isotope, .isotope .isotope-item {
+-webkit-transition-duration: 0.8s;
+-moz-transition-duration: 0.8s;
+-ms-transition-duration: 0.8s;
+-o-transition-duration: 0.8s;
+transition-duration: 0.8s;
+}
+.grid_item {
+position: relative;
+float: left;
+overflow: hidden;
+}
+.post_hentry {
+float: left;
+display: block;
+min-height:1px;
+overflow:visible;
+}
+.half_grid, .half_grid .isobrick-inner {
+width: 360px;
+height: 390px;
+}
+.full_grid, .full_grid .isobrick-inner {
+width: 724px;
+height: 390px;
+}
+.grid_item .isobrick-inner {
+background: #000;
+overflow: hidden;
+position: relative;
+}
+.grid_item img {
+max-width: 100% !important;
+height: 100% !important;
+}
+.full_grid img,.half_grid img{
+width:100%;
+}
+.article_image,.blog_post_feature_image{
+transition: transform 0.45s, filter 0.45s, opacity 0.54s;
+-webkit-transition: -webkit-transform 0.45s, -webkit-filter 0.45s, opacity 0.45s;
+-moz-transition: -moz-transform 0.45s, -moz-filter 0.45s;
+-o-transition: -o-transform 0.45s, -o-filter 0.45s;
+-ms-transition: -ms-transform 0.45s, -ms-filter 0.45s;
+-webkit-transform: translate3d(0, 0, 0);
+}
+.article_cont:hover .article_image,.blog_featured_post:hover .blog_post_feature_image {
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+}
+.blog_post_feature_image {
+filter: alpha(opacity=65);
+-moz-opacity: 0.65;
+-khtml-opacity: 0.65;
+opacity: 0.65;
+}
+.article_image{filter: alpha(opacity=80);-moz-opacity: 0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+.article_cont:hover .article_image{filter: alpha(opacity=95);-moz-opacity: 0.95;-khtml-opacity: 0.95;opacity: 0.95;}
+.article_image {
+display: inline-block;
+position: relative;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+}
+.blog_featured_post:hover .blog_post_feature_image {
+filter: alpha(opacity=78);
+-moz-opacity: 0.78;
+-khtml-opacity: 0.78;
+opacity: 0.78;
+}
+.grid_item .thumboverdate, .grid_item .thumbovertext {
+position: absolute;
+padding: 40px;
+left: 0;
+color: #fff;
+z-index:1;
+}
+.grid_item .thumboverdate {
+top: 0;
+text-transform: uppercase;
+line-height: 10px;
+z-index: 9;
+}
+.grid_item .thumbovertext {
+bottom: 0;
+}
+.badge a,.thumboverdate,span.article_author{
+font-family: Lato;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 400;
+font-style: normal;
+font-size: 10px;
+line-height:1;
+}
+.grid_item .thumboverdate i {
+margin-right: 8px;
+}
+.grid_item .thumbovertext .badge,.badge {
+position: relative;
+left: auto;
+top: auto;
+text-align: right;
+display: inline-block;
+width: 100%;
+padding: 0 2px;
+margin-bottom: 20px;
+}
+.badge a,.article_badge a {
+position: relative;
+display: inline-block;
+float: left;
+margin-bottom: 2px;
+color: #fff;
+padding: 4px 10px 5px;
+line-height: 10px;
+border-radius: 0;
+-webkit-border-radius: 0;
+text-transform: uppercase;
+z-index: 10;
+background: #DCB130;
+margin-right: 13px;
+}
+.badge a:nth-child(n+3),.article_badge a:nth-child(n+3) {
+display: none;
+}
+.badge a:after,.article_badge a:after{
+content: '';
+display: block;
+position: absolute;
+border-color: transparent;
+border-style: solid;
+border-width: 8px 6px 0px 0px;
+border-top-color: #DCB130;
+left: 0px;
+top: 100%;
+}
+.grid_item h2 {
+font-family: Lato;
+text-transform: uppercase;
+letter-spacing: .9px;
+font-weight: 900;
+font-style: normal;
+font-size: 30px;
+padding: 10px 0 0;
+margin-top: 10px;
+margin-bottom: 10px;
+line-height: 1.4;
+}
+.grid_item h2 a{
+color: #181818;
+z-index: 10;
+position: relative;
+display: block;
+}
+h2.featured_article_title a{color:white;}
+.full_grid h2 {
+font-size: 38px;
+line-height:1.2;
+}
+h2.article_title {
+position: relative;
+}
+.date.updated {
+display: block;
+background: rgba(0, 0, 0, 0);
+padding: 24px;
+position: absolute;
+top: 10px;
+margin-top: 0;
+left: 12px;
+margin-bottom: 40px;
+font-size: 12px;
+line-height: 1;
+color: #FFF;
+min-width: 150px;
+width: auto;
+transition: all 0.5s ease;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.date.updated i{
+font-size: 10px;
+float: left;
+margin-right: 10px;
+margin-top: 2px;
+}
+.date.updated .day {
+color: #fff;
+float: left;
+margin-bottom: 0;
+padding: 0;
+}
+.byline {
+position: relative;
+z-index: 1;
+}
+img.avatar_photo{
+max-width: 100% !important;
+height: auto !important;
+width: 35px;
+border-radius: 50%;
+margin-right: 10px;
+}
+span.article_author a{
+color: rgb(255, 255, 255);
+border-bottom: 1px dotted white;
+padding-bottom: 5px;
+}
+.image_container{
+position:relative;
+overflow:hidden;
+}
+.article_summary {
+padding: 30px 50px 50px;
+background:white;
+box-shadow: 0px 0px 20px -10px #000;
+}
+.article_date {
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #222;
+float: left;
+}
+.article_date i {
+margin-right: 10px;
+}
+.article_badge {
+float: right;
+font-size: 10px;
+letter-spacing: 1px;
+}
+.article_badge a{padding:3px 9px 4px;}
+.article_entry-footer {
+width: 100%;
+float: left;
+margin-top: 35px;
+}
+.meta-item {
+display: inline-block;
+vertical-align: top;
+margin-right: 15px;
+}
+a.read_more_button {
+background: #DCB130;
+border: 1px solid #DCB130;
+color: #FFFFFF !important;
+z-index: 99;
+font-family: Lato;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 400;
+font-style: normal;
+font-size: 10px;
+margin-top: 0;
+display: inline-block;
+line-height: 1;
+padding: 12px 14px;
+position: relative;
+text-decoration: none;
+-moz-transition: all 0.3s ease 0s;
+-webkit-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+}
+.meta-item-share {
+float: right;
+margin-right: 0;
+margin-top: 5px;
+}
+.soc_sharing ul {
+float: left;
+margin: 0;
+padding: 0;
+}
+.soc_sharing li {
+list-style: none;
+margin: 0;
+margin-right:5px;
+padding: 0;
+display:inline-block;
+float: left;
+}
+.soc_sharing li a {
+background-color: transparent;
+height: 32px;
+width: 32px;
+text-align: center;
+float: left;
+margin: 0;
+padding: 8px 0;
+color: #555;
+border: 1px solid #555;
+border-radius: 50%;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-ms-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+.soc_sharing li a:hover {
+border-color: transparent;
+}
+/* Hover */
+.soc_sharing li .fa-google-plus:hover,
+#footer .widget-social .btn-gplus:hover {
+background-color: #d53824 !important;
+}
+.soc_sharing li .fa-vimeo:hover,
+#footer .widget-social .btn-vimeo:hover {
+background-color: #4c8ab0 !important;
+}
+.soc_sharing li .fa-behance:hover,
+#footer .widget-social .btn-behance:hover {
+background-color: #1769ff !important;
+}
+.soc_sharing li .fa-twitter:hover,
+#footer .widget-social .btn-twitter:hover {
+background-color: #3bc1ed !important;
+}
+.soc_sharing li .fa-youtube:hover,
+#footer .widget-social .btn-youtube:hover {
+background-color: #bf2f29 !important;
+}
+.soc_sharing li .fa-dribbble:hover,
+#footer .widget-social .btn-dribbble:hover {
+background-color: #ef5a92 !important;
+}
+.soc_sharing li .fa-facebook:hover,
+#footer .widget-social .btn-facebook:hover {
+background-color: #4a6d9d !important;
+}
+.soc_sharing li .fa-linkedin:hover,
+#footer .widget-social .btn-linkedin:hover {
+background-color: #0b7bb5 !important;
+}
+.soc_sharing li .fa-pinterest:hover,
+#footer .widget-social .btn-pinterest:hover {
+background-color: #cb1f25 !important;
+}
+.soc_sharing li .fa-instagram:hover,
+#footer .widget-social .btn-instagram:hover {
+background-color: #3f6f94 !important;
+}
+.fa-google-plus:hover,
+.fa-vimeo:hover,
+.fa-behance:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-dribbble:hover,
+.fa-facebook:hover,
+.fa-linkedin:hover,
+.fa-pinterest:hover,
+.fa-instagram:hover {
+color: #ffffff !important;
+}
+/*****************************************
+Blog Post CSS
+******************************************/
+div#Blog1 {margin-right: 15px;}
+.article_post_title {
+margin: 0;
+text-decoration: none;
+font-family: Lato;
+text-transform: uppercase;
+letter-spacing: .9px;
+font-weight: 900;
+font-style: normal;
+font-size: 36px;
+padding: 0;
+margin-top: 0;
+margin-bottom: 20px;
+line-height: 1.4;
+color:#282828;
+}
+.post-body { word-wrap:break-word; }
+.post-footer {
+display: inline-block;
+margin-top: 25px;
+width: 100%;
+}
+.article_meta_container {
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+margin-bottom: 20px;
+}
+.article_meta_container i {
+margin-right: 5px;
+}
+.article_meta_container a {
+color: #333;
+}
+.article_meta_container > span {
+margin-right: 15px;
+}
+.tagcloud.badge {
+height: 30px;
+float: left;
+display: block;
+margin-right: 16px;
+margin-top: 8px;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 1px;
+}
+.tagcloud.badge {
+display: block;
+width: 100%;
+height: 30px;
+}
+.tagcloud.badge h5 {
+display: inline-block;
+float: left;
+margin-right: 10px;
+}
+.tagcloud a {
+display: inline-block!important;
+margin-right: 3px;
+}
+/***** Page Nav CSS *****/
+#blog-pager {
+display: inline-block;
+margin: 1px 0;
+overflow: visible;
+padding: 30px 0;
+width: 100%;
+}
+.showpageOf, .home-link {  display:none;  }
+.showpagePoint {  background: #333;  color: #FFFFFF;  margin: 0 10px 0 0;  padding: 5px 10px;  text-decoration: none;  border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; -webkit-border-radius: 3px;  }
+.showpage a, .showpageNum a { background: #DCB130; color: #FFFFFF; margin: 0 10px 0 0; padding: 5px 10px; text-decoration: none; border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; -webkit-border-radius: 3px; }
+.showpage a:hover, .showpageNum a:hover {  background: #DCB130;  color: #fff;  border-radius: 3px;  -moz-border-radius: 3px;  -o-border-radius: 3px;  -webkit-border-radius: 3px;  text-decoration: none;  }
+#blog-pager-newer-link { padding: 20px 0%; position: relative; text-align: left; width: 45%; }
+#blog-pager-older-link { padding: 20px 2%; position: relative; text-align: right; width: 45%; }
+#blog-pager-newer-link .newer-text, #blog-pager-older-link .older-text { display: block; color: #999; }
+a#Blog1_blog-pager-older-link, a#Blog1_blog-pager-newer-link{
+text-transform: uppercase;
+font-weight: bold;
+background: none;
+border-width: 2px !important;
+border-style: solid !important;
+border-color#DCB130;
+background-color:#DCB130;
+color:white;
+cursor: pointer;
+display: inline-block;
+line-height: 1;
+padding: 12px 14px;
+position: relative;
+text-decoration: none;
+font-size: 12px;
+-moz-transition: all 0.3s ease 0s;
+-webkit-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+}
+/*****************************************
+Post Highlighter CSS
+******************************************/
+blockquote { border-color: #F1F4F9; border-style: solid; border-width: 1px 0; color: #888888; font-style: italic; margin: 10px 0 20px; padding: 15px 40px; }
+/*****************************************
+Sidebar CSS
+******************************************/
+#sidebar { margin: 0;margin-left:15px; padding: 0; display: block; }
+.sidebar h2 {
+font-family: lato;
+margin-bottom: 0;
+padding-bottom: 0;
+letter-spacing: 2px;
+position: relative;
+z-index: 10;
+background: rgb(220, 177, 48);
+height: 38px;
+line-height: 38px;
+padding: 0px 20px;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+display: table;
+margin: 0px auto;
+top: -21px;
+}
+.sidebar a {
+color: #333;
+}
+.sidebar .widget {
+border-radius: 1px;
+box-shadow: rgb(0, 0, 0) 1px 1px 10px -5px;
+-webkit-box-shadow: rgb(0, 0, 0) 1px 1px 10px -5px;
+background:url(http://4.bp.blogspot.com/-FFO4Fn_SNVA/VK6u77-FbHI/AAAAAAAAAdo/3L-m1Ab9KKs/s1600/sep.png) top repeat-x white;
+clear: both;
+font-size: 13px;
+line-height: 23px;
+margin-bottom: 60px;
+padding:20px;
+}
+.sidebar ul { margin: 0; padding: 0; list-style: none; }
+.sidebar li{
+border-bottom: 1px solid #F1f4f9;
+line-height: normal;
+list-style: none;
+margin: 8px 0;
+overflow: hidden;
+padding: 0 0 10px 10px;
+}
+/*****************************************
+Footer stylesheet
+******************************************/
+div#footer {
+background: #282828;
+padding-top: 40px;
+}
+.footer {
+width: 29%;
+float: left;
+margin-right: 40px;
+margin-bottom: 30px;
+}
+.footer ul {
+margin: 0;
+padding: 0;
+}
+.footer li {
+list-style: none;
+padding: 5px 0;
+}
+.footer h2 {
+color: #FFF;
+font-size: 16px;
+text-transform: uppercase;
+font-weight: 300;
+letter-spacing: 2px;
+margin-bottom: 35px;
+position: relative;
+}
+.footer h2 span:before {
+content: "[";
+padding: 0 5px;
+}
+.footer h2 span:after {
+content: "]";
+padding: 0 5px;
+}
+.footer .widget {
+padding-bottom: .2em;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 1px;
+line-height: 1.5;
+padding-top: 5px;
+color:#eee;
+}
+.footer_credits {
+color: #2D2D2D;
+background:white;
+display: block;
+font-size: 14px;
+line-height: 23px;
+margin: 0;
+padding: 80px 0 60px;
+text-align: center;
+}
+.footer a {color: #eee;}
+.footer_credits a { color: #555; }
+.footer_credits a:hover { color: #333; }
+.footer_social-icons {
+width: 100%;
+display: block;
+overflow: hidden;
+margin: 0px auto 20px;
+text-align: center;
+}
+.footer_social-icons ul {
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+list-style: none;
+text-align: center;
+display: inline-block;
+}
+.footer_social-icons li {
+float: left;
+width: 40px;
+height: 40px;
+margin: 0px;
+margin-right: 10px;
+padding: 0px;
+padding: 0px;
+overflow: hidden;
+display: inline-block;
+}
+.footer_social-icons li a {
+width: 100%;
+height: 100%;
+display: block;
+overflow: hidden;
+color: rgb(255, 255, 255);
+line-height: 40px;
+background-color:#3B3B3B;
+}
+/* Hover */
+.btn-gplus,
+#footer .widget-social .btn-gplus:hover {
+background-color: #d53824 !important;
+}
+.btn-vimeo,
+#footer .widget-social .btn-vimeo:hover {
+background-color: #4c8ab0 !important;
+}
+.btn-behance,
+#footer .widget-social .btn-behance:hover {
+background-color: #1769ff !important;
+}
+.btn-twitter,
+#footer .widget-social .btn-twitter:hover {
+background-color: #3bc1ed !important;
+}
+.btn-youtube,
+#footer .widget-social .btn-youtube:hover {
+background-color: #bf2f29 !important;
+}
+.btn-dribbble,
+#footer .widget-social .btn-dribbble:hover {
+background-color: #ef5a92 !important;
+}
+.btn-facebook,
+#footer .widget-social .btn-facebook:hover {
+background-color: #4a6d9d !important;
+}
+.btn-linkedin,
+#footer .widget-social .btn-linkedin:hover {
+background-color: #0b7bb5 !important;
+}
+.btn-pinterest,
+#footer .widget-social .btn-pinterest:hover {
+background-color: #cb1f25 !important;
+}
+.btn-instagram,
+#footer .widget-social .btn-instagram:hover {
+background-color: #3f6f94 !important;
+}
+.btn-gplus:hover,
+.btn-vimeo:hover,
+.btn-behance:hover,
+.btn-twitter:hover,
+.btn-youtube:hover,
+.btn-dribbble:hover,
+.btn-facebook:hover,
+.btn-linkedin:hover,
+.btn-pinterest:hover,
+.btn-instagram:hover {
+color: #ffffff !important;
+}
+/*****************************************
+Custom Widget CSS
+******************************************/
+/***** Custom Labels *****/
+.cloud-label-widget-content { display: inline-block; text-align: left; }
+.cloud-label-widget-content .label-size { display: inline-block; float: left; font-size: 10px; font-family: Verdana,Arial,Tahoma,sans-serif; font-weight: bold; line-height: normal; margin: 5px 5px 0 0; opacity: 1; text-transform: uppercase; }
+.cloud-label-widget-content .label-size a { color: #000 !important; float: left; padding: 5px; }
+.cloud-label-widget-content .label-size:hover a { color: #555 !important; }
+.cloud-label-widget-content .label-size .label-count { color: #555; padding: 5px 0; float: left; }
+/***** Popular Post *****/
+.PopularPosts .item-thumbnail img,.featured_thumb img {
+display: block;
+float: left;
+height: 72px;
+width: 72px;
+border-radius: 50%;
+padding: 0;
+margin-right: 5px;
+}
+.PopularPosts .item-title, .item-details h3 {
+padding-bottom: .2em;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 1px;
+line-height: 1.5;
+padding-top: 5px;
+}
+.item-snippet {
+display: none;
+}
+.item_small {
+display: inline-block;
+padding: 10px 0;
+}
+.featured_thumb img {
+margin-right: 10px;
+}
+.post_meta {
+display: none;
+}
+/***** Blogger Contact Form Widget *****/
+.contact-form-email, .contact-form-name, .contact-form-email-message, .contact-form-email:hover, .contact-form-name:hover, .contact-form-email-message:hover, .contact-form-email:focus, .contact-form-name:focus, .contact-form-email-message:focus { background: #F8F8F8; border: 1px solid #D2DADD; box-shadow: 0 1px 1px #F3F4F6 inset; max-width: 300px; color: #999; }
+.contact-form-button-submit { background: #DCB130; border: medium none; float: right; height: auto; margin: 10px 0 0; max-width: 300px; padding: 5px 10px; width: 100%; cursor: pointer; }
+.contact-form-button-submit:hover { background: #078980; border: none; }
+.footer .contact-form-name,
+.footer .contact-form-name:hover,
+.footer .contact-form-email,
+.footer .contact-form-email:hover,
+.footer .contact-form-email-message,
+.footer .contact-form-email-message:hover{
+background: #363636;
+border: 0;
+box-shadow: none;
+outline: 0;
+margin-bottom: 15px;
+}
+.footer .contact-form-button,
+.footer .contact-form-button:hover{background:#DCB130;outline:none;}
+/***** Profile Widget CSS *****/
+.Profile img { border:1px solid #cecece; background:#fff; float:left; margin:5px 10px 5px 0; padding: 5px; -webkit-border-radius: 50%;	-moz-border-radius: 50%; border-radius: 50%; }
+.profile-data { color:#999999; font:bold 20px/1.6em Arial,Helvetica,Tahoma,sans-serif; font-variant:small-caps; margin:0; text-transform:capitalize;}
+.profile-datablock { margin:0.5em 0;}
+.profile-textblock { line-height:1.6em; margin:0.5em 0;}
+a.profile-link { clear:both; display:block; font:80% monospace; padding:10px 0; text-align:center; text-transform:capitalize;}
+/***** Meet The Author *****/
+.authorboxwrap,.footer_tags{
+margin: 0 0 55px 0;
+}
+.authorboxwrap {
+display: inline-block;
+}
+.authorboxwrap h5 {
+font-size: 16px;
+text-transform: uppercase;
+margin: 0 0 15px;
+font-weight: 900;
+letter-spacing: 1px;
+}
+.avatar-container {
+margin-right: 4%;
+margin-bottom: 25px;
+float: left;
+max-width: 150px;
+text-align:center;
+}
+.avatar-container h4 a {
+color: #222;
+font-weight: normal;
+letter-spacing: 1.5px;
+font-size: 12px;
+text-transform: uppercase;
+font-weight: 900;
+}
+img.author_avatar {
+border-radius: 50%;
+width: 140px;
+border: 10px solid #f5f5f5;
+box-shadow: 1px -2px 15px -8px #000;
+}
+.author_description_container {
+margin-bottom: 25px;
+margin-top: 5px;
+float: right;
+width: 74%;
+padding: 20px 30px;
+background: #f5f5f5;
+position: relative;
+box-shadow: -3px 3px 13px -10px #000;
+}
+.author_description_container:before {
+content: "";
+position: absolute;
+border-style: solid;
+border-color: transparent;
+border-top-color: #f5f5f5;
+border-width: 20px 0px 0px 35px;
+left: -35px;
+top: 0;
+}
+.author_description_container p {
+font-size: 14px;
+line-height: 1.6;
+letter-spacing: 0;
+padding: 0px;
+}
+.authorsocial {
+margin: 10px 0 0;
+}
+.authorsocial a {
+display: inline-block;
+width: 25px;
+height: 25px;
+text-align: center;
+font-size: 14px;
+color: #FFF;
+position: relative;
+z-index: 100;
+margin-right: 2px;
+background: #DCB130;
+padding: 1px 0;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+}
+/*------*|*|*| Related Posts *|*|*|----------*/
+div#related-posts {font-size: 16px;display: inline-block;width: 100%;}
+div#related-posts h5 {font-size: 16px;text-transform: uppercase;margin: 0 0 25px;padding-bottom:15px;font-weight: 900;letter-spacing: 1px;text-align:center;position:relative;}
+div#related-posts h5:after {content: "";position: absolute;width: 4px;height: 4px;background: #222;border-radius: 50%;bottom: 0;left: 47%;box-shadow: 1em 0px 0px 0px #222,2em 0px 0px 0px #222;}
+div#related-posts ul {padding: 0;margin: 0;}
+div#related-posts ul li {list-style: none;display: block;float: left;width: 32%;max-width: 230px;padding: 0;margin: 0 5px;text-align: center;position: relative;}
+div#related-posts ul li:first-child {margin-left: 0;}
+div#related-posts img {padding: 0;border: 7px solid transparent;width: 230px;}
+a.related-thumbs {position: relative;display: block;}
+a.related-thumbs:before{opacity:1;}
+a.related-title {font-weight: bold;text-transform: uppercase;font-size: 11px;display: block;padding-top: 0;letter-spacing: 1px;margin: 15px 15px 0;color: black;}
+/*****************************************
+Comments CSS
+******************************************/
+.comments { margin-top: 30px; }
+.comments h4 { font-size: 20px; margin: 0 0 18px; text-transform: capitalize; }
+.comments .comments-content .comment-thread ol { overflow: hidden; margin: 0; }
+.comments .comments-content .comment:first-child { padding-top: 0; }
+.comments .comments-content .comment { margin-bottom: 0; padding-bottom: 0; }
+.comments .avatar-image-container { max-height: 60px; width: 60px; }
+.comments .avatar-image-container img { max-width: 60px; width: 100%; }
+.comments .comment-block { background: #fff; margin-left: 72px; padding: 14px 0 0 20px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; }
+.comments .comments-content .comment-header a { color: #333; text-transform: capitalize; }
+.comments .comments-content .user { display: block; font-style: italic; font-weight: bold; }
+.comments .comments-content .datetime { margin-left: 0; }
+.comments .comments-content .datetime a { font-size: 12px; text-transform: uppercase; }
+.comments .comments-content .comment-header, .comments .comments-content .comment-content { margin: 0 20px 0 0; }
+.comments .comment-block .comment-actions { display: block; text-align: right; }
+.comments .comment .comment-actions a { border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius:2px; background: #2980B9; color: #FFFFFF; display: inline-block; font-size: 12px; line-height: normal; margin-left: 1px; padding: 5px 8px; }
+.comments .comment .comment-actions a:hover { text-decoration: none; }
+.comments .thread-toggle { display: none; }
+.comments .comments-content .inline-thread { border-left: 1px solid #F4F4F4; margin: 0 0 20px 35px !important; padding: 0 0 0 20px; }
+.comments .continue { display: none; }
+.comment-thread ol { counter-reset: countcomments; }
+.comment-thread li:before { color: #2980B9; content: counter(countcomments, decimal); counter-increment: countcomments; float: right; font-size: 22px; padding: 15px 20px 10px; position: relative; z-index: 10; }
+.comment-thread ol ol { counter-reset: contrebasse; }
+.comment-thread li li:before { content: counter(countcomments,decimal) "." counter(contrebasse,lower-latin); counter-increment: contrebasse; float: right; font-size: 18px; }
+/*****************************************
+Responsive styles
+******************************************/
+@media screen and (max-width: 960px) {
+.ct-wrapper{ padding:0 15px; }
+.main-wrapper { margin-right:0; width:100%; }
+.sidebar-wrapper{ float: left; width: auto; margin-top: 30px; }
+#About .widget-content .main-wrap { margin-right: 0; }
+#About .widget-content .main-wrap .info { float: none; text-align: center; width: 90%; padding: 10px 5%; }
+#About .widget-content .side-wrap { width: 100%; float: none; text-align: center; }
+.sticky { position: static; }
+}
+@media screen and (max-width: 800px){
+.header_social {padding-right: 0;position: fixed;top: 40px;width: 30px;right: 0px;z-index: 10;}.header_social a {background: #DCB130;display: block;margin-top: 3px;color:white;}
+#comment-editor { margin:10px; }
+.mobile-link{display:inline-block;}
+div.nav-menu ul{display:none;}
+div.nav-menu ul {width: 220px;position: absolute;background: white;z-index: 1000;text-align: left;box-shadow: 2px 2px 15px -5px #000;border-top: 1px solid #eaeaea;border-left: 1px solid #eaeaea;}
+div.nav-menu ul li {display: block;}
+div.nav-menu ul li a {padding: 15px 20px;}
+.nav-menu li a:before,.nav-menu li a.current:before ,.nav-menu li a:hover:before,.nav-menu li a.current:before{display:none;content:'';background:transparent;color:transparent;}
+div#footer{margin:0 25px}
+.sidebar h2 {top: -21px;}
+.footer {width: 42%;}
+}
+@media screen and (max-width: 500px){
+}
+@media screen and (max-width: 420px){
+.comments .comments-content .datetime{    display:block;    float:none;    }
+.comments .comments-content .comment-header {    height:70px;    }
+}
+@media screen and (max-width: 320px){
+.ct-wrapper{ padding:0; }
+.post-body img{  max-width: 230px; }
+.comments .comments-content .comment-replies {    margin-left: 0;    }
+}
+/*****************************************
+Hiding Header Date and Feed Links
+******************************************/
+h2.date-header,span.blog-admin{display:none;}
+
+--></style>
+<style type='text/css'>
+.post-body img{ height: auto; }
+</style>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script>
+<script type='text/javascript'>
+//<![CDATA[
+// JavaScript Document
+var _0x99b0=["\x51\x20\x56\x28\x65\x2C\x74\x29\x7B\x41\x28\x65\x2E\x78\x28\x22\x3C\x22\x29\x21\x3D\x2D\x31\x29\x7B\x36\x20\x6E\x3D\x65\x2E\x47\x28\x22\x3C\x22\x29\x3B\x31\x68\x28\x36\x20\x72\x3D\x30\x3B\x72\x3C\x6E\x2E\x6D\x3B\x72\x2B\x2B\x29\x7B\x41\x28\x6E\x5B\x72\x5D\x2E\x78\x28\x22\x3E\x22\x29\x21\x3D\x2D\x31\x29\x7B\x6E\x5B\x72\x5D\x3D\x6E\x5B\x72\x5D\x2E\x46\x28\x6E\x5B\x72\x5D\x2E\x78\x28\x22\x3E\x22\x29\x2B\x31\x2C\x6E\x5B\x72\x5D\x2E\x6D\x29\x7D\x7D\x65\x3D\x6E\x2E\x31\x67\x28\x22\x22\x29\x7D\x74\x3D\x74\x3C\x65\x2E\x6D\x2D\x31\x3F\x74\x3A\x65\x2E\x6D\x2D\x32\x3B\x31\x6F\x28\x65\x2E\x31\x66\x28\x74\x2D\x31\x29\x21\x3D\x22\x20\x22\x26\x26\x65\x2E\x78\x28\x22\x20\x22\x2C\x74\x29\x21\x3D\x2D\x31\x29\x74\x2B\x2B\x3B\x65\x3D\x65\x2E\x46\x28\x30\x2C\x74\x2D\x31\x29\x3B\x58\x20\x65\x2B\x22\x2E\x2E\x2E\x22\x7D\x51\x20\x31\x43\x28\x65\x2C\x74\x2C\x6E\x2C\x77\x2C\x43\x2C\x79\x2C\x31\x44\x29\x7B\x36\x20\x72\x3D\x50\x2E\x4F\x28\x65\x29\x3B\x36\x20\x69\x3D\x50\x2E\x4F\x28\x6E\x29\x3B\x36\x20\x77\x3D\x77\x3B\x36\x20\x43\x3D\x43\x3B\x36\x20\x79\x3D\x79\x3B\x36\x20\x73\x3D\x22\x22\x3B\x36\x20\x6F\x3D\x72\x2E\x31\x35\x28\x22\x45\x22\x29\x3B\x36\x20\x75\x3D\x72\x2E\x31\x35\x28\x22\x31\x74\x22\x29\x3B\x36\x20\x61\x3D\x31\x77\x3B\x36\x20\x70\x3D\x22\x22\x3B\x36\x20\x4C\x3D\x77\x2E\x47\x28\x27\x2C\x27\x29\x3B\x36\x20\x5A\x3D\x4C\x5B\x32\x5D\x3B\x36\x20\x49\x3D\x4C\x5B\x31\x5D\x2E\x47\x28\x27\x20\x27\x29\x3B\x36\x20\x57\x3D\x49\x5B\x32\x5D\x3B\x36\x20\x59\x3D\x49\x5B\x31\x5D\x2E\x46\x28\x30\x2C\x33\x29\x3B\x36\x20\x31\x75\x3D\x24\x28\x22\x2E\x31\x71\x2D\x31\x72\x22\x29\x3B\x41\x28\x6F\x2E\x6D\x3E\x3D\x31\x29\x7B\x73\x3D\x27\x3C\x34\x20\x35\x3D\x22\x31\x78\x22\x3E\x3C\x61\x20\x38\x3D\x22\x27\x2B\x74\x2B\x27\x22\x3E\x3C\x45\x20\x4A\x3D\x22\x27\x2B\x6F\x5B\x30\x5D\x2E\x4A\x2B\x27\x22\x20\x35\x3D\x22\x31\x79\x20\x31\x45\x22\x3E\x3C\x2F\x45\x3E\x3C\x2F\x61\x3E\x3C\x2F\x34\x3E\x3C\x34\x20\x35\x3D\x22\x42\x22\x3E\x3C\x2F\x34\x3E\x27\x3B\x61\x3D\x31\x7A\x7D\x36\x20\x66\x3D\x22\x52\x2E\x31\x41\x28\x31\x70\x2E\x38\x2C\x20\x27\x31\x47\x27\x2C\x20\x27\x31\x6E\x3D\x31\x64\x2C\x20\x31\x65\x3D\x31\x62\x2C\x20\x31\x61\x3D\x32\x34\x2C\x20\x31\x39\x3D\x32\x34\x2C\x20\x31\x6C\x2C\x20\x31\x6B\x27\x29\x3B\x20\x58\x20\x31\x69\x22\x3B\x36\x20\x67\x3D\x27\x3C\x34\x20\x35\x3D\x22\x31\x6A\x2D\x31\x6D\x20\x31\x73\x22\x3E\x27\x2B\x73\x2B\x27\x3C\x34\x20\x35\x3D\x22\x31\x59\x22\x3E\x3C\x34\x20\x35\x3D\x22\x32\x32\x22\x3E\x3C\x69\x20\x35\x3D\x22\x37\x20\x37\x2D\x32\x33\x22\x3E\x3C\x2F\x69\x3E\x3C\x31\x31\x20\x35\x3D\x22\x31\x48\x22\x3E\x27\x2B\x57\x2B\x27\x20\x27\x2B\x59\x2B\x27\x20\x27\x2B\x5A\x2B\x27\x3C\x2F\x31\x31\x3E\x3C\x2F\x34\x3E\x3C\x34\x20\x35\x3D\x22\x32\x30\x22\x3E\x27\x2B\x79\x2B\x27\x3C\x2F\x34\x3E\x3C\x34\x20\x35\x3D\x22\x42\x22\x3E\x3C\x2F\x34\x3E\x3C\x31\x30\x20\x35\x3D\x22\x32\x35\x20\x64\x22\x3E\x3C\x61\x20\x38\x3D\x22\x27\x2B\x74\x2B\x27\x22\x20\x64\x3D\x22\x27\x2B\x6E\x2B\x27\x22\x3E\x27\x2B\x6E\x2B\x27\x3C\x2F\x61\x3E\x3C\x2F\x31\x30\x3E\x3C\x34\x20\x35\x3D\x22\x32\x39\x22\x3E\x3C\x70\x3E\x27\x2B\x56\x28\x72\x2E\x4E\x2C\x61\x29\x2B\x27\x3C\x2F\x70\x3E\x3C\x2F\x34\x3E\x3C\x34\x20\x35\x3D\x22\x42\x22\x3E\x3C\x2F\x34\x3E\x3C\x34\x20\x35\x3D\x22\x32\x38\x2D\x32\x37\x22\x3E\x3C\x34\x20\x35\x3D\x22\x4D\x2D\x48\x22\x3E\x3C\x61\x20\x35\x3D\x22\x32\x36\x22\x20\x38\x3D\x22\x27\x2B\x74\x2B\x27\x22\x3E\x31\x57\x20\x31\x58\x3C\x2F\x61\x3E\x3C\x2F\x34\x3E\x3C\x34\x20\x35\x3D\x22\x4D\x2D\x48\x20\x4D\x2D\x48\x2D\x44\x22\x3E\x3C\x34\x20\x35\x3D\x22\x31\x4D\x22\x3E\x3C\x31\x36\x20\x31\x4E\x3D\x22\x31\x4C\x22\x20\x35\x3D\x22\x31\x4B\x22\x3E\x3C\x39\x3E\x3C\x61\x20\x35\x3D\x22\x37\x20\x37\x2D\x31\x33\x22\x20\x38\x3D\x22\x6A\x3A\x2F\x2F\x7A\x2E\x31\x33\x2E\x62\x2F\x31\x4A\x2E\x31\x4F\x3F\x75\x3D\x27\x2B\x74\x2B\x27\x26\x63\x3B\x64\x3D\x27\x2B\x6E\x2B\x27\x22\x20\x6B\x3D\x22\x27\x2B\x66\x2B\x27\x22\x20\x68\x3D\x22\x71\x22\x20\x76\x3D\x22\x6C\x22\x3E\x3C\x2F\x61\x3E\x3C\x2F\x39\x3E\x3C\x39\x3E\x3C\x61\x20\x35\x3D\x22\x37\x20\x37\x2D\x55\x22\x20\x38\x3D\x22\x6A\x3A\x2F\x2F\x55\x2E\x62\x2F\x44\x3F\x4B\x3D\x27\x2B\x74\x2B\x27\x26\x63\x3B\x64\x3D\x27\x2B\x6E\x2B\x27\x22\x20\x6B\x3D\x22\x27\x2B\x66\x2B\x27\x22\x20\x68\x3D\x22\x71\x22\x20\x76\x3D\x22\x6C\x22\x3E\x3C\x2F\x61\x3E\x3C\x2F\x39\x3E\x3C\x39\x3E\x3C\x61\x20\x35\x3D\x22\x37\x20\x37\x2D\x54\x2D\x53\x22\x20\x38\x3D\x22\x31\x50\x3A\x2F\x2F\x53\x2E\x54\x2E\x62\x2F\x44\x3F\x4B\x3D\x27\x2B\x74\x2B\x27\x26\x63\x3B\x64\x3D\x27\x2B\x6E\x2B\x27\x22\x20\x6B\x3D\x22\x27\x2B\x66\x2B\x27\x22\x20\x68\x3D\x22\x71\x22\x20\x76\x3D\x22\x6C\x22\x3E\x3C\x2F\x61\x3E\x3C\x2F\x39\x3E\x3C\x39\x3E\x3C\x61\x20\x35\x3D\x22\x37\x20\x37\x2D\x31\x32\x22\x20\x38\x3D\x22\x6A\x3A\x2F\x2F\x31\x32\x2E\x62\x2F\x31\x56\x2F\x31\x54\x2F\x31\x53\x2F\x3F\x4B\x3D\x27\x2B\x74\x2B\x27\x26\x63\x3B\x31\x52\x3D\x27\x2B\x6F\x5B\x30\x5D\x2E\x4A\x2B\x27\x26\x63\x3B\x31\x55\x3D\x27\x2B\x6E\x2B\x27\x22\x20\x6B\x3D\x22\x27\x2B\x66\x2B\x27\x22\x20\x68\x3D\x22\x71\x22\x20\x76\x3D\x22\x6C\x22\x3E\x3C\x2F\x61\x3E\x3C\x2F\x39\x3E\x3C\x39\x3E\x3C\x61\x20\x35\x3D\x22\x37\x20\x37\x2D\x31\x34\x22\x20\x38\x3D\x22\x6A\x3A\x2F\x2F\x7A\x2E\x31\x34\x2E\x62\x2F\x31\x49\x3F\x32\x61\x3D\x32\x31\x26\x63\x3B\x27\x2B\x74\x2B\x27\x26\x63\x3B\x64\x3D\x27\x2B\x6E\x2B\x27\x22\x20\x6B\x3D\x22\x27\x2B\x66\x2B\x27\x22\x20\x68\x3D\x22\x71\x22\x20\x76\x3D\x22\x6C\x22\x3E\x3C\x2F\x61\x3E\x3C\x2F\x39\x3E\x3C\x2F\x31\x36\x3E\x3C\x2F\x34\x3E\x3C\x2F\x34\x3E\x3C\x2F\x34\x3E\x3C\x34\x20\x35\x3D\x22\x42\x22\x3E\x3C\x2F\x34\x3E\x3C\x2F\x34\x3E\x27\x3B\x72\x2E\x4E\x3D\x67\x7D\x52\x2E\x31\x51\x3D\x51\x28\x29\x7B\x36\x20\x65\x3D\x50\x2E\x4F\x28\x22\x31\x5A\x22\x29\x3B\x41\x28\x65\x3D\x3D\x31\x46\x29\x7B\x52\x2E\x31\x42\x2E\x38\x3D\x22\x6A\x3A\x2F\x2F\x7A\x2E\x31\x38\x2E\x62\x22\x7D\x65\x2E\x31\x37\x28\x22\x38\x22\x2C\x22\x6A\x3A\x2F\x2F\x7A\x2E\x31\x38\x2E\x62\x2F\x22\x29\x3B\x65\x2E\x31\x37\x28\x22\x68\x22\x2C\x22\x31\x76\x22\x29\x3B\x65\x2E\x4E\x3D\x22\x31\x63\x2E\x62\x22\x7D","\x7C","\x73\x70\x6C\x69\x74","\x7C\x7C\x7C\x7C\x64\x69\x76\x7C\x63\x6C\x61\x73\x73\x7C\x76\x61\x72\x7C\x66\x61\x7C\x68\x72\x65\x66\x7C\x6C\x69\x7C\x7C\x63\x6F\x6D\x7C\x61\x6D\x70\x7C\x74\x69\x74\x6C\x65\x7C\x7C\x70\x6F\x70\x75\x70\x7C\x7C\x72\x65\x6C\x7C\x7C\x68\x74\x74\x70\x7C\x6F\x6E\x63\x6C\x69\x63\x6B\x7C\x5F\x62\x6C\x61\x6E\x6B\x7C\x6C\x65\x6E\x67\x74\x68\x7C\x7C\x7C\x7C\x6E\x6F\x66\x6F\x6C\x6C\x6F\x77\x7C\x7C\x7C\x7C\x7C\x74\x61\x72\x67\x65\x74\x7C\x64\x61\x74\x65\x7C\x69\x6E\x64\x65\x78\x4F\x66\x7C\x74\x61\x67\x7C\x77\x77\x77\x7C\x69\x66\x7C\x63\x6C\x72\x7C\x63\x6F\x6D\x6D\x65\x6E\x74\x7C\x73\x68\x61\x72\x65\x7C\x69\x6D\x67\x7C\x73\x75\x62\x73\x74\x72\x69\x6E\x67\x7C\x73\x70\x6C\x69\x74\x7C\x69\x74\x65\x6D\x7C\x74\x69\x6D\x65\x73\x70\x6C\x69\x74\x7C\x73\x72\x63\x7C\x75\x72\x6C\x7C\x72\x65\x73\x7C\x6D\x65\x74\x61\x7C\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C\x7C\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64\x7C\x64\x6F\x63\x75\x6D\x65\x6E\x74\x7C\x66\x75\x6E\x63\x74\x69\x6F\x6E\x7C\x77\x69\x6E\x64\x6F\x77\x7C\x70\x6C\x75\x73\x7C\x67\x6F\x6F\x67\x6C\x65\x7C\x74\x77\x69\x74\x74\x65\x72\x7C\x72\x65\x6D\x6F\x76\x65\x48\x74\x6D\x6C\x54\x61\x67\x7C\x64\x61\x74\x65\x31\x7C\x72\x65\x74\x75\x72\x6E\x7C\x64\x61\x74\x65\x32\x7C\x79\x65\x61\x72\x7C\x68\x32\x7C\x73\x70\x61\x6E\x7C\x70\x69\x6E\x74\x65\x72\x65\x73\x74\x7C\x66\x61\x63\x65\x62\x6F\x6F\x6B\x7C\x6C\x69\x6E\x6B\x65\x64\x69\x6E\x7C\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65\x7C\x75\x6C\x7C\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65\x7C\x76\x65\x65\x74\x68\x65\x6D\x65\x73\x7C\x74\x6F\x70\x7C\x6C\x65\x66\x74\x7C\x36\x30\x30\x7C\x56\x65\x65\x54\x68\x65\x6D\x65\x73\x7C\x35\x35\x30\x7C\x68\x65\x69\x67\x68\x74\x7C\x63\x68\x61\x72\x41\x74\x7C\x6A\x6F\x69\x6E\x7C\x66\x6F\x72\x7C\x66\x61\x6C\x73\x65\x7C\x69\x73\x6F\x62\x72\x69\x63\x6B\x7C\x72\x65\x73\x69\x7A\x61\x62\x6C\x65\x7C\x73\x63\x72\x6F\x6C\x6C\x62\x61\x72\x73\x7C\x69\x6E\x6E\x65\x72\x7C\x77\x69\x64\x74\x68\x7C\x77\x68\x69\x6C\x65\x7C\x74\x68\x69\x73\x7C\x70\x6F\x73\x74\x7C\x6F\x75\x74\x65\x72\x7C\x61\x72\x74\x69\x63\x6C\x65\x5F\x63\x6F\x6E\x74\x7C\x69\x66\x72\x61\x6D\x65\x7C\x64\x69\x76\x31\x7C\x64\x6F\x66\x6F\x6C\x6C\x6F\x77\x7C\x73\x75\x6D\x6D\x61\x72\x79\x5F\x6E\x6F\x69\x6D\x67\x7C\x69\x6D\x61\x67\x65\x5F\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x7C\x61\x72\x74\x69\x63\x6C\x65\x5F\x69\x6D\x61\x67\x65\x7C\x73\x75\x6D\x6D\x61\x72\x79\x69\x7C\x6F\x70\x65\x6E\x7C\x6C\x6F\x63\x61\x74\x69\x6F\x6E\x7C\x72\x6D\x7C\x61\x75\x74\x68\x6F\x72\x7C\x69\x6D\x67\x63\x6F\x6E\x7C\x6E\x75\x6C\x6C\x7C\x77\x69\x6E\x64\x6F\x77\x4E\x61\x6D\x65\x7C\x64\x61\x79\x7C\x73\x68\x61\x72\x65\x41\x72\x74\x69\x63\x6C\x65\x7C\x73\x68\x61\x72\x65\x72\x7C\x61\x72\x74\x69\x63\x6C\x65\x5F\x73\x68\x61\x72\x65\x5F\x69\x74\x65\x6D\x73\x7C\x73\x68\x61\x72\x65\x5F\x61\x72\x74\x69\x63\x6C\x65\x73\x7C\x73\x6F\x63\x5F\x73\x68\x61\x72\x69\x6E\x67\x7C\x69\x64\x7C\x70\x68\x70\x7C\x68\x74\x74\x70\x73\x7C\x6F\x6E\x6C\x6F\x61\x64\x7C\x6D\x65\x64\x69\x61\x7C\x62\x75\x74\x74\x6F\x6E\x7C\x63\x72\x65\x61\x74\x65\x7C\x64\x65\x73\x63\x72\x69\x70\x74\x69\x6F\x6E\x7C\x70\x69\x6E\x7C\x52\x65\x61\x64\x7C\x4D\x6F\x72\x65\x7C\x61\x72\x74\x69\x63\x6C\x65\x5F\x73\x75\x6D\x6D\x61\x72\x79\x7C\x61\x74\x74\x72\x69\x5F\x62\x75\x74\x69\x6F\x6E\x7C\x61\x72\x74\x69\x63\x6C\x65\x5F\x62\x61\x64\x67\x65\x7C\x74\x72\x75\x65\x7C\x61\x72\x74\x69\x63\x6C\x65\x5F\x64\x61\x74\x65\x7C\x62\x6F\x6F\x6B\x6D\x61\x72\x6B\x7C\x7C\x61\x72\x74\x69\x63\x6C\x65\x5F\x74\x69\x74\x6C\x65\x7C\x72\x65\x61\x64\x5F\x6D\x6F\x72\x65\x5F\x62\x75\x74\x74\x6F\x6E\x7C\x66\x6F\x6F\x74\x65\x72\x7C\x61\x72\x74\x69\x63\x6C\x65\x5F\x65\x6E\x74\x72\x79\x7C\x61\x72\x74\x69\x63\x6C\x65\x5F\x65\x78\x63\x65\x72\x70\x74\x7C\x6D\x69\x6E\x69","","\x66\x72\x6F\x6D\x43\x68\x61\x72\x43\x6F\x64\x65","\x72\x65\x70\x6C\x61\x63\x65","\x5C\x77\x2B","\x5C\x62","\x67"];eval(function (_0xe912x1,_0xe912x2,_0xe912x3,_0xe912x4,_0xe912x5,_0xe912x6){_0xe912x5=function (_0xe912x3){return (_0xe912x3<_0xe912x2?_0x99b0[4]:_0xe912x5(parseInt(_0xe912x3/_0xe912x2)))+((_0xe912x3=_0xe912x3%_0xe912x2)>35?String[_0x99b0[5]](_0xe912x3+29):_0xe912x3.toString(36));} ;if(!_0x99b0[4][_0x99b0[6]](/^/,String)){while(_0xe912x3--){_0xe912x6[_0xe912x5(_0xe912x3)]=_0xe912x4[_0xe912x3]||_0xe912x5(_0xe912x3);} ;_0xe912x4=[function (_0xe912x5){return _0xe912x6[_0xe912x5];} ];_0xe912x5=function (){return _0x99b0[7];} ;_0xe912x3=1;} ;while(_0xe912x3--){if(_0xe912x4[_0xe912x3]){_0xe912x1=_0xe912x1[_0x99b0[6]]( new RegExp(_0x99b0[8]+_0xe912x5(_0xe912x3)+_0x99b0[8],_0x99b0[9]),_0xe912x4[_0xe912x3]);} ;} ;return _0xe912x1;} (_0x99b0[0],62,135,_0x99b0[3][_0x99b0[2]](_0x99b0[1]),0,{}));
+var summary_noimg = 300;
+summaryi = 320;
+summaryv = 200;
+thh = 433;
+thw = 100;
+scthh = 120;
+
+
+ 
+
+var dismorer = false;
+var dissepr = false;
+var shcomr = false;
+var shdater = true;
+var shsumr = false;
+var nocharr = 0;
+var showpostthumbnails_gal = true;
+var showpostsummary_gal = true;
+var random_posts = true;
+var numchars_gal = 0;
+var numposts_gal = 2
+
+var _0xd4a3=["\x54\x20\x31\x38\x28\x65\x29\x7B\x6A\x20\x74\x3D\x65\x2E\x4B\x2E\x31\x63\x24\x31\x37\x2E\x24\x74\x3B\x6A\x20\x6E\x3D\x4F\x20\x4E\x3B\x43\x2E\x42\x28\x22\x3C\x6B\x20\x78\x3D\x27\x59\x20\x58\x27\x3E\x22\x29\x3B\x47\x28\x6A\x20\x72\x3D\x30\x3B\x72\x3C\x74\x3B\x2B\x2B\x72\x29\x7B\x6E\x5B\x72\x5D\x3D\x72\x7D\x7A\x28\x5A\x3D\x3D\x4D\x29\x7B\x6E\x2E\x31\x64\x28\x54\x28\x29\x7B\x31\x68\x2E\x35\x2D\x31\x67\x2E\x31\x6D\x28\x29\x7D\x29\x7D\x7A\x28\x48\x3E\x74\x29\x7B\x48\x3D\x74\x7D\x47\x28\x72\x3D\x30\x3B\x72\x3C\x48\x3B\x2B\x2B\x72\x29\x7B\x6A\x20\x69\x3D\x65\x2E\x4B\x2E\x50\x5B\x6E\x5B\x72\x5D\x5D\x3B\x6A\x20\x6F\x3D\x69\x2E\x46\x2E\x24\x74\x3B\x47\x28\x6A\x20\x75\x3D\x30\x3B\x75\x3C\x69\x2E\x44\x2E\x31\x70\x3B\x75\x2B\x2B\x29\x7B\x7A\x28\x69\x2E\x44\x5B\x75\x5D\x2E\x56\x3D\x3D\x22\x31\x6C\x22\x29\x7B\x71\x3D\x69\x2E\x44\x5B\x75\x5D\x2E\x41\x3B\x71\x3D\x69\x2E\x44\x5B\x75\x5D\x2E\x41\x3B\x71\x3D\x69\x2E\x44\x5B\x75\x5D\x2E\x41\x3B\x31\x6B\x7D\x7D\x7A\x28\x22\x53\x22\x31\x6A\x20\x69\x29\x7B\x6A\x20\x66\x3D\x69\x2E\x53\x2E\x24\x74\x7D\x73\x3D\x66\x3B\x61\x3D\x73\x2E\x49\x28\x22\x3C\x51\x22\x29\x3B\x62\x3D\x73\x2E\x49\x28\x27\x52\x3D\x22\x27\x2C\x61\x29\x3B\x63\x3D\x73\x2E\x49\x28\x27\x22\x27\x2C\x62\x2B\x35\x29\x3B\x64\x3D\x73\x2E\x31\x69\x28\x62\x2B\x35\x2C\x63\x2D\x62\x2D\x35\x29\x3B\x7A\x28\x61\x21\x3D\x2D\x31\x26\x26\x62\x21\x3D\x2D\x31\x26\x26\x63\x21\x3D\x2D\x31\x26\x26\x64\x21\x3D\x22\x22\x29\x7B\x6A\x20\x6C\x3D\x64\x7D\x31\x6E\x20\x6A\x20\x6C\x3D\x22\x31\x6F\x3A\x2F\x2F\x34\x2E\x31\x74\x2E\x31\x75\x2E\x31\x73\x2F\x2D\x31\x72\x2F\x31\x66\x2F\x31\x71\x2F\x31\x76\x2F\x4C\x2F\x31\x34\x2E\x31\x33\x22\x3B\x6A\x20\x68\x3D\x65\x2E\x4B\x2E\x50\x5B\x6E\x5B\x72\x5D\x5D\x3B\x6A\x20\x70\x3D\x68\x2E\x31\x36\x2E\x24\x74\x3B\x6A\x20\x76\x3D\x70\x2E\x4A\x28\x30\x2C\x34\x29\x3B\x6A\x20\x6D\x3D\x70\x2E\x4A\x28\x35\x2C\x37\x29\x3B\x6A\x20\x67\x3D\x70\x2E\x4A\x28\x38\x2C\x31\x30\x29\x3B\x6A\x20\x79\x3D\x4F\x20\x4E\x3B\x79\x5B\x31\x5D\x3D\x22\x31\x39\x22\x3B\x79\x5B\x32\x5D\x3D\x22\x31\x65\x22\x3B\x79\x5B\x33\x5D\x3D\x22\x31\x61\x22\x3B\x79\x5B\x34\x5D\x3D\x22\x31\x62\x22\x3B\x79\x5B\x35\x5D\x3D\x22\x31\x35\x22\x3B\x79\x5B\x36\x5D\x3D\x22\x31\x77\x22\x3B\x79\x5B\x37\x5D\x3D\x22\x31\x50\x22\x3B\x79\x5B\x38\x5D\x3D\x22\x31\x4D\x22\x3B\x79\x5B\x39\x5D\x3D\x22\x31\x55\x22\x3B\x79\x5B\x31\x30\x5D\x3D\x22\x31\x54\x22\x3B\x79\x5B\x31\x31\x5D\x3D\x22\x31\x42\x22\x3B\x79\x5B\x31\x32\x5D\x3D\x22\x31\x78\x22\x3B\x6A\x20\x77\x3D\x22\x22\x3B\x6A\x20\x45\x3D\x30\x3B\x7A\x28\x31\x45\x3D\x3D\x4D\x29\x7B\x77\x3D\x77\x2B\x79\x5B\x31\x4A\x28\x6D\x2C\x31\x30\x29\x5D\x2B\x22\x20\x22\x2B\x67\x2B\x22\x2C\x20\x22\x2B\x76\x3B\x45\x3D\x31\x7D\x43\x2E\x42\x28\x27\x3C\x6B\x20\x78\x3D\x22\x31\x46\x22\x3E\x27\x29\x3B\x43\x2E\x42\x28\x27\x3C\x6B\x20\x78\x3D\x22\x31\x47\x22\x3E\x3C\x61\x20\x41\x3D\x22\x27\x2B\x71\x2B\x27\x22\x20\x46\x3D\x22\x27\x2B\x6F\x2B\x27\x22\x3E\x3C\x51\x20\x52\x3D\x22\x27\x2B\x6C\x2E\x31\x48\x28\x22\x2F\x4C\x2F\x22\x2C\x22\x2F\x31\x49\x2D\x63\x2F\x22\x29\x2B\x27\x22\x20\x78\x3D\x22\x31\x44\x2D\x31\x79\x20\x31\x7A\x2D\x31\x41\x2D\x31\x43\x22\x20\x31\x4C\x3D\x22\x27\x2B\x6F\x2B\x27\x22\x2F\x3E\x3C\x2F\x61\x3E\x3C\x2F\x6B\x3E\x3C\x6B\x20\x78\x3D\x22\x31\x4B\x2D\x31\x4E\x22\x3E\x3C\x57\x3E\x3C\x61\x20\x41\x3D\x22\x27\x2B\x71\x2B\x27\x22\x20\x56\x3D\x22\x31\x53\x22\x20\x46\x3D\x22\x27\x2B\x71\x2B\x27\x22\x3E\x27\x2B\x6F\x2B\x27\x3C\x2F\x61\x3E\x3C\x2F\x57\x3E\x3C\x6B\x20\x78\x3D\x22\x31\x51\x22\x3E\x3C\x61\x20\x41\x3D\x22\x27\x2B\x71\x2B\x27\x22\x3E\x3C\x69\x20\x78\x3D\x22\x55\x20\x55\x2D\x31\x52\x2D\x6F\x20\x31\x4F\x22\x3E\x3C\x2F\x69\x3E\x27\x2B\x77\x2B\x22\x3C\x2F\x61\x3E\x3C\x2F\x6B\x3E\x3C\x2F\x6B\x3E\x22\x29\x3B\x43\x2E\x42\x28\x22\x3C\x2F\x6B\x3E\x22\x29\x7D\x43\x2E\x42\x28\x22\x3C\x2F\x6B\x3E\x22\x29\x7D","\x7C","\x73\x70\x6C\x69\x74","\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x76\x61\x72\x7C\x64\x69\x76\x7C\x7C\x7C\x7C\x7C\x7C\x70\x6F\x73\x74\x75\x72\x6C\x5F\x67\x61\x6C\x7C\x7C\x7C\x7C\x7C\x7C\x7C\x63\x6C\x61\x73\x73\x7C\x7C\x69\x66\x7C\x68\x72\x65\x66\x7C\x77\x72\x69\x74\x65\x7C\x64\x6F\x63\x75\x6D\x65\x6E\x74\x7C\x6C\x69\x6E\x6B\x7C\x7C\x74\x69\x74\x6C\x65\x7C\x66\x6F\x72\x7C\x6E\x75\x6D\x70\x6F\x73\x74\x73\x5F\x67\x61\x6C\x7C\x69\x6E\x64\x65\x78\x4F\x66\x7C\x73\x75\x62\x73\x74\x72\x69\x6E\x67\x7C\x66\x65\x65\x64\x7C\x73\x31\x36\x30\x30\x7C\x74\x72\x75\x65\x7C\x41\x72\x72\x61\x79\x7C\x6E\x65\x77\x7C\x65\x6E\x74\x72\x79\x7C\x69\x6D\x67\x7C\x73\x72\x63\x7C\x63\x6F\x6E\x74\x65\x6E\x74\x7C\x66\x75\x6E\x63\x74\x69\x6F\x6E\x7C\x66\x61\x7C\x72\x65\x6C\x7C\x68\x33\x7C\x63\x6C\x65\x61\x72\x66\x69\x78\x7C\x6D\x6F\x72\x65\x5F\x70\x6F\x73\x74\x73\x7C\x72\x61\x6E\x64\x6F\x6D\x5F\x70\x6F\x73\x74\x73\x7C\x7C\x7C\x7C\x67\x69\x66\x7C\x49\x6D\x61\x67\x65\x73\x5F\x6E\x6F\x5F\x69\x6D\x61\x67\x65\x7C\x4D\x61\x79\x7C\x70\x75\x62\x6C\x69\x73\x68\x65\x64\x7C\x74\x6F\x74\x61\x6C\x52\x65\x73\x75\x6C\x74\x73\x7C\x73\x68\x6F\x77\x67\x61\x6C\x6C\x65\x72\x79\x70\x6F\x73\x74\x73\x7C\x4A\x61\x6E\x7C\x4D\x61\x72\x7C\x41\x70\x72\x7C\x6F\x70\x65\x6E\x53\x65\x61\x72\x63\x68\x7C\x73\x6F\x72\x74\x7C\x46\x65\x62\x7C\x55\x31\x56\x78\x61\x73\x38\x78\x44\x7A\x49\x7C\x4D\x61\x74\x68\x7C\x72\x65\x74\x75\x72\x6E\x7C\x73\x75\x62\x73\x74\x72\x7C\x69\x6E\x7C\x62\x72\x65\x61\x6B\x7C\x61\x6C\x74\x65\x72\x6E\x61\x74\x65\x7C\x72\x61\x6E\x64\x6F\x6D\x7C\x65\x6C\x73\x65\x7C\x68\x74\x74\x70\x7C\x6C\x65\x6E\x67\x74\x68\x7C\x41\x41\x41\x41\x41\x41\x41\x41\x42\x48\x4D\x7C\x37\x69\x35\x66\x37\x50\x47\x72\x36\x6A\x67\x7C\x63\x6F\x6D\x7C\x62\x70\x7C\x62\x6C\x6F\x67\x73\x70\x6F\x74\x7C\x36\x63\x50\x46\x47\x6B\x44\x71\x69\x36\x55\x7C\x4A\x75\x6E\x7C\x44\x65\x63\x7C\x74\x68\x75\x6D\x62\x6E\x61\x69\x6C\x7C\x77\x70\x7C\x70\x6F\x73\x74\x7C\x4E\x6F\x76\x7C\x69\x6D\x61\x67\x65\x7C\x61\x74\x74\x61\x63\x68\x6D\x65\x6E\x74\x7C\x73\x68\x64\x61\x74\x65\x72\x7C\x69\x74\x65\x6D\x5F\x73\x6D\x61\x6C\x6C\x7C\x66\x65\x61\x74\x75\x72\x65\x64\x5F\x74\x68\x75\x6D\x62\x7C\x72\x65\x70\x6C\x61\x63\x65\x7C\x73\x38\x30\x7C\x70\x61\x72\x73\x65\x49\x6E\x74\x7C\x69\x74\x65\x6D\x7C\x61\x6C\x74\x7C\x41\x75\x67\x7C\x64\x65\x74\x61\x69\x6C\x73\x7C\x6D\x69\x7C\x4A\x75\x6C\x7C\x70\x6F\x73\x74\x5F\x6D\x65\x74\x61\x7C\x63\x61\x6C\x65\x6E\x64\x61\x72\x7C\x62\x6F\x6F\x6B\x6D\x61\x72\x6B\x7C\x4F\x63\x74\x7C\x53\x65\x70","","\x66\x72\x6F\x6D\x43\x68\x61\x72\x43\x6F\x64\x65","\x72\x65\x70\x6C\x61\x63\x65","\x5C\x77\x2B","\x5C\x62","\x67"];eval(function (_0x2037x1,_0x2037x2,_0x2037x3,_0x2037x4,_0x2037x5,_0x2037x6){_0x2037x5=function (_0x2037x3){return (_0x2037x3<_0x2037x2?_0xd4a3[4]:_0x2037x5(parseInt(_0x2037x3/_0x2037x2)))+((_0x2037x3=_0x2037x3%_0x2037x2)>35?String[_0xd4a3[5]](_0x2037x3+29):_0x2037x3.toString(36));} ;if(!_0xd4a3[4][_0xd4a3[6]](/^/,String)){while(_0x2037x3--){_0x2037x6[_0x2037x5(_0x2037x3)]=_0x2037x4[_0x2037x3]||_0x2037x5(_0x2037x3);} ;_0x2037x4=[function (_0x2037x5){return _0x2037x6[_0x2037x5];} ];_0x2037x5=function (){return _0xd4a3[7];} ;_0x2037x3=1;} ;while(_0x2037x3--){if(_0x2037x4[_0x2037x3]){_0x2037x1=_0x2037x1[_0xd4a3[6]]( new RegExp(_0xd4a3[8]+_0x2037x5(_0x2037x3)+_0xd4a3[8],_0xd4a3[9]),_0x2037x4[_0x2037x3]);} ;} ;return _0x2037x1;} (_0xd4a3[0],62,119,_0xd4a3[3][_0xd4a3[2]](_0xd4a3[1]),0,{}));
+
+//]]></script>
+<script type='text/javascript'>//<![CDATA[
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('$(H).D(1(){$(\'.K B\').C(1(){p 2=$(8).2();2="<n>"+2+"</n>";$(8).2(2)});$(".A-x a").5(1(){$("y.b-d z").E()});p $3=o(\'#c-6\'),$9=$3.F(\'q.c-6-q\'),$h=o(\'2,h\'),t=1(){$3.7(\'4\',r).k(\'c-6-4\');$9.J();u i},l=1(){$3.7(\'4\',i).m(\'c-6-4\')};$9.g(\'5\',1(e){e.s();$3.7(\'4\',r)});$3.g(\'5\',1(e){e.s();w(!$3.7(\'4\')){t();$h.M(\'5\').g(\'5\',1(e){l()})}G{w($9.I()===\'\'){l();u i}}});$(".b-d j a").L(1(){$(8).k("f");$(".b-d j:v(0) a").m("f")},1(){$(8).m("f");$(".b-d j:v(0) a").k("f")})});',49,49,'|function|html|ntsearch|open|click|search|data|this|ntsearchinput||nav|nt|menu||current|on|body|false|li|addClass|closeSearch|removeClass|span|jQuery|var|input|true|stopPropagation|openSearch|return|eq|if|link|div|ul|mobile|h2|each|ready|slideToggle|find|else|document|val|focus|widget|hover|off'.split('|'),0,{}))
+//]]></script>
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='@sidsilhouette' name='twitter:site'/>
+<meta content='Sid Johson SEO WebMaster' name='twitter:title'/>
+<meta content='Search Engine Optimization' name='twitter:description'/>
+<meta content='@sidsilhouette' name='twitter:creator'/>
+<meta content='www.webmastersid.com' name='twitter:domain'/>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<!--<body>-->
+<body>
+<header id='blog_header'>
+<div class='blog_top-header'>
+<div class='ct-wrapper'>
+<div class='topbar-left'>
+<!-- top_navigation -->
+<div class='top_menu_bar'>
+<ul>
+<li><a href='/'>Home</a></li>
+</ul>
+</div>
+</div>
+<div class='topbar-right'>
+<!-- top_social_icons -->
+<div class='header_social'>
+<a class='' href='https://www.facebook.com/Sid4SEO/' target='_blank'><i class='fa fa-facebook'></i></a>
+<a class='' href='https://twitter.com/sidsilhouette' target='_blank'><i class='fa fa-twitter'></i></a>
+<a class='' href='https://www.linkedin.com/in/webmastersid' target='_blank'><i class='fa fa-linkedin'></i></a>
+<a class='' href='https://plus.google.com/+Sid4SEO' target='_blank'><i class='fa fa-google-plus'></i></a>
+</div>
+<!--search_form -->
+<div class='nt-search' id='nt-search'>
+<form action='/search' id='searchform' method='get'>
+<div class='nt-search-input-wrap'>
+<input class='nt-search-input' id='s' name='q' placeholder='Search' type='text' value=''/></div>
+<input class='nt-search-submit' id='go' type='submit' value='Search'/><span class='nt fa fa-search'></span>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class='header-wrapper'>
+<div class='ct-wrapper'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+<a href='http://www.webmastersid.com/'>WebMaster</a>
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>Search Engine Optimizer</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='clr'></div>
+<div class='blog_nav_wrapper section' id='blog_nav_wrapper'><div class='widget HTML' id='HTML13'>
+<div class='ct-wrapper'>
+<div class='mobile-link'>
+<a href='#mobilemenu'><i class='fa fa-bars'></i></a>
+</div>
+<div class='nav-menu'>
+<ul>
+<li><a class='current' href='http://www.webmastersid.com/'>Home</a></li>
+<li><a href='/p/about.html'>About</a></li>
+<li><a href='search'>Blog</a></li>
+<li><a href='/p/privacy-policy.html'>Privacy Policy</a></li>
+</ul>
+<div class='clr'></div>
+</div>
+</div>
+</div></div>
+</header>
+<div class='ct-wrapper'>
+<div class='outer-wrapper'>
+<div class='main-wrapper'>
+<div class='content section' id='content'><div class='widget Blog' id='Blog1'>
+<div class='blog_posts hfeed'>
+<div class='post-outer'>
+<div class='post_hentry grid_item'>
+<div class='post-body entry-content' id='post-body-2413047648781168922'>
+<div id='p2413047648781168922'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-0f9Ut3J4UEY/VguSWCEOSAI/AAAAAAAABiw/khdhWwqy4ls/s1600/protecting%2Byour%2Bdigital%2Bstore-800x515.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="256" src="http://3.bp.blogspot.com/-0f9Ut3J4UEY/VguSWCEOSAI/AAAAAAAABiw/khdhWwqy4ls/s400/protecting%2Byour%2Bdigital%2Bstore-800x515.jpg" width="400" /></a></div>
+<h2 style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; font-weight: normal; line-height: 115%;"><a href="http://www.jdsupra.com/legalnews/trademarks-copyrights-and-registered-22223/?utm_source=JD-Supra-eMail-Digests" target="_blank">PM Legal Minute</a></span><span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; font-weight: normal; line-height: 115%;"> published
+an article highlighting the best practices for protecting our digital stores.&nbsp; &#8220;Protecting it is paramount to protecting
+your brand.&#8221;</span></h2>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">Accordingly, our business&#8217;s trademark symbol
+(&#8482;)&nbsp;&nbsp; and logo are valuable &#8220;intellectual
+property assets&#8221; that are protected by trademark law.&nbsp; This trademark identifies your services.&nbsp; Therefore, in order to protect your trademark
+under federal law, you must file an application with the U.S. Patent and
+Trademark Office (</span><span style="font-family: &quot;calibri&quot; , &quot;sans-serif&quot;; font-size: 11.0pt; line-height: 115%;"><a href="http://www.uspto.gov/"><span style="color: black; font-size: 12.0pt; line-height: 115%;">USPTO</span></a></span><span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">).</span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">Once you complete the task of registering your
+trademark with the USPTO, you can sue others for trademark infringement.&nbsp; You will also be able to use the &#174; symbol to
+protect your mark.&nbsp; However, if you do
+not get your federal registration, you can still establish common law rights by
+using the &#8482; symbol after the &#174; mark.</span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">PM Legal also notes, &#8220;That there is a difference
+between trademark law protection for your company name and the act of filing
+documents in a state to form your company or registering with the intent to do
+business as a foreign corporation in another state.&nbsp; Filing documents with the states to reserve
+your corporate name and form the business does not give you any trademark
+protection, rights or ownership in your company&#8217;s name.&#8221;</span></div>
+<div>
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+<div>
+<h3 style="text-align: center;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><i>Are you using Government Logo&#8217;s properly?</i></span></h3>
+</div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">If you are using a government logo, keep in mind
+that you cannot use a federal government logo without their permission.&nbsp; Check your contract to see if it describes
+the best practices for displaying their crest or logo on your website.&nbsp; The agency may provide permission in the
+contract.&nbsp; In addition, depending on the
+agency, some agencies allow it by virtue of a blanket rule in their
+regulations.</span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">If you are unable to find any reference to using
+their logo or crest on your website, then email the agency and ask for
+permission to use their logo on your site.</span></div>
+<div>
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+<div>
+<h3 style="text-align: center;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><i>Do you use a copyright notice on your website?</i></span></h3>
+</div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">Works of authorship: original content,
+photographs, or artistic works are another type of intellectual property that
+you can protect with copyright laws.&nbsp; &#8220;Certain&#8221;
+elements fall within the copyright protection such as:</span></div>
+<div style="text-align: left;">
+<h3 style="margin-left: .25in;">
+<ul>
+<li><span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; font-weight: normal; line-height: 115%;">Blog post</span></li>
+<li><span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; font-weight: normal; line-height: 115%;">Marketing videos</span></li>
+<li><span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; font-weight: normal; line-height: 115%;">Creating graphic elements</span></li>
+</ul>
+</h3>
+</div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">The best practice to protect written work, use a
+copyright notice on the bottom of your website.&nbsp;
+Your copyright notice should consist of using three elements:</span></div>
+<div style="text-align: left;">
+<h3 style="margin-left: 0.25in; text-align: left;">
+<ol>
+<li><span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; font-weight: normal; line-height: 115%;">The &#169; symbol, or the work &#8220;Copyright&#8221; or the abbreviation &#8220;copr.&#8221;</span></li>
+<li><span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; font-weight: normal; line-height: 115%;">The year of the first publication</span></li>
+<li><span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; font-weight: normal; line-height: 115%;">The name of the owner of copyright in the work</span></li>
+</ol>
+</h3>
+<h4 style="text-align: left;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><i>Have you registered your domain name?</i></span></h4>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">The first step in securing your brand name, this
+process is a part of your website address.&nbsp;
+Best practice is registering your domain name with an accredited domain
+name registrar.</span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">However, this is not the same as trademark
+registration with the USPTO.&nbsp; &#8220;Domain
+name registration does not grant trademark law protection, rights or
+ownership.&#8221; ~ PM Legal</span></div>
+<div>
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+<h4 style="text-align: left;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><i>Protecting Tour Trade Secrets</i></span></h4>
+</div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">As PM Legal explains, &#8220;your trade secrets
+consist of your &#8216;secret sauce&#8217; such as financial, business, scientific, or
+technical information and know-how that are unique and developed by your
+company for its own proprietary use.&#8221;</span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">You should take steps to protect your trade
+secrets.&nbsp; Such as, monitoring your
+website regularly to make sure your secrets are intact.&nbsp; Trade secrets can last forever.&nbsp; Protecting them does not require filing with
+the USPTO.&nbsp; However, federally protected
+intellectual property, patents and trademarks, have a defined term.</span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">PM Legal also advises us not to disclose any
+information related to your trade secrets through marketing efforts.&nbsp; This may be tempting for gaining an advantage
+over competitors when promoting your products or services.</span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+<div style="text-align: justify;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;">However, do not let your marketing efforts get
+in the way of protecting your intellectual property because you may
+inadvertently share some valuable information that can be damaging to the
+growth of your business.</span></div>
+<div style="text-align: left;">
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+<div>
+<span style="font-family: &quot;calibri&quot; , sans-serif; font-size: 12pt; line-height: 115%;"><br /></span></div>
+</div>
+</div>
+<script type='text/javascript'>
+rm("p2413047648781168922","http://www.webmastersid.com/2015/09/legal-practices-protecting-digital-store.html","Best Legal Practices for Protecting Your Digital Store","Wednesday, September 30, 2015","0","<a href='http://www.webmastersid.com/search/label/Featured?max-results=6' rel='tag'>Featured</a>","<a href='https://plus.google.com/110862261077370804145'>Sid Silhouette</a>");
+</script>
+<div style='clear: both;'></div>
+</div>
+</div>
+</div>
+<div class='inline-ad'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- webmaster-sid_main_Blog1_1x1_as -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6432345606457765"
+     data-ad-host="ca-host-pub-1556223355139109"
+     data-ad-host-channel="L0007"
+     data-ad-slot="3590622052"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='post-outer'>
+<div class='post_hentry grid_item'>
+<div class='post-body entry-content' id='post-body-8247147869895945702'>
+<div id='p8247147869895945702'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-KzeuKeEhmQY/VPeGlgZu4eI/AAAAAAAABeM/j180Z3qUQ-k/s1600/Google-New-Mobile-Ranking-Signal-800x450.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="225" src="http://3.bp.blogspot.com/-KzeuKeEhmQY/VPeGlgZu4eI/AAAAAAAABeM/j180Z3qUQ-k/s1600/Google-New-Mobile-Ranking-Signal-800x450.jpg" width="400" /></a></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: justify;">
+Google will be releasing a new &#8220;mobile-friendliness&#8221; ranking signal on April 21 and Google states this will have a &#8220;significant impact&#8221; on the search results.  The change will affect mobile searches in all languages worldwide.  Google states on their Webmaster Central Blog that users will find it easier to get relevant, high quality search results that are optimized for their devices.</div>
+<div style="text-align: justify;">
+<br /></div>
+<div style="text-align: justify;">
+It is well known that Google has been insisting that site owners adapt to a responsive design.  The way Google sees it:</div>
+<blockquote class="tr_bq" style="text-align: justify;">
+When it comes to search on mobile devices, users should get the most relevant and timely results, no matter if the information lives on mobile-friendly web pages or apps. As more people use mobile devices to access the internet, our algorithms have to adapt to these usage patterns. In the past, we&#8217;ve made updates to ensure a site is configured properly and viewed on modern devices. We&#8217;ve made it easier for users to find mobile-friendly web pages and we&#8217;ve introduced App Indexing to surface useful content from apps."</blockquote>
+<h2 style="text-align: center;">
+<b>Mobile-Friendly Ranking Factor</b></h2>
+<br />
+<div style="text-align: justify;">
+On October 14, 2015, Google started displaying a gray mobile-friendly label on the mobile search results list indicating that a site is meeting their standards.  For websites that aren&#8217;t mobile-friendly they are displaying a strike-through on the mobile icon to discourage visitors.  Google is always seeking new ways to enhance their user&#8217;s experience as they browse for things on the Internet.<br />
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- BTF_article_responsive -->
+<br />
+<ins class="adsbygoogle" data-ad-client="ca-pub-6432345606457765" data-ad-format="auto" data-ad-slot="8162899258" style="display: block;"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div style="text-align: justify;">
+<br /></div>
+<div style="text-align: justify;">
+To help website owners adapt to the new changes, Google provides a <a href="https://developers.google.com/webmasters/mobile-sites/get-started/?utm_source=wmc-blog&amp;utm_medium=referral&amp;utm_campaign=mobile-friendly" target="_blank"><span style="color: #b45f06;">guide for mobile-friendly</span></a> sites.  Webmasters can get ready for this change by using the following tools to see how Googlebot views your page:</div>
+<div>
+<ul>
+<li><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;; font-size: 12.0pt; mso-ansi-language: EN-US; mso-ascii-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-language: AR-SA; mso-bidi-theme-font: minor-bidi; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-fareast-language: EN-US; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin;">If
+you want to test a few pages, you can use the </span><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;; font-size: 11.0pt; mso-ansi-language: EN-US; mso-ascii-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-size: 10.0pt; mso-bidi-language: AR-SA; mso-bidi-theme-font: minor-bidi; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-fareast-language: EN-US; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin;"><a href="https://www.google.com/webmasters/tools/mobile-friendly/?utm_source=wmc-blog&amp;utm_medium=referral&amp;utm_campaign=mobile-friendly" rel="nofollow" target="_blank"><span style="color: #b45f06; font-size: 12.0pt;">Mobile-Friendly Test</span></a></span><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;; font-size: 12.0pt; mso-ansi-language: EN-US; mso-ascii-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-language: AR-SA; mso-bidi-theme-font: minor-bidi; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-fareast-language: EN-US; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin;">.</span></li>
+<li><span style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;; font-size: 12.0pt; mso-ansi-language: EN-US; mso-ascii-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-language: AR-SA; mso-bidi-theme-font: minor-bidi; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-fareast-language: EN-US; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin;"><span style="font-size: 12pt;">If
+you already have a website, you can use your Webmaster Tools account to get a
+full list of mobile usability issues across your site using the Mobile
+Usability Report.</span></span></li>
+</ul>
+<div style="text-align: justify;">
+For those who have been taking advantage of their App Index, Google will now surface content from indexed apps more prominently in search.  Google has already begun to use information from indexing apps as a factor in ranking for signed-in users who have the app installed.  If you don&#8217;t know how to use App Indexing, Google provides a <a href="https://developers.google.com/app-indexing/webmasters/details?utm_source=wmc-blog&amp;utm_medium=referral&amp;utm_campaign=mobile-friendly" target="_blank"><span style="color: #b45f06;">step-by-step guide</span></a> on their developer site.&nbsp;</div>
+<div style="text-align: justify;">
+<br /></div>
+<div style="text-align: justify;">
+Google has laid out some &#8220;criteria&#8221; for meeting their standards.  Webmasters should avoid software that isn&#8217;t common on mobile devices.  Such as Flash, Google started showing messages in mobile search indicating that a site &#8220;Uses Flash. May not work on your device.&#8221;&nbsp;</div>
+<div style="text-align: justify;">
+<br /></div>
+<div style="text-align: justify;">
+Google also states that websites should use text that is readable without zooming, and should size content to the screen so that users don&#8217;t have to scroll horizontally or zoom.  In addition, links should be placed far enough apart so that the correct one can be tapped easily.&nbsp;</div>
+<div style="text-align: justify;">
+<br /></div>
+<div style="text-align: justify;">
+Other corrections that may be necessary for your site to rank well with Google can be further gained from using their <a href="https://developers.google.com/speed/pagespeed/insights/" rel="nofollow" target="_blank"><span style="color: #b45f06;">PageSpeed Insights</span></a>  tool.</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+rm("p8247147869895945702","http://www.webmastersid.com/2015/03/googles-new-ranking-factor.html","Google's New Ranking Factor","Wednesday, March 04, 2015","0","<a href='http://www.webmastersid.com/search/label/Featured?max-results=6' rel='tag'>Featured</a><a href='http://www.webmastersid.com/search/label/New%20Mobile%20Ranking%20Factor?max-results=6' rel='tag'>New Mobile Ranking Factor</a><a href='http://www.webmastersid.com/search/label/Smartphone%20Mobile-Friendly?max-results=6' rel='tag'>Smartphone Mobile-Friendly</a><a href='http://www.webmastersid.com/search/label/Webmaster?max-results=6' rel='tag'>Webmaster</a>","<a href='https://plus.google.com/110862261077370804145'>Sid Silhouette</a>");
+</script>
+<div style='clear: both;'></div>
+</div>
+</div>
+</div>
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://www.webmastersid.com/search?updated-max=2015-03-04T17:38:00-05:00&amp;max-results=2' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://www.webmastersid.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div></div>
+</div><!-- /main-wrapper -->
+<div class='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'><div class='widget HTML' id='HTML2'>
+<div class='widget-content'>
+<!-- begin example widget -->
+<script type="text/javascript">
+        var simplyhired_widget = {};
+        simplyhired_widget.publisher = 85465;
+        simplyhired_widget.id = 23846;
+        simplyhired_widget.channels = '';
+        simplyhired_widget.keywords = 'webmaster'; // Default search term
+        
+         simplyhired_widget.location = ''; // Search location. Empty string for GeoIP, omit for any location.
+        
+        
+          simplyhired_widget.ad_type = '2'; //type of search results {0=sponsored,1=combo,2=organic,3=backfill disabled}
+        
+        simplyhired_widget.num_jobs = '9'; //number of jobs to display
+        simplyhired_widget.stylesheet = ''; //full url to external stylesheet (optional)
+        simplyhired_widget.width = '275px'; //css width of widget (optional)
+        simplyhired_widget.color_title = '#0066cc';
+        simplyhired_widget.color_location = '#00a99c';
+        simplyhired_widget.color_company = '#000000';
+        simplyhired_widget.header = 'Jobs'; //widget header (optional, omit for default text, set to empty string for none)
+        simplyhired_widget.searchbox ='on';
+
+
+</script>
+<script type="text/javascript" src="//ads.simplyhired.com/static/491e2a006f2786651305bd7b0633d64d09fa67cd/js/partner/widget-render.js"></script>
+
+<div id="simplyhired_job_widget" async="async"></div>
+<!-- end example widget -->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6649239829669006952&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget PopularPosts' id='PopularPosts1'>
+<h2>Popular Posts</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.webmastersid.com/2014/11/business-online-without-website.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://3.bp.blogspot.com/-WUUeRxbF8Oc/VFlTIsHfMBI/AAAAAAAABIo/RmTFCx5uOFY/s72-c/brick-and-mortar-businesses-online-570x326.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.webmastersid.com/2014/11/business-online-without-website.html'>Get Your Business Online Without a Website</a></div>
+<div class='item-snippet'>      No Website Required     Maile Ohye, a Google developer, produced a series of videos for brick and mortar businesses to begin the proce...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.webmastersid.com/2014/10/bing-indexes-sites-fast.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://2.bp.blogspot.com/-f9cEcQMy7-U/VFPBRhd2c1I/AAAAAAAABHU/anWemxJVUko/s72-c/bing-webmaster-576x397.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.webmastersid.com/2014/10/bing-indexes-sites-fast.html'>Bing Indexes Sites Faster than Google</a></div>
+<div class='item-snippet'>      Bing vs Google     Bing is apparently in the indexing business while Google is focused on penalizing sites that are not optimized for ...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.webmastersid.com/2014/10/google-smartphone-mobile-friendly.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://4.bp.blogspot.com/-P3T9MMVKnfw/VFKO142BU9I/AAAAAAAABGs/flrjymenfBU/s72-c/mobile-icons-on-serps-661x228.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.webmastersid.com/2014/10/google-smartphone-mobile-friendly.html'>Google Insist Sites be Smartphone Mobile-Friendly</a></div>
+<div class='item-snippet'>          Google is pushing for sites to become mobile-friendly for their users.  Several updates have been released that may cause a few to...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.webmastersid.com/2014/12/about-google-analytics-website-owners.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://4.bp.blogspot.com/-sBVZXojlIqA/VJH53fVZ87I/AAAAAAAABS4/dGp0w_ZkdC4/s72-c/aristotle-wallpaper-800x428.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.webmastersid.com/2014/12/about-google-analytics-website-owners.html'>What You Should Know about Google Analytics</a></div>
+<div class='item-snippet'>        &quot;The pursuit of perfection, then, is the pursuit of sweetness and light... He who works for sweetness and light united, works t...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.webmastersid.com/2014/11/seo-for-startup-businesses.html' target='_blank'>
+<img alt='' border='0' height='72' src='https://1.bp.blogspot.com/-P6unJn-cdak/VGPQE-qrIqI/AAAAAAAABLY/jhZu-VZi1iM/s72-c/SEO-for-Startup-Businesses-462x260.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.webmastersid.com/2014/11/seo-for-startup-businesses.html'>SEO for Startup Businesses</a></div>
+<div class='item-snippet'>      SEO for Beginners     Penguin 3.0&#8217;s latest update, pretty much humbled a lot of business owners who choose not to use skilled optimize...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.webmastersid.com/2014/10/dark-web-anonymous-frontier.html' target='_blank'>
+<img alt='' border='0' height='72' src='http://1.bp.blogspot.com/-uQ-oG1Q9UfI/VF_1aQFXQFI/AAAAAAAABLE/Mo6gsJFIr3w/s72-c/Dark%2BAnonymous%2BWeb-400x191.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.webmastersid.com/2014/10/dark-web-anonymous-frontier.html'>Dark Web: The Anonymous Frontier</a></div>
+<div class='item-snippet'>         Silence Is Golden      Anonymous Users &amp; Darknet      The Dark Web  or darknet  is a network of private connections between tru...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+</div>
+</div><div class='widget Label' id='Label2'>
+<h2>Label Cloud</h2>
+<div class='widget-content list-label-widget-content'>
+<ul>
+<li>
+<a dir='ltr' href='http://www.webmastersid.com/search/label/Bing%20Webmaster%20Tools'>Bing Webmaster Tools</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.webmastersid.com/search/label/Black%20History'>Black History</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.webmastersid.com/search/label/Google%20AdSense'>Google AdSense</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.webmastersid.com/search/label/Google%20Analytics'>Google Analytics</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.webmastersid.com/search/label/Link%20Building'>Link Building</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.webmastersid.com/search/label/Mobile%20App'>Mobile App</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.webmastersid.com/search/label/Natural%20Links'>Natural Links</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.webmastersid.com/search/label/SEO'>SEO</a>
+<span dir='ltr'>(5)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.webmastersid.com/search/label/Webmaster%20Tools'>Webmaster Tools</a>
+<span dir='ltr'>(5)</span>
+</li>
+</ul>
+</div>
+</div></div>
+</div><!-- /sidebar-wrapper -->
+<div class='clr'></div>
+</div><!-- /outer-wrapper -->
+</div>
+<div id='footer'>
+<div class='ct-wrapper'>
+<div class='footer section' id='footer1'><div class='widget HTML' id='HTML5'>
+<h2>Random Posts</h2>
+<div class='widget-content'>
+<script style='text/javascript'>
+ var numposts_gal = 3;
+</script>
+<script src='/feeds/posts/default?orderby=published&alt=json-in-script&callback=showgalleryposts&max-results=99'></script>
+</div>
+</div><div class='widget Attribution' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Powered by <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6649239829669006952&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div>
+<div class='footer section' id='footer2'><div class='widget HTML' id='HTML1'>
+<div class='widget-content'>
+<!-- begin olark code -->
+<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+f[z]=function(){
+(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+0:+new Date};a.P=function(u){
+a.p[u]=new Date-a.p[0]};function s(){
+a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+b.contentWindow[g].open()}catch(w){
+c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('2582-817-10-8323');/*]]>*/</script><noscript><a href="https://www.olark.com/site/2582-817-10-8323/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code -->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6649239829669006952&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=footer2' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget AdSense' id='AdSense1'>
+<div class='widget-content'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- webmaster-sid_footer2_AdSense1_1x1_as -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6432345606457765"
+     data-ad-host="ca-host-pub-1556223355139109"
+     data-ad-host-channel="L0003"
+     data-ad-slot="4584392453"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6649239829669006952&widgetType=AdSense&widgetId=AdSense1&action=editWidget&sectionId=footer2' onclick='return _WidgetManager._PopupConfig(document.getElementById("AdSense1"));' target='configAdSense1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<div class='footer section' id='footer3'><div class='widget ContactForm' id='ContactForm1'>
+<h2 class='title'>Contact WebMaster</h2>
+<div class='contact-form-widget'>
+<div class='form'>
+<form name='contact-form'>
+<p></p>
+Name
+<br/>
+<input class='contact-form-name' id='ContactForm1_contact-form-name' name='name' size='30' type='text' value=''/>
+<p></p>
+Email
+<span style='font-weight: bolder;'>*</span>
+<br/>
+<input class='contact-form-email' id='ContactForm1_contact-form-email' name='email' size='30' type='text' value=''/>
+<p></p>
+Message
+<span style='font-weight: bolder;'>*</span>
+<br/>
+<textarea class='contact-form-email-message' cols='25' id='ContactForm1_contact-form-email-message' name='email-message' rows='5'></textarea>
+<p></p>
+<input class='contact-form-button contact-form-button-submit' id='ContactForm1_contact-form-submit' type='button' value='Send'/>
+<p></p>
+<div style='text-align: center; max-width: 222px; width: 100%'>
+<p class='contact-form-error-message' id='ContactForm1_contact-form-error-message'></p>
+<p class='contact-form-success-message' id='ContactForm1_contact-form-success-message'></p>
+</div>
+</form>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6649239829669006952&widgetType=ContactForm&widgetId=ContactForm1&action=editWidget&sectionId=footer3' onclick='return _WidgetManager._PopupConfig(document.getElementById("ContactForm1"));' target='configContactForm1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div class='clr'></div>
+</div><!-- /ct-wrapper -->
+</div><!-- footer -->
+<div class='footer_credits'>
+<div class='ct-wrapper'>
+<!-- footer_blog_social_icons -->
+<div class='footer_social-icons'>
+<ul>
+<li><a class='btn-facebook' href='https://www.facebook.com/Sid4SEO/' title='Facebook'><i class='fa fa-facebook'></i></a></li>
+<li><a class='btn-twitter' href='https://twitter.com/sidsilhouette' title='Twitter'><i class='fa fa-twitter'></i></a></li>
+<li><a class='btn-gplus' href='#https://plus.google.com/+Sid4SEO' title='Google Plus'><i class='fa fa-google-plus'></i></a></li>
+<li><a class='btn-linkedin' href='https://www.linkedin.com/in/webmastersid' title='LinkedIn'><i class='fa fa-linkedin'></i></a></li>
+<li><a class='btn-pinterest' href='https://www.pinterest.com/Sid4SEO/' title='Pinterest'><i class='fa fa-pinterest'></i></a></li>
+</ul>
+</div>
+<div class='clr'></div>
+<p>Copyright &#169; 2016 <a href='http://www.webmastersid.com/'>WebMaster</a> (267) 721-4174</p>
+<a href='http://gooyaabitemplates.com/' rel='dofollow' target='_blank' title='Blogger Templates'>Blogger Templates</a>
+<p class='attribution'>Designed by <a id='attri_bution'></a></p>
+</div>
+</div><!-- footer-credits -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+<script type='text/javascript'>
+  /*<![CDATA[*/
+    var postperpage=5;
+    var numshowpage=2;
+    var upPageWord ='«';
+    var downPageWord ='»';
+    var urlactivepage=location.href;
+    var home_page="/";
+  /*]]>*/
+</script>
+<script src='http://yourjavascript.com/00911305131/pagenavigation.txt.js' type='text/javascript'></script>
+<script src='http://yourjavascript.com/714142215143/owl-carousel-min.js' type='text/javascript'></script>
+<script>//<![CDATA[
+
+
+$(".owl_carouselle").owlCarousel({
+                items: 3,
+  nav : true,
+                responsive: true,
+                autoPlay: 5e3,
+                stopOnHover: true,
+  				pagination : false,
+  				navigation : true,		
+navigationText : ["",""],
+   
+        });       
+
+  
+
+//]]></script>
+<script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-55853168-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script');
+          ga.type = 'text/javascript';
+          ga.async = true;
+          ga.src = (document.location.protocol == 'https:' ?
+                    'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2244687694-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '6649239829669006952';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6649239829669006952','//www.webmastersid.com/','6649239829669006952');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '6649239829669006952', 'bloggerUrl': 'https://www.blogger.com', 'title': 'WebMaster', 'pageType': 'index', 'url': 'http://www.webmastersid.com/', 'canonicalUrl': 'http://www.webmastersid.com/', 'homepageUrl': 'http://www.webmastersid.com/', 'canonicalHomepageUrl': 'http://www.webmastersid.com/', 'blogspotFaviconUrl': 'http://www.webmastersid.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': 'UA-55853168-1', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'WebMaster', 'metaDescription': 'An expert webmaster and SEO specialist who applies up-to-date optimization methods.', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42WebMaster - Atom\42 href\75\42http://www.webmastersid.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42WebMaster - RSS\42 href\75\42http://www.webmastersid.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42WebMaster - Atom\42 href\75\42https://www.blogger.com/feeds/6649239829669006952/posts/default\42 /\76\n', 'meTag': '\74link rel\75\42me\42 href\75\42https://plus.google.com/110862261077370804145\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://www.webmastersid.com/\42 /\76\n', 'googleProfileUrl': 'https://plus.google.com/110862261077370804145', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId': 'ca-pub-6432345606457765', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/581377545bf84644', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'messages', 'data': {'archive': 'Archive', 'blogArchive': 'Blog Archive', 'by': 'By', 'byAuthor': 'By %1', 'byAuthorLink': 'By \74a href\75\42%2\42\76%1\74/a\076', 'deleteBacklink': 'Delete Backlink', 'deleteComment': 'Delete Comment', 'edit': 'Edit', 'emailAddress': 'Email Address', 'getEmailNotifications': 'Get email notifications', 'keepReading': 'Keep reading', 'labels': 'Labels', 'loadMorePosts': 'Load more posts', 'loading': 'Loading...', 'myBlogList': 'My Blog List', 'myFavoriteSites': 'My favorite sites', 'newer': 'Newer', 'newerPosts': 'Newer Posts', 'newest': 'Newest', 'noResultsFound': 'No results found', 'noTitle': 'No title', 'numberOfComments': '{numComments, plural, \0750 {No comments} \0751 {1 comment} other {# comments}}', 'older': 'Older', 'olderPosts': 'Older Posts', 'oldest': 'Oldest', 'onlyTeamMembersCanComment': 'Note: Only a member of this blog may post a comment.', 'popularPosts': 'Popular Posts', 'popularPostsFromThisBlog': 'Popular posts from this blog', 'postAComment': 'Post a Comment', 'postedBy': 'Posted by', 'postedByAuthor': 'Posted by %1', 'postedByAuthorLink': 'Posted by \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Read more', 'reportAbuse': 'Report Abuse', 'search': 'Search', 'searchBlog': 'Search blog', 'share': 'Share', 'showAll': 'Show all', 'someOfMyFavoriteSites': 'Some of my favorite sites', 'subscribe': 'Subscribe', 'subscribeToThisBlog': 'Subscribe to this blog', 'theresNothingHere': 'There\47s nothing here!', 'viewAll': 'View all', 'visitProfile': 'Visit profile'}}, {'name': 'skin', 'data': {'vars': {'keycolor': '#757575', 'bg_body_color': '#ededed', 'primary_background_color_transparent': 'rgba(220, 177, 48, 0)', 'keycolor_transparent': 'rgba(117, 117, 117, 0)', 'bg_body_color_transparent': 'rgba(237, 237, 237, 0)', 'image_border_color': '#F8524A', 'primary_background_color': '#DCB130', 'image_border_color_transparent': 'rgba(248, 82, 74, 0)'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML13', 'blog_nav_wrapper', null, document.getElementById('HTML13'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'content', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label2', 'sidebar', null, document.getElementById('Label2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'footer1', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer1', null, document.getElementById('Attribution1'), {'attribution': 'Powered by \74a href\75\47https://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer2', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense1', 'footer2', null, document.getElementById('AdSense1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ContactFormView', new _WidgetInfo('ContactForm1', 'footer3', null, document.getElementById('ContactForm1'), {'contactFormMessageSendingMsg': 'Sending...', 'contactFormMessageSentMsg': 'Your message has been sent.', 'contactFormMessageNotSentMsg': 'Message could not be sent. Please try again later.', 'contactFormInvalidEmailMsg': 'A valid email address is required.', 'contactFormEmptyMessageMsg': 'Message field cannot be empty.', 'title': 'Contact WebMaster', 'blogId': '6649239829669006952', 'contactFormNameMsg': 'Name', 'contactFormEmailMsg': 'Email', 'contactFormMessageMsg': 'Message', 'contactFormSendMsg': 'Send', 'submitUrl': 'https://www.blogger.com/contact-form.do'}, 'displayModeFull'));
+</script>
+</body>
+</html>

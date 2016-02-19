@@ -1,0 +1,83 @@
+<head>
+<style>
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+        font: 18px verdana;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff;
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+
+header h1 { 
+	background: transparent;
+	margin-top: 10px;
+	display: block;
+	width: 219px;
+	height: 87px;
+	float: left;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+header h2 { 
+	background: transparent;
+	margin-top: 58px; 
+	margin-bottom: 40px; 
+	width: 200px; 
+	height: 18px; 
+	float: right;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+header {
+	padding-top: 20px;
+	height: 87px;
+}
+</style>
+<title>Patrick J.M. Keane - Tweeting, Blogging, Consulting on Beacon and IOT</title>
+<meta name="description" content="Pittsburgh based consultant covering IOT, physical web, beacons, ibeacon, eddystone">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body>
+<center><h3 style="padding-top:10px">Patrick Keane<p style="padding-top:10px">Pittsburgh, PA<p style="top-padding;20px">Founder, <a href="https://www.twitter.com/walkupweb">@walkupweb</a></h3></center>
+
+
+<hr noshade width=200>
+<center>
+<a class="twitter-timeline" href="https://twitter.com/patrickkeane" data-widget-id="619319989124886529">Tweets by @patrickkeane</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</center>
+</body>

@@ -1,0 +1,1797 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Avertissement : N\u2019entrez jamais votre mot de passe Tumblr si la barre d\'adresse\x0ade votre navigateur n\'affiche pas \u201chttps://www.tumblr.com/login\u201d\x0aet/ou que le nom \u201cTumblr, Inc.\u201d n\'appara\u00eet pas en vert.\x0a\x0aLes spammers (et autres personnes malintentionn\u00e9es) utilisent de faux\x0a formulaires pour s\u2019emparer de vos identifiants et mots de passe.\x0a\x0aTumblr ne vous demandera jamais de vous identifier \u00e0 partir d\'un blog d\'utilisateur.\x0a\x0a\u00cates-vous certain(e) de vouloir continuer ?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=4407ac63b04a974114891da19b333539"></script>
+<!DOCTYPE html>
+<html><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#"><title>You never know I hate you</title>
+<style>figure{margin:0}</style>
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_4009140f0463_128.png">
+ 
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+ 
+<!--
+ 
+THEME #28: REMINISCENCE BY VIWAN THEMES (http://viwan-th.tumblr.com)
+ 
+TERMS OF USE:
+    1. DO NOT REMOVE OR CHANGE THE CREDIT
+    2. REDISTRIBUTE THE THEME AS YOUR OWN, NO MATTER HOW HEAVILY IT HAS BEEN EDITED
+    3. REDISTRIBUTE THE THEME ON OTHER SITES WITHOUT MY PERMISSION
+ 
+HOW TO INSTALL:
+    1. DELETE ALL THE CODE FROM YOUR OLD THEME
+    2. COPY AND PASTE IN ALL THE CODE OF THIS THEME
+    3. HIT UPDATE PREVIEW, HIT SAVE
+ 
+-->
+ 
+<meta name="color:Background" content="#555555">
+<meta name="color:Blockquote" content="#cccccc">
+<meta name="color:Body Links" content="#dd9988">
+<meta name="color:Body Links Hover" content="#777766">
+<meta name="color:Body Bold" content="#bbccaa">
+<meta name="color:Body Italics" content="#cccc99">
+<meta name="color:Body Text" content="#888888">
+ 
+<meta name="color:Banner" content="#eaeaea">
+<meta name="color:Navigation" content="#000000">
+<meta name="color:Navigation Text" content="#ffffff">
+<meta name="color:Navigation Hover" content="#333333">
+ 
+<meta name="color:Sidebar" content="#cccccc">
+<meta name="color:Icon Border" content="#555555">
+<meta name="color:Title" content="#ffffff">
+<meta name="color:Title Shadow" content="#000000">
+ 
+<meta name="color:Description Links" content="#6699cc">
+<meta name="color:Description Links Hover" content="#777766">
+<meta name="color:Description Bold" content="#99ccaa">
+<meta name="color:Description Italics" content="#889988">
+<meta name="color:Description Text" content="#888888">
+ 
+<meta name="color:Posts" content="#ffffff">
+<meta name="color:Posts Background" content="#eeeeee">
+<meta name="color:Posts Title" content="#aaaaaa">
+<meta name="color:Chat Odd" content="#fcfcfc">
+<meta name="color:Chat Even" content="#eeeeee">
+<meta name="color:Audio Info A" content="#fcfcfc">
+<meta name="color:Audio Info B" content="#eeeeee">
+<meta name="color:Ask Background" content="#eeeeee">
+ 
+<meta name="color:Info Bar" content="#333333">
+<meta name="color:Reblog Icon Borders" content="#000000">
+<meta name="color:Reblog Info Background" content="#000000">
+<meta name="color:Reblog Links" content="#ffffff">
+<meta name="color:Reblog Text" content="#ff6666">
+<meta name="color:Tags" content="#aaaaaa">
+ 
+<meta name="color:Scrollbar BG" content="#aaaaaa">
+<meta name="color:Scrollbar" content="#333333">
+ 
+<meta name="if:Show Captions" content="0">
+<meta name="if:Banner" content="1">
+<meta name="if:Sticky Navigation" content="1">
+<meta name="if:400px Posts" content="0">
+<meta name="if:Centered" content="1">
+<meta name="if:Infinite Scroll" content="0">
+<meta name="if:Show Captions" content="0">
+<meta name="if:Photo Fade" content="1">
+<meta name="if:Monochrome Images" content="0">
+<meta name="if:Show Tags" content="1">
+<meta name="if:Alt Tags" content="0">
+ 
+<meta name="image:Banner" content="">
+<meta name="image:Icon 1" content="">
+<meta name="image:Icon 2" content="">
+<meta name="image:Icon 3" content="">
+<meta name="image:Background" content="">
+ 
+<meta name="text:Header 1" content="Header 1">
+<meta name="text:Header 2" content="Header 2">
+<meta name="text:Header 1 Font Size" content="20">
+<meta name="text:Header 2 Font Size" content="13">
+<meta name="text:Body Font Size" content="11">
+ 
+<meta name="text:Link 1" content="link one">
+<meta name="text:Link 1 URL" content="">
+<meta name="text:Link 2" content="link two">
+<meta name="text:Link 2 URL" content="">
+<meta name="text:Link 3" content="link three">
+<meta name="text:Link 3 URL" content="">
+<meta name="text:Link 4" content="link four">
+<meta name="text:Link 4 URL" content="">
+ 
+<style type="text/css">
+ 
+/* BODY */
+ 
+body {
+    background-color:#555555;
+    color:#888888;
+    font:11px calibri;
+    text-align:justify;
+    background:url('http://assets.tumblr.com/images/x.gif?v=1') fixed bottom right;
+}
+ 
+a {
+    color:#aaa;
+    text-decoration:none;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease-in-out;
+}
+ 
+blockquote {
+    border-left:3px solid #cccccc;
+    padding-left:10px;
+    margin-left:10px;
+}
+ 
+#wrap {
+    position:absolute;
+    width:960px;
+    top:0px;
+    left:50%;
+    margin-left:-480px;
+    
+}
+ 
+/* BANNER */
+ 
+#banner {
+    z-index:9999999;
+    
+    position:absolute;
+    top:0px;
+    margin-left:0px;
+    width:960px;
+    background:#eaeaea;
+    height:200px;
+}
+ 
+#bannerimage {
+    height:200px;
+    display:block;
+}
+ 
+/* NAVIGATION */
+ 
+#nav {
+    z-index:99999;
+    position:fixed;
+    
+    top:200px;
+    margin-left:0px;
+    background:#000000;
+    height:30px;
+    text-align:center;
+    width:960px;
+}
+ 
+#nav a {
+    display:inline-block;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size:10px;
+    padding:8px 10px 9px 10px;
+    margin-right:-2px;
+}
+ 
+#nav a:hover {
+    background:#333333;
+}
+ 
+/* SIDEBAR */
+ 
+#bar {
+    position:fixed;
+    top:0px;
+    margin-left:860px;
+    height:100%;
+    width:100px;
+    background:#333333;
+}
+ 
+#side {
+    z-index:0;
+    position:fixed;
+    top:0px;
+    margin-left:0px;
+    height:100%;
+    width:300px;
+    background:#cccccc;
+}
+ 
+#sidebar {
+    position:fixed;
+    padding-top:40px;
+    
+    top:200px;
+    width:300px;
+}
+ 
+/* ICONS */
+ 
+#sidecont {
+    margin:auto;
+}
+ 
+#sidecont td {
+    width:80px;
+}
+ 
+#icon {
+    display:block;
+    width:70px;
+    border:5px solid #555555;
+}
+ 
+/* DESCRIPTION */
+ 
+#desc {
+    padding:0 25px;
+    font-size:10px;
+    text-align:center;
+    color:#888888;
+}
+ 
+#desc a {color:#6699cc;border-bottom:1px dotted #cccccc;}
+#desc a:hover {color:#777766;}
+#desc b, #desc strong {color:#99ccaa;}
+#desc i, #desc em {color:#889988;}
+ 
+/* TITLE */
+ 
+.header {
+    text-transform:uppercase;
+    font-family:josefin sans, century gothic;
+    color:#ffffff;
+    text-shadow:1px 1px 2px #000000;
+    line-height:100%;
+}
+ 
+#main {font-size:20px;}
+#sub {font-size:13px;}
+ 
+/* PAGINATION */
+ 
+#pagination {
+    padding:20px;
+    text-align:right;
+}
+ 
+#pagination span {font-family:verdana;}
+ 
+#pagination a {
+    display:inline-block;
+}
+ 
+/* POSTS */
+ 
+#back {
+    position:fixed;
+    top:0px;
+    margin-left:300px;
+    height:100%;
+    width:560px;
+    background:#eeeeee;
+}
+ 
+#container {
+    position:absolute;
+    
+    margin:250px 0 0 320px;
+}
+ 
+.posts {
+    
+    width:500px;
+    
+    padding:10px 10px 0 10px;
+    background:#ffffff;
+    margin-bottom:20px;
+}
+ 
+.title {
+    color:#aaaaaa;
+    text-transform:lowercase;
+    font-size:15px;
+    text-align:right;
+    border-bottom:1px solid #cccccc;
+    padding-bottom:5px;
+}
+ 
+.title a {color:#aaaaaa;}
+ 
+.content, .posts big, .posts small {font-size:11px;}
+.content a {color:#dd9988;border-bottom:1px dotted #cccccc;}
+.content a:hover {color:#777766;}
+.content b, .content strong {color:#bbccaa;}
+.content i, .content em {color:#cccc99;}
+.content img {max-width:100%;}
+ 
+/* PHOTO */
+ 
+.posts img, #photo {
+    
+}
+ 
+#photo, iframe.photoset {
+    width:100%;
+    display:block;
+    opacity:0.8;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease-in-out;
+}
+ 
+.posts:hover #photo {opacity:1;}
+ 
+/* QUOTE */
+ 
+.quote {
+    font-size:15px;
+    text-transform:lowercase;
+    text-align:center;
+}
+ 
+/* CHAT */
+ 
+.odd, .even {padding:5px;}
+.odd b, .even b, .ainfo b {color:#555;}
+.odd {background:#fcfcfc;}
+.even {background:#eeeeee;}
+ 
+/* AUDIO */
+ 
+.audio {
+    
+    width:480px;
+    
+}
+ 
+.a1 {
+    width:150px;
+    height:150px;
+}
+ 
+.art {
+    width:150px;
+    height:150px;
+    display:block;
+}
+ 
+.ainfo {
+    height:37.5px;
+    width:100%;
+    padding:0 10px;
+    line-height:37.5px;
+}
+ 
+#a {background:#fcfcfc;}
+#b {background:#eeeeee;}
+ 
+.player {
+    z-index:999;
+    position:absolute;
+    padding:10px;
+    background:rgba(0,0,0,0.3);
+    margin:51.5px;
+}
+ 
+/* ASK */
+ 
+#ask {
+    padding:10px;
+    background:#eeeeee;
+}
+ 
+#arrow {
+    position:absolute;
+    display:inline-block;
+    color:#eeeeee;
+    font-size:30px;
+    margin-left:20px;
+    margin-top:-12px;
+}
+ 
+#asker {
+    display:inline-block;
+    font-size:10px;
+    text-transform:uppercase;
+    margin-top:3px;
+    margin-left:45px;
+}
+ 
+/* INFO */
+ 
+#info {
+    position:absolute;
+    padding:5px;
+    width:90px;
+    font-size:10px;
+    vertical-align:top;
+    margin-top:-20px;
+    
+    margin-left:530px;
+    
+    font-family:calibri;
+}
+ 
+#reblog {
+    margin-bottom:-5px;
+}
+ 
+#first img {
+    display:block;
+    width:32px;
+    -webkit-filter:grayscale(0);
+    border:3px solid #000000;
+    background:#ffffff;
+}
+ 
+#second td {
+    background:#000000;
+    color:#ffffff;
+    text-align:center;
+    padding-bottom:1px;
+    font-style:italic;
+}
+ 
+#third {
+    padding-top:5px;
+    text-align:center;
+    color:#ff6666;
+    background:#000000;
+    padding:0 1px 1px 0;
+    margin:5px -5px 0 5px;
+    width:80px;
+}
+ 
+#third a {color:#ffffff;}
+ 
+/* TAGS */
+ 
+#tags {
+    margin:5px;
+    text-align:left;
+    font-size:10px;
+    text-transform:lowercase;
+    width:90px;
+    color:#ff6666;
+    
+}
+ 
+#tags a {
+    color:#aaaaaa;
+    display:inline-block;
+}
+ 
+#alt {
+    margin-top:10px;
+    font-size:10px;
+    text-align:right;
+    border-top:1px dashed #ccc;
+    padding-top:5px;
+}
+ 
+/* POSTNOTES */
+ 
+ol.notes {
+    position:absolute;
+    z-index:9999;
+    list-style-type:none;
+    margin:20px 0 20px -50px;
+    font-size:10px;
+    text-transform:uppercase;
+}
+ 
+ol.notes img {
+    float:left;
+    width:13px;
+    margin-right:5px;
+}
+ 
+.notes li {
+    padding:5px;
+    margin-bottom:2px;
+    text-transform:uppercase;
+    font-size:10px;
+    background-color:#ffffff;
+    width:510px;
+}
+ 
+/* CREDITS */
+ 
+#credit {
+    z-index:999;
+    position:fixed;
+    bottom:5px;right:5px;
+    width:10px;
+    height:13px;
+    word-wrap:break-word;
+    overflow:hidden;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease-in-out;
+}
+ 
+#credit a {
+    color:#888;
+    text-transform:uppercase;
+    font-size:10px;
+}
+ 
+#credit:hover {
+    width:83px;
+}
+ 
+#credit span {
+    text-shadow:1px 1px .2px #000;
+    color:#fff;
+    margin-right:5px;
+    font-size:11px;
+}
+ 
+/* MISC */
+ 
+iframe#tumblr_controls {
+    position:fixed !important;
+    margin-top:5px !important;
+    margin-right:5px !important;
+    opacity:0.3 !important;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease-in-out;
+}
+ 
+iframe#tumblr_controls:hover {
+    opacity:0.8 !important;
+}
+ 
+::-webkit-scrollbar-thumb:vertical {
+    background-color:#333333;
+    border-top:2px solid #aaaaaa;
+    border-bottom:2px solid #aaaaaa;
+}
+ 
+::-webkit-scrollbar-button:vertical {
+    height:6px;
+    width:5px;
+    background-color:#333333;
+}
+ 
+::-webkit-scrollbar-button:horizontal {
+    width:6px;
+    height:5px;
+    background-color:#333333;
+}
+ 
+::-webkit-scrollbar {
+    height:5px;
+    width:5px;
+    background-color:#aaaaaa;
+}
+ 
+</style>
+   
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+ 
+<script type="text/javascript" src="http://static.tumblr.com/mtdphun/QLwmf75xc/smooth_scroll.js"></script>
+   
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+ 
+
+ 
+<!-- STICKY SCROLL SCRIPT -->
+ 
+<script>
+$(function(){ // document ready
+    var stickyTop = $('.stick').offset().top; // returns number
+    $(window).scroll(function(){ // scroll event  
+        var windowTop = $(window).scrollTop(); // returns number
+        if (stickyTop < windowTop) {
+            $('.stick').css({ position: 'fixed', top: 0 });
+        }
+        else {
+            $('.stick').css({ position: 'absolute', top: 200});
+        }
+    });
+});
+</script>
+<script>
+$(function(){ // document ready
+    var stickyTop = $('.stick2').offset().top; // returns number
+    $(window).scroll(function(){ // scroll event  
+        var windowTop = $(window).scrollTop(); // returns number
+        if (stickyTop < windowTop) {
+            $('.stick2').css({ position: 'fixed', top: 0 });
+        }
+        else {
+            $('.stick2').css({ position: 'absolute', top: 200});
+        }
+    });
+});
+</script>
+
+   
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=line-ludenberg" />
+<link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=line-ludenberg" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=8b0553f75283ecbeb78be24f096f4c2c"></script>
+
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta name="keywords" content="marvel,stucky,yees,&lt;3,Brendon Urie" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="You never know I hate you" /><meta property="og:url" content="http://line-ludenberg.tumblr.com/?og=1" /><meta property="og:description" content="Line - 15 YO - France - Pansexual - Just a French girl in love with anime lesbians characters...." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_4009140f0463_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=line-ludenberg" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=line-ludenberg" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="app" /><meta name="twitter:description" content="line-ludenberg" /><meta name="twitter:title" content="line-ludenberg" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=line-ludenberg&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=line-ludenberg&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=line-ludenberg&amp;referrer=twitter-cards" />
+
+<!-- GOOGLE CAROUSEL --><script type="application/ld+json">{"@type":"ItemList","url":"http:\/\/line-ludenberg.tumblr.com","itemListElement":[{"@type":"ListItem","position":1,"url":"http:\/\/line-ludenberg.tumblr.com\/post\/139568998653\/khaleesi-beyonce-vortexsophia-im-not"},{"@type":"ListItem","position":2,"url":"http:\/\/line-ludenberg.tumblr.com\/post\/139568940183\/straight-girl-i-wish-people-didnt-assume-i-like"},{"@type":"ListItem","position":3,"url":"http:\/\/line-ludenberg.tumblr.com\/post\/139568847343\/actualbrendonurie-what-the-fuck"},{"@type":"ListItem","position":4,"url":"http:\/\/line-ludenberg.tumblr.com\/post\/139568791493"},{"@type":"ListItem","position":5,"url":"http:\/\/line-ludenberg.tumblr.com\/post\/139568749548\/thegayestcat-oeilvert-heh"},{"@type":"ListItem","position":6,"url":"http:\/\/line-ludenberg.tumblr.com\/post\/139568725458\/aubergine-dreams-i-missed-my-boy-so-much"},{"@type":"ListItem","position":7,"url":"http:\/\/line-ludenberg.tumblr.com\/post\/139568646123\/i-would-pay-to-see-that-dick-i-did-pay-to-see"},{"@type":"ListItem","position":8,"url":"http:\/\/line-ludenberg.tumblr.com\/post\/139541650773\/lufelicity-team-cap"},{"@type":"ListItem","position":9,"url":"http:\/\/line-ludenberg.tumblr.com\/post\/139541614253\/barnesrogerss-steve-and-bucky"},{"@type":"ListItem","position":10,"url":"http:\/\/line-ludenberg.tumblr.com\/post\/139540735838\/theballadofamieelisa-look-at-this-precious"}],"@context":"http:\/\/schema.org"}</script>
+<link rel="canonical" href="http://line-ludenberg.tumblr.com" />
+
+</head><body>
+ 
+<div id="wrap">
+ 
+<div id="side"></div>
+ 
+<div id="back"></div>
+<div id="bar"></div>
+ 
+<!-- BANNER -->
+ 
+<div id="banner">
+    <img src="http://static.tumblr.com/7758cfb4715f8039dc40fb541e99c4fb/dvj2pws/oHcnuqdm4/tumblr_static_44pk6f5ajs4kg4044o800o0wc.png" id="bannerimage">
+</div>
+ 
+<!-- SIDEBAR -->
+ 
+<div id="sidebar" class="stick2">
+    <a href="#top"><table id="sidecont" cellpadding="0" cellspacing="10"><tr>
+        <td id="icons"><img src="http://static.tumblr.com/c0eee810879d12dc1ee43604556cc409/dvj2pws/GdRnuqdm5/tumblr_static_2kw27s69qrs4008o84gk0kowo.jpg" id="icon"></td>
+        <td id="icons"><img src="http://static.tumblr.com/34c650980b832743e73b157f991d4263/dvj2pws/o6Ynuqdm5/tumblr_static_e8otfewnlygok0kkkscks8kgg.png" id="icon"></td>
+        <td id="icons"><img src="http://static.tumblr.com/47b8c8ef30cc29e71d4574e53566528b/dvj2pws/tVknuqdm5/tumblr_static_egzi7uzyfxcg8w48gcgw4oc0g.png" id="icon"></td>
+    </tr></table></a>
+    <div id="desc">
+        Line - 15 YO - France - Pansexual -<br />
+Just a French girl in love with anime lesbians characters.<br />
+Chitaru Namatame is my waifu
+        <a href="/"><div class="header" id="main">Header 1</div>
+        <div class="header" id="sub">Header 2</div></a>
+    </div>
+    <div id="pagination">
+    
+        
+        <a href="/page/2">forth <span>→</span></a>
+    
+    
+    </div>
+</div>
+ 
+<div id="nav" class="stick">
+    <a href="/">home</a>
+    <a href="/ask">message</a>
+    <a href="/archive">archive</a>
+    <!-- PLEASE DO NOT REMOVE THEME CREDIT --><a href="http://viwan-th.tumblr.com" target="blank">theme</a><!-- PLEASE DO NOT REMOVE THEME CREDIT -->
+    <a href="https://twitter.com/LineLudenberg">Twitter</a>
+    <a href="http://line-ludenberg.tumblr.com/tagged/favorite">Favorite</a>
+    <a href="http://line-ludenberg.tumblr.com/about_me">About me</a>
+    <a href="http://line-ludenberg.tumblr.com/about_me">Tag</a>
+    
+</div>
+ 
+<!-- POSTS BLOCK -->
+ 
+<div id="container">
+ 
+
+ 
+    
+        <!-- http://vortexsophia.tumblr.com/post/137924503173
+        <a href="http://vortexsophia.tumblr.com/post/137924503173" class="source_link">vortexsophia</a> -->
+    
+ 
+<div class="posts">
+ 
+<!-- INFO -->
+ 
+<div id="info">
+<table id="reblog" cellpadding="0" cellspacing="5">
+<tr id="first" style="margin-top:-5px;">
+    <td>
+        <a href="http://barnesrogerss.tumblr.com/post/139566000757/khaleesi-beyonce-vortexsophia-im-not" title="barnesrogerss">
+        <img src="http://33.media.tumblr.com/avatar_b40e4b509d71_64.png"></a>
+    </td>
+    <td>
+        <a href="http://vortexsophia.tumblr.com/post/137924503173" title="vortexsophia">
+        <img src="http://31.media.tumblr.com/avatar_1fc1277bd70b_64.png"></a>
+    </td>
+</tr>
+<tr id="second">
+    <td>via</td><td>org</td>
+</tr></table>
+<div id="third">
+    <a href="http://line-ludenberg.tumblr.com/post/139568998653/khaleesi-beyonce-vortexsophia-im-not">02.19.16</a> + <a href="http://line-ludenberg.tumblr.com/post/139568998653/khaleesi-beyonce-vortexsophia-im-not">385040</a>
+</div>
+<div id="tags">
+    
+</div>
+</div>
+ 
+<!-- ENTRIES -->
+ 
+<!-- TEXXT -->
+ 
+
+ 
+<!-- PHOTO -->
+ 
+
+ 
+<!-- PANORAMA -->
+ 
+
+ 
+<!-- PHOTOSET -->
+ 
+
+    
+    <div id="photo"><div id="photoset_139568998653" class="html_photoset">    <iframe id="photoset_iframe_139568998653" class="photoset" scrolling="no" frameborder="0" height="3869" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://line-ludenberg.tumblr.com/post/139568998653/photoset_iframe/line-ludenberg/tumblr_o1fv9kJNEn1st25zz/500/false" name="photoset_iframe_139568998653"></iframe></div></div>
+    
+    
+
+ 
+<!-- QUOTE -->
+ 
+
+ 
+<!-- LINK -->
+ 
+
+ 
+<!-- CHAT -->
+ 
+
+ 
+<!-- AUDIO -->
+ 
+
+ 
+<!-- VIDEO -->
+ 
+
+ 
+<!-- ANSWER -->
+ 
+
+ 
+<!-- PERMALINK PAGE -->
+ 
+
+ 
+<!-- ALTERNATE TAGS -->
+ 
+
+ 
+<!-- POSTNOTES -->
+ 
+
+ 
+<div style="height:1px;margin-top:9px;"></div>
+ 
+</div>
+ 
+
+ 
+    
+        <!-- http://getsby.tumblr.com/post/116663154108/straight-girl-i-wish-people-didnt-assume-i-like
+        <a href="http://getsby.tumblr.com/post/116663154108/straight-girl-i-wish-people-didnt-assume-i-like" class="source_link">getsby</a> -->
+    
+ 
+<div class="posts">
+ 
+<!-- INFO -->
+ 
+<div id="info">
+<table id="reblog" cellpadding="0" cellspacing="5">
+<tr id="first" style="margin-top:-5px;">
+    <td>
+        <a href="http://barnesrogerss.tumblr.com/post/139566016022/straight-girl-i-wish-people-didnt-assume-i-like" title="barnesrogerss">
+        <img src="http://33.media.tumblr.com/avatar_b40e4b509d71_64.png"></a>
+    </td>
+    <td>
+        <a href="http://getsby.tumblr.com/post/116663154108/straight-girl-i-wish-people-didnt-assume-i-like" title="getsby">
+        <img src="http://33.media.tumblr.com/avatar_dd77e5526dff_64.png"></a>
+    </td>
+</tr>
+<tr id="second">
+    <td>via</td><td>org</td>
+</tr></table>
+<div id="third">
+    <a href="http://line-ludenberg.tumblr.com/post/139568940183/straight-girl-i-wish-people-didnt-assume-i-like">02.19.16</a> + <a href="http://line-ludenberg.tumblr.com/post/139568940183/straight-girl-i-wish-people-didnt-assume-i-like">86094</a>
+</div>
+<div id="tags">
+    
+</div>
+</div>
+ 
+<!-- ENTRIES -->
+ 
+<!-- TEXXT -->
+ 
+
+ 
+<!-- PHOTO -->
+ 
+
+ 
+<!-- PANORAMA -->
+ 
+
+ 
+<!-- PHOTOSET -->
+ 
+
+ 
+<!-- QUOTE -->
+ 
+
+ 
+<!-- LINK -->
+ 
+
+ 
+<!-- CHAT -->
+ 
+
+    
+    <div class="content"><div class="odd">
+        <b>straight girl:</b> I wish people didn&#039;t assume I like girls based on my haircut
+    </div><div class="even">
+        <b>lesbian:</b> I wish people didn&#039;t assume I like boys based on my existence as a woman
+    </div></div>
+
+ 
+<!-- AUDIO -->
+ 
+
+ 
+<!-- VIDEO -->
+ 
+
+ 
+<!-- ANSWER -->
+ 
+
+ 
+<!-- PERMALINK PAGE -->
+ 
+
+ 
+<!-- ALTERNATE TAGS -->
+ 
+
+ 
+<!-- POSTNOTES -->
+ 
+
+ 
+<div style="height:1px;margin-top:9px;"></div>
+ 
+</div>
+ 
+
+ 
+    
+        <!-- http://actualbrendonurie.tumblr.com/post/139565222587/what-the-fuck
+        <a href="http://actualbrendonurie.tumblr.com/post/139565222587/what-the-fuck" class="source_link">actualbrendonurie</a> -->
+    
+ 
+<div class="posts">
+ 
+<!-- INFO -->
+ 
+<div id="info">
+<table id="reblog" cellpadding="0" cellspacing="5">
+<tr id="first" style="margin-top:-5px;">
+    <td>
+        <a href="http://dumdumbrendon.tumblr.com/post/139567066303/actualbrendonurie-what-the-fuck" title="dumdumbrendon">
+        <img src="http://31.media.tumblr.com/avatar_9b2003ec0a10_64.png"></a>
+    </td>
+    <td>
+        <a href="http://actualbrendonurie.tumblr.com/post/139565222587/what-the-fuck" title="actualbrendonurie">
+        <img src="http://33.media.tumblr.com/avatar_d99b552d0638_64.png"></a>
+    </td>
+</tr>
+<tr id="second">
+    <td>via</td><td>org</td>
+</tr></table>
+<div id="third">
+    <a href="http://line-ludenberg.tumblr.com/post/139568847343/actualbrendonurie-what-the-fuck">02.19.16</a> + <a href="http://line-ludenberg.tumblr.com/post/139568847343/actualbrendonurie-what-the-fuck">543</a>
+</div>
+<div id="tags">
+    + <a href="http://line-ludenberg.tumblr.com/tagged/brendon-urie">brendon urie</a></br>+ <a href="http://line-ludenberg.tumblr.com/tagged/olala">olala</a></br>
+</div>
+</div>
+ 
+<!-- ENTRIES -->
+ 
+<!-- TEXXT -->
+ 
+
+ 
+<!-- PHOTO -->
+ 
+
+    <a href="http://line-ludenberg.tumblr.com/post/139568847343/actualbrendonurie-what-the-fuck">
+    
+    <img src="http://40.media.tumblr.com/1f804d7dbd1f1999038e92c03092d6cf/tumblr_o2rlaoV2lm1s5s7gro1_1280.jpg" id="photo">
+    
+    </a>
+    
+
+ 
+<!-- PANORAMA -->
+ 
+
+ 
+<!-- PHOTOSET -->
+ 
+
+ 
+<!-- QUOTE -->
+ 
+
+ 
+<!-- LINK -->
+ 
+
+ 
+<!-- CHAT -->
+ 
+
+ 
+<!-- AUDIO -->
+ 
+
+ 
+<!-- VIDEO -->
+ 
+
+ 
+<!-- ANSWER -->
+ 
+
+ 
+<!-- PERMALINK PAGE -->
+ 
+
+ 
+<!-- ALTERNATE TAGS -->
+ 
+
+ 
+<!-- POSTNOTES -->
+ 
+
+ 
+<div style="height:1px;margin-top:9px;"></div>
+ 
+</div>
+ 
+
+ 
+    
+        <!-- http://baskervilleshund.tumblr.com/post/139552653935
+        <a href="http://baskervilleshund.tumblr.com/post/139552653935" class="source_link">baskervilleshund</a> -->
+    
+ 
+<div class="posts">
+ 
+<!-- INFO -->
+ 
+<div id="info">
+<table id="reblog" cellpadding="0" cellspacing="5">
+<tr id="first" style="margin-top:-5px;">
+    <td>
+        <a href="http://ebitaylor.tumblr.com/post/139567482276" title="ebitaylor">
+        <img src="http://38.media.tumblr.com/avatar_d67b2de6a717_64.png"></a>
+    </td>
+    <td>
+        <a href="http://baskervilleshund.tumblr.com/post/139552653935" title="baskervilleshund">
+        <img src="http://38.media.tumblr.com/avatar_563104b0c736_64.png"></a>
+    </td>
+</tr>
+<tr id="second">
+    <td>via</td><td>org</td>
+</tr></table>
+<div id="third">
+    <a href="http://line-ludenberg.tumblr.com/post/139568791493">02.19.16</a> + <a href="http://line-ludenberg.tumblr.com/post/139568791493">260</a>
+</div>
+<div id="tags">
+    + <a href="http://line-ludenberg.tumblr.com/tagged/gotham">gotham</a></br>+ <a href="http://line-ludenberg.tumblr.com/tagged/oswald-cobblepot">oswald cobblepot</a></br>
+</div>
+</div>
+ 
+<!-- ENTRIES -->
+ 
+<!-- TEXXT -->
+ 
+
+ 
+<!-- PHOTO -->
+ 
+
+ 
+<!-- PANORAMA -->
+ 
+
+ 
+<!-- PHOTOSET -->
+ 
+
+    
+    <div id="photo"><div id="photoset_139568791493" class="html_photoset">    <iframe id="photoset_iframe_139568791493" class="photoset" scrolling="no" frameborder="0" height="707" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://line-ludenberg.tumblr.com/post/139568791493/photoset_iframe/line-ludenberg/tumblr_o2r9m8vj6N1qgkp0s/500/false" name="photoset_iframe_139568791493"></iframe></div></div>
+    
+    
+
+ 
+<!-- QUOTE -->
+ 
+
+ 
+<!-- LINK -->
+ 
+
+ 
+<!-- CHAT -->
+ 
+
+ 
+<!-- AUDIO -->
+ 
+
+ 
+<!-- VIDEO -->
+ 
+
+ 
+<!-- ANSWER -->
+ 
+
+ 
+<!-- PERMALINK PAGE -->
+ 
+
+ 
+<!-- ALTERNATE TAGS -->
+ 
+
+ 
+<!-- POSTNOTES -->
+ 
+
+ 
+<div style="height:1px;margin-top:9px;"></div>
+ 
+</div>
+ 
+
+ 
+    
+        <!-- http://oeilvert.tumblr.com/post/131695916077/heh
+        <a href="http://oeilvert.tumblr.com/post/131695916077/heh" class="source_link">oeilvert</a> -->
+    
+ 
+<div class="posts">
+ 
+<!-- INFO -->
+ 
+<div id="info">
+<table id="reblog" cellpadding="0" cellspacing="5">
+<tr id="first" style="margin-top:-5px;">
+    <td>
+        <a href="http://erenhardheadedjaeger.tumblr.com/post/139567767427/thegayestcat-oeilvert-heh" title="erenhardheadedjaeger">
+        <img src="http://38.media.tumblr.com/avatar_a16382c2cb15_64.png"></a>
+    </td>
+    <td>
+        <a href="http://oeilvert.tumblr.com/post/131695916077/heh" title="oeilvert">
+        <img src="http://38.media.tumblr.com/avatar_04f2ee1d2b39_64.png"></a>
+    </td>
+</tr>
+<tr id="second">
+    <td>via</td><td>org</td>
+</tr></table>
+<div id="third">
+    <a href="http://line-ludenberg.tumblr.com/post/139568749548/thegayestcat-oeilvert-heh">02.19.16</a> + <a href="http://line-ludenberg.tumblr.com/post/139568749548/thegayestcat-oeilvert-heh">4338</a>
+</div>
+<div id="tags">
+    
+</div>
+</div>
+ 
+<!-- ENTRIES -->
+ 
+<!-- TEXXT -->
+ 
+
+ 
+<!-- PHOTO -->
+ 
+
+ 
+<!-- PANORAMA -->
+ 
+
+ 
+<!-- PHOTOSET -->
+ 
+
+    
+    <div id="photo"><div id="photoset_139568749548" class="html_photoset">    <iframe id="photoset_iframe_139568749548" class="photoset" scrolling="no" frameborder="0" height="870" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://line-ludenberg.tumblr.com/post/139568749548/photoset_iframe/line-ludenberg/tumblr_nwmvz2v04y1r9wko3/500/false" name="photoset_iframe_139568749548"></iframe></div></div>
+    
+    
+
+ 
+<!-- QUOTE -->
+ 
+
+ 
+<!-- LINK -->
+ 
+
+ 
+<!-- CHAT -->
+ 
+
+ 
+<!-- AUDIO -->
+ 
+
+ 
+<!-- VIDEO -->
+ 
+
+ 
+<!-- ANSWER -->
+ 
+
+ 
+<!-- PERMALINK PAGE -->
+ 
+
+ 
+<!-- ALTERNATE TAGS -->
+ 
+
+ 
+<!-- POSTNOTES -->
+ 
+
+ 
+<div style="height:1px;margin-top:9px;"></div>
+ 
+</div>
+ 
+
+ 
+    
+ 
+<div class="posts">
+ 
+<!-- INFO -->
+ 
+<div id="info">
+<table id="reblog" cellpadding="0" cellspacing="5">
+<tr id="first" style="margin-top:-5px;">
+    <td>
+        <a href="http://aubergine-dreams.tumblr.com/post/139567970059/i-missed-my-boy-so-much" title="aubergine-dreams">
+        <img src="http://33.media.tumblr.com/avatar_6fe1342cc585_64.png"></a>
+    </td>
+    <td>
+        <a href="http://aubergine-dreams.tumblr.com/post/139567970059/i-missed-my-boy-so-much" title="aubergine-dreams">
+        <img src="http://33.media.tumblr.com/avatar_6fe1342cc585_64.png"></a>
+    </td>
+</tr>
+<tr id="second">
+    <td>via</td><td>org</td>
+</tr></table>
+<div id="third">
+    <a href="http://line-ludenberg.tumblr.com/post/139568725458/aubergine-dreams-i-missed-my-boy-so-much">02.19.16</a> + <a href="http://line-ludenberg.tumblr.com/post/139568725458/aubergine-dreams-i-missed-my-boy-so-much">96</a>
+</div>
+<div id="tags">
+    
+</div>
+</div>
+ 
+<!-- ENTRIES -->
+ 
+<!-- TEXXT -->
+ 
+
+ 
+<!-- PHOTO -->
+ 
+
+ 
+<!-- PANORAMA -->
+ 
+
+ 
+<!-- PHOTOSET -->
+ 
+
+    
+    <div id="photo"><div id="photoset_139568725458" class="html_photoset">    <iframe id="photoset_iframe_139568725458" class="photoset" scrolling="no" frameborder="0" height="395" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://line-ludenberg.tumblr.com/post/139568725458/photoset_iframe/line-ludenberg/tumblr_o2rnu5s6l01td7530/500/false" name="photoset_iframe_139568725458"></iframe></div></div>
+    
+    
+
+ 
+<!-- QUOTE -->
+ 
+
+ 
+<!-- LINK -->
+ 
+
+ 
+<!-- CHAT -->
+ 
+
+ 
+<!-- AUDIO -->
+ 
+
+ 
+<!-- VIDEO -->
+ 
+
+ 
+<!-- ANSWER -->
+ 
+
+ 
+<!-- PERMALINK PAGE -->
+ 
+
+ 
+<!-- ALTERNATE TAGS -->
+ 
+
+ 
+<!-- POSTNOTES -->
+ 
+
+ 
+<div style="height:1px;margin-top:9px;"></div>
+ 
+</div>
+ 
+
+ 
+    
+ 
+<div class="posts">
+ 
+<!-- INFO -->
+ 
+<div id="info">
+<table id="reblog" cellpadding="0" cellspacing="5">
+<tr id="first" style="margin-top:-5px;">
+    <td>
+        <a href="http://actualbrendonurie.tumblr.com/post/139568229882/i-would-pay-to-see-that-dick-i-did-pay-to-see" title="actualbrendonurie">
+        <img src="http://33.media.tumblr.com/avatar_d99b552d0638_64.png"></a>
+    </td>
+    <td>
+        <a href="http://actualbrendonurie.tumblr.com/post/139568229882/i-would-pay-to-see-that-dick-i-did-pay-to-see" title="actualbrendonurie">
+        <img src="http://33.media.tumblr.com/avatar_d99b552d0638_64.png"></a>
+    </td>
+</tr>
+<tr id="second">
+    <td>via</td><td>org</td>
+</tr></table>
+<div id="third">
+    <a href="http://line-ludenberg.tumblr.com/post/139568646123/i-would-pay-to-see-that-dick-i-did-pay-to-see">02.19.16</a> + <a href="http://line-ludenberg.tumblr.com/post/139568646123/i-would-pay-to-see-that-dick-i-did-pay-to-see">248</a>
+</div>
+<div id="tags">
+    + <a href="http://line-ludenberg.tumblr.com/tagged/same-brendon-same">same brendon same</a></br>
+</div>
+</div>
+ 
+<!-- ENTRIES -->
+ 
+<!-- TEXXT -->
+ 
+
+ 
+<!-- PHOTO -->
+ 
+
+ 
+<!-- PANORAMA -->
+ 
+
+ 
+<!-- PHOTOSET -->
+ 
+
+ 
+<!-- QUOTE -->
+ 
+
+    <div class="content"><div class="quote">❝ i would pay to see that dick, i did pay to see that dick ❞</div>
+    <p align="right">- brendon urie talking about ryan reynolds dick (via <a class="tumblr_blog" href="http://actualbrendonurie.tumblr.com/">actualbrendonurie</a>)</div>
+
+ 
+<!-- LINK -->
+ 
+
+ 
+<!-- CHAT -->
+ 
+
+ 
+<!-- AUDIO -->
+ 
+
+ 
+<!-- VIDEO -->
+ 
+
+ 
+<!-- ANSWER -->
+ 
+
+ 
+<!-- PERMALINK PAGE -->
+ 
+
+ 
+<!-- ALTERNATE TAGS -->
+ 
+
+ 
+<!-- POSTNOTES -->
+ 
+
+ 
+<div style="height:1px;margin-top:9px;"></div>
+ 
+</div>
+ 
+
+ 
+    
+ 
+<div class="posts">
+ 
+<!-- INFO -->
+ 
+<div id="info">
+<table id="reblog" cellpadding="0" cellspacing="5">
+<tr id="first" style="margin-top:-5px;">
+    <td>
+        <a href="http://lufelicity.tumblr.com/post/139483303381/team-cap" title="lufelicity">
+        <img src="http://38.media.tumblr.com/avatar_54c209ca5e74_64.png"></a>
+    </td>
+    <td>
+        <a href="http://lufelicity.tumblr.com/post/139483303381/team-cap" title="lufelicity">
+        <img src="http://38.media.tumblr.com/avatar_54c209ca5e74_64.png"></a>
+    </td>
+</tr>
+<tr id="second">
+    <td>via</td><td>org</td>
+</tr></table>
+<div id="third">
+    <a href="http://line-ludenberg.tumblr.com/post/139541650773/lufelicity-team-cap">02.18.16</a> + <a href="http://line-ludenberg.tumblr.com/post/139541650773/lufelicity-team-cap">190</a>
+</div>
+<div id="tags">
+    + <a href="http://line-ludenberg.tumblr.com/tagged/marvel">marvel</a></br>+ <a href="http://line-ludenberg.tumblr.com/tagged/bucky-barnes">bucky barnes</a></br>
+</div>
+</div>
+ 
+<!-- ENTRIES -->
+ 
+<!-- TEXXT -->
+ 
+
+ 
+<!-- PHOTO -->
+ 
+
+ 
+<!-- PANORAMA -->
+ 
+
+ 
+<!-- PHOTOSET -->
+ 
+
+    
+    <div id="photo"><div id="photoset_139541650773" class="html_photoset">    <iframe id="photoset_iframe_139541650773" class="photoset" scrolling="no" frameborder="0" height="204" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://line-ludenberg.tumblr.com/post/139541650773/photoset_iframe/line-ludenberg/tumblr_o2p2p4vUzE1tgmddo/500/false" name="photoset_iframe_139541650773"></iframe></div></div>
+    
+    
+
+ 
+<!-- QUOTE -->
+ 
+
+ 
+<!-- LINK -->
+ 
+
+ 
+<!-- CHAT -->
+ 
+
+ 
+<!-- AUDIO -->
+ 
+
+ 
+<!-- VIDEO -->
+ 
+
+ 
+<!-- ANSWER -->
+ 
+
+ 
+<!-- PERMALINK PAGE -->
+ 
+
+ 
+<!-- ALTERNATE TAGS -->
+ 
+
+ 
+<!-- POSTNOTES -->
+ 
+
+ 
+<div style="height:1px;margin-top:9px;"></div>
+ 
+</div>
+ 
+
+ 
+    
+ 
+<div class="posts">
+ 
+<!-- INFO -->
+ 
+<div id="info">
+<table id="reblog" cellpadding="0" cellspacing="5">
+<tr id="first" style="margin-top:-5px;">
+    <td>
+        <a href="http://barnesrogerss.tumblr.com/post/139511041912/steve-and-bucky-hugging-steve-and-bucky" title="barnesrogerss">
+        <img src="http://33.media.tumblr.com/avatar_b40e4b509d71_64.png"></a>
+    </td>
+    <td>
+        <a href="http://barnesrogerss.tumblr.com/post/139511041912/steve-and-bucky-hugging-steve-and-bucky" title="barnesrogerss">
+        <img src="http://33.media.tumblr.com/avatar_b40e4b509d71_64.png"></a>
+    </td>
+</tr>
+<tr id="second">
+    <td>via</td><td>org</td>
+</tr></table>
+<div id="third">
+    <a href="http://line-ludenberg.tumblr.com/post/139541614253/barnesrogerss-steve-and-bucky">02.18.16</a> + <a href="http://line-ludenberg.tumblr.com/post/139541614253/barnesrogerss-steve-and-bucky">433</a>
+</div>
+<div id="tags">
+    + <a href="http://line-ludenberg.tumblr.com/tagged/marvel">marvel</a></br>+ <a href="http://line-ludenberg.tumblr.com/tagged/stucky">stucky</a></br>+ <a href="http://line-ludenberg.tumblr.com/tagged/yees">yees</a></br>+ <a href="http://line-ludenberg.tumblr.com/tagged/%3C3">&lt;3</a></br>
+</div>
+</div>
+ 
+<!-- ENTRIES -->
+ 
+<!-- TEXXT -->
+ 
+
+    
+    <p><div class="content" style="margin-top:-10px;"><p><a class="tumblr_blog" href="http://barnesrogerss.tumblr.com/post/139511041912">barnesrogerss</a>:</p>
+<blockquote>
+<p>Steve and Bucky hugging&nbsp;
+
+(&#9685;&#8255;&#9685;&#10047;)
+
+</p>
+<p>Steve and Bucky holding hands&nbsp;(&#10047;&#9696;&#8255;&#9696;)</p>
+<p>Steve and Bucky kissing&nbsp;(&#10047; &hearts;&#8255;&hearts;)</p>
+<p>Steve and Bucky touching foreheads
+
+ (&#9737;&#8255;&#9737;&#10047;)
+
+</p>
+<p>Steve and Bucky cuddling&#9584;(&#9697;&#8255;&#9697;&#10047;&#9584;) 
+
+</p>
+<p>Steve and Bucky being domestic&nbsp;
+
+
+
+(&#9696;&#9651;&#9696;&#10047;)
+
+
+
+
+
+</p>
+<p>Steve and Bucky being together
+
+ (&#8857;&omega;&#8857;&#10047;)
+
+</p>
+<p>Steve and Bucky being happy
+
+(&#10047;&#65417;&#9685;&#12526;&#9685;)&#65417;*:&#65381;&#65439;&#10023;
+
+</p>
+</blockquote></div></p>
+
+ 
+<!-- PHOTO -->
+ 
+
+ 
+<!-- PANORAMA -->
+ 
+
+ 
+<!-- PHOTOSET -->
+ 
+
+ 
+<!-- QUOTE -->
+ 
+
+ 
+<!-- LINK -->
+ 
+
+ 
+<!-- CHAT -->
+ 
+
+ 
+<!-- AUDIO -->
+ 
+
+ 
+<!-- VIDEO -->
+ 
+
+ 
+<!-- ANSWER -->
+ 
+
+ 
+<!-- PERMALINK PAGE -->
+ 
+
+ 
+<!-- ALTERNATE TAGS -->
+ 
+
+ 
+<!-- POSTNOTES -->
+ 
+
+ 
+<div style="height:1px;margin-top:9px;"></div>
+ 
+</div>
+ 
+
+ 
+    
+        <!-- http://theballadofamieelisa.tumblr.com/post/139510662827/look-at-this-precious
+        <a href="http://theballadofamieelisa.tumblr.com/post/139510662827/look-at-this-precious" class="source_link">theballadofamieelisa</a> -->
+    
+ 
+<div class="posts">
+ 
+<!-- INFO -->
+ 
+<div id="info">
+<table id="reblog" cellpadding="0" cellspacing="5">
+<tr id="first" style="margin-top:-5px;">
+    <td>
+        <a href="http://urieplease.tumblr.com/post/139540409990/theballadofamieelisa-look-at-this-precious" title="urieplease">
+        <img src="http://33.media.tumblr.com/avatar_62dcfe6e6f99_64.png"></a>
+    </td>
+    <td>
+        <a href="http://theballadofamieelisa.tumblr.com/post/139510662827/look-at-this-precious" title="theballadofamieelisa">
+        <img src="http://31.media.tumblr.com/avatar_fa1a3d3f339a_64.png"></a>
+    </td>
+</tr>
+<tr id="second">
+    <td>via</td><td>org</td>
+</tr></table>
+<div id="third">
+    <a href="http://line-ludenberg.tumblr.com/post/139540735838/theballadofamieelisa-look-at-this-precious">02.18.16</a> + <a href="http://line-ludenberg.tumblr.com/post/139540735838/theballadofamieelisa-look-at-this-precious">1804</a>
+</div>
+<div id="tags">
+    + <a href="http://line-ludenberg.tumblr.com/tagged/Brendon-Urie">Brendon Urie</a></br>
+</div>
+</div>
+ 
+<!-- ENTRIES -->
+ 
+<!-- TEXXT -->
+ 
+
+ 
+<!-- PHOTO -->
+ 
+
+ 
+<!-- PANORAMA -->
+ 
+
+ 
+<!-- PHOTOSET -->
+ 
+
+    
+    <div id="photo"><div id="photoset_139540735838" class="html_photoset">    <iframe id="photoset_iframe_139540735838" class="photoset" scrolling="no" frameborder="0" height="572" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://line-ludenberg.tumblr.com/post/139540735838/photoset_iframe/line-ludenberg/tumblr_o2punsVwPa1v38yvo/500/false" name="photoset_iframe_139540735838"></iframe></div></div>
+    
+    
+
+ 
+<!-- QUOTE -->
+ 
+
+ 
+<!-- LINK -->
+ 
+
+ 
+<!-- CHAT -->
+ 
+
+ 
+<!-- AUDIO -->
+ 
+
+ 
+<!-- VIDEO -->
+ 
+
+ 
+<!-- ANSWER -->
+ 
+
+ 
+<!-- PERMALINK PAGE -->
+ 
+
+ 
+<!-- ALTERNATE TAGS -->
+ 
+
+ 
+<!-- POSTNOTES -->
+ 
+
+ 
+<div style="height:1px;margin-top:9px;"></div>
+ 
+</div>
+ 
+
+ 
+</div></div>
+ 
+<!-- PLEASE DO NOT REMOVE THEME CREDIT -->
+ 
+<div id="credit"><div style="width:82px;">
+    <a href="http://viwan-th.tumblr.com" target="blank">
+    <span>♣</span>viwan themes</a>
+</div></div>
+ 
+<!-- PLEASE DO NOT REMOVE THEME CREDIT -->
+ 
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?ab5d9138df4f39e0a422d6b59713a84e#" +
+                              "http://line-ludenberg.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/';
+                    var tumblelog_id = '94749639';
+                    var yahoo_space_id = '1197719229';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455840767&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbGluZS1sdWRlbmJlcmcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=HDBPGGIIHH&K=62ae2550ba8a793fb50befa0d83a7293d1a104f4aa21ffef0963c7a5502579ee&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455840767&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbGluZS1sdWRlbmJlcmcudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=HDBPGGIIHH&K=cd276a8418282c16e3bd120722d773a3e4db28fc4ec93cc45705fac95fc048ba&R="></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455840767&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2xpbmUtbHVkZW5iZXJnLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxMTA3NDk0MzgiLCJyb290X3Bvc3RpZCI6IjEzNzkyNDUwMzE3MyIsInBvc3RpZCI6MTM5NTY4OTk4NjUzLCJibG9naWQiOiI5NDc0OTYzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMjcxNTA4MiIsInJvb3RfcG9zdGlkIjoxMTY2NjMxNTQxMDgsInBvc3RpZCI6IjEzOTU2ODk0MDE4MyIsImJsb2dpZCI6Ijk0NzQ5NjM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkyODgzMDI2Iiwicm9vdF9wb3N0aWQiOjEzOTU2NTIyMjU4NywicG9zdGlkIjoxMzk1Njg4NDczNDMsImJsb2dpZCI6Ijk0NzQ5NjM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEzMTA2NzAzIiwicm9vdF9wb3N0aWQiOiIxMzk1NTI2NTM5MzUiLCJwb3N0aWQiOjEzOTU2ODc5MTQ5MywiYmxvZ2lkIjoiOTQ3NDk2MzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzkzNTQ5NzUiLCJyb290X3Bvc3RpZCI6IjEzMTY5NTkxNjA3NyIsInBvc3RpZCI6MTM5NTY4NzQ5NTQ4LCJibG9naWQiOiI5NDc0OTYzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODgyNDQzNDgiLCJyb290X3Bvc3RpZCI6IjEzOTU2Nzk3MDA1OSIsInBvc3RpZCI6MTM5NTY4NzI1NDU4LCJibG9naWQiOiI5NDc0OTYzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5Mjg4MzAyNiIsInJvb3RfcG9zdGlkIjoiMTM5NTY4MjI5ODgyIiwicG9zdGlkIjoiMTM5NTY4NjQ2MTIzIiwiYmxvZ2lkIjoiOTQ3NDk2MzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTk0NjE3NjE5Iiwicm9vdF9wb3N0aWQiOiIxMzk0ODMzMDMzODEiLCJwb3N0aWQiOiIxMzk1NDE2NTA3NzMiLCJibG9naWQiOiI5NDc0OTYzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDQ4NzU2MjYiLCJyb290X3Bvc3RpZCI6IjEzOTUxMTA0MTkxMiIsInBvc3RpZCI6IjEzOTU0MTYxNDI1MyIsImJsb2dpZCI6Ijk0NzQ5NjM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI3MDYxMzQ3NSIsInJvb3RfcG9zdGlkIjoiMTM5NTEwNjYyODI3IiwicG9zdGlkIjoiMTM5NTQwNzM1ODM4IiwiYmxvZ2lkIjoiOTQ3NDk2MzkiLCJzb3VyY2UiOjMzfV19&U=MJMGCBMNPD&K=4e75ee6c4c676219abd3485761134e604aed14723cad979335752ca57d4f5246&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455840767&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2xpbmUtbHVkZW5iZXJnLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxMTA3NDk0MzgiLCJyb290X3Bvc3RpZCI6IjEzNzkyNDUwMzE3MyIsInBvc3RpZCI6MTM5NTY4OTk4NjUzLCJibG9naWQiOiI5NDc0OTYzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMjcxNTA4MiIsInJvb3RfcG9zdGlkIjoxMTY2NjMxNTQxMDgsInBvc3RpZCI6IjEzOTU2ODk0MDE4MyIsImJsb2dpZCI6Ijk0NzQ5NjM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkyODgzMDI2Iiwicm9vdF9wb3N0aWQiOjEzOTU2NTIyMjU4NywicG9zdGlkIjoxMzk1Njg4NDczNDMsImJsb2dpZCI6Ijk0NzQ5NjM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEzMTA2NzAzIiwicm9vdF9wb3N0aWQiOiIxMzk1NTI2NTM5MzUiLCJwb3N0aWQiOjEzOTU2ODc5MTQ5MywiYmxvZ2lkIjoiOTQ3NDk2MzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzkzNTQ5NzUiLCJyb290X3Bvc3RpZCI6IjEzMTY5NTkxNjA3NyIsInBvc3RpZCI6MTM5NTY4NzQ5NTQ4LCJibG9naWQiOiI5NDc0OTYzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODgyNDQzNDgiLCJyb290X3Bvc3RpZCI6IjEzOTU2Nzk3MDA1OSIsInBvc3RpZCI6MTM5NTY4NzI1NDU4LCJibG9naWQiOiI5NDc0OTYzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5Mjg4MzAyNiIsInJvb3RfcG9zdGlkIjoiMTM5NTY4MjI5ODgyIiwicG9zdGlkIjoiMTM5NTY4NjQ2MTIzIiwiYmxvZ2lkIjoiOTQ3NDk2MzkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTk0NjE3NjE5Iiwicm9vdF9wb3N0aWQiOiIxMzk0ODMzMDMzODEiLCJwb3N0aWQiOiIxMzk1NDE2NTA3NzMiLCJibG9naWQiOiI5NDc0OTYzOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDQ4NzU2MjYiLCJyb290X3Bvc3RpZCI6IjEzOTUxMTA0MTkxMiIsInBvc3RpZCI6IjEzOTU0MTYxNDI1MyIsImJsb2dpZCI6Ijk0NzQ5NjM5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI3MDYxMzQ3NSIsInJvb3RfcG9zdGlkIjoiMTM5NTEwNjYyODI3IiwicG9zdGlkIjoiMTM5NTQwNzM1ODM4IiwiYmxvZ2lkIjoiOTQ3NDk2MzkiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=MJMGCBMNPD&K=fe8143a81f923cc220f35bbb86529609c44cd53fe3df1160baa81ce801c62903&R="></noscript>
+<noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;TumblelogIframe&quot;:{&quot;tumblelogBundleSrc&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.js?_v=7e99ae1182af3b984855ee73042bff77&quot;,&quot;tumblelogName&quot;:&quot;line-ludenberg&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;tumblelogTitle&quot;:&quot;You never know I hate you&quot;,&quot;tumblelogAvatar&quot;:&quot;http:\/\/31.media.tumblr.com\/avatar_4009140f0463_40.png&quot;,&quot;tumblelogHost&quot;:&quot;http:\/\/line-ludenberg.tumblr.com&quot;,&quot;brag&quot;:true,&quot;currentPage&quot;:&quot;1&quot;,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;http:\/\/line-ludenberg.tumblr.com\/&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;http:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=282357db21d8a5883cc1c780ace4cb5f&quot;,&quot;appInstallUrl&quot;:&quot;https:\/\/go.onelink.me\/893408789?pid=tumblr_blog_network\u0026c=tumblr_blog_network\u0026af_sub3=blog_name&quot;}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aV9wYXJzZV90ZXN0Ijp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJkZXByZWNhdGVfZmVhdHVyZWRfdGFncyI6dHJ1ZSwicmVibG9nX3VpX3JlZnJlc2giOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJkYXNoYm9hcmRfcmVmcmVzaCI6dHJ1ZSwibW9iaWxlX3dlYl9waG90b3NldHMiOnRydWUsIm1vYmlsZV93ZWJfZ2F0ZSI6dHJ1ZSwibW9iaWxlX3dlYl9wYWdlX3RpdGxlcyI6dHJ1ZSwibW9iaWxlX3dlYl9zZWFyY2giOnRydWUsIm1vYmlsZV93ZWJfc2VhcmNoX2ZpbHRlciI6dHJ1ZSwibW9iaWxlX3dlYl9hYnVzZV9mb3JtIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX25ld192ZW5kb3JfYnV0dG9ucyI6dHJ1ZSwiYmxvY2tfZmVhdHVyZSI6dHJ1ZSwicmVhY3RpdmF0aW9uX2Zsb3ciOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2Vycm9yc19sb2ciOnRydWUsImVuYWJsZV9qc19lcGhlbWVyYWxfbG9nIjp0cnVlLCJsb2dfbGFkeSI6dHJ1ZSwiY3Nsb2dnZXJfanMiOnRydWUsImRpc2NvdmVyeV9odWJfYWNjZXNzIjp0cnVlLCJoZWFkZXJfYWNjb3VudF9tZW51Ijp0cnVlLCJlbmFibGVfcHJpbWFfc2hhcmVfcG9wb3ZlciI6dHJ1ZSwiZW5hYmxlX3NoYXJlX2VtYmVkX2NvZGUiOnRydWUsInBpbnRlcmVzdF9zaGFyaW5nIjp0cnVlLCJyZWRkaXRfc2hhcmluZyI6dHJ1ZSwicG9zdF9pdF9mb3J3YXJkIjp0cnVlLCJwZWVwcl9zZWFyY2hfYW5kX2ZpbHRlciI6dHJ1ZSwiaW50ZXJuc19wYWdlIjp0cnVlLCJmb2xsb3dlZF9zZWFyY2hlc19iaWdfd2ViIjp0cnVlLCJkaXNhYmxlX3B1YmxpY19yZXBsaWVzIjp0cnVlLCJkaXNhYmxlX3lhaG9vX2JfY29va2llIjp0cnVlLCJwcmltYV90dW1ibGVsb2dfYnVuZGxlIjp0cnVlfQ==&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1455840767000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;http:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/secure.assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;http:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;http:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;http:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;fr_FR&quot;,&quot;language_simple&quot;:&quot;fr&quot;},&quot;Translations&quot;:{&quot;Cancel&quot;:&quot;Annuler&quot;,&quot;Nevermind&quot;:&quot;Annuler&quot;,&quot;Ignore&quot;:&quot;Bloquer&quot;,&quot;Unfollow&quot;:&quot;Se d\u00e9sabonner&quot;,&quot;Are you sure you want to unfollow %1$s?&quot;:&quot;Voulez-vous vraiment vous d\u00e9sabonner de %1$s ?&quot;,&quot;Sorry, we seem to be having technical trouble.  Please try again later.&quot;:&quot;Nous rencontrons des difficult\u00e9s techniques. Veuillez r\u00e9essayer plus tard.&quot;,&quot;Follow&quot;:&quot;S&#039;abonner&quot;,&quot;Put it back&quot;:&quot;Ranger&quot;,&quot;Block&quot;:&quot;Bloquer&quot;,&quot;%1$sAre you sure you want to block %2$s from %3$s?%4$sThey won&#039;t be able to follow %3$s, send %3$s messages, see %3$s in search results, or interact with any of %3$s&#039;s posts.%5$s&quot;:&quot;%1$sVoulez-vous vraiment bloquer %2$s sur %3$s ? %4$sCette personne ne pourra plus s&#039;abonner \u00e0 %3$s, ni envoyer de messages \u00e0 %3$s, ni voir %3$s dans ses r\u00e9sultats de recherche, ni m\u00eame interagir avec les billets publi\u00e9s sur %3$s.%5$s&quot;,&quot;%1$sBlock messages from this sender?%2$sAny further messages sent from their IP address will be blocked from your inbox. This can&#039;t be undone, by the way.%3$s&quot;:&quot;%1$sSouhaitez-vous vraiment bloquer les messages de cette personne ? %2$sTous les messages envoy\u00e9s depuis cette adresse IP seront bloqu\u00e9s de votre bo\u00eete de r\u00e9ception. Notez que cette action est irr\u00e9versible et que vous ne pourrez pas revenir sur votre d\u00e9cision.%3$s&quot;,&quot;Are you sure you want to log out?&quot;:&quot;\u00cates-vous s\u00fbr de vouloir vous d\u00e9connecter\u00a0?&quot;,&quot;Likes&quot;:&quot;Coups de c\u0153ur&quot;,&quot;Following&quot;:&quot;Abonnements&quot;,&quot;New&quot;:&quot;Nouveau&quot;,&quot;Account&quot;:&quot;Compte&quot;,&quot;Settings&quot;:&quot;Param\u00e8tres&quot;,&quot;Help&quot;:&quot;Aide&quot;,&quot;Log out&quot;:&quot;D\u00e9connexion&quot;,&quot;Posts&quot;:&quot;Billets&quot;,&quot;Reach&quot;:&quot;Port\u00e9e&quot;,&quot;Followers&quot;:&quot;Abonn\u00e9s&quot;,&quot;Activity&quot;:&quot;Trafic&quot;,&quot;Members&quot;:&quot;Membres&quot;,&quot;Drafts&quot;:&quot;Brouillons&quot;,&quot;Queue&quot;:&quot;File d&#039;attente&quot;,&quot;Processing&quot;:&quot;Traitement vid\u00e9o&quot;,&quot;Analytics&quot;:&quot;Statistiques&quot;,&quot;Edit appearance&quot;:&quot;Modifier l&#039;apparence&quot;,&quot;Don&#039;t freak out. Your things are right here.&quot;:&quot;Ne vous inqui\u00e9tez pas, tout est en ordre.&quot;,&quot;Your blog info, account info, and recent activity are in these menus.&quot;:&quot;Les informations sur votre compte et sur vos blogs ainsi que la page Trafic se trouvent dans ces menus.&quot;,&quot;Wait, why?&quot;:&quot;Pourquoi ?&quot;,&quot;Okay, phew&quot;:&quot;OK !&quot;,&quot;Why?&quot;:&quot;Pourquoi ?&quot;,&quot;It&#039;s so you never have to scroll to the top of the dashboard to access this stuff.&quot;:&quot;Pour que vous n&#039;ayez plus besoin de faire d\u00e9filer le Tableau de bord jusqu&#039;en haut pour acc\u00e9der \u00e0 ces informations.&quot;,&quot;Ohhh&quot;:&quot;Ah d&#039;accord !&quot;}}"></noscript>
+<script src="http://assets.tumblr.com/client/prod/standalone/tumblelog/index.js?_v=7e99ae1182af3b984855ee73042bff77"></script>
+
+</body></html>

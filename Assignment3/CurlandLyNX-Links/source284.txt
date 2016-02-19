@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Daten|teiler</title>
+
+<!-- Meine Meta-Angaben -->
+
+ <meta name="description" content="Datenteiler - Kopieren als Kulturtechnik. Seite über Gnu/Linux, Open Source und Open Content ">
+ <meta name="author" content="Christian Imhorst">
+ <meta name="keywords" content="Open Source, GNU, Linux, freie, Software, free, WordPress, Ubuntu, Debian">
+ <meta name="robots" content="all">
+ <meta http-equiv="content-language" content="de">
+
+ <meta name="generator" content="WordPress 4.4.2" /> <!-- leave this for stats -->
+
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="http://www.datenteiler.de/wp-content/themes/dirtylicious-10/style.css" type="text/css" media="screen" />
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.datenteiler.de/feed/" />
+
+<link rel="alternate" type="text/xml" title="RSS .92" href="http://www.datenteiler.de/feed/rss/" />
+
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.datenteiler.de/feed/atom/" />
+
+<link rel="pingback" href="http://www.datenteiler.de/xmlrpc.php" />
+
+<link rel=”SHORTCUT ICON” href=”/favicon.ico”>
+<link rel=”icon” href=”/favicon.ico” type=”image/ico”>
+
+	<link rel='archives' title='Oktober 2015' href='http://www.datenteiler.de/2015/10/' />
+	<link rel='archives' title='März 2015' href='http://www.datenteiler.de/2015/03/' />
+	<link rel='archives' title='November 2014' href='http://www.datenteiler.de/2014/11/' />
+	<link rel='archives' title='Juni 2014' href='http://www.datenteiler.de/2014/06/' />
+	<link rel='archives' title='Mai 2014' href='http://www.datenteiler.de/2014/05/' />
+	<link rel='archives' title='April 2014' href='http://www.datenteiler.de/2014/04/' />
+	<link rel='archives' title='März 2014' href='http://www.datenteiler.de/2014/03/' />
+	<link rel='archives' title='Februar 2014' href='http://www.datenteiler.de/2014/02/' />
+	<link rel='archives' title='Dezember 2013' href='http://www.datenteiler.de/2013/12/' />
+	<link rel='archives' title='November 2013' href='http://www.datenteiler.de/2013/11/' />
+	<link rel='archives' title='Oktober 2013' href='http://www.datenteiler.de/2013/10/' />
+	<link rel='archives' title='September 2013' href='http://www.datenteiler.de/2013/09/' />
+	<link rel='archives' title='August 2013' href='http://www.datenteiler.de/2013/08/' />
+	<link rel='archives' title='Juli 2013' href='http://www.datenteiler.de/2013/07/' />
+	<link rel='archives' title='Juni 2013' href='http://www.datenteiler.de/2013/06/' />
+	<link rel='archives' title='April 2013' href='http://www.datenteiler.de/2013/04/' />
+	<link rel='archives' title='März 2013' href='http://www.datenteiler.de/2013/03/' />
+	<link rel='archives' title='Januar 2013' href='http://www.datenteiler.de/2013/01/' />
+	<link rel='archives' title='Dezember 2012' href='http://www.datenteiler.de/2012/12/' />
+	<link rel='archives' title='November 2012' href='http://www.datenteiler.de/2012/11/' />
+	<link rel='archives' title='Oktober 2012' href='http://www.datenteiler.de/2012/10/' />
+	<link rel='archives' title='September 2012' href='http://www.datenteiler.de/2012/09/' />
+	<link rel='archives' title='Juli 2012' href='http://www.datenteiler.de/2012/07/' />
+	<link rel='archives' title='Juni 2012' href='http://www.datenteiler.de/2012/06/' />
+	<link rel='archives' title='Mai 2012' href='http://www.datenteiler.de/2012/05/' />
+	<link rel='archives' title='März 2012' href='http://www.datenteiler.de/2012/03/' />
+	<link rel='archives' title='Februar 2012' href='http://www.datenteiler.de/2012/02/' />
+	<link rel='archives' title='Januar 2012' href='http://www.datenteiler.de/2012/01/' />
+	<link rel='archives' title='Dezember 2011' href='http://www.datenteiler.de/2011/12/' />
+	<link rel='archives' title='November 2011' href='http://www.datenteiler.de/2011/11/' />
+	<link rel='archives' title='Oktober 2011' href='http://www.datenteiler.de/2011/10/' />
+	<link rel='archives' title='September 2011' href='http://www.datenteiler.de/2011/09/' />
+	<link rel='archives' title='August 2011' href='http://www.datenteiler.de/2011/08/' />
+	<link rel='archives' title='Juli 2011' href='http://www.datenteiler.de/2011/07/' />
+	<link rel='archives' title='Juni 2011' href='http://www.datenteiler.de/2011/06/' />
+	<link rel='archives' title='Mai 2011' href='http://www.datenteiler.de/2011/05/' />
+	<link rel='archives' title='April 2011' href='http://www.datenteiler.de/2011/04/' />
+	<link rel='archives' title='März 2011' href='http://www.datenteiler.de/2011/03/' />
+	<link rel='archives' title='Februar 2011' href='http://www.datenteiler.de/2011/02/' />
+	<link rel='archives' title='Januar 2011' href='http://www.datenteiler.de/2011/01/' />
+	<link rel='archives' title='Dezember 2010' href='http://www.datenteiler.de/2010/12/' />
+	<link rel='archives' title='November 2010' href='http://www.datenteiler.de/2010/11/' />
+	<link rel='archives' title='Oktober 2010' href='http://www.datenteiler.de/2010/10/' />
+	<link rel='archives' title='September 2010' href='http://www.datenteiler.de/2010/09/' />
+	<link rel='archives' title='Juli 2010' href='http://www.datenteiler.de/2010/07/' />
+	<link rel='archives' title='Juni 2010' href='http://www.datenteiler.de/2010/06/' />
+	<link rel='archives' title='Mai 2010' href='http://www.datenteiler.de/2010/05/' />
+	<link rel='archives' title='April 2010' href='http://www.datenteiler.de/2010/04/' />
+	<link rel='archives' title='März 2010' href='http://www.datenteiler.de/2010/03/' />
+	<link rel='archives' title='Februar 2010' href='http://www.datenteiler.de/2010/02/' />
+	<link rel='archives' title='Januar 2010' href='http://www.datenteiler.de/2010/01/' />
+	<link rel='archives' title='Dezember 2009' href='http://www.datenteiler.de/2009/12/' />
+	<link rel='archives' title='November 2009' href='http://www.datenteiler.de/2009/11/' />
+	<link rel='archives' title='Oktober 2009' href='http://www.datenteiler.de/2009/10/' />
+	<link rel='archives' title='September 2009' href='http://www.datenteiler.de/2009/09/' />
+	<link rel='archives' title='August 2009' href='http://www.datenteiler.de/2009/08/' />
+	<link rel='archives' title='Juli 2009' href='http://www.datenteiler.de/2009/07/' />
+	<link rel='archives' title='Juni 2009' href='http://www.datenteiler.de/2009/06/' />
+	<link rel='archives' title='Mai 2009' href='http://www.datenteiler.de/2009/05/' />
+	<link rel='archives' title='April 2009' href='http://www.datenteiler.de/2009/04/' />
+	<link rel='archives' title='März 2009' href='http://www.datenteiler.de/2009/03/' />
+	<link rel='archives' title='Februar 2009' href='http://www.datenteiler.de/2009/02/' />
+	<link rel='archives' title='Januar 2009' href='http://www.datenteiler.de/2009/01/' />
+	<link rel='archives' title='Dezember 2008' href='http://www.datenteiler.de/2008/12/' />
+	<link rel='archives' title='November 2008' href='http://www.datenteiler.de/2008/11/' />
+	<link rel='archives' title='Oktober 2008' href='http://www.datenteiler.de/2008/10/' />
+	<link rel='archives' title='September 2008' href='http://www.datenteiler.de/2008/09/' />
+	<link rel='archives' title='August 2008' href='http://www.datenteiler.de/2008/08/' />
+	<link rel='archives' title='Juli 2008' href='http://www.datenteiler.de/2008/07/' />
+	<link rel='archives' title='Juni 2008' href='http://www.datenteiler.de/2008/06/' />
+	<link rel='archives' title='Mai 2008' href='http://www.datenteiler.de/2008/05/' />
+	<link rel='archives' title='April 2008' href='http://www.datenteiler.de/2008/04/' />
+	<link rel='archives' title='März 2008' href='http://www.datenteiler.de/2008/03/' />
+	<link rel='archives' title='Februar 2008' href='http://www.datenteiler.de/2008/02/' />
+	<link rel='archives' title='Januar 2008' href='http://www.datenteiler.de/2008/01/' />
+	<link rel='archives' title='November 2007' href='http://www.datenteiler.de/2007/11/' />
+	<link rel='archives' title='Oktober 2007' href='http://www.datenteiler.de/2007/10/' />
+	<link rel='archives' title='September 2007' href='http://www.datenteiler.de/2007/09/' />
+	<link rel='archives' title='August 2007' href='http://www.datenteiler.de/2007/08/' />
+	<link rel='archives' title='Juli 2007' href='http://www.datenteiler.de/2007/07/' />
+	<link rel='archives' title='Juni 2007' href='http://www.datenteiler.de/2007/06/' />
+	<link rel='archives' title='Mai 2007' href='http://www.datenteiler.de/2007/05/' />
+	<link rel='archives' title='April 2007' href='http://www.datenteiler.de/2007/04/' />
+	<link rel='archives' title='März 2007' href='http://www.datenteiler.de/2007/03/' />
+	<link rel='archives' title='Februar 2007' href='http://www.datenteiler.de/2007/02/' />
+	<link rel='archives' title='Januar 2007' href='http://www.datenteiler.de/2007/01/' />
+	<link rel='archives' title='Dezember 2006' href='http://www.datenteiler.de/2006/12/' />
+	<link rel='archives' title='November 2006' href='http://www.datenteiler.de/2006/11/' />
+	<link rel='archives' title='Oktober 2006' href='http://www.datenteiler.de/2006/10/' />
+	<link rel='archives' title='September 2006' href='http://www.datenteiler.de/2006/09/' />
+	<link rel='archives' title='Juli 2006' href='http://www.datenteiler.de/2006/07/' />
+	<link rel='archives' title='Juni 2006' href='http://www.datenteiler.de/2006/06/' />
+	<link rel='archives' title='Mai 2006' href='http://www.datenteiler.de/2006/05/' />
+	<link rel='archives' title='April 2006' href='http://www.datenteiler.de/2006/04/' />
+	<link rel='archives' title='März 2006' href='http://www.datenteiler.de/2006/03/' />
+	<link rel='archives' title='Februar 2006' href='http://www.datenteiler.de/2006/02/' />
+	<link rel='archives' title='Januar 2006' href='http://www.datenteiler.de/2006/01/' />
+
+
+<!-- All in One SEO Pack 2.2.7.5 by Michael Torbert of Semper Fi Web Design[288,336] -->
+<meta name="description"  content="Daten|teiler - Kopieren als Kulturtechnik. Seite über Gnu/Linux, Open Source und Open Content." />
+
+<meta name="keywords"  content="Open Source, GNU, Linux, freie, Software, free, WordPress, Ubuntu, Debian, Python, Powershell" />
+<link rel='next' href='http://www.datenteiler.de/page/2/' />
+
+<link rel="canonical" href="http://www.datenteiler.de/" />
+<!-- /all in one seo pack -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.datenteiler.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-syntax-css-css'  href='http://www.datenteiler.de/wp-content/plugins/wp-syntax/css/wp-syntax.css?ver=1.0' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='http://www.datenteiler.de/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.datenteiler.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.datenteiler.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+
+<link rel="stylesheet" href="http://www.datenteiler.de/wp-content/plugins/dd-formmailer/dd-formmailer.css" type="text/css" media="screen" />
+
+</head>
+
+<body>
+
+<div class="outer-container">
+
+<div class="inner-container">
+
+	<div class="header">
+		
+		<div class="title">
+
+			<span class="sitename"><a href="http://www.datenteiler.de/">Daten|teiler</a></span>
+			<div class="slogan">Kopieren als Kulturtechnik</div>
+
+		</div>
+		
+	</div>
+
+	<div class="path">
+
+
+			<ul>
+				<li><a href="http://www.datenteiler.de/">Blog</a></li>
+				<li><a href="http://texte.datenteiler.de/">Texte</a></li>
+				<li><a href="http://wiki.datenteiler.de/">Wiki</a></li>
+				<li><a href="http://www.datenteiler.de/kontakt/">Kontakt</a></li>
+			</ul> 
+
+	</div>
+
+
+	<div class="main">
+
+		<div class="content">	
+						<div class="post" id="post-9807">
+
+				<h1><a href="http://www.datenteiler.de/powershell-artikel-fuer-raspberry-pi-geek/" rel="bookmark" title="Permanent Link to Powershell-Artikel für Raspberry Pi Geek">Powershell-Artikel für Raspberry Pi Geek</a></h1>
+					
+				<div class="descr">4. Oktober 2015 von Christian Imhorst</div>
+
+				<div class="entry">
+
+					<p>In der <a href="http://www.netz-weise-it.training/user-groups/powershell-user-group.html" target="_blank">Powershell Usergroup Hannover</a> hatte wir das Thema Desired State Configuration (DSC) von Windows-Servern mit Hilfe der Powershell. Interessanter Weise funktioniert <a href="http://blogs.technet.com/b/privatecloud/archive/2014/05/19/powershell-dsc-for-linux-step-by-step.aspx" target="_blank">DSC auch mit Linux-Rechnern</a>, was mich auf die Idee zum Artikel <a href="http://www.raspberry-pi-geek.de/Magazin/2015/06/Powershell-und-Desired-State-Configuration-auf-dem-RasPi-nutzen" target="_blank">Zwischen zwei Welten &mdash; Powershell und Desired State Configuration auf dem RasPi nutzen</a> gebracht hat. </p>
+<p>Das Raspberry Pi Geek-Magazin war interessiert und hat den Artikel in der <a href="http://www.raspberry-pi-geek.de/Magazin/2015/06" target="_blank">aktuellen Ausgabe</a> veröffentlicht. Der Artikel kann auch gleich <em><a href="http://www.raspberry-pi-geek.de/Magazin/2015/06/Powershell-und-Desired-State-Configuration-auf-dem-RasPi-nutzen" target="_blank">for free</a></em> auf der Homepage des Magazins gelesen werden.</p>
+
+				</div>
+
+				<p class="info">Geschrieben in <a href="http://www.datenteiler.de/kategorie/powershell/" rel="category tag">Powershell</a>, <a href="http://www.datenteiler.de/kategorie/publikationen/" rel="category tag">Publikationen</a> |  <a href="http://www.datenteiler.de/powershell-artikel-fuer-raspberry-pi-geek/#respond">Keine Kommentare &raquo;</a></p>
+
+			</div>
+
+			
+					<div class="post" id="post-9783">
+
+				<h1><a href="http://www.datenteiler.de/install-freedos-1-1-with-freedosmultiboot/" rel="bookmark" title="Permanent Link to Install FreeDOS 1.1 with FreeDOSmultiboot">Install FreeDOS 1.1 with FreeDOSmultiboot</a></h1>
+					
+				<div class="descr">2. Oktober 2015 von Christian Imhorst</div>
+
+				<div class="entry">
+
+					<p>If you want to install FreeDOS to your hard drive with the help of FreeDOSmultiboot on a pen drive you should first know, what you are doing: You need a backup, you can destroy your data and you can damage your hardware.</p>
+<p>THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY!<br />
+USE AT YOUR OWN RISK!</p>
+<p>Then you need to download and unzip <a href="http://www.datenteiler.de/wp-content/uploads/2015/10/FreeDOSmultiboot.zip">FreeDOSmultiboot.zip</a> [1] and copy FreeDOSmultiboot.img to your pen drive. On Windows use <a href="http://sourceforge.net/projects/win32diskimager/" target="_blank">Win32 DiskImager</a> [2] or <a href="https://rufus.akeo.ie/" target="_blank">Rufus</a> [3] or similar. On Unix based systems like Linux you can use the <code>dd</code> command as superuser/root:</p>
+
+<div class="wp_syntax"><table><tr><td class="code"><pre class="bash" style="font-family:monospace;"><span style="color: #c20cb9; font-weight: bold;">dd</span> <span style="color: #007800;">if</span>=FreeDOSmultiboot.img <span style="color: #007800;">of</span>=<span style="color: #000000; font-weight: bold;">/</span>dev<span style="color: #000000; font-weight: bold;">/</span>sdX</pre></td></tr></table></div>
+
+<p>Replace X with the letter of the device name of your pen drive.</p>
+<p>Boot your device from your prepared pen drive.  Choose &#8222;Install FreeDOS 1.1&#8220; from the boot menu to start the installer.</p>
+<p><a href="http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-10-02-22-47-55.png"><img src="http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-10-02-22-47-55-300x167.png" alt="Bildschirmfoto vom 2015-10-02 22-47-55" width="300" height="167" class="aligncenter size-medium wp-image-9797" srcset="http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-10-02-22-47-55-300x167.png 300w, http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-10-02-22-47-55.png 720w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>If needed choose &#8222;Create Drive C:&#8220; in the installer menu.</p>
+<p><a href="http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-09-29-21-03-47.png"><img src="http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-09-29-21-03-47-300x176.png" alt="Bildschirmfoto vom 2015-09-29 21-03-47" width="300" height="176" class="aligncenter size-medium wp-image-9799" srcset="http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-09-29-21-03-47-300x176.png 300w, http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-09-29-21-03-47.png 720w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Maybe you have to delete a Non-DOS partiton on your computer to create a new &#8222;Primary DOS Partiton&#8220; for FreeDOS installation. </p>
+<p><a href="http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-09-29-21-29-08.png"><img src="http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-09-29-21-29-08-300x176.png" alt="Bildschirmfoto vom 2015-09-29 21-29-08" width="300" height="176" class="aligncenter size-medium wp-image-9801" srcset="http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-09-29-21-29-08-300x176.png 300w, http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-09-29-21-29-08.png 720w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>If the DOS partition is created you have to format the partition. Please note to set the C drive on the harddisk as active.</p>
+<p>After a new reboot, you have to boot from the pen drive again, choose &#8222;Install FreeDOS 1.1&#8220; from the boot menu to start the installer. Then you can choose &#8222;Install to harddisk&#8220; from the menu and proceed with the FreeDOS installation.</p>
+<p>There are more detailed information about the installation in the <a href="http://freedos.sourceforge.net/wiki/index.php/VirtualBox" target="_blank">FreeDOS Install HOWTO</a> [3]. This is for VirtualBox, but should apply to any PC.</p>
+<p>Happy FreeDOS&#8217;ing.</p>
+<p>[1] http://www.datenteiler.de/wp-content/uploads/2015/10/FreeDOSmultiboot.zip<br />
+[2] http://sourceforge.net/projects/win32diskimager/<br />
+[3] https://rufus.akeo.ie/<br />
+[4] http://freedos.sourceforge.net/wiki/index.php/VirtualBox</p>
+
+				</div>
+
+				<p class="info">Geschrieben in <a href="http://www.datenteiler.de/kategorie/freedos/" rel="category tag">FreeDOS</a> |  <a href="http://www.datenteiler.de/install-freedos-1-1-with-freedosmultiboot/#respond">Keine Kommentare &raquo;</a></p>
+
+			</div>
+
+			
+					<div class="post" id="post-9751">
+
+				<h1><a href="http://www.datenteiler.de/batterien-enthalten-linux-mint-debian-edition-lmde/" rel="bookmark" title="Permanent Link to Batterien enthalten: Linux Mint Debian Edition (LMDE)">Batterien enthalten: Linux Mint Debian Edition (LMDE)</a></h1>
+					
+				<div class="descr">6. März 2015 von Christian Imhorst</div>
+
+				<div class="entry">
+
+					<p><strong>Wer Ubuntu nicht mag, der nimmt Linux Mint. Dabei gibt es Mint in zwei Varianten: Die Hauptausgabe, die auf Ubuntu beruht, und eine äußerlich sehr ähnliche zweite Ausgabe, die Debian als Grundlage hat. Wenn man Debian nicht mag, nimmt man dann die Linux Mint Debian Edition? Oder nimmt man sie erst recht, weil man ein gut vorkonfiguriertes Debian in Grün möchte? Oder nimmt man es besser gar nicht, weil LMDE praktisch tot ist? Diese und andere Fragen sollen im Artikel geklärt werden.</strong></p>
+<p><strong>Redaktioneller Hinweis:</strong> Dieser Artikel von mir ist erstmals in der <a href="http://www.freiesmagazin.de/20150301-maerzausgabe-erschienen">Märzausgabe 03/2015</a>  von <span style="font-weight: bold; color: rgb(115, 115, 115);">freies</span><span style="color: rgb(255, 102, 0);">Magazin</span> erschienen.</p>
+<p> <a href="http://www.datenteiler.de/batterien-enthalten-linux-mint-debian-edition-lmde/#more-9751" class="more-link">Den restlichen Eintrag lesen &raquo;</a></p>
+
+				</div>
+
+				<p class="info">Geschrieben in <a href="http://www.datenteiler.de/kategorie/freiesmagazin/" rel="category tag">freiesMagazin</a>, <a href="http://www.datenteiler.de/kategorie/gnulinux/" rel="category tag">Gnu/Linux</a>, <a href="http://www.datenteiler.de/kategorie/publikationen/" rel="category tag">Publikationen</a> |  <a href="http://www.datenteiler.de/batterien-enthalten-linux-mint-debian-edition-lmde/#comments">1 Kommentar &raquo;</a></p>
+
+			</div>
+
+			
+					<div class="post" id="post-9729">
+
+				<h1><a href="http://www.datenteiler.de/freedos-totgesagte-leben-laenger/" rel="bookmark" title="Permanent Link to FreeDOS – Totgesagte leben länger">FreeDOS – Totgesagte leben länger</a></h1>
+					
+				<div class="descr">17. November 2014 von Christian Imhorst</div>
+
+				<div class="entry">
+
+					<p><strong>Das Betriebssystem DOS, das Disk Operating System [1], ist quicklebendig und manchmal entdeckt man es an den merkwürdigsten Orten wieder. Dieser Artikel gibt einen Einblick in DOS und zeigt, wie man es heute noch nutzen kann.</strong></p>
+<p><strong>Redaktioneller Hinweis:</strong> Dieser Artikel von mir ist erstmals in der <a href="http://www.freiesmagazin.de/20141102-novemberausgabe-erschienen">Novemberausgabe 11/2014</a>  von <span style="font-weight: bold; color: rgb(115, 115, 115);">freies</span><span style="color: rgb(255, 102, 0);">Magazin</span> erschienen.</p>
+<p> <a href="http://www.datenteiler.de/freedos-totgesagte-leben-laenger/#more-9729" class="more-link">Den restlichen Eintrag lesen &raquo;</a></p>
+
+				</div>
+
+				<p class="info">Geschrieben in <a href="http://www.datenteiler.de/kategorie/freiesmagazin/" rel="category tag">freiesMagazin</a>, <a href="http://www.datenteiler.de/kategorie/publikationen/" rel="category tag">Publikationen</a> |  <a href="http://www.datenteiler.de/freedos-totgesagte-leben-laenger/#comments">2 Kommentare &raquo;</a></p>
+
+			</div>
+
+			
+					<div class="post" id="post-9658">
+
+				<h1><a href="http://www.datenteiler.de/torify-programme-im-terminal-anonymisieren/" rel="bookmark" title="Permanent Link to Torify: Programme im Terminal anonymisieren">Torify: Programme im Terminal anonymisieren</a></h1>
+					
+				<div class="descr">4. Juni 2014 von Christian Imhorst</div>
+
+				<div class="entry">
+
+					<p><strong>Die meisten Menschen benutzen Tor vermutlich zum anonymen Surfen mit dem Tor Browser Bundle, das in <span style="font-weight: bold; color: rgb(115, 115, 115);">freies</span><span style="color: rgb(255, 102, 0);">Magazin</span> 05/2014 [1] vorgestellt wurde. In diesem Artikel geht es um die Nutzung von Tor im Terminal, was je nach Distribution mit mehr oder weniger Installationsaufwand verbunden ist.</strong></p>
+<p><strong>Redaktioneller Hinweis:</strong> Dieser Artikel von mir ist erstmals in der <a href="http://www.freiesmagazin.de/20140601-juniausgabe-erschienen">Juniausgabe 06/2014</a>  von <span style="font-weight: bold; color: rgb(115, 115, 115);">freies</span><span style="color: rgb(255, 102, 0);">Magazin</span> erschienen.</p>
+<p> <a href="http://www.datenteiler.de/torify-programme-im-terminal-anonymisieren/#more-9658" class="more-link">Den restlichen Eintrag lesen &raquo;</a></p>
+
+				</div>
+
+				<p class="info">Geschrieben in <a href="http://www.datenteiler.de/kategorie/freiesmagazin/" rel="category tag">freiesMagazin</a>, <a href="http://www.datenteiler.de/kategorie/publikationen/" rel="category tag">Publikationen</a> |  <span>Kommentare deaktiviert<span class="screen-reader-text"> für Torify: Programme im Terminal anonymisieren</span></span></p>
+
+			</div>
+
+			
+					<div class="post" id="post-9640">
+
+				<h1><a href="http://www.datenteiler.de/mit-tarnkappe-im-netz-das-tor-browser-bundle/" rel="bookmark" title="Permanent Link to Mit Tarnkappe im Netz – Das Tor Browser Bundle">Mit Tarnkappe im Netz – Das Tor Browser Bundle</a></h1>
+					
+				<div class="descr">5. Mai 2014 von Christian Imhorst</div>
+
+				<div class="entry">
+
+					<p><strong>Möchte man sich anonym im Internet bewegen, wird das vom Tor Browser Bundle [1] leicht gemacht. Das Bundle erhält man auf der Projekt-Seite von Tor. Dabei ist Tor die Kurzform von The Onion Router [2] und hat das Ziel, Verbindungsdaten von Programmen im Internet zu anonymisieren.</strong></p>
+<p><strong>Redaktioneller Hinweis:</strong> Dieser Artikel von mir ist erstmals in der <a href="http://www.freiesmagazin.de/20140504-maiausgabe-erschienen">Maiausgabe 05/2014</a>  von <span style="font-weight: bold; color: rgb(115, 115, 115);">freies</span><span style="color: rgb(255, 102, 0);">Magazin</span> erschienen.</p>
+<p> <a href="http://www.datenteiler.de/mit-tarnkappe-im-netz-das-tor-browser-bundle/#more-9640" class="more-link">Den restlichen Eintrag lesen &raquo;</a></p>
+
+				</div>
+
+				<p class="info">Geschrieben in <a href="http://www.datenteiler.de/kategorie/freiesmagazin/" rel="category tag">freiesMagazin</a>, <a href="http://www.datenteiler.de/kategorie/gnulinux/" rel="category tag">Gnu/Linux</a> |  <a href="http://www.datenteiler.de/mit-tarnkappe-im-netz-das-tor-browser-bundle/#comments">1 Kommentar &raquo;</a></p>
+
+			</div>
+
+			
+					<div class="post" id="post-9607">
+
+				<h1><a href="http://www.datenteiler.de/ironpython-artikel-fuer-das-entwickler-magazin/" rel="bookmark" title="Permanent Link to IronPython-Artikel für das Entwickler-Magazin">IronPython-Artikel für das Entwickler-Magazin</a></h1>
+					
+				<div class="descr">10. April 2014 von Christian Imhorst</div>
+
+				<div class="entry">
+
+					<p>Im Oktober 2013 war das <a href="https://entwickler.de/magazin" target="_blank">Entwickler-Magazin</a> auf der Suche nach einem Autor mit Expertise in Sachen IronPython. Für 2014 ist nämlich eine neue Artikelserie geplant, bei der in jeder Ausgabe eine &#8222;exotische&#8220; Sprache vorgestellt werden soll &mdash; sozusagen ein Blick über den Tellerrand der herkömmlichen Programmiersprachen. In diesem Zusammenhang sollte auch IronPython ein kleiner Artikel gewidmet werden.</p>
+<p>Sucht man nach einem deutschsprachigen Artikel über IronPython, landet man sehr schnell bei <a href="http://www.freiesmagazin.de/20120701-juliausgabe-erschienen">Nicht nur für Zombies: Einstieg in IronPython</a>, den ich für das <span style="font-weight: bold; color: rgb(115, 115, 115);">freies</span><span style="color: rgb(255, 102, 0);">Magazin</span></a> geschrieben hatte. Da es zu IronPython nur wenig auf deutsch gibt, lag es wohl nahe, mich anzufragen. Daraufhin habe ich einen neuen Artikel geschrieben. Das Schwierigste war noch, sich eine irgendwie passende Anspielung auf Monty Python zu überlegen. Der Schwerpunkt dieses Artikels liegt besonders auf der Geschichte von IronPython, warum die Sprache entwickelt wurde, welche Anwendungsfälle es gibt &mdash; inklusive einer kleinen Beispielanwendung. Zu meiner Überraschung machte mein <a href="http://www.datenteiler.de/wp-content/uploads/2014/04/EM_1_14_Imhorst_IronPython.pdf">Artikel den Anfang der Serie in der Ausgabe Januar/Februar</a>. Er wurde auch relativ unverändert abgedruckt, bis auf die Überschrift, die ist nicht von mir.</p>
+
+				</div>
+
+				<p class="info">Geschrieben in <a href="http://www.datenteiler.de/kategorie/publikationen/" rel="category tag">Publikationen</a> |  <span>Kommentare deaktiviert<span class="screen-reader-text"> für IronPython-Artikel für das Entwickler-Magazin</span></span></p>
+
+			</div>
+
+			
+					<div class="post" id="post-9507">
+
+				<h1><a href="http://www.datenteiler.de/debian-auf-einem-non-pae-system-installieren/" rel="bookmark" title="Permanent Link to Debian auf einem Non-PAE System installieren">Debian auf einem Non-PAE System installieren</a></h1>
+					
+				<div class="descr">26. März 2014 von Christian Imhorst</div>
+
+				<div class="entry">
+
+					<p>Alte Hardware wegzuwerfen ist meist sehr schade, weil sie häufig noch gut funktioniert. Zum Beispiel das Business-Notebook <a href="http://thinkwiki.de/R51" target="_blank">Thinkpad R51</a>. Vor 10 Jahren war das ein Spitzenmodell mit Windows XP, 512 MB Arbeitsspeicher, 30 Gigabyte IDE-Festplatte und einem Intel Celeron M mit 1,3 GHz. Heute ist der Arbeitsspeicher zu wenig, das vorinstallierte Betriebssystem ein Sicherheitsrisiko und der Festplatte kann man nicht mehr trauen. Der Prozessor ist aber noch schnell genug, um damit im Internet zu surfen, oder E-Mails zu schreiben. Wenn man sich für alte Hardware interessiert, sollte man eine Sammelleidenschaft für Komponenten aus defekten Rechnern, besonders Laptops entwickeln und wenigstens Arbeitsspeicher und PCI-Geräte wie WLAN-Karten retten, bevor man einen Laptop verschrottet. Für manche WLAN-Karten gibt es keine Firmware unter Linux, dann ist es gut, wenn man sie gegen eine austauschen kann, die problemlos erkannt wird. Arbeitsspeicher kann man immer gebrauchen, außerdem muss man kein Geld ausgeben, um den Arbeitsspeicher eines älteren Notebooks zu erweitern, und wenn es nur ein weiterer 512 MB Riegel für den R51 ist. Speichermedien wie SD- oder CompactFlash-Karten hat man meist auch mehr als man braucht, zum Beispiel weil man sich für den Fotoapparat mal eine Karte mit noch mehr Speicherplatz gekauft hat. Haben die alten Karten mindesten 4 GB oder mehr Speicher und liegen ungenutzt in der Schreibtischschublade rum und wenn die Karte bootfähig ist, braucht man nur noch einen IDE-Adapter für etwa 10 Euro und die Festplatte kann ausgetauscht werden.</p>
+<p> <a href="http://www.datenteiler.de/debian-auf-einem-non-pae-system-installieren/#more-9507" class="more-link">Den restlichen Eintrag lesen &raquo;</a></p>
+
+				</div>
+
+				<p class="info">Geschrieben in <a href="http://www.datenteiler.de/kategorie/allgemein/" rel="category tag">Allgemein</a> |  <a href="http://www.datenteiler.de/debian-auf-einem-non-pae-system-installieren/#comments">1 Kommentar &raquo;</a></p>
+
+			</div>
+
+			
+					<div class="post" id="post-9510">
+
+				<h1><a href="http://www.datenteiler.de/xfce-die-windows-taste-und-das-whisker-menue/" rel="bookmark" title="Permanent Link to XFCE: Die Windows-Taste und das Whisker-Menü">XFCE: Die Windows-Taste und das Whisker-Menü</a></h1>
+					
+				<div class="descr">20. Februar 2014 von Christian Imhorst</div>
+
+				<div class="entry">
+
+					<p>Auf der Arbeit benutze ich fast auschließlich Windows 7 und arbeite viel mit dem Startmenü und dem Suchfeld, um Dateien zu suchen, oder um Programme auszuführen. So ein Suchfeld hat das Whisker-Menü für die Desktopumgebung XFCE genialer Weise auch. Auf das Whisker-Menü bin ich übrigens über den Artikel &#8222;Optimale Oberfläche für Gnome und XFCE&#8220; bei <a href="http://www.pro-linux.de/artikel/2/1667/2,xfce.html" target="_blank">Pro-Linux</a> gestoßen.  Wenn ich aber, wie normalerweise unter Windows üblich, die Windows-Taste an meinem privatem Notebook mit Debian Wheezy drücke, um das Whisker-Menü zu starten, passiert nichts. Jetzt kann man in den <em>Einstellungen</em> von XFCE unter <em>Tastatur</em> im Reiter <em>Tastenkürzel für Anwendungen</em> einer Anwendungen ein Tastenkürzel zuweisen. In diesem Fall wäre das die Anwendung &#8222;xfce4-popup-whiskermenu&#8220;. Das klappt allerdings nicht mit der Windows- bzw. Super-Taste, da man sie nicht als einzelne Taste auswählen kann, sondern nur in Kombination mit einer anderen. Um das zu ändern, muss man die Super-Taste an eine andere Taste binden, die es eigentlich nicht gibt, auf meinem Notebook z.B. die Taste F13. Diese Taste wird dann zum Aufruf des Whisker-Menüs benutzen. </p>
+<p> <a href="http://www.datenteiler.de/xfce-die-windows-taste-und-das-whisker-menue/#more-9510" class="more-link">Den restlichen Eintrag lesen &raquo;</a></p>
+
+				</div>
+
+				<p class="info">Geschrieben in <a href="http://www.datenteiler.de/kategorie/gnulinux/" rel="category tag">Gnu/Linux</a> |  <a href="http://www.datenteiler.de/xfce-die-windows-taste-und-das-whisker-menue/#comments">1 Kommentar &raquo;</a></p>
+
+			</div>
+
+			
+					<div class="post" id="post-9517">
+
+				<h1><a href="http://www.datenteiler.de/shell-skripte-kleine-helfer-selbst-gemacht/" rel="bookmark" title="Permanent Link to Shell-Skripte – Kleine Helfer selbst gemacht">Shell-Skripte – Kleine Helfer selbst gemacht</a></h1>
+					
+				<div class="descr">4. Februar 2014 von Christian Imhorst</div>
+
+				<div class="entry">
+
+					<p><strong>Mit Shell-Skripten sind kleine Helfer schnell selbst geschrieben. Sie haben den Vorteil, dass man sich keine langen Befehlszeilen auswendig merken muss. Es reicht dann, einfach das eigene Shell-Skript aufzurufen.</strong></p>
+<p><strong>Redaktioneller Hinweis:</strong> Dieser Artikel von mir ist erstmals in der <a href="http://www.freiesmagazin.de/20140202-februarausgabe-erschienen">Februarausgabe 02/2014</a>  von <span style="font-weight: bold; color: rgb(115, 115, 115);">freies</span><span style="color: rgb(255, 102, 0);">Magazin</span> erschienen.</p>
+<p> <a href="http://www.datenteiler.de/shell-skripte-kleine-helfer-selbst-gemacht/#more-9517" class="more-link">Den restlichen Eintrag lesen &raquo;</a></p>
+
+				</div>
+
+				<p class="info">Geschrieben in <a href="http://www.datenteiler.de/kategorie/freiesmagazin/" rel="category tag">freiesMagazin</a>, <a href="http://www.datenteiler.de/kategorie/gnulinux/" rel="category tag">Gnu/Linux</a> |  <span>Kommentare deaktiviert<span class="screen-reader-text"> für Shell-Skripte – Kleine Helfer selbst gemacht</span></span></p>
+
+			</div>
+
+			
+		
+			<p align="center"><a href="http://www.datenteiler.de/page/2/" >&laquo; Previous Entries</a> </p>
+
+				</div>
+
+			<div class="navigation">
+
+			<div id="sidebar">
+
+
+
+
+<!-- Suche -->
+
+ 
+<form method="get" id="searchform"  
+action="http://www.datenteiler.de/"> 
+<input type="text" value="Durchsuche Daten|teiler"  
+name="s" id="s"  
+onblur="if (this.value == '')  
+{this.value = 'Durchsuche Daten|teiler';}"  
+onfocus="if (this.value == 'Durchsuche Daten|teiler')  
+{this.value = '';}" /> 
+<input type="hidden" id="searchsubmit" /> 
+</form>
+
+<!-- Recent Posts -->
+<h2>Neuste Beitr&auml;ge</h2>
+<ul>
+      <li><a href="http://www.datenteiler.de/powershell-artikel-fuer-raspberry-pi-geek/" rel="bookmark" title="Powershell-Artikel für Raspberry Pi Geek">Powershell-Artikel für Raspberry Pi Geek</a></li>
+      <li><a href="http://www.datenteiler.de/install-freedos-1-1-with-freedosmultiboot/" rel="bookmark" title="Install FreeDOS 1.1 with FreeDOSmultiboot">Install FreeDOS 1.1 with FreeDOSmultiboot</a></li>
+      <li><a href="http://www.datenteiler.de/batterien-enthalten-linux-mint-debian-edition-lmde/" rel="bookmark" title="Batterien enthalten: Linux Mint Debian Edition (LMDE)">Batterien enthalten: Linux Mint Debian Edition (LMDE)</a></li>
+      <li><a href="http://www.datenteiler.de/freedos-totgesagte-leben-laenger/" rel="bookmark" title="FreeDOS – Totgesagte leben länger">FreeDOS – Totgesagte leben länger</a></li>
+      <li><a href="http://www.datenteiler.de/torify-programme-im-terminal-anonymisieren/" rel="bookmark" title="Torify: Programme im Terminal anonymisieren">Torify: Programme im Terminal anonymisieren</a></li>
+  </ul>
+
+<br />
+
+<h2>Mein Buch</a>
+<center>
+<a href="https://www.bookzilla.de/shop/action/productDetails/7742080/christian_imhorst_die_anarchie_der_hacker_3828887694.html?aUrl=90006951&searchId=206"><img border="0" src="http://datenteiler.de/images/Anarchiebuch_gro%C3%9F.jpg"></a><br />
+</center>
+<small>:: Als E-Book <a href="http://texte.datenteiler.de/die-anarchie-der-hacker-ebook/">[html</a>|<a href="http://texte.datenteiler.de/wp-content/uploads/2010/05/DAdH.pdf">pdf</a>|<a href="http://texte.datenteiler.de/wp-content/uploads/2010/05/DAdH.epub">epub]</a></small><br />
+<small>:: <a href="http://ubuntublog.ch/_files/stallman.mp3">Podcast</a> auf <a href="http://ubuntublog.ch/betriebssystem/die-anarchie-der-hacker-podcast">Ubuntublog.ch</a>.</small><br />
+<small>:: <a href="http://zeitsturz.porhmeus.de/tag/opensource/">Lesetipp</a> bei <a href="http://zeitsturz.porhmeus.de/">zeitsturz</a>,</small><br />
+<small>:: <a href="http://www.freiesmagazin.de/mobil/freiesMagazin-2010-08.html#10_08_anarchie-der-hacker">freiesMagazin</a></center> & <a href="http://aponaut.org/index.php?/archives/21652-Free-As-In-Freedom-Die-Anarchie-der-Hacker.html">aponaut</a></small>
+
+<br /><br />
+<!-- Recent Comments -->
+<h2>K&uuml;rzlich kommentiert</h2>
+
+<ul>
+<li>ullika:<a href="http://www.datenteiler.de/batterien-enthalten-linux-mint-debian-edition-lmde/#comment-13494" title="Batterien enthalten: Linux Mint Debian Edition (LMDE)">Wenn man Debian nicht mag, nimmt man dann die Linu</a></li>
+<li>Yanneck:<a href="http://www.datenteiler.de/freedos-totgesagte-leben-laenger/#comment-13487" title="FreeDOS – Totgesagte leben länger">Hi, ich wollte einfach mal anmerken, dass ich in r</a></li>
+<li>Lezner:<a href="http://www.datenteiler.de/freedos-totgesagte-leben-laenger/#comment-13486" title="FreeDOS – Totgesagte leben länger">Hallo!
+
+Bei der Arbeit benutzen wir FreeDOS, um </a></li>
+<li>J:<a href="http://www.datenteiler.de/xfce-die-windows-taste-und-das-whisker-menue/#comment-13484" title="XFCE: Die Windows-Taste und das Whisker-Menü">super beitrag! ich möchte nur noch anfügen, dass</a></li>
+<li>Bedanker:<a href="http://www.datenteiler.de/sicher-loeschen-mit-windows-bordmitteln/#comment-13483" title="Sicher löschen mit Windows Bordmitteln">Danke. Erster Treffer mit Google für "sicheres l�</a></li>
+</ul>
+
+<br />
+
+<!-- Kategorien -->
+<li class="categories"><h2>Kategorien</h2><ul>	<li class="cat-item cat-item-98"><a href="http://www.datenteiler.de/kategorie/allgemein/" >Allgemein</a>
+</li>
+	<li class="cat-item cat-item-136"><a href="http://www.datenteiler.de/kategorie/android/" >Android</a>
+</li>
+	<li class="cat-item cat-item-137"><a href="http://www.datenteiler.de/kategorie/batch/" >Batch</a>
+</li>
+	<li class="cat-item cat-item-130"><a href="http://www.datenteiler.de/kategorie/blackberry/" >BlackBerry</a>
+</li>
+	<li class="cat-item cat-item-94"><a href="http://www.datenteiler.de/kategorie/copyleft/" title="Artikel über Informationsfreiheit">Copyleft</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.datenteiler.de/kategorie/english/" title="These articles are written in English">English</a>
+</li>
+	<li class="cat-item cat-item-144"><a href="http://www.datenteiler.de/kategorie/freedos/" >FreeDOS</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.datenteiler.de/kategorie/freiesmagazin/" title="Meine Artikel und andere Veröffentlichungen des freiesMagazins">freiesMagazin</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.datenteiler.de/kategorie/gnulinux/" title="Artikel zu verschiedenen Gnu/Linux-Distributionen und ihrer Programme">Gnu/Linux</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.datenteiler.de/kategorie/haustechnik/" title="Hier dreht sich alles um mein Blog">Haustechnik</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.datenteiler.de/kategorie/krypto/" title="Artikel über Kryptographie und Verschlüsselungstechniken">Krypto</a>
+</li>
+	<li class="cat-item cat-item-91"><a href="http://www.datenteiler.de/kategorie/macos/" title="Artikel über MacOS X und dem iPhone">MacOS X und iPhone</a>
+</li>
+	<li class="cat-item cat-item-135"><a href="http://www.datenteiler.de/kategorie/open-source/" >Open Source</a>
+</li>
+	<li class="cat-item cat-item-133"><a href="http://www.datenteiler.de/kategorie/powershell/" >Powershell</a>
+</li>
+	<li class="cat-item cat-item-92"><a href="http://www.datenteiler.de/kategorie/programmieren/" title="Artikel zu den Themen Programmieren und Programmiersprachen">Programmieren</a>
+</li>
+	<li class="cat-item cat-item-93"><a href="http://www.datenteiler.de/kategorie/publikationen/" title="Meine Texte und Veröffentlichungen">Publikationen</a>
+</li>
+	<li class="cat-item cat-item-152"><a href="http://www.datenteiler.de/kategorie/python/" title="Meine Programme und alles andere rund um Python">Python</a>
+</li>
+	<li class="cat-item cat-item-132"><a href="http://www.datenteiler.de/kategorie/shr/" >SHR</a>
+</li>
+	<li class="cat-item cat-item-154"><a href="http://www.datenteiler.de/kategorie/windows/" >Windows</a>
+</li>
+</ul></li>
+<br />
+
+<!-- Links -->
+<h2>Links</h2>
+<ul>
+<li><a href="http://blog.binaergewitter.de/">Binärgewitter</a></li>
+<li><a href="http://cre.fm/archiv">CRE</a></li>
+<li><a href="http://deimhart.net/">Deimhart</a></li>
+<li><a href="http://www.radiotux.de/index.php">Radio Tux</a></li>
+</ul>
+
+<br />
+
+<h2>Copy & Paste</h2>
+<center>
+<a href='http://creativecommons.org/licenses/by-sa/2.0/de/'><img src="http://www.imhorst.net/wp-content/uploads/2008/07/by-sa-300x104.png" alt="" title="by-sa" width="170" height="59" class="alignnone size-medium wp-image-251" /></a>
+</center>
+
+<!--
+
+<br />
+<center>
+<a href='http://fellowship.fsfe.org/' target="_blank"><img src="http://www.datenteiler.de/images/fellow3.png" alt="" title="fsfe fellow" class="alignnone size-medium wp-image-251" /></a>
+</center>
+</ul>
+-->
+
+
+
+			</div>
+			
+		</div>			
+			<div class="clearer">&nbsp;</div>
+
+	</div>
+
+	<div class="footer">
+		
+		<div class="left">&copy; <small>2016 <a href="http://www.imhorst.net/">Christian Imhorst</a> | <a href="http://creativecommons.org/licenses/by-sa/2.0/de/"> Some Rights Reserved</a> | <a href="http://www.datenteiler.de/impressum/">Impressum</a></small>
+</div>
+
+		<div class="right"><small><a href="<br />
+<b>Warning</b>:  include_once(/www/htdocs/w00661b3//wp-includes/wp-vars.php): failed to open stream: No such file or directory in <b>/www/htdocs/w00661b3/wp-content/themes/dirtylicious-10/footer.php</b> on line <b>6</b><br />
+<br />
+<b>Warning</b>:  include_once(): Failed opening '/www/htdocs/w00661b3//wp-includes/wp-vars.php' for inclusion (include_path='.:/usr/share/php:..') in <b>/www/htdocs/w00661b3/wp-content/themes/dirtylicious-10/footer.php</b> on line <b>6</b><br />
+">Wordpress Theme</a> by <a href="http://arcsin.se">Arcsin</a><br /><a href="http://mejusthappyrobo.livejournal.com/" target="_blank"><small>Header graphic by Nina Seibicke</a></small></div>
+		
+	<!--	<div class="clearer"><span></span></div> -->
+
+<br />
+<br />
+
+	</div>
+
+
+
+</div>
+
+</div>
+
+
+</body>
+</html>

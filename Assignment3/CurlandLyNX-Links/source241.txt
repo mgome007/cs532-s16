@@ -1,0 +1,573 @@
+<!doctype html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:website="http://ogp.me/ns/website" lang="en-US" itemscope itemtype="http://schema.org/WebPage" >
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- This is Squarespace. --><!-- todd-connaghan -->
+<base href="">
+<meta charset="utf-8" />
+<title>CONNAGHAN - Visual Artist - 780-872-9973</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+<link rel="canonical" href="http://www.connaghan.ca/"/>
+<meta property="og:site_name" content="CONNAGHAN"/>
+<meta property="og:title" content="LANDSCAPES"/>
+<meta property="og:url" content="http://www.connaghan.ca/"/>
+<meta property="og:type" content="website"/>
+<meta itemprop="name" content="LANDSCAPES"/>
+<meta itemprop="url" content="http://www.connaghan.ca/"/>
+<meta name="twitter:title" content="LANDSCAPES"/>
+<meta name="twitter:url" content="http://www.connaghan.ca/"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="description" content="Commercial Photographer in Lloydminster, Alberta Canada. I shoot on 
+location and in studio." />
+<script type="text/javascript" src="//use.typekit.net/ik/3W-jt_N99ytShtNUcyY24oyFR5khpH6M2fw20ynwkSMfenwffFHN4UJLFRbh52jhWD9u52ZK5ewUZQsKw26hFQSajcwkw2ZcZyTiiaiaOcFzdcoyZhyydKoRjPURdho0jAiGjAt0jhICieNqZfuRdho0jAiGjAt0SaBujW48Sagyjh90jhNlOfG0ieNqZfuRdho0jAiGjAt0SaBujW48Sagyjh90jhNlJ6U3ScNt-AuyOAozicI7fbKnMsMMeMI6MKG4fH3gIMMjfkMfH6qJtKGbMg62JMJ7fbRRHyMMeMX6MKG4fHvgIMMjgfMfH6qJCMIbMg65JMJ7fbKlMsMMeMj6MKG4fHtgIMMjIfMfH6qJK3IbMg6YJMJ7fbKwMsMMegI6MKG4fHqgIMMjffMfH6qJ76IbMg6PJMJ7fbK4MsMMeMq6MKG4fJGgIMMjIkMfqMY5nFHCgb.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">SQUARESPACE_ROLLUPS = {};</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//static.squarespace.com/universal/scripts-compressed/common-ce6df92c2dbaedc41937-min.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common');</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//static.squarespace.com/universal/scripts-compressed/commerce-88cfccc6b9b7d3f10ed3-min.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-commerce');</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].css = ["//static.squarespace.com/universal/styles-compressed/commerce-2b4a0593bca72ff9bd48bd03804b62b2-min.css"]; })(SQUARESPACE_ROLLUPS, 'squarespace-commerce');</script>
+<script type="text/javascript" data-sqs-type="dynamic-assets-loader">(function() {(function(a){function d(a){-1!==a.indexOf(".js")?document.write("<script "+e+'type="text/javascript" src="'+a+'">\x3c/script>'):document.write('<link rel="stylesheet" type="text/css" href="'+a+'" />')}var e;e=window.__beta_flag_should_defer?'defer="defer" ':"";try{if(window.top!=window&&window.top.Squarespace&&window.top.Squarespace.frameAvailable){window.top.Squarespace.frameAvailable(window,SQUARESPACE_ROLLUPS);return}}catch(f){console.error(f)}for(var c in a){if(a[c].js)for(var b=0;b<a[c].js.length;b++)d(a[c].js[b]);
+if(a[c].css)for(b=0;b<a[c].css.length;b++)d(a[c].css[b])}})(SQUARESPACE_ROLLUPS);
+})();</script><script type="text/javascript" data-sqs-type="imageloader">(function() {var SQUARESPACE_SIZES=[2500,1500,1E3,750,500,300,100],IMAGE_LOADING_CLASS="loading",ImageLoader=new function(){this.load=function(a,b){function c(a,b,d){var c=new Image;c.onload=b;c.onerror=d;c.src=a}a.getDOMNode&&(a=a.getDOMNode());var d=this._getDataFromNode(a,b),e=!(!d.dimensions||!d.dimensions.width||!d.dimensions.height),g=d.load+"";if("false"===g)return!1;var h=d.mode;if(e&&("fit"==h||"fill"==h)){h=a.parentNode;if(!h)return console.error("Not doing anything, parentNode not found."),!1;if(!this.refresh(a,
+b,h))return!1}var n=this._intendToLoad(a,d);if("string"==typeof n&&"viewport"!==g){var m=this.getUrl(n,d),g=a.getAttribute("data-image-resolution");a.getAttribute("src")!==m&&this.isValidResolution(n,g)&&(a.onload=function(){a.className=a.className.replace(IMAGE_LOADING_CLASS," ").trim();a.setAttribute("data-image-resolution",n)},!a.getAttribute("src")&&-1===a.className.indexOf(IMAGE_LOADING_CLASS)&&(a.className+=(a.className?" ":"")+IMAGE_LOADING_CLASS),!a.getAttribute("src")&&e?(a.setAttribute("src",
+m),d.useBgImage&&(a.parentNode.style.backgroundImage="url("+m+")")):c(m,function(){e?a.setAttribute("src",m):(a.setAttribute("data-image-dimensions",this.width+"x"+this.height),ImageLoader.load(a,b))},function(){a.className=a.className.replace(IMAGE_LOADING_CLASS," ").trim();a.setAttribute("src",m)}));return!0}return n};this.refresh=function(a,b,c){a.getDOMNode&&(a=a.getDOMNode());c&&c.getDOMNode&&(c=c.getDOMNode());c=c||a.parentNode;if(!c)return console.error("Not doing anything, parentNode not found."),
+!1;var d=this._getDataFromNode(a,b),e=c.offsetWidth,g=c.offsetHeight;b=d.mode;if("none"!=b){var h=d.dimensions.width,n=d.dimensions.height,m=h/n,q=e/g;if(d.useBgImage&&"fill"===b&&"backgroundSize"in document.documentElement.style)return a.style.display="none",c.style.backgroundSize="cover",c.style.backgroundPosition=100*d.focalPoint.x+"% "+100*d.focalPoint.y+"%",!0;if(d.fixedRatio)"fill"==b&&q>m||"fit"==b&&q<m?(k=100,l=100*(q/m),r=(100-l)*d.focalPoint.y,p=0):(k=100*(m/q),l=100,r=0,p=(100-k)*d.focalPoint.x),
+a.style.top=r+"%",a.style.left=p+"%",a.style.width=k+"%",a.style.height=l+"%";else{var f;"fill"===b?f=m>q?g/n:e/h:"fit"===b&&(f=m<q?g/n:e/h);!d.stretch&&"fit"==b&&1<f&&(f=1);var k=Math.ceil(h*f),l=Math.ceil(n*f);if(0===k||0===l)return!1;var p,r;"fill"===b?(p=Math.min(Math.max(e/2-k*d.focalPoint.x,e-k),0),r=Math.min(Math.max(g/2-l*d.focalPoint.y,g-l),0)):"fit"===b&&(f=d.fitAlignment,p=f.left?0:f.right?e-k:k<e?(e-k)/2:0,r=f.top?0:f.bottom?g-l:l<g?(g-l)/2:0,"inline"==this._getStyle(a,"display")&&(a.style.fontSize=
+"0px"),this._resetAlt(a,function(){k-=a.offsetHeight-a.clientHeight;l-=a.offsetWidth-a.clientWidth}));a.style.top=Math.ceil(r)+"px";a.style.left=Math.ceil(p)+"px";a.style.width=Math.ceil(k)+"px";a.style.height=Math.ceil(l)+"px"}p=this._getStyle(c,"position");a.style.position="relative"==p?"absolute":"relative";if("fill"==b&&(b=this._getStyle(c,"overflow"),!b||"hidden"!=b))c.style.overflow="hidden";return!0}};this._intendToLoad=function(a,b){function c(c,d){"none"===b.mode&&(a.style.width=null,a.style.height=
+null);var e=parseFloat(a.getAttribute(c)),f=parseFloat(e);if(!f||isNaN(f))e=h._getStyle(a,c),f=parseFloat(e);if(!f||isNaN(f))e=h._getStyle(a,"max-"+c,"max"+(c.substr(0,1).toUpperCase()+c.substr(1))),f=parseFloat(e);if(0===d||e)switch(h._stringType(e)){case "percentage":d=parseInt(e,10)/100*g["offset"+c.substr(0,1).toUpperCase()+c.substr(1)];break;case "number":d=parseInt(e,10)}!f&&0!==d&&!a.getAttribute("src")&&(d=0);return d}b=b||this._getDataFromNode(a);if(!b.source)return!1;var d=a.offsetWidth,
+e=a.offsetHeight,g=a.parentNode,h=this;this._resetAlt(a,function(){d=c("width",d);e=c("height",e)});0===d&&0===e?(d=b.dimensions.width,e=b.dimensions.height):0===d?d=this.getDimensionForValue("width",e,b):0===e&&(e=this.getDimensionForValue("height",d,b));"viewport"===b.load&&(a.style.width=Math.floor(d)+"px",a.style.height=Math.floor(e)+"px");return this.getSquarespaceSize(d,e,b)};this._getDataFromNode=function(a,b){b=b||{};var c={focalPoint:{x:0.5,y:0.5},dimensions:{width:null,height:null},mode:"none",
+fitAlignment:{center:!0},load:"true",stretch:!0,fixedRatio:!1};if(b.focalPoint)c.focalPoint=b.focalPoint;else{var d=a.getAttribute("data-image-focal-point");if(d&&(d=d.split(","))&&2==d.length)c.focalPoint={x:parseFloat(d[0]),y:parseFloat(d[1])}}if(b.dimensions)c.dimensions=b.dimensions;else if((d=a.getAttribute("data-image-dimensions"))&&(d=d.split("x"))&&2==d.length)c.dimensions={width:parseInt(d[0],10),height:parseInt(d[1],10)};b.mode?c.mode=b.mode:a.parentNode&&(d=a.parentNode.className,-1!==
+d.indexOf("content-fill")?c.mode="fill":-1!==d.indexOf("content-fit")&&(c.mode="fit"));if("fit"===c.mode&&a.parentNode&&(d=b.fitAlignment||a.getAttribute("data-alignment")||a.parentNode.getAttribute("data-alignment")))c.fitAlignment={top:-1!==d.indexOf("top"),left:-1!==d.indexOf("left"),center:-1!==d.indexOf("center"),right:-1!==d.indexOf("right"),bottom:-1!==d.indexOf("bottom")};if(b.load)c.load=b.load;else if(d=a.getAttribute("data-load"))c.load=d;if("undefined"!==typeof b.stretch)c.stretch=b.stretch;
+else if(d=a.getAttribute("data-image-stretch"))c.stretch="true"===d?!0:!1;c.source=b.source?b.source:a.getAttribute("data-src");if(c.source&&(-1!==c.source.indexOf("squarespace.com")||-1!==c.source.indexOf("squarespace.net"))&&"http:"===c.source.substr(0,5)&&"https"===window.location.protocol.substr(0,5))c.source=c.source.replace("http://","https://");if(b.fixedRatio)c.fixedRatio=b.fixedRatio;else if(d=a.getAttribute("data-fixed-ratio"))c.fixedRatio="true"==d;b.useBgImage?c.useBgImage=b.useBgImage:
+(d=a.getAttribute("data-use-bg-image"),c.useBgImage="true"===d||!0===d?!0:!1);return c};this._stringType=function(a){return"string"===typeof a&&-1!==a.indexOf("%")?"percentage":isNaN(parseInt(a,10))?NaN:"number"};this._getStyle=function(a,b,c){var d;a.currentStyle?d=a.currentStyle[c||b]:window.getComputedStyle&&(d=document.defaultView.getComputedStyle(a,null).getPropertyValue(b));return d};this._isVisible=function(a){a=a.getBoundingClientRect();return 0<=a.left&&0<=a.top||0<=a.bottom&&0<=a.right||
+0<=a.left&&0<=a.bottom||0<=a.right&&0<=a.top};this.getSquarespaceSize=function(a,b,c){a=Math.max(b/(c.dimensions.height/c.dimensions.width),a);"undefined"===typeof app&&"number"===typeof window.devicePixelRatio&&(a*=window.devicePixelRatio);for(b=1;b<SQUARESPACE_SIZES.length&&!(a>SQUARESPACE_SIZES[b]);b++);return SQUARESPACE_SIZES[b-1]+"w"};this.getDimensionForValue=function(a,b,c){var d=c.dimensions.width;c=c.dimensions.height;return"width"==a?d/c*b:"height"==a?c/d*b:NaN};this.getUrl=function(a,
+b){var c=b.source;return a&&("/"==c[0]||-1!=c.indexOf("squarespace.com")||-1!=c.indexOf("squarespace.net"))?(-1===c.indexOf("format="+a)&&(c=c+(-1!==c.indexOf("?")?"&":"?")+"format="+a),c):b.source};this.isValidResolution=function(a,b){a=parseInt(a,10);b=parseInt(b,10);return isNaN(a)||isNaN(b)?!0:a>b};this._resetAlt=function(a,b){var c=a.getAttribute("alt"),d=c&&0<c.length&&!a.getAttribute("src");if(d){var e=a.style.display;a.removeAttribute("alt");a.style.display="none";a.offsetHeight+0;a.style.display=
+e}b.call(this);d&&a.setAttribute("alt",c)};this.bootstrap=function(){var a=document.images;if(0<a.length)for(var b=0,c=a.length;b<c;b++)((a[b].hasAttribute?a[b].hasAttribute("data-image"):a[b].attributes["data-image"])||(a[b].hasAttribute?a[b].hasAttribute("data-src"):a[b].attributes["data-src"]))&&"false"!==(a[b].getAttribute?a[b].getAttribute("data-load"):a[b].attributes["data-load"])+""&&ImageLoader.load(a[b])}};window.ImageLoader=ImageLoader;window.YUI&&YUI.add("squarespace-imageloader",function(a){});
+})();</script>
+<script>Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","rollups":{"squarespace-audio-player":{"css":"//static.squarespace.com/universal/styles-compressed/audio-player-76e4bfcc3f9830beb388bae2002fbe6c-min.css","js":"//static.squarespace.com/universal/scripts-compressed/audio-player-6e7a111974a434b409be-min.js"},"squarespace-blog-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/blog-collection-list-1f56cba390503868c09c-min.js"},"squarespace-calendar-block-renderer":{"css":"//static.squarespace.com/universal/styles-compressed/calendar-block-renderer-0081bda8bafd2e574bfc05218b33687d-min.css","js":"//static.squarespace.com/universal/scripts-compressed/calendar-block-renderer-d52991171a535e07c02e-min.js"},"squarespace-chartjs-helpers":{"css":"//static.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/chartjs-helpers-cbbd72a28d441432cda2-min.js"},"squarespace-comments":{"css":"//static.squarespace.com/universal/styles-compressed/comments-720d08301822d18e611bf0515083e8da-min.css","js":"//static.squarespace.com/universal/scripts-compressed/comments-167a72d5b09550b1592c-min.js"},"squarespace-dialog":{"css":"//static.squarespace.com/universal/styles-compressed/dialog-be200ed7f5c57483743a18984283b649-min.css","js":"//static.squarespace.com/universal/scripts-compressed/dialog-c7bf669d3c4a6d3e7237-min.js"},"squarespace-events-collection":{"css":"//static.squarespace.com/universal/styles-compressed/events-collection-0081bda8bafd2e574bfc05218b33687d-min.css","js":"//static.squarespace.com/universal/scripts-compressed/events-collection-830f6e3e57112fcee4e3-min.js"},"squarespace-image-zoom":{"css":"//static.squarespace.com/universal/styles-compressed/image-zoom-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/image-zoom-75d5eb70e19511559305-min.js"},"squarespace-pinterest":{"css":"//static.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/pinterest-9ed9d4912d2aa3da434d-min.js"},"squarespace-product-quick-view":{"css":"//static.squarespace.com/universal/styles-compressed/product-quick-view-bb658543b4283f335502f712d3cf5696-min.css","js":"//static.squarespace.com/universal/scripts-compressed/product-quick-view-d68e7b4e3b742bfbd489-min.js"},"squarespace-products-collection-item-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-item-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-item-v2-fcff451a1f5d5df10107-min.js"},"squarespace-products-collection-list-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-list-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-list-v2-76b6b3e377936256fe82-min.js"},"squarespace-search-page":{"css":"//static.squarespace.com/universal/styles-compressed/search-page-feb7768f9a9907b47ac689b118f3db8e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/search-page-0b59de64a975cc22eeca-min.js"},"squarespace-share-buttons":{"js":"//static.squarespace.com/universal/scripts-compressed/share-buttons-7cfbce312fc1a16c1eb7-min.js"},"squarespace-simple-liking":{"css":"//static.squarespace.com/universal/styles-compressed/simple-liking-09fa291ec2800c97714f0d157fd0a6ca-min.css","js":"//static.squarespace.com/universal/scripts-compressed/simple-liking-5ed9648fb3fc141db9dc-min.js"},"squarespace-social-buttons":{"css":"//static.squarespace.com/universal/styles-compressed/social-buttons-578fb344ac92d6ab44d6030c1b952622-min.css","js":"//static.squarespace.com/universal/scripts-compressed/social-buttons-7d52966c9cce6b75713f-min.js"},"squarespace-tourdates":{"css":"//static.squarespace.com/universal/styles-compressed/tourdates-b5e2052fe27121e052bbe8ad40ba5c3e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/tourdates-83cb63f93c3afe840e33-min.js"}},"pageType":1,"website":{"id":"5586b8c1e4b086577bc206ff","identifier":"todd-connaghan","websiteType":1,"contentModifiedOn":1453682798828,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"America/Edmonton","machineTimeZoneOffset":-25200000,"timeZoneOffset":-25200000,"timeZoneAbbr":"MST","siteTitle":"CONNAGHAN","siteTagLine":"","siteDescription":"<p>Hello, my name is Todd Connaghan. I am a Photographer based about 30 km south of Lloydminster, Alberta Canada. I shoot in studio and on location.</p><p>My personal work consist of black &amp; white &nbsp;and colour film. I shoot both 35 and Medium Format. I enjoy making images of old building, barns and prairie landscapes.&nbsp;</p>","location":{"mapZoom":14.0,"mapLat":52.97029406525977,"mapLng":-110.32106293762206,"markerLat":52.983938,"markerLng":-110.17300499999999,"addressTitle":"C O N N A G H A N ","addressLine1":"BOX 534","addressLine2":"McLaughlin, Alberta ","addressCountry":"Canada"},"shareButtonOptions":{"2":true,"1":true},"authenticUrl":"http://www.connaghan.ca","internalUrl":"http://todd-connaghan.squarespace.com","baseUrl":"http://www.connaghan.ca","primaryDomain":"www.connaghan.ca","socialAccounts":[{"serviceId":4,"userId":"156746189","userName":"ToddConnaghan","screenname":"Todd Connaghan","addedOn":1435088092509,"profileUrl":"https://twitter.com/ToddConnaghan","iconUrl":"http://pbs.twimg.com/profile_images/592532426707992576/iCPImIXS_normal.jpg","collectionId":"5589b4dce4b075cc91206df9","iconEnabled":true,"serviceName":"twitter"},{"serviceId":2,"userId":"428749687332964","screenname":"Todd Connaghan","addedOn":1453505185479,"profileUrl":"https://www.facebook.com/connaghanphotography/","iconUrl":"http://graph.facebook.com/428749687332964/picture?type=square","metaData":{"service":"facebook"},"iconEnabled":true,"serviceName":"facebook"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false},"websiteSettings":{"id":"5586b8c1e4b086577bc20701","websiteId":"5586b8c1e4b086577bc206ff","subjects":[],"country":"CA","simpleLikingEnabled":true,"mobileInfoBarSettings":{"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"lastAgreedTermsOfService":2,"defaultPostFormat":"%y/%m/%d/%t","commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","homepageTitleFormat":"%s - Visual Artist - 780-872-9973","collectionTitleFormat":"%c \u2014 %s","itemTitleFormat":"%i \u2014 %s","commentsEnabled":true,"contactPhoneNumber":"780-872-9973","businessHours":{"monday":{"text":"Open","ranges":[{"from":0,"to":0}]},"tuesday":{"text":"Open","ranges":[{"from":0,"to":0}]},"wednesday":{"text":"Open","ranges":[{"from":0,"to":0}]},"thursday":{"text":"Open","ranges":[{"from":0,"to":0}]},"friday":{"text":"Open","ranges":[{"from":0,"to":0}]},"saturday":{"text":"Open","ranges":[{"from":0,"to":0}]},"sunday":{"text":"Open","ranges":[{"from":0,"to":0}]}},"contactEmail":"info@connaghan.ca","allowSquarespacePromotion":true,"storeSettings":{"returnPolicy":"","termsOfService":"","privacyPolicy":"","orderRefundedSubjectFormat":"%s: Order #%o Refunded","orderRefundedTitleFormat":"Order Refunded: #%o","paymentSettings":{"stripeLivePublicApiKey":"pk_live_jhLH99ggMmiCa487oyivzC0k","stripeTestPublicApiKey":"pk_test_WRI7HQokJjma8HroyOarJkfB"},"expressCheckout":true,"useLightCart":false,"showNoteField":false,"currenciesSupported":["CAD","USD"],"defaultCurrency":"CAD","selectedCurrency":"CAD","measurementStandard":1,"showCustomCheckoutForm":false,"enableMailingListOptInByDefault":true,"contactLocation":{"mapZoom":14.0,"mapLat":60.33337470000001,"mapLng":25.345230300000026,"markerLat":60.33337470000001,"markerLng":25.345230300000026,"addressLine1":"Box 534 ","addressLine2":"McLaughlin","addressCountry":"Canada"},"businessName":"CONNAGHAN ","sameAsRetailLocation":false,"businessId":"","stripeConnected":true,"isLive":false,"storeState":2},"useEscapeKeyToLogin":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"}},"websiteCloneable":false,"collection":{"title":"LANDSCAPES","id":"55e5ee22e4b0973ffb028d8a","fullUrl":"/","type":1},"subscribed":false,"appDomain":"squarespace.com","secureDomain":"https://todd-connaghan.squarespace.com","templateTweakable":true,"tweakJSON":{"headerPadding":"40px","indexItemHeight":"300px","indexItemPadding":"10px","logoSize":"40px","outerPadding":"40px","product-gallery-auto-crop":"true","product-image-auto-crop":"true"},"templateId":"4fbff70b84aeca67fb3a3c56","pageFeatures":[1,2,4],"impersonatedSession":false,"demoCollections":[{"collectionId":"4fbff6b4c4aac2e9749c1532","deleted":true},{"collectionId":"4fbff6b4c4aac2e9749c1533","deleted":true},{"collectionId":"4fbff6b4c4aac2e9749c1534","deleted":true}],"isFacebookTab":false,"tzData":{"zones":[[-420,"Canada","M%sT",null]],"rules":{"Canada":[[1974,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}}};</script><script type="text/javascript"> SquarespaceFonts.loadViaContext(); Squarespace.load(window);</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"LocalBusiness","openingHours":"Mo all day, Tu all day, We all day, Th all day, Fr all day, Sa all day, Su all day"}</script><!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5586b8c1e4b086577bc206ff/17/4fbff70b84aeca67fb3a3c56/55876e2de4b024895fe9af09/818-05142015/1453682798824/site.css?&filterFeatures=false&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5586b8c1e4b086577bc206ff/17/4fbff70b84aeca67fb3a3c56/55876e2de4b024895fe9af09/818-05142015/1453682798824/site.css?&filterFeatures=false&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5586b8c1e4b086577bc206ff/17/4fbff70b84aeca67fb3a3c56/55876e2de4b024895fe9af09/818-05142015/1453682798824/site.css?&filterFeatures=false&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5586b8c1e4b086577bc206ff/17/4fbff70b84aeca67fb3a3c56/55876e2de4b024895fe9af09/818-05142015/1453682798824/site.css?&filterFeatures=false&part=4"/><![endif]-->
+<!--[if lt IE 9]><script src="//static.squarespace.com"></script><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5586b8c1e4b086577bc206ff/17/4fbff70b84aeca67fb3a3c56/55876e2de4b024895fe9af09/818-05142015/1453682798824/site.css?&filterFeatures=false&noMedia=true&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5586b8c1e4b086577bc206ff/17/4fbff70b84aeca67fb3a3c56/55876e2de4b024895fe9af09/818-05142015/1453682798824/site.css?&filterFeatures=false&noMedia=true&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5586b8c1e4b086577bc206ff/17/4fbff70b84aeca67fb3a3c56/55876e2de4b024895fe9af09/818-05142015/1453682798824/site.css?&filterFeatures=false&noMedia=true&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5586b8c1e4b086577bc206ff/17/4fbff70b84aeca67fb3a3c56/55876e2de4b024895fe9af09/818-05142015/1453682798824/site.css?&filterFeatures=false&noMedia=true&part=4"/><![endif]-->
+<!--[if !IE]> --><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5586b8c1e4b086577bc206ff/17/4fbff70b84aeca67fb3a3c56/55876e2de4b024895fe9af09/818-05142015/1453682798824/site.css?&filterFeatures=false"/><!-- <![endif]-->
+<script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-62261088-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script><!-- End of Squarespace Headers -->
+
+</head>
+<body id="collection-55e5ee22e4b0973ffb028d8a" class="site-alignment-left header-navigation-split body-links-underlined blog-sidebar-right hide-entry-author index-fullwidth gallery-controls-simple enable-thumbnail-hover show-category-navigation  social-icon-style-normal product-list-titles-under product-list-alignment-center product-item-size-43-four-thirds product-image-auto-crop product-gallery-size-11-square product-gallery-auto-crop show-product-price show-product-item-nav product-social-sharing  event-show-past-events event-thumbnails event-thumbnail-size-32-standard event-date-label  event-list-show-cats event-list-date event-list-time event-list-address   event-icalgcal-links  event-excerpts  event-item-back-link     hide-opentable-icons opentable-style-dark newsletter-style-dark small-button-style-solid small-button-shape-square medium-button-style-solid medium-button-shape-square large-button-style-solid large-button-shape-square button-style-outline button-corner-style-square tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-cad collection-55e5ee22e4b0973ffb028d8a collection-type-gallery collection-layout-default homepage view-list mobile-style-available site-title">
+
+  <div id="mobileNav"><div class="wrapper">
+    <nav class="main-nav mobile-nav"><ul>
+  
+
+      <li class="page-collection">
+
+        
+
+          
+            <a href="/artist-statement/">ARTIST STATEMENT</a>
+          
+
+          
+
+
+        
+
+      </li>
+  
+
+      <li class="folder-collection folder active-link active-folder">
+
+        
+        <input type="checkbox" name="mobile-folder-toggle-5588c787e4b07616418e5b53" id="mobile-folder-toggle-5588c787e4b07616418e5b53" class="folder-toggle-box hidden" />
+        <label for="mobile-folder-toggle-5588c787e4b07616418e5b53" class="folder-toggle-label" onclick data-href="/personal-work/">WORK</label>
+          <!-- <a>WORK</a> -->
+          <div class="subnav">
+            <ul>
+              
+                
+                  <li class="gallery-collection">
+                    <a href="/commercial/">COMMERCIAL PRODUCTS</a>
+                  </li>
+                
+                
+              
+                
+                  <li class="gallery-collection">
+                    <a href="/digital/">PEOPLE</a>
+                  </li>
+                
+                
+              
+                
+                  <li class="gallery-collection active-link">
+                    <a href="/">LANDSCAPES</a>
+                  </li>
+                
+                
+              
+                
+                  <li class="gallery-collection">
+                    <a href="/film/">FILM</a>
+                  </li>
+                
+                
+              
+                
+                  <li class="gallery-collection">
+                    <a href="/mobile/">MOBILE</a>
+                  </li>
+                
+                
+              
+            </ul>
+          </div>
+
+        
+
+      </li>
+  
+
+      <li class="page-collection">
+
+        
+
+          
+            <a href="/about/">ABOUT</a>
+          
+
+          
+
+
+        
+
+      </li>
+  
+
+      <li class="page-collection">
+
+        
+
+          
+            <a href="/contact/">CONTACT</a>
+          
+
+          
+
+
+        
+
+      </li>
+  
+</ul>
+</nav>
+
+
+    
+
+  </div></div>
+  <div id="mobileMenuLink" class="hidden"><a>Menu</a></div>
+  <div id="canvasWrapper">
+    <div id="canvas">
+
+      <div id="headerWrapper">
+      <header id="header">
+
+        <div id="logo" data-content-field="site-title">
+          
+            <h1 class="logo">
+              <a href="/">
+                
+                  CONNAGHAN
+                
+              </a>
+            </h1>
+            
+          
+        </div>
+
+        <script>
+          Y.use('squarespace-ui-base', function(Y) {
+            Y.one("h1.logo").plug(Y.Squarespace.TextShrink, {
+              parentEl: Y.one('#logo')
+            });
+          });
+        </script>
+
+        <div id="topNav">
+          <nav class="main-nav dropdown-hover"><ul data-content-field="navigation">
+  
+
+      <li class="page-collection">
+
+        
+
+          
+            <a href="/artist-statement/">ARTIST STATEMENT</a>
+          
+
+          
+
+
+        
+
+      </li>
+
+  
+
+      <li class="folder-collection folder active-link active-folder">
+
+        
+
+          <a>WORK</a>
+          <div class="subnav">
+            <ul>
+              
+                
+                  <li class="gallery-collection">
+                    <a href="/commercial/">COMMERCIAL PRODUCTS</a>
+                  </li>
+                
+                
+              
+                
+                  <li class="gallery-collection">
+                    <a href="/digital/">PEOPLE</a>
+                  </li>
+                
+                
+              
+                
+                  <li class="gallery-collection active-link">
+                    <a href="/">LANDSCAPES</a>
+                  </li>
+                
+                
+              
+                
+                  <li class="gallery-collection">
+                    <a href="/film/">FILM</a>
+                  </li>
+                
+                
+              
+                
+                  <li class="gallery-collection">
+                    <a href="/mobile/">MOBILE</a>
+                  </li>
+                
+                
+              
+            </ul>
+          </div>
+
+        
+
+      </li>
+
+  
+
+      <li class="page-collection">
+
+        
+
+          
+            <a href="/about/">ABOUT</a>
+          
+
+          
+
+
+        
+
+      </li>
+
+  
+
+      <li class="page-collection">
+
+        
+
+          
+            <a href="/contact/">CONTACT</a>
+          
+
+          
+
+
+        
+
+      </li>
+
+  
+</ul>
+</nav>
+
+        </div>
+
+        <div id="backToThumbs">&times;</div>
+
+      </header>
+      </div>
+
+      <div id="pageWrapper">
+      <section id="page">
+
+        <div class="extra-wrapper page-header">
+          <div class="sqs-layout sqs-grid-12 columns-12 empty" data-layout-label="LANDSCAPES Header Content" data-type="block-field" id="page-header-55e5ee22e4b0973ffb028d8a"><div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div></div>
+        </div>
+
+        <div id="mainContent" class="clear" role="main" data-content-field="main-content">
+          
+          <div id="thumbList" class="thumb-list clear">
+
+<span class="thumb" data-slide-id="55899d0ce4b0f80ef609dc80">
+  <img data-load="false" data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d0ce4b0f80ef609dc80/1435081997726/83964911-449030016.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d0ce4b0f80ef609dc80/1435081997726/83964911-449030016.jpg" data-image-dimensions="1170x780" data-image-focal-point="0.5,0.5" alt="83964911-449030016.jpg" />
+  <div class="thumb-title"></div>
+</span>
+
+<span class="thumb" data-slide-id="55899d09e4b0999c33c604d2">
+  <img data-load="false" data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d09e4b0999c33c604d2/1435081994685/99500859-449030010.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d09e4b0999c33c604d2/1435081994685/99500859-449030010.jpg" data-image-dimensions="1170x781" data-image-focal-point="0.5,0.5" alt="99500859-449030010.jpg" />
+  <div class="thumb-title"></div>
+</span>
+
+<span class="thumb" data-slide-id="55899cebe4b0999c33c6040d">
+  <img data-load="false" data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899cebe4b0999c33c6040d/1435081964224/83964903-449030021.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899cebe4b0999c33c6040d/1435081964224/83964903-449030021.jpg" data-image-dimensions="1170x780" data-image-focal-point="0.5,0.5" alt="83964903-449030021.jpg" />
+  <div class="thumb-title"></div>
+</span>
+
+<span class="thumb" data-slide-id="55899d5be4b0999c33c6073d">
+  <img data-load="false" data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d5be4b0999c33c6073d/1435082076202/109216411-453741270.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d5be4b0999c33c6073d/1435082076202/109216411-453741270.jpg" data-image-dimensions="1170x780" data-image-focal-point="0.5,0.5" alt="109216411-453741270.jpg" />
+  <div class="thumb-title"></div>
+</span>
+
+<span class="thumb" data-slide-id="55eddcc5e4b019a083e43e3b">
+  <img data-load="false" data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55eddcc5e4b019a083e43e3b/1441651911707/20150827-Symons+Nobel+Cabin-.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55eddcc5e4b019a083e43e3b/1441651911707/20150827-Symons+Nobel+Cabin-.jpg" data-image-dimensions="1280x828" data-image-focal-point="0.5,0.5" alt="20150827-Symons Nobel Cabin-.jpg" />
+  <div class="thumb-title"></div>
+</span>
+
+<span class="thumb" data-slide-id="564002a3e4b090fd551013a6">
+  <img data-load="false" data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/564002a3e4b090fd551013a6/1447035570769/20151108-untitled-_MG_6675-Edit.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/564002a3e4b090fd551013a6/1447035570769/20151108-untitled-_MG_6675-Edit.jpg" data-image-dimensions="1280x1280" data-image-focal-point="0.5,0.5" alt="20151108-untitled-_MG_6675-Edit.jpg" />
+  <div class="thumb-title"></div>
+</span>
+
+<span class="thumb" data-slide-id="55ede7fde4b0018fbfebfe8c">
+  <img data-load="false" data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55ede7fde4b0018fbfebfe8c/1441654781961/20150828-LODGE_POLE_PINES_6453-.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55ede7fde4b0018fbfebfe8c/1441654781961/20150828-LODGE_POLE_PINES_6453-.jpg" data-image-dimensions="1280x828" data-image-focal-point="0.5,0.5" alt="20150828-LODGE_POLE_PINES_6453-.jpg" />
+  <div class="thumb-title"></div>
+</span>
+
+<span class="thumb" data-slide-id="55899d25e4b0f80ef609dd0a">
+  <img data-load="false" data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d25e4b0f80ef609dd0a/1435082022151/101513125-449029994.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d25e4b0f80ef609dd0a/1435082022151/101513125-449029994.jpg" data-image-dimensions="1170x757" data-image-focal-point="0.5,0.5" alt="101513125-449029994.jpg" />
+  <div class="thumb-title"></div>
+</span>
+
+<span class="thumb" data-slide-id="55899d4ae4b0f80ef609de0c">
+  <img data-load="false" data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d4ae4b0f80ef609de0c/1435082060266/102381255-449029977.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d4ae4b0f80ef609de0c/1435082060266/102381255-449029977.jpg" data-image-dimensions="1170x758" data-image-focal-point="0.5,0.5" alt="102381255-449029977.jpg" />
+  <div class="thumb-title"></div>
+</span>
+
+<span class="thumb" data-slide-id="55899d1fe4b0f80ef609dce8">
+  <img data-load="false" data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d1fe4b0f80ef609dce8/1435082016630/101513113-449029999.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d1fe4b0f80ef609dce8/1435082016630/101513113-449029999.jpg" data-image-dimensions="1170x780" data-image-focal-point="0.5,0.5" alt="101513113-449029999.jpg" />
+  <div class="thumb-title"></div>
+</span>
+
+<span class="thumb" data-slide-id="55899d48e4b0999c33c606a5">
+  <img data-load="false" data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d48e4b0999c33c606a5/1435082056886/102381257-449029971.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d48e4b0999c33c606a5/1435082056886/102381257-449029971.jpg" data-image-dimensions="1170x780" data-image-focal-point="0.5,0.5" alt="102381257-449029971.jpg" />
+  <div class="thumb-title"></div>
+</span>
+
+</div>
+
+<div id="galleryWrapper">
+  <div id="slideshowWrapper">
+    <div id="slideshow">
+      
+        <div class="slide" data-slide-id="55899d0ce4b0f80ef609dc80" data-slide-url="u834gd5wc2t4nzhc17425r0fjtr6fq">
+          <img data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d0ce4b0f80ef609dc80/1435081997726/83964911-449030016.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d0ce4b0f80ef609dc80/1435081997726/83964911-449030016.jpg" data-image-dimensions="1170x780" data-image-focal-point="0.5,0.5" alt="83964911-449030016.jpg"  data-load="false" />
+          
+          
+        </div>
+      
+        <div class="slide" data-slide-id="55899d09e4b0999c33c604d2" data-slide-url="99i2cq6t1rz2a7i6u3ko6hk4wkupb2">
+          <img data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d09e4b0999c33c604d2/1435081994685/99500859-449030010.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d09e4b0999c33c604d2/1435081994685/99500859-449030010.jpg" data-image-dimensions="1170x781" data-image-focal-point="0.5,0.5" alt="99500859-449030010.jpg"  data-load="false" />
+          
+          
+        </div>
+      
+        <div class="slide" data-slide-id="55899cebe4b0999c33c6040d" data-slide-url="2by423r2vtfvns12azzfo71hi6636p">
+          <img data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899cebe4b0999c33c6040d/1435081964224/83964903-449030021.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899cebe4b0999c33c6040d/1435081964224/83964903-449030021.jpg" data-image-dimensions="1170x780" data-image-focal-point="0.5,0.5" alt="83964903-449030021.jpg"  data-load="false" />
+          
+          
+        </div>
+      
+        <div class="slide" data-slide-id="55899d5be4b0999c33c6073d" data-slide-url="9kbmf7dppy8i39ckb7965nkwukgeod">
+          <img data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d5be4b0999c33c6073d/1435082076202/109216411-453741270.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d5be4b0999c33c6073d/1435082076202/109216411-453741270.jpg" data-image-dimensions="1170x780" data-image-focal-point="0.5,0.5" alt="109216411-453741270.jpg"  data-load="false" />
+          
+          
+        </div>
+      
+        <div class="slide" data-slide-id="55eddcc5e4b019a083e43e3b" data-slide-url="eaxqm7fek4vgergy2pubattho9x1lv">
+          <img data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55eddcc5e4b019a083e43e3b/1441651911707/20150827-Symons+Nobel+Cabin-.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55eddcc5e4b019a083e43e3b/1441651911707/20150827-Symons+Nobel+Cabin-.jpg" data-image-dimensions="1280x828" data-image-focal-point="0.5,0.5" alt="20150827-Symons Nobel Cabin-.jpg"  data-load="false" />
+          
+          
+        </div>
+      
+        <div class="slide" data-slide-id="564002a3e4b090fd551013a6" data-slide-url="4658p4mr3mcacbupe9zf2mqyfr6dkb">
+          <img data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/564002a3e4b090fd551013a6/1447035570769/20151108-untitled-_MG_6675-Edit.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/564002a3e4b090fd551013a6/1447035570769/20151108-untitled-_MG_6675-Edit.jpg" data-image-dimensions="1280x1280" data-image-focal-point="0.5,0.5" alt="20151108-untitled-_MG_6675-Edit.jpg"  data-load="false" />
+          
+          
+        </div>
+      
+        <div class="slide" data-slide-id="55ede7fde4b0018fbfebfe8c" data-slide-url="uqgblnx84q9w52jcc99j5npopwf44j">
+          <img data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55ede7fde4b0018fbfebfe8c/1441654781961/20150828-LODGE_POLE_PINES_6453-.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55ede7fde4b0018fbfebfe8c/1441654781961/20150828-LODGE_POLE_PINES_6453-.jpg" data-image-dimensions="1280x828" data-image-focal-point="0.5,0.5" alt="20150828-LODGE_POLE_PINES_6453-.jpg"  data-load="false" />
+          
+          
+        </div>
+      
+        <div class="slide" data-slide-id="55899d25e4b0f80ef609dd0a" data-slide-url="pqly9ld2gl6kip0xe0hl2l2zb63oc6">
+          <img data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d25e4b0f80ef609dd0a/1435082022151/101513125-449029994.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d25e4b0f80ef609dd0a/1435082022151/101513125-449029994.jpg" data-image-dimensions="1170x757" data-image-focal-point="0.5,0.5" alt="101513125-449029994.jpg"  data-load="false" />
+          
+          
+        </div>
+      
+        <div class="slide" data-slide-id="55899d4ae4b0f80ef609de0c" data-slide-url="pimg3bp3184x9361x0fkexxnckcwyh">
+          <img data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d4ae4b0f80ef609de0c/1435082060266/102381255-449029977.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d4ae4b0f80ef609de0c/1435082060266/102381255-449029977.jpg" data-image-dimensions="1170x758" data-image-focal-point="0.5,0.5" alt="102381255-449029977.jpg"  data-load="false" />
+          
+          
+        </div>
+      
+        <div class="slide" data-slide-id="55899d1fe4b0f80ef609dce8" data-slide-url="o1q9kufs2z6aoe04l47zutpcat1yhg">
+          <img data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d1fe4b0f80ef609dce8/1435082016630/101513113-449029999.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d1fe4b0f80ef609dce8/1435082016630/101513113-449029999.jpg" data-image-dimensions="1170x780" data-image-focal-point="0.5,0.5" alt="101513113-449029999.jpg"  data-load="false" />
+          
+          
+        </div>
+      
+        <div class="slide" data-slide-id="55899d48e4b0999c33c606a5" data-slide-url="9ywcseanf5vri13u9chff7ctzfmrcd">
+          <img data-src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d48e4b0999c33c606a5/1435082056886/102381257-449029971.jpg" data-image="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d48e4b0999c33c606a5/1435082056886/102381257-449029971.jpg" data-image-dimensions="1170x780" data-image-focal-point="0.5,0.5" alt="102381257-449029971.jpg"  data-load="false" />
+          
+          
+        </div>
+      
+    </div>
+    <div id="imageInfoToggle"><i></i><span>info</span></div>
+  </div>
+
+  <div id="simpleControls">
+      <span class="control prev-slide">prev</span> / <span class="control next-slide">next</span>
+  </div>
+
+  <div id="numberControls" class="gallery-controls">
+    
+      <span class="number">1</span>
+    
+      <span class="number">2</span>
+    
+      <span class="number">3</span>
+    
+      <span class="number">4</span>
+    
+      <span class="number">5</span>
+    
+      <span class="number">6</span>
+    
+      <span class="number">7</span>
+    
+      <span class="number">8</span>
+    
+      <span class="number">9</span>
+    
+      <span class="number">10</span>
+    
+      <span class="number">11</span>
+    
+  </div>
+
+  <div id="dotControls" class="gallery-controls">
+    
+      <span class="dot">&middot;</span>
+    
+      <span class="dot">&middot;</span>
+    
+      <span class="dot">&middot;</span>
+    
+      <span class="dot">&middot;</span>
+    
+      <span class="dot">&middot;</span>
+    
+      <span class="dot">&middot;</span>
+    
+      <span class="dot">&middot;</span>
+    
+      <span class="dot">&middot;</span>
+    
+      <span class="dot">&middot;</span>
+    
+      <span class="dot">&middot;</span>
+    
+      <span class="dot">&middot;</span>
+    
+  </div>
+
+  <div id="tinyThumbControls" class="gallery-controls">
+    
+      <span class="tiny-thumb"><img src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d0ce4b0f80ef609dc80/1435081997726/83964911-449030016.jpg?format=100w" height="30" /></span>
+    
+      <span class="tiny-thumb"><img src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d09e4b0999c33c604d2/1435081994685/99500859-449030010.jpg?format=100w" height="30" /></span>
+    
+      <span class="tiny-thumb"><img src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899cebe4b0999c33c6040d/1435081964224/83964903-449030021.jpg?format=100w" height="30" /></span>
+    
+      <span class="tiny-thumb"><img src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d5be4b0999c33c6073d/1435082076202/109216411-453741270.jpg?format=100w" height="30" /></span>
+    
+      <span class="tiny-thumb"><img src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55eddcc5e4b019a083e43e3b/1441651911707/20150827-Symons+Nobel+Cabin-.jpg?format=100w" height="30" /></span>
+    
+      <span class="tiny-thumb"><img src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/564002a3e4b090fd551013a6/1447035570769/20151108-untitled-_MG_6675-Edit.jpg?format=100w" height="30" /></span>
+    
+      <span class="tiny-thumb"><img src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55ede7fde4b0018fbfebfe8c/1441654781961/20150828-LODGE_POLE_PINES_6453-.jpg?format=100w" height="30" /></span>
+    
+      <span class="tiny-thumb"><img src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d25e4b0f80ef609dd0a/1435082022151/101513125-449029994.jpg?format=100w" height="30" /></span>
+    
+      <span class="tiny-thumb"><img src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d4ae4b0f80ef609de0c/1435082060266/102381255-449029977.jpg?format=100w" height="30" /></span>
+    
+      <span class="tiny-thumb"><img src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d1fe4b0f80ef609dce8/1435082016630/101513113-449029999.jpg?format=100w" height="30" /></span>
+    
+      <span class="tiny-thumb"><img src="http://static1.squarespace.com/static/5586b8c1e4b086577bc206ff/55e5ee22e4b0973ffb028d8a/55899d48e4b0999c33c606a5/1435082056886/102381257-449029971.jpg?format=100w" height="30" /></span>
+    
+  </div>
+</div>
+        </div>
+
+        
+        
+        
+
+        <div id="footerWrapper"><footer id="footer">
+          <div class="sqs-layout sqs-grid-1 columns-1" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1435026949986" id="footerBlocks-1"><div class="row sqs-row"><div class="col sqs-col-1 span-1"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-40f159a0040d9c51eb73"><div class="sqs-block-content"><p>info@connaghan.ca&nbsp;| &nbsp;780-872-9973</p></div></div></div></div></div>
+          
+            
+            <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
+              <a href="https://twitter.com/ToddConnaghan" target="_blank" class="social-twitter"></a><a href="https://www.facebook.com/connaghanphotography/" target="_blank" class="social-facebook"></a>
+            </div>
+            
+          
+        </footer></div>
+
+      </section>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+<script type="text/javascript" data-sqs-type="imageloader-bootstraper">(function() {if(window.ImageLoader) { window.ImageLoader.bootstrap(); }})();</script>
+<script>Squarespace.afterBodyLoad(Y);</script>
+<script type="text/javascript" src="https://static1.squarespace.com/static/ta/4fbff6b4c4aac2e9749c152f/818/scripts/combo/?justified-grid.js&site.js"></script>
+
+
+
+
+</body>
+</html>
+

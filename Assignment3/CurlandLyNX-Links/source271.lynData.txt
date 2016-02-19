@@ -1,0 +1,143 @@
+[1]Bradly Feeley
+
+San Diego Ruby on Rails Developer
+
+   [2]Follow me on Twitter
+   [3]Fork me on Github
+
+     * [4]Own Your Email
+       It's the first of the year and you know what that means:
+       resolutions. One change I'm making this year is taking back my
+       email address. For years one of the most important pieces of my
+       personal identity has been in the control of a large corporation.
+       While this hasn't posed...
+       [5]read more
+     * [6]Simple Rails Deployments with Net/SSH
+       Recently I created a small Rails app as a sales/marketing site for
+       the startup I am working at. The site is very basic with just a few
+       models and controllers. We time came to deploy the site, Capistrano
+       felt to big, but we didn't want to have to manually ssh...
+       [7]read more
+     * [8]On Yahoo
+       What are you suppose to do on this page? What are you suppose to do
+       on this page? Now it could be Yahoo! doesn't consider themselves a
+       search company. The problem is, everyone else does.
+       [9]read more
+     * [10]Major Change to Hash.from_xml in Rails 2.3.4
+       Recently after upgrading a Rails app to Rails 2.3.4 I noticed some
+       calls from a SOAP service throwing errors. After a little
+       investigation I found this commit: The problem is that since
+       String#underscore lowercases the string, any Hashes created using
+       Hash.from_xml with xml that contain any capital letters in the...
+       [11]read more
+     * [12]Please Stop Making iPhone Specific Web Sites
+       Apple markets the iPhone as a true Internet device comparable to
+       its desktop alternatives. One of its killer features is a real web
+       browser. No longer are we stuck with mangled mobile versions with a
+       quarter of the features. No longer do we need our laptops to use
+       the web ...
+       [13]read more
+     * [14]Authentication Setup with Merb Auth and Merb Stack
+       This week I was lucky enough to spend two days at the Merb Sprint.
+       At the sprint I spent some time testing the install and setup
+       process for the Merb Stack and merb_auth (the merb authentication
+       gem). Dan Neighman (aka hassox) spent some time with me going over
+       the merb_auth...
+       [15]read more
+     * [16]My First Lesson In Programming
+       Today I stumbled upon the first program I ever wrote. It's an
+       interesting story looking back twenty years later. When I was
+       somewhere between 8-10 years old my uncle gave my family our first
+       computer, a Coleco Adam. Along with the computer we were given the
+       now classic book BASIC...
+       [17]read more
+     * [18]Merb Overheard Launched
+       Recently, Merb has been getting a lot of attention. With
+       significant changes leading up to the 1.0 release, and now with
+       it's own conference, the Merb community needs a centralized place
+       where relevant information can be found. Say hello to Merb
+       Overheard. Merb Overheard follows the planet-type aggregation sites
+       similar...
+       [19]read more
+     * [20]Installing a Ruby on Rails Plugin from a Github Branch
+       One of the coolest things about Git is how easy it makes working
+       with branches. Rails has been playing catch up with Git's
+       distributed methodologies and recently took a nice step forward.
+       Previously you could only use ./script/plugin install to install
+       from the master branch of a Github repository. Now you...
+       [21]read more
+     * [22]Out with the New, In with the Old
+       Recently I switched from Feather, a Merb blogging app, to
+       Wordpress. Here is a small run down on why I made the switch. First
+       off let me say this about Feather. It is an amazing application. I
+       have contributed a bit to its development and can vouch on the
+       quality...
+       [23]read more
+     * [24]Update a Github Fork from the Original Repo
+       Feather Blog has made some great progress recently and when looking
+       to update my fork I found myself staring at my repo not sure what
+       to do. My wonderful Github didn't give me a one-click way to pull
+       updates from the original repository (or any other fork for that
+       matter)....
+       [25]read more
+     * [26]Google Chrome Made Me Sad
+       [27]read more
+     * [28]New Workflow Tools
+       I recently added a couple of new tools to my project workflow,
+       Hoptoad and Pivotal Tracker. Hoptoad is a Rails plugin that acts a
+       replacement for the exception_notifier from the wonderfully
+       talented Thoughbot team (of Paperclip and Shoulda fame). Hoptoad is
+       a hosted solution that keeps track of duplicate bugs,...
+       [29]read more
+     * [30]Trust Your Source Control
+       Often times I see something like some_file_bak or image.jpg.old in
+       a repository. Renaming the original to a new file name only makes
+       things more confusing because now the _bak file has no history.
+       Trust you code control and use it as it is intended.
+       [31]read more
+     * [32]Merb 0.9.3 and Feather Error: undefined method `empty?' for
+       nilNilClass
+       Recently when setting up this blog using Feather, a new blog app
+       written with Merb, I started getting the following error when
+       hitting the home page: undefined method `empty?' for nil:NilClass
+       Turns out there is a bug is merb-cache (part of merb-more) that is
+       causing the problem. It's patched in...
+       [33]read more
+
+   Copyright © 2013 Bradly Feeley
+
+References
+
+   1. file:///
+   2. http://www.twitter.com/bradly
+   3. http://www.github.com/bradly
+   4. file:///2013/01/02/own-your-email
+   5. file:///2013/01/02/own-your-email
+   6. file:///2011/07/26/simple-rails-deployments-with-net-ssh
+   7. file:///2011/07/26/simple-rails-deployments-with-net-ssh
+   8. file:///2010/08/11/why-yahoo-will-fail-part-1
+   9. file:///2010/08/11/why-yahoo-will-fail-part-1
+  10. file:///2009/10/06/major-change-to-hash-from_xml-in-rails-2-3-4
+  11. file:///2009/10/06/major-change-to-hash-from_xml-in-rails-2-3-4
+  12. file:///2009/02/22/please-stop-making-iphone-specific-web-sites
+  13. file:///2009/02/22/please-stop-making-iphone-specific-web-sites
+  14. file:///2008/10/11/authentication-setup-with-merb-auth-and-merb-stack
+  15. file:///2008/10/11/authentication-setup-with-merb-auth-and-merb-stack
+  16. file:///2008/10/07/my-first-lesson-in-programming
+  17. file:///2008/10/07/my-first-lesson-in-programming
+  18. file:///2008/10/03/merb-overheard-launched
+  19. file:///2008/10/03/merb-overheard-launched
+  20. file:///2008/09/18/installing-a-ruby-on-rails-plugin-from-a-github-branch
+  21. file:///2008/09/18/installing-a-ruby-on-rails-plugin-from-a-github-branch
+  22. file:///2008/09/08/out-with-the-new-in-with-the-old
+  23. file:///2008/09/08/out-with-the-new-in-with-the-old
+  24. file:///2008/09/03/update-a-github-fork-from-the-original-repo
+  25. file:///2008/09/03/update-a-github-fork-from-the-original-repo
+  26. file:///2008/09/02/google-chrome-made-me-sad
+  27. file:///2008/09/02/google-chrome-made-me-sad
+  28. file:///2008/08/29/new-workflow-tools
+  29. file:///2008/08/29/new-workflow-tools
+  30. file:///2008/06/22/trust-your-source-control
+  31. file:///2008/06/22/trust-your-source-control
+  32. file:///2008/05/08/merb-093-and-feather-error-undefined-method-empty-for-nilnilclass
+  33. file:///2008/05/08/merb-093-and-feather-error-undefined-method-empty-for-nilnilclass

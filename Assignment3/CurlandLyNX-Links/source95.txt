@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#"  lang="en-gb" >
+<head>
+		        	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
+	      <base href="http://filemakertoday.com/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="filemaker pro,filemaker,forum,forums,filemaker pro 14 advanced,filemaker 14,filemaker 14 server,filemaker server 13,filemaker pro 14 training,filemaker pro 13,filemaker hosting,filemaker help,filemaker developer,filemaker go, filemaker forum,filemaker news,filemaker templates,file maker,filemaker webdirect,filemaker database,find a filemaker developer,filemaker hosting,filemaker training" />
+  <meta property="og:url" content="http://filemakertoday.com/" />
+  <meta property="og:title" content="FileMaker Forum - Questions and Answers - FileMaker 14 and Every Other Version - FileMaker Today - The Original FileMaker Forum &amp; Community" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Ther latest news from the FileMaker Community..." />
+  <meta name="description" content="Ther latest news from the FileMaker Community..." />
+  <meta name="generator" content="Joomla! - Open Source Content Management + SEOSimple (http://daobydesign.com)" />
+  <title>FileMaker Forum - Questions and Answers - FileMaker 14 and Every Other Version - FileMaker Today - The Original FileMaker Forum &amp; Community</title>
+  <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="http://filemakertoday.com/templates/gk_news2/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="https://plus.google.com/107338355834804938571" rel="publisher" />
+  <link href="http://filemakertoday.com/component/search/?format=opensearch" rel="search" title="Search FileMaker Today - The Original FileMaker Forum &amp; Community" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/plugins/editors/jckeditor/typography/typography2.php" type="text/css" />
+  <link rel="stylesheet" href="/templates/gk_news2/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/css/jcemediabox.css?version=119" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/themes/light/css/style.css?version=119" type="text/css" />
+  <link rel="stylesheet" href="/cache/widgetkit/widgetkit-d967bef9.css" type="text/css" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/joomla.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/system/system.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/menu/menu.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/gk.stuff.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/style1.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/typography/typography.style1.css" type="text/css" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Bitter:400,700" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_pgt_rssscroller/mod_pgt_rssscroller.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/modules/mod_news_pro_gk5/interface/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://filemakertoday.com/modules/mod_recentdiscussions/styles/style.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_zooitem/tmpl/list/style.css?ver=20150830" type="text/css" />
+  <link rel="stylesheet" href="/media/com_hwdmediashare/assets/css/lite.css" type="text/css" />
+  <link rel="stylesheet" href="/media/com_hwdmediashare/assets/css/joomla.css" type="text/css" />
+  <style type="text/css">
+.childcontent .gkcol { width: 200px; }h1,h2,
+.gkPopupWrap h3,
+article header ul,
+.nspHeader,
+.gkwTemp,
+#gkSearch #mod-search-searchword,
+.box.highlights .nspInfo,
+.box.highlights .nspText,
+.gkNspPM-VideoList h3 { font-family: 'Bitter', Arial, sans-serif; }
+h3,h4,h5,h6,
+body,
+body button,
+button,
+.button,
+input.button,
+span.button,
+button.button,
+div.button,
+input[type="submit"],
+input[type="button"],
+.pagenav-prev a,
+.pagenav-next a,
+.readon,
+#gkMainbody .itemReadMore,
+#gkMainbody .readmore > a,
+.button.invert:active,
+.button.invert:focus,
+.button.invert:hover,
+#gkUpdates,
+#gkMainMenu,
+.gkMenu > ul li div.childcontent li,
+#gkLogo.text,
+#system-message,
+#gkMenuOverlayHeader,
+#gkMenuOverlayContent,
+.nspMain.nsp-list .nspHeader,
+.items-more > h2 { font-family: Arial, Helvetica, sans-serif; }
+.blank { font-family: Arial, Helvetica, sans-serif; }
+.blank { font-family: Arial, Helvetica, sans-serif; }
+#gkSidebarRight { width: 20%; }
+#gkSearch { width: 20%; }
+#gkHighlights { width: 80%; }
+#gkInset { width: 25%; }
+#gkPageContent { width: 100%; }
+#gkPageContent > div { width: 80%; }
+#gkContent { width: 100%; }
+.gkPage { max-width: 1410px; }
+#gkContentWrap > div { width: 75%; }
+#menu263 > div,
+#menu263 > div > .childcontent-inner { width: 200px; }
+#menu623 > div,
+#menu623 > div > .childcontent-inner { width: 200px; }
+#gkHighlighterGK5-0 .gkHighlighterInterface span.text { color: #282828; } #gkHighlighterGK5-0 .gkHighlighterInterface { background-color: #ffffff; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; }
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript"></script>
+  <script src="/components/com_k2/js/k2.js?v2.6.9&amp;sitepath=/" type="text/javascript"></script>
+  <script src="/plugins/system/jcemediabox/js/jcemediabox.js?version=119" type="text/javascript"></script>
+  <script src="/media/widgetkit/js/jquery.js" type="text/javascript"></script>
+  <script src="/cache/widgetkit/widgetkit-28d96d0d.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="http://filemakertoday.com/templates/gk_news2/js/modernizr.js" type="text/javascript"></script>
+  <script src="http://filemakertoday.com/templates/gk_news2/js/gk.scripts.js" type="text/javascript"></script>
+  <script src="http://filemakertoday.com/templates/gk_news2/js/gk.menu.js" type="text/javascript"></script>
+  <script src="http://filemakertoday.com/modules/mod_news_pro_gk5/interface/scripts/engine.mootools.js" type="text/javascript"></script>
+  <script src="http://filemakertoday.com/modules/mod_highlighter_gk5/interface/scripts/engine.mootools.js" type="text/javascript"></script>
+  <script type="text/javascript">
+JCEMediaBox.init({popup:{width:"",height:"",legacy:0,lightbox:0,shadowbox:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:0,scrolling:"fixed",close:2,labels:{'close':'Close','next':'Next','previous':'Previous','cancel':'Cancel','numbers':'{$current} of {$total}'},cookie_expiry:"",google_viewer:0},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"light",themecustom:"",themepath:"plugins/system/jcemediabox/themes"});
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});
+ $GKMenu = { height:true, width:true, duration: 500 };
+$GK_TMPL_URL = "http://filemakertoday.com/templates/gk_news2";
+
+$GK_URL = "http://filemakertoday.com/";
+window.addEvent('domready', function() {
+			$$('.hasTip').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false});
+		});
+  </script>
+  <script type='text/javascript'>
+				/*<![CDATA[*/
+					var jax_live_site = 'http://filemakertoday.com/index.php';
+					var jax_token_var='a284e8215ff66e55bae1aea553fb5ad6';
+				/*]]>*/
+				</script><script type="text/javascript" src="http://filemakertoday.com/plugins/system/azrul.system/pc_includes/ajax_1.5.pack.js"></script>
+  <link rel="apple-touch-icon" href="http://filemakertoday.com/templates/gk_news2/images/touch-device.png">
+  <link rel="apple-touch-icon-precompose" href="http://filemakertoday.com/templates/gk_news2/images/touch-device.png">
+
+    <link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/small.desktop.css" media="(max-width: 1410px)" />
+<link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/tablet.css" media="(max-width: 1100px)" />
+<link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/small.tablet.css" media="(max-width: 840px)" />
+<link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/mobile.css" media="(max-width: 640px)" />
+
+<!--[if IE 9]>
+<link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/ie/ie9.css" type="text/css" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/ie/ie8.css" type="text/css" />
+<![endif]-->
+
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="http://filemakertoday.com/templates/gk_news2/css/ie/ie7.css" type="text/css" />
+<![endif]-->
+
+<!--[if lte IE 9]>
+<script type="text/javascript" src="http://filemakertoday.com/templates/gk_news2/js/ie.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="http://filemakertoday.com/templates/gk_news2/js/respond.js"></script>
+<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"RXVIi1a8Dy00WS", domain:"filemakertoday.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=RXVIi1a8Dy00WS" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->  	 </head>
+<body data-mobile="true" data-tablet-width="1100" data-tablet-small-width="840" data-mobile-width="640">	
+	<script type="text/javascript">var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-7638241-1']); _gaq.push(['_trackPageview']);(function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script>		
+		
+	<div id="gkBg" class="gkPage">
+		<div id="gkTopBar" data-menu-type="classic">
+		    
+          <a href="http://filemakertoday.com/" id="gkLogo">
+        <img src="http://filemakertoday.com/images/FILEMAKER-FORUM-LOGO.png" alt="FileMaker Today - The Original FileMaker Forum & Community" />
+     </a>
+     		    
+		    	
+		    <div id="gkBannerTop">
+		    	<div class="bannergrouplight">
+
+	<div class="banneritem">
+																																																															<a
+							href="/component/banners/click/58" target="_blank"
+							title="YZY Benroy 2 Top">
+							<img
+								src="http://filemakertoday.com/images/banners/mcservices728.gif"
+								alt="YZY Benroy 2 Top"
+																							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+
+</div>
+
+		    </div>
+		      
+		    
+		    <div id="gkTopNav">
+								<div id="gkMainMenu" class="gkMenuClassic">
+				        <nav id="gkExtraMenu" class="gkMenu">
+<ul class="gkmenu level0"><li  class="first active"><a href="http://filemakertoday.com/"  class=" first active" id="menu101"  >Home</a></li><li ><a href="http://www.filemakertoday.com/com/forum.php"  id="menu102"  >FileMaker Forum</a></li><li  class="haschild"><a href="/inside-filemaker"  class=" haschild" id="menu263"  >Inside FileMaker</a><div class="childcontent">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level1"><li  class="first"><a href="/inside-filemaker/filemaker-canvas"  class=" first" id="menu234"  >FileMaker Canvas</a></li></ul></div>
+</div>
+</div></li><li  class="haschild"><a href="/filemaker-video-tips"  class=" haschild" id="menu623"  >Filemaker Videos</a><div class="childcontent">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level1"><li  class="first"><a href="/filemaker-video-tips/filemaker-tutorials"  class=" first" id="menu1093"  >FileMaker Tutorials</a></li><li  class="last"><a href="/filemaker-video-tips/tutorial-videos"  class=" last" id="menu905"  >DevCon  2014 Discover San Antonio</a></li></ul></div>
+</div>
+</div></li><li ><a href="/news"  id="menu697"  >News</a></li><li  class="last"><a href="/best-of-fm"  class=" last" id="menu806"  >Best of FM</a></li></ul>
+</nav>				</div>
+								
+								<div id="gkMobileMenu" class="gkPage"> 
+					<i id="mobile-menu-toggler" class="fa fa-bars"></i>
+				   	<select onChange="window.location.href=this.value;">
+				       <option selected="selected"  value="http://filemakertoday.com/">Home</option><option  value="http://www.filemakertoday.com/com/forum.php">FileMaker Forum</option><option  value="/inside-filemaker">Inside FileMaker</option><option  value="/inside-filemaker/filemaker-canvas">&mdash; FileMaker Canvas</option><option  value="/filemaker-video-tips">Filemaker Videos</option><option  value="/filemaker-video-tips/filemaker-tutorials">&mdash; FileMaker Tutorials</option><option  value="/filemaker-video-tips/tutorial-videos">&mdash; DevCon  2014 Discover San Antonio</option><option  value="/news">News</option><option  value="/best-of-fm">Best of FM</option>				   	</select>
+				</div>
+							     
+			     		         <a href="/index.php/component/users/?view=login&amp;tmpl=blankpage" id="gkLogin">Log in</a>
+		         		         
+		         	
+		         <div id="gkSocial">
+		         	
+
+<div class="custom "  >
+
+	<a href="https://plus.google.com/b/107338355834804938571/+Filemakertoday/posts" target="_blank"><i class="gk-icon-gplus"></i></a>
+<a href="https://twitter.com/filemakertoday" target="_blank"><i class="gk-icon-twitter"></i></a>
+<a href="https://www.facebook.com/pages/FileMakerToday/115087678560659" target="_blank"><i class="gk-icon-fb"></i></a>
+<a href="http://www.filemakertoday.com/news/?format=feed&amp;type=rss" target="_blank"><i class="gk-icon-rss"></i></a>
+	
+</div>
+
+		         </div>
+		           
+			 </div>
+			 
+			 			 <div id="gkToolbar">
+			 	 
+			 	
+			 		
+			 	<div id="gkHighlights">
+			 		<div class="gkHighlighterGK5" id="gkHighlighterGK5-0" data-config="{'animationType':'slides','animationSpeed':'350','animationInterval':'5000','animationFun':'Fx.Transitions.linear','mouseover':'false'}">
+        <div class="gkHighlighterInterface" data-pos="left">
+                <span class="text">Hot & Trending on FMT</span>
+                        <div><a href="#" class="prev"></a>
+        <a href="#" class="next"></a></div>
+            </div>
+        <div class="gkHighlighterWrapper">
+    	<div class="gkHighlighterWrapperSub">
+                                                    	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/new-filemaker-apps-help-small-businesses-find-success-with-apps-adapted-for-how-they-operate"><span>New FileMaker Apps - help small b</span>: 
+	As iOS app frenzy month continues for FileMaker Developers, here is an articl</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/the-best-of-filemaker-tips-tricks-part-2-from-kevin-frank-at-filemakerhacks"><span>The Best of FileMaker: Tips - Tri</span>: 
+	More than a month ago we published part one of this series which is without o</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-newswire/33-filemaker-newswire/gi-s-barcode-creator-released-with-eps-support"><span>GI's Barcode Creator Released Wit</span>: 
+	Giest Interactive releases Barcode Creator&nbsp;1.3.0 with support for genera</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/new-video-course-for-development-and-deployment-of-ios-apps-in-the-apple-app-store"><span>New Video Course for development </span>: 
+	NEW!! Richard Carlton discusses development and deployment of iOS Apps in the</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/auto-enter-options-for-assigned-fields-in-filemaker-14-learning-filemaker"><span>Auto Enter Options for assigned F</span>: 
+	A look at the various Auto Enter options that a user can assign to a field in</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-newswire/33-filemaker-newswire/databuzz-to-release-fmaccounting-link-myob-accountright-edition"><span>DataBuzz to release fmAccounting </span>: 
+	Ever since we released our FileMaker to Xero integration solution –&nbsp;fmAc</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-newswire/33-filemaker-newswire/the-2015-ultimate-filemaker-developer-marketing-package"><span>Last Chance! The FMT FileMaker De</span>: 
+	Here is a rare opportunity to promote your FileMaker products and services on</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/filemaker-training-series-webinar-relationships-session-one-to-many-and-many-to-many-relationships-and-more"><span>FileMaker Training Series Webinar</span>: 
+	This video is the fourth in a series of six webinars designed to complement y</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/5-hidden-filemaker-design-tools-from-alexis-allen-the-filemaker-design-diva"><span>5 Hidden FileMaker Design Tools f</span>: 
+	Happy Valentines weekend to everyone...which leads us into this weekends feat</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/add-html-formatting-with-inline-attachments-to-email-sent-from-filemaker-here-s-how"><span>Add HTML Formatting with Inline A</span>: 
+	
+		Here is this weeks featured blog from Jesse and the team at 360Works...ke</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/interactive-containers-in-filemaker-video-tut"><span>Interactive Containers in FileMak</span>: 
+	Interactive Containers in FileMaker...Container fields in FileMaker will act </a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/filemaker-course-for-startups-and-entrepreneurs-video-overview"><span>FileMaker Course for Startups and</span>: 
+	If you are just getting started in FileMaker we highly recommend this course,</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-newswire/33-filemaker-newswire/how-to-develop-an-app-for-your-startup-or-business-without-learning-any-code"><span>How to develop an app for your st</span>: 
+	As many of you may or may not know, FMT has been online for a very long time.</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-podcasts/37-filemaker-podcasts/380-fm-success-tips"><span>FileMaker Success Tips Podcast - </span>: 
+	FileMaker Success Tips is the FMT Award Winning FileMaker Podcast! Lee Strong</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-newswire/33-filemaker-newswire/free-download-your-first-steps-toward-creating-a-successful-custom-app-using-filemaker-ios-sdk"><span>Free Download: Custom Apps Succes</span>: 
+	FMT Newswire SANTA CLARA, Calif., Feb. 9, 2016 -Today FileMaker, Inc. announc</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/gozync-update-the-files-scripts-and-layouts-of-native-ios-apps"><span>GoZync - update the files, script</span>: 
+	See how GoZync lets you update the files, scripts, and layouts of native iOS </a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/formatting-money-into-text-fields-filemaker-video-training"><span>Formatting Money into Text Fields</span>: 
+	Formatting Money into Text Fields&nbsp; Under-the-hood, a number text field i</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/editing-tab-values-in-fm-starting-point-4-6"><span>Editing Tab Values in FM Starting</span>: 
+	Please note: this requires you to download FMStarting Point to follow along. </a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/update-native-ios-app-created-with-filemaker-ios-app-sdk-how-to"><span>Update Native iOS App created wit</span>: 
+	Here is a re-run of a very good blog and video from Giedrius Godelaitis of YZ</a></span></div>
+                                                            	<div class="gkHighlighterItem"><span><a href="/filemaker-14/4049-filemaker-14/rename-filemaker-container-files-without-exporting-importing"><span>Rename FileMaker Container Files </span>: 
+	Here is a classic read from Jan Stieperaere at Clickworks...Rename your conta</a></span></div>
+                                        </div>
+    </div>
+</div>
+
+			 	</div>
+			 				 	
+			 		
+			 	<div id="gkSearch">
+			 		<form action="/" method="post">
+	<div class="search">
+		<input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox" type="text" size="22" placeholder="Search..." />	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="9999" />
+	</div>
+</form>
+
+			 	</div>
+			 	   
+			 </div>
+			 		</div>
+	
+		<div id="gkPageContent">	
+	    	<div>
+		    	<section id="gkContent">
+										
+										
+										
+										
+					<div id="gkContentWrap">
+						<div data-inset-pos="right">
+							
+														<section id="gkMainbodyTop">
+								<div class="box  pattern"><div class="content"><div class="bannergroup pattern">
+	Visit a FMT Affiliate Sponsor:
+	<div class="banneritem">
+																																																															<a
+							href="/component/banners/click/71" target="_blank"
+							title="CNS Main Top">
+							<img
+								src="http://filemakertoday.com/images/banners/cns-728.png"
+								alt="We Have Got A FileMaker Plugin For You"
+																							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+
+	<div class="bannerfooter">
+		<a href="http://filemakertoday.com/ads/">Become an FMT Affiliate! Click Here to get your FileMaker Ads That Work!</a>	</div>
+</div>
+</div></div><div class="box title-color1 title border"><h3 class="header">The Latest FileMaker News - Blogs - Videos - Events</h3><div class="content">	<div class="nspMain hover title-color1 title border" id="nsp-nsp-762" data-config="{
+				'animation_speed': 400,
+				'animation_interval': 5000,
+				'animation_function': 'Fx.Transitions.Circ.easeIn',
+				'news_column': 1,
+				'news_rows': 1,
+				'links_columns_amount': 1,
+				'links_amount': 5
+			}">		
+					<div class="nspArts right" style="width:41%;">
+								<div class="nspArtScroll1">
+					<div class="nspArtScroll2 nspPages1">
+																	<div class="nspArtPage active nspCol1">
+																				<div class="nspArt nspCol1 nspFeatured" style="padding:18px 0 0 0;">
+								<a href="/filemaker-14/4049-filemaker-14/new-filemaker-apps-help-small-businesses-find-success-with-apps-adapted-for-how-they-operate" class="nspImageWrapper tleft fleft gkResponsive" style="margin:0 0 28px 0;"><img class="nspImage tleft fleft gkResponsive" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.869051cdbb48976951e5ac02bf501e5f_Lnsp-762.jpg" alt="New FileMaker Apps - help small businesses find success with apps adapted for how they operate" style=""  /></a><h4 class="nspHeader tleft fnone"><a href="/filemaker-14/4049-filemaker-14/new-filemaker-apps-help-small-businesses-find-success-with-apps-adapted-for-how-they-operate" title="New FileMaker Apps - help small businesses find success with apps adapted for how they operate">New FileMaker Apps - help small business&hellip;</a></h4><p class="nspText tleft fleft">
+	As iOS app frenzy month continues for FileMaker Developers, here is an article from Pedro Hernandez from Small Business Computing with his take on Apps! Just an FYI from the...</p>							</div>
+												</div>
+																</div>
+				</div>
+			</div>
+						<div class="nspLinksWrap right" style="width:58.9%;">
+			<div class="nspLinks" style="margin:0;">
+								<div class="nspLinkScroll1">
+					<div class="nspLinkScroll2 nspPages1">
+																				<ul class="nspList active nspCol1">
+														
+							<li class="even"><a href="/filemaker-14/4049-filemaker-14/the-best-of-filemaker-tips-tricks-part-2-from-kevin-frank-at-filemakerhacks" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.3053883417ee8771aee22eb4d205001f_Lnsp-762_links.jpg" alt="The Best of FileMaker: Tips - Tricks Part 2 from Kevin Frank at FileMakerHacks" style=""  /></a><div><h4><a href="/filemaker-14/4049-filemaker-14/the-best-of-filemaker-tips-tricks-part-2-from-kevin-frank-at-filemakerhacks" title="The Best of FileMaker: Tips - Tricks Part 2 from Kevin Frank at FileMakerHacks">The Best of FileMaker: Tips -&hellip;</a></h4><p>
+	More than a month ago we published&hellip;</p></div></li>							
+																											
+							<li class="odd"><a href="/filemaker-newswire/33-filemaker-newswire/gi-s-barcode-creator-released-with-eps-support" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.76765e1d026d45879be07d3fdf11756e_Lnsp-762_links.jpg" alt="GI's Barcode Creator Released With EPS Support" style=""  /></a><div><h4><a href="/filemaker-newswire/33-filemaker-newswire/gi-s-barcode-creator-released-with-eps-support" title="GI's Barcode Creator Released With EPS Support">GI's Barcode Creator Released With EPS&hellip;</a></h4><p>
+	Giest Interactive releases Barcode Creator&nbsp;1.3.0 with support&hellip;</p></div></li>							
+																											
+							<li class="even"><a href="/filemaker-14/4049-filemaker-14/new-video-course-for-development-and-deployment-of-ios-apps-in-the-apple-app-store" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.61cfa54c29ee28ebe3a0b4eda6850ba1_Lnsp-762_links.jpg" alt="New Video Course for development and deployment of iOS Apps in the Apple App Store" style=""  /></a><div><h4><a href="/filemaker-14/4049-filemaker-14/new-video-course-for-development-and-deployment-of-ios-apps-in-the-apple-app-store" title="New Video Course for development and deployment of iOS Apps in the Apple App Store">New Video Course for development and&hellip;</a></h4><p>
+	NEW!! Richard Carlton discusses development and deployment&hellip;</p></div></li>							
+																											
+							<li class="odd"><a href="/filemaker-14/4049-filemaker-14/auto-enter-options-for-assigned-fields-in-filemaker-14-learning-filemaker" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.8909e9982151651cc558ed97b7b6b7c1_Lnsp-762_links.jpg" alt="Auto Enter Options for assigned Fields in FileMaker 14 - Learning FileMaker" style=""  /></a><div><h4><a href="/filemaker-14/4049-filemaker-14/auto-enter-options-for-assigned-fields-in-filemaker-14-learning-filemaker" title="Auto Enter Options for assigned Fields in FileMaker 14 - Learning FileMaker">Auto Enter Options for assigned Fields&hellip;</a></h4><p>
+	A look at the various Auto Enter&hellip;</p></div></li>							
+																											
+							<li class="even"><a href="/filemaker-newswire/33-filemaker-newswire/databuzz-to-release-fmaccounting-link-myob-accountright-edition" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.2194c8ff5ce0504cf90f9308ff326d9a_Lnsp-762_links.jpg" alt="DataBuzz to release fmAccounting Link (MYOB AccountRight Edition)" style=""  /></a><div><h4><a href="/filemaker-newswire/33-filemaker-newswire/databuzz-to-release-fmaccounting-link-myob-accountright-edition" title="DataBuzz to release fmAccounting Link (MYOB AccountRight Edition)">DataBuzz to release fmAccounting Link (MYOB&hellip;</a></h4><p>
+	Ever since we released our FileMaker to&hellip;</p></div></li>							
+														</ul>
+															
+					</div>
+					
+										<a href="http://filemakertoday.com/news" class="readon-button">
+													Latest FileMaker News											</a>
+									</div>	
+					
+				
+					
+			</div>
+		</div>
+			</div>
+</div></div><div class="box title-color1"><h3 class="header">FileMaker 13 - 14</h3><div class="content">	<div class="nspMain hover title-color1" id="nsp-nsp-812" data-config="{
+				'animation_speed': 400,
+				'animation_interval': 5000,
+				'animation_function': 'Fx.Transitions.Circ.easeIn',
+				'news_column': 1,
+				'news_rows': 1,
+				'links_columns_amount': 1,
+				'links_amount': 4
+			}">		
+					<div class="nspArts right" style="width:41%;">
+								<div class="nspArtScroll1">
+					<div class="nspArtScroll2 nspPages1">
+																	<div class="nspArtPage active nspCol1">
+																				<div class="nspArt nspCol1 nspFeatured" style="padding:18px 0 0 0;">
+								<a href="/filemaker-14/4049-filemaker-14/a-look-at-filemaker-14-script-triggers" class="nspImageWrapper tleft fleft gkResponsive" style="margin:0 0 28px 0;"><img class="nspImage tleft fleft gkResponsive" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.16863f84692f1203dde25aa1859ea704_Lnsp-812.jpg" alt="Inside FileMaker 14 Script Triggers" style=""  /></a><h4 class="nspHeader tleft fnone"><a href="/filemaker-14/4049-filemaker-14/a-look-at-filemaker-14-script-triggers" title="Inside FileMaker 14 Script Triggers">Inside FileMaker 14 Script Triggers</a></h4><p class="nspText tleft fleft">
+	Script triggers are a straightforward concept, but there's a lot of detail to learn for each one. This post will break this detail down in several different ways with the...</p>							</div>
+												</div>
+																</div>
+				</div>
+			</div>
+						<div class="nspLinksWrap right" style="width:58.9%;">
+			<div class="nspLinks" style="margin:0;">
+								<div class="nspLinkScroll1">
+					<div class="nspLinkScroll2 nspPages1">
+																				<ul class="nspList active nspCol1">
+														
+							<li class="even"><a href="/filemaker-13/4035-filemaker-13/filemaker-13-progress-tracker-using-hide-object" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.f8502e9d6ff6bc8314ebcb02fc55c4d4_Lnsp-812_links.jpg" alt="FileMaker 13 Progress Tracker Using Hide Object" style=""  /></a><div><h4><a href="/filemaker-13/4035-filemaker-13/filemaker-13-progress-tracker-using-hide-object" title="FileMaker 13 Progress Tracker Using Hide Object">FileMaker 13 Progress Tracker Using Hide&hellip;</a></h4><p>
+	Here is a hands on guide to&hellip;</p></div></li>							
+																											
+							<li class="odd"><a href="/filemaker-13/4035-filemaker-13/new-filemaker-pro-13-the-missing-manual" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.f13dc54e2a32352c1e6eb55e7ea06bbf_Lnsp-812_links.jpg" alt="Just Released FileMaker Pro 13: The Missing Manual Free Sample" style=""  /></a><div><h4><a href="/filemaker-13/4035-filemaker-13/new-filemaker-pro-13-the-missing-manual" title="Just Released FileMaker Pro 13: The Missing Manual Free Sample">Just Released FileMaker Pro 13: The&hellip;</a></h4><p>
+	Just released FileMaker Pro 13: The Missing&hellip;</p></div></li>							
+																											
+							<li class="even"><a href="/filemaker-13/4035-filemaker-13/filemaker-13-popover-pop-up-menus-overview" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.db1fdc6240f18ab5817662ddd58aeedd_Lnsp-812_links.jpg" alt="FileMaker 13 Popover Pop-up Menus Overview" style=""  /></a><div><h4><a href="/filemaker-13/4035-filemaker-13/filemaker-13-popover-pop-up-menus-overview" title="FileMaker 13 Popover Pop-up Menus Overview">FileMaker 13 Popover Pop-up Menus Overview</a></h4><p>
+	This technique uses filterable portals contained in&hellip;</p></div></li>							
+																											
+							<li class="odd"><a href="/filemaker-13/4035-filemaker-13/caller-id-looks-up-filemaker-client-record-with-voip-telephone" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.cc3dc702bde8d10478e5e10a38fdc8d6_Lnsp-812_links.jpg" alt="Caller ID looks up FileMaker Client Record with VOIP Telephone" style=""  /></a><div><h4><a href="/filemaker-13/4035-filemaker-13/caller-id-looks-up-filemaker-client-record-with-voip-telephone" title="Caller ID looks up FileMaker Client Record with VOIP Telephone">Caller ID looks up FileMaker Client&hellip;</a></h4><p>
+	[FMT Connect Link] All we have to&hellip;</p></div></li>							
+														</ul>
+															
+					</div>
+					
+										<a href="http://filemakertoday.com/filemaker-connect-contents/content/4049-filemaker-14/" class="readon-button">
+													FileMaker 14											</a>
+									</div>	
+					
+				
+					
+			</div>
+		</div>
+			</div>
+</div></div><div class="box "><div class="content"><div class="bannergroup">
+
+	<div class="banneritem">
+																																																															<a
+							href="/component/banners/click/59" target="_blank"
+							title="SYNERGIZE1">
+							<img
+								src="http://filemakertoday.com/images/banners/synergize780.png"
+								alt="The Ultimate FileMaker Developer Tool"
+																							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+
+	<div class="bannerfooter">
+		<a href="http://filemakertoday.com/ads/">Your Ad Here with FREE banner design for about $3 a Day!</a>	</div>
+</div>
+</div></div>
+							</section>
+								
+							
+							<section id="gkMainbody">
+																	<div class="box title-color1"><h3 class="header">FileMaker Under the Hood</h3><div class="content">	<div class="nspMain hover title-color1" id="nsp-nsp-765" data-config="{
+				'animation_speed': 400,
+				'animation_interval': 5000,
+				'animation_function': 'Fx.Transitions.Circ.easeIn',
+				'news_column': 1,
+				'news_rows': 1,
+				'links_columns_amount': 1,
+				'links_amount': 3
+			}">		
+					<div class="nspArts right" style="width:41%;">
+								<div class="nspArtScroll1">
+					<div class="nspArtScroll2 nspPages1">
+																	<div class="nspArtPage active nspCol1">
+																				<div class="nspArt nspCol1" style="padding:18px 0 0 0;">
+								<h4 class="nspHeader tleft fnone"><a href="/script-triggers/3105-script-triggers/selectscriptoptionsbyfirstperformingthemmanually" title="Select Script Options by First Performing Them Manually ">Select Script Options by First Performin&hellip;</a></h4><p class="nspText tleft fleft">
+	I was just tasked with creating a script to export all the fields on a layout.&nbsp; The layout, however, is non-trivial and contains fields from multiple different tables, and the...</p>							</div>
+												</div>
+																</div>
+				</div>
+			</div>
+						<div class="nspLinksWrap right" style="width:58.9%;">
+			<div class="nspLinks" style="margin:0;">
+								<div class="nspLinkScroll1">
+					<div class="nspLinkScroll2 nspPages1">
+																				<ul class="nspList active nspCol1">
+														
+							<li class="even"><a href="/filemaker-functionality/18-filemaker-functionality/filemaker-url-protocol" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.b921dbb2d1617779408d5dd6f6a9f717_Lnsp-765_links.jpg" alt="FileMaker URL Protocol" style=""  /></a><div><h4><a href="/filemaker-functionality/18-filemaker-functionality/filemaker-url-protocol" title="FileMaker URL Protocol">FileMaker URL Protocol</a></h4><p>
+	The fmp7://, fmp7script://, and fmp:// URL protocols&hellip;</p></div></li>							
+																											
+							<li class="odd"><a href="/filemaker-functionality/18-filemaker-functionality/data-type-detection-filemaker" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.d3d86f2f48540c3d2981a4a3a34044b0_Lnsp-765_links.jpg" alt="Data Type Detection - FileMaker" style=""  /></a><div><h4><a href="/filemaker-functionality/18-filemaker-functionality/data-type-detection-filemaker" title="Data Type Detection - FileMaker">Data Type Detection - FileMaker</a></h4><p>
+	FMT Staff Note: this is a promo&hellip;</p></div></li>							
+																											
+							<li class="even"><a href="/filemaker-functionality/18-filemaker-functionality/fm-function-of-the-week-length-and-position" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.3be5d63fbde142e6f49a38675e4bc899_Lnsp-765_links.jpg" alt="FM Function of the Week: Length and Position" style=""  /></a><div><h4><a href="/filemaker-functionality/18-filemaker-functionality/fm-function-of-the-week-length-and-position" title="FM Function of the Week: Length and Position">FM Function of the Week: Length&hellip;</a></h4><p>
+	The past few posts&nbsp;have covered an array&hellip;</p></div></li>							
+														</ul>
+															
+					</div>
+					
+										<a href="http://filemakertoday.com/filemaker-functionality" class="readon-button">
+													More from this category											</a>
+									</div>	
+					
+				
+					
+			</div>
+		</div>
+			</div>
+</div></div>
+															</section>
+							
+														<section id="gkMainbodyBottom">
+								<div class="box title-color1"><h3 class="header">FileMaker Server</h3><div class="content">	<div class="nspMain hover title-color1" id="nsp-nsp-767" data-config="{
+				'animation_speed': 400,
+				'animation_interval': 5000,
+				'animation_function': 'Fx.Transitions.Circ.easeIn',
+				'news_column': 1,
+				'news_rows': 1,
+				'links_columns_amount': 1,
+				'links_amount': 4
+			}">		
+					<div class="nspArts right" style="width:41%;">
+								<div class="nspArtScroll1">
+					<div class="nspArtScroll2 nspPages1">
+																	<div class="nspArtPage active nspCol1">
+																				<div class="nspArt nspCol1 nspFeatured" style="padding:18px 0 0 0;">
+								<a href="/filemaker-server/23-filemaker-server/filemaker-13-server-admin-tool-free-for-you" class="nspImageWrapper tleft fleft gkResponsive" style="margin:0 0 28px 0;"><img class="nspImage tleft fleft gkResponsive" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.5831ee45adfcef00fa0b2b533f393c92_Lnsp-767.jpg" alt="FileMaker 13 Server Admin Tool - Free for you" style=""  /></a><h4 class="nspHeader tleft fnone"><a href="/filemaker-server/23-filemaker-server/filemaker-13-server-admin-tool-free-for-you" title="FileMaker 13 Server Admin Tool - Free for you">FileMaker 13 Server Admin Tool - Free fo&hellip;</a></h4><p class="nspText tleft fleft">Do you manage FileMaker Server 13 ? Well, we just released a simple tool, where you can easily manage multiply FMS13, thanks to the new HTML5 admin console, and native...</p>							</div>
+												</div>
+																</div>
+				</div>
+			</div>
+						<div class="nspLinksWrap right" style="width:58.9%;">
+			<div class="nspLinks" style="margin:0;">
+								<div class="nspLinkScroll1">
+					<div class="nspLinkScroll2 nspPages1">
+																				<ul class="nspList active nspCol1">
+														
+							<li class="even"><a href="/filemaker-server/23-filemaker-server/outer-joins-in-filemaker-12-part-2" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.e36a512fe5b90101a88ae780e05256f8_Lnsp-767_links.jpg" alt="Outer Joins in FileMaker 12, part 2" style=""  /></a><div><h4><a href="/filemaker-server/23-filemaker-server/outer-joins-in-filemaker-12-part-2" title="Outer Joins in FileMaker 12, part 2">Outer Joins in FileMaker 12, part&hellip;</a></h4><p>Last week in part 1 we looked&hellip;</p></div></li>							
+																											
+							<li class="odd"><a href="/filemaker-server/23-filemaker-server/filemaker-server-13-0v3-now-available" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.48e3e562fc488555ca60e6ad7b3cfbe9_Lnsp-767_links.jpg" alt="FileMaker Server 13.0v3 now available" style=""  /></a><div><h4><a href="/filemaker-server/23-filemaker-server/filemaker-server-13-0v3-now-available" title="FileMaker Server 13.0v3 now available">FileMaker Server 13.0v3 now available</a></h4><p>
+	FileMaker, Inc. has released FileMaker Server 13.0v3&hellip;</p></div></li>							
+																											
+							<li class="even"><a href="/filemaker-server/23-filemaker-server/filemaker-server-on-amazon-web-services-quick-start-guide" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.557b53e3d7e80c96c458b7b6fb965c0a_Lnsp-767_links.jpg" alt="FileMaker Server on Amazon Web Services - Quick Start Guide" style=""  /></a><div><h4><a href="/filemaker-server/23-filemaker-server/filemaker-server-on-amazon-web-services-quick-start-guide" title="FileMaker Server on Amazon Web Services - Quick Start Guide">FileMaker Server on Amazon Web Services&hellip;</a></h4><p>
+	Amazon Web Services (AWS) are a collection&hellip;</p></div></li>							
+																											
+							<li class="odd"><a href="/filemaker-server/23-filemaker-server/10-advantages-of-hosting-filemaker-solutions-with-pc-hosting2" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.62047f4a0119b5e573e9f9890f25caae_Lnsp-767_links.jpg" alt="10 Advantages of Hosting FileMaker Solutions with PC Hosting" style=""  /></a><div><h4><a href="/filemaker-server/23-filemaker-server/10-advantages-of-hosting-filemaker-solutions-with-pc-hosting2" title="10 Advantages of Hosting FileMaker Solutions with PC Hosting">10 Advantages of Hosting FileMaker Solutions&hellip;</a></h4><p>
+	Server hardware is a big ingredient in&hellip;</p></div></li>							
+														</ul>
+															
+					</div>
+					
+										<a href="http://filemakertoday.com/filemaker-server" class="readon-button">
+													FileMaker Server											</a>
+									</div>	
+					
+				
+					
+			</div>
+		</div>
+			</div>
+</div></div><div class="box title-color1"><h3 class="header">FileMaker Presentation - On The Screen</h3><div class="content">	<div class="nspMain hover title-color1" id="nsp-nsp-764" data-config="{
+				'animation_speed': 400,
+				'animation_interval': 5000,
+				'animation_function': 'Fx.Transitions.Circ.easeIn',
+				'news_column': 1,
+				'news_rows': 1,
+				'links_columns_amount': 1,
+				'links_amount': 4
+			}">		
+					<div class="nspArts right" style="width:41%;">
+								<div class="nspArtScroll1">
+					<div class="nspArtScroll2 nspPages1">
+																	<div class="nspArtPage active nspCol1">
+																				<div class="nspArt nspCol1 nspFeatured" style="padding:18px 0 0 0;">
+								<a href="/filemaker-presentation/25-filemaker-presentation/button-up-filemaker-schick" class="nspImageWrapper tleft fleft gkResponsive" style="margin:0 0 28px 0;"><img class="nspImage tleft fleft gkResponsive" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.c9e8d9069e929f4898939a62f1adcffd_Lnsp-764.jpg" alt="Button Up FileMaker" style=""  /></a><h4 class="nspHeader tleft fnone"><a href="/filemaker-presentation/25-filemaker-presentation/button-up-filemaker-schick" title="Button Up FileMaker">Button Up FileMaker</a></h4><p class="nspText tleft fleft">
+	Consider the humble button. Since the very first moments of FileMaker cosmos, the button has been an essential element of our platform. Over the years, across major and minor product...</p>							</div>
+												</div>
+																</div>
+				</div>
+			</div>
+						<div class="nspLinksWrap right" style="width:58.9%;">
+			<div class="nspLinks" style="margin:0;">
+								<div class="nspLinkScroll1">
+					<div class="nspLinkScroll2 nspPages1">
+																				<ul class="nspList active nspCol1">
+														
+							<li class="even"><a href="/filemaker-presentation/25-filemaker-presentation/identifying-unique-records" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.aee44fc32e47f07b5fe3050745ad94ac_Lnsp-764_links.jpg" alt="Identifying Unique Records" style=""  /></a><div><h4><a href="/filemaker-presentation/25-filemaker-presentation/identifying-unique-records" title="Identifying Unique Records">Identifying Unique Records</a></h4><p>
+	A question that comes up regularly on&hellip;</p></div></li>							
+																											
+							<li class="odd"><a href="/filemaker-presentation/25-filemaker-presentation/filemaker-themes-design-palette-our-feaured-dev-tool" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.8649217000a672ecf3ff5059884058db_Lnsp-764_links.jpg" alt="FileMaker Themes - Design Palette Our Featured Dev Tool" style=""  /></a><div><h4><a href="/filemaker-presentation/25-filemaker-presentation/filemaker-themes-design-palette-our-feaured-dev-tool" title="FileMaker Themes - Design Palette Our Featured Dev Tool">FileMaker Themes - Design Palette Our&hellip;</a></h4><p>
+	
+		FileMaker Theme Design Palette is a MUST&hellip;</p></div></li>							
+																											
+							<li class="even"><a href="/filemaker-presentation/25-filemaker-presentation/use-conditional-formatting-for-new-database-functionality" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.bc5983b67a44bcede801e2ff363b54e0_Lnsp-764_links.jpg" alt="Use Conditional Formatting for New Database Functionality" style=""  /></a><div><h4><a href="/filemaker-presentation/25-filemaker-presentation/use-conditional-formatting-for-new-database-functionality" title="Use Conditional Formatting for New Database Functionality">Use Conditional Formatting for New Database&hellip;</a></h4><p>When you release new functions or reports&hellip;</p></div></li>							
+																											
+							<li class="odd"><a href="/filemaker-presentation/25-filemaker-presentation/integrating-kiosk-mode-into-your-solution" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.fac9770ae986695c80dfb6c58f312f32_Lnsp-764_links.jpg" alt="Integrating Kiosk Mode into your Solution" style=""  /></a><div><h4><a href="/filemaker-presentation/25-filemaker-presentation/integrating-kiosk-mode-into-your-solution" title="Integrating Kiosk Mode into your Solution">Integrating Kiosk Mode into your Solution</a></h4><p>
+	Kiosk mode is a cool way to&hellip;</p></div></li>							
+														</ul>
+															
+					</div>
+					
+										<a href="http://filemakertoday.com/filemaker-presentation" class="readon-button">
+													FileMaker Layout UX UI											</a>
+									</div>	
+					
+				
+					
+			</div>
+		</div>
+			</div>
+</div></div><div class="box title-color1"><h3 class="header">Developer Tool Showcase</h3><div class="content">	<div class="nspMain hover title-color1" id="nsp-nsp-766" data-config="{
+				'animation_speed': 400,
+				'animation_interval': 5000,
+				'animation_function': 'Fx.Transitions.Circ.easeIn',
+				'news_column': 1,
+				'news_rows': 1,
+				'links_columns_amount': 1,
+				'links_amount': 4
+			}">		
+					<div class="nspArts right" style="width:41%;">
+								<div class="nspArtScroll1">
+					<div class="nspArtScroll2 nspPages1">
+																	<div class="nspArtPage active nspCol1">
+																				<div class="nspArt nspCol1 nspFeatured" style="padding:18px 0 0 0;">
+								<a href="/filemaker-developer-tools/4034-filemaker-developer-tools/360works-supercontainer-fmt-featured-product" class="nspImageWrapper tleft fleft gkResponsive" style="margin:0 0 28px 0;"><img class="nspImage tleft fleft gkResponsive" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.92461a68f6a19ea0782b95ed7cded349_Lnsp-766.jpg" alt="360Works SuperContainer - FMT Featured Product" style=""  /></a><h4 class="nspHeader tleft fnone"><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/360works-supercontainer-fmt-featured-product" title="360Works SuperContainer - FMT Featured Product">360Works SuperContainer - FMT Featured P&hellip;</a></h4><p class="nspText tleft fleft">
+	This week our FMT Editors "Product of the Week" is 360Works SuperContainer. We call it the FileMaker Container Field on Steriods and FileMaker 13 Ready! I f we had to...</p>							</div>
+												</div>
+																</div>
+				</div>
+			</div>
+						<div class="nspLinksWrap right" style="width:58.9%;">
+			<div class="nspLinks" style="margin:0;">
+								<div class="nspLinkScroll1">
+					<div class="nspLinkScroll2 nspPages1">
+																				<ul class="nspList active nspCol1">
+														
+							<li class="even"><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/filemaker-webviewereditor-self-learning-tool-for-web-viewer-coding" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.e62e995167ffdf6e86100a0dfad3741f_Lnsp-766_links.jpg" alt="FileMaker WebViewer Editor - Self learning tool for web viewer coding" style=""  /></a><div><h4><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/filemaker-webviewereditor-self-learning-tool-for-web-viewer-coding" title="FileMaker WebViewer Editor - Self learning tool for web viewer coding">FileMaker WebViewer Editor - Self learning&hellip;</a></h4><p>
+	All of us at FMT would like&hellip;</p></div></li>							
+																											
+							<li class="odd"><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/masterdetail-2-0-on-modular-filemaker" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.9f29a3148b9e3fb75491b584002f31bd_Lnsp-766_links.jpg" alt="MasterDetail 2.0 on Modular FileMaker" style=""  /></a><div><h4><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/masterdetail-2-0-on-modular-filemaker" title="MasterDetail 2.0 on Modular FileMaker">MasterDetail 2.0 on Modular FileMaker</a></h4><p>
+	I want to start out by saying&hellip;</p></div></li>							
+																											
+							<li class="even"><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/new-ccpivot-3-the-power-of-pivot-tables-for-filemaker" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.f96ede9bb3d9506363bd1ac15fdf88a0_Lnsp-766_links.jpg" alt="New! ccPivot 3 – The Power of Pivot Tables for FileMaker" style=""  /></a><div><h4><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/new-ccpivot-3-the-power-of-pivot-tables-for-filemaker" title="New! ccPivot 3 – The Power of Pivot Tables for FileMaker">New! ccPivot 3 – The Power&hellip;</a></h4><p>
+	A FileMaker utility&nbsp;that adds the power of&hellip;</p></div></li>							
+																											
+							<li class="odd"><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/barcode-creator-new-version-filemaker-qr-codes" class="nspImageWrapper" style="margin:0 30px 0 0;"><img class="nspImage" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.ecc9c9cfe53f400905fd24a5a8d73668_Lnsp-766_links.jpg" alt="Barcode Creator New Version – Filemaker QR Codes" style=""  /></a><div><h4><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/barcode-creator-new-version-filemaker-qr-codes" title="Barcode Creator New Version – Filemaker QR Codes">Barcode Creator New Version – Filemaker&hellip;</a></h4><p>
+	We are very excited to release Barcode&hellip;</p></div></li>							
+														</ul>
+															
+					</div>
+					
+										<a href="http://filemakertoday.com/filemaker-developer-tools" class="readon-button">
+													FileMaker Tools for Developers											</a>
+									</div>	
+					
+				
+					
+			</div>
+		</div>
+			</div>
+</div></div><div class="box "><div class="content">
+
+<div class="custom "  >
+
+	<table border="0" cellpadding="1" cellspacing="1" height="49" width="676">
+	<tbody>
+		<tr>
+			<td style="width: 142px; background-color: rgb(255, 0, 0);">
+				<h1 style="text-align: center;">
+					<a href="http://www.filemakertoday.com/com/forum.php"><span style="color:#FFFFFF;">&nbsp;The FileMaker Forum</span></a></h1>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 142px; background-color: rgb(255, 0, 0); text-align: center;">
+				<span style="color:#FFFFFF;">Real Time Help - Answers for Every FileMaker Topic and</span><span style="color:#F0FFF0;"> Version </span></td>
+		</tr>
+	</tbody>
+</table>
+	
+</div>
+</div></div><div class="box "><h3 class="header">FMT Now Playing</h3><div class="content"><!-- Module Container -->
+<div class="hwd-module">
+<div class="media-details-view">
+  <!-- Row -->
+    <div class="items-row cols-3 row-0">
+        <!-- Column -->
+    <div class="item column-1">
+      <!-- Cell -->
+                        <h4 class="contentheading hasTip" title="FileMaker 12 - ExecutesSQL Function::">
+            <a href="/media-gallery/65-filemaker-12-executessql-function-12-days-of-filemaker-12-series" >              FileMaker 12 - ExecutesSQL Function 
+            </a>          </h4>
+                <!-- Thumbnail Image -->
+        <div class="media-item">
+          <div class="media-aspect0"></div>                    
+                    <!-- Media Type -->
+                              <div class="media-item-format-1-4">
+             <img src="/media/com_hwdmediashare/assets/images/icons/24/video.png" alt="COM_HWDMS_MEDIA_TYPE" />
+          </div>
+                              <div class="media-duration">
+             58:00          </div>
+                    <a href="/media-gallery/65-filemaker-12-executessql-function-12-days-of-filemaker-12-series" >             <img src="https://i1.ytimg.com/vi/y-j-msi3ij0/hqdefault.jpg" border="0" alt="FileMaker 12 - ExecutesSQL Function" class="media-thumb hasTip" title="FileMaker 12 - ExecutesSQL Function::" />
+          </a>                  </div>
+        <!-- Clears Item and Information -->
+        <div class="clear"></div>
+                <!-- Item Meta -->
+        <dl class="article-info">
+          <dt class="article-info-term">Details </dt>
+                      <dd class="media-info-description"> Greg Lane, Skeleton Key, hosted FM Academy's tenth webinar in the 12 Days of FileMaker 12 series,... </dd>
+                                <dd class="media-info-category"> <a href="/categories-media/61-filemaker-12-tutorials">FileMaker 12 Tutorials</a>  </dd>
+                      
+                                                </dl>
+         
+            <div class="item-separator"></div>
+    </div>
+        <!-- Row -->
+      <!-- Column -->
+    <div class="item column-2">
+      <!-- Cell -->
+                        <h4 class="contentheading hasTip" title="FileMaker Pro: Exploring the four modes | lynda.com overview::">
+            <a href="/media-gallery/55-filemaker-pro-exploring-the-four-modes-lynda-com-overview" >              FileMaker Pro: Exploring the four modes | lynda.com overview 
+            </a>          </h4>
+                <!-- Thumbnail Image -->
+        <div class="media-item">
+          <div class="media-aspect0"></div>                    
+                    <!-- Media Type -->
+                              <div class="media-item-format-1-4">
+             <img src="/media/com_hwdmediashare/assets/images/icons/24/video.png" alt="COM_HWDMS_MEDIA_TYPE" />
+          </div>
+                              <div class="media-duration">
+             8:19          </div>
+                    <a href="/media-gallery/55-filemaker-pro-exploring-the-four-modes-lynda-com-overview" >             <img src="https://i1.ytimg.com/vi/W3n0MsLgkCw/hqdefault.jpg" border="0" alt="FileMaker Pro: Exploring the four modes | lynda.com overview" class="media-thumb hasTip" title="FileMaker Pro: Exploring the four modes | lynda.com overview::" />
+          </a>                  </div>
+        <!-- Clears Item and Information -->
+        <div class="clear"></div>
+                <!-- Item Meta -->
+        <dl class="article-info">
+          <dt class="article-info-term">Details </dt>
+                      <dd class="media-info-description"> This FileMaker Pro overview explores the Browse, Layout, Find, and Preview modes. Watch more at... </dd>
+                                <dd class="media-info-category"> <a href="/categories-media/51-filemaker-basics">FileMaker Basics</a>  </dd>
+                      
+                                                </dl>
+         
+            <div class="item-separator"></div>
+    </div>
+        <!-- Row -->
+      <!-- Column -->
+    <div class="item column-3">
+      <!-- Cell -->
+                        <h4 class="contentheading hasTip" title="FileMaker 12 Layout Objects ::">
+            <a href="/media-gallery/125-filemaker-12-layout-objects" >              FileMaker 12 Layout Objects  
+            </a>          </h4>
+                <!-- Thumbnail Image -->
+        <div class="media-item">
+          <div class="media-aspect0"></div>                    
+                    <!-- Media Type -->
+                              <div class="media-item-format-1-4">
+             <img src="/media/com_hwdmediashare/assets/images/icons/24/video.png" alt="COM_HWDMS_MEDIA_TYPE" />
+          </div>
+                              <div class="media-duration">
+             1:1:28          </div>
+                    <a href="/media-gallery/125-filemaker-12-layout-objects" >             <img src="https://i1.ytimg.com/vi/-JPU0yBxTwY/hqdefault.jpg" border="0" alt="FileMaker 12 Layout Objects " class="media-thumb hasTip" title="FileMaker 12 Layout Objects ::" />
+          </a>                  </div>
+        <!-- Clears Item and Information -->
+        <div class="clear"></div>
+                <!-- Item Meta -->
+        <dl class="article-info">
+          <dt class="article-info-term">Details </dt>
+                      <dd class="media-info-description"> Provided by http://www.filemakermagazine.com - This video is an hour long presentation about what... </dd>
+                                <dd class="media-info-category"> <a href="/categories-media/53-filemaker-layouts-and-interface-design">FileMaker Layouts and Interface Design</a>  </dd>
+                      
+                                                </dl>
+         
+            <div class="item-separator"></div>
+    </div>
+    <span class="row-separator"></span>
+  </div>
+        <!-- Row -->
+    <div class="items-row cols-3 row-1">
+        <!-- Column -->
+    <div class="item column-1">
+      <!-- Cell -->
+                        <h4 class="contentheading hasTip" title="FileMaker 12 Container Field Enhancements::">
+            <a href="/media-gallery/61-filemaker-12-container-field-enhancements-12-days-of-filemaker-12" >              FileMaker 12 Container Field Enhancements 
+            </a>          </h4>
+                <!-- Thumbnail Image -->
+        <div class="media-item">
+          <div class="media-aspect0"></div>                    
+                    <!-- Media Type -->
+                              <div class="media-item-format-1-4">
+             <img src="/media/com_hwdmediashare/assets/images/icons/24/video.png" alt="COM_HWDMS_MEDIA_TYPE" />
+          </div>
+                              <div class="media-duration">
+             49:01          </div>
+                    <a href="/media-gallery/61-filemaker-12-container-field-enhancements-12-days-of-filemaker-12" >             <img src="https://i1.ytimg.com/vi/yjKoHZ-ANio/hqdefault.jpg" border="0" alt="FileMaker 12 Container Field Enhancements" class="media-thumb hasTip" title="FileMaker 12 Container Field Enhancements::" />
+          </a>                  </div>
+        <!-- Clears Item and Information -->
+        <div class="clear"></div>
+                <!-- Item Meta -->
+        <dl class="article-info">
+          <dt class="article-info-term">Details </dt>
+                      <dd class="media-info-description"> FileMaker Pro 12 brings a new storage method for container fields. This webinar will introduce... </dd>
+                                <dd class="media-info-category"> <a href="/categories-media/61-filemaker-12-tutorials">FileMaker 12 Tutorials</a>  </dd>
+                      
+                                                </dl>
+         
+            <div class="item-separator"></div>
+    </div>
+        <!-- Row -->
+      <!-- Column -->
+    <div class="item column-2">
+      <!-- Cell -->
+                        <h4 class="contentheading hasTip" title="FMRPC Let the Server Do the Work::">
+            <a href="/media-gallery/33-fmrpc-let-the-server-do-the-work" >              FMRPC Let the Server Do the Work 
+            </a>          </h4>
+                <!-- Thumbnail Image -->
+        <div class="media-item">
+          <div class="media-aspect0"></div>                    
+                    <!-- Media Type -->
+                              <div class="media-item-format-1-4">
+             <img src="/media/com_hwdmediashare/assets/images/icons/24/video.png" alt="COM_HWDMS_MEDIA_TYPE" />
+          </div>
+                              <div class="media-duration">
+             1:0:10          </div>
+                    <a href="/media-gallery/33-fmrpc-let-the-server-do-the-work" >             <img src="https://i1.ytimg.com/vi/mLtMP6Jrr90/hqdefault.jpg" border="0" alt="FMRPC Let the Server Do the Work" class="media-thumb hasTip" title="FMRPC Let the Server Do the Work::" />
+          </a>                  </div>
+        <!-- Clears Item and Information -->
+        <div class="clear"></div>
+                <!-- Item Meta -->
+        <dl class="article-info">
+          <dt class="article-info-term">Details </dt>
+                      <dd class="media-info-description"> FMRPC (FileMaker Remote Procedure Call) allows FileMaker Pro and FileMaker Go to offload data and... </dd>
+                                <dd class="media-info-category"> <a href="/categories-media/43-filemaker-server">FileMaker Server</a>  </dd>
+                      
+                                                </dl>
+         
+            <div class="item-separator"></div>
+    </div>
+        <!-- Row -->
+      <!-- Column -->
+    <div class="item column-3">
+      <!-- Cell -->
+                        <h4 class="contentheading hasTip" title="Filemaker Shool Attendance Part 2::">
+            <a href="/media-gallery/53-filemaker-shool-attendance-2-3" >              Filemaker Shool Attendance Part 2 
+            </a>          </h4>
+                <!-- Thumbnail Image -->
+        <div class="media-item">
+          <div class="media-aspect0"></div>                    
+                    <!-- Media Type -->
+                              <div class="media-item-format-1-4">
+             <img src="/media/com_hwdmediashare/assets/images/icons/24/video.png" alt="COM_HWDMS_MEDIA_TYPE" />
+          </div>
+                              <div class="media-duration">
+             19:58          </div>
+                    <a href="/media-gallery/53-filemaker-shool-attendance-2-3" >             <img src="https://i1.ytimg.com/vi/HAM3u6SxZMA/hqdefault.jpg" border="0" alt="Filemaker Shool Attendance Part 2" class="media-thumb hasTip" title="Filemaker Shool Attendance Part 2::" />
+          </a>                  </div>
+        <!-- Clears Item and Information -->
+        <div class="clear"></div>
+                <!-- Item Meta -->
+        <dl class="article-info">
+          <dt class="article-info-term">Details </dt>
+                      <dd class="media-info-description"> Filemaker Pro 12 tutorial for taking attendance of students at a shool. To see which students... </dd>
+                                <dd class="media-info-category"> <a href="/categories-media/49-filemaker-examples">FileMaker Examples</a>  </dd>
+                      
+                                                </dl>
+         
+            <div class="item-separator"></div>
+    </div>
+    <span class="row-separator"></span>
+  </div>
+          
+</div>
+</div></div></div>
+							</section>
+													</div>
+						
+												<aside id="gkInset">
+						        <div class="box dark"><h3 class="header">Inside FMT</h3><div class="content">
+<ul class="menu">
+<li class="item-566"><a href="/find-a-filemaker-developer" >Find a FileMaker Developer</a></li><li class="item-1203"><a href="/post-filemaker-news-blogs" >Post FileMaker News Events</a></li><li class="item-565"><a href="/filemaker-14" >FileMaker 14</a></li><li class="item-1062"><a href="/filemaker-13" >FileMaker 13</a></li><li class="item-563"><a href="/filemakergo" >FileMakerGo</a></li><li class="item-560"><a href="/filemaker-server" >FileMaker Server</a></li><li class="item-561"><a href="/filemaker-apps" >FileMaker Stuff</a></li><li class="item-562"><a href="/filemaker-email" >FileMaker Email</a></li><li class="item-1071"><a href="/filemaker-podcasts" >FileMaker Podcasts</a></li></ul>
+</div></div><div class="box "><div class="content">
+
+<div class="custom "  >
+
+	<div align="center">
+	<a href="http://jarviscrm.com/" target="_blank"><img align="middle" alt="Preferred FileMaker Developer" src="/images/banners/jarvis.gif" style="width: 300px; height: 300px;" /></a></div>
+	
+</div>
+</div></div><div class="box "><h3 class="header">Trending on FMT</h3><div class="content">	<div class="nspMain " id="nsp-nsp-770" data-config="{
+				'animation_speed': 400,
+				'animation_interval': 5000,
+				'animation_function': 'Fx.Transitions.Expo.easeIn',
+				'news_column': 1,
+				'news_rows': 1,
+				'links_columns_amount': 1,
+				'links_amount': 3
+			}">		
+					<div class="nspArts bottom" style="width:100%;">
+								<div class="nspTopInterface">
+										<ul class="nspPagination">
+												<li>1</li>
+												<li>2</li>
+												<li>3</li>
+												<li>4</li>
+											</ul>
+										
+										<span class="nspPrev">Prev</span>
+					<span class="nspNext">Next</span>
+									</div>
+								<div class="nspArtScroll1">
+					<div class="nspArtScroll2 nspPages4">
+																	<div class="nspArtPage active nspCol4">
+																				<div class="nspArt nspCol1 nspFeatured" style="padding:20px 0;">
+								<a href="/filemaker-13/4035-filemaker-13/fm-function-of-the-week-filter" class="nspImageWrapper tleft fleft gkResponsive" style="margin:0 0 18px 0;"><img class="nspImage tleft fleft gkResponsive" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.345accdd31e2a301a9f43942a8cf210e_Genericnsp-770.jpg" alt="FM Function of the Week: Filter" style=""  /></a><h4 class="nspHeader tleft fnone"><a href="/filemaker-13/4035-filemaker-13/fm-function-of-the-week-filter" title="FM Function of the Week: Filter">FM Function of the Week: Filter</a></h4><a class="readon  fleft" href="/filemaker-13/4035-filemaker-13/fm-function-of-the-week-filter">Read more</a>							</div>
+												</div>
+						<div class="nspArtPage nspCol4">
+																															<div class="nspArt nspCol1 nspFeatured" style="padding:20px 0;">
+								<a href="/filemaker-functionality/18-filemaker-functionality/fm-function-of-the-week-lower-upper-and-proper" class="nspImageWrapper tleft fleft gkResponsive" style="margin:0 0 18px 0;"><img class="nspImage tleft fleft gkResponsive" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.891e44a475166ee8b641fdb25e237870_Genericnsp-770.jpg" alt="FM Function of the Week: Lower, Upper, and Proper" style=""  /></a><h4 class="nspHeader tleft fnone"><a href="/filemaker-functionality/18-filemaker-functionality/fm-function-of-the-week-lower-upper-and-proper" title="FM Function of the Week: Lower, Upper, and Proper">FM Function of the Week: Lower, Upper, a&hellip;</a></h4><a class="readon  fleft" href="/filemaker-functionality/18-filemaker-functionality/fm-function-of-the-week-lower-upper-and-proper">Read more</a>							</div>
+												</div>
+						<div class="nspArtPage nspCol4">
+																															<div class="nspArt nspCol1" style="padding:20px 0;">
+								<a href="/filemaker-for-beginners/35-filemaker-for-beginners/losing-information-stored-in-filemaker-systems-to-an-organizations-competitors" class="nspImageWrapper tleft fleft gkResponsive" style="margin:0 0 18px 0;"><img class="nspImage tleft fleft gkResponsive" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/feedgator.images.9_darkmeetingnsp-770.jpg" alt="Losing Information Stored In FileMaker Systems To An Organizations Competitors" style=""  /></a><h4 class="nspHeader tleft fnone"><a href="/filemaker-for-beginners/35-filemaker-for-beginners/losing-information-stored-in-filemaker-systems-to-an-organizations-competitors" title="Losing Information Stored In FileMaker Systems To An Organizations Competitors">Losing Information Stored In FileMaker S&hellip;</a></h4><a class="readon  fleft" href="/filemaker-for-beginners/35-filemaker-for-beginners/losing-information-stored-in-filemaker-systems-to-an-organizations-competitors">Read more</a>							</div>
+												</div>
+						<div class="nspArtPage nspCol4">
+																															<div class="nspArt nspCol1 nspFeatured" style="padding:20px 0;">
+								<a href="/filemakergo/4037-filemakergo/getting-rid-of-paper-based-processes-webinar" class="nspImageWrapper tleft fleft gkResponsive" style="margin:0 0 18px 0;"><img class="nspImage tleft fleft gkResponsive" src="http://filemakertoday.com/modules/mod_news_pro_gk5/cache/k2.items.cache.f3b211aff541b1d51acfd470dde0cb77_Genericnsp-770.jpg" alt="Getting Rid of Paper-based Processes - FileMaker Web Seminar" style=""  /></a><h4 class="nspHeader tleft fnone"><a href="/filemakergo/4037-filemakergo/getting-rid-of-paper-based-processes-webinar" title="Getting Rid of Paper-based Processes - FileMaker Web Seminar">Getting Rid of Paper-based Processes - F&hellip;</a></h4><a class="readon  fleft" href="/filemakergo/4037-filemakergo/getting-rid-of-paper-based-processes-webinar">Read more</a>							</div>
+												</div>
+																</div>
+				</div>
+			</div>
+						<div class="nspLinksWrap bottom" style="width:99.9%;">
+			<div class="nspLinks" style="margin:0;">
+								<div class="nspLinkScroll1">
+					<div class="nspLinkScroll2 nspPages4">
+																				<ul class="nspList active nspCol4">
+														
+							<li class="even"><h4><a href="/filemaker-developer-tools/4034-filemaker-developer-tools/free-filemaker-text-toolkit-this-weeks-featured-app" title="Free FileMaker Text Toolkit This Weeks Featured Tool">Free FileMaker Text Toolkit This Weeks&hellip;</a></h4><p>
+	Text Toolkit is a free FileMaker® Pro&hellip;</p></li>							
+																											
+							<li class="odd"><h4><a href="/filemakergo/4037-filemakergo/filemaker-go-and-ios-8-compatibility" title="FileMaker Go and iOS 8 compatibility">FileMaker Go and iOS 8 compatibility</a></h4><p>
+	The following table provides information for FileMaker&hellip;</p></li>							
+																											
+							<li class="even"><h4><a href="/filemaker-presentation/25-filemaker-presentation/introducing-stylo-take-control-of-your-filemaker-themes" title="Introducing StylO - Take Control of your FileMaker Themes">Introducing StylO - Take Control of&hellip;</a></h4><p>
+	Stylo, gives you complete details on every&hellip;</p></li>							
+														</ul>
+							<ul class="nspList nspCol4">
+																											
+							<li class="odd"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/filemaker-date-fields-explored" title="FileMaker Date Fields Explored">FileMaker Date Fields Explored</a></h4><p>
+	
+		The date field is designed to hold&hellip;</p></li>							
+																											
+							<li class="even"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/a-reader-asks-filemaker-and-accidental-deletes" title="FileMaker and Accidental Deletes">FileMaker and Accidental Deletes</a></h4><p>
+	I have a FileMaker database with 4000+&hellip;</p></li>							
+																											
+							<li class="odd"><h4><a href="/filemaker-newswire/33-filemaker-newswire/the-2015-ultimate-filemaker-developer-marketing-package" title="Last Chance! The FMT FileMaker Developer $1 a Day Advertising Package">Last Chance! The FMT FileMaker Developer&hellip;</a></h4><p>
+	Here is a rare opportunity to promote&hellip;</p></li>							
+														</ul>
+							<ul class="nspList nspCol4">
+																											
+							<li class="even"><h4><a href="/filemaker-functionality/18-filemaker-functionality/data-type-detection-filemaker" title="Data Type Detection - FileMaker">Data Type Detection - FileMaker</a></h4><p>
+	FMT Staff Note: this is a promo&hellip;</p></li>							
+																											
+							<li class="odd"><h4><a href="/filemaker-13/4035-filemaker-13/fmp-url-and-javascript-responsive-web-viewer-layouts" title="FMP URL and JavaScript Responsive Web Viewer Layouts">FMP URL and JavaScript Responsive Web&hellip;</a></h4><p>
+	If you are serious about learning FileMaker&hellip;</p></li>							
+																											
+							<li class="even"><h4><a href="/filemakergo/4037-filemakergo/creating-a-fundamental-filemaker-go-layout-zoom-lock" title="Creating a Fundamental FileMaker Go Layout – Zoom Lock">Creating a Fundamental FileMaker Go Layout&hellip;</a></h4><p>
+	Welcome to the third post in my&hellip;</p></li>							
+														</ul>
+							<ul class="nspList nspCol4">
+																											
+							<li class="odd"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/the-unequal-non-equijoin-comparison-relationship-in-filemaker-5" title="The Unequal (non equijoin) Comparison Relationship In FileMaker">The Unequal (non equijoin) Comparison Relationship&hellip;</a></h4><p>
+	
+		The official term is non equijoin but&hellip;</p></li>							
+																											
+							<li class="even"><h4><a href="/filemaker-13/4035-filemaker-13/text-formatting-using-auto-enter-calculations-in-filemaker" title="Text Formatting Using Auto-Enter Calculations in FileMaker">Text Formatting Using Auto-Enter Calculations in&hellip;</a></h4><p>
+	What you should know before reading this&hellip;</p></li>							
+																											
+							<li class="odd"><h4><a href="/filemaker-functionality/18-filemaker-functionality/the-upsides-and-downsides-of-filemaker-lookups" title="The Upsides And Downsides Of FileMaker Lookups">The Upsides And Downsides Of FileMaker&hellip;</a></h4><p>
+	Although the premise of this discussion is&hellip;</p></li>							
+														</ul>
+															
+					</div>
+					
+									</div>	
+					
+				
+								<div class="nspBotInterface">
+										<ul class="nspPagination">
+												<li>1</li>
+												<li>2</li>
+												<li>3</li>
+												<li>4</li>
+											</ul>
+										
+										<span class="nspPrev">Prev</span>
+					<span class="nspNext">Next</span>
+									</div>
+					
+			</div>
+		</div>
+			</div>
+</div></div><div class="box  light"><div class="content"><div class="bannergroup light">
+
+	<div class="banneritem">
+										<div align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2888214149874525";
+/* 160x600, created 5/26/10 */
+google_ad_slot = "3512769918";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>				<div class="clr"></div>
+	</div>
+
+	<div class="bannerfooter">
+		<a href="http://filemakertoday.com/ads/"> Advertise HERE for as little as $3 a Day!</a>	</div>
+</div>
+</div></div><div class="box light"><h3 class="header">FMT Developer Referral</h3><div class="content">
+
+<ul class="zoo-item-list zoo-list business-default">
+		<li>
+<div class="layout-default ">
+
+		<div class="media media-left"> 
+	<a href="/filemaker-consultants/item/the-scarpetta-group"   title="The Scarpetta Group"  ><img src="http://filemakertoday.com/cache/com_zoo/images/scapetta-group-logo_e5e71aece6c03ed6d18c9192a3d67c85.jpg" title="The Scarpetta Group" alt="The Scarpetta Group" width="50" height="50" /></a>
+ </div>
+		
+		<p class="title"> <a title="The Scarpetta Group" href="/filemaker-consultants/item/the-scarpetta-group">The Scarpetta Group</a> </p>
+		
+		<p class="meta"><span class="element element-text first last">
+	 Preferred FileMaker Developers - North Carolina, South Carolina, Florida, East Coast and Midwest USA</span></p>
+		
+		
+		
+		
+	
+</div></li>
+		<li>
+<div class="layout-default ">
+
+		<div class="media media-left"> 
+	<a href="/filemaker-integration/item/db-services"   title="DB Services"  ><img src="http://filemakertoday.com/cache/com_zoo/images/db-services_581f021f03303c08fa71654c14bd6273.gif" title="DB Services" alt="DB Services" width="50" height="50" /></a>
+ </div>
+		
+		<p class="title"> <a title="DB Services" href="/filemaker-integration/item/db-services">DB Services</a> </p>
+		
+		<p class="meta"><span class="element element-text first last">
+	 Preferred FileMaker Developers - Midwest USA, Illinois, Ohio, Indiana, Iowa</span></p>
+		
+		
+		
+		
+	
+</div></li>
+		<li>
+<div class="layout-default ">
+
+		
+		<p class="title"> <a title="Cornerstone Solutions" href="/filemaker-go-applications/item/cornerstone-solutions">Cornerstone Solutions</a> </p>
+		
+		<p class="meta"><span class="element element-text first last">
+	 Custom solutions for all kinds of businesses and organizations.</span></p>
+		
+		
+		
+		
+	
+</div></li>
+		<li>
+<div class="layout-default ">
+
+		<div class="media media-left"> 
+	<a href="/filemaker-consultants/item/macumen"   title="Macumen"  ><img src="http://filemakertoday.com/cache/com_zoo/images/macumen-filemaker_4dd13dac3cba3b1b038d3ac08a238cb8.gif" title="Macumen" alt="Macumen" width="50" height="50" /></a>
+ </div>
+		
+		<p class="title"> <a title="Macumen" href="/filemaker-consultants/item/macumen">Macumen</a> </p>
+		
+		<p class="meta"><span class="element element-text first last">
+	 An FMT 5 Star New South Wales FileMaker Developer Partner</span></p>
+		
+		
+		
+		
+	
+</div></li>
+	</ul>
+
+</div></div><div class="box "><div class="content">
+
+<div class="custom "  >
+
+	<div align="center">
+	<a href="https://www.dbservices.com/" target="_blank"><img alt="" src="/images/banners/DBServices250x250.gif" style="height: 250px; width: 250px;" /></a></div>
+	
+</div>
+</div></div><div class="box  light"><div class="content">
+
+<div class="custom  light"  >
+
+	<p>
+	<a href="http://www.monkeybreadsoftware.de/filemaker/" target="_blank"><img alt="The Ultimate FileMaker Toolbox" src="/images/banners/monkeybread-mbs-250.png" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px;" /></a></p>
+	
+</div>
+</div></div><div class="box "><div class="content">
+
+<div class="custom "  >
+
+	<p style="text-align: center;">
+	<img alt="" src="http://www.filemakertoday.com/ADMINISTRATOR/images/filemaker-forum-fmt.png" /><a href="http://filemakertoday.com/com/"><img alt="" src="/images/filemaker-forum-fmt.png" style="height: 257px; width: 240px;" /></a><img alt="" src="http://www.filemakertoday.com/ADMINISTRATOR/images/filemaker-forum-fmt.png" /></p>
+	
+</div>
+</div></div><div class="box "><h3 class="header">Videos</h3><div class="content">	<div class="nspMain autoanim hover " id="nsp-nsp-774" data-config="{
+				'animation_speed': 400,
+				'animation_interval': 5000,
+				'animation_function': 'Fx.Transitions.Expo.easeIn',
+				'news_column': 1,
+				'news_rows': 1,
+				'links_columns_amount': 1,
+				'links_amount': 1
+			}">		
+					<div class="nspArts bottom" style="width:100%;">
+								<div class="nspTopInterface">
+										<ul class="nspPagination">
+												<li>1</li>
+												<li>2</li>
+												<li>3</li>
+											</ul>
+										
+										<span class="nspPrev">Prev</span>
+					<span class="nspNext">Next</span>
+									</div>
+								<div class="nspArtScroll1">
+					<div class="nspArtScroll2 nspPages3">
+																	<div class="nspArtPage active nspCol3">
+																				<div class="nspArt nspCol1" style="padding:0 20px 20px 0;">
+								<h4 class="nspHeader tleft fnone"><a href="/filemaker-tips/36-filemaker-tips/youtube-id-wudhakeoqee" title="Using Container Fields and Related Records in FileMaker">Using Container Fields and Related Recor&hellip;</a></h4><p class="nspInfo nspInfo1 tleft fnone">01-05-2015 Hits:2386 <a href="/filemaker-tips" >FileMaker Tips</a> <span><img src="/media/k2/users/135.jpg" alt="Soliant Consulting - avatar" class="nspAvatar" width="16" height="16" /> Soliant Consulting</span></p><a href="/filemaker-tips/36-filemaker-tips/youtube-id-wudhakeoqee" class="nspImageWrapper tleft fleft" style="margin:6px 14px 0 0;"><img class="nspImage tleft fleft" src="http://img.youtube.com/vi/wuDhakEOQeE/0.jpg" alt="Using Container Fields and Related Records in FileMaker" style="width:160px;height:120px;"  /></a><p class="nspText tleft fleft">
+	
+		
+		
+			
+		This video discusses a scalable method to add multiple types of container data to a FileMaker database. Martha uses popovers, script parameters, and related records to create a new child...</p><p class="nspInfo nspInfo2 tleft fleft"></p><a class="readon  fright" href="/filemaker-tips/36-filemaker-tips/youtube-id-wudhakeoqee">Read more</a>							</div>
+												</div>
+						<div class="nspArtPage nspCol3">
+																															<div class="nspArt nspCol1 nspFeatured" style="padding:0 20px 20px 0;">
+								<h4 class="nspHeader tleft fnone"><a href="/filemaker-tips/36-filemaker-tips/youtube-id-ftttwfoacra" title="Supercharge your FileMaker broadcast emails with 360Works CloudMail">Supercharge your FileMaker broadcast ema&hellip;</a></h4><p class="nspInfo nspInfo1 tleft fnone">30-04-2015 Hits:2334 <a href="/filemaker-tips" >FileMaker Tips</a> <span><img src="/media/k2/users/2.jpg" alt="YouTube Help - avatar" class="nspAvatar" width="16" height="16" /> YouTube Help</span></p><a href="/filemaker-tips/36-filemaker-tips/youtube-id-ftttwfoacra" class="nspImageWrapper tleft fleft" style="margin:6px 14px 0 0;"><img class="nspImage tleft fleft" src="http://img.youtube.com/vi/FTTTWfOAcRA/0.jpg" alt="Supercharge your FileMaker broadcast emails with 360Works CloudMail" style="width:160px;height:120px;"  /></a><p class="nspText tleft fleft">
+	
+		
+		
+			
+		
+			360Works CloudMail is a FileMaker plug-in for sending outbound e-mail messages and monitoring e-mail interactions using Amazon Web Services.
+			
+			CloudMail lets you efficiently send e-mails from FileMaker to any size audience...</p><p class="nspInfo nspInfo2 tleft fleft"></p><a class="readon  fright" href="/filemaker-tips/36-filemaker-tips/youtube-id-ftttwfoacra">Read more</a>							</div>
+												</div>
+						<div class="nspArtPage nspCol3">
+																															<div class="nspArt nspCol1" style="padding:0 20px 20px 0;">
+								<h4 class="nspHeader tleft fnone"><a href="/filemaker-tips/36-filemaker-tips/youtube-id-ftv2dzpk-h8" title="FileMaker Tutorial - InspectorPro 5 Overview">FileMaker Tutorial - InspectorPro 5 Over&hellip;</a></h4><p class="nspInfo nspInfo1 tleft fnone">14-04-2015 Hits:2435 <a href="/filemaker-tips" >FileMaker Tips</a> <span><img src="/media/k2/users/2.jpg" alt="ISO FileMaker Magazine - avatar" class="nspAvatar" width="16" height="16" /> ISO FileMaker Magazine</span></p><a href="/filemaker-tips/36-filemaker-tips/youtube-id-ftv2dzpk-h8" class="nspImageWrapper tleft fleft" style="margin:6px 14px 0 0;"><img class="nspImage tleft fleft" src="http://img.youtube.com/vi/FTv2dZpk_h8/0.jpg" alt="FileMaker Tutorial - InspectorPro 5 Overview" style="width:160px;height:120px;"  /></a><p class="nspText tleft fleft">Here&#39;s a pretty throughout walk through of Inspector Pro 5 with Vince Menanno. Download a copy here. http://fmgo.to/1asqTpk.</p><p class="nspInfo nspInfo2 tleft fleft"></p><a class="readon  fright" href="/filemaker-tips/36-filemaker-tips/youtube-id-ftv2dzpk-h8">Read more</a>							</div>
+												</div>
+																</div>
+				</div>
+			</div>
+						<div class="nspLinksWrap bottom" style="width:99.9%;">
+			<div class="nspLinks" style="margin:0;">
+								<div class="nspLinkScroll1">
+					<div class="nspLinkScroll2 nspPages3">
+																				<ul class="nspList active nspCol3">
+														
+							<li class="even"><h4><a href="/filemaker-tips/36-filemaker-tips/youtube-id-n0brkahgkn8" title="Filemaker Join Table">Filemaker Join Table</a></h4><p>A little explanation on how to make a Filemaker Join table. This was based on a discussion on the Filemaker Forum: http://forums.filemaker.com/posts/7c574577b9 File: https://dl.dropboxuserconten...</p></li>							
+														</ul>
+							<ul class="nspList nspCol3 active">
+																											
+							<li class="odd"><h4><a href="/filemaker-tips/36-filemaker-tips/youtube-id-dcao9nvh-pw" title="Filemaker Boookings and Reservation System">Filemaker Boookings and Reservation System</a></h4><p>Get a nice discount to this course by following the link below: https://www.udemy.com/filemaker-bookings-and-reservation-system/?couponCode=Discount Have a look at my other Udemy courses...</p></li>							
+														</ul>
+							<ul class="nspList nspCol3 active">
+																											
+							<li class="even"><h4><a href="/filemaker-tips/36-filemaker-tips/youtube-id-v55m7-glwik" title="Essential Design Principles FileMaker Web Seminar">Essential Design Principles FileMaker Web Seminar</a></h4><p>
+	
+		
+		
+			
+		
+			&nbsp;
+		Proper solution design means the people who use it can solve previously insurmountable problems and more easily accomplish business tasks. As the designer of the system, your solution will always&hellip;</p></li>							
+														</ul>
+															
+					</div>
+					
+									</div>	
+					
+				
+								<div class="nspBotInterface">
+										<ul class="nspPagination">
+												<li>1</li>
+												<li>2</li>
+												<li>3</li>
+											</ul>
+										
+										<span class="nspPrev">Prev</span>
+					<span class="nspNext">Next</span>
+									</div>
+					
+			</div>
+		</div>
+			</div>
+</div></div>
+						</aside>
+											</div>
+		    	</section>
+		    	
+		    			    	<section id="gkBottom1">
+		    		<div class="gkCols6 gkEqualColumns">
+		    			<div class="box light gkmod-1"><h3 class="header">FM Connect Weather</h3><div class="content"><div class="gkwMain horizontal" id="weather1">
+	    <div class="gkwCurrent">
+		<div class="gkwMainLeft">
+							<img src="http://filemakertoday.com/modules/mod_weather_gk4/icons/meteocons_dark/64/partly_cloudy_night.png" alt="Partly Cloudy" />
+						<p class="gkwTemp">72&deg;F</p>
+		</div>
+		<div class="gkwMainRight">
+			<h2>Palm Beach FL</h2>			<p class="gkwCondition">Partly Cloudy</p>
+			<p class="gkwHumidity">Humidity: 46%</p>			<p class="gkwWind">Wind: 12 mph</p>		</div>
+	</div>
+		
+		<ul class="gkwNextDays">
+        		<li class="gkwItems2">
+        	        		<img src="http://filemakertoday.com/modules/mod_weather_gk4/icons/meteocons_dark/32/mostly_cloudy_night.png" title="Mostly Cloudy" alt="Mostly Cloudy" />
+        	        	
+            <div class="gkwDayTemp">
+            	<span class="gkwDay">18 Feb 2016</span>
+				<span class="gkwDayDay">75&deg;F</span>
+				<span class="gkwDayNight">63&deg;F</span>
+			</div>
+		</li>
+        		<li class="gkwItems2">
+        	        		<img src="http://filemakertoday.com/modules/mod_weather_gk4/icons/meteocons_dark/32/mostly_cloudy_night.png" title="Mostly Cloudy" alt="Mostly Cloudy" />
+        	        	
+            <div class="gkwDayTemp">
+            	<span class="gkwDay">19 Feb 2016</span>
+				<span class="gkwDayDay">71&deg;F</span>
+				<span class="gkwDayNight">62&deg;F</span>
+			</div>
+		</li>
+        	</ul>
+	</div></div></div>
+		    		</div>
+		    	</section>
+		    			    	
+		    			    	<section id="gkBottom2">
+		    		<div class="gkCols6 gkEqualColumns gkNoMargin">
+		    			<div class="box  gkmod-3"><h3 class="header">Contributors</h3><div class="content">
+
+<div class="custom "  >
+
+	<ul>
+	<li>
+		<a href="http://www.soliantconsulting.com" target="_blank">Soliant Consulting</a></li>
+	<li>
+		<a href="http://www.scarpettagroup.com" target="_blank">Scarpetta Group</a></li>
+	<li>
+		<a href="http://www.excelisys.com" target="_blank">Excelisys</a></li>
+	<li>
+		<a href="http://www.supportgroup.com/" target="_blank">12ti Studios</a></li>
+	<li>
+		<a href="http://www.beezwax.net" target="_blank">Beezwax</a></li>
+	<li>
+		<a href="http://www.filemakerhacks.com" target="_blank">Kevin Frank</a></li>
+	<li>
+		<a href="http://dwaynewright.com" target="_blank">DwayneWright.Com</a></li>
+</ul>
+	
+</div>
+</div></div><div class="box  gkmod-3"><h3 class="header">Featured Authors</h3><div class="content">
+
+<div class="custom "  >
+
+	<ul>
+	<li>
+		<a href="/index.php/component/k2/itemlist/user/54-thesupportgroup">Chad Novotny</a></li>
+	<li>
+		<a href="http://www.filemakertoday.com/filemaker-video-tips/author/101-guystevens" title="Guy Stevens - FileMaker Developer">Guy Stevens</a></li>
+	<li>
+		<a href="#">Dwayne Wright</a></li>
+	<li>
+		<a href="/index.php/component/k2/itemlist/user/45-kevinfrank">Kevin Frank</a></li>
+	<li>
+		<a href="/index.php/component/k2/itemlist/user/76-isolutions">Cris Ippolite</a></li>
+	<li>
+		<a href="#">Brian Schick</a></li>
+	<li>
+		<a href="#">Donavan Chandler</a></li>
+</ul>
+	
+</div>
+</div></div><div class="box  gkmod-3"><h3 class="header">FileMaker Forum</h3><div class="content">
+
+<div class="custom "  >
+
+	<ul>
+	<li>
+		<a href="http://www.filemakertoday.com/com/forumdisplay.php/84-FileMaker-13-All-Versions" target="_blank">FileMaker 13</a></li>
+	<li>
+		<a href="http://www.filemakertoday.com/com/forumdisplay.php/82-FileMaker-Pro-12-All-versions" target="_blank">FileMaker 12</a></li>
+	<li>
+		<a href="http://www.filemakertoday.com/com/forumdisplay.php/71-FileMaker-Pro-11" target="_blank">FileMaker 11</a></li>
+	<li>
+		<a href="http://www.filemakertoday.com/com/forumdisplay.php/22-FileMaker-Pro-Server-and-Networking" target="_blank">FileMaker Server</a></li>
+	<li>
+		<a href="http://www.filemakertoday.com/com/forumdisplay.php/15-Portal-amp-Relationships" target="_blank">FileMaker Portals</a></li>
+	<li>
+		<a href="http://www.filemakertoday.com/com/forumdisplay.php/21-ScriptMaker-and-Scripting">FileMaker Scripts</a></li>
+	<li>
+		<a href="http://www.filemakertoday.com/com/activity.php" target="_blank">Forum Live</a></li>
+</ul>
+	
+</div>
+</div></div>
+		    		</div>
+		    	</section>
+		    				</div>
+						<aside id="gkSidebarRight">
+				<div>
+					<div class="box color"><h3 class="header">Who's On FMT</h3><div class="content">
+			<p>FMT currently has 1925&#160;guests and 32 Developers online</p>
+
+</div></div><div class="box "><h3 class="header">FMT Google+</h3><div class="content"><div id="sp_gp_badge_id708" class="sp_gpBadge">
+			<a href="https://plus.google.com/107338355834804938571?prsrc=3" style="cursor:pointer;display:inline-block;text-decoration:none;color:#333333;font:13px/16px arial,sans-serif;">
+			<span style="display:inline-block;font-weight:bold;vertical-align:top;margin-right:5px;margin-top:8px;">FileMaker Today</span>
+			<span style="display:inline-block;vertical-align:top;margin-right:15px;margin-top:8px;">on</span>
+			<img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="" style="border:0;width:32px;height:32px;"/>
+		</a>
+		<script type="text/javascript">gapi.plus.go();</script>
+	<div style="clear:both"></div>
+</div>
+</div></div><div class="box "><div class="content">
+
+<div class="custom "  >
+
+	<p>
+	<a href="http://learningfilemaker.com/" target="_blank"><img alt="The Ultimate FileMaker 13 Video Series" src="/images/banners/rccvideo250x400.png" style="display: block; margin-left: auto; margin-right: auto; width: 250px; height: 400px;" /></a></p>
+	
+</div>
+</div></div><div class="box light"><h3 class="header">Live On Our Forums</h3><div class="content"><div id="pgt56c65d770be08rssscroller_module" class="rssscroller_module" style="height: 525px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
+<script type="text/javascript" src="http://filemakertoday.com/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
+<script type="text/javascript">
+function loadFeedControl() {
+	var feedData  = [
+{ title : "FileMaker 13", furl : "http://www.filemakertoday.com/com/external.php?type=RSS2&forumids=84", max : "5" },{ title : "FileMaker 12", furl : "http://www.filemakertoday.com/com/external.php?type=RSS2&forumids=82", max : "5" },{ title : "", furl : "", max : "5" } ]
+	var options = { scrollMethod : "fade",
+					nFeedPage : 9,
+					transitionTime : 1000,
+					displayTime : 5000,
+					showTitle : 0, 
+					showDate : 1,
+					showBody : 1,
+					instanceId : "pgt56c65d770be08"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt56c65d770be08rssscroller_module", options);
+}
+google.load("feeds", "1");
+google.setOnLoadCallback(loadFeedControl);
+</script>
+</div></div><div class="box "><div class="content">
+
+<div class="custom "  >
+
+	<p>
+	<a href="http://fmphost.com/" target="_blank"><img alt="The Ultimate FileMaker 13 Video Series" src="/images/banners/FMHOST250.png" style="display: block; margin-left: auto; margin-right: auto; width: 250px; height: 450px;" /></a></p>
+	
+</div>
+</div></div><div class="box light"><h3 class="header">Google Translate</h3><div class="content">﻿
+<div align="center" class="light">
+
+<div id="google_translate_element"></div>
+<script>
+function googleTranslateElementInit() {
+	new google.translate.TranslateElement({
+	pageLanguage: 'auto',
+	autoDisplay: false,
+		layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+	}, 'google_translate_element');
+}
+</script><a href="http://www.filemakertoday.com" target="_blank"><small>FileMaker! Translation</small></a>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</div></div></div><div class="box light"><div class="content"><div class="bannergrouplight">
+
+	<div class="banneritem">
+																																																															<a
+							href="/component/banners/click/23" target="_blank"
+							title="Mindfire Solutions">
+							<img
+								src="http://filemakertoday.com/images/banners/200mindfire.gif"
+								alt="Our Preferred FileMaker Everything Provider"
+								width ="225"								height ="225"							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+
+	<div class="bannerfooter">
+		<a href="http://filemakertoday.com/ads/">Advertise HERE for as little as $3 a Day!</a>	</div>
+</div>
+</div></div><div class="box "><h3 class="header">FileMaker 101</h3><div class="content">	<div class="nspMain autoanim hover " id="nsp-nsp-788" data-config="{
+				'animation_speed': 400,
+				'animation_interval': 5000,
+				'animation_function': 'Fx.Transitions.Expo.easeIn',
+				'news_column': 1,
+				'news_rows': 1,
+				'links_columns_amount': 1,
+				'links_amount': 3
+			}">		
+					<div class="nspArts bottom" style="width:100%;">
+								<div class="nspTopInterface">
+										<ul class="nspPagination">
+												<li>1</li>
+												<li>2</li>
+												<li>3</li>
+											</ul>
+										
+										<span class="nspPrev">Prev</span>
+					<span class="nspNext">Next</span>
+									</div>
+								<div class="nspArtScroll1">
+					<div class="nspArtScroll2 nspPages3">
+																	<div class="nspArtPage active nspCol3">
+																				<div class="nspArt nspCol1" style="padding:0 20px 20px 0;">
+								<h4 class="nspHeader tleft fnone"><a href="/filemaker-for-beginners/35-filemaker-for-beginners/speedy-document-scanning-directly-into-filemaker-pro-13" title="Document Scanning FileMaker Pro 13">Document Scanning FileMaker Pro 13</a></h4><p class="nspInfo nspInfo1 tleft fnone">14-04-2015 Hits:2878 <a href="/filemaker-for-beginners" >Filemaker for Beginners</a> <span><img src="/media/k2/users/16.png" alt="Douglas Alder - avatar" class="nspAvatar" width="16" height="16" /> Douglas Alder</span></p><p class="nspText tleft fleft">
+	
+		
+			A Macintosh computer, FileMaker Pro 13, a Fujitsu ScanSnap S1300i, Automator, Applescript, a Folder Action and FileMaker’s URL Scheme make a paperless solution for legal waivers a reality.
+		</p><p class="nspInfo nspInfo2 tleft fleft"></p><a class="readon  fright" href="/filemaker-for-beginners/35-filemaker-for-beginners/speedy-document-scanning-directly-into-filemaker-pro-13">Read more</a>							</div>
+												</div>
+						<div class="nspArtPage nspCol3">
+																															<div class="nspArt nspCol1" style="padding:0 20px 20px 0;">
+								<h4 class="nspHeader tleft fnone"><a href="/filemaker-for-beginners/35-filemaker-for-beginners/locking-a-filemaker-record-via-validation" title="Locking A FileMaker Record Via Validation">Locking A FileMaker Record Via Validatio&hellip;</a></h4><p class="nspInfo nspInfo1 tleft fnone">13-04-2015 Hits:2339 <a href="/filemaker-for-beginners" >Filemaker for Beginners</a> <span><img src="/media/k2/users/31.jpg" alt="Dwayne Wright - avatar" class="nspAvatar" width="16" height="16" /> Dwayne Wright</span></p><p class="nspText tleft fleft">
+	As you know, FileMaker can be setup to validate data that is entered into a field. You can setup the validation settings via a number of dialog box controls. When...</p><p class="nspInfo nspInfo2 tleft fleft"></p><a class="readon  fright" href="/filemaker-for-beginners/35-filemaker-for-beginners/locking-a-filemaker-record-via-validation">Read more</a>							</div>
+												</div>
+						<div class="nspArtPage nspCol3">
+																															<div class="nspArt nspCol1" style="padding:0 20px 20px 0;">
+								<h4 class="nspHeader tleft fnone"><a href="/filemaker-for-beginners/35-filemaker-for-beginners/the-filemaker-fieldnames-function" title="The FileMaker FieldNames Function">The FileMaker FieldNames Function</a></h4><p class="nspInfo nspInfo1 tleft fnone">13-04-2015 Hits:2964 <a href="/filemaker-for-beginners" >Filemaker for Beginners</a> <span><img src="/media/k2/users/31.jpg" alt="Dwayne Wright - avatar" class="nspAvatar" width="16" height="16" /> Dwayne Wright</span></p><p class="nspText tleft fleft">
+	
+		FieldNames
+		FieldNames( fileName ; layoutName or tableName)
+		FMP Version: All current versions of FileMaker
+		Returns A Text Result
+	</p><p class="nspInfo nspInfo2 tleft fleft"></p><a class="readon  fright" href="/filemaker-for-beginners/35-filemaker-for-beginners/the-filemaker-fieldnames-function">Read more</a>							</div>
+												</div>
+																</div>
+				</div>
+			</div>
+						<div class="nspLinksWrap bottom" style="width:99.9%;">
+			<div class="nspLinks" style="margin:0;">
+								<div class="nspLinkScroll1">
+					<div class="nspLinkScroll2 nspPages3">
+																				<ul class="nspList active nspCol3">
+														
+							<li class="even"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/a-couple-filemaker-relationship-design-tips" title="A Couple FileMaker Relationship Design Tips">A Couple FileMaker Relationship Design Tips</a></h4><p>
+	When in the relationship graph area, quickly drag a line from your table occurrence out ... then back to the same table occurrence and let go of the mouse button&hellip;</p></li>							
+																											
+							<li class="odd"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/the-filemaker-exact-function" title="The FileMaker Exact Function">The FileMaker Exact Function</a></h4><p>
+	Primarily, this function compares two text strings to see if they are an exact match. Text strings even have to match in the case formatting (lower or upper) for each&hellip;</p></li>							
+																											
+							<li class="even"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/the-set-error-capture-filemaker-script-step" title="The Set Error Capture FileMaker Script Step">The Set Error Capture FileMaker Script Step</a></h4><p>
+	We all have had the experience of encountering a FileMaker error message. The most common occurrence is when FileMaker tells you that it didn't find any records that match your&hellip;</p></li>							
+														</ul>
+							<ul class="nspList nspCol3">
+																											
+							<li class="odd"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/validation-of-filemaker-data-strict-data-type" title="Validation Of FileMaker Data: Strict Data Type">Validation Of FileMaker Data: Strict Data Type</a></h4><p>
+	The strict data type validation option is the first possible selection in the “Require” area of the validation dialog box. Strict Data Type validation allows you to make sure the&hellip;</p></li>							
+																											
+							<li class="even"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/pass-global-data-sans-a-filemaker-relationship" title="Pass Global Data In A FileMaker Relationship">Pass Global Data In A FileMaker Relationship</a></h4><p>
+	Data in global fields can be passed from one table to another and not have a relationship. So what does that mean, exactly? As you get deeper and deeper into&hellip;</p></li>							
+																											
+							<li class="odd"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/the-filemaker-fieldrepetitions-function" title="The FileMaker FieldRepetitions Function">The FileMaker FieldRepetitions Function</a></h4><p>
+	The FieldRepetitions function gives you the number of repetitions and the orientation of a given repeating field on a layout. So if we had a repeating field using this function&hellip;</p></li>							
+														</ul>
+							<ul class="nspList nspCol3">
+																											
+							<li class="even"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/filemaker-validate-maximum-number-of-characters" title="FileMaker Validate: Maximum Number Of Characters">FileMaker Validate: Maximum Number Of Characters</a></h4><p>
+	This feature appeared for the first time with FileMaker 7 and it allows you to limit the number of characters that can be typed into a field. In a way&hellip;</p></li>							
+																											
+							<li class="odd"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/filemaker-lookups-explored" title="FileMaker Lookups Explored">FileMaker Lookups Explored</a></h4><p>
+	A lookup is a FileMaker relationship related term and will copy the information from a child table occurrence into a field in the parent table occurrence. The copying of information&hellip;</p></li>							
+																											
+							<li class="even"><h4><a href="/filemaker-for-beginners/35-filemaker-for-beginners/validate-filemaker-data-in-a-range" title="Validate FileMaker Data In A Range">Validate FileMaker Data In A Range</a></h4><p>
+	The in range validation is used to make sure the data entered falls in between a starting value and an ending value. When setting up this validation, the lowest acceptable&hellip;</p></li>							
+														</ul>
+															
+					</div>
+					
+									</div>	
+					
+				
+								<div class="nspBotInterface">
+										<ul class="nspPagination">
+												<li>1</li>
+												<li>2</li>
+												<li>3</li>
+											</ul>
+										
+										<span class="nspPrev">Prev</span>
+					<span class="nspNext">Next</span>
+									</div>
+					
+			</div>
+		</div>
+			</div>
+</div></div><div class="box "><div class="content"><div class="bannergroup">
+
+	<div class="banneritem">
+																																																															<a
+							href="/component/banners/click/35" target="_blank"
+							title="Scarpetta 250">
+							<img
+								src="http://filemakertoday.com/images/banners/scarpetta-power.png"
+								alt="Take Your FileMaker Know How to the Next Level"
+								width ="250"								height ="250"							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+
+	<div class="bannerfooter">
+		<a href="http://filemakertoday.com/ads/">Your Ad Here for as little as $3 a Day!</a>	</div>
+</div>
+</div></div><div class="box  dark"><h3 class="header">FM2D Tag Cloud </h3><div class="content">
+<div id="k2ModuleBox660" class="k2TagCloudBlock  dark">
+									<a href="/component/k2/tag/ExecuteSQL" title="9 items tagged with ExecuteSQL"> ExecuteSQL </a>
+												<a href="/component/k2/tag/filemaker" title="12 items tagged with filemaker"> filemaker </a>
+												<a href="/component/k2/tag/filemaker 13" title="6 items tagged with filemaker 13"> filemaker 13 </a>
+												<a href="/component/k2/tag/filemaker 13 server" title="6 items tagged with filemaker 13 server"> filemaker 13 server </a>
+												<a href="/component/k2/tag/filemaker function" title="8 items tagged with filemaker function"> filemaker function </a>
+												<a href="/component/k2/tag/filemaker functions" title="11 items tagged with filemaker functions"> filemaker functions </a>
+												<a href="/component/k2/tag/filemaker scripts" title="5 items tagged with filemaker scripts"> filemaker scripts </a>
+												<a href="/component/k2/tag/filemaker server" title="25 items tagged with filemaker server"> filemaker server </a>
+												<a href="/component/k2/tag/gui" title="7 items tagged with gui"> gui </a>
+												<a href="/component/k2/tag/layouts" title="5 items tagged with layouts"> layouts </a>
+												<a href="/component/k2/tag/portals" title="7 items tagged with portals"> portals </a>
+												<a href="/component/k2/tag/relationships" title="10 items tagged with relationships"> relationships </a>
+												<a href="/component/k2/tag/scripts" title="8 items tagged with scripts"> scripts </a>
+												<a href="/component/k2/tag/script triggers" title="5 items tagged with script triggers"> script triggers </a>
+												<a href="/component/k2/tag/sql" title="6 items tagged with sql"> sql </a>
+												<a href="/component/k2/tag/value lists" title="7 items tagged with value lists"> value lists </a>
+						</div>
+ </div></div><div class="box  pattern badge-new"><h3 class="header">FileMaker Tips</h3><div class="content"><div class="discuss-mod recent-discussions pattern badge-new">
+	<div class="list-item">
+		
+				<div class="item">
+			<div class="story">
+				<div class="item-user">
+
+										<a class="item-title bold"  href="/component/easydiscuss/how-do-i-create-new-record-in-related-table-using-button?Itemid=1">How do I create new record in related table using ...</a>
+					<div class="small">Started by <a href="/component/easydiscuss/profile/olly?Itemid=1">Olly</a></div>
+				</div>
+
+				
+								<div class="item-info push-top small">
+					<span>
+						<img src="http://filemakertoday.com/modules/mod_recentdiscussions/images/clock.png">
+						2 years ago					</span>
+					<span data-original-title="2 replies" rel="ed-tooltip">
+						<img src="http://filemakertoday.com/modules/mod_recentdiscussions/images/replies.png">
+						2					</span>
+					<span data-original-title="11772 views" rel="ed-tooltip">
+						<img src="http://filemakertoday.com/modules/mod_recentdiscussions/images/views.png">
+						11772					</span>
+				</div>
+				
+			</div>
+			<div class="both"></div>
+		</div>
+		
+				<div class="item">
+			<div class="story">
+				<div class="item-user">
+
+										<a class="item-title bold"  href="/component/easydiscuss/how-do-i-see-like-records-in-a-filemaker-portal?Itemid=1">How do I see "Like" records in a FileMaker Portal</a>
+					<div class="small">Started by <a href="/component/easydiscuss/profile/morgan-bleak?Itemid=1">Morgan Bleak</a></div>
+				</div>
+
+				
+								<div class="item-info push-top small">
+					<span>
+						<img src="http://filemakertoday.com/modules/mod_recentdiscussions/images/clock.png">
+						2 years ago					</span>
+					<span data-original-title="2 replies" rel="ed-tooltip">
+						<img src="http://filemakertoday.com/modules/mod_recentdiscussions/images/replies.png">
+						2					</span>
+					<span data-original-title="7528 views" rel="ed-tooltip">
+						<img src="http://filemakertoday.com/modules/mod_recentdiscussions/images/views.png">
+						7528					</span>
+				</div>
+				
+			</div>
+			<div class="both"></div>
+		</div>
+		
+				<div class="item">
+			<div class="story">
+				<div class="item-user">
+
+										<a class="item-title bold"  href="/component/easydiscuss/commenting-filemaker-scripts?Itemid=1">Commenting FileMaker Scripts</a>
+					<div class="small">Started by <a href="/component/easydiscuss/profile/dwayne-wright?Itemid=1">Dwayne Wright</a></div>
+				</div>
+
+				
+								<div class="item-info push-top small">
+					<span>
+						<img src="http://filemakertoday.com/modules/mod_recentdiscussions/images/clock.png">
+						2 years ago					</span>
+					<span data-original-title="0 replies" rel="ed-tooltip">
+						<img src="http://filemakertoday.com/modules/mod_recentdiscussions/images/replies.png">
+						0					</span>
+					<span data-original-title="8876 views" rel="ed-tooltip">
+						<img src="http://filemakertoday.com/modules/mod_recentdiscussions/images/views.png">
+						8876					</span>
+				</div>
+				
+			</div>
+			<div class="both"></div>
+		</div>
+			</div>
+</div>
+</div></div><div class="box "><div class="content">
+
+<div class="custom "  >
+
+	<div align="center">
+	<a href="http://www.businessmancrm.com/" target="_blank"><img align="middle" alt="An FMT Preferred CRM" src="/images/banners/bizzman250.png" style="width: 200px; height: 200px;" /></a></div>
+	
+</div>
+</div></div>
+				</div>
+			</aside>
+					</div>
+		
+		    </div>
+    
+        
+        
+        
+        
+    
+<footer id="gkFooter">
+	<div class="gkPage">
+				<div id="gkFooterArea">
+						<a href="#gkBg" id="gkBackToTop">Back to top</a>
+						
+				
+		</div>
+				
+				<div id="gkFooterNav">
+			
+<ul class="menu">
+<li class="item-615"><a href="/privacy-guidelines" >Privacy Guidelines</a></li><li class="item-153"><a href="/filemaker-connect" >FileMaker Connect</a></li><li class="item-466"><a href="/2012-03-06-18-04-09" >About Us</a></li><li class="item-612"><a href="/submit-filemaker-news" >Submit FileMaker News</a></li><li class="item-613"><a href="/connect-with-us" >Connect With Us</a></li></ul>
+
+		</div>
+				
+				<p id="gkCopyrights">&copy; 1998-2015 FileMakerConnect.Com - Ross MacLane -  All rights reserved. Powered by the FileMaker Community. FMT is an independent entity and this web site is not sponsored, or otherwise affiliated with FileMaker, Inc. FileMaker is a trademark of FileMaker, Inc., registered in the U.S. and other countries.</p>
+				
+				
+			</div>
+</footer>   	
+
+<!-- +1 button -->
+
+<!-- twitter -->
+
+
+<!-- Pinterest script --> 
+   		
+	
+</body>
+</html>

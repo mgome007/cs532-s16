@@ -1,0 +1,2129 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="google-site-verification" content="dXEAHXY4JFZgUKy4xiLEnY5R8gs8aGBKLs9pe_oJQY4" />
+<meta name="description" content="Real-time Syracuse buzz, reviews and photos for local events, restaurants, bars, clubs, shops, art galleries, museums and more..."/>
+<meta name="keywords" content="Syracuse, events, restaurants, buzz, local"/>
+<link rel="icon" type="favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link type="text/css" rel="stylesheet" media="screen" href="/style/citytweets.css"/>
+<link type="text/css" rel="stylesheet" media="screen" href="/style/homepage.css"/>
+<!--[if IE]>
+	<link type="text/css" rel="stylesheet" media="screen" href="/style/citytweetsie6.css"/>
+<![endif]-->
+
+	<style type="text/css">
+	#container.hp_container {margin-top: 32px;#margin-top: 4px;height: 851px;#height: 879px;}
+	#nationalAd.hp_ad {margin: 26px 61px 6px;#margin: 28px 61px 9px;}
+	.time {#margin-right: 75px;}
+	#trendingNow ul.hp_tr2 {left: 642px;}
+	</style>
+
+<!--[if IE 6]>
+	<style type="text/css">
+	#mid_small_home_twitter_facebook iframe.twitter-share-button {
+		margin-right:130px;
+	}
+	#mid_small_home_twitter_facebook a span.FBConnectButton_Simple, #mid_small_home_twitter_facebook a span.FBConnectButton_RTL_Simple {
+	   margin-left: -35px;
+	}
+	</style>
+<![endif]-->
+
+
+<title>Syracuse - Real-time local buzz</title>
+
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+  GS_googleAddAdSenseService("ca-pub-7424218284122496");
+  GS_googleEnableAllServices();
+</script>
+<script language="JavaScript">
+  GA_googleAddAttr("city","syracuse-ny")
+   GA_googleAddAttr("category", "home")
+   GA_googleAddAttr("subcat", "")
+</script>
+<script type='text/javascript'>
+  GA_googleAddSlot("ca-pub-7424218284122496", "rtguides_undermap_mediumrectangle300x250");
+</script>
+<script type='text/javascript'>
+  GA_googleFetchAds();
+</script>
+
+
+<script type="text/javascript">
+midSizeCity = 1;
+smallSizeCity = 1;
+midSmallSizeCity = 1;
+
+show_dm_overlay = 0;
+has_dm_overlay = 0;
+
+var is_homePage = true;
+temp = new Image(); temp.src = 'http://'+document.location.host+'/images/citytweets_sprite.png';
+//latitude top corner, longitude top corner, latitude bottom corder, longitude bottom corner
+//var mapBounds = '37.8123,-122.5278,37.7081,-122.3527';
+
+places = [{"iconcode": "", "web": null, "url_name": null, "verified": "u", "screen_name": "", "url_category": null, "buzz_level": 50, "placeid": 54606490, "longitude": -76.135942, "business_id": 54606490, "phone": null, "facebook_name": null, "address_1": "505 Hawley Avenue", "address_2": "Syracuse, NY", "latitude": 43.053435999999998, "business_name": "ArtRage Gallery", "email": null}, {"iconcode": "", "web": null, "url_name": "landmark_theatre", "verified": "y", "screen_name": "", "url_category": "service", "buzz_level": 95, "placeid": 54601180, "longitude": -76.152253999999999, "business_id": 54601180, "phone": null, "facebook_name": null, "address_1": "362 South Salina Street", "address_2": "Syracuse, NY", "latitude": 43.047476000000003, "business_name": "Landmark Theatre", "email": null}, {"iconcode": "", "web": null, "url_name": null, "verified": "u", "screen_name": "", "url_category": null, "buzz_level": 50, "placeid": 54604334, "longitude": -76.147498999999996, "business_id": 54604334, "phone": null, "facebook_name": null, "address_1": "401 Harrison Street", "address_2": "Syracuse, NY", "latitude": 43.0443, "business_name": "Everson Museum of Art", "email": null}, {"iconcode": "", "web": null, "url_name": "palace_theatre", "verified": "y", "screen_name": "", "url_category": "cinemas", "buzz_level": 88, "placeid": 54601262, "longitude": -76.113009000000005, "business_id": 54601262, "phone": null, "facebook_name": null, "address_1": "2384 James Street", "address_2": "Syracuse, NY", "latitude": 43.068398999999999, "business_name": "Palace Theatre", "email": null}, {"iconcode": "", "web": null, "url_name": null, "verified": "u", "screen_name": "", "url_category": null, "buzz_level": 50, "placeid": 54608201, "longitude": -76.172843, "business_id": 54608201, "phone": null, "facebook_name": null, "address_1": "9090 Destiny USA Dr", "address_2": "Syracuse, New York", "latitude": 43.069370999999997, "business_name": "Destiny USA", "email": null}, {"iconcode": "", "web": "http://www.meatballs.com", "url_name": "spaghetti_warehouse", "verified": "y", "screen_name": "spaghettiwh", "url_category": "restaurants", "buzz_level": 56, "placeid": 440049225, "longitude": -76.156453999999997, "business_id": 440049225, "phone": "(315) 475-1807", "facebook_name": null, "address_1": "689 North Clinton Street", "address_2": "Syracuse, NY 13204", "latitude": 43.058610999999999, "business_name": "Spaghetti Warehouse", "email": null}, {"iconcode": "", "web": null, "url_name": null, "verified": "u", "screen_name": "", "url_category": null, "buzz_level": 50, "placeid": 54607184, "longitude": -76.145345000000006, "business_id": 54607184, "phone": null, "facebook_name": null, "address_1": "2111 South Salina Street", "address_2": "Syracuse, NY", "latitude": 43.025734999999997, "business_name": "Beauchamp Branch Library", "email": null}, {"iconcode": "", "web": null, "url_name": null, "verified": "u", "screen_name": "", "url_category": null, "buzz_level": 50, "placeid": 54605432, "longitude": -76.170573000000005, "business_id": 54605432, "phone": null, "facebook_name": null, "address_1": "9090 Carousel Center Dr", "address_2": "Syracuse, NY", "latitude": 43.066938, "business_name": "Street Game", "email": null}, {"iconcode": "", "web": null, "url_name": "marks_pizzeria", "verified": "y", "screen_name": "", "url_category": "restaurants", "buzz_level": 70, "placeid": 54601266, "longitude": -76.120990000000006, "business_id": 54601266, "phone": null, "facebook_name": null, "address_1": "376 Grant Boulevard", "address_2": "Syracuse, NY", "latitude": 43.072042000000003, "business_name": "Mark's Pizzeria", "email": null}, {"iconcode": "", "web": "http://www.riteaid.com", "url_name": "rite_aid", "verified": "y", "screen_name": "riteaid", "url_category": "shopping", "buzz_level": 71, "placeid": 440049209, "longitude": -76.143491999999995, "business_id": 440049209, "phone": "(315) 469-3254", "facebook_name": null, "address_1": "5942 South Salina Street", "address_2": "Syracuse, NY 13205-3326", "latitude": 42.984403999999998, "business_name": "Rite Aid", "email": null}, {"iconcode": "", "web": null, "url_name": null, "verified": "u", "screen_name": "", "url_category": null, "buzz_level": 50, "placeid": 54604779, "longitude": -76.135018000000002, "business_id": 54604779, "phone": null, "facebook_name": null, "address_1": "819 Madison Street", "address_2": "Syracuse, NY", "latitude": 43.045459999999999, "business_name": "Grace Episcopal Church", "email": null}, {"iconcode": "", "web": null, "url_name": "redhouse", "verified": "u", "screen_name": "", "url_category": "theaters", "buzz_level": 50, "placeid": 54601231, "longitude": -76.158636999999999, "business_id": 54601231, "phone": null, "facebook_name": null, "address_1": "201 South West Street", "address_2": "Syracuse, NY", "latitude": 43.048597000000001, "business_name": "Redhouse", "email": null}, {"iconcode": "", "web": null, "url_name": null, "verified": "u", "screen_name": "", "url_category": null, "buzz_level": 50, "placeid": 54603118, "longitude": -76.123819999999995, "business_id": 54603118, "phone": "", "facebook_name": null, "address_1": "Thornden Park Drive", "address_2": "Syracuse, New York", "latitude": 43.040306999999999, "business_name": "Water Tower", "email": null}, {"iconcode": "", "web": null, "url_name": "singers_karaoke_club", "verified": "y", "screen_name": "", "url_category": "bars", "buzz_level": 69, "placeid": 54601235, "longitude": -76.200269000000006, "business_id": 54601235, "phone": null, "facebook_name": null, "address_1": "1345 Milton Avenue", "address_2": "Syracuse, NY", "latitude": 43.059793999999997, "business_name": "Singers Karaoke Club", "email": null}, {"iconcode": "", "web": null, "url_name": null, "verified": "u", "screen_name": "", "url_category": null, "buzz_level": 50, "placeid": 54606550, "longitude": -76.220476000000005, "business_id": 54606550, "phone": null, "facebook_name": null, "address_1": "581 State Fair Boulevard", "address_2": "Syracuse, NY", "latitude": 43.076563999999998, "business_name": "State Fairgrounds", "email": null}];
+tl_lat = 43.08578;
+tl_lng = -76.2312227;
+br_lat = 42.975188;
+br_lng = -76.1022623;
+guide_base_url = 'buzz.schmap.com/syracuse-ny';
+var mapBounds  = tl_lat + ',' + tl_lng + ',' + br_lat + ',' + br_lng;
+
+
+/* NICK [NEGIN] */
+url_lookup = 'root';
+neighbourhood = 'None';
+last_tweet_id = '(none)';
+current_count = '(none)';
+sort_by = 'None';
+/* NICK [END] */
+
+var default_icon = {
+	smalliconpath:'t000-normal.png',
+	bigiconpath:'a010-over.png',
+	bigiconwidth:38, bigiconheight:38,
+	bigiconanchorx:10, bigiconanchory:90
+	// THE OFFSET IS DIFFERENT FOR IE 6 bigiconanchorx:10, bigiconanchory:110
+};
+var isBottomPage = false, iphone=false;
+var clicked_id = '0'; // selected_place_id //id of the element that has to be highlighted in green on the page
+var clicked_index = '0'; // selected_tweet_num [1, ...] the position of the tweet in the $timeline ol
+
+var menuMODefaut = '';
+var page_title = "Real-time Syracuse Buzz";
+var abu_tweet_category = "", abu_tweet_url = "", owner_screenname = "", defaultplaceId = "";
+
+var currentCity_hide = "HIDE CITIES";
+
+
+var failed_neigh = '(none)';
+var failed_cat = '(none)';
+var failed_currentCat = "Real-time Syracuse Buzz";
+
+
+	var loggedin_username = '';
+
+var overlay = 0;
+
+var homePage= {
+	hack : function() {return;},
+	switchTab : function() {return;},
+	scroll : function() {return;},
+	scrollMOver : function() {return;},
+	scrollMOut : function() {return;},
+	rotateMOOff : function() {return;},
+	rotateMOOn : function() {return;},
+	MO : function() {return;}
+};
+var menuMO = {
+	show : function() {return;},
+	showDefault : function() {return;},
+	cancelReset : function() {return;}
+}
+/* CITY TWEETS */
+function $(src){
+    if(typeof(src) == 'string'){
+        src = document.getElementById(src);
+	}
+    return src;
+}
+function addScript(url,callback){
+	var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.language = "javascript";
+    s.src = url;
+	document.body.appendChild(s);
+	//if(callback){callback(s);}
+	return s;
+}
+// handle broken twitter image links
+// has to be put at the top. Called before the js file is loaded.
+var brokenImages = function() { // object that stores all broken images on the page
+	var images = new Array();
+	function add(img, name){
+		if (!$('SchmapKit.Maps__GStatic.Map.0.container')) {
+			var tmp = function tmp () {brokenImages.add(img, name);};
+			setTimeout(tmp, 200);
+			return;
+		}
+		else {
+			img.src = "/images/spacer.png";
+			img.className = "defaultTwitterPic_noBG ";
+			images.push([name, img]);
+			var url = "http://twitter.com/users/show/"+name+".json?callback=setTwitterImg";
+			addScript(url);
+			setTimeout(brokenImages.fail.bind(null, name, img), 5000);
+		}
+	}
+	function resolve(name, url){
+		// log(name+" "+url);
+		for (i=0; i<images.length; i++) {
+			if (images[i][0] && images[i][0].toLowerCase()==name.toLowerCase()) {
+				images[i][1].src = url;
+				images[i][1].className = '';
+				images[i][1].onerror = function(){setTwitterImgError(this);};
+				images[i][1].onload = function(){checkImage(this, name, true)};
+				//images[i][0] = null;
+	}}}
+	function fail(name, img) {
+		for (i=0; i<images.length; i++) {
+			if (images[i][0] && images[i][0].toLowerCase()==name.toLowerCase()) {
+				if (images[i][1].src.match("/images/spacer.png")) {
+					images[i][1].className = "defaultTwitterPic";
+					images[i][0] = 'setToDefault';
+	}}}}
+	return {add:add, resolve:resolve, fail:fail};
+}();
+function setTwitterImg(r){
+	brokenImages.resolve(r.screen_name, replaceMini(r.profile_image_url));
+}
+function replaceMini(url){
+	url1 = url.split('_normal.');
+	if (url1[1])
+		return url1[0]+"_mini."+url1[1];
+	url2 = url.split('_bigger.');
+	if (url2[1])
+		return url2[0]+"_mini."+url2[1];
+	else
+		return url;
+}
+function setTwitterImgError(r) {
+	img.src = "/images/spacer.png";
+	img.className = "defaultTwitterPic";
+	log('broken image not handled');
+	return;
+}
+function checkImage(img, name, secondTry) {
+	image = new Image(); image.src = img.src;
+	image.onload = function(){
+		if (!(this.width > 1 || this.height > 1)){
+			if (secondTry) {
+				log('broken image not handled');
+				img.src = "/images/spacer.png";
+				img.className = "defaultTwitterPic";
+			}
+			else
+				brokenImages.add(img, name);
+		}
+	};
+	img.onload = "";
+	img.onerror = "";
+}
+// This function is used to put entries into the blue menu
+function populateBlueMenu() {
+	li = document.createElement('li'); li.id = "tNparent";
+	/*if (!document.location.href.match('/search')) {
+		a = document.createElement('a'); a.id = "toggleNeigh_temp";
+		a.innerHTML = "Select neighborhood <span class='last-child'><img src='/images/x.gif' /></span>"; li.appendChild(a);
+	}*/
+	$('filter_preload').innerHTML = '';
+	$('filter_preload').appendChild(li);
+
+	if (menuMODefaut == 'whatOn') {count = categories.whatOn.menuCount; categories_ = categories.whatOn.categories_;
+		rows = categories.whatOn.numberRows;}
+	else if (menuMODefaut == 'restaurants') {count = categories.restaurants.menuCount; categories_ = categories.restaurants.categories_;
+		rows = categories.restaurants.numberRows;}
+	else if (menuMODefaut == 'barsClubs') {count = categories.barsClubs.menuCount; categories_ = categories.barsClubs.categories_;
+		rows = categories.barsClubs.numberRows;}
+	else if (menuMODefaut == 'shopServices') {count = categories.shopServices.menuCount; categories_ = categories.shopServices.categories_;
+		rows = categories.shopServices.numberRows;}
+	else if (menuMODefaut == 'artEnt') {count = categories.artEnt.menuCount; categories_ = categories.artEnt.categories_;
+		rows = categories.artEnt.numberRows;}
+	else if (menuMODefaut == 'healthBeauty') {count = categories.healthBeauty.menuCount; categories_ = categories.healthBeauty.categories_;
+		rows = categories.healthBeauty.numberRows;}
+	else if (menuMODefaut == 'toDoSee') {count = categories.toDoSee.menuCount; categories_ = categories.toDoSee.categories_;
+		rows = categories.toDoSee.numberRows;}
+	else if (menuMODefaut == 'more') {count = categories.more.menuCount; categories_ = categories.more.categories_;
+		rows = categories.more.numberRows;}
+	else /*if (menuMODefaut == 'nodefault')*/ {count = 0; return;}
+
+	buf = [];
+	for (i=0; i<count; i++) {buf[i] = "";}
+	for (i=0; i<categories_.length; i++) {
+		if (categories_[i] && categories_[i][2]) {
+			li = document.createElement('li');
+			if (categories_[i][2]==1 || (menuMODefaut=="more" && categories_[i][2]==2)) li.className="first-li";
+			a = document.createElement('a'); a.innerHTML = categories_[i][0];
+			a.href = 'http://'+document.location.host+'/'+categories_[i][1]+document.location.search;
+			span = document.createElement('span'); span.innerHTML = "&nbsp;|&nbsp;"; span.className = "spacer";
+			li.appendChild(a);
+			// only put the spacer after the last element if there is a 'show all' link
+			if (categories_[i][2] != count || rows > 0)
+				li.appendChild(span);
+			buf[categories_[i][2]-1] = li;
+		}
+	}
+	for (i=0; i<buf.length; i++) {
+		if(buf[i])
+			$('filter_preload').appendChild(buf[i]);
+	}
+
+	//if ($('filter_preload')) $('filter_preload').parentNode.removeChild($('filter_preload'));
+	li = document.createElement('li');
+	if (rows > 0) {
+		a = document.createElement('a');  a.innerHTML = 'Show all';
+		span = document.createElement('span'); span.innerHTML = '<img src="/images/x.gif" />'; span.className = "last-child";
+		a.appendChild(span); li.appendChild(a); $('filter_preload').appendChild(li);
+	}
+	if (menuMODefaut == 'nodefault') {li.innerHTML = '&nbsp;'; $('filter_preload').appendChild(li);}
+}
+
+	<!--set var='city_name' value='New York' -->
+
+
+var categories = {
+deals : {menuTitle : '',menuCount : 0,numberRows : 0,categories_ : []},
+whatOn : {menuTitle : '',menuCount : 0,numberRows : 0,categories_ : []},
+restaurants : {menuTitle : '0',menuCount : 0,numberRows : 0,categories_ : []},
+barsClubs : {menuCount : 0,numberRows : 0,categories_ : []},
+artEnt : {menuCount : 0,numberRows : 0,categories_ : []},
+healthBeauty : {menuCount : 0,numberRows : 0,categories_ : []},
+shopServices : {menuTitle : '',menuCount : 0,numberRows : 0,categories_ : []},
+toDoSee : {menuCount : 0,numberRows : 0,categories_ : []},
+more : {menuTitle : '0',menuCount : 0,numberRows : 0,categories_ : []}};
+var neighborhoods = {menuTitle : '',numberRows : 0, searchDefault : '', searchExample : '', neigh :[]};
+var overlay_accounts = [313138375,18822966];
+</script>
+</head>
+</body>
+<div style="display:none" id="hp_neigh_source">
+<!---->
+</div>
+<div id='outestDiv' class='wrapper'>
+		<div id='header'>
+				<div id='masthead'>
+						<ul class="hack00"> <!-- TODO -->
+						  <li class='hack0'>Syracuse buzz on Twitter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a target='_blank' href='http://twitter.com/SyracuseBuzz'>@SyracuseBuzz</a>&nbsp;
+  <iframe scrolling="no" frameborder="0" allowtransparency="true" 
+          src='http://platform1.twitter.com/widgets/follow_button.html?screen_name=SyracuseBuzz&amp;show_screen_name=false&amp;button=grey&amp;lang=en&amp;show_count=false&amp;text_color=%23333333&amp;link_color=%23F0F1E9&amp;id=twitter_tweet_button_2'
+          class="twitter-follow-button" title="">
+  </iframe>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</li>
+
+
+
+			
+				<li id="signin"><a href='#' onclick="abu.login();"><span class='twitter_link2'>
+				</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sign in with Twitter</a></li>
+			
+			</ul>
+		</div>
+		<div id="logo-advert" class="hp_logo-advert">
+			<a href="http://www.schmap.com">
+			<div id="logo" class="hp_logo">
+				<div id="tagline"></div>
+			</div>
+			</a>
+			<div id="header_search">
+				<span class="hs_label1"><b>SEARCH</b> E.g. starbucks, pizza, party</span><span class="hs_label2"><b>NEAR</b> (city or town)</span><br />
+				<input type="text" id="address" name="address" autocomplete="on" class="hs_input1" onFocus="neigh.checkSearchInputFocus();" onBlur="neigh.checkSearchInputBlur();"></input>
+				<!--<select id="hs_city" onmouseover="homePage.hack('show');" onmouseout="homePage.hack('hide');"></select>-->
+				<input type="text" id="hs_city"></input>
+				<ul id="autocomplete_suggestions"></ul>
+				<div id="alert_as"></div>
+				<div id="search_button" class="hs_searchButton"></div>
+			</div>
+			<!--        
+	title (none)
+	then (none)
+	now (none)
+	url (none)
+	delta (none)
+	sold (none)
+	tipped (none)
+	endTime (none)
+	value (none)
+	discount (none)
+	discountPercent (none)
+-->
+
+		</div>
+
+		<ul id="navigation">
+			<li id="city"><a onclick="cities.show();return false;"><span>SYRACUSE, NY</span><span id="menuArrow"></span></a></li>
+			
+			<li id="whatOn" 		onmouseover="menuMO.show('whatOn');" 		onmouseout="menuMO.showDefault();"
+				><a href="http://buzz.schmap.com/syracuse-ny/whats-on"">What's on</a></li>
+			<li id="restaurants" 	onmouseover="menuMO.show('restaurants');" 	onmouseout="menuMO.showDefault();"
+				><a href="http://buzz.schmap.com/syracuse-ny/restaurants">Restaurants</a></li>
+			<li id="barsClubs" 		onmouseover="menuMO.show('barsClubs');" 	onmouseout="menuMO.showDefault();"
+				><a href="http://buzz.schmap.com/syracuse-ny/bars-and-clubs" >Bars & Clubs</a></li>
+			<li id="artEnt" 		onmouseover="menuMO.show('artEnt');" 		onmouseout="menuMO.showDefault();"
+				><a href="http://buzz.schmap.com/syracuse-ny/art-and-entertainment">Art & Entertainment</a></li>
+			<li id="healthBeauty" 	onmouseover="menuMO.show('healthBeauty');" 	onmouseout="menuMO.showDefault();"
+				><a href="http://buzz.schmap.com/syracuse-ny/health-and-beauty">Health & Beauty</a></li>
+			<li id="shopServices" 	onmouseover="menuMO.show('shopServices');"	onmouseout="menuMO.showDefault();"
+				><a href="http://buzz.schmap.com/syracuse-ny/shopping">Shopping</a></li>
+			
+		</ul>
+
+		<ul id="tabHidder"></ul>
+
+		<ul id="changeCity" style="display:none;height:0px">
+			<li class="cg_li">
+				<span class="cg_title">Local Buzz in:<select id="cg_select_country"></select><select id="cg_select_state" style="display:none;"></select></span>
+				<div><ul id="cg_localBuzzIn"></ul></div>
+			</li>
+			<li class="cg_li li2">
+				<span class="cg_title">Top Buzz Cities Worldwide</span>
+				<div><ul id="cg_bigCities"></ul></div>
+			</li>
+		</ul>
+
+		
+
+		
+
+	</div>
+	<div id="container" class="clearfix hp_container">
+		<div id="tabs_time">
+			<div class="tab_label">
+			    
+			    Buzz for:
+			</div>
+				<div id="tab1" class="tab selectedd" onclick="homePage.switchTab('tab1');">Events</div>
+				<div id="tab2" class="tab" onclick="homePage.switchTab('tab2');">Wining & Dining</div>
+				<div id="tab3" class="tab" onclick="homePage.switchTab('tab3');">Shopping & Deals</div>
+				
+					<div id="time" class="time time2">Syracuse real-time local buzz:</div>
+					<div id="mid_small_home_twitter_facebook">
+						<a name="fb_share" type="icon" share_url="http://buzz.schmap.com/syracuse-ny"></a>
+						<a href="http://twitter.com/share" class="twitter-share-button"
+						data-text="The world's first Twitter powered city guides! This is Syracuse: "
+						data-url="http://buzz.schmap.com/syracuse-ny"
+						data-count="none" data-via="SyracuseBuzz"
+						data-related="(none)"></a>
+					</div>
+				
+		</div>
+		<div id="tab_main">
+			<div id="showcase_controls">
+				<div id="showcase_controls_arrows">
+					<img src="/images/x.gif" class="up" onclick="homePage.scroll('up')"  onmouseover="homePage.scrollMOver();" onmouseout="homePage.scrollMOut();"/>
+					<img src="/images/x.gif" class="down" onclick="homePage.scroll('down')" onmouseover="homePage.scrollMOver();" onmouseout="homePage.scrollMOut();"/>
+				</div>
+				
+				<span class="moreNearby">More Nearby: </span>
+					<div id="nearby_towns_events">
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/schenectady-ny/whats-on">Schenectady</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/ithaca-ny/whats-on">Ithaca</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/rochester-ny/whats-on">Rochester</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/buffalo/whats-on">Buffalo</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/allentown-pa/whats-on">Allentown</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/scranton-pa/whats-on">Scranton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/binghamton-ny/whats-on">Binghamton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/albany-ny/whats-on">Albany</a>
+    </li>
+  </ul>
+</div>
+<div id="nearby_towns_restaurants" style="display:none">
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/schenectady-ny/restaurants">Schenectady</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/ithaca-ny/restaurants">Ithaca</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/rochester-ny/restaurants">Rochester</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/buffalo/restaurants">Buffalo</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/allentown-pa/restaurants">Allentown</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/scranton-pa/restaurants">Scranton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/binghamton-ny/restaurants">Binghamton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/albany-ny/restaurants">Albany</a>
+    </li>
+  </ul>
+</div>
+<div id="nearby_towns_shopping" style="display:none">
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/schenectady-ny/shopping">Schenectady</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/ithaca-ny/shopping">Ithaca</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/rochester-ny/shopping">Rochester</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/buffalo/shopping">Buffalo</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/allentown-pa/shopping">Allentown</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/scranton-pa/shopping">Scranton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/binghamton-ny/shopping">Binghamton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/albany-ny/shopping">Albany</a>
+    </li>
+  </ul>
+</div>
+
+				
+			</div>
+			<div id="section" class="hp_section">
+				<div id="blur"></div>
+				<ol id="timeline" class="timeline hp_timeline">
+					<li class="tweets place_54606490 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Join our friends at ArtRage Gallery for a presentation of "The Colored Museum," by George C. Wolfe, which... https://t.co/RyGvNmSHYx</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/InterFaithCNY" target="_blank"><img onload = "checkImage(this, 'InterFaithCNY');"onerror="brokenImages.add(this,'InterFaithCNY');" src="http://pbs.twimg.com/profile_images/2281090531/interfaith_graphic_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/InterFaithCNY" target="_blank">InterFaithCNY</a>
+      </td>
+      <td class="ct3">4 hours ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">ArtRage Gallery</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">At this years 3rd annual festival of the fantastical facial follicle located at the Landmark Theater Syracuse NY. Tickets will be $5</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/salt_city_oils" target="_blank"><img onload = "checkImage(this, 'salt_city_oils');"onerror="brokenImages.add(this,'salt_city_oils');" src="http://pbs.twimg.com/profile_images/581878729485488128/x2wZiT8r_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/salt_city_oils" target="_blank">salt_city_oils</a>
+      </td>
+      <td class="ct3">6 hours ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">ACR Health is putting on its 6th annual Blowout Fantasy Hair show at the Landmark Theatre: https://t.co/6ZAxbYu0ku https://t.co/13qjpJGa9R</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/dailyorange" target="_blank"><img onload = "checkImage(this, 'dailyorange');"onerror="brokenImages.add(this,'dailyorange');" src="http://pbs.twimg.com/profile_images/2556639162/sgqy3nh48p1a8n4280nh_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/dailyorange" target="_blank">dailyorange</a>
+      </td>
+      <td class="ct3">7 hours ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Star Trek concert at Landmark Theatre in Syracuse postponed https://t.co/YtgEC8N0QQ</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/OldMaidWhovian" target="_blank"><img onload = "checkImage(this, 'OldMaidWhovian');"onerror="brokenImages.add(this,'OldMaidWhovian');" src="http://pbs.twimg.com/profile_images/677634344899518467/oUK3G96j_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/OldMaidWhovian" target="_blank">OldMaidWhovian</a>
+      </td>
+      <td class="ct3">1 day ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Think you got Beard Game? Friday, join us at the Landmark Theater for a celebration of all things furry,... https://t.co/sRPifu9b93</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/bootsnshorts" target="_blank"><img onload = "checkImage(this, 'bootsnshorts');"onerror="brokenImages.add(this,'bootsnshorts');" src="http://pbs.twimg.com/profile_images/1183906682/bootsnshortsJPEG7_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/bootsnshorts" target="_blank">bootsnshorts</a>
+      </td>
+      <td class="ct3">1 day ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Tomorrow's <a target="_blank" href="http://search.twitter.com/search?q=%23StarTrek">#StarTrek</a> concert at Landmark Theatre in Syracuse postponed https://t.co/Eaxdijl7HI</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/deafgeoff" target="_blank"><img onload = "checkImage(this, 'deafgeoff');"onerror="brokenImages.add(this,'deafgeoff');" src="http://pbs.twimg.com/profile_images/493382735889584129/s08SFEBF_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/deafgeoff" target="_blank">deafgeoff</a>
+      </td>
+      <td class="ct3">2 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Star Trek concert at Landmark Theatre in Syracuse postponed | https://t.co/7FI0tiRF4i</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/cnyscene" target="_blank"><img onload = "checkImage(this, 'cnyscene');"onerror="brokenImages.add(this,'cnyscene');" src="http://pbs.twimg.com/profile_images/3189035158/18aa74b4f6c8939b804a6b21f6b2d95b_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/cnyscene" target="_blank">cnyscene</a>
+      </td>
+      <td class="ct3">2 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54604334 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">The Urban Video Project will host the group show 'Between Species' through March 26 at the Everson Museum of Art https://t.co/sJjG3Ur5uO</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/SUcampus" target="_blank"><img onload = "checkImage(this, 'SUcampus');"onerror="brokenImages.add(this,'SUcampus');" src="http://pbs.twimg.com/profile_images/690620357275947009/zeZwItQL_normal.png" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/SUcampus" target="_blank">SUcampus</a>
+      </td>
+      <td class="ct3">2 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">Everson Museum of Art</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0"><a target="_blank" href="http://search.twitter.com/search?q=%23TheTenderloins">#TheTenderloins</a>  Meeting Murr outside of the Landmark Theater! https://t.co/FeAYp9iFk8</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/fester" target="_blank"><img onload = "checkImage(this, 'fester');"onerror="brokenImages.add(this,'fester');" src="http://pbs.twimg.com/profile_images/835239101/brendonscarano_normal.png" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/fester" target="_blank">fester</a>
+      </td>
+      <td class="ct3">5 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">The Avett Brothers are coming to Landmark Theatre (Syracuse, NY) on July 7th! Tickets go on sale next Friday,... https://t.co/fuKShxkLRq</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/EventCNY" target="_blank"><img onload = "checkImage(this, 'EventCNY');"onerror="brokenImages.add(this,'EventCNY');" src="http://pbs.twimg.com/profile_images/691729936479080449/kaE9c3fV_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/EventCNY" target="_blank">EventCNY</a>
+      </td>
+      <td class="ct3">6 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54601262 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Looking for some romantic tunes this weekend? Tune in to hear a preview of tomorrow's "Beats in the Sheets" event at the Palace Theater</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/BridgeStreetTV" target="_blank"><img onload = "checkImage(this, 'BridgeStreetTV');"onerror="brokenImages.add(this,'BridgeStreetTV');" src="http://pbs.twimg.com/profile_images/378800000863338310/XTvCaeqP_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/BridgeStreetTV" target="_blank">BridgeStreetTV</a>
+      </td>
+      <td class="ct3">6 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Palace Theatre','cinemas','1cCP',false,'54601262','http://buzz.schmap.com/syracuse-ny/cinemas/palace_theatre',false);"><img style="clip:rect(27,68,51,34);left:-64px;top:-34px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/cinemas/palace_theatre">Palace Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Palace Theatre','cinemas','1cCP',false,'54601262','http://buzz.schmap.com/syracuse-ny/cinemas/palace_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54608201 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Job Fair at Destiny USA - Thursday, February 11th from 11 AM to 3 PM https://t.co/8v6UKuAkty</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/The_Gnu_JGH" target="_blank"><img onload = "checkImage(this, 'The_Gnu_JGH');"onerror="brokenImages.add(this,'The_Gnu_JGH');" src="http://pbs.twimg.com/profile_images/436985584347656192/T8uhFKdd_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/The_Gnu_JGH" target="_blank">The_Gnu_JGH</a>
+      </td>
+      <td class="ct3">7 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">Destiny USA</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_440049225 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">@<a target="_blank" href="http://twitter.com/BigArsBurr">BigArsBurr</a> 4-course dinner & improv comedy show at Spaghetti Warehouse; a warm snuggle for a perfect late-winter's nap; morning waffles. ♥</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/TMacavery" target="_blank"><img onload = "checkImage(this, 'TMacavery');"onerror="brokenImages.add(this,'TMacavery');" src="http://pbs.twimg.com/profile_images/519541971191209985/VcV8nZlq_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/TMacavery" target="_blank">TMacavery</a>
+      </td>
+      <td class="ct3">7 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Spaghetti Warehouse','restaurants','1crq','spaghettiwh','440049225','http://buzz.schmap.com/syracuse-ny/restaurants/spaghetti_warehouse',false);"><img style="clip:rect(99,136,123,102);left:-132px;top:-106px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/restaurants/spaghetti_warehouse">Spaghetti Warehouse</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Spaghetti Warehouse','restaurants','1crq','spaghettiwh','440049225','http://buzz.schmap.com/syracuse-ny/restaurants/spaghetti_warehouse',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54608201 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">This week’s @<a target="_blank" href="http://twitter.com/oad_su">oad_su</a> event is catching “Zoolander 2” at Destiny USA, Saturday at 10:30pm https://t.co/wnQQAhKZck <a target="_blank" href="http://search.twitter.com/search?q=%23OrangeAfterDark">#OrangeAfterDark</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/SUcampus" target="_blank"><img onload = "checkImage(this, 'SUcampus');"onerror="brokenImages.add(this,'SUcampus');" src="http://pbs.twimg.com/profile_images/690620357275947009/zeZwItQL_normal.png" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/SUcampus" target="_blank">SUcampus</a>
+      </td>
+      <td class="ct3">7 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">Destiny USA</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_54607184 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Free blood pressure screening, raffle drawings are happening 3 p.m. to 4:30 p.m. Feb. 20 at Beauchamp Branch Library https://t.co/2ILu3uZD0T</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/100blackmensyr" target="_blank"><img onload = "checkImage(this, '100blackmensyr');"onerror="brokenImages.add(this,'100blackmensyr');" src="http://pbs.twimg.com/profile_images/1847176945/logo09xxsm_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/100blackmensyr" target="_blank">100blackmensyr</a>
+      </td>
+      <td class="ct3">10 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">Beauchamp Branch Library</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_54606490 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">An exhibition of racist memorabilia is premeiring at ArtRage Gallery: https://t.co/PWyVkIwEzM</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/dailyorange" target="_blank"><img onload = "checkImage(this, 'dailyorange');"onerror="brokenImages.add(this,'dailyorange');" src="http://pbs.twimg.com/profile_images/2556639162/sgqy3nh48p1a8n4280nh_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/dailyorange" target="_blank">dailyorange</a>
+      </td>
+      <td class="ct3">10 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">ArtRage Gallery</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_54605432 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Those cement 4's </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/leonaziaa__" target="_blank"><img onload = "checkImage(this, 'leonaziaa__');"onerror="brokenImages.add(this,'leonaziaa__');" src="http://pbs.twimg.com/profile_images/687109456228945921/ND2LIYWH_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/leonaziaa__" target="_blank">leonaziaa__</a>
+      </td>
+      <td class="ct3">10 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">Street Game</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_54601266 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Our annual reunion with the Mark's Pizzeria family. You kids grow up so fast.</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/dagsly" target="_blank"><img onload = "checkImage(this, 'dagsly');"onerror="brokenImages.add(this,'dagsly');" src="http://pbs.twimg.com/profile_images/456155167423868928/qnlKKX_m_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/dagsly" target="_blank">dagsly</a>
+      </td>
+      <td class="ct3">10 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Mark\'s Pizzeria','restaurants','1cCT',false,'54601266','http://buzz.schmap.com/syracuse-ny/restaurants/marks_pizzeria',false);"><img style="clip:rect(51,340,75,306);left:-336px;top:-58px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/restaurants/marks_pizzeria">Mark's Pizzeria</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Mark\'s Pizzeria','restaurants','1cCT',false,'54601266','http://buzz.schmap.com/syracuse-ny/restaurants/marks_pizzeria',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_440049209 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Go to Rite Aid looking for chips and soda for the Superbowl. Leave with 4 pints of Ben and Jerry's because they were on sale.</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/babySierrapooo" target="_blank"><img onload = "checkImage(this, 'babySierrapooo');"onerror="brokenImages.add(this,'babySierrapooo');" src="http://pbs.twimg.com/profile_images/378800000780462177/318145076991f8b55e97033c03fc07ed_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/babySierrapooo" target="_blank">babySierrapooo</a>
+      </td>
+      <td class="ct3">12 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Rite Aid','places to shop','1crk','riteaid','440049209','http://buzz.schmap.com/syracuse-ny/shopping/rite_aid',false);"><img style="clip:rect(51,306,75,272);left:-302px;top:-58px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/shopping/rite_aid">Rite Aid</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Rite Aid','places to shop','1crk','riteaid','440049209','http://buzz.schmap.com/syracuse-ny/shopping/rite_aid',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54604779 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Tonight in CNY: Screening “Shakespeare Behind Bars," @<a target="_blank" href="http://twitter.com/7pm">7pm</a> Grace Episcopal Church, Syracuse. https://t.co/g1k4xEpBj3 https://t.co/OnildzXxT5</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/ImaginingAmer" target="_blank"><img onload = "checkImage(this, 'ImaginingAmer');"onerror="brokenImages.add(this,'ImaginingAmer');" src="http://pbs.twimg.com/profile_images/593805207202615297/6eL3jBeS_normal.png" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/ImaginingAmer" target="_blank">ImaginingAmer</a>
+      </td>
+      <td class="ct3">13 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">Grace Episcopal Church</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_54608201 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Come Join the FACES team at Destiny USA as we promote the Black history month tribute to AIDS awareness event https://t.co/QwdNNKhsGa</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/FACESofSWCC" target="_blank"><img onload = "checkImage(this, 'FACESofSWCC');"onerror="brokenImages.add(this,'FACESofSWCC');" src="http://pbs.twimg.com/profile_images/692384363342909441/6Aiw6x3K_normal.png" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/FACESofSWCC" target="_blank">FACESofSWCC</a>
+      </td>
+      <td class="ct3">17 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">Destiny USA</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_54601231 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">It's a two show day today at the Redhouse! Shakespeare + Sondheim = Saturday! </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/redhousearts" target="_blank"><img onload = "checkImage(this, 'redhousearts');"onerror="brokenImages.add(this,'redhousearts');" src="http://pbs.twimg.com/profile_images/565255326882996224/A2yjobHN_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/redhousearts" target="_blank">redhousearts</a>
+      </td>
+      <td class="ct3">19 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">Redhouse</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">I will be performing Live Tonight @ The Landmark Theater alongside My Bro @<a target="_blank" href="http://twitter.com/TheWorldBeFree">TheWorldBeFree</a> @<a target="_blank" href="http://twitter.com/RealRemyMa">RealRemyMa</a> @<a target="_blank" href="http://twitter.com/ShyGlizzy">ShyGlizzy</a> @<a target="_blank" href="http://twitter.com/gherbo">gherbo</a> <br/><a target="_blank" href="http://search.twitter.com/search?q=%23TheBlackEmpire">#TheBlackEmpire</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/SucioElJefe" target="_blank"><img onload = "checkImage(this, 'SucioElJefe');"onerror="brokenImages.add(this,'SucioElJefe');" src="http://pbs.twimg.com/profile_images/687434475039502336/vSuapn30_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/SucioElJefe" target="_blank">SucioElJefe</a>
+      </td>
+      <td class="ct3">20 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Come see Peppino's at the believe in Syracuse 3rd birthday party at the landmark theater tonight and get your free risotto bombs!</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/PeppinosCuse" target="_blank"><img onload = "checkImage(this, 'PeppinosCuse');"onerror="brokenImages.add(this,'PeppinosCuse');" src="http://pbs.twimg.com/profile_images/479649487627894784/hvqDbH5u_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/PeppinosCuse" target="_blank">PeppinosCuse</a>
+      </td>
+      <td class="ct3">21 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Head to the Landmark Theatre tomorrow for Believe in Syracuse's 3rd Birthday Party. The event is free, and there... https://t.co/vmT55G8Lvx</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/SyrWomanMag" target="_blank"><img onload = "checkImage(this, 'SyrWomanMag');"onerror="brokenImages.add(this,'SyrWomanMag');" src="http://pbs.twimg.com/profile_images/671719364526260224/NNW6WZPS_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/SyrWomanMag" target="_blank">SyrWomanMag</a>
+      </td>
+      <td class="ct3">22 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54603118 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">New artwork for sale! - 'The Water Tower' - https://t.co/6ivTiyotuP @<a target="_blank" href="http://twitter.com/fineartamerica">fineartamerica</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/georgejpatt" target="_blank"><img onload = "checkImage(this, 'georgejpatt');"onerror="brokenImages.add(this,'georgejpatt');" src="http://pbs.twimg.com/profile_images/688122164956942337/V6q0W1k9_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/georgejpatt" target="_blank">georgejpatt</a>
+      </td>
+      <td class="ct3">22 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">Water Tower</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_54601235 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">the gang does bowling & karaoke<br/><a target="_blank" href="http://search.twitter.com/search?q=%23latergram">#latergram</a> @ Singers Karaoke Club https://t.co/8lN1tYefUv</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/Beckstahhh" target="_blank"><img onload = "checkImage(this, 'Beckstahhh');"onerror="brokenImages.add(this,'Beckstahhh');" src="http://pbs.twimg.com/profile_images/656605753973850112/MfNgeiuK_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/Beckstahhh" target="_blank">Beckstahhh</a>
+      </td>
+      <td class="ct3">23 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Singers Karaoke Club','bars','1cCw',false,'54601235','http://buzz.schmap.com/syracuse-ny/bars/singers_karaoke_club',false);"><img style="clip:rect(75,34,99,0);left:-30px;top:-82px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/bars/singers_karaoke_club">Singers Karaoke Club</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Singers Karaoke Club','bars','1cCw',false,'54601235','http://buzz.schmap.com/syracuse-ny/bars/singers_karaoke_club',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54606550 no-infoBubble ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">New York Sportsman's Expo at state Fairgrounds this weekend. Kicks off Friday. https://t.co/EDtxNuhnAa https://t.co/VhIxnwiztR</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/OutdoorsCNY" target="_blank"><img onload = "checkImage(this, 'OutdoorsCNY');"onerror="brokenImages.add(this,'OutdoorsCNY');" src="http://pbs.twimg.com/profile_images/378800000497508182/e7744a38f15d9f08503161fec07ab73a_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/OutdoorsCNY" target="_blank">OutdoorsCNY</a>
+      </td>
+      <td class="ct3">24 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom2 unverified_business">State Fairgrounds</span>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <img class="abu_infoBubble" src="/images/x.gif" />
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Tiffany and Dan will have a CH table at the Believe in Syracuse's 3rd Birthday Party at the Landmark Theater https://t.co/DtGWxhjaQh</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/CH_INS_AGENCY" target="_blank"><img onload = "checkImage(this, 'CH_INS_AGENCY');"onerror="brokenImages.add(this,'CH_INS_AGENCY');" src="http://pbs.twimg.com/profile_images/664450847741509632/yvXLnDYD_normal.jpg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/CH_INS_AGENCY" target="_blank">CH_INS_AGENCY</a>
+      </td>
+      <td class="ct3">24 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+<li class="tweets place_54601180 ">
+  <table cellspacing="0">
+    <tr>
+      <td colspan='4'>
+        <div class="text ct_bottom0">Stop by this excellent Syracuse event on Thursday evening at the Landmark Theatre and stop by the Peppino's booth... https://t.co/wY8tz4oIGS</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ct1">
+        <a href="http://twitter.com/PeppinosCuse" target="_blank"><img onload = "checkImage(this, 'PeppinosCuse');"onerror="brokenImages.add(this,'PeppinosCuse');" src="http://pbs.twimg.com/profile_images/479649487627894784/hvqDbH5u_normal.jpeg" height="24" width="24"></a>
+      </td>
+      <td class="ct2">
+        <a class="ct_bottom1" href="http://twitter.com/PeppinosCuse" target="_blank">PeppinosCuse</a>
+      </td>
+      <td class="ct3">24 days ago</td>
+      <td class="ct4">
+        <span class="ct_bottom5" onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img style="clip:rect(0,170,27,136);left:-166px;top:-10px;" src="/images/x.gif" width="503" height="556" /><img src="/images/x.gif" class="abu_plus" /></span>
+        <a class="ct_bottom2" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+        <span class="ct_bottom3"> buzz for:</span>
+      </td>
+    </tr>
+  </table>
+  <span onclick="abu.expand(this, 'Landmark Theatre','services','1cC3',false,'54601180','http://buzz.schmap.com/syracuse-ny/service/landmark_theatre',false);"><img class="abu_infoBubble" src="/images/x.gif" /></span>
+</li>
+
+				</ol>
+				<img id="hp_spinner" src="/images/twitter_ajax_iphone.gif" />
+			</div>
+			<div id="side" class="hp_side">
+				<div id="mapContacts" class="hp_mapContacts ">
+					<div id="mapouter" class="hp_mapouter">
+						<div class="mi_map" id="map"></div>
+						<div id="staticmap"></div>
+						<div id="mapswitch"></div>
+						<div id="zoominout"></div>
+					</div>
+					<dl id="placeDetail">
+  <dt class="ct_bottom7">ArtRage Gallery</dt>
+  <dd>505 Hawley Avenue</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+
+				</div>
+			</div>
+		</div>
+		<div id="descriptions" class="hiddenDiv">
+		    <dl class="place_54606490">
+  <dt>
+    <span class="ct_bottom7 unverified_business">ArtRage Gallery</span>
+  </dt>
+  <dd>505 Hawley Avenue</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_54601180">
+  <dt>
+    <a class="ct_bottom7" href="http://buzz.schmap.com/syracuse-ny/service/landmark_theatre">Landmark Theatre</a>
+  </dt>
+  <dd>362 South Salina Street</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_54604334">
+  <dt>
+    <span class="ct_bottom7 unverified_business">Everson Museum of Art</span>
+  </dt>
+  <dd>401 Harrison Street</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_54601262">
+  <dt>
+    <a class="ct_bottom7" href="http://buzz.schmap.com/syracuse-ny/cinemas/palace_theatre">Palace Theatre</a>
+  </dt>
+  <dd>2384 James Street</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_54608201">
+  <dt>
+    <span class="ct_bottom7 unverified_business">Destiny USA</span>
+  </dt>
+  <dd>9090 Destiny USA Dr</dd>
+  <dd>Syracuse, New York</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_440049225">
+  <dt>
+    <a class="ct_bottom7" href="http://buzz.schmap.com/syracuse-ny/restaurants/spaghetti_warehouse">Spaghetti Warehouse</a>
+  </dt>
+  <dd>689 North Clinton Street</dd>
+  <dd>Syracuse, NY 13204</dd>
+  <dd>(315) 475-1807</dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+      <a style="float:left;" href="http://www.meatballs.com" target="_blank">Website</a>
+      <a href="http://twitter.com/spaghettiwh" target="_blank"><span class="twitter_link"></span></a>
+    </span>
+    <a href="http://buzz.schmap.com/syracuse-ny/restaurants/spaghetti_warehouse?pn=B4"><img src="/cityguidesdata/photos/chains_mini/XXX9225_B4_mini.jpg" class="hp_placePhoto"/></a>
+  </dd>
+</dl>
+<dl class="place_54607184">
+  <dt>
+    <span class="ct_bottom7 unverified_business">Beauchamp Branch Library</span>
+  </dt>
+  <dd>2111 South Salina Street</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_54605432">
+  <dt>
+    <span class="ct_bottom7 unverified_business">Street Game</span>
+  </dt>
+  <dd>9090 Carousel Center Dr</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_54601266">
+  <dt>
+    <a class="ct_bottom7" href="http://buzz.schmap.com/syracuse-ny/restaurants/marks_pizzeria">Mark's Pizzeria</a>
+  </dt>
+  <dd>376 Grant Boulevard</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_440049209">
+  <dt>
+    <a class="ct_bottom7" href="http://buzz.schmap.com/syracuse-ny/shopping/rite_aid">Rite Aid</a>
+  </dt>
+  <dd>5942 South Salina Street</dd>
+  <dd>Syracuse, NY 13205-3326</dd>
+  <dd>(315) 469-3254</dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+      <a style="float:left;" href="http://www.riteaid.com" target="_blank">Website</a>
+      <a href="http://twitter.com/riteaid" target="_blank"><span class="twitter_link"></span></a>
+    </span>
+    <a href="http://buzz.schmap.com/syracuse-ny/shopping/rite_aid?pn=B3"><img src="/cityguidesdata/photos/chains_mini/XXX9209_B3_mini.jpg" class="hp_placePhoto"/></a>
+  </dd>
+</dl>
+<dl class="place_54604779">
+  <dt>
+    <span class="ct_bottom7 unverified_business">Grace Episcopal Church</span>
+  </dt>
+  <dd>819 Madison Street</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_54601231">
+  <dt>
+    <span class="ct_bottom7 unverified_business">Redhouse</span>
+  </dt>
+  <dd>201 South West Street</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_54603118">
+  <dt>
+    <span class="ct_bottom7 unverified_business">Water Tower</span>
+  </dt>
+  <dd>Thornden Park Drive</dd>
+  <dd>Syracuse, New York</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_54601235">
+  <dt>
+    <a class="ct_bottom7" href="http://buzz.schmap.com/syracuse-ny/bars/singers_karaoke_club">Singers Karaoke Club</a>
+  </dt>
+  <dd>1345 Milton Avenue</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+<dl class="place_54606550">
+  <dt>
+    <span class="ct_bottom7 unverified_business">State Fairgrounds</span>
+  </dt>
+  <dd>581 State Fair Boulevard</dd>
+  <dd>Syracuse, NY</dd>
+  <dd></br></dd>
+  <dd class="mail_face_twit">
+    <span class="mft_links">
+    </span>
+  </dd>
+</dl>
+
+		</div>
+
+		<div id="hp_latestPicks">
+			<div class="hp_lp_top">
+				<div class="tab_label lp_tab_label">Our Latest Top Picks:</div>
+				<div id="tab_lp_1" class="lp_tab tab selecteddd" onclick="homePage.switchTab2('tab_lp_1', 'tab_lp_2', 'hp_lp_main2', 'hp_lp_main1');">Restaurants</div>
+				<div id="tab_lp_2" class="lp_tab tab" onclick="homePage.switchTab2('tab_lp_2', 'tab_lp_1', 'hp_lp_main1', 'hp_lp_main2');">Bars & Clubs</div>
+			</div>
+
+			<div id="hp_lp_main1" class="hp_lp_main" onmouseover="homePage.rotateMOOff();" onmouseout="homePage.rotateMOOn();">
+				<div id="hp_lp_tweet1" class="hp_lp_tweet">
+  <a href="http://buzz.schmap.com/syracuse-ny/restaurants/dolce_vita" class="hp_lp_tweet_a"></a>
+  <br/><p class="hp_lp_tweet_p">My friend Lari is doing a 70.3 for a cause. I'll be at Dolce Vita tonight at 6:30 to find out what it is. Join me! <a target="_blank" href="http://search.twitter.com/search?q=%23Syracuse">#Syracuse</a></p>
+  <table class="hp_lp_table">
+    <tr>
+      <td class="ct1"><a target="_blank" href="http://twitter.com/JoshShear"><img height="24" width="24" src="http://a3.twimg.com/profile_images/530819799/profile-091116_normal.jpg" onerror="brokenImages.add(this,'JoshShear');" onload="checkImage(this, 'JoshShear');"></a></td>
+      <td class="ct2"><a target="_blank" href="http://twitter.com/JoshShear" class="ct_bottom1">JoshShear</a> </td>
+      <td class="ct3">55 months ago</td>
+    </tr>
+  </table>
+</div>
+
+				<div class="hp_lp_links">
+				    <div class="left_tab">
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/restaurants/dolce_vita">Dolce Vita</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,238,123,204);left:-234px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/restaurants/dolce_vita" class="hp_lp_tweet_a">Dolce Vita</a>
+      <br/><p class="hp_lp_tweet_p">My friend Lari is doing a 70.3 for a cause. I'll be at Dolce Vita tonight at 6:30 to find out what it is. Join me! <a target="_blank" href="http://search.twitter.com/search?q=%23Syracuse">#Syracuse</a></p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/JoshShear"><img height="24" width="24" src="http://a3.twimg.com/profile_images/530819799/profile-091116_normal.jpg" onerror="brokenImages.add(this,'JoshShear');" onload="checkImage(this, 'JoshShear');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/JoshShear" class="ct_bottom1">JoshShear</a> </td>
+          <td class="ct3">55 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverLeft></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/restaurants/marks_pizzeria">Mark's Pizzeria</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,238,123,204);left:-234px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/restaurants/marks_pizzeria" class="hp_lp_tweet_a">Mark's Pizzeria</a>
+      <br/><p class="hp_lp_tweet_p">Who says there's no such thing as a free lunch? Thank you to Mark's Pizzeria!</p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/CLRC"><img height="24" width="24" src="http://a0.twimg.com/profile_images/137661109/logo_normal.jpg" onerror="brokenImages.add(this,'CLRC');" onload="checkImage(this, 'CLRC');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/CLRC" class="ct_bottom1">CLRC</a> </td>
+          <td class="ct3">55 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverLeft></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/restaurants/las_delicias">Las Delicias</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,238,123,204);left:-234px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/restaurants/las_delicias" class="hp_lp_tweet_a">Las Delicias</a>
+      <br/><p class="hp_lp_tweet_p">is checking out Las Delicias Restaurant <a target="_blank" href="http://t.co/1lr923j" >http://t.co/1lr923j</a> via @<a target="_blank" href="http://twitter.com/campusfood">campusfood</a></p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/dvh474"><img height="24" width="24" src="http://a3.twimg.com/profile_images/579487286/Picture_normal.jpg" onerror="brokenImages.add(this,'dvh474');" onload="checkImage(this, 'dvh474');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/dvh474" class="ct_bottom1">dvh474</a> </td>
+          <td class="ct3">55 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverLeft></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/restaurants/lao_village_restaurant">Lao Village Restaurant</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(51,306,75,272);left:-302px;top:-58px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/restaurants/lao_village_restaurant" class="hp_lp_tweet_a">Lao Village Restaurant</a>
+      <br/><p class="hp_lp_tweet_p">Yum yum yum...I love today's @<a target="_blank" href="http://twitter.com/Groupon">Groupon</a>. 5 bucks for 10 bucks worth of food at Lao Village. Love my Thai food!</p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/kimincuse"><img height="24" width="24" src="http://a2.twimg.com/profile_images/1156811666/5b9880fe-956b-4453-8146-ef66d2e55ab8_normal.png" onerror="brokenImages.add(this,'kimincuse');" onload="checkImage(this, 'kimincuse');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/kimincuse" class="ct_bottom1">kimincuse</a> </td>
+          <td class="ct3">63 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverLeft></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/restaurants/dinosaur_barbque_restaurant">Dinosaur Barbque Restaurant</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,238,123,204);left:-234px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/restaurants/dinosaur_barbque_restaurant" class="hp_lp_tweet_a">Dinosaur Barbque Restaurant</a>
+      <br/><p class="hp_lp_tweet_p"><a target="_blank" href="http://twitpic.com/yw22v" >http://twitpic.com/yw22v</a> - My buddy Kokomo Slim sitting in on drums at the Dinosaur BBQ tonight. Syracuse,NY.</p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/BobHolz"><img height="24" width="24" src="http://a3.twimg.com/profile_images/640369697/109-0958_IMG_normal.JPG" onerror="brokenImages.add(this,'BobHolz');" onload="checkImage(this, 'BobHolz');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/BobHolz" class="ct_bottom1">BobHolz</a> </td>
+          <td class="ct3">73 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverLeft></div>
+  </div>
+</div>
+<div class="right_tab">
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/restaurants/gentiles_restaurant">Gentiles Restaurant</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,238,123,204);left:-234px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/restaurants/gentiles_restaurant" class="hp_lp_tweet_a">Gentiles Restaurant</a>
+      <br/><p class="hp_lp_tweet_p">Astounding meal at Gentile's tonight. Flavors I have never experienced before! <a target="_blank" href="http://search.twitter.com/search?q=%23Syracuse">#Syracuse</a></p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/thisisjoshua"><img height="24" width="24" src="http://a1.twimg.com/profile_images/576026630/photo_normal.jpg" onerror="brokenImages.add(this,'thisisjoshua');" onload="checkImage(this, 'thisisjoshua');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/thisisjoshua" class="ct_bottom1">thisisjoshua</a> </td>
+          <td class="ct3">73 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverRight></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/restaurants/stellas_diner">Stella's Diner</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,238,123,204);left:-234px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/restaurants/stellas_diner" class="hp_lp_tweet_a">Stella's Diner</a>
+      <br/><p class="hp_lp_tweet_p">I checked in at Stella's Diner (110 Wolf St) on <a target="_blank" href="http://search.twitter.com/search?q=%23Yelp">#Yelp</a> <a target="_blank" href="http://bit.ly/7LxBRp" >http://bit.ly/7LxBRp</a></p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/chris769"><img height="24" width="24" src="http://a3.twimg.com/profile_images/628631735/n8gavin_gmail.com_52c73c19_normal.jpg" onerror="brokenImages.add(this,'chris769');" onload="checkImage(this, 'chris769');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/chris769" class="ct_bottom1">chris769</a> </td>
+          <td class="ct3">73 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverRight></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/restaurants/seneca_knolls_diner">Seneca Knolls Diner</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,272,123,238);left:-268px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/restaurants/seneca_knolls_diner" class="hp_lp_tweet_a">Seneca Knolls Diner</a>
+      <br/><p class="hp_lp_tweet_p">Another happy Friday at Seneca - eat a donut, drink a little coffee and i'm off to my next adventure.</p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/pleasefixme"><img height="24" width="24" src="http://a1.twimg.com/profile_images/282311654/standoff_normal.jpg" onerror="brokenImages.add(this,'pleasefixme');" onload="checkImage(this, 'pleasefixme');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/pleasefixme" class="ct_bottom1">pleasefixme</a> </td>
+          <td class="ct3">73 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverRight></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/restaurants/columbus_baking_co">Columbus Baking Co</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,272,123,238);left:-268px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/restaurants/columbus_baking_co" class="hp_lp_tweet_a">Columbus Baking Co</a>
+      <br/><p class="hp_lp_tweet_p">Drats.  Too long to wait for bread at Columbus Bakery.  They're open 6 till 2 tomorrow.  Will send one of the kids then.</p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/MaureenGreenCNY"><img height="24" width="24" src="http://a1.twimg.com/profile_images/527829858/Tricia_6-14-08_022_normal.jpg" onerror="brokenImages.add(this,'MaureenGreenCNY');" onload="checkImage(this, 'MaureenGreenCNY');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/MaureenGreenCNY" class="ct_bottom1">MaureenGreenCNY</a> </td>
+          <td class="ct3">74 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverRight></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/restaurants/genesee_grande_hotel_syracuse">Genesee Grande Hotel Syracuse</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,272,123,238);left:-268px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/restaurants/genesee_grande_hotel_syracuse" class="hp_lp_tweet_a">Genesee Grande Hotel Syracuse</a>
+      <br/><p class="hp_lp_tweet_p">In Syracuse? Come visit us @ Home for the Holidays at the Genesee Grande today 12 to 5!</p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/smockpaper"><img height="24" width="24" src="http://a1.twimg.com/profile_images/281838768/smock125x125_static_2_normal.jpg" onerror="brokenImages.add(this,'smockpaper');" onload="checkImage(this, 'smockpaper');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/smockpaper" class="ct_bottom1">smockpaper</a> </td>
+          <td class="ct3">74 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverRight></div>
+  </div>
+</div>
+
+				</div>
+				<div class="hp_lp_bottom">
+					
+						<span class="span">More picks nearby:</span>
+						<div id="nearby_towns_top_restaurants">
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/schenectady-ny/restaurants?s=buzz">Schenectady</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/ithaca-ny/restaurants?s=buzz">Ithaca</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/rochester-ny/restaurants?s=buzz">Rochester</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/buffalo/restaurants?s=buzz">Buffalo</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/allentown-pa/restaurants?s=buzz">Allentown</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/scranton-pa/restaurants?s=buzz">Scranton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/binghamton-ny/restaurants?s=buzz">Binghamton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/albany-ny/restaurants?s=buzz">Albany</a>
+    </li>
+  </ul>
+</div>
+<div id="nearby_towns_top_bars" style="display:none">
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/schenectady-ny/bars-and-clubs?s=buzz">Schenectady</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/ithaca-ny/bars-and-clubs?s=buzz">Ithaca</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/rochester-ny/bars-and-clubs?s=buzz">Rochester</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/buffalo/bars-and-clubs?s=buzz">Buffalo</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/allentown-pa/bars-and-clubs?s=buzz">Allentown</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/scranton-pa/bars-and-clubs?s=buzz">Scranton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/binghamton-ny/bars-and-clubs?s=buzz">Binghamton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/albany-ny/bars-and-clubs?s=buzz">Albany</a>
+    </li>
+  </ul>
+</div>
+
+					
+				</div>
+			</div>
+			<div id="hp_lp_main2" class="hp_lp_main hidden" onmouseover="homePage.rotateMOOff();" onmouseout="homePage.rotateMOOn();">
+				 <div id="hp_lp_tweet2" class="hp_lp_tweet">
+  <a href="http://buzz.schmap.com/syracuse-ny/bars/nibsys_pub" class="hp_lp_tweet_a"></a>
+  <br/><p class="hp_lp_tweet_p">local280: Last Change-over for Frank Skrupa tomorrow Sunday July 31, 2011 at Nibsy's Pub 1600 hrs until he is gone !!! Congrats Frank !!!</p>
+  <table class="hp_lp_table">
+    <tr>
+      <td class="ct1"><a target="_blank" href="http://twitter.com/Local280"><img height="24" width="24" src="http://a3.twimg.com/profile_images/288982219/L-280_Trade_Mark_Patch_normal.jpg" onerror="brokenImages.add(this,'Local280');" onload="checkImage(this, 'Local280');"></a></td>
+      <td class="ct2"><a target="_blank" href="http://twitter.com/Local280" class="ct_bottom1">Local280</a> </td>
+      <td class="ct3">55 months ago</td>
+    </tr>
+  </table>
+</div>
+
+				<div class="hp_lp_links">
+				    <div class="left_tab">
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/bars/nibsys_pub">Nibsy's Pub</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(51,306,75,272);left:-302px;top:-58px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/bars/nibsys_pub" class="hp_lp_tweet_a">Nibsy's Pub</a>
+      <br/><p class="hp_lp_tweet_p">local280: Last Change-over for Frank Skrupa tomorrow Sunday July 31, 2011 at Nibsy's Pub 1600 hrs until he is gone !!! Congrats Frank !!!</p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/Local280"><img height="24" width="24" src="http://a3.twimg.com/profile_images/288982219/L-280_Trade_Mark_Patch_normal.jpg" onerror="brokenImages.add(this,'Local280');" onload="checkImage(this, 'Local280');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/Local280" class="ct_bottom1">Local280</a> </td>
+          <td class="ct3">55 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverLeft></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/bars/wise_guys_comedy_showroom">Wise Guys Comedy Showroom</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(51,204,75,170);left:-200px;top:-58px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/bars/wise_guys_comedy_showroom" class="hp_lp_tweet_a">Wise Guys Comedy Showroom</a>
+      <br/><p class="hp_lp_tweet_p">It's almost noon....time to eat! Today's specials are chili with cheddar cheese and corn bread, a cuban sandwich... <a target="_blank" href="http://bit.ly/9Nn4yd" >http://bit.ly/9Nn4yd</a></p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/WiseGuysComedy"><img height="24" width="24" src="http://s.twimg.com/a/1287523226/images/default_profile_0_normal.png" onerror="brokenImages.add(this,'WiseGuysComedy');" onload="checkImage(this, 'WiseGuysComedy');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/WiseGuysComedy" class="ct_bottom1">WiseGuysComedy</a> </td>
+          <td class="ct3">72 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverLeft></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/groups-and-organizations/boys_girls_club_of_syracuse">Boys & Girls Club of Syracuse</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,238,123,204);left:-234px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/groups-and-organizations/boys_girls_club_of_syracuse" class="hp_lp_tweet_a">Boys & Girls Club of Syracuse</a>
+      <br/><p class="hp_lp_tweet_p">Former Syracuse University star John Wallace speaks tonight at Boys & Girls Club in Syracuse: He joins former team... <a target="_blank" href="http://bit.ly/8yMf17" >http://bit.ly/8yMf17</a></p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/syracusedotcom"><img height="24" width="24" src="http://a3.twimg.com/profile_images/61907407/blog-box-other_icons_bigger_normal.gif" onerror="brokenImages.add(this,'syracusedotcom');" onload="checkImage(this, 'syracusedotcom');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/syracusedotcom" class="ct_bottom1">syracusedotcom</a> </td>
+          <td class="ct3">73 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverLeft></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/bars/singers">Singers</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,340,123,306);left:-336px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/bars/singers" class="hp_lp_tweet_a">Singers</a>
+      <br/><p class="hp_lp_tweet_p">As much as I enjoy my Wednesday nights singing the blues at Singers, when I get a chance to get a full 40 hour work week, gotta go with work</p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/CNYBluesman"><img height="24" width="24" src="http://a1.twimg.com/profile_images/237996598/Mesingingtheblues_normal.jpg" onerror="brokenImages.add(this,'CNYBluesman');" onload="checkImage(this, 'CNYBluesman');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/CNYBluesman" class="ct_bottom1">CNYBluesman</a> </td>
+          <td class="ct3">73 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverLeft></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/pubs/blarney_stone_tavern">Blarney Stone Tavern</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(75,102,99,68);left:-98px;top:-82px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/pubs/blarney_stone_tavern" class="hp_lp_tweet_a">Blarney Stone Tavern</a>
+      <br/><p class="hp_lp_tweet_p">Come to &quot;IPH LIVE at the Blarney Stone&quot; Sunday, January 31 from 6:00 pm to 8:00 pm. The IPH will be broadcasting... <a target="_blank" href="http://fb.me/4KItw7I" >http://fb.me/4KItw7I</a></p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/IrishPowerHour"><img height="24" width="24" src="http://a1.twimg.com/profile_images/99768138/wingpint_normal.png" onerror="brokenImages.add(this,'IrishPowerHour');" onload="checkImage(this, 'IrishPowerHour');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/IrishPowerHour" class="ct_bottom1">IrishPowerHour</a> </td>
+          <td class="ct3">73 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverLeft></div>
+  </div>
+</div>
+<div class="right_tab">
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/bars/mystic">Mystic</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(99,340,123,306);left:-336px;top:-106px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/bars/mystic" class="hp_lp_tweet_a">Mystic</a>
+      <br/><p class="hp_lp_tweet_p">Another inspirational day at Mystic 5!</p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/MabynLudke"><img height="24" width="24" src="http://a1.twimg.com/profile_images/198467806/twitter_normal.jpg" onerror="brokenImages.add(this,'MabynLudke');" onload="checkImage(this, 'MabynLudke');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/MabynLudke" class="ct_bottom1">MabynLudke</a> </td>
+          <td class="ct3">73 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverRight></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/restaurants/trappers_pizza_pub">Trapper's Pizza Pub</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(75,238,99,204);left:-234px;top:-82px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/restaurants/trappers_pizza_pub" class="hp_lp_tweet_a">Trapper's Pizza Pub</a>
+      <br/><p class="hp_lp_tweet_p">hello everyone.  start you weekend off right at Trapper's tonight.  come for our happy hour specials then stay and... <a target="_blank" href="http://fb.me/ExGF1iFO" >http://fb.me/ExGF1iFO</a></p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/Trapperspub1"><img height="24" width="24" src="http://s.twimg.com/a/1280443805/images/default_profile_2_normal.png" onerror="brokenImages.add(this,'Trapperspub1');" onload="checkImage(this, 'Trapperspub1');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/Trapperspub1" class="ct_bottom1">Trapperspub1</a> </td>
+          <td class="ct3">67 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverRight></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/pubs/kitty_hoynes_irish_pub">Kitty Hoyne's Irish Pub</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(75,238,99,204);left:-234px;top:-82px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/pubs/kitty_hoynes_irish_pub" class="hp_lp_tweet_a">Kitty Hoyne's Irish Pub</a>
+      <br/><p class="hp_lp_tweet_p">We've got happy hour till 7pm & raw bar with $1 Oysters! Cool off in our air contioned bar & grab a pint!</p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/KittyHoynes"><img height="24" width="24" src="http://a0.twimg.com/profile_images/384548788/kittylogo_normal.jpg" onerror="brokenImages.add(this,'KittyHoynes');" onload="checkImage(this, 'KittyHoynes');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/KittyHoynes" class="ct_bottom1">KittyHoynes</a> </td>
+          <td class="ct3">67 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverRight></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/pubs/pjs_pub_grill">PJ's Pub & Grill</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(75,238,99,204);left:-234px;top:-82px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/pubs/pjs_pub_grill" class="hp_lp_tweet_a">PJ's Pub & Grill</a>
+      <br/><p class="hp_lp_tweet_p">Join us for Happy Hour Tonight! <a target="_blank" href="http://bit.ly/c3eVPb" >http://bit.ly/c3eVPb</a></p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/PJsPubandGrill"><img height="24" width="24" src="http://a3.twimg.com/profile_images/323020463/pjs_logo11607_normal.jpg" onerror="brokenImages.add(this,'PJsPubandGrill');" onload="checkImage(this, 'PJsPubandGrill');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/PJsPubandGrill" class="ct_bottom1">PJsPubandGrill</a> </td>
+          <td class="ct3">69 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverRight></div>
+  </div>
+  <div class="hp_lp_link" onmouseover="homePage.MO(this);">
+    <a class="ct_bottom2 a" href="http://buzz.schmap.com/syracuse-ny/cafes/faegans_cafe_pub">Faegan's Cafe & Pub</a>
+    <span class="ct_bottom5 span"><img style="clip:rect(51,306,75,272);left:-302px;top:-58px;" src="/images/x.gif" width="503" height="556" /></span>
+    <div id="hp_lp_tweet1" class="hp_lp_tweet hp_lp_tweet_no_pic hidden">
+      <a href="http://buzz.schmap.com/syracuse-ny/cafes/faegans_cafe_pub" class="hp_lp_tweet_a">Faegan's Cafe & Pub</a>
+      <br/><p class="hp_lp_tweet_p">All SU students, followers, fans and alumni, come to an SU tweet-up on Thursday, 5:30p.m. at Faegans. Mix and mingle w/ other tweeps!</p>
+      <table class="hp_lp_table">
+        <tr>
+          <td class="ct1"><a target="_blank" href="http://twitter.com/AlyssaHenry"><img height="24" width="24" src="http://a2.twimg.com/profile_images/1105361538/d9fde158-4e39-43d8-91b7-fc985434b356_normal.png" onerror="brokenImages.add(this,'AlyssaHenry');" onload="checkImage(this, 'AlyssaHenry');"></a></td>
+          <td class="ct2"><a target="_blank" href="http://twitter.com/AlyssaHenry" class="ct_bottom1">AlyssaHenry</a> </td>
+          <td class="ct3">72 months ago</td>
+        </tr>
+      </table>
+    </div>
+    <div class=coverRight></div>
+  </div>
+</div>
+
+				</div>
+				<div class="hp_lp_bottom">
+					
+						<span class="span">More picks nearby:</span>
+						<div id="nearby_towns_top_restaurants">
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/schenectady-ny/restaurants?s=buzz">Schenectady</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/ithaca-ny/restaurants?s=buzz">Ithaca</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/rochester-ny/restaurants?s=buzz">Rochester</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/buffalo/restaurants?s=buzz">Buffalo</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/allentown-pa/restaurants?s=buzz">Allentown</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/scranton-pa/restaurants?s=buzz">Scranton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/binghamton-ny/restaurants?s=buzz">Binghamton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/albany-ny/restaurants?s=buzz">Albany</a>
+    </li>
+  </ul>
+</div>
+<div id="nearby_towns_top_bars" style="display:none">
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/schenectady-ny/bars-and-clubs?s=buzz">Schenectady</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/ithaca-ny/bars-and-clubs?s=buzz">Ithaca</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/rochester-ny/bars-and-clubs?s=buzz">Rochester</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/buffalo/bars-and-clubs?s=buzz">Buffalo</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="http://buzz.schmap.com/allentown-pa/bars-and-clubs?s=buzz">Allentown</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/scranton-pa/bars-and-clubs?s=buzz">Scranton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/binghamton-ny/bars-and-clubs?s=buzz">Binghamton</a>
+      <span class="spacer">&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+      <a href="http://buzz.schmap.com/albany-ny/bars-and-clubs?s=buzz">Albany</a>
+    </li>
+  </ul>
+</div>
+
+					
+				</div>
+			</div>
+		</div>
+
+		
+			<!--div id="nationalAd" class="hp_ad"><!--echo encoding="none" var="rsp_advert" --><!--echo encoding="none" var="google_rsp_advert" -- ></div-->
+			<div id="nationalAd" class="hp_ad"><script type='text/javascript'>
+  GA_googleFillSlot("rtguides_undermap_mediumrectangle300x250");
+</script>
+</div>
+			<div id="trendingNow" style="margin-top:-11px; margin-top:-16px\9;">
+				<p>TOP BUZZ CITIES & TOWNS IN NEW YORK</p>
+				<ul class="hp_tr1">
+  <li>1.&nbsp;<a href="http://newyork.schmap.com">New York</a></li>
+  <li>2.&nbsp;<a href="http://buzz.schmap.com/rochester-ny">Rochester</a></li>
+  <li>3.&nbsp;<a href="http://buzz.schmap.com/buffalo">Buffalo</a></li>
+  <li>4.&nbsp;<a href="http://buzz.schmap.com/syracuse-ny">Syracuse</a></li>
+  <li>5.&nbsp;<a href="http://buzz.schmap.com/albany-ny">Albany</a></li>
+</ul>
+
+			</div>
+		
+
+		
+
+		
+	</div>
+	
+</div>
+
+
+
+<div class="footer" id="footer">
+	<ul>
+		<li id="footer_first">&copy; 2013 Schmap, Inc. </li>
+		<li><a href="http://www.schmap.com/About">About us</a></li>
+		<li><a href="http://www.schmap.com/Contact">Contact</a></li>
+		<li><a href="http://www.schmap.com/Privacy">Privacy</a></li>
+		<li><a href="http://www.schmap.com/Termsofuse">Terms</a></li>
+		<li id="footer_last">Talk to us on Twitter: <a href="http://twitter.com/schmap" target="_blank">@schmap</a>&nbsp;&nbsp;
+		<iframe scrolling="no" frameborder="0" allowtransparency="true"
+		src="http://platform1.twitter.com/widgets/follow_button.html?_=1307072450788&amp;align=&amp;button=grey&amp;id=twitter_tweet_button_2&amp;lang=en&amp;link_color=&amp;screen_name=schmap&amp;show_count=false&amp;show_screen_name=&amp;text_color="
+		class="twitter-follow-button" style="height: 20px; width: 62px; position: relative; top: 5px;" title=""></iframe></li>
+	</ul>
+</div>
+
+<div id="tweet_store" style="display:none"></div>
+<div id="addBuzzUnit_store" style="display:none">
+	<div id="addBuzzUnit" class="middle" style="left:0px;#left:4px;position:absolute;margin-top:4px;">
+		<div id="abu_innerBox">
+		<textarea id="abu_tweetText" spellcheck="false"></textarea><div class="prev" id="abu_prev"></div><div class="next" id="abu_next"></div><span id="abu_label1">Choose buzz or write/edit your own above...</span>
+		<span id="abu_label2" onclick="abu.starClick(0);" onmouseover="abu.starMOver(0);" onmouseout="abu.starMOut();">Add rating:&nbsp;&nbsp;&nbsp;</span>
+		<ul id="abu_stars">
+			<li onclick="abu.starClick(1);" onmouseover="abu.starMOver(1);" onmouseout="abu.starMOut();"></li>
+			<li onclick="abu.starClick(2);" onmouseover="abu.starMOver(2);" onmouseout="abu.starMOut();"></li>
+			<li onclick="abu.starClick(3);" onmouseover="abu.starMOver(3);" onmouseout="abu.starMOut();"></li>
+			<li onclick="abu.starClick(4);" onmouseover="abu.starMOver(4);" onmouseout="abu.starMOut();"></li>
+			<li onclick="abu.starClick(5);" onmouseover="abu.starMOver(5);" onmouseout="abu.starMOut();"></li>
+		</ul>
+		<div id="abu_size">140</div>
+		</div>
+		<div id="abu_tweetButton" class="tconnect"></div><span id="abu_label3"></span>
+	</div>
+</div>
+<div id="overlay_new" style="display:none"></div>
+<div id="overlay_1" class="overlay" style="display:none">
+	<img src="/images/spacer.png" class="close" onclick = "overlay.closeOverlay1();" />
+	<img src="/images/spacer.png" class="checkmark" />
+	<p id="p1"></p>
+	<!--<b style="line-height:200%">Your tweet has been sent!</b><br/>Thank your for adding buzz for xxx-->
+	<!--<b style="line-height:200%">Your are now signed in with Twitter!</b><br/>As a signed in user you can bla bla-->
+	<p id="p2">Recommended Schmap accounts to follow...</p>
+	<img id="overlay_spinner" src="/images/twitter_ajax_iphone.gif"/>
+	<ul id="accounts_list"></ul>
+	<p id="p3"></p>
+</div>
+<div id="overlay_2" class="overlay" style="display:none">
+	<img src="/images/spacer.png" class="close" onclick = "overlay.closeOverlay2();" />
+	<h1>Syracuse Event & Deal DMs!</h1>
+	<p style="text-align:left;">Be the first to hear about great local events and deals via our Twitter DM service. Set your preferences here, and
+	change them anytime!</p>
+	<ul class="dm_cat_titles">
+		<li>Syracuse Events</li>
+		<li style="margin-left:90px;#margin-left:95px;">Syracuse Deals</li>
+	</ul>
+	<ul>
+		<li id="dm_cat_list1"></li>
+		<li id="dm_cat_list2"></li>
+	</ul>
+	<p id="p3" style="display:block;">		
+		Please send me a maximum <select id="dm_count">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+								</select>
+		DMs/day <span></span><br/><br/>
+		<a id="unsubscribe">unsubscribe</a>
+		
+		<span>Sign in with Twitter to save your choices and get your DMs: </span><img onclick="abu.login('T-GD-DM-SUBS');" class="login" src="/images/spacer.png">
+		
+	</p>
+</div>
+<div id="overlay_3" class="overlay" style="display:none">
+	<img onclick="overlay.closeOverlay3();" class="close" src="/images/spacer.png">
+	<div class="overlay3_top"><div id="overlay3_done"></div></div>
+	<h1>You're all set to receive @schmap Event & Deal DMs</h1>
+	<p>You'll receive @schmap Event & Deal DMs in the categories you've selected. You can change your selected categories by clicking on the 'Event & Deal DMs' link at the top of any page on our site.</p>
+	<h2>Please help us spread the word!</h2>
+	<div id="overlay3_size">140</div>
+	<div id="overlay3_innerbox">
+		<div class="overlay3_text">
+			<textarea spellcheck="false" id="overlay3_textarea" rows="3"></textarea>
+		</div>
+		<div class="overlay3_PN">	
+			<div id="overlay3_prev" class="overlay3_prev"></div>
+			<div id="overlay3_next" class="overlay3_next"></div>
+		</div>	
+	</div>
+	<div id="overlay3_tweetButton" style="display: inline-block;"></div>
+	<div id="overlay3_doneButton" style="display: none"></div>
+	<span id="overlay3_lable">Choose or edit a message above, then click here to tweet:</span>
+</div>
+
+<script type="text/javascript" src="/ctrs/cities.js"></script>
+<script type="text/javascript">
+var groupon_url = "(none)";
+var searchQuery = "";
+var searchPage_init = "";
+
+var google_api_key = 'ABQIAAAAZH6MtmmlpyGAy_ktkxyYlxSjlsrIs7iRW_qDtQ6MGYnMAE6EVhR-9Xzfw-BwMQVuzYilUwaRMIVpsg';
+var gkey = google_api_key;
+var o3_tweet_short_url = '';
+var currentCity = 'Syracuse';
+var cities_city_url = 'syracuse-ny';
+var cities_subdomain = 'buzz';
+var cities_state = 'NY';
+var cities_city_with_state = 'SYRACUSE, NY';
+var topBanner = false;
+
+var footerBanner = false;
+
+addScript('/ctrs/guides.js');
+</script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+
+
+</body>
+</html>

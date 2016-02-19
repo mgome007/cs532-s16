@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Joshua Bayfield - Technology Enthusiast and student</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<h1>Hi, I'm <strong>Joshua Bayfield</strong>,<br />
+					a technology enthusiast and student.</h1>
+					<p>Come and find out more about me!</p>
+					<ul class="actions">
+					<li><a href="http://blog.joshua.bayfield.me" class="button">Blog</a></li>
+						<li><a href="#one" class="button scrolly">About Me</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style1">
+				<div class="container">
+					<div class="row 150%">
+						<div class="6u 12u$(medium)">
+						<span class="image fit"><img src="images/OpenAM.jpg" alt="" /></span>
+						</div>
+						<div class="6u$ 12u$(medium) important(medium)">
+							<header class="major">
+								<h2>OpenAM</h2>
+							</header>
+							<p>I am the lead developer of a project aiming to create an open source implementation of CEL Automaker, a control software for the CEL Robox.<br/><a href="https://github.com/OpenAMProj/OpenAM">Learn More ></a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="two" class="main style1">
+				<div class="container">
+					<div class="row 150%">
+						<div class="6u 12u$(medium)">
+							<header class="major">
+								<h2>I run Gwiddle</h2>
+							</header>
+							<p>Gwiddle is an awesome free web hosting service for students and newbies to the web.<br/><a href="https://gwiddle.co.uk">Learn More ></a></p>
+						</div>
+						<div class="6u$ 12u$(medium) important(medium)">
+							<span class="image fit"><img src="images/gwidpic.jpg" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="three" class="main style1">
+				<div class="container">
+					<div class="row 150%">
+						<div class="6u 12u$(medium)">
+						<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+						</div>
+						<div class="6u$ 12u$(medium) important(medium)">
+							<header class="major">
+								<h2>I do pretty stuff.<br />
+								Pretty infrastructure, that is.</h2>
+							</header>
+							<p>I am confident in administrating and working with Microsoft Azure - this website is hosted on an Azure VM!</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="three" class="main style2">
+				<div class="container">
+					<div class="row 150%">
+						<div class="6u 12u$(medium)">
+							<ul class="major-icons">
+								<li><span class="icon style1 major fa-cloud"></span></li>
+								<li><span class="icon style2 major fa-twitter"></span></li>
+								<li><span class="icon style3 major fa-linux"></span></li>
+								<li><span class="icon style4 major fa-github"></span></li>
+								<li><span class="icon style5 major fa-windows"></span></li>
+								<li><span class="icon style6 major fa-wordpress"></span></li>
+							</ul>
+						</div>
+						<div class="6u$ 12u$(medium)">
+							<header class="major">
+								<h2>A broad range of skills</h2>
+							</header>
+							<p>I have worked with a number of Linux and Windows systems and worked with a variety of technologies alongside them.</p>
+							<p>I am competent in the usage of Git, as well as code hosting services such as GitHub and Bitbucket. I am also experienced in administrating Atlassian JIRA and Confluence. I am also an active user of Phabricator.</p>
+							<p>I am familiar with PHP, and can modify WordPress templates to suit the needs of a project on a case-by-case basis. I also run a free web hosting service in my spare time.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="four" class="main style1 special">
+				<div class="container">
+					<header class="major">
+						<h2>Awards and Certifications</h2>
+					</header>
+					<p>Here are a few of my certifications/awards that I have recieved over the years.</p>
+					<div class="row 150%">
+						<div class="4u 12u$(medium)">
+							<center><span class="image fit" style="width: 209px; height: 209px;"><img src="https://learn.hootsuite.com/cert.php?id=65960&code=2990122f1d8397eea9e70975bc746215" alt="" /></span></center>
+							<h3>Hootsuite Certified Professional</h3>
+							<p>I am a registered Certified Professional with Hootsuite, a provider of social media tools.</p>
+							<ul class="actions">
+								<li><a href="https://learn.hootsuite.com/u/jbayfield" class="button">More</a></li>
+							</ul>
+						</div>
+						<div class="4u 12u$(medium)">
+							<span class="image fit"><img src="images/Crest_Awards.JPG" alt="" /></span>
+							<h3>Silver CREST Award</h3>
+							<p>The second-level Science and Engineering award presented by the British Science Association</p>
+							<ul class="actions">
+								<li><a href="http://www.britishscienceassociation.org/crest-silver" class="button">More</a></li>
+							</ul>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<span class="image fit"><img src="images/pic03.png" alt="" /></span>
+							<h3>Bronze Industrial Cadets Award</h3>
+							<p>The first-level Engineering award presented by the Engineering Development Trust</p>
+							<ul class="actions">
+								<li><a href="http://www.industrialcadets.org.uk/bronze-level-industrial-cadets" class="button">More</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		
+
+		
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="https://twitter.com/joshuabayfield" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://linkedin.com/in/jbayfield" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/jbayfield" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; 2015 Joshua Bayfield</li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

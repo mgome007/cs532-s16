@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+ 
+<title>Darian Moody - Django Developer</title>
+ 
+<meta charset="UTF-8">
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="author" content="Darian Moody <mail@djm.org.uk>"/>
+<meta name="copyright" content="All text, content, and images &copy; Darian Moody 2010-2016 unless otherwise specified/attributed."/>
+<meta name="company" content="djm.org.uk"/>
+<link rel="shortcut icon" href="/static/images/icons/favicon.ico" type="image/x-icon"/>
+<meta name="google-site-verification" content="nm7Hp0VddMiZlce0DM_sfTVKFo_fjUvVTuGvFiniYas"/>
+ 
+<link rel="alternate" type="application/atom+xml" title="djm.org.uk Blog Feed (Atom)" href="/feeds/atom/blog/post/">
+<link rel="alternate" type="application/rss+xml" title="djm.org.uk Blog Feed (RSS)" href="/feeds/rss/blog/post/">
+ 
+<link rel="stylesheet" type="text/css" href="/static/css/screen.css" media="screen"/>
+<!--[if IE]><script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+ 
+<meta name="viewport" content="width=device-width,initial-scale=1">
+ 
+<link rel="stylesheet" href="/static/css/print.css" type="text/css" media="print"/>
+</head>
+<body id="default" class="blog list">
+<div id="container">
+<header>
+<h4><a href="/" title="Darian Moody - Django Developer, London" rel="home">darian moody.</a></h4>
+<h5>Django Developer, London, UK.</h5>
+</header>
+<div id="aside">
+<nav>
+<ul>
+<li class="nav-read"><a href="/">Read</a></li>
+<li class="nav-contact"><a href="/contact/">Contact</a></li>
+</ul>
+</nav>
+<section class="about">
+<p>Based in &amp; around London, I'm currently contracting as a back &amp; front-end web developer usually working with Django/Python. Feel free to <a href="/contact/" title="Contact">get in touch</a> to check my availability.</p>
+</section>
+<section class="social">
+<ul class="social">
+<li class="email"><a href="/cdn-cgi/l/email-protection#d2bfb3bbbe92b6b8bffcbda0b5fca7b9" title="mail@djm.org.uk"><span class="__cf_email__" data-cfemail="7a171b13163a1e10175415081d540f11">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a></li>
+<li class="twitter"><a href="http://twitter.com/djm_" title="twitter.com/djm_">twitter.com/djm_</a></li>
+<li class="linkedin"><a href="http://www.linkedin.com/in/darianmoody" title="linkedin.com/in/darianmoody">twitter.com/djm_</a></li>
+<li class="github"><a href="http://github.com/djm" title="github.com/djm">github.com/djm</a></li>
+<li class="flickr"><a href="http://www.flickr.com/photos/d-j-m/" title="flickr.com/photos/d-j-m">flickr.com/photos/d-j-m</a></li>
+<li class="lastfm"><a href="http://www.last.fm/user/djm101" title="last.fm/user/djm101">last.fm/user/djm101</a></li>
+</ul>
+</section>
+<section class="twitter">
+<a href="https://twitter.com/djm_" class="twitter-follow-button" data-show-count="false">Follow @djm_</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+</div>
+<div id="main">
+<section id="posts">
+<div class="post">
+<a href="/elixir-keyword-lists-function-parameters/" title="Elixir&#39;s keyword lists: a short intro &amp; their use as function parameters">
+<img src="/media/thumbs/blog/posts/319067848_332c1bb65d_z_1.jpg.50x50_q85_crop-smart.jpg" alt="Blue flamethrower">
+<h2>Elixir&#39;s keyword lists: a short intro &amp; their use as function parameters <span class="meta" title="Posted: 22 Mar 2015, 9:37 p.m.">22.Mar.2015</span></h2>
+</a>
+</div>
+<div class="post alt">
+<a href="/cryptographic-hash-functions-elixir-generating-hex-digests-md5-sha1-sha2/" title="Cryptographic hash functions in Elixir; generating hex digests">
+<img src="/media/thumbs/blog/posts/5388618148_3fa309570d_b.jpg.50x50_q85_crop-smart.jpg" alt="Elixir">
+<h2>Cryptographic hash functions in Elixir; generating hex digests <span class="meta" title="Posted: 23 Feb 2015, 1:04 a.m.">23.Feb.2015</span></h2>
+</a>
+</div>
+<div class="post">
+<a href="/protect-yourself-from-non-obvious-dangers-curl-url-pipe-sh/" title="Protect yourself from the hidden dangers of `curl &lt;url&gt; | sh`">
+<img src="/media/thumbs/blog/posts/blue.pipes.jpg.50x50_q85_crop-smart.jpg" alt="Blue pipes">
+<h2>Protect yourself from the hidden dangers of `curl &lt;url&gt; | sh` <span class="meta" title="Posted: 17 Aug 2013, 10 a.m.">17.Aug.2013</span></h2>
+</a>
+</div>
+<div class="post alt">
+<a href="/reveal-rss-feed-url-itunes-podcast/" title="Revealing the hidden RSS/feed URL on an iTunes podcast page">
+<img src="/media/thumbs/blog/posts/504383882_2e33343f5f_z.jpg.50x50_q85_crop-smart.jpg" alt="Apples">
+<h2>Revealing the hidden RSS/feed URL on an iTunes podcast page <span class="meta" title="Posted: 11 Dec 2012, 7:44 p.m.">11.Dec.2012</span></h2>
+</a>
+</div>
+<div class="post">
+<a href="/duplicate-urls/" title="On duplicate URLs">
+<img src="/media/thumbs/blog/posts/4573812339_277d0fa8bc_z.jpg.50x50_q85_crop-smart.jpg" alt="grass">
+<h2>On duplicate URLs <span class="meta" title="Posted: 21 Apr 2012, 5:41 p.m.">21.Apr.2012</span></h2>
+</a>
+</div>
+<div class="post alt">
+<a href="/python-multiple-line-conditions-and-all-builtin/" title="Python: On multiple line conditionals &amp; the all/any built-ins">
+<img src="/media/thumbs/blog/posts/5078292086_fc15597da9_b.jpg.50x50_q85_crop-smart.jpg" alt="Wires">
+<h2>Python: On multiple line conditionals &amp; the all/any built-ins <span class="meta" title="Posted: 21 Mar 2012, 7 p.m.">21.Mar.2012</span></h2>
+</a>
+</div>
+<div class="post">
+<a href="/how-to-log-file-django-13-and-above/" title="Logging to file in Django 1.3 and above">
+<img src="/media/thumbs/blog/posts/logging.jpg.50x50_q85_crop-smart.jpg" alt="Logging">
+<h2>Logging to file in Django 1.3 and above <span class="meta" title="Posted: 4 Aug 2011, 5:38 p.m.">4.Aug.2011</span></h2>
+</a>
+</div>
+<div class="post alt">
+<a href="/using-django-auth-ldap-active-directory-ldaps/" title="Using django-auth-ldap with LDAPS (SSL, Active Directory)">
+<img src="/media/thumbs/blog/posts/5143398210_c80f7a1672_z.jpg.50x50_q85_crop-smart.jpg" alt="LDAP Cat">
+<h2>Using django-auth-ldap with LDAPS (SSL, Active Directory) <span class="meta" title="Posted: 28 Jul 2011, 11:02 a.m.">28.Jul.2011</span></h2>
+</a>
+</div>
+</section>
+<ul id="pagination">
+<li class="current"><a href="/" title="Page 1">1</a></li>
+<li><a href="/2/" title="Page 2">2</a></li>
+</ul>
+</div>
+</div>
+<footer>
+<section class="footer-container">
+<section class="this-site">
+<h4>This Site</h4>
+<p>Hand crafted with <a href="http://susy.oddbird.net" title="Unobtrusive Grid Design - Susy CSS">Susy</a>, <a href="http://compass-style.com">Compass</a>, <a href="http://sass-lang.com">Sass</a>, CSS3, HTML5,&amp; of course...<a href="http://www.djangoproject.com">Django</a>.</p>
+<p>With thanks to fonts by Jos Buivenga: <a href="http://www.josbuivenga.demon.nl/museo.html">Museo</a>, <a href="http://www.josbuivenga.demon.nl/museosans.html">Museo Sans</a> &amp; Raph Levien: <a href="http://www.levien.com/type/myfonts/inconsolata.html" title="Inconsolata Monospace Programming Font">Inconsolata</a>. Icons by <a href="http://www.komodomedia.com/download/#social-network-icon-pack" title="komodomedia Icon Pack">komodomedia</a>.</p>
+<p>&copy; 2016.</p>
+</section>
+<section class="tweets">
+<h4>Latest from twitter&hellip;</h4>
+</section>
+<section class="read tags">
+<h4>Read by tag</h4>
+<p>
+<a href="/posts/tag/analytics/" style="font-size: 0.8em">analytics</a>
+<a href="/posts/tag/bookmarklet/" style="font-size: 0.8em">bookmarklet</a>
+<a href="/posts/tag/crypto/" style="font-size: 0.8em">crypto</a>
+<a href="/posts/tag/debugging/" style="font-size: 0.8em">debugging</a>
+<a href="/posts/tag/django/" style="font-size: 2em">django</a>
+<a href="/posts/tag/django-contextual/" style="font-size: 0.9em">django-contextual</a>
+<a href="/posts/tag/ecto/" style="font-size: 0.8em">ecto</a>
+<a href="/posts/tag/elixir/" style="font-size: 0.9em">elixir</a>
+<a href="/posts/tag/erlang/" style="font-size: 0.9em">erlang</a>
+<a href="/posts/tag/functional-programming/" style="font-size: 0.8em">functional-programming</a>
+<a href="/posts/tag/ipdb/" style="font-size: 0.8em">ipdb</a>
+<a href="/posts/tag/itunes/" style="font-size: 0.8em">itunes</a>
+<a href="/posts/tag/javascript/" style="font-size: 0.8em">javascript</a>
+<a href="/posts/tag/ldap/" style="font-size: 0.8em">ldap</a>
+<a href="/posts/tag/linux/" style="font-size: 0.9em">linux</a>
+<a href="/posts/tag/logging/" style="font-size: 0.8em">logging</a>
+<a href="/posts/tag/netsec/" style="font-size: 0.8em">netsec</a>
+<a href="/posts/tag/nginx/" style="font-size: 1.0em">nginx</a>
+<a href="/posts/tag/pdb/" style="font-size: 0.8em">pdb</a>
+<a href="/posts/tag/python/" style="font-size: 1.1em">python</a>
+<a href="/posts/tag/radiotray/" style="font-size: 0.9em">radiotray</a>
+<a href="/posts/tag/rss/" style="font-size: 0.8em">rss</a>
+<a href="/posts/tag/security/" style="font-size: 0.9em">security</a>
+<a href="/posts/tag/server-admin/" style="font-size: 0.9em">server-admin</a>
+<a href="/posts/tag/settings/" style="font-size: 0.8em">settings</a>
+<a href="/posts/tag/urls/" style="font-size: 0.8em">URLs</a>
+<a href="/posts/tag/wordpress/" style="font-size: 0.9em">wordpress</a>
+</p>
+</section>
+</section>
+</footer>
+ 
+<script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-5840587-3']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+             })();
+        </script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>

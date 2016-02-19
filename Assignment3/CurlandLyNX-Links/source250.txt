@@ -1,0 +1,500 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+		<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>
+		HVNGRY &#124; ISSUE FIVE: PRIDE	</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://hvngrymag.com/xmlrpc.php" />	
+<link rel="shortcut icon" href="http://hvngrymag.com/wp-content/uploads/2014/01/favicon.png" type="image/x-icon" /><link rel="alternate" type="application/rss+xml" title="HVNGRY &raquo; Feed" href="http://hvngrymag.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HVNGRY &raquo; Comments Feed" href="http://hvngrymag.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/hvngrymag.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=3013240ff2bce887f560bb9f647eeef3"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cleanretina_style-css'  href='http://hvngrymag.com/wp-content/themes/clean-retina-bkp/style.css?ver=3013240ff2bce887f560bb9f647eeef3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery_fancybox_style-css'  href='http://hvngrymag.com/wp-content/themes/clean-retina-bkp/library/css/jquery.fancybox-1.3.4.css?ver=3013240ff2bce887f560bb9f647eeef3' type='text/css' media='all' />
+<link rel='stylesheet' id='google_font_genttium_basic-css'  href='http://fonts.googleapis.com/css?family=Gentium+Basic%3A400%2C400italic%2C700%2C700italic&#038;ver=3013240ff2bce887f560bb9f647eeef3' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-popular-posts-css'  href='http://hvngrymag.com/wp-content/plugins/wordpress-popular-posts/style/wpp.css?ver=3013240ff2bce887f560bb9f647eeef3' type='text/css' media='all' />
+<script type='text/javascript' src='http://hvngrymag.com/wp-includes/js/jquery/jquery.js?ver=3013240ff2bce887f560bb9f647eeef3'></script>
+<script type='text/javascript' src='http://hvngrymag.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3013240ff2bce887f560bb9f647eeef3'></script>
+<script type='text/javascript' src='http://hvngrymag.com/wp-content/themes/clean-retina-bkp/library/js/tinynav.js?ver=3013240ff2bce887f560bb9f647eeef3'></script>
+<script type='text/javascript' src='http://hvngrymag.com/wp-content/themes/clean-retina-bkp/library/js/backtotop.js?ver=3013240ff2bce887f560bb9f647eeef3'></script>
+<link rel='https://api.w.org/' href='http://hvngrymag.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://hvngrymag.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://hvngrymag.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="Custom Login v3.2.4" />
+	<style type="text/css">
+			#site-logo {
+			position: absolute !important;
+			clip: rect(1px 1px 1px 1px); /* IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//hvngrymag.com/?wordfence_logHuman=1&hid=58AE2A781C49CD1FF60E68102D5002D1');
+</script>
+<!-- BEGIN GADWP v4.9.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-47052717-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+
+</head>
+
+<body class="home blog custom-background ">
+	
+	<div id="wrapper">
+				<header id="branding" >
+				
+	<div class="wrapper clearfix">
+		<div class="hgroup-wrap clearfix">
+								<section class="hgroup-right">
+						
+											</section><!-- .hgroup-right -->	
+				
+
+			<hgroup id="site-logo" class="clearfix">
+				<h1 id="site-title"><a href="http://hvngrymag.com/" title="HVNGRY" rel="home">HVNGRY</a></h1>
+				<h2 id="site-description">ISSUE FIVE: PRIDE</h2>
+			</hgroup><!-- #site-logo -->
+
+								<a href="http://hvngrymag.com/" title="HVNGRY"><img src="http://hvngrymag.com/wp-content/uploads/2015/10/hvngry-noise.jpg" class="header-image" width="1956" height="500" alt="HVNGRY"></a>
+						
+		</div><!-- .hgroup-wrap -->		
+		<nav id="access" class="clearfix"><ul class="root"><li id="menu-item-102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="/about">About</a></li>
+<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-71"><a href="http://hvngrymag.com/explore/">Explore</a>
+<ul class="sub-menu">
+	<li id="menu-item-421" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-421"><a href="http://hvngrymag.com/category/art/">Art</a></li>
+	<li id="menu-item-312" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-312"><a href="http://hvngrymag.com/category/fashion-style/">Fashion &#038; Style</a></li>
+	<li id="menu-item-313" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-313"><a href="http://hvngrymag.com/category/health/">Health</a></li>
+	<li id="menu-item-420" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-420"><a href="http://hvngrymag.com/category/school-work/">School &#038; Work</a></li>
+	<li id="menu-item-293" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-293"><a href="http://hvngrymag.com/category/bodypositivity/">Body Positivity</a></li>
+	<li id="menu-item-281" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-281"><a href="http://hvngrymag.com/category/reading/">Reading</a></li>
+	<li id="menu-item-280" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-280"><a href="http://hvngrymag.com/category/life/">Life</a></li>
+	<li id="menu-item-277" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-277"><a href="http://hvngrymag.com/category/science/">Science</a></li>
+	<li id="menu-item-470" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-470"><a href="http://hvngrymag.com/category/travel-2/">Travel</a></li>
+	<li id="menu-item-551" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-551"><a href="http://hvngrymag.com/category/food/">Food</a></li>
+	<li id="menu-item-669" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-669"><a href="http://hvngrymag.com/category/internet/">Internet</a></li>
+</ul>
+</li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="http://hvngrymag.com/ask/">Ask</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://hvngrymag.com/submit/">Submit</a></li>
+<li class="default-menu"><a href="http://hvngrymag.com" title="Navigation">Navigation</a></li></ul></nav><!-- #access --> 		
+ 		   	 			</div><!-- .wrapper -->
+
+		</header>
+		
+				<div id="main" class="wrapper clearfix">
+
+
+<div id="container">
+	
+
+<div id="content">   	<section id="post-2037" class="post-2037 post type-post status-publish format-standard has-post-thumbnail hentry category-misc">
+   		<article class="clearfix">
+           		
+        		<header class="entry-header">
+            	<h2 class="entry-title">
+            		            	</h2>
+
+        			                        
+            	<div class="entry-meta">
+						
+            	</div><!-- .entry-meta -->
+        			                    
+                            		</header>
+
+        		
+        		
+        		<figure class="post-featured-image"><a href="http://hvngrymag.com/2015/11/09/the-dreamer-generation/" title="The Dreamer Generation"><img width="962" height="390" src="http://hvngrymag.com/wp-content/uploads/2014/11/dreamer-962x390.jpg" class="pngfix wp-post-image" alt="The Dreamer Generation" title="The Dreamer Generation" /></a></figure> 
+                
+                        		                		<p class="category-home">#<a href="http://hvngrymag.com/category/misc/" rel="category tag">misc</a></p> 
+                	            		<h2 class="entry-title-home">
+            			<a href="http://hvngrymag.com/2015/11/09/the-dreamer-generation/" title="The Dreamer Generation">The Dreamer Generation</a>
+					</h2> 
+			             
+       		        		<div class="entry-content clearfix">
+        		            <span style="text-align:center;"><p>A generation lost in other worlds</p>
+</span>                    		</div><!-- .entry-content -->  
+        		
+        				  	</article>
+		</section>
+		<hr/>
+	   	<section id="post-2445" class="post-2445 post type-post status-publish format-standard has-post-thumbnail hentry category-school-work">
+   		<article class="clearfix">
+           		
+        		<header class="entry-header">
+            	<h2 class="entry-title">
+            		            	</h2>
+
+        			                        
+            	<div class="entry-meta">
+						
+            	</div><!-- .entry-meta -->
+        			                    
+                            		</header>
+
+        		
+        		
+        		<figure class="post-featured-image"><a href="http://hvngrymag.com/2015/11/04/how-to-start-you-new-job-with-a-bang/" title="How to: Start you new job with a bang!"><img width="962" height="390" src="http://hvngrymag.com/wp-content/uploads/2015/08/Sophia-article-2808-962x390.jpeg" class="pngfix wp-post-image" alt="How to: Start you new job with a bang!" title="How to: Start you new job with a bang!" /></a></figure> 
+                
+                        		                		<p class="category-home">#<a href="http://hvngrymag.com/category/school-work/" rel="category tag">School &amp; Work</a></p> 
+                	            		<h2 class="entry-title-home">
+            			<a href="http://hvngrymag.com/2015/11/04/how-to-start-you-new-job-with-a-bang/" title="How to: Start you new job with a bang!">How to: Start you new job with a bang!</a>
+					</h2> 
+			             
+       		        		<div class="entry-content clearfix">
+        		            <span style="text-align:center;"><p>So you&#8217;ve got the job, now how are you going to make an impression?</p>
+</span>                    		</div><!-- .entry-content -->  
+        		
+        				  	</article>
+		</section>
+		<hr/>
+	   	<section id="post-2462" class="post-2462 post type-post status-publish format-standard has-post-thumbnail hentry category-comics-games category-fiction category-reading tag-comic-books tag-comics tag-lumberjanes tag-ms-marvel tag-strong-female-protagonist tag-super-mutant-magic-academy tag-the-wicked-the-divine">
+   		<article class="clearfix">
+           		
+        		<header class="entry-header">
+            	<h2 class="entry-title">
+            		            	</h2>
+
+        			                        
+            	<div class="entry-meta">
+						
+            	</div><!-- .entry-meta -->
+        			                    
+                            		</header>
+
+        		
+        		
+        		<figure class="post-featured-image"><a href="http://hvngrymag.com/2015/11/02/i-just-really-love-comics-you-guys/" title="I just really love comics you guys"><img width="962" height="390" src="http://hvngrymag.com/wp-content/uploads/2015/09/comix-962x390.png" class="pngfix wp-post-image" alt="I just really love comics you guys" title="I just really love comics you guys" /></a></figure> 
+                
+                        		                		<p class="category-home">#<a href="http://hvngrymag.com/category/comics-games/" rel="category tag">Comics &amp; Games</a>, <a href="http://hvngrymag.com/category/fiction/" rel="category tag">Fiction</a>, <a href="http://hvngrymag.com/category/reading/" rel="category tag">Reading</a></p> 
+                	            		<h2 class="entry-title-home">
+            			<a href="http://hvngrymag.com/2015/11/02/i-just-really-love-comics-you-guys/" title="I just really love comics you guys">I just really love comics you guys</a>
+					</h2> 
+			             
+       		        		<div class="entry-content clearfix">
+        		            <span style="text-align:center;"><p>Not sure where to start in the big world of comics? Here&#8217;s five fantastic reqs that will make you love comics as much as we do.</p>
+</span>                    		</div><!-- .entry-content -->  
+        		
+        				  	</article>
+		</section>
+		<hr/>
+	   	<section id="post-1912" class="post-1912 post type-post status-publish format-standard has-post-thumbnail hentry category-music tag-the-prettiots">
+   		<article class="clearfix">
+           		
+        		<header class="entry-header">
+            	<h2 class="entry-title">
+            		            	</h2>
+
+        			                        
+            	<div class="entry-meta">
+						
+            	</div><!-- .entry-meta -->
+        			                    
+                            		</header>
+
+        		
+        		
+        		<figure class="post-featured-image"><a href="http://hvngrymag.com/2015/10/16/introducing-the-prettiots/" title="Introducing: The Prettiots"><img width="962" height="390" src="http://hvngrymag.com/wp-content/uploads/2014/09/theprettiots-962x390.jpg" class="pngfix wp-post-image" alt="Introducing: The Prettiots" title="Introducing: The Prettiots" /></a></figure> 
+                
+                        		                		<p class="category-home">#<a href="http://hvngrymag.com/category/music/" rel="category tag">Music</a></p> 
+                	            		<h2 class="entry-title-home">
+            			<a href="http://hvngrymag.com/2015/10/16/introducing-the-prettiots/" title="Introducing: The Prettiots">Introducing: The Prettiots</a>
+					</h2> 
+			             
+       		        		<div class="entry-content clearfix">
+        		            <span style="text-align:center;"><p>Adriana introduces some super cute music for you to blast on a Friday</p>
+</span>                    		</div><!-- .entry-content -->  
+        		
+        				  	</article>
+		</section>
+		<hr/>
+	   	<section id="post-2453" class="post-2453 post type-post status-publish format-standard has-post-thumbnail hentry category-history category-internet category-music category-topical">
+   		<article class="clearfix">
+           		
+        		<header class="entry-header">
+            	<h2 class="entry-title">
+            		            	</h2>
+
+        			                        
+            	<div class="entry-meta">
+						
+            	</div><!-- .entry-meta -->
+        			                    
+                            		</header>
+
+        		
+        		
+        		<figure class="post-featured-image"><a href="http://hvngrymag.com/2015/09/10/whitest-dreams/" title="Whitest Dreams?"><img width="881" height="313" src="http://hvngrymag.com/wp-content/uploads/2015/09/whitestdreams.png" class="pngfix wp-post-image" alt="Whitest Dreams?" title="Whitest Dreams?" srcset="http://hvngrymag.com/wp-content/uploads/2015/09/whitestdreams-300x107.png 300w, http://hvngrymag.com/wp-content/uploads/2015/09/whitestdreams.png 881w" sizes="(max-width: 881px) 100vw, 881px" /></a></figure> 
+                
+                        		                		<p class="category-home">#<a href="http://hvngrymag.com/category/history/" rel="category tag">History</a>, <a href="http://hvngrymag.com/category/internet/" rel="category tag">Internet</a>, <a href="http://hvngrymag.com/category/music/" rel="category tag">Music</a>, <a href="http://hvngrymag.com/category/topical/" rel="category tag">Topical</a></p> 
+                	            		<h2 class="entry-title-home">
+            			<a href="http://hvngrymag.com/2015/09/10/whitest-dreams/" title="Whitest Dreams?">Whitest Dreams?</a>
+					</h2> 
+			             
+       		        		<div class="entry-content clearfix">
+        		            <span style="text-align:center;"><p>Romance, Colonialism, and Taylor Swift in Africa</p>
+</span>                    		</div><!-- .entry-content -->  
+        		
+        				  	</article>
+		</section>
+		<hr/>
+	   	<section id="post-2425" class="post-2425 post type-post status-publish format-standard has-post-thumbnail hentry category-school-work">
+   		<article class="clearfix">
+           		
+        		<header class="entry-header">
+            	<h2 class="entry-title">
+            		            	</h2>
+
+        			                        
+            	<div class="entry-meta">
+						
+            	</div><!-- .entry-meta -->
+        			                    
+                            		</header>
+
+        		
+        		
+        		<figure class="post-featured-image"><a href="http://hvngrymag.com/2015/08/28/use-your-words/" title="Choose Your Words"><img width="160" height="160" src="http://hvngrymag.com/wp-content/uploads/2015/08/Face-With-No-Good.jpg" class="pngfix wp-post-image" alt="Choose Your Words" title="Choose Your Words" srcset="http://hvngrymag.com/wp-content/uploads/2015/08/Face-With-No-Good-150x150.jpg 150w, http://hvngrymag.com/wp-content/uploads/2015/08/Face-With-No-Good-32x32.jpg 32w, http://hvngrymag.com/wp-content/uploads/2015/08/Face-With-No-Good-64x64.jpg 64w, http://hvngrymag.com/wp-content/uploads/2015/08/Face-With-No-Good-96x96.jpg 96w, http://hvngrymag.com/wp-content/uploads/2015/08/Face-With-No-Good-128x128.jpg 128w, http://hvngrymag.com/wp-content/uploads/2015/08/Face-With-No-Good-45x45.jpg 45w, http://hvngrymag.com/wp-content/uploads/2015/08/Face-With-No-Good.jpg 160w" sizes="(max-width: 160px) 100vw, 160px" /></a></figure> 
+                
+                        		                		<p class="category-home">#<a href="http://hvngrymag.com/category/school-work/" rel="category tag">School &amp; Work</a></p> 
+                	            		<h2 class="entry-title-home">
+            			<a href="http://hvngrymag.com/2015/08/28/use-your-words/" title="Choose Your Words">Choose Your Words</a>
+					</h2> 
+			             
+       		        		<div class="entry-content clearfix">
+        		            <span style="text-align:center;"><p>Examining our use of permissive language</p>
+</span>                    		</div><!-- .entry-content -->  
+        		
+        				  	</article>
+		</section>
+		<hr/>
+	   	<section id="post-2169" class="post-2169 post type-post status-publish format-standard has-post-thumbnail hentry category-health category-tv-film tag-hunger-games tag-iron-man tag-mental-health">
+   		<article class="clearfix">
+           		
+        		<header class="entry-header">
+            	<h2 class="entry-title">
+            		            	</h2>
+
+        			                        
+            	<div class="entry-meta">
+						
+            	</div><!-- .entry-meta -->
+        			                    
+                            		</header>
+
+        		
+        		
+        		<figure class="post-featured-image"><a href="http://hvngrymag.com/2015/08/03/gaining-a-realistic-perspective-of-action-heroes/" title="Gaining a realistic perspective of action heroes"><img width="962" height="390" src="http://hvngrymag.com/wp-content/uploads/2015/08/rue-962x390.jpg" class="pngfix wp-post-image" alt="Gaining a realistic perspective of action heroes" title="Gaining a realistic perspective of action heroes" /></a></figure> 
+                
+                        		                		<p class="category-home">#<a href="http://hvngrymag.com/category/health/" rel="category tag">Health</a>, <a href="http://hvngrymag.com/category/tv-film/" rel="category tag">TV &amp; Film</a></p> 
+                	            		<h2 class="entry-title-home">
+            			<a href="http://hvngrymag.com/2015/08/03/gaining-a-realistic-perspective-of-action-heroes/" title="Gaining a realistic perspective of action heroes">Gaining a realistic perspective of action heroes</a>
+					</h2> 
+			             
+       		        		<div class="entry-content clearfix">
+        		            <span style="text-align:center;"><p>As movies embrace violence to be &#8220;gritty&#8221; and &#8220;realistic&#8221;, Adriana asks why we don&#8217;t explore the mental health side to this extreme realism.</p>
+</span>                    		</div><!-- .entry-content -->  
+        		
+        				  	</article>
+		</section>
+		<hr/>
+	   	<section id="post-2384" class="post-2384 post type-post status-publish format-standard has-post-thumbnail hentry category-food category-science tag-cookie-science">
+   		<article class="clearfix">
+           		
+        		<header class="entry-header">
+            	<h2 class="entry-title">
+            		            	</h2>
+
+        			                        
+            	<div class="entry-meta">
+						
+            	</div><!-- .entry-meta -->
+        			                    
+                            		</header>
+
+        		
+        		
+        		<figure class="post-featured-image"><a href="http://hvngrymag.com/2015/07/31/the-science-of-cookies/" title="The Science of Cookies"><img width="962" height="390" src="http://hvngrymag.com/wp-content/uploads/2015/07/6343791094_464ebf90a8_o-962x390.jpg" class="pngfix wp-post-image" alt="The Science of Cookies" title="The Science of Cookies" /></a></figure> 
+                
+                        		                		<p class="category-home">#<a href="http://hvngrymag.com/category/food/" rel="category tag">Food</a>, <a href="http://hvngrymag.com/category/science/" rel="category tag">Science</a></p> 
+                	            		<h2 class="entry-title-home">
+            			<a href="http://hvngrymag.com/2015/07/31/the-science-of-cookies/" title="The Science of Cookies">The Science of Cookies</a>
+					</h2> 
+			             
+       		        		<div class="entry-content clearfix">
+        		            <span style="text-align:center;"><p>Create your very own perfect cookie with Sophie E and the power of science!</p>
+</span>                    		</div><!-- .entry-content -->  
+        		
+        				  	</article>
+		</section>
+		<hr/>
+	   	<section id="post-2222" class="post-2222 post type-post status-publish format-standard has-post-thumbnail hentry category-school-work">
+   		<article class="clearfix">
+           		
+        		<header class="entry-header">
+            	<h2 class="entry-title">
+            		            	</h2>
+
+        			                        
+            	<div class="entry-meta">
+						
+            	</div><!-- .entry-meta -->
+        			                    
+                            		</header>
+
+        		
+        		
+        		<figure class="post-featured-image"><a href="http://hvngrymag.com/2015/07/29/21-things-employers-wish-you-knew-when-applying-for-jobs/" title="What Employers Wish You Knew When Applying for Jobs"><img width="962" height="390" src="http://hvngrymag.com/wp-content/uploads/2015/06/desk-962x390.jpeg" class="pngfix wp-post-image" alt="What Employers Wish You Knew When Applying for Jobs" title="What Employers Wish You Knew When Applying for Jobs" /></a></figure> 
+                
+                        		                		<p class="category-home">#<a href="http://hvngrymag.com/category/school-work/" rel="category tag">School &amp; Work</a></p> 
+                	            		<h2 class="entry-title-home">
+            			<a href="http://hvngrymag.com/2015/07/29/21-things-employers-wish-you-knew-when-applying-for-jobs/" title="What Employers Wish You Knew When Applying for Jobs">What Employers Wish You Knew When Applying for Jobs</a>
+					</h2> 
+			             
+       		        		<div class="entry-content clearfix">
+        		            <span style="text-align:center;"><p>Get into the mind of an employer</p>
+</span>                    		</div><!-- .entry-content -->  
+        		
+        				  	</article>
+		</section>
+		<hr/>
+	   	<section id="post-2172" class="post-2172 post type-post status-publish format-standard has-post-thumbnail hentry category-music tag-new-zealand-music">
+   		<article class="clearfix">
+           		
+        		<header class="entry-header">
+            	<h2 class="entry-title">
+            		            	</h2>
+
+        			                        
+            	<div class="entry-meta">
+						
+            	</div><!-- .entry-meta -->
+        			                    
+                            		</header>
+
+        		
+        		
+        		<figure class="post-featured-image"><a href="http://hvngrymag.com/2015/07/23/introducing-fazerdaze/" title="Introducing: Fazerdaze"><img width="962" height="390" src="http://hvngrymag.com/wp-content/uploads/2015/07/fazerdaze-962x390.jpg" class="pngfix wp-post-image" alt="Introducing: Fazerdaze" title="Introducing: Fazerdaze" /></a></figure> 
+                
+                        		                		<p class="category-home">#<a href="http://hvngrymag.com/category/music/" rel="category tag">Music</a></p> 
+                	            		<h2 class="entry-title-home">
+            			<a href="http://hvngrymag.com/2015/07/23/introducing-fazerdaze/" title="Introducing: Fazerdaze">Introducing: Fazerdaze</a>
+					</h2> 
+			             
+       		        		<div class="entry-content clearfix">
+        		            <span style="text-align:center;"><p>It&#8217;s more of a feeling</p>
+</span>                    		</div><!-- .entry-content -->  
+        		
+        				  	</article>
+		</section>
+		<hr/>
+				<ul class="default-wp-page clearfix">
+				<li class="previous"><a href="http://hvngrymag.com/page/2/" >&laquo; Previous</a></li>
+				<li class="next"></li>
+			</ul>
+			</div><!-- #content --></div><!-- #container -->
+
+
+	   </div><!-- #main -->
+
+	   
+	   	
+	   
+	   <footer id="colophon" class="clearfix">
+			<div class="wrapper"><div id="site-generator"><div class="copyright">&copy; <a href="http://hvngrymag.com/" title="HVNGRY" ><span>HVNGRY</span></a> 2016 | <a href="/about">About</a> | <a href="/contact">Contact</a> | <a href="/legal">Legal</a></div><!-- .copyright --><div style="clear:both;"></div>
+			</div><!-- #site-generator --></div><!-- .wrapper --><div class="back-to-top"><a href="#branding">Back to Top</a></div>		</footer>
+	   
+			
+
+	</div><!-- #wrapper -->
+
+	 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47052717-1', 'hvngrymag.com');
+  ga('send', 'pageview');
+
+</script><script type='text/javascript'>
+/* <![CDATA[ */
+var qpprFrontData = {"linkData":[],"siteURL":"http:\/\/hvngrymag.com","siteURLq":"http:\/\/hvngrymag.com"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hvngrymag.com/wp-content/plugins/quick-pagepost-redirect-plugin/js/qppr_frontend_script.min.js?ver=3013240ff2bce887f560bb9f647eeef3'></script>
+<script type='text/javascript' src='http://hvngrymag.com/wp-content/themes/clean-retina-bkp/library/js/jquery.cycle.all.min.js?ver=3013240ff2bce887f560bb9f647eeef3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cleanretina_slider_value = {"transition_effect":"fade","transition_delay":"4000","transition_duration":"1000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hvngrymag.com/wp-content/themes/clean-retina-bkp/library/js/cleanretina-slider-setting.js?ver=3013240ff2bce887f560bb9f647eeef3'></script>
+<script type='text/javascript' src='http://hvngrymag.com/wp-content/themes/clean-retina-bkp/library/js/jquery.fancybox-1.3.4.pack.js?ver=3013240ff2bce887f560bb9f647eeef3'></script>
+<script type='text/javascript' src='http://hvngrymag.com/wp-content/themes/clean-retina-bkp/library/js/cleanretina-custom-fancybox-script.js?ver=3013240ff2bce887f560bb9f647eeef3'></script>
+<script type='text/javascript' src='http://hvngrymag.com/wp-includes/js/wp-embed.min.js?ver=3013240ff2bce887f560bb9f647eeef3'></script>
+
+</body>
+</html>

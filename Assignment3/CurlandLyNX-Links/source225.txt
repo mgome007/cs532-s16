@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3650931-11']);
+  _gaq.push(['_setDomainName', 'weworked.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@weworked">
+<meta name="twitter:title" content="WeWorked: Timesheet Software for Small Biz">
+<meta name="twitter:description" content="WeWorked is free web-based timesheet software for small businesses. Complete, review, and approve timesheets from anywhere.">
+<meta name="twitter:creator" content="@weworked">
+<meta name="twitter:image:src" content="http://www.weworked.com/images/time-tracking-software-2.jpg">
+<meta name="twitter:domain" content="weworked.com">
+<meta name="twitter:app:name:iphone" content="">
+<meta name="twitter:app:name:ipad" content="">
+<meta name="twitter:app:name:googleplay" content="">
+<meta name="twitter:app:url:iphone" content="">
+<meta name="twitter:app:url:ipad" content="">
+<meta name="twitter:app:url:googleplay" content="">
+<meta name="twitter:app:id:iphone" content="">
+<meta name="twitter:app:id:ipad" content="">
+<meta name="twitter:app:id:googleplay" content="">
+
+
+<title>Free timesheet software and invoicing software for small business | WeWorked</title>
+<meta name="description" content="Free timesheet software from WeWorked. Time tracking, generate reports, track leave, billable tasks, and web invoices." />
+<meta name="msvalidate.01" content="CAFE51EC2D086AC01D8D648B627C8E59" />
+<meta name="google-site-verification" content="PURmKJ27pojMoBdtmSblekcdwOn4dJQjcFyw1FWMM2M" />
+<meta name="keywords" content="timesheet software, timecard, time tracking software, online time tracking, online invoices" /><link type="text/css" href="mainsitestylesheet.css" rel="stylesheet" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script type="text/javascript" src="app/external/validator.js"></script>
+<script type="text/javascript" src="external/header.js"></script>
+<script type="text/javascript" src="app/external/browsercheck-ontrial.js"></script>
+
+
+
+</head>
+
+
+
+<body class="oneColFixCtr">
+<div class="header_sides">
+<div class="header">
+<div id="headerContent">
+    <div id="leftbox">
+        <a href="default"><img alt="weworked logo" src="images/weworked_logo_small_white.png" width="150px" height="31px" /></a>
+    </div>
+    <div id="rightbox">
+        <ul id="topmenu">                
+        <li><a href="default">Home</a></li>
+        <li><a href="timesheet-features">Features</a></li>
+        <li><a href="employee-time-store">Pricing</a></li>
+        <li><a href="web-timesheet-contact-us">Contact Us</a></li>
+        <li><a style="color:#99c8e4" href="https://www.weworked.com/app/login_new">Log In</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+<div id="container">
+  <div id="mainContent">
+        <meta name="google-site-verification" content="PURmKJ27pojMoBdtmSblekcdwOn4dJQjcFyw1FWMM2M" />
+<script type="text/javascript" src="external/default.js"></script>
+<div class="singleBox">    
+    <div class="centerfeature">        
+        <h1>Timesheet Software.  Sign Up!</h1>        
+        <span style="color:#666666">It has never been easier to complete, review, and approve timesheets from anywhere.  Easily track <strong>leave balances</strong> and create <strong>invoices</strong>.</span>
+    </div>    
+  </div>  
+<div style="border-bottom: 1px solid #cccccc; height:359px">
+  <div id="slideshow"> 
+        <img class="active" src="images/time-tracking-software-2.jpg" width="550" height="358" alt="free timesheet software" />
+        <img src="images/time-tracking-report.jpg" width="550" height="358" alt="free timesheet software" />
+        <img src="images/timesheet-userlist.jpg" width="550" height="358" alt="free timesheet software" />
+  </div>
+  <div id="home-signupform">  
+  <div class="formfield_signup"><label for="txtFullName">Full Name</label><input tabindex="1" value="" maxlength="70"  id="txtFullName" name="txtFullName" type="text" class="txtBoxLong" /></div>
+  <div class="formfield_signup"><label for="txtEmail">Email<img alt="loading..." src="app/images/ajax-loader2.gif" style="display:none" name="emailloader" id="emailloader" /></label><input tabindex="2" value="" maxlength="100"  id="txtEmail" name="txtEmail" type="text" class="txtBoxLong" /><span class="errortext" name="emailcheck" id="emailcheck"></span></div>
+  <div class="formfield_signup"><label for="txtPassword">Password</label><input tabindex="3" value="" maxlength="16"  id="txtPassword" name="txtPassword" type="password" class="txtBoxLong" /></div>
+  <div>
+      <span style="font-size:14px; font-weight: bold">No credit card is required for trial. Cancel anytime.</span>
+  </div>
+  <div>
+      <button tabindex="4" type="button" name="btnStartTrial" id="btnStartTrial" value="" class="signupbluecssbutton" style="font-size:18px; margin-top: 10px">Start Free 30-day Trial <img alt="loading..." src="app/images/ajax-loader2.gif" style="display:none" name="signuploader" id="signuploader" /></button>
+  </div>
+  <div style="margin-top:5px;">
+      <span style="font-size:12px;">By signing up, you agree to our lovely <a href="tos">terms of service</a>.</span>
+  </div>
+ </div>
+</div>
+<div class="singleBox">    
+    <div class="centerfeature">
+        Online timesheets enjoyed by <strong>thousands</strong> of entrepreneurs, freelancers, small businesses, non-profits, and organizations in over <strong>120 countries</strong>.
+    </div>    
+  </div> 
+<div class="singleBox">    
+    <div class="centerfeature">
+        
+        <span style="font-size: 25px; width: 700px; display:inline-block; text-align:left"><img src="images/qblogofull.png" alt="quickbooks-timesheets" title="integrate timesheets with quickbooks" class="floatLeft" /> Integrate easily with your accounting software, such as QuickBooks and Xero.</span> 
+        
+    </div>    
+  </div> 
+<div class="singleBox">    
+    <div class="centerfeature">        
+        <span style="font-size: 25px; width: 700px; display:inline-block; text-align:left"><a target="_blank" href="top-timesheet-mobile"><img src="images/smallappstore.png" alt="iphone-timesheets-weworked" title="iphone timesheets" class="floatLeft"/></a>Take your timesheets mobile with our new iPhone app.
+    </div>    
+  </div> 
+<div class="singleBox">      
+    <div class="centerfeature">  
+        <span style="font-size: 35px; width: 700px; display:inline-block; font-weight: bold"><img src="images/press-pcmag.png" alt="pc-mag-best-online-timesheet" title="best online timesheet" class="floatLeft" /> Recognized by PC Magazine as one of the best free apps.</span> 
+    </div>        
+  </div>
+<div class="singleBox">      
+    <div class="centerfeature">  
+        <span style="font-size: 20px; width: 700px; display:inline-block; margin-bottom: 10px; color:#993333; font-weight: bold">Watch a short video introduction to WeWorked (1:12).</span>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pc1wj4copSk?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>        
+  </div>
+<div class="featurebreak">    
+    <div class="leftFeatureBox">
+        <h4>DCAA compliant software</h4>
+        <div>
+            Perfect for government contractors and organizations that require extensive audit records.  Be prepared for an audit of your timesheet, billing, and labor data.  WeWorked will audit timesheet and project changes in real time.  You will be able to view a complete log of nearly every change to a timesheet and project.
+        </div>
+     </div>
+    <div class="rightFeatureBox">
+        <h4>Stop using paper and spreadsheets</h4>
+        <div>
+            Stop using paper or those dreadful spreadsheets that take up so much of your valuable time. Stop dreading the end of a pay period and streamline your timesheets on the web.  Most companies reduce the time to prepare for payroll by 50%.  All with no software to install or maintain.
+        </div>
+     </div>
+     <div style="height:1px; clear:both">&nbsp;</div>
+ </div>
+<div class="featurebreak">
+    <div class="leftFeatureBox">
+        <h4>Safe, secure, encrypted data</h4>
+        <div>
+            Data in WeWorked is secure and password-protected. We never store passwords in human-readable format.  On top of that, data transmitted is encrypted using 256-Bit Secure Socket Layers (SSL). Same technology of the world's leading financial institutions.
+        </div>
+    </div>    
+    <div class="rightFeatureBox">
+        <h4>Professional Invoices</h4>
+        <div>
+            Need to send invoices? We have you covered for 30 days. Generate and send unlimited invoices. Receive a 30-day unlimited free trial.  <a href="top-invoices">Unlimited invoices</a> are included with every upgraded account.
+        </div>
+    </div>
+     <div style="height:1px; clear:both">&nbsp;</div>
+ </div>
+
+ <div class="singleBox">    
+    <div class="centerfeature">
+        Take a look at the awesome <strong>free features</strong> in our online <a href="timesheet-features">timesheet software.</a>
+    </div>    
+  </div>  
+ <div class="singleBox">    
+    <div class="centerfeature">
+        WeWorked is inspired by a love for the web and the desire to simplify and understand time in a way that gives people more of it.
+    </div>    
+  </div>  
+
+<input type="hidden" id="validemail" name="validemail" value="no" />
+
+<form method="post" target="emailframe" action="https://app.icontact.com/icp/signup.php" name="icontactform" id="icontactform" accept-charset="UTF-8">
+    <input type="hidden" name="fields_email" value="" />
+    <input type="hidden" name="fields_lname" />
+    <input type="hidden" name="fields_fname" />
+    <input type="hidden" name="listid" value="16132" />
+    <input type="hidden" name="specialid:16132" value="T0IR" />
+    <input type="hidden" name="clientid" value="1135495" />
+    <input type="hidden" name="formid" value="1154" />
+    <input type="hidden" name="reallistid" value="1" />
+    <input type="hidden" name="doubleopt" value="0" />
+</form>
+
+<iframe id="emailframe" width="1" height="1" frameborder="0" name="emailframe">
+</iframe>
+
+
+&nbsp;
+</div>
+</div>
+<div style="clear:both">&nbsp;</div>
+<div class="footer_sides">
+    <div class="footer">
+        <div id="footerContent">            
+                <div class="footerBox">
+                    <ul>                        
+                        <li><a href="timesheet-features">Features</a></li>
+                        <li><a href="employee-time-store">Pricing</a></li>                        
+                        <li><a href="web-timesheet-contact-us">Contact Us</a></li>
+                        <li><a href="default">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footerBox">
+                <ul>                    
+                    <li><a href="about" title="Leadership team" >About Us</a></li>
+                    <li><a target="_blank" href="http://support.weworked.com" title="Get help">Support</a></li>
+                    <li><a href="http://blog.weworked.com" title="Company Blog" >Company Blog</a></li>
+                    <li><a href="change-log" title="Change Log" >Change Log</a></li>
+                </ul>
+                </div>  
+            <div class="footerBox">
+                <ul>                    
+                    <li><a href="enterprise-timesheet-software" title="enterprise timesheet software" >Enterprise</a></li>                    
+                    <li><a href="time-tracking-videos" title="time tracking tutorials" >Watch Tutorials</a></li>                   
+                    <li><a href="timesheet-store" title="weworked store" >Store</a></li>
+                    <li>&nbsp;</li>
+                </ul>
+                </div> 
+            <div class="footerBox">
+                <ul>                    
+                    <li><a href="top-view-project" title="best timesheet software" >Why WeWorked?</a></li>
+                    <li><a href="timesheet-software-reviews" title="timesheet software reviews" >Reviews</a></li>                    
+                    <li>&nbsp;</li>                   
+                    <li>&nbsp;</li>
+                </ul>
+                </div> 
+            <div class="tinyfooter">
+                <ul>
+                    <li><a href="tos" title="Some legalese">Terms of Service</a></li>
+                    <li>&#8226;</li>
+                    <li><a href="privacy" title="We are not interested in your information">Privacy</a></li>
+                    <li>&#8226;</li>
+                    <li><a href="http://www.facebook.com/weworked" target="_blank" title="WeWorked Facebook">Like us on Facebook</a></li>
+                    <li><a href="http://www.twitter.com/weworked" target="_blank" title="WeWorked Twitter">Follow us on Twitter</a></li>
+                    <li>&#8226;</li>
+                    <li><a href="http://www.techstoned.com" target="_blank">A Techstoned Production</a></li>                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+html { display:none; }
+</style>
+<script>
+if (self == top) {
+document.documentElement.style.display = 'block';
+} else {
+top.location = self.location;
+}
+</script>
+</body>
+</html>

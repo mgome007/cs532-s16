@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://commentism.net/xmlrpc.php">
+
+<title>Commentism &#8211; Read | Think | Blog</title>
+<script type="text/javascript">
+  WebFontConfig = {"google":{"families":["Open+Sans:r:latin,latin-ext","Open+Sans:r,i,b,bi:latin,latin-ext"]}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'http://s1.wp.com/wp-content/plugins/custom-fonts/js/webfont.js?m=1438023897g';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active body, .wf-active button, .wf-active input, .wf-active select, .wf-active textarea{font-family:"Open Sans",sans-serif}.wf-active .site-description{font-family:"Open Sans",sans-serif}.wf-active .page-links > .page-links-title{font-family:"Open Sans",sans-serif}.wf-active .archive .taxonomy-description, .wf-active .search-results .page-title span{font-family:"Open Sans",sans-serif}.wf-active .comment-reply-title small{font-family:"Open Sans",sans-serif}.wf-active #comments #respond p.form-submit input#comment-submit{font-family:"Open Sans",sans-serif}.wf-active h1, .wf-active h2:not(.site-description), .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"Open Sans",sans-serif;font-weight:400;font-style:normal}.wf-active h1{font-style:normal;font-weight:400}.wf-active h2:not(.site-description){font-style:normal;font-weight:400}.wf-active h3{font-style:normal;font-weight:400}.wf-active h4{font-style:normal;font-weight:400}.wf-active h5{font-style:normal;font-weight:400}.wf-active h6{font-style:normal;font-weight:400}.wf-active .site-title{font-weight:400;font-style:normal}.wf-active .menu-title{font-weight:400;font-style:normal}.wf-active .widget-title, .wf-active .widgettitle{font-weight:400;font-style:normal}.wf-active .entry-title, .wf-active .page-title{font-weight:400;font-style:normal}.wf-active .entry-author .author-heading{font-weight:400;font-style:normal}.wf-active .page-links{font-family:"Open Sans",sans-serif;font-style:normal;font-weight:400}.wf-active .archive .page-title, .wf-active .search-results .page-title{font-style:normal;font-weight:400}.wf-active .format-link .entry-title a:after{font-style:normal;font-weight:400}.wf-active .comment-reply-title, .wf-active .comments-title{font-weight:400;font-style:normal}.wf-active .comment #respond h3 small a, .wf-active .comment-reply-title a{font-weight:400;font-style:normal}.wf-active .comment-author{font-family:"Open Sans",sans-serif;font-weight:400;font-style:normal}.wf-active .no-comments{font-family:"Open Sans",sans-serif;font-weight:400;font-style:normal}.wf-active .hentry div#jp-relatedposts h3.jp-relatedposts-headline, .wf-active .hentry div.sharedaddy h3.sd-title{font-family:"Open Sans",sans-serif;font-weight:400;font-style:normal}.wf-active .widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4{font-style:normal;font-weight:400}.wf-active .widget-grofile .widget-title{font-style:normal;font-weight:400}.wf-active .widget-grofile h4{font-style:normal;font-weight:400}.wf-active .widget_goodreads h2[class^="gr_custom_header"]{font-style:normal;font-weight:400}.wf-active .widget.top_rated .pd_top_rated_holder_posts > p{font-family:"Open Sans",sans-serif;font-style:normal;font-weight:400}@media screen and (max-width: 782px){.wf-active .page-title, .wf-active body.page .entry-title, .wf-active body.single .entry-title{font-style:normal;font-weight:400}}</style>
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=commentism.net&amp;id=102466467&amp;t=1455840786&amp;back=http%3A%2F%2Fcommentism.net%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="alternate" type="application/rss+xml" title="Commentism &raquo; Feed" href="http://commentism.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Commentism &raquo; Comments Feed" href="http://commentism.net/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/_static/??-eJx9j90OgjAMRl/IuRCRyIXxWWDUMVjpso4svr3FxL+g3Cxf13PypToHZWhKMCWNswp+tm5izeg83EKkAUz6nvaGead/a96NwHqAFBozqse0wltP9i2QtdDRnNSVvKess+ssbHZwTzEZ6qRIKM3eSewpq9diyzYUQf4xNGkhEDrXgAcUbEvDUD2tJfZy3vqyDz4HoVXbhgjMSl50M6rUS9GmZ2GC6GTxJy7uBc9FWR6q4niq6+EOOWep5Q==' type='text/css' media='all' />
+<link rel='stylesheet' id='boardwalk-lato-merriweather-css'  href='https://fonts.googleapis.com/css?family=Lato%3A400%2C700%2C400italic%2C700italic%7CMerriweather%3A400%2C700italic%2C700%2C400italic&#038;subset=latin%2Clatin-ext&#038;ver=4.4.1-alpha-36109' type='text/css' media='all' />
+<link rel='stylesheet' id='boardwalk-source-code-pro-css'  href='https://fonts.googleapis.com/css?family=Source+Code+Pro%3A400%2C700&#038;subset=latin%2Clatin-ext&#038;ver=4.4.1-alpha-36109' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-4' href='https://s1.wp.com/_static/??-eJyFi9EKAiEQRX8oG4K16CH6Ftcmm00dcRTp7zOEKILt5XIunAMtKcuxYCxQbhhQINUZZjb50oy/g5SHx60V2cA/laIdumrJcviJQlXJV0dRAAMvNHZoBJELdVPesNY7ZOXZmkIcv466ekN5Lc04e3YdHXTr476iczjtJj3p42Gv9fIEMsxqKA==' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-5' href='https://s1.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1444132114g' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-6' href='https://s2.wp.com/_static/??/wp-content/mu-plugins/post-flair/sharing/sharing.css,/wp-content/themes/h4/global.css?m=1449707189j' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, please try again with a valid email address."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyFzs0KwjAMAOAXsiub8+BBfJb9ZCW1bWqTrujTW0EP4lAIJCRfQnSJCsPk8gysbY1rhnR7pcbyTv8CyqNJg0DjMbzxREEgyNN6GtGBygxpMLVXDy204SKxeGCuaGP6+RKGFaH8ZRYkDtNFJWC8f10dHRkVXTYYWNfawExZ1ELOUdEFZwNSd87+1Pb9vuvaY3uwD0gZb60='></script>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621g' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://commentismdotnet.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/6VWcX' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Commentism" />
+<meta property="og:description" content="Read | Think | Blog" />
+<meta property="og:url" content="http://commentism.net/" />
+<meta property="og:site_name" content="Commentism" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel='openid.server' href='http://commentismdotnet.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://commentismdotnet.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://commentism.net/osd.xml" title="Commentism" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Commentism" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Read | Think | Blog" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://commentism.net/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="title" content="Commentism on WordPress.com" />
+<meta name="description" content="Read | Think | Blog (by Anthony Ash)" />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+<style type="text/css" id="custom-colors-css">#comments #respond p.form-submit input#comment-submit,.widget_flickr #flickr_badge_uber_wrapper td a:last-child{background:rgba(0,0,0,.6) !important;color:#fff !important}#comments #respond p.form-submit input#comment-submit:hover,#comments #respond p.form-submit input#comment-submit:focus,#comments #respond p.form-submit input#comment-submit:active,.widget_flickr #flickr_badge_uber_wrapper td a:last-child:hover,.widget_flickr #flickr_badge_uber_wrapper td a:last-child:focus,.widget_flickr #flickr_badge_uber_wrapper td a:last-child:active{color:#fff !important}button:hover,button:focus,button:active,input[type="button"]:hover,input[type="button"]:focus,input[type="button"]:active,input[type="reset"]:hover,input[type="reset"]:focus,input[type="reset"]:active,input[type="submit"]:hover,input[type="submit"]:focus,input[type="submit"]:active,.entry-media,body.page .entry-thumbnail,body.single .entry-thumbnail,.format-gallery .gallery,.format-gallery .tiled-gallery,.site-content .format-gallery .slideshow-window,.site-content .format-gallery .tiled-gallery-caption,.comment-reply-title a:hover,.comment-reply-title a:focus,.comment-reply-title a:active,.site-content .slideshow-window,#page .PDS_Poll .pds-vote-button:hover,.widget_akismet_widget .a-stats a:hover{background-color:#000}.format-gallery .gallery,.format-gallery .gallery .gallery-item,.format-gallery .tiled-gallery,.site-content .format-gallery .slideshow-window,.site-content .slideshow-window{border-color:#000}abbr,acronym,a:hover,a:focus,a:active,.entry-author .author-link a:hover,.entry-author .author-link a:focus,.entry-author .author-link a:active{border-bottom-color:#000}body,button,input,select,textarea,input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],textarea,.site-header,.site-title,a:hover,a:focus,a:active,.dropdown-toggle:after,.social-navigation a,.post-navigation a,.paging-navigation a,.sidebar-toggle,.sidebar-toggle.toggle-on,.sidebar-toggle.toggle-on:focus,.widget_tag_cloud a:hover,.widget_tag_cloud a:focus,.widget_tag_cloud a:active,.entry-author a:hover,.entry-author a:focus,.entry-author a:active,.entry-footer a:hover,.entry-footer a:focus,.entry-footer a:active,.entry-author .author-heading,.entry-author .author-link a:hover,.entry-author .author-link a:focus,.entry-author .author-link a:active,.page-links a,.comment-author,.comment-metadata a:hover,.comment-metadata a:focus,.comment-metadata a:active,#infinite-handle,#infinite-handle:before,.widget-grofile .grofile-meta h4 a,#comments #respond .comment-form-fields p.comment-form-posting-as,#comments #respond .comment-form-fields p.comment-form-log-out,#comments #respond #comment-form-identity #comment-form-nascar p,#comments #respond #comment-form-load-service p,#comments #respond #comment-form-comment textarea,#comments #comment-form-share-text-padder textarea,#comments #respond .comment-form-fields label,#comments #respond .comment-form-fields label span.required,#comments #respond .comment-form-fields label span.nopublish,#comments #respond .comment-form-fields div.comment-form-input input,#comments #respond .comment-form-service a:hover,#comments #respond .comment-form-service a:focus,#comments #respond .comment-form-service a:active,#page .PDS_Poll .pds-links a:hover,.widget_authors>ul>li>a:hover,.widget_authors>ul>li>a:focus,.widget_authors>ul>li>a:active,.widget_goodreads h2[class^="gr_custom_header"] a,.widget_goodreads div[class^="gr_custom_container"] div[class^="gr_custom_author"] a:hover,.widget_goodreads div[class^="gr_custom_container"] div[class^="gr_custom_author"] a:focus,.widget_goodreads div[class^="gr_custom_container"] div[class^="gr_custom_author"] a:active,.wp_widget_tag_cloud a:hover,.wp_widget_tag_cloud a:focus,.wp_widget_tag_cloud a:active{color:#000}::input-placeholder{color:#000}::-webkit-input-placeholder{color:#000}:-moz-placeholder{color:#000}::-moz-placeholder{color:#000}::-ms-input-placeholder{color:#000}.archive .hentry:not(.has-post-thumbnail) a,.blog .hentry:not(.has-post-thumbnail) a,.search-results .hentry:not(.has-post-thumbnail) a{color:#fff}.hentry:not(.has-post-thumbnail) .entry-header a:focus{outline-color:#fff}body,.widget thead,.comment input[type="text"],.comment input[type="email"],.comment input[type="url"],.comment input[type="password"],.comment input[type="search"],.comment textarea,.widget input[type="text"],.widget input[type="email"],.widget input[type="url"],.widget input[type="password"],.widget input[type="search"],.widget textarea,.search-form.hover:before,.widget .search-form:before,.site-header,.site-footer,.dropdown-toggle:hover,.dropdown-toggle:focus,.dropdown-toggle:active,.social-navigation a,.paging-navigation a,.sidebar-toggle,.widget_tag_cloud a:hover,.widget_tag_cloud a:focus,.widget_tag_cloud a:active,.page-links a,.archive .page-header,.search-results .page-header,#comments #respond,.comment-respond,.infinity-success .site-main,.site-main .infinite-loader,#infinite-handle,.site-content .tiled-gallery-caption,#comments .comment #respond #comment-form-comment,#comments .comment #comment-form-share-text-padder,#comments .comment #respond .comment-form-fields div.comment-form-input,#comments #respond #comment-form-comment.active,#comments #respond .comment-form-fields div.comment-form-input.active,.wp_widget_tag_cloud a:hover,.wp_widget_tag_cloud a:focus,.wp_widget_tag_cloud a:active{background-color:#fff}.gallery .gallery-item{border-color:#fff}.format-gallery .gallery-caption a:hover,.format-gallery .gallery-caption a:focus,.format-gallery .gallery-caption a:active{border-bottom-color:#fff}button,input[type="button"],input[type="reset"],input[type="submit"],.widget_tag_cloud a,.format-gallery .gallery-caption,.format-gallery .gallery-caption a:hover,.format-gallery .gallery-caption a:focus,.format-gallery .gallery-caption a:active,.site-content .format-gallery .tiled-gallery-caption,.comment #respond h3 small a,.comment-reply-title a,.bypostauthor>.comment-body .fn,.bypostauthor>.comment-body .fn a,#page .PDS_Poll .pds-vote-button,.widget_akismet_widget .a-stats a,.wp_widget_tag_cloud a{color:#fff}.format-gallery .gallery .gallery-item:before{border-color:#6d6d6d}.site-description,.site-footer,.menu-item-description,.widget_recent_entries .post-date,.entry-author,.entry-footer:not(.empty),.page-links,.page-links>.page-links-title,.archive .taxonomy-description,.search-results .page-title span,.comment-metadata,.gallery-caption,.wp-caption-text,.site .wp-playlist-current-item,.site-content .tiled-gallery-caption,.hentry div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post-context,.widget_jetpack_display_posts_widget .jetpack-display-remote-posts p,.widget-grofile .grofile-meta,.widget_authors>ul>li>a,.widget_goodreads div[class^="gr_custom_author"]{color:#6d6d6d}.social-navigation+.site-info:before,.main-navigation ul ul.toggle-on:before,.post-navigation:before,.main-navigation+.widget-area:before,.widget:before,.widget_nav_menu .sub-menu.toggle-on:before,.comment-list .comment:before,.comment-list .pingback:before{background-color:#d8d8d8}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],textarea,.search-form:before,.dropdown-toggle,.social-navigation li,.page-links a,.page-links>span,.page-links a:hover,.page-links a:focus,.page-links a:active,.gallery .gallery-item:before,#comments #respond #comment-form-comment,#comments #comment-form-share-text-padder,#comments #respond .comment-form-fields div.comment-form-input,#page .PDS_Poll .pds-box,.milestone-widget .milestone-countdown,.milestone-widget .milestone-message,.widget.top_rated .pd_top_rated_holder_posts>p{border-color:#d8d8d8}table,.site-footer,.main-navigation li,.comment-navigation,.post-navigation,.paging-navigation .nav-previous,.widget_archive li,.widget_categories li,.widget_links li,.widget_meta li,.widget_nav_menu li,.widget_pages li,.widget_recent_comments li,.widget_recent_entries li,.widget_rss li,.format-chat .entry-content p,.comment-list .comment,.comment-list .pingback,#comments #respond,.comment-respond,.site-main .infinite-loader,#infinite-handle,.widget_rss_links li,.widget_goodreads div[class^="gr_custom_each_container"],.widget_authors li,.widget_author_grid li,.widget_jp_blogs_i_follow li,.widgets-list-layout li,.widget_top-clicks li,.widget_top-posts li,.widget.top_rated li,.widget_upcoming_events_widget li{border-top-color:#d8d8d8}.rtl blockquote,table,.paging-navigation .nav-next,body.rtl .hentry .wpcom-reblog-snapshot .reblogger-note-content blockquote{border-right-color:#d8d8d8}th,td,.site-header,a,.main-navigation ul,.paging-navigation .nav-next,.widget_archive ul,.widget_categories ul,.widget_links ul,.widget_meta ul,.widget_nav_menu ul,.widget_pages ul,.widget_recent_comments ul,.widget_recent_entries ul,.widget_rss ul,.entry-author .author-link a,.archive .page-header,.search-results .page-header,.format-chat .entry-content p:last-of-type,.widget_rss_links ul,.widget_goodreads div[class^="gr_custom_each_container"]:last-of-type,.widget_authors ul,.widget_author_grid ul,.widget_jp_blogs_i_follow ol,.widget_blog-stats ul,.widget_top-clicks ul,.widget_top-posts ul,.widget.top_rated ul,.widget_upcoming_events_widget ul{border-bottom-color:#d8d8d8}blockquote,th,td,.sidebar-toggle,.paging-navigation .nav-previous,.site-main .infinite-loader,#infinite-handle,body .hentry .wpcom-reblog-snapshot .reblogger-note-content blockquote{border-left-color:#d8d8d8}.comment-list .reply:before{color:#d8d8d8}a:focus{outline-color:#d8d8d8}pre,code,kbd,tt,var,hr,thead,input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],textarea,.search-form:before,.widget .search-form.hover:before,.social-navigation a:hover,.social-navigation a:focus,.social-navigation a:active,.dropdown-toggle,.post-navigation a:hover,.post-navigation a:focus,.post-navigation a:active,.paging-navigation a:hover,.paging-navigation a:focus,.paging-navigation a:active,.sidebar-toggle:hover,.sidebar-toggle:focus,.sidebar-toggle:active,.sidebar-toggle.toggle-on,.sidebar-toggle.toggle-on:focus,.sidebar,.page-links a:hover,.page-links a:focus,.page-links a:active,.format-chat .entry-content p:nth-child(even),.comments-container,#infinite-handle:hover,.sd-sharing-enabled:not(#jp-post-flair):before,.sd-like.jetpack-likes-widget-wrapper:before,.sharedaddy.sd-block.sd-gplus:before,.sd-rating:before,div#jp-relatedposts:before,.widget-gallery .tiled-gallery-caption,#comments #respond #comment-form-comment,#comments #comment-form-share-text-padder,#comments #respond .comment-form-fields div.comment-form-input,#comments .comment #respond #comment-form-comment.active,#comments .comment #comment-form-share-text-padder.active,#comments .comment #respond .comment-form-fields div.comment-form-input.active{background-color:#f2f2f2}.entry-author,.entry-footer:not(.empty),.page-links,#page .PDS_Poll .pds-answer{border-top-color:#f2f2f2}.wp-caption,#page .PDS_Poll .pds-answer,.hentry .wpcom-reblog-snapshot .reblogger-note{border-bottom-color:#f2f2f2}mark,ins,button,input[type="button"],input[type="reset"],input[type="submit"],.widget_tag_cloud a,.hentry.color-1,.hentry.has-post-thumbnail .entry-link,.filter-on .hentry.has-post-thumbnail:hover .entry-link,.comment #respond h3 small a,.comment-reply-title a,.bypostauthor>.comment-body .fn,.pace .pace-progress,#page .PDS_Poll .pds-vote-button,.widget_akismet_widget .a-stats a,.milestone-widget .milestone-header,.wp_widget_tag_cloud a{background-color:#0790e8}.hentry.color-1{background-color:#0790e8}.hentry.color-2{background-color:#068adc}.hentry.color-3{background-color:#0682cf}.hentry.color-4{background-color:#067ac3}.hentry.color-5{background-color:#0573b7}.hentry.color-1+.hentry.color-1,.hentry.color-2+.hentry.color-2,.hentry.color-3+.hentry.color-3,.hentry.color-4+.hentry.color-4,.hentry.color-5+.hentry.color-5{background-color:#0799f4}.hentry.color-1+.navigation+.hentry.color-1,.hentry.color-2+.navigation+.hentry.color-2,.hentry.color-3+.navigation+.hentry.color-3,.hentry.color-4+.navigation+.hentry.color-4,.hentry.color-5+.navigation+.hentry.color-5{background-color:#056baa}.search-form.hover:before,.site-title a:hover,.site-title a:focus,.site-title a:active,a,.dropdown-toggle:hover:after,.dropdown-toggle:focus:after,.dropdown-toggle:active:after,.social-navigation a:hover,.social-navigation a:focus,.social-navigation a:active,.post-navigation a:hover,.post-navigation a:focus,.post-navigation a:active,.paging-navigation a:hover,.paging-navigation a:focus,.paging-navigation a:active,.sidebar-toggle:hover,.sidebar-toggle:focus,.sidebar-toggle:active,.sidebar-toggle.toggle-on:hover,.sidebar-toggle.toggle-on:active,.widget-title a:hover,.widget-title a:focus,.widget-title a:active,.widgettitle a:hover,.widgettitle a:focus,.widgettitle a:active,.entry-author .author-link a,.page-links>span,.page-links a:hover,.page-links a:focus,.page-links a:active,.comment-author a:hover,.comment-author a:focus,.comment-author a:active,.site .wp-playlist-light .wp-playlist-playing,#infinite-handle:hover,#infinite-handle:hover:before,.widget-grofile .grofile-meta h4 a:hover,.widget-grofile .grofile-meta h4 a:hover,.widget-grofile .grofile-meta h4 a:active,#comments #respond .comment-form-service a,#page .PDS_Poll .pds-links a,.widget_goodreads h2[class^="gr_custom_header"] a:hover,.widget_goodreads h2[class^="gr_custom_header"] a:focus,.widget_goodreads h2[class^="gr_custom_header"] a:active{color:#0790e8}</style>
+</head>
+
+<body class="home blog mp6 customizer-styles-applied has-sidebar highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+						<div class="clear">
+				<h1 class="site-title"><a href="http://commentism.net/" rel="home">Commentism</a></h1>
+				<h2 class="site-description">Read | Think | Blog</h2>
+			</div>
+		</div><!-- .site-branding -->
+					<button class="sidebar-toggle" aria-expanded="false" ><span class="screen-reader-text">Toggle Sidebar</span></button>
+			</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+						
+				
+<article id="post-283" class="post-283 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-blogs-in-english category-reviews tag-art tag-contemporary-art tag-keith-milow tag-liverpool tag-pre-raphaelites tag-rembrandt tag-tate-liverpool tag-tate-modern tag-walker-gallery">
+			<div class="entry-thumbnail">
+			<img width="980" height="778" src="https://commentismdotnet.files.wordpress.com/2016/01/img_0725.jpg?w=980" class="attachment-boardwalk-featured-image size-boardwalk-featured-image wp-post-image" alt="June 1937 (painting) 1937 Ben Nicholson OM 1894-1982 Purchased 1955 http://www.tate.org.uk/art/work/T00050" />		</div><!-- .entry-thumbnail -->
+	
+	<header class="entry-header">
+					<div class="entry-meta">
+				<span class="posted-on"><a href="http://commentism.net/2016/01/24/classic-and-contemporary-art-in-liverpool/" rel="bookmark"><time class="entry-date published" datetime="2016-01-24T12:00:06+00:00">January 24, 2016</time><time class="updated" datetime="2016-01-24T15:08:09+00:00">January 24, 2016</time></a></span>			</div><!-- .entry-meta -->
+				<h1 class="entry-title"><a href="http://commentism.net/2016/01/24/classic-and-contemporary-art-in-liverpool/" rel="bookmark">Classic and Contemporary Art in Liverpool</a></h1>	</header><!-- .entry-header -->
+
+	<a href="http://commentism.net/2016/01/24/classic-and-contemporary-art-in-liverpool/" class="entry-link"><span class="screen-reader-text">Continue reading <span class="meta-nav">&rarr;</span></span></a>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-363" class="post-363 post type-post status-publish format-standard has-post-thumbnail hentry category-blogs-in-english category-jazz category-reviews tag-audience tag-ensemble tag-estelle tag-improvisation tag-jazz tag-jazz-cafe tag-jazz-cafe-newcastle tag-jazz-music tag-jazz-north-east tag-meghan-trainor tag-modern-jazz tag-newcastle tag-newcastle-jazz tag-paul-skerritt tag-performance tag-pianist tag-traditional-jazz">
+			<div class="entry-thumbnail">
+			<img width="980" height="653" src="https://commentismdotnet.files.wordpress.com/2016/01/22677895028_4161ca7b4c_o.jpg?w=980" class="attachment-boardwalk-featured-image size-boardwalk-featured-image wp-post-image" alt="22677895028_4161ca7b4c_o" />		</div><!-- .entry-thumbnail -->
+	
+	<header class="entry-header">
+					<div class="entry-meta">
+				<span class="posted-on"><a href="http://commentism.net/2016/01/18/one-man-and-his-jazz-band-paul-skerritt/" rel="bookmark"><time class="entry-date published updated" datetime="2016-01-18T12:04:54+00:00">January 18, 2016</time></a></span>			</div><!-- .entry-meta -->
+				<h1 class="entry-title"><a href="http://commentism.net/2016/01/18/one-man-and-his-jazz-band-paul-skerritt/" rel="bookmark">One Man and his Jazz Band &#8211; Paul Skerritt</a></h1>	</header><!-- .entry-header -->
+
+	<a href="http://commentism.net/2016/01/18/one-man-and-his-jazz-band-paul-skerritt/" class="entry-link"><span class="screen-reader-text">Continue reading <span class="meta-nav">&rarr;</span></span></a>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-292" class="post-292 post type-post status-publish format-standard has-post-thumbnail hentry category-blogs-in-english tag-class-struggle tag-industrial-action tag-junior-doctors tag-junior-doctors-strike tag-medical-staff tag-nhs tag-overworked tag-pay tag-performance tag-strike tag-strikes tag-working-conditions">
+			<div class="entry-thumbnail">
+			<img width="600" height="621" src="https://commentismdotnet.files.wordpress.com/2016/01/13333043383_14deeffd2e_o.jpg?w=600" class="attachment-boardwalk-featured-image size-boardwalk-featured-image wp-post-image" alt="13333043383_14deeffd2e_o" />		</div><!-- .entry-thumbnail -->
+	
+	<header class="entry-header">
+					<div class="entry-meta">
+				<span class="posted-on"><a href="http://commentism.net/2016/01/12/why-striking-doctors-should-strike-back/" rel="bookmark"><time class="entry-date published" datetime="2016-01-12T11:31:05+00:00">January 12, 2016</time><time class="updated" datetime="2016-01-12T11:39:47+00:00">January 12, 2016</time></a></span>			</div><!-- .entry-meta -->
+				<h1 class="entry-title"><a href="http://commentism.net/2016/01/12/why-striking-doctors-should-strike-back/" rel="bookmark">Why Striking Doctors Should Strike Back</a></h1>	</header><!-- .entry-header -->
+
+	<a href="http://commentism.net/2016/01/12/why-striking-doctors-should-strike-back/" class="entry-link"><span class="screen-reader-text">Continue reading <span class="meta-nav">&rarr;</span></span></a>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-243" class="post-243 post type-post status-publish format-standard has-post-thumbnail hentry category-blogs-in-english tag-fans tag-film-industry tag-illegal-downloading tag-illegal-downloads tag-piracy tag-pirate-films tag-pirated-copies">
+			<div class="entry-thumbnail">
+			<img width="980" height="1386" src="https://commentismdotnet.files.wordpress.com/2015/12/6660940773_813be80d9e_o.jpg?w=980" class="attachment-boardwalk-featured-image size-boardwalk-featured-image wp-post-image" alt="6660940773_813be80d9e_o" />		</div><!-- .entry-thumbnail -->
+	
+	<header class="entry-header">
+					<div class="entry-meta">
+				<span class="posted-on"><a href="http://commentism.net/2015/12/27/what-is-good-about-downloading/" rel="bookmark"><time class="entry-date published" datetime="2015-12-27T08:17:48+00:00">December 27, 2015</time><time class="updated" datetime="2015-12-27T08:22:24+00:00">December 27, 2015</time></a></span>			</div><!-- .entry-meta -->
+				<h1 class="entry-title"><a href="http://commentism.net/2015/12/27/what-is-good-about-downloading/" rel="bookmark">What is Good about Downloading</a></h1>	</header><!-- .entry-header -->
+
+	<a href="http://commentism.net/2015/12/27/what-is-good-about-downloading/" class="entry-link"><span class="screen-reader-text">Continue reading <span class="meta-nav">&rarr;</span></span></a>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-161" class="post-161 post type-post status-publish format-standard has-post-thumbnail hentry category-travel-blog tag-argentina tag-argentine-food tag-south-america tag-teaching-english-abroad tag-teaching-english-in-argentina tag-travel tag-travelling tag-year-abroad">
+			<div class="entry-thumbnail">
+			<img width="360" height="480" src="https://commentismdotnet.files.wordpress.com/2015/11/descarga-3.png?w=360" class="attachment-boardwalk-featured-image size-boardwalk-featured-image wp-post-image" alt="descarga (3)" />		</div><!-- .entry-thumbnail -->
+	
+	<header class="entry-header">
+					<div class="entry-meta">
+				<span class="posted-on"><a href="http://commentism.net/2015/11/26/adventure-argentina/" rel="bookmark"><time class="entry-date published" datetime="2015-11-26T20:44:14+00:00">November 26, 2015</time><time class="updated" datetime="2015-12-14T17:53:07+00:00">December 14, 2015</time></a></span>			</div><!-- .entry-meta -->
+				<h1 class="entry-title"><a href="http://commentism.net/2015/11/26/adventure-argentina/" rel="bookmark">Adventure Argentina</a></h1>	</header><!-- .entry-header -->
+
+	<a href="http://commentism.net/2015/11/26/adventure-argentina/" class="entry-link"><span class="screen-reader-text">Continue reading <span class="meta-nav">&rarr;</span></span></a>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-31" class="post-31 post type-post status-publish format-standard has-post-thumbnail hentry category-blogs-in-english tag-ataques-en-paris tag-barack-obama tag-estado-islamico tag-francois-hollande tag-is tag-middle-east tag-paris-attacks tag-pope-francis tag-syria tag-tercera-guerra-mundial tag-terrorism-2 tag-terrorismo tag-terroristas tag-third-world-war tag-war tag-world-war-iii">
+			<div class="entry-thumbnail">
+			<img width="980" height="1386" src="https://commentismdotnet.files.wordpress.com/2015/11/15691142569_244dbb48ed_o.jpg?w=980" class="attachment-boardwalk-featured-image size-boardwalk-featured-image wp-post-image" alt="Courtesy of Christopher Dombres
+https://www.flickr.com/photos/christopherdombres/" />		</div><!-- .entry-thumbnail -->
+	
+	<header class="entry-header">
+					<div class="entry-meta">
+				<span class="posted-on"><a href="http://commentism.net/2015/11/18/estamos-ante-el-comienzo-de-la-tercera-guerra-mundial/" rel="bookmark"><time class="entry-date published" datetime="2015-11-18T20:40:59+00:00">November 18, 2015</time><time class="updated" datetime="2015-11-27T15:06:05+00:00">November 27, 2015</time></a></span>			</div><!-- .entry-meta -->
+				<h1 class="entry-title"><a href="http://commentism.net/2015/11/18/estamos-ante-el-comienzo-de-la-tercera-guerra-mundial/" rel="bookmark">¿Estamos ante el Comienzo de la Tercera Guerra Mundial?</a></h1>	</header><!-- .entry-header -->
+
+	<a href="http://commentism.net/2015/11/18/estamos-ante-el-comienzo-de-la-tercera-guerra-mundial/" class="entry-link"><span class="screen-reader-text">Continue reading <span class="meta-nav">&rarr;</span></span></a>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-10" class="post-10 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-facebook tag-hashtagging tag-hashtags tag-microblogging tag-social-media tag-tweets tag-twitter tag-whats-so-good-about-twitter tag-why-twitter">
+			<div class="entry-thumbnail">
+			<img width="640" height="1136" src="https://commentismdotnet.files.wordpress.com/2015/11/img_0305.png?w=640" class="attachment-boardwalk-featured-image size-boardwalk-featured-image wp-post-image" alt="IMG_0305" />		</div><!-- .entry-thumbnail -->
+	
+	<header class="entry-header">
+					<div class="entry-meta">
+				<span class="posted-on"><a href="http://commentism.net/2015/11/15/twitter-why-why-and-why/" rel="bookmark"><time class="entry-date published" datetime="2015-11-15T17:18:52+00:00">November 15, 2015</time><time class="updated" datetime="2015-11-15T17:22:45+00:00">November 15, 2015</time></a></span>			</div><!-- .entry-meta -->
+				<h1 class="entry-title"><a href="http://commentism.net/2015/11/15/twitter-why-why-and-why/" rel="bookmark">Twitter: Why, Why, Why?</a></h1>	</header><!-- .entry-header -->
+
+	<a href="http://commentism.net/2015/11/15/twitter-why-why-and-why/" class="entry-link"><span class="screen-reader-text">Continue reading <span class="meta-nav">&rarr;</span></span></a>
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-2" class="post-2 post type-post status-publish format-standard has-post-thumbnail hentry category-blogs-en-castellano tag-informacion-rapida tag-la-vida-tecnologica tag-smart-technology tag-smartphones tag-tecnologia">
+			<div class="entry-thumbnail">
+			<img width="639" height="868" src="https://commentismdotnet.files.wordpress.com/2015/11/fullsizerender.jpg?w=639" class="attachment-boardwalk-featured-image size-boardwalk-featured-image wp-post-image" alt="FullSizeRender" />		</div><!-- .entry-thumbnail -->
+	
+	<header class="entry-header">
+					<div class="entry-meta">
+				<span class="posted-on"><a href="http://commentism.net/2015/11/15/un-mundo-del-accesso-inmediato/" rel="bookmark"><time class="entry-date published" datetime="2015-11-15T15:42:37+00:00">November 15, 2015</time><time class="updated" datetime="2015-11-19T16:56:52+00:00">November 19, 2015</time></a></span>			</div><!-- .entry-meta -->
+				<h1 class="entry-title"><a href="http://commentism.net/2015/11/15/un-mundo-del-accesso-inmediato/" rel="bookmark">El Mundo del Acceso Inmediato</a></h1>	</header><!-- .entry-header -->
+
+	<a href="http://commentism.net/2015/11/15/un-mundo-del-accesso-inmediato/" class="entry-link"><span class="screen-reader-text">Continue reading <span class="meta-nav">&rarr;</span></span></a>
+</article><!-- #post-## -->
+
+			
+			
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<div id="sidebar" class="sidebar" aria-hidden="true">
+	<div class="sidebar-content">
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+				<h1 class="menu-title">Menu</h1>
+				<div class="menu-primary"><ul id="menu-main-menu" class="clear"><li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="https://commentismdotnet.wordpress.com">Home</a></li>
+<li id="menu-item-8" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8"><a href="http://commentism.net/about/">About</a></li>
+<li id="menu-item-240" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-240"><a href="http://commentism.net/category/blogs-en-castellano/">Blogs en Castellano</a></li>
+<li id="menu-item-239" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-239"><a href="http://commentism.net/category/blogs-in-english/">Blogs in English</a></li>
+<li id="menu-item-490" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-490"><a href="http://commentism.net/category/art/">Art</a></li>
+<li id="menu-item-491" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-491"><a href="http://commentism.net/category/jazz/">Jazz</a></li>
+<li id="menu-item-492" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-492"><a href="http://commentism.net/category/reviews/">Reviews</a></li>
+<li id="menu-item-236" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-236"><a href="http://commentism.net/category/travel-blog/">Travel Blog</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+		
+				<div id="secondary" class="widget-area" role="complementary">
+			<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://commentism.net/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside><aside id="blog_subscription-3" class="widget widget_blog_subscription">				<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="subscribe-blog">
+											<p>Enter your email address to follow this blog and receive notifications of new posts by email.</p>
+<p>Join 142 other followers</p>
+						<p><input type="text" name="email" style="width: 95%; padding: 1px 2px" placeholder="Enter your email address" value="" id="subscribe-field"/></p>
+					
+					<p>
+						<input type="hidden" name="action" value="subscribe"/>
+						<input type="hidden" name="blog_id" value="102466467"/>
+						<input type="hidden" name="source" value="http://commentism.net/"/>
+						<input type="hidden" name="sub-type" value="widget"/>
+						<input type="hidden" name="redirect_fragment" value="blog_subscription-3" />
+						<input type="hidden" id="_wpnonce" name="_wpnonce" value="c0bf759b46" />						<input type="submit" value="Follow Commentism.net" />
+					</p>
+				</form>
+			
+</aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+					<li>
+				<a href="http://commentism.net/2016/01/24/classic-and-contemporary-art-in-liverpool/">Classic and Contemporary Art in Liverpool</a>
+						</li>
+					<li>
+				<a href="http://commentism.net/2016/01/18/one-man-and-his-jazz-band-paul-skerritt/">One Man and his Jazz Band &#8211; Paul Skerritt</a>
+						</li>
+					<li>
+				<a href="http://commentism.net/2016/01/12/why-striking-doctors-should-strike-back/">Why Striking Doctors Should Strike Back</a>
+						</li>
+					<li>
+				<a href="http://commentism.net/2015/12/27/what-is-good-about-downloading/">What is Good about Downloading</a>
+						</li>
+					<li>
+				<a href="http://commentism.net/2015/11/26/adventure-argentina/">Adventure Argentina</a>
+						</li>
+					<li>
+				<a href="http://commentism.net/2015/11/18/estamos-ante-el-comienzo-de-la-tercera-guerra-mundial/">¿Estamos ante el Comienzo de la Tercera Guerra Mundial?</a>
+						</li>
+					<li>
+				<a href="http://commentism.net/2015/11/15/twitter-why-why-and-why/">Twitter: Why, Why, Why?</a>
+						</li>
+					<li>
+				<a href="http://commentism.net/2015/11/15/un-mundo-del-accesso-inmediato/">El Mundo del Acceso Inmediato</a>
+						</li>
+				</ul>
+		</aside>				</div><!-- #secondary -->
+			</div><!-- .sidebar-content -->
+</div><!-- #sidebar -->
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+				<div class="site-info">
+			<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a>
+			<span class="sep"> | </span>
+			<a href="https://wordpress.com/themes/boardwalk/" title="Learn more about this theme">The Boardwalk Theme</a>.		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!-- wpcom_wp_footer -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201607y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/commentismdotnet.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/commentismdotnet.wordpress.com\/wp-login.php?action=logout&_wpnonce=624185b3cf","homeURL":"http:\/\/commentism.net\/","postID":"283","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1424115551j'></script>
+
+	<div id="bit" class="loggedout-follow-normal">
+		<a class="bsub" href="javascript:void(0)"><span id='bsub-text'>Follow</span></a>
+		<div id="bitsubscribe">
+
+					<h3><label for="loggedout-follow-field">Follow &ldquo;Commentism&rdquo;</label></h3>
+
+			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="loggedout-follow">
+			<p>Get every new post delivered to your Inbox.</p>
+
+			<p id="loggedout-follow-error" style="display: none;"></p>
+
+						<p class="bit-follow-count">Join 142 other followers</p>
+			<p><input type="email" name="email" placeholder="Enter your email address" id="loggedout-follow-field"/></p>
+
+			<input type="hidden" name="action" value="subscribe"/>
+			<input type="hidden" name="blog_id" value="102466467"/>
+			<input type="hidden" name="source" value="http://commentism.net/"/>
+			<input type="hidden" name="sub-type" value="loggedout-follow"/>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="c0bf759b46" /><input type="hidden" name="_wp_http_referer" value="/" />
+			<p id='bsub-subscribe-button'><input type="submit" value="Sign me up" /></p>
+			</form>
+					<div id='bsub-credit'><a href="https://wordpress.com/?ref=lof">Build a website with WordPress.com</a></div>
+		</div><!-- #bitsubscribe -->
+	</div><!-- #bit -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"http:\/\/s1.wp.com\/wp-content\/mu-plugins\/shortcodes\/img\/slideshow-loader.gif","blog_id":"102466467","blog_subdomain":"commentismdotnet","user_id":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JetpackEmojiSettings = {"base_url":"http:\/\/s0.wp.com\/wp-content\/mu-plugins\/emoji\/twemoji\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyNkEkOwjAMRS9EiIBWggXiLG3qktmhTgi9Pe2CikFAVp7eW/jzHJhAH8FHrol3cFUCwm2tacWfTi6xYNNZeeIkcYgCO6BZ0JcEw7gWo7BQLJFVUycxs2X/7kYJboJDanmLzdDlxppZDY0oZsmowKzyhvUoErFeffz1TRVocaBS2mEiyBLAlhrL8CMzcKgVj/ml/uU1xCkjw8roB3Vyx01V77ZVva8P+g5cmsex'></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "commentismdotnet.wordpress.com";
+	</script>
+	<script type="text/javascript" src="http://s.skimresources.com/js/725X1342.skimlinks.js"></script><script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'102466467','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'102466467','v':'wpcom','tz':'0','user_id':'0','subd':'commentismdotnet'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzRUSk0wbVRfODlnNUZzfltiSHA3c10sNFE4QWQuaHBWcytGZzBYX2hsV1kuaERSaiYuVnRTNVVGbmwwP1FtSnkwOSVrbWNuX3BwdFljSTUmcE9OfiZYcmlpRUdrYVdzeDVOZnc9Y2NjSV13Tj9DWEcxV2o9a1o5eGIuS042LlJ6LVZmPUpDcXJwOHRqOSthQz9BSlRidDRSYi1dSGF+XXFOR0RkXXBjTmpVTzYwVkdyXUIxZXRucFJpcXpaTzlSaVBqUnxXd34seWdOZS13XUZkd2lQSjhnUUlHT2pTdVMzQUM='}]);
+_stq.push([ 'clickTrackerInit', '102466467', '0' ]);
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

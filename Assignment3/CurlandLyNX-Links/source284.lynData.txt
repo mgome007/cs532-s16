@@ -1,0 +1,452 @@
+   #[1]RSS 2.0 [2]RSS .92 [3]Atom 0.3 [4]next
+
+   [5]Daten|teiler
+   Kopieren als Kulturtechnik
+     * [6]Blog
+     * [7]Texte
+     * [8]Wiki
+     * [9]Kontakt
+
+[10]Powershell-Artikel für Raspberry Pi Geek
+
+   4. Oktober 2015 von Christian Imhorst
+
+   In der [11]Powershell Usergroup Hannover hatte wir das Thema Desired
+   State Configuration (DSC) von Windows-Servern mit Hilfe der Powershell.
+   Interessanter Weise funktioniert [12]DSC auch mit Linux-Rechnern, was
+   mich auf die Idee zum Artikel [13]Zwischen zwei Welten — Powershell und
+   Desired State Configuration auf dem RasPi nutzen gebracht hat.
+
+   Das Raspberry Pi Geek-Magazin war interessiert und hat den Artikel in
+   der [14]aktuellen Ausgabe veröffentlicht. Der Artikel kann auch gleich
+   [15]for free auf der Homepage des Magazins gelesen werden.
+
+   Geschrieben in [16]Powershell, [17]Publikationen | [18]Keine Kommentare
+   »
+
+[19]Install FreeDOS 1.1 with FreeDOSmultiboot
+
+   2. Oktober 2015 von Christian Imhorst
+
+   If you want to install FreeDOS to your hard drive with the help of
+   FreeDOSmultiboot on a pen drive you should first know, what you are
+   doing: You need a backup, you can destroy your data and you can damage
+   your hardware.
+
+   THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY!
+   USE AT YOUR OWN RISK!
+
+   Then you need to download and unzip [20]FreeDOSmultiboot.zip [1] and
+   copy FreeDOSmultiboot.img to your pen drive. On Windows use [21]Win32
+   DiskImager [2] or [22]Rufus [3] or similar. On Unix based systems like
+   Linux you can use the dd command as superuser/root:
+   dd if=FreeDOSmultiboot.img of=/dev/sdX
+
+   Replace X with the letter of the device name of your pen drive.
+
+   Boot your device from your prepared pen drive. Choose „Install FreeDOS
+   1.1“ from the boot menu to start the installer.
+
+   [23]Bildschirmfoto vom 2015-10-02 22-47-55
+
+   If needed choose „Create Drive C:“ in the installer menu.
+
+   [24]Bildschirmfoto vom 2015-09-29 21-03-47
+
+   Maybe you have to delete a Non-DOS partiton on your computer to create
+   a new „Primary DOS Partiton“ for FreeDOS installation.
+
+   [25]Bildschirmfoto vom 2015-09-29 21-29-08
+
+   If the DOS partition is created you have to format the partition.
+   Please note to set the C drive on the harddisk as active.
+
+   After a new reboot, you have to boot from the pen drive again, choose
+   „Install FreeDOS 1.1“ from the boot menu to start the installer. Then
+   you can choose „Install to harddisk“ from the menu and proceed with the
+   FreeDOS installation.
+
+   There are more detailed information about the installation in the
+   [26]FreeDOS Install HOWTO [3]. This is for VirtualBox, but should apply
+   to any PC.
+
+   Happy FreeDOS’ing.
+
+   [1]
+   http://www.datenteiler.de/wp-content/uploads/2015/10/FreeDOSmultiboot.z
+   ip
+   [2] http://sourceforge.net/projects/win32diskimager/
+   [3] https://rufus.akeo.ie/
+   [4] http://freedos.sourceforge.net/wiki/index.php/VirtualBox
+
+   Geschrieben in [27]FreeDOS | [28]Keine Kommentare »
+
+[29]Batterien enthalten: Linux Mint Debian Edition (LMDE)
+
+   6. März 2015 von Christian Imhorst
+
+   Wer Ubuntu nicht mag, der nimmt Linux Mint. Dabei gibt es Mint in zwei
+   Varianten: Die Hauptausgabe, die auf Ubuntu beruht, und eine äußerlich
+   sehr ähnliche zweite Ausgabe, die Debian als Grundlage hat. Wenn man
+   Debian nicht mag, nimmt man dann die Linux Mint Debian Edition? Oder
+   nimmt man sie erst recht, weil man ein gut vorkonfiguriertes Debian in
+   Grün möchte? Oder nimmt man es besser gar nicht, weil LMDE praktisch
+   tot ist? Diese und andere Fragen sollen im Artikel geklärt werden.
+
+   Redaktioneller Hinweis: Dieser Artikel von mir ist erstmals in der
+   [30]Märzausgabe 03/2015 von freiesMagazin erschienen.
+
+   [31]Den restlichen Eintrag lesen »
+
+   Geschrieben in [32]freiesMagazin, [33]Gnu/Linux, [34]Publikationen |
+   [35]1 Kommentar »
+
+[36]FreeDOS – Totgesagte leben länger
+
+   17. November 2014 von Christian Imhorst
+
+   Das Betriebssystem DOS, das Disk Operating System [1], ist
+   quicklebendig und manchmal entdeckt man es an den merkwürdigsten Orten
+   wieder. Dieser Artikel gibt einen Einblick in DOS und zeigt, wie man es
+   heute noch nutzen kann.
+
+   Redaktioneller Hinweis: Dieser Artikel von mir ist erstmals in der
+   [37]Novemberausgabe 11/2014 von freiesMagazin erschienen.
+
+   [38]Den restlichen Eintrag lesen »
+
+   Geschrieben in [39]freiesMagazin, [40]Publikationen | [41]2 Kommentare
+   »
+
+[42]Torify: Programme im Terminal anonymisieren
+
+   4. Juni 2014 von Christian Imhorst
+
+   Die meisten Menschen benutzen Tor vermutlich zum anonymen Surfen mit
+   dem Tor Browser Bundle, das in freiesMagazin 05/2014 [1] vorgestellt
+   wurde. In diesem Artikel geht es um die Nutzung von Tor im Terminal,
+   was je nach Distribution mit mehr oder weniger Installationsaufwand
+   verbunden ist.
+
+   Redaktioneller Hinweis: Dieser Artikel von mir ist erstmals in der
+   [43]Juniausgabe 06/2014 von freiesMagazin erschienen.
+
+   [44]Den restlichen Eintrag lesen »
+
+   Geschrieben in [45]freiesMagazin, [46]Publikationen | Kommentare
+   deaktiviert für Torify: Programme im Terminal anonymisieren
+
+[47]Mit Tarnkappe im Netz – Das Tor Browser Bundle
+
+   5. Mai 2014 von Christian Imhorst
+
+   Möchte man sich anonym im Internet bewegen, wird das vom Tor Browser
+   Bundle [1] leicht gemacht. Das Bundle erhält man auf der Projekt-Seite
+   von Tor. Dabei ist Tor die Kurzform von The Onion Router [2] und hat
+   das Ziel, Verbindungsdaten von Programmen im Internet zu anonymisieren.
+
+   Redaktioneller Hinweis: Dieser Artikel von mir ist erstmals in der
+   [48]Maiausgabe 05/2014 von freiesMagazin erschienen.
+
+   [49]Den restlichen Eintrag lesen »
+
+   Geschrieben in [50]freiesMagazin, [51]Gnu/Linux | [52]1 Kommentar »
+
+[53]IronPython-Artikel für das Entwickler-Magazin
+
+   10. April 2014 von Christian Imhorst
+
+   Im Oktober 2013 war das [54]Entwickler-Magazin auf der Suche nach einem
+   Autor mit Expertise in Sachen IronPython. Für 2014 ist nämlich eine
+   neue Artikelserie geplant, bei der in jeder Ausgabe eine „exotische“
+   Sprache vorgestellt werden soll — sozusagen ein Blick über den
+   Tellerrand der herkömmlichen Programmiersprachen. In diesem
+   Zusammenhang sollte auch IronPython ein kleiner Artikel gewidmet
+   werden.
+
+   Sucht man nach einem deutschsprachigen Artikel über IronPython, landet
+   man sehr schnell bei [55]Nicht nur für Zombies: Einstieg in IronPython,
+   den ich für das freiesMagazin
+   geschrieben hatte. Da es zu IronPython nur wenig auf deutsch gibt, lag
+   es wohl nahe, mich anzufragen. Daraufhin habe ich einen neuen Artikel
+   geschrieben. Das Schwierigste war noch, sich eine irgendwie passende
+   Anspielung auf Monty Python zu überlegen. Der Schwerpunkt dieses
+   Artikels liegt besonders auf der Geschichte von IronPython, warum die
+   Sprache entwickelt wurde, welche Anwendungsfälle es gibt — inklusive
+   einer kleinen Beispielanwendung. Zu meiner Überraschung machte mein
+   [56]Artikel den Anfang der Serie in der Ausgabe Januar/Februar. Er
+   wurde auch relativ unverändert abgedruckt, bis auf die Überschrift, die
+   ist nicht von mir.
+
+   Geschrieben in [57]Publikationen | Kommentare deaktiviert für
+   IronPython-Artikel für das Entwickler-Magazin
+
+[58]Debian auf einem Non-PAE System installieren
+
+   26. März 2014 von Christian Imhorst
+
+   Alte Hardware wegzuwerfen ist meist sehr schade, weil sie häufig noch
+   gut funktioniert. Zum Beispiel das Business-Notebook [59]Thinkpad R51.
+   Vor 10 Jahren war das ein Spitzenmodell mit Windows XP, 512 MB
+   Arbeitsspeicher, 30 Gigabyte IDE-Festplatte und einem Intel Celeron M
+   mit 1,3 GHz. Heute ist der Arbeitsspeicher zu wenig, das
+   vorinstallierte Betriebssystem ein Sicherheitsrisiko und der Festplatte
+   kann man nicht mehr trauen. Der Prozessor ist aber noch schnell genug,
+   um damit im Internet zu surfen, oder E-Mails zu schreiben. Wenn man
+   sich für alte Hardware interessiert, sollte man eine Sammelleidenschaft
+   für Komponenten aus defekten Rechnern, besonders Laptops entwickeln und
+   wenigstens Arbeitsspeicher und PCI-Geräte wie WLAN-Karten retten, bevor
+   man einen Laptop verschrottet. Für manche WLAN-Karten gibt es keine
+   Firmware unter Linux, dann ist es gut, wenn man sie gegen eine
+   austauschen kann, die problemlos erkannt wird. Arbeitsspeicher kann man
+   immer gebrauchen, außerdem muss man kein Geld ausgeben, um den
+   Arbeitsspeicher eines älteren Notebooks zu erweitern, und wenn es nur
+   ein weiterer 512 MB Riegel für den R51 ist. Speichermedien wie SD- oder
+   CompactFlash-Karten hat man meist auch mehr als man braucht, zum
+   Beispiel weil man sich für den Fotoapparat mal eine Karte mit noch mehr
+   Speicherplatz gekauft hat. Haben die alten Karten mindesten 4 GB oder
+   mehr Speicher und liegen ungenutzt in der Schreibtischschublade rum und
+   wenn die Karte bootfähig ist, braucht man nur noch einen IDE-Adapter
+   für etwa 10 Euro und die Festplatte kann ausgetauscht werden.
+
+   [60]Den restlichen Eintrag lesen »
+
+   Geschrieben in [61]Allgemein | [62]1 Kommentar »
+
+[63]XFCE: Die Windows-Taste und das Whisker-Menü
+
+   20. Februar 2014 von Christian Imhorst
+
+   Auf der Arbeit benutze ich fast auschließlich Windows 7 und arbeite
+   viel mit dem Startmenü und dem Suchfeld, um Dateien zu suchen, oder um
+   Programme auszuführen. So ein Suchfeld hat das Whisker-Menü für die
+   Desktopumgebung XFCE genialer Weise auch. Auf das Whisker-Menü bin ich
+   übrigens über den Artikel „Optimale Oberfläche für Gnome und XFCE“ bei
+   [64]Pro-Linux gestoßen. Wenn ich aber, wie normalerweise unter Windows
+   üblich, die Windows-Taste an meinem privatem Notebook mit Debian Wheezy
+   drücke, um das Whisker-Menü zu starten, passiert nichts. Jetzt kann man
+   in den Einstellungen von XFCE unter Tastatur im Reiter Tastenkürzel für
+   Anwendungen einer Anwendungen ein Tastenkürzel zuweisen. In diesem Fall
+   wäre das die Anwendung „xfce4-popup-whiskermenu“. Das klappt allerdings
+   nicht mit der Windows- bzw. Super-Taste, da man sie nicht als einzelne
+   Taste auswählen kann, sondern nur in Kombination mit einer anderen. Um
+   das zu ändern, muss man die Super-Taste an eine andere Taste binden,
+   die es eigentlich nicht gibt, auf meinem Notebook z.B. die Taste F13.
+   Diese Taste wird dann zum Aufruf des Whisker-Menüs benutzen.
+
+   [65]Den restlichen Eintrag lesen »
+
+   Geschrieben in [66]Gnu/Linux | [67]1 Kommentar »
+
+[68]Shell-Skripte – Kleine Helfer selbst gemacht
+
+   4. Februar 2014 von Christian Imhorst
+
+   Mit Shell-Skripten sind kleine Helfer schnell selbst geschrieben. Sie
+   haben den Vorteil, dass man sich keine langen Befehlszeilen auswendig
+   merken muss. Es reicht dann, einfach das eigene Shell-Skript
+   aufzurufen.
+
+   Redaktioneller Hinweis: Dieser Artikel von mir ist erstmals in der
+   [69]Februarausgabe 02/2014 von freiesMagazin erschienen.
+
+   [70]Den restlichen Eintrag lesen »
+
+   Geschrieben in [71]freiesMagazin, [72]Gnu/Linux | Kommentare
+   deaktiviert für Shell-Skripte – Kleine Helfer selbst gemacht
+
+                           [73]« Previous Entries
+   ____________________
+
+Neuste Beiträge
+
+     * [74]Powershell-Artikel für Raspberry Pi Geek
+     * [75]Install FreeDOS 1.1 with FreeDOSmultiboot
+     * [76]Batterien enthalten: Linux Mint Debian Edition (LMDE)
+     * [77]FreeDOS – Totgesagte leben länger
+     * [78]Torify: Programme im Terminal anonymisieren
+
+Mein Buch
+
+                      [79][Anarchiebuch_gro%C3%9F.jpg]
+
+   :: Als E-Book [80][html|[81]pdf|[82]epub]
+   :: [83]Podcast auf [84]Ubuntublog.ch.
+   :: [85]Lesetipp bei [86]zeitsturz,
+   :: [87]freiesMagazin & [88]aponaut
+
+Kürzlich kommentiert
+
+     * ullika:[89]Wenn man Debian nicht mag, nimmt man dann die Linu
+     * Yanneck:[90]Hi, ich wollte einfach mal anmerken, dass ich in r
+     * Lezner:[91]Hallo! Bei der Arbeit benutzen wir FreeDOS, um
+     * J:[92]super beitrag! ich möchte nur noch anfügen, dass
+     * Bedanker:[93]Danke. Erster Treffer mit Google für "sicheres l
+
+
+
+Kategorien
+
+     * [94]Allgemein
+     * [95]Android
+     * [96]Batch
+     * [97]BlackBerry
+     * [98]Copyleft
+     * [99]English
+     * [100]FreeDOS
+     * [101]freiesMagazin
+     * [102]Gnu/Linux
+     * [103]Haustechnik
+     * [104]Krypto
+     * [105]MacOS X und iPhone
+     * [106]Open Source
+     * [107]Powershell
+     * [108]Programmieren
+     * [109]Publikationen
+     * [110]Python
+     * [111]SHR
+     * [112]Windows
+
+Links
+
+     * [113]Binärgewitter
+     * [114]CRE
+     * [115]Deimhart
+     * [116]Radio Tux
+
+Copy & Paste
+
+
+   © 2016 [117]Christian Imhorst | [118]Some Rights Reserved |
+   [119]Impressum
+   [120]Wordpress Theme by [121]Arcsin
+   [122]Header graphic by Nina Seibicke
+
+References
+
+   Visible links
+   1. http://www.datenteiler.de/feed/
+   2. http://www.datenteiler.de/feed/rss/
+   3. http://www.datenteiler.de/feed/atom/
+   4. http://www.datenteiler.de/page/2/
+   5. http://www.datenteiler.de/
+   6. http://www.datenteiler.de/
+   7. http://texte.datenteiler.de/
+   8. http://wiki.datenteiler.de/
+   9. http://www.datenteiler.de/kontakt/
+  10. http://www.datenteiler.de/powershell-artikel-fuer-raspberry-pi-geek/
+  11. http://www.netz-weise-it.training/user-groups/powershell-user-group.html
+  12. http://blogs.technet.com/b/privatecloud/archive/2014/05/19/powershell-dsc-for-linux-step-by-step.aspx
+  13. http://www.raspberry-pi-geek.de/Magazin/2015/06/Powershell-und-Desired-State-Configuration-auf-dem-RasPi-nutzen
+  14. http://www.raspberry-pi-geek.de/Magazin/2015/06
+  15. http://www.raspberry-pi-geek.de/Magazin/2015/06/Powershell-und-Desired-State-Configuration-auf-dem-RasPi-nutzen
+  16. http://www.datenteiler.de/kategorie/powershell/
+  17. http://www.datenteiler.de/kategorie/publikationen/
+  18. http://www.datenteiler.de/powershell-artikel-fuer-raspberry-pi-geek/#respond
+  19. http://www.datenteiler.de/install-freedos-1-1-with-freedosmultiboot/
+  20. http://www.datenteiler.de/wp-content/uploads/2015/10/FreeDOSmultiboot.zip
+  21. http://sourceforge.net/projects/win32diskimager/
+  22. https://rufus.akeo.ie/
+  23. http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-10-02-22-47-55.png
+  24. http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-09-29-21-03-47.png
+  25. http://www.datenteiler.de/wp-content/uploads/2015/10/Bildschirmfoto-vom-2015-09-29-21-29-08.png
+  26. http://freedos.sourceforge.net/wiki/index.php/VirtualBox
+  27. http://www.datenteiler.de/kategorie/freedos/
+  28. http://www.datenteiler.de/install-freedos-1-1-with-freedosmultiboot/#respond
+  29. http://www.datenteiler.de/batterien-enthalten-linux-mint-debian-edition-lmde/
+  30. http://www.freiesmagazin.de/20150301-maerzausgabe-erschienen
+  31. http://www.datenteiler.de/batterien-enthalten-linux-mint-debian-edition-lmde/#more-9751
+  32. http://www.datenteiler.de/kategorie/freiesmagazin/
+  33. http://www.datenteiler.de/kategorie/gnulinux/
+  34. http://www.datenteiler.de/kategorie/publikationen/
+  35. http://www.datenteiler.de/batterien-enthalten-linux-mint-debian-edition-lmde/#comments
+  36. http://www.datenteiler.de/freedos-totgesagte-leben-laenger/
+  37. http://www.freiesmagazin.de/20141102-novemberausgabe-erschienen
+  38. http://www.datenteiler.de/freedos-totgesagte-leben-laenger/#more-9729
+  39. http://www.datenteiler.de/kategorie/freiesmagazin/
+  40. http://www.datenteiler.de/kategorie/publikationen/
+  41. http://www.datenteiler.de/freedos-totgesagte-leben-laenger/#comments
+  42. http://www.datenteiler.de/torify-programme-im-terminal-anonymisieren/
+  43. http://www.freiesmagazin.de/20140601-juniausgabe-erschienen
+  44. http://www.datenteiler.de/torify-programme-im-terminal-anonymisieren/#more-9658
+  45. http://www.datenteiler.de/kategorie/freiesmagazin/
+  46. http://www.datenteiler.de/kategorie/publikationen/
+  47. http://www.datenteiler.de/mit-tarnkappe-im-netz-das-tor-browser-bundle/
+  48. http://www.freiesmagazin.de/20140504-maiausgabe-erschienen
+  49. http://www.datenteiler.de/mit-tarnkappe-im-netz-das-tor-browser-bundle/#more-9640
+  50. http://www.datenteiler.de/kategorie/freiesmagazin/
+  51. http://www.datenteiler.de/kategorie/gnulinux/
+  52. http://www.datenteiler.de/mit-tarnkappe-im-netz-das-tor-browser-bundle/#comments
+  53. http://www.datenteiler.de/ironpython-artikel-fuer-das-entwickler-magazin/
+  54. https://entwickler.de/magazin
+  55. http://www.freiesmagazin.de/20120701-juliausgabe-erschienen
+  56. http://www.datenteiler.de/wp-content/uploads/2014/04/EM_1_14_Imhorst_IronPython.pdf
+  57. http://www.datenteiler.de/kategorie/publikationen/
+  58. http://www.datenteiler.de/debian-auf-einem-non-pae-system-installieren/
+  59. http://thinkwiki.de/R51
+  60. http://www.datenteiler.de/debian-auf-einem-non-pae-system-installieren/#more-9507
+  61. http://www.datenteiler.de/kategorie/allgemein/
+  62. http://www.datenteiler.de/debian-auf-einem-non-pae-system-installieren/#comments
+  63. http://www.datenteiler.de/xfce-die-windows-taste-und-das-whisker-menue/
+  64. http://www.pro-linux.de/artikel/2/1667/2,xfce.html
+  65. http://www.datenteiler.de/xfce-die-windows-taste-und-das-whisker-menue/#more-9510
+  66. http://www.datenteiler.de/kategorie/gnulinux/
+  67. http://www.datenteiler.de/xfce-die-windows-taste-und-das-whisker-menue/#comments
+  68. http://www.datenteiler.de/shell-skripte-kleine-helfer-selbst-gemacht/
+  69. http://www.freiesmagazin.de/20140202-februarausgabe-erschienen
+  70. http://www.datenteiler.de/shell-skripte-kleine-helfer-selbst-gemacht/#more-9517
+  71. http://www.datenteiler.de/kategorie/freiesmagazin/
+  72. http://www.datenteiler.de/kategorie/gnulinux/
+  73. http://www.datenteiler.de/page/2/
+  74. http://www.datenteiler.de/powershell-artikel-fuer-raspberry-pi-geek/
+  75. http://www.datenteiler.de/install-freedos-1-1-with-freedosmultiboot/
+  76. http://www.datenteiler.de/batterien-enthalten-linux-mint-debian-edition-lmde/
+  77. http://www.datenteiler.de/freedos-totgesagte-leben-laenger/
+  78. http://www.datenteiler.de/torify-programme-im-terminal-anonymisieren/
+  79. https://www.bookzilla.de/shop/action/productDetails/7742080/christian_imhorst_die_anarchie_der_hacker_3828887694.html?aUrl=90006951&searchId=206
+  80. http://texte.datenteiler.de/die-anarchie-der-hacker-ebook/
+  81. http://texte.datenteiler.de/wp-content/uploads/2010/05/DAdH.pdf
+  82. http://texte.datenteiler.de/wp-content/uploads/2010/05/DAdH.epub
+  83. http://ubuntublog.ch/_files/stallman.mp3
+  84. http://ubuntublog.ch/betriebssystem/die-anarchie-der-hacker-podcast
+  85. http://zeitsturz.porhmeus.de/tag/opensource/
+  86. http://zeitsturz.porhmeus.de/
+  87. http://www.freiesmagazin.de/mobil/freiesMagazin-2010-08.html#10_08_anarchie-der-hacker
+  88. http://aponaut.org/index.php?/archives/21652-Free-As-In-Freedom-Die-Anarchie-der-Hacker.html
+  89. http://www.datenteiler.de/batterien-enthalten-linux-mint-debian-edition-lmde/#comment-13494
+  90. http://www.datenteiler.de/freedos-totgesagte-leben-laenger/#comment-13487
+  91. http://www.datenteiler.de/freedos-totgesagte-leben-laenger/#comment-13486
+  92. http://www.datenteiler.de/xfce-die-windows-taste-und-das-whisker-menue/#comment-13484
+  93. http://www.datenteiler.de/sicher-loeschen-mit-windows-bordmitteln/#comment-13483
+  94. http://www.datenteiler.de/kategorie/allgemein/
+  95. http://www.datenteiler.de/kategorie/android/
+  96. http://www.datenteiler.de/kategorie/batch/
+  97. http://www.datenteiler.de/kategorie/blackberry/
+  98. http://www.datenteiler.de/kategorie/copyleft/
+  99. http://www.datenteiler.de/kategorie/english/
+ 100. http://www.datenteiler.de/kategorie/freedos/
+ 101. http://www.datenteiler.de/kategorie/freiesmagazin/
+ 102. http://www.datenteiler.de/kategorie/gnulinux/
+ 103. http://www.datenteiler.de/kategorie/haustechnik/
+ 104. http://www.datenteiler.de/kategorie/krypto/
+ 105. http://www.datenteiler.de/kategorie/macos/
+ 106. http://www.datenteiler.de/kategorie/open-source/
+ 107. http://www.datenteiler.de/kategorie/powershell/
+ 108. http://www.datenteiler.de/kategorie/programmieren/
+ 109. http://www.datenteiler.de/kategorie/publikationen/
+ 110. http://www.datenteiler.de/kategorie/python/
+ 111. http://www.datenteiler.de/kategorie/shr/
+ 112. http://www.datenteiler.de/kategorie/windows/
+ 113. http://blog.binaergewitter.de/
+ 114. http://cre.fm/archiv
+ 115. http://deimhart.net/
+ 116. http://www.radiotux.de/index.php
+ 117. http://www.imhorst.net/
+ 118. http://creativecommons.org/licenses/by-sa/2.0/de/
+ 119. http://www.datenteiler.de/impressum/
+ 120. file:///home/mgomez/CS432/A3/<br/><b>Warning</b>:include_once(/www/htdocs/w00661b3//wp-includes/wp-vars.php):failedtoopenstream:Nosuchfileordirectoryin<b>/www/htdocs/w00661b3/wp-content/themes/dirtylicious-10/footer.php</b>online<b>6</b><br/><br/><b>Warning</b>:include_once():Failedopening'/www/htdocs/w00661b3//wp-includes/wp-vars.php'forinclusion(include_path='.:/usr/share/php:..')in<b>/www/htdocs/w00661b3/wp-content/themes/dirtylicious-10/footer.php</b>online<b>6</b><br/>
+ 121. http://arcsin.se/
+ 122. http://mejusthappyrobo.livejournal.com/
+
+   Hidden links:
+ 124. http://creativecommons.org/licenses/by-sa/2.0/de/

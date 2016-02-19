@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="de" id="PageStartseite">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Startseite • Peter Kröner • Webtechnologie</title>
+<!--[IF gte IE 9]><!- -->
+  <link rel="stylesheet" href="http://cdn0.peterkroener.de/templates/peterkroener.de/styles.css">
+<!--<![ENDIF]-->
+<!--[IF lte IE 8]>
+  <link rel="stylesheet" href="http://cdn0.peterkroener.de/templates/peterkroener.de/basic.css">
+  <style>
+    html:before { content: "Dein Browser ist veraltet und kann das Design dieser Seite nicht korrekt darstellen. Daher wird ein stark vereinfachtes Layout verwendet."; display:block; text-align:center; padding:1em; border-bottom:1px solid black; background:#ffffe1; }
+  </style>
+<![ENDIF]-->
+<base href="http://www.peterkroener.de/">
+
+<link rel="alternate" type="application/rss+xml" title="Peter Kröner • Webtechnologie" href="http://www.peterkroener.de/feed/">
+<script src="//use.typekit.net/wzv0ped.js"></script><script>try{Typekit.load();}catch(e){}</script>
+
+
+<div id="Top"></div>
+
+<header id="Head">
+    <div>
+        <h1><a href="http://www.peterkroener.de/">Peter Kröner</a></h1>
+        <nav>
+<ul><li class="first active"><a href="http://www.peterkroener.de/" >Start</a></li>
+<li><a href="weblog/" >Blog</a></li>
+<li><a href="profil/" >Profil</a></li>
+<li><a href="html5-buch/" >Buch</a></li>
+<li><a href="html5-videotraining/" >DVD</a></li>
+<li><a href="artikel/" >Artikel</a></li>
+<li><a href="termine/" >Termine</a></li>
+<li class="last"><a href="kontakt/" rel="author">Kontakt</a></li>
+</ul><form id="searchform" action="suche/" method="get">
+    <div>
+        <fieldset>
+            <label for="s">
+                <span>Suchbegriff</span>
+                <input placeholder="Suchbegriff" type="text" name="s" id="s" value="">
+            </label>
+            <input type="submit" id="sb" value="Finden">
+        </fieldset>
+    </div>
+</form>
+</nav>
+
+
+<div id="Breadcrumbs">
+  <b>Position:</b> <ul>
+<li><a href="http://www.peterkroener.de/">Startseite</a></li>
+
+</ul>
+</div>
+    </div>
+</header>
+
+
+<div id="Wrapper">
+
+
+<section id="Main" role="main">
+    <div class="postcontainer">
+        <header>
+            <h2>Willkommen beim Webtechnologie-Erklärbär</h2>
+        </header>
+        <p>
+In Berlin forsche und schreibe ich über Web-Zukunftstechnologien wie HTML5, CSS3 und JavaScript. <a href="weblog/">Ein Weblog</a>, <a href="artikel/">viele Artikel</a>, <a href="html5-buch/">ein Buch</a>, <a href="html5-videotraining/">eine DVD</a>, <a href="https://github.com/SirPepe">einige Open-Source-Projekte</a> sowie der Podcast <a href="http://workingdraft.de/">Working Draft</a> sind das Produkt dieser Tätigkeit. Für Seminare, Workshops und Vorträge reise ich durch das ganze Land und <a href="profil/">stehe als Trainer bzw. Sprecher zur Verfügung</a>.
+
+<h3>Neu im <a href="weblog/">Weblog</a></h3>
+<ul>
+<li><b>Montag,  9. November 2015:</b> <a href="ein-kleines-css-raetsel-mit-aufloesung/">Ein kleines CSS-Rätsel (mit Auflösung)</a>
+<li><b>Montag, 10. August 2015:</b> <a href="warum-man-die-finger-von-den-prototypen-nativer-objekte-zu-lassen-hat/">Warum man die Finger von den Prototypen nativer Objekte zu lassen hat</a>
+<li><b>Montag, 13. Juli 2015:</b> <a href="fragen-zu-html5-und-co-beantwortet-21-semantische-elemente-source-maps-a-element-html5-whitespace/">Fragen zu HTML5 und Co beantwortet 21 - Semantische Elemente, Source Maps, das a-Element, Whitespace</a>
+<li><b>Montag, 15. Juni 2015:</b> <a href="erklaerbaer-termine-juli-august-september-2015/">Erklärbär-Termine für Juli, August und September</a>
+</ul>
+<p>
+<span class="icon feed"><a href="feed/">RSS-Feed Weblog</a></span>
+
+
+<h3>Nächste öffentliche <a href="termine/">Termine</a></h3>
+<ul>
+
+</ul>
+<p>
+<span class="icon feed"><a href="feed-termine/">RSS-Feed Termine</a></span>
+    </div>
+</section> <!-- Ende #Main -->
+
+
+<section id="Side"><h2>Kontakt</h2>
+<ul>
+<li class="icon tel">0151 55994172
+<li class="icon mail"><span class="email">peter@peterkroener.de</span>
+<li class="icon skype">peter-brainfire
+</ul>
+
+<h2>Links</h2>
+<ul>
+<li class="icon html5buch"><a href="http://html5-buch.de">HTML5-Buch</a>
+<li class="icon html5dvd"><a href="http://html5-dvd.de">Videotraining</a>
+<li class="icon css3buch"><a href="http://css3-buch.de">CSS3-Serie</a>
+<li class="icon es5buch"><a href="http://es5-buch.de">ES5-Buch</a>
+<li class="icon twitter"><a href="http://twitter.com/sir_pepe">Twitter</a>
+<li class="icon plus"><a href="http://www.peterkroener.de/+">Google+</a>
+<li class="icon workingdraft"><a href="http://workingdraft.de/">Podcast</a>
+<li class="icon github"><a href="https://github.com/SirPepe">Github</a>
+<li class="icon xing"><a href="https://www.xing.com/profile/Peter_Kroener2">Xing</a>
+</ul></section> <!-- Ende #Side -->
+
+
+<footer>
+    <p><a href="http://www.peterkroener.de/#Top">Nach oben</a> &emsp; &middot; &emsp; <a href="kontakt/">Kontakt</a> &emsp; &middot; &emsp; <a href="rechtliches/">Rechtliches</a> &emsp; &middot; &emsp; <a href="http://archiv.peterkroener.de">Archiv</a>
+</footer>
+
+
+</div> <!-- Ende #Wrapper -->
+
+
+<script src="http://cdn1.peterkroener.de/scripts/peterkroener.de/main.js"></script>
+<script src="http://cdn1.peterkroener.de/scripts/peterkroener.de/prettify.js"></script>
+<script src="http://cdn1.peterkroener.de/scripts/peterkroener.de/lang-css.js"></script>
+<script>prettyPrint()</script>

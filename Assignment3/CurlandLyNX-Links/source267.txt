@@ -1,0 +1,85 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width; initial-scale=1.0"><title>Jonathan Hinkle</title><link href="//cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet"><link href="styles.css" rel="stylesheet"></head><body><div><span><span class="fg-bold-green">hynkle.com</span> <span class="fg-bold-yellow">★</span> </span><span class="command small-screen">id -P | cut -d: -f8 | tr &#39; &#39; &#39;\n&#39; | figlet</span><span class="command large-screen">id -P | cut -d: -f8 | figlet</span></div><pre class="small-screen">     _                   _   _                 
+    | | ___  _ __   __ _| |_| |__   __ _ _ __  
+ _  | |/ _ \| &#39;_ \ / _` | __| &#39;_ \ / _` | &#39;_ \ 
+| |_| | (_) | | | | (_| | |_| | | | (_| | | | |
+ \___/ \___/|_| |_|\__,_|\__|_| |_|\__,_|_| |_|
+                                               
+ _   _ _       _    _      
+| | | (_)_ __ | | _| | ___ 
+| |_| | | &#39;_ \| |/ / |/ _ \
+|  _  | | | | |   &lt;| |  __/
+|_| |_|_|_| |_|_|\_\_|\___|
+                           </pre><pre class="large-screen">     _                   _   _                   _   _ _       _    _      
+    | | ___  _ __   __ _| |_| |__   __ _ _ __   | | | (_)_ __ | | _| | ___ 
+ _  | |/ _ \| &#39;_ \ / _` | __| &#39;_ \ / _` | &#39;_ \  | |_| | | &#39;_ \| |/ / |/ _ \
+| |_| | (_) | | | | (_| | |_| | | | (_| | | | | |  _  | | | | |   &lt;| |  __/
+ \___/ \___/|_| |_|\__,_|\__|_| |_|\__,_|_| |_| |_| |_|_|_| |_|_|\_\_|\___|
+                           </pre><div><span><span class="fg-bold-green">hynkle.com</span> <span class="fg-bold-yellow">★</span> </span><span class="command small-screen">fold about_me -w 56 -s</span><span class="command large-screen">fold about_me -w 80 -s</span></div><p>I'm a web developer (mostly Ruby and Rails) at <a href="http://planetargon.com">Planet Argon</a>.
+I recently finished a year-long European sabbatical and am now living in and falling in love with sunny Portland.
+You can find me on Twitter <a href="https://twitter.com/hynkle">@hynkle</a>.</p><br><div><span><span class="fg-bold-green">hynkle.com</span> <span class="fg-bold-yellow">★</span> </span><span class="command small-screen">jp2a --width=56 headshot.jpg</span><span class="command large-screen">jp2a --width=80 headshot.jpg</span></div><pre class="small-screen">:;,;&#39;;.,,looookOkklcxxkxOOOxlx000Oxdl:c:,.... .  .. ...,
+:;:c,cc;,::ccxOOkkodkO0O0KKKdkk00Okxl::;&#39;...   .    ....
+:,:l:cdddoodkOOkO0xdO0000000xOOk00kxd::oo;..           .
+::,:;,looddxxxxxkOkooxkkxxdloxkkkOkdookOO;.             
+.&#39;.....&#39;,;:cllloxxxdc;;;,,&#39;&#39;&#39;,,;::ccclool;..           .
+..............&#39;.,;:,....&#39;&#39;,....&#39;&#39;,,;;;&#39;..&#39;..       ...&#39;,
+....,,.........  ....,:,,;c,,,;;:,&#39;,;cl,........   ..&#39;,,
+,,;::ccc:;;;,,. .;,..odlllllodxddolloooo.&#39;.....   ...,,,
+cccllllllllcc:.,0KX0&#39;c00OOkkkkkkOkkxdxOx.c,:c,..  .&#39;,,,,
+odxxkkkkxdolc..l0XXXk.lKXXXXXXXXXXK0xk0;:OOOl.....&#39;,,,,,
+dxkkOO00Oxl;..:d0KXXKO;;x0KKKXXXXNXXkd:;OKKk,..&#39;,,,,,,,,
+;cllooolc;&#39;&#39;,:oOKXXXXK0dlloooodddddoclk00KO;...,,,,,,,,,
+;;;;::cclcc:lldOKXNNXKKX0ddooooddxkOO000kl,...&#39;,,,,,,,,,
+:::cllooolcccclx0KXXKKKK0000kxdxkOOOOO00d...&#39;&#39;&#39;,,,,,,,,,
+:ccclodddolc;,,:ldxkdodxOKKKKK0OkkkkOO00d..&#39;&#39;&#39;,,,,,,,,,,
+cloooooollllccc::cloxOKKKXXKKK0000KK000Oo,,,,,,,,,,,,,,,
+ccodollcccllooooxkOO0KKKKKKK0OO0KKKK00Okc,,,,,,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;
+;:clollcc;,,;:clodxxkxxxxddxkkO00K000OOd;,,,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;
+;;:::lllllc:::ccllcldxkO000KKKK00OOOkkd;,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;
+&#39;,,;;;cllccccldxkO0000000KKKKKK0Okkkxl,,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;
+..&#39;,,,;cllcc:::cllooddkOO000KK0Okkxo:,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;.&#39;.......
+.....&#39;,;cllllcccllodxxkO000KK0OkkkOl;;&#39;&#39;&#39;&#39;&#39;&#39;............
+........,:codxxxxO00KKKKKKKK0Oxk00x,:;&#39;&#39;&#39;&#39;..............
+.........&#39;:cdxkkkOO00KKKKK00Oxk00Oc&#39;c:..................
+...........&#39;;codxxxxxkkOOkkkkO000d&#39;:l:&#39;&#39;&#39;...............
+..............&#39;;:clcclloodkOkO00kclol:&#39;&#39;&#39;&#39;.&#39;&#39;...........
+  ..................&#39;,;codxkO00kddool:&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;;:c:,
+    .........,&#39;..,,&#39;,;::coxkkOxdddool:..&#39;&#39;&#39;;;,&#39;&#39;&#39;&#39;&#39;,:loo</pre><pre class="large-screen">;:;,;,.;..,&#39;,cooddodkOOkkkl;oxxkxdkOOkkocdk00000kddlc:cc:,&#39;.....  .    .  ....&#39;,
+::;:::&#39;:c&#39;.&#39;&#39;coolclxOOOkkxlcxxkOOOOKK0KOlkkx0000Oxxlc;;:;&#39;....    ..      ......
+::;ccc;:ool:;;:;:cdOOOOOOOookO00000KKKKKdxO0k000Oxkxc;:c:&#39;,...     .      ......
+::,cll::odddddoodkOOOkkO0OxokO00O00O000OxkO0xO00Okxxo:;cooo,..                ..
+::;,clc,looooodxxxkkkxxOOOkolxkOkkOkkkkddkOOkOOOkkdolloxOOx;.              .   .
+,;:,&#39;,,.;:ccloodddxdddxkkkxxl:lddddll:;;clooxxxkkkxodxkO0Od&#39;..                  
+...........&#39;&#39;,;:cclllloxxxxdoc;,,,,&#39;&#39;&#39;&#39;...&#39;&#39;,,;;;:::ccllll:;..                ..
+....................&#39;&#39;&#39;;ccc:,&#39;.....&#39;&#39;,,......&#39;&#39;,;;;;,,&#39;..&#39;.&#39;...           ...&#39;,,
+&#39;.....,;..... ........  .......&#39;,,&#39;,;:;......,&#39;..&#39;,:cll:...&#39;.......     ....&#39;,,,
+....&#39;,,;,&#39;&#39;&#39;&#39;&#39;&#39;.......   .....;cc;,;:cc::::ccccc:;,;:ccc;............   ...&#39;,,,,
+,,,;;::ccccc::;,,,,,.  .&#39;&#39;&#39;...odolllcclodddxxddollloooooo..,,......    ....&#39;,,,,
+c:;,:::ccccc:::c:::;. ,O0K0O:.oOOkxxdddddddxxxxxxddddxxkx..:..,;,....  ...&#39;,,,,,
+lllooddddoooooolllc;..o0XXXXK,&#39;kKKKKKKK00000O0000OkxxkO0l.:o:ldd:&#39;.... .&#39;,,,,,,,
+oodxxkkkkkkkxxdolc;..,d0KXXXXx.&#39;xKXXXXXXXXXKXXXXXK0kxk0O&#39;&#39;xOOOko,.......,,,,,,,,
+odxkkOOO000OOxolc;..,cd0KXXXXKx&#39;.c0XKKKKXXXXXXXNNXXOxkO:.o0KKKk;....&#39;,,,,,,,,,,,
+odxkkOOO000Okdc;...;cox0KXXXXKKOc,;lxO00KKKXXXXNXXXOdl;;x0KXXOc&#39;...&#39;,,,,,,,,,,,,
+,:clloooolc:,&#39;.&#39;,,;coxOKKXNNXXKK0xoolccclllooooollc::lx000KX0o.....&#39;,,,,,,,,,,,,
+,,,,,,;;;::::cc:::llok0KXXNNNXXKXX0ddddollccccllodxkO0000OOkl&#39;....&#39;,,,,,,,,,,,,,
+;:::ccclllllllc:clllox0KKXXNNXXKKXX0kxxdoodxkkOO000000000k:.......&#39;,,,,,,,,,,,,,
+::::ccllloooollcccccldkO0KKXXKK00000KKK0OkdddxkkOOOOOOO00O;...&#39;&#39;&#39;.&#39;,,,,,,,,,,,,,
+:::ccccloddddollc:;,,;:oxkkOkdooodk0KKKKKKK0OkkkkkkkOO000k;....&#39;&#39;&#39;,,,,,,,,,,,,,,
+cclllllodddoolllcc::;;;;:cclloxO0KKKKKKKKKKK0000000000000k:,,,,,,,,,,,,,,,,,,,,,
+cclddoooooollllllllcccccllodxk0KKKXXXXKKKKK000KKKKK000K0Ox;,,,,,,,,,,,,,,,,,,,,&#39;
+cccoxdlllllccllllooooodxkOOOO0KKXXXXXKKKK00000KKKKK00K0OOo;,,,,,,,,,&#39;,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;
+:cccodollcc:;,,;:ccllooxkOO00OOOOOOOkkxddddkk0KKKK000OOOxc,,,,,,,,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;
+;;:::loolllllc;&#39;&#39;&#39;,;;:ccclloodddooddddxOKKK000000OO0Okkkl,,,&#39;,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;
+;;;::::llllllllc::::ccccccccloxxkO00000KKKKKK000OOOkkkkl,,,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;
+,,,,;;;:clllllllcclodxkkO00000KKKK00KKKKKKKKKKOkOOkkkdc,,,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;
+..&#39;,,,;;;clllccccc:cloxkkOOOOOOOO00000KKKKKK00OOkkxdl;,,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;..&#39;...
+...&#39;&#39;,,,;;ccllccc:::::cclloooodxkkOO0000KKK00Okkxxoc,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;...&#39;&#39;.........
+......&#39;&#39;,,;:clllcccc::::::clloodxkOO0000KK00OkkxkOo:;,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;.................
+.........&#39;,,:cclooolloodxxkkO000000KKKKK000kxxk00kc,:;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;..................
+...........&#39;,:clodxxxxxkkO000KKKKKKKKKK000kxxO000d,,c:&#39;..&#39;&#39;&#39;....................
+.............&#39;::lodxkkkOOOO000KKKKKKKK00OkxkO0K0k:.:c:&#39;.........................
+...............,;:ldxxkkkkkkOO0000000OOkkkOO000Oo.,lc:,&#39;&#39;.......................
+.................&#39;;:cldxxdddoddxkkOkxxxkOOO0000x;&#39;clc:,&#39;&#39;&#39;......................
+....................&#39;,;clllllllooooodkOOkOO000kl:lolc:,&#39;&#39;&#39;&#39;&#39;..&#39;&#39;................
+  .......................&#39;&#39;&#39;&#39;&#39;,;:codxkkkkO000Odoooool:,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;....&#39;,;;,&#39;..
+    ..............&#39;..........,,,,:clodxkOO0Okddddoool:,.&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;,;:cllc:
+     ...........&#39;.&#39;;&#39;...&#39;;,&#39;&#39;,;:c:clodxkkOkxdddddoool:,..&#39;&#39;&#39;&#39;,;:;,&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;,:looo</pre></body></html>

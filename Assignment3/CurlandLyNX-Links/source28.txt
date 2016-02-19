@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+
+ <meta name="verifyownership" content="f487987acb51df6a5612a86504d153fc" />
+<head>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "CSS Matter",
+  "url" : "http://www.cssmatter.com",
+  "sameAs" : [
+    "http://www.facebook.com/cssmatter",
+    "http://www.twitter.com/cssmatter",
+    "https://plus.google.com/b/101919379558418731024/+Cssmatter/"
+  ]
+}
+</script>
+
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>CSS Matter - Pro Web Design Blog &amp; Inspiration Gallery</title>
+<!--[if lt IE 9]>
+<script src="http://cssmatter.com/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+ <!-- Bootstrap -->
+<link href="http://cssmatter.com/wp-content/themes/twentytwelve/css/bootstrap.min.css" rel="stylesheet">
+<link rel='stylesheet' id='font-awesome-css'  href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' type='text/css' media='all' />
+
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="CSS Matter Features a Beautiful Design Gallery for Professional Web Designers &amp; Developers, with Blog Articles on Useful Techniques &amp; Inspiration."/>
+<meta name="keywords" content="website blog"/>
+<link rel="canonical" href="http://cssmatter.com/" />
+<link rel="publisher" href="https://plus.google.com/u/0/+ManishSalunkecssmatter"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="CSS Matter - Pro Web Design Blog &amp; Inspiration Gallery" />
+<meta property="og:description" content="CSS Matter Features a Beautiful Design Gallery for Professional Web Designers &amp; Developers, with Blog Articles on Useful Techniques &amp; Inspiration." />
+<meta property="og:url" content="http://cssmatter.com/" />
+<meta property="og:site_name" content="CSS Matter" />
+<meta property="og:image" content="http://0.gravatar.com/avatar/c447cff74264cdfe337f413e75840dcb?s=180&#038;d=&#038;r=G" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="CSS Matter Features a Beautiful Design Gallery for Professional Web Designers &amp; Developers, with Blog Articles on Useful Techniques &amp; Inspiration."/>
+<meta name="twitter:title" content="CSS Matter - Pro Web Design Blog &amp; Inspiration Gallery"/>
+<meta name="twitter:site" content="@cssmatter"/>
+<meta name="twitter:domain" content="CSS Matter"/>
+<meta name="twitter:image" content="http://0.gravatar.com/avatar/c447cff74264cdfe337f413e75840dcb?s=180&#038;d=&#038;r=G"/>
+<meta name="twitter:creator" content="@cssmatter"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/cssmatter.com\/","name":"CSS Matter","potentialAction":{"@type":"SearchAction","target":"http:\/\/cssmatter.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="CSS Matter &raquo; Feed" href="http://cssmatter.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CSS Matter &raquo; Comments Feed" href="http://cssmatter.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CSS Matter &raquo; Web Design Blog Comments Feed" href="http://cssmatter.com/blog/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/cssmatter.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='crayon-css'  href='http://cssmatter.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=2.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-github-css'  href='http://cssmatter.com/wp-content/plugins/crayon-syntax-highlighter/themes/github/github.css?ver=2.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-monospace-css'  href='http://cssmatter.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monospace.css?ver=2.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css'  href='http://cssmatter.com/wp-content/plugins/contact-form-7-tag-field/jquery-ui.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-tag-it-css'  href='http://cssmatter.com/wp-content/plugins/contact-form-7-tag-field/jquery.tagit.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tag-it-ui-css'  href='http://cssmatter.com/wp-content/plugins/contact-form-7-tag-field/tagit.ui.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://cssmatter.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://cssmatter.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='http://cssmatter.com/wp-content/themes/twentytwelve/style.css?ver=4.3.3' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='http://cssmatter.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='wordpress-popular-posts-css'  href='http://cssmatter.com/wp-content/plugins/wordpress-popular-posts/style/wpp.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='better-related-frontend-css'  href='http://cssmatter.com/wp-content/plugins/better-related/css/better-related.css?ver=0.3.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://cssmatter.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://cssmatter.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://cssmatter.com/wp-content/plugins/mailchimp-widget/js/mailchimp-widget-min.js?ver=4.3.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"2.7.1","is_admin":"0","ajaxurl":"http:\/\/cssmatter.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cssmatter.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=2.7.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cssmatter.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cssmatter.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+<link rel='shortlink' href='http://cssmatter.com/' />
+<script type="text/javascript">
+    var GETSOCIAL_ID = "37a30f";
+    var GETSOCIAL_LANG = "en";
+    (function() {
+    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+    po.src = "//api.at.getsocial.io/widget/v1/gs_async.js?id="+GETSOCIAL_ID;
+    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+    })();
+    var GETSOCIAL_VERSION = "3.0.1";
+</script><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<script src="http://cssmatter.com/wp-content/themes/twentytwelve/js/jquery.min.js"></script>
+<script src="http://cssmatter.com/wp-content/themes/twentytwelve/js/bootstrap.min.js"></script>
+
+
+<link rel="icon" href="http://cssmatter.com/wp-content/themes/twentytwelve/favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="http://cssmatter.com/wp-content/themes/twentytwelve/favicon.png" type="image/x-icon" />
+<meta name="google-site-verification" content="o_4wZAmKfc07xQ1OnoIXzsM0bK-BCr8a2UtjRLMLi60" />
+</head>
+
+
+
+<body class="home page page-id-16 page-template page-template-page-blogs page-template-page-blogs-php css custom-font-enabled single-author -">
+
+<div id="fb-root"></div>
+
+<div id="page" class="site">
+<div class="navbar-fixed-top">
+				
+      <nav class="navbar navbar-inverse ">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="element navbar-brand" title="CSS Gallery : Best websites Best Web Design Trends" href="http://cssmatter.com/"  rel="home"><img src="http://cssmatter.com/wp-content/themes/twentytwelve/img/cssmatter-css-gallery-logo.png" alt="CSS Matter - A Web Design Inspiration" title="CSS Matter - A Web Design Inspiration"/></a><p class="site-description">Gallery &amp; Articles for Passionate Web Designers &amp; Developers</p>
+        </div> 
+        <div id="navbar" class="navbar-collapse collapse">
+    
+	<div class="menu-header-navigations-container"><ul id="nav_ul" class="menu"><li id="menu-item-4404" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-16 current_page_item menu-item-4404"><a href="http://cssmatter.com/">Blog</a></li>
+<li id="menu-item-4594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4594"><a title="CSS Gallery" href="http://cssmatter.com/css-gallery/">CSS Gallery</a></li>
+<li id="menu-item-5639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5639"><a href="http://cssmatter.com/deals/">Deals</a></li>
+<li id="menu-item-4492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4492"><a href="http://cssmatter.com/submit-website-to-css-galleries/">Submit Your Site</a></li>
+<li id="menu-item-4834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4834"><a href="http://cssmatter.com/how-to-become-a-css-matter-author/">Become an Author</a></li>
+<li id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a href="http://cssmatter.com/contact/">Let&#8217;s Talk</a></li>
+</ul></div> 
+<script>
+	 (function() {
+                   $(".menu").addClass("nav navbar-nav navbar-right");
+				   $(".menu li.current_page_item").addClass("active");
+                })();
+</script>    
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+</div>
+	
+    
+    <header id="masthead" class="site-header" role="banner">
+
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+
+			<h3 class="menu-toggle">Menu</h3>
+
+			
+			
+
+            
+
+            
+
+		</nav><!-- #site-navigation -->
+
+
+
+		
+	</header><!-- #masthead -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Search Brain <strong>Power</strong>. <em>Mind It!</em></h4>
+      </div>
+      <div class="modal-body">
+<form role="search" method="get" id="searchform" class="searchform" action="http://cssmatter.com/">
+	<div>
+		<label class="screen-reader-text" for="s"></label>
+		<input class="form-control" type="text" value="" name="s" id="s" />
+		<input type="submit" id="searchsubmit" class="btn btn-primary" value="Search" />
+	</div>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<div id="main" class="wrapper">
+<div class="container">
+  <div class="row">
+    <div id="primary" class="col-md-8 blogs">
+      <div id="content" role="main" class="row">
+        <div>
+                                              
+             <div class="col-md-12">   
+         	 <article id="post-5930">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/graphic-design/" rel="tag">Graphic Design</a>, <a href="http://cssmatter.com/web-design-blog/material-design/" rel="tag">Material Design</a>, <a href="http://cssmatter.com/web-design-blog/wordpress/" rel="tag">WordPress</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/10-best-stunning-creative-portfolio-examples/" title="10 Best Stunning Creative Portfolio Examples">
+                10 Best Stunning Creative Portfolio Examples                </a> </h1>
+             
+  <p>10 Best Stunning Creative Portfolio Examples Nowadays Portfolios are the most quickest ways to attract your clients, they come in various designs and sizes,and there are bunch of sites where you can see different types of portfolio examples. A lot of designers prefer one-page portfolios; some designers put personal photos on their sites; many of those whose websites are listed&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5262">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/javascript-3/" rel="tag">Javascript</a>, <a href="http://cssmatter.com/web-design-blog/jquery/" rel="tag">jQuery</a>, <a href="http://cssmatter.com/web-design-blog/web-design/" rel="tag">Web Design</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/14-javascript-functions-and-jquery-plugins-for-stylish-effects/" title="14 JavaScript functions and jQuery plugins for stylish effects">
+                14 JavaScript functions and jQuery plugins for stylish effects                </a> </h1>
+             
+  <p>14 JavaScript functions and jQuery plugins stylish effects New JavaScript libraries and plugins are released almost daily. Some useful helpers and effects we have gathered in this article. Gridstack.js With Grid stack you create dragbare and flexible layouts. Gristack is a jQuery plugin for widget layout. So you can create, for example, dashboards with different sized tiles. These can be moved around using drag&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5247">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/bootstrap-css-html/" rel="tag">BootStrap</a>, <a href="http://cssmatter.com/web-design-blog/jquery/" rel="tag">jQuery</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/bootstrap-these-15-tools-and-enhancements-you-bring-more-out-of-twitters-framework/" title="Bootstrap: These 15 tools and enhancements you bring more out of Twitter&#8217;s Framework">
+                Bootstrap: These 15 tools and enhancements you bring more out of Twitter&#8217;s Framework                </a> </h1>
+             
+  <p>Bootstrap: These 15 tools and enhancements you bring more out of Twitter's Framework Bootstrap 3 of Twitter provides an excellent basis for the Web development.We ask you to ten tools and extensions that allow you rausholt even more from the current version. Twitters Bootstrap is one of the most popular front-end framework in the market.Only recently has the new Bootstrap 3 a get minor update to version 3.1.1. For larger adjustments and&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5231">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/material-design/" rel="tag">Material Design</a>, <a href="http://cssmatter.com/web-design-blog/web-design/" rel="tag">Web Design</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/14-creative-applications-that-stand-out-from-the-crowd/" title="14 creative applications that stand out from the crowd">
+                14 creative applications that stand out from the crowd                </a> </h1>
+             
+  <p>14 creative applications that stand out from the crowd There are quite a few applications in the network, which are to excel in terms of creativity and ingenuity hardly. We have curated 14 examples of creative job offer for you.  It has always been so, that you had to stand in applications from its competitors - by qualifications, by experience, or&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5215">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/fonts/" rel="tag">Fonts</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/top-45-fonts-used-brand-logos-design/" title="Fonts Brand Logos for Design">
+                Fonts Brand Logos for Design                </a> </h1>
+             
+  <p>The Most impressive thing about a brand's logo is their presentation, so we have collected 45 company logos and the fonts which are used in creating the logos. Here are Top 45 Fonts used in Brand Logos for Design . Hope you would like it. &nbsp; Absolut Vodka Font Download the free font for Absolut here : Absolut Vodka &nbsp; Apple&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5130">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/css3/" rel="tag">CSS3</a>, <a href="http://cssmatter.com/web-design-blog/material-design/" rel="tag">Material Design</a>, <a href="http://cssmatter.com/web-design-blog/web-design/" rel="tag">Web Design</a>, <a href="http://cssmatter.com/web-design-blog/webdesign-ux/" rel="tag">Web Design &amp; UX</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/best-color-palette-generator-and-picker/" title="Best Color Palette Generator And Picker">
+                Best Color Palette Generator And Picker                </a> </h1>
+             
+  <p>Whether in the visual brand image display, or traditional advertising and digital marketing promotion, Color matching is too important! However, we usually call: This brand really high! True atmosphere! The most important factor is determined by the color match, this is giving the most immediate first impression. We have selected best color palette generator and picker. Let us know your&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5119">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/gadgets/" rel="tag">Gadgets</a>, <a href="http://cssmatter.com/web-design-blog/web-design/" rel="tag">Web Design</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/design2code-16-tools-and-services-for-designers-without-code-knowledge/" title="Design2Code: 16 tools and services for designers without code knowledge">
+                Design2Code: 16 tools and services for designers without code knowledge                </a> </h1>
+             
+  <p>Design2Code: 16 tools and services for designers without code knowledge The design is finished, now missing is the code? No problem. Design2Code is the magic word for tools, services and plug-ins that make layouts finished projects. Not every designer is able to also implement its incurred in Photoshop Layouts self - programming. And if it then but attempts can - without the right skills -&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5076">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/css3/" rel="tag">CSS3</a>, <a href="http://cssmatter.com/web-design-blog/jquery/" rel="tag">jQuery</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/15-jquery-and-css3-animation-effects-switch-the-page/" title="15 jQuery and CSS3 animation effects switch the page">
+                15 jQuery and CSS3 animation effects switch the page                </a> </h1>
+             
+  <p>15 jQuery and CSS3 animation effects switch the page Full screen layout with a page transition effect Tutorial  ||  Demo Page transitions collections Tutorial  ||  Demo Pesudo-Elements animations and transitions Tutorial  ||  Demo CSS folder superimposed effect of the conversion effect Tutorial  ||  Demo Full Screen layout PageFlip Tutorial  ||  Demo Responsive Photo Gallery Tutorial  ||  Demo Interactive Chart CSS animations realized Tutorial  ||  Demo Thumbnail form with extended preview Tutorial  ||  Demo Vertical Slider with jQuery and CSS conversion&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-4891">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/material-design/" rel="tag">Material Design</a>, <a href="http://cssmatter.com/web-design-blog/web-design/" rel="tag">Web Design</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/4-reasons-for-a-style-guide-your-team-will-thank-you/" title="4 reasons for a style guide (&#8230; your team will thank you)">
+                4 reasons for a style guide (&#8230; your team will thank you)                </a> </h1>
+             
+  <p>4 reasons for a style guide (... your team will thank you) A designer is on medium 4 reasons why a style guide does your project well How? Where? What? Why? A style guide clarifies many questions about the appearance of your website. (Photo: Shutterstock Stick Asso ) A style guide sounds like a lot of effort. Especially customers with a manageable budget are therefore often think that&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-4993">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/material-design/" rel="tag">Material Design</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/designer-toolbox-2015-these-tools-use-creative/" title="Designer Toolbox 2015: These tools use Creative">
+                Designer Toolbox 2015: These tools use Creative                </a> </h1>
+             
+  <p>Designer Toolbox 2015: These tools use Creative As in all other areas as well, it is always important in design to choose the right tools for the particular application. (Photo: pixabay) Khoi Vinh is not just creative, but one of the most influential representatives of the industry. Fast Company 2011 went so far as to designate Vinh as one of &quot;50 most&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5002">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/material-design/" rel="tag">Material Design</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/go-out-and-create-incredible-12-rules-for-immersive-website-design/" title="Go out and create incredible! 12 rules for immersive website design">
+                Go out and create incredible! 12 rules for immersive website design                </a> </h1>
+             
+  <p>Go out and create incredible! 12 rules for immersive website design Here comes the list of my personal thoughts to what you should do and not to create an amazing, immersive experience. All this is entirely subjective. Some points overlap perhaps, with some you're probably not agree and some may contradict each other a little. This shows only the more that design is a subjective medium,&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-4982">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/material-design/" rel="tag">Material Design</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/gimp-tutorials-20-sources-of-entry-into-the-photoshop-alternative/" title="Gimp Tutorials: 20 Open sources of entry into the Photoshop Alternative">
+                Gimp Tutorials: 20 Open sources of entry into the Photoshop Alternative                </a> </h1>
+             
+  <p>Gimp Tutorials: 20 Open sources of entry into the Photoshop Alternative Gimp is in many ways a good substitute for Photoshop and other powerful, but expensive image editing programs. As the range of functions of thesoftware can be optimally exploited, show numerous Gimp tutorials that we have collected for you. gimp.org As the first address good Gimp tutorials is worth a visit on the&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-4988">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/web-design/" rel="tag">Web Design</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/12-design-exercises-that-you-bring-your-creativity-into-the-swing/" title="12 design exercises that you bring your creativity into the swing">
+                12 design exercises that you bring your creativity into the swing                </a> </h1>
+             
+  <p>12 design exercises that you bring your creativity into the swing Design exercises: The creative mind is like the human body. (Comic: Creativity by Alex Norris) Besides, it is inevitable that you run in a creative blockade, when it appears that your creative source has dried up. A few simple Photoshop manipulations or doodles will help you get back on your path. Design exercises:&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5030">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/webdesign-ux/" rel="tag">Web Design &amp; UX</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/2015-mobile-ui-ux-design-trends/" title="2015 mobile UI / UX Design Trends">
+                2015 mobile UI / UX Design Trends                </a> </h1>
+             
+  <p>2015 mobile UI / UX Design Trends Whether in the app interface, web browser or smart watch, the design is driven user participation of the most important driving force. From the flat design to Material design, I analyzed the design trends of development, some conclusions to share with readers, to see what design trends? Why are these trends benefit to users? And how&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5042">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/web-design/" rel="tag">Web Design</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/prototyping-wireframe-and-prototype-past-and-present/" title="Prototyping &#8211; wireframe and prototype Past and Present">
+                Prototyping &#8211; wireframe and prototype Past and Present                </a> </h1>
+             
+  <p>Prototyping - wireframe and prototype Past and Present The writer Jerry Cao is UXPin content makers, also UXPin This online wireframes / prototyping tools online content developers. If you want to learn prototype ideas, familiar with the relevant tools, and complete design flow, then you can download UXPin elaborate &quot;Prototyping Ultimate Guide&quot; (English). This article will introduce you to the system wireframe&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5053">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/web-design/" rel="tag">Web Design</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/six-designers-ui-design-elements/" title="Six designers UI design elements">
+                Six designers UI design elements                </a> </h1>
+             
+  <p>Six designers UI design elements UI is a User Interface (UI) of the abbreviation, we often talks about the user experience, while the UI is the secret weapon to enhance the user experience. User-friendly interface, you can achieve better communication between the user and the Web site or software interaction, so that operation of the software becomes more comfortable, more humane. It&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-5051">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/webdesign-ux/" rel="tag">Web Design &amp; UX</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/2015-seven-web-ui-design-trends/" title="2015 seven web UI design trends">
+                2015 seven web UI design trends                </a> </h1>
+             
+  <p>2015 seven web UI design trends Seize every user's attention, the key is often in the first few seconds of their visit to the site. The average user's attention span is getting shorter, web design needs to effectively maintain the user's interest. There are several ways to express content. In the past few years, designers have the solutions to simplify and smooth&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-4950">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/web-design/" rel="tag">Web Design</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/17-company-logos-and-their-secret-messages/" title="17 company logos and their secret messages">
+                17 company logos and their secret messages                </a> </h1>
+             
+  <p>17 company logos and their secret messages Every day we see the logos of various companies and products. Many have a hidden meaning, the company skillfully link with a message or play with his name. We show you 17 creative Logos, where you should look twice. We are daily surrounded by countless company logos. But rarely do we take the trouble to decipher&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-4885">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/fonts/" rel="tag">Fonts</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/font-management-right-font-2-for-mac-finally-clean-up-the-font-chaos/" title="Font Management Right Font 2 for Mac: Finally clean up the font-Chaos">
+                Font Management Right Font 2 for Mac: Finally clean up the font-Chaos                </a> </h1>
+             
+  <p>Font Management Right Font 2 for Mac: Finally clean up the font-Chaos The font management is a very sensitive issue. Countless projects do not make it easier to maintain an overview and structure. Remedy is to bring a font management, but which is the right one? We show you Right Font 2 for the Mac, and tell you all the tricks of the&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-4847">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/css-html/" rel="tag">CSS &amp; HTML</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/html5-cheat-sheet/" title="HTML5 CHEAT SHEET">
+                HTML5 CHEAT SHEET                </a> </h1>
+             
+  <p>Cheat Sheets, who does not love them? Even at school we have tinkered us little cheat sheet for the upcoming class work - a small reminder can not hurt. And even today, we attach ourselves Adhesive Note with information on the screen or write them at hand in our smartphone. Also in the network are circulating many of these cheat sheets in the&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-4845">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/css-html/" rel="tag">CSS &amp; HTML</a>, <a href="http://cssmatter.com/web-design-blog/javascript-3/" rel="tag">Javascript</a>, <a href="http://cssmatter.com/web-design-blog/jquery/" rel="tag">jQuery</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/front-end-developer-interview-questions/" title="Front End Developer Interview Questions">
+                Front End Developer Interview Questions                </a> </h1>
+             
+  <p>Front End Developer Interview Questions Front End Developer Interview Questions file contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-4842">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/css-html/" rel="tag">CSS &amp; HTML</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/css3-cheat-sheet/" title="CSS3 Cheat Sheet">
+                CSS3 Cheat Sheet                </a> </h1>
+             
+  <p>In this post we present a printable CSS3 Cheat Sheet, a complete listing of all the properties, selectors types and allowed values in the current CSS 3 specification from the W3C. Each property is provided in a section that attempts to match it with the section (module) that it is most actively associated within the W3C specification. A very special&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-4836">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/jquery/" rel="tag">jQuery</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/jquery-cheat-sheet/" title="jQuery Cheat Sheet">
+                jQuery Cheat Sheet                </a> </h1>
+             
+  <p>Small Cheat Sheet serve as a memory aid. Even at school we used it. But even on the net, the surveys have been established. jQuery Cheat Sheet: What can not use their head must use the Cheat Sheet Today we want to give you another cheat sheet on the hand. This time it should go to jQuery - the most&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                                    
+             <div class="col-md-12">   
+         	 <article id="post-4831">
+
+
+
+             
+
+          	<h2>
+            	<?php post_class(); ?><a href="http://cssmatter.com/web-design-blog/css-html/" rel="tag">CSS &amp; HTML</a>            </h2>
+            <header class="entry-header">
+      	
+          
+              <h1 class="entry-title"> <a href="http://cssmatter.com/blog/is-there-a-css-parent-selector/" title="Is there a CSS parent selector?">
+                Is there a CSS parent selector?                </a> </h1>
+             
+  <p>Question: I would like to select the &lt;li&gt; element that is a parent (which immediately precedes the anchor tag, if that helps for css parent selector…) according to some attribute of the anchor tag. i.e. my CSS would be something like this: [crayon-56c65d4f09f73137420763/] Obviously there are ways of doing this with JavaScript css parent selector but I'm hoping that there is some sort&hellip;</p>
+                          </header>
+            <!-- .entry-header -->
+            
+           
+                                    
+                        
+            
+          </article>
+          	 </div>
+                    <div class="navigation clearfix">
+          
+  <div class='wp-pagenavi'>
+<span class='pages'>Page 1 of 7</span><span class='current'>1</span><a class="page larger" href="http://cssmatter.com/page/2/">2</a><a class="page larger" href="http://cssmatter.com/page/3/">3</a><a class="page larger" href="http://cssmatter.com/page/4/">4</a><a class="page larger" href="http://cssmatter.com/page/5/">5</a><span class='extend'>...</span><a class="nextpostslink" rel="next" href="http://cssmatter.com/page/2/">»</a><a class="last" href="http://cssmatter.com/page/7/">Last »</a>
+</div>                      </div>
+        </div>
+      </div>
+      <!-- #content --> 
+      
+    </div>
+    <!-- #primary -->
+    
+    <div class="col-md-4">
+      <div style="text-align:center;"><script src="//cdn.publicityclerks.com/core/ad/1880/1206"></script> </div><br><div style="clear:both;">&nbsp</div> 
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="ns_widget_mailchimp-4" class="widget widget_ns_mailchimp"><h3 class="widget-title">Sign up for our mailing list.</h3>	
+				<form action="/" id="ns_widget_mailchimp_form-4" method="post">
+																<input type="hidden" name="ns_mc_number" value="4" />
+						<p>Subscribe to our email newsletter for useful resources, tutorials, tips and website inspiration gallery.</p>
+						<input id="ns_widget_mailchimp-email-4" placeholder="email address" type="text" name="ns_widget_mailchimp_email" />
+						<input class="button" type="submit" name="Join now!" value="Join now!" />
+					</form>
+						<script>jQuery('#ns_widget_mailchimp_form-4').ns_mc_widget({"url" : "/index.php", "cookie_id" : "ns_widget_mailchimp-4", "cookie_value" : "248ce2c3f4a0767399bc90fea867515e", "loader_graphic" : "http://cssmatter.com/wp-content/plugins/mailchimp-widget/images/ajax-loader.gif"}); </script>
+				</aside>
+<!-- WordPress Popular Posts Plugin v3.3.1 [W] [all] [views] [regular] -->
+<aside id="wpp-6" class="widget popular-posts">
+<h3 class="widget-title">Popular Posts</h3>
+<ul class="wpp-list">
+<li><a href="http://cssmatter.com/blog/ie7-and-ie8-support-for-css3-media-query/" title="IE7 and IE8 support for CSS3 Media Query" class="wpp-post-title" target="_self">IE7 and IE8 support for CSS3 Media Query</a> </li>
+<li><a href="http://cssmatter.com/blog/20-responsive-web-design-examples-for-inspiration/" title="20 Responsive Web Design Examples for Inspiration" class="wpp-post-title" target="_self">20 Responsive Web Design Examples for Inspiration</a> </li>
+<li><a href="http://cssmatter.com/blog/css-media-queries/" title="CSS Media Queries for All Devices" class="wpp-post-title" target="_self">CSS Media Queries for All Devices</a> </li>
+<li><a href="http://cssmatter.com/blog/html5-tutorial-for-beginners-with-examples-websites/" title="HTML5 Tutorial For Beginners With Examples Websites" class="wpp-post-title" target="_self">HTML5 Tutorial For Beginners With Examples Websites</a> </li>
+<li><a href="http://cssmatter.com/blog/34-fresh-portfolio-websites-inspiration/" title="34 Fresh Portfolio Websites Inspiration" class="wpp-post-title" target="_self">34 Fresh Portfolio Websites Inspiration</a> </li>
+<li><a href="http://cssmatter.com/blog/how-to-use-twitter-bootstrap-to-create-a-responsive-website-design/" title="How to use Twitter Bootstrap to Create a Responsive Website Design" class="wpp-post-title" target="_self">How to use Twitter Bootstrap to Create a Responsive Website Design</a> </li>
+<li><a href="http://cssmatter.com/blog/useful-free-web-ui-elements-psd-packs/" title="Useful Free Web UI Elements PSD Packs" class="wpp-post-title" target="_self">Useful Free Web UI Elements PSD Packs</a> </li>
+<li><a href="http://cssmatter.com/blog/responsive-website-on-iphone-unwanted-white-space-on-rotate-from-landscape-to-portrait/" title="Responsive website on iPhone &#8211; unwanted white space on rotate from landscape to portrait" class="wpp-post-title" target="_self">Responsive website on iPhone &#8211; unwanted white space on rotate from landscape to portrait</a> </li>
+<li><a href="http://cssmatter.com/blog/20-fresh-sites-with-amazing-scrolling-effects/" title="20 Fresh Sites With Amazing Scrolling Effects" class="wpp-post-title" target="_self">20 Fresh Sites With Amazing Scrolling Effects</a> </li>
+<li><a href="http://cssmatter.com/blog/useful-jquery-plugins-for-responsive-web-design/" title="Useful jQuery plugins for responsive web design" class="wpp-post-title" target="_self">Useful jQuery plugins for responsive web design</a> </li>
+
+</ul>
+</aside>
+<!-- End WordPress Popular Posts Plugin v3.3.1 -->
+<aside id="text-10" class="widget widget_text">			<div class="textwidget"><a target="_blank" href="http://shareasale.com/r.cfm?b=528953&amp;u=748668&amp;m=28169&amp;urllink=&amp;afftrack="><img src="http://static.shareasale.com/image/28169/250x250-blue.gif" border="0" alt="StudioPress Theme of the Month" /></a></div>
+		</aside>		</div><!-- #secondary -->
+	    </div>
+  </div>
+</div>
+
+	</div><!-- #main .wrapper -->
+
+	<!-- #colophon -->
+
+</div><!-- #page -->
+
+<div class="whatsapp-gruop"><a href="http://cssmatter.com/get-web-design-updates-on-whatsapp/"><img style="width:50px;" src="http://cssmatter.com/wp-content/uploads/2015/09/whatsapp-logo-icone-448x459.png" title="Get Web Design & Development Updates On WhatsApp" alt="Get Web Design & Development Updates On WhatsApp" /></a></div>
+
+<footer id="colophon" role="contentinfo" class="clearfix">
+
+<div class="container footer">
+<div class="row">
+	
+    <ul class="social-icons footer">
+        <li><a href="https://twitter.com/cssmatter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="http://facebook.com/cssmatter" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="http://plus.google.com/101919379558418731024/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="http://www.pinterest.com/cssmatter" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+        <li><a href="http://www.cssmatter.com/feed" target="_blank"><i class="fa fa-rss"></i></a></li>
+    </ul>
+
+    <ul class="nav">
+    <li><a title="CSS Gallery" href="http://cssmatter.com/">css gallery</a></li>
+	<li><a href="http://cssmatter.com/web-design-blog/">blog</a></li>
+   	<li><a href="http://cssmatter.com/how-to-become-a-css-matter-author/">write for us</a></li>
+    <li><a href="http://cssmatter.com/about-us/">about</a></li>
+    <li><a href="http://cssmatter.com/contact/">contact</a></li></ul>
+    
+</div>
+</div>       
+
+	</footer>
+
+        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'cssmatter';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); 
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <script type='text/javascript'>
+/* <![CDATA[ */
+function changeTaxonomy() {
+	if ( 0 == this.options[this.selectedIndex].value ) {
+		return;
+	}
+	if ( 0 == this.options[this.selectedIndex].value ) {
+		return;
+	}
+	location.href = this.options[this.selectedIndex].value;
+}
+
+/* ]]> */
+</script><script type='text/javascript' src='http://cssmatter.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/cssmatter.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cssmatter.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script>
+<script type='text/javascript' src='http://cssmatter.com/wp-includes/js/comment-reply.min.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://cssmatter.com/wp-content/themes/twentytwelve/js/navigation.js?ver=1.0'></script>
+
+	<script>
+
+        $(document).ready(function(){
+
+            $('.colors a:contains("Black")').addClass('Black'); $('.colors a:contains("Blue")').addClass('Blue'); $('.colors a:contains("Brown")').addClass('Brown'); $('.colors a:contains("Green")').addClass('Green'); $('.colors a:contains("Orange")').addClass('Orange'); $('.colors a:contains("Pink")').addClass('Pink'); $('.colors a:contains("Silver")').addClass('Silver'); $('.colors a:contains("White")').addClass('White'); $('.colors a:contains("Yellow")').addClass('Yellow'); $('.colors a:contains("Red")').addClass('Red');$("article.blogs").css({"margin-top":"0px"});
+
+        });$(".fn a.url").attr('target','_blank');
+
+		
+
+		
+
+		 $('.colors a:contains("black")').addClass('Black'); $('.colors a:contains("blue")').addClass('Blue'); $('.colors a:contains("brown")').addClass('Brown'); $('.colors a:contains("green")').addClass('Green'); $('.colors a:contains("orange")').addClass('Orange'); $('.colors a:contains("pink")').addClass('Pink'); $('.colors a:contains("silver")').addClass('Silver'); $('.colors a:contains("white")').addClass('White'); $('.colors a:contains("yellow")').addClass('Yellow'); $('.colors a:contains("red")').addClass('Red');
+
+		
+
+    </script>
+
+    <script>
+
+					// Popup window function
+
+					function basicPopup(url) {
+
+				popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
+
+					}
+
+					
+
+				</script>
+
+
+
+
+<script>
+$( ".category-nav" ).on("click", function(e) {
+    	$('.gallerypage-categories').css({"display":"block"});
+	$('.gallerypage-colors').css({"display":"none"});
+	$('.gallerypage-tags').css({"display":"none"});
+$(this).addClass('open-nav');
+$('.colors-nav').removeClass('open-nav');
+$('.tags-nav').removeClass('open-nav');
+});
+
+$( ".tags-nav" ).on("click", function(e) {
+    	$('.gallerypage-categories').css({"display":"none"});
+	$('.gallerypage-colors').css({"display":"none"});
+	$('.gallerypage-tags').css({"display":"block"});
+$(this).addClass('open-nav');
+$('.colors-nav').removeClass('open-nav');
+$('.category-nav').removeClass('open-nav');
+});
+
+$( ".colors-nav" ).on("click", function(e) {
+    	$('.gallerypage-categories').css({"display":"none"});
+	$('.gallerypage-colors').css({"display":"block"});
+	$('.gallerypage-tags').css({"display":"none"});
+$(this).addClass('open-nav');
+$('.tags-nav').removeClass('open-nav');
+$('.category-nav').removeClass('open-nav');
+});
+
+
+<-- tracking code -->
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69838574-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+
+</html><div style="padding: 0px; margin-bottom: 0px; text-align:center; border-top:0px solid #eee; border-bottom:0px solid #eee; overflow:hidden;">
+          
+            <!-- BuySellAds Zone Code -->
+           <!-- <script src="//cdn.publicityclerks.com/core/ad/1880/1197"></script>  -->
+            <!-- End BuySellAds Zone Code -->
+          
+        </div>

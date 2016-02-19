@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html class="ie ie8" lang="af-ES" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 9]> <html class="ie ie9" lang="af-ES" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="af-ES" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
+
+<head>
+
+
+<meta charset="UTF-8" />
+<title>Recursos y tutoriales para Diseñadores y Programadores Web</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="pingback" href="http://blog.aulaformativa.com/xmlrpc.php" />
+	
+<link rel="shortcut icon" href="http://blog.aulaformativa.com/wp-content/uploads/2015/05/favicon-azul.ico" />	
+
+	
+
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Los mejores Consejos, Recursos,Tutoriales, Noticias y vídeos sobre el diseño y la programación web."/>
+<meta name="keywords" content="Diseño Web, Desarrollo Web, Programación Web, Desarrollo Web, Diseñadores, Programadores, Programación,"/>
+<link rel="canonical" href="http://blog.aulaformativa.com" />
+<link rel="next" href="http://blog.aulaformativa.com/page/2/" />
+<link rel="publisher" href="https://plus.google.com/+aulaformativa101/"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Recursos y tutoriales para Diseñadores y Programadores Web" />
+<meta property="og:description" content="Aula Formativa E-learning Company" />
+<meta property="og:url" content="http://blog.aulaformativa.com" />
+<meta property="og:site_name" content="Blog Aula Formativa" />
+<meta property="fb:admins" content="100005833875492" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="Los mejores Consejos, Recursos,Tutoriales, Noticias y vídeos sobre el diseño y la programación web."/>
+<meta name="twitter:title" content="Recursos y tutoriales para Diseñadores y Programadores Web"/>
+<meta name="twitter:site" content="@Aformativa"/>
+<meta name="twitter:domain" content="Blog Aula Formativa"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/blog.aulaformativa.com\/","name":"Blog Aula Formativa","potentialAction":{"@type":"SearchAction","target":"http:\/\/blog.aulaformativa.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/blog.aulaformativa.com","sameAs":["https:\/\/www.facebook.com\/aformativa","https:\/\/plus.google.com\/+aulaformativa101\/","https:\/\/www.youtube.com\/user\/aulaformativa\/","https:\/\/twitter.com\/Aformativa"],"name":"Aula Formativa Soluciones Online S.L.","logo":"http:\/\/blog.aulaformativa.com\/wp-content\/uploads\/2015\/10\/logo_aulaformativa_black.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Blog Aula Formativa &raquo; Feed" href="http://blog.aulaformativa.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog Aula Formativa &raquo; Comments Feed" href="http://blog.aulaformativa.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/blog.aulaformativa.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='crayon-css'  href='http://blog.aulaformativa.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=2.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-classic-css'  href='http://blog.aulaformativa.com/wp-content/plugins/crayon-syntax-highlighter/themes/classic/classic.css?ver=2.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://blog.aulaformativa.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='smartmag-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto+Slab' type='text/css' media='all' />
+<link rel='stylesheet' id='smartmag-core-css'  href='http://blog.aulaformativa.com/wp-content/themes/smart-mag/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='smartmag-responsive-css'  href='http://blog.aulaformativa.com/wp-content/themes/smart-mag/css/responsive.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://blog.aulaformativa.com/wp-content/themes/smart-mag/css/fontawesome/css/font-awesome.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-css-css'  href='http://blog.aulaformativa.com/?bunyad_custom_css=1&#038;ver=4.4.2' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-49511514-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://blog.aulaformativa.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://blog.aulaformativa.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"2.7.1","is_admin":"0","ajaxurl":"http:\/\/blog.aulaformativa.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.aulaformativa.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=2.7.1'></script>
+<script type='text/javascript' src='http://blog.aulaformativa.com/wp-content/plugins/wp-retina-2x/js/picturefill.min.js?ver=3.0.1'></script>
+<link rel='https://api.w.org/' href='http://blog.aulaformativa.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.aulaformativa.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.aulaformativa.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+	
+<!--[if lt IE 9]>
+<script src="http://blog.aulaformativa.com/wp-content/themes/smart-mag/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+</head>
+
+<body class="home blog page-builder right-sidebar full">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=326194464083256&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="main-wrap">
+
+	<div class="top-bar">
+
+		<div class="wrap">
+			<section class="top-bar-content">
+			
+								<div class="trending-ticker">
+					<span class="heading">Novedades</span>
+
+					<ul>
+												
+												
+							<li><a href="http://blog.aulaformativa.com/framework-responsive-alternativas-a-bootstrap/" title="Framework responsive alternativas a Bootstrap">Framework responsive alternativas a Bootstrap</a></li>
+						
+												
+							<li><a href="http://blog.aulaformativa.com/uso-efecto-acuarela-web/" title="Usos acertados del efecto acuarela en sitios web">Usos acertados del efecto acuarela en sitios web</a></li>
+						
+												
+							<li><a href="http://blog.aulaformativa.com/lecciones-importantes-que-puedes-aprender-al-usar-github/" title="Lecciones importantes que puedes aprender al usar GitHub">Lecciones importantes que puedes aprender al usar GitHub</a></li>
+						
+												
+							<li><a href="http://blog.aulaformativa.com/pautas-rediseno-web-exitoso/" title="Pautas para un proceso de rediseño web exitoso">Pautas para un proceso de rediseño web exitoso</a></li>
+						
+												
+							<li><a href="http://blog.aulaformativa.com/herramientas-utiles-lenguaje-groovy/" title="Herramientas de utilidad para el lenguaje Groovy">Herramientas de utilidad para el lenguaje Groovy</a></li>
+						
+												
+							<li><a href="http://blog.aulaformativa.com/plugin-jquery-medir-contrasenas-seguras/" title="Plugin jQuery para verificar si los usuarios colocan contraseñas seguras">Plugin jQuery para verificar si los usuarios colocan contraseñas seguras</a></li>
+						
+												
+							<li><a href="http://blog.aulaformativa.com/como-instalar-jquery-ui/" title="¿Cómo instalar jQuery UI?">¿Cómo instalar jQuery UI?</a></li>
+						
+												
+							<li><a href="http://blog.aulaformativa.com/como-configurar-php-ini/" title="¿Cómo configurar php.ini?">¿Cómo configurar php.ini?</a></li>
+						
+												
+							<li><a href="http://blog.aulaformativa.com/php-script-para-obtener-url-completa/" title="PHP Script para Obtener URL completa">PHP Script para Obtener URL completa</a></li>
+						
+												
+							<li><a href="http://blog.aulaformativa.com/agregar-efecto-jquery-ui-rebote-o-bounce/" title="Agregar efecto jQuery UI: Rebote o Bounce">Agregar efecto jQuery UI: Rebote o Bounce</a></li>
+						
+												
+											</ul>
+				</div>
+				
+				<div class="search">
+					<form action="http://blog.aulaformativa.com/" method="get">
+						<input type="text" name="s" class="query" value="" placeholder="Buscar..." />
+						<button class="search-button" type="submit"><i class="fa fa-search"></i></button>
+					</form>
+				</div> <!-- .search -->
+
+								
+			</section>
+		</div>
+		
+	</div>
+
+	<div id="main-head" class="main-head">
+		
+		<div class="wrap">
+		
+			<header>
+				<div class="title">
+				
+				<a href="http://blog.aulaformativa.com/" title="Blog Aula Formativa" rel="home">
+									
+					<img src="http://blog.aulaformativa.com/wp-content/uploads/2014/08/logo_aulaformativa2.png" class="logo-image" alt="Blog Aula Formativa"  />
+						 
+								</a>
+				
+				</div>
+				
+				<div class="right">
+									</div>
+			
+			<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '1576971712541845']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1576971712541845&amp;ev=PixelInitialized" /></noscript>
+			</header>
+			
+			<nav class="navigation cf" data-sticky-nav="0">
+				<div class="mobile"><a href="#" class="selected"><span class="text">Explorar</span><span class="current"></span> <i class="fa fa-bars"></i></a></div>
+				
+				<div class="menu-menu-2-container"><ul id="menu-menu-2" class="menu"><li id="menu-item-930" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-2 menu-item-930"><a href="http://blog.aulaformativa.com/diseno-web/">Diseño Web</a></li>
+<li id="menu-item-57" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-4 menu-item-57"><a href="http://blog.aulaformativa.com/desarrollo-web/">Desarrollo Web</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-6 menu-item-61"><a href="http://blog.aulaformativa.com/wordpress/">WordPress</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-7 menu-item-59"><a href="http://blog.aulaformativa.com/ios/">Movil</a></li>
+<li id="menu-item-60" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-9 menu-item-60"><a href="http://blog.aulaformativa.com/marketing/">Marketing</a></li>
+<li id="menu-item-14280" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-1572 menu-item-14280"><a href="http://blog.aulaformativa.com/tutoriales/">Tutoriales</a></li>
+</ul></div>			</nav>
+			
+		</div>
+		
+	</div>
+	
+	<div class="wrap">
+			</div>
+
+<div class="main wrap cf">
+	<div class="row">
+		<div class="col-8 main-content">
+	
+			
+		
+		
+	<div class="row listing">
+		
+					
+		<div class="column half">
+		
+			<article class="highlights post-15291 post type-post status-publish format-standard has-post-thumbnail category-desarrollo-web tag-alternativas-a-bootstrap tag-framework-responsive tag-twitter-bootstrap" itemscope itemtype="http://schema.org/Article">
+				
+						
+				<span class="cat-title cat-4"><a href="http://blog.aulaformativa.com/desarrollo-web/">Desarrollo Web</a></span>
+					
+				
+				<a href="http://blog.aulaformativa.com/framework-responsive-alternativas-a-bootstrap/" title="Framework responsive alternativas a Bootstrap" class="image-link">
+					<img width="351" height="185" src="http://blog.aulaformativa.com/wp-content/uploads/2016/02/framework-responsive-alternativas-a-bootstrap-Materialize-351x185.jpg" class="image wp-post-image" alt="framework-responsive-alternativas-a-bootstrap-Materialize" title="Framework responsive alternativas a Bootstrap" itemprop="image" />					
+					
+				</a>
+				
+				<div class="meta">
+					<time datetime="2016-02-18T23:42:18+00:00" itemprop="datePublished">18 febrero, 2016 </time>
+						
+										
+					<span class="comments"><a href="http://blog.aulaformativa.com/framework-responsive-alternativas-a-bootstrap/#respond"><i class="fa fa-comments-o"></i>
+						0</a></span>
+					
+				</div>
+				
+				<h2 itemprop="name"><a href="http://blog.aulaformativa.com/framework-responsive-alternativas-a-bootstrap/" title="Framework responsive alternativas a Bootstrap" itemprop="url">Framework responsive alternativas a Bootstrap</a></h2>
+				
+				<div class="excerpt"><p>Las frameworks son una de las herramientas más útiles para cualquier desarrollador web. Gracias a&hellip;</p>
+</div>
+			
+			</article>
+		</div>
+			
+					
+		<div class="column half">
+		
+			<article class="highlights post-15282 post type-post status-publish format-standard has-post-thumbnail category-diseno-web tag-efecto-acuarela tag-tendencias-web" itemscope itemtype="http://schema.org/Article">
+				
+						
+				<span class="cat-title cat-2"><a href="http://blog.aulaformativa.com/diseno-web/">Diseño Web</a></span>
+					
+				
+				<a href="http://blog.aulaformativa.com/uso-efecto-acuarela-web/" title="Usos acertados del efecto acuarela en sitios web" class="image-link">
+					<img width="351" height="185" src="http://blog.aulaformativa.com/wp-content/uploads/2016/02/uso-efecto-acuarela-web-Koa-351x185.jpg" class="image wp-post-image" alt="Usos acertados del efecto acuarela en sitios web: Koa" title="Usos acertados del efecto acuarela en sitios web" itemprop="image" />					
+					
+				</a>
+				
+				<div class="meta">
+					<time datetime="2016-02-18T20:18:52+00:00" itemprop="datePublished">18 febrero, 2016 </time>
+						
+										
+					<span class="comments"><a href="http://blog.aulaformativa.com/uso-efecto-acuarela-web/#respond"><i class="fa fa-comments-o"></i>
+						0</a></span>
+					
+				</div>
+				
+				<h2 itemprop="name"><a href="http://blog.aulaformativa.com/uso-efecto-acuarela-web/" title="Usos acertados del efecto acuarela en sitios web" itemprop="url">Usos acertados del efecto acuarela en sitios web</a></h2>
+				
+				<div class="excerpt"><p>La acuarela es una de las tantas técnicas manuales que existen en pintura. Debido a&hellip;</p>
+</div>
+			
+			</article>
+		</div>
+			
+					
+		<div class="column half">
+		
+			<article class="highlights post-15265 post type-post status-publish format-standard has-post-thumbnail category-desarrollo-web tag-codigo-abierto tag-github" itemscope itemtype="http://schema.org/Article">
+				
+						
+				<span class="cat-title cat-4"><a href="http://blog.aulaformativa.com/desarrollo-web/">Desarrollo Web</a></span>
+					
+				
+				<a href="http://blog.aulaformativa.com/lecciones-importantes-que-puedes-aprender-al-usar-github/" title="Lecciones importantes que puedes aprender al usar GitHub" class="image-link">
+					<img width="351" height="185" src="http://blog.aulaformativa.com/wp-content/uploads/2016/02/lecciones-aprendidas-usar-github-no-necesitas-ser-experto-351x185.jpg" class="image wp-post-image" alt="Lecciones importantes que aprendes al usar GitHub: No necesitas ser un experto" title="Lecciones importantes que puedes aprender al usar GitHub" itemprop="image" />					
+					
+				</a>
+				
+				<div class="meta">
+					<time datetime="2016-02-17T23:07:03+00:00" itemprop="datePublished">17 febrero, 2016 </time>
+						
+										
+					<span class="comments"><a href="http://blog.aulaformativa.com/lecciones-importantes-que-puedes-aprender-al-usar-github/#respond"><i class="fa fa-comments-o"></i>
+						0</a></span>
+					
+				</div>
+				
+				<h2 itemprop="name"><a href="http://blog.aulaformativa.com/lecciones-importantes-que-puedes-aprender-al-usar-github/" title="Lecciones importantes que puedes aprender al usar GitHub" itemprop="url">Lecciones importantes que puedes aprender al usar GitHub</a></h2>
+				
+				<div class="excerpt"><p>GitHub es una plataforma para alojar proyectos de código abierto que emplean el sistema de&hellip;</p>
+</div>
+			
+			</article>
+		</div>
+			
+					
+		<div class="column half">
+		
+			<article class="highlights post-15253 post type-post status-publish format-standard has-post-thumbnail category-diseno-web tag-rediseno-de-sitio-web tag-rediseno-web" itemscope itemtype="http://schema.org/Article">
+				
+						
+				<span class="cat-title cat-2"><a href="http://blog.aulaformativa.com/diseno-web/">Diseño Web</a></span>
+					
+				
+				<a href="http://blog.aulaformativa.com/pautas-rediseno-web-exitoso/" title="Pautas para un proceso de rediseño web exitoso" class="image-link">
+					<img width="351" height="185" src="http://blog.aulaformativa.com/wp-content/uploads/2016/02/objetivos-rediseno-web-sitio-rediseno-total-o-parcial-351x185.jpg" class="image wp-post-image" alt="objetivos-rediseno-web-sitio-rediseno-total-o-parcial" title="Pautas para un proceso de rediseño web exitoso" itemprop="image" />					
+					
+				</a>
+				
+				<div class="meta">
+					<time datetime="2016-02-17T20:39:51+00:00" itemprop="datePublished">17 febrero, 2016 </time>
+						
+										
+					<span class="comments"><a href="http://blog.aulaformativa.com/pautas-rediseno-web-exitoso/#respond"><i class="fa fa-comments-o"></i>
+						0</a></span>
+					
+				</div>
+				
+				<h2 itemprop="name"><a href="http://blog.aulaformativa.com/pautas-rediseno-web-exitoso/" title="Pautas para un proceso de rediseño web exitoso" itemprop="url">Pautas para un proceso de rediseño web exitoso</a></h2>
+				
+				<div class="excerpt"><p>Rediseñar un sitio web es mucho más que mejorar su aspecto o implementar nuevos estilos&hellip;</p>
+</div>
+			
+			</article>
+		</div>
+			
+					
+		<div class="column half">
+		
+			<article class="highlights post-15218 post type-post status-publish format-standard has-post-thumbnail category-desarrollo-web tag-groovy tag-lenguaje-de-programacion" itemscope itemtype="http://schema.org/Article">
+				
+						
+				<span class="cat-title cat-4"><a href="http://blog.aulaformativa.com/desarrollo-web/">Desarrollo Web</a></span>
+					
+				
+				<a href="http://blog.aulaformativa.com/herramientas-utiles-lenguaje-groovy/" title="Herramientas de utilidad para el lenguaje Groovy" class="image-link">
+					<img width="351" height="185" src="http://blog.aulaformativa.com/wp-content/uploads/2016/02/herramientas-ayuda-lenguaje-groovy-Grooscript-351x185.jpg" class="image wp-post-image" alt="herramientas-ayuda-lenguaje-groovy-Grooscript" title="Herramientas de utilidad para el lenguaje Groovy" itemprop="image" />					
+					
+				</a>
+				
+				<div class="meta">
+					<time datetime="2016-02-16T22:31:15+00:00" itemprop="datePublished">16 febrero, 2016 </time>
+						
+										
+					<span class="comments"><a href="http://blog.aulaformativa.com/herramientas-utiles-lenguaje-groovy/#respond"><i class="fa fa-comments-o"></i>
+						0</a></span>
+					
+				</div>
+				
+				<h2 itemprop="name"><a href="http://blog.aulaformativa.com/herramientas-utiles-lenguaje-groovy/" title="Herramientas de utilidad para el lenguaje Groovy" itemprop="url">Herramientas de utilidad para el lenguaje Groovy</a></h2>
+				
+				<div class="excerpt"><p>Apache Groovy es un lenguaje dinámico con capacidad de compilación estática desarrollado para la plataforma&hellip;</p>
+</div>
+			
+			</article>
+		</div>
+			
+					
+		<div class="column half">
+		
+			<article class="highlights post-15197 post type-post status-publish format-standard has-post-thumbnail category-desarrollo-web tag-generar-contrasenas tag-medir-seguridad-contrasenas tag-plugin-jquery" itemscope itemtype="http://schema.org/Article">
+				
+						
+				<span class="cat-title cat-4"><a href="http://blog.aulaformativa.com/desarrollo-web/">Desarrollo Web</a></span>
+					
+				
+				<a href="http://blog.aulaformativa.com/plugin-jquery-medir-contrasenas-seguras/" title="Plugin jQuery para verificar si los usuarios colocan contraseñas seguras" class="image-link">
+					<img width="351" height="185" src="http://blog.aulaformativa.com/wp-content/uploads/2016/02/plugin-jquery-contrasenas-seguras-BeautifulPasswordStrength-351x185.jpg" class="image wp-post-image" alt="plugin-jquery-contrasenas-seguras-BeautifulPasswordStrength" title="Plugin jQuery para verificar si los usuarios colocan contraseñas seguras" itemprop="image" />					
+					
+				</a>
+				
+				<div class="meta">
+					<time datetime="2016-02-16T19:04:51+00:00" itemprop="datePublished">16 febrero, 2016 </time>
+						
+										
+					<span class="comments"><a href="http://blog.aulaformativa.com/plugin-jquery-medir-contrasenas-seguras/#respond"><i class="fa fa-comments-o"></i>
+						0</a></span>
+					
+				</div>
+				
+				<h2 itemprop="name"><a href="http://blog.aulaformativa.com/plugin-jquery-medir-contrasenas-seguras/" title="Plugin jQuery para verificar si los usuarios colocan contraseñas seguras" itemprop="url">Plugin jQuery para verificar si los usuarios colocan contraseñas seguras</a></h2>
+				
+				<div class="excerpt"><p>En este artículo listamos algunos plugin jQuery, tanto gratuitos como de pago, que ayudan a&hellip;</p>
+</div>
+			
+			</article>
+		</div>
+			
+					
+		<div class="column half">
+		
+			<article class="highlights post-3453 post type-post status-publish format-video has-post-thumbnail category-desarrollo-web category-tutoriales tag-instalar-jquery-ui tag-jquery-ui tag-jqueryui post_format-post-format-video" itemscope itemtype="http://schema.org/Article">
+				
+						
+				<span class="cat-title cat-4"><a href="http://blog.aulaformativa.com/desarrollo-web/">Desarrollo Web</a></span>
+					
+				
+				<a href="http://blog.aulaformativa.com/como-instalar-jquery-ui/" title="¿Cómo instalar jQuery UI?" class="image-link">
+					<img width="351" height="185" src="http://blog.aulaformativa.com/wp-content/uploads/2014/06/como-instalar-jquery-ui-video-351x185.jpg" class="image wp-post-image" alt="Cómo instalar JQuery UI" title="¿Cómo instalar jQuery UI?" itemprop="image" />					
+											<span class="post-format-icon video"><i class="fa fa-film"></i></span>
+					
+				</a>
+				
+				<div class="meta">
+					<time datetime="2016-02-15T18:00:57+00:00" itemprop="datePublished">15 febrero, 2016 </time>
+						
+										
+					<span class="comments"><a href="http://blog.aulaformativa.com/como-instalar-jquery-ui/#respond"><i class="fa fa-comments-o"></i>
+						0</a></span>
+					
+				</div>
+				
+				<h2 itemprop="name"><a href="http://blog.aulaformativa.com/como-instalar-jquery-ui/" title="¿Cómo instalar jQuery UI?" itemprop="url">¿Cómo instalar jQuery UI?</a></h2>
+				
+				<div class="excerpt"><p>jQuery UI nos facilita la creación e implementación de diferentes “widgets” y animaciones para nuestra&hellip;</p>
+</div>
+			
+			</article>
+		</div>
+			
+					
+		<div class="column half">
+		
+			<article class="highlights post-5139 post type-post status-publish format-video has-post-thumbnail category-desarrollo-web category-tutoriales tag-configurar-php tag-configurar-php-ini tag-php-2 tag-php-ini post_format-post-format-video" itemscope itemtype="http://schema.org/Article">
+				
+						
+				<span class="cat-title cat-4"><a href="http://blog.aulaformativa.com/desarrollo-web/">Desarrollo Web</a></span>
+					
+				
+				<a href="http://blog.aulaformativa.com/como-configurar-php-ini/" title="¿Cómo configurar php.ini?" class="image-link">
+					<img width="351" height="185" src="http://blog.aulaformativa.com/wp-content/uploads/2015/03/como-configurar-php-ini-video-351x185.jpg" class="image wp-post-image" alt="Cómo configurar php.ini" title="¿Cómo configurar php.ini?" itemprop="image" />					
+											<span class="post-format-icon video"><i class="fa fa-film"></i></span>
+					
+				</a>
+				
+				<div class="meta">
+					<time datetime="2016-02-15T10:00:25+00:00" itemprop="datePublished">15 febrero, 2016 </time>
+						
+										
+					<span class="comments"><a href="http://blog.aulaformativa.com/como-configurar-php-ini/#respond"><i class="fa fa-comments-o"></i>
+						0</a></span>
+					
+				</div>
+				
+				<h2 itemprop="name"><a href="http://blog.aulaformativa.com/como-configurar-php-ini/" title="¿Cómo configurar php.ini?" itemprop="url">¿Cómo configurar php.ini?</a></h2>
+				
+				<div class="excerpt"><p>En este tutorial vamos a ver cómo configurar php.ini, que es el archivo de configuración&hellip;</p>
+</div>
+			
+			</article>
+		</div>
+			
+					
+		<div class="column half">
+		
+			<article class="highlights post-5640 post type-post status-publish format-video has-post-thumbnail category-desarrollo-web category-tutoriales tag-php-2 tag-php-script tag-programacion-web tag-script tag-url-php post_format-post-format-video" itemscope itemtype="http://schema.org/Article">
+				
+						
+				<span class="cat-title cat-4"><a href="http://blog.aulaformativa.com/desarrollo-web/">Desarrollo Web</a></span>
+					
+				
+				<a href="http://blog.aulaformativa.com/php-script-para-obtener-url-completa/" title="PHP Script para Obtener URL completa" class="image-link">
+					<img width="351" height="185" src="http://blog.aulaformativa.com/wp-content/uploads/2014/08/php-script-obtener-url-completa-video-351x185.jpg" class="image wp-post-image" alt="PHP script para obtener una URL completa" title="PHP Script para Obtener URL completa" itemprop="image" />					
+											<span class="post-format-icon video"><i class="fa fa-film"></i></span>
+					
+				</a>
+				
+				<div class="meta">
+					<time datetime="2016-02-14T21:00:35+00:00" itemprop="datePublished">14 febrero, 2016 </time>
+						
+										
+					<span class="comments"><a href="http://blog.aulaformativa.com/php-script-para-obtener-url-completa/#respond"><i class="fa fa-comments-o"></i>
+						0</a></span>
+					
+				</div>
+				
+				<h2 itemprop="name"><a href="http://blog.aulaformativa.com/php-script-para-obtener-url-completa/" title="PHP Script para Obtener URL completa" itemprop="url">PHP Script para Obtener URL completa</a></h2>
+				
+				<div class="excerpt"><p>En este tutorial vamos a crear un PHP Script para obtener URL completa de cualquier&hellip;</p>
+</div>
+			
+			</article>
+		</div>
+			
+					
+		<div class="column half">
+		
+			<article class="highlights post-3461 post type-post status-publish format-video has-post-thumbnail category-desarrollo-web category-tutoriales tag-bounce tag-efecto-de-rebote-con-jquery tag-jqueryui tag-rebote tag-widget post_format-post-format-video" itemscope itemtype="http://schema.org/Article">
+				
+						
+				<span class="cat-title cat-4"><a href="http://blog.aulaformativa.com/desarrollo-web/">Desarrollo Web</a></span>
+					
+				
+				<a href="http://blog.aulaformativa.com/agregar-efecto-jquery-ui-rebote-o-bounce/" title="Agregar efecto jQuery UI: Rebote o Bounce" class="image-link">
+					<img width="351" height="185" src="http://blog.aulaformativa.com/wp-content/uploads/2014/06/agregar-efecto-de-rebote-con-jquery-ui-351x185.jpg" class="image wp-post-image" alt="Agregar efecto de rebote con JQuery UI" title="Agregar efecto jQuery UI: Rebote o Bounce" itemprop="image" />					
+											<span class="post-format-icon video"><i class="fa fa-film"></i></span>
+					
+				</a>
+				
+				<div class="meta">
+					<time datetime="2016-02-14T13:00:31+00:00" itemprop="datePublished">14 febrero, 2016 </time>
+						
+										
+					<span class="comments"><a href="http://blog.aulaformativa.com/agregar-efecto-jquery-ui-rebote-o-bounce/#respond"><i class="fa fa-comments-o"></i>
+						0</a></span>
+					
+				</div>
+				
+				<h2 itemprop="name"><a href="http://blog.aulaformativa.com/agregar-efecto-jquery-ui-rebote-o-bounce/" title="Agregar efecto jQuery UI: Rebote o Bounce" itemprop="url">Agregar efecto jQuery UI: Rebote o Bounce</a></h2>
+				
+				<div class="excerpt"><p>Vamos a aprender cómo darle un efecto JQuery UI particular de “Rebote” a ciertos elementos&hellip;</p>
+</div>
+			
+			</article>
+		</div>
+			
+						
+	</div>
+	
+	
+			
+	<div class="main-pagination">
+		<span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://blog.aulaformativa.com/page/2/'>2</a>
+<a class='page-numbers' href='http://blog.aulaformativa.com/page/3/'>3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://blog.aulaformativa.com/page/127/'>127</a>
+<a class="next page-numbers" href="http://blog.aulaformativa.com/page/2/"><span class="visuallyhidden">Siguiente</span><i class="fa fa-angle-right"></i></a>	</div>
+		
+			
+
+	
+		</div>
+		
+				
+		<aside class="col-4 sidebar">
+			<ul>
+			
+			
+		<li id="bunyad-tabbed-recent-widget-2" class="widget tabbed">
+		<ul class="tabs-list">
+		
+						
+			<li class="active">
+				<a href="#" data-tab="1">Reciente</a>
+			</li>
+			
+						
+			<li class="">
+				<a href="#" data-tab="2">Populares</a>
+			</li>
+			
+						
+			<li class="">
+				<a href="#" data-tab="3">Opinión</a>
+			</li>
+			
+						
+		</ul>
+		
+		<div class="tabs-data">
+							
+			<ul class="tab-posts active posts-list" id="recent-tab-1">
+			
+						
+				
+				<li>
+				
+					<a href="http://blog.aulaformativa.com/framework-responsive-alternativas-a-bootstrap/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2016/02/framework-responsive-alternativas-a-bootstrap-Materialize-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="framework-responsive-alternativas-a-bootstrap-Materialize" title="Framework responsive alternativas a Bootstrap" />
+																					
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2016-02-18T23:42:18+00:00">18 febrero, 2016 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/framework-responsive-alternativas-a-bootstrap/#respond"><i class="fa fa-comments-o"></i>
+							0</a></span>
+					
+						<a href="http://blog.aulaformativa.com/framework-responsive-alternativas-a-bootstrap/" title="Framework responsive alternativas a Bootstrap">
+							Framework responsive alternativas a Bootstrap</a>
+																	
+					</div>
+				
+				</li>
+				
+				
+				<li>
+				
+					<a href="http://blog.aulaformativa.com/uso-efecto-acuarela-web/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2016/02/uso-efecto-acuarela-web-Koa-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Usos acertados del efecto acuarela en sitios web: Koa" title="Usos acertados del efecto acuarela en sitios web" />
+																					
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2016-02-18T20:18:52+00:00">18 febrero, 2016 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/uso-efecto-acuarela-web/#respond"><i class="fa fa-comments-o"></i>
+							0</a></span>
+					
+						<a href="http://blog.aulaformativa.com/uso-efecto-acuarela-web/" title="Usos acertados del efecto acuarela en sitios web">
+							Usos acertados del efecto acuarela en sitios web</a>
+																	
+					</div>
+				
+				</li>
+				
+				
+				<li>
+				
+					<a href="http://blog.aulaformativa.com/lecciones-importantes-que-puedes-aprender-al-usar-github/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2016/02/lecciones-aprendidas-usar-github-no-necesitas-ser-experto-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Lecciones importantes que aprendes al usar GitHub: No necesitas ser un experto" title="Lecciones importantes que puedes aprender al usar GitHub" />
+																					
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2016-02-17T23:07:03+00:00">17 febrero, 2016 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/lecciones-importantes-que-puedes-aprender-al-usar-github/#respond"><i class="fa fa-comments-o"></i>
+							0</a></span>
+					
+						<a href="http://blog.aulaformativa.com/lecciones-importantes-que-puedes-aprender-al-usar-github/" title="Lecciones importantes que puedes aprender al usar GitHub">
+							Lecciones importantes que puedes aprender al usar GitHub</a>
+																	
+					</div>
+				
+				</li>
+				
+								
+							
+			</ul>
+							
+			<ul class="tab-posts  posts-list" id="recent-tab-2">
+			
+						
+				
+				<li>
+				
+					<a href="http://blog.aulaformativa.com/servicios-gratuitos-de-almacenamiento-en-la-nube-de-gran-capacidad/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2015/05/servicios-almacenamiento-en-la-nube-gratuitos-copy-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Servicios de almacenamiento en la nube gratuito: Copy" title="Servicios gratuitos de almacenamiento en la nube de gran capacidad" />
+																					
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2015-05-01T23:00:06+00:00">1 mayo, 2015 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/servicios-gratuitos-de-almacenamiento-en-la-nube-de-gran-capacidad/#comments"><i class="fa fa-comments-o"></i>
+							10</a></span>
+					
+						<a href="http://blog.aulaformativa.com/servicios-gratuitos-de-almacenamiento-en-la-nube-de-gran-capacidad/" title="Servicios gratuitos de almacenamiento en la nube de gran capacidad">
+							Servicios gratuitos de almacenamiento en la nube de gran capacidad</a>
+																	
+					</div>
+				
+				</li>
+				
+				
+				<li>
+				
+					<a href="http://blog.aulaformativa.com/como-configurar-un-servidor-virtual-en-amazon/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2015/03/configurar-servidor-virtual-en-amazon-gratuito-video-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Cómo configurar un servidor virtual en Amazon Web Services" title="¿Cómo configurar un servidor virtual en Amazon?" />
+																					
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2015-05-10T17:00:44+00:00">10 mayo, 2015 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/como-configurar-un-servidor-virtual-en-amazon/#comments"><i class="fa fa-comments-o"></i>
+							9</a></span>
+					
+						<a href="http://blog.aulaformativa.com/como-configurar-un-servidor-virtual-en-amazon/" title="¿Cómo configurar un servidor virtual en Amazon?">
+							¿Cómo configurar un servidor virtual en Amazon?</a>
+																	
+					</div>
+				
+				</li>
+				
+				
+				<li>
+				
+					<a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2014/04/manual-php-desarrollo-web-con-php-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Manual PHP Desarrollo Web con PHP y MySQL" title="Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;" />
+											<div class="review rate-number"><span class="progress"></span><span>9.0</span></div>										
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2014-04-01T18:59:14+00:00">1 abril, 2014 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/#comments"><i class="fa fa-comments-o"></i>
+							5</a></span>
+					
+						<a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/" title="Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;">
+							Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;</a>
+																	
+					</div>
+				
+				</li>
+				
+								
+							
+			</ul>
+							
+			<ul class="tab-posts  posts-list" id="recent-tab-3">
+			
+						
+				
+				<li>
+				
+					<a href="http://blog.aulaformativa.com/manual-html-html-css-design-and-build-websites/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2014/04/manual-html-design-and-build-website-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Manual HTML &quot;HTML&amp;CSS: Design and Build Websites&quot;" title="Manual HTML &#8220;HTML &#038; CSS: Design and Build Websites&#8221;" />
+											<div class="review rate-number"><span class="progress"></span><span>9.5</span></div>										
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2014-07-17T18:57:45+00:00">17 julio, 2014 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/manual-html-html-css-design-and-build-websites/#comments"><i class="fa fa-comments-o"></i>
+							2</a></span>
+					
+						<a href="http://blog.aulaformativa.com/manual-html-html-css-design-and-build-websites/" title="Manual HTML &#8220;HTML &#038; CSS: Design and Build Websites&#8221;">
+							Manual HTML &#8220;HTML &#038; CSS: Design and Build Websites&#8221;</a>
+																	
+					</div>
+				
+				</li>
+				
+				
+				<li>
+				
+					<a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2014/04/manual-php-desarrollo-web-con-php-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Manual PHP Desarrollo Web con PHP y MySQL" title="Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;" />
+											<div class="review rate-number"><span class="progress"></span><span>9.0</span></div>										
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2014-04-01T18:59:14+00:00">1 abril, 2014 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/#comments"><i class="fa fa-comments-o"></i>
+							5</a></span>
+					
+						<a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/" title="Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;">
+							Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;</a>
+																	
+					</div>
+				
+				</li>
+				
+				
+				<li>
+				
+					<a href="http://blog.aulaformativa.com/nuevas-tecnologias-navdy-el-futuro-de-los-dispositivos-de-manos-libres/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2014/12/navdy-que-es-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="¿Qué es Navdy?" title="Nuevas tecnologías: Navdy, el futuro de los dispositivos de manos libres" />
+											<div class="review rate-number"><span class="progress"></span><span>9.0</span></div>										
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2014-12-02T08:49:20+00:00">2 diciembre, 2014 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/nuevas-tecnologias-navdy-el-futuro-de-los-dispositivos-de-manos-libres/#respond"><i class="fa fa-comments-o"></i>
+							0</a></span>
+					
+						<a href="http://blog.aulaformativa.com/nuevas-tecnologias-navdy-el-futuro-de-los-dispositivos-de-manos-libres/" title="Nuevas tecnologías: Navdy, el futuro de los dispositivos de manos libres">
+							Nuevas tecnologías: Navdy, el futuro de los dispositivos de manos libres</a>
+																	
+					</div>
+				
+				</li>
+				
+								
+							
+			</ul>
+					
+		</div>
+		
+		</li>
+		
+		<li id="text-13" class="widget widget_text">			<div class="textwidget"><div class="fb-page" data-href="https://www.facebook.com/aformativa" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/aformativa"><a href="https://www.facebook.com/aformativa" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://www.facebook.com/aformativa', 'Aula Formativa Soluciones Online S.L.']);" >Aula Formativa Soluciones Online S.L.</a></blockquote></div></div></div>
+		</li>
+
+			<li id="bunyad-latest-reviews-widget-3" class="widget latest-reviews">			
+							<h3 class="widgettitle">Últimas opiniones</h3>						
+			<ul class="posts-list">
+			
+							<li>
+				
+					<a href="http://blog.aulaformativa.com/nuevas-tecnologias-navdy-el-futuro-de-los-dispositivos-de-manos-libres/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2014/12/navdy-que-es-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="¿Qué es Navdy?" title="Nuevas tecnologías: Navdy, el futuro de los dispositivos de manos libres" />					
+											<div class="review rate-number"><span class="progress"></span><span>9.0</span></div>										
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2014-12-02T08:49:20+00:00">2 diciembre, 2014 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/nuevas-tecnologias-navdy-el-futuro-de-los-dispositivos-de-manos-libres/#respond"><i class="fa fa-comments-o"></i>
+							0</a></span>
+					
+						<a href="http://blog.aulaformativa.com/nuevas-tecnologias-navdy-el-futuro-de-los-dispositivos-de-manos-libres/" title="Nuevas tecnologías: Navdy, el futuro de los dispositivos de manos libres">
+							Nuevas tecnologías: Navdy, el futuro de los dispositivos de manos libres</a>
+																	
+					</div>
+				
+				</li>
+							<li>
+				
+					<a href="http://blog.aulaformativa.com/manual-html-html-css-design-and-build-websites/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2014/04/manual-html-design-and-build-website-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Manual HTML &quot;HTML&amp;CSS: Design and Build Websites&quot;" title="Manual HTML &#8220;HTML &#038; CSS: Design and Build Websites&#8221;" />					
+											<div class="review rate-number"><span class="progress"></span><span>9.5</span></div>										
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2014-07-17T18:57:45+00:00">17 julio, 2014 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/manual-html-html-css-design-and-build-websites/#comments"><i class="fa fa-comments-o"></i>
+							2</a></span>
+					
+						<a href="http://blog.aulaformativa.com/manual-html-html-css-design-and-build-websites/" title="Manual HTML &#8220;HTML &#038; CSS: Design and Build Websites&#8221;">
+							Manual HTML &#8220;HTML &#038; CSS: Design and Build Websites&#8221;</a>
+																	
+					</div>
+				
+				</li>
+							<li>
+				
+					<a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2014/04/manual-php-desarrollo-web-con-php-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Manual PHP Desarrollo Web con PHP y MySQL" title="Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;" />					
+											<div class="review rate-number"><span class="progress"></span><span>9.0</span></div>										
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2014-04-01T18:59:14+00:00">1 abril, 2014 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/#comments"><i class="fa fa-comments-o"></i>
+							5</a></span>
+					
+						<a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/" title="Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;">
+							Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;</a>
+																	
+					</div>
+				
+				</li>
+						</ul>
+			
+			</li>
+	
+			</ul>
+		</aside>		
+	</div> <!-- .row -->
+</div> <!-- .main -->
+
+
+	<footer class="main-footer">
+	
+			<div class="wrap">
+		
+					<ul class="widgets row cf">
+				
+		<li class="widget col-4 bunyad-about">			<h3 class="widgettitle">Boletín</h3>		
+			<div class="about-widget">
+			
+							<p class="logo-text">Aula Formativa</p>
+				
+						
+			<p>Si quieres estar informado puntualmente de todas las novedades sobre tutoriales y cursos relacionados con diseño y  el desarrollo web entonces, regístrate gratuitamente a nuestra lista de correo a través del siguiente formulario.<br />
+
+		<div class="feedburner">
+			<p class="heading">Suscríbete:</p>
+			<form accept-charset="utf-8" method="post" action="https://app.getresponse.com/add_contact_webform.html?u=WS">
+			
+				<input type="hidden" value="FEEDBURNER USERNAME" name="uri" />
+				<input type="hidden" name="loc" value="en_US" />
+				<input type="hidden" name="webform_id" value="2270002" />
+			
+				<label for="feedburner-email">Correo electrónico</label>
+				<input type="text" id="feedburner-email" name="email" class="feedburner-email" placeholder="Correo electrónico" />
+				
+				<input class="feedburner-subscribe" type="submit" name="submit" value="ENVIAR" />
+				
+			</form>
+		</div>
+		
+			
+			</div>
+		
+		</li>		
+					<li class="widget col-4 popular-posts">			<h3 class="widgettitle">Populares</h3>			
+			<ul class="posts-list">
+							<li>
+				
+					<a href="http://blog.aulaformativa.com/servicios-gratuitos-de-almacenamiento-en-la-nube-de-gran-capacidad/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2015/05/servicios-almacenamiento-en-la-nube-gratuitos-copy-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Servicios de almacenamiento en la nube gratuito: Copy" title="Servicios gratuitos de almacenamiento en la nube de gran capacidad" />					
+																					
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2015-05-01T23:00:06+00:00">1 mayo, 2015 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/servicios-gratuitos-de-almacenamiento-en-la-nube-de-gran-capacidad/#comments"><i class="fa fa-comments-o"></i>
+							10</a></span>
+					
+						<a href="http://blog.aulaformativa.com/servicios-gratuitos-de-almacenamiento-en-la-nube-de-gran-capacidad/" title="Servicios gratuitos de almacenamiento en la nube de gran capacidad">
+							Servicios gratuitos de almacenamiento en la nube de gran capacidad</a>
+																	
+					</div>
+				
+				</li>
+							<li>
+				
+					<a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2014/04/manual-php-desarrollo-web-con-php-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Manual PHP Desarrollo Web con PHP y MySQL" title="Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;" />					
+											<div class="review rate-number"><span class="progress"></span><span>9.0</span></div>										
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2014-04-01T18:59:14+00:00">1 abril, 2014 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/#comments"><i class="fa fa-comments-o"></i>
+							5</a></span>
+					
+						<a href="http://blog.aulaformativa.com/manual-php-desarrollo-web-con-php-y-mysql/" title="Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;">
+							Manual PHP &#8220;Desarrollo Web con PHP y MySQL&#8221;</a>
+																	
+					</div>
+				
+				</li>
+							<li>
+				
+					<a href="http://blog.aulaformativa.com/servicios-para-enviar-archivos-pesados/"><img width="110" height="96" src="http://blog.aulaformativa.com/wp-content/uploads/2014/07/servicios-enviar-archivos-pesados-itrnsfr-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Servicio para enviar archivos pesados: Itrnsfr" title="Servicios para enviar archivos pesados" />					
+																					
+					</a>
+					
+					<div class="content">
+					
+						<time datetime="2014-08-05T22:43:34+00:00">5 agosto, 2014 </time>
+					
+						<span class="comments"><a href="http://blog.aulaformativa.com/servicios-para-enviar-archivos-pesados/#comments"><i class="fa fa-comments-o"></i>
+							5</a></span>
+					
+						<a href="http://blog.aulaformativa.com/servicios-para-enviar-archivos-pesados/" title="Servicios para enviar archivos pesados">
+							Servicios para enviar archivos pesados</a>
+																	
+					</div>
+				
+				</li>
+						</ul>
+			
+			</li>		
+		<li class="widget col-4 widget_text"><h3 class="widgettitle">Contacto</h3>			<div class="textwidget"><p>Si desea contactar con nosotros puede hacerlo a través del siguiente formulario.<BR></p>
+<form method="post" action="http://blog.aulaformativa.com/contacto/">
+<input class="feedburner-subscribe" type="submit" name="submit" value="CONTACTAR" /><br />
+</form>
+</div>
+		</li>			</ul>
+				
+		</div>
+	
+		
+	
+			<div class="lower-foot">
+			<div class="wrap">
+		
+						
+			<div class="widgets">
+				
+<!-- Start - HTML Javascript Adder plugin v3.9 -->
+
+<div class="hjawidget textwidget">
+<script type="text/javascript">
+var gr_goal_params = {
+ param_0 : '',
+ param_1 : '',
+ param_2 : '',
+ param_3 : '',
+ param_4 : '',
+ param_5 : ''
+};</script>
+<script type="text/javascript" src="https://app.getresponse.com/goals_log.js?p=164602&u=WS"></script>
+</div>
+<!-- End - HTML Javascript Adder plugin v3.9 -->
+<div class="menu-pie-de-pagina-container"><ul id="menu-pie-de-pagina" class="menu"><li id="menu-item-1465" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1465"><a href="http://blog.aulaformativa.com/politica-de-privacidad/">Política de Privacidad</a></li>
+<li id="menu-item-1467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1467"><a href="http://blog.aulaformativa.com/informacion-legal/">Información Legal</a></li>
+<li id="menu-item-1468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1468"><a href="http://blog.aulaformativa.com/terminos-y-condiciones/">Términos y Condiciones</a></li>
+</ul></div>			</div>
+			
+					
+			</div>
+		</div>		
+		
+	</footer>
+	
+</div> <!-- .main-wrap -->
+
+<script data-cfasync="false" type="text/javascript">
+var addthis_config = {"ui_language":"es","ui_atversion":300,"ignore_server_config":true};
+var addthis_share = {};
+</script>
+                <!-- AddThis Settings Begin -->
+                <script data-cfasync="false" type="text/javascript">
+                    var addthis_product = "wpp-5.1.2";
+                    var wp_product_version = "wpp-5.1.2";
+                    var wp_blog_version = "4.4.2";
+                    var addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","cms_version":"4.4.2","plugin_name":"AddThis Sharing Buttons","plugin_version":"5.1.2","anonymous_profile_id":"wp-85ced346626f2c31ebc79806d535a88f","select_prefs":{"addthis_per_post_enabled":true,"addthis_above_enabled":false,"addthis_below_enabled":true,"addthis_sidebar_enabled":true,"addthis_above_showon_home":false,"addthis_below_showon_home":false,"addthis_above_showon_pages":false,"addthis_below_showon_pages":false,"addthis_above_showon_categories":false,"addthis_below_showon_categories":false,"addthis_above_showon_archives":false,"addthis_below_showon_archives":false,"addthis_above_showon_posts":true,"addthis_above_showon_excerpts":true,"addthis_below_showon_posts":true,"addthis_below_showon_excerpts":true,"addthis_sidebar_showon_home":true,"addthis_sidebar_showon_posts":true,"addthis_sidebar_showon_pages":true,"addthis_sidebar_showon_archives":true,"addthis_sidebar_showon_categories":true,"sharing_enabled_on_post_via_metabox":true},"page_info":{"template":"home","post_type":""}};
+                    if (typeof(addthis_config) == "undefined") {
+                        var addthis_config = {"ui_language":"es","ui_atversion":300,"ignore_server_config":true};
+                    }
+                    if (typeof(addthis_share) == "undefined") {
+                        var addthis_share = {};
+                    }
+                    if (typeof(addthis_layers) == "undefined") {
+                        var addthis_layers = {"share":{"theme":"transparent","position":"left","numPreferredServices":5}};
+                    }
+                </script>
+                <script
+                    data-cfasync="false"
+                    type="text/javascript"
+                    src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b2b6ee42a197f5 "
+                    
+                >
+                </script>
+                <script data-cfasync="false" type="text/javascript">
+                    (function() {
+                        var at_interval = setInterval(function () {
+                            if(window.addthis) {
+                                clearInterval(at_interval);
+                                addthis.layers(addthis_layers);
+                            }
+                        },1000)
+                    }());
+                </script>
+                <link rel='stylesheet' id='addthis_output-css'  href='http://blog.aulaformativa.com/wp-content/plugins/addthis/css/output.css?ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://blog.aulaformativa.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/blog.aulaformativa.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.aulaformativa.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://blog.aulaformativa.com/wp-content/themes/smart-mag/js/bunyad-theme.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://blog.aulaformativa.com/wp-content/themes/smart-mag/js/jquery.flexslider-min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://blog.aulaformativa.com/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<!--wp_footer-->
+</body>
+</html>

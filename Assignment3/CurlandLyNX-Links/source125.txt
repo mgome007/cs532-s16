@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="es-ES" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="es-ES" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="es-ES" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="es-ES" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="es-ES" class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<title>Enomina | Personas &amp; Tecnología</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" media="all" href="http://www.enomina.net/wp-content/themes/enomina_1.0/style.css" />
+<link rel="pingback" href="http://www.enomina.net/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Enomina &raquo; Feed" href="http://www.enomina.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Enomina &raquo; RSS de los comentarios" href="http://www.enomina.net/comments/feed/" />
+
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-25719002-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<script type='text/javascript' src='http://www.enomina.net/wp-content/themes/enomina_1.0/js/modernizr-1.6.min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js?ver=3.5.2'></script>
+<link rel='next' title='Noticias' href='http://www.enomina.net/noticias/' />
+<link rel="stylesheet" href="http://www.enomina.net/wp-content/plugins/digg-digg/include/../css/diggdigg-style.css?ver=4.5.3.3" type="text/css" media="screen" /><link rel="image_src" href="" /><script data-cfasync="false" src="//load.sumome.com/" data-sumo-site-id="a224053a26171e99f88120a9da9ff6b5cbcf66f56094312e390c7f0974982ece" async></script><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");twitterWidgets.onload = _ga.trackTwitter;</script>
+			<link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.enomina.net/#page/2" />
+		<script type="text/javascript" src="http://www.enomina.net/wp-content/themes/enomina_1.0/js/jquery.infinite-carousel.js">
+		</script>
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+				jQuery('#slider-stage').carousel('#previous', '#next');
+				jQuery('#viewport').carousel('#simplePrevious', '#simpleNext');  
+			});
+//The auto-scrolling function
+function slide(){
+  jQuery('#simpleNext').click();
+}
+//Launch the scroll every 2 seconds
+var intervalId = window.setInterval(slide, 2500);
+
+//On user click deactivate auto-scrolling
+jQuery('#previous, #simpleNext').click(
+ function(event){
+  if(event.originalEvent){
+   window.clearInterval(intervalId);
+  }
+ }
+);
+
+		</script>
+</head>
+
+<body class="home page page-id-2 page-template page-template-inicio-php">
+<!--[if lte IE 8 ]>
+<noscript><strong>JavaScript is required for this website to be displayed correctly. Please enable JavaScript before continuing...</strong></noscript>
+<![endif]-->
+
+<div id="wrapper" class="hfeed">
+	<header>
+		<section id="masthead">
+			<div id="branding" role="banner">
+								<h1 id="site-title">
+				<span>
+					<a href="http://www.enomina.net/" title="Enomina"><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/enomina-logo-horizontal.png" alt="Enomina, S.L." /></a>
+				</span>
+				</h1>
+				<ul id="social">
+					<li class="daily"><a href="http://paper.li/ENOMINA/1313566184" title="Enomina Daily"><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/enomina-newspaper.png" alt="Enomina Daily" /></a></li>
+					<li class="info"><a href="http://www.enomina.net/?page_id=356" title="Informaci&#243;n"><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/enomina-informacion2.png" alt="Informaci&#243;n" /></li>
+				<li><a href="http://facebook.com/enomina" title="Enomina Facebook"><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/enomina-facebook2.png" alt="Enomina Facebook" /></a></li>
+					<li><a href="http://twitter.com/enomina" title="Enomina Twitter"><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/enomina-twitter2.png" alt="Enomina Twitter" /></a></li>
+					<li><a href="http://www.linkedin.com/company/enomina-sl" title="Enomina LinkedIn"><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/enomina-linkedin2.png" alt="Enomina LinkedIn" /></a></li>
+					<li><a href="http://www.enomina.net/feed/rss/" title="Enomina RSS"><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/enomina-rss.png" alt="Enomina RSS" /></a></li>
+				</ul>
+
+			<nav id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Saltar al contenido">Saltar al contenido</a></div>
+								<div class="menu-header"><ul id="menu-menu-principal" class="menu"><li class="current_page_item"><a href="http://www.enomina.net/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);" title="Inicio">Inicio</a></li><li id="menu-item-170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170"><a title="Quiénes Somos" href="http://www.enomina.net/quienes-somos/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Quiénes Somos</a>
+<ul class="sub-menu">
+	<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a title="¿Qué es Enomina?" href="http://www.enomina.net/quienes-somos/%c2%bfque-es-enomina/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">¿Qué es Enomina?</a></li>
+</ul>
+</li>
+<li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-169"><a title="Servicios" href="http://www.enomina.net/servicios/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Servicios</a>
+<ul class="sub-menu">
+	<li id="menu-item-166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-166"><a title="Do it yourself" href="http://www.enomina.net/servicios/do-it-yourself/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Do it yourself</a></li>
+	<li id="menu-item-347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-347"><a title="Profesional" href="http://www.enomina.net/servicios/profesional/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Profesional</a></li>
+	<li id="menu-item-346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346"><a title="Outsourced" href="http://www.enomina.net/servicios/outsourced/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Outsourced</a></li>
+	<li id="menu-item-345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345"><a title="Interim" href="http://www.enomina.net/servicios/interim/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Interim</a></li>
+	<li id="menu-item-710" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-710"><a href="http://www.enomina.net/servicios/help-desk/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Help Desk</a></li>
+	<li id="menu-item-247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-247"><a title="¿Qué me soluciona Enomina?" href="http://www.enomina.net/servicios/que-me-soluciona-enomina/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">¿Qué me soluciona Enomina?</a></li>
+	<li id="menu-item-274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a title="Nuestras propuestas" href="http://www.enomina.net/servicios/nuestras-propuestas/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Nuestras propuestas</a></li>
+	<li id="menu-item-343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-343"><a title="Nuestras respuestas" href="http://www.enomina.net/servicios/nuestras-respuestas/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Nuestras respuestas</a></li>
+</ul>
+</li>
+<li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a title="Casos de éxito" href="http://www.enomina.net/casos-de-exito/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Casos de éxito</a></li>
+<li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a title="Noticias" href="http://www.enomina.net/noticias/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Noticias</a>
+<ul class="sub-menu">
+	<li id="menu-item-806" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-806"><a href="http://www.enomina.net/noticias/news-letter/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">NEWS LETTER</a></li>
+	<li id="menu-item-174" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-174"><a title="Recursos Humanos" href="http://www.enomina.net/category/recursos-humanos/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Recursos Humanos</a></li>
+	<li id="menu-item-173" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-173"><a title="Laboral" href="http://www.enomina.net/category/laboral/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Laboral</a></li>
+	<li id="menu-item-178" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-178"><a title="Tecnología" href="http://www.enomina.net/category/tecnologia/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Tecnología</a></li>
+	<li id="menu-item-175" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-175"><a title="Gestión empresa" href="http://www.enomina.net/category/gestion-empresa/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Gestión empresa</a></li>
+	<li id="menu-item-176" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-176"><a title="Prevención de riesgos" href="http://www.enomina.net/category/prevencion-de-riesgos/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Prevención de riesgos</a></li>
+	<li id="menu-item-177" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-177"><a title="Redes sociales" href="http://www.enomina.net/category/redes-sociales/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Redes sociales</a></li>
+	<li id="menu-item-960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960"><a href="http://www.enomina.net/convocatoria-junta-general-accionistas-2015/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Convocatoria Junta general Accionistas 2015</a></li>
+	<li id="menu-item-179" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-179"><a title="Vídeos" href="http://www.enomina.net/category/videos/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Vídeos</a></li>
+</ul>
+</li>
+<li id="menu-item-850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-850"><a href="http://www.enomina.net/acceso-clientes/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Acceso Clientes</a></li>
+<li id="menu-item-849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-849"><a href="http://www.enomina.net/acceso-empleados/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Acceso Empleados</a></li>
+<li id="menu-item-669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-669"><a href="http://www.enomina.net/partners-colaboradores/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Colaboradores</a></li>
+<li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a title="Contacto" href="http://www.enomina.net/contacto/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.enomina.net']);">Contacto</a></li>
+<li class="search"><form role="search" method="get" id="searchform" action="http://www.enomina.net/" >
+	<div><label class="screen-reader-text" for="s">Buscar por:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Buscar" />
+	</div>
+	</form></li></ul></div>			</nav><!-- #access -->
+										<a href="http://www.enomina.net/?page_id=145" title=""><img class="headerimg" src="http://www.enomina.net/wp-content/uploads/2011/07/enomina-baner-gestionamos2.png" width="958" height="280" alt="" /></a>
+ 
+ 
+								</div><!--/branding -->
+		</section><!--/masthead -->
+	</header><!--/header -->
+
+	<div id="main">
+<p style="filter: alpha(opacity=0); opacity: 0; position: absolute; z-index: 11;">
+When it comes to Omega,<a href="http://www.mannor.co.uk/">rolex replica</a> most discussion revolves around the Speedmaster and Seamaster collections since they are the most synthetic lines and high-profile home-Omega. But in reality, Railmaster is also a collection that hits once the world, although it has stopped producing since 2009. The history of Railmaster can be traced back to 1957 when Omega <a href="http://www.orologi-replica.co/" >orologi replica</a> introduced a trilogy of technical watches, including the Speedmaster, Seamaster and Railmaster. These three models have been created to meet the specific needs of professional features. The clock Railmaster was remarkable for its magnetic resistance. Accordingly, in addition to Rolex Milgauss and IWC Ingenieur, Omega <a href="http://www.ecole-polonaise.com/stall.php" >http://www.ecole-polonaise.com/stall.php</a> Railmaster should be on the list when I mentioned the anti-magnetic watches. However, it is very difficult to get a model Railmaster, a seond one hand, in the market. And omega replica watches <a href="http://www.luminox-watches.com/" >replica watches china</a> just to fill the desire for a Railmaster watch <a href="http://rolexrepliquemontredeluxe.com/" >replique montre</a> buyers.</p>
+
+<div id="colmask"> 
+	<div id="colmid"> 
+		<div id="colright"> 
+			<div id="col1wrap"> 
+				<div id="col1pad"> 
+					<section id="col1"> 
+						<!-- Column 1 start -->
+					<article>
+					<div class="entry-content">
+						<h2>Enomina, un servicio que facilita la gestión de nóminas para PYMES</h2>
+						<p><object type="application/x-shockwave-flash" data="http://videos.acens.tv/enomina.m4v&#038;image=http://videos.acens.tv/wp-content/themes/acenstv/videos/enomina.png" height="360" width="640"><param name="movie" value="http://videos.acens.tv/enomina.m4v&#038;image=http://videos.acens.tv/wp-content/themes/acenstv/videos/enomina.png"><param name="wmode" value="transparent"></object></p>
+					</div><!-- .entry-content -->
+					</article>
+					<article>
+					<div class="entry-content">
+						<h2>Entrevista a Antoni Arroyo (Director General d&#8217;Enomina)</h2>
+						<p><iframe width="560" height="349" src="http://www.youtube.com/embed/v1Tw6y67w-g?wmode=transparent" frameborder="0" allowfullscreen></iframe></p>
+					</div><!-- .entry-content -->
+					</article>
+					<article>
+					<div class="entry-content">
+						<h2>Como usar Enomina</h2>
+						<p>Enomina es una plataforma que puede usarse de formas muy diferentes, según la actividad a la que se dedican sus usuarios. Tenemos un ejemplo en Talent HR, una empresa de trabajo temporal que ha querido aproximar a sus clientes las ventajas que le da el tener Enomina. Vemos en la animación adjunta, como un Director de RR.HH. puede realizar su seguimiento consiguiendo información y control desde cualquier parte, y en cualquier momento.</p>
+<p>Asi mismos, los trabajadores cedidos por Talent HR, pueden acceder a sus documentos, como nóminas, contratos, etc.. desde el portal del empleado que Enomina facilita a sus clientes.</p>
+<p><iframe width="480" height="360" src="http://www.youtube.com/embed/OdjeFIuQ9R8" frameborder="0" allowfullscreen></iframe></p>
+					</div><!-- .entry-content -->
+					</article>
+						<!-- Column 1 end --> 
+					</section> 
+				</div> 
+			</div> 
+			<div id="col2"> 
+				<!-- Column 2 start --> 
+				<h3><a href="http://www.enomina.net/?page_id=141" title="Noticias del blog">Noticias del blog</a></h3>
+				<ul class="recent-posts">
+	<li><h4><a href="http://www.enomina.net/2015/08/decreto-ley-nuevo-irpf-julio-2015/">Decreto ley nuevo IRPF julio 2015</a></h4>
+	<p>Real Decreto-ley 9/2015, de 10 de julio, de medidas urgentes para reducir la carga tributaria soportada por los contribuyentes del Impuesto sobre la Renta de las Personas Físicas y otras medidas de carácter económico.</p>
+</li>
+	<li><h4><a href="http://www.enomina.net/2015/04/criterio-tecnico-de-la-inspeccion-de-trabajo-en-materia-de-contratacion-temporal-abril-2015/">Criterio técnico de la Inspección de trabajo en materia de contratación temporal &#8211; Abril 2015</a></h4>
+	<p>Criterio técnico de la inspección de trabajo Abril 2015 en materia de contratación temporal</p>
+</li>
+	<li><h4><a href="http://www.enomina.net/2015/04/guia-de-contratacion-actualizada-a-enero-2015/">Guia de Contratación actualizada a Abril 2015</a></h4>
+	<p>Guía de contratos actualizada a Abril 2015</p>
+</li>
+				</ul>
+				<!-- Column 2 end --> 
+			</div> 
+			<div id="col3"> 
+				<!-- Column 3 start -->
+					<ul class="recent-twitter">
+						<li id="text-12"><h3>SOPORTE</h3>			<div class="textwidget"><script>function embedHFWidget(){var embedButton=document.createElement('a');embedButton.style.zIndex='2147483646';embedButton.style.backgroundColor='c60606'?'#c60606':'#333';embedButton.innerHTML='SOPORTE'?'SOPORTE':'Contact Us';embedButton.style.color='#FFF';var buttonCss='font-family: "OpenSansRegular", sans-serif; position: fixed; padding: 10px 20px 10px 20px; letter-spacing: 1px; -webkit-border-bottom-left-radius: 10px; -moz-border-radius-bottomleft: 10px; border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px; -moz-border-radius-bottomright: 10px; border-bottom-right-radius: 10px;';if('l'=='l'){embedButton.style.cssText+=buttonCss+' -webkit-transform-origin: 0% 50%; -webkit-transform: rotate(-90deg) translate(-50%, 50%); -moz-transform-origin: 0 50%; -moz-transform: rotate(-90deg) translate(-50%, 50%); -ms-transform-origin: 0 50%; -ms-transform: rotate(-90deg) translate(-50%, 50%); -o-transform-origin: 0 50%; -o-transform: rotate(-90deg) translate(-50%, 50%); transform-origin: 0 50%; transform: rotate(-90deg) translate(-50%, 50%); top: 40%; left: 0;'}else{embedButton.style.cssText+=buttonCss+' -webkit-transform-origin: 100% 50%; -webkit-transform: rotate(90deg) translate(50%, 50%); -moz-transform-origin: 100% 50%; -moz-transform: rotate(90deg) translate(50%, 50%); -ms-transform-origin: 100% 50%; -ms-transform: rotate(90deg) translate(50%, 50%); -o-transform-origin: 100% 50%; -o-transform: rotate(90deg) translate(50%, 50%); transform-origin: 100% 50%; transform: rotate(90deg) translate(50%, 50%); top: 40%; right: 0;'}embedButton.style.cursor='pointer';embedButton.style.textDecoration='none';embedButton.addEventListener('click', function embed(){var embedDiv=document.createElement('div');embedDiv.style.border='0';embedDiv.style.position='fixed';embedDiv.style.top='0';embedDiv.style.left='0';embedDiv.style.right='0';embedDiv.style.bottom='0';embedDiv.style.width='100%';embedDiv.style.height='100%';embedDiv.style.overflow='hidden';embedDiv.style.zIndex='2147483647';function removeDiv(){var divToRemove=document.getElementById('embedDiv');if(divToRemove){divToRemove.parentNode.removeChild(divToRemove);return false;}};embedDiv.id='embedDiv';embedDiv.addEventListener('click',removeDiv,false);document.body.appendChild(embedDiv);var iframe=document.createElement('iframe');iframe.src='http://soporte.enomina.net/supportwidgets/code_support_widget/1';iframe.style.position='absolute';iframe.style.border='0';iframe.style.background='none transparent';iframe.style.width='50%';iframe.style.height='80%';iframe.style.top='10%';iframe.style.left='25%';iframe.addEventListener('load',function resizeIframe(){var grayDiv=document.getElementById('embedDiv');grayDiv.style.backgroundColor='rgba(0,0,0,0.3)';grayDiv.appendChild(closeIframe);},false);iframe.id='embedWidget';iframe.frameborder='0';iframe.allowTransparency='true';embedDiv.appendChild(iframe);var closeIframe=document.createElement('img');closeIframe.type='button';closeIframe.addEventListener('click',removeDiv,false);closeIframe.src='/media/img/1415967259__close.png';closeIframe.className='supportwidgetclose';closeIframe.style.width='14px';closeIframe.style.height='14px';closeIframe.onmouseover=function hover(){this.style.opacity='0.9';};closeIframe.onmouseout=function removeopacity(){this.style.opacity='0.2';};closeIframe.style.opacity='0.2';closeIframe.style.background='transparent';closeIframe.style.border='none';closeIframe.style.fontSize='20px';closeIframe.style.cursor='pointer';closeIframe.style.top='14%';closeIframe.style.right='28%';closeIframe.style.position='fixed'},false);document.body.appendChild(embedButton);}window.onload=embedHFWidget;</script>
+</div>
+		</li><li id="text-11"><h3>ENOMINA APP</h3>			<div class="textwidget"><a href="https://play.google.com/store/search?q=pub:ENOMINA">
+  <img alt="Get it on Google Play"
+       src="https://developer.android.com/images/brand/es_generic_rgb_wo_45.png" />
+
+
+<script type="text/javascript" src="http://enomina.goodbarber.com/apiv3/buttons/1429541097/"></script>
+
+</div>
+		</li><li id="text-6"><h3>Twitter</h3>			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/ENOMINA" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://twitter.com']);" data-widget-id="317285707825692672">Tweets por @ENOMINA</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		</li>
+					</ul>
+				<!-- Column 3 end --> 
+			</div> 
+		</div> 
+	</div> 
+</div> 
+
+	</div><!--/main-->
+	<div class="logo-slider">
+		<div id="viewport">
+			<ul>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-labor-salus.png" alt="Laborsalus" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-caliu-rural.png" alt="Caliu Rural" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-isoco.png" alt="Isoco" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-unique.png" alt="Unique" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-mindfactory.png" alt="Mindfactory" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-grupo-alares.png" alt="Grupo Alares" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-sys-projects.jpg" alt="SYS Projects" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-b-kin.png" alt="B-Kin" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-laboratorio-dr-nin.jpg" alt="Laboratorio Dr. Nin" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-agio-global.png" alt="Agio Global" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-secretary-plus.png" alt="Secretary Plus" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-observatori-del-paisatge.png" alt="Observatori del Paisatge" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-receptel.png" alt="Receptel" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-abcisa.jpg" alt="Abcisa" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-gestio-sostenible.png" alt="Gesti&#243; Sostenible Garrotxa i Collsacabra" /></li>
+				<li><img src="http://www.enomina.net/wp-content/themes/enomina_1.0/img/logos-clientes/logo-usg-people.png" alt="Usg People" /></li>
+
+			</ul>
+		</div>
+		<a id="simplePrevious"></a><a id="simpleNext"></a>
+	</div>
+		
+	<footer role="contentinfo">
+			<div id="site-info">
+				Copyright &#169; 2015 <a href="http://www.enomina.net/" title="Enomina, S.L.">Enomina, S.L.</a>
+			</div><!--/site-info-->
+
+			<div id="site-contact">
+				c/ Llull 329 ; 08019 Barcelona tel. 935 514 510 &#124;
+			</div><!--/site-contact-->
+	</footer><!--/footer-->
+<small>Dise&#241;o: <a href="http://emeraldinteraction.com" title="Emerald Interaction: Dise&#241;o de p&#225;ginas web">Emerald Interaction</a>
+
+</small>------- <a href="/wp-content/uploads/2015/06/Politica_Privacidad.pdf" title="Política de privacidad">Política de privacidad</a>
+------<a href="/wp-content/uploads/2015/06/Aviso_Legal.pdf" title="Aviso legal">Aviso legal</a>
+</div><!--/wrapper-->
+
+
+<script type='text/javascript' src='http://w.sharethis.com/button/buttons.js?ver=3.5.2'></script>
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?28qizBn7pFY40CVMrN6TDYNVmAXhCmuC';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script>
+<!--End of Zopim Live Chat Script-->
+</body>
+</html>

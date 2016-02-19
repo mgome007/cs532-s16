@@ -1,0 +1,3758 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<META content='3b0cae42bb601136' name='y_key'></META>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://germanlinux.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://germanlinux.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Le blog d&#39;eric German - Atom" href="http://germanlinux.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Le blog d&#39;eric German - RSS" href="http://germanlinux.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Le blog d&#39;eric German - Atom" href="https://www.blogger.com/feeds/8461291123103147013/posts/default" />
+<link rel="me" href="https://plus.google.com/103560464182230950863" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://germanlinux.blogspot.com/" />
+<link href='https://plus.google.com/103560464182230950863' rel='publisher'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Le blog d'eric German</title>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/1708208307-widget_css_bundle.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=8461291123103147013&zx=02abff4d-c8ed-42b2-a148-081ff7d3aa57' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+* Blogger Template Style
+*
+* Sand Dollar
+* by Jason Sutter
+* Updated by Blogger Team
+*/
+/* Variable definitions
+====================
+<Variable name="textcolor" description="Text Color"
+type="color" default="#000">
+<Variable name="bgcolor" description="Page Background Color"
+type="color" default="#f6f6f6">
+<Variable name="pagetitlecolor" description="Blog Title Color"
+type="color" default="#F5DEB3">
+<Variable name="pagetitlebgcolor" description="Blog Title Background Color"
+type="color" default="#DE7008">
+<Variable name="descriptionColor" description="Blog Description Color"
+type="color" default="#9E5205" />
+<Variable name="descbgcolor" description="Description Background Color"
+type="color" default="#F5E39e">
+<Variable name="titlecolor" description="Post Title Color"
+type="color" default="#9E5205">
+<Variable name="datecolor" description="Date Header Color"
+type="color" default="#777777">
+<Variable name="footercolor" description="Post Footer Color"
+type="color" default="#444444">
+<Variable name="linkcolor" description="Link Color"
+type="color" default="#DE7008">
+<Variable name="footerlinkcolor" description="Post Footer Link Color"
+type="color" default="#968a0a">
+<Variable name="visitedlinkcolor" description="Visited Link Color"
+type="color" default="#DE7008">
+<Variable name="sidebarcolor" description="Sidebar Title Color"
+type="color" default="#B8A80D">
+<Variable name="sidebarlinkcolor" description="Sidebar Link Color"
+type="color" default="#999999">
+<Variable name="bordercolor" description="Border Color"
+type="color" default="#e0ad12">
+<Variable name="bodyfont" description="Text Font"
+type="font"
+default="normal normal 100% 'Trebuchet MS',Trebuchet,Verdana,Sans-Serif">
+<Variable name="headerfont" description="Sidebar Title Font"
+type="font"
+default="normal bold 150% Verdana,Sans-serif">
+<Variable name="dateHeaderFont" description="Date Header Font"
+type="font"
+default="normal bold 105% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif">
+<Variable name="pagetitlefont" description="Blog Title Font"
+type="font" default="normal bold 300% Verdana,Sans-Serif">
+<Variable name="titlefont" description="Post Title Font"
+type="font" default="normal bold 160% Verdana,Sans-Serif">
+<Variable name="startSide" description="Start side in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="End side in blog language"
+type="automatic" default="right">
+*/
+body {
+margin:0px;
+padding:0px;
+background:#f6f6f6;
+color:#000000;
+font-size: small;
+}
+#outer-wrapper {
+font:normal normal 100% 'Trebuchet MS',Trebuchet,Verdana,Sans-Serif;
+}
+a {
+color:#DE7008;
+}
+a:hover {
+color:#9E5205;
+}
+a img {
+border-width: 0;
+}
+#content-wrapper {
+padding-top: 0;
+padding-right: 1em;
+padding-bottom: 0;
+padding-left: 1em;
+}
+@media all  {
+div#main {
+float:right;
+width:66%;
+padding-top:30px;
+padding-right:0;
+padding-bottom:10px;
+padding-left:1em;
+border-left:dotted 1px #e0ad12;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+div#sidebar {
+margin-top:20px;
+margin-right:0px;
+margin-bottom:0px;
+margin-left:0;
+padding:0px;
+text-align:left;
+float: left;
+width: 31%;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+}
+@media handheld  {
+div#main {
+float:none;
+width:90%;
+}
+div#sidebar {
+padding-top:30px;
+padding-right:7%;
+padding-bottom:10px;
+padding-left:3%;
+}
+}
+#header {
+padding-top:0px;
+padding-right:0px;
+padding-bottom:0px;
+padding-left:0px;
+margin-top:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-left:0px;
+border-bottom:dotted 1px #e0ad12;
+background:#F5E39e;
+}
+h1 a:link  {
+text-decoration:none;
+color:#F5DEB3
+}
+h1 a:visited  {
+text-decoration:none;
+color:#F5DEB3
+}
+h1,h2,h3 {
+margin: 0;
+}
+h1 {
+padding-top:25px;
+padding-right:0px;
+padding-bottom:10px;
+padding-left:5%;
+color:#F5DEB3;
+background:#DE7008;
+font:normal bold 300% Verdana,Sans-Serif;
+letter-spacing:-2px;
+}
+h3.post-title {
+color:#9E5205;
+font:normal bold 160% Verdana,Sans-Serif;
+letter-spacing:-1px;
+}
+h3.post-title a,
+h3.post-title a:visited {
+color: #9E5205;
+}
+h2.date-header  {
+margin-top:10px;
+margin-right:0px;
+margin-bottom:0px;
+margin-left:0px;
+color:#777777;
+font: normal bold 105% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif;
+}
+h4 {
+color:#aa0033;
+}
+#sidebar h2 {
+color:#B8A80D;
+margin:0px;
+padding:0px;
+font:normal bold 150% Verdana,Sans-serif;
+}
+#sidebar .widget {
+margin-top:0px;
+margin-right:0px;
+margin-bottom:33px;
+margin-left:0px;
+padding-top:0px;
+padding-right:0px;
+padding-bottom:0px;
+padding-left:0px;
+font-size:95%;
+}
+#sidebar ul {
+list-style-type:none;
+padding-left: 0;
+margin-top: 0;
+}
+#sidebar li {
+margin-top:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-left:0px;
+padding-top:0px;
+padding-right:0px;
+padding-bottom:0px;
+padding-left:0px;
+list-style-type:none;
+font-size:95%;
+}
+.description {
+padding:0px;
+margin-top:7px;
+margin-right:12%;
+margin-bottom:7px;
+margin-left:5%;
+color:#9E5205;
+background:transparent;
+font:bold 100% Verdana,Sans-Serif;
+}
+.post {
+margin-top:0px;
+margin-right:0px;
+margin-bottom:30px;
+margin-left:0px;
+}
+.post strong {
+color:#000000;
+font-weight:bold;
+}
+pre,code {
+color:#999999;
+}
+strike {
+color:#999999;
+}
+.post-footer  {
+padding:0px;
+margin:0px;
+color:#444444;
+font-size:80%;
+}
+.post-footer a {
+border:none;
+color:#968a0a;
+text-decoration:none;
+}
+.post-footer a:hover {
+text-decoration:underline;
+}
+#comments {
+padding:0px;
+font-size:110%;
+font-weight:bold;
+}
+.comment-author {
+margin-top: 10px;
+}
+.comment-body {
+font-size:100%;
+font-weight:normal;
+color:black;
+}
+.comment-footer {
+padding-bottom:20px;
+color:#444444;
+font-size:80%;
+font-weight:normal;
+display:inline;
+margin-right:10px
+}
+.deleted-comment  {
+font-style:italic;
+color:gray;
+}
+.comment-link  {
+margin-left:.6em;
+}
+.profile-textblock {
+clear: both;
+margin-left: 0;
+}
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+border: 2px solid #DE7008;
+}
+#sidebar a:link  {
+color:#999999;
+text-decoration:none;
+}
+#sidebar a:active  {
+color:#ff0000;
+text-decoration:none;
+}
+#sidebar a:visited  {
+color:sidebarlinkcolor;
+text-decoration:none;
+}
+#sidebar a:hover {
+color:#B8A80D;
+text-decoration:none;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+.clear {
+clear: both;
+}
+.widget-content {
+margin-top: 0.5em;
+}
+/** Tweaks for layout editor preview */
+body#layout #outer-wrapper {
+margin-top: 0;
+}
+body#layout #main,
+body#layout #sidebar {
+margin-top: 10px;
+padding-top: 0;
+}
+
+--></style>
+<script type="text/javascript">var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<script type='text/javascript'>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type='text/javascript'>
+try {
+var pageTracker = _gat._getTracker("UA-7954718-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\758461291123103147013\46blogName\75Le+blog+d\47eric+German\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75//germanlinux.blogspot.com/search\46blogLocale\75fr\46v\0752\46homepageUrl\75http://germanlinux.blogspot.com/\46vt\0755705505460686880297',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div id='outer-wrapper'><div id='wrap2'>
+<!-- skip links for text browsers -->
+<span id='skiplinks' style='display:none;'>
+<a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+</span>
+<div id='header-wrapper'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+Le blog d'eric German
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>Ruby, Rails, javascript, node.js, cloud ,NoSQL  bref que des bonnes choses<p>
+
+Contacter le robot germanlinux: german.eric AT gmail.com</p></span></p>
+</div>
+</div>
+</div></div>
+</div>
+<div id='content-wrapper'>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol section' id='crosscol'></div>
+</div>
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>mardi 22 décembre 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='3023767335602341651'></a>
+<h3 class='post-title entry-title'>
+<a href='http://germanlinux.blogspot.com/2015/12/petit-exercice-pour-bien-comprendre-la.html'>Petit exercice pour bien comprendre la programmation en javascript</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">Connaitre la syntaxe du javascript est une chose mais en saisir les subtilités (asynchrone, callback, programmation fonctionnelle) &nbsp;en est une autre.</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">L'exercice suivant est synthèse de ce qu'il faut comprendre de la programmation asynchrone.</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">Prenons l'exemple d'une boucle 'for'</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<b><span style="font-family: Arial, Helvetica, sans-serif;">for (var a = 0 ;a &lt; 5 ; a++)</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp;{ 
+  console.log("valeur de a sync:" , a);
+
+}</span></b><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">L'affichage donnera</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a sync: 0</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a sync: 1</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a sync: 2</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a sync: 3</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a sync: 4</span></i><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">Pas de surprise , ici toutes instructions sont synchrones</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">Si on introduit la notion d'asynchronisme par le biais d'une temporisation:</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;">(avec une délais de 100 ms et 1 ms)</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<b><span style="font-family: Arial, Helvetica, sans-serif;">for (var a = 0 ;a &lt; 5 ; a++)</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp;{ 
+  setTimeout(function(){ console.log("valeur de a async 100:" , a);}, 100);    
+}</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;"><br /></span></b>
+<b><span style="font-family: Arial, Helvetica, sans-serif;">for (var a = 0 ;a &lt; 5 ; a++)  { 
+  setTimeout(function()</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp;{ console.log("valeur de a async 1:" , a);}, 1);    
+}
+</span></b><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">Le résultat sera cette fois plus étonnant:</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;">(extrait)</span><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 1: 5</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 1: 5</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 1: 5</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 1: 5</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 1: 5</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 100: 5</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 100: 5</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 100: 5</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 100: 5</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 100: 5</span></i><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">Deux phénomènes: &nbsp;un normal (a) et un moins intuitif (b).</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;">a) Les lignes relative à la temporisation la plus faible se présentent en premieres alors qu'elles sont les dernières invoquées.</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;">C'est le principe de l'asynchronisme: Le système n'attend pas le retour de l'instruction (appel de fonction) &nbsp;pour passer à la suivante.</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">b) La valeur du compteur est bloqué à 5.&nbsp;</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;">Dans la cause se niche toute la subtilité d'un système asynchrone: l'appel de la fonction &nbsp;embarquée dans le timer se fera avec le contexte du moment de l'exécution. A la sortie de la boucle 'for' la valeur de 'a' est 5 et donc les 5 appels de fonction déclenchées par le timer se feront avec un même contexte 'a=5' &nbsp;</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">Comment obtenir une sortie conforme à nos &nbsp;attentes : en utilisant les closures (fermetures).</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;">Une closure permet de conserver le contexte au moment de l'appel de la fonction.</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">exemple ici :</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<b><span style="font-family: Arial, Helvetica, sans-serif;">for (var a = 0 ;a &lt; 5 ; a++) &nbsp;{&nbsp;</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp; setTimeout(function(){&nbsp;</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp; &nbsp; var i = a;</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp; &nbsp; console.log("valeur de a async 100 &nbsp;avec param :" , i);}, 100); &nbsp; &nbsp;</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">}</span></b><br />
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span></div>
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;">La variable 'a' est bien déclaré au niveau du 'FOR' et appelée dans le corps d'une fonction imbriquée dans la boucle. Mais le résultat n'est pas probant:</span></div>
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span></div>
+<div>
+<div>
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 100 &nbsp;avec param : 5</span></i></div>
+<div>
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 100 &nbsp;avec param : 5</span></i></div>
+<div>
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 100 &nbsp;avec param : 5</span></i></div>
+<div>
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 100 &nbsp;avec param : 5</span></i></div>
+<div>
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 100 &nbsp;avec param : 5</span></i></div>
+</div>
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span></div>
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;">Pourquoi ? : &nbsp;Pour 2 raisons :</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span></div>
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;">a) Les 5 closures partagent le même contexte donc il 'est normal d'avoir 5 fois la même valeur.</span></div>
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;">b) La fonction est littéralement appelée après la boucle 'for' : il est trop tard, le contexte a été perdu.</span></div>
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span></div>
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;">La solution: appeler la closure dans le 'for' et avec les 5 contextes&nbsp;</span></div>
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;">Pour cela le programme est modifié comme ceci:</span></div>
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span></div>
+<div>
+<span style="font-family: Arial, Helvetica, sans-serif;">f<b>or (var a = 0 ;a &lt; 5 ; a++)</b></span><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp;{ 
+  setTimeout(function(a){&nbsp;</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp; &nbsp;console.log("j appelle le constructeur de fonction avec",a);</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp; &nbsp;return function () {&nbsp;</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;var i = a;</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; console.log("valeur de a async 1000  avec closure :" , i);}</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp; &nbsp; }(a), 1000);</span></b><br />
+<b><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp;}</span></b><br />
+<span style="font-family: Arial, Helvetica, sans-serif;">
+
+
+En plus de la closure, on ajout un constructeur de fonction.</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;">Dans le 'for' , on passe en paremètre au timer , non pas une fonction à executer mais une fonction qui retourne une fonction à exécuter. C'est le point fort de ce type de langage de considérer les fonctions comme des données (entier, chaine etc) .</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">Pour que le contexte soit conservé en l'état pour les 5 itération, la fonction de construction est appelée immédiatement par l'utilisation des &nbsp;doubles parenthèses et d'un paramètre &nbsp;à la fin de sa définition "&nbsp;}<b>(a)</b>, 1000);".</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br /></span>
+<span style="font-family: Arial, Helvetica, sans-serif;">Le résultat est maintenant<b> correct</b>&nbsp;</span><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;"><br /></span></i>
+<i><span style="font-family: Arial, Helvetica, sans-serif;">j appelle le constructeur de fonction avec 0</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">j appelle le constructeur de fonction avec 1</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">j appelle le constructeur de fonction avec 2</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">j appelle le constructeur de fonction avec 3</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">j appelle le constructeur de fonction avec 4</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 1000 &nbsp;avec closure : 0</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 1000 &nbsp;avec closure : 1</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 1000 &nbsp;avec closure : 2</span></i><br />
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 1000 &nbsp;avec closure : 3</span></i><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><i></i><br /></span>
+<i><span style="font-family: Arial, Helvetica, sans-serif;">valeur de a async 1000 &nbsp;avec closure : 4</span></i><br />
+<span style="font-family: Arial, Helvetica, sans-serif;"><br />
+Ce mécanisme est&nbsp;couramment&nbsp;utilisé par jquery, c'est la base d'une programmation correcte en javascript.</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif;">Pour aller plus loin : <a href="http://margaine.com/2012/12/09/la-magie-des-closures.html">&nbsp;La magie des closures.</a></span><br />
+<span style="font-family: monospace;"><br /></span></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>eric german</span>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=8461291123103147013&amp;postID=3023767335602341651' onclick=''>0
+commentaires</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-914854128'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8461291123103147013&postID=3023767335602341651&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://germanlinux.blogspot.com/2015/12/petit-exercice-pour-bien-comprendre-la.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Libellés :
+<a href='http://germanlinux.blogspot.com/search/label/javascript' rel='tag'>javascript</a>,
+<a href='http://germanlinux.blogspot.com/search/label/node.js' rel='tag'>node.js</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>dimanche 25 janvier 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='8471434261380869687'></a>
+<h3 class='post-title entry-title'>
+<a href='http://germanlinux.blogspot.com/2015/01/vos-programmes-sont-gangrenes-par-les.html'>Vos programmes sont gangrénés par les librairies des autres</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+Ne pas ré-inventer la roue. Cette formule est érigée en dogme dans l'informatique.<br />
+C'est oublier un peu vite que la finalité d'une roue est de tourner... tout simplement... Tourner pour avancer.<br />
+On revient de plus en plus à la notion d'artisan développeur, mise en avant par le mouvement devops.<br />
+<br />
+Ce changement repose sur &nbsp;par 3 &nbsp;idées:<br />
+<br />
+1) Les libraires mettent en danger votre système d'information.<br />
+C'est vrai qu'il est dans un premier temps plus simple et moins couteux d'utiliser des librairies et d'assembler des composants externes.<br />
+Mais, ces librairies rendent dépendant vos projets de l'évolution de ces portions de code externes.<br />
+Dans le monde opensource, une constante mise à niveau est nécessaire sous peine de fragiliser l'ensemble du code. Ce phénomène de course à l'échalote est maitrisé dans les systèmes propriétaires comme les mainframes ou le '.NET'.<br />
+L'exemple de la librairie openssl est le plus frappant. Des dispositifs ouverts sur Internet, utilisant cette librairie sont des proies faciles. En clair: une porte blindée ne sert à rien si on laisse la fenêtre de la cuisine ouverte.<br />
+<br />
+2) Les nouvelles infrastructures.<br />
+Les plateformes d'accueil sur un cloud, ne permettent pas toujours d'utiliser des librairies externes. Le développeur ne dispose que d'un cadre réduit et ne peut &nbsp;utiliser qu'un système de dépendance simple. Pour cela , je vous conseille <a href="http://12factor.net/">la lecture de la charte des 12 facteurs </a>(principes) à respecter pour écrire une application web prête pour le cloud.<br />
+Avec &nbsp;2 règles fortes:<br />
+a) Maitrise des dépendances par l'isolation des librairies.<br />
+b) L'application doit ouvrir son port d'écoute (aurevoir apache, tomcat, bonjour node.js)<br />
+<br />
+3) Dilution des connaissances.<br />
+<br />
+A force d'utiliser des librairies toutes faites, les développeurs s'éloignent des fondamentaux. &nbsp;Tout le monde utilise des librairies XML peu de personnes connaissent vraiment le XML et comment le parser (traduire). La manipulation du JSON est à mettre dans le même pannier. Je ne parlerai pas de la perte de connaissance du SQL due à l'usage hors de propos d'Hibernate.<br />
+<br />
+Les développeurs se retrouvent au centre de la révolution numérique. Car finalement c'est eux qui détiennent la clé des futures applications de demain.<br />
+Je vous conseille la lecture du rapport de <a href="http://fr.slideshare.net/dragoonfly/20140306-rapport-tariqkrim">Tarik Krim (lien ici)</a>&nbsp;qui rend hommage au talent des développeurs français.<br />
+<br />
+En conclusion: pour comprendre la roue, il est bon parfois de la réinventer.<br />
+L'exercice s'appelle le ghetto développement, c'est à dire repartir de zéro et faire tout, tout seul.<br />
+C'est ce que fait la société spaceX pour construire ses fusées: pas de sous traitant, tout est de fabrication interne. Comme un clin d'oeil aux ingénieurs de la Nasa &nbsp;et l'equipage d'Apollo XIII obligés de &nbsp;réparer la capsule avec les moyens du bord.<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-RZzhfucfIxI/VMTP9v1P9HI/AAAAAAAABuU/eJ2I8uD39HQ/s1600/Capture%2Bd%E2%80%99e%CC%81cran%2B2015-01-25%2Ba%CC%80%2B12.12.40.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-RZzhfucfIxI/VMTP9v1P9HI/AAAAAAAABuU/eJ2I8uD39HQ/s1600/Capture%2Bd%E2%80%99e%CC%81cran%2B2015-01-25%2Ba%CC%80%2B12.12.40.png" height="169" width="320" /></a></div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp; <br />
+&nbsp; 
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>eric german</span>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=8461291123103147013&amp;postID=8471434261380869687' onclick=''>0
+commentaires</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-914854128'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8461291123103147013&postID=8471434261380869687&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://germanlinux.blogspot.com/2015/01/vos-programmes-sont-gangrenes-par-les.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Libellés :
+<a href='http://germanlinux.blogspot.com/search/label/code' rel='tag'>code</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>samedi 10 janvier 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='8892690801579140348'></a>
+<h3 class='post-title entry-title'>
+<a href='http://germanlinux.blogspot.com/2015/01/liens-semaine-2-2015.html'>Liens semaine 2-2015</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+Quoi de neuf cette semaine. ?<br />
+<br />
+<ul>
+<li>Vive les développeurs&nbsp;</li>
+</ul>
+<br />
+Dans la lignée de du rapport de tarik Krim &nbsp;&nbsp;<a href="http://fr.slideshare.net/dragoonfly/20140306-rapport-tariqkrim">lien ici</a>, la liste des 100 développeurs français &nbsp;qui comptent: <a href="http://fr.slideshare.net/dragoonfly/les-100-dveloppeurs-franais-qui-comptent?related=1">lien ici</a>.<br />
+Le phénomène marque une rupture et remet le développeur au centre de la révolution numérique.<br />
+<br />
+Retour sur les conférences DEVOXX france. série <a href="http://www.devoxx.fr/2014/05/ils-ont-parle-de-nous/">de lien à explorer</a>.<br />
+Avec<a href="http://javamind-fr.blogspot.fr/2014/04/tarik-crim-en-guest-devoxx-pour.html?m=1"> ici la keynote</a> de l'intervention de Tarik Krim.<br />
+C'est l'age d'or des <a href="http://www.bigpanda.io/blog/golden-age-of-developers-nightmare-for-ops?utm_content=buffer296b9&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">développeurs qui commencent</a>.<br />
+<br />
+<ul>
+<li>Business intelligence:&nbsp;</li>
+</ul>
+<br />
+Mathématiques et recommendations (ce que pretique amazon pour pour inciter à commander plus).<br />
+<a href="http://fr.slideshare.net/makewave.cl/osgi-devconeu-2009-welcome-christer-larsson?next_slideshow=1">Lien ici</a>. <br />
+Le projet de tableau de bord grafana <a href="http://grafana.org/">(lien ici)</a>.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://grafana.org/assets/img/logo_transparent_200x75.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://grafana.org/assets/img/logo_transparent_200x75.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Le big data appliqué au football: <a href="http://www.lemonde.fr/coupe-du-monde/article/2014/06/12/big-data-football-club_4432507_1616627.html?google_editors_picks=true">lien ici</a>.&nbsp;</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+</div>
+<ul>
+<li>Stratégie IT:&nbsp;</li>
+</ul>
+<br />
+<div class="separator" style="clear: both; text-align: left;">
+Les technologies qui vont transformer le travail.</div>
+<div class="separator" style="clear: both; text-align: left;">
+<a href="http://business.lesechos.fr/directions-numeriques/0204036746253-les-technologies-qui-vont-transformer-le-travail-en-2020-106630.php?google_editors_picks=true">lien ici</a></div>
+<br />
+<br />
+<ul>
+<li>Projets.</li>
+</ul>
+<br />
+Flynn : surcouche de docker qui respecte les <a href="http://12factor.net/">12 facteurs applicatifs</a> : 12 règles que doivent respecter les applications modernes.<a href="https://flynn.io/docs">lien flynn ici.</a><br />
+<br />
+<a href="http://hood.ie/?utm_content=bufferfce06&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">Hood.ie</a> : un projet similaire à meteor.<br />
+<br />
+Remplacer PHP par node.js: <a href="http://www.cgi-node.org/home?utm_content=buffer8f2ef&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">lien ici vers un module javascript</a>.<br />
+<br />
+<ul>
+<li>Articles.</li>
+</ul>
+<br />
+Outils pour tester la performance d'un site web. <a href="http://www.sitepoint.com/tools-testing-website-performance/?utm_content=buffer49be9&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">lien ici.</a>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>eric german</span>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=8461291123103147013&amp;postID=8892690801579140348' onclick=''>0
+commentaires</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-914854128'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8461291123103147013&postID=8892690801579140348&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://germanlinux.blogspot.com/2015/01/liens-semaine-2-2015.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Libellés :
+<a href='http://germanlinux.blogspot.com/search/label/liens' rel='tag'>liens</a>,
+<a href='http://germanlinux.blogspot.com/search/label/semaine' rel='tag'>semaine</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>samedi 3 janvier 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='8675385165980735609'></a>
+<h3 class='post-title entry-title'>
+<a href='http://germanlinux.blogspot.com/2015/01/liens-de-la-semaine-1-2015.html'>Liens de la semaine 1-2015</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+A découvrir pour la nouvelle année:<br />
+<ul>
+<li>Les nouveaux barbares: Ils n'ont pas peur de secouer les institutions</li>
+</ul>
+Start-up : ces "barbares" qui veulent débloquer la France,<a href="http://tempsreel.nouvelobs.com/economie/20141219.OBS8339/start-up-ces-barbares-qui-veulent-debloquer-la-france.html"> lien ici.</a><span class="invisible" style="background-attachment: initial; background-clip: initial; background-color: white; background-image: initial; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; color: #0084b4; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 0px; letter-spacing: 0.280000001192093px; line-height: 0; text-decoration: none; white-space: pre-wrap;"></span><br />
+<br />
+<br />
+<ul>
+<li>Les origines de la balise HTML &nbsp;<blink> <a href="http://www.montulli.org/theoriginofthe%3Cblink%3Etag?utm_content=bufferd0e77&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">: lien ici</a>.&nbsp;</blink></li>
+<li>Langage: La suprématie &nbsp;du langage 'DART' &nbsp;de google n'est pas assuré&nbsp;</li>
+</ul>
+<br />
+<a href="https://www.packtpub.com/books/content/why-google-dart-will-never-win-the-browser-battle">Lien ici.</a>&nbsp;A noter la &nbsp;bonne visibilité du langage <a href="http://coffeescript.org/">coffeescript</a>.<br />
+<br />
+<br />
+<ul>
+<li>Premiere fabrication d'un objet avec une imprimante 3D dans l'espace: <a href="http://www.lefigaro.fr/sciences/2014/12/23/01008-20141223ARTFIG00168-la-nasa-envoie-un-outil-par-mail-dans-l-espace.php">lien ici.</a></li>
+<li>Comment utiliser l'API de free mobile pour envoyer des SMS <a href="http://freeaddons.free.fr/smsfreetest/test%20de%20notification%20sms%20freemobile.php?utm_content=buffer56897&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">: lien ici.</a>&nbsp;</li>
+<li>Le volet numérique du projet de loi macron : <a href="http://www.nextinpact.com/news/91420-le-volet-numerique-projet-loi-macron.htm?utm_content=buffer312db&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">lien ici</a></li>
+<li>opendata :Le registre du <a href="http://www.archimag.com/vie-numerique/2014/10/09/inpi-passe-open-data-42-millions-donn%C3%A9es-ligne-gratuitement">commerce passe à &nbsp;l'opendata 4,2 millions </a>de données en ligne.</li>
+</ul>
+<div>
+<br /></div>
+<div>
+<br /></div>
+<div>
+A lire en ligne: <a href="http://chimera.labs.oreilly.com/books/1234000000262?utm_content=buffer249aa&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">Programming Javascript Applications</a></div>
+<div>
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-lEPwPi0ITRU/VKgnOLJkH0I/AAAAAAAABtw/zSlSyzJgFqc/s1600/Capture%2Bd%E2%80%99e%CC%81cran%2B2015-01-03%2Ba%CC%80%2B18.30.01.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-lEPwPi0ITRU/VKgnOLJkH0I/AAAAAAAABtw/zSlSyzJgFqc/s1600/Capture%2Bd%E2%80%99e%CC%81cran%2B2015-01-03%2Ba%CC%80%2B18.30.01.png" height="320" width="236" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Management: &nbsp;Un livre : éloge du Carburateur <a href="http://www.amazon.fr/%C3%89loge-du-carburateur-Matthew-CRAWFORD/dp/2707160067">(lien amazon ici)&nbsp;</a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-AVhzUGIlnrg/VKgoL-SJuzI/AAAAAAAABt4/uqv2WWxLzjE/s1600/Capture%2Bd%E2%80%99e%CC%81cran%2B2015-01-03%2Ba%CC%80%2B18.34.11.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-AVhzUGIlnrg/VKgoL-SJuzI/AAAAAAAABt4/uqv2WWxLzjE/s1600/Capture%2Bd%E2%80%99e%CC%81cran%2B2015-01-03%2Ba%CC%80%2B18.34.11.png" height="283" width="640" /></a></div>
+<div class="" style="clear: both; text-align: left;">
+<br /></div>
+<div class="" style="clear: both; text-align: left;">
+<br /></div>
+<div class="" style="clear: both; text-align: left;">
+</div>
+<ul>
+<li>Projet : API REST &nbsp;pour postgresql : <a href="https://github.com/begriffs/postgrest?utm_content=buffer5f333&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">lien github ici</a>.</li>
+<li>Langage: mini polémique sur l'industrialisation des tests dans la réalisation d'une nouvelle version de Ruby. <a href="https://gist.github.com/nateberkopec/11dbcf0ee7f2c08450ea?utm_source=rubyweekly&amp;utm_medium=email">lien ici</a>. &nbsp;(parmi les commentaires, &nbsp;j'ai bien aimé celui ci: arrêtez vos discussions stériles , je suis passé à Node.js et javascript)</li>
+</ul>
+<div>
+<br /></div>
+<br />
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div>
+<br /></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>eric german</span>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=8461291123103147013&amp;postID=8675385165980735609' onclick=''>0
+commentaires</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-914854128'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8461291123103147013&postID=8675385165980735609&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://germanlinux.blogspot.com/2015/01/liens-de-la-semaine-1-2015.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Libellés :
+<a href='http://germanlinux.blogspot.com/search/label/liens' rel='tag'>liens</a>,
+<a href='http://germanlinux.blogspot.com/search/label/semaine' rel='tag'>semaine</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>samedi 20 décembre 2014</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='2518716077427657157'></a>
+<h3 class='post-title entry-title'>
+<a href='http://germanlinux.blogspot.com/2014/12/liens-de-la-semaine-51-2014.html'>Liens de la semaine 51-2014</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+Liens de la semaine 51-2014: ce que j'ai retenu cette semaine.<br />
+<br />
+<br />
+<b>Projets:</b><br />
+<ul>
+<li><a href="https://famo.us/">famo.us</a>: 'THE ULTIMATE WEB PLATFORM FOR DEVELOPERS AND DESIGNERS'Ce &nbsp;framework javascript permet de développer des applications web avec un rendu digne des jeux vidéos :&nbsp;<span style="background-color: #f2f2f0; color: #404040; font-family: AvenirNextLTW02-Regular, sans-serif; font-size: 16px; font-style: italic; line-height: 22px;">60 FPS (Frame per Second)</span> et quelque soit le support.( PC / mobile)</li>
+<li><a href="http://eric.univ-lyon2.fr/~ricco/tanagra/en/tanagra.html">tanagra</a>: outils de data mining. Un dispositif concurrent <a href="http://fr.wikipedia.org/wiki/R_(langage_de_programmation_et_environnement_statistique)">de l'écosystème 'R'</a>. &nbsp;Le langage R est plutôt orienté statistique.</li>
+<li><a href="https://github.com/iojs/io.js?utm_content=buffer73c43&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">io.js </a>: fork de Node.js, un drame ? non une chance de plus pour cette technologie</li>
+<li><a href="http://restlet.com/products/restlet-studio/">Restlet Studio </a>: &nbsp;outil de conception d'API REST.</li>
+<li><a href="http://swagger.io/index.html">Swagger</a>: &nbsp;outil de conception d'API REST.</li>
+<li><a href="http://www.wakanda.org/">wakanda</a>: outil de conception d'application web.</li>
+<li>Langage de programmation :<a href="https://github.com/lhartikk/ArnoldC">ArnoldC </a>-&nbsp;<span style="background-color: white; color: #333333; font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px;">Programming language based on the one-liners of Arnold Schwarzenegger</span></li>
+</ul>
+<br />
+<span style="background-color: #f2f2f0; color: #404040; font-family: AvenirNextLTW02-Regular, sans-serif; font-size: 16px; font-style: italic; line-height: 22px;"><br /></span>
+<span style="background-color: #f2f2f0; color: #404040; font-family: AvenirNextLTW02-Regular, sans-serif; font-size: 16px; font-style: italic; line-height: 22px;"><br /></span>
+<span style="background-color: #f2f2f0; color: #404040; font-family: AvenirNextLTW02-Regular, sans-serif; font-size: 16px; font-style: italic; line-height: 22px;"><b>Intelligence numérique sociale:</b></span><br />
+<br />
+<ul>
+<li><span style="background-color: white; color: #333333; font-family: Arial, Verdana, sans-serif; font-size: 13px;">Simplifier vos démarches administratives sur le net :</span><a href="http://www.acticity.com/mes-infos/pratique-simplifier-vos-demarches-administratives-net/" style="font-family: Arial, Verdana, sans-serif; font-size: 13px;">article ici.</a></li>
+<li><span style="background-color: white; color: #292f33; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16.3636360168457px; line-height: 22px; white-space: pre-wrap;">Les timbres fiscaux pour les passeports seront dématérialisés en 2015 - Next INpact <a href="http://www.nextinpact.com/news/91280-les-timbres-fiscaux-pour-passeports-seront-dematerialises-en-2015.htm?utm_content=buffer32fc8&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">lien ici.</a></span></li>
+</ul>
+<br />
+<ul>
+<li>management :<a href="https://www.google.fr/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;sqi=2&amp;ved=0CC8QFjAA&amp;url=http%3A%2F%2Fgdlyon.pagesperso-orange.fr%2F076Exp%25E9rM%25E9nag%25E8res.pdf&amp;ei=YoGVVP_UAdLxaL6agfAL&amp;usg=AFQjCNFBCNieQUcz6QsWVHP6V08In31qag&amp;sig2=b3frBF8IBn8IJZfhx35zlg&amp;bvm=bv.82001339,d.d2s">&nbsp;<span style="background-color: #f2f2f2; font-family: 'Arial,Bold';">EXPERIENCES DES MENAGERES DE LEWIN, 1943 (les abats de boeuf)</span></a></li>
+</ul>
+<br />
+<br />
+<br />
+<span style="background-color: #f2f2f0; color: #404040; font-family: AvenirNextLTW02-Regular, sans-serif; font-size: 16px; font-style: italic; line-height: 22px;"><b>Livres:&nbsp;</b></span><br />
+<br />
+<ul>
+<li>Learning JavaScript Data Structures and Algorithms (<span style="background-color: white; color: #494949; font-family: Ubuntu, sans-serif; font-size: 14px; font-weight: 800; line-height: 22.6520004272461px;">Loiane Groner -&nbsp;</span>PACKT publishing) : <a href="https://www.packtpub.com/application-development/learning-javascript-data-structures-and-algorithms">lien ici</a>.</li>
+<li><span style="background-color: white; color: #292f33; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16.3636360168457px; line-height: 22px; white-space: pre-wrap;">Selenium 1.0 Testing Tools - Free Download eBook -<a href="http://it-ebooks.info/book/2381/?utm_content=bufferaabb4&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer"> pdf lien ici.</a></span></li>
+<li>Vous ne connaissez pas javascript : <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/README.md?utm_content=buffer17e24&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer#you-dont-know-js-book-series">série ebook lien ici.</a></li>
+<li>Discovering Docker : <a href="http://geoffrey.io/books/discovering-docker.html">lien ici</a></li>
+<li>Les géants du web : pratiques en matière de développement et exploitation <a href="http://www.octo.com/fr/publications/11-les-geants-du-web">ebook:lien ici</a></li>
+</ul>
+<div>
+<b>Conférences:</b></div>
+<br />
+<ul>
+<li>Ruby After Rails by Ernie Miller &nbsp;- RubyConf 2014: <a href="http://youtu.be/EgjJYkuV0Sc">video ici.</a></li>
+</ul>
+<br />
+<div>
+<b>Photo bonus:&nbsp;</b><br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-VdyZpm9NesY/VJWB2NPzCcI/AAAAAAAABtc/V7QBluw1QgI/s1600/Capture%2Bd%E2%80%99e%CC%81cran%2B2014-12-17%2Ba%CC%80%2B08.33.22.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-VdyZpm9NesY/VJWB2NPzCcI/AAAAAAAABtc/V7QBluw1QgI/s1600/Capture%2Bd%E2%80%99e%CC%81cran%2B2014-12-17%2Ba%CC%80%2B08.33.22.png" height="223" width="400" /></a></div>
+<br /></div>
+<div>
+<br /></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>eric german</span>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=8461291123103147013&amp;postID=2518716077427657157' onclick=''>0
+commentaires</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-914854128'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8461291123103147013&postID=2518716077427657157&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://germanlinux.blogspot.com/2014/12/liens-de-la-semaine-51-2014.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Libellés :
+<a href='http://germanlinux.blogspot.com/search/label/liens' rel='tag'>liens</a>,
+<a href='http://germanlinux.blogspot.com/search/label/semaine' rel='tag'>semaine</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>dimanche 26 octobre 2014</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='5442961903204323709'></a>
+<h3 class='post-title entry-title'>
+<a href='http://germanlinux.blogspot.com/2014/10/devops-developpeurs-et-exploitants-dans.html'>devops : développeurs et exploitants dans le même bateau.</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+Pour continuer dans le sillage de la gestion de projet Agile, voici &nbsp;un nouveau phénomène adopté par &nbsp;de plus en plus d'entreprise: <b>le devops</b>.<br />
+<br />
+Dans ce dispositif, des développeurs (dev) et des exploitants (<span style="background-color: white; color: #252525; font-family: sans-serif; font-size: 14px; line-height: 22.3999996185303px;">&nbsp;(ops du mot anglais&nbsp;</span><i style="background-color: white; color: #252525; font-family: sans-serif; font-size: 14px; line-height: 22.3999996185303px;">operations = exploitant</i>) sont regroupés dans une véritable &nbsp;<b><i>task force</i></b>. Ce concept existe depuis environ 5 ans. Ce qui est nouveau, c'est engouement &nbsp;qu'il connait auprès des entreprises comme: google, Amazon, Bouygues, free etc.<br />
+<br />
+ex :<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-U3t8AzpHWWY/VE0bHWr0DJI/AAAAAAAABsc/iVz8KBO7Z8k/s1600/Capture%2Bdu%2B2014-10-26%2B17%3A01%3A57.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-U3t8AzpHWWY/VE0bHWr0DJI/AAAAAAAABsc/iVz8KBO7Z8k/s1600/Capture%2Bdu%2B2014-10-26%2B17%3A01%3A57.png" height="105" width="640" /></a></div>
+Ce mode de fonctionnement est le quotidien des petites structures (PME ?) avec des équipes informatiques réduites. Son introduction dans des grands groupes est quelque part un constat échec.<br />
+<br />
+Le devop permet de capitaliser sur une démarche Agile en amont.<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-0_2GQfhjTlQ/VE0bzE4-1xI/AAAAAAAABsk/ETpboDsAD9g/s1600/Capture%2Bdu%2B2014-10-26%2B17%3A04%3A01.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://2.bp.blogspot.com/-0_2GQfhjTlQ/VE0bzE4-1xI/AAAAAAAABsk/ETpboDsAD9g/s1600/Capture%2Bdu%2B2014-10-26%2B17%3A04%3A01.png" height="243" width="400" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">source 01Net</td></tr>
+</tbody></table>
+<br />
+Lien sur l'article de 01Net:<a href="http://pro.01net.com/editorial/578377/devops/">ici.....</a><br />
+<br />
+Le devop n'est pas un 'facilitateur' ou un interlocuteur privilégier vis à vis de l'exploitation: Il est exploitant à part entière. Cette compétence vient en complément avec sa maîtrise du développement.<br />
+Dans cette configuration, la task force aura la responsabilité du projet de la conception à la mise en production. Ce système est en contradiction avec les bonnes pratiques (ex: ITIL) &nbsp;qui recommandent un cloisonnement entre le développement et la production. En effet les deux entités poursuivent des objectifs contradictoires: le développeur produit du changement (nouvelle version, fonctionnalité) alors que l'exploitant est le gardien de la stabilité: les applications ronronnent sagement. <br />
+<br />
+<h3>
+Séduisant sur le papier mais difficile à mettre en place.</h3>
+<br />
+La mise en place d'un tel dispositif n'est pas facile: on touche ici à des sujets d'organisation avec une remise en cause des pratiques.<br />
+<br />
+Lire article <a href="http://www.solutions-logiciels.com/actualites.php?titre=Les-8-erreurs-a-eviter-pour-reussir-votre-demarche-DevOps&amp;actu=13423&amp;contenu=detail">&nbsp;<span style="font-family: Arial, Helvetica, sans-serif;">L<span style="background-color: white; color: #053658; font-size: 20px; line-height: 17px; text-align: justify;">es 8 erreurs à éviter pour réussir votre démarche DevOps</span></span></a>&nbsp;(<b style="color: grey; font-family: verdana; font-size: 12.7272720336914px; line-height: 17px; text-align: justify;">Frédéric Richer)</b><br />
+<b style="color: grey; font-family: verdana; font-size: 12.7272720336914px; line-height: 17px; text-align: justify;"><br /></b>
+<b style="color: grey; font-family: verdana; font-size: 12.7272720336914px; line-height: 17px; text-align: justify;"><br /></b>
+<b style="color: grey; font-family: verdana; font-size: 12.7272720336914px; line-height: 17px; text-align: justify;"><a href="http://devopsdays.org/events/2013-paris/reactions/index.html#slides">ici les slides de la devops &nbsp;Paris 2013.</a></b><br />
+<b style="color: grey; font-family: verdana; font-size: 12.7272720336914px; line-height: 17px; text-align: justify;"><br /></b>
+<b style="color: grey; font-family: verdana; font-size: 12.7272720336914px; line-height: 17px; text-align: justify;"><br /></b>
+<b style="color: grey; font-family: verdana; font-size: 12.7272720336914px; line-height: 17px; text-align: justify;"><br /></b>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-4RYmYmLD6TY/VE0jHHYsL-I/AAAAAAAABs0/tNT9cBrJZso/s1600/Capture%2Bdu%2B2014-10-26%2B17%3A35%3A41.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-4RYmYmLD6TY/VE0jHHYsL-I/AAAAAAAABs0/tNT9cBrJZso/s1600/Capture%2Bdu%2B2014-10-26%2B17%3A35%3A41.png" height="318" width="400" /></a></div>
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>eric german</span>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=8461291123103147013&amp;postID=5442961903204323709' onclick=''>0
+commentaires</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-914854128'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8461291123103147013&postID=5442961903204323709&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://germanlinux.blogspot.com/2014/10/devops-developpeurs-et-exploitants-dans.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Libellés :
+<a href='http://germanlinux.blogspot.com/search/label/agile' rel='tag'>agile</a>,
+<a href='http://germanlinux.blogspot.com/search/label/devops' rel='tag'>devops</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>dimanche 10 août 2014</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='1281059331871625316'></a>
+<h3 class='post-title entry-title'>
+<a href='http://germanlinux.blogspot.com/2014/08/nodebots-piloter-un-arduino-par-le-web.html'>nodebots: Piloter un arduino par le web. </a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+Dans un <a href="http://germanlinux.blogspot.fr/2014/07/des-robots-pour-les-humains-et-pour-les.html">précédent post, j'avais </a>présenté l'utilisation <a href="https://github.com/rwaldron/johnny-five">la librairie &nbsp;johnny-five</a> qui permet de piloter des robots dont l'arduino en javascript.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-bPbzm2g0T8U/U-dD1Z2aNOI/AAAAAAAABpw/suMdMDb_r-0/s1600/Capture+du+2014-08-10+12:02:58.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-bPbzm2g0T8U/U-dD1Z2aNOI/AAAAAAAABpw/suMdMDb_r-0/s1600/Capture+du+2014-08-10+12:02:58.png" height="320" width="300" /></a></div>
+<br />
+Au lieu d'utiliser le langage natif d'arduino, on installe un programme 'firmata' qui permet de dialoguer avec un programme en javascript tournant sur un PC.<br />
+<br />
+Johnny-five propose deux modes d'utilisation:<br />
+En interractif: REPL :<a href="http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">Read - Eval - Print - Loop</a>. C'est l'équivalent d'un interpréteur de commande.<br />
+(voir exemple dans mon post cité plus haut).<br />
+Soit en mode autonome: Le programme se déroule sur le PC et envoie ses instructions sur l'arduino.<br />
+<br />
+Maintenant comment piloter son arduino depuis Internet, son smartphone , un site WEB .. ?<br />
+Le montage était destiné à piloter un laser pour distraire un chat (et moi par la même occasion)<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-f6kL9b36uj8/U-dmFt2hFuI/AAAAAAAABqw/9ndov5mLnHo/s1600/IMG_20140726_164148921.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-f6kL9b36uj8/U-dmFt2hFuI/AAAAAAAABqw/9ndov5mLnHo/s1600/IMG_20140726_164148921.jpg" height="320" width="178" /></a></div>
+&nbsp;<br />
+<br />
+Nous devons introduire un dialogue supplémentaire entre &nbsp;le PC et le robot. Ce dialogue utilisera &nbsp;le protocole MQTT: Le protocole des 'choses' &nbsp;reliées à Internet.(<span style="font-family: Verdana, Arial, sans-serif; font-size: 13px; line-height: 20px;">&nbsp;</span><span style="font-family: Verdana, Arial, sans-serif; font-size: 13px; line-height: 20px;">MQ Telemetry Transport)</span><br />
+<span style="font-family: Verdana, Arial, sans-serif; font-size: x-small; font-style: italic; line-height: 19.5px;">MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol.</span><br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-JKEERQQsU-o/U-dGSReYO1I/AAAAAAAABp8/OFIUeBKVt5w/s1600/Capture+du+2014-08-10+12:15:22.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-JKEERQQsU-o/U-dGSReYO1I/AAAAAAAABp8/OFIUeBKVt5w/s1600/Capture+du+2014-08-10+12:15:22.png" height="233" width="320" /></a></div>
+<br />
+<br />
+Une<a href="http://fr.slideshare.net/hardillb/mqtt-the-internet-of-things-protocol"> série de slide ici sur MQTT</a>.<br />
+<br />
+<br />
+Ce protocole est très léger et il connu par la plupart des objets connectés. Et son domaine d'utilisation s'est élargie au transport de message pour les Tchats.<br />
+&nbsp; Pour mémoire, Facebook utilise MQTT pour sa messagerie instantanée (<a href="https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_facebook_is_using_mqtt_on_mobile?lang=en">ici un lien sur l'histoire de MQTT</a>)<br />
+<br />
+<br />
+Pour le mettre en place , il faut disposer d'un serveur MQTT et des clients.<br />
+<br />
+Pour le serveur, mon choix s'est porté sur MOSCA. C'est un serveur MQTT en javascript propulsé par le réacteur Node.js<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-NPDyD-ISZ2Y/U-dHlORijyI/AAAAAAAABqI/Hd6AJmulmcI/s1600/Capture+du+2014-08-10+12:20:34.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-NPDyD-ISZ2Y/U-dHlORijyI/AAAAAAAABqI/Hd6AJmulmcI/s1600/Capture+du+2014-08-10+12:20:34.png" height="353" width="400" /></a></div>
+<br />
+<br />
+<a href="http://mq%20telemetry%20transport/">Lien ici</a>.<br />
+Mosca vous permet de construire votre propre serveur MQTT.<br />
+<br />
+Mon code pour le serveur est le suivant:<br />
+<br />
+<script src="https://gist.github.com/germanlinux/5a486f2849807b365f3b.js"></script>
+
+Le serveur utilise un bakend pour stocker les messages dans mon exemple j'utilise une base NoSQL MongoDB.<br />
+<br />
+<br />
+Le serveur se teste facilement avec un outil en ligne de commande: mosquitto<br />
+(MQTT est protocole de type : PubSub : publier , souscrire)<br />
+<i>mosquitto_sub  -t 'hello/you'<br /><br />mosquitto_pub -m "c est moi" -t 'hello/you'</i><br />
+<br />
+Le schéma général est le suivant:<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-dLaAjv9Ks4s/U-dhf7PjfmI/AAAAAAAABqY/l5nJ7a77VDc/s1600/image_mqtt.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://3.bp.blogspot.com/-dLaAjv9Ks4s/U-dhf7PjfmI/AAAAAAAABqY/l5nJ7a77VDc/s1600/image_mqtt.png" height="231" width="400" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">réalisé avec&nbsp;http://shaky.github.bushong.net/</td></tr>
+</tbody></table>
+<br />
+La partie web est en mode REST<br />
+<br />
+<br />
+Trois &nbsp;motifs &nbsp;sont utilisés pour décoder es URL , un pour l'axe des X , un pour l'axe des Y, le dernier pour allumer ou éteindre le laser.<br />
+<br />
+<script src="https://gist.github.com/germanlinux/30aef8f5f79732e9dd87.js"></script>
+
+<br />
+La parie contrôle d'arduino est de la forme:<br />
+<br />
+<script src="https://gist.github.com/germanlinux/91026f5ad4a402b4cd6c.js"></script>
+
+Le lasercat peut maintenant etre commandé depuis le site web sous Express , par un smartphone, en ligne de commande par curl.<br />
+<br />
+Bonne fête les chats.<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-W0EJ-rhvzEA/U-dkafpO1VI/AAAAAAAABqk/-s7Tl05WszI/s1600/Capture+du+2014-08-10+11:58:51.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-W0EJ-rhvzEA/U-dkafpO1VI/AAAAAAAABqk/-s7Tl05WszI/s1600/Capture+du+2014-08-10+11:58:51.png" height="175" width="400" /></a></div>
+<br />
+<br />
+<br />
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>eric german</span>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=8461291123103147013&amp;postID=1281059331871625316' onclick=''>1 commentaires</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-914854128'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8461291123103147013&postID=1281059331871625316&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://germanlinux.blogspot.com/2014/08/nodebots-piloter-un-arduino-par-le-web.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Libellés :
+<a href='http://germanlinux.blogspot.com/search/label/arduino' rel='tag'>arduino</a>,
+<a href='http://germanlinux.blogspot.com/search/label/coffeescript' rel='tag'>coffeescript</a>,
+<a href='http://germanlinux.blogspot.com/search/label/node.js' rel='tag'>node.js</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://germanlinux.blogspot.com/search?updated-max=2014-08-10T14:36:00%2B02:00&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Articles plus anciens'>Articles plus anciens</a>
+</span>
+<a class='home-link' href='http://germanlinux.blogspot.com/'>Accueil</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Inscription à :
+<a class='feed-link' href='http://germanlinux.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Articles (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'fr'};</script>
+</div></div>
+</div>
+<div id='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'><div class='widget Profile' id='Profile1'>
+<h2>Qui êtes-vous ?</h2>
+<div class='widget-content'>
+<a href='https://plus.google.com/103560464182230950863'><img alt='Ma photo' class='profile-img' height='80' src='//lh3.googleusercontent.com/--Fl21V04gRU/AAAAAAAAAAI/AAAAAAAABiQ/1j0CdSsdDeM/s80-c/photo.jpg' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://plus.google.com/103560464182230950863' rel='author' style='background-image: url(//www.google.com/images/icons/ui/gprofile_button-16.png);'>
+eric german
+</a>
+<br/>
+<div class='g-follow' data-annotation='bubble' data-height='20' data-href='https://plus.google.com/103560464182230950863'></div>
+</dt>
+<dd class='profile-textblock'>Ruby, Rails , javacript , node.js ,python , perl ...<br></dd>
+</dl>
+<a class='profile-link' href='https://plus.google.com/103560464182230950863' rel='author'>Afficher mon profil complet</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8461291123103147013&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Modifier'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList1'>
+<h2>Liens</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='https://twitter.com/germanlinux'>Me suivre sur twitter</a></li>
+<li><a href='http://fr.slideshare.net/germanlinux'>Présentations sur slideshare</a></li>
+<li><a href='http://www.youtube.com/user/germanlinux/videos?view=0'>Videos sur youTube</a></li>
+<li><a href='http://www.linkedin.com/pub/eric-german/2/968/32a'>Profil sur linkedin</a></li>
+<li><a href='http://www.flickr.com/photos/germanlinux/'>Gallerie Flickr</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8461291123103147013&widgetType=LinkList&widgetId=LinkList1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' target='configLinkList1' title='Modifier'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Archives du blog</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/search?updated-min=2015-01-01T00:00:00%2B01:00&amp;updated-max=2016-01-01T00:00:00%2B01:00&amp;max-results=4'>
+2015
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2015_12_01_archive.html'>
+décembre
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://germanlinux.blogspot.com/2015/12/petit-exercice-pour-bien-comprendre-la.html'>Petit exercice pour bien comprendre la programmati...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2015_01_01_archive.html'>
+janvier
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/search?updated-min=2014-01-01T00:00:00%2B01:00&amp;updated-max=2015-01-01T00:00:00%2B01:00&amp;max-results=15'>
+2014
+</a>
+<span class='post-count' dir='ltr'>(15)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2014_12_01_archive.html'>
+décembre
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2014_10_01_archive.html'>
+octobre
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2014_08_01_archive.html'>
+août
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2014_07_01_archive.html'>
+juillet
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2014_06_01_archive.html'>
+juin
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2014_05_01_archive.html'>
+mai
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2014_03_01_archive.html'>
+mars
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2014_02_01_archive.html'>
+février
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2014_01_01_archive.html'>
+janvier
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/search?updated-min=2013-01-01T00:00:00%2B01:00&amp;updated-max=2014-01-01T00:00:00%2B01:00&amp;max-results=17'>
+2013
+</a>
+<span class='post-count' dir='ltr'>(17)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2013_12_01_archive.html'>
+décembre
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2013_11_01_archive.html'>
+novembre
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2013_08_01_archive.html'>
+août
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2013_07_01_archive.html'>
+juillet
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2013_04_01_archive.html'>
+avril
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2013_03_01_archive.html'>
+mars
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2013_02_01_archive.html'>
+février
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2013_01_01_archive.html'>
+janvier
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/search?updated-min=2012-01-01T00:00:00%2B01:00&amp;updated-max=2013-01-01T00:00:00%2B01:00&amp;max-results=50'>
+2012
+</a>
+<span class='post-count' dir='ltr'>(77)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_12_01_archive.html'>
+décembre
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_11_01_archive.html'>
+novembre
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_10_01_archive.html'>
+octobre
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_09_01_archive.html'>
+septembre
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_08_01_archive.html'>
+août
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_07_01_archive.html'>
+juillet
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_06_01_archive.html'>
+juin
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_05_01_archive.html'>
+mai
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_04_01_archive.html'>
+avril
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_03_01_archive.html'>
+mars
+</a>
+<span class='post-count' dir='ltr'>(13)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_02_01_archive.html'>
+février
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2012_01_01_archive.html'>
+janvier
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/search?updated-min=2011-01-01T00:00:00%2B01:00&amp;updated-max=2012-01-01T00:00:00%2B01:00&amp;max-results=50'>
+2011
+</a>
+<span class='post-count' dir='ltr'>(60)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_12_01_archive.html'>
+décembre
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_11_01_archive.html'>
+novembre
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_10_01_archive.html'>
+octobre
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_09_01_archive.html'>
+septembre
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_08_01_archive.html'>
+août
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_07_01_archive.html'>
+juillet
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_06_01_archive.html'>
+juin
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_05_01_archive.html'>
+mai
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_04_01_archive.html'>
+avril
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_03_01_archive.html'>
+mars
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_02_01_archive.html'>
+février
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2011_01_01_archive.html'>
+janvier
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/search?updated-min=2010-01-01T00:00:00%2B01:00&amp;updated-max=2011-01-01T00:00:00%2B01:00&amp;max-results=50'>
+2010
+</a>
+<span class='post-count' dir='ltr'>(99)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_12_01_archive.html'>
+décembre
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_11_01_archive.html'>
+novembre
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_10_01_archive.html'>
+octobre
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_09_01_archive.html'>
+septembre
+</a>
+<span class='post-count' dir='ltr'>(12)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_08_01_archive.html'>
+août
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_07_01_archive.html'>
+juillet
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_06_01_archive.html'>
+juin
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_05_01_archive.html'>
+mai
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_04_01_archive.html'>
+avril
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_03_01_archive.html'>
+mars
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_02_01_archive.html'>
+février
+</a>
+<span class='post-count' dir='ltr'>(14)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2010_01_01_archive.html'>
+janvier
+</a>
+<span class='post-count' dir='ltr'>(22)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/search?updated-min=2009-01-01T00:00:00%2B01:00&amp;updated-max=2010-01-01T00:00:00%2B01:00&amp;max-results=50'>
+2009
+</a>
+<span class='post-count' dir='ltr'>(111)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_12_01_archive.html'>
+décembre
+</a>
+<span class='post-count' dir='ltr'>(29)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_11_01_archive.html'>
+novembre
+</a>
+<span class='post-count' dir='ltr'>(19)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_10_01_archive.html'>
+octobre
+</a>
+<span class='post-count' dir='ltr'>(12)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_09_01_archive.html'>
+septembre
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_08_01_archive.html'>
+août
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_07_01_archive.html'>
+juillet
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_06_01_archive.html'>
+juin
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_05_01_archive.html'>
+mai
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_04_01_archive.html'>
+avril
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_03_01_archive.html'>
+mars
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_02_01_archive.html'>
+février
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2009_01_01_archive.html'>
+janvier
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/search?updated-min=2008-01-01T00:00:00%2B01:00&amp;updated-max=2009-01-01T00:00:00%2B01:00&amp;max-results=50'>
+2008
+</a>
+<span class='post-count' dir='ltr'>(132)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_12_01_archive.html'>
+décembre
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_11_01_archive.html'>
+novembre
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_10_01_archive.html'>
+octobre
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_09_01_archive.html'>
+septembre
+</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_08_01_archive.html'>
+août
+</a>
+<span class='post-count' dir='ltr'>(18)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_07_01_archive.html'>
+juillet
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_06_01_archive.html'>
+juin
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_05_01_archive.html'>
+mai
+</a>
+<span class='post-count' dir='ltr'>(14)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_04_01_archive.html'>
+avril
+</a>
+<span class='post-count' dir='ltr'>(18)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_03_01_archive.html'>
+mars
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_02_01_archive.html'>
+février
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2008_01_01_archive.html'>
+janvier
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/search?updated-min=2007-01-01T00:00:00%2B01:00&amp;updated-max=2008-01-01T00:00:00%2B01:00&amp;max-results=18'>
+2007
+</a>
+<span class='post-count' dir='ltr'>(18)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2007_12_01_archive.html'>
+décembre
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://germanlinux.blogspot.com/2007_11_01_archive.html'>
+novembre
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8461291123103147013&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Modifier'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget PopularPosts' id='PopularPosts1'>
+<h2>Messages les plus consultés</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<li>
+<a href='http://germanlinux.blogspot.com/2012/06/le-methode-des-5s-appliquee-au.html'>Le méthode des  '5S' appliquée au développement</a>
+</li>
+<li>
+<a href='http://germanlinux.blogspot.com/2012/11/comment-enregistrer-son-terminal-avec.html'>Comment enregistrer son terminal avec la commande  script</a>
+</li>
+<li>
+<a href='http://germanlinux.blogspot.com/2014/08/nodebots-piloter-un-arduino-par-le-web.html'>nodebots: Piloter un arduino par le web. </a>
+</li>
+<li>
+<a href='http://germanlinux.blogspot.com/2012/04/lire-un-fichier-ligne-ligne-en.html'>Lire un fichier ligne à ligne en #javascript - #coffeescript</a>
+</li>
+<li>
+<a href='http://germanlinux.blogspot.com/2015/12/petit-exercice-pour-bien-comprendre-la.html'>Petit exercice pour bien comprendre la programmation en javascript</a>
+</li>
+<li>
+<a href='http://germanlinux.blogspot.com/2012/12/des-uploads-formidables-avec-le-module.html'>Des uploads formidables avec le module formidable pour node.js</a>
+</li>
+<li>
+<a href='http://germanlinux.blogspot.com/2012/11/quest-quun-websocket.html'>Qu'est ce  qu'un websocket </a>
+</li>
+<li>
+<a href='http://germanlinux.blogspot.com/2012/03/la-phase-destimation-dans-les-projets.html'>La phase d'estimation dans les projets informatiques</a>
+</li>
+<li>
+<a href='http://germanlinux.blogspot.com/2012/03/kanban-et-scrum-pour-les-projets.html'>#kanban et scrum pour les projets informatiques #agile</a>
+</li>
+<li>
+<a href='http://germanlinux.blogspot.com/2012/03/tests-de-charge-3-fonctionnalites-de.html'>Tests de charge :3 fonctionnalités de jmeter à connaitre</a>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8461291123103147013&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("PopularPosts1"));' target='configPopularPosts1' title='Modifier'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Label' id='Label1'>
+<h2>Nuage des libellés</h2>
+<div class='widget-content cloud-label-widget-content'>
+<span class='label-size label-size-5'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/geek'>geek</a>
+<span class='label-count' dir='ltr'>(75)</span>
+</span>
+<span class='label-size label-size-5'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/web%202.0'>web 2.0</a>
+<span class='label-count' dir='ltr'>(47)</span>
+</span>
+<span class='label-size label-size-5'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/node.js'>node.js</a>
+<span class='label-count' dir='ltr'>(46)</span>
+</span>
+<span class='label-size label-size-5'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/ruby'>ruby</a>
+<span class='label-count' dir='ltr'>(45)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/javascript'>javascript</a>
+<span class='label-count' dir='ltr'>(35)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/google'>google</a>
+<span class='label-count' dir='ltr'>(33)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/Ruby%20on%20Rails'>Ruby on Rails</a>
+<span class='label-count' dir='ltr'>(32)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/strat%C3%A9gie'>stratégie</a>
+<span class='label-count' dir='ltr'>(21)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/jeux'>jeux</a>
+<span class='label-count' dir='ltr'>(20)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/twitter'>twitter</a>
+<span class='label-count' dir='ltr'>(19)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/coffeescript'>coffeescript</a>
+<span class='label-count' dir='ltr'>(17)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/linux'>linux</a>
+<span class='label-count' dir='ltr'>(16)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/nosql'>nosql</a>
+<span class='label-count' dir='ltr'>(16)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/photos'>photos</a>
+<span class='label-count' dir='ltr'>(14)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/programmation'>programmation</a>
+<span class='label-count' dir='ltr'>(14)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/travail'>travail</a>
+<span class='label-count' dir='ltr'>(14)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/famille'>famille</a>
+<span class='label-count' dir='ltr'>(13)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/humour'>humour</a>
+<span class='label-count' dir='ltr'>(13)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/java'>java</a>
+<span class='label-count' dir='ltr'>(13)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/video'>video</a>
+<span class='label-count' dir='ltr'>(13)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/erlang'>erlang</a>
+<span class='label-count' dir='ltr'>(11)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/livres'>livres</a>
+<span class='label-count' dir='ltr'>(11)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/sso'>sso</a>
+<span class='label-count' dir='ltr'>(11)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/management'>management</a>
+<span class='label-count' dir='ltr'>(10)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/cloud'>cloud</a>
+<span class='label-count' dir='ltr'>(9)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/golf'>golf</a>
+<span class='label-count' dir='ltr'>(9)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/haskell'>haskell</a>
+<span class='label-count' dir='ltr'>(8)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/lemonldap'>lemonldap</a>
+<span class='label-count' dir='ltr'>(8)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/agile'>agile</a>
+<span class='label-count' dir='ltr'>(7)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/code'>code</a>
+<span class='label-count' dir='ltr'>(7)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/projet'>projet</a>
+<span class='label-count' dir='ltr'>(7)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/rails'>rails</a>
+<span class='label-count' dir='ltr'>(7)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/rubiks%20cube'>rubiks cube</a>
+<span class='label-count' dir='ltr'>(7)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/tips'>tips</a>
+<span class='label-count' dir='ltr'>(7)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/architecture'>architecture</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/asus%20eee'>asus eee</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/decisionnel'>decisionnel</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/hacking'>hacking</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/image'>image</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/langage'>langage</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/ldap'>ldap</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/openldap'>openldap</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/picture'>picture</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/s%C3%A9rie%20TV'>série TV</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/test'>test</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/SOA'>SOA</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/ebook'>ebook</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/film'>film</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/firefox'>firefox</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/hadoop'>hadoop</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/jquery'>jquery</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/mongodb'>mongodb</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/reseau'>reseau</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/websso'>websso</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/api'>api</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/arduino'>arduino</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/blog'>blog</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/browser'>browser</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/couchDB'>couchDB</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/express'>express</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/framework'>framework</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/generateur'>generateur</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/httpd'>httpd</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/screencast'>screencast</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/sinatra'>sinatra</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/vacances'>vacances</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/webos'>webos</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/amis'>amis</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/angularJS'>angularJS</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/backbone.js'>backbone.js</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/bde'>bde</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/cluster'>cluster</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/cobol'>cobol</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/conf%C3%A9rence'>conférence</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/cuisine'>cuisine</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/famile'>famile</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/heroku'>heroku</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/humeur'>humeur</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/lien'>lien</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/liens'>liens</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/map'>map</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/moteur%20de%20recherche'>moteur de recherche</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/mvc'>mvc</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/opensource'>opensource</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/outils'>outils</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/perl'>perl</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/politique'>politique</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/postgresql'>postgresql</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/python'>python</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/securit%C3%A9'>securité</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/semaine'>semaine</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/usa'>usa</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/web3.0'>web3.0</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/amandine'>amandine</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/android'>android</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/apple'>apple</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/art'>art</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/bd'>bd</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/bigdata'>bigdata</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/cerveau'>cerveau</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/cinema'>cinema</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/curation'>curation</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/debug'>debug</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/developpement'>developpement</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/expo'>expo</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/factorisation'>factorisation</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/j2E'>j2E</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/jmeter'>jmeter</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/joke'>joke</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/kanban'>kanban</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/lego'>lego</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/mashup'>mashup</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/memcached'>memcached</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/modernisation'>modernisation</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/mp3'>mp3</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/php'>php</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/r%C3%A9seaux%20sociaux'>réseaux sociaux</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/scala%20groovy'>scala groovy</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/shell'>shell</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/slide'>slide</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/spa'>spa</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/ssh'>ssh</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/tv'>tv</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/ubuntu'>ubuntu</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/vi'>vi</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/visualisation'>visualisation</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/voyage'>voyage</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/wave'>wave</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/wiki'>wiki</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/5D'>5D</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/activerecord'>activerecord</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/agl'>agl</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/amazon'>amazon</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/anglais'>anglais</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/archives'>archives</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/audit'>audit</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/augmented-reality'>augmented-reality</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/avion'>avion</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/avion3D'>avion3D</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/bac'>bac</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/bluetooth'>bluetooth</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/bootstrap'>bootstrap</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/bretagne'>bretagne</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/carte%20freemind'>carte freemind</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/cheatsheet'>cheatsheet</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/chute'>chute</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/cinema%20musique'>cinema musique</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/cnam'>cnam</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/couleur'>couleur</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/culture'>culture</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/d3'>d3</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/devops'>devops</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/dgfip'>dgfip</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/django'>django</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/d%C3%A9cisionnel'>décisionnel</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/echasses%20urbaines'>echasses urbaines</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/facebook'>facebook</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/federation'>federation</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/fedora'>fedora</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/fete%20musique'>fete musique</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/firebug'>firebug</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/flash'>flash</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/german'>german</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/github'>github</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/graphisme'>graphisme</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/grec'>grec</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/gwd'>gwd</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/html5'>html5</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/http'>http</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/imprimante'>imprimante</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/inflections'>inflections</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/internet'>internet</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/ipod'>ipod</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/iptables'>iptables</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/jasperreport'>jasperreport</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/java%20tomcat%20cas'>java tomcat cas</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/javascrip%20%20node.js%20ruby'>javascrip  node.js ruby</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/jouet'>jouet</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/jpivot'>jpivot</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/jruby'>jruby</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/json'>json</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/kindle'>kindle</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/lean'>lean</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/lemonid'>lemonid</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/libre'>libre</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/linux%20magazine'>linux magazine</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/localization'>localization</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/loisir'>loisir</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/lune'>lune</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/magazine'>magazine</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/marseille'>marseille</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/materiel'>materiel</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/messagerie'>messagerie</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/mondrian'>mondrian</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/mot%20de%20passe'>mot de passe</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/moto'>moto</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/mots'>mots</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/mouchard'>mouchard</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/musique'>musique</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/nat'>nat</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/nginx'>nginx</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/npm'>npm</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/online'>online</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/opendata'>opendata</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/opera'>opera</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/otp'>otp</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/picooz'>picooz</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/pixel'>pixel</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/portail'>portail</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/productivit%C3%A9'>productivité</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/pub'>pub</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/redis'>redis</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/reputation'>reputation</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/restful'>restful</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/restitution'>restitution</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/roa'>roa</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/rollers'>rollers</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/ruby%20expo'>ruby expo</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/ruby%20rest'>ruby rest</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/saml'>saml</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/scala'>scala</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/sciences'>sciences</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/session'>session</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/ski'>ski</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/soiree'>soiree</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/solutions-linux'>solutions-linux</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/sql'>sql</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/syncrepl'>syncrepl</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/telnet'>telnet</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/temps'>temps</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/thunderbird'>thunderbird</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/tintin'>tintin</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/traduction'>traduction</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/translate'>translate</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/villiers%20sur%20marne%20navette'>villiers sur marne navette</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/virtualisation'>virtualisation</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/virtuel'>virtuel</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/web'>web</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/webmail'>webmail</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/websocket'>websocket</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/yahoo'>yahoo</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/yubikey'>yubikey</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://germanlinux.blogspot.com/search/label/zx81'>zx81</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8461291123103147013&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Modifier'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class='clear'>&#160;</div>
+</div>
+<!-- end content-wrapper -->
+</div></div>
+<!-- end outer-wrapper -->
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/3419481628-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '8461291123103147013';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d8461291123103147013','//germanlinux.blogspot.com/','8461291123103147013');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '8461291123103147013', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Le blog d\47eric German', 'pageType': 'index', 'url': 'http://germanlinux.blogspot.com/', 'canonicalUrl': 'http://germanlinux.blogspot.com/', 'homepageUrl': 'http://germanlinux.blogspot.com/', 'canonicalHomepageUrl': 'http://germanlinux.blogspot.com/', 'blogspotFaviconUrl': 'http://germanlinux.blogspot.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'Le blog d\47eric German', 'encoding': 'UTF-8', 'locale': 'fr', 'localeUnderscoreDelimited': 'fr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Le blog d\46#39;eric German - Atom\42 href\75\42http://germanlinux.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Le blog d\46#39;eric German - RSS\42 href\75\42http://germanlinux.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Le blog d\46#39;eric German - Atom\42 href\75\42https://www.blogger.com/feeds/8461291123103147013/posts/default\42 /\76\n', 'meTag': '\74link rel\75\42me\42 href\75\42https://plus.google.com/103560464182230950863\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://germanlinux.blogspot.com/\42 /\76\n', 'googleProfileUrl': 'https://plus.google.com/103560464182230950863', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/581377545bf84644', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'messages', 'data': {'archive': 'Archiver', 'blogArchive': 'Archives du blog', 'by': 'Par', 'byAuthor': 'Par %1', 'byAuthorLink': 'Par \74a href\75\42%2\42\76%1\74/a\076', 'deleteBacklink': 'Supprimer lien Backlink', 'deleteComment': 'Supprimer le commentaire', 'emailAddress': 'Adresse e-mail', 'getEmailNotifications': 'Recevoir des notifications par e-mail', 'keepReading': 'Continuer la lecture', 'labels': 'Libellés', 'loadMorePosts': 'Afficher plus de posts', 'loading': 'Chargement...', 'myBlogList': 'Ma liste de blogs', 'myFavoriteSites': 'Mes sites favoris', 'newer': 'Plus récente', 'newerPosts': 'Articles plus récents', 'newest': 'Les plus récents', 'noResultsFound': 'Aucun résultat.', 'noTitle': 'Sans titre', 'numberOfComments': '{numComments,plural, \0750{Aucun commentaire}\0751{1&#160;commentaire}one{#&#160;commentaire}other{#&#160;commentaires}}', 'older': 'Plus ancienne', 'olderPosts': 'Articles plus anciens', 'oldest': 'Les plus anciens', 'onlyTeamMembersCanComment': 'Remarque&#160;: Seul un membre de ce blog est autorisé à enregistrer un commentaire.', 'popularPosts': 'Articles les plus consultés', 'popularPostsFromThisBlog': 'Posts les plus consultés de ce blog', 'postAComment': 'Enregistrer un commentaire', 'postedBy': 'Publié par', 'postedByAuthor': 'Publié par %1', 'postedByAuthorLink': 'Publié par \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Suite', 'reportAbuse': 'Signaler un abus', 'search': 'Rechercher', 'searchBlog': 'Rechercher le blog', 'share': 'Partager', 'showAll': 'Tout afficher', 'someOfMyFavoriteSites': 'Certains de mes sites préférés', 'subscribe': 'S\47inscrire', 'subscribeToThisBlog': 'S\47inscrire à ce blog', 'theresNothingHere': 'Aucun article disponible.', 'viewAll': 'Tout afficher', 'visitProfile': 'Consulter le profil'}}, {'name': 'skin', 'data': {'vars': {'pagetitlecolor_transparent': 'rgba(245, 222, 179, 0)', 'textcolor': '#000000', 'titlecolor': '#9E5205', 'titlecolor_transparent': 'rgba(158, 82, 5, 0)', 'linkcolor': '#DE7008', 'startSide': 'left', 'pagetitlebgcolor': '#DE7008', 'sidebarcolor_transparent': 'rgba(184, 168, 13, 0)', 'sidebarlinkcolor': '#999999', 'bordercolor_transparent': 'rgba(224, 173, 18, 0)', 'visitedlinkcolor_transparent': 'rgba(222, 112, 8, 0)', 'bgcolor_transparent': 'rgba(246, 246, 246, 0)', 'datecolor': '#777777', 'visitedlinkcolor': '#DE7008', 'textcolor_transparent': 'rgba(0, 0, 0, 0)', 'descbgcolor_transparent': 'rgba(245, 227, 158, 0)', 'footerlinkcolor': '#968a0a', 'footercolor': '#444444', 'titlefont': 'normal bold 160% Verdana,Sans-Serif', 'sidebarlinkcolor_transparent': 'rgba(153, 153, 153, 0)', 'descriptionColor_transparent': 'rgba(158, 82, 5, 0)', 'endSide': 'right', 'dateHeaderFont': 'normal bold 105% \47Trebuchet MS\47,Trebuchet,Verdana,Sans-serif', 'footerlinkcolor_transparent': 'rgba(150, 138, 10, 0)', 'descbgcolor': '#F5E39e', 'pagetitlefont': 'normal bold 300% Verdana,Sans-Serif', 'linkcolor_transparent': 'rgba(222, 112, 8, 0)', 'descriptionColor': '#9E5205', 'footercolor_transparent': 'rgba(68, 68, 68, 0)', 'sidebarcolor': '#B8A80D', 'bordercolor': '#e0ad12', 'bgcolor': '#f6f6f6', 'bodyfont': 'normal normal 100% \47Trebuchet MS\47,Trebuchet,Verdana,Sans-Serif', 'datecolor_transparent': 'rgba(119, 119, 119, 0)', 'headerfont': 'normal bold 150% Verdana,Sans-serif', 'pagetitlecolor': '#F5DEB3', 'pagetitlebgcolor_transparent': 'rgba(222, 112, 8, 0)'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/3890787033-lbx__fr.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/1060280877-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Chargement...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>

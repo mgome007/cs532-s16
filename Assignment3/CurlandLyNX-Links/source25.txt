@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Max Goldstein</title>
+        <link rel="stylesheet" type="text/css" href="/homepage/homepage.css">
+    </head>
+    <body>
+        <script src="/assets/d3.v3.js" charset="utf-8"></script>
+        <script src="/assets/d3.translate.js"></script>
+        <script src="/homepage/skillchart.js"></script>
+        <script src="/homepage/elm.js"></script>
+        <script>
+             Elm.fullscreen(Elm.Main);
+
+            var w = 450;
+            var data = [
+                [{title: "Ruby", x: 2.5}, {title: "Rails", x: 1.6}, {title: "Rspec", x: 1.8}],
+                [{title: "JavaScript", x: 2.1}, {title: "D3.js", x: 2.8}, {title: "Node.js", x: 1.3}],
+                [{title: ["Functional", "Programming"], x: 2.4}, {title: "Clojure", x: 1.5}, {title: "Haskell", x: 0.7}, {title: "Elm", x: 2.6}],
+                [{title: "Design", x: 2.}, {title: "Data Viz", x: 2.4}, {title: "Prototyping", x: 1.5}, {title: "User Testing", x: 1.3}],
+                [{title: "Linux Shell", x: 2.3}, {title: "git", x: 2.5}, {title: "vim", x: 2.1}, {title: "SQL", x: 1.8}]
+              ];
+
+            var colors = ["#d62729", "#ff7f0e", "#9467bd", "#17becf", "#2ca02c"];
+            var skillchart = skillchart().width(w).data(data).color(function(i){return colors[i]});
+
+            d3.select("#skillchart")
+                .attr({width: w, height: skillchart.height()})
+                .append("svg")
+                .attr({width: w, height: skillchart.height()})
+                .call(skillchart)
+                .select(".domain").translate(0,0.1); // crispEdges rendering hack
+        </script>
+    </body>
+</html>

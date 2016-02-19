@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+        <title>Julian Ćwirko - Front-end and JavaScript (Meteor.js) developer</title>
+    <meta name="description" content="Front-End and JavaScript developer">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/favicon.png?v=195d270feb">
+
+    <link rel="stylesheet" href="/assets/css/vendor/font-awesome.css?v=195d270feb">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/vendor/hljs-custom-theme.css?v=195d270feb">
+    <link rel="stylesheet" href="/assets/css/vendor/icomoon-fonts.css?v=195d270feb">
+    <link rel="stylesheet" href="/assets/css/style.css?v=195d270feb">
+
+    <link rel="canonical" href="http://julian.io/" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="http://julian.io/page/2/" />
+    
+    <meta property="og:site_name" content="@juliancwirko" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="@juliancwirko" />
+    <meta property="og:description" content="Front-End and JavaScript developer" />
+    <meta property="og:url" content="http://julian.io/" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="@juliancwirko" />
+    <meta name="twitter:description" content="Front-End and JavaScript developer" />
+    <meta name="twitter:url" content="http://julian.io/" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "@juliancwirko",
+    "url": "http://julian.io/",
+    "description": "Front-End and JavaScript developer"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7" />
+    <link rel="alternate" type="application/rss+xml" title="@juliancwirko" href="http://julian.io/rss/" />
+
+    <script src="/assets/js/vendor/modernizr.js?v=195d270feb"></script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+
+        _gaq.push(['_setAccount', 'UA-54119000-3']);
+
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ?  'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</head>
+<body class="home-template">
+
+    <div class="promo-pxt" title="Check out pxThemes!">
+        <a href="http://themeforest.net/user/pxthemes/portfolio?ref=pxThemes"><img src="/assets/images/logopxt.png?v=195d270feb" alt="Ghost Themes"></a>
+    </div>
+
+    <div class="promo-hire" title="Hire me!">
+        <div>
+            <a href="http://julian.io/about"><i class="fa fa-fw fa-hand-peace-o"></i></a>
+        </div>
+    </div>
+
+    <div class="big-search">
+    <i class="fa fa-times big-search-close-btn js-close-search"></i>
+    <div class="big-search-container">
+        <div class="row">
+            <div class="small-12 columns">
+                <form class="big-search-form">
+                    <input class="big-search-form-input js-search-input" type="text" placeholder="Search..."/>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 columns">
+                <div class="big-search-results js-search-results"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<nav class="main-nav">
+    <i class="fa fa-fw fa-bars main-nav-ico js-bg-check js-main-menu-open right"></i>
+    <i class="fa fa-fw fa-search main-nav-ico js-bg-check js-open-search right"></i>
+</nav>
+<header class="main-header js-blog-bg-image no-cover ">
+    <div class="main-header-content">
+                <div class="post-logo-container">
+                    <a class="blog-logo" href="http://julian.io"><img src="/content/images/2015/01/new-1.png" alt="Blog Logo" /></a>
+                </div>
+        <h1 class="page-title js-bg-check">
+                <span>@juliancwirko</span>
+        </h1>
+        <h2 class="page-description js-bg-check"><span>Front-End and JavaScript developer</span></h2>
+        <div class="header-social-icons">
+            <a href="mailto:julian.cwirko@gmail.com" title="E-Mail address - julian.cwirko@gmail.com">
+                <i class="fa fa-fw fa-envelope-o"></i>
+            </a>
+            <a href="https://twitter.com/JulianCwirko" title="Twitter profile - @juliancwirko">
+                <i class="fa fa-fw fa-twitter"></i>
+            </a>
+            <a href="https://github.com/juliancwirko" title="Github profile - @juliancwirko">
+                <i class="fa fa-fw fa-github"></i>
+            </a>
+            <a href="https://medium.com/@juliancwirko" title="Medium profile - @juliancwirko">
+                <i class="fa fa-fw fa-medium"></i>
+            </a>
+            <a href="https://www.facebook.com/juliancwirko" title="Facebook profile - juliancwirko">
+                <i class="fa fa-fw fa-facebook"></i>
+            </a>
+            <a href="https://plus.google.com/100547772714227761991" rel="publisher" class="icon" title="Google Plus profile - +juliancwirko">
+                <i class="fa fa-fw fa-google-plus"></i>
+            </a>
+            <a href="http://themeforest.net/user/pxThemes?ref=pxThemes" title="ThemeForest portfolio - pxThemes">
+                <i class="fa-fw icon-leaf"></i>
+            </a>
+            <a href="http://julian.io/rss/" title="RSS Feed - julian.io/rss/">
+                <i class="fa fa-fw fa-rss"></i>
+            </a>
+        </div>
+    </div>
+</header>
+<main id="content" class="content home-template" role="main">
+
+        <article class="post tag-postcss tag-css">
+        <div class="post-article-container">
+            <header class="post-header">
+                <time class="post-date" datetime="2016-01-01">01 January 2016</time>
+                <h2 class="post-title"><a href="/some-things-you-may-think-about-postcss-and-you-might-be-wrong/">Some things you may think about PostCSS... and you might be wrong</a></h2>
+            </header>
+            <section class="post-meta">
+                 on <a href="/tag/postcss/">PostCSS</a>, <a href="/tag/css/">css</a>
+            </section>
+            <section class="post-desc">
+                I have recently tried PostCSS in some of my different workflows - Meteor workflow, simple React, and Webpack workflow. I knew I needed to try it because everyone is so excited to use it and it did not disappoint me. ...
+            </section>
+            <footer>
+                <a href="/some-things-you-may-think-about-postcss-and-you-might-be-wrong/" class="post-read-more-button">Read more</a>
+            </footer>
+        </div>
+    </article>
+    <article class="post tag-foundation6 tag-meteor tag-css tag-scss">
+        <div class="post-article-container">
+            <header class="post-header">
+                <time class="post-date" datetime="2015-11-21">21 November 2015</time>
+                <h2 class="post-title"><a href="/what-i-like-the-most-about-the-new-foundation-6/">What I like the most about the new Foundation 6</a></h2>
+            </header>
+            <section class="post-meta">
+                 on <a href="/tag/foundation6/">foundation6</a>, <a href="/tag/meteor/">meteor</a>, <a href="/tag/css/">css</a>, <a href="/tag/scss/">Scss</a>
+            </section>
+            <section class="post-desc">
+                Here it is! The new Yeti from Zurb. Foundation for Sites in version 6 was released some time ago. I am very exited because they have incorporated many tools and solutions which are very similar to what I was building ...
+            </section>
+            <footer>
+                <a href="/what-i-like-the-most-about-the-new-foundation-6/" class="post-read-more-button">Read more</a>
+            </footer>
+        </div>
+    </article>
+    <article class="post tag-postcss tag-css tag-meteor">
+        <div class="post-article-container">
+            <header class="post-header">
+                <time class="post-date" datetime="2015-11-06">06 November 2015</time>
+                <h2 class="post-title"><a href="/how-to-use-postcss-in-meteor/">How to use PostCSS in Meteor</a></h2>
+            </header>
+            <section class="post-meta">
+                 on <a href="/tag/postcss/">PostCSS</a>, <a href="/tag/css/">css</a>, <a href="/tag/meteor/">meteor</a>
+            </section>
+            <section class="post-desc">
+                What's so special about PostCSS and why is everyone are talking about it? That’s a really good question. I am about to tell you why it's awesome and how you can use it with Meteor. Because PostCSS isn't a ...
+            </section>
+            <footer>
+                <a href="/how-to-use-postcss-in-meteor/" class="post-read-more-button">Read more</a>
+            </footer>
+        </div>
+    </article>
+    <article class="post tag-meteor tag-react tag-blaze">
+        <div class="post-article-container">
+            <header class="post-header">
+                <time class="post-date" datetime="2015-10-08">08 October 2015</time>
+                <h2 class="post-title"><a href="/how-to-use-the-meteor-salert-package-with-react/">How to use the Meteor sAlert package with React</a></h2>
+            </header>
+            <section class="post-meta">
+                 on <a href="/tag/meteor/">meteor</a>, <a href="/tag/react/">react</a>, <a href="/tag/blaze/">blaze</a>
+            </section>
+            <section class="post-desc">
+                Update: Now you can use pure React component. Check it out: [code] | [demo] From Meteor 1.2, we have official React support, which brings about some questions. First of all, which packages from Atmosphere would work with React? Basically if ...
+            </section>
+            <footer>
+                <a href="/how-to-use-the-meteor-salert-package-with-react/" class="post-read-more-button">Read more</a>
+            </footer>
+        </div>
+    </article>
+    <article class="post tag-meteor tag-meteor-js tag-accounts">
+        <div class="post-article-container">
+            <header class="post-header">
+                <time class="post-date" datetime="2015-10-05">05 October 2015</time>
+                <h2 class="post-title"><a href="/meteor-accounts-based-on-sid-package/">Meteor Accounts based on sId package</a></h2>
+            </header>
+            <section class="post-meta">
+                 on <a href="/tag/meteor/">meteor</a>, <a href="/tag/meteor-js/">Meteor.js</a>, <a href="/tag/accounts/">accounts</a>
+            </section>
+            <section class="post-desc">
+                Accounts system is a must have if we want to talk about any app, even a very simple app. You’ll always need some user management system. I’ll show you how to build your own, customized account system based ...
+            </section>
+            <footer>
+                <a href="/meteor-accounts-based-on-sid-package/" class="post-read-more-button">Read more</a>
+            </footer>
+        </div>
+    </article>
+    <article class="post tag-meteor-js tag-front-end">
+        <div class="post-article-container">
+            <header class="post-header">
+                <time class="post-date" datetime="2015-06-03">03 June 2015</time>
+                <h2 class="post-title"><a href="/why-front-end-developers-should-try-to-learn-meteor/">Why Front-End Developers should try to learn Meteor</a></h2>
+            </header>
+            <section class="post-meta">
+                 on <a href="/tag/meteor-js/">Meteor.js</a>, <a href="/tag/front-end/">front-end</a>
+            </section>
+            <section class="post-desc">
+                There are so many great front-end developers or web designers out there which don't want to dig into backend coding lessons, and I really understand that very well. Let them do what they do best.  Everyone wants to have some ...
+            </section>
+            <footer>
+                <a href="/why-front-end-developers-should-try-to-learn-meteor/" class="post-read-more-button">Read more</a>
+            </footer>
+        </div>
+    </article>
+
+<nav class="pagination" role="navigation">
+        <a class="older-posts" href="/page/2/">Older Posts <i class="fa fa-chevron-right"></i></a>
+</nav>
+
+</main>
+
+    <footer class="site-footer">
+         <section class="poweredby ghost">
+            <div>
+                Proudly published with <a href="https://ghost.org">Ghost</a> <i class="fa fa-heart"></i>
+            </div>
+            <div>
+                Hosted by <a href="https://www.digitalocean.com/?refcode=f2346a20e8ce">DigitalOcean</a>
+            </div>
+        </section>
+         <section class="poweredby px-themes">
+            <div>
+                Based on free theme by me <i class="fa fa-smile-o"></i>
+            </div>
+            <div>
+                <a href="http://pxt.be">Ghost Themes (pxt.be)</a>
+            </div>
+        </section>
+    </footer>
+
+    <div class="tborder"></div>
+    <div class="rborder"></div>
+    <div class="bborder"></div>
+    <div class="lborder"></div>
+
+    <div class="main-menu-ovrl main-menu-ovrl-hugeinc js-main-menu-ovrl">
+        <i class="fa fa-times main-menu-ovrl-close js-main-menu-close"></i>
+        <nav>
+            <ul>
+        <li>
+            <a href="http://julian.io/">
+                Home
+            </a>
+        </li>
+        <li>
+            <a href="http://julian.io/about">
+                About
+            </a>
+        </li>
+        <li>
+            <a href="http://julian.io/projects">
+                Projects
+            </a>
+        </li>
+    <li>
+        <a href="mailto:julian.cwirko@gmail.com" class="icon">
+            <i class="fa fa-fw fa-envelope"></i>
+        </a>
+        <a href="https://twitter.com/JulianCwirko" class="icon">
+            <i class="fa fa-fw fa-twitter"></i>
+        </a>
+        <a href="https://github.com/juliancwirko" class="icon">
+            <i class="fa fa-fw fa-github"></i>
+        </a>
+        <a href="https://medium.com/@juliancwirko" class="icon">
+            <i class="fa fa-fw fa-fw fa-medium"></i>
+        </a>
+        <a href="https://www.facebook.com/juliancwirko" class="icon">
+            <i class="fa fa-fw fa-fw fa-facebook"></i>
+        </a>
+        <a href="https://plus.google.com/100547772714227761991" rel="publisher" class="icon">
+            <i class="fa fa-fw fa-google-plus"></i>
+        </a>
+        <a href="http://themeforest.net/user/pxThemes?ref=pxThemes" class="icon">
+            <i class="icon-leaf"></i>
+        </a>
+    </li>
+</ul>
+        </nav>
+    </div>
+
+    <div class="back-to-top js-back-to-top-btn hidden">
+        <i class="fa fa-angle-up"></i>
+    </div>
+
+    <script type="text/javascript" src="/assets/js/vendor/jquery-1.11.3.min.js?v=195d270feb"></script>
+
+    <!-- You can safely delete this line if your theme does not require jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script type="text/javascript" src="/assets/js/vendor/foundation.min.js?v=195d270feb"></script>
+    <script type="text/javascript" src="/assets/js/vendor/background-check.js?v=195d270feb"></script>
+    <script type="text/javascript" src="/assets/js/vendor/ghost-hunter.js?v=195d270feb"></script>
+    <script type="text/javascript" src="/assets/js/vendor/imagesloaded.js?v=195d270feb"></script>
+    <script type="text/javascript" src="/assets/js/vendor/reading-time.js?v=195d270feb"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jcw.js?v=195d270feb"></script>
+
+</body>
+</html>

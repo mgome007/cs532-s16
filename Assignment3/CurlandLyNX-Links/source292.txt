@@ -1,0 +1,1130 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html   xmlns:og="http://opengraphprotocol.org/schema/"
+        xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+    <title>Music | FRIENDSHIP</title>
+    
+    
+
+
+ 
+    <meta name="Description" content="
+FRIENDSHIP
+">
+    
+     
+    
+    <link rel="shortcut icon" href="http://s1.bcbits.com/img/bc_favicon.ico">
+    <link rel="apple-touch-icon" href="http://s1.bcbits.com/img/bc_favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--<meta name="apple-mobile-web-app-status-bar-style" content="black translucent">-->
+    
+    <meta name="norton-safeweb-site-verification" content="ejd7gu5uojnhaq1f4mkwkx8rbydsxtne25pyxbyv24x7e2b-voeqw8wohh9j183bfyeq109vyl4vd396-wkx1gog2vv4g21x39voxpe75a96ahp98-nookkmva7n5t7a" />
+
+    
+    
+        <meta name="title" content="FRIENDSHIP">
+        <meta property="og:title" content="FRIENDSHIP">
+        <meta property="og:type" content="band">
+        <meta property="og:url" content="http://friendshipcollective.bandcamp.com">
+        <meta property="og:site_name" content="FRIENDSHIP">
+        <meta property="fb:app_id" content="165661066782720"> 
+        
+        <meta property="og:description"  content="">
+    
+    
+    
+     
+
+    
+    
+    
+    
+    <link type="text/css" rel="stylesheet" href="http://s1.bcbits.com/tmpdata/cache/global_bundle_572bea8e0840d91a100a8196081b9414.css">
+<link type="text/css" rel="stylesheet" href="http://s1.bcbits.com/tmpdata/cache/tralbum_bundle_df1a55f87959ea235d4151d5686f6d12.css">
+
+    <script type="text/javascript">
+        var isDebug = false;
+        var ErrorCollector = {"sampleRate":null,"enabled":true};
+        var CfgShare2 = true; // fixme: remove after Share2 always on
+    </script>
+
+    
+
+
+<script type="text/javascript">
+    
+    var isDebug = null;
+    var siteroot = "http://bandcamp.com";
+    var siteroot_https = "https://bandcamp.com";
+    var siteroot_current = "http://bandcamp.com";
+    var band_url = "http://friendshipcollective.bandcamp.com";
+    var isProduction = true;
+
+    
+    document.documentElement.className += " js";
+    
+    
+    var Browser = {"mobile_app_compatible":false,"version":[-1],"platform":null,"platform_name":"","platform_closed":false,"make":null,"type":null,"grade":"X","media_mode":"desktop"};    
+
+    
+    var TemplGlobals = {"siteroot":"http://bandcamp.com","static_siteroot":"http://s1.bcbits.com","image_siteroot":"http://f1.bcbits.com","base_port_str":null,"image_siteroot_https":"https://f1.bcbits.com","custom_domains_active":true,"image_formats":[{"resize_algo":"original","name":"original","file_format":null,"id":0},{"resize_algo":"scrub","name":"fullsize","file_format":"original","id":1},{"height":350,"resize_algo":"thumb","name":"art_thumb","file_format":"JPEG","id":2,"width":350},{"height":100,"resize_algo":"thumb","name":"art_thumbthumb","file_format":"JPEG","id":3,"width":100},{"height":300,"resize_algo":"thumb","name":"art_embedded_metadata","file_format":"JPEG","id":4,"width":300},{"height":700,"resize_algo":"thumb","name":"art_embedded_metadata_large","file_format":"JPEG","id":5,"width":700},{"height":100,"resize_algo":"thumb","name":"art_embedded_player","file_format":"JPEG","id":6,"width":100},{"height":150,"resize_algo":"thumb","name":"art_embedded_player_large","file_format":"JPEG","id":7,"width":150},{"height":124,"resize_algo":"thumb","name":"art_tags","file_format":"JPEG","id":8,"width":124},{"height":210,"resize_algo":"thumb","name":"art_tags_large","file_format":"JPEG","id":9,"width":210},{"height":1200,"resize_algo":"fit","name":"screen","file_format":"JPEG","id":10,"width":1200},{"height":172,"resize_algo":"thumb","name":"art_tag_search","file_format":"JPEG","id":11,"width":172},{"height":138,"resize_algo":"thumb","name":"art_artist_index","file_format":"JPEG","id":12,"width":138},{"height":380,"resize_algo":"thumb","name":"art_solo_feature","file_format":"JPEG","id":13,"width":380},{"height":368,"resize_algo":"thumb","name":"art_feature","file_format":"JPEG","id":14,"width":368},{"height":135,"resize_algo":"thumb","name":"art_feed_new_release","file_format":"JPEG","id":15,"width":135},{"quality":70,"height":700,"minsize":{"format":5,"size":30000},"resize_algo":"thumb","name":"art_app_large","file_format":"JPEG","id":16,"width":700},{"height":1024,"resize_algo":"fit","name":"bio_screen","file_format":"JPEG","id":20,"width":1024},{"height":180,"resize_algo":"fit","name":"bio_thumb","file_format":"JPEG","id":21,"width":120},{"height":25,"resize_algo":"thumb","name":"bio_navbar","file_format":"JPEG","id":22,"width":25},{"height":300,"resize_algo":"fit","name":"bio_phone","file_format":"JPEG","id":23,"width":300},{"height":300,"resize_algo":"thumb","name":"bio_licensing","file_format":"JPEG","id":24,"width":300},{"quality":70,"height":700,"resize_algo":"fit","name":"bio_app","file_format":"JPEG","id":25,"width":700},{"height":600,"resize_algo":"thumb","name":"bio_subscribe","file_format":"JPEG","id":26,"width":800},{"height":402,"resize_algo":"thumb","name":"bio_subscribe2","file_format":"JPEG","id":27,"width":715},{"height":432,"resize_algo":"thumb","name":"bio_featured","file_format":"JPEG","id":28,"width":768},{"height":1024,"resize_algo":"fit","name":"package_screen","file_format":"original","id":31,"width":1024},{"height":285,"resize_algo":"thumb","name":"package_solo_feature","file_format":"JPEG","id":32,"width":380},{"height":276,"resize_algo":"thumb","name":"package_feature","file_format":"JPEG","id":33,"width":368},{"height":300,"resize_algo":"thumb","name":"package_page","file_format":"JPEG","id":36,"width":400},{"height":126,"resize_algo":"thumb","name":"package_thumb","file_format":"JPEG","id":37,"width":168},{"height":108,"resize_algo":"thumb","name":"package_thumb_small","file_format":"JPEG","id":38,"width":144},{"height":210,"resize_algo":"thumb","name":"fan_bio_thumb","file_format":"JPEG","id":41,"width":210},{"height":50,"resize_algo":"thumb","name":"fan_bio_thumb_small","file_format":"JPEG","id":42,"width":50},{"height":100,"resize_algo":"fit","name":"fan_banner","file_format":"JPEG","id":43,"width":99999},{"height":140,"resize_algo":"thumb","name":"results_grid","file_format":"JPEG","id":50,"width":140},{"max_height":180,"resize_algo":"thumb","name":"custom_header_desktop","file_format":"original","id":100,"width":975},{"height":90,"resize_algo":"fit","name":"custom_header_paypal","file_format":"JPEG","id":101,"width":750},{"max_height":124,"resize_algo":"thumb","name":"custom_header_phone","file_format":"JPEG","id":120,"width":640},{"resize_algo":"scrub","name":"design_background","file_format":"JPEG","id":130},{"height":45,"resize_algo":"thumb","name":"subscribe_message","file_format":"JPEG","id":140,"width":60},{"height":720,"resize_algo":"thumb","name":"video_landscape","file_format":"JPEG","id":150,"width":1280},{"height":1280,"resize_algo":"thumb","name":"video_portrait","file_format":"JPEG","id":151,"width":720},{"height":100,"top":0,"left":40,"resize_algo":"thumb_crop","name":"buy_full_email_thumb_montage","file_format":"JPEG","id":160,"width":60},{"height":422,"resize_algo":"fit","name":"weekly_mobile_web","file_format":"JPEG","id":170,"width":750}],"siteroot_https":"https://bandcamp.com","sitedomain":"bandcamp.com","siteroot_current":"http://bandcamp.com","is_https":false};
+
+    var JSLoader = {
+        currentset : { foot: [] },
+
+        writeScriptTags: function( section ) {
+            var libs = JSLoader.currentset[ section ];
+            if ( !libs ) 
+                throw "couldn't find js section: " + section;
+            for ( var i=0; i < libs.length; i++ ) {
+                document.write( '<script type="text/javascript" src="' + libs[i] + '"><\/s' + 'cript>' );
+            }
+        },
+        
+        requireJS : function(src) {
+            if(typeof(src) == "string")
+            {
+                JSLoader._addRequire(src);
+            }
+            else
+            {
+                for(var i=0; i<src.length; i++)
+                {
+                    JSLoader._addRequire(src[i]);
+                }
+            }
+        },
+        
+        _addRequire : function(src) {
+            var libs = JSLoader.currentset.foot;
+            for(var i=0; i<libs.length; i++)
+            {
+                if(libs[i] == src) return;
+            }
+            libs.push( src );
+        }
+    };
+
+</script>  
+
+<script type="text/javascript" src="http://s1.bcbits.com/tmpdata/cache/global_head_bundle_min_51d58f56e10a1cc890704e213c431de4.js"></script>
+
+
+
+
+    <script type="text/javascript" src="http://s1.bcbits.com/tmpdata/cache/tralbum_head_bundle_min_d9757ba6976397c7053d39e017a7df62.js"></script>
+
+    
+        
+
+    <script type="text/javascript">
+        (function(){
+            function snickerdoodle(which) {
+                var pairs = document.cookie.split(/;\s*/);
+                for (var i = 0; i < pairs.length; ++i) {
+                    var pair = pairs[i].split("=");
+                    if (pair[0] == which) {
+                        return pair[1];
+                    }
+                }
+                return null;
+            }
+
+
+            // pull id out of the cookies
+            window.ClientID = snickerdoodle("client_id");
+
+        })();
+    </script>
+
+
+        <script type="text/javascript">
+            if ( window.MediaView ) {
+            
+                MediaView.initServer("desktop");
+            
+            }
+
+            var gCrumb = null;
+            var _crumbs = {};
+            var UploadInfo = null;
+            
+            Control.registerEvents();
+            Control.registerController( "/no_js", TPController );
+
+        </script>
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+    <!--@@PAGEBUCKETS@@-->
+</head>
+
+
+
+<body class="invertIconography ">
+
+    <div id="pagedata" data-blob="{&quot;recaptcha_public_key&quot;:&quot;6LfhSPgSAAAAAPwto_qzHuwSmjgfrkg35xXXu_8K&quot;,&quot;shows_list&quot;:null,&quot;cfg&quot;:{&quot;no_flash_uploads&quot;:true},&quot;templglobals&quot;:{&quot;endpoint_mobilized&quot;:true,&quot;is_phone&quot;:false}}"></div>
+
+
+    
+    
+
+
+
+
+
+
+
+    <div class="bannercontainer">
+
+
+
+
+
+
+
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div id="centerWrapper" >
+    <div id="propOpenWrapper">
+        
+
+        
+
+        
+
+    
+    
+    
+
+    
+
+        <div id="pgBd" class="yui-skin-sam">
+            
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+        
+        
+    
+    
+    
+    
+    <style type="text/css">
+
+        #propOpenWrapper {
+            background: #000000;
+        }
+
+        #pgBd {
+            background: #000000;
+            color: #FFFFFF;
+        }
+
+        a.custom-color, #trackInfo a, #trackInfo .buy-link, #tagArea a, #rightColumn a, #name-section a, #indexpage a, .editable-grid a, .featured-grid a, #band-navbar a, #merch-item p a, #merch-item .buy a, #merch-item .buy button, #merch-item .more-merch a, .share-collect-controls a, .share-collect-controls button, .follow-unfollow, .follow-unfollow div, .collected-by a, .subscribe a, .sub a, .video-list a, .sub .main a, .subwelcome a, .artists-grid-name a, .featured-grid-name, .label-welcome .buttons a.new, .themed .label-band-selector a.themeable {
+            color: #FFFFFF;
+        }
+
+        .themed .label-band-selector .bands-menu {
+            border: 1px solid #000000;
+        }
+
+        .themed .label-band-selector .bands-menu,
+        .themed .label-band-selector .bands-menu .menu-artistpic {
+             background: #000000;
+        }
+
+        .label-welcome h2, .label-welcome p {
+            color: #FFFFFF;
+        }
+
+        .label-welcome .buttons a.new {
+            box-shadow: 2px 2px #FFFFFF;
+        }
+
+        .label-welcome .buttons a.existing {
+            box-shadow: 2px 2px #FFFFFF;
+        }
+
+        .primaryText,
+        #discography a.primaryText,
+        #trackInfo a.title_link,
+        .label-welcome .buttons a.existing {
+            color: #FFFFFF;
+        }
+
+        .secondaryText {
+            color: #FFFFFF;
+        }
+
+        #band-navbar a:hover {
+            border-color: #FFFFFF;
+        }
+
+        #band-navbar a.active {
+            color: #FFFFFF;
+            border-color: #FFFFFF;
+        }
+
+        .themed .label-band-selector .label {
+            color: #FFFFFF;
+        }
+
+        .themed .label-band-selector .tabs > li {
+            border-color: #FFFFFF;
+        }
+
+        .themed .label-band-selector a.selected {
+            color: #FFFFFF;
+        }
+
+        .themed .label-band-selector .caret {
+            fill: #FFFFFF;
+        }
+
+        .themed .label-band-selector .selected .caret {
+            fill: #FFFFFF;
+        }
+
+        #trackInfo a.notable {
+            color: red; /* overrides above */
+        }
+    
+        
+        #band-navbar {
+            background-color: #1A1A1A;
+        }
+        
+
+        body {
+            background: #000000;
+            background-position: left top;
+            background-repeat: repeat;
+            background-image: none;
+        }
+
+        body.has-menubar {
+            background-position: left 48px;
+        }
+        body.has-top-banner {
+            background-position: left 40px;
+        }
+        body.has-menubar.has-top-banner {
+            background-position: left 88px;
+        }
+
+        #pgHd, #pgFt {
+            background-color: #1A1A1A;
+        }    
+
+        .just-icon {
+            color: #000000;
+        }
+
+        .just-icon-bg {
+            border-right-color: #FFFFFF;
+        }
+
+        .collected-by .ellipsis-text {
+            color: #FFFFFF;
+        }
+        .collected-by .ellipsis-bg {
+            background-color: #FFFFFF;
+        }
+
+        button.subtop,
+        button.subbot {
+            background: #FFFFFF;
+            color: #000000;
+        }
+
+        .sub .includeditems .item a {
+            color: #FFFFFF;
+        }
+
+        .sub .post-message-link {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #FFFFFF;
+        }
+
+        .sub ul.tierslist li.tier {
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .sub button.tierbutton .spacer {
+            background-color: #000000;
+        }
+
+        ol.sub-navbar li.active,
+        .invertIconography ol.sub-navbar li.active {
+            background-color: #000000;
+        }
+
+        ol.sub-navbar a {
+            color: #FFFFFF;
+        }
+
+        .post-subscribe .button-background {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #FFFFFF;
+        }
+        
+        .post-subscribe .band-link-color,
+        .post-subscribe .message-text button,
+        .post-subscribe .new-feed-stories button,
+        .post-subscribe .new-feed-stories-floater button {
+            color: #FFFFFF;
+        }
+
+        .post-subscribe .new-feed-stories-floater button {
+            background-color: #000000;
+        }
+
+        .buyFullDiscography .art .art-thumb {
+            background-color: #000000;
+        }
+
+        .collected-by .loading {
+            color: #FFFFFF;
+        }
+
+    </style>
+    
+
+
+
+<script type="text/javascript">
+
+    
+    
+    
+    
+    var FarbtasticUrls = {
+        js:  "http://s1.bcbits.com/tmpdata/cache/farbtastic_min_e7b800892c199ab738f9680529c0a6d0.js",      
+        css: "http://s1.bcbits.com/tmpdata/cache/farbtastic_480a6f23f1e63d1f16bca062c24752f5.css"     
+    };
+</script>
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+var BandData = {"has_discounts":false,"is_label":false,"design":{"bg_image_id":null,"body_color":"000000","hd_ft_color":"1A1A1A","bg_file_name":null,"navbar_bg_color":"1A1A1A","invert_iconography":1,"bg_src":null,"text_color":"FFFFFF","tile_bg":null,"defaultbg":false,"secondary_text_color":"FFFFFF","bg_halign":"l","bg_file_id":null,"link_color":"FFFFFF","bg_color":"000000"},"genre_id":20,"private_video_ct":null,"paypal_matching_label_id":null,"thanks_enabled":1,"url_hints":{"subdomain":"friendshipcollective","custom_domain_verified":null,"custom_domain":null},"has_download_codes":false,"has_recommendations":false,"google_analytics_id":null,"header_desktop":{"using_map":null,"height":918,"url":null,"area_tags":null,"paypal_image":{"height":90,"https_url":"https://f1.bcbits.com/img/0005911281_101.jpg","url":"http://f1.bcbits.com/img/0005911281_101.jpg","format":101,"image_id":5911281,"width":240},"image":{"height":180,"https_url":"https://f1.bcbits.com/img/0005911281_100.png","url":"http://f1.bcbits.com/img/0005911281_100.png","format":100,"image_id":5911281,"width":975},"image_id":5911281,"width":2448},"subdomain":"friendshipcollective","playback_limits":{"streaming_limits_enabled":true,"streaming_limit":3},"has_tralbums":true,"has_label":false,"reviews_enabled":1,"has_policies":null,"https_url":"https://friendshipcollective.bandcamp.com","url":"http://friendshipcollective.bandcamp.com","can_enable_buy_full_discography":true,"has_items_for_sale":true,"sites":[],"has_public_tralbums":true,"navbar_items":[{"nav_type":"m","url":"/music","title":"music"},{"nav_type":"p","url":"/merch","title":"merch"},{"nav_type":"v","url":"/video","title":"video"}],"fan_email":null,"header_phone":null,"buy_full_discography_banner_dismissed":null,"has_public_merch":false,"merch_enabled":true,"navbar_hide":false,"name":"FRIENDSHIP","has_any_downloads":true,"local_url":"http://friendshipcollective.bandcamp.com","id":790296723,"public_video_ct":null,"currency":"JPY","https_local_url":"https://friendshipcollective.bandcamp.com","create_date":"20 Sep 2014 00:11:17 GMT"},
+    ReferrerToken = null,
+    CurrencyData = null,
+    PackagesData = null,
+    TralbumData = {
+        url: "http://friendshipcollective.bandcamp.com" + '/music'
+    };
+
+$(document).ready(function() {
+    if ( window.Cart ) {
+        Cart.startup();
+    }
+    if ( window.Showography ){
+        Showography.domReady( false );
+    }
+
+    
+    if ( window.BandFollow )
+        BandFollow.init({"tralbum_type":null,"tralbum_id":null});
+    
+
+    
+});
+
+</script>
+
+
+
+<div id="customHeaderWrapper">
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="customHeader">
+    
+        <div class="desktop-header">
+            <a href="http://friendshipcollective.bandcamp.com"><img src="http://f1.bcbits.com/img/0005911281_100.png" width="975" height="180"></a>
+            
+        </div>
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="bannercontainer">
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+
+
+<div class="leftMiddleColumns">
+    
+
+    
+
+    
+    
+    
+    
+
+
+        
+
+
+<ol class="editable-grid music-grid columns-4   public" data-edit-callback="/music_reorder" data-initial-values="[{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;27 Jan 2016 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　.&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/-&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;05 Dec 2015 14:41:19 GMT&quot;,&quot;id&quot;:1427837617,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:1301587272},{&quot;artist&quot;:null,&quot;type&quot;:&quot;track&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;26 Jan 2016 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;El Chapo&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/track/el-chapo&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;26 Jan 2016 18:16:17 GMT&quot;,&quot;id&quot;:4227877890,&quot;has_audio&quot;:true,&quot;filtered&quot;:null,&quot;art_id&quot;:1965055298},{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;01 Jan 2016 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;The Block&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/the-block&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;31 Dec 2015 15:56:11 GMT&quot;,&quot;id&quot;:3597713556,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:4272854138},{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;01 Jan 2016 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;The Crook&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/the-crook&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;01 Jan 2016 21:14:36 GMT&quot;,&quot;id&quot;:522850759,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:271824264},{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;02 Oct 2015 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;\bT.R.Ø.Y&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/t-r-y&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;02 Oct 2015 14:07:48 GMT&quot;,&quot;id&quot;:3205391747,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:3919391081},{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;02 Oct 2015 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;T.R.O.Y&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/t-r-o-y&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;02 Oct 2015 13:45:11 GMT&quot;,&quot;id&quot;:2464972091,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:564505874},{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;29 Sep 2015 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;¢ompton&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/ompton-2&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;28 Sep 2015 16:31:05 GMT&quot;,&quot;id&quot;:2206114104,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:2773520766},{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;28 Sep 2015 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;€ompton&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/ompton&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;28 Sep 2015 12:27:21 GMT&quot;,&quot;id&quot;:209494710,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:107138446},{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;19 Jun 2015 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;GANG JAZZ BEAT TAPE&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/gang-jazz-beat-tape&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;18 May 2015 18:27:32 GMT&quot;,&quot;id&quot;:3068489481,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:1094617820},{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;19 May 2015 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;GANG JAZZ EP&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/gang-jazz-ep&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;19 May 2015 08:22:09 GMT&quot;,&quot;id&quot;:805831794,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:3727708469},{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;19 May 2015 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;GANG JAZZ EP -IXIIIVIV REMIX-&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/gang-jazz-ep-ixiiiviv-remix&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;19 May 2015 08:22:33 GMT&quot;,&quot;id&quot;:1511659582,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:1163430227},{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;01 Jan 2015 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;KVLT&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/kvlt&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;31 Dec 2014 05:54:04 GMT&quot;,&quot;id&quot;:605211182,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:1231086096},{&quot;artist&quot;:null,&quot;type&quot;:&quot;album&quot;,&quot;band_id&quot;:790296723,&quot;subscriber_only&quot;:null,&quot;release_date&quot;:&quot;24 Oct 2014 00:00:00 GMT&quot;,&quot;featured_date&quot;:null,&quot;hidden_band&quot;:null,&quot;invited_item&quot;:false,&quot;title&quot;:&quot;CREAM BEAT TAPE&quot;,&quot;band_name&quot;:&quot;FRIENDSHIP&quot;,&quot;is_purchasable&quot;:true,&quot;pending_transfer&quot;:null,&quot;page_url&quot;:&quot;/album/cream-beat-tape&quot;,&quot;private&quot;:null,&quot;publish_date&quot;:&quot;24 Oct 2014 02:20:47 GMT&quot;,&quot;id&quot;:3552033142,&quot;has_audio&quot;:null,&quot;filtered&quot;:null,&quot;art_id&quot;:3341376686}]">
+    
+        
+            <li data-item-id="album-1427837617"
+    data-band-id="790296723"
+    class="music-grid-item square first-four
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/-">
+
+        <div class="art"> 
+        
+            
+                <img src="http://f1.bcbits.com/img/a1301587272_2.jpg" alt="" />
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　.
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="track-4227877890"
+    data-band-id="790296723"
+    class="music-grid-item square first-four
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/track/el-chapo">
+
+        <div class="art"> 
+        
+            
+                <img src="http://f1.bcbits.com/img/a1965055298_2.jpg" alt="" />
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            El Chapo
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="album-3597713556"
+    data-band-id="790296723"
+    class="music-grid-item square first-four
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/the-block">
+
+        <div class="art"> 
+        
+            
+                <img src="http://f1.bcbits.com/img/a4272854138_2.jpg" alt="" />
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            The Block
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="album-522850759"
+    data-band-id="790296723"
+    class="music-grid-item square first-four
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/the-crook">
+
+        <div class="art"> 
+        
+            
+                <img src="http://f1.bcbits.com/img/a0271824264_2.jpg" alt="" />
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            The Crook
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="album-3205391747"
+    data-band-id="790296723"
+    class="music-grid-item square 
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/t-r-y">
+
+        <div class="art"> 
+        
+            
+                <img src="http://f1.bcbits.com/img/a3919391081_2.jpg" alt="" />
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            T.R.Ø.Y
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="album-2464972091"
+    data-band-id="790296723"
+    class="music-grid-item square 
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/t-r-o-y">
+
+        <div class="art"> 
+        
+            
+                <img src="http://f1.bcbits.com/img/a0564505874_2.jpg" alt="" />
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            T.R.O.Y
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="album-2206114104"
+    data-band-id="790296723"
+    class="music-grid-item square 
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/ompton-2">
+
+        <div class="art"> 
+        
+            
+                <img src="http://f1.bcbits.com/img/a2773520766_2.jpg" alt="" />
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            ¢ompton
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="album-209494710"
+    data-band-id="790296723"
+    class="music-grid-item square 
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/ompton">
+
+        <div class="art"> 
+        
+            
+                <img src="http://f1.bcbits.com/img/a0107138446_2.jpg" alt="" />
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            €ompton
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="album-3068489481"
+    data-band-id="790296723"
+    class="music-grid-item square 
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/gang-jazz-beat-tape">
+
+        <div class="art"> 
+        
+            
+                <img class="lazy" src="/img/0.gif" data-original="http://f1.bcbits.com/img/a1094617820_2.jpg" alt="">
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            GANG JAZZ BEAT TAPE
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="album-805831794"
+    data-band-id="790296723"
+    class="music-grid-item square 
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/gang-jazz-ep">
+
+        <div class="art"> 
+        
+            
+                <img class="lazy" src="/img/0.gif" data-original="http://f1.bcbits.com/img/a3727708469_2.jpg" alt="">
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            GANG JAZZ EP
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="album-1511659582"
+    data-band-id="790296723"
+    class="music-grid-item square 
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/gang-jazz-ep-ixiiiviv-remix">
+
+        <div class="art"> 
+        
+            
+                <img class="lazy" src="/img/0.gif" data-original="http://f1.bcbits.com/img/a1163430227_2.jpg" alt="">
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            GANG JAZZ EP -IXIIIVIV REMIX-
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="album-605211182"
+    data-band-id="790296723"
+    class="music-grid-item square 
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/kvlt">
+
+        <div class="art"> 
+        
+            
+                <img class="lazy" src="/img/0.gif" data-original="http://f1.bcbits.com/img/a1231086096_2.jpg" alt="">
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            KVLT
+                
+        </p>
+        
+    </a>
+</li>
+        
+            <li data-item-id="album-3552033142"
+    data-band-id="790296723"
+    class="music-grid-item square 
+    
+    "
+    data-bind="css: {'featured': featured()}"
+    
+>
+    <a href="/album/cream-beat-tape">
+
+        <div class="art"> 
+        
+            
+                <img class="lazy" src="/img/0.gif" data-original="http://f1.bcbits.com/img/a3341376686_2.jpg" alt="">
+            
+            
+            
+        
+        </div>
+        
+        <p class="title">
+            CREAM BEAT TAPE
+                
+        </p>
+        
+    </a>
+</li>
+        
+    
+</ol>
+
+
+    
+    
+</div>
+
+<div id="rightColumn" class="rightColumn music-page "
+     itemscope itemtype="http://schema.org/MusicGroup">
+
+    <script type="text/javascript">if (Cart) { Cart.contentsScriptLoad(); }</script>
+
+    
+<meta itemprop="name" content=""/>
+
+
+
+
+
+
+
+<div id="bio-container" data-bind="css: {'ko-ready': $data}">
+    <h3 class="title bio-label hiddenAccess">about</h3>
+    
+        
+            
+            <div class="artists-bio-pic artists-bio-pic-uploaded  landscape">
+                <div class="signed-out bio-pic">
+                    <a class="popupImage" href="http://f1.bcbits.com/img/0006341074_10.jpg" data-image-size="1200,1200" data-image-preload="true">
+                        
+                        <img src="http://f1.bcbits.com/img/0006341074_21.jpg" class="band-photo" alt="FRIENDSHIP image">
+                    </a>
+                </div>
+            </div>
+        
+    
+
+    <p id="band-name-location">
+        <span class="title">FRIENDSHIP</span>
+        <span class="location secondaryText">Chiba, Japan</span>
+    </p>
+
+    <div id="following-actions">
+        
+        <button type="button" class="follow-unfollow compound-button" style="visibility: hidden;">
+            <div>placeholder</div>
+        </button>
+    </div>
+
+    
+        <div class="signed-out-artists-bio-text">
+            
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+    
+    
+
+
+
+
+<h3 id="contact-help" class="title">contact / help</h3>
+
+
+<p><a href="/contact?b=790296723&amp;n=FRIENDSHIP" title="Send an email to FRIENDSHIP">Contact FRIENDSHIP</a></p>
+
+
+
+<p><a href="/downloading?from=tralbum_downloading" target="_blank">Streaming and <span id="sidebar-contact-label-break"><br></span>Download help</a></p>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+            <div style="clear:both"></div>
+        </div>
+        
+            <div id="pgFt">
+            
+                <div id="pgFt-inner" class="pgft-desktop">
+
+    <div id="footer-logo-wrapper">
+    
+        <a id="footer-logo" href="http://bandcamp.com?from=logo" ><span class="hiddenAccess">Bandcamp</span></a>
+    
+        <span class="webapp-selector-ui" style="display:none"></span>
+    </div>
+    
+    <ul id="legal" class="horizNav">
+        
+        <li id="login"><a href="https://bandcamp.com/login">log in</a></li>
+        
+        <li><a href="http://bandcamp.com/terms_of_use">terms of use</a></li>
+        <li><a href="http://bandcamp.com/privacy">privacy</a></li>
+        <li><a href="http://bandcamp.com/copyright">copyright policy</a></li>
+        
+            <li id="site-status"><a href="http://twitter.com/bandcampstatus" target="_blank">status</a></li>
+        
+        
+        
+        <li class="view-switcher desktop"><a>switch to mobile view</a></li>
+        
+    </ul>
+    <span class="static-content">&nbsp;</span>
+
+</div>
+
+
+            
+            </div>
+        
+
+        
+    </div>
+</div>
+
+
+<script type="text/javascript" src="http://s1.bcbits.com/tmpdata/cache/global_foot1_bundle_min_e56713bdb251cea6b4b0781e66acf921.js"></script>
+<script type="text/javascript" src="http://s1.bcbits.com/tmpdata/cache/global_foot2_bundle_min_820abfd3439040828d528759d86d8e61.js"></script>
+
+
+
+
+<script type="text/javascript">
+    
+    JSLoader.writeScriptTags( "foot" );
+    
+</script>    
+
+
+
+<script type="text/javascript" src="http://s1.bcbits.com/tmpdata/cache/jquery_lazyload_bundle_min_e16b495dfa3434859bb3fa0026e3a292.js"></script>
+<script type="text/javascript" src="http://s1.bcbits.com/tmpdata/cache/tralbum_bundle_min_ab6b819d907903298cb33ece2d5f3bab.js"></script>
+<script type="text/javascript" src="http://s1.bcbits.com/tmpdata/cache/tralbum_templates_bundle_min_9f64992071651f6ed5ecef3a3491a690.js"></script>
+
+<script type="text/javascript">
+    
+    
+
+    Dom.initActiveElement();
+</script>
+
+
+
+<script type="text/javascript">
+    (function() {
+
+        Y.util.Event.onDOMReady( function() {
+            Control.handleDomReady();
+            FieldHints.init();
+            Dom.scrollToParamElt();
+        });
+
+    })();
+    
+</script>
+
+
+
+<script type="text/javascript">
+if (!isDebug) {
+    var _gaq = _gaq || [];
+    var _qevents = _qevents || [];
+
+    (function() {
+        var doc = document, isHttps = ('https:' == doc.location.protocol);
+        function loadScript(src) {
+            var n = doc.createElement('script'), s = doc.getElementsByTagName('script')[0]; 
+            n.type = 'text/javascript'; n.async = true; n.src = src;
+            s.parentNode.insertBefore(n, s);            
+        }
+
+        
+        _gaq.push(
+            ['_setAccount', 'UA-4189134-2'],
+            ['_setDomainName', 'bandcamp.com'], 
+            ['_setAllowAnchor', true],
+            ['_trackPageview']
+        
+        );
+        loadScript((isHttps ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
+
+        
+        _qevents.push({qacct:'p-0207-dhLCDgvg'});
+        loadScript((isHttps ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js');
+    })();
+}
+</script>
+<noscript>
+    <div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-0207-dhLCDgvg.gif" border="0" height="1" width="1" alt=""></div>
+</noscript>
+ 
+
+</body>
+</html>
+<!-- bender09-4 Fri Feb 19 00:12:52 UTC 2016 -->
+

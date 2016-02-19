@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html class=" responsive">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Steam Community :: Do you think about me？</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/motiva_sans.css?v=F3z3QpekjE2f" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/buttons.css?v=RPKVppE7GyO7" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/shared_global.css?v=nYGCWUqOhf6M" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/css/globalv2.css?v=UsCJ40EQc3_F" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/modalContent.css?v=.vXD4gU69vdZP" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/profilev2.css?v=n3KAe4gveb8s" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/motiva_sans.css?v=F3z3QpekjE2f" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/shared_responsive.css?v=vIqQrwCTpih8" rel="stylesheet" type="text/css" >
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/header.css?v=z3WBKGTLlnCN" rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/prototype-1.7.js?v=.55t44gwuwgvw"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/scriptaculous/_combined.js?v=9XVsa_Ni33oN&amp;l=english&amp;load=effects,controls,slider,dragdrop"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/global.js?v=eq-0kbl3CRRa&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/shared/javascript/tooltip.js?v=.MkQ-ab-cxeF7"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/shared/javascript/shared_global.js?v=9sKAd-rNik3c&amp;l=english"></script>
+<script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/json2.js?v=pmScf4470EZP&amp;l=english\"><\/script>\n" ); };
+</script><script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/modalContent.js?v=8HIdb_WSYKYA&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/modalv2.js?v=dfMhuy-Lrpyo&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/profile.js?v=jNiKji4OIUJF&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/shared/javascript/shared_responsive_adapter.js?v=WeLSMzFqMp1e&amp;l=english"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33779068-1']);
+  _gaq.push(['_setSampleRate', '0.4']);
+  _gaq.push(['_setCustomVar', 1, 'Logged In', 'false', 2]);
+  _gaq.push(['_setCustomVar', 2, 'Client Type', 'External', 2]);
+  _gaq.push(['_setCustomVar', 3, 'Cntrlr', 'profiles', 3]);
+  _gaq.push(['_setCustomVar', 4, 'Method', "profiles\/", 3]);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_setSessionCookieTimeout', 900000]);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+						<meta name="Description" content="Do you think about me?">
+			
+	
+			<link rel="image_src" href="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/e8/e843851f20d3fec947af451e3ee6cde7a3ffcd11_full.jpg">
+	
+	
+	</head>
+<body class="flat_page profile_page responsive_page">
+
+<div class="responsive_page_frame with_header">
+
+						<div class="responsive_page_menu_ctn mainmenu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://steamcommunity.com/login/home/?goto=id%2FDoYouThinkAboutMe%2F">
+									Login								</a>
+							
+								<a class="menuitem supernav" href="http://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store">
+		Store	</a>
+	<div class="submenu_store" style="display: none;" data-submenuid="store">
+		<a class="submenuitem" href="http://store.steampowered.com/">Featured</a>
+		<a class="submenuitem" href="http://store.steampowered.com/explore/">Explore</a>
+		<a class="submenuitem" href="http://store.steampowered.com/curators/">Curators</a>
+		<a class="submenuitem" href="http://steamcommunity.com/my/wishlist/">Wishlist</a>
+		<a class="submenuitem" href="http://store.steampowered.com/news/">News</a>
+		<a class="submenuitem" href="http://store.steampowered.com/stats/">Stats</a>
+	</div>
+
+
+	<a class="menuitem supernav" style="display: block" href="http://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+		Community	</a>
+	<div class="submenu_community" style="display: none;" data-submenuid="community">
+		<a class="submenuitem" href="http://steamcommunity.com/">Home</a>
+		<a class="submenuitem" href="http://steamcommunity.com/discussions/">Discussions</a>
+		<a class="submenuitem" href="http://steamcommunity.com/workshop/">Workshop</a>
+		<a class="submenuitem" href="http://steamcommunity.com/greenlight/">Greenlight</a>
+		<a class="submenuitem" href="http://steamcommunity.com/market/">Market</a>
+		<a class="submenuitem" href="http://steamcommunity.com/?subsection=broadcasts">Broadcasts</a>
+					</div>
+
+	
+
+	
+	
+	<a class="menuitem" href="https://help.steampowered.com/">
+		Support	</a>
+
+							<div class="minor_menu_items">
+																<div class="menuitem change_language_action">
+									Change language								</div>
+																									<div class="menuitem" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer"></div>
+						<div class="mainmenu_footer">
+							<div class="mainmenu_footer_logo"><img src="http://steamcommunity-a.akamaihd.net/public/shared/images/responsive/logo_valve_footer.png"></div>
+							© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.							<span class="mainmenu_valve_links">
+								<a href="http://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+								&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+								&nbsp;| &nbsp;<a href="http://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+								&nbsp;| &nbsp;<a href="http://store.steampowered.com/steam_refunds/" target="_blank">Refunds</a>
+							</span>
+						</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab" style="display: none;">
+
+		</div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu">
+				<div class="localmenu_content">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="http://steamcommunity-a.akamaihd.net/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<img src="http://steamcommunity-a.akamaihd.net/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+					</div>
+				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+
+		<div class="responsive_fixonscroll_ctn nonresponsive_hidden ">
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div id="global_header">
+	<div class="content">
+
+		<div class="logo">
+			<span id="logo_holder">
+				<a href="http://store.steampowered.com/">
+					<img src="http://steamcommunity-a.akamaihd.net/public/shared/images/header/globalheader_logo.png" width="176" height="44">
+				</a>
+			</span>
+			<!--[if lt IE 7]>
+			<style type="text/css">
+				#logo_holder img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+				#logo_holder { display: inline-block; width: 176px; height: 44px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://steamcommunity-a.akamaihd.net/public/images/v5/globalheader_logo.png'); }
+			</style>
+			<![endif]-->
+		</div>
+
+			<div class="supernav_container">
+	<a class="menuitem supernav" href="http://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store">
+		STORE	</a>
+	<div class="submenu_store" style="display: none;" data-submenuid="store">
+		<a class="submenuitem" href="http://store.steampowered.com/">Featured</a>
+		<a class="submenuitem" href="http://store.steampowered.com/explore/">Explore</a>
+		<a class="submenuitem" href="http://store.steampowered.com/curators/">Curators</a>
+		<a class="submenuitem" href="http://steamcommunity.com/my/wishlist/">Wishlist</a>
+		<a class="submenuitem" href="http://store.steampowered.com/news/">News</a>
+		<a class="submenuitem" href="http://store.steampowered.com/stats/">Stats</a>
+	</div>
+
+
+	<a class="menuitem supernav" style="display: block" href="http://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+		COMMUNITY	</a>
+	<div class="submenu_community" style="display: none;" data-submenuid="community">
+		<a class="submenuitem" href="http://steamcommunity.com/">Home</a>
+		<a class="submenuitem" href="http://steamcommunity.com/discussions/">Discussions</a>
+		<a class="submenuitem" href="http://steamcommunity.com/workshop/">Workshop</a>
+		<a class="submenuitem" href="http://steamcommunity.com/greenlight/">Greenlight</a>
+		<a class="submenuitem" href="http://steamcommunity.com/market/">Market</a>
+		<a class="submenuitem" href="http://steamcommunity.com/?subsection=broadcasts">Broadcasts</a>
+					</div>
+
+	
+
+	
+			<a class="menuitem" href="http://store.steampowered.com/about/">
+			ABOUT		</a>
+	
+	<a class="menuitem" href="https://help.steampowered.com/">
+		SUPPORT	</a>
+	</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('.tooltip').v_tooltip();
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'tooltipClass': 'supernav_content', 'offsetY':-4, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div id="global_action_menu">
+				<div class="header_installsteam_btn header_installsteam_btn_green">
+					<div class="header_installsteam_btn_leftcap"></div>
+					<div class="header_installsteam_btn_rightcap"></div>
+					<a class="header_installsteam_btn_content" href="http://store.steampowered.com/about/">
+						Install Steam					</a>
+				</div>
+
+				
+									<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=id%2FDoYouThinkAboutMe%2F">login</a>
+					&nbsp;|&nbsp;
+					<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+					<div class="popup_block_new" id="language_dropdown" style="display: none;">
+						<div class="popup_body popup_menu">
+																							<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">Български (Bulgarian)</a>
+																							<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">čeština (Czech)</a>
+																							<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">Dansk (Danish)</a>
+																							<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">Nederlands (Dutch)</a>
+																															<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">Suomi (Finnish)</a>
+																							<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">Français (French)</a>
+																							<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">Deutsch (German)</a>
+																							<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">Ελληνικά (Greek)</a>
+																							<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">Magyar (Hungarian)</a>
+																							<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">Italiano (Italian)</a>
+																							<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">日本語 (Japanese)</a>
+																							<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">한국어 (Korean)</a>
+																							<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">Norsk (Norwegian)</a>
+																							<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">Polski (Polish)</a>
+																							<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">Português (Portuguese)</a>
+																							<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">Português-Brasil (Portuguese-Brazil)</a>
+																							<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">Română (Romanian)</a>
+																							<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">Русский (Russian)</a>
+																							<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">简体中文 (Simplified Chinese)</a>
+																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">Español (Spanish)</a>
+																							<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">Svenska (Swedish)</a>
+																							<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">繁體中文 (Traditional Chinese)</a>
+																							<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">ไทย (Thai)</a>
+																							<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">Türkçe (Turkish)</a>
+																							<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">Українська (Ukrainian)</a>
+														<a class="popup_menu_item tight" href="http://translation.steampowered.com" target="_blank">Help us translate Steam</a>
+						</div>
+					</div>
+							</div>
+					</div>
+			</div>
+</div>
+<script type="text/javascript">
+	g_sessionID = "ea8139ecec5357ec36a426a6";
+	g_steamID = false;
+
+	// We always want to have the timezone cookie set for PHP to use
+	setTimezoneCookies();
+
+	$J( function() {
+
+		InitMiniprofileHovers();
+		InitEmoticonHovers();
+		window.BindCommunityTooltip = function( $Selector ) { $Selector.v_tooltip( {'tooltipClass': 'community_tooltip', 'dataName': 'communityTooltip' } ); };
+		BindCommunityTooltip( $J('[data-community-tooltip]') );
+	});
+
+	$J( function() { InitEconomyHovers( "http:\/\/steamcommunity-a.akamaihd.net\/public\/css\/skin_1\/economy.css?v=vDwii4WYKR-_", "http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/economy_common.js?v=tsXdRVB0yEaR&l=english", "http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/economy.js?v=HrXlAXOGqiKY&l=english" );});</script>
+		<div class="responsive_page_template_content">
+
+				<script type="text/javascript">
+		g_rgProfileData = {"url":"http:\/\/steamcommunity.com\/id\/DoYouThinkAboutMe\/","steamid":"76561198142291269","personaname":"Do you think about me\uff1f","summary":"Do you think about me?"};
+		$J( function() {
+			window.Responsive_ReparentItemsInResponsiveMode && Responsive_ReparentItemsInResponsiveMode( '.responsive_groupfriends_element', $J('#responsive_groupfriends_element_ctn') );
+
+					});
+	</script>
+
+
+<div class="no_header profile_page has_profile_background " style="background-image: url( 'http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/ef7cb44d312df5038cba0f69a0901da427900645.jpg' );">
+
+	<div class="profile_header_bg">
+
+
+	<div class="profile_header_bg_texture">
+		
+		<div class="profile_header">
+
+			<div class="profile_header_content">
+
+								<div class="profile_header_centered_persona">
+					<div class="persona_name" style="font-size: 24px;">
+						<span class="actual_persona_name">Do you think about me？</span>
+												<span class="namehistory_link" onclick="ShowAliasPopup( this );">
+								<img id="getnamehistory_arrow" src="http://steamcommunity-a.akamaihd.net/public/images/skin_1/arrowDn9x5.gif" width="9" height="5" border="0">
+							</span>
+						<div id="NamePopup" class="popup_block_new" style="display: none;">
+							<div class="popup_body popup_menu">
+								<div>This user has also played as:</div>
+								<div id="NamePopupAliases">
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+										<div class="header_real_name ellipsis">
+						<bdi>Se2NyaaaaaaaN</bdi>
+													&nbsp;
+																			<img class="profile_flag" src="http://steamcommunity-a.akamaihd.net/public/images/countryflags/jp.gif">
+												Japan					</div>
+									</div>
+
+				<div class="playerAvatar profile_header_size in-game">
+					<div class="playerAvatarAutoSizeInner"><img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/e8/e843851f20d3fec947af451e3ee6cde7a3ffcd11_full.jpg"></div>
+				</div>
+				<div class="profile_header_badgeinfo">
+					<div class="profile_header_badgeinfo_badge_area">
+													<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/badges">
+								<div class="persona_name persona_level">Level <div class="friendPlayerLevel lvl_10"><span class="friendPlayerLevelNum">11</span></div></div>
+							</a>
+															<div class="profile_header_badge">
+																			<div class="favorite_badge">
+											<div class="favorite_badge_icon" data-community-tooltip="Elite Crewman<br>
+Counter-Strike: Global Offensive Foil Badge">
+												<a class="whiteLink" href="http://steamcommunity.com/id/DoYouThinkAboutMe/gamecards/730?border=1">
+													<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/8203d824739e19c69aa4e33d761ce53a16159d19.png">
+												</a>
+											</div>
+											<div class="favorite_badge_description">
+												<div class="name"><a class="whiteLink" href="http://steamcommunity.com/id/DoYouThinkAboutMe/gamecards/730?border=1">Elite Crewman</a></div>
+												<div class="xp">100 XP</div>
+											</div>
+										</div>
+																	</div>
+																		</div>
+					<div class="profile_header_actions">
+											</div>
+				</div>
+
+				<div class="profile_header_summary">
+					<div class="persona_name persona_name_spacer" style="font-size: 24px;">
+						<span class="actual_persona_name">&nbsp;</span>
+					</div>
+											<div class="header_real_name_spacer">&nbsp;</div>
+						<div class="profile_summary">
+							Do you think about me?						</div>
+						<div class="profile_summary_footer">
+							<span class="whiteLink" class="whiteLink">View more info</span>
+						</div>
+						<script type="text/javascript"> $J( function() { InitProfileSummary( g_rgProfileData['summary'] ); } ); </script>
+									</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="profile_content has_profile_background">
+		
+			<div class="profile_background_holder_content">
+				<div class="profile_background_overlay_content"></div>
+				<div class="profile_background_image_content " style="background-image: url(http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/ef7cb44d312df5038cba0f69a0901da427900645.jpg);">
+				</div>
+			</div>
+				<div class="profile_content_inner">
+			
+
+
+			
+			<div class="profile_rightcol">
+				<div class="responsive_status_info">
+						<div class="profile_in_game persona in-game">
+		<div class="profile_in_game_header">Currently In-Game</div>
+		<div class="profile_in_game_name">Counter-Strike: Global Offensive</div>
+		
+					<div class="profile_in_game_joingame">
+									<a href="steam://" class="btn_green_white_innerfade btn_small_thin">
+						<span>Join Game</span>
+					</a>
+											</div>
+			</div>
+									</div>
+
+				<div class="responsive_count_link_area">
+					<div class="profile_badges">
+						<div class="profile_count_link_preview_ctn">
+																<div class="profile_count_link ellipsis">
+						<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/badges/">
+							<span class="count_link_label">Badges</span>&nbsp;
+							<span class="profile_count_link_total">
+																	8															</span>
+						</a>
+					</div>
+														<div class="profile_count_link_preview">
+																									<div class="profile_badges_badge " data-community-tooltip="Community Ambassador">
+										<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/badges/2">
+											<img src="http://steamcommunity-a.akamaihd.net/public/images/badges/01_community/community03_54.png">
+										</a>
+									</div>
+																										<div class="profile_badges_badge " data-community-tooltip="Elite Crewman<br>
+Counter-Strike: Global Offensive Foil Badge">
+										<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/gamecards/730?border=1">
+											<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/8203d824739e19c69aa4e33d761ce53a16159d19.png">
+										</a>
+									</div>
+																										<div class="profile_badges_badge " data-community-tooltip="Global Sentinel<br>
+Level 5 Counter-Strike: Global Offensive Badge">
+										<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/gamecards/730">
+											<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/400f2cdf69db174f5616038edbb7a3f8e917ae00.png">
+										</a>
+									</div>
+																										<div class="profile_badges_badge last" data-community-tooltip="Stray Dogs<br>
+Level 1 METAL GEAR SOLID V: THE PHANTOM PAIN Badge">
+										<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/gamecards/287700">
+											<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/287700/fe50f41e82031ea3c743fc3c765191a90ce461dd.png">
+										</a>
+									</div>
+																	<div style="clear: left;"></div>
+							</div>
+						</div>
+					</div>
+
+					<div id="responsive_groupfriends_element_ctn">
+					</div>
+
+					<div class="profile_item_links">
+															<div class="profile_count_link ellipsis">
+						<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/games/?tab=all">
+							<span class="count_link_label">Games</span>&nbsp;
+							<span class="profile_count_link_total">
+																	7															</span>
+						</a>
+					</div>
+																						<div class="profile_count_link ellipsis">
+						<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/inventory/">
+							<span class="count_link_label">Inventory</span>&nbsp;
+							<span class="profile_count_link_total">
+																	&nbsp; <!-- so the line spaces like the rest -->
+															</span>
+						</a>
+					</div>
+																																																													<div class="profile_count_link ellipsis">
+						<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/recommended/">
+							<span class="count_link_label">Reviews</span>&nbsp;
+							<span class="profile_count_link_total">
+																	1															</span>
+						</a>
+					</div>
+																																																				<div style="clear: left;"></div>
+					</div>
+				</div>
+
+									<div class="profile_group_links profile_count_link_preview_ctn responsive_groupfriends_element">
+															<div class="profile_count_link ellipsis">
+						<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/groups/">
+							<span class="count_link_label">Groups</span>&nbsp;
+							<span class="profile_count_link_total">
+																	7															</span>
+						</a>
+					</div>
+																			<div class="profile_count_link_preview">
+															<div class="profile_group profile_primary_group">
+									<div class="profile_group_avatar">
+										<a href="http://steamcommunity.com/groups/TeamLostEden">
+											<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/fc/fcf4e644f4fba006607a1819993a5a916e9a41f3_medium.jpg">
+										</a>
+									</div>
+									<a class="whiteLink" href="http://steamcommunity.com/groups/TeamLostEden">
+										Team-Lost Eden									</a>
+									<div class="profile_group_membercount">4 Members</div>
+									<div style="clear: left;"></div>
+								</div>
+																															<div class="profile_group">
+										<div class="profile_group_avatar">
+											<a href="http://steamcommunity.com/groups/ExceedJAPAN">
+												<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/96/96ff06daa2369692bcad61dcb5a21f773107ead1.jpg">
+											</a>
+										</div>
+										<a class="whiteLink" href="http://steamcommunity.com/groups/ExceedJAPAN">
+											TeamくExceeD										</a>
+										<div class="profile_group_membercount">11 Members</div>
+										<div style="clear: left;"></div>
+									</div>
+																	<div class="profile_group">
+										<div class="profile_group_avatar">
+											<a href="http://steamcommunity.com/groups/tinkasu">
+												<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg">
+											</a>
+										</div>
+										<a class="whiteLink" href="http://steamcommunity.com/groups/tinkasu">
+											ﾁﾝｶｽ.Gaming										</a>
+										<div class="profile_group_membercount">9 Members</div>
+										<div style="clear: left;"></div>
+									</div>
+																					</div>
+					</div>
+				
+									<div class="profile_friend_links profile_count_link_preview_ctn responsive_groupfriends_element">
+															<div class="profile_count_link ellipsis">
+						<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/friends/">
+							<span class="count_link_label">Friends</span>&nbsp;
+							<span class="profile_count_link_total">
+																	125															</span>
+						</a>
+					</div>
+							
+						
+						<div class="profile_topfriends profile_count_link_preview">
+																	<div class="friendBlock persona online" data-miniprofile="109388351" >
+						<a class="friendBlockLinkOverlay" href="http://steamcommunity.com/id/4Karyy"></a>
+										<div class="friendPlayerLevel lvl_30">
+					<span class="friendPlayerLevelNum">36</span>
+				</div>
+												<div class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/15/15eee57a29c25586af4ea86e7c4f38a9e74484a9_medium.jpg">
+			</div>
+			<div class="friendBlockContent">
+				Espresso<br>
+				<span class="friendSmallText">
+		Online
+				</span>
+			</div>
+		</div>
+																			<div class="friendBlock persona online" data-miniprofile="125509378" >
+						<a class="friendBlockLinkOverlay" href="http://steamcommunity.com/id/koo8844"></a>
+										<div class="friendPlayerLevel lvl_30">
+					<span class="friendPlayerLevelNum">30</span>
+				</div>
+												<div class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/f7/f7783d3cf736ab081f61bb0b645329b16bcf9938_medium.jpg">
+			</div>
+			<div class="friendBlockContent">
+				koo<br>
+				<span class="friendSmallText">
+		Online
+				</span>
+			</div>
+		</div>
+																			<div class="friendBlock persona online" data-miniprofile="237963366" >
+						<a class="friendBlockLinkOverlay" href="http://steamcommunity.com/id/shinononome"></a>
+										<div class="friendPlayerLevel lvl_20">
+					<span class="friendPlayerLevelNum">25</span>
+				</div>
+												<div class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/6d/6d934d47940e7fe8d63cb862d7bff0b14ebc9d6c_medium.jpg">
+			</div>
+			<div class="friendBlockContent">
+				人参<br>
+				<span class="friendSmallText">
+		Online
+				</span>
+			</div>
+		</div>
+																			<div class="friendBlock persona offline" data-miniprofile="81315878" >
+						<a class="friendBlockLinkOverlay" href="http://steamcommunity.com/id/byhoody"></a>
+										<div class="friendPlayerLevel lvl_20">
+					<span class="friendPlayerLevelNum">25</span>
+				</div>
+												<div class="playerAvatar offline">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/47/47a14cd6409d418456f626274db8fbcff385eee7_medium.jpg">
+			</div>
+			<div class="friendBlockContent">
+				SANTA<br>
+				<span class="friendSmallText">
+		Last Online 1 hrs, 46 mins ago
+				</span>
+			</div>
+		</div>
+																			<div class="friendBlock persona offline" data-miniprofile="231786778" >
+						<a class="friendBlockLinkOverlay" href="http://steamcommunity.com/id/yukicoro"></a>
+										<div class="friendPlayerLevel lvl_20">
+					<span class="friendPlayerLevelNum">25</span>
+				</div>
+												<div class="playerAvatar offline">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/90/9030f0e4be809e468ed1bc39b73176a26e37324f_medium.jpg">
+			</div>
+			<div class="friendBlockContent">
+				YukicoR :3<br>
+				<span class="friendSmallText">
+		Last Online 11 hrs, 16 mins ago
+				</span>
+			</div>
+		</div>
+																			<div class="friendBlock persona offline" data-miniprofile="101468988" >
+						<a class="friendBlockLinkOverlay" href="http://steamcommunity.com/profiles/76561198061734716"></a>
+										<div class="friendPlayerLevel lvl_20">
+					<span class="friendPlayerLevelNum">23</span>
+				</div>
+												<div class="playerAvatar offline">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/25/2560ef99862f2a8b235f6ddc9eb4ddd28e2448a2_medium.jpg">
+			</div>
+			<div class="friendBlockContent">
+				Nanairo༼ つ◕_◕༼ つ<br>
+				<span class="friendSmallText">
+		Last Online 9 hrs, 28 mins ago
+				</span>
+			</div>
+		</div>
+															</div>
+					</div>
+				
+			</div>
+
+
+			<div class="profile_leftcol">
+
+									<div class="profile_customization_area">
+						
+<div class="profile_customization">
+		<div class="profile_customization_header">
+		Item Showcase	</div>
+	<div class="profile_customization_block">
+		<div class="item_showcase">
+			<div class="">
+				<div class="showcase_slot_row">
+											<div class="showcase_slot item_showcase_item " style="border-color: #8650AC; " data-economy-item="730/2/5113328315/76561198142291269">
+							<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/inventory/#730_2_5113328315">
+								<img class="item_image" src="http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1f_BYQJD4eO7lZKJm_LLNbrVk1Rd4cJ5nqeUoo2s0Qe1qUVqYGuhddSSdgRqMlHWr1nrk7u705-0uJrKnyNm6CQq-z-DyE8NXPC5/96fx96f" srcset="http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1f_BYQJD4eO7lZKJm_LLNbrVk1Rd4cJ5nqeUoo2s0Qe1qUVqYGuhddSSdgRqMlHWr1nrk7u705-0uJrKnyNm6CQq-z-DyE8NXPC5/96fx96f 1x, http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1f_BYQJD4eO7lZKJm_LLNbrVk1Rd4cJ5nqeUoo2s0Qe1qUVqYGuhddSSdgRqMlHWr1nrk7u705-0uJrKnyNm6CQq-z-DyE8NXPC5/96fx96fdpx2x 2x">
+							</a>
+													</div>
+																<a class="showcase_stat item_count_stat" href="http://steamcommunity.com/id/DoYouThinkAboutMe/inventory/">
+						<div class="value">52</div>
+						<div class="label">Items Owned</div>
+					</a>
+					<div style="clear: left;"></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>											</div>
+								<div class="profile_recentgame_header profile_leftcol_header">
+					<h2>Recent Activity</h2>
+											<div class="recentgame_quicklinks recentgame_recentplaytime">
+							<h2>306.3 hours past 2 weeks</h2>
+						</div>
+										<div style="clear: both;"></div>
+				</div>
+
+								<div class="recent_games">
+											<div class="recent_game">
+							<div class="recent_game_content">
+								<div class="game_info">
+									<div class="game_info_cap"><a href="http://steamcommunity.com/app/730"><img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/730/d0595ff02f5c79fd19b06f4d6165c3fda2372820.jpg"></a></div>
+									<div class="game_info_details">
+										2,303 hrs on record<br>
+																					Currently In-Game																			</div>
+									<div class="game_name"><a class="whiteLink" href="http://steamcommunity.com/app/730">Counter-Strike: Global Offensive</a></div>
+								</div>
+
+									<div class="game_info_stats">
+					<div class="game_info_achievements_badge">
+									<!-- only badge, no achievements -->
+					<div class="game_info_badge_border">
+						<div class="game_info_badge">
+							<div class="game_info_badge_icon">
+								<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/gamecards/730?border=1">
+									<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/8203d824739e19c69aa4e33d761ce53a16159d19.png">
+								</a>
+							</div>
+							<div class="game_info_badge_description">
+								<div class="name"><a class="whiteLink" href="http://steamcommunity.com/id/DoYouThinkAboutMe/gamecards/730?border=1">Elite Crewman</a></div>
+								<div class="xp">100 XP</div>
+							</div>
+						</div>
+					</div>
+													<div class="game_info_achievements">
+						<div class="game_info_achievements_summary_area">
+							<span class="game_info_achievement_summary">
+								<a class="whiteLink" href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/730/achievements/">Achievement Progress</a>
+								&nbsp; <span class="ellipsis">91 of 167</span>
+							</span>
+							<div class="achievement_progress_bar_ctn">
+																	<div class="progress_bar" style="width: 54%;">
+
+									</div>
+															</div>
+						</div>
+						<div class="achievement_icons">
+																						<div class="game_info_achievement" data-community-tooltip="Blood Money">
+									<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/730/achievements/">
+										<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/730/eeed5298fbd3d97c0506a3e8d01c17bedaa5cb73.jpg">
+									</a>
+								</div>
+															<div class="game_info_achievement" data-community-tooltip="HE Grenade Expert">
+									<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/730/achievements/">
+										<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/730/4ecce5887ef01d594aa9bb3f3052a9d854bc0f83.jpg">
+									</a>
+								</div>
+															<div class="game_info_achievement" data-community-tooltip="Denied!">
+									<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/730/achievements/">
+										<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/730/9a1cd597e0b3b4f24ef9bf2daf4ca67f40aab770.jpg">
+									</a>
+								</div>
+															<div class="game_info_achievement" data-community-tooltip="Born Ready">
+									<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/730/achievements/">
+										<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/730/5856a57c4a43a209287ef5d4d2ab2cd2e6d4bc76.jpg">
+									</a>
+								</div>
+															<div class="game_info_achievement" data-community-tooltip="FIRST!">
+									<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/730/achievements/">
+										<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/730/f43514b35d97147befe3d0206c256abe16494d10.jpg">
+									</a>
+								</div>
+																						<div class="game_info_achievement plus_more" onclick="window.location='http://steamcommunity.com/id/DoYouThinkAboutMe/stats/730/achievements/'">
+									+86								</div>
+													</div>
+					</div>
+								<div style="clear: both;"></div>
+			</div>
+											<div class="game_info_stats_rule"></div>
+						<div class="game_info_stats_publishedfilecounts">
+						<span class="published_file_count_ctn">
+			<span class="published_file_icon recommendation"></span>
+			<a class="published_file_link" href="http://steamcommunity.com/id/DoYouThinkAboutMe/recommended/730/">Review 1</a>
+		</span>
+					</div>
+			</div>
+							</div>
+						</div>
+											<div class="recent_game">
+							<div class="recent_game_content">
+								<div class="game_info">
+									<div class="game_info_cap"><a href="http://steamcommunity.com/app/218620"><img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/218620/4467a70648f49a6b309b41b81b4531f9a20ed99d.jpg"></a></div>
+									<div class="game_info_details">
+										0.8 hrs on record<br>
+																																	last played on Aug 21, 2015																														</div>
+									<div class="game_name"><a class="whiteLink" href="http://steamcommunity.com/app/218620">PAYDAY 2</a></div>
+								</div>
+
+															</div>
+						</div>
+											<div class="recent_game">
+							<div class="recent_game_content">
+								<div class="game_info">
+									<div class="game_info_cap"><a href="http://steamcommunity.com/app/550"><img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/550/205863cc21e751a576d6fff851984b3170684142.jpg"></a></div>
+									<div class="game_info_details">
+										5.4 hrs on record<br>
+																																	last played on Jun 15, 2015																														</div>
+									<div class="game_name"><a class="whiteLink" href="http://steamcommunity.com/app/550">Left 4 Dead 2</a></div>
+								</div>
+
+									<div class="game_info_stats">
+					<div class="game_info_achievements_only_ctn">
+													<div class="game_info_achievements">
+						<div class="game_info_achievements_summary_area">
+							<span class="game_info_achievement_summary">
+								<a class="whiteLink" href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/550/achievements/">Achievement Progress</a>
+								&nbsp; <span class="ellipsis">6 of 70</span>
+							</span>
+							<div class="achievement_progress_bar_ctn">
+																	<div class="progress_bar" style="width: 8%;">
+
+									</div>
+															</div>
+						</div>
+						<div class="achievement_icons">
+																						<div class="game_info_achievement" data-community-tooltip="CRASS MENAGERIE">
+									<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/550/achievements/">
+										<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/550/b1b772b233b812fd410aee1f175f8b1cb4fe4e43.jpg">
+									</a>
+								</div>
+															<div class="game_info_achievement" data-community-tooltip="FORE!">
+									<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/550/achievements/">
+										<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/550/4b7419de2cc8fb958218e2d5187e18b66801e8c8.jpg">
+									</a>
+								</div>
+															<div class="game_info_achievement" data-community-tooltip="A RIDE DENIED">
+									<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/550/achievements/">
+										<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/550/b65a6518c0680448e996e2190d1ed6b00ad14935.jpg">
+									</a>
+								</div>
+															<div class="game_info_achievement" data-community-tooltip="GREAT EXPECTORATIONS">
+									<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/550/achievements/">
+										<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/550/93aa9619d54a32b082f90d64c1449673beca86bd.jpg">
+									</a>
+								</div>
+															<div class="game_info_achievement" data-community-tooltip="GHOST OF CHRISTMAS PRESENT">
+									<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/550/achievements/">
+										<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/550/8c808b4d4f3b4abcabe4db393acf962f58243cbe.jpg">
+									</a>
+								</div>
+															<div class="game_info_achievement" data-community-tooltip="PRICE CHOPPER">
+									<a href="http://steamcommunity.com/id/DoYouThinkAboutMe/stats/550/achievements/">
+										<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/550/457f8cdaaafff9820a12d8509882b9c7a0f24463.jpg">
+									</a>
+								</div>
+																				</div>
+					</div>
+								<div style="clear: both;"></div>
+			</div>
+					</div>
+							</div>
+						</div>
+									</div>
+				<div>
+					<div class="recentgame_quicklinks">
+						View						<a class="whiteLink" href="http://steamcommunity.com/id/DoYouThinkAboutMe/games/">All Recently Played</a>
+																			| <a class="whiteLink" href="http://steamcommunity.com/id/DoYouThinkAboutMe/recommended/">Reviews</a>
+											</div>
+					<div style="clear: right;"></div>
+				</div>
+				
+				<div class="profile_comment_area">
+					<script type="text/javascript">
+	$J( function() {
+		InitializeCommentThread( "Profile", "Profile_76561198142291269_0", {"feature":"-1","feature2":0,"owner":"76561198142291269","total_count":1,"start":0,"pagesize":6,"has_upvoted":0,"upvotes":0,"votecountid":null,"voteupid":null,"commentcountid":null,"subscribed":false}, 'http://steamcommunity.com/comment/Profile/', 40 );
+	} );
+</script>
+<div class="commentthread_area"  id="commentthread_Profile_76561198142291269_0_area">
+	<div class="commentthread_header">
+		<div class="commentthread_paging " id="commentthread_Profile_76561198142291269_0_pagecontrols">
+						<span id="commentthread_Profile_76561198142291269_0_pagebtn_prev" class="pagebtn">&lt;</span>
+			<span id="commentthread_Profile_76561198142291269_0_pagelinks" class="commentthread_pagelinks"></span>
+			<span id="commentthread_Profile_76561198142291269_0_pagedropdown" class="commentthread_pagedropdown"></span>
+			<span id="commentthread_Profile_76561198142291269_0_pagebtn_next" class="pagebtn">&gt;</span>
+		</div>
+		<div class="commentthread_count">
+			<span class="ellipsis commentthread_count_label">
+									<span class="commentthread_header_label">Comments</span>
+							</span>
+					</div>
+		<div style="clear: both;"></div>
+	</div>
+				<!-- 21 -->
+				<div class="commentthread_comment_container" id="commentthread_Profile_76561198142291269_0_postcontainer">
+			<div class="commentthread_comments" id="commentthread_Profile_76561198142291269_0_posts">
+						<div class="commentthread_comment responsive_body_text  " id="comment_458605613409468019" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+			<a href="http://steamcommunity.com/id/reqlz" data-miniprofile="237860247">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/65/65b780d341c66c1f05f34bb02a126da123cea515.jpg" srcset="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/65/65b780d341c66c1f05f34bb02a126da123cea515.jpg 1x, http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/65/65b780d341c66c1f05f34bb02a126da123cea515_medium.jpg 2x">			</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link" href="http://steamcommunity.com/id/reqlz"  data-miniprofile="237860247">
+					<bdi>ReqLz</bdi></a>
+
+				
+				
+				<span class="commentthread_comment_timestamp">
+					Jan 11 @ 8:57am&nbsp;
+				</span>
+							</div>
+			<div class="commentthread_comment_text"  id="comment_content_458605613409468019">
+				てめえをぶちころしてやる			</div>
+								</div>
+			</div>
+			</div>
+		</div>
+		<div class="commentthread_footer">
+			<div class="commentthread_paging" id="commentthread_Profile_76561198142291269_0_fpagecontrols">
+				<span id="commentthread_Profile_76561198142291269_0_fpagebtn_prev" class="pagebtn">&lt;</span>
+				<span id="commentthread_Profile_76561198142291269_0_fpagelinks" class="commentthread_pagelinks"></span>
+				<span id="commentthread_Profile_76561198142291269_0_fpagedropdown" class="commentthread_pagedropdown"></span>
+				<span id="commentthread_Profile_76561198142291269_0_fpagebtn_next" class="pagebtn">&gt;</span>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>				</div>
+			</div>
+
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+
+</div>
+
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+			<div id="footer_spacer"></div>
+	<div id="footer_responsive_optin_spacer"></div>
+	<div id="footer">
+		<div class="footer_content">
+			<span id="footerLogo"><img src="http://steamcommunity-a.akamaihd.net/public/images/skin_1/footerLogo_valve.png?v=1" width="96" height="26" border="0" alt="Valve Logo" /></span>
+			<span id="footerText">
+				&copy; Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.<br/>Some geospatial data on this website is provided by <a target="_blank" href="https://steamcommunity.com/linkfilter/?url=http://www.geonames.org">geonames.org</a>.				<br>
+									<span class="valve_links">
+						<a href="http://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+						&nbsp; | &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+						&nbsp;| &nbsp;<a href="http://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+					</span>
+							</span>
+		</div>
+					<div class="responsive_optin_link">
+				<div class="btn_medium btnv6_grey_black" onclick="Responsive_RequestMobileView()">
+					<span>View mobile website</span>
+				</div>
+			</div>
+			</div>
+	
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>

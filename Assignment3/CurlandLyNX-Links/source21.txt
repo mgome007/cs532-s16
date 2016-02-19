@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Helen Landalf: Official Author Site</title>
+<link href="/css/h_landalf.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/video-js.css" rel="stylesheet" type="text/css" media="all" />
+<script language="javascript" src="/js/h_landalf.js"></script>
+<script language="javascript" src="/js/video.js"></script>
+
+
+
+
+<!-- Must run after the VideoJS javascript file has been included -->
+
+    <script type="text/javascript" charset="utf-8">
+
+      // Add VideoJS to all video tags on the page when the DOM is ready
+      VideoJS.setupAllWhenReady();
+
+    </script>
+    
+
+</head>
+
+
+<body onLoad="MM_preloadImages('images/for_teachers_a.png','images/about_me_a.png','images/contact_a.png','images/news_a.png','images/books_a.png','images/home_a.png','images/blog_a.png','images/bbd_llc_a.png')">
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19833407-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+<div id="container">
+
+<div id="banner">
+<a href="/index.php"><img src="images/trans.gif" width="900" height="146" alt="Helen Landalf's Website" /></a>
+
+<!-- #banner end --></div>
+
+
+<div id="nav">
+
+    <ul>
+
+         
+          <li><a href="/about_me.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('about','','/images/about_me_a.png',1)"><img src="/images/about_me.png" alt="about me" name="about" width="100" height="36" border="0" id="about" /></a></li>
+          
+            <li><a href="/books/index.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Books','','/images/books_a.png',1)"><img src="/images/books.png" alt="Books" name="Books" width="71" height="36" border="0" id="Books" /></a></li>
+            
+          <li><a href="/for_teachers/index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('For Teachers','','/images/for_teachers_a.png',1)"><img src="/images/for_teachers.png" alt="For Teachers" name="For Teachers" width="146" height="36" border="0" id="For Teachers" /></a></li>
+          
+          
+<li><a href="/contact.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact','','/images/contact_a.png',1)"><img src="/images/contact.png" alt="contact" name="contact" width="88" height="36" border="0" id="contact" /></a></li>
+          
+          <li><a href="/news.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('News','','/images/news_a.png',1)"><img src="/images/news.png" alt="News" name="News" width="57" height="36" border="0" id="News" /></a></li>
+          
+             <li><a href="/blog/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('blog','','/images/blog_a.png',1)"><img src="/images/blog.png" alt="blog" name="blog" width="54" height="36" border="0"></a></li>
+         
+          <li><a href="/index.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Home','','/images/home_a.png',1)"><img src="/images/home.png" alt="Home" name="Home" width="62" height="36" border="0" id="Home" /></a></li>
+   
+        
+
+    </ul>
+    
+
+
+
+<!-- #nav end --></div>
+
+<div id="main_content">
+
+
+      <div id="left_col">
+      
+<div class="bw_bl"><div class="bw_br"><div class="bw_tl"><div class="bw_tr">      
+ <!--
+<h1>HELEN LANDALF<br />
+Books for Teens, Teachers, and Kids</h1>-->
+
+
+<h1>Welcome to my website!</h1>
+
+<a href="books/teens/index.php"><img class="float_right" src="images/flyaway_pb220.jpg" width="220" height="330" alt="flyaway_cover"  /></a>
+
+<p>I've published books for <a href="books/teachers/index.php">teachers</a> and <a href="books/children/index.php">children</a>, and my debut YA novel, <a href="books/teens/index.php"><strong>Flyaway</strong></a> is available from <a href="http://www.hmhco.com/index.html" target="_blank">Houghton Mifflin Harcourt</a>.</p>
+
+<br />
+
+<!-- <h2>Available now from Houghton Mifflin Harcourt:</h2> -->
+
+<h1>Flyaway</h1>
+
+<p>Fifteen-year-old Stevie Calhoun is used to taking care of herself. But one night, her mom, who works as an exotic dancer in a downtown Seattle nightclub, never comes home.</p>
+
+<p>That's the night Stevie's life turns upside down. <a href="books/teens/index.php">(MORE)</a></p>
+
+
+
+<br />
+          
+<p style="font-size:1.2rem"><em>&quot;FLYAWAY is so good I read it in one sitting.  I had intended to set it aside for later, but I read the first sentence, and then the next, and by then it was too late; I was hooked!&quot;</em> <strong>&mdash;Han Nolan, National Book Award winner</strong></p>
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+     
+  
+</div></div></div></div> 
+<div class="bw_clear">&nbsp;</div>
+  
+  
+      
+   
+      <!-- #left_col end --></div>
+      
+      <div id="right_col">
+    <div class="bw_bl"><div class="bw_br"><div class="bw_tl"><div class="bw_tr">    
+<img class="birds" src="/images/blue_birds.png" width="70" height="50" alt="blue birds" /> 
+
+<h2>Please stay awhile</h2> 
+<p>and learn more about <a href="books/teens/index.php">Flyaway</a>, check out my books for <a href="books/teachers/index.php">teachers</a> and <a href="books/children/index.php">kids</a>, and catch up on my <a href="news.php">latest news</a>. If you want to know more about me, I invite you to read <a href="/blog/">my blog</a> or <a href="contact.php">contact me</a>. You are the reason I write, so I'd love to <a href="contact.php">hear from you</a>.</p>   
+<br />
+
+     
+      
+</div></div></div></div> 
+<div class="bw_clear">&nbsp;</div>
+  
+      
+      
+   
+<br />
+
+
+
+<div class="bw_bl"><div class="bw_br"><div class="bw_tl"><div class="bw_tr">
+   
+    <!-- Begin VideoJS -->
+    <div class="video-js-box">  
+    <!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
+<video class="video-js" controls="controls" poster="http://helenlandalf.com/images/flyaway_trailer_poster.jpg" width="280" height="210">
+	<source src="http://helenlandalf.com/trailers/flyaway.mp4" type="video/mp4" />
+	<source src="http://helenlandalf.com/trailers/flyaway.webm" type="video/webm" />
+	<source src="http://http://helenlandalf.com/trailers/flyaway.ogv" type="video/ogg" />
+	<object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="280" height="210">
+		<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+		<param name="allowFullScreen" value="true" />
+		<param name="wmode" value="transparent" />
+		<param name="flashVars" value="config={'playlist':['http%3A%2F%2Fhelenlandalf.com%2Fimages%2Fflyaway_trailer_poster.jpg',{'url':'http%3A%2F%2Fhttp%3A%2F%2Fhelenlandalf.com%2Ftrailers%2Fflyaway.mp4','autoPlay':false}]}" />
+		<img alt="Flyaway by Helen Landalf" src="http://helenlandalf.com/images/flyaway_trailer_poster.jpg" width="280" height="210" title="No video playback capabilities, please download the video below" />
+	</object>
+</video>
+
+<!-- video div end --></div>
+
+
+</div></div></div></div> 
+<div class="bw_clear">&nbsp;</div>
+  
+      
+      
+   
+<br />
+
+
+
+
+
+
+
+
+      
+ <div class="bw_bl"><div class="bw_br"><div class="bw_tl"><div class="bw_tr">          <h2>Recent Blog Posts</h2>
+      <br />
+<ul id="blog_posts">
+       
+
+
+  <li><a href="http://helenlandalf.com/blog/?p=2535">My big news!</a></li><li><a href="http://helenlandalf.com/blog/?p=2528">End of an Era</a></li><li><a href="http://helenlandalf.com/blog/?p=2525">How do you know when no is "no"?</a></li> 
+
+ 
+</ul>
+  <br />
+  <br />
+   
+      
+</div></div></div></div> 
+<div class="bw_clear">&nbsp;</div>
+  
+      
+      
+      <!-- #right_col end --></div>
+
+
+
+
+
+<!-- #main_content end --></div>
+
+<div class="clear_both"></div>
+
+
+
+
+
+
+
+
+<div id="footer">
+
+<a href="http://barrettdowelldesignllc.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('bdd_llc','','/images/bbd_llc_a.png',1)"><img src="/images/bbd_llc.png" alt="Barrett Dowell Design, LLC" name="bdd_llc" width="157" height="33" border="0" id="bdd_llc_credit" /></a></li>
+
+
+
+
+<img id="hlandalf_rights" src="/images/rights.png" width="231" height="31" alt="2010 Helen Landalf All Rights Reserved" />
+
+<div id="social_media">
+<a id="twitter" href="http://twitter.com/helenlandalf" target="_blank"><img src="/images/twitter_logo.png" width="29" height="29" alt="twitter" /></a>
+
+<a id="facebook" href="http://www.facebook.com/profile.php?id=584871861"><img src="/images/fb.png" width="29" height="31" alt="Facebook" /></a>
+
+ <!-- #social_media end --></div>                   
+<!-- #footer close --></div>
+
+
+
+<!-- #container end --></div>
+
+
+
+
+
+</body>
+</html>

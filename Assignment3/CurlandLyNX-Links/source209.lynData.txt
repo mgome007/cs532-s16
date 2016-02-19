@@ -1,0 +1,918 @@
+   #[1]MAD3 Linux - Atom [2]MAD3 Linux - RSS
+
+MAD3 Linux
+
+   Blog que foca abordar sobre basicamente 3 assuntos: Software Livre,
+   Tutoriais e How-To(Como fazer), Tecnologia em geral. Follow us
+   @mad3linux.
+
+Páginas
+
+     * [3]Início
+     * [4]MAD3Linux Team
+     * [5]Downloads
+
+4 de nov de 2015
+
+[6]Recuperando Discos Rígidos com Bad Blocks ou Setores Defeituosos
+
+   [7]Enviar por e-mail[8]BlogThis![9]Compartilhar no
+   Twitter[10]Compartilhar no Facebook[11]Compartilhar com o Pinterest
+   Bad block ou setor defeituoso é o nome dado a uma área danificada em um
+   disco rígido. É um problema físico, i. e., a mídia magnética do disco
+   rígido está com defeito. Quando usamos um utilitário de disco como o
+   Scandisk ou Norton Disk Doctor esses setores com defeito são marcados
+   com um "B".
+   Vários usuários nos escrevem perguntando como proceder para recuperar
+   discos rígidos com bad blocks. Muitos referem que os bad
+   blocks desaparecem depois de formatar os discos rígidos em baixo nível.
+   O que realmente acontece, porém, é que os atuais programas de
+   formatação física não formatam fisicamente o disco. Se isso fosse
+   possível, o disco rígido seria danificado, uma vez que as trilhas de um
+   disco rígido tem um sinal chamado servo que funciona como um guia para
+   a cabeça do disco rígido. Se realmente um disco rígido for formatado em
+   baixo nível, esses servos seriam apagados e a cabeça do disco rígido
+   seria incapaz de se mover.
+   Programas de formatação de baixo nível são utilitários para detectar os
+   setores defeituosos e para apagar o disco (por razões de segurança, por
+   exemplo, após terminar um projeto confidencial), não efetuando - apesar
+   do nome - a formatação de baixo nível.
+   Estes programas têm uma função interessante, que é atualizar o mapa de
+   setores defeituosos do disco. Quando você usa esta opção, o programa
+   varre o disco procurando por setores defeituosos e atualiza o mapa do
+   disco.
+   Quando você faz uma formatação em alto nível (através do comando
+   format), esse comando ignora os setores constantes nessa tabela de
+   setores defeituosos. Assim, não haverá qualquer sector marcado com B
+   ("Bad Block") no sistema de arquivo (por exemplo FAT, NTFS, ext4),
+   embora os setores defeituosos permanecem no disco.
+   Os setores defeituosos não são removidos, mas apenas marcados nessa
+   tabela de setores defeituosos, resultando na evasão deles pelo sistema
+   (em outras palavras, os setores se tornam ocultos).
+   Se novos setores ruins continuarem a ocorrer depois de executar este
+   procedimento, você deve se livrar do disco, pois a superfície magnética
+   está se deteriorando, por algum motivo.
+   O melhor programa para ser aplicada no processo é o do próprio
+   fabricante. Entre no site do fabricante e baixe o utilitário específico
+   para disco rígido.
+
+Alternativa no Linux
+
+   Existe um comando chamado badblocks que faz parte do projeto
+   [12]e2fsprogs (livre). Aprenda como usar através do manual:
+
+     man badblocks
+
+   Escrito por Gabriel Torres, adaptado por Samir Costa.
+   Fonte: [13]http://www.clubedohardware.com.br/artigos/recuperando-discos
+   -rigidos-com-bad-block/561
+   Postado por Samir Costa
+   Marcadores: [14]hardware
+
+2 de out de 2015
+
+[15]Usando Docker em seu Projeto PHP
+
+   [16]Enviar por e-mail[17]BlogThis![18]Compartilhar no
+   Twitter[19]Compartilhar no Facebook[20]Compartilhar com o Pinterest
+
+Introdução
+
+   Depois de muito tempo tentando apenas entender o que é o Docker, achei
+   melhor aprender colocando a mão na massa: Fazer um projeto que usa PHP
+   e PostgreSQL rodar no Docker.
+   O projeto escolhido foi o [21]SiGE, um Sistema de Gerência de Eventos
+   utilizado principalmente na organização do [22]COMSOLiD (evento
+   realizado por alunos e ex-alunos do IFCE Campus Maracanaú).
+
+O que é o Docker?
+
+
+
+   [23][DockerLogo.png]
+
+   Segundo o site
+
+     Docker é uma plataforma de código aberto para construção,
+     implantação e execução de aplicações distribuídas. Ele oferece a
+     programadores, equipes de desenvolvimento e engenheiros um conjunto
+     de ferramentas comum para tirar vantagem da natureza distribuída e
+     em rede de aplicações modernas.
+
+   Ou seja, ao montar um ambiente de desenvolvimento fica mais fácil
+   imitar o ambiente de produção e testes. Imagine o seguinte cenário:
+   O servidor de produção possui o PHP 5.4 instalado juntamente com o
+   PostgreSQL 9.3. Você, desenvolvedor, tem o PHP 5.5 e o PostgreSQL 9.4.
+   Ao realizar uma tarefa você percebe que o código usado só funciona na
+   versão 5.5 do PHP e que na 5.4, versão do servidor, não existe essa
+   funcionalidade ainda. O que acontece é que você só vai perceber o erro
+   quando o servidor estiver em produção, o que com certeza irá causar uma
+   dor de cabeça.
+   Usando Docker você é capaz de usar exatamente as mesmas versões das
+   ferramentas, tanto no servidor quanto local, sem que elas causem
+   conflitos em sua máquina. O Docker utiliza uma tecnologia chamada
+   [24]LXC ou Linux Containers (na verdade essa é a tecnologia padrão, mas
+   existem outras).
+   Podemos pensar no LXC como uma máquina virtual leve, isso porque
+   diferente da máquina virtual que sobe uma instância do sistema, o LXC
+   usa o mesmo kernel da máquina host com a vantagem do Kernel namespaces
+   - Componentes virtuais: ipc, uts, mount, pid, network e user.
+   [25][docker-vm-container.png]
+
+Instalação
+
+
+
+   No Linux: [26]http://docs.docker.com/linux/step_one/
+   Além do Docker é ideal instalar também o Docker Compose
+   [27]http://docs.docker.com/compose/install/
+
+Utilização
+
+
+
+Obervação: Abaixo estão apenas os passos importantes para entender a
+ferramenta, veja o código completo no código-fonte.
+
+   As configurações de uma imagem do Docker devem ser feitas em um arquivo
+   de texto, por padrão chamado de Dockerfile.
+   O SiGE precisa inicialmente do PHP. Optei por utilizar a imagem
+   nmcteam/php56, ou seja, PHP 5.6.
+   Para utilizar a imagem basta colocar no seu Dockerfile:
+FROM nmcteam/php56
+
+COPY . /usr/share/nginx/html/site
+
+WORKDIR /usr/share/nginx/html/site
+
+RUN php -r "readfile('https://getcomposer.org/installer');" | php
+RUN ["/bin/bash", "-c", "php composer.phar install"]
+
+   O arquivo acima mostra que nossa imagem vai ser criada a partir de
+   nmcteam/php56 (FROM). Tudo que estiver no diretório atual (.) deve ser
+   colocado em /usr/share/nginx/html/site (COPY). Ao executar comandos,
+   execute a partir de /usr/share/nginx/html/site (WORKDIR). Em seguida o
+   SIGE utiliza o [28]composer do PHP (Não confundir com o Docker
+   Compose!), para isso é preciso instalá-lo (RUN).
+   No final das contas esse arquivo é como um script bash que executa
+   alguns comandos para configurar o sistema.
+   Para fazer o build da imagem execute:
+docker build -t main/sige .
+
+   A opção -t é o nome da sua imagem, dê o nome adequado.
+   Arquivo completo com outros comandos necessários somente para o SiGE:
+   [29]https://github.com/comsolid/sige/blob/master/Dockerfile
+   Em seguida criei um Dockerfile separado para o PostgreSQL. Quando usar
+   o Docker tente sempre separar os componentes do sistema em pequenos
+   serviços que funcionam independentes um do outro (Micro Services!).
+FROM postgres:9.4.4
+
+COPY docker-entrypoint-initdb.d/database.sql /docker-entrypoint-initdb.d/databas
+e.sql
+
+RUN pg_createcluster 9.4 main
+
+   A equipe do PostgreSQL oferece uma imagem oficial. Ao subir uma
+   instância dessa imagem (container), um script irá executar qualquer
+   arquivo .sql dentro do diretório docker-entrypoint-initdb.d/, use
+   quando precisar subir uma base de dados populada (COPY).
+   Usaremos também a imagem do Nginx, mas como ela não precisa de muita
+   configuração usaremos apenas declarada no Docker Compose.
+
+Arquivo docker-compose.yml
+
+
+
+   O Docker Compose utiliza uma linguagem chamada [30]YML para seu arquivo
+   docker-compose.yml (arquivo padrão do Docker Compose).
+   É uma linguagem simples como JSON. Abaixo um exemplo para iniciar um
+   serviço Nginx:
+web:
+  image: nginx
+  ports:
+    - "8080:8080"
+
+
+   Iniciamos com uma label (web), a partir da imagem nginx, e mapeando a
+   porta 8080 para 8080 (a primeira indica a porta que você vai utilizar,
+   a segunda é a porta interna, usada pelo container).
+   Em seguida podemos colocar nossa imagem do PHP 5.6 e PostgreSQL 9.4
+   fazendo uso de links, que faz com que um container converse com outro:
+web:
+  image: nginx
+  ports:
+    - "8080:8080"
+  links:
+    - php
+
+php:
+  image: main/sige
+  links:
+    - pg
+
+pg:
+  image: sige/pg
+
+   Veja que fizemos links de um serviço com outro para que eles conversem,
+   ou seja, um serviço Nginx não conhece a linguagem PHP então ele pede
+   que o serviço PHP execute o código para ele e entrega de volta o
+   resultado.
+   Da mesmo forma quando um trecho de código PHP tenta acessar o banco de
+   dados do serviço PostgreSQL.
+   Para subir todos os serviços de uma vez basta executar:
+docker-compose up -d
+
+
+   Como foi dito anteriormente o Docker utiliza LXC. Se você executar
+   ifconfig em seu terminal vai ver várias interfaces de rede
+   configuradas. É assim que os containers se comunicam. Para saber o IP
+   principal basta procurar pela inteface docker0.
+   Para ver os serviços rodando basta acessar (no meu caso):
+   172.17.42.1:8080
+
+Conclusão
+
+
+
+   Lembrando que os trechos acima estão incompletos mas são essenciais. Se
+   eu fosse mostrar passo a passo você provavelmente ia cansar de ler e
+   desistir. Então se você leu e se interessou abaixo estão os links de
+   todos os arquivo envolvidos:
+     * [31]https://github.com/comsolid/sige/blob/master/Dockerfile
+     * [32]https://github.com/comsolid/sige/blob/master/build.sh
+     * [33]https://github.com/comsolid/sige/tree/master/docker/php56
+       (arquivos de configuração do php)
+     * [34]https://github.com/comsolid/sige/tree/master/docker/nginx
+       (arquivos de configuração do nginx)
+     * [35]https://github.com/comsolid/sige/blob/master/docker/pg/Dockerfi
+       le
+     * [36]https://github.com/comsolid/sige/blob/master/docker/pg/build.sh
+     * [37]https://github.com/comsolid/sige/blob/master/docker-compose.yml
+
+   Você provavelmente não precisará mexer muita coisa, mas por exemplo meu
+   arquivo
+   [38]https://github.com/comsolid/sige/blob/master/docker/nginx/vhost.con
+   f está configurado para uso do Zend 1.12 (que usa reescrita (rewrite)
+   da URI). Basta lembrar que a tecnologia não mudou, apenas aumentamos um
+   nível de acesso. Quer dizer, se você tem um arquivo vhost.conf que roda
+   fora do Docker, ele pode ser usado dentro do Docker sem problemas.
+   É isso aí, até a próxima!
+   Postado por Átila Camurça
+   Marcadores: [39]banco de dados, [40]COMSOLiD, [41]containers,
+   [42]dicas, [43]docker, [44]Softwares, [45]Tecnologias
+
+23 de jun de 2015
+
+[46]Convertendo MKV para MP4 sem perda (lossless) e sem reencodar
+
+   [47]Enviar por e-mail[48]BlogThis![49]Compartilhar no
+   Twitter[50]Compartilhar no Facebook[51]Compartilhar com o Pinterest
+   Fazer conversão de vídeo demora muito e é um saco esperar. Atualmente,
+   os dispositivos mais recentes (TVs, home teathers, consoles, celulares,
+   tablets) conseguem reproduzir vários formatos e vários codecs.
+   Entretanto, os modelos mais antigos ainda sofrem com a restrição de
+   formatos e codecs. Por exemplo, quando você baixa um vídeo num formato
+   (também chamado de contêiner) MKV ou MP4 e sua TV só reproduz um desses
+   formatos, saiba que não é preciso 'reencodar' todo o vídeo e áudio.
+   Basta fazer o chamado demux e mux, que é muito mais rápido, pois não
+   realiza cálculos complexos para encodar (ou compactar) vídeo e áudio.
+   Para fazer isso, você pode usar tanto o [52]FFmpeg quanto o [53]Libav.
+   Como alguns releases do Ubuntu não têm o ffmpeg ([54]explicação
+   detalhada em inglês [[55]pdf]), você terá que usar o [56]avconv (pacote
+   [57]libav-tools, do projeto [58]Libav) que funciona basicamente com os
+   mesmos parâmetros.
+
+De MKV para MP4:
+
+     $ avconv -i input.mkv -c:v copy -c:a copy -sn output.mp4
+
+De MP4 para MKV:
+
+     $ avconv -i input.mp4 -c:v copy -c:a copy -sn output.mkv
+
+   Fontes:
+     * [59]http://askubuntu.com/questions/50433/how-to-convert-mkv-file-in
+       to-mp4-file-losslessly#comment307558_195346
+     * [60]http://blog.pkh.me/p/13-the-ffmpeg-libav-situation.html [[61]pd
+       f]
+     * [62]http://www.webupd8.org/2014/11/ffmpeg-returns-to-official-ubunt
+       u.html
+     * [63]https://wiki.debian.org/Debate/libav-provider/ffmpeg [[64]pdf]
+     * [65]http://askubuntu.com/questions/432542/is-ffmpeg-missing-from-th
+       e-official-repositories-in-14-04
+
+   Postado por Samir Costa
+   Marcadores: [66]canonical, [67]comandos, [68]compatibilidade,
+   [69]dicas, [70]encoding, [71]Linux, [72]ubuntu
+
+4 de mai de 2015
+
+[73]Jessie
+
+   [74]Enviar por e-mail[75]BlogThis![76]Compartilhar no
+   Twitter[77]Compartilhar no Facebook[78]Compartilhar com o Pinterest
+   Uma das distribuições linux mais famosas que existe há pouco tempo
+   ganhou uma nova versão denominada Jessie, seguindo o padrão de usar
+   nomes de personagens do filme Toy Story. O Debian 8 vem com várias
+   novidades como por exemplo é possibilidade de escolha do ambiente
+   desktop a ser instalado (GNOME, XFCE, KDE, LXDE e novo Cinnamon e
+   MATE). Ele também já vem com vários pacotes atualizados.
+   Lista de Pacotes:
+     * Apache 2.4.10
+     * Asterisk 11.13.1
+     * GIMP 2.8.14
+     * an updated version of the GNOME desktop environment 3.14
+     * GNU Compiler Collection 4.9.2
+     * Icedove 31.6.0 (an unbranded version of Mozilla Thunderbird)
+     * Iceweasel 31.6.0esr (an unbranded version of Mozilla Firefox)
+     * KDE Plasma Workspaces and KDE Applications 4.14.2
+     * LibreOffice 4.3.3
+     * Linux 3.16.7-ckt9
+     * MariaDB 10.0.16 and MySQL 5.5.42
+     * Nagios 3.5.1
+     * OpenJDK 7u75
+     * Perl 5.20.2
+     * PHP 5.6.7
+     * PostgreSQL 9.4.1
+     * Python 2.7.9 and 3.4.2
+     * Samba 4.1.17
+     * Tomcat 7.0.56 and 8.0.14
+     * Xen Hypervisor 4.4.1
+     * the Xfce 4.10 desktop environment
+     * more than 43,000 other ready-to-use software packages, built from
+       nearly 20,100 source packages.
+
+   [79][Debian_logo.png]
+   Baixe, teste e use o Debian, é uma distribuição com uma competente
+   equipe de desenvolvedores e normalmente lançam novas versões quando
+   realmente é necessário, isso faz do Debian uma versão bem estável.
+   [80]Para saber mais sobre o Debian
+   [81]Download da distribuição
+   Postado por Darlildo
+   Marcadores: [82]Apache, [83]Debian, [84]Gerenciadores de Janelas,
+   [85]GIMP, [86]GNOME, [87]Iceweasel, [88]Jessie, [89]KDE, [90]Linux,
+   [91]Nagios, [92]php, [93]postgresql, [94]python, [95]Samba,
+   [96]Softwares, [97]Tomcat, [98]XFCE
+   [99]Postagens mais antigas [100]Página inicial
+   Assinar: [101]Postagens (Atom)
+
+Pesquisar
+
+   Carregando...
+
+MAD 3 Linux no Facebook
+
+   IFRAME:
+   [102]http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.
+   facebook.com%2Fpages%2FMAD-3-Linux%2F164610873600079&width=240&colorsch
+   eme=light&show_faces=true&stream=true&header=true&height=427
+
+   [103]MAD3 Linux on Twitter Counter
+
+MAD 3 Linux no Twitter
+
+   [104]Tweets de @mad3linux
+
+Tags
+
+   [105]dicas (34) [106]ubuntu (29) [107]Softwares (24) [108]Softwares
+   Úteis (17) [109]Tecnologias (14) [110]Tutorial de Instalação (12)
+   [111]comandos (12) [112]Curiosidades (10) [113]COMSOLiD (8)
+   [114]Programação (8) [115]apt-get (8) [116]how to (8) [117]Java (7)
+   [118]Jogos (7) [119]Jogos Linux (7) [120]De desenvolvedor para
+   desenvolvedor (6) [121]Jogos Open Source (6) [122]deb (6) [123]bash (5)
+   [124]FPS Linux (4) [125]Fotos (4) [126]Jogos FPS (4) [127]Videos (4)
+   [128]banco de dados (4) [129]canonical (4) [130]github (4) [131]pacotes
+   (4) [132]postgresql (4) [133]server (4) [134]shell (4) [135]Editor de
+   Vídeo (3) [136]Gerenciadores de Janelas (3) [137]Urban Terror (3)
+   [138]bots (3) [139]caracteres (3) [140]customização (3) [141]firefox
+   (3) [142]jogar com bots (3) [143]netbeans (3) [144]node (3) [145]pacote
+   (3) [146]repositório (3) [147]video editor (3) [148]Apresentação (2)
+   [149]Criador de DVD (2) [150]LCD (2) [151]Linux (2) [152]Plasma (2)
+   [153]android (2) [154]bug (2) [155]caractere (2) [156]chrome (2)
+   [157]compatibilidade (2) [158]dispositivo (2) [159]economia (2)
+   [160]encoding (2) [161]flisol (2) [162]javascript (2) [163]mdm (2)
+   [164]monitor (2) [165]multiseat (2) [166]multiterminal (2)
+   [167]nautilus (2) [168]nodejs (2) [169]php (2) [170]ppa (2) [171]python
+   (2) [172]repositórios off-line (2) [173]sql (2) [174]ssh (2)
+   [175]ubuntu 12.04 (2) [176]ubuntu hardy (2) [177]/var/lib/dpkg/status
+   (1) [178]Apache (1) [179]Content-Type (1) [180]Debian (1) [181]Enemy
+   Territory (1) [182]GIMP (1) [183]GNOME (1) [184]Iceweasel (1)
+   [185]Jessie (1) [186]KDE (1) [187]Nagios (1) [188]Para apaixonados por
+   Downloads (1) [189]Pasta Pessoal (1) [190]Samba (1) [191]Slide Show (1)
+   [192]Tomcat (1) [193]XFCE (1) [194]adobe (1) [195]angular (1)
+   [196]ascii (1) [197]asm.js (1) [198]atom (1) [199]bower (1)
+   [200]broffice (1) [201]centos (1) [202]certificados (1) [203]cgi (1)
+   [204]charset (1) [205]chromium (1) [206]clementine (1) [207]codificação
+   (1) [208]color-grab (1) [209]containers (1) [210]content (1)
+   [211]conversão (1) [212]cor (1) [213]css (1) [214]dbus (1) [215]default
+   (1) [216]desinstalar (1) [217]distros (1) [218]docker (1) [219]dpkg (1)
+   [220]editar menu (1) [221]editor de texto (1) [222]empathy (1)
+   [223]energia (1) [224]eruby (1) [225]facebook (1) [226]featured (1)
+   [227]firefox 5 (1) [228]flash (1) [229]flashplugin (1) [230]grunt (1)
+   [231]hal (1) [232]hardening (1) [233]hardware (1) [234]imagemagick (1)
+   [235]impressora (1) [236]ionic (1) [237]lighttpd (1) [238]lx 330 (1)
+   [239]menu (1) [240]menu ubuntu (1) [241]mimetype (1) [242]montagem (1)
+   [243]mssql (1) [244]máscara (1) [245]npm (1) [246]ocomon (1)
+   [247]opnião (1) [248]partner (1) [249]pendrive (1) [250]phonegap (1)
+   [251]ping (1) [252]plpgsql (1) [253]plugin (1) [254]ruby (1) [255]ssl
+   (1) [256]stream (1) [257]string (1) [258]sybase (1) [259]torrent (1)
+   [260]tpl 2844 (1) [261]type (1) [262]uml (1) [263]unity. mozilla (1)
+   [264]urt (1) [265]utf-8 (1) [266]vnc (1) [267]webgl (1) [268]writer (1)
+   [269]xephyr (1)
+
+MAD3Linux Team
+
+     * [270]Darlildo
+     * [271]' MarceloO
+     * [272]Átila Camurça
+     * [273]Beto
+     * [274]MAD3
+     * [275]Samir Costa
+
+Arquivo do blog
+
+     * [276]▼  [277]2015 (6)
+          + [278]▼  [279]Novembro (1)
+               o [280]Recuperando Discos Rígidos com Bad Blocks ou
+                 Setor...
+          + [281]►  [282]Outubro (1)
+          + [283]►  [284]Junho (1)
+          + [285]►  [286]Maio (1)
+          + [287]►  [288]Março (1)
+          + [289]►  [290]Janeiro (1)
+
+     * [291]►  [292]2014 (10)
+          + [293]►  [294]Agosto (1)
+          + [295]►  [296]Julho (2)
+          + [297]►  [298]Maio (1)
+          + [299]►  [300]Abril (1)
+          + [301]►  [302]Março (3)
+          + [303]►  [304]Janeiro (2)
+
+     * [305]►  [306]2013 (9)
+          + [307]►  [308]Agosto (1)
+          + [309]►  [310]Maio (1)
+          + [311]►  [312]Abril (1)
+          + [313]►  [314]Março (2)
+          + [315]►  [316]Fevereiro (3)
+          + [317]►  [318]Janeiro (1)
+
+     * [319]►  [320]2012 (16)
+          + [321]►  [322]Outubro (2)
+          + [323]►  [324]Setembro (3)
+          + [325]►  [326]Agosto (1)
+          + [327]►  [328]Junho (3)
+          + [329]►  [330]Maio (1)
+          + [331]►  [332]Abril (4)
+          + [333]►  [334]Fevereiro (2)
+
+     * [335]►  [336]2011 (24)
+          + [337]►  [338]Dezembro (1)
+          + [339]►  [340]Novembro (2)
+          + [341]►  [342]Outubro (1)
+          + [343]►  [344]Setembro (2)
+          + [345]►  [346]Agosto (4)
+          + [347]►  [348]Julho (4)
+          + [349]►  [350]Junho (3)
+          + [351]►  [352]Maio (2)
+          + [353]►  [354]Abril (2)
+          + [355]►  [356]Fevereiro (3)
+
+     * [357]►  [358]2010 (12)
+          + [359]►  [360]Setembro (3)
+          + [361]►  [362]Agosto (1)
+          + [363]►  [364]Maio (1)
+          + [365]►  [366]Abril (1)
+          + [367]►  [368]Março (1)
+          + [369]►  [370]Fevereiro (4)
+          + [371]►  [372]Janeiro (1)
+
+     * [373]►  [374]2009 (19)
+          + [375]►  [376]Dezembro (1)
+          + [377]►  [378]Novembro (2)
+          + [379]►  [380]Outubro (4)
+          + [381]►  [382]Setembro (2)
+          + [383]►  [384]Agosto (2)
+          + [385]►  [386]Junho (2)
+          + [387]►  [388]Abril (3)
+          + [389]►  [390]Março (3)
+
+Seguidores
+
+   Tecnologia do [391]Blogger.
+
+References
+
+   Visible links
+   1. http://www.mad3linux.org/feeds/posts/default
+   2. http://www.mad3linux.org/feeds/posts/default?alt=rss
+   3. http://www.mad3linux.org/
+   4. http://www.mad3linux.org/p/mad3linux-team.html
+   5. http://www.mad3linux.org/p/downloads.html
+   6. http://www.mad3linux.org/2015/11/recuperando-discos-rigidos-com-bad.html
+   7. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=3041544565897369036&target=email
+   8. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=3041544565897369036&target=blog
+   9. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=3041544565897369036&target=twitter
+  10. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=3041544565897369036&target=facebook
+  11. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=3041544565897369036&target=pinterest
+  12. http://e2fsprogs.sourceforge.net/
+  13. http://www.clubedohardware.com.br/artigos/recuperando-discos-rigidos-com-bad-block/561
+  14. http://www.mad3linux.org/search/label/hardware
+  15. http://www.mad3linux.org/2015/10/usando-docker-em-seu-projeto-php.html
+  16. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=1630599041622348592&target=email
+  17. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=1630599041622348592&target=blog
+  18. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=1630599041622348592&target=twitter
+  19. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=1630599041622348592&target=facebook
+  20. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=1630599041622348592&target=pinterest
+  21. http://comsolid.github.io/sige/
+  22. http://comsolid.org/
+  23. http://3.bp.blogspot.com/-ixnbUywtcyI/VhKzOzVvALI/AAAAAAAACKQ/pqYhA7VhWIw/s1600/DockerLogo.png
+  24. https://linuxcontainers.org/lxc/introduction/
+  25. http://4.bp.blogspot.com/-LN9cdLP5JxE/VhKzqashjZI/AAAAAAAACKY/2l7rVpcPoIk/s1600/docker-vm-container.png
+  26. http://docs.docker.com/linux/step_one/
+  27. http://docs.docker.com/compose/install/
+  28. https://getcomposer.org/
+  29. https://github.com/comsolid/sige/blob/master/Dockerfile
+  30. http://yaml.org/
+  31. https://github.com/comsolid/sige/blob/master/Dockerfile
+  32. https://github.com/comsolid/sige/blob/master/build.sh
+  33. https://github.com/comsolid/sige/tree/master/docker/php56
+  34. https://github.com/comsolid/sige/tree/master/docker/nginx
+  35. https://github.com/comsolid/sige/blob/master/docker/pg/Dockerfile
+  36. https://github.com/comsolid/sige/blob/master/docker/pg/build.sh
+  37. https://github.com/comsolid/sige/blob/master/docker-compose.yml
+  38. https://github.com/comsolid/sige/blob/master/docker/nginx/vhost.conf
+  39. http://www.mad3linux.org/search/label/banco de dados
+  40. http://www.mad3linux.org/search/label/COMSOLiD
+  41. http://www.mad3linux.org/search/label/containers
+  42. http://www.mad3linux.org/search/label/dicas
+  43. http://www.mad3linux.org/search/label/docker
+  44. http://www.mad3linux.org/search/label/Softwares
+  45. http://www.mad3linux.org/search/label/Tecnologias
+  46. http://www.mad3linux.org/2015/06/convertendo-mkv-para-mp4-sem-perda.html
+  47. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=8231724474240041184&target=email
+  48. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=8231724474240041184&target=blog
+  49. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=8231724474240041184&target=twitter
+  50. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=8231724474240041184&target=facebook
+  51. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=8231724474240041184&target=pinterest
+  52. https://www.ffmpeg.org/
+  53. https://libav.org/
+  54. http://blog.pkh.me/p/13-the-ffmpeg-libav-situation.html
+  55. https://drive.google.com/file/d/0BwIZj8djOAj2QUhoeWZfVzZVdlE/view?usp=sharing
+  56. apt://libav-tools/
+  57. http://packages.ubuntu.com/trusty/libav-tools
+  58. https://libav.org/
+  59. http://askubuntu.com/questions/50433/how-to-convert-mkv-file-into-mp4-file-losslessly#comment307558_195346
+  60. http://blog.pkh.me/p/13-the-ffmpeg-libav-situation.html
+  61. https://drive.google.com/file/d/0BwIZj8djOAj2QUhoeWZfVzZVdlE/view?usp=sharing
+  62. http://www.webupd8.org/2014/11/ffmpeg-returns-to-official-ubuntu.html
+  63. https://wiki.debian.org/Debate/libav-provider/ffmpeg
+  64. https://drive.google.com/file/d/0BwIZj8djOAj2aEtQZ0JTNElGOEk/view?usp=sharing
+  65. http://askubuntu.com/questions/432542/is-ffmpeg-missing-from-the-official-repositories-in-14-04
+  66. http://www.mad3linux.org/search/label/canonical
+  67. http://www.mad3linux.org/search/label/comandos
+  68. http://www.mad3linux.org/search/label/compatibilidade
+  69. http://www.mad3linux.org/search/label/dicas
+  70. http://www.mad3linux.org/search/label/encoding
+  71. http://www.mad3linux.org/search/label/Linux
+  72. http://www.mad3linux.org/search/label/ubuntu
+  73. http://www.mad3linux.org/2015/05/jessie.html
+  74. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=4372250005003244636&target=email
+  75. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=4372250005003244636&target=blog
+  76. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=4372250005003244636&target=twitter
+  77. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=4372250005003244636&target=facebook
+  78. https://www.blogger.com/share-post.g?blogID=4315013234587932472&postID=4372250005003244636&target=pinterest
+  79. http://3.bp.blogspot.com/-9laWONlfvtU/VUesM5gWiuI/AAAAAAAACIc/ieu9Ag4KBb4/s1600/Debian_logo.png
+  80. https://www.debian.org/
+  81. https://www.debian.org/distrib/
+  82. http://www.mad3linux.org/search/label/Apache
+  83. http://www.mad3linux.org/search/label/Debian
+  84. http://www.mad3linux.org/search/label/Gerenciadores de Janelas
+  85. http://www.mad3linux.org/search/label/GIMP
+  86. http://www.mad3linux.org/search/label/GNOME
+  87. http://www.mad3linux.org/search/label/Iceweasel
+  88. http://www.mad3linux.org/search/label/Jessie
+  89. http://www.mad3linux.org/search/label/KDE
+  90. http://www.mad3linux.org/search/label/Linux
+  91. http://www.mad3linux.org/search/label/Nagios
+  92. http://www.mad3linux.org/search/label/php
+  93. http://www.mad3linux.org/search/label/postgresql
+  94. http://www.mad3linux.org/search/label/python
+  95. http://www.mad3linux.org/search/label/Samba
+  96. http://www.mad3linux.org/search/label/Softwares
+  97. http://www.mad3linux.org/search/label/Tomcat
+  98. http://www.mad3linux.org/search/label/XFCE
+  99. http://www.mad3linux.org/search?updated-max=2015-05-04T14:43:00-03:00&max-results=4
+ 100. http://www.mad3linux.org/
+ 101. http://www.mad3linux.org/feeds/posts/default
+ 102. http://www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/pages/MAD-3-Linux/164610873600079&width=240&colorscheme=light&show_faces=true&stream=true&header=true&height=427
+ 103. http://twittercounter.com/mad3linux
+ 104. https://twitter.com/mad3linux
+ 105. http://www.mad3linux.org/search/label/dicas
+ 106. http://www.mad3linux.org/search/label/ubuntu
+ 107. http://www.mad3linux.org/search/label/Softwares
+ 108. http://www.mad3linux.org/search/label/Softwares Úteis
+ 109. http://www.mad3linux.org/search/label/Tecnologias
+ 110. http://www.mad3linux.org/search/label/Tutorial de Instalação
+ 111. http://www.mad3linux.org/search/label/comandos
+ 112. http://www.mad3linux.org/search/label/Curiosidades
+ 113. http://www.mad3linux.org/search/label/COMSOLiD
+ 114. http://www.mad3linux.org/search/label/Programação
+ 115. http://www.mad3linux.org/search/label/apt-get
+ 116. http://www.mad3linux.org/search/label/how to
+ 117. http://www.mad3linux.org/search/label/Java
+ 118. http://www.mad3linux.org/search/label/Jogos
+ 119. http://www.mad3linux.org/search/label/Jogos Linux
+ 120. http://www.mad3linux.org/search/label/De desenvolvedor para desenvolvedor
+ 121. http://www.mad3linux.org/search/label/Jogos Open Source
+ 122. http://www.mad3linux.org/search/label/deb
+ 123. http://www.mad3linux.org/search/label/bash
+ 124. http://www.mad3linux.org/search/label/FPS Linux
+ 125. http://www.mad3linux.org/search/label/Fotos
+ 126. http://www.mad3linux.org/search/label/Jogos FPS
+ 127. http://www.mad3linux.org/search/label/Videos
+ 128. http://www.mad3linux.org/search/label/banco de dados
+ 129. http://www.mad3linux.org/search/label/canonical
+ 130. http://www.mad3linux.org/search/label/github
+ 131. http://www.mad3linux.org/search/label/pacotes
+ 132. http://www.mad3linux.org/search/label/postgresql
+ 133. http://www.mad3linux.org/search/label/server
+ 134. http://www.mad3linux.org/search/label/shell
+ 135. http://www.mad3linux.org/search/label/Editor de Vídeo
+ 136. http://www.mad3linux.org/search/label/Gerenciadores de Janelas
+ 137. http://www.mad3linux.org/search/label/Urban Terror
+ 138. http://www.mad3linux.org/search/label/bots
+ 139. http://www.mad3linux.org/search/label/caracteres
+ 140. http://www.mad3linux.org/search/label/customização
+ 141. http://www.mad3linux.org/search/label/firefox
+ 142. http://www.mad3linux.org/search/label/jogar com bots
+ 143. http://www.mad3linux.org/search/label/netbeans
+ 144. http://www.mad3linux.org/search/label/node
+ 145. http://www.mad3linux.org/search/label/pacote
+ 146. http://www.mad3linux.org/search/label/repositório
+ 147. http://www.mad3linux.org/search/label/video editor
+ 148. http://www.mad3linux.org/search/label/Apresentação
+ 149. http://www.mad3linux.org/search/label/Criador de DVD
+ 150. http://www.mad3linux.org/search/label/LCD
+ 151. http://www.mad3linux.org/search/label/Linux
+ 152. http://www.mad3linux.org/search/label/Plasma
+ 153. http://www.mad3linux.org/search/label/android
+ 154. http://www.mad3linux.org/search/label/bug
+ 155. http://www.mad3linux.org/search/label/caractere
+ 156. http://www.mad3linux.org/search/label/chrome
+ 157. http://www.mad3linux.org/search/label/compatibilidade
+ 158. http://www.mad3linux.org/search/label/dispositivo
+ 159. http://www.mad3linux.org/search/label/economia
+ 160. http://www.mad3linux.org/search/label/encoding
+ 161. http://www.mad3linux.org/search/label/flisol
+ 162. http://www.mad3linux.org/search/label/javascript
+ 163. http://www.mad3linux.org/search/label/mdm
+ 164. http://www.mad3linux.org/search/label/monitor
+ 165. http://www.mad3linux.org/search/label/multiseat
+ 166. http://www.mad3linux.org/search/label/multiterminal
+ 167. http://www.mad3linux.org/search/label/nautilus
+ 168. http://www.mad3linux.org/search/label/nodejs
+ 169. http://www.mad3linux.org/search/label/php
+ 170. http://www.mad3linux.org/search/label/ppa
+ 171. http://www.mad3linux.org/search/label/python
+ 172. http://www.mad3linux.org/search/label/repositórios off-line
+ 173. http://www.mad3linux.org/search/label/sql
+ 174. http://www.mad3linux.org/search/label/ssh
+ 175. http://www.mad3linux.org/search/label/ubuntu 12.04
+ 176. http://www.mad3linux.org/search/label/ubuntu hardy
+ 177. http://www.mad3linux.org/search/label//var/lib/dpkg/status
+ 178. http://www.mad3linux.org/search/label/Apache
+ 179. http://www.mad3linux.org/search/label/Content-Type
+ 180. http://www.mad3linux.org/search/label/Debian
+ 181. http://www.mad3linux.org/search/label/Enemy Territory
+ 182. http://www.mad3linux.org/search/label/GIMP
+ 183. http://www.mad3linux.org/search/label/GNOME
+ 184. http://www.mad3linux.org/search/label/Iceweasel
+ 185. http://www.mad3linux.org/search/label/Jessie
+ 186. http://www.mad3linux.org/search/label/KDE
+ 187. http://www.mad3linux.org/search/label/Nagios
+ 188. http://www.mad3linux.org/search/label/Para apaixonados por Downloads
+ 189. http://www.mad3linux.org/search/label/Pasta Pessoal
+ 190. http://www.mad3linux.org/search/label/Samba
+ 191. http://www.mad3linux.org/search/label/Slide Show
+ 192. http://www.mad3linux.org/search/label/Tomcat
+ 193. http://www.mad3linux.org/search/label/XFCE
+ 194. http://www.mad3linux.org/search/label/adobe
+ 195. http://www.mad3linux.org/search/label/angular
+ 196. http://www.mad3linux.org/search/label/ascii
+ 197. http://www.mad3linux.org/search/label/asm.js
+ 198. http://www.mad3linux.org/search/label/atom
+ 199. http://www.mad3linux.org/search/label/bower
+ 200. http://www.mad3linux.org/search/label/broffice
+ 201. http://www.mad3linux.org/search/label/centos
+ 202. http://www.mad3linux.org/search/label/certificados
+ 203. http://www.mad3linux.org/search/label/cgi
+ 204. http://www.mad3linux.org/search/label/charset
+ 205. http://www.mad3linux.org/search/label/chromium
+ 206. http://www.mad3linux.org/search/label/clementine
+ 207. http://www.mad3linux.org/search/label/codificação
+ 208. http://www.mad3linux.org/search/label/color-grab
+ 209. http://www.mad3linux.org/search/label/containers
+ 210. http://www.mad3linux.org/search/label/content
+ 211. http://www.mad3linux.org/search/label/conversão
+ 212. http://www.mad3linux.org/search/label/cor
+ 213. http://www.mad3linux.org/search/label/css
+ 214. http://www.mad3linux.org/search/label/dbus
+ 215. http://www.mad3linux.org/search/label/default
+ 216. http://www.mad3linux.org/search/label/desinstalar
+ 217. http://www.mad3linux.org/search/label/distros
+ 218. http://www.mad3linux.org/search/label/docker
+ 219. http://www.mad3linux.org/search/label/dpkg
+ 220. http://www.mad3linux.org/search/label/editar menu
+ 221. http://www.mad3linux.org/search/label/editor de texto
+ 222. http://www.mad3linux.org/search/label/empathy
+ 223. http://www.mad3linux.org/search/label/energia
+ 224. http://www.mad3linux.org/search/label/eruby
+ 225. http://www.mad3linux.org/search/label/facebook
+ 226. http://www.mad3linux.org/search/label/featured
+ 227. http://www.mad3linux.org/search/label/firefox 5
+ 228. http://www.mad3linux.org/search/label/flash
+ 229. http://www.mad3linux.org/search/label/flashplugin
+ 230. http://www.mad3linux.org/search/label/grunt
+ 231. http://www.mad3linux.org/search/label/hal
+ 232. http://www.mad3linux.org/search/label/hardening
+ 233. http://www.mad3linux.org/search/label/hardware
+ 234. http://www.mad3linux.org/search/label/imagemagick
+ 235. http://www.mad3linux.org/search/label/impressora
+ 236. http://www.mad3linux.org/search/label/ionic
+ 237. http://www.mad3linux.org/search/label/lighttpd
+ 238. http://www.mad3linux.org/search/label/lx 330
+ 239. http://www.mad3linux.org/search/label/menu
+ 240. http://www.mad3linux.org/search/label/menu ubuntu
+ 241. http://www.mad3linux.org/search/label/mimetype
+ 242. http://www.mad3linux.org/search/label/montagem
+ 243. http://www.mad3linux.org/search/label/mssql
+ 244. http://www.mad3linux.org/search/label/máscara
+ 245. http://www.mad3linux.org/search/label/npm
+ 246. http://www.mad3linux.org/search/label/ocomon
+ 247. http://www.mad3linux.org/search/label/opnião
+ 248. http://www.mad3linux.org/search/label/partner
+ 249. http://www.mad3linux.org/search/label/pendrive
+ 250. http://www.mad3linux.org/search/label/phonegap
+ 251. http://www.mad3linux.org/search/label/ping
+ 252. http://www.mad3linux.org/search/label/plpgsql
+ 253. http://www.mad3linux.org/search/label/plugin
+ 254. http://www.mad3linux.org/search/label/ruby
+ 255. http://www.mad3linux.org/search/label/ssl
+ 256. http://www.mad3linux.org/search/label/stream
+ 257. http://www.mad3linux.org/search/label/string
+ 258. http://www.mad3linux.org/search/label/sybase
+ 259. http://www.mad3linux.org/search/label/torrent
+ 260. http://www.mad3linux.org/search/label/tpl 2844
+ 261. http://www.mad3linux.org/search/label/type
+ 262. http://www.mad3linux.org/search/label/uml
+ 263. http://www.mad3linux.org/search/label/unity. mozilla
+ 264. http://www.mad3linux.org/search/label/urt
+ 265. http://www.mad3linux.org/search/label/utf-8
+ 266. http://www.mad3linux.org/search/label/vnc
+ 267. http://www.mad3linux.org/search/label/webgl
+ 268. http://www.mad3linux.org/search/label/writer
+ 269. http://www.mad3linux.org/search/label/xephyr
+ 270. https://www.blogger.com/profile/14557629805296818798
+ 271. https://www.blogger.com/profile/08670327777878510352
+ 272. https://plus.google.com/104586527475297511565
+ 273. https://www.blogger.com/profile/05838167030568443564
+ 274. https://www.blogger.com/profile/04373542813156036965
+ 275. https://plus.google.com/117240253861018251952
+ 276. javascript:void(0)
+ 277. http://www.mad3linux.org/search?updated-min=2015-01-01T00:00:00-03:00&updated-max=2016-01-01T00:00:00-03:00&max-results=6
+ 278. javascript:void(0)
+ 279. http://www.mad3linux.org/2015_11_01_archive.html
+ 280. http://www.mad3linux.org/2015/11/recuperando-discos-rigidos-com-bad.html
+ 281. javascript:void(0)
+ 282. http://www.mad3linux.org/2015_10_01_archive.html
+ 283. javascript:void(0)
+ 284. http://www.mad3linux.org/2015_06_01_archive.html
+ 285. javascript:void(0)
+ 286. http://www.mad3linux.org/2015_05_01_archive.html
+ 287. javascript:void(0)
+ 288. http://www.mad3linux.org/2015_03_01_archive.html
+ 289. javascript:void(0)
+ 290. http://www.mad3linux.org/2015_01_01_archive.html
+ 291. javascript:void(0)
+ 292. http://www.mad3linux.org/search?updated-min=2014-01-01T00:00:00-03:00&updated-max=2015-01-01T00:00:00-03:00&max-results=10
+ 293. javascript:void(0)
+ 294. http://www.mad3linux.org/2014_08_01_archive.html
+ 295. javascript:void(0)
+ 296. http://www.mad3linux.org/2014_07_01_archive.html
+ 297. javascript:void(0)
+ 298. http://www.mad3linux.org/2014_05_01_archive.html
+ 299. javascript:void(0)
+ 300. http://www.mad3linux.org/2014_04_01_archive.html
+ 301. javascript:void(0)
+ 302. http://www.mad3linux.org/2014_03_01_archive.html
+ 303. javascript:void(0)
+ 304. http://www.mad3linux.org/2014_01_01_archive.html
+ 305. javascript:void(0)
+ 306. http://www.mad3linux.org/search?updated-min=2013-01-01T00:00:00-03:00&updated-max=2014-01-01T00:00:00-03:00&max-results=9
+ 307. javascript:void(0)
+ 308. http://www.mad3linux.org/2013_08_01_archive.html
+ 309. javascript:void(0)
+ 310. http://www.mad3linux.org/2013_05_01_archive.html
+ 311. javascript:void(0)
+ 312. http://www.mad3linux.org/2013_04_01_archive.html
+ 313. javascript:void(0)
+ 314. http://www.mad3linux.org/2013_03_01_archive.html
+ 315. javascript:void(0)
+ 316. http://www.mad3linux.org/2013_02_01_archive.html
+ 317. javascript:void(0)
+ 318. http://www.mad3linux.org/2013_01_01_archive.html
+ 319. javascript:void(0)
+ 320. http://www.mad3linux.org/search?updated-min=2012-01-01T00:00:00-03:00&updated-max=2013-01-01T00:00:00-03:00&max-results=16
+ 321. javascript:void(0)
+ 322. http://www.mad3linux.org/2012_10_01_archive.html
+ 323. javascript:void(0)
+ 324. http://www.mad3linux.org/2012_09_01_archive.html
+ 325. javascript:void(0)
+ 326. http://www.mad3linux.org/2012_08_01_archive.html
+ 327. javascript:void(0)
+ 328. http://www.mad3linux.org/2012_06_01_archive.html
+ 329. javascript:void(0)
+ 330. http://www.mad3linux.org/2012_05_01_archive.html
+ 331. javascript:void(0)
+ 332. http://www.mad3linux.org/2012_04_01_archive.html
+ 333. javascript:void(0)
+ 334. http://www.mad3linux.org/2012_02_01_archive.html
+ 335. javascript:void(0)
+ 336. http://www.mad3linux.org/search?updated-min=2011-01-01T00:00:00-03:00&updated-max=2012-01-01T00:00:00-03:00&max-results=24
+ 337. javascript:void(0)
+ 338. http://www.mad3linux.org/2011_12_01_archive.html
+ 339. javascript:void(0)
+ 340. http://www.mad3linux.org/2011_11_01_archive.html
+ 341. javascript:void(0)
+ 342. http://www.mad3linux.org/2011_10_01_archive.html
+ 343. javascript:void(0)
+ 344. http://www.mad3linux.org/2011_09_01_archive.html
+ 345. javascript:void(0)
+ 346. http://www.mad3linux.org/2011_08_01_archive.html
+ 347. javascript:void(0)
+ 348. http://www.mad3linux.org/2011_07_01_archive.html
+ 349. javascript:void(0)
+ 350. http://www.mad3linux.org/2011_06_01_archive.html
+ 351. javascript:void(0)
+ 352. http://www.mad3linux.org/2011_05_01_archive.html
+ 353. javascript:void(0)
+ 354. http://www.mad3linux.org/2011_04_01_archive.html
+ 355. javascript:void(0)
+ 356. http://www.mad3linux.org/2011_02_01_archive.html
+ 357. javascript:void(0)
+ 358. http://www.mad3linux.org/search?updated-min=2010-01-01T00:00:00-03:00&updated-max=2011-01-01T00:00:00-03:00&max-results=12
+ 359. javascript:void(0)
+ 360. http://www.mad3linux.org/2010_09_01_archive.html
+ 361. javascript:void(0)
+ 362. http://www.mad3linux.org/2010_08_01_archive.html
+ 363. javascript:void(0)
+ 364. http://www.mad3linux.org/2010_05_01_archive.html
+ 365. javascript:void(0)
+ 366. http://www.mad3linux.org/2010_04_01_archive.html
+ 367. javascript:void(0)
+ 368. http://www.mad3linux.org/2010_03_01_archive.html
+ 369. javascript:void(0)
+ 370. http://www.mad3linux.org/2010_02_01_archive.html
+ 371. javascript:void(0)
+ 372. http://www.mad3linux.org/2010_01_01_archive.html
+ 373. javascript:void(0)
+ 374. http://www.mad3linux.org/search?updated-min=2009-01-01T00:00:00-03:00&updated-max=2010-01-01T00:00:00-03:00&max-results=19
+ 375. javascript:void(0)
+ 376. http://www.mad3linux.org/2009_12_01_archive.html
+ 377. javascript:void(0)
+ 378. http://www.mad3linux.org/2009_11_01_archive.html
+ 379. javascript:void(0)
+ 380. http://www.mad3linux.org/2009_10_01_archive.html
+ 381. javascript:void(0)
+ 382. http://www.mad3linux.org/2009_09_01_archive.html
+ 383. javascript:void(0)
+ 384. http://www.mad3linux.org/2009_08_01_archive.html
+ 385. javascript:void(0)
+ 386. http://www.mad3linux.org/2009_06_01_archive.html
+ 387. javascript:void(0)
+ 388. http://www.mad3linux.org/2009_04_01_archive.html
+ 389. javascript:void(0)
+ 390. http://www.mad3linux.org/2009_03_01_archive.html
+ 391. https://www.blogger.com/
+
+   Hidden links:
+ 393. file://www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=crosscol
+ 394. https://www.blogger.com/post-edit.g?blogID=4315013234587932472&postID=3041544565897369036&from=pencil
+ 395. https://draft.blogger.com/null
+ 396. https://draft.blogger.com/null
+ 397. https://draft.blogger.com/null
+ 398. https://www.blogger.com/post-edit.g?blogID=4315013234587932472&postID=1630599041622348592&from=pencil
+ 399. https://www.blogger.com/post-edit.g?blogID=4315013234587932472&postID=8231724474240041184&from=pencil
+ 400. https://www.blogger.com/post-edit.g?blogID=4315013234587932472&postID=4372250005003244636&from=pencil
+ 401. file://www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=CustomSearch&widgetId=CustomSearch1&action=editWidget&sectionId=sidebar-right-1
+ 402. file://www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=AdSense&widgetId=AdSense1&action=editWidget&sectionId=sidebar-right-1
+ 403. file://www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar-right-1
+ 404. file://www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=sidebar-right-1
+ 405. file://www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar-right-1
+ 406. file://www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebar-right-1
+ 407. file://www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-1
+ 408. file://www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1
+ 409. file://www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar-right-1
+ 410. file://www.blogger.com/rearrange?blogID=4315013234587932472&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3

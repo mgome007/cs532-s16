@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=4407ac63b04a974114891da19b333539"></script>
+<!DOCTYPE html>
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        <meta name="apple-itunes-app" content="app-id=305343404,affiliate-data=at=11l3M5&ct=us.itunes.uni.tumblr.ipdt,app-argument=tumblr://x-callback-url/blog?blogName=sylmercury&referrer=smart-app-banner">
+        <meta charset="utf-8">
+        <title>Syl</title>
+        
+
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <style>figure{margin:0}</style>
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_109c54583d7d_128.png">
+        <link rel="apple-touch-icon-precomposed" href="http://38.media.tumblr.com/avatar_109c54583d7d_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://sylmercury.tumblr.com/rss">
+
+        <link rel="stylesheet" href="http://static.tumblr.com/wkjmpnm/XTEo1dexy/main-min.css">
+        
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+            <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /* Colors */
+            body {
+                background: #CCCCCC;
+            }
+
+            .blog-title {
+                font-family: 'Grumpy Black 48', serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+                font-weight: bold;
+            }
+
+            .blog-title a,
+            .description,
+            .search-no-results {
+                color: #444444;
+            }
+
+            a {
+                color: #902449;
+            }
+
+            #pagination a,
+            .nav-wrapper .nav-item .label {
+                color: #902449;
+            }
+
+            #pagination a.next:after {
+                border-left-color: #902449;
+            }
+
+            #pagination a.previous:after {
+                border-right-color: #902449;
+            }
+
+            .loader .loader-bar {
+                background-color: #444444;
+            }
+
+            .header-image.cover {
+                background-image: url(http://static.tumblr.com/a9c212652871317de02e8481e91d0b9f/isnfwpe/Qybnj1e5g/tumblr_static_tumblr_static__focused_v3.jpg);
+            }
+
+            .user-avatar {
+                background-color: #CCCCCC;
+                border-color: #CCCCCC;
+            }
+
+            .avatar-style-square .user-avatar {
+                -webkit-box-shadow: 0 0 0 4px #CCCCCC;
+                box-shadow: 0 0 0 4px #CCCCCC;
+            }
+
+            .no-header-image .logo-wrapper,
+            .contain-header-image .logo-wrapper {
+                color: #902449;
+            }
+
+            /* Adjust logo for light accents on light backgrounds */
+            .light-on-light.no-header-image .logo-wrapper,
+            .light-on-light.contain-header-image .logo-wrapper {
+                color: #444;
+            }
+
+            /* Adjust logo for dark accents on dark backgrounds */
+            .dark-on-dark.no-header-image .logo-wrapper,
+            .dark-on-dark.contain-header-image .logo-wrapper {
+                color: #fff;
+            }
+
+            .related-posts-wrapper > h2 {
+                color: #444444;
+            }
+
+            @media screen and (max-device-width: 568px) {
+                .header-image.cover {
+                    background-image: url(http://static.tumblr.com/a9c212652871317de02e8481e91d0b9f/isnfwpe/Qybnj1e5g/tumblr_static_tumblr_static__640.jpg);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                .avatar-style-square .user-avatar {
+                    -webkit-box-shadow: 0 0 0 3px #CCCCCC;
+                    -moz-box-shadow: 0 0 0 3px #CCCCCC;
+                    box-shadow: 0 0 0 3px #CCCCCC;
+                }
+
+            }
+
+            /* Custom CSS */
+            
+        </style>
+    <meta name="robots" content="noindex"/>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=sylmercury" />
+<link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=sylmercury" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=8b0553f75283ecbeb78be24f096f4c2c"></script>
+
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/grumpyblack48/stylesheet.css?v=3">
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Syl" /><meta property="og:url" content="http://sylmercury.tumblr.com/?og=1" /><meta property="og:description" content="" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_109c54583d7d_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=sylmercury" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=sylmercury" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="app" /><meta name="twitter:description" content="sylmercury" /><meta name="twitter:title" content="sylmercury" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=sylmercury&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=sylmercury&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=sylmercury&amp;referrer=twitter-cards" />
+
+<!-- GOOGLE CAROUSEL --><script type="application/ld+json">{"@type":"ItemList","url":"http:\/\/sylmercury.tumblr.com","itemListElement":[{"@type":"ListItem","position":1,"url":"http:\/\/sylmercury.tumblr.com\/post\/138755411074\/gandalfthespliff-stay-lifted"},{"@type":"ListItem","position":2,"url":"http:\/\/sylmercury.tumblr.com\/post\/138755240434\/reblog-if-your-dick-is-longer-than-your-leg"},{"@type":"ListItem","position":3,"url":"http:\/\/sylmercury.tumblr.com\/post\/138755235044"},{"@type":"ListItem","position":4,"url":"http:\/\/sylmercury.tumblr.com\/post\/138368888804\/rcah-milliondollarnigga-uncle-snoop-been"},{"@type":"ListItem","position":5,"url":"http:\/\/sylmercury.tumblr.com\/post\/136840091034"},{"@type":"ListItem","position":6,"url":"http:\/\/sylmercury.tumblr.com\/post\/136840076454"},{"@type":"ListItem","position":7,"url":"http:\/\/sylmercury.tumblr.com\/post\/136840059229"},{"@type":"ListItem","position":8,"url":"http:\/\/sylmercury.tumblr.com\/post\/136840043854\/hellish-b0y-18"},{"@type":"ListItem","position":9,"url":"http:\/\/sylmercury.tumblr.com\/post\/136839756884"},{"@type":"ListItem","position":10,"url":"http:\/\/sylmercury.tumblr.com\/post\/136425762684"}],"@context":"http:\/\/schema.org"}</script>
+<link rel="canonical" href="http://sylmercury.tumblr.com" />
+
+</head>
+    <body data-urlencoded-name="sylmercury" class="regular index-page display-related-posts">
+
+        <div class="app-nag">
+            <div class="app-nag-header clearfix">
+                <div class="app-nag-icon">
+                    <div class="app-nag-icon-ios">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+                            <path fill="#36465D" d="M1024,771c0,139.2-113.8,253-253,253H253C113.8,1024,0,910.2,0,771V253C0,113.8,113.8,0,253,0h518 c139.2,0,253,113.8,253,253V771z"/>
+                            <path fill="none" stroke="#FFF100" stroke-width="4" stroke-miterlimit="10" d="M463.9,209.4"/>
+                            <path opacity="0.6" fill="#231F20" d="M628.1,681c8.2,0,17.1-1.2,25.8-3.3V530.3h111.6V401.8h-68.6V473H585.4v162.4 C586,676.3,609.1,681,628.1,681z M654.4,250.5h-68.6v94h68.6V250.5z M754.3,722.9c-12.7,7.1-28.9,12.4-44.3,14.5l11.4,33.8 c-20.5,27-71.4,45.5-118.1,46.3c-1.6,0-3.1,0-4.7,0c0,0,0,0,0,0c-32.5,0-59.5-5.7-81.9-15.3c26.2,40,72.7,72.6,150.5,72.6c0,0,0,0,0,0c1.6,0,3.1,0,4.7,0c46.6-0.8,97.6-19.4,118.1-46.3L754.3,722.9z"/>
+                            <path fill="none" stroke="#FFF100" stroke-width="4" stroke-miterlimit="10" d="M355,359.5"/>
+                            <path fill="#FFFFFF" d="M577.5,830.6c65.1,0,129.7-23.2,151-51.3l4.3-5.6l-40.4-119.7c-0.4-1.1-1.4-1.9-2.6-1.9h-7.6h-3.5l-79.1,0 c-1.2,0-2.3-0.8-2.6-2c-1.1-4-1.7-8.9-1.8-14.9V489c0-1.5,1.2-2.7,2.7-2.7h106.1c1.5,0,2.7-1.2,2.7-2.7V333.8c0-1.5-1.2-2.7-2.7-2.7 H598.4c-1.5,0-2.7-1.2-2.7-2.7V182.5c0-1.5-1.2-2.7-2.7-2.7h-82.6h-28.9h-73.8c-13.3,0-28.5,9.8-30.8,28 c-9.3,75.3-43.8,120.5-108.7,142.2l-7.2,2.4c-1.1,0.4-1.9,1.4-1.9,2.6v128.6c0,1.5,1.2,2.7,2.7,2.7h50.4h0h15.9c0,0,0,120,0,158.3 C328.1,771,415.7,830.6,577.5,830.6z M701.6,769.5c-20.3,19.5-62,34.1-102,34.7c-1.5,0-3,0-4.5,0h0 c-131.5,0-166.6-100.4-166.6-159.7V462.3c0-1.5-1.2-2.7-2.7-2.7h-63.6c-1.5,0-2.7-1.2-2.7-2.7v-83c0-1.1,0.7-2.1,1.7-2.5 c68-26.5,105.9-79,115.9-160.3c0.6-4.5,4.3-4.6,4.3-4.6h84.9c1.5,0,2.7,1.2,2.7,2.7v145.9c0,1.5,1.2,2.7,2.7,2.7h105.7 c1.5,0,2.7,1.2,2.7,2.7v96.4c0,1.5-1.2,2.7-2.7,2.7H571.3c-1.5,0-2.7,1.2-2.7,2.7l0,173.2c0.6,39,19.5,58.8,56.1,58.8 c14.7,0,31.6-3.4,47.1-9.3c1.4-0.6,3,0.2,3.5,1.6l27,80C702.6,767.7,702.4,768.8,701.6,769.5z"/>
+                            <path opacity="0.5" fill="#2D3F54" d="M328.1,528.9h73.8v-40.2c0-1.3-1.1-2.4-2.4-2.4h-71.4V528.9z"/>
+                        </svg>
+                    </div>
+                    <div class="app-nag-icon-android">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+                            <path fill="none" stroke="#FFF100" stroke-width="4" stroke-miterlimit="10" d="M463.9,209.4"></path>
+                            <path opacity="0.5" fill="#231F20" d="M628.1,681c8.2,0,17.1-1.2,25.8-3.3V530.3h111.6V401.8h-68.6V473H585.4v162.4 C586,676.3,609.1,681,628.1,681z M654.4,250.5h-68.6v94h68.6V250.5z M754.3,722.9c-12.7,7.1-28.9,12.4-44.3,14.5l11.4,33.8 c-20.5,27-71.4,45.5-118.1,46.3c-1.6,0-3.1,0-4.7,0c0,0,0,0,0,0c-32.5,0-59.5-5.7-81.9-15.3c26.2,40,72.7,72.6,150.5,72.6c0,0,0,0,0,0c1.6,0,3.1,0,4.7,0c46.6-0.8,97.6-19.4,118.1-46.3L754.3,722.9z"></path>
+                            <path fill="none" stroke="#FFF100" stroke-width="4" stroke-miterlimit="10" d="M355,359.5"></path>
+                            <path fill="#36465D" d="M577.5,830.6c65.1,0,129.7-23.2,151-51.3l4.3-5.6l-40.4-119.7c-0.4-1.1-1.4-1.9-2.6-1.9h-7.6h-3.5l-79.1,0 c-1.2,0-2.3-0.8-2.6-2c-1.1-4-1.7-8.9-1.8-14.9V489c0-1.5,1.2-2.7,2.7-2.7h106.1c1.5,0,2.7-1.2,2.7-2.7V333.8c0-1.5-1.2-2.7-2.7-2.7 H598.4c-1.5,0-2.7-1.2-2.7-2.7V182.5c0-1.5-1.2-2.7-2.7-2.7h-82.6h-28.9h-73.8c-13.3,0-28.5,9.8-30.8,28 c-9.3,75.3-43.8,120.5-108.7,142.2l-7.2,2.4c-1.1,0.4-1.9,1.4-1.9,2.6v128.6c0,1.5,1.2,2.7,2.7,2.7h50.4h0h15.9c0,0,0,120,0,158.3 C328.1,771,415.7,830.6,577.5,830.6z M701.6,769.5c-20.3,19.5-62,34.1-102,34.7c-1.5,0-3,0-4.5,0h0 c-131.5,0-166.6-100.4-166.6-159.7V462.3c0-1.5-1.2-2.7-2.7-2.7h-63.6c-1.5,0-2.7-1.2-2.7-2.7v-83c0-1.1,0.7-2.1,1.7-2.5 c68-26.5,105.9-79,115.9-160.3c0.6-4.5,4.3-4.6,4.3-4.6h84.9c1.5,0,2.7,1.2,2.7,2.7v145.9c0,1.5,1.2,2.7,2.7,2.7h105.7 c1.5,0,2.7,1.2,2.7,2.7v96.4c0,1.5-1.2,2.7-2.7,2.7H571.3c-1.5,0-2.7,1.2-2.7,2.7l0,173.2c0.6,39,19.5,58.8,56.1,58.8 c14.7,0,31.6-3.4,47.1-9.3c1.4-0.6,3,0.2,3.5,1.6l27,80C702.6,767.7,702.4,768.8,701.6,769.5z"></path>
+                            <path opacity="0.5" fill="#2D3F54" d="M328.1,528.9h73.8v-40.2c0-1.3-1.1-2.4-2.4-2.4h-71.4V528.9z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="app-nag-ratings">
+                    <svg width="181px" height="30px" viewBox="0 0 181 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path d="M15.8,25.2 L6.1,29.8 L7.5,19.2 L0.1,11.4 L10.6,9.5 L15.8,0 L20.9,9.5 L31.4,11.4 L24,19.2 L25.4,29.8 L15.8,25.2 Z" fill="#FFC00E"></path>
+                            <path d="M52.8,25.2 L43.1,29.8 L44.5,19.2 L37.1,11.4 L47.6,9.5 L52.8,0 L57.9,9.5 L68.4,11.4 L61,19.2 L62.4,29.8 L52.8,25.2 Z" fill="#FFC00E"></path>
+                            <path d="M89.8,25.2 L80.1,29.8 L81.5,19.2 L74.1,11.4 L84.6,9.5 L89.8,0 L94.9,9.5 L105.4,11.4 L98,19.2 L99.4,29.8 L89.8,25.2 Z" fill="#FFC00E"></path>
+                            <path d="M126.8,25.2 L117.1,29.8 L118.5,19.2 L111.1,11.4 L121.6,9.5 L126.8,0 L131.9,9.5 L142.4,11.4 L135,19.2 L136.4,29.8 L126.8,25.2 Z" fill="#FFC00E"></path>
+                            <path d="M163.8,25.2 L154.1,29.8 L155.5,19.2 L148.1,11.4 L158.6,9.5 L163.8,0 L168.9,9.5 L179.4,11.4 L172,19.2 L173.4,29.8 L163.8,25.2 Z" fill="#E7E7E7"></path>
+                            <path d="M163.3,25.1 L154.1,29.8 L155.5,19.2 L148.1,11.4 L158.6,9.5 L163.3,0.9 L163.3,25.1 Z" fill="#FFC00E"></path>
+                        </g>
+                    </svg>
+                    <div class="app-nag-ratings-text app-nag-ratings-text-android">
+                        1.5M ratings
+                    </div>
+                    <div class="app-nag-ratings-text app-nag-ratings-text-ios">
+                        277k ratings
+                    </div>
+                </div>
+                <div class="app-nag-close-button">
+                    <svg width="15px" height="15px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path d="M12.510351,14.6860639 L0,27.1964147 L2.175713,29.3721278 L14.686064,16.8617771 L27.196415,29.3721278 L29.372128,27.1964147 L16.861777,14.6860639 L29.372128,2.1757132 L27.196415,0 L14.686064,12.5103507 L2.175713,0 L0,2.1757132 L12.510351,14.6860639 L12.510351,14.6860639 Z" fill="#D3D3D3"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="app-nag-body">
+                <h1 class="app-nag-callout">See, that’s what the app is perfect for.</h1>
+                <a class="app-nag-large-button app-nag-app-store-link button blue">Sounds perfect</a>
+                <a class="app-nag-large-button app-nag-app-store-deny">Wahhhh, I don’t wanna</a>
+            </div>
+        </div>
+
+        <section id="page">
+            <div class="logo-wrapper">
+                <a class="t-logo" href="https://www.tumblr.com/?referring_blog=sylmercury&amp;referer=optica" target="_blank">
+                    <svg class="svg-logo" width="29px" height="39px" viewBox="0 0 29 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path class="large-shadow" d="M21.9956664,26.3 L21.9956664,19.0055544 L27.9954227,19.0055542 L27.9954227,13.0048828 L27.9954227,11.0108643 L23.522766,11.0108643 L23.5540067,11.6669807 L23.7388305,15.5486452 L17.6832886,15.4792482 L17.4,24 C17.5,26.3 18.8,26.5 19.8,26.5 C20.2,26.5 21.4956664,26.4 21.9956664,26.3 Z M18.7154541,4.00225829 L17.4,2.9 L17.4,8 L22.000122,7.34490957 L22.000122,4.00225829 L18.7154541,4.00225829 Z M24.3,29.6 L24.9,31.5 C23.8,32.9 21,34 18.4,34 L18.1,34 C16.3,34 14.8,33.7 13.6,33.2 C15,35.4 17.5999998,38.0021971 21.7999998,38.0021971 C21.7999996,38.6099361 22.0022113,38.0021971 22.0999998,38.0021971 C24.6999998,38.0021971 27.4,36.1 28.6,34.7 L26.7,28.8 C26,29.2 25.1,29.5 24.3,29.6 Z" id="Shape" fill="#000000"></path>
+                            <path class="inner" d="M18.5,33.6 L18.3,33.6 C11.1,33.6 9,28.2005493 9,25.0005493 L9,15 C8.58245849,15 4.99298096,15 5,15 L4.99298096,10.0285034 C4.99298096,9.92850342 5.1,9.9 5.2,9.9 C8.9,8.5 11.3,6.7 11.9,2.3 C11.8,2 12,2 12,2 L16.8,2 L17,2 L17,9.00006104 L23.012207,9.00006104 L23.012207,15 L17,15 L17,24.0839844 C17,26.1839844 17.8,27.3 19.8,27.3 C20.6,27.3 21.5,27.1 22.4,26.8 C22.5,26.8 22.6,26.8 22.6,26.9 L24.1,31.3 L24.1,31.7 C23,32.8 20.7,33.6 18.5,33.6 Z"></path>
+                            <path class="outer" d="M26.1,32.2 L26.3,31.9 L23.9,25.1 C23.9,25 23.8,25 23.8,25 L19.2,25 C19.1,25 19,25.1 19,25 C18.9,24.8 19,24.4 19,24.1 L19,17 L25,17 L25,7 C25,7 19,7 19,7 L19,0 L8,0 C7.3,0 6.4,0.8 6.3,1.8 C5.8,5.9 4.1,7.5 0.5,8.7 L0.1,8.8 C0,8.9 0,8.9 0,9 L0,17.0000006 C0,17.1000006 0.1,17 0.1,17 L4,17 L4,24.8 C4,31.8 8.46560059,36.0067139 17.3656006,36.0067139 C22.0656006,36.0067139 25,33.7 26.1,32.2 Z M18.5,33.6 L18.3,33.6 C11.1,33.6 9,28.2005493 9,25.0005493 L9,15 C8.58245849,15 4.99298096,15 5,15 L4.99298096,10.0285034 C4.99298096,9.92850342 5.1,9.9 5.2,9.9 C8.9,8.5 11.3,6.7 11.9,2.3 C11.8,2 12,2 12,2 L16.8,2 L17,2 L17,9.00006104 L23.012207,9.00006104 L23.012207,15 L17,15 L17,24.0839844 C17,26.1839844 17.8,27.3 19.8,27.3 C20.6,27.3 21.5,27.1 22.4,26.8 C22.5,26.8 22.6,26.8 22.6,26.9 L24.1,31.3 L24.1,31.7 C23,32.8 20.7,33.6 18.5,33.6 Z"></path>
+                            <path class="small-shadow" d="M4,19 L7,19 L7,17.0833333 C7,17 6.9,17 6.9,17 L4,17 L4,19 L4,19 Z" opacity="0.5" fill="#37465D"></path>
+                        </g>
+                    </svg>
+                </a>
+                <div class="search-wrapper">
+                    <form action="/search" method="get" id="search">
+                        <label class="search-field-label">
+                            <input type="text" class="search-field" name="q" id="q" placeholder="Search sylmercury" value="" autocomplete="off">
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="header-wrapper
+                
+                
+                
+                avatar-style-square">
+
+                <header id="header">
+                    
+                    <div class="header-image-wrapper ">
+                        <a href="/" class="header-image parallax cover " data-bg-image="http://static.tumblr.com/a9c212652871317de02e8481e91d0b9f/isnfwpe/Qybnj1e5g/tumblr_static_tumblr_static__focused_v3.jpg">
+                            
+                        </a>
+                        <div class="loader-bg"></div>
+                    </div>
+                    
+
+                    <div class="blog-title-wrapper content">
+                        <figure class="avatar-wrapper animate">
+                            <a href="/" style="background-image: url(http://38.media.tumblr.com/avatar_109c54583d7d_128.png)" class="user-avatar"><img src="http://38.media.tumblr.com/avatar_109c54583d7d_128.png" alt="" class="print-only invisible"></a>
+                        </figure>
+
+                        <div class="title-group animate">
+                            
+                            <h1 class="blog-title"><a href="/">Syl</a></h1>
+                            
+                            
+
+                            
+                                <div class="nav-wrapper content">
+                                    <nav class="nav-menu">
+                                        <ul class="inline-nav">
+                                            
+                                            
+                                            
+                                            <li class="nav-item nav-item--archive">
+                                                <a href="/archive" class="label">Archive</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </header>
+            </div>
+            
+            <section id="posts" class="content clearfix  avatar-style-square  show-nav">
+
+                <div data-page-id="1">
+                    
+                            <article class="photo reblogged not-page post-138755411074 " data-post-id="138755411074">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://gandalfthespliff.tumblr.com/post/138224500068/stay-lifted"><i class="reblog_sm"></i>gandalfthespliff</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="post-content  with-caption" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://49.media.tumblr.com/7850396606d4bf04c066e5231a402f6b/tumblr_o1obv2rHPx1tazwvoo1_500.gif" alt="gandalfthespliff:
+
+stay lifted&hellip;" width="500" height="697">
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a href="http://gandalfthespliff.tumblr.com/post/138224500068/stay-lifted">gandalfthespliff</a>:</p>
+
+<blockquote><p><i>stay lifted&hellip;</i></p></blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        <section class="inline-meta post-extra has-reblog">
+                                            
+                                                <a class="meta-item reblog-link" href="http://gandalfthespliff.tumblr.com/post/138224500068/stay-lifted"><i class="reblog_sm"></i>gandalfthespliff</a>
+                                            
+                                            
+                                            
+                                        </section>
+
+                                    </section>
+
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="inline-meta date-notes">
+                                                <div class="date-note-wrapper">
+                                                    
+                                                        <span class="notes-pop-container">
+                                                            <a href="http://sylmercury.tumblr.com/post/138755411074/gandalfthespliff-stay-lifted#notes" class="meta-item post-notes">871 notes</a>
+                                                            
+                                                        </span>
+                                                    
+                                                    <a href="http://sylmercury.tumblr.com/post/138755411074/gandalfthespliff-stay-lifted" title="1 week ago" class="meta-item post-date">Feb 5th, 2016</a>
+                                                </div>
+                                            </section>
+
+                                            <section class="post-controls">
+                                                <div class="controls-wrapper">
+                                                    <div class="control share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_138755411074">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="138755411074">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138755411074%2Fgandalfthespliff-stay-lifted&amp;t=Syl" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%F0%9F%93%B7%20gandalfthespliff%3A%20stay%20lifted%E2%80%A6%20http%3A%2F%2Ftmblr.co%2FZ4GK7m21ETuo2" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    
+                                                                        <li><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138755411074%2Fgandalfthespliff-stay-lifted&amp;media=http://49.media.tumblr.com/7850396606d4bf04c066e5231a402f6b/tumblr_o1obv2rHPx1tazwvoo1_500.gif" class="share-item pinterest" target="_blank">Pinterest</a></li>
+                                                                    
+                                                                    
+                                                                    <li><a href="https://reddit.com/submit?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138755411074%2Fgandalfthespliff-stay-lifted" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Syl&amp;body=%F0%9F%93%B7%20gandalfthespliff%3A%20stay%20lifted%E2%80%A6%20http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138755411074%2Fgandalfthespliff-stay-lifted" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/138755411074/gandalfthespliff-stay-lifted/embed" class="share-item permalink">Embed</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/138755411074/gandalfthespliff-stay-lifted" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                    <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/138755411074/2wvs43zY" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                    <div class="control like-control"><div class="like_button" data-post-id="138755411074" id="like_button_138755411074"><iframe id="like_iframe_138755411074" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=sylmercury&amp;post_id=138755411074&amp;color=black&amp;rk=2wvs43zY&amp;root_id=138224500068" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_138755411074"></iframe></div></div>
+                                                </div>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="reblogged quote not-page post-138755240434 " data-post-id="138755240434">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://hellish-b0y.tumblr.com/post/138487000015/reblog-if-your-dick-is-longer-than-your-leg"><i class="reblog_sm"></i>hellish-b0y</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                        <div class="post-content">
+                                            <blockquote class="short">
+                                                Reblog if your dick is longer than your leg
+                                            </blockquote>
+                                            
+                                            <div class="source">(via <a href="http://hellish-b0y.tumblr.com/">hellish-b0y</a>)</div>
+                                            
+                                        </div>
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        <section class="inline-meta post-extra has-reblog">
+                                            
+                                                <a class="meta-item reblog-link" href="http://hellish-b0y.tumblr.com/post/138487000015/reblog-if-your-dick-is-longer-than-your-leg"><i class="reblog_sm"></i>hellish-b0y</a>
+                                            
+                                            
+                                            
+                                        </section>
+
+                                    </section>
+
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="inline-meta date-notes">
+                                                <div class="date-note-wrapper">
+                                                    
+                                                        <span class="notes-pop-container">
+                                                            <a href="http://sylmercury.tumblr.com/post/138755240434/reblog-if-your-dick-is-longer-than-your-leg#notes" class="meta-item post-notes">5,995 notes</a>
+                                                            
+                                                        </span>
+                                                    
+                                                    <a href="http://sylmercury.tumblr.com/post/138755240434/reblog-if-your-dick-is-longer-than-your-leg" title="1 week ago" class="meta-item post-date">Feb 5th, 2016</a>
+                                                </div>
+                                            </section>
+
+                                            <section class="post-controls">
+                                                <div class="controls-wrapper">
+                                                    <div class="control share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_138755240434">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="138755240434">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138755240434%2Freblog-if-your-dick-is-longer-than-your-leg&amp;t=Syl" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%E2%80%9CReblog%20if%20your%20dick%20is%20longer%20than%20your%20leg%E2%80%9D%20-%20%28via%20hellish-b0y%29%20http%3A%2F%2Ftmblr.co%2FZ4GK7m21ETF7o" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    
+                                                                    
+                                                                    <li><a href="https://reddit.com/submit?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138755240434%2Freblog-if-your-dick-is-longer-than-your-leg" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                    <li><a href="mailto:?subject=A%20quote%20from%20Syl&amp;body=%E2%80%9CReblog%20if%20your%20dick%20is%20longer%20than%20your%20leg%E2%80%9D%20-%20%28via%20hellish-b0y%29%20http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138755240434%2Freblog-if-your-dick-is-longer-than-your-leg" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/138755240434/reblog-if-your-dick-is-longer-than-your-leg/embed" class="share-item permalink">Embed</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/138755240434/reblog-if-your-dick-is-longer-than-your-leg" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                    <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/138755240434/ano4PYPs" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                    <div class="control like-control"><div class="like_button" data-post-id="138755240434" id="like_button_138755240434"><iframe id="like_iframe_138755240434" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=sylmercury&amp;post_id=138755240434&amp;color=black&amp;rk=ano4PYPs&amp;root_id=138487000015" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_138755240434"></iframe></div></div>
+                                                </div>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-138755235044 " data-post-id="138755235044">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://punksntdead.tumblr.com/post/138727164771"><i class="reblog_sm"></i>punksntdead</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="post-content photoset ">
+                                            <div id="photoset_138755235044" class="html_photoset">    <iframe id="photoset_iframe_138755235044" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://sylmercury.tumblr.com/post/138755235044/photoset_iframe/sylmercury/tumblr_nyqe6xz61E1rsyuka/0/false" name="photoset_iframe_138755235044"></iframe></div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        <section class="inline-meta post-extra has-reblog has-source">
+                                            
+                                                <a class="meta-item reblog-link" href="http://punksntdead.tumblr.com/post/138727164771"><i class="reblog_sm"></i>punksntdead</a>
+                                            
+                                            
+                                                <a class="meta-item source-link" href="http://anamorphosis-and-isolate.tumblr.com">Source: anamorphosis-and-isolate</a>
+                                            
+                                            
+                                        </section>
+
+                                    </section>
+
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="inline-meta date-notes">
+                                                <div class="date-note-wrapper">
+                                                    
+                                                        <span class="notes-pop-container">
+                                                            <a href="http://sylmercury.tumblr.com/post/138755235044#notes" class="meta-item post-notes">179,560 notes</a>
+                                                            
+                                                        </span>
+                                                    
+                                                    <a href="http://sylmercury.tumblr.com/post/138755235044" title="1 week ago" class="meta-item post-date">Feb 5th, 2016</a>
+                                                </div>
+                                            </section>
+
+                                            <section class="post-controls">
+                                                <div class="controls-wrapper">
+                                                    <div class="control share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_138755235044">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="138755235044">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138755235044&amp;t=Syl" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%F0%9F%93%B7%20%20http%3A%2F%2Ftmblr.co%2FZ4GK7m21ETDpa" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    
+                                                                    
+                                                                    <li><a href="https://reddit.com/submit?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138755235044" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Syl&amp;body=%F0%9F%93%B7%20%20http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138755235044" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/138755235044/embed" class="share-item permalink">Embed</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/138755235044" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                    <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/138755235044/xLBsnZDw" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                    <div class="control like-control"><div class="like_button" data-post-id="138755235044" id="like_button_138755235044"><iframe id="like_iframe_138755235044" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=sylmercury&amp;post_id=138755235044&amp;color=black&amp;rk=xLBsnZDw&amp;root_id=134394327415" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_138755235044"></iframe></div></div>
+                                                </div>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-138368888804 " data-post-id="138368888804">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://rcah.tumblr.com/post/138049813161"><i class="reblog_sm"></i>rcah</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="post-content photoset with-caption">
+                                            <div id="photoset_138368888804" class="html_photoset">    <iframe id="photoset_iframe_138368888804" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://sylmercury.tumblr.com/post/138368888804/photoset_iframe/sylmercury/tumblr_ne6a68u6PR1supp8b/0/false" name="photoset_iframe_138368888804"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a href="http://rcah.tumblr.com/post/138049813161">rcah</a>:</p>
+
+<blockquote><p><a href="http://milliondollarnigga.tumblr.com/post/112787371953">milliondollarnigga</a>:</p>
+<blockquote>
+<p>Uncle Snoop been going through his midlife crisis smooth as hell</p>
+</blockquote>
+
+<p>What a guy</p></blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        <section class="inline-meta post-extra has-reblog has-source">
+                                            
+                                                <a class="meta-item reblog-link" href="http://rcah.tumblr.com/post/138049813161"><i class="reblog_sm"></i>rcah</a>
+                                            
+                                            
+                                                <a class="meta-item source-link" href="http://nyctaeus.tumblr.com/post/101198512663/snoop-dogg-paints">Source: nyctaeus</a>
+                                            
+                                            
+                                        </section>
+
+                                    </section>
+
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="inline-meta date-notes">
+                                                <div class="date-note-wrapper">
+                                                    
+                                                        <span class="notes-pop-container">
+                                                            <a href="http://sylmercury.tumblr.com/post/138368888804/rcah-milliondollarnigga-uncle-snoop-been#notes" class="meta-item post-notes">162,524 notes</a>
+                                                            
+                                                        </span>
+                                                    
+                                                    <a href="http://sylmercury.tumblr.com/post/138368888804/rcah-milliondollarnigga-uncle-snoop-been" title="2 weeks ago" class="meta-item post-date">Jan 30th, 2016</a>
+                                                </div>
+                                            </section>
+
+                                            <section class="post-controls">
+                                                <div class="controls-wrapper">
+                                                    <div class="control share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_138368888804">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="138368888804">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138368888804%2Frcah-milliondollarnigga-uncle-snoop-been&amp;t=Syl" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%F0%9F%93%B7%20rcah%3A%20milliondollarnigga%3A%20Uncle%20Snoop%20been%20going%20through%20his%20midlife%20crisis%20smooth%20as%20hell%20What%20a%20guy%20http%3A%2F%2Ftmblr.co%2FZ4GK7m20tRQ-a" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    
+                                                                    
+                                                                    <li><a href="https://reddit.com/submit?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138368888804%2Frcah-milliondollarnigga-uncle-snoop-been" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Syl&amp;body=%F0%9F%93%B7%20rcah%3A%20milliondollarnigga%3A%20Uncle%20Snoop%20been%20going%20through%20his%20midlife%20crisis%20smooth%20as%20hell%20What%20a%20guy%20http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F138368888804%2Frcah-milliondollarnigga-uncle-snoop-been" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/138368888804/rcah-milliondollarnigga-uncle-snoop-been/embed" class="share-item permalink">Embed</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/138368888804/rcah-milliondollarnigga-uncle-snoop-been" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                    <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/138368888804/p19rDXqL" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                    <div class="control like-control"><div class="like_button" data-post-id="138368888804" id="like_button_138368888804"><iframe id="like_iframe_138368888804" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=sylmercury&amp;post_id=138368888804&amp;color=black&amp;rk=p19rDXqL&amp;root_id=101198512663" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_138368888804"></iframe></div></div>
+                                                </div>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-136840091034 " data-post-id="136840091034">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://hellish-b0y.tumblr.com/post/136832603245"><i class="reblog_sm"></i>hellish-b0y</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="post-content high-res" data-photo-width="960">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://sylmercury.tumblr.com/image/136840091034"><img src="http://36.media.tumblr.com/7a38cb9bd0fe734f32dca2f6a8b1778d/tumblr_net6k3ppjz1s2i952o1_1280.jpg" alt="" width="960" height="1280"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        <section class="inline-meta post-extra has-reblog has-source">
+                                            
+                                                <a class="meta-item reblog-link" href="http://hellish-b0y.tumblr.com/post/136832603245"><i class="reblog_sm"></i>hellish-b0y</a>
+                                            
+                                            
+                                                <a class="meta-item source-link" href="http://kansass.tumblr.com/post/102254700594">Source: kansass</a>
+                                            
+                                            
+                                        </section>
+
+                                    </section>
+
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="inline-meta date-notes">
+                                                <div class="date-note-wrapper">
+                                                    
+                                                        <span class="notes-pop-container">
+                                                            <a href="http://sylmercury.tumblr.com/post/136840091034#notes" class="meta-item post-notes">220,854 notes</a>
+                                                            
+                                                        </span>
+                                                    
+                                                    <a href="http://sylmercury.tumblr.com/post/136840091034" title="1 month ago" class="meta-item post-date">Jan 7th, 2016</a>
+                                                </div>
+                                            </section>
+
+                                            <section class="post-controls">
+                                                <div class="controls-wrapper">
+                                                    <div class="control share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_136840091034">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="136840091034">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840091034&amp;t=Syl" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%F0%9F%93%B7%20%20http%3A%2F%2Ftmblr.co%2FZ4GK7m1-SJXMQ" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    
+                                                                        <li><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840091034&amp;media=http://36.media.tumblr.com/7a38cb9bd0fe734f32dca2f6a8b1778d/tumblr_net6k3ppjz1s2i952o1_500.jpg" class="share-item pinterest" target="_blank">Pinterest</a></li>
+                                                                    
+                                                                    
+                                                                    <li><a href="https://reddit.com/submit?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840091034" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Syl&amp;body=%F0%9F%93%B7%20%20http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840091034" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136840091034/embed" class="share-item permalink">Embed</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136840091034" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                    <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/136840091034/aw2k0b8i" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                    <div class="control like-control"><div class="like_button" data-post-id="136840091034" id="like_button_136840091034"><iframe id="like_iframe_136840091034" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=sylmercury&amp;post_id=136840091034&amp;color=black&amp;rk=aw2k0b8i&amp;root_id=102254700594" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_136840091034"></iframe></div></div>
+                                                </div>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-136840076454 " data-post-id="136840076454">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://hellish-b0y.tumblr.com/post/136832863689"><i class="reblog_sm"></i>hellish-b0y</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="post-content " data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://sensics.tumblr.com"><img src="http://40.media.tumblr.com/fcb1f8343616c1c20912b6178fbc571f/tumblr_n9s2wsgu6i1ti4b2uo1_500.jpg" alt="" width="500" height="375"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        <section class="inline-meta post-extra has-reblog has-source">
+                                            
+                                                <a class="meta-item reblog-link" href="http://hellish-b0y.tumblr.com/post/136832863689"><i class="reblog_sm"></i>hellish-b0y</a>
+                                            
+                                            
+                                                <a class="meta-item source-link" href="http://sensics.tumblr.com">Source: sensics</a>
+                                            
+                                            
+                                        </section>
+
+                                    </section>
+
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="inline-meta date-notes">
+                                                <div class="date-note-wrapper">
+                                                    
+                                                        <span class="notes-pop-container">
+                                                            <a href="http://sylmercury.tumblr.com/post/136840076454#notes" class="meta-item post-notes">179,368 notes</a>
+                                                            
+                                                        </span>
+                                                    
+                                                    <a href="http://sylmercury.tumblr.com/post/136840076454" title="1 month ago" class="meta-item post-date">Jan 7th, 2016</a>
+                                                </div>
+                                            </section>
+
+                                            <section class="post-controls">
+                                                <div class="controls-wrapper">
+                                                    <div class="control share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_136840076454">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="136840076454">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840076454&amp;t=Syl" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%F0%9F%93%B7%20%20http%3A%2F%2Ftmblr.co%2FZ4GK7m1-SJToc" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    
+                                                                        <li><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840076454&amp;media=http://40.media.tumblr.com/fcb1f8343616c1c20912b6178fbc571f/tumblr_n9s2wsgu6i1ti4b2uo1_500.jpg" class="share-item pinterest" target="_blank">Pinterest</a></li>
+                                                                    
+                                                                    
+                                                                    <li><a href="https://reddit.com/submit?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840076454" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Syl&amp;body=%F0%9F%93%B7%20%20http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840076454" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136840076454/embed" class="share-item permalink">Embed</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136840076454" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                    <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/136840076454/RvkOa9fi" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                    <div class="control like-control"><div class="like_button" data-post-id="136840076454" id="like_button_136840076454"><iframe id="like_iframe_136840076454" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=sylmercury&amp;post_id=136840076454&amp;color=black&amp;rk=RvkOa9fi&amp;root_id=93928527855" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_136840076454"></iframe></div></div>
+                                                </div>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-136840059229 " data-post-id="136840059229">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://hellish-b0y.tumblr.com/post/136838209722"><i class="reblog_sm"></i>hellish-b0y</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="post-content high-res" data-photo-width="1280">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://sylmercury.tumblr.com/image/136840059229"><img src="http://40.media.tumblr.com/c6ff2f0c07395543562871d237bd4af5/tumblr_nuvvl1Qus71tzfagdo1_1280.jpg" alt="" width="1280" height="840"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        <section class="inline-meta post-extra has-reblog has-source">
+                                            
+                                                <a class="meta-item reblog-link" href="http://hellish-b0y.tumblr.com/post/136838209722"><i class="reblog_sm"></i>hellish-b0y</a>
+                                            
+                                            
+                                                <a class="meta-item source-link" href="http://refunk.tumblr.com/post/129359930190/karen-rosetzsky">Source: refunk</a>
+                                            
+                                            
+                                        </section>
+
+                                    </section>
+
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="inline-meta date-notes">
+                                                <div class="date-note-wrapper">
+                                                    
+                                                        <span class="notes-pop-container">
+                                                            <a href="http://sylmercury.tumblr.com/post/136840059229#notes" class="meta-item post-notes">48,897 notes</a>
+                                                            
+                                                        </span>
+                                                    
+                                                    <a href="http://sylmercury.tumblr.com/post/136840059229" title="1 month ago" class="meta-item post-date">Jan 7th, 2016</a>
+                                                </div>
+                                            </section>
+
+                                            <section class="post-controls">
+                                                <div class="controls-wrapper">
+                                                    <div class="control share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_136840059229">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="136840059229">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840059229&amp;t=Syl" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%F0%9F%93%B7%20%20http%3A%2F%2Ftmblr.co%2FZ4GK7m1-SJPbT" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    
+                                                                        <li><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840059229&amp;media=http://40.media.tumblr.com/c6ff2f0c07395543562871d237bd4af5/tumblr_nuvvl1Qus71tzfagdo1_500.jpg" class="share-item pinterest" target="_blank">Pinterest</a></li>
+                                                                    
+                                                                    
+                                                                    <li><a href="https://reddit.com/submit?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840059229" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Syl&amp;body=%F0%9F%93%B7%20%20http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840059229" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136840059229/embed" class="share-item permalink">Embed</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136840059229" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                    <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/136840059229/FSUieMJo" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                    <div class="control like-control"><div class="like_button" data-post-id="136840059229" id="like_button_136840059229"><iframe id="like_iframe_136840059229" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=sylmercury&amp;post_id=136840059229&amp;color=black&amp;rk=FSUieMJo&amp;root_id=129359930190" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_136840059229"></iframe></div></div>
+                                                </div>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-136840043854 " data-post-id="136840043854">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://hellish-b0y.tumblr.com/post/136836055070/18"><i class="reblog_sm"></i>hellish-b0y</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="post-content  with-caption" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://40.media.tumblr.com/5c753084abc38e39f84ff7c5a4fccf5d/tumblr_n7ov44Qm8h1rl2k7fo1_500.jpg" alt="hellish-b0y:
+
+[18+]" width="500" height="707">
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a href="http://hellish-b0y.tumblr.com/post/136836055070/18">hellish-b0y</a>:</p>
+
+<blockquote><p><b><a href="http://hellish-b0y.tumblr.com">[18+]</a></b></p></blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        <section class="inline-meta post-extra has-reblog">
+                                            
+                                                <a class="meta-item reblog-link" href="http://hellish-b0y.tumblr.com/post/136836055070/18"><i class="reblog_sm"></i>hellish-b0y</a>
+                                            
+                                            
+                                            
+                                        </section>
+
+                                    </section>
+
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="inline-meta date-notes">
+                                                <div class="date-note-wrapper">
+                                                    
+                                                        <span class="notes-pop-container">
+                                                            <a href="http://sylmercury.tumblr.com/post/136840043854/hellish-b0y-18#notes" class="meta-item post-notes">22,918 notes</a>
+                                                            
+                                                        </span>
+                                                    
+                                                    <a href="http://sylmercury.tumblr.com/post/136840043854/hellish-b0y-18" title="1 month ago" class="meta-item post-date">Jan 7th, 2016</a>
+                                                </div>
+                                            </section>
+
+                                            <section class="post-controls">
+                                                <div class="controls-wrapper">
+                                                    <div class="control share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_136840043854">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="136840043854">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840043854%2Fhellish-b0y-18&amp;t=Syl" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%F0%9F%93%B7%20hellish-b0y%3A%20%5B18%2B%5D%20http%3A%2F%2Ftmblr.co%2FZ4GK7m1-SJLrE" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    
+                                                                        <li><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840043854%2Fhellish-b0y-18&amp;media=http://40.media.tumblr.com/5c753084abc38e39f84ff7c5a4fccf5d/tumblr_n7ov44Qm8h1rl2k7fo1_500.jpg" class="share-item pinterest" target="_blank">Pinterest</a></li>
+                                                                    
+                                                                    
+                                                                    <li><a href="https://reddit.com/submit?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840043854%2Fhellish-b0y-18" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Syl&amp;body=%F0%9F%93%B7%20hellish-b0y%3A%20%5B18%2B%5D%20http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136840043854%2Fhellish-b0y-18" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136840043854/hellish-b0y-18/embed" class="share-item permalink">Embed</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136840043854/hellish-b0y-18" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                    <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/136840043854/qqGJ9TrO" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                    <div class="control like-control"><div class="like_button" data-post-id="136840043854" id="like_button_136840043854"><iframe id="like_iframe_136840043854" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=sylmercury&amp;post_id=136840043854&amp;color=black&amp;rk=qqGJ9TrO&amp;root_id=89785048555" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_136840043854"></iframe></div></div>
+                                                </div>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-136839756884 " data-post-id="136839756884">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://hellish-b0y.tumblr.com/post/136838209722"><i class="reblog_sm"></i>hellish-b0y</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="post-content high-res" data-photo-width="1280">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://sylmercury.tumblr.com/image/136839756884"><img src="http://40.media.tumblr.com/c6ff2f0c07395543562871d237bd4af5/tumblr_nuvvl1Qus71tzfagdo1_1280.jpg" alt="" width="1280" height="840"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        <section class="inline-meta post-extra has-reblog has-source">
+                                            
+                                                <a class="meta-item reblog-link" href="http://hellish-b0y.tumblr.com/post/136838209722"><i class="reblog_sm"></i>hellish-b0y</a>
+                                            
+                                            
+                                                <a class="meta-item source-link" href="http://refunk.tumblr.com/post/129359930190/karen-rosetzsky">Source: refunk</a>
+                                            
+                                            
+                                        </section>
+
+                                    </section>
+
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="inline-meta date-notes">
+                                                <div class="date-note-wrapper">
+                                                    
+                                                        <span class="notes-pop-container">
+                                                            <a href="http://sylmercury.tumblr.com/post/136839756884#notes" class="meta-item post-notes">48,897 notes</a>
+                                                            
+                                                        </span>
+                                                    
+                                                    <a href="http://sylmercury.tumblr.com/post/136839756884" title="1 month ago" class="meta-item post-date">Jan 7th, 2016</a>
+                                                </div>
+                                            </section>
+
+                                            <section class="post-controls">
+                                                <div class="controls-wrapper">
+                                                    <div class="control share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_136839756884">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="136839756884">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136839756884&amp;t=Syl" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%F0%9F%93%B7%20%20http%3A%2F%2Ftmblr.co%2FZ4GK7m1-SIFnK" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    
+                                                                        <li><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136839756884&amp;media=http://40.media.tumblr.com/c6ff2f0c07395543562871d237bd4af5/tumblr_nuvvl1Qus71tzfagdo1_500.jpg" class="share-item pinterest" target="_blank">Pinterest</a></li>
+                                                                    
+                                                                    
+                                                                    <li><a href="https://reddit.com/submit?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136839756884" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Syl&amp;body=%F0%9F%93%B7%20%20http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136839756884" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136839756884/embed" class="share-item permalink">Embed</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136839756884" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                    <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/136839756884/FSUieMJo" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                    <div class="control like-control"><div class="like_button" data-post-id="136839756884" id="like_button_136839756884"><iframe id="like_iframe_136839756884" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=sylmercury&amp;post_id=136839756884&amp;color=black&amp;rk=FSUieMJo&amp;root_id=129359930190" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_136839756884"></iframe></div></div>
+                                                </div>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-136425762684 " data-post-id="136425762684">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://oceanbluee.tumblr.com/post/135999942341"><i class="reblog_sm"></i>oceanbluee</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="post-content photoset ">
+                                            <div id="photoset_136425762684" class="html_photoset">    <iframe id="photoset_iframe_136425762684" class="photoset" scrolling="no" frameborder="0" height="-5" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://sylmercury.tumblr.com/post/136425762684/photoset_iframe/sylmercury/tumblr_nnvss2OkbQ1smw1ws/0/false" name="photoset_iframe_136425762684"></iframe></div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        <section class="inline-meta post-extra has-reblog has-source">
+                                            
+                                                <a class="meta-item reblog-link" href="http://oceanbluee.tumblr.com/post/135999942341"><i class="reblog_sm"></i>oceanbluee</a>
+                                            
+                                            
+                                                <a class="meta-item source-link" href="http://nastygall.tumblr.com/post/118202111084/brandon-gray-jessica-sikosek">Source: nastygall</a>
+                                            
+                                            
+                                        </section>
+
+                                    </section>
+
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="inline-meta date-notes">
+                                                <div class="date-note-wrapper">
+                                                    
+                                                        <span class="notes-pop-container">
+                                                            <a href="http://sylmercury.tumblr.com/post/136425762684#notes" class="meta-item post-notes">262,763 notes</a>
+                                                            
+                                                        </span>
+                                                    
+                                                    <a href="http://sylmercury.tumblr.com/post/136425762684" title="1 month ago" class="meta-item post-date">Jan 1st, 2016</a>
+                                                </div>
+                                            </section>
+
+                                            <section class="post-controls">
+                                                <div class="controls-wrapper">
+                                                    <div class="control share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_136425762684">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="136425762684">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136425762684&amp;t=Syl" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%F0%9F%93%B7%20%20http%3A%2F%2Ftmblr.co%2FZ4GK7m1-3c_zy" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    
+                                                                    
+                                                                    <li><a href="https://reddit.com/submit?url=http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136425762684" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Syl&amp;body=%F0%9F%93%B7%20%20http%3A%2F%2Fsylmercury.tumblr.com%2Fpost%2F136425762684" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136425762684/embed" class="share-item permalink">Embed</a></li>
+                                                                    <li><a href="http://sylmercury.tumblr.com/post/136425762684" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                    <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/136425762684/Bbt7iWP7" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                    <div class="control like-control"><div class="like_button" data-post-id="136425762684" id="like_button_136425762684"><iframe id="like_iframe_136425762684" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=7e54d4bd89ee867096df32769aefa90c#name=sylmercury&amp;post_id=136425762684&amp;color=black&amp;rk=Bbt7iWP7&amp;root_id=118202111084" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_136425762684"></iframe></div></div>
+                                                </div>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                </div>
+            </section>
+            
+                
+            
+            <footer id="footer" class="content clearfix">
+                
+                    
+                    <div id="pagination">
+                        
+                        
+                        <a href="/page/2" class="next" data-current-page="1" data-total-pages="24">Next<span class="bg"></span></a>
+                        
+                        <div class="loader"><div class="loader-bar"></div><div class="loader-bar"></div><div class="loader-bar"></div></div>
+                    </div>
+                    
+                
+            </footer>
+        </section>
+        <script>
+            var Optica = {};
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.LAYOUT = "regular";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.TITLE_COLOR = "#444444";
+            Optica.ACCENT_COLOR = "#902449";
+            Optica.BACKGROUND_COLOR = "#CCCCCC";
+            Optica.RELATED_POSTS_CTA_VARIANTS = [
+               {
+                   variant: "C",
+                   text: "See the rest of this Tumblr"
+               },
+               {
+                   variant: "D",
+                   text: "See sylmercury's whole Tumblr"
+               },
+               {
+                   variant: "E",
+                   text: "You scrolled this far. Check out the rest."
+               }
+            ];
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vr9xgox/sBgmmjhyw/jquery-1.9.1.min.js"%3E%3C/script%3E'));</script>
+        <script src="http://static.tumblr.com/t1owtkf/PMQo0uw3n/main-min.js"></script>
+
+        
+
+        
+            
+        
+        
+    <iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?ab5d9138df4f39e0a422d6b59713a84e#" +
+                              "http://sylmercury.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/';
+                    var tumblelog_id = '209354040';
+                    var yahoo_space_id = '1197719229';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455840582&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc3lsbWVyY3VyeS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=AMHELPLAOO&K=70f5d75ac1dfbade6441b57560621b466ffe3285382ac1c7ec4788420cc35200&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455840582&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc3lsbWVyY3VyeS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=AMHELPLAOO&K=784471721a5fba87b123162fe0723e13f3228ca3b7219c7175323806d9625a6b&R="></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1455840582&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3N5bG1lcmN1cnkudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE4MzkyNDAzNSIsInJvb3RfcG9zdGlkIjoiMTM4MjI0NTAwMDY4IiwicG9zdGlkIjoiMTM4NzU1NDExMDc0IiwiYmxvZ2lkIjoiMjA5MzU0MDQwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgwNTUyMTA0Iiwicm9vdF9wb3N0aWQiOiIxMzg0ODcwMDAwMTUiLCJwb3N0aWQiOiIxMzg3NTUyNDA0MzQiLCJibG9naWQiOiIyMDkzNTQwNDAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDk1MDYwNTkiLCJyb290X3Bvc3RpZCI6IjEzNDM5NDMyNzQxNSIsInBvc3RpZCI6IjEzODc1NTIzNTA0NCIsImJsb2dpZCI6IjIwOTM1NDA0MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTI5MDQxODQiLCJyb290X3Bvc3RpZCI6IjEwMTE5ODUxMjY2MyIsInBvc3RpZCI6IjEzODM2ODg4ODgwNCIsImJsb2dpZCI6IjIwOTM1NDA0MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4ODU5MjM5MCIsInJvb3RfcG9zdGlkIjoiMTAyMjU0NzAwNTk0IiwicG9zdGlkIjoiMTM2ODQwMDkxMDM0IiwiYmxvZ2lkIjoiMjA5MzU0MDQwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5NjUyNzA2NSIsInJvb3RfcG9zdGlkIjoiOTM5Mjg1Mjc4NTUiLCJwb3N0aWQiOiIxMzY4NDAwNzY0NTQiLCJibG9naWQiOiIyMDkzNTQwNDAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTgyNTI5OTUwIiwicm9vdF9wb3N0aWQiOiIxMjkzNTk5MzAxOTAiLCJwb3N0aWQiOiIxMzY4NDAwNTkyMjkiLCJibG9naWQiOiIyMDkzNTQwNDAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODA1NTIxMDQiLCJyb290X3Bvc3RpZCI6Ijg5Nzg1MDQ4NTU1IiwicG9zdGlkIjoiMTM2ODQwMDQzODU0IiwiYmxvZ2lkIjoiMjA5MzU0MDQwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4MjUyOTk1MCIsInJvb3RfcG9zdGlkIjoiMTI5MzU5OTMwMTkwIiwicG9zdGlkIjoiMTM2ODM5NzU2ODg0IiwiYmxvZ2lkIjoiMjA5MzU0MDQwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0MzQ0OTk5NSIsInJvb3RfcG9zdGlkIjoiMTE4MjAyMTExMDg0IiwicG9zdGlkIjoiMTM2NDI1NzYyNjg0IiwiYmxvZ2lkIjoiMjA5MzU0MDQwIiwic291cmNlIjozM31dfQ==&U=CFFLGECEIA&K=22d5457aa71e016940a5f0c22db6c4aa97770c82ca7aa3a04ff1baddaa06f0ba&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1455840582&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3N5bG1lcmN1cnkudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE4MzkyNDAzNSIsInJvb3RfcG9zdGlkIjoiMTM4MjI0NTAwMDY4IiwicG9zdGlkIjoiMTM4NzU1NDExMDc0IiwiYmxvZ2lkIjoiMjA5MzU0MDQwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgwNTUyMTA0Iiwicm9vdF9wb3N0aWQiOiIxMzg0ODcwMDAwMTUiLCJwb3N0aWQiOiIxMzg3NTUyNDA0MzQiLCJibG9naWQiOiIyMDkzNTQwNDAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDk1MDYwNTkiLCJyb290X3Bvc3RpZCI6IjEzNDM5NDMyNzQxNSIsInBvc3RpZCI6IjEzODc1NTIzNTA0NCIsImJsb2dpZCI6IjIwOTM1NDA0MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTI5MDQxODQiLCJyb290X3Bvc3RpZCI6IjEwMTE5ODUxMjY2MyIsInBvc3RpZCI6IjEzODM2ODg4ODgwNCIsImJsb2dpZCI6IjIwOTM1NDA0MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4ODU5MjM5MCIsInJvb3RfcG9zdGlkIjoiMTAyMjU0NzAwNTk0IiwicG9zdGlkIjoiMTM2ODQwMDkxMDM0IiwiYmxvZ2lkIjoiMjA5MzU0MDQwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5NjUyNzA2NSIsInJvb3RfcG9zdGlkIjoiOTM5Mjg1Mjc4NTUiLCJwb3N0aWQiOiIxMzY4NDAwNzY0NTQiLCJibG9naWQiOiIyMDkzNTQwNDAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTgyNTI5OTUwIiwicm9vdF9wb3N0aWQiOiIxMjkzNTk5MzAxOTAiLCJwb3N0aWQiOiIxMzY4NDAwNTkyMjkiLCJibG9naWQiOiIyMDkzNTQwNDAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODA1NTIxMDQiLCJyb290X3Bvc3RpZCI6Ijg5Nzg1MDQ4NTU1IiwicG9zdGlkIjoiMTM2ODQwMDQzODU0IiwiYmxvZ2lkIjoiMjA5MzU0MDQwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4MjUyOTk1MCIsInJvb3RfcG9zdGlkIjoiMTI5MzU5OTMwMTkwIiwicG9zdGlkIjoiMTM2ODM5NzU2ODg0IiwiYmxvZ2lkIjoiMjA5MzU0MDQwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0MzQ0OTk5NSIsInJvb3RfcG9zdGlkIjoiMTE4MjAyMTExMDg0IiwicG9zdGlkIjoiMTM2NDI1NzYyNjg0IiwiYmxvZ2lkIjoiMjA5MzU0MDQwIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=CFFLGECEIA&K=eb8d8b645861771e1d9e65731ee49a7ca6997f4f0dab5b70a2467df3abae5b84&R="></noscript>
+<noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;TumblelogIframe&quot;:{&quot;tumblelogBundleSrc&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.js?_v=7e99ae1182af3b984855ee73042bff77&quot;,&quot;tumblelogName&quot;:&quot;sylmercury&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;tumblelogTitle&quot;:&quot;Syl&quot;,&quot;tumblelogAvatar&quot;:&quot;http:\/\/38.media.tumblr.com\/avatar_109c54583d7d_40.png&quot;,&quot;tumblelogHost&quot;:&quot;http:\/\/sylmercury.tumblr.com&quot;,&quot;brag&quot;:true,&quot;currentPage&quot;:&quot;1&quot;,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;http:\/\/sylmercury.tumblr.com\/&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;http:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=282357db21d8a5883cc1c780ace4cb5f&quot;,&quot;appInstallUrl&quot;:&quot;https:\/\/go.onelink.me\/893408789?pid=tumblr_blog_network\u0026c=tumblr_blog_network\u0026af_sub3=blog_name&quot;}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aV9wYXJzZV90ZXN0Ijp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJkZXByZWNhdGVfZmVhdHVyZWRfdGFncyI6dHJ1ZSwicmVibG9nX3VpX3JlZnJlc2giOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJkYXNoYm9hcmRfcmVmcmVzaCI6dHJ1ZSwibW9iaWxlX3dlYl9waG90b3NldHMiOnRydWUsIm1vYmlsZV93ZWJfZ2F0ZSI6dHJ1ZSwibW9iaWxlX3dlYl9wYWdlX3RpdGxlcyI6dHJ1ZSwibW9iaWxlX3dlYl9zZWFyY2giOnRydWUsIm1vYmlsZV93ZWJfc2VhcmNoX2ZpbHRlciI6dHJ1ZSwibW9iaWxlX3dlYl9hYnVzZV9mb3JtIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX25ld192ZW5kb3JfYnV0dG9ucyI6dHJ1ZSwiYmxvY2tfZmVhdHVyZSI6dHJ1ZSwicmVhY3RpdmF0aW9uX2Zsb3ciOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2VwaGVtZXJhbF9sb2ciOnRydWUsImxvZ19sYWR5Ijp0cnVlLCJjc2xvZ2dlcl9qcyI6dHJ1ZSwiZGlzY292ZXJ5X2h1Yl9hY2Nlc3MiOnRydWUsImhlYWRlcl9hY2NvdW50X21lbnUiOnRydWUsImVuYWJsZV9wcmltYV9zaGFyZV9wb3BvdmVyIjp0cnVlLCJlbmFibGVfc2hhcmVfZW1iZWRfY29kZSI6dHJ1ZSwicGludGVyZXN0X3NoYXJpbmciOnRydWUsInJlZGRpdF9zaGFyaW5nIjp0cnVlLCJwb3N0X2l0X2ZvcndhcmQiOnRydWUsInBlZXByX3NlYXJjaF9hbmRfZmlsdGVyIjp0cnVlLCJpbnRlcm5zX3BhZ2UiOnRydWUsImZvbGxvd2VkX3NlYXJjaGVzX2JpZ193ZWIiOnRydWUsImRpc2FibGVfcHVibGljX3JlcGxpZXMiOnRydWUsImRpc2FibGVfeWFob29fYl9jb29raWUiOnRydWUsInByaW1hX3R1bWJsZWxvZ19idW5kbGUiOnRydWV9&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1455840581000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;http:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/secure.assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;http:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;http:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;http:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;},&quot;Translations&quot;:[]}"></noscript>
+<script src="http://assets.tumblr.com/client/prod/standalone/tumblelog/index.js?_v=7e99ae1182af3b984855ee73042bff77"></script>
+
+</body>
+</html>

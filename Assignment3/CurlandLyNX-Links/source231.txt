@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>IdeiDigitale.ro - Creare site. Optimizare SEO. Promovare site.</title>
+    <meta name="description" content="Misiunea noastra este sa dezvoltam solutii web elegante si accesibile ce va pot creste vizibilitatea online, mari vanzarile sau imbunatati productivitatea." />
+	<meta name="keywords" content="Idei Digitale, design, optimizare seo, promovare" />
+	<meta name="geo.region" content="RO-SV" />
+	<meta name="geo.placename" content="Suceava" />
+	<meta name="rating" content="general" />
+
+	<meta name="copyright" content="IdeiDigitale.ro - ALIRUXIA SRL"/>
+
+
+	<!-- allow styling of HTML5 elements in older IE browsers -->
+	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+	<!-- Occupy full width of the screen in its current orientation -->
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="canonical" href="http://www.ideidigitale.ro/">
+
+	<!-- Twitter: see https://dev.twitter.com/docs/cards/types/summary-card for details -->
+	<meta name="twitter:card" content="" />
+	<meta name="twitter:site" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:description" content="" />
+	<meta name="twitter:url" content="" />
+
+	<!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-style.css" rel="stylesheet" type="text/css"/>
+	<link href="css/animate.css" rel="stylesheet" />
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css"/>
+    <link href="css/lity.css" rel="stylesheet" />
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+
+<div class="main_wrap">
+
+<header>
+	<div class="top_bar_wrap">
+		<div class="top_bar">
+
+				<div class="top_bar_left">
+					<i class="fa icon-idei-digitale-logo"></i>
+				</div>
+
+				<div class="logo_text">Idei Digitale</div>
+				
+				<nav id="nav" class="top_bar_right" role="navigation">
+					<ul class="top_nav">
+						<li><a class="jumper" href="#services">Servicii</a></li>
+						<li><a class="jumper" href="#portofolio">Portofoliu</a></li>
+						<li><a class="jumper" href="#price_estimator">Estimare Pret</a></li>
+						<li><a class="jumper" href="#contact_us">Contact</a></li>
+					</ul>
+				</nav>
+
+		</div>
+	</div>
+
+	<div class="bg_wrap" id="bg"></div>
+
+	<a class="jumper" id="back_to_top" href="#bg"></a>
+
+	<div class="header_text">
+		<h1 class="white typed">Vrei sa te promovezi?</h1>
+		<h3 class="light white">Hai sa construim un site impreuna!</h3>
+    </div>
+</header>
+
+<div class="offers_wrap container">
+ <div class="offers row">
+  <div class="offer1 col-lg-4 col-md-4 col-sm-12">
+		<div class="offer5_img"><i class="fa icon-web-design-icon"></i></div>
+		<p>Web Design</p>
+		<p class="offer_details">Realizam site-uri web, sau altfel spus concepem structura si aspectul grafic, transpunem conceptul in cod, apoi, dupa caz, executam introducerea propriu-siza a datelor ce intra in componenta site-ului (texte, imagini, etc.)</p>
+  </div>
+  <div class="offer2 col-lg-4 col-md-4 col-sm-12">
+  		<div class="offer5_img"><i class="fa icon-params"></i></div>
+		<p>Optimizare site</p>
+		<p class="offer_details">Optimizarea web, descrisa si prin abrevierea SEO (Search Engine Optimization) se refera la implementarea unor tehnici cu scopul de a imbunatati vizibilitatea unui site in motoarele de cautare, in principal in Google.</p>
+  </div>
+  <div class="offer3 col-lg-4 col-md-4 col-sm-12">
+  		<div class="offer5_img"><i class="fa icon-megaphone"></i></div>
+		<p>Promovare site</p>
+		<p class="offer_details">Strategii prin intermediul carora incercam sa determinam cresterea numarului de vizitatori ce ajung pe siteul dumneavoastra. Aceste strategii variaza de la caz la caz si urmaresc o crestere masurabila in cadrul unor bugete accesibile.</p>
+  </div>
+</div>
+</div>
+
+<div class="quote1 container"><blockquote>
+Exista trei tipuri de raspuns cand vine vorba de un site - da, nu si WOW!<br>
+Wow este reactia pe care incercam s-o generam din partea dumneavoastra.
+</blockquote></div> 
+
+<div class="border_top1" id="services"></div>
+
+<div class="servicii">
+	<div>
+		<h1>Servicii Web Design</h1>
+		<p class="section_subtitle">Tipuri de site-uri sau servicii conexe cu care te putem ajuta. Pentru o descriere detaliata a tuturor serviciilor click <a class="jumper" href="#services_detailed">aici</a>.</p>
+	</div>
+	<div class="servicii_wrap container">
+ <div class="servicii1 row">
+  <div class="serviciu1 col-lg-3 col-md-3 col-sm-12">
+  	<article>
+		<h2>Site One Page</h2>
+		<p class="detalii_serviciu">Site-uri usor de navigat al caror continut este structurat pe o singura pagina si in cadrul carora informatia este foarte rapid accesibila. Ideal pentru cei cu buget restrans.</p>
+	</article>
+  </div>
+  <div class="serviciu2 col-lg-3 col-md-3 col-sm-12">
+  	<article>
+		<h2>Site Neadministrabil</h2>
+		<p class="detalii_serviciu">Deseori numit si site de prezentare, acest tip de site are aspect profesional si este potrivit persoanelor fizice sau juridice ce vor sa se faca cunoscute sau sa-si promoveze afacerea online.</p>
+	</article>
+  </div>
+  <div class="serviciu3 col-lg-3 col-md-3 col-sm-12">
+  	<article>
+		<h2>Site Administrabil</h2>
+		<p class="detalii_serviciu">Site ce are la baza un CMS (Content Management System) cum ar fi Wordpress, Joomla, etc., ce permite adaugarea sau editarea informatiilor(Ex: texte, poze, oferte) printr-o interfata usor de folosit.</p>
+	</article>
+  </div>
+  <div class="serviciu4 col-lg-3 col-md-3 col-sm-12">
+  	<article>
+		<h2>Site Custom</h2>
+		<p class="detalii_serviciu">Site adaptat strict la cerintele dumneavoastra, care include doar elementele necesare (atat ca design cat si ca fucntionalitate), fara alte "feature-uri" suplimentare care pot ingreuna viteza de incarcare.</p>
+	</article>
+  </div>
+</div>
+<div class="servicii2 row">
+  <div class="serviciu5 col-lg-3 col-md-3 col-sm-12">
+  	<article>
+		<h2>Front-end development</h2>
+		<p class="detalii_serviciu">Modificari de front-end in cadrul aplicatiilor deja existente sau transformarea design-lui (in general a PSD-ului) in cod HTML5 si CSS3 in cadrul aplicatiilor noi.</p>
+	</article>
+  </div>
+  <div class="serviciu6 col-lg-3 col-md-3 col-sm-12">
+  	<article>
+		<h2>Branding</h2>
+		<p class="detalii_serviciu">Impachetam tot ceea ce vrei sa comunici consumatorului sau vizitatorului prin intermediul site-ului si nu numai, intr-un slogan, un simbol vectorial, un design sau un nume.</p>
+	</article>
+  </div>
+  <div class="serviciu7 col-lg-3 col-md-3 col-sm-12">
+  	<article>
+		<h2>Optimizare site</h2>
+		<p class="detalii_serviciu">Revizuirea codului, design-ului, continutului (text, poze, meta tag-uri), navigatiei, linkurilor (inbound si outbound) in scopul imbunatatirii vizibilitatii siteului in lista rezultatelor neplatite din cadrul motoarelor de cautare.</p>
+	</article>
+  </div>
+  <div class="serviciu8 col-lg-3 col-md-3 col-sm-12">
+  	<article>
+		<h2>Promovare site</h2>
+		<p class="detalii_serviciu">Campanii de tip Pay Per Click ce presupun un buget si urmaresc obiective clare prin plasarea de anunturi si linkuri prin intermediul serviciilor Google AdWords sau Facebook Ads.</p>
+	</article>
+  </div>
+</div>
+<div class="servicii3 row">
+  <div class="serviciu9 col-lg-4 col-md-4 col-sm-12">
+  	<article>
+		<h2>Introducere date</h2>
+		<p class="detalii_serviciu">Introducere date, informatii/produse in cadrul unui site/magazin online viitor sau deja existent. Preturile variaza in functie de cantitatea de informatii si timpul necesar introducerii acesteia.</p>
+	</article>
+  </div>
+  <div class="serviciu10 col-lg-4 col-md-4 col-sm-12">
+  	<article>
+		<h2>Administrare site</h2>
+		<p class="detalii_serviciu">Efecturea de update-uri, backup-uri, modificari minore de structura sau design, toate necesare pentru o functionare optima a site-ului cat si adaugari/modificari periodice de continut, transmitere newsletter, etc..</p>
+	</article>
+  </div>
+  <div class="serviciu11 col-lg-4 col-md-4 col-sm-12">
+  	<article>
+		<h2>Gazduire site</h2>
+		<p class="detalii_serviciu">Iti putem gazdui site-ul incepand de la 100 RON pe an. In anumite situatii serviciul de hosting include si serviciul de administrare site gratuit. Acest lucru depinde de volumul si complexitatea lucrarilor necesare pe partea de admininstrare. </p>
+	</article>
+  </div>
+ 
+</div>
+</div>
+</div>
+
+<div class="quote2 container"><blockquote>
+Un site te promoveaza 24 de ore pe zi, 7 zile pe saptamana.
+Nici un angajat nu va face asta.
+</blockquote></div> 
+
+<div class="border_top2" id="portofolio"></div>
+
+<div class="portofoliu">
+	
+	<h2>Portofoliu</h2>
+	<p class="section_subtitle">Exemple de proiecte recente realizate cu ajutorul nostru.</p><br />
+	<div class="laptop_wrap">
+	<div class="laptop">
+		
+		<div class="flexslider" style="background-color: transparent">
+			<ul class="slides">
+				<li>
+					<img title="Site custom tip platforma pentru publicare articole inspirationale" alt="Portofoliu Idei Digitale - Positivistic.com" src="../images/porotfoliu-idei-digitale-site-custom.jpg" data-lity>
+				</li>
+				<li>
+					<img title="Site cu stiri auto" alt="Portofoliu Idei Digitale - CarSession.com" src="../images/porotfoliu-idei-digitale-site-stiri-auto.jpg" data-lity>
+				</li>
+				<li>
+					<img title="Customizare template pentru blog inspirational" alt="Portofoliu Idei Digitale - LoveFairy.com" src="../images/porotfoliu-idei-digitale-customizare-tema-wordpress.jpg" data-lity>
+				</li>
+				<li>
+					<img title="Redesign blog" alt="Portofoliu Idei Digitale - Love Fairy versiunea 2" src="../images/porotfoliu-idei-digitale-redesign-blog.jpg" data-lity>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+</div>  <!-- end of class portofoliu -->
+
+<div class="clearfix"></div>
+
+<div class="quote3 container"><blockquote>
+Design-ul intuitiv este modul prin care utilizatorul primeste noi super puteri.<br>
+</blockquote></div> 
+
+<div class="border_top3" id="price_estimator"></div>
+
+<div class="preturi container-fluid">
+	<div>
+		<h2>Estimare Pret</h2>
+		<p class="section_subtitle">Ofertele de mai jos sunt cu titlu orientativ si sunt menite sa ofere exemple de functionalitati ce pot fi incluse intr-un anumit buget.</p>
+	</div>
+	<div class="row">
+		<div class="center">
+			<div class="price1 col-md-4">
+				<div class="price1_title">
+					SITE DE PREZENTARE
+				</div>
+				<div class="price1_value">
+					150
+					<span class="curr">euro</span>
+				</div>
+				<ul class="price1-features">
+					<li>Administrabil <span>Nu</span></li>
+					<li>Responsive <span>Da</span></li>
+					<li>Galerie foto <span>Da</span></li>
+					<li>Portofoliu <span>Da</span></li>
+					<li>Pagina de contact <span>DA</span></li>
+					<li>Numar pagini <span>5-10</span></li>
+					<li>Google Analytics <span>Da</span></li>
+					<li>Newsletter <span>Nu</span></li>
+					<li>Optimizare SEO on-page <span>Da</span></li>
+					<li>Design<span>Standard</span></li>
+					
+				</ul>
+				<a class="btn btn-primary btn-lg" href="#myModal" role="button" data-toggle="modal">
+					Cere Oferta
+					<span class="fa fa-long-arrow-right"></span>
+				</a>
+			</div>
+			<div class="price2 col-md-4">
+				<div class="price2_title">
+					SITE ADMINISTRABIL
+				</div>
+				<div class="price2_value">
+					350
+					<span class="curr">euro</span>
+				</div>
+				<ul class="price2-features">
+					<li>Administrabil <span>Wordpress</span></li>
+					<li>Responsive <span>Da</span></li>
+					<li>Galerie foto <span>Da</span></li>
+					<li>Portofoliu <span>Da</span></li>
+					<li>Formular de contact <span>Da</span></li>
+					<li>Numar pagini <span>5-15</span></li>
+					<li>Google Analytics <span>Da</span></li>
+					<li>Newsletter <span>Da</span></li>
+					<li>Optimizare SEO on-page <span>Da</span></li>
+					<li>Design<span>Personalizat/Unic</span></li>
+
+					
+					
+				</ul>
+				<a class="btn btn-primary btn-lg" href="#myModal" role="button" data-toggle="modal">
+					Cere Oferta
+					<span class="fa fa-long-arrow-right"></span>
+				</a>
+			</div>
+			<div class="price3 col-md-4">
+				<div class="price3_title">
+					SITE CUSTOM
+				</div>
+				<div class="price3_value">
+					250+
+					<span class="curr">euro</span>
+				</div>
+				<ul class="price3-features">
+					<li>Administrabil <span>Da/Nu</span></li>
+					<li>Responsive <span>Da/Nu</span></li>
+					<li>Galerie foto <span>Da/Nu</span></li>
+					<li>Portofoliu <span>Da/Nu</span></li>
+					<li>Formular de contact <span>Da/Nu</span></li>
+					<li>Google Analytics <span>Da/Nu</span></li>
+					<li>Newsletter <span>Da/Nu</span></li>
+					<li>On-page SEO <span>Da/Nu</span></li>
+					<li>Design Personalizat <span>Da/Nu</span></li>
+					<li>Design<span>Personalizat</span></li>
+				</ul>
+				<a class="btn btn-primary btn-lg" href="#myModal" role="button" data-toggle="modal">
+					Cere Oferta
+					<span class="fa fa-long-arrow-right"></span>
+				</a>
+				
+			</div>
+		</div>
+	</div>
+
+
+   <!-- Modal -->
+   <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Formular cerere oferta</h4>
+            <div id="modalmsgSubmit" class="h3 text-center hidden"></div>
+        </div>
+        <div class="modal-body">
+        	
+			<form class="form-horizontal" role="form" data-toggle="validator" id="IDofyourform" name="commentform" method="post">
+			    <div class="form-group has-feedback">
+			        <label class="control-label col-md-4" for="first-name">Nume</label>
+			        <div class="col-md-8">
+			            <input type="text" class="form-control" id="first-name" name="first-name" placeholder="Numele dumneavoastra sau al societatii" required data-error="Introduceti numele"/>
+			            <div class="help-block with-errors pull-right"></div>
+			            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+			        </div>
+			    </div>
+			    <div class="form-group has-feedback">
+			        <label class="control-label col-md-4" for="telephone">Telefon</label>
+			        <div class="col-md-8">
+			            <input type="text" pattern="^[0-9]*$" class="form-control" id="telephone" name="telephone" placeholder="Nr. de telefon" required data-error="Introduceti nr. de telefon"/>
+			            <div class="help-block with-errors pull-right"></div>
+			            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+			        </div>
+			    </div>
+			    <div class="form-group has-feedback">
+			        <label class="control-label col-md-4" for="modal-email">E-mail</label>
+			        <div class="col-md-8">
+			            <input type="email" class="form-control" id="modal-email" name="modal-email" placeholder="Adresa de e-mail" 
+			            required data-error="Introduceti o adresa de e-mail valida"
+			            />
+			            <div class="help-block with-errors pull-right"></div>
+			            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+			        </div>
+			    </div>
+				<div class="form-group has-feedback">
+ 					 <label class="control-label col-md-4" for="modal-select">Serviciul</label>
+				     <div class="col-md-8">
+				      <select class="form-control" id="modal-select" name="modal-select" required data-error="Selectati tipul site-ului sau serviciului">
+				      	<option value="" selected disabled>Alege tipul de site sau serviciul dorit</option>
+				        <option value="Site One Page">Site One Page</option>
+				        <option value="Site Neadministrabil">Site Neadministrabil</option>
+				        <option value="Site Administrabil">Site Administrabil</option>
+				        <option value="Site Custom">Site Custom</option>
+				        <option value="Front-end development">Front-end development</option>
+				        <option value="Branding/Identitate Vizuala">Branding/Identitate Vizuala</option>
+				        <option value="Optimizare site">Optimizare site</option>
+				        <option value="Promovare site">Promovare site</option>
+				        <option value="Introducere date">Introducere date</option>
+				        <option value="Administrare site">Administrare site</option>
+				        <option value="Gazduire site">Gazduire site</option>
+				      </select>
+				      <div class="help-block with-errors pull-right"></div>
+				      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-md-4" for="modal-comments">Detalii</label>
+			        <div class="col-md-8">
+			            <textarea rows="6" class="form-control" id="modal-comments" name="modal-comments" placeholder="Descrieti pe scurt proiectul dumneavoastra"></textarea>
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <div class="col-md-12">
+			            <!--<button type="submit" value="Submit" class="btn btn-custom pull-right" id="send_btn">Trimite Informatiile</button>-->
+			            <input type="submit" value="Trimite" class="btn btn-custom pull-right" id="send_btn">
+			        </div>
+			    </div>
+			</form>
+        </div><!-- End of Modal body -->
+        </div><!-- End of Modal content -->
+        </div><!-- End of Modal dialog -->
+    </div><!-- End of Modal -->
+
+<!-- Modal for displaying the thank you message -->
+<div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h5 class="modal-title">Va multumim</h5>
+            </div>
+            <div class="modal-body">
+                <!-- The messages container -->
+                <div id="errors">
+                	<i class="fa icon-check-circle"></i>
+                	<span>Cererea dumneavoastra a fost trimisa!</span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Inchide</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="quote4 container"><blockquote>
+75% din utilizatori nu vor reveni pe un site al carui timp de incarcare este de peste 4 secunde.
+</blockquote></div>
+
+<div class="border_top1" id="services_detailed"></div>
+
+<div class="servicii">
+	<div>
+		<h1>Detaliere Servicii</h1>
+		<p class="section_subtitle">In aceasta sectiune gasiti o descriere mai detaliata a fiecarui serviciu pe care-l oferim.</p>
+	</div>
+<div class="servicii_detailed_wrap container">
+	<div class="row">
+		<div class="col-md-12">
+			<ul id="tabs">
+			    <li class="active">Site one page</li>
+			    <li>Site neadministrabil</li>
+			    <li>Site administrabil</li>
+			    <li>Site custom</li>
+			    <li>Front-end development</li>
+			    <li>Branding</li>
+			    <li>Optimizare site</li>
+			    <li>Promovare site</li>
+			    <li>Introducere date</li>
+			    <li>Administrare site</li>
+			    <li>Mod de lucru</li>
+			</ul>
+			<ul id="tab">
+			    <li class="active">
+			      <article>
+			    	<h2>Site one page</h2>
+			        <p>Dupa cum si denumirea o spune, un site de tipul "one page" este un site pe care informatia este gandita si structurata in cadrul unei singure pagini, un concept ce poate reprezenta dupa caz, o alternativa la site-urile obisnuite unde 
+continutul este prezentat in cadrul unor pagini separate (home.html, portofoliu.html, contact.html etc.).<br><br> Acest mod the organizare si prezentare a informatiei aduce cateva avantaje, cum ar fi timpul mai scurt de realizare a 
+site-ului, o experienta placuta pentru utilizator avand in vedere ca informatia de care are nevoie este doar la un click sau un scroll distanta, flexibilitatea de a structura si prezenta totul intr-un mod mai creativ, cat si o 
+performanta crescuta (deoarece se elimina timpii de incarcare pentru alte pagini iar site-ul nu necesita o interfata de administrare/sectiune de back-end).<br><br>
+Deasemnea, avand in vedere ca folosim platforma Bootstrap siteul va fi responsive (adaptabil la orice rezolutie), deci implicit se va incadra in tendintele actuale ce sustin ca paginile web trebuie sa fie "prietenoase" cu device-urile 
+mobile. Ca si idee, site-ul pe care va aflati acum, IdeiDigitale.ro, este un site one-page responsive.<br><br> Referitor la caracteristici, un site one-page creat de noi va include maxim 5 sectiuni (cum ar fi: Acasa, Despre noi, 
+Servicii, Preturi, Contact), va avea un cod valid <a href="http://www.w3.org/" target="_blank">W3C</a>, in acord cu standardele web actuale, va include Google Analytics, va avea formular de contact si optimizare SEO on-page.</p>
+			  	</article>
+			   </li>
+			    <li>
+			    	<article>
+				        <h2>Site neadministrabil</h2>
+				        <p>Site-ul neadministrabil este genul de site in cadrul caruia informatia nu necesita modificari sau actualizari frecvente, deci dezvoltarea sa nu implica si utilizarea unei platforme de management de continut, cum ar fi de exemplu 
+
+Wordpress sau Joomla.<br><br> Chiar daca nu dispune de un panou de administrare, datele de pe site pot fi totusi modificate, dar acest lucru presupune editarea codului sursa. Impreuna cu site-ul de tip one-page, site-ul neadministrabil reprezinta una din variantele cele mai accesibile de promovare in mediul online. De obicei in cazul site-ului de prezentare fara panou de comanda, informatia sau serviciile care se doresc a fi prezentate necesita o abordare mai ampla decat in cadrul unui site one-page.<br><br> In varianta sa de baza, un site neadministrabil creat de noi va include intre 5 si 7 pagini simple cu design standard, va putea contine pana la 7 imagini pe pagina, dupa caz pagina de portofoliu, va fi adaptabil la rezolutiile dispozitivelor mobile, va contine formular de contact, optimizare SEO on-page si script pentru statistici (Google Analytics).</p>
+				    </article>
+			    </li>
+			    <li>
+			    	<article>
+			        	<h2>Site administrabil</h2>
+			        	<p>Site-ul administrabil este practic tot un site de prezentare care spre deosebire de cel neadministrabil, ofera control asupra continutului intrucat are la baza un CMS (Content Management System) prin interfata caruia se pot adauga/sterge 
+
+pagini sau edita pagini existente. Este tipul de site pe care se adauga continut in mod frecvent sau in cadrul caruia informatiile se schimba des.<br><br> 
+
+Datorita structurii sale dinamice, site-ul administrabil permite si instalarea de plugin-uri sau module, sau mai pe romaneste spus extensii, ce pot avea la randul lor diferite functionalitati, in functie de necesitate. Aceste extensii, pentru oricare din CMS-urile open source pot fi gratuite sau nu.<br><br>    
+
+Indiferent daca este administrabil sau nu, un site de prezentare poate avea si pana la 25 de pagini in cazul in care vorbim de un site corporate, si evident este menit sa extinda imaginea companiei in mediul online. Un site de prezentare 
+
+trebuie sa aiba o structura unica, pentru ca si afacerea ce sta la baza lui este in principiu unica.<br><br> Daca ar fi sa exemplificam, un site de prezentare administrabil este potrivit pentru firmele ce ofera servicii, si care doresc sa-si 
+
+prezinte oferta, produsele, echipa, eventual subcategoriile serviciilor, imaginile, etc., sau pentru persoanele fizice sau juridice ce au in spate un portofoliu. Pentru aceasta a doua categorie vorbim de site-uri structurate sub forma 
+
+unor galerii mai complexe deoarece acentul se pune pe elementele vizuale.</p>
+			        </article>
+			    </li>
+			    <li>
+			    	<article>
+			        	<h2>Site custom</h2>
+			        	<p>
+			        	Elementele din componenta acestui tip de site sunt customizate in functie de nevoile si cerintele beneficiarului. Dupa cum am mai precizat, orice site ce are in spate o afacere sau o persoana care vrea sa-si promoveze imaginea sau 
+
+activitatea, este unic (sau cel putin ar trebui sa fie unic).<br><br> Asadar putem vorbi de exemplu de situatii in care nu avem nevoie de un site administrabil, dar totusi se doreste un anumit grad de control asupra informatiilor prezentate fara 
+
+a fi nevoie de editarea codului sursa. Sau se doreste de exemplu un site ce are la baza platforma Wordpress, dar care pe langa functionalitatile standard oferite de Wordpress, se mai doreste dezvoltarea unor formulare personalizate, sau 
+
+galerii foto speciale, etc..<br><br> Un alt exemplu ar fi atunci cand personalizam un template astfel incat aspectul site-ului sa nu fie "sarac" sau se creeaza un template de la 0. 
+
+Toate acestea sunt doar cateva din situatiile in care discutam de site-uri custom la care pretul variaza in functie de gradul de customizare si timpul necesar implementarii.</p>
+			    	</article>
+			    </li>
+			    <li>
+			    	<article>
+			        	<h2>Front-end development</h2>
+			        	<p>
+			        	Inainte de a descrie acest serviciu vom detalia putin termenii de front-end si back-end. Cand vorbim despre front-end discutam despre ceea ce se vede, sau altfel spus, partea cu care vizitatorii interactioneaza atunci cand intra pe o pagina web, in timp ce termenul de back-end se refera la locul de unde se administreaza informatiile afisate pe un site.<br><br>
+
+Front-end-ul poate fi la randul sau impartit in doua parti, si anume partea de design grafic, adica elementele creative de pe pagina (ce se vede) si partea de cod a interfetei (cum functioneaza ceea ce se vede). Serviciul de front-end 
+
+development se refera la exact partea de cod a interfetei, iar acest lucru consta in principiu in traspunerea partii creative (cel mai adesea un fisier creat in Photoshop) in cod de mark-up scris in HTML, a carui stilizare la randul sau 
+
+este controlata prin cod CSS, plus eventaulele elemente interactive realizate cu ajutorul Java Script.<br><br>
+
+Tot codul din cadrul unui site, scris in limbajele mentionate mai sus este interpretat de browserul folosit de utilizator, iar per total se doreste o imbinare perfecta intre aspect, functionalitate si modul de implementare.  
+
+Atunci cand se doreste initierea unui proiect online este bine sa faceti diferentierea intre cele doua parti, adica intre cea de design grafic si cea de implementare (front-end development) pentru a evita situatiile in care subestimati 
+
+rolul developer-ului sau aveti asteptari prea mari de la un designer.<br><br>
+
+Serviciul de front-end development poate fi aplicat atat in cadrul proiectelor noi cat si in cadrul celor deja existente.</p>
+			    	</article>
+			    </li>
+			    <li>
+			    	<article>
+			        	<h2>Branding</h2>
+			        	<p>
+			        	Un site, fie ca vinde anumite produse, ofera anumite servicii, prezinta informatii sau puncte de vedere, transmite in cele din urma un mesaj, atat in mod direct prin textele care se regasesc pe paginile din componenta sa, cat si 
+
+indirect prin simbolul/logo-ul prin care firma este reprezentata, slogan-ul sau, prin diferitele elemente grafice prezente pe site, culorile alese, etc..<br><br> Acestea trebuie concepute si alese luand in calcul un numar de factori avand in 
+
+vedere ca la final, impreuna cu informatiile prezentate si cu activitatea care sta efectiv la baza site-ului, trebuie sa se creeze acea parere, opinie sau reper de valoare din mintea vizitatorului/consumatorului.<br><br>
+
+Asadar in cadrul serviciului de branding aplicabil pe partea de web, va putem ajuta cu elemente de identitate vizuala, cum ar fi un logo sau diferite componente grafice colaterale, cat si cu elemente ce tin si de identitatea verbala cum 
+
+ar fi denumirea companiei, a produsului sau serviciului oferit de dumneavoastra.</p>
+			        </article>
+			    </li>
+			    <li>
+			    	<article>
+				        <h2>Optimizare site</h2>
+				        <p>Infara de a fi atractiv pentru vizitatori, din punct de vedere al design-ului cat si continutului, un site trebuie sa fie "atractiv" si pentru motoarele de cautare, iar aici facem referire in special la Google a carui cota de piata in 
+
+Romania este de peste 95%. Pentru a fi "atractiv" insa in "ochii" Google, trebuie luate in considerare o serie de aspecte care merg mai departe de design si continut, avand in vedere ca un motor de cautare cum este Google, este in 
+
+principiu o clasa de programe, deci lucrurile se vad putin diferit din persepctiva sa.<br><br> Aceste aspecte includ chestiuni cum ar fi, viteza de incarcare a site-ului, existenta erorilor in cadrul codului HTML si CSS, existenta unui Site Map, 
+
+a unui fisier robots.txt, forma link-urilor (daca acestea sunt SEO-friendly sau nu), existenta meta-tag-urilor si modul in care acestea sunt introduse, structura semantica a codului de mark-up si asa mai departe.<br><br> 
+
+Optimizarea acestor elemente ajuta in final la cresterea importantei pe care Google o acrodata site-ului dumneavoastra, lucru care practic se poate traduce si in cresterea numarului de vizitatori.</p>
+				    </article>
+			    </li>
+			    <li>
+			    	<article>
+			        	<h2>Promovare site</h2>
+			        	<p>
+			        		In cadrul acestui serviciu discutam despre promovarea PPC (Pay Per Click) adica cea de a doua metoda importanta de promovare a unui site, alaturi de promovarea organica. Spre deosebire de promovarea organica insa, unde efectele se vad 
+
+dupa efort sustinut si perioade lungi de timp, promovarea PPC ofera rezultate imediate.<br><br> Prin acest tip de promovare facem referire la campanii de publicare a unor anunturi si link-uri sponsorizate in retele cum ar fi Google Adwords sau 
+
+Facebook, iar folosirea acestui tip de instrument presupune si existenta unui buget.
+
+Desi necesitatea investirii unei sume de bani va poate descuraja, trebuie avut in vedere ca pe langa generarea de efecte imediate, folosirea sistemului de anunturi platite are si alte beneficii precum atingerea unor obiective clare, 
+
+posibilitatea de a calcula randamentul investitiei, atragerea unui numar de vizitatori in concordanta cu suma platita, masurarea exacta a eficientei campaniei cat si posibilitatea unei targetari foarte exacte (setarea eficienta a 
+
+publicului tinta).<br><br>
+
+Implementarea cu succes a unei campanii PPC presupune o mare atentie in alegerea cuvintelor cheie din cadrul anunturilor/bannerelor ce urmeaza sa fie folosite, calitatea si eficienta paginilor pe care vizitatorii ajung dupa ce acestia 
+
+dau click pe anunt, cat si o buna utilizare a uneltelor de segmentare din cadrul platformelor mai sus mentionate.
+			        	</p>
+			        </article>
+			    </li>
+			    <li>
+			    	<article>
+			        	<h2>Introducere date</h2>
+			        	<p>Serviciul de introducere date este conceput pentru persoanele fizice sau juridice care detin un site sau urmeaza sa lanseze unul, si nu au timp sa introduca produsele / informatiile / datele in cadrul acestuia. Preturile in cadrul 
+
+acestui serviciu variaza in functie de cantitatea de informatii care se doreste a fi introdusa si evident de timpul necesar introducerii acesteia. </p>
+			        </article>
+			    </li>
+			    <li>
+			    	<article>
+			        	<h2>Administrare site</h2>
+			        	<p>
+			        		Servicul de administrare site vine in intampinarea nevoilor detinatorilor de site-uri/magazine virtuale/cataloage de prezentare/bloguri/etc. atunci cand vine vorba de activitatile de rutina ce implica actualizarea continutului, adaugarea 
+
+de pagini noi sau editarea celor existente, adaugarea de imagini noi, bannere, actualizarea promotiilor/serviciilor/ofertelor, verificarea periodica a site-ului si functionalitatii paginilor din cadrul site-ului, transmiterea 
+
+newsletter-ului, configurarea si administrarea conturilor de e-mail/webmail/ftp, monitorizarea pagerank-ului si a rezultatelor in motoarele de cautare, sau copierea in mod regulat a site-ului ca masura de siguranta.<br><br>
+
+Ca si exemplu, pretul pentru un site care necesita doua ore de administrare pe luna este de 20 Euro.  
+			        	</p>
+			        </article>
+			    </li>
+			    <li>
+			    	<article>
+				        <h2>Mod de lucru</h2>
+				        <p>Etapa I - Intalnirea sau discutia initiala. Se discuta detaliile proiectului, tipul de site, aspectul, paleta de culori, si restul detaliilor relevante pentru a va putea oferi un site adaptat cat mai bine nevoilor dumneavoastra. Tot in 
+
+etapa initiala cadem deacord asupra pretului, semnam contractul cu dumneavoastra, acceptam avansul de 50% din valoarea contractului, apoi ne trimiteti textele si restul materialelor necesare.<br><br>
+
+Etapa II - Creem design-ul. Pe baza discutiei si detaliilor oferite in etapa I se dezvolta o varianta initiala de design a site-ului ce v-o trimitem prin email pentru aprobare sau modificare.<br><br>
+
+Etapa III - Se creeaza toate paginile din componenta site-ului. Se adauga toate elementele de design si se implementeaza partea de cod. Va comunicam prin e-mail eventualele intrebari referitoare la lucruri ce ne pot influenta etapa de 
+
+programare, iar dumneavostra raspundeti intr-un timp rezonabil pentru a nu decala timpul total de executie a site-ului.<br><br>
+
+Etapa IV - Va trimitem poze cu site-ul pentru aprobarea finala din partea dumneavoastra, si ne ocupam de eventualele mici adjustari pe care le cereti.<br><br>
+
+Etapa V - Efectuati plata finala. Site-ul devine live.</p>
+				    </article>
+			    </li>
+			</ul>
+		</div> 
+	</div> <!-- end of row -->
+</div> <!-- end servicii_detailed_wrap -->
+</div> <!--end of servicii -->
+
+<div class="quote5 container"><blockquote>
+Un website fara SEO este ca o masina fara combustibil.
+</blockquote></div>
+
+<div class="border_top4" id="contact_us"></div>
+
+<div class="contact container-fluid">
+	<div class="row">
+		<div class="col-lg-12">
+			<h2>Contact</h2>
+			<p class="section_subtitle">Daca aveti orice intrebare legata de oferta noastra, va rugam contactati-ne direct.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="center">
+		<div class="address col-md-4">
+			<h3>DATE DE CONTACT</h3>
+			<ul class="contact-items">
+				<li class=""><i class="fa icon-home"></i>Str. Barnova 2101, Scheia, Suceava</li>
+				<li class=""><i class="fa icon-fax"></i>+40330402397</li>
+				<li class=""><i class="fa icon-phone"></i>+40751500250</li>
+				<li class=""><i class="fa icon-envelope"></i>contact<i class="icon-at"></i>ideidigitale.ro</li>
+				<li class=""><i class="fa icon-globe"></i>www.IdeiDigitale.ro</li>
+			</ul>
+			<h3>Socializeaza cu noi</h3>
+			<ul class="social-profiles">
+				<li class="facebook">
+					<a href="https://www.facebook.com/IdeiDigitale" target="_blank">
+					 <i class="fa icon-facebook"></i>
+					</a>
+				</li>
+				
+				<!--<li class="twitter">
+					<a href="#twitter-url">
+					 <i class="fa icon-twitter"></i>
+					</a>
+				</li>-->
+				<li class="skype">
+					<a href="skype:ideidigitale?call">
+					 <i class="fa icon-skype"></i>
+
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="map col-md-4" id="map">
+			
+		</div>
+		<div class="message col-md-4">
+			<h3>TRIMITE-NE UN MESAJ</h3>
+			
+			<form role="form" id="contactForm" data-toggle="validator" class="shake">
+			   	<!-- NAME -->
+				<div class="form-group has-feedback">
+					<input type="text" class="form-control" id="name" placeholder="Introduceti numele" required data-error="Introduceti numele dumneavoastra sau al societatii">
+                	<div class="help-block with-errors"></div>
+                	<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				</div>
+				<!-- EMAIL -->
+				<div class="form-group has-feedback">
+					<input type="email" class="form-control" id="email" placeholder="Adresa dumneavostra de email" required data-error="Introduceti o adresa de email valida">
+                	<div class="help-block with-errors"></div>
+                	<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				</div>
+				<!-- COMMENTS -->
+				<div class="form-group has-feedback">
+					<textarea id="message" class="form-control" rows="5" placeholder="Mesajul dumneavoastra" required data-error="Completati acest camp"></textarea>
+            		<div class="help-block with-errors"></div>
+            		<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				</div>
+				<button type="submit" id="form-submit" class="btn btn-primary btn-lg pull-right">Trimite</button>
+		        <div id="msgSubmit" class="h3 text-center hidden"></div>
+		        <div class="clearfix"></div>
+			</form>
+		
+		</div>
+	</div>
+</div>
+</div>
+
+<footer>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="center">
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<h3>Spune-ne ce-ti doresti!</h3>
+					<h5>Ne vom da tot interesul sa transformam ideea ta in realitate.</h5>
+					<a class="btn btn-primary btn-lg" href="#myModal" role="button" data-toggle="modal">Cere Oferta</a>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 program">
+					<h3 class="white">
+						Orar de lucru
+					<span class="blink_me"></span>
+					
+					</h3>
+					<div class="row opening-hours">
+						<div class="col-sm-12 col-md-12 col-lg-6">
+							<h5>Luni - Vineri</h5>
+							<h3>9:00 - 18:00</h3>
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-6">
+							<h5>Sambata - Duminica</h5>
+							<h3>10:00 - 14:00</h3>
+						</div>
+					</div>
+				</div>	
+			</div>	
+		</div>
+		<div class="row copyright">
+			<div class="center">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p>© Copyright 2015 Aliruxia SRL. CUI: 24840390, Reg.Com.: J33/1826/2008.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</div> <!-- end of main_wrap -->
+
+<script type="text/javascript" src="js/main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="js/validator.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/lity.js"></script>
+<script type="text/javascript" src="js/bg.js"></script>
+<script type="text/javascript" src="js/form-scripts.js"></script>
+<script type="text/javascript" src="js/modal-scripts.js"></script>
+<!--<script type="text/javascript" src="js/bioep.js"></script> -->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68568021-1', 'auto', {'siteSpeedSampleRate': 50});
+  ga('create', 'UA-XXXX-Y', {'siteSpeedSampleRate': 50});
+
+  ga('send', 'pageview');
+
+  $(document).ready(function() {
+  	$(".offer1, .offer2, .offer3").addClass("animated bounce")
+  });
+</script>
+
+<!--
+<script type="text/javascript">
+     bioEp.init({
+	html: '<div id="bio_ep_content">' +
+		'<img src="../images/tag.png" alt="Claim your discount!" />' +
+		'<span>10% Reducere!</span>' +
+		'<span>La primul proiect cu valoare de minim 200 Euro <br> puteti beneficia de o reducere de 10% <br> Apasati butonul de mai jos pentru a putea acesa oferta!</span>' +
+		'<span>Aceasta oferta NU va fi afisata din nou!</span>' +
+		'<a href="#YOURURLHERE" class="bio_btn">ACCESEAZA REDUCEREA</a>' +
+		'</div>',
+	css: '#bio_ep {width: 600px; height: 500px; color: #333; background-color: #fafafa; text-align: center;}' +
+		'#bio_ep_content {padding: 24px 0 0 0; font-family: "Titillium Web";}' +
+		'#bio_ep_content span:nth-child(2) {display: block; color: #f21b1b; font-size: 32px; font-weight: 600;}' +
+		'#bio_ep_content span:nth-child(3) {display: block; font-size: 20px; margin: 30px 0 40px; line-height: 30px;}' +
+		'#bio_ep_content span:nth-child(4) {display: block; margin: -5px 0 0 0; font-size: 16px; font-weight: 600;}' +
+		'.bio_btn {display: inline-block; margin: 20px 0 0 0; padding: 17px; color: #fff; font-size: 18px; font-weight: 600; background-color: #70bb39; border: 1px solid #47ad0b; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; border-radius: 4px; text-decoration: none;}',
+	fonts: ['//fonts.googleapis.com/css?family=Titillium+Web:300,400,600'],
+	cookieExp: 0
+});
+    </script>-->
+
+</body>
+</html>
+

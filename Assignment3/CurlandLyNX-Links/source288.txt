@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+
+<meta charset="utf-8">
+<title>ViciQloud - we breathe code</title>
+<meta name="description" content="ViciQloud is a web consulting company. From Heidelberg, Germany, we build apps and websites using the world's newest technologies. ViciQloud builds web and mobile products by leveraging the most essential features and focusing on providing the best user experience possible. We also offer training to individuals and organizations who want to acquire such technical skills.">
+<meta name="author" content="ViciQloud | viciqloud.com">
+
+<meta name="keywords" content="Studentask, Vicigo, Technology Partner, NodeJS Development, Build website, build mobile app, iOS and Android, Web Apps, Mobile Apps, Software Consulting, University of Heidelberg, API, Adrian Barwicki">
+<meta property="fb:app_id" content="836568989789370" />
+<meta property="og:url" content="http://viciqloud.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="ViciQloud - we breathe code" />
+<meta property="og:description" content="ViciQloud is a web consulting company. From Heidelberg, Germany, we build apps and websites using the world's newest technologies. ViciQloud builds web and mobile products by leveraging the most essential features and focusing on providing the best user experience possible. We also offer training to individuals and organizations who want to acquire such technical skills." />
+<meta property="og:image" content="http://viciqloud.com/images/viciqloud-fb-bg.png"/>
+<link rel="icon" type="image/png" href="/images/favicon.png">
+  <meta name="twitter:title" content="ViciQloud Web Consulting" />
+  <meta name="twitter:site" content="@viciqloud" />
+  <meta name="twitter:image" content="http://viciqloud.com/images/viciqloud-fb-bg.png" />
+  <meta name="twitter:creator" content="@viciqloud" />
+<!-- Mobile Specific -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+
+
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="scripts/html5shiv.js"></script>
+<![endif]-->
+
+<!--<link rel="stylesheet" href="/css/bootstrap.min.css"/>-->
+<link rel="stylesheet" href="http://cdn.viciqloud.com/libs/bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/animate.css"/>
+<link rel="stylesheet" href="/css/simple-line-icons.css"/>
+<link rel="stylesheet" href="/css/icomoon-soc-icons.css"/>
+<link rel="stylesheet" href="/css/magnific-popup.css"/>
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navMenuCollapse">
+
+<div id="fb-root"></div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-71873199-1', 'auto');
+  ga('send', 'pageview');
+</script>	
+	
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '836568989789370',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<!-- PRELOADER 
+<div id="preloader">
+	<div class="battery inner">
+		<div class="load-line"></div>
+	</div>
+</div>
+-->
+<div id="wrap"> 
+
+<!-- NAVIGATION BEGIN -->
+	<nav class="navbar navbar-fixed-top">
+			<div class="container_fluid"> 
+				<a class="navbar-brand goto" href="/"> <img src="/images/viciqloud-logo-dark.png" alt="ViciQloud Logo" height="35"  /> </a>
+
+
+
+				<button class="navbar-toggle menu-collapse-btn collapsed" data-toggle="collapse" data-target=".navMenuCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<div class="collapse navbar-collapse navMenuCollapse">
+					<ul class="nav">
+						<li><a href="/">Home</a></li>
+						<li><a href="/blog">Blog</a></li>
+						<li><a href="/gallery">Gallery</a></li>
+						<li><a href="/estimate-cost-of-mobile-app?from=viciqloud">Cost Explorer</a></li>
+						<li class="hidden"><a href="/team">Team</a></li>
+						<li class="hidden"><a href="#partners">Our partners</a></li>
+						<li class="hidden"><a href="#contact">Contact</a></li>	
+						<li><a href="/impressum">Impressum</a></li>
+					</ul>
+				</div>
+			</div>
+	</nav>
+<!-- NAVIGATION END -->
+
+	
+	
+	
+	<!-- INTRO BEGIN -->
+	<header id="full-intro" class="intro-block bg-color3" >
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<h1 class="slogan">The <strong>Technology</strong> Partner<br>for your <strong>Startup</strong></h1>
+					<ul class="item-list-left">
+						<li>
+							<i class="icon icon-picture color"></i>
+							<p>Web/Mobile Development</p>
+						</li>
+						<li>
+							<i class="icon icon-equalizer color"></i>
+							<p>SEO & Marketing</p>
+						</li>
+						<li>
+							<i class="icon icon-bar-chart color"></i>
+							<p>Web/Cloud Consulting</p>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-md-4 col-md-offset-1">
+											<h3 class="form-title">Do you have a question?</h3>
+				
+					<form action="/api/postman/company-contact" role="form"  id="contact_form">
+						<div class="form-group">
+							<input type="text" class="form-control" id="contact_name" placeholder="Full name" name="name">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="contact_email" placeholder="Email Address" name="email">
+						</div>
+
+
+						<div class="form-group">
+			<textarea class="form-control" rows="4" placeholder="Describe your project in few sentences.." id="contact_message" name="message"></textarea>
+						</div>
+						
+						<button type="submit" id="contact_submit" data-loading-text="&bull;&bull;&bull;">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="slides" data-stellar-ratio="0.4">
+			<div class="slides-container"> 
+<img src="/images/1.jpg" alt="ViciQloud - Javascript Code"> 
+<img src="/images/2.jpg" alt="ViciQloud - Adrian speaking in public"> 
+<img src="/images/4.jpg" alt="ViciQloud - Office space"> 
+<img src="/images/3.jpg" alt="ViciQloud - Presentation"> 
+</div>
+		</div>
+	</header>
+	<!-- INTRO END --> 
+	
+	
+		
+	<!-- ABOUT BEGIN -->
+	<section name="about" id="about" class="img-block-2col">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-push-6">
+					<div class="title">
+						<h2>About ViciQloud</h2>
+					</div>
+					<h3>Your Technology Partner</h3>
+					<p>We build software by leveraging the most essential features and focusing on providing the best user experience possible.</p>
+					<p>We specialise in modern web technologies such as nodeJS, AngularJS, Neo4j and METEOR. ViciQloud is full-stack, we take care of Back-end, Front-End, Database. Also, we help businesses with AWS with design and operating of a robust, scalable and safe cloud infrastructure.</p>
+<div style="text-align: center">
+<div class="fb-like" data-href="https://www.facebook.com/ViciQloud-772203766231619" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+</div>	
+</div>
+
+
+				
+
+				<div class="col-sm-5 col-sm-pull-6">
+					<img class="img-responsive" src="/images/viciqloud-summary-pic.png" alt="ViciQloud in the Cloud" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- BENEFITS2 END --> 
+	
+	
+	
+	<!-- FEATURES BEGIN -->
+	<section id="innovations" class="bg-color-main">
+		<div class="container">
+			<div class="title">
+				<h2>We breathe code</h2>
+				<p>We take our extensive range of experience and pour it into creating captivating digital experiences for you and your customers.</p>
+<a href="/estimate-cost-of-mobile-app?from=viciqloud"><button class="btn btn-default btn-lg">Go to our Cost Explorer</button></a>
+	
+			</div>
+			
+		</div>
+		<div id="ray1" class="ray ray-horizontal"></div>
+		<div id="ray2" class="ray ray-horizontal"></div>
+		<div id="ray3" class="ray ray-horizontal"></div>
+		<div id="ray4" class="ray ray-horizontal"></div>
+	</section>
+	<!-- FEATURES END -->
+	
+	
+	
+	<!-- BENEFITS4 BEGIN -->
+	<section id="what-can-we-do">
+		<div class="container">
+			<div class="row">
+				<div class="title">
+						<h2>What can we help with?</h2>
+					</div>
+				<div class="col-sm-4">					
+					<ul class="item-list-left">
+						<li>
+							<i class="icon icon-picture color"></i>
+							<h4 class="color">Web Development</h4>
+							<p>HTML or Javascript code? We eat, sleep, and breathe code. We are equipped with the tools to ensure your website is user-friendly, innovative and optized for Search Engines. We build smart platforms following the MVC design pattern using NodeJS.</p>
+						</li>
+						<li>
+							<i class="icon icon-equalizer color"></i>
+							<h4 class="color">Design Thinking</h4>
+							<p>Your website may be the first interaction a customer has with your brand. We design websites that parallel your brand and tell your story in a thoughtful way. From campaign landing pages to multi-functional corporate web sites to e-commerce websites, our creative engineering efforts will enliven your brand - across a wide range of devices.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<ul class="item-list-left">
+						<li>
+							<i class="icon icon-picture color"></i>
+							<h4 class="color">Mobile Development</h4>
+							<p>In a world where smartphone use is rising exponentially, the opportunities to make a name for yourself, not to mention a ton of money, by turning your app idea into reality are huge. So whether you're building for Android or iOS, we may help you with that.</p>
+						</li>
+						<li>
+							<i class="icon icon-bar-chart color"></i>
+							<h4 class="color">Database design</h4>
+							<p>A well structured Database Model is the basis for performant, fast and scalable web applications and mobile apps. We create the database scheme due to your requirements. We support graph database (NEO4j), relational database (mySQL) and document database (MongoDB). We provide an extensive documentation to the database model.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<ul class="item-list-left">
+						<li>
+							<i class="icon icon-equalizer color"></i>
+							<h4 class="color">SEO & Marketing</h4>
+							<p>We analyze spendings on marketing campaigns and how much traffic you get from paid and unpaid channels and optimize them. Also, we help you increase organic traffic by making your website search engines friendly and help you to engage your followers on social media.</p>
+						</li>
+						<li>
+							<i class="icon icon-bar-chart color"></i>
+							<h4 class="color">Consulting</h4>
+							<p>ViciQloud provides cloud consulting to help you navigate your journey to the cloud. ViciQloud implements best practices and will help you minimize risk when navigating the many complexities involved in building and operating a cloud. We can help you stand up and integrate the optimal cloud environment to facilitate your strategic and technical business requirements.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+</section>
+
+<section id="codehappy">
+<div class="title">
+						<h2><a href="http://vicigo.com/hashtag/codehappy" target="_blank">#CodeHappy</a></h2>
+</div>
+
+	<div class="row">
+	<div class="item container col-xs-12 col-sm-6 col-md-4">
+					<a href="/gallery">
+					<img src="http://cdn.vicigo.com/2/5c52d4b1507d5ec9e5a63610b933f62d.JPG" height="320">
+					</a>		
+	</div>
+	<div class="item container col-xs-12 col-sm-6 col-md-4">
+					<a href="/gallery">
+					<img src="http://cdn.vicigo.com/2/QoQQ6wzdqR9CQxa2we5UZQaMC36RYnb2QFBLVdkI96AcjWI3kI.jpg" height="320">
+					</a>		
+	</div>
+	<div class="item container col-xs-12 col-sm-6 col-md-4">
+					<a href="/gallery">
+					<img src="http://cdn.vicigo.com/2/88699145a6b46b772dd0747154156c5e.JPG" height="320">
+					</a>		
+	</div>
+	</div>		
+
+	<div class="row push" style="padding:40px;">
+			<a href="/gallery"><button class="btn btn-default btn-lg">See more</button></a>	
+	</div>
+
+	
+</section>
+
+<section id="technologies">		
+		
+<div class="title">
+						<h2>Technologies we know</h2>
+</div>
+			<div class="row">
+
+				<div class="col-xs-4 col-sm-4">					
+					<ul >
+						<li>
+							<img style="max-width:180px; width:100%;" src="/images/viciqloud-amazon-web-services-logo.png" alt="AWS">
+						</li>
+						<li>
+							<img style="max-width:180px; width:100%;" src="/images/viciqloud-nodejs-logo.png" alt="NodeJS">
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-4 col-sm-4">
+					<ul>
+						<li>
+							<img style="max-width:180px; width:100%;" src="/images/viciqloud-angularJS-logo.png" alt="AngularJS">
+						</li>
+						<li>
+							<img style="max-width:180px; width:100%;" src="/images/viciqloud-mysql-logo.png" alt="MySQL">
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-4 col-sm-4">
+					<ul>
+						<li>
+							<img style="max-width:180px; width:100%;" src="/images/viciqloud-mongodb-logo.png" alt="MongoDB">
+						</li>
+						<li>
+							<img style="max-width:180px; width:100%;" src="/images/viciqloud-meteor-logo.png" alt="Meteor">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- BENEFITS4 END -->
+	
+	
+	<section id="testimonials" class="bg-color3">
+		<div class="title">
+						<h2>Our key partners</h2>
+</div>
+		
+		<div class="container-fluid">
+
+			
+					<div class="item container col-xs-12">
+					<a href="http://www.innowerft.com/">
+						<img class="photo padding" src="http://cdn.viciqloud.com.s3.amazonaws.com/img/logos/innowerft-117_70.png" alt="InnoWerft (ViciQloud Partner)">
+						</a>
+					<a href="http://www.sap.com">
+						<img  class="photo padding" src="http://cdn.viciqloud.com.s3.amazonaws.com/img/logos/SAP-117_70.png" alt="SAP - (ViciQloud Partner)">
+					</a>
+					<a href="http://www.walldorf.de/">
+						<img  class="photo padding" src="http://cdn.viciqloud.com.s3.amazonaws.com/img/logos/walldorf-117_70.png" alt="City Walldorf - (ViciQloud Partner)">
+					</a>	
+					<p><strong>InnoWerft</strong> is a Startup Accelerator (in cooperation with SAP AG, City Walldorf and State of Baden-Württemberg) that almost from the beginning of the adventure supports our Vision. InnoWerft not only helps ViciQloud with day-to-day activities, but also gives home to our Company.</p>
+					</div>
+	
+			</div>	
+				
+			<div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+		</div>
+		<div class="block-bg"></div>
+	</section>
+
+
+	
+	<section id="portfolio">
+		<div class="container">
+			
+
+<div class="title">
+						<h2>Our products</h2>
+</div>
+
+
+<div class="row">
+
+			<ul>
+				
+				<li class="col-sm-4">
+					<a href="http://vicigo.com/" target="_blank">
+					<img style="max-width:70px; width:100%;" src="/images/vicigo-logo-green.png">
+					<h4>Vicigo</h3>
+					</a>
+					<p><a href="http://vicigo.com/" target="_blank">Vicigo</a> learns about your interests and tastes as you use it and gives you back what matters most to you. Vicigo is the best place to browse photos, articles and thoughts online.</p>
+				</li>
+				<li class="col-sm-4">
+					<a href="http://studentask.de/" target="_blank">
+					<img style="max-width:70px; width:100%;" src="/images/studentask-logo-black.png">
+					<h4>StudenTask</h3>
+					</a>
+					<p><a href="http://studentask.de/" target="_blank">StudenTask</a> is a mobile platform that allows individuals and businesses to outsource small tasks like IT Support, Households or Personal Assistance to entrepreneurial students in the neighborhood.</p>
+				</li>
+				<li class="col-sm-4">
+					<a href="http://sirbz.com/" target="_blank">
+					<img style="max-width:70px; width:100%;" src="/images/sirbz-logo-green.png">
+					<h4><a href="http://sirbz.com/" target="_blank">Sirbz</h3>
+					</a>
+					<p>The SirBz URL Shortener at <a href="http://sirbz.com/" target="_blank">sirbz.com</a> is a service that takes long URLs and squeezes them into fewer characters to make a link that is easier to share, tweet, or email to friends.</p>
+				</li>
+			</ul>
+		</div>
+</div>
+	</section>	
+
+
+	
+	<!-- SOCIAL BEGIN -->
+	<section id="social" class="bg-color2">
+		
+		
+		<style>
+.social-icons .fa {
+	font-size: 1.8em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+	border-radius:5px;
+}
+.social-icons.icon-flat .fa{
+	border-radius: 0;
+}
+.social-icons .fa-twitter {background-color:#32CCFE;} 
+.social-icons .fa-facebook {background-color:#3C599F;}  
+.social-icons .fa-hashtag {background-color:#314E6C;}  
+		</style>
+		
+		<div class="container-fluid">
+			<div class="title">
+				<h2>Follow us in social networks</h2>
+				
+			</div>
+			
+			<ul class="social-icons icon-circle list-unstyled list-inline">
+				<li><a target="_blank" href="http://vicigo.com/hashtag/viciqloud"><i class="fa fa-hashtag"></i></a></li>
+				<li> <a target="_blank" href="https://www.facebook.com/ViciQloud-772203766231619/?fref=ts"><i class="fa fa-facebook"></i></a></li> 
+				<li><a target="_blank" href="https://twitter.com/viciqloud"><i class="fa fa-twitter"></i></a></li>
+			</ul>
+			
+			
+			
+			
+		</div>
+	</section>
+	<!-- SOCIAL END -->
+
+	
+
+	
+	
+<!-- FOOTER BEGIN -->
+	<footer id="footer">
+		<div class="container"> 
+			<a href="/" class="logo goto"> <img src="/images/viciqloud-logo-light.png" alt="ViciQloud Logo" height="35"/> </a>
+			<ul class="list-inline">
+				<li><a href="/">Home</a>
+				</li>
+				<li><a href="/blog">Blog</a>
+				</li>
+				<li><a href="/estimate-cost-of-mobile-app">App Cost Explorer</a>
+				</li>
+				<li><a href="/impressum">Impressum</a>
+				</li>
+				<li><a href="/gallery">Gallery</a>
+				</li>
+				<li><a href="http://studentask.de/">StudenTask</a>
+				</li>
+				<li><a href="http://vicigo.com/" target="_blank">Vicigo</a>
+				</li>
+				<li><a href="http://sirbz.com/" target="_blank">Sirbz</a>
+				</li>
+			</ul>
+			<p class="copyright">&copy; 2016 ViciQloud UG (haftungsbeschränkt)</p>
+		</div>
+	</footer>
+<!-- FOOTER END --> 
+	
+</div>
+
+
+<!-- MODALS BEGIN--> 
+
+<!-- subscribe modal-->
+<div class="modal fade" id="modalMessage" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h3 class="modal-title"></h3>
+		</div>
+	</div>
+</div>
+
+<!-- MODALS END-->
+
+
+<!-- JavaScript --> 
+<script src="http://cdn.viciqloud.com/libs/jquery/1.12.0/jquery-1.12.0.min.js"></script> 
+<script src="http://cdn.viciqloud.com/libs/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+<script src="/scripts/owl.carousel.min.js"></script> 
+<script src="/scripts/jquery.validate.min.js"></script> 
+<script src="/scripts/wow.min.js"></script> 
+<script src="/scripts/smoothscroll.js"></script> 
+<script src="/scripts/jquery.smooth-scroll.min.js"></script> 
+<script src="/scripts/jquery.superslides.min.js"></script>
+<script src="/scripts/placeholders.jquery.min.js"></script>
+<script src="/scripts/jquery.magnific-popup.min.js"></script>
+<script src="/scripts/jquery.stellar.min.js"></script>
+
+	
+	
+	
+					<script>
+$("code > input").click(function (evt) {
+    $(this).select();
+})
+				</script>
+<script src="/scripts/custom.js"></script> 
+
+<!--[if lte IE 9]>
+	<script src="scripts/respond.min.js"></script>
+<![endif]-->
+</body>
+</html>

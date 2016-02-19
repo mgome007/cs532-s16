@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="/site.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/syntax.css" media="all" rel="stylesheet" type="text/css" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <meta name="description" content="Why Ruby Is Slow, and How to Fix It" />
+    
+
+    <title>
+        
+        
+        Ruby Performance Optimization Book
+    </title>
+    
+    <!-- : } </style> FIXME: hack to fix kate html highlighting -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-72432737-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        
+        <div class="content">
+            
+            
+            
+            <div style="height: 720px">
+  <a href="https://pragprog.com/cart/add/skus?sku_id=762_761" target="_blank">
+    <img src="/cover-580.jpg" width="580px" alt="Ruby Performance Optimization Book" />
+  </a>
+</div>
+
+<blockquote>
+  <p>
+  This book is a must-have for anyone bringing performance-sensitive Ruby programs to production. It will teach you how to efficiently hunt down and correct the bottlenecks that make users sad and prevent teams from spending time building new functionality.
+  </p>
+  -- Matt Margolis, Director of application development, Getty Images
+</blockquote>
+
+<blockquote>
+  <p>
+  A fantastic book. Probably the best tech book I have read in the last few years. It brings together information I can’t just find in 30 minutes of web searches. This book has taught me to be a better developer and to start filling a hole in my skill set.
+  </p>
+  -- Charley Stran, Web developer, TheBlaze | Mercury Radio Arts
+</blockquote>
+
+<blockquote>
+  <p>
+  <em>Ruby Performance Optimization</em> has changed the way I develop. I now think about simple performance tweaks before I commit code. It is a book I keep close for reference when solving tough performance issues.
+  </p>
+  -- Jeff Holland, Senior software engineer, Ackmann &amp; Dickenson
+</blockquote>
+
+<blockquote>
+  <p>
+  For programmers who aren’t familiar with what is going on "under the covers," I think this book will open their eyes to new levels of understanding their code.
+  </p>
+  -- Kim Shrier, Principal, Westryn Internet Services, Shrier and Deihl
+</blockquote>
+
+
+
+<h1 id="about">About the Ruby Performance Optimization Book</h1>
+
+<p>
+From this book you will learn to:
+</p>
+
+<ul>
+  <li>write Ruby and Rails code that is fast from the start;</li>
+  <li>spot slow code at first glance in both plain Ruby and Rails;</li>
+  <li>optimize what's really important (read, memory consumption);</li>
+  <li>measure performance in a way that doesn't mislead you into optimizing the wrong thing;</li>
+  <li>use profiling tools to optimize the complex cases;</li>
+  <li>write performance tests to make sure performance does not degrade with the next commit.</li>
+</ul>
+
+<p>
+<strong>
+Ruby Performance Optimization is the first book on Ruby performance that actually teaches performance optimization and is not a mere collection of tips and tricks.
+</strong>
+</p>
+
+<p>
+No need to dig through the various blog posts, screencasts, and conference presentation recordings anymore! Everything that's important is in the book. It does not describe any of the microoptimizations (like inlining to get rid of the function call), and features only one chapter on performance tips and tricks. Other chapters concentrate on what's really important for performance: reducing high memory utilization, profiling CPU and memory, reducing the garbage collector's load.
+</p>
+
+
+
+<h1>Frequently Asked Questions</h1>
+
+<h2>Shall I Read This Book If I Only Do Rails?</h2>
+
+<p>
+Definitely! I learned Ruby performance optimization myself by trying to speed up Rails applications. So you can expect that all advice I have actually applies to Rails. More, Chapter 3 of the book specifically focuses on making Rails faster.
+</p>
+
+<h2>Is Your Book Still Relevant for Ruby 2.3?</h2>
+
+<p>
+Of course. I wrote this book when Ruby 2.2 was the current version. Ruby 2.3 is a bit faster overall and has an improved iterator implementation (my advice from Section 2.2 does not apply anymore). But it's still largerly the same Ruby as 2.2 and 2.1. So you can expect 99% of the material of the book to be applicable to Ruby&nbsp;2.3.
+</p>
+
+
+
+<h1>Recent Blog Posts</h1>
+
+    <div style="margin: 24px 0;">
+        <div style="float:left; width: 488px;">
+            <b>Is Ruby 2.3 Faster? Immutable (Frozen) String Literals Performance</b>
+        </div>
+        <div class="small" style="float: left; margin-left: 12px; text-align: right; width: 80px;">
+            Feb 18, 2016
+        </div>
+        <div class="clear"></div>
+        Ruby 2.3 was released last month with yet another bunch of performance improvements. But is it really faster than 2.2? Let's take a look.
+
+This is the fourth post in my series about Ruby 2.3 performance. This time we'll look at the immutable (aka frozen) string literals, the experimental feature that will be enabled by default in Ruby 3.0.
+
+
+            <a href="/blog/2016/02/is-ruby-2-3-faster-frozen-string-literals-performance.html">Read&nbsp;more... &raquo;</a>
+    </div>
+
+    <div style="margin: 24px 0;">
+        <div style="float:left; width: 488px;">
+            <b>Is Ruby 2.3 Faster? Rails ERB Template Rendering Performance</b>
+        </div>
+        <div class="small" style="float: left; margin-left: 12px; text-align: right; width: 80px;">
+            Feb 08, 2016
+        </div>
+        <div class="clear"></div>
+        Ruby 2.3 was released last month with yet another bunch of performance improvements. But is it really faster than 2.2? Let's take a look.
+
+This is the third post in my series about Ruby 2.3 performance. This time we'll look at the html escaping performance improvements that, in theory, can yield dramatic speedup in Rails template rendering.
+
+
+            <a href="/blog/2016/02/is-ruby-2-3-faster-rails-erb-template-rendering-performance.html">Read&nbsp;more... &raquo;</a>
+    </div>
+
+    <div style="margin: 24px 0;">
+        <div style="float:left; width: 488px;">
+            <b>Is Ruby 2.3 Faster? Date Parsing Performance</b>
+        </div>
+        <div class="small" style="float: left; margin-left: 12px; text-align: right; width: 80px;">
+            Feb 02, 2016
+        </div>
+        <div class="clear"></div>
+        Ruby 2.3 was released last month with yet another bunch of performance improvements. But is it really faster than 2.2? Let's take a look.
+
+This is the second post in my series about Ruby 2.3 performance. This time we'll look at date parsing performance.
+
+
+            <a href="/blog/2016/02/is-ruby-2-3-faster-date-parsing-performance.html">Read&nbsp;more... &raquo;</a>
+    </div>
+
+
+<h1>Most Popular Blog Posts</h1>
+<p>
+    <a href="/blog/2015/12/why-read-ruby-performance-optimization-book.html">Why Read the Ruby Performance Optimization Book</a><br/>
+    <a href="/blog/2015/12/ruby-performance-optimization-book-is-in-print.html">Ruby Performance Optimization Book Is In Print</a><br/>
+</p>
+<p>
+<a href="/blog">See all blog posts</a>
+</p>
+
+
+
+<div style="height: 48px;">
+  <a href="https://pragprog.com/cart/add/skus?sku_id=762_761" target="_blank">
+    <img src="/buy-now-button.png" alt="Buy Now" />
+  </a>
+</div>
+
+
+            
+        </div>
+        <div itemscope itemtype="http://data-vocabulary.org/Person" class="sidebar">
+            <meta itemprop="name" content="Alexander Dymo" />
+            <meta itemprop="photo" content="http://www.alexdymo.com/alexander-dymo.png" />
+            <meta itemprop="url" content="http://www.alexdymo.com" />
+
+            <div style="margin-top: 24px;"></div>
+            
+            <div style="height: 48px;">
+              <a href="https://pragprog.com/cart/add/skus?sku_id=762_761" target="_blank">
+                <img src="/buy-now-button.png" alt="Buy Now" />
+              </a>
+            </div>
+
+            <p class="small opening">
+            $24 - eBook<br/>
+            $36 - Paper Book<br/>
+            <s>$60</s> $46 - eBook + Paper Book Combo
+            </p>
+
+            <div style="margin-top: 24px;" class="small-caps">About the Book</div>
+            <p class="small opening">
+            Learn how to write faster Ruby code. See exactly what makes Ruby and Rails code slow, and how to fix it by optimizing memory and CPU usage. Learn to profile, measure, and test performance. Understand Ruby garbage collector, and learn how to tune it for best performance.
+            <br/><a href="/#about">Learn more</a>
+            </p>
+
+            <div style="margin-top: 24px;" class="small-caps">Read Excerpts</div>
+            <p class="opening small">
+                <a href="http://media.pragprog.com/titles/adrpo/optimize.pdf" target="_blank">
+                    Chapter 1. What Makes Ruby Code Fast
+                </a><br/>
+                <a href="http://media.pragprog.com/titles/adrpo/iterators.pdf" target="_blank">
+                    Section 2.2. Optimize Your Iterators
+                </a><br/>
+                <a href="http://media.pragprog.com/titles/adrpo/statistics.pdf" target="_blank">
+                    Section 6.3. Analyze and Compare Measurements Using Statistics
+                </a>
+            </p>
+
+            <p class="small">
+              <a href="/table-of-contents.html">Table of Contents</a>
+            </p>
+
+            <p class="small">
+                <a href="https://forums.pragprog.com/forums/366" target="_blank">
+                    Book discussion forum
+                </a>
+            </p>
+            <p class="small">
+                Follow the author on:<br/>
+                <a href="https://twitter.com/alexander_dymo" target="_blank">
+                    <img src="/twitter.png" width="20" height="15" style="vertical-align:middle">Twitter
+                </a>&nbsp;
+                <a href="https://plus.google.com/117794624398803940592" target="_blank">
+                    <img src="/google-plus.png" width="20" height="15" style="vertical-align:middle">Google+
+                </a>
+            </p>
+        </div>
+        <div class="clear"></div>
+
+        <div class="footer small deemphasized">
+            Copyright &copy; 2016 <a class="header-link" target="_blank" href="https://plus.google.com/117794624398803940592?rel=author">Alexander Dymo</a>
+        </div>
+    </div>
+</body>
+</html>

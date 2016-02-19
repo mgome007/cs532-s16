@@ -1,0 +1,33 @@
+   [1]c0deNinja
+   [ ]
+     * [2]
+       Blog
+     * [3]
+       About
+     * [4]
+       Contact
+
+Useful Links
+
+     *
+
+Latest Hacker News
+
+     *
+          +
+          +
+          + {{ news.commentCount }}
+
+References
+
+   Visible links
+   1. file:///
+   2. file:///
+   3. file:///about
+   4. file:///contact
+
+   Hidden links:
+   6. https://twitter.com/c0deNinja
+   7. http://stackoverflow.com/users/707401/c0deninja
+   8. file://localhost/feed.xml
+   9. file://localhost/home/mgomez/CS432/A3/source184.txt

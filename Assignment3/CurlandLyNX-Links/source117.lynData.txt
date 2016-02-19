@@ -1,0 +1,604 @@
+   #[1]Runtime Era - Atom [2]Runtime Era - RSS
+
+Runtime Era
+
+   [3]@chedda86
+
+Friday, April 24, 2015
+
+[4]SOLID Review: Dependency Inversion Principle
+
+   [5][plug.jpg]
+   Note: This is part of a series of articles reviewing the [6]five SOLID
+   Principles of object-oriented programming.
+   The final SOLID principle is known as the Dependency Inversion
+   principle. Arguably the most important of the five principles, the
+   Dependency Inversion principle can be thought of as a culmination of
+   the principles preceding it. Systems that abide by the other SOLID
+   principles tend to follow the Dependency Inversion principle as a
+   result. The principle states:
+   "High-level modules should not depend on low-level modules."
+   A better way to think about it is:
+   "Abstractions should not depend upon details. Details should depend
+   upon abstractions."
+   In a static-typed language like Java, "abstractions" can be implemented
+   and enforced explicitly via [7]interfaces. However, in a dynamic
+   language like Ruby, we depend on [8]duck-typing to describe an object's
+   interface. Even without explicit interfaces in Ruby, the Dependency
+   Inversion principle still holds value! We should still aim to depend on
+   abstractions rather than details.
+   Let's look at an example! We'll revisit a simple example from my
+   [9]blog post on the Open/Closed Principle.
+
+A Simple String Transformer
+
+   Suppose we have a class called Transformer that takes a string and
+   transforms it into a some other object or value. For starters, we'll
+   have it transform JSON strings into Ruby hashes:
+require 'json'
+
+class Transformer
+  def initialize(string)
+    @string = string
+  end
+
+  def transformed_string
+    JSON.parse(@string)
+  end
+end
+
+Transformer.new('{"foo": "bar"}').transformed_string
+# { "foo" => "bar" }
+
+
+   Now, we'll extend the functionality of our Transformer by allowing it
+   to transform strings into binary:
+require 'json'
+
+class Transformer
+  def initialize(string)
+    @string = string
+  end
+
+  def transformed_string(type)
+    if type == :json
+      JSON.parse(@string)
+    elsif type == :binary
+      @string.unpack('B*').first
+    end
+  end
+end
+
+Transformer.new('Hello').transformed_string(:binary)
+# "0100100001100101011011000110110001101111"
+
+   Now, our Transformer takes strings and transforms them into one of two
+   different types: a Ruby hash or its binary representation. At this
+   point, we should notice some code-smell! The transformed_string method
+   is very dependent on JSON.parse and String.unpack. These are
+   implementation details that our Transformer shouldn't care about.
+   Let's apply the Dependency Inversion principle by making Transformer
+   depend on an abstraction rather than coupling to concrete details!
+
+The Transformation Abstraction
+
+   The basic functionality of our Transformer class is to transform
+   strings into several different types of objects or values. It does this
+   by utilizing different transformations. This seems like an abstraction
+   we can extract and encapsulate! We'll make Transformer depend on a new
+   abstraction called Transformation:
+class Transformer
+  def initialize(string)
+    @string = string
+  end
+
+  def transformed_string(transformation)
+    transformation.transform(string)
+  end
+end
+
+class BinaryTransformation
+  def self.transform(string)
+    string.unpack('B*').first
+  end
+end
+
+Transformer.new('Hello').transformed_string(BinaryTransformation)
+# "0100100001100101011011000110110001101111"
+
+require 'json'
+
+class JSONTransformation
+  def self.transform(string)
+    JSON.parse(string)
+  end
+end
+
+Transformer.new('{"foo": "bar"}').transformed_string(JSONTransformation)
+# { "foo" => "bar" }
+
+   Rather than having Transformer depend on low-level implementation
+   details (JSON.parse and String.unpack), it now depends on a single
+   method: transform. This single method is what makes up the interface of
+   our Transformation abstraction! Now, we can create as many
+   Transformations as we want without modifying Transformer:
+require 'digest'
+
+class MD5Transformation
+  def self.transform(string)
+    Digest::MD5.hexdigest string
+  end
+end
+
+Transformer.new('Hello').transformed_string(MD5Transformation)
+# "8b1a9953c4611296a827abf8c47804d7"
+
+Conclusion
+
+   As you can see, the [10]Open/Closed principle is highly correlated with
+   the Dependency Inversion principle! We actually end up following the
+   Open/Closed principle by abiding by the Dependency Inversion principle.
+   In fact, some form of dependency abstraction is often required to abide
+   by all the other SOLID principles. If there's one principle to remember
+   out of all the SOLID principles, it's the Dependency Inversion
+   principle: depend on abstractions, not low-level details!
+   Happy coding!
+   [11]1 comment:
+   [12]Email This[13]BlogThis![14]Share to Twitter[15]Share to
+   Facebook[16]Share to Pinterest
+   Labels: [17]dependencies, [18]dependency inversion, [19]development,
+   [20]interface, [21]object oriented, [22]programming, [23]software,
+   [24]solid
+
+Friday, March 27, 2015
+
+[25]SOLID Review: Interface Segregation Principle
+
+   [26][clutter.jpg]
+   Note: This is part of a series of articles reviewing the [27]five SOLID
+   Principles of object-oriented programming.
+   The Interface Segregation Principle is probably the most
+   straight-forward of all the SOLID principles. It states:
+   "Clients should not be forced to depend on methods that they do not
+   use."
+   In dynamic languages, this isn't really much of an issue because there
+   is no way to define and force the implementation of interfaces on
+   classes ([28]like in Java). Instead, a set of methods determines
+   whether or not an object implements an interface. If an object responds
+   to "a particular set of methods", it has implemented that "particular
+   interface".
+   In Ruby, [29]modules can be used to define and share sets of methods
+   across multiple classes. Using this construct, we can define different
+   "interfaces". So, when we say "keep our interfaces segregated", we're
+   really saying "keep our modules segregated". This leads to highly
+   cohesive modules.
+   There are two main benefits to cohesive modules in Ruby: less coupling
+   and more readable code.
+
+Implementing Phones
+
+   By keeping our modules small and focused, we are simply applying the
+   [30]Single Responsibility Principle, but for modules. For example,
+   let's create a module called Phone:
+module Phone
+  def call(number)
+    "Calling #{number}..."
+  end
+
+  def hangup
+    "Hanging up!"
+  end
+
+  def text(number, message)
+    "Texting '#{message}' to #{number}."
+  end
+end
+
+   Here, we have a set of common behaviors for phones. We can make use of
+   this by including them in our class. Let's create a CellPhone:
+class CellPhone
+  include Phone
+end
+
+   Now, our CellPhone class implements the methods in Phone! Any instance
+   of CellPhone can call, hangup, and text other numbers.
+   Let's create a new class called RotaryPhone:
+class RotaryPhone
+  include Phone
+
+  # Eek... code smell.
+  def text(number, message)
+    raise 'Cannot text on this type of phone!'
+  end
+end
+
+   Since we are overriding one of the methods in our module, it's a sign
+   our module isn't cohesive enough. Our RotaryPhone is being littered
+   with methods it does't need!
+   Another issue worth noting is the tight coupling between our two
+   classes caused by sharing the same, non-cohesive module. Suppose we
+   don't override the text method in RotaryPhone:
+class RotaryPhone
+  include Phone
+end
+
+   Any errors caused by text in our Phone module would end up in both
+   classes, even though RotaryPhone doesn't care about text! This tight
+   coupling between CellPhone and RotaryPhone is unnecessary.
+
+Segregate the Modules
+
+   A good solution for our problem is to segregate the basic phone
+   behaviors from the mobile phone behaviors:
+module BasicPhone
+  def call(number)
+    "Calling #{number}..."
+  end
+
+  def hangup
+    "Hanging up!"
+  end
+end
+
+module MobilePhone
+  def text(number, message)
+    "Texting '#{message}' to #{number}."
+  end
+end
+
+   Now, each of our classes implement only the modules they require:
+class CellPhone
+  include BasicPhone
+  include MobilePhone
+end
+
+class RotaryPhone
+  include BasicPhone
+end
+
+A Readable, Loosely-Coupled Solution
+
+   The behaviors of each class are more clearly defined by the
+   explicitness of the modules it includes. Also, CellPhone and
+   RotaryPhone are only coupled by the methods in BasicPhone, which makes
+   sense since they both require the basic behaviors or call and hangup.
+   Both of our issues above are solved!
+
+Conclusion
+
+   Although the Interface Segregation Principle is less important in
+   dynamic languages like Ruby, it still leads to cohesive, readable
+   classes. By keeping modules focused, we end up with looser coupling and
+   cleaner "interface" definitions. They aren't major wins, but wins
+   nonetheless!
+   Happy coding!
+   [31]1 comment:
+   [32]Email This[33]BlogThis![34]Share to Twitter[35]Share to
+   Facebook[36]Share to Pinterest
+   Labels: [37]cohesion, [38]development, [39]interface, [40]module,
+   [41]object oriented, [42]programming, [43]software, [44]solid
+
+Thursday, March 5, 2015
+
+[45]SOLID Review: Liskov Substitution Principle
+
+   [46][duck.jpg]
+   Note: This is part of a series of articles reviewing the [47]five SOLID
+   Principles of object-oriented programming.
+   Barbara Liskov introduced her substitution principle back in 1987
+   during her keynote titled [48]Data Abstraction and Heirarchy. Today, it
+   is one of the five SOLID principles in object-oriented programming. The
+   original definition is as follows:
+   "Let q(x) be a property provable about objects x of type T. Then q(y)
+   is provable for objects y of type S, where S is a subtype of T."
+   Simply put:
+   "Instances of any type should be replaceable by instances of its
+   subtypes without creating incorrect behaviors."
+   How can we ensure that our classes abide by the Liskov Substitution
+   Principle? For starters, we must ensure that any subtype implements the
+   interface of its base type. In the world of dynamic languages, this is
+   better stated as a subtype must respond to the same set of methods as
+   its base type.
+   We must also ensure that methods in any subtype preserve the original
+   promises of methods in its base type. What "promises" are we talking
+   about? For that, we turn to another design principle known as Design by
+   Contract.
+
+Design by Contract
+
+   The concept of [49]Design by Contract was coined by Bertrand Meyer in
+   his book [50]Object Oriented Software Construction. It's official
+   description is much more detailed, but to paraphrase, there are three
+   basic principles:
+     * Subtypes should not strengthen any preconditions of its base type.
+       That is, requirements on inputs to a subtype cannot be stricter
+       than in the base type.
+     * Subtypes should not weaken any postconditions of its base type.
+       That is, the possible outputs from a subtype must be more than or
+       equally restrictive as from the base class.
+     * Subtypes must preserve all invariants of its base type. That is, if
+       the base type has guarantees that certain conditions be true, its
+       subtype should make those same guarantees.
+
+   If any of the above are violated, chances are the Liskov Substitution
+   Principle is also violated.
+
+A Liskov Substitution Checklist
+
+   Let's look at a simple example. We're going to model several types of
+   birds. We'll start by defining a base type called Bird:
+class Bird
+  def initialize
+    @flying = false
+  end
+
+  def eat(food)
+    if ['worm', 'seed'].include?(food)
+      "Ate #{food}!"
+    else
+      raise "Does not eat #{food}!"
+    end
+  end
+
+  def lay_egg
+    # The Egg class has a method 'hatch!' that returns a new Bird.
+    Egg.new
+  end
+
+  def fly!
+    @flying = true
+  end
+end
+
+   Instances of Bird are very simple. They eat only certain types of food,
+   lay eggs, and can go from sitting on the ground to flying in the air.
+   For now, ignore the fact that our Bird cannot go back on the ground.
+   Here's a small program that uses our Bird:
+bird = Bird.new
+
+bird.eat('worm') # Ate worm!
+
+egg = bird.lay_egg # Returns an Egg
+egg.hatch! # Returns a new Bird
+
+bird.fly! # @flying == true
+
+   Remember, any subtypes from Bird should be able to work in our program
+   above. Now, let's create some subtypes of Bird and see how we can apply
+   the Liskov Substitution Principle.
+     * The subtype must implement the base type's interface.
+
+   In most programming languages, we can achieve this through basic
+   inheritance. Since we already have a base class defined, we'll take
+   this approach. However, there are many ways to achieve this across many
+   languages. In Ruby, we can use [51]modules to share methods (see
+   [52]duck-typing). In Java, we can implement [53]interfaces.
+   Let's create a Pigeon subclass:
+class Pigeon < Bird
+end
+
+bird = Pigeon.new # Behaves exactly like Bird!
+
+   Success! Pigeon now implements Bird's interface.
+     * The subtype should not strengthen preconditions of the base type.
+
+   Let's say our Pigeons can only eat bread. We will override the eat
+   method to achieve this:
+class Pigeon < Bird
+  def eat(food)
+    if ['bread'].include?(food)
+      "Ate #{food}!"
+    else
+      raise "Does not eat #{food}!"
+    end
+  end
+end
+
+# bird is now Pigeon
+bird.eat('worm') # raises an error: "Does not eat worm!"
+
+   Since we've actually made the preconditions to our method stricter than
+   in the Bird class, we've violated the Liskov Substitution Principle! In
+   doing so, we've broken our existing program!
+   Instead, let's say that Pigeons can eat bread in addition to seeds and
+   worms. Then, we've weakened the preconditions and are well within our
+   rule:
+class Pigeon < Bird
+  def eat(food)
+    if ['worm', 'seed', 'bread'].include?(food)
+      "Ate #{food}!"
+    else
+      raise "Does not eat #{food}!"
+    end
+  end
+end
+
+bird.eat('worm') # "Ate worm!"
+
+   And our program works with our subclass!
+     * The subtype should not weaken postconditions of the base type.
+
+   Let's say our Pigeon is some kind of mutant and doesn't actually lay
+   eggs. We'll call it a MutantPigeon. Instead, no egg comes out at all:
+class MutantPigeon < Bird
+  def lay_egg
+    nil
+  end
+end
+
+bird = MutantPigeon.new
+
+egg = bird.lay_egg # returns nil
+egg.hatch! # raises an error: undefined method 'hatch!' for nil:NilClass
+
+   We've broken our program yet again! Since we've actually made the
+   postconditions in our method less restrictive than in the Bird class,
+   we've violated the Liskov Substitution Principle.
+   Instead, let's say that MutantPigeons actually return a more specific
+   type of Egg. We'll call it MutantPigeonEgg, and it behaves just like
+   Egg with a hatch! method. Then, we've strengthened the postconditions
+   and are well within our rule:
+class MutantPigeon < Bird
+  def lay_egg
+    MutantPigeonEgg.new
+  end
+end
+
+egg = bird.lay_egg # returns nil
+egg.hatch! # Returns a new MutantPigeon
+
+   And our program is happy again!
+     * The subtype should preserve invariants of the base type.
+
+   Let's model a different bird this time. What about Penguins? As many
+   people know, most penguins in the real world don't actually fly. So,
+   we'll override the fly method with a no-op:
+class Penguin < Bird
+  def fly
+    # no-op, do nothing
+  end
+end
+
+bird = Penguin.new
+
+bird.fly! # @flying != true
+
+   Looks like another break in our program! By doing nothing in our new
+   fly method, we've broken the guarantee that the state of our @flying
+   variable would be "true". Again, we've violated the Liskov Substitution
+   Principle.
+   Now, this introduces an interesting problem. Penguins cannot just be
+   made to fly, right?!
+
+Real-Life Relationships != Inheritance-Model Relationships
+
+   Objects in the real world may show an obvious inheritance relationship.
+   However, in object-oriented design, we only care about inheritance
+   relationships regarding object behavior. Think of the classes in our
+   system as representations of real-world objects. Those representations
+   are fully defined by their external behavior (or interface).
+   Sure, penguins are birds in the real world, but Penguins are not Birds
+   in our system because they do not behave like Birds. They don't have a
+   properly functioning fly method.
+
+Liskov Substitution and the Open/Closed Principle
+
+   Consider the examples above. Suppose we actually violated the Liskov
+   Substitution Principle by creating our Pigeon class with a more
+   restrictive eat method? Our existing program would have to be modified
+   to handle our new class:
+class Pigeon < Bird
+  def eat(food)
+    if ['bread'].include?(food)
+      "Ate #{food}!"
+    else
+      raise "Does not eat #{food}!"
+    end
+  end
+end
+
+if bird.instance_of?(Pigeon)
+  bird.eat('bread') # "Ate bread!"
+else
+  bird.eat('worm') # "Ate worm!"
+end
+
+   As we know from the Open/Closed Principle, we shouldn't have to change
+   existing code to add new requirements or features. By violating the
+   Liskov Substitution Principle, we are forced to violate the Open/Closed
+   Principle!
+
+Conclusion
+
+   As with all programming principles, it's important to find a balance
+   when applying the Liskov Substitution Principle in real-world
+   scenarios. There is [54]some debate over the benefits or detriments of
+   the principle. Always keep it simple first, then refactor as needed.
+   Happy coding!
+   [55]3 comments:
+   [56]Email This[57]BlogThis![58]Share to Twitter[59]Share to
+   Facebook[60]Share to Pinterest
+   Labels: [61]development, [62]duck type, [63]inheritance, [64]liskov,
+   [65]object oriented, [66]programming, [67]software, [68]solid,
+   [69]substitution
+   [70]Older Posts [71]Home
+   Subscribe to: [72]Posts (Atom)
+
+References
+
+   Visible links
+   1. http://runtime-era.blogspot.com/feeds/posts/default
+   2. http://runtime-era.blogspot.com/feeds/posts/default?alt=rss
+   3. https://twitter.com/chedda86
+   4. http://www.runtime-era.blogspot.com/2015/04/solid-review-dependency-inversion.html
+   5. http://3.bp.blogspot.com/-q2ANPJs05Cw/VRUHZ4f-QJI/AAAAAAAAEY0/bmkynm7qZ9c/s1600/plug.jpg
+   6. http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+   7. http://docs.oracle.com/javase/tutorial/java/concepts/interface.html
+   8. http://en.wikipedia.org/wiki/Duck_typing
+   9. http://www.runtime-era.com/2015/02/solid-review-openclosed-principle.html
+  10. http://www.runtime-era.com/2015/02/solid-review-openclosed-principle.html
+  11. http://www.runtime-era.blogspot.com/2015/04/solid-review-dependency-inversion.html#comment-form
+  12. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=2346769048995641211&target=email
+  13. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=2346769048995641211&target=blog
+  14. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=2346769048995641211&target=twitter
+  15. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=2346769048995641211&target=facebook
+  16. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=2346769048995641211&target=pinterest
+  17. http://www.runtime-era.blogspot.com/search/label/dependencies
+  18. http://www.runtime-era.blogspot.com/search/label/dependency inversion
+  19. http://www.runtime-era.blogspot.com/search/label/development
+  20. http://www.runtime-era.blogspot.com/search/label/interface
+  21. http://www.runtime-era.blogspot.com/search/label/object oriented
+  22. http://www.runtime-era.blogspot.com/search/label/programming
+  23. http://www.runtime-era.blogspot.com/search/label/software
+  24. http://www.runtime-era.blogspot.com/search/label/solid
+  25. http://www.runtime-era.blogspot.com/2015/03/solid-review-interface-segregation.html
+  26. http://3.bp.blogspot.com/-GrMpVTN0_ZY/VNVXx74V5xI/AAAAAAAAD3U/t-LPYfNmiZM/s1600/clutter.jpg
+  27. http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+  28. http://docs.oracle.com/javase/tutorial/java/concepts/interface.html
+  29. http://www.ruby-doc.org/core-2.2.0/Module.html
+  30. http://www.runtime-era.com/2015/02/solid-review-single-responsibility.html
+  31. http://www.runtime-era.blogspot.com/2015/03/solid-review-interface-segregation.html#comment-form
+  32. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=4174968216245608109&target=email
+  33. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=4174968216245608109&target=blog
+  34. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=4174968216245608109&target=twitter
+  35. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=4174968216245608109&target=facebook
+  36. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=4174968216245608109&target=pinterest
+  37. http://www.runtime-era.blogspot.com/search/label/cohesion
+  38. http://www.runtime-era.blogspot.com/search/label/development
+  39. http://www.runtime-era.blogspot.com/search/label/interface
+  40. http://www.runtime-era.blogspot.com/search/label/module
+  41. http://www.runtime-era.blogspot.com/search/label/object oriented
+  42. http://www.runtime-era.blogspot.com/search/label/programming
+  43. http://www.runtime-era.blogspot.com/search/label/software
+  44. http://www.runtime-era.blogspot.com/search/label/solid
+  45. http://www.runtime-era.blogspot.com/2015/03/solid-review-liskov-substitution.html
+  46. http://4.bp.blogspot.com/-e6lQpjuEvRY/VNVWCkSx8CI/AAAAAAAAD3I/nja2Io84Ufk/s1600/duck.jpg
+  47. http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+  48. http://rendezvouswithdestiny.net/index_files/LiskovSub.pdf
+  49. http://en.wikipedia.org/wiki/Design_by_contract
+  50. http://www.amazon.com/Object-Oriented-Software-Construction-CD-ROM-Edition/dp/0136291554
+  51. http://www.ruby-doc.org/core-2.2.0/Module.html
+  52. http://en.wikipedia.org/wiki/Duck_typing
+  53. http://docs.oracle.com/javase/tutorial/java/concepts/interface.html
+  54. http://c2.com/cgi/wiki?LiskovSubstitutionPrinciple
+  55. http://www.runtime-era.blogspot.com/2015/03/solid-review-liskov-substitution.html#comment-form
+  56. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=4716458437784896040&target=email
+  57. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=4716458437784896040&target=blog
+  58. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=4716458437784896040&target=twitter
+  59. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=4716458437784896040&target=facebook
+  60. https://www.blogger.com/share-post.g?blogID=9008563869490582540&postID=4716458437784896040&target=pinterest
+  61. http://www.runtime-era.blogspot.com/search/label/development
+  62. http://www.runtime-era.blogspot.com/search/label/duck type
+  63. http://www.runtime-era.blogspot.com/search/label/inheritance
+  64. http://www.runtime-era.blogspot.com/search/label/liskov
+  65. http://www.runtime-era.blogspot.com/search/label/object oriented
+  66. http://www.runtime-era.blogspot.com/search/label/programming
+  67. http://www.runtime-era.blogspot.com/search/label/software
+  68. http://www.runtime-era.blogspot.com/search/label/solid
+  69. http://www.runtime-era.blogspot.com/search/label/substitution
+  70. http://www.runtime-era.blogspot.com/search?updated-max=2015-03-05T08:39:00-08:00&max-results=3
+  71. http://www.runtime-era.blogspot.com/
+  72. http://runtime-era.blogspot.com/feeds/posts/default
+
+   Hidden links:
+  74. file://www.blogger.com/rearrange?blogID=9008563869490582540&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=crosscol

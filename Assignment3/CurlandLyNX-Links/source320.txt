@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Techhysahil Creative</title>
+    <link rel="icon" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!---------------------------------------------------------------------
+    ------------------------------- Fonts Files ---------------------------
+    ---------------------------------------------------------------------->
+    <link href='http://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
+    <!---------------------------------------------------------------------
+    ------------------------------- CSS Files -----------------------------
+    ---------------------------------------------------------------------->
+    <link rel="stylesheet" type="text/css" href="css/techhysahil.css">
+
+    <!---------------------------------------------------------------------
+    ------------------------------- JS Files ------------------------------
+    ---------------------------------------------------------------------->
+    <script type="text/javascript" src="scripts/techhysahil.js"></script>
+
+    <script type="text/javascript">
+        <!-- Loader Script -->
+        window.addEventListener('DOMContentLoaded', function() {
+            new QueryLoader2(document.querySelector("body"), {
+                barColor: "#efefef",
+                backgroundColor: "#111",
+                percentage: true,
+                barHeight: 2,
+                minimumTime: 2000,
+                maxTime:3000,
+                fadeOutTime: 1000
+            });
+        });
+    </script>
+</head>
+
+<body>
+<!-- Header -->
+<div id="header">
+    <div id="container">
+        <a id="logo-container" href="index.html">
+            <img src="./img/cooltext1226214894.png">
+            <div class="main_title">echhysahil Creative</div>
+        </a>
+        <div id="nav">
+            <ul>
+                <li><a href="#intro" title="Home">Home</a>
+                </li>
+                <li><a href="#second" title="Services">Open Source</a>
+                </li>
+                <li><a href="#third" title="Portfolio"> Portfolio</a>
+                </li>
+                <li><a href="#forth" title="Blog"> Blog</a>
+                </li>
+                <li><a href="#fifth" title="Who am i?">Who am i?</a>
+                </li>
+                <li><a class="modalbox" href="#inline">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Header Ends -->
+<!-- First Page -->
+<div id="intro">
+    <div class="story">
+        <div id="frontpage">
+            <div class="content">
+                <div class="description">
+                    <p><span class="c_name" id="page1-title">Techhysahil Creative</span>
+                    </p>
+                    <p class="c_def" id="page1-subtitle">Front End Web Devloper + Blogger + Hacker</p>
+                    <p class="sub_description">
+                    <blockquote class="bq3" id="page1-description">
+                        <P>I'm <span class="mark"> Front End Developer</span> with a passion for developing beautiful and functional user experiences. Having <span class="mark">3+ yrs of corporate & 5+ yrs of freelancing</span> experience. I focuses on writing clean, elegant and
+                            efficient code.I Love <span class="mark">Languages: Node JS, Javascript, Angular JS, React JS, HTML5, CSS3 & jQuery...</span>
+                        </p>
+                    </blockquote>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- First Page Ends -->
+<!-- Second Page -->
+<div id="second">
+    <div class="story">
+        <div id="services">
+            <div class="content">
+                <p class="title"> Recent Open Source Work</p>
+                <p class="subtitle">I always wanted to contribute open source world & now here i am !!!</P>
+                <div class="open_source_wrapper">
+                    <div class="item">
+                        <div class="key">Develop Deployment Scripts for Git or Non Git Repo</div>
+                        <div class="value">Develop script using shell script(bash) and it save lot of Development time.</div>
+                        <a href="https://github.com/techhysahil/Deployment-Script-SSH-" target="_blank">Read more</a>
+                    </div>
+                    <div class="item">
+                        <div class="key">Build Flat UI Theme for select2</div>
+                        <div class="value">i had write down the override CSS to make UI better</div>
+                        <a href="https://github.com/techhysahil/Select2-Flat-UI" target="_blank">Read more</a>
+                    </div>
+                    <div class="item">
+                        <div class="key">Create Plugin for Responsive tabs(Tab-2-Accordion)</div>
+                        <div class="value">This plugin can create responsive tabs which acts as tabs in Desktop Devices while it acts as accordion on Tablet devices.</div>
+                        <a href="https://github.com/techhysahil/Tab-2-accordian" target="_blank">Read more</a>
+                    </div>
+
+                    <div class="check_my_profile">
+                        <a href="https://github.com/techhysahil" class="css_btn float_l" target="_blank">Github Profile</a>
+                        <a href="http://codepen.io/techhysahil/pens/popular/" class="css_btn float_r" target="_blank">Codepen Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--second Page Ends-->
+<!-- Third Page -->
+<div id="third">
+    <div class="story">
+        <div id="portfolio">
+            <div class="content">
+                <p class="title">Check Out My Portfolio</p>
+                <p class="subtitle">We are dreamer.We are all about passion for Intraction, want to know how we do it?</P>
+                <div id="section-portfolio">
+                    <div class="container">
+                        <ul id="filters" class="clearfix">
+                            <li><span class="filter active" data-filter="app card icon logo web">All</span>
+                            </li>
+                            <li><span class="filter" data-filter="web">Website</span>
+                            </li>
+                            <li><span class="filter" data-filter="app">Codepen</span>
+                            </li>
+                            <li><span class="filter" data-filter="card">Web Design</span>
+                            </li>
+                            <li><span class="filter" data-filter="icon">Icon</span>
+                            </li>
+                            <li><span class="filter" data-filter="logo">Logo</span>
+                            </li>
+                        </ul>
+                        <div id="portfoliolist">
+                            <a href="http://annamapp.com/index.html" target="_blank">
+                                <div class="portfolio web" data-cat="web">
+                                    <div class="portfolio-wrapper">
+                                        <img src="img/portfolios/web/8.jpg" alt="" />
+                                        <div class="label">
+                                            <div class="label-text"> <a class="text-title">Annam official Website</a>  <span class="text-category">Web Development</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://techhysahil.com/Projects/CleanBlog-AngularJs/" target="_blank">
+                                <div class="portfolio web" data-cat="web">
+                                    <div class="portfolio-wrapper">
+                                        <img src="img/portfolios/web/4.PNG" alt="" />
+                                        <div class="label">
+                                            <div class="label-text"> <a class="text-title">Angular JS Blog</a>  <span class="text-category">Web design</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://techhysahil.com/Projects/cwd/Creative-Bootsrap/nav.html" target="_blank">
+                                <div class="portfolio web" data-cat="web">
+                                    <div class="portfolio-wrapper">
+                                        <img src="img/portfolios/web/7.jpg" alt="" />
+                                        <div class="label">
+                                            <div class="label-text"> <a class="text-title">BootStrap-Recode</a>  <span class="text-category">Web design</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://techhysahil.com/Projects/makeRecharge/" target="_blank">
+                                <div class="portfolio web" data-cat="web">
+                                    <div class="portfolio-wrapper">
+                                        <img src="img/portfolios/web/3.PNG" alt="" />
+                                        <div class="label">
+                                            <div class="label-text"> <a class="text-title">makeRecharge Template</a>  <span class="text-category">Web design</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://techhysahil.com/Projects/cwd/CleanBlog-EmberJs/" target="_blank">
+                                <div class="portfolio web" data-cat="web">
+                                    <div class="portfolio-wrapper">
+                                        <img src="img/portfolios/web/5.PNG" alt="" />
+                                        <div class="label">
+                                            <div class="label-text"> <a class="text-title">Ember JS Blog</a>  <span class="text-category">Web design</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://codepen.io/techhysahil/full/hnIes/" target="_blank">
+                                <div class="portfolio app" data-cat="app">
+                                    <div class="portfolio-wrapper">
+                                        <img src="img/portfolios/app/Parallax_scrolling.png" alt="" />
+                                        <div class="label">
+                                            <div class="label-text"> <a class="text-title">Parallax Scrolling</a>  <span class="text-category">DESIGN</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://codepen.io/techhysahil/full/uCepy/" target="_blank">
+                                <div class="portfolio app" data-cat="app">
+                                    <div class="portfolio-wrapper">
+                                        <img src="img/portfolios/app/HTML-center-Element.png" alt="" />
+                                        <div class="label">
+                                            <div class="label-text"> <a class="text-title">HTML5 Element at Center</a>  <span class="text-category">DESIGN</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://codepen.io/techhysahil/full/BoFjy/" target="_blank">
+                                <div class="portfolio app" data-cat="app">
+                                    <div class="portfolio-wrapper">
+                                        <img src="img/portfolios/app/background-Video.png" alt="" />
+                                        <div class="label">
+                                            <div class="label-text"> <a class="text-title">Background Video</a>  <span class="text-category">DESIGN</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://techhysahil.com/Projects/education-board/" target="_blank">
+                                <div class="portfolio web" data-cat="web">
+                                    <div class="portfolio-wrapper">
+                                        <img src="img/portfolios/web/1.jpg" alt="" />
+                                        <div class="label">
+                                            <div class="label-text"> <a class="text-title">College Website</a>  <span class="text-category">Web design</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://techhysahil.com/Projects/Bootstrap3.0_Template/" target="_blank">
+                                <div class="portfolio app" data-cat="app">
+                                    <div class="portfolio-wrapper">
+                                        <img src="img/portfolios/app/1.jpg" alt="" />
+                                        <div class="label">
+                                            <div class="label-text"> <a class="text-title">Bootstrap 3.0 Dashboard</a>  <span class="text-category">DESIGN</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- container -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Third Page Ends -->
+<!-- Third Page -->
+<div id="forth" class="blog_post_outerwrapper">
+    <div class="story">
+        <div class="content">
+            <p class="title">Recent Blog Posts</p>
+            <p class="subtitle">You can check out my latest <span class="highlighted">Blog </span> here. I write blog about <span class="highlighted">technology, myself & about my current going tasks</span>.</p>
+            <section class="social_media_wrapper">
+                <div class="blog_posts_wrapper">
+                    <a class="blog_post_wrapper" target="_blank" href="http://blog.techhysahil.com/uncategorized/deployment-using-shell-script/">
+                        <div class="blog_post">
+                            <div class="img_wrapper">
+                                <img src="img/blog_image/1.png">
+                                <span class="img-tag">Shell Script</span>
+                            </div>
+                            <div class="blog_post_detail">
+                                <div class="big-arrow">
+                                    <svg viewBox="0.342 -0.342 19 16"><path d="M9.458-.1c-.52.358-.58.99-.134 1.41l5.687 5.35H.343v2h14.67l-5.688 5.35c-.445.418-.385 1.05.134 1.408.52.36 1.304.312 1.75-.107l8.134-7.65L11.207.01c-.445-.422-1.228-.47-1.75-.11z"></path></svg>
+                                </div>
+                                <div class="post-title">Deployment using Shell Script</div>
+                                <div class="footer">
+                                        <span class="blog_post_time">
+                                            21st Jan, 2016
+                                        </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="blog_post_wrapper" target="_blank" href="http://blog.techhysahil.com/uncategorized/injecting-extra-info-to-copy-pasted-text/">
+                        <div class="blog_post">
+                            <div class="img_wrapper">
+                                <img src="img/blog_image/2.jpg">
+                                <span class="img-tag">JavaScript</span>
+                            </div>
+                            <div class="blog_post_detail">
+                                <div class="big-arrow">
+                                    <svg viewBox="0.342 -0.342 19 16"><path d="M9.458-.1c-.52.358-.58.99-.134 1.41l5.687 5.35H.343v2h14.67l-5.688 5.35c-.445.418-.385 1.05.134 1.408.52.36 1.304.312 1.75-.107l8.134-7.65L11.207.01c-.445-.422-1.228-.47-1.75-.11z"></path></svg>
+                                </div>
+                                <div class="post-title">Injecting extra info to copy pasted text</div>
+                                <div class="footer">
+                                        <span class="blog_post_time">
+                                            18st Jan, 2016
+                                        </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="blog_post_wrapper" target="_blank" href="http://blog.techhysahil.com/uncategorized/getting-hands-on-with-shell-scripting/">
+                        <div class="blog_post">
+                            <div class="img_wrapper">
+                                <img src="img/blog_image/3.jpg">
+                                <span class="img-tag">Shell Script</span>
+                            </div>
+                            <div class="blog_post_detail">
+                                <div class="big-arrow">
+                                    <svg viewBox="0.342 -0.342 19 16"><path d="M9.458-.1c-.52.358-.58.99-.134 1.41l5.687 5.35H.343v2h14.67l-5.688 5.35c-.445.418-.385 1.05.134 1.408.52.36 1.304.312 1.75-.107l8.134-7.65L11.207.01c-.445-.422-1.228-.47-1.75-.11z"></path></svg>
+                                </div>
+                                <div class="post-title">Getting hands on with Shell Scripting</div>
+                                <div class="footer">
+                                        <span class="blog_post_time">
+                                            8st Jan, 2016
+                                        </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="view_all_posts">
+                    <a href="http://blog.techhysahil.com/" target="_blank" class="css_btn" target="_blank">View All Posts</a>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!-- Forth page Ends -->
+<!-- Fifth Page -->
+<div id="fifth">
+    <div class="story">
+        <div id="who-i-am">
+            <div class="content">
+                <p class="title">Check Out About Myself</p>
+                <p class="subtitle">We empower <span class="highlighted">visionaries </span>to Lead meaningful brand, it's the point where <span class="highlighted">Technology and Design</span> meet.</P>
+                <div class="left_section">
+                    <div id="my_profileimage">
+                        <!-- <img src="./img/my_img.jpg" class="my_img" alt=""></img> -->
+                        <div class="myname">Sahil Gupta</div>
+                        <div class="mysubtitle">Freelance Web developer & Designer</div>
+                        <div class="mysite_social_connect">
+                            <div class="social_link">
+                                <a href="https://www.facebook.com/odinagupta">
+                                    <div class="facebook"></div>
+                                </a>
+                                <a href="">
+                                    <div class="google"></div>
+                                </a>
+                                <a href="https://twitter.com/Techhysahil">
+                                    <div class="twitter"></div>
+                                </a>
+                                <a href="">
+                                    <div class="linkedin"></div>
+                                </a>
+                                <a href="">
+                                    <div class="dribble"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mydescription">
+                            <p>I'm Front End Developer with a passion for developing beautiful and functional user experiences. Having 3+ yrs of corporate & 5+ yrs of freelancing experience. I focuses on writing clean, elegant and efficient code.</p>
+                            <p>Feel free to have a look at my portfolio and don't hesitate to contact me if you think I can be of service to you.</p>
+                            <p>For building websites my weapons of choice are :
+                                <p class="my_lists">Languages -- JavaScript, Node JS, HTML5, CSS3, JSON,Shell Script, AJAX, PHP
+                                <p class="my_lists">Framework -- Angular JS, Ember JS, React JS, Bootstrap 3, Materialize
+                                <p class="my_lists">Libraries -- Underscore JS, Rivet JS
+                                <p class="my_lists">Templates -- handlebars
+                                <p class="my_lists">Module Dependency -- require.js, BootLoader
+                                <p class="my_lists">Package Managers -- NPM, Bower, Grunt,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_section">
+                    <div id="my_profile">
+                        <div id="my_profile_container">
+                            <div class="skill-title">My Skills</div>
+                            <div class="skill-cover">
+                                <p class="p10"><span class="f-left">JavaScript </span><span class="f-right">75%</span></p>
+                            </div>
+                            <div class="skill-cover">
+                                <p class="p11"><span class="f-left">Node JS </span><span class="f-right">70%</span></p>
+                            </div>
+                            <div class="skill-cover">
+                                <p class="p12"><span class="f-left">Angular JS</span><span class="f-right">80%</span>
+                                </p>
+                            </div>
+                            <div class="skill-cover">
+                                <p class="p4"><span class="f-left">JQuery</span><span class="f-right">85%</span>
+                                </p>
+                            </div>
+                            <div class="skill-cover">
+                                <p class="p1"><span class="f-left">HTML5 </span><span class="f-right">95%</span></p>
+                            </div>
+                            <div class="skill-cover">
+                                <p class="p3"><span class="f-left">CSS3</span><span class="f-right">95%</span>
+                                </p>
+                            </div>
+                            <div class="skill-cover">
+                                <p class="p5"><span class="f-left">PHP</span><span class="f-right">65%</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="for_client">Take time to discuss your project by phone or you can contact me on me email.</p>	<a href="#third" class="portfolio_link css_btn"> My portfolio </a>
+                <!--Contact Me Link Code Start-->
+                <div id="wrapper">	<a class="modalbox contact_me css_btn" href="#inline">Hire Me</a>
+                </div>
+                <!-- hidden inline form -->
+                <div id="inline">
+                    <h2>Send us a Message</h2>
+                    <form id="contact" name="contact" action="#" method="post">
+                        <label for="email">Your E-mail</label>
+                        <input type="email" id="email" name="email" class="txt">
+                        <br>
+                        <label for="msg">Enter a Message</label>
+                        <textarea id="msg" name="msg" class="txtarea"></textarea>
+                        <button id="send">Send E-mail</button>
+                    </form>
+                </div>
+                <!-- Contact Pop-up box (basic fancybox setup) -->
+                <script type="text/javascript">
+                    function validateEmail(email) {
+                        var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                        return reg.test(email);
+                    }
+                    $(document).ready(function() {
+                        var html = $("#inline").html();
+                        $(".modalbox").fancybox({
+                            afterClose: function() {
+                                $("#inline").html(html);
+                                feedback();
+                            }
+                        });
+                        var feedback = function() {
+                            $("#contact").submit(function() {
+                                return false;
+                            });
+                            $("#send").bind("click", function() {
+                                var emailval = $("#email").val();
+                                var msgval = $("#msg").val();
+                                var msglen = msgval.length;
+                                var mailvalid = validateEmail(emailval);
+                                if (mailvalid == false) {
+                                    $("#email").addClass("error");
+                                } else if (mailvalid == true) {
+                                    $("#email").removeClass("error");
+                                }
+                                if (msglen = 4) {
+                                    $("#msg").removeClass("error");
+                                }
+                                if (mailvalid == true && msglen >= 4) {
+                                    // if both validate we attempt to send the e-mail
+                                    // first we hide the submit btn so the user doesnt click twice
+                                    $("#send").replaceWith("sending...");
+                                    $.ajax({
+                                        type: 'POST',
+                                        url: 'sendmessage.php',
+                                        data: $("#contact").serialize(),
+                                        success: function(data) {
+                                            if(data == "true") {
+                                                $("#contact").fadeOut("fast", function(){
+                                                    $(this).before("Success! Your feedback has been sent, thanks :)");
+                                                    setTimeout("$.fancybox.close()", 1000);
+                                                });
+                                            }
+                                        }
+                                    });
+                                }
+                            });
+                        }
+                        feedback();
+                    });
+                </script>
+                <!--Contact Me Link Code End-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fifth page Ends -->
+<!-- Back To Top Link -->	<a href="#" class="back-to-top">Back to Top</a>
+<script type="text/javascript">
+    $(function() {
+        var filterList = {
+            init: function() {
+                $('#section-portfolio #portfoliolist').mixitup({
+                    targetSelector: '.portfolio',
+                    filterSelector: '.filter',
+                    effects: ['fade'],
+                    easing: 'snap',
+                    onMixEnd: filterList.hoverEffect()
+                });
+            },
+            hoverEffect: function () {
+                $('#section-portfolio #portfoliolist .portfolio').hover(
+                        function () {
+                            $(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+                            $(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');
+                        },
+                        function () {
+                            $(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+                            $(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');
+                        }
+                );
+            }
+        };
+        filterList.init();
+    });
+</script>
+</body>
+
+</html>

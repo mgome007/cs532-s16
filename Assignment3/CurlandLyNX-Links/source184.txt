@@ -1,0 +1,154 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <base href="/">
+        <title>c0deNinja</title>
+        <meta name="description" content="I am c0deNinja, a software developer from Vancouver BC.  My blog is all about web development using technologies like JavaScript, MongoDB, NodeJS, AngularJS, CSharp, CSS, HTML, ExpressJS, GurntJS, jQuery and whatever else that pops up and I find interesting.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta property="og:title" content="">
+        <meta property="og:description" content=""> 
+
+        <link rel="stylesheet" href="styles/1bc9595b.main.css"/>
+    </head>
+
+    <body ng-app="c0deNinjaApp">
+        <!--[if lt IE 7]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Header -->
+        <div class="header" ng-controller="HeaderController">
+            <div class="container wrapper">
+                
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="/"><img src="images/logo.png" alt="c0deNinja"></a>  
+                    
+                </div>
+                
+                <!-- Menu -->
+                <nav id="main-menu">
+                    <div class="menu-wrap">
+                        <input type="checkbox" id="hamburger" ng-model="showResponsiveMenu">
+                        <label for="hamburger" onclick=""></label>
+                        <ul class="nav">
+                            <li ng-class="{ active : isActive('/blog') }" ng-click="showResponsiveMenu = false">
+                                <a href="/">
+                                    <i class="icon-bullhorn darkgrey"></i><br>Blog
+                                </a>
+                            </li>
+                            <li ng-class="{ active : isActive('/about') }" ng-click="showResponsiveMenu = false">
+                                <a href="/about">
+                                    <i class="icon-book darkgrey"></i><br>About
+                                </a>
+                            </li>
+                            <li ng-class="{ active : isActive('/contact') }" ng-click="showResponsiveMenu = false">
+                                <a href="/contact">
+                                    <i class="icon-pencil darkgrey"></i><br>Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container" ng-view=""></div>
+
+        <!-- Footer -->
+        <div id="footer" ng-controller="FooterController">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Links -->
+                    <div class="span4 hidden-phone">
+                        <div class="pad10"></div>
+                        <h6 class="title-divider">Useful Links<span></span></h6>
+                        <ul class="icons useful-links">
+                            <li ng-repeat="link in usefulLinks">
+                                <i class="icon-link"></i>
+                                <a ng-href="{{ link.url }}" ng-bind="link.title" target="_blank"></a>
+                            </li>
+                        </ul>
+                        <div class="pad50"></div>
+                    </div>
+
+                    <!-- Hacker News -->
+                    <div class="span4 hidden-phone">
+                        <div class="pad10"></div>
+                        <h6 class="title-divider">Latest Hacker News<span></span></h6>
+                        <ul class="media-list">
+                            <li class="media" ng-repeat="news in hackerNews">
+                                <div>
+                                    <a ng-href="{{ news.url }}" ng-bind="news.title" target="_blank"></a>
+                                    <br>
+                                    <div class="post-meta">
+                                        <ul>
+                                            <li ng-bind="'posted by ' + news.postedBy"></li>
+                                            <li ng-bind="news.postedAgo"></li>
+                                            <li>
+                                                <i class="icon-comment-alt"></i>
+                                                {{ news.commentCount }}
+                                            </li>
+                                        </ul>
+                                    </div>  
+                                </div>
+                            </li>                           
+                        </ul>  
+                        <div ng-if="hackerNewsError">
+                            <i class="icon-warning-sign text-error"></i>
+                            <span class="marg-left5 normal" ng-bind="hackerNewsError"></span>
+                        </div> 
+                        <div class="pad50"></div>
+                    </div>
+
+                    <!-- Copyright -->
+                    <div class="span4">
+                        <div class="follow_us pull-right">
+                            <a href="https://twitter.com/c0deNinja" class="zocial twitter" target="_blank"></a>
+                            <a href="http://stackoverflow.com/users/707401/c0deninja" class="zocial stackoverflow" target="_blank"></a>
+                            <a href="/feed.xml" class="zocial rss" target="_blank"></a>
+                            <div class="copyright text-right" ng-bind="copyRight"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Back to Top -->
+        <a href="#">
+            <i class="go-top hidden-phone hidden-tablet icon-double-angle-up"></i>
+        </a>
+
+        <!-- Google Analytics-->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-31099272-1');
+            ga('send', 'pageview');
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="bower_components/es5-shim/es5-shim.js"></script>
+        <script src="bower_components/json3/lib/json3.min.js"></script>
+        <![endif]-->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+        <script src="scripts/43b37cb6.vendor.js"></script>
+
+        <script src="scripts/0dda917b.branding.js"></script>
+
+        <script src="scripts/3aac37cb.scripts.js"></script>
+    </body>
+</html>

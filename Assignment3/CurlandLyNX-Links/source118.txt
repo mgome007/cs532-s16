@@ -1,0 +1,48 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="StudioNow is the video creation marketplace. Our platform and technology allow enterprises to create cost-efficient & high-quality content.">
+<meta name="keywords" content="internet video, online video, web video, best internet video production, best online video, best web video, video production, internet video production, make video, make online video, web video production, video library, video library syndication, asset management software">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>StudioNow</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<link href="//fonts.googleapis.com/css?family=Alegreya+Sans+SC:100" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div id="header">
+    <img src="img/studionow.png" alt="StudioNow" />
+  </div>
+
+  <h1>THE VIDEO CREATION MARKETPLACE</h1>
+
+  <div id="buttons">
+    <a href="http://corp.studionow.com" style="text-decoration:none">LEARN MORE</a>
+    <a href="https://www.studionow.com/login/" target="_blank" style="text-decoration:none">LOG IN</a>
+  </div>
+
+  <div id="sn-footer" style="margin-top:120px;">
+	  <p>&#169;  2014 StudioNow, Inc. All Rights Reserved. <a href="mailto:info@studionow.com">info(at)studionow.com</a>                
+  </div>
+
+
+<!-- GOOGLE ANALYTICS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56543431-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html id="ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=998">
+
+
+<title>
+	Mucky Pups - Cardiff Dog Groomers and Spa. Cardiff dog grooming.Mucky Pups | Wales 1st Designer Pet Spa &amp; Boutique</title>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/style.css" />
+<link rel="pingback" href="http://www.mucky-pups.co/xmlrpc.php" />
+
+<link rel="icon" type="image/png" href="http://www.mucky-pups.co/wp-content/uploads/2012/10/favicon.ico" />
+
+<!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->
+
+<!-- This website is patched against a big problem not solved from WordPress 2.5+ to date -->
+
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.5.2.6 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Mucky Pups - Cardiff Dog Groomers and Spa. Cardiff dog grooming.</title>
+<meta name="description" content="Welcome to Mucky Pups - The premier Cardiff dog groomers and spa. Spoil your fur-baby with a variety of treats, treasures and Cardiff dog grooming."/>
+<link rel="canonical" href="http://www.mucky-pups.co/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Mucky Pups - Cardiff Dog Groomers and Spa. Cardiff dog grooming." />
+<meta property="og:description" content="Welcome to Mucky Pups - The premier Cardiff dog groomers and spa. Spoil your fur-baby with a variety of treats, treasures and Cardiff dog grooming." />
+<meta property="og:url" content="http://www.mucky-pups.co/" />
+<meta property="og:site_name" content="Mucky Pups" />
+<meta property="og:image" content="http://www.mucky-pups.co/wp-content/uploads/2014/04/media-strip-950x36.png" />
+<meta property="og:image" content="http://mucky-pups.co/wp-content/uploads/2012/10/kiss2.png" />
+<meta property="og:image" content="http://www.mucky-pups.co/wp-content/uploads/2012/10/Gallery053-199x300.jpg" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Mucky Pups &raquo; Feed" href="http://www.mucky-pups.co/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mucky Pups &raquo; Comments Feed" href="http://www.mucky-pups.co/comments/feed/" />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://www.mucky-pups.co/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='dt_style-css'  href='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/css/style.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt_customize-origami-css'  href='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/css/customize-origami.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt_slider-css'  href='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/css/slider.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt_slider-nivo-css'  href='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/css/nivo-slider.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt_hs-css'  href='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/plugins/highslide/highslide.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt_anything-slider-css'  href='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/css/anythingslider.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt_validation-css'  href='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/plugins/validator/validationEngine_style.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt_shortcodes-css'  href='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/css/shortcodes.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt_featured_carousel-css'  href='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/css/feature-carousel.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='easy_table_style-css'  href='http://www.mucky-pups.co/wp-content/plugins/easy-table/themes/minimal/style.css?ver=1.4' type='text/css' media='all' />
+    <!--[if IE]><script src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/html5.js"></script><![endif]-->
+    <!--[if lte IE 7]><link rel="stylesheet" type="text/css" media="all" href="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/css/old_ie.css" /><![endif]-->
+    <!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" href="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/plugins/highslide/highslide-ie6.css" />
+	<![endif]-->
+    <!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/css/origami-ie8.css" />
+	<![endif]-->
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/plugins/shortcodes/shortcodekid/js/shortcodes.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/cufon-yui.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/cufon-colors-origami.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/jquery.easing.1.3.js?ver=1.3'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/jquery.bxSlider.min.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/jquery.coda-slider-2.0.js?ver=2.0'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/plugins/highslide/highslide-full.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/plugins/highslide/highslide.config.js?ver=3.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dt_ajax = {"ajaxurl":"http:\/\/www.mucky-pups.co\/wp-admin\/admin-ajax.php","post_id":"30","page_layout":"slideshow","nonce":"3e9d1666e6"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/scripts.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/custom.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/jquery.nivo.ext.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/sliderman.1.3.6.js?ver=1.3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/jquery.jparallax.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/jquery.event.frame.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/jquery.anythingslider.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/jquery.accordion.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/organictabs.jquery.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/shortcodes.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/jquery.carouFredSel-4.5.1.js?ver=4.5.1'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/jquery.featureCarousel.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/plugins/validator/jquery.validationEngine.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/plugins/validator/z.trans.en.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/fonts/LeckerliOne.font.js?ver=3.6'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.mucky-pups.co/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.mucky-pups.co/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.6" />
+<link rel='shortlink' href='http://wp.me/P3qwyT-u' />
+
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery('.sktooltip').each(function() {
+					jQuery(this).SKTooltip();
+				});
+				jQuery('.sk-notification').each(function() {
+					jQuery(this).closeNotification();
+				});
+				jQuery('.skimage-slider').each(function() {
+					jQuery(this).skImageSlider();
+				});
+				jQuery('.sktoggle-open, .sktoggle-closed').each(function() {
+					jQuery(this).skToggle();
+				});
+				jQuery('.sktabbed').each(function() {
+					jQuery(this).skTabbed();
+				});
+			});
+		</script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+   
+    <style type="text/css">
+    
+    /* appearance logo */
+/*    .logo {
+        text-align: center ;
+    }
+ */   
+    /* appearance footer logo */
+    .logo-down {
+    }
+
+        /* appearance background font-family content-text-color content-text-shadow-color */    
+        body {
+            background-image: url(http://www.mucky-pups.co/wp-content/uploads/2012/10/bg.jpg) !important;            background-position: center center !important;            
+						background-attachment: fixed;
+						
+			background-color: #000000;
+            background-repeat: repeat;
+            font: 12px/20px "Arial", Arial, Helvetica, sans-serif;
+            color: #cccccc; 
+            text-shadow: #3b3b3b 1px 1px 0;
+        }
+        .pagin-info, .team-wrap .head, .custom-menu li a, .panel .panel-wrapper a, .reviews-t, .post a, ul.categories li a, .do-clear {
+            color: #cccccc !important; 
+            text-shadow: #3b3b3b 1px 1px 0 !important;
+        }
+    
+    /* dividers content */
+    
+        .hr.hr-wide, .entry-content.cont {
+            background-image: url(http://www.mucky-pups.co/wp-content/themes/dt-cardamon/images/backgrounds/content/div-big/full/tattoo_div-big.jpg);            background-position: top left !important;            background-repeat: repeat-x;
+	    }
+
+        .entry-content.one-line {		
+            background-image: url(http://www.mucky-pups.co/wp-content/themes/dt-cardamon/images/backgrounds/content/div-big/full/tattoo_div-big.jpg) !important;		
+            background-position: bottom left !important;            background-repeat: repeat-x;
+	    }
+			
+	    #comments .text, .hr.hr-narrow, .type-post, .post, ul.categories li, .custom-menu li, .gallery .textwidget.text, .item-blog  {
+		    background-image: url(http://www.mucky-pups.co/wp-content/themes/dt-cardamon/images/backgrounds/content/div-small/full/tattoo_div-small.jpg) !important;            background-position: top left !important;            background-repeat: repeat-x;
+	    }
+        
+	    #comments .text {
+            background-position: bottom left !important;	    }
+    /* end dividers content */
+    
+    /* widgets/shotcodes background */
+            #wp-calendar td, #calendar_wrap, #wp-calendar caption, #aside .slider-wrapper, .half .slider-wrapper, .full .slider-wrapper, .two-thirds .slider-wrapper, .one-fourth .slider-wrapper, #aside .slider_container_1, .slider_container_1 {
+            background-color: rgba(255,255,255,0.07);		}
+
+		.slider-shortcode, .contact-block, .about, .textwidget-photo, .partner-bg, .alignleft, .alignright, .aligncenter, .gallery-item, .shadow-light, .reviews-t, #aside .twit .reviews-t, .blockquote-bg, .navigation, .map, .navig-category, .slider-shprtcode, .toggle, .basic .accord, ul.nav-tab li, .list-wrap, .videos, .avatar img, .alignleft-f {
+		    background-color: rgba(255,255,255,0.07);        }
+
+        /* for ie8 */
+        #ie8 #wp-calendar td, #ie7 #calendar_wrap, #ie7 #wp-calendar caption, #ie7 #aside .slider-wrapper, #ie7 .half .slider-wrapper, #ie7 .full .slider-wrapper, #ie7 .two-thirds .slider-wrapper, #ie7 .one-fourth .slider-wrapper, #ie7 #aside .slider_container_1, #ie7 .slider_container_1 {
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#12ffffff,endColorstr=#12ffffff);		}
+
+		#ie8 .slider-shortcode, #ie7 .contact-block, #ie7 .about, #ie7 .textwidget-photo, #ie7 .partner-bg, #ie7 .alignleft, #ie7 .alignright, #ie7 .aligncenter, #ie7 .gallery-item, #ie7 .shadow-light, #ie7 .reviews-t, #ie7 #aside .twit .reviews-t, #ie7 .blockquote-bg, #ie7 .navigation, #ie7 .map, #ie7 .navig-category, #ie7 .slider-shprtcode, #ie7 .toggle, #ie7 .basic .accord, #ie7 ul.nav-tab li, #ie7 .list-wrap, #ie7 .videos, #ie7 .avatar img, #ie7 .alignleft-f {
+		    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#12ffffff,endColorstr=#12ffffff);		}
+        
+        /* for ie8 */
+        #ie8 #wp-calendar td, #ie8 #calendar_wrap, #ie8 #wp-calendar caption, #ie8 #aside .slider-wrapper, #ie8 .half .slider-wrapper, #ie8 .full .slider-wrapper, #ie8 .two-thirds .slider-wrapper, #ie8 .one-fourth .slider-wrapper, #ie8 #aside .slider_container_1, #ie8 .slider_container_1 {
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#12ffffff,endColorstr=#12ffffff);";
+		}
+
+		#ie8 .slider-shortcode, #ie8 .contact-block, #ie8 .about, #ie8 .textwidget-photo, #ie8 .partner-bg, #ie8 .alignleft, #ie8 .alignright, #ie8 .aligncenter, #ie8 .gallery-item, #ie8 .shadow-light, #ie8 .reviews-t, #ie8 #aside .twit .reviews-t, #ie8 .blockquote-bg, #ie8 .navigation, #ie8 .map, #ie8 .navig-category, #ie8 .slider-shprtcode, #ie8 .toggle, #ie8 .basic .accord, #ie8 ul.nav-tab li, #ie8 .list-wrap, #ie8 .videos, #ie8 .avatar img, #ie8 .alignleft-f {
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#12ffffff,endColorstr=#12ffffff);";
+		}
+        
+        .reviews-b {
+			border-top: 12px solid rgba(255,255,255,0.07);        }
+/*
+		#footer .reviews-b {
+			border-right: 12px solid transparent;
+			border-top: 12px solid rgba(255,255,255,0.17);
+			border-left: 0px solid transparent;
+		}
+		.blockquote-bot {
+			border-right: 12px solid transparent;
+			border-top: 12px solid rgba(255,255,255,0.20);
+			border-left: 0px solid transparent;   
+		}
+*/
+        /* background headers homepage background */
+        #home-bg {
+            background-image: url(http://www.mucky-pups.co/wp-content/uploads/2012/10/mucky_header7.png) !important;            background-position: center top !important;            background-repeat: no-repeat;
+        }
+
+        /* background headers content background */
+        #bg {
+            background-image: url(http://www.mucky-pups.co/wp-content/uploads/2012/10/bg-header3.png) !important;            background-position: center top !important;            background-repeat: no-repeat;
+        }
+        
+        /* background headers contact background color/opacity */
+        .contact-block {
+            background-color: rgba(255,255,255,0.15) !important;        }
+        /* for ie7 */
+        #ie7 .contact-block {
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#26ffffff,endColorstr=#26ffffff) !important;        }
+        /* for ie8 */
+        #ie8 .contact-block {
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26ffffff,endColorstr=#26ffffff) !important;";
+        }
+
+        
+        
+        /* background headers top line background */
+        #top-bg {
+            background-image: url(http://www.mucky-pups.co/wp-content/themes/dt-cardamon/images/backgrounds/header/line-top/full/dark_line-top.png) !important;            background-position: center top !important;            background-repeat: repeat-x;
+			background-color: rgba(0,0,0,0) !important;        }
+
+        
+        /* background parallax position */
+        #parallax {
+            position: absolute !important;
+        }
+
+        /* background footer baground */
+        #footer {
+            background-image: url(http://www.mucky-pups.co/wp-content/themes/dt-cardamon/images/backgrounds/footer/pattern-footer/full/tattoo_pattern-footer.jpg) !important;            background-position: center center !important;            background-repeat: repeat;
+            background-color: ;
+        }
+        
+        /* background footer bottom line bg */
+        #bottom {
+            background-image: none;            background-position: center bottom !important;            background-repeat: repeat-x;
+			background-color: rgba(0,0,0,0.1) !important;        }
+        
+        
+        .custom-menu li.current-menu-item a {
+            color: #121313;
+            text-shadow: #A7B0B1 1px 1px 0;
+        }
+
+        /* background footer wide divider */
+        .line-footer {
+            background-image: url(http://www.mucky-pups.co/wp-content/uploads/2012/10/line-foot.jpg) !important;            background-position: bottom center !important;            background-repeat: repeat-x;
+        }
+
+        /* background footer narrow divider */
+        #footer .post, #footer ul.categories li, #footer .custom-menu li {
+            background-image: url(http://www.mucky-pups.co/wp-content/themes/dt-cardamon/images/backgrounds/footer/div-footer/full/tattoo_div-footer.jpg) !important;            background-position: top left !important;            background-repeat: repeat-x;
+        }
+        
+    
+        /* background footer widgets/shortcodes bg */
+		#footer #wp-calendar td, #footer #calendar_wrap, #footer #wp-calendar caption, #footer .reviews-t, #footer .partner-bg, .twit .reviews-t, #footer .flickr .alignleft-f, #footer .slider_container_1, #footer .textwidget-photo, #footer .alignleft {
+		    background-color: rgba(0,0,0,0.1) !important;        }
+
+        /* for ie7 */
+		#ie7 #footer #wp-calendar td, #ie7 #footer #calendar_wrap, #ie7 #footer #wp-calendar caption, #ie7 #footer .reviews-t, #ie7 #footer .partner-bg, #ie7 .twit .reviews-t, #ie7 #footer .flickr .alignleft-f, #ie7 #footer .slider_container_1, #ie7 #footer .textwidget-photo, #ie7 #footer .alignleft {
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1a000000,endColorstr=#1a000000) !important; 
+        }
+
+        /* for ie8 */
+		#ie8 #footer #wp-calendar td, #ie8 #footer #calendar_wrap, #ie8 #footer #wp-calendar caption, #ie8 #footer .reviews-t, #ie8 #footer .partner-bg, #ie8 .twit .reviews-t, #ie8 #footer .flickr .alignleft-f, #ie8 #footer .slider_container_1, #ie8 #footer .textwidget-photo, #ie8 #footer .alignleft {
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#1a000000,endColorstr=#1a000000) !important;"; 
+        }
+
+        #footer .reviews-b {
+			border-top: 12px solid rgba(0,0,0,0.1) !important;        }
+        
+           /* top line */ 
+        .right-top a, .right-top li { 
+            color: #b0b0b0 !important;            text-shadow: #4d4d4d 1px 1px 0 !important;
+        }
+        
+           /* content block */ 
+        .contact-block span{
+            color: #fafafa !important;            text-shadow: #474747 1px 1px 0 !important;
+        }
+        
+            /* fonts content secondary color */
+        a, span.tooltip, .widget .ico-link.comments, .head-capt, .mid-gray, .panel-wrapper .blue-date, p.autor, p.autor a, .goto-post span, .entry-meta .ico-link, .ico-link a, .autor-head, .head, .comment-meta span, #comments .comment-meta a, #form-holder .do-clear, .price, .full-left a {
+            color: #ededed !important;            text-shadow: #000000 1px 1px 0 !important;
+        }
+        .comment-meta {
+            color: #ededed !important;        }
+        span.tooltip {
+            border-bottom: 1px dashed #ededed !important;;
+        }
+        
+    
+        /* fonts main menu links color */
+        .ico-link.comments, ul#nav li a {
+            color: #1a1a1a !important; 
+		}
+		
+    
+        /* fonts main menu hover color */
+		.paginator li.act a, .widget-info .head, .widget-info .head-capt, .widget-info .hide-me, .widget-info .details,  #nav li div ul li a.act, ul#nav > li > a.act, #nav > li div ul li:hover > a, .button.act {
+			color: #e80087 !important;		}
+		.widget-info .head, .widget-info .head-capt, .widget-info .details, .widget-info .hide-me {
+			text-shadow: none !important;
+		}
+    
+    
+        /* footer primary colors */
+        #footer .text-photo, #footer .head, #footer .custom-menu li a, #footer .panel .panel-wrapper a, #footer .reviews-t, #footer .categories a, #footer .post a, #footer a.do-clear, #footer .dt_captcha, .foot-cont {			
+            color: #2a2a2a !important;            text-shadow: #f0f0f0 1px 1px 0 !important;
+		}
+
+    
+        #footer .mid-gray, #footer .panel-wrapper .blue-date, #footer p.autor, #footer p.autor a, #footer .goto-post span, #footer a, #footer .goto-post span, .foot-cont p.autor, .foot-cont p.autor a {
+			color: #818181 !important;			text-shadow: #f0f0f0 1px 1px 0 !important;
+		}
+
+           /* bottom line */ 
+        #footer .bottom-cont span, #footer .bottom-cont a { 
+            color: #595959 !important;            text-shadow: #f0f0f0 1px 1px 0 !important;
+        }
+        
+        /* font size */
+        h1, #container > h1{
+            font-size: 22px !important;
+	    }
+        
+        
+                    
+            /* font size */
+        h2, #container > h2{
+            font-size: 22px !important;
+	    }
+        
+        
+                    #fancytile-slide .caption-head, #slider .caption-head, #form-holder .header { 
+                font-size: 22px !important;
+            }
+                    
+            /* font size */
+        h3, #container > h3{
+            font-size: 18px !important;
+	    }
+        
+                    #carousel .caption-head, #ps-slider .ps-head h3, .gallery .textwidget.text .head, .gallery .textwidget.text .hide-me, .header {
+                font-size: 18px !important;
+            }
+        
+                    
+            /* font size */
+        h4, #container > h4{
+            font-size: 16px !important;
+	    }
+        
+        
+                    
+            /* font size */
+        h5, #container > h5{
+            font-size: 32px !important;
+	    }
+        
+        
+                    
+            /* font size */
+        h6, #container > h6{
+            font-size: 12px !important;
+	    }
+        
+        
+                    
+            
+        
+    #slide .text-capt, #slide .ps-cont {
+        color: #2b2b2b !important;
+    }
+    
+         
+
+    .textwidget .info .head, h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a, .double-header .first-head, .header, #form-holder .header, .ps-head h3 {
+        color: #ededed !important;
+        text-shadow: #383838 1px 1px 0 !important;
+    }
+    
+    .foot-cont .header {
+        color: #b80e7f !important;
+        text-shadow: #ffffff 1px 1px 0 !important;
+    }
+
+    /* accordion, toggle, tabs */ 
+    .accord a, .nav-tab a, .toggle .question {
+        color: #ededed !important;
+        text-shadow: #000000 !important;
+    }
+        
+    .accord a.selected, .nav-tab a.current, .toggle .question.act {
+        color: #cccccc !important; 
+        text-shadow: #3b3b3b !important;
+    }
+
+    </style>
+	    <script>
+
+        function cufon_in_gall() {
+            Cufon('.textwidget > .info > .head', {
+	            color: '-linear-gradient(#ffffff, #ededed)', textShadow: '1px 1px #383838'
+            });
+        }
+ 
+        Cufon('h1, h2, h3, h4, h5, h6', {
+            color: '-linear-gradient(#ffffff, #ededed)', textShadow: '1px 1px #383838'
+        });
+
+        Cufon('.double-header .first-head', {
+            color: '-linear-gradient(#ffffff, #ededed)', textShadow: '1px 1px #383838'
+        });
+
+        Cufon('.header', {
+            color: '-linear-gradient(#ffffff, #ededed)', textShadow: '1px 1px #383838'
+        });
+
+        Cufon('#form-holder .header', {
+            color: '-linear-gradient(#ffffff, #ededed)', textShadow: '1px 1px #383838'
+        });
+
+        Cufon('.ps-head h3', {
+            color: '-linear-gradient(#f2f2f2, #f2f2f2)'
+        });
+
+        Cufon('.foot-cont .header', {
+            color: '-linear-gradient(#ff00aa, #b80e7f)', textShadow: '1px 1px #ffffff'
+        });
+        
+    </script>
+    
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36438026-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    <script type="text/javascript">
+    /* <![CDATA[ */
+	// DO NOT REMOVE!
+	// b21add52a799de0d40073fd36f7d1f89
+	if( typeof window['hs'] !== 'undefined' ) {
+        hs.graphicsDir = 'http://www.mucky-pups.co/wp-content/themes/dt-cardamon/js/plugins/highslide/graphics/';
+    }
+	/* ]]> */
+    
+    </script>
+</head>
+
+<body class="home page page-id-30 page-template page-template-dt-slideshow-fullwidth-php">
+    <div id="home-bg">
+
+    <div id="top-bg">
+    <div class="top-cont">
+<ul class="right-top"><li><a href="http://www.mucky-pups.co/">HOME</a></li><li><a href="http://www.mucky-pups.co/news/">NEWS</a></li><li><a href="http://www.mucky-pups.co/services/">SPA SERVICES</a></li><li><a href="http://www.mucky-pups.co/special-days/">SPECIAL DAYS</a></li><li><a href="http://www.mucky-pups.co/grooming-prices/">GROOMING PRICES</a></li><li><a href="http://www.mucky-pups.co/boutique/">BOUTIQUE</a></li><li><a href="http://www.mucky-pups.co/gallery/">THE GALLERY</a></li><li><a href="http://www.mucky-pups.co/contact/">CONTACT</a></li></ul>            </div>
+</div>
+
+    
+    <header id="header" class="logo-center">
+
+    <a href="http://www.mucky-pups.co" class="logo"><img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/logo.png"/></a>
+
+
+<nav>
+
+<ul id="nav"><li class="first"><a class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-30 current_page_item menu-item-45 act first" href="http://www.mucky-pups.co/" title="HOME">HOME</a></li><li ><a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1111" href="http://www.mucky-pups.co/news/" title="NEWS">NEWS</a></li><li ><a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-223" href="http://www.mucky-pups.co/services/" title="SPA SERVICES">SPA SERVICES</a></li><li ><a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-507" href="http://www.mucky-pups.co/special-days/" title="SPECIAL DAYS">SPECIAL DAYS</a></li><li ><a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1278" href="http://www.mucky-pups.co/grooming-prices/" title="GROOMING PRICES">GROOMING PRICES</a></li><li ><a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-900" href="http://www.mucky-pups.co/boutique/" title="BOUTIQUE">BOUTIQUE</a></li><li ><a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1010" href="http://www.mucky-pups.co/gallery/" title="THE GALLERY">THE GALLERY</a></li><li ><a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210" href="http://www.mucky-pups.co/contact/" title="CONTACT">CONTACT</a></li></ul>
+    <ul class="soc-ico">
+
+
+        <li><a class="facebook trigger" href="http://www.facebook.com/pages/Mucky-Pups-Spa-and-Boutique/107253276102617"><span>facebook</span></a></li> 
+
+
+        <li><a class="twitter trigger" href="https://twitter.com/muckypups_"><span>twitter</span></a></li> 
+
+
+    </ul>
+
+</nav>
+</header>
+
+    <div class="navig-nivo big-slider"><div class="nivo-directionNav"><a class="nivo-prevNav"></a><a class="nivo-nextNav"></a></div></div><section id="slide"><div class="slider-wrapper theme-default"><div id="slider" class="nivoSlider" data-autoslide="6000" data-autoslide_on="1"><img src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?src=/wp-content/uploads/2013/03/homeslide01.jpg&amp;zc=1&amp;w=950&amp;h=420" alt="" title=".caption-1" width="950" height="420"  /><img src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?src=/wp-content/uploads/2013/03/homeslide03.jpg&amp;zc=1&amp;w=950&amp;h=420" alt="" title=".caption-2" width="950" height="420"  /><img src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?src=/wp-content/uploads/2013/03/homeslide04.jpg&amp;zc=1&amp;w=950&amp;h=420" alt="" title=".caption-3" width="950" height="420"  /><img src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?src=/wp-content/uploads/2013/03/homeslide05.jpg&amp;zc=1&amp;w=950&amp;h=420" alt="" title=".caption-4" width="950" height="420"  /><img src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?src=/wp-content/uploads/2013/03/homeslide06.jpg&amp;zc=1&amp;w=950&amp;h=420" alt="" title=".caption-5" width="950" height="420"  /><img src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?src=/wp-content/uploads/2013/03/Slide03.jpg&amp;zc=1&amp;w=950&amp;h=420" alt="" title=".caption-6" width="950" height="420"  /></div><div class="nivo-html-caption caption-1"></div><div class="nivo-html-caption caption-2"></div><div class="nivo-html-caption caption-3"></div><div class="nivo-html-caption caption-4"></div><div class="nivo-html-caption caption-5"></div><div class="nivo-html-caption caption-6"></div></div><div class="mask"></div><div class="grid"></div></section>
+        <div id="container" class="full-width"><p><img class="aligncenter size-full wp-image-1532" alt="We have been featured in..." src="http://www.mucky-pups.co/wp-content/uploads/2014/04/media-strip-950x36.png" width="950" height="36" /></p>
+<p>&nbsp;</p>
+<h1></h1>
+<p>Our TV programme Barking Mad: The Welsh Dog Spa will be coming to your TV screens Monday 7th September 7.30pm on BBC1 Wales. See for yourselves our #Barkingmad business, our wonderful clients, gorgeous fur-babies and behind the scenes with Mrs Mucky Pups and her family at their home. All dog lovers will fall in love with our clients and their fur-baby&#8217;s and get to see first-hand why we are fast becoming one of the world&#8217;s biggest animal loving countries.</p>
+<p>Tune in and get in touch on our Facebook page, Mucky Pups Dog Groomers. Also follow us on instagram and twitter.</p>
+<div class="half dt_col">
+<h1>About Us</h1>
+<p><strong>Mucky Pups Dog Grooming Spa and Boutique was designed with pets and pet parents in mind.</strong></p>
+<p><strong>We believe that every dog deserves to be pampered and we have created the perfect spa in Cardiff and Chepstow and Risca for all your pets grooming and pampering needs.</strong></p>
+<p><strong>We also have a designer Pet Boutique that stocks all the latest lines in the <em>doggy fashion world and we guarantee you that there will be something to suit your Fur-Baby’s taste.</em></strong></p>
+<p>We are now delighted to announce that we also have a wonderful Doggy Diner at the front of our store with a Barkery for your wonderful fur-baby. Come and taste one of our yummy hot drinks and see for yourself our delicious poochy treats, ranging from roast chicken muffins to lamb biscotti.</p>
+<p><strong><em>Why not treat your Fur-Baby to one of our Spa Days or celebrate their birthday with us at Mucky Pups&#8230;because &#8216;We’re Fur-Baby Crazy!&#8217;</em></strong></p>
+<h3 style="text-align: center;"><em>- Love the team at Mucky Pups  <img class="size-full wp-image-471" title="kiss" alt="" src="http://mucky-pups.co/wp-content/uploads/2012/10/kiss2.png" width="25" height="25" /></em></h3>
+</div>
+<div class="half dt_col">
+<div class="half"><h2>What Our Mucky Pups Visitors Say</h2>        <div class="reviews-t">
+<div class="coda-slider-wrapper"><div class="coda-slider preload" data-autoslide="0" data-autoslide_on="0"><div class="panel"><div class="panel-wrapper">Thank you so much for grooming my girl Dora again, fantastic cut we love you so much, we recommend you to everyone, see you soon guys.</div><div class="panel-author">Lisa Parry- Cardiff</div></div><div class="panel"><div class="panel-wrapper">He looks like a pup again. The girls did a fab job. I have recommended you and will be back, thanks all.</div><div class="panel-author">Michelle Ryan- Cardiff</div></div><div class="panel"><div class="panel-wrapper">Hi, just wanted to thank you so much, my partner collected our dog Lexi, she looks amazing. Thank you so much, I think we have found her new grooming friends at Mucky Pups</div><div class="panel-author">Alicia Donnelly- Cardiff</div></div><div class="panel"><div class="panel-wrapper">Oh my Jake looks so handsome, thank you Mucky Pups :)</div><div class="panel-author">Terese Longman- Cardiff</div></div><div class="panel"><div class="panel-wrapper">A happy pooch from a full pampering service yesterday! Thank you for a fab service!</div><div class="panel-author">Ceri Ursell</div></div><div class="panel"><div class="panel-wrapper">Glad to be part of such an amazing Launch and a doggie Salon/Boutique/Art gallery that oozes with quality and excellence.</div><div class="panel-author">Daniel Carrick (Top Dog Model Winner Simba's Dad)</div></div></div></div>            <div class="reviews-b"></div>
+        </div>
+        <p class="autor coda-author"></p>
+</div>
+<div class="half"><h2>Latest Mucky Pup Tweets</h2>        
+        <div class="reviews-t">
+            <div class="coda-slider-wrapper">
+                <div class="coda-slider preload" data-autoslide="5000" data-autoslide_on="1">
+        
+                    
+                </div>
+            </div>
+            
+        
+            <div class="reviews-b"></div>     
+        </div>
+        <p class="autor coda-author twit-author"><a href="http://twitter.com/@muckypups_" target="_blank">Follow Us!</a></p>
+
+                
+	  	</div>
+</div>
+<div class="hr hr-narrow gap-small"></div>
+<div class="one-fourth dt_col" style="width: 157px; height: 82px;">
+<p><a href="http://www.mucky-pups.co/wp-content/uploads/2012/10/Gallery053.jpg"><img class="alignright size-medium wp-image-529" alt="Gallery05" src="http://www.mucky-pups.co/wp-content/uploads/2012/10/Gallery053-199x300.jpg" width="199" height="300" /></a></p>
+<h1></h1>
+</div>
+<div class="one-fourth dt_col">
+<h1>Pup of The Month</h1>
+<h5 style="text-align: center;"><span style="color: #ff00ff;">Mylo</span></h5>
+<p>Mylo is a hairless Chinese Crested and loves our hydro-massaging his skin, he loves to snuggle into the other Mucky Pups guests to keep him warm,</p>
+<p>Every Pup of the Month winner receives a free Pawdicure or Furcial and a little collar charm.</p>
+<h6>Will your dog be the next winner?</h6>
+</div>
+<div class="half"><h2>Latest Mucky Pup Photos</h2><div class="flickr"><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/photo-4.jpg" class="alignleft-f" title="Busy Saturday grooming 20 Dog, Cardiff's' number one dog groomers, Wales' 1st Designer Pet Boutique and Grooming Spa" onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/photo-4.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Cardiff"/><i></i></a><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/photo-3-e1401229246392.jpg" class="alignleft-f" title="Chepstow Dog Groomers, Mucky Pups :)" onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/photo-3-e1401229246392.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Chepstow "/><i></i></a><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/photo-1.jpg" class="alignleft-f" title="Our new Dog Grooming premises in Chepstow, Mucky Pups." onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/photo-1.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Chepstow"/><i></i></a><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/photo-2.jpg" class="alignleft-f" title="Our new Chepstow Dog Groomers" onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/photo-2.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Chepstow Mucky Pups"/><i></i></a><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/Leanna-Isa.jpg" class="alignleft-f" title="" onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/Leanna-Isa.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Leanna & Isa"/><i></i></a><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/Lucky-Designer-Harness.jpg" class="alignleft-f" title="" onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/Lucky-Designer-Harness.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Lucky-Designer-Harness"/><i></i></a><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/Mugly-with-Dan.jpg" class="alignleft-f" title="" onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/Mugly-with-Dan.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Mugly with Dan"/><i></i></a><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/Mugly-on-Chair.jpg" class="alignleft-f" title="" onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/Mugly-on-Chair.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Mugly on Chair"/><i></i></a><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/Lucky-Pampered-Pooch.jpg" class="alignleft-f" title="" onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/Lucky-Pampered-Pooch.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Lucky-Pampered-Pooch"/><i></i></a><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/Mugly-Mud-Therapy.jpg" class="alignleft-f" title="" onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/Mugly-Mud-Therapy.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Mugly Mud Therapy"/><i></i></a><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/Leanne-Newspaper-Article.jpg" class="alignleft-f" title="" onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/Leanne-Newspaper-Article.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Leanne-Newspaper-Article"/><i></i></a><a href="http://www.mucky-pups.co/wp-content/uploads/2013/01/Mugly-South-Wales-Echo1.jpg" class="alignleft-f" title="" onclick="return hs.expand(this, { slideshowGroup: 'dt_widget_latphotos_1' } )"><img width="58" height="58" src="http://www.mucky-pups.co/wp-content/themes/dt-cardamon/timthumb.php?q=90&amp;a=c&amp;src=/wp-content/uploads/2013/01/Mugly-South-Wales-Echo1.jpg&amp;zc=1&amp;w=58&amp;h=58" alt="Mugly-South-Wales-Echo"/><i></i></a></div><!-- /.flickr --></div>
+<p class="helper-tag"><div class="hr hr-narrow gap-small"></div>
+<div class="two-thirds dt_col">
+<h1>The Groom Room</h1>
+<p>At Mucky Pups Spa and Boutique we pride ourselves on being Wales’ first dog spa and boutique and the finest dog groomers in Cardiff. We offer a wide range of unique services and treatments which make our Fur-Baby customers our top priority. Everyone deserves to be treated now and again and that certainly includes our beloved pets.</p>
+<p>Our Cardiff dog groomer studio is the perfect place to take your pet for a fantastic pampering session due to the calm and relaxed environment. Choose one or more of our vast array of services and our top dog groomers will ensure your pet looks amazing. With treatments available such as Furcials, Pawdicures and the ultimate Dogfather, your pet will enjoy themselves thoroughly whilst looking and feeling their very best.</p>
+</div>
+<div class="one-third dt_col">
+<h1>The Boutique</h1>
+<p>If you enjoy doggy fashion then you’ll love our fantastic Pet Boutique with clothes from top quality dog fashion brands along with luxury collars, harnesses and leads. We also stock dog carriers and walkers along with dog beds and blankets. You’ll be spoilt for choice when you browse our vast array of dog accessories. There is something available for all tastes. We also host special Spa Days and Doggy Parties on request.</p>
+</div>
+<p class="helper-tag"><div class="hr hr-narrow gap-small"></div>
+<div class="full-width"><h2>Partners</h2>	
+        <div class="partner-bg">
+            <div class="list-carousel recent">
+                <ul class="carouFredSel_1" data-autoslide="5000" data-autoslide_on="1">
+        
+        
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/pupp_angel.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/puppia.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/pet_london.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/louisdog.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/mucky_paw_right.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/k9.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/groomers.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/warren.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/mucky_paw_left.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/spa.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/pet_esthe2.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/pet_detect4.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+                <li>
+
+                <img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/mucky_logo.png" alt="" width="155" height="130"  />
+                </li>
+
+                
+            </ul> 
+
+                    
+            <a class="prev" href="#"></a>
+            <a class="next" href="#"></a>
+                    
+        
+            </div>
+	    </div>
+        </div>
+</div>
+
+<div class="line-footer"></div>
+
+<footer id="footer">
+
+<div class="light"></div>
+
+
+<div class="foot-cont"><div class="widget"><div class="header">Recent News</div>
+                <div class="post first">
+                    <a href="http://www.mucky-pups.co/will-fashionable-law-abiding-dog-christmas/">Will you have a fashionable AND law-abiding dog this Christmas?</a>
+				    <div class="goto-post">
+                        <span class="ico-link date">November 23, 2015</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <a href="http://www.mucky-pups.co/new-range-mucky-pups-harnesses-now-stock/">Our new range of Mucky Pups harnesses is now in stock!</a>
+				    <div class="goto-post">
+                        <span class="ico-link date">November 18, 2015</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <a href="http://www.mucky-pups.co/well-busy-week/">Well what a busy week it’s been!</a>
+				    <div class="goto-post">
+                        <span class="ico-link date">November 6, 2015</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <a href="http://www.mucky-pups.co/mucky-pups-risca-open-today/">Mucky Pups Risca is open today!</a>
+				    <div class="goto-post">
+                        <span class="ico-link date">November 2, 2015</span>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <a href="http://www.mucky-pups.co/mucky-pups-risca-opening-monday/">Mucky Pups Risca opening on Monday!</a>
+				    <div class="goto-post">
+                        <span class="ico-link date">October 30, 2015</span>
+                    </div>
+                </div>
+            </div><div class="widget"><div class="header">Popular News</div>
+                <div class="post first">
+                    <a href="http://www.mucky-pups.co/mucky-pups-blog-launch-2/">Mucky Pups Blog Launch!</a>
+                    <div class="goto-post">
+                    <span class="ico-link date">March 26, 2013</span>
+					</div>
+                </div>
+
+                
+                <div class="post">
+                    <a href="http://www.mucky-pups.co/why-pamper-your-pooch/">Why Pamper Your Pooch?</a>
+                    <div class="goto-post">
+                    <span class="ico-link date">March 29, 2013</span>
+					</div>
+                </div>
+
+                
+                <div class="post">
+                    <a href="http://www.mucky-pups.co/creative-ideas-for-dog-grooming/">Creative Ideas for Dog Grooming</a>
+                    <div class="goto-post">
+                    <span class="ico-link date">April 1, 2013</span>
+					</div>
+                </div>
+
+                
+                <div class="post">
+                    <a href="http://www.mucky-pups.co/give-your-fur-baby-a-hydro-bath-for-a-treat/">Give Your Fur-Baby a Hydro-Bath for a Treat</a>
+                    <div class="goto-post">
+                    <span class="ico-link date">April 4, 2013</span>
+					</div>
+                </div>
+
+                
+                <div class="post">
+                    <a href="http://www.mucky-pups.co/why-micro-chipping-is-important/">Why Micro Chipping is Important</a>
+                    <div class="goto-post">
+                    <span class="ico-link date">April 7, 2013</span>
+					</div>
+                </div>
+
+                
+                <div class="post">
+                    <a href="http://www.mucky-pups.co/make-your-dog-stand-out-with-clothes-and-accessories/">Make Your Dog Stand Out With Clothes and Accessories</a>
+                    <div class="goto-post">
+                    <span class="ico-link date">April 10, 2013</span>
+					</div>
+                </div>
+
+                </div><div class="widget"><div class="header">Archive Posts</div>		<ul>
+			<li><a href='http://www.mucky-pups.co/2015/11/' title='November 2015'>November 2015</a></li>
+	<li><a href='http://www.mucky-pups.co/2015/10/' title='October 2015'>October 2015</a></li>
+	<li><a href='http://www.mucky-pups.co/2015/09/' title='September 2015'>September 2015</a></li>
+	<li><a href='http://www.mucky-pups.co/2015/08/' title='August 2015'>August 2015</a></li>
+	<li><a href='http://www.mucky-pups.co/2015/07/' title='July 2015'>July 2015</a></li>
+	<li><a href='http://www.mucky-pups.co/2015/06/' title='June 2015'>June 2015</a></li>
+	<li><a href='http://www.mucky-pups.co/2015/05/' title='May 2015'>May 2015</a></li>
+	<li><a href='http://www.mucky-pups.co/2015/04/' title='April 2015'>April 2015</a></li>
+	<li><a href='http://www.mucky-pups.co/2015/03/' title='March 2015'>March 2015</a></li>
+	<li><a href='http://www.mucky-pups.co/2015/02/' title='February 2015'>February 2015</a></li>
+	<li><a href='http://www.mucky-pups.co/2015/01/' title='January 2015'>January 2015</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/12/' title='December 2014'>December 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/11/' title='November 2014'>November 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/10/' title='October 2014'>October 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/09/' title='September 2014'>September 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/08/' title='August 2014'>August 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/07/' title='July 2014'>July 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/06/' title='June 2014'>June 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/05/' title='May 2014'>May 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/04/' title='April 2014'>April 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/03/' title='March 2014'>March 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/02/' title='February 2014'>February 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2014/01/' title='January 2014'>January 2014</a></li>
+	<li><a href='http://www.mucky-pups.co/2013/11/' title='November 2013'>November 2013</a></li>
+	<li><a href='http://www.mucky-pups.co/2013/10/' title='October 2013'>October 2013</a></li>
+	<li><a href='http://www.mucky-pups.co/2013/09/' title='September 2013'>September 2013</a></li>
+	<li><a href='http://www.mucky-pups.co/2013/08/' title='August 2013'>August 2013</a></li>
+	<li><a href='http://www.mucky-pups.co/2013/07/' title='July 2013'>July 2013</a></li>
+	<li><a href='http://www.mucky-pups.co/2013/06/' title='June 2013'>June 2013</a></li>
+	<li><a href='http://www.mucky-pups.co/2013/05/' title='May 2013'>May 2013</a></li>
+	<li><a href='http://www.mucky-pups.co/2013/04/' title='April 2013'>April 2013</a></li>
+	<li><a href='http://www.mucky-pups.co/2013/03/' title='March 2013'>March 2013</a></li>
+		</ul>
+</div><div class="widget"><div class="header">Search The Site</div><div class="search-f">
+<form method="get" class="c_search" action="http://www.mucky-pups.co/">
+    <div class="i-s">
+    <input name="s" type="Search" class="i-search" value="Search..." onblur="if(this.value==''){this.value='Search...';}" onfocus="if(this.value=='Search...'){this.value='';}"/>
+    <div class="i-l">
+        <span>
+            <a class="search" href="#" onClick="jQuery('.c_search').submit(); return false;"></a>
+        </span>
+    </div>
+    </div>
+</form>
+</div>
+</div></div>
+
+
+    <div id="bottom" class="logo-down-left">
+    <div class="bottom-cont">
+
+        <a class="logo-down" href="http://www.mucky-pups.co"><img src="http://www.mucky-pups.co/wp-content/uploads/2012/10/logo-down.png" /></a>
+
+        <div class="copy-credits">
+            <span class="bot-info">&copy; 2013 Mucky Pups Spa &amp; Boutique. All rights reserved. Website by <a href="http://www.digbyfox.com">Digbyfox</a></span>
+
+        </div>
+    </div>
+</div>
+</footer>
+
+</div>
+
+
+<!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->
+
+<!-- This website is patched against a big problem not solved from WordPress 2.5+ to date -->
+
+	<div style="display:none">
+	</div>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201607'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2016Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.mucky-pups.co/wp-includes/js/comment-reply.min.js?ver=3.6'></script>
+
+	<script src="http://stats.wordpress.com/e-201607.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.3.7',blog:'50650707',post:'30',tz:'0'});
+	var load_cmc = function(){linktracker_init(50650707,30,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>
+</body>
+</html>

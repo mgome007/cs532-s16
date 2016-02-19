@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Zeke Weeks | Web {Developer, Strategist, Native}</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://zekeweeks.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+		<script src="https://s0.wp.com/wp-content/themes/pub/mckinley/js/html5.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+  WebFontConfig = {"typekit":{"id":"aha1vcc"}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'http://s1.wp.com/wp-content/plugins/custom-fonts/js/webfont.js?m=1438023897g';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"futura-pt-1","futura-pt-2",sans-serif;font-weight:400;font-style:normal}.wf-active h1{font-style:normal;font-weight:400}.wf-active h2{font-style:normal;font-weight:400}.wf-active h3{font-style:normal;font-weight:400}.wf-active h4{font-style:normal;font-weight:400}.wf-active h5{font-style:normal;font-weight:400}.wf-active h6{font-style:normal;font-weight:400}.wf-active .site-title{font-family:"futura-pt-1","futura-pt-2",sans-serif;font-weight:400;font-style:normal}</style>
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=zekeweeks.com&amp;id=1408&amp;t=1455840765&amp;back=http%3A%2F%2Fzekeweeks.com%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="alternate" type="application/rss+xml" title="Zeke Weeks &raquo; Feed" href="http://zekeweeks.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Zeke Weeks &raquo; Comments Feed" href="http://zekeweeks.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0' href='https://s1.wp.com/_static/??-eJx9kdFOxSAMQH9IJLteTXwwfsvGOtaNUkIheP/ebsarZmYvpC3npLTYlozjWCAWS9WkUD1GsUIY4JYyL+DK3+zRiTzY/7WAK4hdoKTerWbPDvgQ2P8I7D2MXIuZOARutuHo4bQHxgkjlts9OINl5lwcj/oqpawE1HDmZu4XZ7bjDFqn1JeNIBixhwCk2JlG6eXb2sJZd3Fcwy++JaXNMKQMIkZPwkqmzNro6H2VbaqDJbdi1I/ZR5sCfOzj5U15p7fuen26XLrX7nn5BIblt2E=' type='text/css' media='all' />
+<link rel='stylesheet' id='mckinley-raleway-css'  href='https://fonts.googleapis.com/css?family=Raleway:400,700,800,900' type='text/css' media='all' />
+<link rel='stylesheet' id='mckinley-open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,800,700' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-4' href='https://s1.wp.com/_static/??-eJx9jd0KwjAMhV/IGiqbXonPspVYM9uk9Iext7dShIq4m/Adcj4OrEEZ4YycwRcVXLHECSwyRqqPP3g0KR2gc/MDPSYIZQZvnsQON0h5c/jT7FbQy0LtthoBS25bH9jzLYpyYqZMwl9B3d1EcU+NODuxFS3UVhff0s1f9TAOZ30a9WV5AUNIbOU=' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-5' href='https://s1.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1444132114g' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-6' href='https://s0.wp.com/wp-content/themes/h4/global.css?m=1420737423g' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, please try again with a valid email address."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJyFkNEKwjAMRX/IrmzOBx/Eb9nWrKS2TW1ai369FSYiToVAQnK43BtZgkA/2ayApal1zhCvS2sMb+QvQDjUcUjQOPRPeCKfwKcH62hECyIzxEHXXRWaaYULxMkBc4VWru+W0F8Qyl/MQArDdBIRGG8fqqMlLYLNGj3LOmtQlJOYyVoqsqDSkNbCc3jl/P61hTq6Q9v3265r9+3O3AGUCobW'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://zeke.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/mI' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Zeke Weeks" />
+<meta property="og:description" content="Web {Developer, Strategist, Native}" />
+<meta property="og:url" content="http://zekeweeks.com/" />
+<meta property="og:site_name" content="Zeke Weeks" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel='openid.server' href='http://zeke.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://zeke.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://zekeweeks.com/osd.xml" title="Zeke Weeks" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="application-name" content="Zeke Weeks" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Web {Developer, Strategist, Native}" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://zekeweeks.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="title" content="Zeke Weeks on WordPress.com" />
+<meta name="description" content="Web {Developer, Strategist, Native} (by Zeke Weeks)" />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+		<link rel="stylesheet" id="custom-css-css" type="text/css" href="https://s0.wp.com/?custom-css=1&#038;csblog=mI&#038;cscache=6&#038;csrev=27" />
+		</head>
+
+<body class="home blog mp6 customizer-styles-applied single-author highlander-enabled highlander-light custom-colors infinite-scroll">
+	<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+
+			<a class="home-link" href="http://zekeweeks.com/" title="Zeke Weeks" rel="home">
+				<h1 class="site-title">Zeke Weeks</h1>
+				<h2 class="site-description">Web {Developer, Strategist, Native}</h2>
+			</a>
+
+		</header><!-- #masthead .site-heder -->
+
+		<div id="navbar" class="clear navbar">
+			<div class="menu-toggle"></div><!-- .menu-toggle -->
+			<nav id="site-navigation" class="main-navigation navigation" role="navigation">
+				<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>
+				<div class="menu-header-menu-container"><ul id="menu-header-menu" class="nav-menu"><li id="menu-item-2807" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2807"><a href="http://zekeweeks.com/category/technophilia/">Technophilia</a></li>
+<li id="menu-item-2808" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2808"><a href="http://zekeweeks.com/category/photos/">Photos</a></li>
+<li id="menu-item-2811" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2811"><a href="http://zekeweeks.com/category/travel/">Travel</a></li>
+<li id="menu-item-2813" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2813"><a href="http://hire.zekeweeks.com">Résumé</a></li>
+<li id="menu-item-2812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2812"><a href="http://zekeweeks.com/contact/">Contact</a></li>
+</ul></div>			</nav><!-- #site-navigation .main-navigation .navigation -->
+		</div><!-- #navbar .clear .navbar -->
+
+		<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+			
+<article id="post-3060" class="post-3060 post type-post status-publish format-standard has-post-thumbnail hentry category-politics tag-barack-obama tag-bernie-sanders tag-election-2016 tag-hillary-clinton tag-readyforhillary">
+
+	<header class="entry-header">
+
+					<div class="entry-thumbnail">
+				<img width="1000" height="500" src="https://zeke.files.wordpress.com/2016/02/5156413247_57ddaecfa3_o.jpg?w=1000&amp;h=500&amp;crop=1" class="attachment-mckinley-post-thumb-big size-mckinley-post-thumb-big wp-post-image" alt="5156413247_57ddaecfa3_o" />			</div><!-- .entry-thumbnail -->
+		
+
+					<h1 class="entry-title">
+				<a href="http://zekeweeks.com/2016/02/17/why-im-readyforhillary/" rel="bookmark">Why I&#8217;m #ReadyForHillary</a>
+			</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://zekeweeks.com/2016/02/17/why-im-readyforhillary/" title="Permalink to Why I&#8217;m #ReadyForHillary" rel="bookmark"><time class="entry-date" datetime="2016-02-17T14:38:56+00:00">February 17, 2016</time></a></span><span class="categories-links"><a href="http://zekeweeks.com/category/politics/" rel="category tag">Politics</a></span><span class="tags-links"><a href="http://zekeweeks.com/tag/barack-obama/" rel="tag">barack obama</a>, <a href="http://zekeweeks.com/tag/bernie-sanders/" rel="tag">Bernie Sanders</a>, <a href="http://zekeweeks.com/tag/election-2016/" rel="tag">Election 2016</a>, <a href="http://zekeweeks.com/tag/hillary-clinton/" rel="tag">Hillary Clinton</a>, <a href="http://zekeweeks.com/tag/readyforhillary/" rel="tag">ReadyForHillary</a></span><span class="author vcard"><a class="url fn n" href="http://zekeweeks.com/author/zeke/" title="View all posts by Zeke Weeks" rel="author">Zeke Weeks</a></span>
+			
+					</div><!-- .entry-meta -->
+
+	</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<p>This isn&#8217;t going to be a full-throated piece about how one politician will be the solution to all of America&#8217;s problems. It won&#8217;t convince you that any candidate is best on the issues, and it certainly won&#8217;t get you excited about another election year. But I&#8217;m to the point where I&#8217;ve weighed my thoughts on this and want to share them, because it&#8217;s a little different from the perspectives I&#8217;ve been hearing.</p>
+<p>Here&#8217;s the short version: <strong>I really want Hillary Clinton to be the next President</strong>. Not because of her stances on the issues. Not because of how her campaign is going. It&#8217;s because <strong>Hillary Clinton is fucking presidential.</strong> I think she will be the best president in decades in terms of accomplishments that move the country forward.</p>
+<h3>&#8220;Hold up, Zeke. Didn&#8217;t you vocally oppose Hillary Clinton in 2008?&#8221;</h3>
+<p>Yep, and this was part of my path towards wanting her to win in 2016. I got excited about Barack Obama in 2006, before he formed the exploratory committee for his campaign. In short, he seemed like the most promising candidate for the presidency since John F. Kennedy. His campaign centered around a politics of common ground and bringing a fresh start to Washington. You don&#8217;t need to look farther than this blog to find <a href="http://zekeweeks.com/?s=Hillary">plenty of fierce criticism of then-Senator Clinton&#8217;s campaign</a>. I felt like Senator Clinton represented the status quo, and that she ran a campaign with all the usual ugly tactics while Senator Obama offered an inspiring campaign and a preferable platform.</p>
+<h3>&#8220;So what happened?&#8221;</h3>
+<p>Barack Obama won. The Republican party started its mission to obstruct President Obama above all else. But along with the presidency, Democrats held both houses of Congress for Obama&#8217;s first term. They made some major achievements they campaigned on; most significantly, the biggest improvement to healthcare in 50 years (albeit on the model that Hillary Clinton advocated in the 2008 primary – Obama originally preferred single-payer healthcare). But ultimately, Barack Obama&#8217;s campaign for hope fell far short of what many hoped for. I could write a whole piece about this, but for now I&#8217;ll just link to <a href="http://www.politifact.com/truth-o-meter/promises/obameter/">PolitiFact&#8217;s &#8220;Obameter&#8221;</a> which tracks his campaign promises.</p>
+<p>Throughout his presidency, I&#8217;ve had mixed feelings about Barack Obama&#8217;s legacy. In the last seven-plus years, America has in some ways become a better example of the ideals it strives to stand for, and in others, we&#8217;ve gotten worse. President Obama&#8217;s administration owns partial credit or blame for this, as does an obstructionist Republican Congress built on overtly racist gerrymandering and voter suppression tactics.</p>
+<p><strong>Since 2008, I&#8217;ve thought a lot about what makes an effective president.</strong> Only the hardest problems make it all the way to the president&#8217;s desk, and usually none of the options will match perfectly with the president&#8217;s ideals. I&#8217;ve studied each president since the Johnson administration with an eye for both their expressed ideals and their actual effectiveness during the presidency. We&#8217;ve had strong idealists from both parties, as well as plenty of pragmatic administrators. Ultimately I don&#8217;t think idealism or pragmatism determines a president&#8217;s effectiveness, but it has led me to believe that <strong>what&#8217;s said during a presidential campaign is an utterly poor predictor of how good a president will be. </strong>In shorter terms: I loved Barack Obama the campaigner, but it wasn&#8217;t enough to deliver on much of his vision.</p>
+<h3>&#8220;Enough about President Obama. Why Hillary Clinton?&#8221;</h3>
+<p>Secretary of State Hillary Clinton turned me around. My bitterness about her primary rivalry with my preferred candidate was turned into a high opinion of how she represented the United States and addressed complex policy issues during a time of significant international upheaval.</p>
+<p>As I studied other aspects of American history, especially Bill Clinton&#8217;s political history (which I did from a fairly neutral academic perspective), I learned more about Hillary <em>Rodham</em>, and her long history of work to improve conditions for all kinds of American families. She has always been a policy wonk and has a keen interest in finding a path to progress, especially through political obstacles. And since 1991, she&#8217;s been doing this on the national stage. In terms of knowing how to get things done in Washington, I can&#8217;t think of <strong>any</strong> person better than Hillary Clinton.</p>
+<h3>&#8220;Laaaaame, don&#8217;t you #FeelTheBern?&#8221;</h3>
+<p>I&#8217;m so glad Bernie Sanders is in this campaign. And he&#8217;s got a great platform. I just think Hillary Clinton will accomplish more for his cause than Bernie Sanders could if he won the presidency. I will vote for Sanders if he wins the nomination, and would love to look back at this post in eight years in embarrassment if it means his platform became reality. I just am more fired up about what Hillary Clinton has been accomplishing in positions of leadership for her whole life.</p>
+<h3>&#8220;You&#8217;ve got to be kidding. What about Clinton&#8217;s record on ______?&#8221;</h3>
+<p>I&#8217;ve disagreed with Hillary Clinton about plenty of things, big and small. But I agreed with campaign-Obama on almost everything, and now I find myself looking for qualities beyond just politicians&#8217; positions on the issues or how well they&#8217;ve avoided controversy in the past. If Clinton wins, I&#8217;ll continue to participate in activism that challenges her on many fronts. Ultimately, I am more interested in effective governance than I am in politicians who I like most on paper.</p>
+<h3>In conclusion</h3>
+<p>This has been a frustrating election so far. I find myself disillusioned with the disconnect between what seems to matter in a campaign, and what actually brings progress in Washington. It means that I&#8217;ve been trying to tune most campaign coverage out. But since I started watching Hillary Clinton&#8217;s tenure as Secretary of State, and learning more about her history, I&#8217;ve been silently wondering just how much she could get done from the Oval Office. I&#8217;m excited by the prospect and really would love to see her there in 2017.</p>
+<p><em>(Photo via <a href="https://www.flickr.com/photos/us_embassy_newzealand/5156413247/in/photolist-8RDY1F-8RGVb7-9stBu2-oEP9ez-28LtCW-4eebsm-8fUKvm-3pRUpD-8fRuu6-dRqvda-8RH5j3-8RDN6D-rJL2we-8RDKvn-a5JcrW-GzTXG-8RDLS8-GzTph-8RH36G-8RH41u-9nvvPV-9nvvvM-cotgoq-9swt8u-9nvwp8-GzTZ2-cotgGJ-9nvvyP-bWk3oS-8REqRx-9nyvcE-8QFKVJ-8RHx9m-76EqzS-6M3iYF-8RDGPx-9swsAS-a5sPVJ-92881e-8RH697-92881p-edQyNN-ritmfB-7vkWXk-cvJK7Q-8RDV5X-4KJPrV-brsQm2-dAu5UK-7z58Nd">US Embassy in New Zealand &#8211; cc-by-nd</a>)</em></p>
+					</div><!-- .entry-content -->
+	
+	
+</article><!-- #post -->
+
+<article id="post-3051" class="post-3051 post type-post status-publish format-standard hentry category-technophilia tag-colorado tag-drupal tag-government">
+
+	<header class="entry-header">
+
+		
+
+					<h1 class="entry-title">
+				<a href="http://zekeweeks.com/2015/07/29/video-colorado-gov-adopts-drupal-learns-some-things/" rel="bookmark">Video: Colorado.gov Adopts Drupal, Learns Some&nbsp;Things</a>
+			</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://zekeweeks.com/2015/07/29/video-colorado-gov-adopts-drupal-learns-some-things/" title="Permalink to Video: Colorado.gov Adopts Drupal, Learns Some&nbsp;Things" rel="bookmark"><time class="entry-date" datetime="2015-07-29T16:13:47+00:00">July 29, 2015</time></a></span><span class="categories-links"><a href="http://zekeweeks.com/category/technophilia/" rel="category tag">Technophilia</a></span><span class="tags-links"><a href="http://zekeweeks.com/tag/colorado/" rel="tag">Colorado</a>, <a href="http://zekeweeks.com/tag/drupal/" rel="tag">drupal</a>, <a href="http://zekeweeks.com/tag/government/" rel="tag">government</a></span><span class="author vcard"><a class="url fn n" href="http://zekeweeks.com/author/zeke/" title="View all posts by Zeke Weeks" rel="author">Zeke Weeks</a></span>
+			
+					</div><!-- .entry-meta -->
+
+	</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<p>I recently did a joint presentation at DrupalCamp Colorado with Jeremiah Wathen, my project management counterpart at Colorado Interactive. We talked about Pacific, Colorado.gov&#8217;s Drupal-based hosting platform for hundreds of state and local entities, and what Colorado.gov has learned with each increasingly ambitious project since the initial decision to adopt Drupal.</p>
+<div class="jetpack-video-wrapper"><span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='1000' height='593' src='http://www.youtube.com/embed/6kATx5zdUJo?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0' allowfullscreen='true'></iframe></span></div>
+					</div><!-- .entry-content -->
+	
+	
+</article><!-- #post -->
+
+<article id="post-3026" class="post-3026 post type-post status-publish format-standard has-post-thumbnail hentry category-blogging-about-blogging category-technophilia category-work tag-dbug tag-development tag-drupal tag-product-management tag-video tag-web">
+
+	<header class="entry-header">
+
+					<div class="entry-thumbnail">
+				<img width="1000" height="500" src="https://zeke.files.wordpress.com/2015/03/defense-gov_news_photo_110910-go452-406_-_u-s-_army_paratroopers_from_the_82nd_airborne_division_descend_to_the_ground_after_jumping_out_of_a_c-17_globemaster_iii_aircraft_over_drop_zone.jpg?w=1000&amp;h=500&amp;crop=1" class="attachment-mckinley-post-thumb-big size-mckinley-post-thumb-big wp-post-image" alt="Joint Operations Access Exercise" />			</div><!-- .entry-thumbnail -->
+		
+
+					<h1 class="entry-title">
+				<a href="http://zekeweeks.com/2015/03/26/video-parachuting-into-drupal-crazy/" rel="bookmark">Video: Parachuting into Drupal&nbsp;Crazy</a>
+			</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://zekeweeks.com/2015/03/26/video-parachuting-into-drupal-crazy/" title="Permalink to Video: Parachuting into Drupal&nbsp;Crazy" rel="bookmark"><time class="entry-date" datetime="2015-03-26T13:56:31+00:00">March 26, 2015</time></a></span><span class="categories-links"><a href="http://zekeweeks.com/category/blogging-about-blogging/" rel="category tag">Blogging about blogging</a>, <a href="http://zekeweeks.com/category/technophilia/" rel="category tag">Technophilia</a>, <a href="http://zekeweeks.com/category/work/" rel="category tag">Work</a></span><span class="tags-links"><a href="http://zekeweeks.com/tag/dbug/" rel="tag">DBUG</a>, <a href="http://zekeweeks.com/tag/development/" rel="tag">development</a>, <a href="http://zekeweeks.com/tag/drupal/" rel="tag">drupal</a>, <a href="http://zekeweeks.com/tag/product-management/" rel="tag">product management</a>, <a href="http://zekeweeks.com/tag/video/" rel="tag">video</a>, <a href="http://zekeweeks.com/tag/web/" rel="tag">web</a></span><span class="author vcard"><a class="url fn n" href="http://zekeweeks.com/author/zeke/" title="View all posts by Zeke Weeks" rel="author">Zeke Weeks</a></span>
+			
+					</div><!-- .entry-meta -->
+
+	</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<p>This week I spoke at the <a href="https://groups.drupal.org/denver-boulder-colorado-dbug">DBUG</a> Drupal meetup in Denver about an unglamorous but very important thing that comes up for any technologist: turning around applications that have, for one reason or another, left their users unhappy.</p>
+<p>I also had no idea that DBUG meets in a TV studio and is broadcast live on public access TV and the web. Thankfully, my doctor has me on some really good blood pressure meds.</p>
+<p>My talk covers some of the strategic, technical, and personal things that people can do to fall back in love with their Drupal applications again. (The non-technical aspects are really applicable to any software.)</p>
+<div class="jetpack-video-wrapper"><div class='embed-archiveorg-video' style='text-align:center;'><iframe src='http://archive.org/embed/dom-7942-1-march-2015-drupal-meetup-group' width='640' height='480' frameborder='0' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen></iframe></div></div>
+<p>(I start my talk at the 19 minute mark.)</p>
+<p>I want to thank DBUG for inviting me, and <a href="http://atendesigngroup.com/">Aten Design Group</a> and <a href="https://www.denveropenmedia.org/">Denver Open Media</a> for their sponsorship and work to make this event happen.</p>
+<p>Slides are at <a href="http://zeke.ws/DrupalParachuting">http://zeke.ws/DrupalParachuting</a> .</p>
+					</div><!-- .entry-content -->
+	
+	
+</article><!-- #post -->
+
+<article id="post-2984" class="post-2984 post type-post status-publish format-standard has-post-thumbnail hentry category-daily-life category-work tag-gtd tag-home tag-life-tips tag-lifehacks tag-stress tag-tasks tag-to-dos tag-work">
+
+	<header class="entry-header">
+
+					<div class="entry-thumbnail">
+				<img width="1000" height="500" src="https://zeke.files.wordpress.com/2014/09/checklist.jpg?w=1000&amp;h=500&amp;crop=1" class="attachment-mckinley-post-thumb-big size-mckinley-post-thumb-big wp-post-image" alt="Photo credit: mt 23 on flickr / CC BY-SA 2.0" />			</div><!-- .entry-thumbnail -->
+		
+
+					<h1 class="entry-title">
+				<a href="http://zekeweeks.com/2014/09/02/keep-life-priorities-in-balance-check/" rel="bookmark">Keep life priorities in balance:&nbsp;Check.</a>
+			</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://zekeweeks.com/2014/09/02/keep-life-priorities-in-balance-check/" title="Permalink to Keep life priorities in balance:&nbsp;Check." rel="bookmark"><time class="entry-date" datetime="2014-09-02T21:18:51+00:00">September 2, 2014</time></a></span><span class="categories-links"><a href="http://zekeweeks.com/category/daily-life/" rel="category tag">Daily Life</a>, <a href="http://zekeweeks.com/category/work/" rel="category tag">Work</a></span><span class="tags-links"><a href="http://zekeweeks.com/tag/gtd/" rel="tag">GTD</a>, <a href="http://zekeweeks.com/tag/home/" rel="tag">home</a>, <a href="http://zekeweeks.com/tag/life-tips/" rel="tag">life tips</a>, <a href="http://zekeweeks.com/tag/lifehacks/" rel="tag">lifehacks</a>, <a href="http://zekeweeks.com/tag/stress/" rel="tag">stress</a>, <a href="http://zekeweeks.com/tag/tasks/" rel="tag">tasks</a>, <a href="http://zekeweeks.com/tag/to-dos/" rel="tag">to-dos</a>, <a href="http://zekeweeks.com/tag/work/" rel="tag">Work</a></span><span class="author vcard"><a class="url fn n" href="http://zekeweeks.com/author/zeke/" title="View all posts by Zeke Weeks" rel="author">Zeke Weeks</a></span>
+			
+					</div><!-- .entry-meta -->
+
+	</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<p>In my personal life, I&#8217;ve always been one to prefer spontaneity over structure; relaxation over regulation. For a long time, I&#8217;ve clung to that at home as a way to compensate for all the organization that&#8217;s crucial in my work. But this summer, I&#8217;ve been trying something more deliberate to keep a balanced daily life. Every day after work, I make sure to do a few things: <a href="http://zekeweeks.com/2014/09/02/keep-life-priorities-in-balance-check/#more-2984" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+	
+	
+</article><!-- #post -->
+
+<article id="post-2902" class="post-2902 post type-post status-publish format-standard has-post-thumbnail hentry category-daily-life category-photos tag-new-years tag-photography tag-resolutions">
+
+	<header class="entry-header">
+
+					<div class="entry-thumbnail">
+				<img width="1000" height="500" src="https://zeke.files.wordpress.com/2014/01/2013resolution.jpg?w=1000&amp;h=500&amp;crop=1" class="attachment-mckinley-post-thumb-big size-mckinley-post-thumb-big wp-post-image" alt="2013resolution" />			</div><!-- .entry-thumbnail -->
+		
+
+					<h1 class="entry-title">
+				<a href="http://zekeweeks.com/2014/01/01/my-resolution-for-2013-that-worked-carrying-a-real-camera-everywhere/" rel="bookmark">My Resolution for 2013 That Worked: Carrying a Real Camera&nbsp;Everywhere</a>
+			</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://zekeweeks.com/2014/01/01/my-resolution-for-2013-that-worked-carrying-a-real-camera-everywhere/" title="Permalink to My Resolution for 2013 That Worked: Carrying a Real Camera&nbsp;Everywhere" rel="bookmark"><time class="entry-date" datetime="2014-01-01T21:30:33+00:00">January 1, 2014</time></a></span><span class="categories-links"><a href="http://zekeweeks.com/category/daily-life/" rel="category tag">Daily Life</a>, <a href="http://zekeweeks.com/category/photos/" rel="category tag">Photos</a></span><span class="tags-links"><a href="http://zekeweeks.com/tag/new-years/" rel="tag">new years</a>, <a href="http://zekeweeks.com/tag/photography/" rel="tag">photography</a>, <a href="http://zekeweeks.com/tag/resolutions/" rel="tag">resolutions</a></span><span class="author vcard"><a class="url fn n" href="http://zekeweeks.com/author/zeke/" title="View all posts by Zeke Weeks" rel="author">Zeke Weeks</a></span>
+			
+					</div><!-- .entry-meta -->
+
+	</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<p>2013 was the first year I made a New Year&#8217;s resolution: <strong>to carry a real camera around everywhere.</strong> It went great!</p>
+<p>Photography has been a strictly casual hobby throughout my life. It&#8217;s always been something that lets me capture enjoyable things that happen in my life, but never something that itself became a focus of my life. So why make a New Year&#8217;s Resolution for it? Aren&#8217;t those things usually done with the intent of bettering our lives?</p>
+<p>The answer lies in how most of us have changed our photography habits: <strong>anyone with a smartphone is carrying a camera with them everywhere</strong>. Before smartphones, I was carrying along more traditional cameras to events where I thought I&#8217;d want them: vacations, concerts, and the like. But smartphones were the ultimate popularization of the old photographer&#8217;s adage: &#8220;The best camera is the one you have with you.&#8221;</p>
+<p>Now, blame my twentysomething lifestyle, but <strong>many of the best moments in my life happen in the shadows</strong> – exactly where tiny cell phone sensors struggle to perform. Concerts, restaurants, twilight walks, and the like. I started finding myself out with something great going on, taking out my camera, and getting results that made me feel like I wasted my time even bothering to take a picture. That was it, really &#8211; I guessed that I&#8217;d capture more good moments if I carried a &#8220;real camera&#8221; to it all. <a href="http://zekeweeks.com/2014/01/01/my-resolution-for-2013-that-worked-carrying-a-real-camera-everywhere/#more-2902" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+	
+	
+</article><!-- #post -->
+
+	<nav id="nav-below" class="paging-navigation" role="navigation">
+		<h1 class="screen-reader-text">Post navigation</h1>
+		<div class="nav-links">
+			
+									<div class="previous"><a href="http://zekeweeks.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+				
+				
+					</div>
+
+	</nav><!-- #nav-below -->
+
+	
+		</div><!-- #content .site-content -->
+	</div><!-- #primary .content-area -->
+
+		</div><!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+	<div id="secondary" class="sidebar-container" role="complementary">
+		<div class="widget-area">
+			<aside id="linkcat-161903851" class="widget widget_links"><h3 class="widget-title">Social</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://secure.flickr.com/photos/zekeweeks" rel="me" target="_blank">Flickr</a></li>
+<li><a href="http://www.linkedin.com/in/zekeweeks" rel="me">LinkedIn</a></li>
+<li><a href="https://twitter.com/zekeweeks" rel="me" target="_blank">Twitter</a></li>
+
+	</ul>
+</aside>
+<aside id="meta-3" class="widget widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+			<li><a href="https://wordpress.com/start?ref=wplogin">Register</a></li>			<li><a href="https://zeke.wordpress.com/wp-login.php">Log in</a></li>
+			<li><a href="http://zekeweeks.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://zekeweeks.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a></li>			</ul>
+			</aside><aside id="search-4" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://zekeweeks.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>		</div><!-- .widget-area -->
+	</div><!-- #secondary .sidebar-container -->
+
+
+			<div class="site-info ">
+								<p class="left"><a href="https://wordpress.com/themes/mckinley/" title="Learn more about this theme">The McKinley Theme</a>.</p>
+				<p class="right"><a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a></p>
+			</div><!-- .site-info -->
+
+		</footer><!-- #colophon .site-footer -->
+
+	</div><!-- #page -->
+
+			<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"content","ajaxurl":"http:\/\/zekeweeks.com\/?infinity=scrolling","type":"click","wrapper":true,"wrapper_class":"infinite-wrap","footer":"page","click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"01.01.14","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"zekeweeks.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"comments_popup":"","meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":5,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2014-01-01 21:30:33","stats":"blog=1408&v=wpcom&tz=-7&user_id=0&subd=zeke&x_pagetype=infinite-click"}};
+		//]]>
+		</script>
+		<!-- wpcom_wp_footer -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201607y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+
+	<div id="bit" class="loggedout-follow-normal">
+		<a class="bsub" href="javascript:void(0)"><span id='bsub-text'>Follow</span></a>
+		<div id="bitsubscribe">
+
+					<h3><label for="loggedout-follow-field">Follow &ldquo;Zeke Weeks&rdquo;</label></h3>
+
+			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="loggedout-follow">
+			<p>Get every new post delivered to your Inbox.</p>
+
+			<p id="loggedout-follow-error" style="display: none;"></p>
+
+						<p class="bit-follow-count">Join 919 other followers</p>
+			<p><input type="email" name="email" placeholder="Enter your email address" id="loggedout-follow-field"/></p>
+
+			<input type="hidden" name="action" value="subscribe"/>
+			<input type="hidden" name="blog_id" value="1408"/>
+			<input type="hidden" name="source" value="http://zekeweeks.com/"/>
+			<input type="hidden" name="sub-type" value="loggedout-follow"/>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="c5d4a0a132" /><input type="hidden" name="_wp_http_referer" value="/" />
+			<p id='bsub-subscribe-button'><input type="submit" value="Sign me up" /></p>
+			</form>
+					<div id='bsub-credit'><a href="https://wordpress.com/?ref=lof">Build a website with WordPress.com</a></div>
+		</div><!-- #bitsubscribe -->
+	</div><!-- #bit -->
+
+<script type='text/javascript'>/*<![CDATA[*/if(typeof(addLoadEvent)!='undefined'){addLoadEvent(function(){if(top==self){i=document.createElement('img');i.src='https://botd.wordpress.com/botd.gif?blogid=1408&postid=0&lang=1&date=1455745136&ip=128.82.4.182&url=http://zekeweeks.com/&loc='+document.location;i.id='botd';i.style.width='0px';i.style.height='0px';i.style.overflow='hidden';document.body.appendChild(i);}});}/*]]>*/</script>
+
+<script type='text/javascript'>/*<![CDATA[*/if(typeof(addLoadEvent)!='undefined'){addLoadEvent(function(){if(top==self){i=document.createElement('img');i.src='https://botd2.wordpress.com/botd.gif?blog=1408&post=0&lang=en&date=1455745136&ip=128.82.4.182&url=http://zekeweeks.com/';i.id='botd2';i.style.width='0px';i.style.height='0px';i.style.overflow='hidden';document.body.appendChild(i);}});}/*]]>*/</script>
+
+	<div id="carousel-reblog-box">
+		<form action="" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="1408" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="http://zekeweeks.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="Zeke Weeks" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="9636b4620f" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+<link rel='stylesheet' id='all-css-0' href='https://s1.wp.com/_static/??-eJxty0sKgCAQANALZUP0ERfRWWQaQvOHo3b9aNHO7YMHTxIYQ6FQwFeRXL1MYMjEKQY2jUQzJ8WOjMg8QL+jzrEyObBUksZb/PClw+/TsqzzJpWS9gWmezAS' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='http://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825g&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-2' href='https://s0.wp.com/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css?m=1443731146g' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"http:\/\/s1.wp.com\/wp-content\/mu-plugins\/shortcodes\/img\/slideshow-loader.gif","blog_id":"1408","blog_subdomain":"zeke","user_id":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JetpackEmojiSettings = {"base_url":"http:\/\/s0.wp.com\/wp-content\/mu-plugins\/emoji\/twemoji\/"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/zekeweeks.com\/wp-admin\/admin-ajax.php","nonce":"19e3491899","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/zeke.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Fzekeweeks.com%2F2014%2F01%2F01%2Fmy-resolution-for-2013-that-worked-carrying-a-real-camera-everywhere%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=1408&v=wpcom&tz=-7&user_id=0&subd=zeke","is_public":"1","reblog_enabled":""};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/zekeweeks.com\/wp-admin\/admin-ajax.php","nonce":"19e3491899","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/zeke.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Fzekeweeks.com%2F2014%2F01%2F01%2Fmy-resolution-for-2013-that-worked-carrying-a-real-camera-everywhere%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=1408&v=wpcom&tz=-7&user_id=0&subd=zeke","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJyNkNFugzAMRX9oabStSN3DtG+hrilOEyfDCZS/XxYBYtVEeYpjn3t1bT0EBZ4jctRG9AV7Agz3g5EXvRq5pIJNV2LRxA0xxXEpNlhpfRfBX1B+zc13wm48wAgWd4vEUq5aP6ilP2uJwaYJc7V4zuaO+NE6tugyFNJZO7gRWxyLYqp34lP4xuK9ROo2NkDnDek4/Hmf8gZjqOGm9tHPqA4leBbqUfU5rv+nsz7W+pYyNP5sEOKj/exd5LoWwVgE5R+yv2wEgrrzSdAue86NrPlyn6/H6v3tWJ2qD/MDM535fA=='></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVy7EOQEAMANAfUnViYBDfgmsupepyivh7VpMY3/DwjDCuaqSGyw5R9sC6oZ1sRgkG6cd54OQhMqHSQYnUs4Z82jL8c+P3YyEPoRehdL31rG5pXVXUTVO70k03DU5D1g=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","jquery-core","jquery-migrate","mobile-useragent-info","postmessage","jquery_inview","jetpack_resize","loggedout-subscribe","spin","jquery.spin","grofiles-cards","wpgroho","devicepx","the-neverending-homepage","jquery-cycle","jetpack-slideshow","masonry","mckinley-script","flexslider-script","twemoji","jetpack-emoji","jetpack-emoji-init","jetpack-responsive-videos-min-script","swfobject","videopress","jetpack-carousel","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["smileyproject","jetpack_likes","loggedout-subscribe","the-neverending-homepage","jetpack-slideshow","wpcom-core-compat-playlist-styles","mp6hacks","wpcom-bbpress2-staff-css","flexslider","genericons","mckinley-style","jetpack-emoji-css","noticons","geo-location-flair","reblogging","a8c-global-print","h4-global","mckinley-raleway","mckinley-open-sans","jetpack-responsive-videos-style","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script><script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'1408','blog_tz':'-7','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'1408','v':'wpcom','tz':'-7','user_id':'0','subd':'zeke'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhmcmw0bWUwNiVnR3N1V2dDZTM4MGFxVndRQl1HNkJtOEQ0dVBbbk9jP2g4T29lWFFNQSY9VCtTb29aVUpYN0ZyMVQxSzZ+JU1PeXxDVHwmTFFbVUxZY2wvbVAyd1pdRkdxZEpIT3NNdjNpVWNoQnx3aTQxYnpfWFloeE9Zb3IwLVVOaVB8a092ZVY4S1MzVFAmckgtRi55eS16UkdPMWh6Z0VWLTB5JWQzWit5OHNKLkpybjRCRHNFWWNDMkNMVmlvUU0vTU5DUSUrP0loVT1IZ1l1bENTcTBxb000dkRuSkRIaWRhSldSaVZwSG5yUitQWitybmVHcHpnU3c9Z3pZcixyOGQx'}]);
+_stq.push([ 'clickTrackerInit', '1408', '0' ]);
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

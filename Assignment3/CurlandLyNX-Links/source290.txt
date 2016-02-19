@@ -1,0 +1,119 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<!-- title -->
+	<title>master.nando.in</title>
+
+	<!-- meta -->
+	<meta http-equiv="Content-Type"     content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en" />
+	<meta http-equiv="pragma"           content="no-cache" />
+
+	<meta name="author"                 content="fernando bueno" />
+	<meta name="expires"                content="0" />
+	<meta name="robots"                 content="index,follow" />
+	<meta name="description"            content="" />
+	<meta name="keywords"               content="" />
+
+	<link type="image/ico" rel="shortcut icon" href="favicon.ico" />
+
+	<!-- css -->
+	<style type="text/css">
+
+		html {
+			height: 100%;
+		}
+
+		body {
+			height: 100%;
+			font-family: Helvetica, Arial, sans-serif;
+			color: #ffffff;
+			background-color: #FFF;
+			margin: 0px;
+			overflow: hidden;
+		}
+
+		a {
+			color: #1182f9;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+
+		#wrapper {
+			width: 100%;
+			height: 100%;
+			display: table;
+			text-align: center;
+		}
+
+		#content {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+	</style>
+
+	<script src="jquery-1.6.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			var _images = ["dealWithMe_off.png", "dealWithMe_on.png"];
+			var _imagesCount= _images.length;
+
+			$.each(_images,function(e) {
+				$(new Image()).load(function() {
+					if (_imagesCount < 1) begin();
+				}).attr('src',this);
+			});
+
+
+			$(function(){
+				$(".imgswap").hover(
+					function(){this.src = this.src.replace("_off","_on");},
+					function(){this.src = this.src.replace("_on","_off");
+				});
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="content">
+			<a href="http://br.linkedin.com/in/nandobueno/" onclick="javascript:ga('send', 'event', 'website events', 'master', 'clicked');"><img class="imgswap" src="dealWithMe_off.png" width="177" height="247" border="0" /></a>
+		</div>
+	</div>
+
+
+    <script type="text/javascript" charset="utf-8">
+        // main debug var, boolean
+        // var is_debug = true;
+
+        if ((typeof(is_debug) === 'undefined') || (is_debug !== true)) {
+
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-907948-18', 'nando.in');
+			ga('send', 'pageview');
+
+            // ga('send', 'event', 'category', 'action', 'label', value);
+            ga('send', 'event', 'website events', 'master', 'viewed');
+        }
+    </script>
+
+</body>
+</html>

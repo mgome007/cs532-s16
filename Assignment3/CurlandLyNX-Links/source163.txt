@@ -1,0 +1,3095 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>St. Andrew's Episcopal School Latin Dept. - Home</title>
+<link href="/css/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div id="header">
+	<a href="/index.php"><img class="floatleft" border=0 src="/images/logo.gif" /></a>
+	<div id="masthead">	<img src="/images/masthead.gif" /> </div>
+</div>
+<div id="container">
+<div id="rightnav">
+	<ul id="sidebarleft">
+		
+<h2>Log In</h2>
+<li>
+		<form id="login" action="../login/process.php" method="post">
+	<label>Username:</label>
+	<input class="input" type="text" name="user" size="12" value=""/><br />
+	<span style="margin-left: -50px;"></span><br />
+	<label>Password:</label>
+	<input class="input" type="password" name="pass" size="12" value=""/><br />
+	<span style="margin-left: -50px;"></span><br />
+	<input type="checkbox" name="remember" >Remember me next time<br /><br />
+	<input type="hidden" name="sublogin" value="1">
+	<input class="button" type="submit" value="Log In" />
+	</form>
+</li>
+<li><a href="../login/forgotpass.php">I forgot my password!</a>
+</li>
+<li><a href="../login/register.php">Register</a>
+</li>
+<li><a href="/club/index.php">Latin Club</a></li>
+<li><a href="/club/banquet.php">Annual Latin Banquet</a></li>
+<li><a href="https://itunes.apple.com/us/podcast/podcasts/id702962844">SAS Latin Podcasts (iTunes)</a></li>
+<li><a href="/podcasts/?p=archive&cat=all">SAS Latin Podcasts (.mp3 files)</a></li>
+<li><a href="/magnificat">Magnificat Rehearsal Tracks</a></li>
+		<h2>JCL</h2>
+		<li><a href="/actestarchives.php">Academic Contest Archives</a></li>
+					<li><a href="/buybooks.php">Buy source books for JCL contests</a></li>
+	</ul>
+
+
+
+</div>
+<div id="leftnav">
+	<ul id="sidebarleft">
+<h2>Upcoming</h2>
+	<h2>Links</h2>
+    	<li><a href="http://latin.sasaustin.org/placement.php">SAS Latin Placement Exam Reviews</a></li>
+		<li><a href="http://www.njcl.org">NJCL</a></li>
+		<li><a href="http://www.tsjcl.org">TSJCL</a></li>
+        <li><a href="http://www.thelatinlibrary.com/certamen/beginners.pdf">Certamen for beginners</a></li>
+		<li><a href="http://www.thelatinlibrary.com/decl.html">Noun Declension Practice</a></li>
+        <li><a href="/review.php">Grammar Review</a></li>
+        <li><a href="/podcasts/?p=archive&cat=all">Podcasts (.mp3 files)</a></li>
+	<!-- <h2>Parents</h2>
+		<li><a href="/parents">Information for parents</a></li>
+        <li><a href="https://sites.google.com/site/standrewslatindepartment/home">Google Site</a></li> -->
+	</ul>
+
+</div>
+<div id="content">
+<div class="announcementBox">
+Word of the Week:  
+</div><br />
+
+	<div id="datebox">
+	<div class="topbox">a. d.  XII</div>
+	<div class="middlebox"> Kal. Mai.</div>
+	<div class="bottombox">20 Apr 15</div>
+	</div>
+	<h1>National Latin Exam Committee Honors Upper School Students</h1>
+	<div class="story">
+	On March 11th, Latin students at the Upper school took the National Latin Exam.  They were joined by and competed with over 153,000 students from 50 states and 20 foreign countries including Australia, Canada, China, Croatia, France, Germany, Italy, Japan, New Zealand, Oman, the Philippines, Poland, Singapore, South Africa, South Korea, Spain, Switzerland, Taiwan, the United Kingdom, and Zimbabwe.  There are separate exams for different levels of Latin, and students in each level are awarded medals (gold and silver) for high achievement.  Thirty-three Upper School students were recognized with some kind of award.  Thirteen students received Gold Medals and eight received Silver Medals, the two highest awards on the exam.<br />
+<br />
+Gold Medals<br />
+Hana Arriaga<br />
+Alex Bradley<br />
+Bryce Deskins<br />
+Henry Gaudin<br />
+Robbie Li<br />
+Rachel Nezzer<br />
+Zack Osborne<br />
+Katherine Salinas<br />
+Walton Schmidt<br />
+Cameron Scott<br />
+Olivia Smith<br />
+Wesley Wiedenmeier<br />
+Jonathan Zornio<br />
+<br />
+Silver Medals<br />
+Mark Ashworth<br />
+Christian Erben<br />
+Caroline Graves<br />
+Will Josowitz<br />
+Olivia Nicklos<br />
+Annika Ostrom<br />
+Pavan Reddy<br />
+Matthew Tobias<br />
+<br />
+Magna Cum Laude<br />
+Will Nickerson<br />
+Katie Cowan<br />
+Stevie Gibson<br />
+William McKinnerney<br />
+Janson Shrock<br />
+<br />
+Cum Laude<br />
+Adam Alvarado<br />
+Molly Fox<br />
+Tom Hogan<br />
+Gavin Massengale<br />
+Pouya Mohammadi<br />
+Pritam Reddy<br />
+<br />
+As a seniors receiving a gold medals, Bryce Deskins, Zack Osborne, and Wesley Wiedenmeier, will also receive scholarship applications for the prestigious NLE scholarship.<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VIIII</div>
+	<div class="middlebox"> Kal. Mar.</div>
+	<div class="bottombox">21 Feb 15</div>
+	</div>
+	<h1>St. Andrew's Successfully Hosts Area F Convention with Advanced Certamen Winning Austin-Area Championship</h1>
+	<div class="story">
+	On Friday, February 20 and Saturday, February 21 the St. Andrew’s Upper School Latin Club hosted and competed in the Area F Latin Convention. The Middle School certamen team comprised of Tristram Coffin, Jack Cowan, Henry Erlinger, Gina Perkins, and Will Snider won second place by one question in an incredibly close final round.  The Intermediate certamen team comprised of Layne Alam, Jack Guttell, and Gavin Massengale also won second place. The Advanced team comprised of Bryce Deskins, Rachel Nezzer, Katherine Salinas, Walton Schmidt, and Jonathan Zornio, plus alternates Max Bartee and William McKinnerney, played an amazing final round, won first place and will combine with the LASA team to represent the Austin area at the state tournament.<br />
+As a school, St. Andrew's Upper School took second in the overall Academic sweepstakes and third place in Olympika sweepstakes, calculated by assigning points for first, second, and third place finishes.  One student was recognized for having the highest score at any level on his tests.  Bryce Deskins was recognized for having the high score on the Roman History test.  Bryce was awarded a scholarship for $519 ($1 for every convention attendee) in recognition of his high score achievement on the Decathlon test out of all the seniors at the convention.  Additionally, Katherine Salinas got the highest score on the Pentathlon of all students in level III, a great accomplishment as every student at the convention takes that contest.  Katherine also did a fabulous job of serving as Area F Chairperson and hosting the convention.  She has worked for a year to make sure that the convention ran smoothly and that everyone had a good experience.<br />
+The individual awards follow:<br />
+Academic and Classical Civilization Awards<br />
+1st Place<br />
+Layne Alam            Greek History<br />
+Layne Alam            Play<br />
+Hana Arriaga        Couple’s Costume<br />
+Tristram Coffin        Boys’ Costume<br />
+Jack Cowan            Roman History - 1/2 A<br />
+    Bryce Deskins        Roman History - 4<br />
+    Emma Erben        Latin Derivatives - 1/2 B<br />
+Caroline Graves        Play<br />
+Will Jozowitz        Play<br />
+Robbie Li            Grammar - 1<br />
+Robbie Li            Vocal Solo<br />
+    Pouya Mohammadi    Couple’s Costume<br />
+    Rachel Nezzer        Mythology <br />
+    Rachel Nezzer         Play<br />
+Will Nickerson        Dramatic Interpretation<br />
+    Zack Osborne        Latin Derivatives - 4<br />
+    Annika Ostrom        Roman Life<br />
+    Pavan Reddy        Latin Literature<br />
+    Katherine Salinas        Roman History - 3<br />
+    Walton Schmidt        Mottoes<br />
+    Walton Schmidt        Play<br />
+    Will Snider            Ancient Geography & Monuments<br />
+Jonathan Zornio        Advanced Grammar<br />
+Jonathan Zornio        Play<br />
+2nd Place<br />
+    Jamal Aghazedeh        Sight Recitation - 2<br />
+Hannah Bray        Latin Derivatives<br />
+Noelle Brimble        Dramatic Interpretation, Advanced<br />
+Victoria Curtin        Latin Oratory<br />
+Bryce Deskins        Decathlon<br />
+Christian Erben        Vocal Solo<br />
+Henry Gaudin        Greek Derivatives<br />
+Henry Gaudin        Mottoes<br />
+Kathryn Gernstein        Latin Literature - 5+<br />
+Caroline Graves         Sight Recitation - 4<br />
+    Jack Guttell            Dramatic Interpretation - 2<br />
+    Tom Hogan            Greek Life and Literature<br />
+Tom Hogan            Mythology - 3<br />
+Henry Howard         Boys’ Costume<br />
+Robbie Li            Reading Comprehension - level 1<br />
+Grace McKinnerney    Mythology - level 1/2 A<br />
+Madeleine Mele        Reading Comprehension, Advanced Prose<br />
+Will Nickerson        Mythology - 1<br />
+Katherine Salinas        Latin Literature<br />
+Walton Schmidt        Sight Recitation - 3<br />
+Will Snider            Roman History<br />
+Wesley Wiedenmeier    Advanced Grammar<br />
+3rd Place<br />
+Layne Alam            Mythology - 2<br />
+Tres Allen            Reading Comprehension, Advanced Poetry<br />
+Hana Arriaga        Advanced Grammar - 3<br />
+Noelle Brimble        Roman Life<br />
+Andrew Buller        Sight Recitation - 1/2 A<br />
+Tristram Coffin        Ancient Geography & Monuments - 1/2 A<br />
+Molly Fox            Decathlon<br />
+Kathryn Gernstein        Couple’s Costume<br />
+Stephen Gibson        Latin Literature - 2<br />
+Jacob Hinz            Roman History<br />
+Henry Howard        Greek History<br />
+Gavin Massengale        Latin Oratory<br />
+Grace McKinnerney    Mythology - level 1/2 A<br />
+Annika Mele        Couple’s Costume<br />
+Annika Mele        Advanced Grammar - 5+<br />
+Rachel Nezzer        Sight Recitation - 3<br />
+Annika Ostrom        Monochromatic Art<br />
+Pritam Reddy        Reading Comprehension, Advanced Prose <br />
+Taylor Thompson        Ancient Geography & Monuments - 3<br />
+Wesley Wiedenmeier    Reading Comprehension, Advanced Prose <br />
+<br />
+Receiving summa cum laude awards for the Pentathlon were:  Adrian Almy, Hana Arriaga, Tristram Coffin, Jack Cowan, Katie Cowan, Bryce Deskins, Emma Erben, Henry Erlinger, Will Josowitz, Rachel Nezzer, Will Nickerson, Zack Osborne, Katherine Salinas, Walton Schmidt, Will Snider, Janson Shrock, Matthew Tobias, Wesley Wiedenmeier, and Jonathan Zornio.<br />
+<br />
+Receiving maxima cum laude awards for the Pentathlon were: Adam Alvarado, Brendan Bowyer, Harrison Boyt, Noelle Brimble, Hannah Bray, Andrew Buller, Henry Gaudin, Kathryn Gernstein, Stephen Gibson, Caroline Graves, Will Greskovich, Tom Hogan, Henry Howard, Robbie Li, Grace McKinnerney, Annika Mele, Pouya Mohammadi, Gina Perkins, and Taylor Thompson.<br />
+<br />
+Receiving magna cum laude awards for the Pentathlon were:  Jamal Aghazedeh, Layne Alam, Tres Allen, Harrison Benson, Alex Bradley, Elizabeth Curtin, Christian Erben, Molly Fox, James Gernstein, Colton Gunnarson, Jack Guttell, Jacob Hinz, Maya Kidd, Annika Ostrom, Pavan Reddy, Pritam Reddy, and Ben Sirizzotti.<br />
+<br />
+Receiving cum laude awards for the Pentathlon were:  Max Bartee, Stefan Bentzin, Joel Campbell, Chandon Chhikara, Victoria Curtin, Kate Fox, Fletcher Lowin, William McKinnerney, Madeleine Mele, Nolan McNearney, and Jackie Smith.<br />
+<br />
+Olympika<br />
+1st Place<br />
+Tres Allen        440M Relay<br />
+Tres Allen        Softball Throw<br />
+Tres Allen        Running Broad Jump<br />
+Max Bartee        200 M Run<br />
+Max Bartee        440 M Relay<br />
+Harrison Boyt    Frisbee Throw<br />
+Noah Mele        440 M Relay<br />
+Will Nickerson    440 M Relay<br />
+2nd Place<br />
+Tres Allen        200 M Run<br />
+Adrian Almy    440 M Relay, middle school<br />
+Harrison Boyt    440 M Relay, high school<br />
+Tristram Coffin    440 M Relay, middle school<br />
+Pavan Reddy    440 M Relay, high school<br />
+Pritam Reddy    50 M Dash<br />
+Pritam Reddy    440 M Relay, high school<br />
+Ben Sirizzotti    440 M Relay, high school<br />
+Will Snider        50 M Run<br />
+Will Snider        100 M Run<br />
+Will Snider        440 M Run, middle school<br />
+3rd Place<br />
+Pavan Reddy        100 M Run<br />
+Will Snider            200 M Run<br />
+<br />
+Ludi Scrabble     1st place: Emma Erben<br />
+2nd place: Jonathan Zornio<br />
+<br />
+We so appreciate the many, many faculty, parents, students and alumni who helped us to host the event.  We are so grateful for all the help with testing, supervision, judging, and more.  The convention could not have happened without the entire St. Andrew’s community supporting us.  Thanks also go to Sheri Zornio, our Certamen team parent.  Congratulations to all the winners and bonam fortunam omnibus at State.  The State Convention will be held on March 26-29 at Amarillo High School.<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  V</div>
+	<div class="middlebox"> Kal. Feb.</div>
+	<div class="bottombox">28 Jan 15</div>
+	</div>
+	<h1>St. Andrew's Students Perform Well on NCEE</h1>
+	<div class="story">
+	Back in December, Latin students at the Upper and Middle schools took the National Classical Etymology Exam.  They were joined by and competed with students from across the United States.  There is one exam, and awards are based on the level of Latin in which a student is enrolled.  Students in each level can be awarded gold, silver, or bronze medals for outstanding results.  Eighteen Upper School students and fifteen Middle School students were recognized.<br />
+ <br />
+<b>Gold Medalists</b><br />
+Hannah Bray (MS)<br />
+Emma Erben (MS)<br />
+Bryce Deskins (US) <br />
+William McKinnerney (US)<br />
+Jacob Murphy (MS)<br />
+Rachel Nezzer (US)<br />
+Gina Perkins (MS)<br />
+Katherine Salinas (US)<br />
+Olivia Smith (US)<br />
+Jonathan Zornio (US)<br />
+<br />
+<b>Silver Medalists</b><br />
+Adrian Almy (MS)<br />
+Henry Erlinger (MS)<br />
+Madison McWilliams (MS)<br />
+Pouya Mohammadi (US)<br />
+Sina Mohammadi (MS)<br />
+Walton Schmidt (US)<br />
+Will Snider (MS)<br />
+<br />
+<b>Bronze Medalists</b><br />
+Hana Arriaga (US)<br />
+Duval Bingham (MS)<br />
+Andrew Buller (MS)<br />
+Jack Cowan (MS)<br />
+Ivan Crowson (MS)<br />
+Grace McKinnerney (MS)<br />
+Olivia Nicklos (US)<br />
+Cameron Scott (US)<br />
+Natalie Sequin (MS)<br />
+Taylor Thompson (US)<br />
+<br />
+<br />
+<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VIII</div>
+	<div class="middlebox"> Kal. Nov.</div>
+	<div class="bottombox">25 Oct 14</div>
+	</div>
+	<h1>Certamen Teams Have Good Showing at Annual Cru Classic</h1>
+	<div class="story">
+	This past weekend, teams from all over Austin competed in the annual Crusader Classic Certamen tournament. Every year St. Andrew's and St. Michael's switch off on hosting the tournament, bringing the event back to the beautiful St. Andrew's Upper School campus this past Saturday afternoon. This year, the St. Andrew's teams did quite well on their home turf, with Novice and Advanced placing 2nd in the final round, barely edged out of first place.  The Advanced team was composed of Captain Bryce Deskins, Katherine Salinas, Walton Schmidt, and Jonathan Zornio.  The Novice team, led by Captain Robbie Li, was rounded out by Adam Alvarado, Will Nickerson, Will Greskovich, and Ben Sirizzotti.  Congratulations to all the students who played in the tournament for representing the school so well.<br />
+<br />
+Thanks also go to our army of student and parent volunteers who set up, ran, and cleaned up after the tournament.  Special thanks to Dawn Bowyer for supplying snacks for the visiting teachers from other schools.	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  V</div>
+	<div class="middlebox"> Id. Sep.</div>
+	<div class="bottombox">9 Sep 14</div>
+	</div>
+	<h1>Upper School Students Celebrate Dies Lustricus</h1>
+	<div class="story">
+	In yesterday's Upper School Latin classes students celebrated the Dies Lustricus, or Purification Day. This day, 8 days after birth for girls and 9 days after birth for boys in ancient Rome, was the celebration at which Roman babies were given their names. Students are symbolically "purified" for the school year with a quick splash of water. Of course, no Roman celebration is complete without a sacrifice.  In this case gummy worms are used. Afterwards, students celebrated with a variety of snack foods, especially Lucky Charms cereal. Why Lucky Charms? The Dies Lustricus also was the day that children received their bullas, or lockets filled with lucky charms, in order to protect them from curses. Latin students can wear their good luck bullas on special days in order to earn a point or two of extra credit. All Upper School Latin classes are off to an auspicious start after a successful Dies Lustricus.  Photos of the event may be seen on our Twitter account @sasaustinlatin.	</div>
+	<div id="datebox">
+	<div class="topbox">Non. </div>
+	<div class="middlebox">Aug.</div>
+	<div class="bottombox">5 Aug 14</div>
+	</div>
+	<h1>St. Andrew's Middle and Upper School Latin Clubs attend 61st annual NJCL Convention at Emory University </h1>
+	<div class="story">
+	During the last week of July, twenty students from St. Andrew's Upper and Middle School divisions participated in the 2014 National Junior Classical League convention held at Emory University in Atlanta, Georgia. This trip to Atlanta for the St. Andrew's group also included a Braves baseball game, a float down the Chattahoochee River, visits to the Carlos Museum of Art on the Emory campus, the CNN Studio, the Georgia Aquarium, the Coca-Cola Museum, and the Georgia Tech campus, and a day of thrills at Six Flags Over Georgia.<br />
+<br />
+At the convention many students excelled in their individual academic, artistic, and athletic contests. The Advanced level competitive Certamen team, which included St. Andrew's students, won second place in the national tournament. Some students' work was recognized during a general assembly of convention delegates for achievement in special contests. Mariah Sager won 1st place in the State Digital Scrapbook contest for her excellent work as TSJCL Historian in the 2013-2014 school year. Wesley Wiedenmeier won 4th place in the State Website Contest for his redesign of the Texas State Junior Classical League website in his official capacity as TSJCL Webmaster in the 2013-2014 school year. Katherine Salinas, as Area F Chair for this coming school year, helped organize the Texas state spirit effort for Thursday's general assembly, and the Texas delegation won 1st place in spirit for that day! William McKinnerney also served in his official capacity at this convention as TSJCL Webmaster (and technology expert), helping to run Texas state fellowship meetings in the evenings with the rest of the TSJCL executive board. Additionally, Noelle Brimble was recognized as Best in Show in the English Oratory contest and was asked to perform her speech again during the Creative Arts awards assembly on the final day of convention. St. Andrew's alumnus Trace Turner '13, who attended the convention as a member of the Senior Classical League, edited and published the daily convention newsletter "The Convention Ear" in his official capacity as National Senior Classical League editor. Many convention attendees agreed that it was one of the best (and most entertaining!) series of "Ears" the convention had seen for a long while. At the end of convention, Trace was elected to the post of NSCL Vice President for the coming year.<br />
+<br />
+The Advanced Certamen team from Texas, which included three St. Andrew's students, a student from the Liberal Arts and Science Academy in AISD, and two students from Tom C. Clark High School in San Antonio, represented the entire state of Texas in the highest level of the competitive tournament.  The team was comprised of 2014 graduates Olivia Hindera and Nate Eakman, rising senior Bryce Deskins, as well as Cass Plowman of LASA, and Kevin Choy and Zihao Zhu of Clark High School. The team racked up the most cumulative points in the three preliminary rounds to earn the first-place seed for semifinals. After defeating the teams from Georgia and Illinois in the semifinal round, the team went on to play the final round against the team from Virginia and the team from Massachusetts, who were the defending national champions. Throughout the twenty-question round, the Texas and Massachusetts teams alternately held the lead until the last few questions when Massachusetts managed to pull ahead. The final score was Massachusetts-125, Texas-95, and Virginia-50.<br />
+<br />
+The team would like to thank the alternate players who have practiced with the team throughout the summer, Wesley Wiedenmeier and Walton Schmidt, and team manager Mariah Sager, as well as the numerous alumni who came to practices, and all of the supporters who followed the competition via the @SASLatin Twitter feed. The team would also like to thank graduate Philip Swanger '08 for his help during the convention.  The coaching staff - Jennie Luongo, Andrew Rist '05, and Lauren Dill - is also grateful to the supportive parents who provided food for long practices, both during the school year and into the summer, to achieve this fantastic result of second place in the nation.<br />
+<br />
+Here are the complete NJCL contest results, reflecting students who placed from 1st to 10th in their contests:<br />
+<br />
+FIRST PLACE<br />
+Noelle Brimble - English Oratory, Upper Level (high score overall)<br />
+Bryce Deskins - Classical Art, Level 3<br />
+Mariah Sager - Computer Enhanced Photography, Grade 12<br />
+Mariah Sager - Digital Scrapbook for State JCL<br />
+Katherine Salinas - Traditional Photography, Grade 7-9<br />
+<br />
+SECOND PLACE<br />
+Olivia Hindera - Mottoes, Level 5<br />
+Mariah Sager - Classical Art, Level 5<br />
+<br />
+THIRD PLACE<br />
+Olivia Hindera - Latin Literature, Level 5<br />
+Walton Schmidt - Latin Sight Recitation, Level 2 Boys<br />
+Max Bartee & Walton Schmidt - "Ludi" Soccer<br />
+<br />
+FOURTH PLACE<br />
+Max Bartee - 50-yard Freestyle Swimming, Senior Boys Level<br />
+Harrison Benson - Computer Enhanced Photography, Grade 10<br />
+Brendan Bowyer - Essay, Grade 10 Boys<br />
+Tristram Coffin - Ancient Geography, Level 1/2 <br />
+Tristram Coffin - Boy's Costume, Junior Level<br />
+Tristram Coffin - "Ludi" Chess<br />
+Rachel Nezzer - Essay, Grade 9 Girls<br />
+Mariah Sager - Essay, Grade 12 Girls<br />
+Max Bartee & Tom Hogan - "Ludi" Basketball<br />
+<br />
+FIFTH PLACE<br />
+Max Bartee - 50-yard Breaststroke Swimming, Senior Boys Level<br />
+Olivia Hindera - Mythology, Level 5<br />
+Rachel Nezzer - Open Certamen, Intermediate Level<br />
+<br />
+SIXTH PLACE <br />
+Nate Eakman - Latin Derivatives, Level 4<br />
+Nate Eakman - Essay, Grade 12 Boys<br />
+Rachel Nezzer - Mosaics, Grade 7-9<br />
+Mariah Sager - Latin Vocabulary, Level 5<br />
+<br />
+SEVENTH PLACE<br />
+Max Bartee - 50-yard Butterfly Swimming, Senior Boys Level<br />
+Bryce Deskins - Roman History, Level 3<br />
+<br />
+EIGHTH PLACE<br />
+Nate Eakman - Classical Art, Level 4<br />
+Olivia Hindera - Academic Heptathlon, Level 5<br />
+Olivia Hindera - Latin Derivatives, Level 5<br />
+Mariah Sager - Greek Derivatives, Level 5<br />
+<br />
+NINTH PLACE<br />
+Brendan Bowyer - Colored Pencil Drawing, Grade 10<br />
+Bryce Deskins - Essay, Grade 11 Boys<br />
+Nate Eakman - Greek Derivatives, Level 4<br />
+Nate Eakman - Latin Literature, Level 4<br />
+Caroline Graves - Latin Sight Recitation, Advanced Prose, Girls<br />
+Mariah Sager - Traditional Photography, Grade 12<br />
+Wesley Wiedenmeier - Essay, Grade 11 Boys<br />
+<br />
+TENTH PLACE<br />
+Tristram Coffin - Academic Heptathlon, Level 1/2 <br />
+Nate Eakman - Academic Heptathlon, Level 4<br />
+Nate Eakman - Mythology, Level 4<br />
+Katherine Salinas - Latin Sight Recitation, Level 2 Girls<br />
+<br />
+<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  III</div>
+	<div class="middlebox"> Id. Mai.</div>
+	<div class="bottombox">13 May 14</div>
+	</div>
+	<h1>Students Excel on National Roman Civilization Exam</h1>
+	<div class="story">
+	In March, Upper school Latin students participated in the National Roman Civilization Exam which tests students' knowledge of Roman History and Roman Life.  The following students received medals:<br />
+Gold Medals:<br />
+Hana Arriaga<br />
+Bryce Deskins<br />
+Olivia Hindera<br />
+Rachel Nezzer<br />
+Kady Salinas<br />
+Walton Schmidt <br />
+Cameron Scott<br />
+<br />
+Silver Medals:<br />
+Connor Brucker<br />
+Annika Ostrom<br />
+Janson Shrock<br />
+<br />
+Bronze Medals:<br />
+Mark Ashworth<br />
+Max Bartee<br />
+Alex Bradley<br />
+Stevie Gibson<br />
+Will Josowitz<br />
+Lizzie Leighty<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VIIII</div>
+	<div class="middlebox"> Kal. Mai.</div>
+	<div class="bottombox">23 Apr 14</div>
+	</div>
+	<h1>SAS Upper Latin Students Excel on National Latin Exam</h1>
+	<div class="story">
+	On March 6th, Latin students at the Upper school took the National Latin Exam.  They were joined by and competed with over 154,000 students from 49 states and 17 foreign countries. Forty-four Upper School students were recognized with some kind of award.  Sixteen students received Gold Medals and twelve received Silver Medals, the two highest awards on the exam.<br />
+<br />
+Perfect Score<br />
+Bryce Deskins<br />
+<br />
+Gold Medals<br />
+Hana Arriaga<br />
+Mark Ashworth<br />
+Brendan Bowyer<br />
+Bryce Deskins<br />
+Nate Eakman<br />
+Henry Gaudin<br />
+Olivia Hindera<br />
+Annika Mele<br />
+Rachel Nezzer<br />
+Pavan Reddy<br />
+Katherine Salinas<br />
+Walton Schmidt<br />
+Jaron Shrock<br />
+Ariana Weiss<br />
+Wesley Wiedenmeier<br />
+Jonathan Zornio<br />
+<br />
+Silver Medals<br />
+Alex Bradley<br />
+Connor Brucker<br />
+Carson Carroll<br />
+Frankie Chen<br />
+Logan Giberson<br />
+Caroline Graves<br />
+Noah Mele<br />
+Pouya Mohammadi<br />
+Pritam Reddy<br />
+Cameron Scott<br />
+Janson Shrock<br />
+Olivia Smith<br />
+ <br />
+Magna Cum Laude<br />
+Harrison Benson<br />
+Madeline Chastain<br />
+Elizabeth Curtin<br />
+Allison Eakman<br />
+Christian Erben<br />
+Simran Frontain<br />
+Stevie Gibson<br />
+Nolan McNearney<br />
+Annika Ostrom<br />
+Tristan Reed<br />
+John Sealy<br />
+Taylor Thompson<br />
+<br />
+Cum Laude<br />
+Asa Buehler<br />
+Gavin Massengale<br />
+Madeleine Mele<br />
+Michelle Robles-Garcia<br />
+<br />
+As a seniors receiving a gold medals in Latin III or above, Nate Eakman, Olivia Hindera, and  Jaron Shrock, will also receive scholarship applications for the prestigious NLE scholarship.<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">prid. Id. </div>
+	<div class="middlebox">Apr.</div>
+	<div class="bottombox">12 Apr 14</div>
+	</div>
+	<h1>Advanced Certamen Team wins State Championship; Upper School Latin Students Recognized at Texas State Junior Classical League Convention</h1>
+	<div class="story">
+	On April 11 and 12, St. Andrew's Upper School students competed in academic, artistic, and athletic contests at the Texas State Junior Classical League convention at Westwood High School.<br />
+<br />
+Two Austin-area Certamen teams which included students from St. Andrew's competed in the state tournament.  The advanced division team, composed almost entirely of St. Andrew's students Bryce Deskins, Nate Eakman, Wesley Wiedenmeier, and captain Olivia Hindera, won the State championship and defeated a team from St. John's in Houston and a combined San Antonio-area team in a close final round. They will represent Texas at the National convention this summer at Emory University.  The intermediate division team, including St. Andrew's students Rachel Nezzer, Katherine Salinas, and Walton Schmidt, placed second after a hard-fought final round.  Congratulations to these Certamen players!<br />
+<br />
+Every year at the TSJCL convention, the member schools elect a board of student officers to lead the organization for the following year.  This year two St. Andrew's students have served as officers, Mariah Sager as Historian and Wesley Wiedenmeier as Webmaster.  At the convention this year, Katherine Salinas was officially sworn in as the new Area F Chair.  Katherine will be hosting next year's Austin-area Latin convention at St. Andrew's.<br />
+<br />
+One student won an award for having the highest score for his individual contest in any level: Jaron Shrock in Advanced Prose Reading Comprehension.  <br />
+<br />
+Here are the complete results:<br />
+<br />
+First Place<br />
+<br />
+Madeline Chastain	Monochromatic Drawing<br />
+Madeline Chastain	Oil or Acrylic Painting<br />
+Bryce Deskins	Classical Art - III<br />
+Nate Eakman	Essay <br />
+Olivia Hindera	Mottoes<br />
+Mariah Sager	Classical Art â€“ V+<br />
+Mariah Sager	Greek Derivatives<br />
+Mariah Sager	Latin Derivatives<br />
+Jaron Shrock	Advanced Dramatic Interpretation<br />
+Jaron Shrock	Reading Comprehension â€“ Advanced Prose<br />
+<br />
+Second Place<br />
+Noelle Brimble	Advanced Dramatic Interpretation<br />
+Madeline Chastain	Vocabulary <br />
+Bryce Deskins	Roman History<br />
+Olivia Hindera	Latin Literature<br />
+Mariah Sager	Digital Photography<br />
+Walton Schmidt	Mosaic<br />
+Wesley Wiedenmeier	Advanced Grammar<br />
+<br />
+Third Place<br />
+Nate Eakman	Decathlon<br />
+Nate Eakman	Poetry<br />
+Rachel Nezzer	Mythology<br />
+Annika Ostrom	Roman Life<br />
+Walton Schmidt	Mottoes<br />
+<br />
+Fourth Place<br />
+Madeline Chastain	Reading Comprehension â€“ Advanced Poetry<br />
+Simran Frontain	Advanced Latin Oratory<br />
+Katherine Salinas	Classical Greek<br />
+<br />
+Fifth Place<br />
+Bryce Deskins	Research Paper<br />
+Caroline Graves	Sight Recitation<br />
+Katherine Salinas	Roman History<br />
+Jonathan Zornio	Reading Comprehension - Advanced Poetry <br />
+<br />
+Students receiving summa cum laude awards for the Pentathlon: Alex Bradley, Bryce Deskins, Nate Eakman, Logan Giberson, Olivia Hindera, Rachel Nezzer, Katherine Salinas, Walton Schmidt, Wesley Wiedenmeier, and Jonathan Zornio.<br />
+<br />
+Students receiving maxima cum laude awards for the Pentathlon: Brendan Bowyer, Carson Carroll, Madeline Chastain, Sam Garrison, Caroline Graves, Will Josowitz, Gavin Massengale, Annika Ostrom, Mariah Sager, Cameron Scott, and Ariana Weiss.<br />
+<br />
+Students receiving magna cum laude awards for the Pentathlon:  Harrison Benson, Asa Buehler, Nolan McNearney, Tristan Reed, and Taylor Thompson.<br />
+<br />
+Students receiving cum laude awards for the Pentathlon:  Noelle Brimble, Elizabeth Curtin, Christian Erben, Simran Frontain, Maya Kidd, James Krajicek, Ellie McDaniel, William McKinnerney, Jack Reed, and Hannah Winslett.<br />
+<br />
+Overall, the Upper School placed 6th in Advanced Division Sweepstakes, making us the highest-ranked SPC school at the event.  Additionally, our club was awarded the fourth place prize in the Latin Club of the Year contest.  We were also recognized for having the most creative service project because of our work with the Joel Nafuma Refugee Center in Rome.<br />
+<br />
+The Latin teachers would like to thank Dawn Bowyer for chaperoning this trip and Janice Salinas for coordinating snacks for the group at the convention. Thanks also to all the parents who donated food and showed up to watch Certamen finals. Good luck to all as we prepare for Nationals this summer at Emory University in Atlanta, Georgia.<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XVII</div>
+	<div class="middlebox"> Kal. Mai.</div>
+	<div class="bottombox">15 Apr 14</div>
+	</div>
+	<h1>Middle School Latin Students Earn Accolades at State Latin Convention</h1>
+	<div class="story">
+	On Friday, April 11th and Saturday, April 12th eight middle school Latin students attended the annual Texas State Junior Classical League Convention, held at Westwood High School in Round Rock ISD.  More than 2,000 students attended this year's convention from middle schools and high schools all over Texas. <br />
+The weekend's competition kicked off on Friday with students taking the Pentathlon, a five-category academic test that all students at the convention take. The evening activities continued with contests in vocal performance, passage recitation, and costume displays, all focused on Latin or Greco-Roman themes.<br />
+Competition continued on Saturday morning, when all students competed in written academic contests on various subjects such as mythology, Roman history, and Latin vocabulary.  In addition to their contests, many of the students enjoyed other activities offered at the convention. There were athletic contests of both the individual and team variety. There was a catapult-building contest. There were seminars and workshops from Classics professors as well as college students; our very own St. Andrew's alumnus Trace Turner (class of '13) offered a talk on Roman coins and currency.<br />
+	At the awards ceremony on Saturday evening, names of students who placed the top five of their contests for each level were announced. Students who placed in the top ten also received certificates for their achievements. Certificates for Pentathlon performance were also distributed. Despite our small contingency, each of the SAS middle school Latin students placed in the top ten of at least one, if not more, of their contests. <br />
+The middle school Latin club would like to thank the parents who have helped support our efforts this year, either by purchasing cookie dough during our annual fundraiser, or by providing snacks for the competitions. We look forward to an exciting trip to the National Junior Classical League Convention this summer at Emory University in Atlanta!<br />
+<br />
+3rd Place<br />
+Emma Erben - Latin Derivatives, level 1/2 A<br />
+<br />
+4th Place<br />
+Tristram Coffin - Boys' Costume<br />
+<br />
+5th Place<br />
+Layne Alam - Mythology, level 1/2 B<br />
+Hannah Bray - Greek Derivatives, level 1/2 A<br />
+Yashwanth Erukulla - Roman History, level 1/2 A<br />
+<br />
+6th Place<br />
+Tristram Coffin - Mythology, level 1/2 A<br />
+<br />
+7th Place<br />
+Layne Alam - Roman History, level 1/2 A<br />
+Jack Guttell - Greek Derivatives, level 1/2 B<br />
+Lex Searcy - Roman Life, level 1/2 B<br />
+<br />
+8th Place<br />
+Hannah Bray - Reading Comprehension I, level 1/2 A<br />
+Gina Perkins - Roman Life, level 1/2 A<br />
+Gina Perkins - Grammar I, level 1/2 A<br />
+<br />
+9th Place<br />
+Tristram Coffin - Sight Recitation, level 1/2 A<br />
+Emma Erben - Decathlon, level 1/2 A<br />
+<br />
+<br />
+Pentathlon Awards: <br />
+<br />
+Summa cum laude<br />
+<br />
+Layne Alam<br />
+Emma Erben<br />
+Gina Perkins<br />
+<br />
+<br />
+Maxima cum laude<br />
+<br />
+Tristram Coffin<br />
+Lex Searcy<br />
+<br />
+<br />
+Cum laude<br />
+<br />
+Hannah Bray<br />
+Yashwanth Erukulla<br />
+Jack Guttell<br />
+<br />
+<br />
+<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">pridie Kalendas </div>
+	<div class="middlebox">Mar.</div>
+	<div class="bottombox">28 Feb 14</div>
+	</div>
+	<h1>St. Andrew's Shines at Baylor Latin Day</h1>
+	<div class="story">
+	Last Friday, February 28, members from the St. Andrew’s Intermediate and Advanced certamen teams drove to Waco to attend Baylor Latin Day at Baylor University. Every year, Baylor puts together this celebration of Latin, featuring a certamen tournament, a noun parsing bee, and a verb parsing bee. In addition to showing off their Latin knowledge, students had the opportunity to see Baylor University and experience some aspects of college life, like the dorm cafeteria.  The students who participated in these events were Bryce Deskins, Olivia Hindera, Will Josowitz, William McKinnerney, Rachel Nezzer, Katherine Salinas, Walton Schmidt, and Ariana Weiss. All who participated in the parsing bees did very well. Walton Schmidt and Will Josowitz made finals in the noun parsing bee. William McKinnerney and Ariana Weiss made finals in the verb parsing bee, and Rachel Nezzer won the verb parsing bee. The combined Intermediate-Advanced certamen team played very well, taking first place in the tournament.  Students were awarded books for their first place victories.  Congratulations to all the participants!	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VI</div>
+	<div class="middlebox"> Id. Feb.</div>
+	<div class="bottombox">8 Feb 14</div>
+	</div>
+	<h1>Advanced Certamen Wins Area Championship; St. Andrew's Places Second in Sweepstakes</h1>
+	<div class="story">
+	On Saturday, February 8 the St. Andrew's Upper School Latin Club attended Area F Latin Convention at Connally High School.  Our Novice certamen team comprised of Allie Eakman, Gavin Massengale, and Noah Moore advanced to finals and won third place.  The Intermediate certamen team comprised of Rachel Nezzer, Katherine Salinas, captain Walton Schmidt, Janson Shrock, and alternates William McKinnerney and Will Josowitz won second place by a mere 10 points  The Advanced team comprised of Bryce Deskins, Nate Eakman, captain Olivia Hindera, and Wesley Wiedenmeier played an amazing final round, won first place and will represent the area at the state tournament.<br />
+<br />
+As a school, St. Andrew's Upper School took second in the overall academic sweepstakes, calculated by assigning points for first, second, and third place finishes.  Two students were recognized for having the highest score at any level on their tests:  Olivia Hindera in Mottoes and Jaron Shrock in Advanced Grammar.  Additionally, Jonathan Zornio and Olivia Hindera got the highest score on the Pentathlon of all students in their level (Latin III and Latin V+, respectively), a great accomplishment as every student at the convention takes that contest.  Nate Eakman was awarded a scholarship for $538 ($1 for every convention attendee) in recognition of the fact that he received the high score on the Decathlon test out of all the seniors at the convention.  Nate will be donating his winnings to Worldbuilders, a charity that uses the collective power of readers and authors to make the world a better place.<br />
+<br />
+Finally, Katherine Salinas, class of 2017, was elected Area F Chairperson for the 2014-2015 school year.   It will be her responsibility to host the next convention at St. Andrew's Upper School in the winter of next year.  <br />
+The individual awards follow:<br />
+1st Place<br />
+Connor Brucker - Play<br />
+Noelle Brimble	 - 	Play<br />
+Asa Buehler 	 - 	Ancient Geography<br />
+Bryce Deskins	 - 	Latin Literature<br />
+Bryce Deskins	 - 	Roman History<br />
+Nate Eakman 	 - 	Play<br />
+Christian Erben		 - 	Vocal Solo<br />
+Henry Gaudin	 - 	Mottoes<br />
+Caroline Graves	 - 	Play<br />
+Olivia Hindera	 - 	Mottoes<br />
+Olivia Hindera	 - 	Mythology<br />
+Will Josowitz	 - 	Play<br />
+Fletcher Lowin	 - 	Latin Literature<br />
+Ellie McDaniel	 - 	Play<br />
+Rachel Nezzer	 - 	Mythology<br />
+Rachel Nezzer	 - 	Play<br />
+Mariah Sager	 - 		Greek Derivatives<br />
+Walton Schmidt	 - 	Mottoes<br />
+Walton Schmidt	 - 	Sight Recitation<br />
+Cameron Scott	 - 	Greek History<br />
+Jaron Shrock	 - 	Advanced Grammar<br />
+Wesley Wiedenmeier	 - 	Advanced Grammar<br />
+<br />
+2nd Place<br />
+Brendan Bowyer	 - 		Vocal Ensemble<br />
+Connor Brucker 	 - 		Ancient Geography<br />
+Asa Buehler	 - 		Roman History<br />
+Joel Campbell			Boy's Costume<br />
+Joel Campbell	 - 	Dramatic Interpretation<br />
+Joel Campbell 		 - 	Vocal Ensemble<br />
+Madeline Chastain	 - 	Monochromatic Drawing<br />
+Frankie Chen		 - 	Advanced Grammar<br />
+Nate Eakman		 - 	Decathlon<br />
+Nate Eakman		 - 	Mythology<br />
+Simran Frontain		 - 	Latin Oratory<br />
+Kathryn Gernstein	 - 	Latin Literature<br />
+Logan Giberson		 - 	Vocal Ensemble<br />
+Fletcher Lowin		 - 	Greek Life and Lit<br />
+Noah Moore		 - 	Roman History<br />
+Jack Reed 		 - 		Ancient Geography<br />
+Mariah Sager		 - 	Latin Derivatives<br />
+Jared Samuels		 - 	Greek History<br />
+Cameron Scott			 - Greek Derivatives<br />
+Jaron Shrock		 - 	Reading Comprehension Advanced Prose<br />
+Hannah Winslett		 - 	Monochromatic Drawing<br />
+Jonathan Zornio		 - 	Advanced Grammar	<br />
+<br />
+3rd Place<br />
+Harrison Benson		 - 	Latin Derivatives<br />
+Harrison Benson		 - 	Latin Oratory<br />
+Alex Bradley		 - 	Vocabulary<br />
+Noelle Brimble		 - 	Dramatic Interpretation<br />
+Brendan Bowyer		 - 	Decathlon<br />
+Joel Campbell		 - 	Sight Recitation<br />
+Frankie Chen		 - 	Decathlon<br />
+Henry Gaudin	 - 		Reading Comprehension Advanced Poetry<br />
+Kathryn Gernstein	 - 	Couples Costume<br />
+Tom Hogan		 - 		Roman Life<br />
+Nicolette Kivlin	 - 		Dramatic Interpretation<br />
+Ellie McDaniel		 - 	Sight Recitation<br />
+Annika Mele		 - 	Advanced Grammar<br />
+Annika Mele		 - 	Couples Costume<br />
+Annika Mele		 - 	Roman Life<br />
+Madeleine Mele		 - 	Latin Literature<br />
+Madeleine Mele		 - 	Reading Comprehension Advanced Prose<br />
+Katherine Salinas	 - 		Roman History<br />
+Katherine Salinas	 - 		Sight Recitation<br />
+Jared Samuels		 - 	Greek Life and Lit<br />
+Ariana Weiss		 - 	Latin Literature<br />
+Hannah Winslett		 - 	Polychromatic Drawing<br />
+<br />
+Receiving summa cum laude awards for the Pentathlon were:  Hana Arriaga, Alex Bradley, Connor Brucker, Carson Carroll, Frankie Chen, Bryce Deskins, Allie Eakman, Nate Eakman, Henry Gaudin, Caroline Graves, Olivia Hindera, Tom Hogan, Annika Mele, Rachel Nezzer, Mariah Sager, Walton Schmidt, Cameron Scott, Janson Shrock, Jaron Shrock, Taylor Thompson, Ariana Weiss, Wesley Wiedenmeier, and Jonathan Zornio.<br />
+<br />
+Receiving maxima cum laude awards for the Pentathlon were: Max Bartee, Brendan Bowyer, Asa Buehler, Madeline Chastain, Christian Erben, Kathryn Gernstein, Will Josowitz, Lizzie Leighty, Gavin Massengale, William McKinnerney, Noah Moore, Annika Ostrom, Pavan Reddy, and Katherine Salinas.<br />
+<br />
+Receiving magna cum laude awards for the Pentathlon were:  Harrison Benson, Harrison Boyt, Elizabeth Curtin, Simran Frontain, Logan Giberson, Nicolette Kivlin, James Krajicek, Alessandra Massa, Ellie McDaniel, Nolan McNearney, Madeleine Mele, Noah Mele, Pouya Mohammadi, Jack Reed, Tristan Reed, Jared Samuels and Hannah Winslett.<br />
+<br />
+Receiving cum laude awards for the Pentathlon were:  Noelle Brimble, Kate Fox, Maya Kidd, and Elouise Weil.<br />
+<br />
+Thanks to all the parents who have supported us our efforts this year, especially to Amy Erben and Dawn Bowyer, who helped make sure the competitors were fed.  Thanks also go to Janet Eakman, our Certamen team parent.  Congratulations to all the winners and bonam fortunam omnibus at State.  The State Convention will be held on April 11-12 at Westwood High School in Round Rock ISD.<br />
+<br />
+<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VII</div>
+	<div class="middlebox"> Id. Feb.</div>
+	<div class="bottombox">7 Feb 14</div>
+	</div>
+	<h1>New Saturday Schedule for Area F</h1>
+	<div class="story">
+	Below is a revised schedule for the Area F Latin Convention. Olympika have been canceled because of space and staffing issues that came up with the weather delay. We will continue monitoring the weather and revise the schedule as necessary if travel remains dangerous. Thanks for your patience as we try to deal with weather and other issues.<br />
+<br />
+We are short on test proctors for the convention.  Parents, if you are planning to drive students to Connally and would be willing to stay and proctor a test for a couple of hours, please let Jennie Luongo (jluongo@sasaustin.org) know.<br />
+<br />
+Saturday, February 8<br />
+<br />
+6:00-8:30 Early testing<br />
+<br />
+7:30-8:20 Registration<br />
+Certamen Draw (coaches and captains should check in at registration table)<br />
+Art Registration<br />
+Breakfast<br />
+<br />
+8:30-9:00 Pentathlon<br />
+<br />
+9:00-11:00 Academic Testing <br />
+<br />
+10:00-12:00 Sight Recitation<br />
+<br />
+10:00-12:00 Dramatic Interpretation and Latin Oratory<br />
+<br />
+11:00-12:30 Certamen Preliminaries<br />
+<br />
+12:00-1:00 Classical Civilization:Vocal, Costume, Play<br />
+<br />
+1:00-2:00 Lunch <br />
+<br />
+1:00-3:00 Art pick-up<br />
+<br />
+2:00-4:00 Certamen Finals <br />
+<br />
+4:00-5:00 Awards Ceremony; Area F Chair Election	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VIII</div>
+	<div class="middlebox"> Id. Feb.</div>
+	<div class="bottombox">6 Feb 14</div>
+	</div>
+	<h1>Certamen Preliminaries POSTPONED Until Saturday</h1>
+	<div class="story">
+	Area F Certamen preliminaries have been CANCELED for Friday night and will be held on Saturday at Connally High School.  We will post more information here when we have more details about Saturday's schedule.	</div>
+	<div id="datebox">
+	<div class="topbox">Non. </div>
+	<div class="middlebox">Feb.</div>
+	<div class="bottombox">5 Feb 14</div>
+	</div>
+	<h1>National Classical Etymology Exam Awards Announced</h1>
+	<div class="story">
+	On December 2nd , Latin students at the Upper school took the National Classical Etymology Exam.  They were joined by and competed with students from across the United States.  There is one exam, and awards are based on the level of Latin in which a student is enrolled.  Students in each level can be awarded gold, silver, or bronze medals for outstanding results.  Eighteen Upper School students were recognized with some kind of award.  Seven students received Gold Medals,  two received Silver Medals, and five received Bronze Medals.<br />
+<br />
+Gold Medals<br />
+Bryce Deskins<br />
+Olivia Hindera<br />
+Mariah Sager<br />
+Rachel Nezzer<br />
+Pavan Reddy<br />
+Walton Schmidt<br />
+Cameron Scott<br />
+<br />
+Silver Medals<br />
+Hana Arriaga<br />
+Olivia Smith<br />
+<br />
+Bronze Medals<br />
+Alex Bradley<br />
+Annika Mele<br />
+Jack Reed<br />
+Kady Salinas<br />
+Janson Shrock<br />
+<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XVIII</div>
+	<div class="middlebox"> Kal. Dec.</div>
+	<div class="bottombox">14 Nov 13</div>
+	</div>
+	<h1>St. Andrew's Continues Latin Banquet Traditions </h1>
+	<div class="story">
+	On Sunday, November 10th the thirty-first annual St. Andrew's Latin Banquet was held in Nazro Hall on the 31st Street campus.  All Latin students in grades 5-12 participated and dressed in tunicae, togae, and stolae, according to their level of Latin.  Middle Schoolers and upper-level Upper Schoolers accessorized their garb to portray characters from Greco-Roman mythology and figures from Roman history.  During the banquet students were judged for the costume contests and sampled a three-course tasting menu based on food the Romans would have eaten.  <br />
+<br />
+Students prepared for the event in their Latin classes by studying about ancient Roman clothing and food.  Each Latin class from fifth grade through Pre-AP Latin also prepared poster boards on topics about this year's theme, "The Underworld."  During the banquet these posters were displayed and used as visual aids for the Latin III students to give oral presentations about each topic. The AP Latin students set up their own version of the Greco-Roman Underworld in Crusader Hall for students to experience during the festivities.  The Advanced Topics in Latin class prepared "rivers" of the Underworld for students to cross as they entered Nazro Hall.  The "price" to enter the banquet this year was not a coin, as the ancients believed was necessary for entering the Underworld, but rather a food item for the Hands for Hope Food Drive.  <br />
+<br />
+As many students who have attended the Latin Banquet since their Lower School years will tell you, the Latin Banquet offers many opportunities for the older students to inspire the younger students as they continue with their Latin studies. The younger students listen to the older students present about more advanced and interesting topics in the Latin language, Roman history, and mythology. The Upper School students work hard on their presentations, targeting the younger students in particular, trying to spark the interest that has driven them to continue with their own Latin education.<br />
+<br />
+While many schools are cutting their Latin programs due to budgetary constraints, St. Andrew's has continued offering students the opportunity to study Latin, the ancient language of the Romans that has given us the seven modern Romance languages. "The study of Roman culture which typically accompanies Latin study informs the study of any Western literature, art, or culture as well... If Latin were dead, every Western culture and language would be also bereft of life," comments former Notre Dame admissions counselor and current Harvard assistant professor Matthew Potts.  In addition to offering students a unique insight into the origins of the modern Western world, the study of Latin boosts their English vocabularies, understanding of grammar, and logical thinking skills.  As Andrea Thomas, Assistant Director of Admission at Hamilton College states, "A background in Latin provides students with a stronger English vocabulary.  Open any SAT prep book, and you will see a crash course in Latin in the vocab section."<br />
+<br />
+Many thanks to the Latin Banquet Parent Chairs, Laura Buehler and Andy Deskins, along with all of the parents who volunteered to make this year's banquet such a great success!<br />
+<br />
+(Article by Ariana Weiss, edited by Lauren Dill and Jennie Luongo)<br />
+<br />
+Costume Contest Winners<br />
+<br />
+5th Grade – Ballon<br />
+GIRLS<br />
+1st : Louise Lee<br />
+2nd : Malika Chauhan				<br />
+3rd : Sofia Huston<br />
+BOYS<br />
+1st : Becker Jackson<br />
+2nd : Jack Havemann<br />
+3rd : Trenton Jackson<br />
+<br />
+5th Grade – Eleby<br />
+GIRLS<br />
+1st : Mia Arriaga<br />
+2nd : Helen Chapin-Eiserloh<br />
+3rd : Maria Tobias & Evelyn Berry<br />
+BOYS<br />
+1st : Jack Bellingrath<br />
+2nd : Ethan LeBlanc<br />
+3rd : Liam Cohagan<br />
+<br />
+5th Grade – Hart<br />
+GIRLS<br />
+1st : Cammie Guttell<br />
+2nd : Carlie McCall<br />
+3rd : Avery Ingram<br />
+BOYS<br />
+1st : Nicholas DeBalko<br />
+2nd : Timmy O’Brien<br />
+3rd : Stephen Andrulis<br />
+<br />
+6th grade Section A<br />
+GIRLS<br />
+1st : Leah Claman<br />
+2nd : Kyla Thompson<br />
+3rd : Chloe Ezell<br />
+BOYS<br />
+1st : Henry Erlinger<br />
+2nd : Teddy Gilman<br />
+3rd : Alex Osella<br />
+<br />
+6th grade Section B<br />
+GIRLS<br />
+1st : Maddie McWilliams	<br />
+2nd : Mackenzie Kruger<br />
+3rd : Rachel Coe<br />
+BOYS<br />
+1st : John David Grisebaum<br />
+2nd : Chase Samuels<br />
+3rd : Cole Morehead<br />
+<br />
+6th grade Section C<br />
+GIRLS<br />
+1st : Sidney Marsh<br />
+2nd : Sarah Payet<br />
+3rd : Ellie Claman & Lily Hersch<br />
+BOYS<br />
+1st : Andrew Buller<br />
+2nd : Sina Mohammadi<br />
+<br />
+6th grade Section D<br />
+GIRLS<br />
+1st : Anna Jackson<br />
+2nd : Gia Fareri<br />
+3rd : Kathleen Schwartz<br />
+BOYS<br />
+1st : Ben Ledet<br />
+2nd : Stefaan Meinert<br />
+3rd : Truman Cunningham<br />
+<br />
+7th Grade<br />
+1st : Gina Perkins<br />
+2nd : Tristram Coffin<br />
+3rd : Robert MacDougall<br />
+<br />
+8th Grade, section 1<br />
+1st : Lex Searcy<br />
+2nd : Colton Gunnarson<br />
+3rd : Jasmine Aghazadeh<br />
+<br />
+8th Grade, section 2 & 3<br />
+1st : Layne Alam & Jackie Smith<br />
+2nd : Pace Renner<br />
+3rd : Oliver Chapin-Eiserloh<br />
+<br />
+Latin I <br />
+1st : Allison Eakman<br />
+2nd : Gavin Massengale<br />
+3rd : Noah Mele<br />
+<br />
+Latin II Freshmen – C Period<br />
+1st : Lizzy Leighty<br />
+2nd : William McKinnerney<br />
+3rd : Walton Schmidt<br />
+<br />
+Latin II Freshmen – D Period<br />
+1st : Hana Arriaga<br />
+2nd : Alexander Bradley<br />
+3rd : Rachel Nezzer<br />
+<br />
+Latin II Upperclassmen <br />
+1st : Alessandra Massa<br />
+2nd : Max Bartee<br />
+3rd : Tom Hogan<br />
+<br />
+Latin III – B Period<br />
+1st : Brendan Bowyer<br />
+2nd : Joel Campbell<br />
+3rd : Bryce Deskins & Ariana Weiss<br />
+<br />
+Latin III – F Period<br />
+1st : Carson Carroll<br />
+2nd : Annika Ostrom<br />
+3rd : Maya Kidd & Wesley Weidenmeier<br />
+<br />
+AP & Pre-AP non-seniors<br />
+1st : Connor Brucker<br />
+2nd : Noelle Brimble<br />
+3rd : Asa Buehler & Simran Frontain<br />
+<br />
+Advanced Topics & AP seniors<br />
+1st : Nate Eakman<br />
+2nd : Olivia Hindera & Mariah Sager <br />
+3rd : Jaron Shrock	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VII</div>
+	<div class="middlebox"> Kal. Nov.</div>
+	<div class="bottombox">26 Oct 13</div>
+	</div>
+	<h1>Clark Certamen Tournament a Success</h1>
+	<div class="story">
+	The weekend of October 26th, the St. Andrews Certamen teams traveled to Clark High School in San Antonio for the annual Clark Certamen Tournament. All five teams from the middle and upper schools did extremely well.  The Advanced A-team consisting of captain Olivia Hindera, Ariana Weiss, Wesley Wiedenmeier and Bryce Deskins won all of their preliminary rounds and then advanced to the final round. In the first round they played Westlake Red and LASA, in the second round they played St. Andrew's B and Westlake Blue, and in the third round they played Reagan A and Churchill. After these three rounds, they made finals as the second highest scoring team. Clark Black and Reagan B also made finals. The St. Andrew's team was ahead most of the round, and going into the last tossup the score was St. Andrew's A with 115 points and Clark Black with 100. Clark got the last question and both boni, so they ended up winning by with 120 points to the St. Andrew's 115 points.  It was an exciting, close, and well-fought match-up.  The St. Andrew's teams will play next in San Antonio at St. Mary's Hall on December 7th.	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VII</div>
+	<div class="middlebox"> Kal. Sep.</div>
+	<div class="bottombox">26 Aug 13</div>
+	</div>
+	<h1>US Latin Club Celebrates the Anniversary of the Eruption of Mt. Vesuvius</h1>
+	<div class="story">
+	To memorialize the amazingly destructive and devastating eruption that occurred 1,934 years ago, the St. Andrews Upper School Latin Club had an eruption of a different kind- an exploding cake!  On August 26th, 2013 during X-Period the Latin Club celebrated the historical event of the Mt. Vesuvius's Eruption by a steaming, bubbling Mt. Vesuvius Cake courtesy of Mrs. Dawn Bowyer. The real eruption of Mt. Vesuvius in 79 A.D while vastly devastating the surrounding cities created a future archeological wonder for all of us to see in the modern day. The lava and ash preserved Roman cities literally in a stone tomb so air tight it prevented even food stuffs from degrading. Now these cities can be observed at the active archeological sites.  One of the best preserved cities, Pompeii, is now well known as a tourist attraction.	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  IIII</div>
+	<div class="middlebox"> Kal. Aug.</div>
+	<div class="bottombox">29 Jul 13</div>
+	</div>
+	<h1>Latin students attend 60th annual NJCL Convention in Las Vegas</h1>
+	<div class="story">
+	Twenty members of the St. Andrew's Latin Club participated in the 2013 National Junior Classical League convention that was held at the University of Nevada in Las Vegas, Nevada from July 22nd to the 27th.  Participants competed in athletics (such as swimming, track, and ultimate Frisbee), art contests, and daily academic exams.  Many of the students placed in the top ten of their respective competitions, including academic tests, graphic arts, speaking and writing contests, and "Olympika" (athletics). Students also assembled for state fellowship and general assemblies, where they competed to show their spirit for their state, and marched in the Spirit Procession wearing their best Roman costumes along with about 1200 other Latin students from across the nation. The St. Andrew's trip also included a couple of spectacular Las Vegas shows, an awe-inspiring trip to the Hoover Dam, and an educational river raft tour.<br />
+<br />
+The NJCL Convention is run in part by student officers elected by the delegates to the convention.  Trace Turner has served the organization admirably for the last year as Editor of the Torch: US, the NJCL quarterly.  At this convention many of our 2013 grads also joined the Senior Classical League, an organization (made up of former JCL members after they graduate high school) that helps put on some of the events at NJCL convention. Upon becoming a member of the SCL at this convention, Trace Turner was elected to the position of SCL Editor.  Additionally Wesley Wiedenmeier, the Texas State Junior Classical League webmaster, won second place in the national website contest for all his work on the tsjcl.org website this past year.<br />
+<br />
+Two of our students were acknowledged for overall points as well. When a student places in the top five in a contest at NJCL he or she receives "personal sweepstakes points."  At the end of the convention awards are given for the most sweepstakes points in each category. Noelle Brimble placed 9th and Walton Schmidt placed 10th in the Creative Arts Sweepstakes category.<br />
+<br />
+Full results:<br />
+<br />
+1st Place<br />
+<br />
+Bryce Deskins - Classical Art (Level 2)<br />
+Henry Gaudin - 50-yard Breaststroke in Olympika<br />
+Walton Schmidt - Sight Latin Reading (Level 1)<br />
+Trace Turner - Traditional Photography (Grade 12)<br />
+<br />
+<br />
+2nd Place<br />
+<br />
+Wesley Weidenmeier - Website Contest<br />
+Bryce Deskins - Open Certamen (Intermediate Level)<br />
+<br />
+<br />
+3rd Place<br />
+<br />
+Noelle Brimble - Costume (Girls)<br />
+Noelle Brimble - English Oratory (Grade 10)<br />
+Charlie Dennis - Dramatic Interpretation (Poetry)<br />
+Nate Eakman - Modern Myth<br />
+Mariah Sager - Digital Scrapbook<br />
+Reeves Smith - Mottoes (Level 5+)<br />
+Trace Turner - Digitally Enhanced Photography (Grade 12)<br />
+Ariana Weiss - Classical Art (Level 2)<br />
+<br />
+<br />
+4th Place<br />
+<br />
+Nate Eakman - Cartoons (Grades 11-12)<br />
+Mariah Sager - Latin Derivatives (Level 5+)<br />
+Walton Schmidt - Mosaics (Grades 7-9)<br />
+Trace Turner - Classical Art (Level 5+)<br />
+<br />
+<br />
+6th Place<br />
+<br />
+Charlie Dennis - Classical Art (Level 5+)<br />
+Nate Eakman - Classical Art (Level 3)<br />
+Olivia Hindera - Mottoes (Level 4)<br />
+Tom Hogan - Essay (Grade 9)<br />
+William McKinnerney - Multimedia (Grades 7-9)<br />
+Marshall Wilson - Impromptu Art (Grade 12)<br />
+<br />
+<br />
+7th Place<br />
+<br />
+Connor Blake - 400 Meter Run in Olympika<br />
+Nate Eakman - Greek Derivatives (Level 3)<br />
+Mariah Sager - Greek Derivatives (Level 5+)<br />
+Katherine Salinas - Traditional Photography (Grades 7-9)<br />
+<br />
+<br />
+8th Place<br />
+<br />
+Connor Blake - Sight Latin Reading (Poetry)<br />
+Noelle Brimble - Dramatic Interpretation (Poetry)<br />
+Bryce Deskins - Traditional Photography (Grade 10)<br />
+Nolan McNearney - Sight Latin Reading (Level 1)<br />
+Mariah Sager - Classical Art (Level 5+)<br />
+Mariah Sager - Latin Vocabulary (Level 5+)<br />
+Wesley Wiedenmeier - Essay (Grade 10)<br />
+Marshall Wilson - Latin Derivatives (Level 1)<br />
+<br />
+<br />
+9th Place<br />
+<br />
+Noelle Brimble - Overall Creative Arts Sweepstakes<br />
+Tom Hogan - Black Ink Drawing (Grades 7-9)<br />
+Rachel Nezzer - Latin Literature (Level 1)<br />
+Reeves Smith - Classical Art (Level 5+)<br />
+Marshall Wilson - Essay (Grade 12)<br />
+<br />
+<br />
+10th Place<br />
+<br />
+Bryce Deskins - Mottoes (Level 2)<br />
+Bryce Deskins - Essay (Grade 10)<br />
+Rachel Nezzer - Sight Latin Reading (Level 1)<br />
+Katherine Salinas - Classical Greek (Level 1)<br />
+Walton Schmidt - Overall Creative Arts Sweepstakes<br />
+Reeves Smith - Essay (Grade 12)<br />
+Trace Turner - Illustrated Quotations (Grades 10-12)<br />
+Wesley Wiedenmeier - Reading Comprehension (Level 2)<br />
+<br />
+<br />
+<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VIII</div>
+	<div class="middlebox"> Kal. Iun.</div>
+	<div class="bottombox">25 May 13</div>
+	</div>
+	<h1>New Latin Club Officers:  2013-2014</h1>
+	<div class="story">
+	In a glorious ode to the end of the 2012-2013 school year Latin Club Students and friends celebrated at Mr. Michaud’s lake house by enjoying the pool and the nearby lake complete with trapeze swing. The famous annual Lake Party almost made history in being the first Lake Party to almost be rained out .In addition to the fun, games and rain, the 2013-2014 Officer Elections took place at the poolside in a ceremony led by our departing Senior Consul Trace Turner. This year’s election ended smoothly with Mariah Sager taking the Senior Consul position and only one tie for the Historicius Peregrinus position. The position is to be filled by co-historians James Krajicek (who is in charge of writing all articles pertaining to the Latin Club) and Caroline Graves (who will enter all Community Service and Publicity Contests for the Latin Club). <br />
+Your 2013-2014 Latin Club Officers!  audaces fortuna iuvat!<br />
+<br />
+SENIOR CONSUL	        MARIAH SAGER	<br />
+JUNIOR CONSUL		NOELLE BRIMBLE<br />
+PROCONSUL	        BRYCE DESKINS<br />
+QUAESTOR		OLIVIA HINDERA<br />
+HISTORICA LIBRI		ELLIE MCDANIEL<br />
+HISTORICA PEREGRINA	CAROLINE GRAVES<br />
+HISTORICUS PEREGRINUS	JAMES KRAJICEK	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XVII</div>
+	<div class="middlebox"> Kal. Iun.</div>
+	<div class="bottombox">16 May 13</div>
+	</div>
+	<h1>Maureen O'Donnel Book Awards</h1>
+	<div class="story">
+	The National Latin Exam Committee has commended Nick Fox and  Jaron Shrock for winning four consecutive gold medals on the exam. In recognition of this prestigious accomplishment, they are both receiving an Oxford Classical Dictionary.  <br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">Kal. </div>
+	<div class="middlebox">Mai.</div>
+	<div class="bottombox">1 May 13</div>
+	</div>
+	<h1>Upper School Latin Student Honored in CAMWS Translation Contest</h1>
+	<div class="story">
+	<br />
+The Classical Association of the Middle West and South offers a translation contest each year for high school students.  This year St. Andrew's junior Olivia Hindera was chosen as one of 20 book winners in the competition for her excellent sight translation of a selection of prose from Latin literature.  	</div>
+	<div id="datebox">
+	<div class="topbox">pridie Kalendas </div>
+	<div class="middlebox">Mai.</div>
+	<div class="bottombox">30 Apr 13</div>
+	</div>
+	<h1>5 Latin Students Win Awards on the Medusa Mythology Exam</h1>
+	<div class="story">
+	In March, 11 Upper School Latin students participated in the Medusa Mythology Exam, an exam that tests students' knowledge of Mythology relating to a theme.  This year's theme was the Trojan War, and 5 students received awards:<br />
+<br />
+Gold Medal:<br />
+Olivia Hindera<br />
+<br />
+Silver Medal:<br />
+Ariana Weiss<br />
+<br />
+Corona Olivae:<br />
+Bryce Deskins<br />
+Tom Hogan<br />
+Robert Luke	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VI</div>
+	<div class="middlebox"> Kal. Mai.</div>
+	<div class="bottombox">26 Apr 13</div>
+	</div>
+	<h1>Upper School Latin Students Win Awards on the National Latin Exam</h1>
+	<div class="story">
+	On February 27th, Latin students at the Upper school took the National Latin Exam.  They were joined by and competed with over 154,000 students from all 50 states and 15 foreign countries including Australia, Canada, China, Germany, Indonesia, Italy, Japan, the Netherlands, New Zealand, the Philippines, Poland, Taiwan, Turkey, the United Kingdom, and Zimbabwe.  There are separate exams for different levels of Latin, and students in each level are awarded medals (gold and silver) for high achievement.  Forty-six Upper School students were recognized with some kind of award.  Seventeen students received Gold Medals and seven received Silver Medals, the two highest awards on the exam.<br />
+<br />
+Perfect Score<br />
+<br />
+Nate Eakman<br />
+<br />
+<br />
+Gold Medals<br />
+<br />
+Harrison Benson<br />
+Frankie Chen<br />
+Bryce Deskins<br />
+Nick Fox<br />
+Henry Gaudin<br />
+Logan Giberson<br />
+Olivia Hindera<br />
+Zachary Osborne<br />
+Pavan Reddy<br />
+Mariah Sager<br />
+Jaron Shrock<br />
+Reeves Smith<br />
+Ariana Weiss<br />
+Wesley Wiedenmeier<br />
+Marshall Wilson<br />
+Jonathan Zornio<br />
+<br />
+<br />
+Silver Medals<br />
+<br />
+Mark Ashworth<br />
+Madeline Chastain<br />
+Sam Fason<br />
+Caroline Graves<br />
+Annika Mele<br />
+Noah Mele<br />
+Will Pearson<br />
+<br />
+<br />
+ <br />
+Magna Cum Laude<br />
+<br />
+Connor Blake<br />
+Brendan Bowyer<br />
+Elizabeth Curtin<br />
+Simran Frontain<br />
+Sam Garrison<br />
+Bri Hardeman<br />
+Thomas Hogan<br />
+Sara Kane<br />
+Gillean Kelly<br />
+Pritam Reddy<br />
+Tristan Reed<br />
+Maura Salgo<br />
+Jared Samuels<br />
+Carter Tomsu<br />
+Evan Young<br />
+<br />
+<br />
+Cum Laude<br />
+<br />
+Catherine Brady<br />
+Connor Brucker<br />
+McLean Ewbank<br />
+Kathryn Gernstein<br />
+William Howard<br />
+Madeleine Mele<br />
+John Sealy<br />
+<br />
+<br />
+As a senior receiving a gold medal in Latin III or above, Reeves Smith, has also received a scholarship application for the prestigious NLE scholarship.	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XVI</div>
+	<div class="middlebox"> Kal. Mai.</div>
+	<div class="bottombox">16 Apr 13</div>
+	</div>
+	<h1>Middle and Upper School Latin Students Excel at the State Latin Convention</h1>
+	<div class="story">
+	On March 30 and 31, St. Andrew's Upper School students competed at the Texas State Junior Classical League convention at Clark High School in San Antonio, Texas.  Students participated in academic, artistic, and athletic contests.<br />
+<br />
+Two Austin-area Certamen teams that included students from St. Andrew's competed in the state tournament.  The intermediate division team, including St. Andrew's students: Wesley Wiedenmeier, Henry Gaudin, captain Bryce Deskins, and alternate Jonathan Zornio, placed second. The novice division team including St. Andrew's students: Rachel Nezzer and alternates Walton Schmidt and Marshall Wilson placed second as well.  Congratulations to these Certamen players!<br />
+<br />
+Every year at the TSJCL convention, the member schools elect a board of student officers to lead the organization for the following year.  This year four St. Andrew's students have served as officers, Reeves Smith as Editor of the organization's publication, "the Torch," Olivia Hindera as Treasurer, Wesley Wiedenmeier as Webmaster, and Walton Schmidt as Area F Chairperson.  At the convention this year, Mariah Sager ran for the office of Historian, which she easily won.  Mariah will serve as Historian of the Texas State Junior Classical League during the next year.<br />
+<br />
+Two students won an award for having the highest score for their individual contests in any level: Reeves Smith received the high score award for Mottoes and William Howard scored the highest in Latin Oratory.<br />
+<br />
+Here are the complete results:<br />
+<br />
+1st Place<br />
+Noelle Brimble - Miscellaneous Art<br />
+Charlie Dennis - Greek Life and Literature<br />
+Olivia Hindera - Mottoes<br />
+William Howard - Latin Oratory Advanced<br />
+Will Pearson - Reading Comprehension Advanced Prose<br />
+Mariah Sager - Latin Derivatives<br />
+Mariah Sager - Scrapbook<br />
+Katherine Salinas - Photography<br />
+Walton Schmidt - Mottoes, Level 1/2 B<br />
+Walton Schmidt - Open Certamen, Novice division<br />
+Reeves Smith - Mottoes<br />
+Reeves Smith - Open Certamen<br />
+<br />
+<br />
+2nd Place<br />
+Noelle Brimble - Girls Costume<br />
+Madeline Chastain - Monochromatic drawing (State)<br />
+Madeline Chastain - Oil or Acrylic<br />
+Robert Luke - Roman History<br />
+Robert Luke - Geography of the Ancient World<br />
+William McKinnerney - Latin Literature, Level 1/2 B<br />
+Pouya Mohammadi - Latin Vocabulary, Level 1/2 B<br />
+Rachel Nezzer - Competitive Certamen, Novice division<br />
+Zack Osborne - Open Certamen<br />
+Will Pearson - Sight Recitation IV+ (Poetry)<br />
+Jack Reed & Janson Shrock - Modern Catapult<br />
+Jonathan Zornio - Grammar Advanced<br />
+<br />
+3rd Place<br />
+Jack Guttell - Grammar, Level 1/2 A<br />
+Olivia Hindera - Mythology<br />
+Robert Luke - Open Certamen<br />
+Zack Osborne - Grammar Advanced<br />
+Mariah Sager - Greek Derivatives<br />
+Trace Turner - Mythology<br />
+Ariana Weiss - Mythology<br />
+<br />
+4th Place<br />
+Layne Alam - Mythology, Level 1/2 A<br />
+Joel Campbell - Boys Costume<br />
+Charlie Dennis - Play<br />
+Bryce Deskins - Roman History<br />
+Caroline Graves - State T-Shirt<br />
+William Howard - Play<br />
+Isabel Laubach - Roman Life, Level 1/2 B<br />
+Ellie McDaniel - Sight Recitation III (Prose)<br />
+Annika Mele - Reading Comprehension Advanced Poetry<br />
+Rachel Nezzer - Mythology, Level 1/2 B<br />
+Cameron Osborn - Grammar Advanced<br />
+Will Pearson Ã¢â‚¬â€œ Play<br />
+Reeves Smith - Play<br />
+Trace Turner - Play<br />
+Ariana Weiss - Greek Life and Literature<br />
+Marshall Wilson - Latin Derivatives<br />
+Marshall Wilson - Play<br />
+<br />
+<br />
+5th Place<br />
+Harrison Benson - Electronic Artwork<br />
+Catherine Brady - Dramatic Interpretation Advanced - Girls<br />
+Noelle Brimble - Dramatic Interpretation Advanced - Girls<br />
+Charlie Dennis - Vocal Ensemble<br />
+Bryce Deskins - Latin Derivatives<br />
+Nate Eakman - Decathlon<br />
+Simran Frontain - Essay<br />
+Henry Gaudin - Mottoes<br />
+Will Pearson - Vocal Ensemble<br />
+Katherine Salinas - Sight Recitation, Level 1/2 B<br />
+Reeves Smith - Decathlon<br />
+Trace Turner - Vocal Ensemble<br />
+Wesley Wiedenmeier - Reading Comprehension II<br />
+Hannah Winslett - Poetry<br />
+<br />
+Students receiving summa cum laude awards for the Pentathlon: Brendan Bowyer, Asa Buehler, Bryce Deskins, Nate Eakman, Logan Giberson, Olivia Hindera, Thomas Hogan, William Howard, Julia Josowitz, Sara Kane, James Krajicek, Isabel Laubach, Rachel Nezzer, Zachary Osborne, William Pearson, Katherine Salinas, Walton Schmidt, Reeves Smith, Ariana Weiss, Wesley Wiedenmeier, Marshall Wilson, Jonathan Zornio<br />
+<br />
+Students receiving maxima cum laude awards for the Pentathlon: Layne Alam, Frankie Chen, Samuel Garrison, Henry Gaudin, Caroline Graves, Robert Luke, Annika Mele, Cameron Osborn, Tristan Reed, Michelle Robles, Mariah Sager, Janson Shrock<br />
+<br />
+Students receiving magna cum laude awards for the Pentathlon:  Andrew Barron, Harrison Benson, Carson Carroll, Madeline Chastain, Charles Dennis, Christian Erben, Simran Frontain, Kathryn Gernstein, Bri Hardeman, Grace Jensen, Will Josowitz, Ellie McDaniel, Madeleine Mele, Taylor Thompson, Trace Turner, Hannah Winslett<br />
+<br />
+Students receiving cum laude awards for the Pentathlon:  Connor Blake, Catherine Brady, William McKinnerney, Nolan McNearney, Jack Reed<br />
+<br />
+Overall, the Upper School placed 6th in Upper Division Sweepstakes, making us the highest-ranked SPC school at the event.  The Middle School placed 9th in the Middle School Division.<br />
+<br />
+The Latin teachers would like to thank Trey and Annette Graves, Dawn and Steven Bowyer, and Cindy Luongo-Cassidy for helping to deal with logistics during the convention. Thanks also to all the parents who donated food and showed up to watch candidates' speeches and Certamen finals. Good luck to all as we prepare for Nationals this summer at the University of Nevada, Las Vegas.	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  IIII</div>
+	<div class="middlebox"> Non. Apr.</div>
+	<div class="bottombox">3 Apr 13</div>
+	</div>
+	<h1>Upper School Latin Students Win Medals for the NCEE</h1>
+	<div class="story">
+	In November thirteen Upper School Latin students took part in the National Classical Etymology Exam, an online exam sponsored by the National Junior Classical League.  Nearly have of St. Andrews' thirteen participants were awarded medals for their performance on the exam based on their grade level.<br />
+<br />
+Receiving Gold Medals:<br />
+<br />
+Olivia Hindera<br />
+Sara Kane<br />
+Mariah Sager<br />
+<br />
+Receiving Bronze Medals:<br />
+<br />
+Bryce Deskins<br />
+Simran Frontain<br />
+Reeves Smith	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  V</div>
+	<div class="middlebox"> Kal. Feb.</div>
+	<div class="bottombox">28 Jan 13</div>
+	</div>
+	<h1>Upper School Students Win Ancient Coins</h1>
+	<div class="story">
+	This year students at St. Andrew's Upper School are participating in the Ancient Coins for Education project.  Students in some Latin classes will be examining and identifying genuine Roman coins sent to us by the project, led by Trace Turner '13, an ancient coin enthusiast.  As part of this project, Upper School students in Latin 3, 4, and 5 participated in a competition to identify images on Roman coins.  Our school winner was Olivia Hindera '14 and for her excellent performance she received a Roman coin minted under Theodosius the Great.  <br />
+<br />
+Additionally, the Advanced Topics in Latin students participated in an essay writing competition.  Cameron Osborn's (class of 2013) essay, which was the winning essay selected from our school, was entered in the national competition.  His essay placed third nationally.  Cameron received both an ancient coin and a book prize.  Congratulations to both these ancient Roman coin experts!	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  X</div>
+	<div class="middlebox"> Kal. Feb.</div>
+	<div class="bottombox">23 Jan 13</div>
+	</div>
+	<h1>St. Andrew's Hosts Successful Area Latin Convention</h1>
+	<div class="story">
+		On Friday, January 18 and Saturday, January 19 the St. Andrew's Latin Clubs hosted the Area F Latin Convention at St. Andrew's Lower and Middle School.  Many student and parent volunteers spent countless hours setting-up, running, and cleaning up after the Convention, and it was a great success.  Our very own eighth-grader Walton Schmidt presided over the convention as the Area F Chairperson, taking a lead role along with his sponsor Lauren Dill in making the convention run smoothly.  The Latin teachers and clubs would like to sincerely thank everyone who came out to help us put on a great convention this year.<br />
+In Certamen all of our teams did well.  Our Our Middle School Certamen team, composed of Layne Alam, Katie Cowan, William McKinnerney, Rachel Nezzer, Katherine Salinas, Janson Shrock, and captain Walton Schmidt advanced to finals and won second by a nail.  Our Novice Certamen team composed of Mark Ashworth, Max Bartee, Tom Hogan, James Krajicek, and captain Marshall Wilson won first place by 50 points.  The Intermediate Certamen team including captain Bryce Deskins, Ariana Weiss, Wesley Wiedenmeier, Jonathan Zornio, and alternates Harrison Benson, Henry Gaudin, and Caroline Graves also took first place.  The Advanced team (Olivia Hindera, captain Robert Luke, Zack Osborne, and Reeves Smith with alternates Sara Kane, Mariah Sager, and Trace Turner) won third place in a hard fought round.  Members of all four Certamen teams will have the opportunity to represent Area F at the State Latin Convention in April.<br />
+As a school, St. Andrew's Upper School took second in the overall academic sweepstakes, calculated by assigning points for first, second, and third place finishes.  Four students were recognized for having the highest score at any level on their tests:  Olivia Hindera in Mythology, Mariah Sager in Latin Derivatives, Jaron Shrock in Reading Comprehension Advanced Prose, and Reeves Smith in Mottoes.<br />
+<br />
+1st Place<br />
+<br />
+Asa Buehler - Geography of the Ancient World<br />
+Joel Campbell - Boys Costume<br />
+Charlie Dennis - Dramatic Interpretation Advanced - Boys<br />
+Bryce Deskins - Latin Derivatives<br />
+Charlie Dennis - Play<br />
+Nate Eakman - Mythology<br />
+Henry Gaudin - Mottoes<br />
+Gabbie Hindera - Play<br />
+Olivia Hindera - Mottoes<br />
+Olivia Hindera - Mythology<br />
+Tom Hogan - Mythology<br />
+William Howard - Latin Oratory Advanced<br />
+William Howard - Play<br />
+Grace Jensen - MS Girls Long Jump<br />
+Nolan McNearney - MS Boys 50 Yard Dash<br />
+Nolan McNearney - MS Boys Long Jump<br />
+Will Pearson - Play<br />
+Mariah Sager - Latin Derivatives<br />
+Walton Schmidt - Mottoes & Abbreviations<br />
+Janson Shrock - MS Boys Frisbee Throw<br />
+Janson Shrock - MS Boys Softball Throw<br />
+Jaron Shrock - Reading Comprehension Advanced Prose<br />
+Jaron Shrock - Grammar Advanced<br />
+Reeves Smith - Mottoes<br />
+Reeves Smith - Play<br />
+Trace Turner - Play<br />
+Wesley Wiedenmeier - Grammar Advanced<br />
+Marshall Wilson - Play<br />
+Hannah Winslett - Polychromatic Art (Area F)<br />
+Hannah Winslett - HS Girls 200 Yard Dash<br />
+Jonathan Zornio - Grammar Advanced<br />
+<br />
+2nd Place<br />
+<br />
+Mark Ashworth - Grammar I (Elementary)<br />
+Harrison Benson - Dramatic Interpretation II - Boys<br />
+Connor Blake - Greek Life and Literature<br />
+Frankie Chen - Grammar Advanced<br />
+Charlie Dennis - Vocal Ensemble<br />
+Bryce Deskins - Roman History<br />
+Bethany Dollar - MS Girls Frisbee Throw<br />
+Nate Eakman - Decathlon<br />
+Sam Fason - Geography of the Ancient World<br />
+Nick Fox - Decathlon<br />
+Nick Fox - Roman Life<br />
+Grace Gilmour - MS Girls Softball Throw<br />
+Jack Guttell - Vocabulary<br />
+Caroline Graves - Sight Recitation II<br />
+Gabbie Hindera - Roman Life<br />
+William Howard - Grammar Advanced<br />
+Grace Jensen - MS Girls 50 Yard Dash<br />
+Grace Jensen - MS Girls 100 Yard Dash<br />
+Gillean Kelly - Latin Literature<br />
+James Krajicek - Roman History<br />
+Robert Luke - Roman History<br />
+Robert Luke - Geography of the Ancient World<br />
+Alessandra Massa - Greek Life and Literature<br />
+Ellie McDaniel - Sight Recitation III (Prose)<br />
+Noah Mele - Greek History<br />
+Zack Osborne - Grammar Advanced<br />
+Zack Osborne - Latin Derivatives<br />
+Will Pearson - Vocal Ensemble<br />
+Mariah Sager - Greek Derivatives<br />
+Katherine Salinas - Sight Recitation<br />
+Janson Shrock - Reading Comprehension<br />
+Janson Shrock - MS Boys 100 Yard Dash<br />
+Reeves Smith - Latin Literature<br />
+Taylor Thompson - Ancient Geography<br />
+Taylor Thompson - MS Boys Long Jump<br />
+Trace Turner - Vocal Ensemble<br />
+Hannah Winslett - HS Girls 50 Yard Dash<br />
+Jonathan Zornio - Geography of the Ancient World<br />
+<br />
+3rd Place<br />
+<br />
+Layne Alam - Mythology<br />
+Mark Ashworth - Decathlon<br />
+Andrew Barron - Roman Life<br />
+Andrew Barron - HS Boys 200 Yard Dash<br />
+Max Bartee - Vocabulary<br />
+Harrison Benson - Polychromatic Art (Area F)<br />
+Harrison Benson - Play<br />
+Quinn Bingham - Greek Derivatives<br />
+Quinn Bingham - MS Girls Softball Throw<br />
+Brendan Bowyer - Decathlon<br />
+Connor Brucker - Play<br />
+Asa Buehler - Roman History<br />
+Connor Brucker - Greek History<br />
+Joel Campbell - Latin Oratory II<br />
+Joel Campbell - Play<br />
+Frankie Chen - Decathlon<br />
+Katie Cowan - Greek Life & Literature<br />
+Charlie Dennis - Greek Life and Literature<br />
+Bethany Dollar - MS Girls Long Jump<br />
+Caroline Graves - Play<br />
+Jack Guttell - Grammar<br />
+Tom Hogan - Roman Life<br />
+Grace Jensen - MS Girls 200 Yard Dash<br />
+Sara Kane - Latin Literature<br />
+Sara Kane - Play<br />
+Simran Frontain - Play<br />
+Gillean Kelly - Reading Comprehension Advanced Poetry<br />
+Ellie McDaniel - Roman Life<br />
+Rachel Nezzer - Mythology<br />
+Rachel Nezzer - Vocabulary<br />
+Will Pearson - Sight Recitation IV+ (Poetry)<br />
+Will Pearson - Vocal Solo<br />
+Walton Schmidt - Decathlon<br />
+John Sealy - Greek Derivatives<br />
+Matthew Tobias - MS Boys 100 Yard Dash<br />
+Matthew Tobias - MS Boys Long Jump<br />
+Ariana Weiss - Play<br />
+Hannah Winslett - HS Girls 100 Yard Dash<br />
+<br />
+Pentathlon Results<br />
+<br />
+Summa Cum Laude:  Layne Alam, Frankie Chen, Bryce Deskins, Nate Eakman, Nick Fox, Henry Gaudin, Olivia Hindera, Tom Hogan, Zachary Osborne, Katherine Salinas, Jaron Shrock, Wesley Wiedenmeier, Evan Young, Jonathan Zornio<br />
+<br />
+Maxima Cum Laude:  Alexandra Ameel, Mark Ashworth, Max Bartee, Quinn Bingham, Brendan Bowyer, Connor Brucker, Asa Buehler, Carson Carroll, Madeline Chastain, Elizabeth Curtin, Charlie Dennis, Sam Fason, Molly Fox, Simran Frontain, Sam Garrison, Kathryn Gernstein, Logan Giberson, William Howard, Grace Jensen, Sara Kane, James Krajicek, Alessandra Massa, Ellie McDaniel, William McKinnerney, Pouya Mohammadi, Cameron Osborn, Will Pearson, Jack Reed, Mariah Sager, Cameron Scott, John Sealy, Lex Searcy, Janson Shrock, Reeves Smith, Taylor Thompson, Matthew Tobias, Hannah Winslett<br />
+<br />
+Magna Cum Laude:  Andrew Barron, Harrison Benson, Connor Blake, Catherine Brady, Joel Campbell, Katie Cowan, Bethany Dollar, Christian Erben, Kate Fox, Grace Gilmour, Caroline Graves, Will Greskovich, Jack Guttell, Bri Hardeman, Gabbie Hindera, Gillean Kelly, Maya Kidd, Robert Luke, Noah Mele, Michelle Robles, Maura Salgo, Walton Schmidt, Jackie Smith, Trace Turner, Ariana Weiss<br />
+<br />
+Cum Laude:  Oliver Chapin-Eiserloh Noah Ford, Ingrid Hoff, Nolan McNearney, Char Quach	</div>
+	<div id="datebox">
+	<div class="topbox">Id. </div>
+	<div class="middlebox">Dec.</div>
+	<div class="bottombox">13 Dec 12</div>
+	</div>
+	<h1>St. Andrew's Certamen Wins Awards at Crusader Classic</h1>
+	<div class="story">
+		Last Saturday on December 8, St. Andrew's hosted the annual Cru Classic Certamen tournament. Everyone helped set up for the tournament the night before, moving desks around and lugging Certamen machines to set up the rooms for the competition. Our own Certamen teams competed, and every single one made it into the finals! The Middle school consisting of Walton Schmidt, Kady Salinas, Janson Shrock, and Rachel Nezzer placed second. Marshall Wilson, Mark Ashworth, Tom Hogan, and Max Bartee of our Novice team placed first. Our Intermediate team made up of Bryce Deskins, Ariana Weiss, Wesley Weidenmeier, and Jonathan Zornio came in third. And, our Advanced team consisting of Olivia Hindera, Reeves Smith, Zack Osborne, and Robert Luke secured second place. After another successful Crusader Classic tournament, please help us congratulate everyone! <br />
+<br />
+Middle School: 2nd Walton Schmidt, Kady Salinas, Janson Shrock, Rachel Nezzer<br />
+Novice: 1st Marshall Wilson, Mark Ashworth, Tom Hogan, Max Bartee<br />
+Intermediate: 3rd Bryce Deskins, Ariana Weiss, Wesley Weidenmeier, Jonathan Zornio<br />
+Advanced: 2nd Olivia Hindera, Reeves Smith, Robert Luke, Zack Osborne<br />
+<br />
+We are also incredibly grateful to our wonderful parent and student volunteers who helped to make the tournament run smoothly.	</div>
+	<div id="datebox">
+	<div class="topbox">prid. Id. </div>
+	<div class="middlebox">Nov.</div>
+	<div class="bottombox">12 Nov 12</div>
+	</div>
+	<h1>Certamen Teams Compete at Clark Certamen</h1>
+	<div class="story">
+	On November 10, St. Andrew's competed in the Clark Certamen Tournament in San Antonio. The Advanced A Team, led by mythology specialist Olivia Hindera, grammar specialist Zack Osborne, history specialist Robert Luke, and literature specialist Reeves Smith, made it to the finals in the Clark tournament-- one of the toughest tournaments in Texas. Trace Turner, Asa Buehler, and Sara Kane competed on the B team, and Nate Eakman, Mariah Sager, and Jaron Shrock competed on the C team and represented St. Andrew's very well along with Intermediate team members Bryce Deskins, Ariana Weiss, Wesley Wiedenmeier, Jonathan Zornio, Harrison Benson, and Caroline Graves. Congratulations to all our St. Andrew's Teams who competed at the Clark Tournament!	</div>
+	<div id="datebox">
+	<div class="topbox">prid. Id. </div>
+	<div class="middlebox">Nov.</div>
+	<div class="bottombox">12 Nov 12</div>
+	</div>
+	<h1>Two Upper Schoolers appointed to TSJCL Office</h1>
+	<div class="story">
+	Senior Reeves Smith has been appointed to become the Torch Editors for TSJCL Torch for 2012-2013! This marks the sixth consecutive year in a row that an SAS student has held this title. As Torch Editor, Reeves will be in charge of making the TSJCL newsletter that goes out to schools. Also, Wesley Wiedenmeier has become the webmaster for TSJCL! As Webmaster, he will be editing the TSJCL website and will be keeping it up to date. Congratulate these two on their arrival into office!	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  IIII</div>
+	<div class="middlebox"> Kal. Sep.</div>
+	<div class="bottombox">29 Aug 12</div>
+	</div>
+	<h1>Eruption of Mt. Vesuvius Celebrated</h1>
+	<div class="story">
+	On August 27, Latin students witnessed the eruption of Mt. Vesuvius in cake form. Although it was a tragedy when the volcano erupted in August AD 79, the eruption of Mt. Vesuvius brought forth much to celebrate for Latin students. For, without this disaster 1,933 years ago, we would never have discovered so much about the daily life of the Romans. Therefore, to celebrate the anniversary of the eruption, St. Andrew's Latin students take apart and eat an erupting chocolate every year.  The Latin Club thanks Mrs. Osborn whose sugary volcanic edifice made it another day to remember.	</div>
+	<div id="datebox">
+	<div class="topbox">Id. </div>
+	<div class="middlebox">Aug.</div>
+	<div class="bottombox">13 Aug 12</div>
+	</div>
+	<h1>Upper and Middle School Students Compete and Win at NJCL Convention at Wake Forest</h1>
+	<div class="story">
+	St. Andrew's Latin Club Attends National Junior Classical League Convention<br />
+<br />
+Seventeen members of the St. Andrew's Latin Club participated in the 2012 National Junior Classical League convention that was held at Wake Forest University in Winston-Salem, North Carolina from July 26th to the 31st.  Participants competed in athletics (such as swimming, soccer, and ultimate Frisbee), art contests, and daily academic exams.  Many of the students placed in the top ten of their respective competitions, including Academic Tests, Graphic Arts, Writing Competitions, and Ludi Sports. Students also assembled for state fellowship and general assemblies, where they competed to show their spirit for their state, and marched in the Spirit Procession wearing their best Roman costumes along with about 1500 other Latin students from across the nation. The trip also included river rafting and visits to the Biltmore Estate and several college campuses.<br />
+<br />
+The NJCL Convention is run in part by student officers elected by the delegates to the convention, and this year, rising St. Andrew's senior Trace Michael Turner, was elected to the position of National Editor.  Trace will be responsible for the creation and publication of the NJCL's renowned publication, the Torch U.S.  Trace has previously held the same position in the Texas State JCL.  Trace will have a large hand in shaping and carrying out the agenda of the National Junior Classical League.<br />
+<br />
+Results for the individual events are listed below, but there is one achievement that must be noted first.  When a student places in the top five in a contest at NJCL he or she receives "personal sweepstakes points."  At the end of the convention awards are given for the most sweepstakes points in each category.  Recent St. Andrew's graduate, Ali Campion, placed 8th in the Creative Arts Sweepstakes.<br />
+<br />
+Ali was also chosen as "best in class" for her Dramatic Interpretation and was therefore asked to perform it again at the awards ceremony and later for the NJCL National Committee who recorded it for their website.  You will soon be able to see it at njcl.org.<br />
+<br />
+Full results:<br />
+<br />
+1st Place<br />
+Ali Campion - Dramatic Interpretation Advanced - Girls<br />
+Ali Campion - Sight Recitation IV+ (Poetry)<br />
+Ali Campion - Computer-Enhanced Photography<br />
+Walton Schmidt - Mottoes<br />
+Walton Schmidt - Sight Recitation I<br />
+<br />
+2nd Place<br />
+Rachel Deleery - Classical Art<br />
+Nate Eakman - Modern Myth<br />
+<br />
+3rd Place<br />
+Rachel Deleery - Open Certamen:  Advanced<br />
+Bryce Deskins - Classical Art<br />
+Nate Eakman - Open Certamen:  Intermediate<br />
+Nolan McNearney - Sight Recitation I<br />
+Katherine Salinas - Sight Recitation I<br />
+<br />
+4th Place<br />
+Ali Campion - Games<br />
+Ali Campion - Jewelry and Handicrafts<br />
+Rachel Deleery - Greek Life and Literature<br />
+Katherine Salinas - Traditional Photography<br />
+<br />
+5th Place<br />
+Rachel Deleery - Mythology<br />
+Olivia Hindera - Mottoes<br />
+Emma Richardson - Vocabulary<br />
+Emma Richardson - Sight Recitation IV+ (Poetry)<br />
+Trace Turner - Traditional Photography<br />
+<br />
+6th Place<br />
+Noelle Brimble - Dramatic Interpretation Advanced - Girls<br />
+Ali Campion - Classical Art<br />
+Ali Campion - Dolls<br />
+Rachel Deleery - Latin Literature<br />
+Emma Richardson - Reading Comprehension Advanced Poetry<br />
+Trace Turner - Illustrated Quotes<br />
+Nolan McNearney - Greek Life and Literature<br />
+<br />
+7th Place<br />
+Ali Campion - Traditional Photography<br />
+Rachel Deleery - Decorative Stitching<br />
+Emma Richardson - Grammar Advanced<br />
+Katherine Salinas - Latin Derivatives<br />
+Walton Schmidt - Latin Derivatives<br />
+<br />
+8th Place<br />
+Bryce Deskins - Greek Life and Literature<br />
+Nate Eakman - Mythology<br />
+Nate Eakman - Reading Comprehension II<br />
+Dawson Henderson - 50 yard Freestyle Boys<br />
+Olivia Hindera - Classical Art<br />
+Cameron Osborn - Monochromatic drawing<br />
+Nolan McNearney - Greek History<br />
+<br />
+9th Place<br />
+Ali Campion - Essay<br />
+Rachel Deleery - Geography of the Ancient World<br />
+Rachel Deleery - Greek History<br />
+William Howard - Dramatic Interpretation Advanced - Boys<br />
+Emma Richardson - Latin Derivatives<br />
+Emma Richardson - Traditional Photography<br />
+Mariah Sager - Sight Recitation IV+ (Poetry)<br />
+Trace Turner - Classical Art<br />
+Katherine Salinas - Vocabulary<br />
+Katherine Salinas - Polychromatic drawing<br />
+<br />
+10th Place<br />
+Rachel Deleery - Roman Life<br />
+Bryce Deskins - 50 yard Freestyle Jr. Boys<br />
+William Howard - Classical Art<br />
+Katherine Salinas - Reading Comprehension I	</div>
+	<div id="datebox">
+	<div class="topbox">Non. </div>
+	<div class="middlebox">Mai.</div>
+	<div class="bottombox">7 May 12</div>
+	</div>
+	<h1>Upper School Latin Students Receive Medals for the National Roman Civilization Exam</h1>
+	<div class="story">
+	In March, seven Upper school Latin students participated in the online National Roman Civilization Exam, which tests students' knowledge of Roman History and Roman Daily Life.  Of the seven participants four received recognition for their performance on the exam.<br />
+<br />
+Receiving Gold Medals<br />
+<br />
+Rachel Deleery<br />
+Olivia Hindera<br />
+Robert Luke<br />
+<br />
+Receiving Silver Medals<br />
+<br />
+Trace Turner	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XIII</div>
+	<div class="middlebox"> Kal. Mai.</div>
+	<div class="bottombox">19 Apr 12</div>
+	</div>
+	<h1>Upper School Students Excel on the National Latin Exam</h1>
+	<div class="story">
+	On February 29th, Latin students at the Upper school took the National Latin Exam.  They were joined by and competed with over 150,000 students from all 50 states and 13 foreign countries including Australia, Canada, China, France, Germany, Iran, Italy, Japan, New Zealand, Poland, Taiwan, the United Kingdom, and Zimbabwe.  There are separate exams for different levels of Latin, and students in each level are awarded medals (gold and silver) for high achievement.  Forty-eight Upper School students were recognized with some kind of award.  Sixteen students received Gold Medals and twelve received Silver Medals, the two highest awards on the exam.  Two students, Jaron Shrock and Zachary Osborne received perfect scores on the exam.<br />
+<br />
+Gold Medals (Summa Cum Laude)<br />
+<br />
+Frankie Chen<br />
+Bryce Deskins<br />
+Nate Eakman<br />
+Sam Fason<br />
+Nick Fox<br />
+Logan Giberson<br />
+Olivia Hindera<br />
+Sara Kane<br />
+Annika Mele<br />
+Andy Newell<br />
+Zack Osborne<br />
+Will Pearson<br />
+Emma Richardson<br />
+Mariah Sager<br />
+Jaron Shrock<br />
+Evan Young<br />
+<br />
+Silver Medals (Maxima Cum Laude)<br />
+<br />
+Kathryn Gernstein<br />
+William Howard<br />
+Parker Kell<br />
+Gillean Kelly<br />
+Alex Lewis<br />
+Cameron Osborn<br />
+Catherine Pace<br />
+Tristan Reed<br />
+Michelle Robles<br />
+John Sealy<br />
+Reeves Smith<br />
+Wesley Wiedenmeier<br />
+<br />
+Magna Cum Laude<br />
+<br />
+Sam Andrews<br />
+Connor Brucker<br />
+Ali Campion<br />
+Rachel Deleery<br />
+Charlie Dennis<br />
+Patrick Dunham<br />
+Bri Hardeman<br />
+Gabbie Hindera<br />
+Julia Josowitz<br />
+Annie Osborne<br />
+Jade Ross<br />
+Lance Sharp<br />
+Kendle Windham<br />
+Hannah Winslett<br />
+<br />
+Cum Laude<br />
+<br />
+Connor Blake<br />
+Madeline Chastain<br />
+Simran Frontain<br />
+Ingrid Hoff<br />
+Jared Samuels<br />
+Trace Turner	</div>
+	<div id="datebox">
+	<div class="topbox">prid. Kal. </div>
+	<div class="middlebox">Apr.</div>
+	<div class="bottombox">31 Mar 12</div>
+	</div>
+	<h1>Latin Students Compete at TSJCL Convention; Olivia Hindera Elected Treasurer of Texas State JCL</h1>
+	<div class="story">
+	On March 30 and 31, St. Andrew's Upper School students competed at the Texas State Junior Classical League convention at Clark High School in San Antonio, Texas.  Students participated in academic, artistic, and athletic contests.<br />
+<br />
+Two Austin-area Certamen teams that included students from St. Andrew's competed in the state tournament.  The advanced division team, including St. Andrew's students: Emma Richardson, Rachel Deleery, Connor Butler, and Olivia Hindera, placed second by a very close margin. The novice division team including St. Andrew's students: Bryce Deskins and Dawson Henderson placed second after a hard-fought final round.  Congratulations to these Certamen players!<br />
+<br />
+Every year at the TSJCL convention, the member schools elect a board of student officers to lead the organization for the following year.  This year three St. Andrew's students have served as officers, Trace Turner as Editor of the organization's publication, the "Torch," Jade Ross as Treasurer, and Ali Campion as President.  At the convention this year, Olivia Hindera ran for the office of Treasurer, which she easily won.  Olivia will serve as Treasurer of the Texas State Junior Classical League during the next year, joining Middle Schooler Walton Schmidt, the Area F Chair, on the board.<br />
+<br />
+Two students won an award for having the highest score for their individual contests in any level: Ali Campion received the high score award for Sight Recitation and Rachel Deleery scored the highest in the Pentathlon, a test taken by every student at convention.<br />
+<br />
+Here are the complete results:<br />
+<br />
+1st Place<br />
+<br />
+Emma Richardson - Latin Derivatives<br />
+Emma Richardson - Grammar Advanced<br />
+Reeves Smith - Mottoes<br />
+Jade Ross - Mottoes<br />
+Ali Campion - Dramatic Interpretation Advanced - Girls<br />
+Ali Campion - Sight Recitation IV+ (Poetry)<br />
+Dawson Henderson - Open Certamen<br />
+Patrick Dunham - Ludi Ultimate Frisbee<br />
+Walton Schmidt - Mottoes<br />
+<br />
+2nd Place<br />
+<br />
+Olivia Hindera - Mottoes<br />
+Rachel Deleery - Mythology<br />
+Rachel Deleery - Latin Literature<br />
+Will Pearson - Sight Recitation IV+ (Poetry)<br />
+Hannah Winslett - Girls 40 M Dash<br />
+Bri Hardeman - Girls 100 M Dash<br />
+Gillean Kelly - Girls 400 M Dash<br />
+Bryce Deskins - Open Certamen<br />
+Caroline Graves - Sight Recitation<br />
+<br />
+3rd Place<br />
+<br />
+Olivia Hindera - Mythology<br />
+Madeline Chastain - Oil or Acrylic<br />
+Jade Ross - Girls Softball Throw<br />
+Nate Eakman - Open Certamen<br />
+Noah Ford - Boys Frisbee Throw<br />
+Grace Jensen - Latin Derivatives<br />
+Will Josowitz - Greek Derivatives<br />
+<br />
+<br />
+4th Place<br />
+<br />
+Jaron Shrock - Grammar Advanced<br />
+Trace Turner - Mythology<br />
+Connor Butler - Roman History<br />
+Connor Butler - Roman Life<br />
+Jaron Shrock - Latin Oratory Advanced<br />
+Catherine Pace - Sight Recitation III (Prose)<br />
+Nolan McNearney - Greek Life & Literature<br />
+<br />
+5th Place<br />
+<br />
+Mariah Sager - Latin Derivatives<br />
+Jade Ross - Reading Comprehension Advanced Prose<br />
+Nate Eakman - Mythology<br />
+Robert Luke - Geography of the Ancient World<br />
+Charlie Dennis - Dramatic Interpretation Advanced - Boys<br />
+Noelle Brimble - Dramatic Interpretation Advanced - Girls<br />
+Gabbie Hindera - Dramatic Interpretation Advanced - Girls<br />
+Noah Ford - Couples Costume<br />
+Jade Ross - Polychromatic drawing (State)<br />
+Annie Osborne - Scrapbook<br />
+Evan Young - Couples Costume<br />
+Andrew Barron - Boys Softball Throw<br />
+William McKinnerney - Sight Recitation<br />
+<br />
+Students receiving summa cum laude awards for the Pentathlon: Andrew Barron, Asa Buehler, Connor Butler, Carson Carroll, Frankie Chen, Rachel Deleery, Bryce Deskins, Nate Eakman, McLean Ewbank, Dawson Henderson, Olivia Hindera, William Howard, Julia Josowitz, Gillean Kelly, Robert Luke, Annika Mele, Andy Newell, Rachel Nezzer, Cameron Osborn, Zack Osborne, Will Pearson, Emma Richardson, Mariah Sager, Walton Schmidt, Jaron Shrock, Reeves Smith, Taylor Thompson, Trace Turner, Evan Young<br />
+<br />
+Students receiving maxima cum laude awards for the Pentathlon: Ali Campion, Charlie Dennis, Bethany Dollar, Patrick Dunham, Sam Fason, Logan Giberson, Bri Hardeman, Gabbie Hindera, Ingrid Hoff, Grace Jensen, Will Josowitz, Catherine Pace, Tristan Reed, Jade Ross, Katherine Salinas<br />
+<br />
+Students receiving magna cum laude awards for the Pentathlon:  Connor Blake, Noelle Brimble, Noah Ford, Eliana Gill, Caroline Graves, Alex Lewis, William McKinnerney, Noah Mele, Michelle Robles, Lance Sharp, Hannah Winslett<br />
+<br />
+Students receiving cum laude awards for the Pentathlon:  Madeline Chastain, Christian Erben, Simran Frontain, Kathryn Gernstein, Madeleine Mele<br />
+<br />
+Overall, the Upper School placed 6th in Upper Division Sweepstakes, making us the highest-ranked SPC school at the event.<br />
+<br />
+The Latin teachers would like to thank John and Cheryl Hindera along with Cindy Luongo-Cassidy and John Cassidy for helping to ferry supplies and students around during the convention. Thanks also to all the parents who donated food and showed up to watch candidates' speeches and Certamen finals. Good luck to all as we prepare for Nationals this summer at Wake Forest University in Winston-Salem, NC.	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  III</div>
+	<div class="middlebox"> Kal. Feb.</div>
+	<div class="bottombox">30 Jan 12</div>
+	</div>
+	<h1>Upper School Students Win Medals for the National Classical Etymology Exam</h1>
+	<div class="story">
+	In November of 2011, 24 Upper School Latin students participated in the National Classical Etymology Exam, testing their knowledge of the Greek and Latin roots of English words.  Eleven of these students received recognition for their performance on the exam in the form of a gold, silver or bronze medal.<br />
+<br />
+Receiving Gold Medals:<br />
+<br />
+Simran Frontain<br />
+Olivia Hindera<br />
+Zack Osborne<br />
+John Sealy<br />
+<br />
+<br />
+Receiving Silver Medals:<br />
+<br />
+Connor Blake<br />
+Connor Butler<br />
+Rachel Deleery<br />
+Bryce Deskins<br />
+<br />
+<br />
+Receiving Bronze Medals:<br />
+<br />
+Kathryn Gernstein<br />
+Alex Lewis<br />
+Hannah Winslett<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XVI</div>
+	<div class="middlebox"> Kal. Feb.</div>
+	<div class="bottombox">17 Jan 12</div>
+	</div>
+	<h1>Latin Students Compete at 2012 Area Convention</h1>
+	<div class="story">
+		On Friday, January 13 and Saturday, January 14 the St. Andrew's Upper School Latin Club attended Area F Latin Convention at Westlake High School.  Our Novice certamen team composed of Bryce Deskins, Carson Carroll, Dawson Henderson, and captain Wesley Wiedenmeier advanced to finals and won third place in a tight round in which they finished 10 points out of first.  The Intermediate certamen team Connor Brucker, Asa Buehler, Zack Osborne, captain Nate Eakman, and alternate Alex Lewis won second place.  The Advanced team (Olivia Hindera, Emma Richardson, Rachel Deleery, and captain Connor Butler with alternates Frankie Chen, Robert Luke, Jaron Shrock, Reeves Smith, and Trace Turner) won first place and will represent the area at the state tournament.  The middle school team comprised of McLean Ewbank, Henry Gaudin, Marco Quaroni, and Walton Schmidt won second place after five tossups were necessary to break the tie with Hill Country Christian Academy.  The team would like to thank manager William McKinnerney and alternates Caroline Graves, Will Josowitz, Rachel Nezzer, and Ariana Weiss for their support.<br />
+As a school, St. Andrew's Upper School took second in the overall academic sweepstakes, calculated by assigning points for first, second, and third place finishes.  Four students were recognized for having the highest score at any level on their tests:  <b>Connor Butler</b> in Roman Life, <b>Jade Ross</b> in Mottoes, <b>Ali Campion</b> in Dramatic Interpretation, and <b>Emma Richardson</b> in Latin Derivatives and Advanced Grammar.  Additionally, Nate Eakman and Olivia Hindera got the highest score on the Pentathlon of all students in their level (Latin II and Latin III, respectively), a great accomplishment as every student at the convention takes that contest.<br />
+Middle Schooler Walton Schmidt was elected the next Area F Chairperson at the convention, which is an office in the Texas State Junior Classical League.  Walton will be charged with, among other things, coordinating next year's convention, which will take place at St. Andrew's Middle School.<br />
+The individual awards follow:<br />
+<br />
+<b>1st Place</b><br />
+Asa Buehler - Geography of the Ancient World<br />
+Connor Butler - Roman Life<br />
+Ali Campion - Dramatic Interpretation Advanced - Girls<br />
+Ali Campion - Girls Costume<br />
+Charlie Dennis - Dramatic Interpretation Advanced - Boys<br />
+Sam Fason - Geography of the Ancient World<br />
+Sam Fason - Reading Comprehension Advanced Prose<br />
+Nick Fox - Decathlon<br />
+Henry Gaudin - Latin Derivatives<br />
+Henry Gaudin - Mottoes<br />
+Caroline Graves - Sight Recitation<br />
+Olivia Hindera - Mythology<br />
+Olivia Hindera - Mottoes<br />
+Ellie McDaniel - Sight Recitation II<br />
+Nolan McNearney - Greek Life & Literature<br />
+Zack Osborne - Decathlon<br />
+Catherine Pace - Sight Recitation III (Prose)<br />
+Emma Richardson - Grammar Advanced<br />
+Emma Richardson - Latin Derivatives<br />
+Jade Ross - Mottoes<br />
+Jade Ross - Softball Throw<br />
+Jaron Shrock - Grammar Advanced<br />
+Jaron Shrock - Latin Oratory Advanced<br />
+Jaron Shrock - Softball Throw<br />
+Wesley Wiedenmeier - Vocabulary<br />
+<br />
+<b>2nd Place</b><br />
+<br />
+Sam Andrews - Vocabulary<br />
+Andrew Barron - Roman Life<br />
+Asa Buehler - Roman History<br />
+Connor Butler - Roman History<br />
+Noelle Brimble - Dramatic Interpretation Advanced - Girls<br />
+Ali Campion - Vocal Ensemble<br />
+Frankie Chen - Grammar Advanced<br />
+Frankie Chen - 400 yd. Relay<br />
+Rachel Deleery - Decathlon<br />
+Rachel Deleery - Latin Literature<br />
+Juliette Dell - 50 yd. Dash<br />
+Juliette Dell - 100 yd. Dash<br />
+Juliette Dell - 200 yd. Dash<br />
+Charlie Dennis - Vocal Ensemble<br />
+Bryce Deskins - Greek History<br />
+Nate Eakman - Mythology<br />
+Sam Fason - 400 yd. Relay<br />
+Noah Ford - 400 yd. Relay<br />
+Eliana Gill - Vocal Ensemble<br />
+Robert Luke - Geography of the Ancient World<br />
+Annie Osborne - Vocal Ensemble<br />
+Catherine Pace - Vocal Ensemble<br />
+Will Pearson - Sight Recitation IV+ (Poetry)<br />
+Will Pearson - Vocal Ensemble<br />
+Marco Quaroni - Roman Life<br />
+Jade Ross - Polychromatic Art (Area F)<br />
+Jared Samuels - Greek Life and Literature<br />
+Walton Schmidt - Mottoes <br />
+Reeves Smith - Mottoes<br />
+Reeves Smith - Vocal Ensemble<br />
+Reeves Smith - Softball Throw<br />
+Reeves Smith - 400 yd. Relay<br />
+Taylor Thompson - Decathlon <br />
+Trace Turner - Vocal Ensemble<br />
+Ariana Weiss - Decathlon<br />
+Wesley Wiedenmeier - Latin Derivatives<br />
+<br />
+<b>3rd Place</b><br />
+<br />
+Andrew Barron - Reading Comprehension Advanced Poetry<br />
+Connor Butler - Play<br />
+Ali Campion - Sight Recitation IV+ (Poetry)<br />
+Ali Campion - Play<br />
+Ali Campion - Softball Throw<br />
+Carson Carroll - Roman History<br />
+Frankie Chen - 200 yd. Dash<br />
+Charlie Dennis - Play<br />
+Nate Eakman - Decathlon<br />
+Simran Frontain - Dramatic Interpretation II - Girls<br />
+Eliana Gill - Play<br />
+Dawson Henderson - Greek History<br />
+William Howard - Play<br />
+Robert Luke - Roman History<br />
+Cameron Osborn - Vocabulary<br />
+Cameron Osborn - Grammar Advanced<br />
+Annie Osborne - Vocal Solo<br />
+Michelle Robles - Greek Life and Literature<br />
+Michelle Robles - Latin Literature<br />
+Jade Ross - Reading Comprehension Advanced Poetry<br />
+Mariah Sager - Latin Derivatives<br />
+Reeves Smith - Play<br />
+Reeves Smith - Frisbee Toss<br />
+Trace Turner - Mythology<br />
+Trace Turner - Play<br />
+Hannah Winslett - Roman Life<br />
+Evan Young - Mottoes<br />
+Bethany Dollar - Sight Recitation <br />
+Grace Jensen - Decathlon<br />
+Rachel Nezzer - Latin Literature<br />
+Davison Thompson - Ancient Geography<br />
+<br />
+Receiving summa cum laude awards for the Pentathlon were:  Sam Andrews, Hana Arriaga, Connor Brucker, Asa Buehler, Frankie Chen, Rachel Deleery, Bryce Deskins, Nate Eakman, McLean Ewbank, Sam Fason, Nick Fox, Henry Gaudin, Caroline Graves, Olivia Hindera, William Howard, Julia Josowitz, Isabel Laubach, Alex Lewis, Rachel Nezzer, Cameron Osborn, Annie Osborne, Zack Osborne, Marco Quaroni, Emma Richardson, Mariah Sager, Vincent Searcy, Walton Schmidt, Jaron Shrock, Trace Turner, Wesley Wiedenmeier.<br />
+<br />
+Receiving maxima cum laude awards for the Pentathlon were:  Andrew Barron, Noelle Brimble, Connor Butler, Carson Carroll, Charlie Dennis, Bethany Dollar, Kathryn Gernstein, Logan Giberson, Dawson Henderson, Parker Kell, Gillean Kelly, Lizzie Leighty, Robert Luke, Ellie McDaniel, Will Pearson, Charhong Quach, Michelle Robles, Jade Ross, Katherine Salinas, Reeves Smith, Taylor Thompson, Hannah Winslett.<br />
+<br />
+Receiving magna cum laude awards for the Pentathlon were:  Connor Blake, Ali Campion, Madeleine Chastain, Patrick Dunham, Noah Ford, Simran Frontain, Sam Garrison, Eliana Gill, Grace Jensen, Will Josowitz, Sara Kane, William McKinnerney, Noah Mele, Andy Newell, Catherine Pace, Jared Samuels, John Sealy, Olivia Smith, Davison Thompson, Ariana Weiss, Evan Young.<br />
+<br />
+Receiving cum laude awards for the Pentathlon were:  Quinn Bingham, Juliette Dell, Christian Erben, Kate Fox, Ingrid Hoff, Nolan McNearney, Max Schotz, Lance Sharp.<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XIII</div>
+	<div class="middlebox"> Kal. Dec.</div>
+	<div class="bottombox">19 Nov 11</div>
+	</div>
+	<h1>St. Andrew's Teams Compete at Crusader Classic</h1>
+	<div class="story">
+	Everyone better watch out! St. Andrew's Latin Club is heating up once again and doing what each and every student does best: performing fantastically! St. Andrew's certamen teams competed in the Crusader Classic, a tournament that is co-hosted by the St. Michael's and St. Andrew's Latin clubs, on Saturday, November 19th and definitely did not leave empty handed. The Middle School team came placed 2nd, Novice and Intermediate took 3rd place, and the Advanced team rounded it all off with a 1st place. There is only more one tournament before the Area competition. Congratulations players and good luck!<br />
+<br />
+<b>Middle School</b> - 2nd Place:  Henry Gaudin, Will Josowitz, Marco Quaroni, and Walton Schmidt<br />
+<b>Novice</b> - 3rd Place:  Dawson Henderson and Carson Carroll<br />
+<b>Intermediate</b> - 3rd Place:  Nate Eakman, Zack Osborne, Asa Buehler, Connor Brucker <br />
+<b>Advanced</b> - 1st Place:  Emma Richardson, Robert Luke, Olivia Hindera, Connor Butler	</div>
+	<div id="datebox">
+	<div class="topbox">Id. </div>
+	<div class="middlebox">Nov.</div>
+	<div class="bottombox">13 Nov 11</div>
+	</div>
+	<h1>Latin Students Compete at Yale Certamen Tournament</h1>
+	<div class="story">
+	Last weekend 17 students from St. Andrew's went to New Haven, Connecticut for the Yale Certamen Tournament. Competing against schools from all over the nation, St. Andrew's teams made semifinals in all three levels, and the intermediate team consisting of Connor Brucker, Asa Buehler, Nate Eakman, Logan Giberson, and Alex Lewis recieved fourth place overall. Congratulations to all and good luck at this weekend's Crusader Classic.	</div>
+	<div id="datebox">
+	<div class="topbox">prid. Non. </div>
+	<div class="middlebox">Oct.</div>
+	<div class="bottombox">6 Oct 11</div>
+	</div>
+	<h1>Dies Lustricus</h1>
+	<div class="story">
+	Picture this: you walk into a dark class room where the only light given off is from a single candle. You look to your left, the couch and mini fridge are still there, you look to your right and what do you see? A Latin teacher garbed in a white bed sheet with only their hands showing. You slowly take your seat and anticipate what is to happen.<br />
+	This is what happens to a Latin student on Dies Lustricus, or the day of naming. Dies Lustricus is a very important day to the Romans, and to St. Andrew Latin students. It’s kind of like the students ignogeration into SAS Latin. Because the Romans would wait nine days after a baby was born to make sure it survive, SAS Latin waits around nine days to see who will “survive” Latin class. On this day the child would receive, from a priest dressed in a white robe, a bulla. A bulla is a necklace with a round pendant that protects a child from the evil eye. Oh, that would explain why the Latin teacher is wearing a white bed sheet! Imitating the priests!<br />
+Next scene: you walk up to your Latin teacher and hand to them your bulla. After handing the scary-Latin-teacher-dressed-in-a-white-bed-sheet your bulla you tell the class, in Latin, your new name. Then, BAM! A tree branch is being shook above you and causing water to fall onto you! What’s that? The Latin teacher is saying funny stuff in Latin! Then you walk back to your seat, your ceremony is over, and you have been accepted as a St. Andrew’s Latin student. <br />
+And this friends, is what happens on Dies Lustricus. You receive your Latin name, and have an entertaining—yet slightly frightening—ceremony. As tradition serves, this is what each Latin student must participate in every year to receive their Latin name. <br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VI</div>
+	<div class="middlebox"> Id. Oct.</div>
+	<div class="bottombox">10 Oct 11</div>
+	</div>
+	<h1>Cookie Dough Available from your Favorite Latin Club Member until Friday October 14th</h1>
+	<div class="story">
+	We are currently half way through our annual cookie dough sale.  Students this year are selling a high quality cookie dough along with soft pretzels, pretzel dogs, and pizzas.  If you are interested in purchasing cookie dough, you can find your favorite Latin Club member or order online, through the link above.  We would like to thank the community for supporting our program through the Cookie Dough Sale.	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  III</div>
+	<div class="middlebox"> Kal. Oct.</div>
+	<div class="bottombox">29 Sep 11</div>
+	</div>
+	<h1>Toga Exchange October 9 at the Lower School</h1>
+	<div class="story">
+	The date for the toga exchange has been set for Sunday, October 9th from 1:30-3:30.  It will take place in the outdoor amphitheater on the Lower School Campus.  In the case of rain, the event will be moved to the nearby sixth grade hallway.<br />
+<br />
+Costume materials are still being accepted by both Mr. Michaud and Ms. Dill.  Materials will also be accepted on the day of the exchange.	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VII</div>
+	<div class="middlebox"> Id. Sep.</div>
+	<div class="bottombox">7 Sep 11</div>
+	</div>
+	<h1>Toga Exchange!</h1>
+	<div class="story">
+	This year the Latin Department will be sponsoring a toga/tunic/stola exchange before the Latin Banquet.  No date has been set for the exchange, but we are starting to collect items.  Please bring old Latin Banquet costumes to donate to the exchange to Ms. Dill's room (59 in the 6th grade wing) on the 31st St. campus or to Mr. Michaud's room (901) on the Upper School campus.	</div>
+	<div id="datebox">
+	<div class="topbox">Non. </div>
+	<div class="middlebox">Sep.</div>
+	<div class="bottombox">5 Sep 11</div>
+	</div>
+	<h1>Mons Vesuvius</h1>
+	<div class="story">
+	The Upper School Latin students are bringing history to life in the classroom by celebrating the memorial of the eruption of Mt. Vesuvius, the ancient volcano which destroyed Pompeii and other towns around the bay of Naples.  The Upper School Latin Club historian writes:<br />
+<br />
+Every year on August 24 students gather in Ms. Luongo's room to remember the eruption of Mt. Vesuvius. It's an important day in Latin history, as this eruption preserved four towns, burying them in ash and lava.  The Latin Club celebrates this day by baking a cake of course!  Mrs. Osborn so kindly baked a chocolate cake in the shape of a volcano and left a hole in the center for lava to erupt from.  A little bit of vinegar was added and seconds later pink lava was flowing from the top! Each Latin student was given a slice of cake and allowed to enjoy the special day in the company of other Latin students, teachers and parents.	</div>
+	<div id="datebox">
+	<div class="topbox">prid. Non. </div>
+	<div class="middlebox">Aug.</div>
+	<div class="bottombox">4 Aug 11</div>
+	</div>
+	<h1>Two St. Andrew's Students Finish Top in the Nation at National Latin Convention</h1>
+	<div class="story">
+	Fifteen students from St. Andrew's Upper School participated in the 2011 National Junior Classical League convention held at Eastern Kentucky University from July 25 to July 30.  Many students excelled in their individual academic, creative arts, and graphic arts contests.  The Advanced level Competitive Certamen team--comprised primarily of St. Andrew's students--also won third place in the national tournament.  Additionally, another St. Andrew's student, Olivia Hindera, took second place in the Intermediate level Open Certamen tournament along with teammates from other states.  During the week all conventioneers gathered for daily general assemblies where they competed to show their spirit. As the Texas State Junior Classical League president for 2011-2012, St. Andrew's student Ali Campion led evening state fellowship meetings where Texas delegates prepared for the spirit competitions in addition to voting for next year's NJCL student officer board.  Incoming TSJCL Editor, Trace Turner, also assisted Ali, along with the rest of the St. Andrew's delegation who worked hard to support her in role as President.  On the final day of the convention all participants marched in the Day in Old Rome Procession through campus while wearing their best Roman costumes.  This trip to Kentucky for the St. Andrew's group also included a Cincinnati Reds baseball game, a day of thrills at Kings Island Amusement Park, and a visit to the beautiful Newport Aquarium.<br />
+<br />
+Two remarkable students managed to finish not only in first place in their level of Latin, but achieved the high score overall at the convention:  Scott Dollen on the Mythology test and Rachel Deleery on the Classical Art test.  This high score recognition means the student answered the most questions correctly out of any student at the convention in these written contests.<br />
+<br />
+The Advanced Certamen team from St. Andrew's (plus one Westlake Chap this year), three--time defending state champions, represented the entire state of Texas in this level of the competitive tournament.  The team was comprised of 2011 graduates Scott Dollen and Reid Swanger, Emma Richardson of the class of 2012, as well as Westlake High School 2011 graduate Mark Stone.  The competition was steep this year, however, and after a valiant climb to the second--seed position in semifinals these students found themselves playing the two great certamen powerhouse states of Florida and Virginia in the final round.  Although all players made a great effort to outplay the competition by answering the challenging questions quickly and accurately, both the Florida and Virginia teams had pulled ahead as the final round neared its end.  Although Texas was too far behind to catch up and place anywhere but third, they never gave up, continuing to play and attempting to answer questions correctly. Before the final question, when the score was Florida 130, Virginia 110, and Texas 60, Virginia had a chance to catch up and tie with Florida if they could answer the last question before the other teams.  Texas captain Reid Swanger, however, took the question before Virginia could answer, locking in Florida as the champions.  Although the Virginia players were most disappointed by the result, the Florida team sent grateful glances to the Texas players as they correctly answered the two following bonus questions.  The final score was Florida 130, Virginia 110, and Texas 80.  Although this hardworking Texas team from St. Andrew's did not finish first, they made their fans proud of their final round--never giving up and playing the last round like champions until the bitter end.<br />
+<br />
+The team would like to thank all their supporters--parents, friends, and teachers--as well as the alternate players who tirelessly practiced with the team throughout the summer: Connor Butler, Rachel Deleery, Nate Eakman, Olivia Hindera, Trace Turner, and team manager Catherine Pace.  The team would also like to thank graduate Philip Swanger '08 for his help during the convention.  The coaching staff--Jennie Luongo, Nathan Michaud, Andrew Rist, and Lauren Dill--is also grateful to the supportive parents for putting up with long practice hours to achieve this fantastic third place result.<br />
+Here are the complete NJCL test results, highlighting the students who placed from 1st to 10th in their contests:<br />
+<br />
+FIRST PLACE<br />
+Rachel Deleery -- Classical Art<br />
+Scott Dollen -- Mythology<br />
+<br />
+SECOND PLACE<br />
+Ali Campion -- Publications Contest<br />
+Ali Campion -- Dramatic Interpretation, Girls' Poetry<br />
+Ali Campion -- Sight Latin Recitation, Girls' Poetry<br />
+Olivia Hindera -- Open Certamen, Intermediate Level<br />
+Reid Swanger -- Roman History, Level 5<br />
+<br />
+THIRD PLACE<br />
+Scott Dollen -- Roman Life, Level 5<br />
+Christa Keefer -- Sight Latin Girls' Poetry<br />
+<br />
+FOURTH PLACE<br />
+Nate Eakman -- Latin Literature, Level 1<br />
+Nate Eakman -- Reading Comprehension, Level 1<br />
+Olivia Hindera -- Classical Art, Level 2<br />
+Reid Swanger -- Latin Literature, Level 5<br />
+<br />
+FIFTH PLACE<br />
+Catherine Pace -- Sight Latin Recitation, Level 2 Girls<br />
+Emma Richardson -- Latin Grammar, Level 4<br />
+<br />
+SIXTH PLACE <br />
+Ali Campion -- Dolls handicrafts, Grade 11<br />
+Rachel Deleery -- Mythology, Level 4<br />
+Scott Dollen -- Latin Derivatives, Level 5<br />
+Catherine Pace -- Traditional Photography, Grade 11<br />
+Reid Swanger -- Ancient Geography, Level 5<br />
+<br />
+SEVENTH PLACE<br />
+Scott Dollen -- Latin Literature, Level 5<br />
+Olivia Hindera -- Mottoes, Level 2<br />
+<br />
+EIGHTH PLACE<br />
+Connor Butler -- Roman Life, Level 3<br />
+Nate Eakman -- Academic Heptathlon, Level 1<br />
+Catherine Pace -- Essay, Grade 11 Girls<br />
+Emma Richardson -- Mottoes, Level 4<br />
+Reid Swanger -- Academic Heptathlon, Level 5<br />
+<br />
+NINTH PLACE<br />
+Connor Butler -- Latin Literature, Level 3<br />
+Rachel Deleery -- Greek Life & Literature, Level 4<br />
+Reid Swanger -- Latin Vocabulary, Level 5<br />
+<br />
+TENTH PLACE<br />
+Ali Campion -- Computer Enhanced Photography, Grade 11<br />
+Ali Campion -- Jewelry handicrafts, Grade 11<br />
+Ali Campion -- Traditional Photography, Grade 11<br />
+Rachel Deleery -- Traditional State Scrapbook<br />
+Mariah Sager -- Dramatic Interpretation, Girls' Poetry<br />
+Mariah Sager -- Sight Latin Recitation, Girls' Prose<br />
+Reid Swanger -- Academic Decathlon<br />
+Reid Swanger -- Reading Comprehension: Prose, Level 5<br />
+<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  IIII</div>
+	<div class="middlebox"> Kal. Mai.</div>
+	<div class="bottombox">28 Apr 11</div>
+	</div>
+	<h1>St. Andrew's Students Excel on the National Latin Exam</h1>
+	<div class="story">
+	On March 2nd, Latin students at the Upper school took the National Latin Exam.  They were joined by and competed with over 150,000 students from all 50 states and 12 foreign countries including Australia, Bulgaria, Canada, China, England, Italy, Japan, New Zealand, Poland, Zimbabwe, Iran, and Malaysia.  There are separate exams for different levels of Latin, and students in each level are awarded medals (gold and silver) for high achievement.  Forty-five Upper School students were recognized with some kind of award.  Nineteen students received Gold Medals and fifteen received Silver Medals, the two highest awards on the exam.<br />
+<br />
+<b>Gold Medals</b><br />
+<br />
+Nate Eakman<br />
+Olivia Hindera<br />
+Frankie Chen<br />
+Jaron Shrock<br />
+Sam Fason<br />
+Nick Fox<br />
+Julia Josowitz<br />
+Annie Osborne<br />
+Evan Young<br />
+Patrick Davis<br />
+Cameron Osborn<br />
+Will Pearson<br />
+Charlie Dennis<br />
+William Howard<br />
+Kendle Windham<br />
+Emma Richardson<br />
+Christa Keefer<br />
+Daniel Martens<br />
+Ali Campion<br />
+<br />
+<b>Silver Medals</b><br />
+<br />
+Andy Newell<br />
+Michelle Robles<br />
+Gillean Kelly<br />
+Tristan Reed<br />
+Catherine Pace<br />
+Reeves Smith<br />
+Parker Kell<br />
+Gabbie Hindera<br />
+Brendan Ingram<br />
+Connor Butler<br />
+Trace Turner<br />
+Bryant Bowyer<br />
+Rachel Deleery<br />
+Jade Ross<br />
+Colin Vanderburg<br />
+<br />
+<b>Magna Cum Laude</b><br />
+<br />
+Lancer Sharp<br />
+Andrew Barron<br />
+Bethany Holland<br />
+Eliana Gill<br />
+Patrick Dunham<br />
+Max Schotz<br />
+Mariah Sager<br />
+Mason Osborn<br />
+Reid Swanger<br />
+<br />
+<b>Cum Laude</b><br />
+<br />
+Rachel Dimston<br />
+Scott Dollen<br />
+<br />
+As a senior receiving a gold medal, <b>Christa Keefer</b>, has also received a scholarship application for the prestigious NLE scholarship.<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XVII</div>
+	<div class="middlebox"> Kal. Mai.</div>
+	<div class="bottombox">15 Apr 11</div>
+	</div>
+	<h1>Latin Students Win Awards on Roman Civilization Exam</h1>
+	<div class="story">
+	On February 14, eight Latin students at the Upper School competed in the online National Roman Civilization Exam.  Seven were honored for their outstanding achievement on the exam with medals.  <b>Rachel Deleery, Mason Osborn</b>, and <b>Reid Swanger</b> won gold medals.  <b>Rachel Dimston, Gabbie Hindera</b>, and <b>Trace Turner</b> won silver medals.  <b>Connor Blake</b> won a bronze medal.  This is the second year that the National Roman Civilization Exam has been administered.  Rachel Deleery and Rachel Dimston have won medals in each year of its existence.	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  V</div>
+	<div class="middlebox"> Kal. Apr.</div>
+	<div class="bottombox">28 Mar 11</div>
+	</div>
+	<h1>Upper and Middle School Latin students compete at State JCL Convention; Advanced Certamen players advance to Nationals; Ali Campion elected President of the Texas State JCL.</h1>
+	<div class="story">
+	On March 25 and 26, St. Andrew's Upper School students competed at the Texas State Junior Classical League convention at Atascocita High School near Houston, Texas.  Students participated in academic, artistic, and athletic contests.  <br />
+<br />
+Two Austin-area Certamen teams that included students from St. Andrew's competed in the state tournament.  The advanced division team, composed almost entirely of St. Andrew's students: <b>Scott Dollen, Mason Osborn, Emma Richardson</b>, and captain <b>Reid Swanger</b>, won for the third straight year. The novice division team including four St. Andrew's students: <b>Nate Eakman, Alex Lewis, Lance Sharp</b>, and <b>Connor Blake</b> placed second after a hard-fought final round.  Congratulations to these Certamen players!<br />
+<br />
+Every year at the TSJCL convention, the member schools elect a board of student officers to lead the organization for the following year.  This year two St. Andrew's students have served as officers, <b>Rachel Deleery</b> as Historian and <b>Ali Campion</b> as Editor of the organization's publication, the <i>Torch</i>.  At the convention this year, <b>Ali Campion</b> ran for the office of President, which she won by a stunning number of votes.  Ali will serve as President of the Texas State Junior Classical League during the next year.<br />
+<br />
+Three students won awards for having the highest score for their individual contests in any level: <b>Scott Dollen</b> in Mythology, <b>Ali Campion</b> in Dramatic Interpretation, and <b>Reid Swanger</b> in Roman History and the Academic Decathlon.  For winning the high score on the Decathlon, Reid receives the title of Texas State Latin Student of the Year and a $1500 dollar prize.<br />
+<br />
+Here are the complete results:<br />
+<br />
+<b>First Place</b><br />
+Ali Campion - Dramatic Interp Advanced Level IV<br />
+Scott Dollen - Mythology Level V+<br />
+Scott Dollen - Roman Life Level V+<br />
+Cameron Osborn - Open Certamen Advanced Level <br />
+Reid Swanger - Decathlon Level V+<br />
+Reid Swanger - History Level V+<br />
+<br />
+<b>Second Place</b><br />
+Ali Campion - Sight Recitation Level IV <br />
+Rachel Deleery - Greek Life and Literature Level IV<br />
+Mason Osborn - Reading Comprehension Advanced Prose Level V+<br />
+Mason Osborn - Reading Comprehension Advanced Poetry Level V+<br />
+Emma Richardson - Advanced Grammar Level IV<br />
+Colin Vanderburg - Latin Literature Level V+<br />
+Kendle Windham - Reading Comprehension Advanced Prose Level IV<br />
+<br />
+<b>Third Place</b><br />
+Rachel Deleery - Mythology Level IV<br />
+Nate Eakman - Decathlon Level I<br />
+Nate Eakman - Poetry<br />
+Daniel Martens - Geography of the Ancient World Level IV<br />
+Will Pearson - Sight Recitation Level III<br />
+Kendle Windham - Roman Life Level IV<br />
+<br />
+<b>Fourth Place</b><br />
+Connor Butler - Original English Oratory <br />
+Olivia Hindera - Mottoes and Abbreviations Level II<br />
+Julia Josowitz - Electronic Art<br />
+Annika Mele - Vocabulary Level 1/2 B<br />
+Annika Mele - Roman Life Level 1/2 B<br />
+Emma Richardson - Latin Derivatives Level IV<br />
+Jade Ross - Poster<br />
+Reeves Smith - Mottoes and Abbreviations Level III<br />
+<br />
+<b>Fifth Place</b><br />
+Bryant Bowyer - Roman History Level IV<br />
+Colin Vanderburg - Advanced Grammar Level V+ <br />
+<br />
+Students receiving summa cum laude awards for the Pentathlon: Bryant Bowyer, Connor Bulter, Frankie Chen, Rachel Deleery, Nate Eakman, Sam Fason, Olivia Hindera, Robert Luke, Mason Osborn, Emma Richardson, Lance Sharp, Reid Swanger.<br />
+<br />
+Students receiving maxima cum laude awards for the Pentathlon: Sam Andrews, Scott Dollen, Noah Ford, William Howard, Andy Newell, Annie Osborne, Catherine Pace, Jade Ross.<br />
+<br />
+Students receiving magna cum laude awards for the Pentathlon:  Asa Buehler, Logan Giberson, Julia Josowitz, Gillean Kelly, Ben Lear, Alex Lewis, Annika Mele, Charhong Quach, Trace Turner.<br />
+<br />
+Students receiving cum laude awards for the Pentathlon:  Connor Blake, Patrick Dunham, Kathryn Gernstein, Colin Hancock, Gabbie Hindera, Bethany Holland, Madeleine Mele, Michelle Robles.<br />
+<br />
+Overall, the Upper School placed 6th in Upper Division Sweepstakes, making us the highest-ranked SPC school at the event.  Additionally, our club was recognized with the third place prize in the Latin Club of the Year contest.<br />
+<br />
+The Latin teachers would like to thank <b>Donna Osborn</b> for chaperoning this trip, and <b>Marty</b> and <b>Derry Swanger, Shawna Butler, Kelley Shrock, Janet</b> and <b>Gary Eakman, Jeff Osborne</b>, and <b>Mike</b> and <b>Claudia Dollen</b> for their help ferrying students between the various events in Houston. Thanks also to all the parents who donated food and showed up to watch candidates' speeches and  Certamen finals. Good luck to all as we prepare for Nationals this summer at Eastern Kentucky University in Richmond, Kentucky.	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  V</div>
+	<div class="middlebox"> Non. Mar.</div>
+	<div class="bottombox">3 Mar 11</div>
+	</div>
+	<h1>St. Andrew's Latin Clubs Experience Wild Success at 2011 Area Convention</h1>
+	<div class="story">
+		On Friday, February 25 and Saturday, February 26 the St. Andrew's Upper and Middle School Latin Clubs attended Area F Latin Convention at Pflugerville.  Our Intermediate certamen team composed of Frankie Chen, Olivia Hindera, Sam Fason, and Captain Jaron Shrock advanced to finals and won third place.  The Advanced certamen team (Scott Dollen, Mason Osborn, Emma Richardson, and Captain Reid Swanger) and the Novice team (Connor Blake, Nate Eakman, Captain Alex Lewis, and Lancer Sharp) both won first place and will represent the area at the state tournament.  The Middle School certamen, composed of Asa Buehler, Logan Giberson, McLean Ewbank, Henry Gaudin, Marco Quaroni, and Davison Thompson missed playing in finals by 15 points.<br />
+As a school, St. Andrew's Upper School took first in the overall academic sweepstakes, calculated by assigning points for first, second, and third place finishes. St. Andrew's beat every other school there in points amassed.  The Middle School placed 5th in the overall sweepstakes for the middle school level.  Five students were recognized for having the highest score at any level on their tests: Scott Dollen for Mythology and Roman Life, Mason Osborn for Reading Comprehension Advanced Prose and Reading Comprehension Advanced Poetry, Ali Campion for Sight Recitation and Dramatic Interpretation Advanced Prose, Jade Ross for Mottoes, and Reid Swanger for Roman History and Decathlon.  As the winner of the high score on the Decathlon, Reid has been named the Armadillo Classical Society's Senior Scholar and has won a scholarship of $563, one dollar for every competitor in attendance.  Additionally, Nate Eakman and Caroline Graves got the highest score on the Pentathlon of all students in their level (Latin I and Latin 1/2 A, respectively), a great accomplishment as every student at the convention takes that contest.<br />
+The individual awards follow.<br />
+<br />
+<b>Academic Contests<br />
+First Place</b><br />
+<br />
+Sam Andrews:			Roman Life Level III<br />
+Asa Buehler:			Ancient Geography Level 1/2 B<br />
+Ali Campion:			Sight Recitation Level IV <br />
+Ali Campion:			Dramatic Interpretation Girls Level IV <br />
+Rachel Deleery:		Mythology Level IV<br />
+Scott Dollen:			Mythology Level V+ <br />
+Scott Dollen:			Roman Life Level V+ <br />
+Nate Eakman:			Decathlon Level I<br />
+Nate Eakman:			Mythology Level I <br />
+McLean Ewbank:		Latin Literature Level 1/2 A<br />
+Olivia Hindera:			Mythology Level II<br />
+Olivia Hindera:			Mottoes and Phrases Level II<br />
+Bethany Holland:		Dramatic Interpretation Girls Level II<br />
+Henry Gaudin:			Mottoes Level 1/2 A<br />
+Caroline Graves:		Sight Recitation Level 1/2 A<br />
+Robert Luke:			Roman History Level III<br />
+Annika Mele:			Vocabulary Level 1/2 B<br />
+Noah Mele:			Roman History Level 1/2 A<br />
+Mason Osborn:			Reading Comprehension Advanced Poetry Level V+ <br />
+Mason Osborn:			Reading Comprehension Advanced Prose Level V+ <br />
+Will Pearson:			Sight Recitation Level III<br />
+Jade Ross:			Mottoes and Phrases Level IV <br />
+Jared Samuels:			Greek Life and Literature Level II<br />
+Reeves Smith:			Mottoes and Phrases Level III<br />
+Reid Swanger:			Roman History Level V+ <br />
+Reid Swanger:			Decathlon Level V+ <br />
+	<br />
+<b>Second Place</b><br />
+<br />
+Alex Adams:			Latin Literature Level II<br />
+Judith Allen:			Greek Derivatives Level III<br />
+Sam Andrews:			Vocabulary Level III<br />
+Connor Butler:			Roman History Level III<br />
+Frankie Chen:			Advanced Grammar Level II<br />
+Patrick Davis:			Mottoes and Phrases Level III<br />
+Rachel Deleery:		Greek Life and Literature Level IV<br />
+Sam Fason:			Geography of the Ancient World Level II<br />
+Colin Hancock:		Ancient Geography Level 1/2 B<br />
+Ingrid Hoff:			Latin Literature Level III<br />
+Alex Lewis:			Mottoes and Phrases Level I<br />
+Robert Luke:			Geography of the Ancient World Level III<br />
+Daniel Martens:		Geography of the Ancient World Level IV<br />
+Catherine Pace:		Sight Recitation Level II<br />
+Will Pearson:			Decathlon Level III<br />
+Marco Quaroni:		Ancient Geography Level 1/2 A<br />
+Emma Richardson:		Latin Derivatives Level IV<br />
+Jade Ross:			Reading Comprehension Advanced Poetry Level IV<br />
+Max Schotz:			Dramatic Interpretation Boys Level III<br />
+Jaron Shrock:			Decathlon Level II<br />
+Colin Vanderburg:		Latin Literature Level V+<br />
+Kendle Windham:		Roman Life Level IV<br />
+	<br />
+<b>Third Place</b><br />
+<br />
+Connor Butler:			Latin Literature Level III<br />
+Bryant Bowyer:		Roman History Level IV<br />
+Patrick Dunham:		Greek Derivatives Level II<br />
+Kate Fox:			Latin Derivatives Level 1/2 A<br />
+Nick Fox:			Decathlon Level II<br />
+Logan Giberson:		Vocabulary Level 1/2 B<br />
+Caroline Graves:		Roman Life Level 1/2 A<br />
+Parker Kell:			Reading Comprehension Advanced Poetry Level III<br />
+Gillean Kelly:			Sight Recitation Level II<br />
+Madeleine Mele:		Latin Derivatives Level 1/2 B<br />
+Andy Newell:			Geography of the Ancient World Level II<br />
+Cameron Osborn:		Vocabulary Level III<br />
+Annie Osborne:		Mythology Level II<br />
+Emma Richardson:		Advanced Grammar Level IV<br />
+Michelle Robles:		Greek Life and Literature Level II<br />
+Mariah Sager:			Dramatic Interpretation Girls Level III<br />
+Vincent Searcy:		Vocabulary Level 1/2 A<br />
+	<br />
+<b>Classical Civilization	<br />
+First Place</b><br />
+<br />
+Gabbie Hindera:		Costume (Agave)<br />
+Christine Snitkjaer:		Monochromatic Art<br />
+<br />
+<b>Second Place</b><br />
+<br />
+Connor Butler:			Costume (Charon)<br />
+Connor Butler:			Play<br />
+Ali Campion:			Play<br />
+Charlie Dennis:		Play<br />
+Kate Fox:			Monochromatic Drawing Middle School Level<br />
+Eliana Gill:			Play<br />
+William Howard: 		Play<br />
+Daniel Martens:		Couples Costume (Jupiter and Io)<br />
+Will Pearson:			Vocal Solo<br />
+Will Pearson:			Play<br />
+Kendle Windham:		Couples Costume (Jupiter and Io)<br />
+<br />
+<b>Third Place</b><br />
+<br />
+Eliana Gill:			Couples Costume (Jupiter and Io)<br />
+Evan Young:			Couples Costume (Jupiter and Io)<br />
+<br />
+Students receiving summa cum laude awards for the Pentathlon:  Sam Andrews, Asa Buehler, Connor Butler, Frankie Chen, Patrick Davis, Rachel Deleery, Scott Dollen, Nate Eakman (High Score for Level I), McLean Ewbank, Sam Fason, Nick Fox, Logan Giberson, Caroline Graves (high score for Level 1/2 A), Henry Gaudin, Olivia Hindera, William Howard, Julia Josowitz, Alex Lewis, Robert Luke, Daniel Martens, Andy Newell, Cameron Osborn, Mason Osborn, Annie Osborne, Marco Quaroni, Emma Richardson, Jaron Shrock, Reid Swanger, Evan Young<br />
+<br />
+Students receiving maxima cum laude awards for the Pentathlon: Alex Adams, Andrew Barron, Bryant Bowyer, Ali Campion, Charlie Dennis, Tim Fallon, Kathryn Gernstein, Bethany Holland, Christa Keefer, Gillean Kelly, Noah Mele, Mason Neal, Will Pearson, Tristan Reed, Mariah Sager, Vincent Searcy, Lance Sharp, Reeves Smith, Trace Turner, Colin Vanderburg, Kendle Windham<br />
+<br />
+Students receiving magna cum laude awards for the Pentathlon:  Judith Allen, Connor Blake, Patrick Dunham, Noah Ford, Kate Fox, Simran Frontain, Eliana Gill, Colin Hancock, Gabbie Hindera, Ingrid Hoff, Brendan Ingram, Ben Lear, Callie McConnico, Annika Mele, Catherine Pace, Michelle Robles, Jade Ross, Sara Thiessen, Davison Thompson, Jared Samuels<br />
+<br />
+Students receiving cum laude awards for the Pentathlon:  Taylor Dill, Emily Dodds, Mason Ezell, Ana Marcks, Sam Martens, Madeleine Mele, Maryhelen Murray, Char Quach, Max Schotz, Christine Snitkjaer<br />
+<br />
+Thanks to everyone who has supported us this year, especially to Claudia Dollen and Cheryl Hindera, who coordinated food for the competitors.  Congratulations to all the winners and bonam fortunam omnibus at State.  The State Convention will be held on March 25-26 at Atascocita High School near Houston.	</div>
+	<div id="datebox">
+	<div class="topbox">Kal </div>
+	<div class="middlebox">Feb.</div>
+	<div class="bottombox">1 Feb 11</div>
+	</div>
+	<h1>Westwood Certamen Tournament a success for St. Andrew's teams</h1>
+	<div class="story">
+	The St. Andrew's Latin Club is very proud to announce that once again our certamen teams have been doing their best representing the school. Over the weekend at Westwood High School our Advanced Team placed first, beating the other local teams once again. The Novice Team hit a home run and brought back another first place trophy for our Latin Club. The Intermediate Team narrowly missed first place and continues to make our school proud with their performance by placing second. Although the Middle School team did not make it into the final round for their level, they are working hard to make that goal a reality at the next tournament.  The Latin Club would like to thank all members and parents who have helped support our teams. 	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XIII</div>
+	<div class="middlebox"> Kal. Feb.</div>
+	<div class="bottombox">20 Jan 11</div>
+	</div>
+	<h1>Latin Students win Medals for the National Classical Etymology Exam</h1>
+	<div class="story">
+	On November 29th several Latin students participated in the online National Classical Etymology Exam, testing their knowledge of English words derived from Latin or Greek roots. Medals are awarded for outstanding achievement on the exam. Gabbie Hindera was awarded a bronze medal, and the following students won silver medals: Rachel Dimston, Rachel Deleery, Mason Osborn, and Catherine Pace. Congratulations go out to all the students who participated. <br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VIII</div>
+	<div class="middlebox"> Id. Ian.</div>
+	<div class="bottombox">6 Jan 11</div>
+	</div>
+	<h1>Latin Club Hosts, Competes in, and Succeeds at the Crusader Classic</h1>
+	<div class="story">
+	On December 10th, the St. Andrew's Latin Club hosted and competed at the Crusader Classic Certamen Tournament.  Sliding into first place at the Cru Classic was the Advanced team: Reid Swanger, Scott Dollen, Mason Osborn, and Emma Richardson; and the Novice team:  Nate Eakman, Connor Blake, and Alex Lewis.  Also, winning 2nd place was the intermediate team Olivia Hindera, Jaron Shrock, Frankie Chen, and Sam Fason. And finally, Logan Giberson, Asa Buehler, Ariana Weiss, and Marco Quaroni of the Middle School team stole third place. Many thanks to all the volunteers that helped make the Cru Classic happen and run smoothly; thanks to you St. Andrew's was able to successfully put on the Cru Classic and show the other schools what being a Crusader is all about!	</div>
+	<div id="datebox">
+	<div class="topbox">Kal </div>
+	<div class="middlebox">Nov.</div>
+	<div class="bottombox">1 Nov 10</div>
+	</div>
+	<h1>Certamen teams brave traffic to compete at Clark tournament in San Antonio</h1>
+	<div class="story">
+	On October 30, the day before Halloween.  Five teams from St. Andrew's Upper School and one from the Middle School competed at the Clark Certamen tournament against stiff competition.  All teams performed well.  With several teams just missing the final round.  The defending national champion advanced team, consisting of captain Reid Swanger, Scott Dollen, Rachel Deleery, and Emma Richardson, did make it to the final round and emerged victorious, more than doubling the score of their closest competitor in the final round and blanking SPC rival St. Mary's Hall, thought to be their toughest competitor.  The team attributes this victory to a bout of near psychicness from team captain, Reid Swanger, who repeatedly made jaw-dropping educated guesses.  Said St. Mary's Hall captain, Andrew Margrave (clap clap, clap clap clap) in reference to Swanger's amazing final round, "that's just crazy."<br />
+<br />
+Congratulations to all teams.  All of the teams are looking forward to the November 20th tournament at Crockett	</div>
+	<div id="datebox">
+	<div class="topbox">prid. Id. </div>
+	<div class="middlebox">Oct.</div>
+	<div class="bottombox">14 Oct 10</div>
+	</div>
+	<h1>Latin Club Sells Cookie Dough, Community Rejoices</h1>
+	<div class="story">
+	With the announcement on October 5th that the Latin Club had begun to sell cookie dough again, an elated community has taken to the streets in search of Latin students willing to sell them some delicious cookie dough.  The Latin Club increased demand for the delicious goodies even more when they announced that they would be selling the dough of revered community member, Colleen Kell, who, besides her successful career as a fifth grade teacher, is also a licensed food preparer.  Mrs. Kell's cookie dough has long been reputed superior to the dough of other distributors.  The St. Andrew's Latin Club has expressed great joy at the quality of the product they are distributing and are looking forward to great success.  Community members can get their hands on some delicious dough by finding an Upper or Middle School Latin student and ordering from them, or by visiting the Latin Department's website, saslatin.org (see link above).  Do not miss out on this great opportunity; the sale ends on October 27th.	</div>
+	<div id="datebox">
+	<div class="topbox">prid. Non. </div>
+	<div class="middlebox">Aug.</div>
+	<div class="bottombox">4 Aug 10</div>
+	</div>
+	<h1>St. Andrew's Latin Club Ventures to Fargo, Brings Home National Certamen Championship</h1>
+	<div class="story">
+	Eighteen members of the St. Andrew's Latin Club participated in the 2010 National Junior Classical League convention that was held at North Dakota State University in Fargo from July 26th to August 1st.  While all of the students excelled in their individual academic and art contests, the Advanced Certamen team won the National Certamen Championship.  In addition to their individual contests, students assembled for state fellowship meetings and general assemblies, where they competed to show their spirit.  On the final day, students marched in the Day in Old Rome Procession through campus while wearing their best Roman costumes along with approximately 1500 other Latin students from across the nation. This trip to the Midwest also included seeing the Mall of America in Minneapolis and a day of fun at Valleyfair Amusement park.<br />
+<br />
+The advanced certamen team from St. Andrew's, two-time defending state champions, represented the entire state of Texas in this very heated competition.  Scott Dollen, Matthew Miller, Mason Osborn, and Reid Swanger were the primary players with Colin Vanderburg, Rachel Deleery, Ale Fairchild from Reagan in San Antonio and Andrew Margrave from St. Mary's Hall in San Antonio, serving as alternates.  (It is the prerogative of a state championship team to invite other outstanding players from around the state to play if they so choose.)  The team played three preliminary rounds on Wednesday and Thursday, racking up as many points as possible to gain a favorable position in the semifinal bracket.  The team advanced as the third seed into the semifinal where they played teams from New Hampshire and the certamen powerhouse state of Virginia.  After a slow start against Virginia, the team pulled ahead by 70 at the end of the match for a place in finals.  The team then faced two other certamen powerhouses--Wisconsin and Florida.  Both our team and Florida struggled to score many points early in the round as Wisconsin pulled ahead.  Halfway through the match things began to turn around, and our boys gained confidence when Reid Swanger correctly answered a literature question on a great buzz.  Soon after, Mason Osborn correctly answered a question about a lengthy Latin passage.  Mason answered the "passage" question correctly in every round of National competition.  Quite an accomplishment!  Matthew Miller continued the rebound when he correctly guessed the end of a Latin translation on a very early buzz.  However, the score remained close.  With three questions left in the match, Scott Dollen answered a mythology question correctly and pulled his team into the lead.  The final question was heart-stopping as Wisconsin signaled first but was unable to answer correctly and gain enough points for the win.  As Florida was answering the final question, the Texas supporters began celebrating knowing that our team had already won with a final score of Texas-90, Wisconsin-80, Florida-70.<br />
+<br />
+At the final awards ceremony the team received the Maureen O'Donnell memorial traveling trophy to bring home and a $500 prize to use as they please.  Traditionally the winning team donates this monetary award to the charity of their choice.  Our team chose one close to the heart of the St. Andrew's community--The Gazelle Foundation--the benefits of which they described with pride in their acceptance speech to the entire assembly of convention attendees.  Additionally 2010 graduate Matthew Miller was named Certamen MVP for his particularly impressive performance in the final match.<br />
+<br />
+This is the second National Certamen Championship for St. Andrew's students in the school's history, the first having been just six years before in 2004.  Three of the members of that 2004 team who are now St. Andrew's Latin teachers--Lauren Dill, Nathan Michaud, and Andrew Rist--served as coaches along with Latin department head Jennie Luongo.  The team would also like to thank 2008 SAS grad Philip Swanger for his help during practices before and during convention as well as their peers who attended practices and supported during the tournament.  Of course the players are ultimately grateful to their wonderful and supporting parents who helped feed the team throughout the long hours leading up to their success this summer.<br />
+<br />
+Additionally, there were many outstanding individual performances.  Sarah Thompson, who served as Texas State JCL newsletter editor for the 2009-2010 school year, received first place in the national publication contest.  Ali Campion also placed 10th in overall creative arts sweepstakes.  Reid Swanger placed fifth in Decathlon, the most challenging test at the convention, and won $100 cash for that accomplishment.<br />
+<br />
+Complete NJCL Contest Results:<br />
+FIRST PLACE	<br />
+Dramatic Interpretation Poetry Level 3 Girls Ali Campion<br />
+Roman Life Level 5Scott Dollen<br />
+Reading Comprehension Poetry Level 5Mason Osborn<br />
+Cartoons Grades 11-12	Colin Vanderburg<br />
+<br />
+SECOND PLACE	<br />
+Sight Latin Recitation Poetry Level 3 Girls	Ali Campion<br />
+Latin Grammar Advanced Level 5	Matthew Miller<br />
+Reading Comprehension Prose Level 5	Matthew Miller<br />
+Classical Art Level 5 	Mason Osborn<br />
+Sight Latin Recitation Level 1 Girls	Catherine Pace<br />
+Roman History Level 5	Reid Swanger<br />
+	<br />
+<br />
+THIRD PLACE	<br />
+Mythology Level 5	Scott Dollen<br />
+Mottoes Level 5	Matthew Miller<br />
+Open Certamen Intermediate Level 	Cameron Osborn<br />
+Latin Literature Level 5	Reid Swanger<br />
+Mottoes Level 5	Reid Swanger<br />
+<br />
+FOURTH PLACE	<br />
+Open Certamen Intermediate Level	Connor Butler<br />
+Classical Art Level 3	Rachel Deleery<br />
+Sight Latin Recitation Poetry Level 5 Boys	Matthew Miller<br />
+Latin Grammar Advanced Level 5	Mason Osborn<br />
+Dolls Grade 10	Catherine Pace<br />
+Ancient Geography Level 5	Reid Swanger<br />
+Roman Life Level 5	Reid Swanger<br />
+<br />
+<br />
+FIFTH PLACE	<br />
+English Oratory Middle Division	Connor Butler<br />
+Greek Life and Literature Level 3	Rachel Deleery<br />
+Academic Decathlon	Reid Swanger<br />
+<br />
+SIXTH PLACE	<br />
+Essay Grade 9 Boys	Sam Andrews<br />
+Mythology Level 3	Rachel Deleery<br />
+Greek Life and Literature Level 5	Scott Dollen<br />
+Mottoes Level 5	Scott Dollen<br />
+Classical Art Level 5	Matthew Miller<br />
+Computer Enhanced Photography Grade 10	Emma Richardson<br />
+Academic Heptathlon Level 5 	Reid Swanger<br />
+Reading Comprehension Prose Level 5	Reid Swanger<br />
+Reading Comprehension Prose Level 4	Colin Vanderburg<br />
+<br />
+SEVENTH PLACE	<br />
+Academic Decathlon	Scott Dollen<br />
+Latin Derivatives Level 5	Scott Dollen<br />
+Latin Literature Level 5	Scott Dollen<br />
+Roman Life Level 1/2	Colin Hancock<br />
+Latin Vocabulary Level 5	Matthew Miller<br />
+Latin Vocabulary Level 5	Mason Osborn<br />
+Latin Derivatives Level 5	Reid Swanger<br />
+Latin Derivatives Level 4	Colin Vanderburg<br />
+<br />
+EIGHTH PLACE	<br />
+Modern Myth - Middle Division	Rachel Deleery<br />
+Latin Vocabulary Level 5	Scott Dollen<br />
+Academic Heptathlon Level 1/2	Logan Giberson<br />
+Small Models Grades 7-9	Colin Hancock<br />
+Latin Derivatives Level 5	Mason Osborn<br />
+Hellenic History Level 5	Reid Swanger<br />
+Mythology Level 5	Reid Swanger<br />
+Reading Comprehension Poetry Level 5	Reid Swanger<br />
+<br />
+NINTH PLACE	<br />
+English Oratory - Lower Division	Sam Andrews<br />
+Greeting Cards Grade 10	Connor Butler<br />
+Academic Heptathlon Level 5	Scott Dollen<br />
+Roman History Level 1/2	Colin Hancock<br />
+Traditional Photography Grade 11	Mason Osborn<br />
+Latin Vocabulary Level 5	Reid Swanger<br />
+Classical Art Level 2	Trace Turner<br />
+Essay Grade 11 Boys	Colin Vanderburg<br />
+<br />
+TENTH PLACE	<br />
+Large Models Grade 7-9	Logan Giberson<br />
+Greek Life and Literature Level 4	Colin Vanderburg<br />
+<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VI</div>
+	<div class="middlebox"> Kal. Apr.</div>
+	<div class="bottombox">27 Mar 10</div>
+	</div>
+	<h1>Advanced Certamen Team Wins Back-To-Back State Championships;  Upper School Latin Students Win Sweepstakes Award at State JCL Convention</h1>
+	<div class="story">
+	On March 25 and 27, St. Andrew's upper school students competed at the Texas State Junior Classical League convention at Lake Travis High School. Students participated in academic, artistic, and athletic contests.<br />
+<br />
+St. Andrew's students competed in both the intermediate and advanced levels of certamen. The advanced division team was composed entirely of St. Andrew's students: Scott Dollen, Matt Miller, Mason Osborn, and captain Reid Swanger, with alternates Colin Vanderburg, Rachel Deleery, Ali Campion, and Emma Richardson. The intermediate division team included five St. Andrew's students: Connor Butler and Cameron Osborn as starters, and alternates Charlie Dennis, Rachel Dimston, and Trace Turner. The team also included players from Hill Country Christian Academy: Shane Jasek, Laura Mahaney, and Jonathan Mitchell. The Advanced level team persevered to overcome an initial deficit and to win first place by 120. It is their second state championship in a row! They will continue on to Nationals. Congratulations to these Certamen players!<br />
+<br />
+Rachel Deleery, class of 2012, ran an excellent campaign for Historian and was elected. She will serve on the 2010-2011 TSJCL Executive Board.<br />
+<br />
+Three students won awards for having the highest score for their individual contests in any level: Scott Dollen in Mythology, Matthew Miller in Grammar, and Ali Campion in Sight Recitation. In addition, Matthew Miller had the highest score of any level V student on the Pentathlon, the one test everyone at the convention takes.<br />
+<br />
+Overall, the school placed 4th in Upper Division Sweepstakes, making us the highest-ranked Austin-area school, as well as the highest-ranked SPC school.<br />
+<br />
+Here are the complete results:<br />
+<br />
+First Place<br />
+Ali Campion Sight Recitation 3<br />
+Scott Dollen Mythology 5<br />
+Matthew Miller Advanced Grammar 5<br />
+Matthew Miller Vocabulary 5<br />
+Mason Osborn Reading Comprehension Poetry 5<br />
+Reid Swanger Roman History 5<br />
+Emily Dodds Softball Throw, HS Girls<br />
+Mason Osborn Frisbee Throw, HS Boys<br />
+Second Place<br />
+Ali Campion Girls' Dramatic Interpretation 3<br />
+Richard Dietz Mottoes 4<br />
+Scott Dollen Roman Life 5<br />
+Mason Osborn Reading Comprehension Prose 5<br />
+Reid Swanger Decathlon 5<br />
+Ali Campion Play<br />
+Caroline Dill Traditional Photography<br />
+William Howard Play<br />
+Mason Osborn Digital Photography<br />
+Will Pearson Play<br />
+Trace Turner Play<br />
+Third Place<br />
+Rachel Deleery Greek Life and Literature 3<br />
+Rachel Dimston Roman Life 3<br />
+Reeves Smith Mottoes 2<br />
+Daniel Martens Ancient Geography 3<br />
+Fourth Place<br />
+Emma Richardson Advanced Grammar 3<br />
+Colin Vanderburg Advanced Grammar 4<br />
+Lila Brand-Schmitz Vocal Ensemble<br />
+Ali Campion Vocal Ensemble<br />
+Richard Dietz Vocal Ensemble<br />
+Conor Keelan Vocal Ensemble<br />
+Annie Osborne Vocal Ensemble<br />
+Will Pearson Vocal Ensemble<br />
+Peter Steinbach Vocal Ensemble<br />
+Erica Weisman Vocal Ensemble<br />
+Sarah Thompson Mosaics<br />
+Fifth Place<br />
+Seth Davis Boys' Dramatic Interpretation 2<br />
+Robert Luke Roman History 2<br />
+Catherine Pace Sight Recitation 1<br />
+Sixth Place<br />
+Charlie Dennis Advanced Grammar 2<br />
+Richard Dietz Latin Derivatives 4<br />
+Rachel Deleery Mythology 3<br />
+Bryant Bowyer Roman History 3<br />
+Kendle Windham Roman Life 3<br />
+Lila Brand-Schmitz Greek Life and Literature 1<br />
+Christian Stull Greek Derivatives 4<br />
+Colin Vandergurg Sight Recitation 4<br />
+William Howard Decathlon 2<br />
+Jade Ross Reading Comprehension Poetry 3<br />
+Seventh Place<br />
+Austin Tedesco Latin Derivatives 5<br />
+Jose Lopez Sight Recitation 2<br />
+Annie Osborne Girls' Dramatic Interpretation 1<br />
+Bryant Bowyer Decathlon 3<br />
+Connor Butler Latin Oratory 2<br />
+Jade Ross Essay<br />
+Gabriela Hindera Original Oratory<br />
+Eighth Place<br />
+Emma Richardson Latin Derivatives 3<br />
+Jade Ross Mottoes 3<br />
+Trace Turner Mythology 2<br />
+William Pearson Greek History 2<br />
+Gabriela Hindera Three Dimensional Art<br />
+Ninth Place<br />
+Andy Newell Grammar 1<br />
+Lila Brand-Schmitz Roman Life 1<br />
+Conor Keelan Greek History 3<br />
+Ingrid Hoff Oil and Acrylic<br />
+Sarah Thompson Girls' Costume<br />
+Tenth Place<br />
+Nicholas Siegele Vocabulary 4<br />
+Garrett Holody Latin Literature 4<br />
+Garrett Holody Greek History 4<br />
+Ali Campion Vocal Solo<br />
+<br />
+<br />
+Students receiving summa cum laude awards for the Pentathlon: Sam Andrews, Bryant Bowyer, Connor Butler, Ali Campion, Rachel Deleery, Charlie Dennis, Richard Dietz, Rachel Dimston, Scott Dollen, William Howard, Robert Luke, Daniel Martens, Matthew Miller (highest score in level 5), Cameron Osborn, Mason Osborn, Annie Osborne, Will Pearson, Emma Richardson, Reid Swanger, Trace Turner, Kendle Windham.<br />
+<br />
+Students receiving maxima cum laude awards for the Pentathlon: Patrick Davis, Seth Davis, Ingrid Hoff, Conor Keelan, Jose Lopez, Mason Neal, Nick Siegele, Peter Steinbach, Colin Vanderburg.<br />
+<br />
+Students receiving magna cum laude awards for the Pentathlon: Andrea DelVesco, Gabbie Hindera, Cristian Koitzsch, Tucker Long, Catherine Pace, Max Schotz, Sarah Thompson.<br />
+<br />
+Students receiving cum laude awards for the Pentathlon: Judith Allen, Lila Brand-Schmitz, Taylor Dill, Emily Dodds, Eliana Gill, Garrett Holody, Anna Richards, Austin Tedesco, Erica Weisman.<br />
+<br />
+The Latin teachers would like to thank Duke Njie, Claudia Dollen, Chris Miller, and Donna Osborn for chaperoning this trip. Thanks also to all the parents who donated food and showed up to watch Certamen finals. Good luck to all as we prepare for Nationals this summer at North Dakota State University in Fargo.<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  IIII</div>
+	<div class="middlebox"> Kal. Mar.</div>
+	<div class="bottombox">26 Feb 10</div>
+	</div>
+	<h1>St. Andrew's Wins Baylor Latin Day Competition</h1>
+	<div class="story">
+	On Friday, February 26, upper schoolers Matthew Miller, Colin Vanderburg, Trace Turner, Robert Luke, Charlie Dennis, Conor Butler, Eliana Gill, Catherine Pace, Ali Campion, and Rachel Deleery went to Baylor Latin Day. The event includes a certamen competition, a Latin verb parsing bee, and a noun declining bee, along with a Plautine play and an oral Latin workshop. Matthew Miller placed first in the verb parsing bee, and Colin Vandeburg placed fourth in the same event. The certamen team won first coming from behind to beat our rivals from Hill Country Christian School. It was a great competition and great fun was had by all!	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  IIII</div>
+	<div class="middlebox"> Kal. Mar.</div>
+	<div class="bottombox">26 Feb 10</div>
+	</div>
+	<h1>St. Andrew's Wins Baylor Latin Day Competition</h1>
+	<div class="story">
+	On Friday, February 26, upper schoolers Matthew Miller, Colin Vanderburg, Trace Turner, Robert Luke, Charlie Dennis, Conor Butler, Eliana Gill, Catherine Pace, Ali Campion, and Rachel Deleery went to Baylor Latin Day. The event includes a certamen competition, a Latin verb parsing bee, and a noun declining bee, along with a Plautine play and an oral Latin workshop. Matthew Miller placed first in the verb parsing bee, and Colin Vandeburg placed fourth in the same event. The certamen team won first coming from behind to beat our rivals from Hill Country Christian School. It was a great competition and great fun was had by all!	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  IIII</div>
+	<div class="middlebox"> Kal. Mar.</div>
+	<div class="bottombox">26 Feb 10</div>
+	</div>
+	<h1>Upper School wins area Latin sweepstakes</h1>
+	<div class="story">
+		On Friday, February 19 and Saturday, February 20 the St. Andrew's Upper and Middle School Latin Clubs attended Area F Latin Convention hosted this year on the Upper School campus.  Our Middle School certamen team of Asa Buehler, Nick Fox, Logan Giberson, and Julia Josowitz, along with alternates Sam Martens, Lancer Sharp, and Evan Young reached finals and won 2nd place. Our Novice certamen team composed of Andy Newell, Catherine Pace, Eliana Gill, and Annie Osborne advanced to finals and won second place.  The Intermediate team of Connor Butler, Robert Luke, Cameron Osborn, Trace Turner, and alternates Gabi Hindera, Reeves Smith, Charlie Dennis, and Rachel Dimston took 2nd, and will be eligible to compete for spots on the team that will represent our area at the state convention. The Advanced certamen team composed of Reid Swanger, Matt Miller, Mason Osborn, Scott Dollen, and alternates Emma Richardson, Ali Campion, Rachel Deleery, and Colin Vanderburg won first place and will represent the area at the state tournament.<br />
+<br />
+As a team, St. Andrew's Upper School took first in the overall academic sweepstakes by 98 points. The Middle School placed 5th. Four students were recognized for having the highest score at any level on their tests: Mason Osborn for Reading Comprehension in both the poetry and prose tests; Scott Dollen for Roman Life; Matthew Miller for Grammar, Ali Campion for Girls' Dramatic Interpretation, and Reid Swanger for the Decathlon. Reid was named the Armadillo Classical Society's Senior Scholar as the most outstanding Latin student at the convention, and Matthew Miller was awarded the ACS Senior College Scholarship.<br />
+<br />
+The individual awards follow.<br />
+<br />
+Academic contests<br />
+First place:<br />
+Asa Buehler	Roman History	1/2 A<br />
+Jared Samuels	Greek Life and Literature	1/2 B<br />
+Andy Newell	Elementary Grammar 	1<br />
+Annie Osborne	Mythology	1<br />
+Eliana Gill	Decathlon	1<br />
+Rachel Dimston	Roman Life	2<br />
+Robert Luke	Roman History	2<br />
+Jose Lopez	Sight Recitation	2<br />
+Seth Davis	Boys Dramatic Interpretation	2<br />
+Connor Butler	Latin Oratory	2<br />
+Daniel Martens	Geography	3<br />
+Mason Osborn	Reading Comprehension - Prose	5+<br />
+Colin Vanderburg	Sight Recitation	4<br />
+Reid Swanger	Decathlon	5+<br />
+Matthew Miller	Advanced Grammar	5+<br />
+Scott Dollen	Mythology	5+<br />
+Scott Dollen	Roman Life	5+<br />
+Reid Swanger	Roman History	5+<br />
+Mason Osborn	Reading Comprehension - Poetry	5+<br />
+Ali Campion	Girls' Dramatic Interpretation	3<br />
+<br />
+Second place:<br />
+John Sealy	Greek Derivatives	1/2 A<br />
+Sara Thiessen	Vocabulary	1/2 A<br />
+Nick Fox	Decathlon	1/2 B<br />
+Lila Brand Schmidt	Roman Life	1<br />
+Andy Newell	Decathlon	1<br />
+Catherine Pace	Sight Recitation	1<br />
+Charlie Dennis	Advanced Grammar	2<br />
+Alex Adams	Latin Literature	2<br />
+Will Pearson	Greek History	2<br />
+William Howard	Decathlon	2<br />
+Emma Richardson	Advanced Grammar	3<br />
+Rachel Deleery	Mythology	3<br />
+Richard Dietz	Latin Derivatives	4<br />
+Katherine Stegmann	Vocabulary	4<br />
+Garrett Holody	Latin Literature	4<br />
+Richard Dietz	Mottoes	4<br />
+Matthew Miller	Decathlon	5+<br />
+<br />
+Third place:<br />
+Ana Marcks	Latin Derivatives	1/2 A<br />
+Logan Giberson	Mythology	1/2 A<br />
+Colin Hancock	Geography	1/2 A<br />
+Chloe Denham	Latin Derivatives	1/2 B<br />
+Chloe Denham	Greek Derivatives	1/2 B<br />
+Nick Fox	Vocabulary	1/2 B<br />
+Jared Samuels	Greek History	1/2 B<br />
+Sam Fason	Geography	1/2 B<br />
+Gillean Kelly	Sight Recitation	1/2 B<br />
+Christian Koitzsch	Latin Literature	2<br />
+Sam Andrews	Decathlon	2<br />
+Max Schotz	Greek Life and Literature	2<br />
+Reeves Smith	Mottoes	2<br />
+Kendle Windham	Roman Life	3<br />
+Katie Cooke	Latin Literature	3<br />
+Bryant Bowyer	Roman History	3<br />
+Jade Ross	Mottoes	3<br />
+Conor Keelan	Geography	3<br />
+Ali Campion	Sight Recitation	3<br />
+Colin Vanderburg	Advanced Grammar	4<br />
+Stephen Barron	Greek History	4<br />
+Rachel Deleery	Greek Life and Literature	3<br />
+Classical Civilization contests:<br />
+1st place:<br />
+Peter Steinbach, Richard Dietz, Will Pearson, Conor Keelan, Lila Brand-Schmitz, Erica Wiesman, Annie Osborne, Ali Campion, Eliana Gill, Ashley Dill	Vocal Ensemble<br />
+Nancy Waring	Polychromatic Art<br />
+<br />
+2nd place:<br />
+Ali Campion, Trace Turner, William Howard, Will Pearson	Play<br />
+Christine Snitkjaer	Monochromatic  Art<br />
+Annie Osborn	Couples Costume<br />
+Ali Campion	Vocal Solo<br />
+<br />
+3rd place:<br />
+Conor Keelan	Vocal Solo<br />
+<br />
+<br />
+Olympika:<br />
+1st place:<br />
+Meredith Stark	Girls 50 M <br />
+Brendan Ingram	Boys Softball Throw<br />
+Meredith Stark	Girls Softball Throw<br />
+<br />
+2nd place:<br />
+Meredith Stark	Girls 100 M <br />
+Christina Stull	Girls 200 M<br />
+Jade Ross	Girls Softball Throw<br />
+<br />
+3rd place:<br />
+Rachel Deleery	Girls Frisbee Throw<br />
+<br />
+On the Pentathlon, the one test taken by everyone at the convention, Catherine Pace and Eliana Gill tied for the high score in Level 1. Connor Butler had the high score in Level 2, and Reid Swanger had the high score in Level 5. Other Pentathlon results:<br />
+<br />
+Summa cum laude: Annie Osborne, Eliana Gill, Catherine Pace, Patrick Davis, Connor Butler, Nicholas Siegele, Stephen Barron, Richard Dietz, Scott Dollen, Matthew Miller, Mason Osborn, Reid Swanger, Conor Keelan, Jade Ross, Bryant Bowyer, Ali Campion, Emma Richardson, Rachel Deleery, Andy Newell, Rachel Dimston, Will Pearson, Trace Turner, William Howard, Cameron Osborn, Reeves Smith, Logan Giberson, Nick Fox<br />
+<br />
+Maxima cum laude: Justin Ingram, Samuel Leonard, Colin Feo, Meredith Stark, Colin Vanderburg, Nancy Wareing, Katie Cooke, Kendle Windham, Will Dodds, Daniel Martens, Lila Brand Schmitz, Ingrid Hoff, Jose Lopez, Robert Luke, Andrea DelVesco, Sam Andrews, Charlie Dennis, Seth Davis, Tucker Long, Parker Kell, As Buehler, Simran Frontain, Ana Marcks, Annika Mele, John Sealy, Christopher Snitkjaer, Evan Young, Sam Faosn, Gillean Kelly, Michelle Robles, Jared Samuels<br />
+<br />
+Magna cum laude: Katie Newell, Christine Snitkjaer, Ashley Dill,  Taylor Dill, Emily Dodds, Christian Koitzsch, Judith Allen, Sarah Thompson, Garrett Holody, Katherine Stegmann, Christina Stull, James Stark, Austin Tedesco, Anna Richards, Gabriela Hindera, Alex Adams, Kathryn McDonald, Max Schotz, Mason Neal, Caroline Dill, Colin Hancock, Kathryn Gernstein, Sam Marten, Sara Thiessen, Annie Tate Cockrum, Patrick Dunham, Callie Evarts, Julia Josowitz, Charhong Quach, Tristan Reed, Lance Sharp<br />
+<br />
+Cum laude: Seamus Gude, Peter Steinbach, Sam Stephenson, Brendan Ingram, Christopher Dill, Erica Weisman, Callie McConnico, Bonham Duncan, Madeleine Mele, Chloe Denham, Noah Ford<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">prid. Kal. </div>
+	<div class="middlebox">Nov.</div>
+	<div class="bottombox">31 Oct 09</div>
+	</div>
+	<h1>Advanced Certamen Team from St. Andrew's Wins Year's First Certamen Tournament</h1>
+	<div class="story">
+	On Saturday, October 31st, the St. Andrew's Upper School and Middle Schools sent teams to compete at the Hill Country Middle School Certamen Meet, affectionately known as Cougartamen. The six teams competed early that Halloween morning with tough competition from opposing middle and high school teams of all levels.  St. Andrew's entered teams in all levels (Novice, Middle School, Intermediate and Advanced) and did very well in all of them. <br />
+<br />
+Our Novice team played very well, took 2nd place. This team included Andy Newell and Eliana Gill. The match was very tough, and our team narrowly missed first place, just five points shy of tieing. <br />
+<br />
+The intermediate team, consisting of Connor Butler, Robert Luke, Cameron Osborn, Reeves Smith, and Trace Turner also competed and won second place, losing only to Hill Country Christian.<br />
+<br />
+Two teams from the Upper School competed in the Advanced category: the Blue Team and the White Team, named in honor of our school colors. Ali Campion, Emma Richardson, Daniel Martens and Jade Ross represented the Blue team, and Scott Dollen, Reid Swanger, Rachel Deleery, and Mason Osborn represented the While Team. The White Team advanced to the finals, beating the other two finalists, Hill County Christian and Westlake, by a margine of over one hundred points.<br />
+<br />
+The two teams from the Middle School that competed included 7th graders Asa Buehler, Logan Giberson, and Sam Martens, and 8th graders Evan Benitez-Young, Patrick Dunham, Nick Fox, Julia Josowitz, and Lancer Sharp.  Both teams played very well against other the middle school teams, but narrowly missed earning enough points to make it into the final round.<br />
+<br />
+Gratulamus omnibus vobis.<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">Kal </div>
+	<div class="middlebox">Aug.</div>
+	<div class="bottombox">1 Aug 09</div>
+	</div>
+	<h1>St. Andrew's Latin Club Attends National Junior Classical League Convention</h1>
+	<div class="story">
+	Thirty-three members of the St. Andrew's Latin Club participated in the 2009 National Junior Classical League convention that was held at the University of California at Davis  from July 27th to August 1st.  Participants competed in athletics (such as swimming, soccer, and ultimate Frisbee), art contests, and daily academic exams.  Many of the students placed in the top ten of their respective competitions, including Academic Tests, Graphic Arts, Writing Competitions, and Ludi Sports. Students also assembled for state fellowship and general assemblies, where they competed to show their spirit for their state, and marched in the Spirit Procession wearing their best Roman costumes along with about 1500 other Latin students from across the nation. The trip also included seeing the redwood sequoias at Muir Woods, a day at Discovery Kingdom in Vallejo, and sightseeing in San Francisco.<br />
+<br />
+All of the members of Texas's Advanced Certamen team were St. Andrew's students. Scott Dollen, Matthew Miller, Duke Njie, Mason Osborn, Reid Swanger, and Elisa Turner reached the semi-finals of the competition and placed fifth. Connor Butler was a member of the state's Novice Certamen team, which placed third in the nation.  He was joined by three players from Hill Country Christian School, and Trace Turner, Robert Luke, and Rachel Dimston served as alternates.<br />
+<br />
+Upper school Latin teacher Jennie Luongo was named a "Summa Cum Laude Junior Classical League Sponsor." This award is given to sponsors who have given extraordinary service to the JCL on the local, state, and national levels.<br />
+<br />
+Full results:<br />
+FIRST PLACE	<br />
+Mythology Level 4	Scott Dollen<br />
+Latin Derivatives Level 1/2	Nick Fox<br />
+Grammar Level 4	Matthew Miller<br />
+Small Models Grade 7-9	Hugo Nakashima-Brown<br />
+Computer Photography Grade 11	Mason Osborn<br />
+Slogan 	Sarah Thompson<br />
+<br />
+SECOND PLACE	<br />
+English Oratory Level 1	Connor Butler<br />
+Marathon Jr. Boys	William Howard<br />
+Slogan 	Cameron Kell<br />
+Grammar Level 4	Mason Osborn<br />
+50 yd Breaststroke Jr. Girls	Jade Ross<br />
+Latin Literature Level 4	Reid Swanger<br />
+<br />
+THIRD PLACE	<br />
+Certamen Novice	Connor Butler<br />
+Open Certamen Intermediate	Rachel Deleery<br />
+Ultimate Frisbee 	Richard Dietz<br />
+Games Grade 11	Richard Dietz<br />
+Certamen Novice	Rachel Dimston<br />
+Essay Grade 7-8 girls	Rachel Dimston<br />
+Ultimate Frisbee 	Cameron Kell<br />
+Certamen Novice	Robert Luke<br />
+Mottoes Level 4	Matthew Miller<br />
+Ultimate Frisbee 	Duke Njie<br />
+100 yd IM Jr. Girls	Jade Ross<br />
+Certamen Novice	Trace Turner<br />
+<br />
+FOURTH PLACE	<br />
+Classical Art Level 2	Rachel Deleery<br />
+Greek Life and Lit Level 1/2	Patrick Dunham<br />
+Latin Derivatives Level 5	Duke Njie<br />
+Vocabulary Level 4	Mason Osborn<br />
+Multimedia Grade 7-9	Nick Osella<br />
+Roman History Level 4	Reid Swanger<br />
+<br />
+FIFTH PLACE	<br />
+English Oratory Lower	Sam Andrews<br />
+Greeting Cards Grade 7-9	Connor Butler<br />
+Roman Life Level 4	Scott Dollen<br />
+Certamen Advanced	Scott Dollen<br />
+Roman Life Level 1/2	Patrick Dunham<br />
+Heptathlon Level 1/2	Patrick Dunham<br />
+Vocabulary Level 1/2	Nick Fox<br />
+Computer Photography Grade 7-9	William Howard<br />
+Reading Comp Poetry Level 4	Matthew Miller<br />
+Certamen Advanced	Matthew Miller<br />
+Vocabulary Level 5	Duke Njie<br />
+Certamen Advanced	Duke Njie<br />
+Certamen Advanced	Mason Osborn<br />
+Essay Grade 9 girls	Jade Ross<br />
+Certamen Advanced	Reid Swanger<br />
+Traditional Scrapbook Large	Sarah Thompson<br />
+Certamen Advanced	Elisa Turner<br />
+Roman History Level 1/2	Evan Young<br />
+<br />
+SIXTH PLACE	<br />
+Latin Derivatives Level 1	Sam Andrews<br />
+Cartoons Grade 7-9	Connor Butler<br />
+Sight Latin Reading Level 2	Ali Campion<br />
+Dolls Grade 7-9	Ali Campion<br />
+Slogan 	Rachel Deleery<br />
+Decorative Stitching Grade 7-9	Rachel Deleery<br />
+Roman History Level 1/2	Chloe Denham<br />
+Sight Latin Reading Level 1/2	Patrick Dunham<br />
+Mottoes Level 1/2	Nick Fox<br />
+Vocabulary Level 4	Matthew Miller<br />
+Mottoes Level 5	Duke Njie<br />
+Sculpture Grade 7-9	Nick Osella<br />
+Traditional Photography Grade 7-9	Nick Osella<br />
+Games Grade 11	Sarah Thompson<br />
+Mottoes Level 4	Elisa Turner<br />
+<br />
+SEVENTH PLACE	<br />
+Greek Life and Lit Level 1	Connor Butler<br />
+Sight Latin Reading Boys Prose Level 3	Richard Dietz<br />
+Sight Latin Reading Girls Level 1	Rachel Dimston<br />
+Heptathlon Level 1/2	Nick Fox<br />
+Latin Derivatives Level 4	Matthew Miller<br />
+Roman Life Level 4	Reid Swanger<br />
+Illustrated Quotations Grade 7-9	Trace Turner<br />
+Sight Latin Reading Boys Level 1/2	Evan Young<br />
+Mottoes Level 1/2	Evan Young<br />
+<br />
+EIGHTH PLACE	<br />
+Illustrated Quotations Grade 7-9	Ali Campion<br />
+Mythology Level 2	Rachel Deleery<br />
+Latin Derivatives Level 3	Richard Dietz<br />
+Reading Comprehension Level 1/2	Patrick Dunham<br />
+Greek Derivatives Level 1/2	Nick Fox<br />
+Sight Latin Reading Boys Level 2	Jose Lopez<br />
+Roman History Level 1/2	Charhong Quach<br />
+Roman Life Level 1/2	Charhong Quach<br />
+50 yd Freestyle Jr. Girls	Jade Ross<br />
+Ancient Geography Level 4	Reid Swanger<br />
+Mythology Level 4	Elisa Turner<br />
+<br />
+NINTH PLACE	<br />
+Reading Comprehension Level 1	Sam Andrews<br />
+Mottoes Level 3	Richard Dietz<br />
+Roman Life Level 1/2	Chloe Denham<br />
+Greek Derivatives Level 1/2	Patrick Dunham<br />
+Roman Life Level 1/2	Nick Fox<br />
+Reading Comp Poetry Level 4	Ryan Greenwell<br />
+Ancient Geography Level 1	Robert Luke<br />
+Sight Latin Reading Boys Level 1	Cameron Osborn<br />
+Traditional Photography Grade 7-9	Trace Turner<br />
+<br />
+TENTH PLACE	<br />
+Essay Grade 7-8 boys	Sam Andrews<br />
+Ancient Geography Level 1	Connor Butler<br />
+Latin Oratory Level 1	Connor Butler<br />
+Dolls Grade 7-9	Rachel Deleery<br />
+Latin Derivatives Level 1/2	Patrick Dunham<br />
+Latin Derivatives Level 4	Mason Osborn	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  III</div>
+	<div class="middlebox"> Kal. Apr.</div>
+	<div class="bottombox">30 Mar 09</div>
+	</div>
+	<h1>St. Andrew's students compete at state Latin convention</h1>
+	<div class="story">
+	<b>St. Andrew's Upper School students advance to nationals in two divisions of certamen.</b><br />
+<br />
+On March 27 and 28, St. Andrew's upper school students competed at the Texas State Junior Classical League convention at SMU in Dallas. Students participated in academic, artistic, and athletic contests.<br />
+<br />
+Two Austin area "all-star" teams won the state Certamen tournament and will represent Texas at Nationals this summer. The advanced division team was composed entirely of St. Andrew's students: Scott Dollen, Matt Miller, Duke Njie, Mason Osborn, and captain Reid Swanger. The novice division team included three St. Andrew's students: Connor Butler, a starter, and alternates Jose Lopez and Patrick Davis. The team also included players from Hill Country Christian Academy: Steven Baker, Thomas Ebner, Shane Jasek, Christian Johnson, Laura Mahaney, and Jonathan Mitchell. This is the first time that two Austin-area teams have advanced to Nationals in the same year. Congratulations to these Certamen players!<br />
+<br />
+Three students won awards for having the highest score for their individual contests in any level: Scott Dollen in Mythology, Matthew Miller in Grammar, and Colin Vanderburg in Sight Recitation. In addition, Reid Swanger had the highest score of any level IV student on the Pentathlon, the one test everyone at the convention takes.<br />
+<br />
+Here are the complete results:<br />
+<br />
+First Place<br />
+Megan Bentzin Girls 200 M Dash<br />
+Megan Bentzin Ludi Basketball<br />
+Rachel Deleery Open Certamen<br />
+Caroline Dill Traditional Photography<br />
+Scott Dollen Mythology 4<br />
+Ryan Greenwell Ludi Basketball<br />
+Matthew Miller Grammar Advanced 4<br />
+Matthew Miller Latin Derivatives 4<br />
+Mason Neal Ludi Basketball<br />
+Duke Njie Ludi Basketball<br />
+Kate Steinbach Ludi Basketball<br />
+Reid Swanger Ludi Basketball<br />
+Sarah Thompson Scrapbook<br />
+Colin Vanderburg Sight Recitation 3<br />
+<br />
+Second Place<br />
+Blair Campion Dramatic Interpretation Advanced - Girls 4<br />
+Rachel Deleery Mythology 2<br />
+Richard Dietz Mottoes 3<br />
+Cameron Kell Roman History 4<br />
+Jose Lopez Sight Recitation 1<br />
+Duke Njie Mottoes 5<br />
+Anna Richards Sculpture<br />
+Jade Ross Open Certamen<br />
+Reid Swanger Latin Literature 4<br />
+<br />
+Third Place<br />
+Megan Bentzin Girls 100 M Dash<br />
+Ali Campion Sight Recitation 2<br />
+Patrick Davis Grammar 1<br />
+Rachel Deleery Greek Life and Literature 2<br />
+Duke Njie Latin Derivatives 5<br />
+Mason Osborn Reading Comprehension Advanced Poetry 4<br />
+Emma Richardson Open Certamen<br />
+Reid Swanger Decathlon 4<br />
+Sarah Thompson Miscellaneous Art<br />
+Colin Vanderburg Latin Derivatives 3<br />
+<br />
+Fourth Place<br />
+Bryant Bowyer Decathlon 2<br />
+Andrea Delvesco Reading Comprehension 1<br />
+Scott Dollen Roman Life 4<br />
+Daniel Martens Geography of the Ancient World 2<br />
+Emma Richardson Grammar Advanced 2<br />
+Peter Steinbach Boys 200 M Dash<br />
+<br />
+Fifth Place<br />
+Blair Campion Sight Recitation (Poetry) 4<br />
+Anna Richards Models<br />
+<br />
+Sixth Place<br />
+Richard Dietz Decathlon 3<br />
+Omead Ghodsi Boys 400 M Relay<br />
+Ryan Greenwell Dramatic Interpretation Advanced - Boys 4<br />
+Conor Keelan Boys 400 M Relay<br />
+Kyle Kerr Boys 400 M Relay<br />
+Jose Lopez Roman History 1<br />
+Jose Lopez Boys 400 M Relay<br />
+Christina Stull Greek Derivatives 3<br />
+<br />
+Seventh Place<br />
+Megan Bentzin Reading Comprehension Advanced Poetry 3<br />
+Blair Campion Vocal Solo<br />
+Caroline Dill Poster<br />
+Kate Steinbach Greek History 4<br />
+Austin Tedesco Reading Comprehension Advanced Prose 4<br />
+<br />
+Eighth Place<br />
+Taylor Dill Greek History 1<br />
+<br />
+Ninth Place<br />
+Conor Keelan Vocal Ensemble<br />
+Kate Steinbach Vocal Ensemble<br />
+Peter Steinbach Vocal Ensemble<br />
+Alex Wolford Greek Life and Literature 4<br />
+<br />
+Tenth Place<br />
+Caroline Dill Roman Life 2<br />
+Matthew Miller Original English Oratory<br />
+Colin O'Brien Boys Costume<br />
+Anna Richards Greek Derivatives 4<br />
+Anna Richards Essay<br />
+Christine Snitkjaer Mottoes 1<br />
+Christine Snitkjaer Geography of the Ancient World 1<br />
+<br />
+Students receiving summa cum laude awards for the Pentathlon: Bryant Bowyer, Connor Bulter, Ali Campion, Blair Campion, Rachel Deleery, Andrea DelVesco, Richard Dietz, Kyle Hunt, Conor Keelan, Cameron Kell, Daniel Martens, Mason Osborn, Emma Richardson, Jade Ross, Peter Steinbach, Reid Swanger (highest score in level 4), Elisa Turner, Colin Vanderburg.<br />
+<br />
+Students receiving maxima cum laude awards for the Pentathlon: Judith Allen, Megan Bentzin, Scott Dollen, Colin O'Brien, Sammi Robles, Kate Steinbach, Kendle Windham, Alex Wolford.<br />
+<br />
+Students receiving magna cum laude awards for the Pentathlon: Daniel Albert, Caroline Dill, Bonham Duncan, Ryan Greenwell, Garrett Holody, Kyle Kerr, Matthew Miller, MaryHelen Murray, Duke Njie, Caroline Poteet, Anna Richards, Christine Snitkjar, Christina Stull, Austin Tedesco, Sarah Thompson.<br />
+<br />
+Students receiving cum laude awards for the Pentathlon: Omead Ghodsi, Jose Lopez, Katie Newell.<br />
+<br />
+Overall, the team placed 5th in Upper Division Sweepstakes, making us the highest-ranked Austin-area school as well as the highest-ranked SPC school.<br />
+<br />
+The Latin teachers would like to thank Shawna Butler, Peggy Dill, Lorena Garcia, Mark and Louise Michaud, and Donna Osborn for chaperoning this trip, and Marty Swanger and Donna Osborn for organizing the food for the trip. Thanks also to all the parents who donated food and showed up to watch Certamen finals. Good luck to all as we prepare for Nationals this summer at the University of California-Davis.<br />
+<br />
+<b>MS Latin Students Earn High Sweepstakes Awards at State Latin Convention</b><br />
+<br />
+On Friday, March 27, twenty-four St. Andrew's Middle School Latin students departed for Dallas to attend the annual Texas State Junior Classical League (TSJCL) convention on the campus of Southern Methodist University. Our students' amazing success earned St. Andrew's the honor of fourth place in the novice division sweepstakes competition among all Texas middle schools in attendance.<br />
+After our group visited a wonderful Etruscan exhibit at the Meadows Museum on the SMU campus, the weekend's competition kicked off with the Pentathlon, a five-category academic test that all students at the convention take.<br />
+<br />
+Competition continued on Saturday morning, when students competed in academic contests in various subjects such as Roman history and Latin vocabulary as well as reciting and pronouncing Latin passages. Some students participated in various visual and performing arts contests, with categories including everything from photography and pottery to vocal performance. Many of our students also competed in the athletic contests known as "Olympika" (track events) and "Ludi" (basketball, soccer, and volleyball).<br />
+In addition to all of this competition, students met new friends at just-for-fun events such as Friday night's dance and Roman-themed movie screenings. One of our students even entered the convention talent show and won first place playing his electric guitar. Congratulations to Max Schotz!<br />
+<br />
+After the competition on Friday and Saturday, the group took a little more time on Sunday to visit the King Tut exhibit at the Dallas Museum of Art as well as some exhilarating roller-coasters at Six Flags before returning home Sunday evening. Congratulations to all of the students who participated. We look forward to hearing about more successes from these wonderful students at this summer's National Latin Convention in Davis, California.<br />
+<br />
+CONTEST RESULTS<br />
+Overall Sweepstakes - Novice Division<br />
+St. Andrew's Middle School: 4th place<br />
+<br />
+1st Place<br />
+Ted Heydinger: Greek Life & Literature<br />
+Gillean Kelly: Latin Sight Recitation<br />
+Michelle Robles: Greek Life & Literature<br />
+<br />
+2nd Place<br />
+Sam Andrews: Decathlon<br />
+Clay Damron: State T-shirt Design<br />
+Clay Damron: Electronic Artwork<br />
+Patrick Dunham: Roman History<br />
+Nick Fox: Decathlon<br />
+Parker Kell: Latin Reading Comprehension<br />
+<br />
+3rd Place<br />
+Rachel Dimston: Roman Life<br />
+Rohaise Firth-Butterfield: Greek History<br />
+William Howard: Latin Grammar<br />
+Robert Luke: Roman History<br />
+<br />
+4th Place<br />
+Patrick Dunham: Greek Derivatives<br />
+Cameron Osborn: Greek Derivatives<br />
+<br />
+5th Place<br />
+Callie Evarts: Latin Vocabulary<br />
+Hugo Nakashima-Brown: Geography of the Ancient World<br />
+Charhong Quach: Latin Grammar<br />
+<br />
+PENTATHALON<br />
+Summa cum laude<br />
+7th: Nick Fox, Charhong Quach<br />
+8th: Sam Andrews, Rachel Dimston, William Howard, Robert Luke, Hugo Nakashima-Brown, Trace Turner<br />
+<br />
+Maxima cum laude<br />
+7th: Michelle Robles<br />
+8th: Charlie Dennis, Will Pearson<br />
+<br />
+Magna cum laude<br />
+7th: Chloe Denham, Patrick Dunham, Gillean Kelly, Evan Young<br />
+8th: Rohaise Firth-Butterfield, Parker Kell, Cameron Osborn<br />
+<br />
+Cum laude<br />
+7th: Callie Evarts<br />
+8th: Ashley Dill, Clay Damron, Ted Heydinger<br />
+	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VIIII</div>
+	<div class="middlebox"> Kal. Feb.</div>
+	<div class="bottombox">24 Jan 09</div>
+	</div>
+	<h1>Certamen teams victorious at St. Gabriel's Tournament</h1>
+	<div class="story">
+	On Saturday, January 24th, St. Andrew's entered certamen teams at the St. Gabriel's certamen tournament in four levels: Advanced, Intermediate, Novice and Middle School levels.The Advanced team, with players Richard Dietz, Reid Swanger, Scott Dollen, Duke Njie, Matt Miller, and Elisa Turner, placed first. Junior Matt Miller said of the competition, "The LASA (LBJ) certamen team was the toughest team we played; we played pretty well against them, so I think we'll do well against them [at the Austin Area Competition]."<br><br>The Intermediate team, consisting of Bryant Bowyer, Rachel Deleery and Emma Richardson, placed second.<br><br>The Novice team, represented by Conner Butler and&nbsp; Patrick Davis won first place.<br><br>The St. Andrew's Middle School team also won the second place trophy.&nbsp; Will Pearson, Cameron Osborn, Charlie Dennis, and Robert Luke played.<br><br>These teams will be representing us at the Austin Area Latin Competition, a competition to be held at Westwood High School on February 23-24th, 2009. They are expected to do well against difficult competitors. Bonam fortunam omnibus.	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XVII</div>
+	<div class="middlebox"> Kal. Dec.</div>
+	<div class="bottombox">15 Nov 08</div>
+	</div>
+	<h1>All Four St. Andrew's Teams Place at Hill Country MS Certamen Tournament</h1>
+	<div class="story">
+	On Saturday, November 15th, five teams representing the St. Andrew's Latin Club competed in all four levels of the certamen competition at Hill Country Middle School. Teams from middle schools and high schools all over the Austin area competed, and the four teams from the St. Andrew's school advanced to finals. The Middle School team consisting of Charlie Dennis, Rachel Dimston, Robert Luke, and Trace Turner placed third in a very competitive division.&nbsp; The Novice team beat two other teams in finals, taking home first place. Connor Butler and Jose Lopez made up the Novice team. This is a huge accomplishment for this team as most teams consist of four players. The Lower team won second, narrowly losing to Hill Country Christian, and consisted of Bryant Bowyer, Rachel Deleery, Emma Richardson, and Kendall Windham. The Upper team, consisting of Richard Dietz, Scott Dollen, Matt Miller, Duke Njie, Reid Swanger, and Colin Vanderburg played a fierce competition, and ultimately won first by 245 points against LBJ and Westlake.&nbsp; 	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  VI</div>
+	<div class="middlebox"> Id. Nov.</div>
+	<div class="bottombox">8 Nov 08</div>
+	</div>
+	<h1>Advanced certamen first, intermediate third at Reagan Tourney</h1>
+	<div class="story">
+	On Saturday, November 8, four certamen teams from St. Andrew's Upper School arrived at Reagan High School in San Antonio at 7:00a.m. to compete in the Reagan High School Tournament. The intermediate team, representing their second year Latin classes, made it all the way to finals to take home a third place trophy. This team did incredibly well considering they consisted of only three people of a possible four. These students were sophomore Bryant Bowyer, and freshmen Kendle Windham and Emma Richardson. The advanced team, of seniors Duke Njie and Elisa Turner, and sophomores Scott Dollen and Reid Swanger, won first place. Congratulations to both teams!	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XI</div>
+	<div class="middlebox"> Kal. Nov.</div>
+	<div class="bottombox">22 Oct 08</div>
+	</div>
+	<h1>Advanced and Novice Certamen Teams Win First Tournament of Year</h1>
+	<div class="story">
+	The weekend of October the 18th, St. Andrew's co-hosted the annual Crusader Classic Certamen Tournament at the Upper School. Schools from both the Austin and San Antonio area attended. St. Andrew's had teams competing in all levels, and two of our teams won first place. One team, the Advanced team, consisting of Scott Dollen, Reid Swanger, Matthew Miller, and Elisa Turner, beat two San Antonio teams in the finals to take first place. "Reagan High School in San Antonio was a tough opponent," said Matt Miller, a Junior on the St. Andrew's Upper Team.&nbsp; The Novice team, consisting of Patrick Davis, Mason Neil, Conner Butler, and Jose Lopez, also won. "It was a lot of fun and we did a lot good work," said Kate Steinbach, a senior and a class representative of her AP Vergil class who helped set up the competition rooms. Her teacher, Jennie Luongo, also said that it "ran smoothly.""It was a success," added upper school Latin teacher Clint Hagen. 	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  V</div>
+	<div class="middlebox"> Non. Aug.</div>
+	<div class="bottombox">2 Aug 08</div>
+	</div>
+	<h1>Students return from NJCL convention with many awards</h1>
+	<div class="story">
+	Twenty members of the St. Andrew's Latin Club participated in the 2008 National Junior Classical League convention that was held at Miami University in Oxford, Ohio, from July 28th to August 2nd.  Participants competed in athletics (such as swimming, basketball, soccer and ultimate Frisbee), art contests, and daily academic exams.  Many of the students were placed in the top ten of their respective competitions, including Academic Tests, Graphic Arts, Writing Competitions, and Ludi Sports. Students also assembled for a state fellowship and general assemblies, where they competed to show their spirit for their state. Students also marched in the Spirit Procession wearing their best Roman costumes along with about 1500 other Latin students from across the nation. On their way to Oxford, the students stayed two days in Cincinnati, where they visited Kings Island amusement park and took in a baseball game at the Great America Ballpark.<br><br>Several St. Andrew's students represented Texas on the state's Advanced Certamen team. Philip Swanger was a starter for the team and Reid Swanger, Kiran Rao, Matt Miller, and Scott Dollen were alternates. The team advanced to semi-finals before falling to eventual champions Virginia.<br><br>Upper school Latin teacher Jennie Luongo, middle school Latin intern Lauren Dill '04, and Andrew Rist '05 were crowned champions in the World Series of Certamen, the adult division of Certamen. In doing so, their team (called "Cornua Longa" or Longhorns) defeated last year's champion as well as the Florida Juggernaut, who had defeated them in a preliminary round.<br><br>Upper school Latin teacher Clint Hagen was named a "Summa Cum Laude Junior Classical League Sponsor." This award is given to sponsors who have given extraordinary service to the JCL on the local, state, and national levels.<br><br>Full results:<br><br>FIRST PLACE <br>Rachel Deleery Decorative Stitching <br>Richard Dietz Open Certamen Intermediate<br>Anna Richards   Glass<br>Philip Swanger Latin Literature V+<br>Reid Swanger   Roman History III<br>Sarah Thompson  Dolls<br>Christine Walsh  50 yd. Backstroke<br>Christine Walsh  100 yd. Backstroke<br>Christine Walsh  50 yd. Fly<br>    <br>SECOND PLACE<br>Matt Miller   Mottoes III<br>Cameron Osborn Greek Derivatives 1/2<br>Anna Richards Jewelry<br>Sarah Thompson Â Â  Â Glass<br>Christine Walsh 50 yd. Breaststroke<br>Christine Walsh 50 yd. Freestyle<br>Christine Walsh 100 yd. Freestyle<br>Christine Walsh  200 yd. Freestyle<br>Christine Walsh  100 yd. Medley<br>Duke Njie Ludi Basketball<br>Austin Tedesco Ludi Basketball<br><br>THIRD PLACE <br>Ali Campion Sight Recitation I <br>Scott Dollen Mythology III<br>Mason Osborn   Essay<br>Mason Osborn Reading Comprehension - Prose III<br>  <br>FOURTH PLACE <br>Richard Dietz Games<br>Matt Miller Reading Comprehension III<br>Anna Richards  Textiles<br>Philip Swanger Classical Art V+<br>Sarah Thompson   Slogan<br><br>FIFTH PLACE<br>Ali Campion Dramatic Interpretation Girls' I<br>Richard Dietz Sight Recitation II<br>Matthew Miller English Oratory<br>Mason Osborn Grammar III<br>Mason Osborn Vocabulary III<br>Kiran Rao Latin Literature V+<br>Kiran Rao Mythology V+<br>Anna Richards Dolls<br>Reid Swanger Latin Literature III<br>Reid Swanger Roman Life III<br>Philip Swanger Reading Comprehension-Prose V+<br>Sarah Thompson Jewelry<br>Trace Turner Classical Art 1/2<br><br>SIXTH PLACE<br>Matthew Miller Vocabulary III<br>Mason Osborn Classical Art III<br>Mason Osborn Mottoes III<br>Philip Swanger Reading Comprehension ÃƒÂ¢Ã¢â€šÂ¬" Poetry V+<br>Trace Turner Traditional Photography<br><br>SEVENTH PLACE<br>Scott Dollen Latin Literature III<br>Mason Osborn Reading Comprehension ÃƒÂ¢Ã¢â€šÂ¬" Poetry III<br>Sarah Thompson Girls' Costume<br>Elisa Turner Essay<br><br>EIGHTH PLACE<br>Rachel Deleery Mythology I<br>Charlie Dennis 100 Meter Run<br>Kiran Rao Classical Art V+<br>Philip Swanger Vocabulary V+<br>Elisa Turner Mythology III<br><br>NINTH PLACE<br>Ali Campion Illustrated Quotations<br>Kiran Rao Latin Derivatives V+<br>Kiran Rao Essay<br>Anna Richards Mosaics<br>Reid Swanger Academic Heptathlon III<br>Austin Tedesco Essay<br>Elisa Turner Mottoes III<br><br>TENTH PLACE<br>Richard Dietz Mottoes II<br>Scott Dollen Roman Life III<br>Matt Miller Latin Literature III<br>Kiran Rao Reading Comprehension -Prose V+<br>	</div>
+	<div id="datebox">
+	<div class="topbox">a. d.  XII</div>
+	<div class="middlebox"> Kal. Iun.</div>
+	<div class="bottombox">21 May 08</div>
+	</div>
+	<h1>Cell phone drive a success</h1>
+	<div class="story">
+	<p>Today, the Latin Club will be taking the 55 phones that we collected in our used cell phone drive to the Austin Police Department Victims' Services Unit to be distributed to those who need phones to be enable them to call 911. Many thanks to all who donated and to sophomore Sarah Thompson who led our efforts.</p>	</div>
+</div>
+<div id="footwrap">
+	Original content &copy; 2007 St. Andrew's Episcopal School. JCL tests and Certamen rounds are public domain.<br /><br />
+	Code by Clint Hagen, using the following libraries:<br />
+	&nbsp;&nbsp;&nbsp;<a href="http://jquery.com">jQuery</a> &copy John Resig and the jQuery team, used under <a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html">GPL</a>.<br />
+	<br />
+	Content created by the St. Andrew's Episcopal School Latin Department: Jennie Luongo (chair), Gaylan DuBose, Lauren Dill, Clint Hagen, Nathan Michaud. <br />
+	This project was made possible by generous grants from the St. Andrew's Episcopal School Parents' Council.
+</div>
+</div> <!-- container -->
+</body>
+</html>

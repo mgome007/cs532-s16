@@ -1,0 +1,237 @@
+<html>
+<head><title>Tim Chevalier's Home Page</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="openid.server" href="http://www.myopenid.com/server" />
+<link rel="openid.delegate" href="http://catamorphism.myopenid.com/" />
+</head>
+<body>
+
+<div>
+<h1>Tim Chevalier</h1>
+<img src="Images/tim_by_christine_chun_small.jpg" width="250" height="375" alt="[Tim in Berkeley, California, September 2013]">
+<!-- <img src="tim_july_2010_cropped.jpg" alt="[Tim in Jacmel, Haiti, July 2010]"> -->
+<!-- <img src="tim_powell_butte_december_2008_web.jpg" align="left"> -->
+<!-- <img src="Images/victoria_september_2008.png" align="right"> -->
+<!-- <img src="Images/tim_june_cropped.jpg" width="502" height="364" align="right"> -->
+<!--<img src="Images/tc_mar08.png" align="right">-->
+<!--<img src="Images/tc_feb1.png" align="right">-->
+<!--<img src="Images/tc_nov8_smaller.png" align="left">-->
+<div.compressed style="font-size:75%;align=left">
+<i>Photo by Christine Chun</i>
+</div.compressed>
+
+<table>
+<tr><td><a href="#about">About me</a></td>
+<td><A href="#opinions">Opinions</a></td>
+<td><a href="#academic">Academic</a></td>
+<td><a href="#software">Software</a></td>
+<td><a href="#quotations">Quotations</a></td>
+<td><a href="#writing">Writing</a></td>
+  <td><a href="#organizations">Organizations</a></td>
+  <td><a href="#memory">In memory</a></td>
+</table>
+
+</div>
+
+
+<div>
+<a name="about"><h2>About me</h2></a>
+
+<div>
+
+<h3>Professional</h3>
+<blockquote><em>"...Today's programmers still work in a world where changing tabs to spaces leaves them, basically, fucked."</em><br> -- Scott Rosenberg</blockquote>
+
+<p>I'm currently looking for a software engineering job in a collaborative environment, working on problems that have a direct effect on users. My experience is largely with modern type-safe programming languages like Haskell, Rust, and Erlang, but I'm more interested in finding the right team to work with than in the specific choices of technology. Please visit my <a href="https://www.linkedin.com/in/catamorphism">LinkedIn profile</a> and contact me via LinkedIn or via email ( mylastname at alum dot wellesley dot edu ).
+
+<p>Most recently, I worked as a Senior Member of Technical Staff at <a href="http://heroku.com/">Heroku</a>, where I wrote Erlang for the HTTP Routing Infrastructure team. Before that, I was a Principal Software Engineer at <a href="http://www.alephcloud.com/">AlephCloud</a>, where I wrote Haskell all day long. Until November 2013, I was a research software engineer at <a href="http://www.mozilla.org/">Mozilla</a>, where I worked on implementing the <a href="http://rust-lang.org/">Rust programming language</a>.
+
+<p>I graduated from the <a href="http://www.berkeley.edu/">University of California, Berkeley</a> with a master's degree in <a href="http://www.cs.berkeley.edu/">computer science</a> in 2004, and I graduated from <a href="http://www.wellesley.edu/">Wellesley College</a> with a bachelor's degree in <a href="http://cs.wellesley.edu/">computer science</a> (minoring in mathematics) in 2001. From 2007-2011 I was working on a Ph.D in computer science at Portland State University, until I was <A href="http://tim.dreamwidth.org/1729048.html">pushed out of the department for protesting sexual harassment.</a>
+
+  <p>I live in Oakland, California.
+</div>
+
+<div>
+<h3>Bio</h3>
+<blockquote><em>"Please don't leave us here alone in this silicon hell."</em><br>--Allette Brooks</blockquote>
+
+
+<p>In 2015 I asked my friends to write a bio for me (<a href="http://infotrope.net/about/bio/">thanks to Skud for this idea</a>), and here's what they came up with.
+
+<p> Tim Chevalier was born in Massachusetts in 1980. He has occupied many roles and fit them to varying degrees of awkwardness ranging from "none" to "a lot": for example, Girl Scout, teenage writer of letters to the editor, UAW Local 2865 member, tenure-track graduate student, baritone in a men's peace choir, Mountain Goats fan, professional scolder (including being a scolder of fortune, amongst others), and computer programmer. He is knowledgeable about functional programming, language design, and cloud technologies. He graduated from Wellesley College with a BA in Computer Science and Mathematics in 2001, and from UC Berkeley with an MS in Computer Science in 2003. Tim has worked at Heroku, AlephCloud Systems, Mozilla, Portland State University (Oregon), and American Journal Experts, to name a few.
+
+<p> Tim became interested in computers at a young age. He was fascinated by the idea of a machine that he could control and program to do his will. It allowed him to do everything from solve math problems to play games to draw cool pictures. However, after many years of working with computers and other changes in his life, that need for a deterministic machine faded. He ran screaming from the tech world, and with good reasons.  The computer now seems like something that is too easy to understand so Tim has decided that he will be a social worker, life coach and energy healer. However, he can't afford to quit tech yet so all of this is hypothetical.
+
+<p>He is a Californian cat father.
+
+  <h4>Testimonials</h4>
+
+  <ul>
+
+  <li>tim owned me on numerous occasions and continues to do so. --pg
+
+  <li>Tim once shamed me in public and I loved it. Tim could probably be cooler if he shared his green medicine [1] with me. Tim will have to check my IP because I may have vandalized this page oops.
+
+  <li>Tim once crowdsourced his professional bio, and it came out alright [citation needed]
+
+  <li>Tim is A Real Mensch and a total cutie
+
+  <li>Tim wrote <a href="http://geekfeminism.org/2012/09/17/how-to-exclude-women">an amazing blog post</a> and currently stands as the only person who has both written for Model View Culture and served on the organizing team for the International Conference of Functional Programming's annual Programming Contest.
+
+  <li>Tim has several times helpfully and painfully corrected errors of mine. Also, he owes me a beer.
+
+  <li>Tim cannot confirm or deny that he does not recall events such as those which may or may not be mentioned here.
+
+  <li>Tim has amazing cooking skills and can work with a variety of dietary restrictions.  He also has a better understand of what an anus looks like than some of his friends do.  In case this isn't clear, Tim is not an asshole.
+
+  <li>Tim spends his spare time herding spider monkeys for fun and profit.
+
+  <li>Tim reads so much, he's really well in formed on some topics. He writes analysis of these topics, that are insightful, well thought through, and full of citations to source material. I have learned so much from Tim.
+
+  <li>Tim is perpetually in verbose mode.
+
+  <li>"while working with Mozilla, Tim may have destroyed half of Japan.  or maybe that was another zilla.  PR's bad" -- PR Gnus of the World (no srsly if you ask the PRG guy he'll probably agree to say this)
+  </ul>
+  
+  <h4>Footnotes</h4>
+  <p>[1]: "green medicine" reefers(*) to lime flavoured maple syrup
+  <p>(*) wait this looks like an anus. I'm out.
+
+</div>
+</div>
+
+<div>
+  <a name="opinions"><h2>Opinions</h2></a>
+<blockquote><em>"Normal is a weapon of mass destruction. It's just as deadly, and just like those weapons, it'll never be found."</em><br> -- Thea Hillman</blockquote>
+
+<p>I'm a transsexual man, and I have opinions about sex, gender, and cisnormativity. Occasionally I <a href="http://tim.dreamwidth.org/tag/trans">write about them</a>. <a href="transition.html">Here's what I wrote in 2007 to announce my coming-out.</a> My views have evolved since then; I'd summarize them now by pointing out that <a href="http://en.wikipedia.org/wiki/Cissexual">cissexual</a> people get to self-report their gender without having to "prove" it by exhibiting their anatomy or genetic makeup, and averring that the same right ought to be extended to <i>everyone</i>.
+
+<p>As a male programmer who has spent a lot of his life getting perceived as a female programmer, one of the accomplishments I'm most proud of is hosting/maintaining the <a href="privilege.html">Male Programmer Privilege Checklist</a> for five years (originally written by <a href="http://www.earth.li/~kake/">Kake</a>, extended by me and others). The current version of the <a href="http://geekfeminism.wikia.com/wiki/Male_Programmer_Privilege_Checklist">Male Programmer Privilege Checklist</a> resides on the <a href="http://geekfeminism.wikia.com">Geek Feminism Wiki</a>.
+
+<p>For several years I was a regular contributor and moderator on <a href="http://geekfeminism.org/">geekfeminism.org</a> and the <a href="http://geekfeminism.wikia.com/wiki/Geek_Feminism_Wiki">Geek Feminism Wiki</a>. I aspire to always speak and act with <a href="http://geekfeminism.wikia.com/wiki/Intersectionality">intersectionality</a> in mind, knowing that aspiring is not enough and I'll often fail.
+
+</div>
+
+<div>
+<a name="academic"><h2>Academic</h2></a>
+<blockquote><em>"But if you wish at once to do nothing and to be respectable nowadays, the best
+pretext is to be at work on some profound study."</em>-- Leslie Stephen</blockquote>
+
+<div>
+<h3>Publications</h3>
+<ul>
+<li>
+ <p><a href="http://web.cecs.pdx.edu/~apt/icfp10.pdf">"A Certified Framework for Compiling and Executing Garbage-Collected Languages"</a>, Andrew McCreight, Tim Chevalier, and Andrew Tolmach. <i>ICFP '10</i></p>
+</ul>
+</div>
+
+<div>
+<h3>Writing</h3>
+<ul>
+<li>My Research Proficiency Exam paper, <a href="Writing/tim-chevalier-rpe.pdf">"The Design and Implementation of a Safe and Lightweight Compiler for Haskell"</a> (April 2009) (PDF, 521K)
+<li>My master's thesis, <a href="Writing/chevalier_ms_2004_type_inference.pdf">"Implementing Type-Based Deforestation"</a> (2004) (PDF, 375K)
+<li>My undergraduate thesis, <a href="Writing/chevalier_ba_2001_type_inference.pdf">"Exploring the Type Inference Approach to Deforestation"</a> (2001) (PDF, 378K)
+<li><a href="NSF/">My application essays for the NSF Graduate Fellowship</a>, for anyone who might be applying for that and want to see example essays.
+<li>And for laughs, my first <a href="statement_of_purpose_fall_2000.pdf">grad school statement of purpose</a> (December 2000).
+</ul>
+</div>
+
+<div>
+<h3>Posters</h3>
+<ul>
+<li><a href="Writing/type_system_certified_gc_poster.png">"A Type System for Certified Garbage Collection of Haskell Programs"</a> (with Andrew Tolmach; ICFP 2008 Poster Session) (inline PNG image, 4.1 MB)
+</ul>
+</div>
+
+<div>
+<h3>Talks</h3>
+<ul>
+<li><a href="Writing/Rust-Tutorial-tjc.pdf">"Rust: a Friendly Introduction"</a> -- slides from <a href="http://opensourcebridge.org/proposals/970">my talk at Open Source Bridge</a>, June 19, 2013. (PDF, 4.2 MB)
+<li><a href="Writing/tim-rpe-talk.pdf">"The Design and Implementation of a Safe and Lightweight Haskell Compiler"</a> -- slides from my Research Proficiency Exam talk, May 15, 2009. (PDF, 5.9M)
+<li><a href="Writing/tim_chevalier_laziness.pdf">"How to Be Both Lazy and Reasonable"</a> -- slides from my final 15-minute talk for the Scholarship Skills class at PSU, March 17, 2008. (PDF, 1.6M)
+<li><a href="http://docs.google.com/Presentation?id=ddkpfvdr_23dc8wbd9w">"Towards a GraphicsMagick Binding for Haskell"</a> -- slides from my talk at the Portland Functional Programming Users' Group, February 11, 2008. (Cheap link to follow.)
+</ul>
+</div>
+</div>
+
+<div>
+<a name="software"><h2>Software</h2></a>
+
+<p>I don't currently write open-source software. From 2011-2013 I put most of my time into the <a href="https://github.com/mozilla/rust">Rust</a> project.
+
+<p>Software I've written and am willing to show in public lives on my <a href="http://community.haskell.org/~tim/">community.haskell.org home page</a>. I've also contributed a little bit of code to <a href="http://haskell.org/ghc">GHC</a> and even less code to <a href="http://darcs.net/">darcs</a>. All of this is very old.
+</div>
+
+<div>
+<a name="quotations"><h2>My quotations file</h2></a>
+<blockquote><i>"She had a pretty gift for quotation, which is a serviceable substitute for wit." </i> -- W. Somerset Maugham</blockquote>
+<ul>
+<li><a href="quotations.html">Quotations</a> that speak to me, or spoke to me several years ago, anyway.
+</ul>
+</div>
+
+<div>
+<a name="writing"><h2>Things that I wrote</h2></a>
+<blockquote><i>"I'm willing to show good taste, if I can, in somebody else's living room, but our reading life is too short for a writer to be in any way polite. Since his words enter into another's brain in silence and intimacy, he should be as honest and explicit as we are with ourselves."</i> -- John Updike</blockquote>
+
+If you like what you read below and want me to encourage to write more of it, consider <a href="https://patreon.com/mappings">supporting me on Patreon.</a>
+
+<ul>
+  <li>I keep a <a href="http://tim.dreamwidth.org/">public journal</a> on Dreamwidth.
+    <li>(Jul. 2014) Model View Culture published my article <a href="http://modelviewculture.com/pieces/killing-the-messenger-at-mozilla">"Killing the Messenger at Mozilla"</a>.
+<li>(Feb. 2014) <A href="http://modelviewculture.com/">Model View Culture</a> published my article <a href="http://modelviewculture.com/pieces/gendered-language-feature-or-bug-in-software-documentation">"Gendered Language: Feature or Bug in Software Documentation?"</a>
+<li>My writing from 2012 to 2015 that I'm proud of was mostly on <a href="http://geekfeminism.org/author/mappings/">geekfeminism.org</a>
+<li><a href="http://tim.dreamwidth.org/1708538.html">"How To Fail Out Of Grad School Without Really Trying"</a> (September 2010)
+<li><a href="Writing/self-knowledge.html">A letter to the editor-cum-trans-rant</a> (May 2008) from me that the <i>Portland Mercury</i> published.
+<li><a href="Writing/trans-kids.html">"What Price Normalcy?"</a> (December 2007) -- an essay on the debate over whether to deny medical treatment to transsexual kids.
+<li><a href="rmsslashesr.html">"GNU's Not Eunuchs"</a> (May 2005) -- the infamous RMS/ESR slash. Contains explicit language. 
+<li><a href="Writing/bus.txt">Are you saved on the hard disk of life?</a> (December 2001) -- a bus ride in Berkeley.
+<li><a href="Writing/commencement-may-2001.pdf">My commencement speech</a> (May 2001): I applied to be the student speaker at my college graduation, and this is the speech I submitted. Shockingly, I didn't get called in for an interview.
+<li><a href="Writing/bald.html">"The Bald Squirrel"</a> (April 2000) -- a short play about online discourse / homage to Ionesco.
+</ul>
+</div>
+
+<div>
+<a name="organizations"><h2>Organizations I support</h2></a>
+
+These are my favorite organizations that I regularly support; mainly financially at the moment, though that could change. If you have income beyond your and your family's basic needs, maybe you should support them too.
+<ul>
+<li><a href="http://www.fundabortionnow.org/">National Network of Abortion Funds</a> - making sure no one's finances mean they're forced to give birth when they don't want to
+<li><a href="http://www.scarleteen.com/">Scarleteen</a> - providing reality-based sex education to youth
+<li><a href="http://www.pih.org/">Partners in Health</a> - health care and social justice, on the principle that everybody should have access to the same kind of health care you would expect for yourself or for a friend or loved one
+<li><A href="http://www.tgijp.org/">Transgender, Gender-Variant, Intersex Justice Project (TGIJP)</a> - focusing on the needs of low-income trans and gender-variant women of color in the criminal justice system
+</ul>
+</div>
+
+<div>
+<h2>Everything else</h2>
+
+<p><a href="borrowed.txt">Things people have borrowed from me</a> (you don't care)
+<p><a href="wanttoread.txt">Things I want to read</a> that don't have entries in <a href="http://allconsuming.net/person/catamorphism/">All Consuming</a>. (You probably also don't care.)
+</div>
+
+<div>
+<a name="#memory"><h2>In memory</h2></a>
+<p>I wish to remember <a href="http://www.estherandrews.org/">Esther Andrews</a>, who died in 2001. Esther was my first friend who I interacted with unmediated by text on paper or a screen. She took all the risks and reached out to me despite a non-trivial age gap, and that seemed to come naturally to her. She told me once that I was a good listener.
+
+<p>I also wish to remember <a href="http://www.oregonlive.com/news/index.ssf/2009/07/to_the_end_friends_say_bonnie.html">Bonnie Tinker</a>, who died in 2009. I never really knew Bonnie, but she was central to the Multnomah Meeting of Friends, which I attended irregularly at the time. I always thought I'd have a chance to get to know her, and then a truck driver killed her.
+
+<p>I also wish to remember <a href="http://koshevoy.net/">Igal Koshevoy</a>, who died in 2013. I knew Igal as the face behind the Portland Functional Programming Group, which was a minor but important part of what kept me feeling connected to a bigger community when I lived in Portland. He set an example of how to run groups that welcome and include everyone. Igal committed suicide, and I wish that he could have been as kind to himself as he seemed to be to everybody else.
+
+<p>I also wish to remember <a href="http://www.timesobserver.com/page/content.detail/id/568889/ANDREW-WILLIAM---PIMLOTT.html?nav=5007">Andrew Pimlott</a>, who died in 2013. In 2007, Andrew helped me get a job when I needed one, and we were colleagues for a brief period before he left to take a hiatus from software engineering to work in a restaurant. Though we only worked together for a brief period, he was there for me at a very hard time in my life to patiently explain Haskell code, cook with me, and play Frisbee. He had a rare combination of genius and kindness.
+
+<p>I also wish to remember <a href="https://messages.yale.edu/messages/University/univmsgs/detail/121669">Paul Hudak</a>, who died in 2015. Paul co-founded the Haskell programming language committee, and as such, did work (and inspired others to do work) that later shaped my own career for many years. When I interacted with him at programming language conferences, he came across as a warm and compassionate person.
+
+<p>I also wish to remember <a href="https://adainitiative.org/2015/07/remembering-noirin-plunkett/">N&oacute;ir&iacute;n Plunkett</a>, who died in 2015. N&oacute;ir&iacute;n was a technologist, writer, and activist who helped define feminist advocacy in the open-source community. They brought light wherever they went.
+  
+<p>Most of all, I wish to remember <a href="http://tim.dreamwidth.org/1798068.html">Debra Boyask</a>, who died in 2013. Debra was a teacher, researcher, comics creator, and to me, a friend and lover. The time she and I spent together was brief, but important. I take my tea with milk because of her.
+</div>
+
+<div>
+<address>Last modified: December 3, 2015</address>
+<address>Style and some substance shamelessly ripped off from <a href="http://people.freebsd.org/~jmallett/">Juli Mallett</a></address>
+</div>
+
+</body>
+</html>
+

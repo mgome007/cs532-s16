@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]--> <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]--> <!--[if IE 8]><html class="no-js lt-ie9"><![endif]--> <!--[if gt IE 8]>><!<![endif]--> <html class=no-js> <head> <meta charset=utf-8> <meta content='IE=edge,chrome=1' http-equiv=X-UA-Compatible> <meta content='Soy Alexis Sgarbossa Product Designer' name=description> <meta content='width=device-width' name=viewport> <meta content=erupSYUko9w1tWXOmnPnswCvBkz0qMfEXBbSa0_IhWQ name=google-site-verification> <title>Alexis Sgarbossa</title> <link href="stylesheets/app.css" rel=stylesheet /> <link href="http://weloveiconfonts.com/api/?family=zocial" rel=stylesheet /> </head> <body class=index> <!--[if lt IE 7]><p class=chromeframe>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]--> <div id=preloader> <div class=spinner> <span></span> </div> </div> <div class=container> <div class='row col'> <h1 itemscope itemtype='http://data-vocabulary.org/Person'> Soy <strong itemprop=name>Alexis Sgarbossa</strong> <span itemprop=role>Frontend Developer</span> <span class=amp>&amp;</span> <span itemprop=title>Product Designer</span> at <span class=hide itemprop=affiliation>Home</span> <span class=email itemprop=email>alexis@sgarbossa.com.ar</span> <span class=findme> Me elsewhere </span> </h1> <ul class=social> <li> <a href='http://github.com/baires' title=Gitbub> <i class=zocial-github></i> </a> </li> <li> <a href='http://dribbble.com/baires' title=Dribbble> <i class=zocial-dribbble></i> </a> </li> <li> <a href='http://lnkd.in/bjimrD' title=Linkedin> <i class=zocial-linkedin></i> </a> </li> <li> <a href='http://twitter.com/baires' title=Twitter> <i class=zocial-twitter></i> </a> </li> </ul> </div> </div> <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" async=true></script> <script src="javascripts/application.js" async=true></script> <script>
+      WebFontConfig = {
+        google: { families: [ 'Montserrat:700', 'Playfair+Display' ] },
+      
+        active: function() {
+          $("h1").slabText({
+              "viewportBreakpoint":320
+          });
+          $('body').find('#preloader').fadeOut(500)
+      
+          setTimeout(function(){
+          $(".container").fadeIn('slow', function () {
+              });
+          }, 2000); // Fade in after 2000 ms (2 secs)
+        }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script> <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-94252-18']);
+      _gaq.push(['_setDomainName', 'sgarbossa.com.ar']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script> </body> </html>

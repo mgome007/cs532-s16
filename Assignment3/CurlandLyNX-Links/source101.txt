@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Stack Overflow em Português</title>
+    <link rel="shortcut icon" href="//cdn.sstatic.net/br/img/favicon.ico?v=c6678b633455">
+    <link rel="apple-touch-icon image_src" href="//cdn.sstatic.net/br/img/apple-touch-icon.png?v=5932291471b2">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow em Portugu&#234;s" href="/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@StackOverflowPT" />
+    <meta name="twitter:domain" content="pt.stackoverflow.com"/>
+    <meta property="og:type" content="website" />    
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/br/img/apple-touch-icon@2.png?v=201ca43a8bd0&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Stack Overflow em Portugu&#234;s" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Perguntas e respostas para programadores profissionais e entusiastas" />
+    <meta property="og:url" content="http://pt.stackoverflow.com/"/>
+
+    
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="//cdn.sstatic.net/Js/stub.pt-BR.js?v=7c8e9faffc7a"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.sstatic.net/br/all.css?v=91fc636c1f6a">
+
+    <link rel="alternate" type="application/atom+xml" title="Feed de perguntas recentes" href="/feeds">
+        <script>
+            StackExchange.ready(function() {
+                StackExchange.realtime.subscribeToActiveQuestions('526', 'home-active');
+            });
+        </script>
+    
+
+    <script>
+        StackExchange.ready(function () {
+            StackExchange.realtime.init('wss://qa.sockets.stackexchange.com,ws://qa.sockets.stackexchange.com');
+            StackExchange.realtime.subscribeToReputationNotifications('526');
+                StackExchange.realtime.subscribeToTopBarNotifications('526');
+        });
+    </script>
+    <script>
+        StackExchange.init({"locale":"pt-BR","stackAuthUrl":"https://stackauth.com","serverTime":1455840609,"networkMetaHostname":"meta.stackexchange.com","routeName":"Home/Index","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow em Português","description":"Perguntas e respostas para programadores profissionais e entusiastas","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdsB7sSAAAAAAzjgEF_Hd8vXv-C42sa_KyofaGR","recaptchaAudioLang":"en","enableNewTagCreationWarning":false,"insertSpaceAfterNameTabCompletion":false,"id":526,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"d2b95ffa491695b7715b4f31974d8fc1","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"realtime":{"newest":true,"active":true,"tagged":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.pt-BR.js":"d82825fa7a3c","js/moderator.pt-BR.js":"d9acdf8c191b","js/full-anon.pt-BR.js":"aa62fed354d8","js/full.pt-BR.js":"7b116f67fad2","js/wmd.pt-BR.js":"0ced1f960cd8","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.pt-BR.js":"","js/mobile.pt-BR.js":"d3992a841548","js/help.pt-BR.js":"5de5cf66a48a","js/tageditor.pt-BR.js":"d10c317863de","js/tageditornew.pt-BR.js":"521c4950cc15","js/inline-tag-editing.pt-BR.js":"73c532233820","js/revisions.pt-BR.js":"daacaf9098d4","js/review.pt-BR.js":"7cbc8d7701df","js/tagsuggestions.pt-BR.js":"f98b1004d2d7","js/post-validation.pt-BR.js":"cb86e23fa606","js/explore-qlist.pt-BR.js":"e71f14781288","js/events.pt-BR.js":"cbe2e8480c38","js/keyboard-shortcuts.pt-BR.js":"a23c8745116b","js/external-editor.pt-BR.js":"cf58cc6630ef","js/external-editor.pt-BR.js":"cf58cc6630ef","js/snippet-javascript.pt-BR.js":"7b2d2c63fab6","js/snippet-javascript-codemirror.pt-BR.js":"4571cb721d41"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="home-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    
+
+
+
+
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="//pt.stackoverflow.com">comunidade atual</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackexchange.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="//pt.stackoverflow.com"
+       class="current-site-link site-link js-gps-track"
+       data-id="526"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-br" title="Stack Overflow em Português"></div>
+        Stack Overflow em Portugu&#234;s
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.pt.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="527"
+       data-gps-track="
+            site.switch({ target_site:527, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-brmeta" title="Stack Overflow em Português Meta"></div>
+        Stack Overflow em Portugu&#234;s Meta
+    </a>
+
+                </li>
+                    </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+suas comunidades        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+Fa&#231;a <a href="https://pt.stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fpt.stackoverflow.com%2f" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> ou <a href="https://pt.stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fpt.stackoverflow.com%2f" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>registre-se</a> para personalizar suas comunidades
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="//stackexchange.com/sites">mais comunidades do stack exchange</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="//stackexchange.com"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="Uma lista de todos os 153 sites do Stack Exchange">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Caixa de entrada</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputa&#231;&#227;o e medalhas</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://pt.stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fpt.stackoverflow.com%2f" class="login-link">registrar</a>
+                                <a href="https://pt.stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fpt.stackoverflow.com%2f" class="login-link">log-in</a>
+
+                        <a href="/tour">tour</a>
+                            <a href="#" class="icon-help js-help-button" title="Central de ajuda e outros recursos">
+        ajuda
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Comece aqui para obter uma vis&#227;o geral r&#225;pida do site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Central de ajuda
+                        <span class="item-summary">
+                            Respostas detalhadas a qualquer pergunta que voc&#234; tiver
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="//meta.pt.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discutir o funcionamento e as pol&#237;ticas deste site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="Search Q&amp;A" value="" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="/" >
+                    Stack Overflow em Portugu&#234;s
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li><a id="nav-questions" href="/questions">Perguntas</a></li>
+                        <li><a id="nav-tags" href="/tags">Tags</a></li>
+                        <li><a id="nav-users" href="/users">Usu&#225;rios</a></li>
+                        <li><a id="nav-badges" href="/help/badges">Medalhas</a></li>
+                                                <li><a id="nav-unanswered" href="/unanswered">Sem resposta</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="/questions/ask">Fa&#231;a uma pergunta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+<div id="herobox">
+    <div id="hero-content">
+            <div id="close"><a title="clique para minimizar">_</a></div>
+        <div id="blurb">
+            Stack Overflow em Portugu&#234;s &#233; um site de perguntas e respostas para programadores profissionais e entusiastas. &#201; 100% gratuito e n&#227;o requer registro.
+            <br/>
+            <br/>
+            <a href="/users/signup?ssrc=hero&amp;returnurl=http%3a%2f%2fpt.stackoverflow.com%2f" id="tell-me-more" class="button">Registrar-se</a>
+        </div>
+        <div id="desc">
+            <b>Veja como funciona:</b>
+            <ol id="hiw">
+                <li id="q">Qualquer pessoa pode fazer uma pergunta
+                </li>
+                <li id="an">Qualquer um pode responder
+                </li>
+                <li id="b">As melhores respostas recebem votos positivos e sobem para os primeiros lugares
+                </li>
+            </ol>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+    <script>
+        StackExchange.ready(function () {
+
+            var location = 0;
+            if ($("body").hasClass("questions-page")) {
+                location = 1;;
+            } else if ($("body").hasClass("question-page")) {
+                location = 1;;
+            } else if ($("body").hasClass("faq-page")) {
+                location = 5;;
+            } else if ($("body").hasClass("home-page")) {
+                location = 3;;
+            }
+
+            $('#tell-me-more').click(function () {
+                StackExchange.using("gps", function () {
+                    StackExchange.gps.track("hero.action", { hero_action_type: 'cta', location: location }, true);
+                });
+            });
+            $('#herobox #close').click(function () {
+                StackExchange.using("gps", function () {
+                    StackExchange.gps.track("hero.action", { hero_action_type: "minimize", location: location }, true);
+                });
+                $.cookie("hero", "mini", { path: "/", expires: 365 });
+                $.ajax({
+                    url: "/hero-mini",
+                    success: function (data) {
+                        $("#herobox").fadeOut("fast", function () {
+                            $("#herobox").replaceWith(data);
+                            $("#herobox-mini").fadeIn("fast");
+                        });
+                    }
+                });
+                return false;
+            });
+        });
+
+    </script>
+</div>
+    <script>
+        StackExchange.using("gps", function () {
+            StackExchange.gps.track("hero.show", { hero_type: "hero", location: 3 }, true);
+        });
+    </script>
+<div id="mainbar">
+
+    <div class="subheader">
+        <h1 id="h-top-questions">Examinar nossas perguntas</h1>
+        <div id="tabs">
+        <a href="?tab=active" data-nav-xhref="" title="Perguntas feitas, respondidas ou atualizadas recentemente" data-value="active">
+            ativas</a>
+        <a href="?tab=featured" data-nav-xhref="" title="Perguntas oferecendo recompensa" data-value="featured">
+<span class="bounty-indicator-tab">3</span>            destaque</a>
+        <a href="?tab=hot" data-nav-xhref="" title="Perguntas com a maioria das visualiza&#231;&#245;es, respostas e votos nos &#250;ltimos dias" data-value="hot">
+            interessante</a>
+        <a href="?tab=week" data-nav-xhref="" title="Perguntas com a maioria das visualiza&#231;&#245;es, respostas e votos esta semana" data-value="week">
+            semana</a>
+        <a href="?tab=month" data-nav-xhref="" title="Perguntas com a maioria das visualiza&#231;&#245;es, respostas e votos este m&#234;s" data-value="month">
+            m&#234;s</a>
+</div>
+    </div>
+    <div id="explore-tags">
+<a href="/?tags=php" class="post-tag no-tag-menu" title="Mostrar perguntas relacionadas a php" rel="tag">php</a><a href="/?tags=javascript" class="post-tag no-tag-menu" title="Mostrar perguntas relacionadas a javascript" rel="tag">javascript</a><a href="/?tags=java" class="post-tag no-tag-menu" title="Mostrar perguntas relacionadas a java" rel="tag">java</a><a href="/?tags=c%23" class="post-tag no-tag-menu" title="Mostrar perguntas relacionadas a c#" rel="tag">c#</a><a href="/?tags=jquery" class="post-tag no-tag-menu" title="Mostrar perguntas relacionadas a jquery" rel="tag">jquery</a><a href="/?tags=android" class="post-tag no-tag-menu" title="Mostrar perguntas relacionadas a android" rel="tag">android</a><a href="/?tags=html" class="post-tag no-tag-menu" title="Mostrar perguntas relacionadas a html" rel="tag">html</a><a href="/?tags=mysql" class="post-tag no-tag-menu" title="Mostrar perguntas relacionadas a mysql" rel="tag">mysql</a><a href="/?tags=css" class="post-tag no-tag-menu" title="Mostrar perguntas relacionadas a css" rel="tag">css</a><a href="/?tags=sql" class="post-tag no-tag-menu" title="Mostrar perguntas relacionadas a sql" rel="tag">sql</a>             <a class="more-tags" href="/tags">mais&nbsp;tags</a>
+
+    </div>
+<div id="qlist-wrapper">
+    <div id="question-mini-list">
+        
+
+<div class="question-summary narrow"
+     id="question-summary-114063"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/114063/capturar-tempo-de-abertura-de-script'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="1 voto">1</span></div>
+            <div>voto</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts"><span title="1 resposta">1</span></div>
+            <div>resposta</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="11 visitas">11</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/114063/capturar-tempo-de-abertura-de-script" class="question-hyperlink" title="Olá, pessoal.
+
+Estou tentando criar um projeto, cujo a função é identificar o tempo que a página está aberta (ex: se ficou 1 ou 2 minutos aberta). Quando for fechada, salvar no banco de dados as ...">Capturar Tempo de Abertura de Script</a></h3>
+        <div class="tags t-php t-jquery t-ajax">
+            <a href="/questions/tagged/php" class="post-tag" title="mostrar perguntas com a tag &#39;php&#39;" rel="tag">php</a> <a href="/questions/tagged/jquery" class="post-tag" title="mostrar perguntas com a tag &#39;jquery&#39;" rel="tag">jquery</a> <a href="/questions/tagged/ajax" class="post-tag" title="mostrar perguntas com a tag &#39;ajax&#39;" rel="tag">ajax</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114063/capturar-tempo-de-abertura-de-script/?lastactivity" class="started-link">modificada <span title="2016-02-18 23:59:18Z" class="relativetime">10 mins atrás</span></a>
+            <a href="/users/5734/jefersondaniel">jefersondaniel</a> <span class="reputation-score" title="pontos de reputação " dir="ltr">188</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-114074"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/114074/fazer-uma-condi%c3%a7%c3%a3o-para-verificar-url'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="1 voto">1</span></div>
+            <div>voto</div>
+        </div>
+        <div class="status answered-accepted" title="uma das respostas foi aceita como resposta correta">
+            <div class="mini-counts"><span title="1 resposta">1</span></div>
+            <div>resposta</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="11 visitas">11</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/114074/fazer-uma-condi%c3%a7%c3%a3o-para-verificar-url" class="question-hyperlink" title="Olá, estou usando CodeIgniter para desenvolver meu website, estou tentando verificar em qual controlador o usuário está navegando, por exemplo, tenho a área de login e cadastro, se o usuário estiver ...">Fazer uma condi&#231;&#227;o para verificar URL</a></h3>
+        <div class="tags t-php t-codeigniter">
+            <a href="/questions/tagged/php" class="post-tag" title="mostrar perguntas com a tag &#39;php&#39;" rel="tag">php</a> <a href="/questions/tagged/codeigniter" class="post-tag" title="mostrar perguntas com a tag &#39;codeigniter&#39;" rel="tag">codeigniter</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114074/fazer-uma-condi%c3%a7%c3%a3o-para-verificar-url/?lastactivity" class="started-link">modificada <span title="2016-02-18 23:35:57Z" class="relativetime">34 mins atrás</span></a>
+            <a href="/users/3635/guilherme-nascimento">Guilherme Nascimento</a> <span class="reputation-score" title="pontos de reputação 17011" dir="ltr">17mil</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-1109"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/1109/onde-devo-colocar-um-c%c3%b3digo-javascript-em-um-documento-html'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="50 votos">50</span></div>
+            <div>votos</div>
+        </div>
+        <div class="status answered-accepted" title="uma das respostas foi aceita como resposta correta">
+            <div class="mini-counts"><span title="4 respostas">4</span></div>
+            <div>respostas</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts hot"><span title="10104 visitas">10mil</span></div>
+            <div class="hot">visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/1109/onde-devo-colocar-um-c%c3%b3digo-javascript-em-um-documento-html" class="question-hyperlink" title="Onde o código JavaScript deve ser colocado em um documento HTML: no elemento &lt;head> ou &lt;body>? No início ou no final de cada um? Existe alguma diferença de performance ou qualquer outra ...">Onde devo colocar um c&#243;digo JavaScript em um documento HTML?</a></h3>
+        <div class="tags t-javascript t-html t-estilo-de-codifica&#231;&#227;o">
+            <a href="/questions/tagged/javascript" class="post-tag" title="mostrar perguntas com a tag &#39;javascript&#39;" rel="tag">javascript</a> <a href="/questions/tagged/html" class="post-tag" title="mostrar perguntas com a tag &#39;html&#39;" rel="tag">html</a> <a href="/questions/tagged/estilo-de-codifica%c3%a7%c3%a3o" class="post-tag" title="mostrar perguntas com a tag &#39;estilo-de-codifica&#231;&#227;o&#39;" rel="tag">estilo-de-codifica&#231;&#227;o</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/1109/onde-devo-colocar-um-c%c3%b3digo-javascript-em-um-documento-html/?lastactivity" class="started-link">modificada <span title="2016-02-18 23:32:37Z" class="relativetime">37 mins atrás</span></a>
+            <a href="/users/263/zignd">Zignd</a> <span class="reputation-score" title="pontos de reputação " dir="ltr">3.170</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-113898"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/113898/como-desabilitar-efeitos-do-mouse-em-celulares'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="1 voto">1</span></div>
+            <div>voto</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts"><span title="1 resposta">1</span></div>
+            <div>resposta</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="28 visitas">28</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/113898/como-desabilitar-efeitos-do-mouse-em-celulares" class="question-hyperlink" title="Terminei o meu site responsivo e agora estou na fase de testes em celulares e tablets. Mas me deparei com uma navegação extremamente desagradável em celulares e tablets, pois os efeitos :hover que ...">Como desabilitar efeitos do mouse em celulares?</a></h3>
+        <div class="tags t-css t-html5 t-eventos-do-mouse">
+            <a href="/questions/tagged/css" class="post-tag" title="mostrar perguntas com a tag &#39;css&#39;" rel="tag">css</a> <a href="/questions/tagged/html5" class="post-tag" title="mostrar perguntas com a tag &#39;html5&#39;" rel="tag">html5</a> <a href="/questions/tagged/eventos-do-mouse" class="post-tag" title="mostrar perguntas com a tag &#39;eventos-do-mouse&#39;" rel="tag">eventos-do-mouse</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/113898/como-desabilitar-efeitos-do-mouse-em-celulares/?lastactivity" class="started-link">modificada <span title="2016-02-18 23:19:07Z" class="relativetime">50 mins atrás</span></a>
+            <a href="/users/39739/golx">GOLX</a> <span class="reputation-score" title="pontos de reputação " dir="ltr">6</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-114075"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/114075/tag-picture-n%c3%a3o-funciona-em-celulares-e-ie11-mas-codigo-funciona-perfeitament'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="0 votos">0</span></div>
+            <div>votos</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts"><span title="0 respostas">0</span></div>
+            <div>respostas</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="5 visitas">5</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/114075/tag-picture-n%c3%a3o-funciona-em-celulares-e-ie11-mas-codigo-funciona-perfeitament" class="question-hyperlink" title="Estou a trabalhar com a tag picture para usar suas função responsiva e inserindo  diversos tamanhos da mesma imagem. No chrome e no Mozila os resultados foram perfeitos mas nos celulares e IE11 nao ...">Tag &lt;picture&gt; n&#227;o funciona em Celulares e IE11. Mas codigo funciona perfeitamente em Mozina e Chrome. Porque?</a></h3>
+        <div class="tags t-html t-css">
+            <a href="/questions/tagged/html" class="post-tag" title="mostrar perguntas com a tag &#39;html&#39;" rel="tag">html</a> <a href="/questions/tagged/css" class="post-tag" title="mostrar perguntas com a tag &#39;css&#39;" rel="tag">css</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114075/tag-picture-n%c3%a3o-funciona-em-celulares-e-ie11-mas-codigo-funciona-perfeitament" class="started-link">perguntados <span title="2016-02-18 23:17:34Z" class="relativetime">52 mins atrás</span></a>
+            <a href="/users/39739/golx">GOLX</a> <span class="reputation-score" title="pontos de reputação " dir="ltr">6</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-114073"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/114073/como-preencher-uma-classe-que-tem-como-propriedade-outra-classe'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="-3 votos">-3</span></div>
+            <div>votos</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts"><span title="0 respostas">0</span></div>
+            <div>respostas</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="17 visitas">17</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/114073/como-preencher-uma-classe-que-tem-como-propriedade-outra-classe" class="question-hyperlink" title="Eu estou preciso criar um menu com o seguinte formato:
+
+
+Roupas Femininas
+
+
+Vestidos
+Saias
+Calças Leg
+
+Roupas Masculinas 
+
+
+Ternos      
+Camisas
+Roupas Infantis 
+Macacão
+
+
+
+O padrão de desenvolvimento ...">Como preencher uma classe que tem como propriedade outra classe</a></h3>
+        <div class="tags t-c&#241; t-razor t-classes t-list t-heran&#231;a">
+            <a href="/questions/tagged/c%23" class="post-tag" title="mostrar perguntas com a tag &#39;c#&#39;" rel="tag">c#</a> <a href="/questions/tagged/razor" class="post-tag" title="mostrar perguntas com a tag &#39;razor&#39;" rel="tag">razor</a> <a href="/questions/tagged/classes" class="post-tag" title="mostrar perguntas com a tag &#39;classes&#39;" rel="tag">classes</a> <a href="/questions/tagged/list" class="post-tag" title="mostrar perguntas com a tag &#39;list&#39;" rel="tag">list</a> <a href="/questions/tagged/heran%c3%a7a" class="post-tag" title="mostrar perguntas com a tag &#39;heran&#231;a&#39;" rel="tag">heran&#231;a</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114073/como-preencher-uma-classe-que-tem-como-propriedade-outra-classe" class="started-link">modificada <span title="2016-02-18 23:17:08Z" class="relativetime">52 mins atrás</span></a>
+            <a href="/users/28595/diego-felipe">Diego Felipe</a> <span class="reputation-score" title="pontos de reputação " dir="ltr">2.751</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-89057"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/89057/problemas-para-clicar-em-links-bot%c3%b5es-no-ie-usando-vba'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="1 voto">1</span></div>
+            <div>voto</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts"><span title="1 resposta">1</span></div>
+            <div>resposta</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="101 visitas">101</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/89057/problemas-para-clicar-em-links-bot%c3%b5es-no-ie-usando-vba" class="question-hyperlink" title="Estou com um problema para automatizar o download de dados de um site usando o VBA. A primeira parte vai bem, o navegador entra na página desejada e insere os critérios em uma dropdown list. Só falta ...">Problemas para clicar em links/bot&#245;es no IE usando VBA</a></h3>
+        <div class="tags t-html t-vba t-internet-explorer">
+            <a href="/questions/tagged/html" class="post-tag" title="mostrar perguntas com a tag &#39;html&#39;" rel="tag">html</a> <a href="/questions/tagged/vba" class="post-tag" title="mostrar perguntas com a tag &#39;vba&#39;" rel="tag">vba</a> <a href="/questions/tagged/internet-explorer" class="post-tag" title="mostrar perguntas com a tag &#39;internet-explorer&#39;" rel="tag">internet-explorer</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/89057/problemas-para-clicar-em-links-bot%c3%b5es-no-ie-usando-vba/?lastactivity" class="started-link">modificada <span title="2016-02-18 22:51:49Z" class="relativetime">1 hora atrás</span></a>
+            <a href="/users/3635/guilherme-nascimento">Guilherme Nascimento</a> <span class="reputation-score" title="pontos de reputação 17011" dir="ltr">17mil</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-114052"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/114052/como-resolver-type-mismatch-cannot-convert-from-element-type-object-to-message'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="0 votos">0</span></div>
+            <div>votos</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts"><span title="0 respostas">0</span></div>
+            <div>respostas</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="9 visitas">9</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/114052/como-resolver-type-mismatch-cannot-convert-from-element-type-object-to-message" class="question-hyperlink" title="Estava estudando JSF e encontrei este site onde ensina a criar um chat básico usando JSF, primefaces e ajax: 
+https://jetcracker.wordpress.com/2012/03/04/jsf-how-to-create-a-chat-with-ajax/
+
+Tenho a ...">Como resolver &ldquo;Type mismatch: cannot convert from element type Object to Message&rdquo;?</a></h3>
+        <div class="tags t-java t-jsf t-primefaces">
+            <a href="/questions/tagged/java" class="post-tag" title="mostrar perguntas com a tag &#39;java&#39;" rel="tag">java</a> <a href="/questions/tagged/jsf" class="post-tag" title="mostrar perguntas com a tag &#39;jsf&#39;" rel="tag">jsf</a> <a href="/questions/tagged/primefaces" class="post-tag" title="mostrar perguntas com a tag &#39;primefaces&#39;" rel="tag">primefaces</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114052/como-resolver-type-mismatch-cannot-convert-from-element-type-object-to-message" class="started-link">modificada <span title="2016-02-18 22:50:52Z" class="relativetime">1 hora atrás</span></a>
+            <a href="/users/23885/bruno-c%c3%a9sar">Bruno C&#233;sar</a> <span class="reputation-score" title="pontos de reputação " dir="ltr">3.922</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-114015"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/114015/existe-alguma-maneira-de-fazer-toggle-com-atributos-no-jquery'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="2 votos">2</span></div>
+            <div>votos</div>
+        </div>
+        <div class="status answered-accepted" title="uma das respostas foi aceita como resposta correta">
+            <div class="mini-counts"><span title="2 respostas">2</span></div>
+            <div>respostas</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="30 visitas">30</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/114015/existe-alguma-maneira-de-fazer-toggle-com-atributos-no-jquery" class="question-hyperlink" title="No JQuery, temos uma função chamada toggle que nos permite alternar entre o elemento ficar visível ou não. E a função toggleClass, que permite alternar entre a inclusão de uma classe ou não.
+
+
+
+...">Existe alguma maneira de fazer toggle com atributos no jQuery?</a></h3>
+        <div class="tags t-jquery">
+            <a href="/questions/tagged/jquery" class="post-tag" title="mostrar perguntas com a tag &#39;jquery&#39;" rel="tag">jquery</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114015/existe-alguma-maneira-de-fazer-toggle-com-atributos-no-jquery/?lastactivity" class="started-link">modificada <span title="2016-02-18 22:42:47Z" class="relativetime">1 hora atrás</span></a>
+            <a href="/users/3635/guilherme-nascimento">Guilherme Nascimento</a> <span class="reputation-score" title="pontos de reputação 17011" dir="ltr">17mil</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-114072"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/114072/serializar-campo-datecom-formata%c3%a7%c3%a3o-no-vraptor-4'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="0 votos">0</span></div>
+            <div>votos</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts"><span title="0 respostas">0</span></div>
+            <div>respostas</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="4 visitas">4</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/114072/serializar-campo-datecom-formata%c3%a7%c3%a3o-no-vraptor-4" class="question-hyperlink" title="Boa Noite galera,
+
+estou aprendendo a usar o VRaptor e estou achando um framework incrível e muito pratico, a forma de fazer uma requisição ajax e retornar um JSON, é simplesmente fantástica. 
+
+Porem ...">serializar campo Date(com formata&#231;&#227;o) no VRaptor 4</a></h3>
+        <div class="tags t-javascript t-java t-jquery t-vraptor">
+            <a href="/questions/tagged/javascript" class="post-tag" title="mostrar perguntas com a tag &#39;javascript&#39;" rel="tag">javascript</a> <a href="/questions/tagged/java" class="post-tag" title="mostrar perguntas com a tag &#39;java&#39;" rel="tag">java</a> <a href="/questions/tagged/jquery" class="post-tag" title="mostrar perguntas com a tag &#39;jquery&#39;" rel="tag">jquery</a> <a href="/questions/tagged/vraptor" class="post-tag" title="mostrar perguntas com a tag &#39;vraptor&#39;" rel="tag">vraptor</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114072/serializar-campo-datecom-formata%c3%a7%c3%a3o-no-vraptor-4" class="started-link">perguntados <span title="2016-02-18 22:25:45Z" class="relativetime">1 hora atrás</span></a>
+            <a href="/users/40935/bandoleiro">Bandoleiro</a> <span class="reputation-score" title="pontos de reputação " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-114055"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/114055/mudar-cor-de-cardview-e-text-de-uma-listview'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="0 votos">0</span></div>
+            <div>votos</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts"><span title="1 resposta">1</span></div>
+            <div>resposta</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="16 visitas">16</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/114055/mudar-cor-de-cardview-e-text-de-uma-listview" class="question-hyperlink" title="Tenho uma listview com uma card view e dentro da card view tenho dois text, eu sei como ativar o contextual action bar quando der long press na list view e como alterar a cor do text e do cardview, ...">Mudar cor de cardview e text de uma listview</a></h3>
+        <div class="tags t-android">
+            <a href="/questions/tagged/android" class="post-tag" title="mostrar perguntas com a tag &#39;android&#39;" rel="tag">android</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114055/mudar-cor-de-cardview-e-text-de-uma-listview/?lastactivity" class="started-link">respondidas <span title="2016-02-18 22:12:47Z" class="relativetime">1 hora atrás</span></a>
+            <a href="/users/40885/guilherme-p">Guilherme P</a> <span class="reputation-score" title="pontos de reputação " dir="ltr">171</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-114070"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/114070/consulta-em-duas-tabelas-ao-mesmo-tempo'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="0 votos">0</span></div>
+            <div>votos</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts"><span title="0 respostas">0</span></div>
+            <div>respostas</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="8 visitas">8</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/114070/consulta-em-duas-tabelas-ao-mesmo-tempo" class="question-hyperlink" title="Tenho por exemplo o seguinte cenário:
+
+
+    
+        
+           Tabela
+        
+        
+            Coluna01
+        
+        
+            Coluna02
+        
+        
+            Coluna03
+        
+   ...">Consulta em duas tabelas ao mesmo tempo</a></h3>
+        <div class="tags t-mysql t-sql">
+            <a href="/questions/tagged/mysql" class="post-tag" title="mostrar perguntas com a tag &#39;mysql&#39;" rel="tag">mysql</a> <a href="/questions/tagged/sql" class="post-tag" title="mostrar perguntas com a tag &#39;sql&#39;" rel="tag">sql</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114070/consulta-em-duas-tabelas-ao-mesmo-tempo" class="started-link">perguntados <span title="2016-02-18 22:09:47Z" class="relativetime">2 horas atrás</span></a>
+            <a href="/users/23036/lvcs">lvcs</a> <span class="reputation-score" title="pontos de reputação " dir="ltr">2.829</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-113829"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/113829/como-incluir-um-item-em-um-icollection'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="2 votos">2</span></div>
+            <div>votos</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts"><span title="1 resposta">1</span></div>
+            <div>resposta</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="32 visitas">32</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/113829/como-incluir-um-item-em-um-icollection" class="question-hyperlink" title="Tenho uma classe Pessoa que tem um ICollection da classe Telefone.
+Na tela de manutenção de Pessoa tenho um dataTable com os Telefones. Existe um link para acrescentar um novo telefone, mas não ...">Como Incluir um item em um ICollection</a></h3>
+        <div class="tags t-c&#241; t-asp&#251;net-mvc-5">
+            <a href="/questions/tagged/c%23" class="post-tag" title="mostrar perguntas com a tag &#39;c#&#39;" rel="tag">c#</a> <a href="/questions/tagged/asp.net-mvc-5" class="post-tag" title="mostrar perguntas com a tag &#39;asp.net-mvc-5&#39;" rel="tag">asp.net-mvc-5</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/113829/como-incluir-um-item-em-um-icollection/?lastactivity" class="started-link">respondidas <span title="2016-02-18 22:07:16Z" class="relativetime">2 horas atrás</span></a>
+            <a href="/users/15177/daniloloko">Daniloloko</a> <span class="reputation-score" title="pontos de reputação " dir="ltr">921</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow"
+     id="question-summary-114035"
+     
+     
+     >
+    <div onclick="window.location.href='/questions/114035/createnewfile-java-io-ioexception-open-failed-eacces'" class="cp">
+        <div class="votes">
+            <div class="mini-counts"><span title="0 votos">0</span></div>
+            <div>votos</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts"><span title="1 resposta">1</span></div>
+            <div>resposta</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts"><span title="9 visitas">9</span></div>
+            <div>visitas</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+                    <h3><a href="/questions/114035/createnewfile-java-io-ioexception-open-failed-eacces" class="question-hyperlink" title="Estou tentando criar um arquivo excel em um diretório público com o meu app, mas estou recebendo o seguinte erro:
+
+java.io.IOException: open failed: EACCES (Permission denied)
+at ...">createNewFile java.io.IOException: open failed: EACCES</a></h3>
+        <div class="tags t-android">
+            <a href="/questions/tagged/android" class="post-tag" title="mostrar perguntas com a tag &#39;android&#39;" rel="tag">android</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114035/createnewfile-java-io-ioexception-open-failed-eacces/?lastactivity" class="started-link">modificada <span title="2016-02-18 21:56:28Z" class="relativetime">2 horas atrás</span></a>
+            <a href="/users/28532/fernando-ferreira">Fernando Ferreira</a> <span class="reputation-score" title="pontos de reputação " dir="ltr">8</span>
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
+    <div>
+        <a id="home-browse" class="button" href="/questions">Pesquisar mais perguntas</a>
+    </div>
+    <script>
+        StackExchange.using('exploreQuestions', function() {
+                StackExchange.exploreQuestions.init({count:14});
+                            StackExchange.exploreQuestions.gps();
+        });
+    </script>
+<script>
+    StackExchange.ready(function() { StackExchange.question.initShareLinks(); });
+</script></div>
+    <div id="sidebar">
+                
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,0,"adzerk123190405",[5,17]).enableDynamicSiteSelection().setZone(56016); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk123190405">
+            </div>
+        
+
+<div class="module" id="recent-tags">
+    <h4 id="h-recent-tags">Tags recentes</h4>
+    <div id="recent-tags-list">
+                <a href="/questions/tagged/php" class="post-tag" title="mostrar perguntas com a tag &#39;php&#39;" rel="tag">php</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">106</span></span><br>
+                <a href="/questions/tagged/javascript" class="post-tag" title="mostrar perguntas com a tag &#39;javascript&#39;" rel="tag">javascript</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">90</span></span><br>
+                <a href="/questions/tagged/java" class="post-tag" title="mostrar perguntas com a tag &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">79</span></span><br>
+                <a href="/questions/tagged/c%23" class="post-tag" title="mostrar perguntas com a tag &#39;c#&#39;" rel="tag">c#</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">57</span></span><br>
+                <a href="/questions/tagged/html" class="post-tag" title="mostrar perguntas com a tag &#39;html&#39;" rel="tag">html</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">51</span></span><br>
+                <a href="/questions/tagged/jquery" class="post-tag" title="mostrar perguntas com a tag &#39;jquery&#39;" rel="tag">jquery</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">50</span></span><br>
+                <a href="/questions/tagged/mysql" class="post-tag" title="mostrar perguntas com a tag &#39;mysql&#39;" rel="tag">mysql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">33</span></span><br>
+                <a href="/questions/tagged/css" class="post-tag" title="mostrar perguntas com a tag &#39;css&#39;" rel="tag">css</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">31</span></span><br>
+                <a href="/questions/tagged/android" class="post-tag" title="mostrar perguntas com a tag &#39;android&#39;" rel="tag">android</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">26</span></span><br>
+                <a href="/questions/tagged/angularjs" class="post-tag" title="mostrar perguntas com a tag &#39;angularjs&#39;" rel="tag">angularjs</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">23</span></span><br>
+                <a href="/questions/tagged/sql" class="post-tag" title="mostrar perguntas com a tag &#39;sql&#39;" rel="tag">sql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">19</span></span><br>
+                <a href="/questions/tagged/asp.net-mvc" class="post-tag" title="mostrar perguntas com a tag &#39;asp.net-mvc&#39;" rel="tag">asp.net-mvc</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">16</span></span><br>
+                <a href="/questions/tagged/sql-server" class="post-tag" title="mostrar perguntas com a tag &#39;sql-server&#39;" rel="tag">sql-server</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">15</span></span><br>
+                <a href="/questions/tagged/laravel" class="post-tag" title="mostrar perguntas com a tag &#39;laravel&#39;" rel="tag">laravel</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">14</span></span><br>
+                <a href="/questions/tagged/html5" class="post-tag" title="mostrar perguntas com a tag &#39;html5&#39;" rel="tag">html5</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">14</span></span><br>
+                <a href="/questions/tagged/c" class="post-tag" title="mostrar perguntas com a tag &#39;c&#39;" rel="tag">c</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">14</span></span><br>
+                <a href="/questions/tagged/.net" class="post-tag" title="mostrar perguntas com a tag &#39;.net&#39;" rel="tag">.net</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">13</span></span><br>
+                <a href="/questions/tagged/json" class="post-tag" title="mostrar perguntas com a tag &#39;json&#39;" rel="tag">json</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">12</span></span><br>
+                <a href="/questions/tagged/orienta%c3%a7%c3%a3o-a-objetos" class="post-tag" title="mostrar perguntas com a tag &#39;orienta&#231;&#227;o-a-objetos&#39;" rel="tag">orienta&#231;&#227;o-a-objetos</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">12</span></span><br>
+                <a href="/questions/tagged/delphi" class="post-tag" title="mostrar perguntas com a tag &#39;delphi&#39;" rel="tag">delphi</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">11</span></span><br>
+                <a href="/questions/tagged/git" class="post-tag" title="mostrar perguntas com a tag &#39;git&#39;" rel="tag">git</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">9</span></span><br>
+                <a href="/questions/tagged/entity-framework" class="post-tag" title="mostrar perguntas com a tag &#39;entity-framework&#39;" rel="tag">entity-framework</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">9</span></span><br>
+                <a href="/questions/tagged/vb.net" class="post-tag" title="mostrar perguntas com a tag &#39;vb.net&#39;" rel="tag">vb.net</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">9</span></span><br>
+                <a href="/questions/tagged/array" class="post-tag" title="mostrar perguntas com a tag &#39;array&#39;" rel="tag">array</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8</span></span><br>
+                <a href="/questions/tagged/python" class="post-tag" title="mostrar perguntas com a tag &#39;python&#39;" rel="tag">python</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8</span></span><br>
+                <a href="/questions/tagged/css3" class="post-tag" title="mostrar perguntas com a tag &#39;css3&#39;" rel="tag">css3</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8</span></span><br>
+                <a href="/questions/tagged/ajax" class="post-tag" title="mostrar perguntas com a tag &#39;ajax&#39;" rel="tag">ajax</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7</span></span><br>
+                <a href="/questions/tagged/hibernate" class="post-tag" title="mostrar perguntas com a tag &#39;hibernate&#39;" rel="tag">hibernate</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7</span></span><br>
+                <a href="/questions/tagged/banco-de-dados" class="post-tag" title="mostrar perguntas com a tag &#39;banco-de-dados&#39;" rel="tag">banco-de-dados</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7</span></span><br>
+                <a href="/questions/tagged/web-service" class="post-tag" title="mostrar perguntas com a tag &#39;web-service&#39;" rel="tag">web-service</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7</span></span><br>
+                <a href="/questions/tagged/string" class="post-tag" title="mostrar perguntas com a tag &#39;string&#39;" rel="tag">string</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7</span></span><br>
+                <a href="/questions/tagged/excel" class="post-tag" title="mostrar perguntas com a tag &#39;excel&#39;" rel="tag">excel</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7</span></span><br>
+                <a href="/questions/tagged/vba" class="post-tag" title="mostrar perguntas com a tag &#39;vba&#39;" rel="tag">vba</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7</span></span><br>
+                <a href="/questions/tagged/classes" class="post-tag" title="mostrar perguntas com a tag &#39;classes&#39;" rel="tag">classes</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7</span></span><br>
+                <a href="/questions/tagged/r" class="post-tag" title="mostrar perguntas com a tag &#39;r&#39;" rel="tag">r</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7</span></span><br>
+                <a href="/questions/tagged/android-studio" class="post-tag" title="mostrar perguntas com a tag &#39;android-studio&#39;" rel="tag">android-studio</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7</span></span><br>
+                <a href="/questions/tagged/twitter-bootstrap" class="post-tag" title="mostrar perguntas com a tag &#39;twitter-bootstrap&#39;" rel="tag">twitter-bootstrap</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6</span></span><br>
+                <a href="/questions/tagged/pdo" class="post-tag" title="mostrar perguntas com a tag &#39;pdo&#39;" rel="tag">pdo</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6</span></span><br>
+                <a href="/questions/tagged/firebird" class="post-tag" title="mostrar perguntas com a tag &#39;firebird&#39;" rel="tag">firebird</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5</span></span><br>
+                <a href="/questions/tagged/terminologia" class="post-tag" title="mostrar perguntas com a tag &#39;terminologia&#39;" rel="tag">terminologia</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5</span></span><br>
+                <a href="/questions/tagged/swing" class="post-tag" title="mostrar perguntas com a tag &#39;swing&#39;" rel="tag">swing</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5</span></span><br>
+                <a href="/questions/tagged/laravel-5" class="post-tag" title="mostrar perguntas com a tag &#39;laravel-5&#39;" rel="tag">laravel-5</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5</span></span><br>
+                <a href="/questions/tagged/linux" class="post-tag" title="mostrar perguntas com a tag &#39;linux&#39;" rel="tag">linux</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5</span></span><br>
+                <a href="/questions/tagged/select" class="post-tag" title="mostrar perguntas com a tag &#39;select&#39;" rel="tag">select</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5</span></span><br>
+                <a href="/questions/tagged/c%2b%2b" class="post-tag" title="mostrar perguntas com a tag &#39;c++&#39;" rel="tag">c++</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5</span></span><br>
+                <a href="/questions/tagged/google-maps" class="post-tag" title="mostrar perguntas com a tag &#39;google-maps&#39;" rel="tag">google-maps</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5</span></span><br>
+                <a href="/questions/tagged/imagem" class="post-tag" title="mostrar perguntas com a tag &#39;imagem&#39;" rel="tag">imagem</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/windows" class="post-tag" title="mostrar perguntas com a tag &#39;windows&#39;" rel="tag">windows</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/winforms" class="post-tag" title="mostrar perguntas com a tag &#39;winforms&#39;" rel="tag">winforms</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/login" class="post-tag" title="mostrar perguntas com a tag &#39;login&#39;" rel="tag">login</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/spring" class="post-tag" title="mostrar perguntas com a tag &#39;spring&#39;" rel="tag">spring</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/asp.net-mvc-5" class="post-tag" title="mostrar perguntas com a tag &#39;asp.net-mvc-5&#39;" rel="tag">asp.net-mvc-5</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/wordpress" class="post-tag" title="mostrar perguntas com a tag &#39;wordpress&#39;" rel="tag">wordpress</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/unity5" class="post-tag" title="mostrar perguntas com a tag &#39;unity5&#39;" rel="tag">unity5</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/ubuntu" class="post-tag" title="mostrar perguntas com a tag &#39;ubuntu&#39;" rel="tag">ubuntu</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/bootstrap" class="post-tag" title="mostrar perguntas com a tag &#39;bootstrap&#39;" rel="tag">bootstrap</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/laravel-4" class="post-tag" title="mostrar perguntas com a tag &#39;laravel-4&#39;" rel="tag">laravel-4</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/java-ee" class="post-tag" title="mostrar perguntas com a tag &#39;java-ee&#39;" rel="tag">java-ee</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/regex" class="post-tag" title="mostrar perguntas com a tag &#39;regex&#39;" rel="tag">regex</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+                <a href="/questions/tagged/matriz" class="post-tag" title="mostrar perguntas com a tag &#39;matriz&#39;" rel="tag">matriz</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4</span></span><br>
+
+    </div>
+    <p class="ar"><a href="/tags">todas as tags »</a></p>
+</div>  
+        
+    </div>
+
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="/feeds" title="as 30 perguntas mais recentes">
+            <span class="feed-icon"></span>feed de perguntas recentes
+        </a>
+    </div>
+</div>
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                    <a href="http://stackoverflow.com/company/about">about us</a>
+                        <a href="/tour">tour</a>
+                    <a href="/help">ajuda</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackexchange.com">chat</a>
+                    <a href="http://data.stackexchange.com">dados</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">pol&#237;tica de privacidade</a>
+                    <a href="http://stackoverflow.com/company/work-here">trabalhe aqui</a>
+                    <a href="http://stackexchange.com/mediakit">informa&#231;&#245;es de publicidade</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>m&#243;vel</a>
+                    <b><a href="/contact">entre em contato conosco</a></b>
+                        <b><a href="http://meta.pt.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="//stackoverflow.com" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="//serverfault.com" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="//superuser.com" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="//webapps.stackexchange.com" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="//askubuntu.com" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="//webmasters.stackexchange.com" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="//gamedev.stackexchange.com" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="//tex.stackexchange.com" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//programmers.stackexchange.com" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="//unix.stackexchange.com" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="//apple.stackexchange.com" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="//wordpress.stackexchange.com" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="//gis.stackexchange.com" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="//electronics.stackexchange.com" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="//android.stackexchange.com" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="//security.stackexchange.com" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//dba.stackexchange.com" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="//drupal.stackexchange.com" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="//sharepoint.stackexchange.com" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="//ux.stackexchange.com" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="//mathematica.stackexchange.com" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="//salesforce.stackexchange.com" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="//expressionengine.stackexchange.com" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//photo.stackexchange.com" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="//scifi.stackexchange.com" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="//graphicdesign.stackexchange.com" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="//movies.stackexchange.com" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="//cooking.stackexchange.com" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="//diy.stackexchange.com" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="//money.stackexchange.com" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="//academia.stackexchange.com" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//english.stackexchange.com" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="//skeptics.stackexchange.com" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="//judaism.stackexchange.com" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="//travel.stackexchange.com" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="//christianity.stackexchange.com" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="//gaming.stackexchange.com" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="//bicycles.stackexchange.com" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="//rpg.stackexchange.com" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//math.stackexchange.com" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="//stats.stackexchange.com" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="//cstheory.stackexchange.com" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="//physics.stackexchange.com" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="//mathoverflow.net" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="//chemistry.stackexchange.com" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="//biology.stackexchange.com" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//stackapps.com" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="//meta.stackexchange.com" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="//area51.stackexchange.com" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="//careers.stackoverflow.com">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2016 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2016.2.18.3270
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow em Portugu&#234;s funciona melhor com o JavaScript ativado<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () {
+        ados_setKeywords('x-host-pt.stackoverflow.com');; ados_load();
+    });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-42');
+                        ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

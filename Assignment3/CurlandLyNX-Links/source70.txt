@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>The Particular Finest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="description" content="The latest entries posted on The Particular Finest">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="The Particular Finest">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="The latest entries posted on The Particular Finest">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for 's blog" href="&#x2F;feed.rss">
+    <link rel="icon" href="https://d2fbk5uwlkue7.cloudfront.net/avatars/1447745354084_dZsePWMZU04oApLKWSyHT8-E.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://d2li76csayfw3k.cloudfront.net/uploads/1447748104838_WN0PFXBC13MO.css">
+</head>  <body>
+<header class="layout-header">
+    <div class="layout-centered">
+        <h1><a href="/">The Particular Finest</a></h1>
+        <span id="fake-h1" aria-hidden="true">The Particular Finest</span>
+    </div>
+</header>
+
+<div class="layout-centered clearfix">
+    <header class="subheader">
+        <p>Presented by aurynn shaw</p>
+
+        <nav>
+          <a href="/archives" title="Archives">Archives</a>
+          <a href="&#x2F;about" title="About">About</a>
+          <a href="http:&#x2F;&#x2F;aurynn.photography" title="Photos">Photos</a>
+          <a class="feed" href="&#x2F;feed.rss" title="RSS feed for  The Particular Finest">RSS</a>
+        </nav>
+    </header>
+</div>    <div class="layout-centered">
+    <!-- index -->
+        <article>
+            <h2>
+                <a href="&#x2F;86&#x2F;contempt-culture">Contempt Culture</a>
+            </h2>
+    
+            <aside>December 16, 2015</aside>
+    
+            <p>So when I started programming in 2001, it was <em>du jour</em> in the communities I participated in to be highly critical of other languages. Other languages <em>sucked</em>, the people using them were <em>losers</em> or <em>stupid</em>, if they would just use <em>a real language</em>, such as the one we used, everything would just be <em>better</em>.</p>
+<p>Right?</p>
+<p>This sort of culturally-encoded language was really prevalent around condemning <span class="small-caps">PHP</span> and Java. Developers in these languages were actively referred to as less competent than developers in the other, <em>more blessed</em> languages.</p>
+<p>And at the time, as a new developer, I internalised this pretty heavily. The language I was in was blessed, obviously, not because I was using it but because it was <em>better designed</em> than a language like <span class="small-caps">PHP</span>, <em>less wordy and annoying</em> than Java, <em>more flexible</em> than many other options.</p>
+<p>It didn&#x2019;t matter that it was (and remains) difficult to read, it was that we were <em>better</em> for using it.</p>
+<p>I repeated this pattern for a really long time, and as I learned new languages and patterns I&#x2019;d repeat the same behaviour in those new environments. I was almost certainly not that fun to be around, a microcosm of the broader unpleasantness in tech.</p>
+<p>At least, until I got called on it.</p>
+<h4 id="-have-you-thought-about-"><span class="hang-me">&#x201C;</span>Have you thought about&#x2026;&#x201D;</h4>
+<p>I&#x2019;d been making critical comments about <span class="small-caps">PHP</span> the language, and <span class="small-caps">PHP</span> developers, nothing more than standard<span class="space-me"></span> <span class="hang-me">&#x201C;</span>PHP sucks&#x201D; sort of language. The same thing I&#x2019;d been doing, and supported in doing, for years.</p>
+<p>Getting called out was  hard, and I was asked to consider who and what I was criticising. I was able to access a very specific version of the self-taught narrative, where I used <em><span class="hang-me">&#x201C;</span>real&#x201D;</em> programming languages and had <em><span class="hang-me">&#x201C;</span>real&#x201D;</em> passion and drive, the result of which was that I fit the early hacker archetypes and was permitted status - as long as I participated in gate keeping.
+My self-taught narrative is not other peoples&#x2019; self-taught narrative, and I was very firmly reminded of that.
+ Other self-taught narratives, such as starting with Wordpress-based design backgrounds and moving from more simple themes to more complex themes where <span class="small-caps">PHP</span> knowledge is required, to plugin development is a completely valid narrative, but a path that is <em>predominately for women</em>.</p>
+<p>This was a bombshell. I&#x2019;d been <em>loudly</em> criticising the language and, through that criticism, implying that people using the language weren&#x2019;t as good me, <em>weren&#x2019;t good programmers</em>.  And suddenly I was thinking about all the myriad ways that someone with that background would feel othered by me, like they didn&#x2019;t belong and weren&#x2019;t welcome in the communities I was a part of.</p>
+<p>All of the ways in which I was actively participating in the exclusion of women from <span class="small-caps">STEM</span>.</p>
+<h4 id="intent-is-not-magic-1-">Intent is Not Magic<a href="#note-1" id="ref-1" class="footnote-ref">1</a></h4>
+<p>Of course, I hadn&#x2019;t intended to do any of these things, but as I came to realise, it doesn&#x2019;t matter what I intended to do, what matters is that I did it and that it had real repercussions.</p>
+<p>I <em>intended</em> to make fun of a language, the repercussion is that people from minority backgrounds wouldn&#x2019;t want to talk to me about the things they&#x2019;d done in that language, they wouldn&#x2019;t feel safe talking about their achievements and exploits. </p>
+<p>And why would they feel safe? If they say what they use, we as a culture laugh at their choice. We tell them they should know better, tell them that it&#x2019;s a horrible tool. Tell them that they are <em>wrong</em>. We ignore the achievement and focus exclusively on how it was reached, on how much <em>better we are</em> because we had access to narratives that the broader culture had already deemed <em>more real</em>.</p>
+<p>Not better narratives or better tools, just more accepted, more permitted, more discriminatory. </p>
+<h4 id="contempt-currency">Contempt Currency</h4>
+<p>I was taught to be contemptuous of the non-blessed narratives, and I was taught to pay for my continued access to the technical communities through perpetuating that contempt. I was taught to have an elevated sense of self-worth, driven by the elitism baked into the <em>hacker ethos</em> as I learned to program. By adopting the same patterns that other, more knowledgable people expressed I could feel more credible, more like a real part of the community, more like I belonged.</p>
+<p>I bought my sense of belonging, with contempt, and paid for it with contempt and exclusionary behaviour.</p>
+<p>And now, I realise how much of it is an anxiety response. What if I chose the wrong thing? What if other people judge me for my choices and assert that my hard-earned skills actually aren&#x2019;t worth anything?</p>
+<p><em>What if people find out I&#x2019;m a fraud?</em></p>
+<p>By perpetuating a culture of contempt as the means of acquiring credibility, I was able to avoid these difficult, introspective questions. We don&#x2019;t have to look at how we&#x2019;re harming other people who want in, don&#x2019;t have to acknowledge the niggling little voice in the back of our head asking <em>are you good enough</em>. It wasn&#x2019;t me that was wrong, it was <em>them</em>.</p>
+<p>Instead, I was taught to use emotional weaponry to silence and exclude others, resulting in the remaining voices being the most toxic and exclusionary, the most able to tolerate toxicity and exclusionary attitudes.</p>
+<p>This pattern is <em>common</em> in tech, from extremely high-profile projects like the Linux kernel to the ongoing os/language/editor<span class="space-me"></span> <span class="hang-me">&#x201C;</span>wars&#x201D; to the vile reactionary attitudes towards the introduction of Codes of Conduct, to any developers making disparaging comments about other peoples&#x2019; ability to code, and the growing contempt around people whose first or primary language is JavaScript.</p>
+<h4 id="and-now">And now</h4>
+<p>This culture has ramifications. <span class="small-caps">PHP</span> communities, for example, have lacked access to the development of DevOps tooling, the use of <span class="small-caps">PHP</span> is widely derided as being insecure by default, are they are widely mocked for being an<span class="space-me"></span> <span class="hang-me">&#x201C;</span>objectively bad language.&#x201D; </p>
+<p>Yet people make their livings working with <span class="small-caps">PHP</span>, deploying <span class="small-caps">PHP</span>, trying to secure <span class="small-caps">PHP</span>. Don&#x2019;t they deserve the help that we received, the help of good practises and security-first development? These people who can&#x2019;t improve their work because we won&#x2019;t work with them and drive them away from our communities with mockery and spite.</p>
+<p>And then they engineer things on their own, because they still need these tools, and we have the gall to ask why they didn&#x2019;t use these other tools.</p>
+<p>Tools that we mocked them for asking about, telling them to get a real language, to rewrite their entire app, to rebuild from scratch because their particular path was <em>not blessed enough</em>.</p>
+<p>Because <em>we</em> were the problematic elements.</p>
+<h4 id="i-m-tired-of-this">I&#x2019;m Tired of This</h4>
+<p>It&#x2019;s 2015, and I saw a presenter at a Python conference make fun of Java. How would that feel to people trying to move from Java into something else? I wouldn&#x2019;t feel welcome, and I&#x2019;d have learned that the idea that the Python community is welcoming wasn&#x2019;t true.</p>
+<p>I&#x2019;m tired of calling people out again and again for dumping on <span class="small-caps">PHP</span>.</p>
+<p>I&#x2019;m tired of people dumping on Windows, that most popular operating system, because it&#x2019;s not what we choose to use, tired of the fact that we don&#x2019;t make it easy to use our tools and teach them how to move, when they&#x2019;re ready.</p>
+<p>Instead, we lecture and dismiss and heap scorn upon them. We don&#x2019;t reinforce our communities with respect or a sense of achievement, but with shame and contempt and awfulness. We exclude people. </p>
+<p>I&#x2019;ve excluded people. Directly, me. I have to own up to that and deal with it.</p>
+<p><em>We</em> excluded people. Directly. All of us. Even if we didn&#x2019;t intend to,  <em>it does not matter</em>. We make fun of the things others care about, make them feel small, make them feel like their achievements didn&#x2019;t matter. Make them feel like they&#x2019;re not welcome.</p>
+<h4 id="what-can-we-do-">What can we Do?</h4>
+<p><em><span class="small-caps">SHUT</span>.</em>
+<em><span class="small-caps">UP</span>.</em></p>
+<p>No, really, <em>cut it out.</em> If you need to make fun of a language, do it with your own language, inside your own community. JavaScript is really good at this, because they&#x2019;re trying to help people write better code <em>within JavaScript</em>. </p>
+<p>Do it around friends only, and acknowledge that it&#x2019;s extremely problematic that you&#x2019;re doing it at all.</p>
+<p>Find some amazing project to celebrate in a language you&#x2019;re contemptuous of.</p>
+<p>Go to meetups of what you despise. Say you don&#x2019;t know anything, and see how welcoming they are to new people.  See what they say, what they do, and ask if you&#x2019;d be as welcoming to them when they come to your meetups.</p>
+<p>Work to change your community. Ask people who try to pay for their membership in contempt to stop, or to leave. Make it unacceptable to use these behaviours as a means of obtaining social wealth.</p>
+<p>The best advice we give programmers is to leave things better than how they started. We do it with code, why don&#x2019;t we do it with communities? Why don&#x2019;t we do it with people, colleagues, friends?</p>
+<p>Ask why it&#x2019;s okay to do these things in your community, and leave things better than when you started.</p>
+
+<hr class="footnote-seperator"><ol class="footnotes"><li id="note-1"><p><a href="http://www.shakesville.com/2011/12/harmful-communication-part-one-intent.html">Intent is magic!</a><a class="footnote-back" href="#ref-1" title="Jump back to footnote [1] in the text.">&#x21A9;</a></p>
+</li></ol>
+    
+            <ul class="tags">
+                <li><a href="/tagged/culture">#culture</a></li><li><a href="/tagged/philsoraptor">#philsoraptor</a></li><li><a href="/tagged/opinions">#opinions</a></li><li><a href="/tagged/tech">#tech</a></li><li><a href="/tagged/programming">#programming</a></li><li><a href="/tagged/feminism">#feminism</a></li><li><a href="/tagged/shut-up-already">#shut up already</a></li>
+            </ul>
+        </article>
+        <article>
+            <h2>
+                <a href="&#x2F;85&#x2F;destiny">Destiny</a>
+            </h2>
+    
+            <aside>November 23, 2015</aside>
+    
+            <p>So.</p>
+<p>Destiny.</p>
+<p><em><a href="https://www.bungie.net/en/pub/AboutDestiny">Destiny</a></em>.</p>
+<p>I&#x2019;ve been playing Destiny since July 2015 and I started with just the base game. I didn&#x2019;t know what to expect. An <span class="small-caps">FPS</span> obviously, but I&#x2019;d ignored all of the hype and trailers and reviews and basically everything that was said about Destiny. Not because I didn&#x2019;t want to be spoiled, but since I wasn&#x2019;t hugely into Halo I wasn&#x2019;t terribly intrigued by a new property from Bungie. I&#x2019;d heard vague noises that it was an <span class="small-caps">MMO</span> and that it was extremely pretty, but that was quite literally all I knew.</p>
+<p>It&#x2019;s now late November 2015, and I&#x2019;m up to two raid-capable toons and a bit of a collection of Year 2 exotic weapons. </p>
+<p>You could say I&#x2019;m hooked.</p>
+<h4 id="so-what-is-destiny-">So what is Destiny?</h4>
+<p>The best way of describing Destiny is that it&#x2019;s an MMO+FPS-lite. Almost all of the story content is single-player, with occasional bits of collaborative content, like shared missions called <em><span class="hang-me">&#x201C;</span>Strikes&#x201D;</em> where a group of players take on a harder boss.</p>
+<p>I find this a really nice structure for the majority of the PvE content. I don&#x2019;t have to organise groups or try to build a community, I can just sit down and push a button and sometimes need to be matched with some random people and just <em>enjoy</em> content.</p>
+<p>In the main worlds interaction with other people is extremely limited, which is really nice. Occasionally you might bump into some people and tackle a timed boss or mini-event, but most of the time it&#x2019;s just you and the big open worlds. This ends up <em>surprisingly pleasant</em>, as the amount of griefing seems to be quite minimal. I can&#x2019;t interact with others, I just run through them. I can have my kills stolen, but only until I leave the area and move to another shard. </p>
+<h4 id="story">Story</h4>
+<p>The story in the PvE parts of Destiny is&#x2026; well, the first year&#x2019;s content was atrocious. Badly written, poorly exposited rubbish that barely scratched the surface of what <em>could</em> have been an impressive and interesting world, but completely missed the mark.</p>
+<p>Missed the mark so badly that <a href="https://www.kotaku.com">Kotaku</a> wrote an <a href="http://kotaku.com/the-messy-true-story-behind-the-making-of-destiny-1737556731">extremely in-depth article on why it was so badly screwed up.</a></p>
+<p>TL;DR: they fired their writers and<span class="space-me"></span> <span class="hang-me">&#x201C;</span>rewrote&#x201D; the story with only a couple of months before launch.</p>
+<p>The story was rubbish to the point of being endlessly, actively mocked on the internet. Lines such as <em><span class="hang-me">&#x201C;</span>I don&#x2019;t have time to explain why I don&#x2019;t have time to explain&#x201D;</em> and <em><span class="hang-me">&#x201C;</span>Be careful! Its power is dark!&#x201D;</em></p>
+<p>Given it&#x2019;s Bungie, it ought to have been so very much better. </p>
+<p>With the first of the Year 2 content, <em><span class="hang-me">&#x201C;</span>The Taken King&#x201D;</em>, it appears they hired (or re-hired) competent writers. There&#x2019;s considerably more interaction between characters and considerably more exposition and content that illuminates and expands the world. The writing isn&#x2019;t on the stellar levels of <em>Mass Effect</em>, but compared to Year 1 it&#x2019;s a pinnacle of literary achievement.</p>
+<h4 id="mmo"><span class="small-caps">MMO</span></h4>
+<p>Once you&#x2019;ve exhausted the story missions there&#x2019;s the grind, and Destiny is <em>quite grindy</em>. Finding a bunch of materials to resolve quests, across several days. Having to collect currency, which can only be done over several days. Collecting better gear, which can only be done by repeatedly and continually playing the same parts of the game and doing the same things over and over.</p>
+<p>The post-game content is starting to do the Actual <span class="small-caps">MMO</span> parts, the raids and weekly strike missions. These are high-level content and require actively working to find groups of people to play with. This is as predictably hit-or-miss as any collection of people will end up being. Racism and homophobia abounds, angry people and shitty environments.</p>
+<p>But also really great people who are kind, form groups that work together really well and work to help people approach content they&#x2019;ve never approached before.</p>
+<p>Variable.</p>
+<p>It&#x2019;s most sensible to find a regular group to play with, a clan in the Destiny parlance. </p>
+<h4 id="pvp"><span class="small-caps">PVP</span></h4>
+<p>The PvP gaming is as much fun as PvP gaming ever is; a lot of fun if you&#x2019;re great, stressful and miserable if you&#x2019;re merely good.
+There appears to be a binning function in the matchmaking functionality, which tries to pair you against players of a similar skill.
+This would probably be great&#x2026; if you weren&#x2019;t on the edge of a bin, as I seem to be. My games tend to follow the pattern of being completely outmatched for several games, get matched down a bin, do really well, get matched up a bin, rinse, repeat.</p>
+<p>This makes for intensely frustrating gaming.  As soon as I start to feel competent and capable and like I&#x2019;m having fun, Destiny reminds me that I&#x2019;m actually immensely terrible and that misery should be my only reward.</p>
+<h4 id="so-would-i-recommend-it-">So Would I recommend it?</h4>
+<p>No. Mostly.</p>
+<p>The <em>no</em> part comes in because of how <em>fundamentally awful</em> the base story is.</p>
+<p>Getting to the good part of the game, The Taken King, can happen almost immediately, and all the <span class="small-caps">Y1</span> <span class="small-caps">DLC</span> can largely be ignored, but the result will be that your character will be frightfully underskilled and require considerable grinding to level up the skills and abilities, abilities that are critical to any sort of non-miserable PvP play.</p>
+<p>Playing the <span class="small-caps">Y1</span> content can help with that, but it&#x2019;s a miserable slog of poor writing.</p>
+<p>PvP is a crapshoot. End content is only as good as your friends.</p>
+<p>It&#x2019;s super grindy.</p>
+<p>On the mostly side, I <em>really</em> enjoy playing Destiny.  The <span class="small-caps">FPS</span> mechanics are well-tuned and very satisfying, and it&#x2019;s a lot of fun mastering techniques for the raid and getting content that took several days to complete the first time down to an hour and a half of gaming.</p>
+<p>The Year 2 story is markedly better, on the border of <em><span class="hang-me">&#x201C;</span>good&#x201D;.</em> The lore of <em>why</em> things have happened is fleshed out, and we begin to see motivations and forces beyond<span class="space-me"></span> <span class="hang-me">&#x201C;</span>here&#x2019;s some mooks, shoot them,&#x201D; and that&#x2019;s extremely appealing. There&#x2019;s hooks for the next <span class="small-caps">DLC</span> content that have me extremely excited. There&#x2019;s a <em>there</em> there now, a place that feels larger than myself and a world that feels like I want to explore it further.</p>
+<p>But on the whole, it&#x2019;s such an investment of time and energy for such terrible writing that I just can&#x2019;t recommend it.</p>
+
+    
+            <ul class="tags">
+                <li><a href="/tagged/gaming">#gaming</a></li><li><a href="/tagged/opinion">#opinion</a></li><li><a href="/tagged/mmo">#MMO</a></li><li><a href="/tagged/augh">#augh</a></li>
+            </ul>
+        </article>
+        <article>
+            <h2>
+                <a href="&#x2F;84&#x2F;so-i-started-a-business">So I Started a Business</a>
+            </h2>
+    
+            <aside>November 18, 2015</aside>
+    
+            <p>So as you noticed, I&#x2019;ve not really been blogging very much since March, and there&#x2019;s a really good reason for it.</p>
+<p>And that reason is I started a company, <a href="http://www.eiara.nz">Eiara Devops</a>. I&#x2019;ve been running for the last 7 months, since the beginning of April, and it&#x2019;s been a huge amount of fun and stress, but as all small businesses do it expanded to occupy <em>all the time in the world</em>.</p>
+<p>Time that I would be blogging in, for instance, got overwhelmed with the intensity that is starting and trying to grow a business. Heady stuff!</p>
+<p>With recently recovering my blog and moving fully to <a href="blot.im">blot.im</a>, I feel like I&#x2019;ve refined the process enough to have space in which my thoughts can once again be a part of the greater internet discussion.</p>
+<p>Thanks for your patience!</p>
+
+    
+            <ul class="tags">
+                <li><a href="/tagged/life-stuff">#life stuff</a></li><li><a href="/tagged/devops">#devops</a></li>
+            </ul>
+        </article>
+        <article>
+            <h2>
+                <a href="&#x2F;83&#x2F;a-new-place">A New Place</a>
+            </h2>
+    
+            <aside>November 17, 2015</aside>
+    
+            <p>Hello, and welcome to The Particular Finest 2.0.</p>
+<p>You may have noticed that we had an outage for a while! I discovered, much to my chagrin and annoyance, that my previous host <a href="http://scriptogr.am">Scriptogram</a> had shut down without much of a notification that they were doing so.</p>
+<p>I&#x2019;d always it was a matter of time. Scriptogram didn&#x2019;t charge any money for the service, and running services costs money to keep the servers up and the bandwidth flowing. But it&#x2019;s always easier to do nothing than to migrate when there&#x2019;s no pressing need, and even though other Dropbox-backed blogging engines existed before Scriptogram failed I didn&#x2019;t feel an urgent pressure to move.</p>
+<p>The content you&#x2019;re now reading is on <a href="http://blot.im">blot.im</a>, a paid service for doing the Dropbox-backed static blog. </p>
+<p>My nice theme is being migrated over, so you&#x2019;ll be seeing that soon. I&#x2019;m also in a bit of a better place and have a few more spoons to start, you know, actually blogging again. </p>
+<p>Welcome back!</p>
+
+    
+            <ul class="tags">
+                <li><a href="/tagged/meta">#meta</a></li>
+            </ul>
+        </article>
+        <article>
+            <h2>
+                <a href="&#x2F;3&#x2F;100-schmundred-percent">100% Schmundred percent</a>
+            </h2>
+    
+            <aside>May 23, 2015</aside>
+    
+            <p>I spoke about <a href="http://blog.aurynn.com/68/ori-and-the-blind-forest">Ori</a> the other day, and I still stand by all those words. It&#x2019;s beautiful and wonderful and magical in all sorts of good ways.</p>
+<p>It&#x2019;s also deeply, immensely frustrating. Let&#x2019;s talk a bit about why.</p>
+<p>In most Metroidvania games the primary focusses are <em>exploration</em> and <em>combat.</em> You explore the space to find upgrades to help you explore further and shoot the things you find there.</p>
+<p>Ori chooses a different pair of primary focusses, using <em>exploration</em> and <em>movement</em> instead. Combat is present in the same way that platforming is present in <em>Metroid</em>, a perfunctory nod to a system that&#x2019;s intended to give variety to the major focusses.</p>
+<p>The movement upgrades in <em>Super Metroid</em> serve the exploration and the combat, with the screw attack and speed boost providing new ways of engaging in combat, the others providing new ways to reach enemies to shoot. This is present even in the first two upgrades, the Morph Ball and Bomb, powers to help you reach new enemies, and then blow them up.</p>
+<p>In <em>Ori,</em> all the upgrades focus on movement, and only movement. This different focus has a remarkably interesting side-effect:</p>
+<p><em>There are no boss fights.</em></p>
+<h4 id="run-run-run-run-away">Run, run, run, run away</h4>
+<p>In <em>Ori</em>, the player never engages in combat with the primary antagonist, and only in one scene do we even <em>injure</em> the antagonist directly. But, we still have major challenges that we face, challenges that are analogous to the missing boss fights.</p>
+<p>In <em>Ori</em> we are expected to repair three major Temple constructs, each of which has world-changing repurcussions when completed, and would normally have a boss battle at the end.</p>
+<p><em>Ori</em> challenges that normality by making <em>platforming itself</em> the boss fight, placing the player in a challenging and stressful environment and requiring them to escape using the movement tools unlocked so far.  I thought this was a great idea, as Ori isn&#x2019;t a combat-oriented character and the game isn&#x2019;t about combat. A boss battle would have violated the theme and the style of the game and the world and broken our expectations on how things worked.</p>
+<h4 id="again-from-the-top">Again, from the top</h4>
+<p>Unfortunately, these were the sequences in <em>Ori</em> that I found the most grindingly frustrating.</p>
+<p>Throughout the game, the player is expected to manage their checkpoints, and the game is usually good about allowing checkpoints to be spawned pretty much anywhere. This permission to checkpoint at whim drives a considerable amount of the challenge in the platforming, as once you&#x2019;re through a difficult patch you <em>can</em> checkpoint, and relax. It&#x2019;s a powerful reward.</p>
+<p>It&#x2019;s also an action you can&#x2019;t take, at all, during the escape sequences.</p>
+<p>The escape sequences in <em>Ori</em> are difficult, requiring considerable precision and timing to succeed at. This would be fine, but what you are escaping from is a mechanic that will instantly kill you. Every time.</p>
+<p>Over and over and <em>over</em> and <strong><em>over</em></strong> until you get it just perfectly right.</p>
+<p>Each new subsection of the escape will be filled with new hazards, that will kill you, pushing you back to the beginning of the whole sequence. What should be a challenging, stressful but ultimately satisfying sequence turns into a frustrating grind of making it far enough to discover the next thing that will kill you, dodging that, and repeating until you&#x2019;ve reached the end.</p>
+<p>This leaves that final run where the sequence is completed, what ought to be the glorious culmination of skill and precision to overcome incredible odds as merely the last episode of seething frustration. I didn&#x2019;t feel glorious or rewarded or like I had mastered the mechanics when I completed these sections, I felt <em>finally I am done that <strong>fucking awful</strong> bit.</em></p>
+<p>This isn&#x2019;t a good feeling.</p>
+<h4 id="replay">Replay</h4>
+<p>While I was playing, I really loved<em>Ori.</em> It was the Metroidvania game I&#x2019;ve wanted to have since I played <em>Shadow Complex</em> and <em>Insanely Twisted Shadow Planet.</em> I loved the amazing graphics, I loved that all the characters were female.</p>
+<p>Having completed the game, do I want to replay it?</p>
+<p>No. Categorically no.</p>
+<p>Unlike <em>Metroid</em>, where I want to revisit and discover and explore more, the Forest of <em>Ori</em> remains more frustration than enjoyment, more endured than pleasant. I remain glad I played it, but it&#x2019;s become considerably harder to recommend to anyone but those who truly love the Metroidvania style or are looking for precision platforming gaming.</p>
+
+    
+            <ul class="tags">
+                <li><a href="/tagged/gaming">#gaming</a></li><li><a href="/tagged/metroidvania">#metroidvania</a></li><li><a href="/tagged/ori-and-the-blind-forest">#ori and the blind forest</a></li><li><a href="/tagged/how-did-i-not-throw-my-controller">#how did I not throw my controller</a></li>
+            </ul>
+        </article>
+        <article>
+            <h2>
+                <a href="&#x2F;8&#x2F;almost-actually-better-cameras">(Almost) Actually Better Cameras</a>
+            </h2>
+    
+            <aside>March 24, 2015</aside>
+    
+            <p>Say, who remembers when I wrote about the <a href="http://blog.aurynn.com/48/towards-amazing-cameras">Sony <span class="small-caps">QX100</span></a> NFC-wireless-camera accessory thing? It was a cool piece of tech, but pretty limited, as first generations often are.</p>
+<p>I remarked at the time that it would be an amazing piece of <em><span class="small-caps">HERE</span> <span class="small-caps">IS</span> <span class="small-caps">MY</span> <span class="small-caps">MONEY</span> <span class="small-caps">PLEASE</span> <span class="small-caps">TAKE</span> <span class="small-caps">IT</span></em> tech if, instead of it being a point-and-shoot system, it offered a real sensor and an interchangable lens mount.</p>
+<p>Someone was listening! Sony has released <em>almost</em> what I asked for, and it&#x2019;s called the (again, unimaginatively named) <a href="http://en.m.wikipedia.org/wiki/Sony_ILCE-QX1">ILCE-QX1</a>. In all seriousness, whoever is naming these things needs to stop. This is terrible.</p>
+<p>I haven&#x2019;t bought one of these, but I do want to talk about what it is versus what it ought to be.</p>
+<h4 id="the-good-">The Good!</h4>
+<p>This is really amazing: Sony has taken an <a href="http://en.m.wikipedia.org/wiki/APS-C">APS-C sensor</a> and jammed it into a tiny cylinder, divorced from much of the legacy that is <em><span class="hang-me">&#x201C;</span>camera bodies.&#x201D;</em> I can replace the lens! I can get really awesome lenses and put them on! I can share the <em>really good</em> photos I take immediately, closing the irritatingly arduous loop of <em>take, go home, upload.</em></p>
+<p>DSLR-quality Instagram, anyone?</p>
+<h4 id="the-everything-else-">The Everything Else!</h4>
+<p>Of course, there&#x2019;s always bad parts. It&#x2019;s the rule number one of shipping technology.</p>
+<p>For starters, Sony didn&#x2019;t improve on the connection process from the <span class="small-caps">QX100</span>. In order to use your phone with the camera, you have to do the <span class="small-caps">NFC</span> dance, adding a considerable delay from <em>want to shoot</em> to <em>shooting</em>. And that&#x2019;s just on Android! The entire process is <em>considerably</em> worse on iOS, requiring pairing your phone with the camera over WiFi.</p>
+<p>On both Android and iOS, you&#x2019;re required to use the terrible<a href="#note-1" id="ref-1" class="footnote-ref">1</a> <span class="hang-me">&#x201C;</span>PlayMemories Mobile&#x201D; app instead of the native camera, rendering any advances the phone makes in Time To Shooting as moot.</p>
+<p>Now, this isn&#x2019;t entirely Sony&#x2019;s fault. Apple keeps these sorts of things quite tightly locked down, and Android was almost certainly never designed with the idea of a custom Bluetooth lens contraption replacing the native camera.</p>
+<p>However.</p>
+<p>There&#x2019;s this interesting other fact in play, which is that Sony also makes a smartphone. <a href="http://en.m.wikipedia.org/wiki/Sony_Xperia">A range of them</a>, in fact, that you may have heard of!</p>
+<p>I even use one!</p>
+<p><em>So what</em>, you might reply, and justly so. Well, it seems to me that Sony offers this terribly-named, extremely interesting tech gadget with abysmal user experience on most smartphones, and Sony also offers <em>their own</em> smartphone where they maintain full control of the operating system.</p>
+<p>But they don&#x2019;t ship a separate app or any integration for users on their own platform to have a better experience. An Xperia owner is forced to use the same terrible app as the Galaxy S owner or the Moto G owner. Everyone endures the same terrible experience.</p>
+<p>But an Xperia owner shouldn&#x2019;t have to. An Xperia owner <em>could</em> have a device upon which the native camera is overridden by the Sony-branded external camera modules, <em>could</em> have a device where Time To Shoot is considerably faster and more intuitive, enabled by Sony owning their own underlying platform.</p>
+<h4 id="the-funnel">The Funnel</h4>
+<p>Overall, this device which looks <em>so good</em> but isn&#x2019;t is quite obviously not meant for established photographers. It&#x2019;s worse than a standalone camera in most ways and lacks the platform integration that would really make it exceptional. For a photographer, it&#x2019;d be a shallow bauble.</p>
+<p>I don&#x2019;t think it&#x2019;s aiming at existing photographers, but rather at people wanting considerably better photos with the <em>cellphone</em> they have, a camera that can be upgraded indepentently of their phone, and vice-versa.</p>
+<p>Which this is, in spades.</p>
+<p>On Sony&#x2019;s side, this is an excellent mechanism to capture photographers moving into systems with replaceable lenses, as the <span class="small-caps">QX1</span> uses their proprietary E-mount format. As good glass is one of the most expensive and least likely to be upgraded aspects of a photographers&#x2019; arsenal, Sony provides a clean upgrade path for a photographer to move into dedicated camera bodies without losing their investment.</p>
+<p>Their use of industry-standard MicroSD cards also makes it more likely to get uptake in camera shops, enabling re-use of existing hardware that a customer may have.</p>
+<p>As a photographer with dedicated bodies and an existing investment in lenses, the <span class="small-caps">QX1</span> isn&#x2019;t for me. It&#x2019;s close, and as phones become more powerful and vendors aim for interesting points of differentiation it will get closer.</p>
+<p>Hopefully it won&#x2019;t be long before we see a <em><span class="hang-me">&#x201C;</span>camera&#x201D;</em> body has been designed to work with a phone, a phone that has been designed to work with that camera body, while using micro 4/3rds. A device good enough that a dedicated body is no longer necessary, a device that is, effectively, just carrying the lens by itself.</p>
+<p>The <span class="small-caps">QX1</span> isn&#x2019;t.</p>
+<p>Soon, though. Soon.</p>
+
+<hr class="footnote-seperator"><ol class="footnotes"><li id="note-1"><p>hearsay, obviously<a class="footnote-back" href="#ref-1" title="Jump back to footnote [1] in the text.">&#x21A9;</a></p>
+</li></ol>
+    
+            <ul class="tags">
+                <li><a href="/tagged/cameras">#cameras</a></li><li><a href="/tagged/tech">#tech</a></li><li><a href="/tagged/sony">#sony</a></li><li><a href="/tagged/the-future-is-now">#the future is now</a></li><li><a href="/tagged/why-is-it-even-named-this">#why is it even named this</a></li>
+            </ul>
+        </article>
+        <article>
+            <h2>
+                <a href="&#x2F;55&#x2F;twitter">Twitter</a>
+            </h2>
+    
+            <aside>March 17, 2015</aside>
+    
+            <p>Hi, Twitter.</p>
+<p>It&#x2019;s time we had a bit of a talk.</p>
+<p>We met in 2007. It was a heavy time for me, full of self-discovery and emotions and difficulties and, well, the general ephemera of life itself. You were so young, but then, so was I.</p>
+<p>With you I felt so free, I felt so able to share and be myself, to not be afraid of anything. I could be anything or anyone with you, and you showed us all how the world could change. You were there when I needed friends, Twitter, gave me tweetups and connections spanning the globe. You were there when I publicly came out as trans. You&#x2019;ve been there through hardness and joy, helped with my depression and shared in my victories.</p>
+<p>I wouldn&#x2019;t trade any of that for the world.</p>
+<p>But.</p>
+<p>But, but, <em>but.</em></p>
+<p>It&#x2019;s been a long time since I&#x2019;ve felt safe with you, Twitter, a long time since I had that freedom. I&#x2019;m afraid all the time, afraid that if I say the wrong thing that you&#x2019;ll fly into a rage. Instead of seeing you treat my friends well, I see you hurt people and revel in it. I watch you ignore their pain and the harm that you&#x2019;re doing.</p>
+<p>But then, when I was so depressed for so long and I reached out to you for help, sometimes you were really there and you really cared, and that was really great.</p>
+<p><em>Sometimes.</em> Sometimes you weren&#x2019;t there and I would still be talking to you and hoping that my friends would overhear, instead of just talking <em>to</em> my friends. I let you maintain my social network, and didn&#x2019;t notice as you changed how I interact.</p>
+<p>It hurt when I noticed that I was doing that, how I felt like I&#x2019;d forgotten how to be a good friend, that I needed to re-learn how to connect.</p>
+<p>The more I&#x2019;ve grown to depend on you, the more you&#x2019;ve drawn away. Sometimes you make me feel like I don&#x2019;t matter and that what we had before doesn&#x2019;t exist.</p>
+<p>Maybe it never did.</p>
+<p>The hardest part, Twitter, is seeing how abusive you&#x2019;ve become. </p>
+<p>Maybe you always were, and it just took me this long to notice. We have so much history together, history I don&#x2019;t want to lose, and maybe that blinded me.</p>
+<p>We&#x2019;ve tried separation before, and I&#x2019;ve always come crawling back. I&#x2019;ve never said how smug I think you feel when I do, how you enjoy my dependency. You want me here, you love that I want it. I&#x2019;ve never said how dirty I feel, when I do come back.</p>
+<p>But I do come back. You&#x2019;ve become a part of me, changed who I am and who I can become. I&#x2019;ll keep coming back, and it&#x2019;s time to accept that.</p>
+<p>Instead of a teary departure, my dear Twitter, how we&#x2019;re together is going to change. The way you&#x2019;re so ephemeral has changed how I speak, but not for the better. I&#x2019;m still going to rely on you, but I don&#x2019;t want you to be the first to hear my thoughts. </p>
+<p>Instead, I&#x2019;m going to speak to myself first, and let you know I&#x2019;ve said something. </p>
+<p>Instead, I&#x2019;m going to talk to my friends on my own, not speak to the wind and hope they hear.</p>
+<p>Instead, Twitter, as we walk together, I&#x2019;m going to lead.</p>
+
+    
+            <ul class="tags">
+                <li><a href="/tagged/twitter">#twitter</a></li><li><a href="/tagged/tech">#tech</a></li><li><a href="/tagged/philosoraptor">#philosoraptor</a></li>
+            </ul>
+        </article>
+        <article>
+            <h2>
+                <a href="&#x2F;68&#x2F;ori-and-the-blind-forest">Ori and the Blind Forest</a>
+            </h2>
+    
+            <aside>March 16, 2015</aside>
+    
+            <p><a href="http://www.oriblindforest.com/">Ori and the Blind Forest</a> came out last week, and I was very, very excited that it did.</p>
+<p>I&#x2019;d first seen a trailer for Ori, oh, sometime in 2014. It looked incredible, sad humming music over amazing artwork of a giant black creature and its small, white companion.</p>
+<p>Obviously it immediately went on my wishlist, and I didn&#x2019;t even know what kind of game it was.</p>
+<p>Fast-forward to last week, and its release. <em>It&#x2019;s out!</em> I said, and leapt to Steam to purchase my copy, and start the download. <em>It&#x2019;s out! What did I buy?</em> It turns out, I hadn&#x2019;t read anything about the game and had no idea if it was even good. I was excited for the beauty of it, for the smoothness of the world and the delight of the music, and it was worth it for that alone. </p>
+<p>Oh, but the game, what did I buy? Well, let me talk about that.</p>
+<p><em>Ori</em> is a side-scroller. It&#x2019;s a platformer. It&#x2019;s <em>Metroidvania,</em> my most beloved of all genres. It is gloriously pretty, what appears to be hand-drawn and animated to silky smooth perfection, and Ori&#x2019;s movement is fluid and responsive and breathtaking to behold. </p>
+<p>It&#x2019;s amazingly pretty. Did I say that already?</p>
+<p>I am loving this game. Except for the tree, all the major characters are referred to with female pronouns. Ori is a she, the angry owl is, Naru. <em>Everyone</em> has been <em>she</em> so far. I can&#x2019;t describe how wonderful it is to just have<span class="space-me"></span> <span class="hang-me">&#x201C;</span>she did this&#x201D; or<span class="space-me"></span> <span class="hang-me">&#x201C;</span>she did that&#x201D; as the standard narration. </p>
+<p>It&#x2019;s such a wonderful change from the Male As Endless Default that we&#x2019;re subjected to. </p>
+<h4 id="but-">But&#x2026;</h4>
+<p>This game isn&#x2019;t for everyone. You have to enjoy the Metroidvania style of considerable backtracking and exploration, working through areas where you&#x2019;ve already been. Repeatedly. If you like your levels to be new and distinct, this perhaps isn&#x2019;t for you.</p>
+<p>The other thing about <em>Ori</em> is that its platforming is <em>really hard</em>. There&#x2019;s a sequence about a third of the way in where you have to use a newly unlocked movement ability while being chased by insta-death. And this way goes a <em>long</em> way, and it&#x2019;s <em>hard.</em> As a sequence it&#x2019;s about 2 minutes long but it took me over an hour to clear, solely because of the perfection required.</p>
+<p>As a result, I&#x2019;d describe <em>Ori</em> as a love-letter to platformers and old, <span class="small-caps">2D</span> <em>Metroid</em> games. It&#x2019;s intentionally challenging and frustrating, asking a great deal of the player in terms of dexerity and precision, rewarding excellent play with a heady rush of, wow, I just outran <span class="small-caps">THAT</span>.</p>
+<p>And I barely touched the ground.</p>
+<h4 id="buy-it-">Buy it.</h4>
+<p>It&#x2019;s pretty. The music is lovely. It stars female creatures. It does so many things right and it makes me so happy, even when it makes me want to throw the controller because I can&#x2019;t quite get the precision right.</p>
+<p>If this sounds like your thing, I wholly recommend <em>Ori.</em> </p>
+<p>If it&#x2019;s not your thing, I don&#x2019;t recommend it because it will be a wholly frustrating experience.</p>
+
+    
+            <ul class="tags">
+                <li><a href="/tagged/gaming">#gaming</a></li><li><a href="/tagged/metroidvania">#metroidvania</a></li><li><a href="/tagged/welcome-to-the-luvvies">#welcome to the luvvies</a></li>
+            </ul>
+        </article>
+        <article>
+            <h2>
+                <a href="&#x2F;43&#x2F;why-cant-we-have-nice-things">Why Can&#39;t We Have Nice Things</a>
+            </h2>
+    
+            <aside>March 11, 2015</aside>
+    
+            <p>A few months ago there was an announcement about a new Ghostbusters movie. This is interesting, Ghostbusters was a fun movie back in the day and it&#x2019;d be neat to see a modern take on it. Great.</p>
+<p>Even cooler was the fact that the Ghostbusters team was going to be entirely composed of women. Excellent! The lack of gender diversity is hugely glaring, and the growing awareness of how awful things are is resulting in positive steps like this. </p>
+<p>I&#x2019;m happy, but of course there&#x2019;s a never-endingly whiny contingent of entitled men proclaiming that <span class="small-caps">ACTUALLY</span> <span class="small-caps">THIS</span> <span class="small-caps">IS</span> <span class="small-caps">THE</span> <span class="small-caps">REAL</span> <span class="small-caps">SEXISM</span>. I&#x2019;m not going to link to any of it because, really, who wants to read that kind of dreck?</p>
+<p>But I&#x2019;m happy with Ghostbusters, and life carries on.</p>
+<p>Until the other day, <a href="http://thedissolve.com/news/5029-dueling-ghostbusters/">when Sony decides to announce that they&#x2019;re booting Another Ghostbusters Movie.</a></p>
+<p>And I&#x2019;m just</p>
+<p>no.</p>
+<p>Go read that article, it&#x2019;s a great summation of why this is hugely problematic.</p>
+<p>Or, as someone on Metafilter (paraphrased) said: <em><span class="hang-me">&#x201C;</span>Instead of having The Ghostbusters, which happened to star women, now we have Ghostbusters and Lady Ghostbusters.&#x201D;</em></p>
+
+    
+            <ul class="tags">
+                <li><a href="/tagged/sony">#sony</a></li><li><a href="/tagged/sexism">#sexism</a></li><li><a href="/tagged/ghostbusters">#ghostbusters</a></li>
+            </ul>
+        </article>
+        <article>
+            <h2>
+                <a href="&#x2F;67&#x2F;what-does-this-solve">What does this Solve?</a>
+            </h2>
+    
+            <aside>March 10, 2015</aside>
+    
+            <p>So it&#x2019;s a big tech show-annouce-press-everything-thing right now. Just past? <span class="small-caps">CES</span> maybe? MWC? I don&#x2019;t actually know. Stuff&#x2019;s going on, things have been announced, some of them look shiny.</p>
+<p>Some of those things don&#x2019;t look shiny.</p>
+<p>One of the not shiny-things that big company extraordinare Sony announced is their Google Glass-alike augmented reality glasses <em>thing.</em> It&#x2019;s $840 <span class="small-caps">US</span> dollars.
+You can <a href="https://recode.net/2015/02/18/reactions-sonys-840-smart-glasses-are-too-dorky-to-be-believed/">look at a video about it and everything</a>, and really, this can only be seen to be believed. Giant, bulky frames complemented by a giant, bulky hockey puck prominently clipped to your jacket.</p>
+<p>In spite of that, I&#x2019;d still wear and use them if they were any good. Augmented reality is <em>cool,</em> it&#x2019;s the future, it&#x2019;s things that I want to see come about in real life. I want my heads-up goggles that integrate the Internet, providing useful passive information about the real spaces that I&#x2019;m in.</p>
+<p>What I don&#x2019;t want is to have notifications popping up before my eyes, because there&#x2019;s no integration of the virtual with the physical. I don&#x2019;t want to try to reply to a text message with dodgy voice detection or terrible in-my-glasses <span class="small-caps">UI</span>.</p>
+<p>Directions being overlaid on the world would be useful, but Google Glass got there years ago.</p>
+<h4 id="what-would-be-cool">What Would Be Cool</h4>
+<p>If you watch the video, the puck-glasses have to be paired with your phone, so they&#x2019;re obviously being treated as an extension of the phone. Why not take advantage of that?</p>
+<p>Say, when the user looks at their phone their glasses could detect and turn the phone on, or maybe draw a simple <span class="small-caps">UI</span> over of the phone with the current notifications. A phone placed on a flat surface and turned on, could be used to project a larger display across that surface.</p>
+<p>Imagine, placing your phone on a surface and the phone becomes the surface, but just for you! Adding a second camera for binocular vision and you could easily provide Kinect-style depth mapping, letting the user drag elements around or type on a virtual keyboard. This would be the promise of the Ubuntu Edge without the necessity of a full <span class="small-caps">HDMI</span> monitor, keyboard and mouse to dock with. Any surface could become a simple, usable computer system.</p>
+<p>If the company wasn&#x2019;t privacy-invadingly malicious or in a malicious legal environment, another useful overlay would be letting users have a pop-up beside their head with a small blurb about who they are. Add a name! Or don&#x2019;t! By having the device itself advertise who is the owner, we avoid the considerable unpleasantness around early versions of such technologies requiring constantly-active facial recognition technology.</p>
+<h4 id="what-isn-t-cool">What Isn&#x2019;t Cool</h4>
+<p>This device is a Pebble, only strapped to your face. It doesn&#x2019;t bring anything new or interesting to what we already have, and doesn&#x2019;t make use of any of the powers that augmented reality or the powerful pocket computers can provide.</p>
+<p>Ugliness can be forgiven for magical, and from the video Sony&#x2019;s glasses aren&#x2019;t magical. There&#x2019;s no <em>there</em> there, just a scrolling banner of text remaining divorced from the contextual world.</p>
+
+    
+            <ul class="tags">
+                <li><a href="/tagged/augmented-reality">#augmented reality</a></li><li><a href="/tagged/tech">#tech</a></li><li><a href="/tagged/why-would-you-do-this">#why would you do this</a></li><li><a href="/tagged/sony">#sony</a></li>
+            </ul>
+        </article>
+    </div>
+  </body>
+</html>

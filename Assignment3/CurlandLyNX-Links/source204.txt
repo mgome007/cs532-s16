@@ -1,0 +1,62 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, intitial-scale=1, user-scalable=no">
+	<title>Coming Soon</title>
+	<!-- Web Font -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<!-- App CSS -->
+	<link rel="stylesheet" href="dist/css/app.css">
+</head>
+<body>
+
+	<!-- Feature -->
+  <div class="feature">
+    <h1>Mike Joyce</h1>
+    <h2>Front-End Developer</h2>
+    	<ul class="social-links">
+    		<li>
+    			<a href="https://github.com/mikejoyceio" class="icon icon-github" target="_BLANK">
+						<span class="label">Github</span>
+    			</a>
+    		</li>
+    		<li>
+    			<a href="https://twitter.com/mikejoyceio" class="icon icon-twitter" target="_BLANK">
+						<span class="label">Twitter</span>
+    			</a>
+    		</li>
+    		<li>
+    			<a href="https://th.linkedin.com/in/mikejoyceio" class="icon icon-linkedin" target="_BLANK">
+						<span class="label">Linkedin</span>
+    			</a>
+    		</li>
+    	</ul>
+  </div>
+  <!-- /Feature -->
+
+  <!-- Clouds -->
+  <div id="clouds">
+		<div class="cloud c01"></div>
+		<div class="cloud c02"></div>
+		<div class="cloud c03"></div>
+		<div class="cloud c04"></div>
+		<div class="cloud c05"></div>
+	</div>
+	<!-- Clouds -->
+
+	<canvas id="stars"></canvas>
+
+	<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<!-- jQuery Color -->
+	<script src="dist/js/jquery.color.js"></script>
+	<!-- Timeout JS -->
+	<script src="dist/js/timeout.js"></script>
+	<!-- App JS -->
+	<script src="dist/js/app.js"></script>
+
+</body>
+</html>
+

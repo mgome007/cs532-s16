@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="keywords" content="nail, studio, blagoevgrad, KK nail studio, kostadina, korcheva,  studio, manicure, pedicure, beauty service, eyelash extentions, make up, spa, lux, bar, gelmanicure, gift certificates, nails extentions" />
+<meta name="description" content=" Services of KK nail studio" />
+<meta name="rating" content="general"/>
+<meta name="googlebot" content="index, follow" />
+<meta name="robots" content="index, follow" />
+<meta name="robots" content="NOODP" />
+<meta name="revisit-after" content="1 Days"/>
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="distribution" content="global"/>
+<meta name="expires" content="never"/>
+<title>KK nail studio in Blagoevgrad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="header">
+  <div class="header_top">
+    <div class="wrap">
+      <div class="logo"> <a href="http://kknailstudio.com/"><img src="images/logo.png" alt=""  /></a> </div>
+      <div class="call">
+        <p class="txt-rt"> <strong>Call us:</strong> 00359 886321333 </p>
+        <div class="social-icons padding_top">
+          <ul>
+            <li><a href="#"><img src="images/red.png" alt="" /></a></li>
+            <li><a href="https://www.facebook.com/kostadina.korcheva?fref=ts"><img src="images/facebook.png" alt="" /></a></li>
+            <li><a href="https://twitter.com/kknailstudio"><img src="images/twitter.png" alt="" /></a></li>
+            <li><a href="https://instagram.com/kknailstudio/"><img src="images/instagram.png" alt="" /></a></li>
+            <li><a href="http://kknailstudio.com/contact.html"><img src="images/mail.png" alt="" /></a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="social-icons padding_top">
+          <ul>
+            <li><a href="http://kknailstudio.com/bg/"><img src="images/bg-icon.png" alt="" /></a></li>
+            <li><a href="http://kknailstudio.com/"><img src="images/en-icon.png" alt="" /></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="header_bottom">
+    <div class="wrap">
+      <div class="menu">
+        <ul>
+          <li><a href="about-us.html">About us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="offers.html">Offers</a></li>
+          <li><a href="gift-certificates.html">Gift Certificates</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div class="slider">
+  <div class="wrap">
+    <div class="slider_top">
+      <div class="slider_left">
+        <div class="wmuSlider example2">
+          <div class="wmuSliderWrapper">
+            <article> <img src="images/slide/1.jpg" alt="" /> </article>
+            <article> <img src="images/slide/2.jpg" alt="" /> </article>
+            <article> <img src="images/slide/3.jpg" alt="" /> </article>
+            <article> <img src="images/slide/4.jpg" alt="" /> </article>
+            <article> <img src="images/slide/5.jpg" alt="" /> </article>
+            <article> <img src="images/slide/6.jpg" alt="" /> </article>
+            <article> <img src="images/slide/7.jpg" alt="" /> </article>
+            <article> <img src="images/slide/8.jpg" alt="" /> </article>
+            <article> <img src="images/slide/9.jpg" alt="" /> </article>
+            <article> <img src="images/slide/10.jpg" alt="" /> </article>
+             <article> <img src="images/slide/11.jpg" alt="" /> </article>
+             <article> <img src="images/slide/12.jpg" alt="" /> </article>
+              <article> <img src="images/slide/13.jpg" alt="" /> </article>
+              <article> <img src="images/slide/14.jpg" alt="" /> </article>
+              <article> <img src="images/slide/15.jpg" alt="" /> </article>
+                <article> <img src="images/slide/16.jpg" alt="" /> </article>
+                  <article> <img src="images/slide/17.jpg" alt="" /> </article>
+                    <article> <img src="images/slide/18.jpg" alt="" /> </article>
+          </div>
+          <script src="js/jquery.wmuSlider.js"></script> 
+          <script type="text/javascript" src="js/modernizr.custom.min.js"></script> 
+          <script> 
+					        $('.example2').wmuSlider({
+					            touch: true,
+					            animation: 'slide'
+					        });   
+					        
+				    </script> 
+        </div>
+      </div>
+      <div class="slider_right image_right"> <img src="images/slideimg-1.jpg" alt="" />
+        <div class="sliderright-text">
+          <h3><span> vocational </span><br>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;training</span> <br>
+            manicure <br>
+            pedicure <br>
+            nail extentions<br>
+            Gel polish<br>
+            nail art<br>
+          </h3>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div class="main">
+  <div class="content">
+    <div class="wrap">
+      <div class="image group">
+        <div class="grid image_1"> <img src="images/glass.jpg" alt="" /> </div>
+        <div class="grid span_78">
+          <h3>Welcome</h3>
+          <p><span class="upper">KK</span> Nail Studio focuses on exceptional service in a clean luxurious environment. We offer services for clients with a variety of needs, from a quick nail fix to an overall beautification!<br>
+            KK Nail Studio is my answer in the center of the town, need for an upscale place with affordable pricing. I am passionate about a little pampering in our busy lives! I wanted to create a spa where you will always receive superior service and you can rest assured that our equipment is perfectly clean. We invested in pedicure chairs with the most advanced technology to give you total peace of mind.<br>
+            Come in and give us a try! Experience my technicians’ expertise. Treat  yourself to  a glass of wine and relax. I promise you will leave rejuvenated and happy.<br>
+          </p>
+          <div class="txt-rt">Kostadina Korcheva</div>
+        </div>
+      </div>
+      <div class="spa_products">
+        <h2>More than just nails......<br>
+          We can help you get your glam on</h2>
+        <div class="section group">
+          <div class="products_1_of_3"> <img src="images/18.png" alt="" width="300" height="300" />
+            <h3>MANIcURE   SERVICES</h3>
+            <p>Dressing up? Don't forget your fingers—and  
+              
+              we don't just mean rings. The studs bring bling  
+              
+              to  nails and add a hyper-luxe touch to
+              
+              your manicure.<br>
+              Learn about our Polished services
+              
+              for your hands.</p>
+            <div class="read_more"><a href="http://kknailstudio.com/services.html">Learn More</a></div>
+          </div>
+          <div class="products_1_of_3"> <img src="images/10.png" alt="" width="300" height="300" />
+            <h3>PEDICURE SERVICES </h3>
+            <p>Soak, nail shaping and  buffing, full
+              
+              Cuticle work, buffing bottoms of Feet,
+              
+              scrub, massage.Gel Polish Pedicure
+              
+              that is dry instantly and ready to walk
+              
+              out the door! For  long- lasting effect!<br>
+              Removal is FREE when booked with
+              
+              the Pedicure or another Gel Pedi!
+              
+              Learn about our Polished  services
+              
+              For your feet. </p>
+            <div class="read_more"><a href="http://kknailstudio.com/services.html">Learn More</a></div>
+          </div>
+          <div class="products_1_of_3"> <img src="images/24.png" alt="" width="300" height="300" />
+            <h3>BEAUTY SERVICES</h3>
+            <p>We do more than  just nails - though that
+              
+              manicures and pedicures are our specialty,
+              
+              we also offer, waxing, massage, eyelash
+              
+              extentions and  make up!</p>
+            <div class="read_more"><a href="http://kknailstudio.com/services.html">Learn More</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="copy_right">
+  <p>KK Nail Studio © All rights Reseverd © Call us 00359886321333 ©  email: kknailstudio@gmail.com  | <a href="http://kknailstudio.com">Home </a> </p>
+</div>
+</body>
+</html>

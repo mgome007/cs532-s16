@@ -1,0 +1,558 @@
+	<!doctype html>
+	<!--[if !IE]>
+	<html class="no-js non-ie" lang="en-US"> <![endif]-->
+	<!--[if IE 7 ]>
+	<html class="no-js ie7" lang="en-US"> <![endif]-->
+	<!--[if IE 8 ]>
+	<html class="no-js ie8" lang="en-US"> <![endif]-->
+	<!--[if IE 9 ]>
+	<html class="no-js ie9" lang="en-US"> <![endif]-->
+	<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+	<head>
+
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Beyond Citation &#124; Critical Thinking About Digital Research</title>
+
+		<link rel="profile" href="http://gmpg.org/xfn/11"/>
+		<link rel="pingback" href="http://www.beyondcitation.org/xmlrpc.php"/>
+
+		<link rel="alternate" type="application/rss+xml" title="Beyond Citation &raquo; Feed" href="http://www.beyondcitation.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Beyond Citation &raquo; Comments Feed" href="http://www.beyondcitation.org/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.beyondcitation.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bbp-default-css'  href='http://www.beyondcitation.org/wp-content/plugins/bbpress/templates/default/css/bbpress.css?ver=2.5.8-5815' type='text/css' media='screen' />
+<link rel='stylesheet' id='ppc-main-css'  href='http://www.beyondcitation.org/wp-content/plugins/posts-per-cat/assets/css/ppc.min.css?ver=4.3.3' type='text/css' media='all' />
+<style id='ppc-main-inline-css' type='text/css'>
+.ppc .attachment-100x100 {
+			width: 100px !important;
+			height: 100px !important;
+		}
+</style>
+<link rel='stylesheet' id='ppc-list-css'  href='http://www.beyondcitation.org/wp-content/plugins/posts-per-cat/assets/css/ppc-list.min.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='searchandfilter-css'  href='http://www.beyondcitation.org/wp-content/plugins/search-filter/style.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-shortcodes-style-css'  href='http://www.beyondcitation.org/wp-content/plugins/wc-shortcodes/includes/css/style.css?ver=1.77' type='text/css' media='all' />
+<link rel='stylesheet' id='tt-easy-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Source+Sans+Pro%3Aregular%2C700&#038;subset=latin%2Call&#038;ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-style-css'  href='http://www.beyondcitation.org/wp-content/themes/responsive/core/css/style.css?ver=1.9.7.7' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-media-queries-css'  href='http://www.beyondcitation.org/wp-content/themes/responsive/core/css/responsive.css?ver=1.9.7.7' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-child-style-css'  href='http://www.beyondcitation.org/wp-content/themes/responsive-childtheme-master/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpresscanvas-font-awesome-css'  href='http://www.beyondcitation.org/wp-content/plugins/wc-shortcodes/includes/css/font-awesome.css?ver=4.3.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-content/themes/responsive/core/js/responsive-modernizr.min.js?ver=2.6.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.beyondcitation.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.beyondcitation.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+<link rel='canonical' href='http://www.beyondcitation.org/' />
+<link rel='shortlink' href='http://www.beyondcitation.org/' />
+<!-- Custom Scripts -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49382817-1', 'beyondcitation.org');
+  ga('send', 'pageview');
+
+</script>
+<!-- We need this for debugging -->
+<!-- Responsive 1.9.7.7 -->
+<!-- Responsive Child Theme 1.0.0 -->
+<!-- All in one Favicon 4.3 --><link rel="shortcut icon" href="http://www.beyondcitation.org/wp-content/uploads/2015/08/bc_avatar.png" />
+<link rel="icon" href="http://www.beyondcitation.org/wp-content/uploads/2015/08/bc_avatar1.png" type="image/png"/>
+<link rel="apple-touch-icon" href="http://www.beyondcitation.org/wp-content/uploads/2015/08/bc_avatar2.png" />
+			
+							<style id="tt-easy-google-font-styles" type="text/css">
+			
+																						p {
+							font-family: 'Source Sans Pro'; font-size: 16px; font-style: normal; font-weight: 400; line-height: 1.5; 						}
+								
+																										h1 {
+							font-family: 'Source Sans Pro'; font-style: normal; font-weight: 700; 						}
+								
+																										h2 {
+							font-family: 'Source Sans Pro'; font-style: normal; font-weight: 400; 						}
+								
+																										h3 {
+													}
+								
+																										h4 {
+													}
+								
+																										h5 {
+													}
+								
+																										h6 {
+													}
+								
+																										body,.menu {
+													}
+								
+										
+							</style>
+							</head>
+
+<body class="home page page-id-11 page-template page-template-full-width-page page-template-full-width-page-php wc-shortcodes-font-awesome-enabled">
+
+<div id="container" class="hfeed">
+
+	<div class="skip-container cf">
+		<a class="skip-link screen-reader-text focusable" href="#content">&darr; Skip to Main Content</a>
+	</div><!-- .skip-container -->
+	<div id="header">
+
+		
+		
+		
+		
+			<div id="logo">
+				<a href="http://www.beyondcitation.org/"><img src="http://www.beyondcitation.org/wp-content/uploads/2015/08/beyondcitation_logo_500_1.png" width="500" height="215" alt="Beyond Citation"/></a>
+			</div><!-- end of #logo -->
+
+		
+		
+			<div id="top-widget" class="top-widget">
+		
+		
+			<div id="search-3" class="widget_search"><form method="get" id="searchform" action="http://www.beyondcitation.org/">
+	<label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" class="field" name="s" id="s" placeholder="search here &hellip;" />
+	<input type="submit" class="submit" name="submit" id="searchsubmit" value="Go" />
+</form></div>
+		
+			</div><!-- end of #top-widget -->
+		<div class="main-nav"><ul id="menu-home_nav" class="menu"><li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="http://www.beyondcitation.org/about-beyond-citation/">About</a></li>
+<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item menu-item-73"><a href="http://www.beyondcitation.org/">Explore Databases</a></li>
+<li id="menu-item-72" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72"><a href="http://blog.beyondcitation.org/">Blog</a></li>
+<li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a href="http://www.beyondcitation.org/faq/">FAQ</a></li>
+<li id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a href="http://www.beyondcitation.org/team/">Team</a></li>
+</ul></div>
+		
+		
+	</div><!-- end of #header -->
+
+	<div id="wrapper" class="clearfix">
+
+<div id="content-full" class="grid col-940">
+
+	
+		
+			
+						<div id="post-11" class="post-11 page type-page status-publish hentry">
+				
+				
+	<h1 class="entry-title post-title">Browse Databases</h1>
+
+
+				<div class="post-entry">
+					<p><img class="alignnone wp-image-1447 size-full" src="http://www.beyondcitation.org/wp-content/uploads/2014/04/beyondcitation-image_03.jpg" alt="beyondcitation-image_03" width="1918" height="757" /></p>
+<h2><strong>Explore the Databases</strong></h2>
+<div class="wc-shortcodes-posts-wrapper"><div id="wc-shortcodes-posts-1" data-gutter-space="20" data-columns="3" class="wc-shortcodes-posts wc-shortcodes-clearfix wc-shortcodes-posts-col-3 wc-shortcodes-posts-layout-masonry wc-shortcodes-posts-template-box wc-shortcodes-posts-gutter-space-20"><div id="post-98" class="wc-shortcodes-post-box post-98 post type-post status-publish format-standard hentry category-bc_database publisher-proquest dates_in_collection-1400-1500 dates_in_collection-1500-1600 dates_in_collection-1600-1700 collection_objects-books">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/early-english-books-online-eebo/" rel="bookmark">Early English Books Online (EEBO)</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>EEBO contains over 100,000 early English book titles, including incunabla, reflected in bibliographies such as the English Short Title Catalogue, Pollard &#038; Redgrave&#8217;s Short-Title Catalogue and Wing&#8217;s Short-Title Catalogue.</p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-78" class="wc-shortcodes-post-box post-78 post type-post status-publish format-standard hentry category-bc_database publisher-gale-cengage dates_in_collection-1400-1500 dates_in_collection-1500-1600 dates_in_collection-1600-1700 dates_in_collection-1700-1800 dates_in_collection-1800-1900 dates_in_collection-1900-2000 dates_in_collection-2000-present dates_in_collection-0-2500-b-c-e-1400 collection_objects-books collection_objects-indexes collection_objects-journals">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/artemis-literary-sources/" rel="bookmark">Artemis: Literary Sources</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>Artemis: Literary Sources searches across multiple literary databases such as the Literature Resource Center and MLA International Bibliography from the publisher Gale. In addition to basic and advanced searching, Artemis features visualizations of the frequency with which terms appear. The Term Frequency and Term Clustering visualizations are a simple form of text mining to detect patterns and relationships in the database.</p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-96" class="wc-shortcodes-post-box post-96 post type-post status-publish format-standard hentry category-bc_database publisher-artstor collection_objects-images">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/artstor/" rel="bookmark">ARTstor</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>ARTstor is a non-profit online library of images related to fine arts, humanities, and sciences pulled from partner research libraries and museums.  </p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-91" class="wc-shortcodes-post-box post-91 post type-post status-publish format-standard hentry category-bc_database publisher-gale-cengage dates_in_collection-1500-1600 dates_in_collection-1600-1700 dates_in_collection-1700-1800 dates_in_collection-1800-1900 dates_in_collection-1900-2000 collection_objects-books collection_objects-ephemera collection_objects-journals collection_objects-newspapers">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/artemis-primary-sources/" rel="bookmark">Artemis: Primary Sources</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>Artemis is an interface that searches across multiple humanities-related collections and allows the user to privately annotate and tag documents with personal folders. In addition to basic and advanced searching, one can locate content using term frequency and term clustering visualizations.</p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-101" class="wc-shortcodes-post-box post-101 post type-post status-publish format-standard hentry category-bc_database publisher-ebsco dates_in_collection-1900-2000 dates_in_collection-2000-present collection_objects-books collection_objects-indexes collection_objects-journals">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/ebsco-humanities-source/" rel="bookmark">EBSCO Humanities Source</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>Humanities Source combines EBSCO&#8217;s Humanities International Complete with H.W. Wilson&#8217;s Humanities Abstracts, Humanities Index Retrospective, and Humanities Full Text into one full text platform. Includes academic journals, magazines, and some monographs.</p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-103" class="wc-shortcodes-post-box post-103 post type-post status-publish format-standard hentry category-bc_database publisher-gale-cengage dates_in_collection-1700-1800">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/eighteenth-century-collections-online-ecco/" rel="bookmark">Eighteenth Century Collections Online (ECCO)</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>ECCO contains a digitized copy of nearly every book printed in the UK during the 18th century and thousands of books from the British colonies.</p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-57" class="wc-shortcodes-post-box post-57 post type-post status-publish format-standard hentry category-bc_database publisher-google dates_in_collection-1500-1600 dates_in_collection-1600-1700 dates_in_collection-1700-1800 dates_in_collection-1800-1900 dates_in_collection-1900-2000 dates_in_collection-2000-present collection_objects-books">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/google-books/" rel="bookmark">Google Books</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>Google Books searches across the full text of books and magazines, both those that are in copyright and those in the public domain. The Google Books Library Project includes titles scanned by Google from major research libraries such as the University of Michigan, New York Public Library, and Oxford University. </p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-106" class="wc-shortcodes-post-box post-106 post type-post status-publish format-standard hentry category-bc_database publisher-hathitrust dates_in_collection-1400-1500 dates_in_collection-1500-1600 dates_in_collection-1600-1700 dates_in_collection-1700-1800 dates_in_collection-1800-1900 dates_in_collection-1900-2000 dates_in_collection-2000-present collection_objects-books collection_objects-ephemera collection_objects-journals">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/hathitrust-digital-library/" rel="bookmark">HathiTrust Digital Library</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>HathiTrust is a full-text searchable digital library platform of over 11 million monographs, serials, and pamphlet collections from Hathi partner libraries. HathiTrust estimates that 3.7 million of these are in the public domain. The majority of volumes in HathiTrust were digitized by the Google Book Project.</p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-22" class="wc-shortcodes-post-box post-22 post type-post status-publish format-standard hentry category-bc_database publisher-ithaka dates_in_collection-1500-1600 dates_in_collection-1600-1700 dates_in_collection-1700-1800 dates_in_collection-1800-1900 dates_in_collection-1900-2000 dates_in_collection-2000-present collection_objects-books collection_objects-ephemera collection_objects-journals">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/jstor/" rel="bookmark">JSTOR</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>JSTOR is a multi-disciplinary journal archive and scholarly ebook and primary source platform. Archived journals date from the earliest issue published. Journals in the JSTOR Current Scholarship Collection include the most recent issues, without an embargo.  </p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-108" class="wc-shortcodes-post-box post-108 post type-post status-publish format-standard hentry category-bc_database publisher-gale-cengage dates_in_collection-1500-1600 dates_in_collection-1600-1700 dates_in_collection-1700-1800 dates_in_collection-1800-1900 dates_in_collection-1900-2000 collection_objects-books collection_objects-ephemera collection_objects-images collection_objects-journals collection_objects-newspapers">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/nineteenth-century-collections-online-ncco/" rel="bookmark">Nineteenth Century Collections Online (NCCO)</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>NCCO is a curated compilation of primary source documents, from archives around the world, focusing on eight major themes of the 19th century: Asia and the West; British Politics and Society; British Theatre, Music, and Literature; Corvey Collection of European Literature (1790-1840); Europe and Africa: Commerce, Christianity, Civilization, and Conquest; Photography: the World through the Lens; Science, Technology, and Medicine (1780-1925); and Women: Transnational Networks.</p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-24" class="wc-shortcodes-post-box post-24 post type-post status-publish format-standard hentry category-bc_database publisher-gale-cengage dates_in_collection-1800-1900 collection_objects-newspapers">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/19th-century-newspapers/" rel="bookmark">19th Century U.S. Newspapers</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>19th Century U.S. Newspapers is a full-text, facsimile image database of approximately 500 national and regional newspapers, dating from 1800-1900.</p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-30" class="wc-shortcodes-post-box post-30 post type-post status-publish format-standard hentry category-bc_database publisher-johns-hopkins-university-press dates_in_collection-1900-2000 dates_in_collection-2000-present collection_objects-books collection_objects-journals">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/project-muse/" rel="bookmark">Project MUSE</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>Project MUSE is a humanities and social sciences scholarly journal and ebook platform. Project Muse includes journals and books from major academic publishers in the United States and many from around the world. </p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+<div id="post-111" class="wc-shortcodes-post-box post-111 post type-post status-publish format-standard hentry category-bc_database publisher-proquest dates_in_collection-1700-1800 dates_in_collection-1800-1900 dates_in_collection-1900-2000 dates_in_collection-2000-present collection_objects-newspapers">
+	<div class="wc-shortcodes-post-border">
+		
+		<div class="wc-shortcodes-post-content">
+						<div class="wc-shortcodes-entry-header">
+				<h2 class="wc-shortcodes-entry-title">
+					<a href="http://www.beyondcitation.org/proquest-historical-newspapers/" rel="bookmark">ProQuest Historical Newspapers</a>
+				</h2>
+			</div><!-- .entry-header -->
+			
+						<div class="wc-shortcodes-entry-summary">
+				<p>ProQuest Historical Newspapers includes the full run of several major U.S., international, and African-American, and Jewish-American newspapers. The content includes the full image of the article, as it appeared on microfilm, with ads and listings. </p>
+			</div><!-- .entry-summary -->
+			
+				<div class="wc-shortcodes-footer-entry-meta wc-shortcodes-clearfix">
+		<div class="wc-shortcodes-entry-meta-inner wc-shortcodes-clearfix">
+			
+			
+								</div>
+	</div><!-- .wc-shortcodes-footer-entry-meta -->
+
+		</div><!-- .wc-shortcodes-post-content -->
+	</div><!-- .wc-shortcodes-post-border -->
+</div><!-- #post -->
+</div></div>
+									</div>
+				<!-- end of .post-entry -->
+
+				
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-11 -->
+			
+						
+
+
+
+			
+		
+</div><!-- end of #content-full -->
+
+</div><!-- end of #wrapper -->
+</div><!-- end of #container -->
+
+<div id="footer" class="clearfix">
+	
+	<div id="footer-wrapper">
+
+		
+		<div class="grid col-940">
+
+			<div class="grid col-540">
+							</div><!-- end of col-540 -->
+
+			<div class="grid col-380 fit">
+				<ul class="social-icons"></ul><!-- .social-icons -->			</div><!-- end of col-380 fit -->
+
+		</div><!-- end of col-940 -->
+			<div id="colophon-widget" class="grid col-940">
+		
+		
+			<div id="text-6" class="colophon-widget widget-wrapper widget_text">			<div class="textwidget"><p>Stay connected :: <a href="http://www.twitter.com/beyondcitation"><img title="Twitter" src="http://www.beyondcitation.org/wp-content/uploads/2014/05/twitter.png" alt="Twitter" width="24" height="24" /> Twitter</a> :: <a href="mailto:BeyondCitation@gmail.com "><img title="Email" src="http://www.beyondcitation.org/wp-content/uploads/2014/05/mail-icon.png" alt="Email" width="24" height="24" /> Email</a> :: <a href="http://www.beyondcitation.org/feed/"><img title="RSS" src="http://www.beyondcitation.org/wp-content/uploads/2014/05/rss1.png" alt="RSS" width="16" height="16" /> RSS</a><br />
+A project of <a href="http://dhpraxisf13.commons.gc.cuny.edu/">CUNY Graduate Center Digital Praxis Seminar</a>.</p>
+</div>
+		</div>
+		
+			</div><!-- end of #colophon-widget -->
+
+		<div class="grid col-300 copyright">
+			&copy; 2016<a href="http://www.beyondcitation.org/" title="Beyond Citation">
+				Beyond Citation			</a>
+		</div><!-- end of .copyright -->
+
+		<div class="grid col-300 scroll-top"><a href="#scroll-top" title="scroll to top">&uarr;</a></div>
+
+		<div class="grid col-300 fit powered">
+			<a href="http://cyberchimps.com/responsive-theme/" title="Responsive Theme">
+				Responsive Theme</a>
+			powered by <a href="http://wordpress.org/" title="WordPress">
+				WordPress</a>
+		</div><!-- end .powered -->
+
+	</div><!-- end #footer-wrapper -->
+
+	</div><!-- end #footer -->
+
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-content/plugins/bbpress/templates/default/js/editor.js?ver=2.5.8-5815'></script>
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WCShortcodes = {"ajaxurl":"http:\/\/www.beyondcitation.org\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-content/plugins/wc-shortcodes/includes/js/rsvp.js?ver=1.77'></script>
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-content/themes/responsive/core/js/responsive-scripts.min.js?ver=1.2.6'></script>
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-content/themes/responsive/core/js/jquery.placeholder.min.js?ver=2.0.7'></script>
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-content/plugins/wc-shortcodes/includes/js/responsiveslides.js?ver=1.54'></script>
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-content/plugins/wc-shortcodes/includes/js/imagesloaded.pkgd.min.js?ver=3.1.8'></script>
+<script type='text/javascript' src='http://www.beyondcitation.org/wp-content/plugins/wc-shortcodes/includes/js/posts.js?ver=1.77'></script>
+</body>
+</html>

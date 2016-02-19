@@ -1,0 +1,674 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>DiabloHorn | Attempting to understand security</title>
+<link rel="pingback" href="http://diablohorn.com/xmlrpc.php" />
+<meta name="google-site-verification" content="NEOOjx-r7PfF4qgWVUEkGW0NO9iCGiFb99C0hhK8-Tc" />
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=diablohorn.com&amp;id=5319799&amp;t=1455840735&amp;back=http%3A%2F%2Fdiablohorn.com%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="alternate" type="application/rss+xml" title="DiabloHorn &raquo; Feed" href="http://diablohorn.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DiabloHorn &raquo; Comments Feed" href="http://diablohorn.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0' href='https://s0.wp.com/_static/??-eJx9kdFuwyAMRX9ozJoWpdrDtG9JwCFuASNwFKVfP6fb0kyR8oKu4RwZDMzZWE6CSSBOJofJU6oQ6IYVrii5szfzqF5trS+ww/vA/imw9+h4EjNwCDzDTM6jHKRdD0oDJZJlC2dwHbmIZae3UgpqII0jz2Y7OLMtF9T9mDtZiYiOOgwYFTvTYm7/rDWOOovjGHb8nJU2fZ8L1mp0jTRFI6M2Ono/25CnHnzB5Y4Oqizh9x0EiYWUrVs46+yRTWDbCXH6V5ghdFTO1ILrR2r0j8k+y1X6ip9vTfPRvl/aS3P9BhI20ew=' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-1' href='https://s1.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1444132114g' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-2' href='https://s0.wp.com/wp-content/themes/h4/global.css?m=1420737423g' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, please try again with a valid email address."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJyFkNEKwjAMRX/IrmzOBx/Eb9nWrKS2TW1ai369FSYiToVAQnK43BtZgkA/2ayApal1zhCvS2sMb+QvQDjUcUjQOPRPeCKfwKcH62hECyIzxEHXXRWaaYULxMkBc4VWru+W0F8Qyl/MQArDdBIRGG8fqqMlLYLNGj3LOmtQlJOYyVoqsqDSkNbCc3jl/P61hTq6Q9v3265r9+3O3AGUCobW'></script>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621g' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://diablohorn.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/mjVd' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="DiabloHorn" />
+<meta property="og:description" content="Attempting to understand security" />
+<meta property="og:url" content="http://diablohorn.com/" />
+<meta property="og:site_name" content="DiabloHorn" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel='openid.server' href='http://diablohorn.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://diablohorn.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://diablohorn.com/osd.xml" title="DiabloHorn" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+		<style id="wpcom-hotfix-masterbar-style">
+			@media screen and (min-width: 783px) {
+				#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+					margin-top: 5px;
+				}
+			}
+		</style>
+		<meta name="application-name" content="DiabloHorn" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Attempting to understand security" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://diablohorn.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="title" content="DiabloHorn on WordPress.com" />
+<meta name="description" content="Attempting to understand security" />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="home blog mp6 customizer-styles-applied highlander-enabled highlander-light infinite-scroll neverending">
+<div id="wrapper">
+
+<div id="page">
+		<div class="menu-header"><ul><li class="current_page_item"><a href="http://diablohorn.com/">Home</a></li><li class="page_item page-item-46"><a href="http://diablohorn.com/books-aka-rtfm/">Books aka RTFM</a></li><li class="page_item page-item-253"><a href="http://diablohorn.com/contact/">contact</a></li><li class="page_item page-item-464"><a href="http://diablohorn.com/easy-c-libs/">Easy C libraries</a></li></ul></div>
+
+	<div id="header" role="banner">
+		<h1><a href="http://diablohorn.com/">DiabloHorn</a></h1>
+
+		<div class="description">Attempting to understand security</div>
+
+		<div class="rss">
+			<a href="http://diablohorn.com/feed/" title="RSS">Stay updated via RSS</a>		</div>
+	</div>
+
+	<hr />
+<div id="container">
+
+	<div id="sidebar" role="complementary">
+		
+		<!-- begin widgetized sidebar 1 -->
+		<ul>
+			<li id="follow_button_widget-4" class="widget widget_follow_button_widget">
+		<a class="wordpress-follow-button" href="http://diablohorn.com" data-blog="http://diablohorn.com" data-lang="en" data-show-blog-name="false">Follow DiabloHorn on WordPress.com</a>
+		<script type="text/javascript">(function(d){var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');p.type = 'text/javascript';p.async = true;p.src = '//widgets.wp.com/platform.js';f.parentNode.insertBefore(p,f);}(document));</script>
+
+		</li><li id="search-4" class="widget widget_search"><div class="search-box">
+	<form method="get" action="http://diablohorn.com/">
+	<input type="text" size="15" class="search-field" name="s" id="s" value="search this site" onfocus="if(this.value == 'search this site') {this.value = '';}" onblur="if (this.value == '') {this.value = 'search this site';}"/><input type="submit"  value="" class="search-go" />
+	</form>
+</div></li>		<li id="recent-posts-4" class="widget widget_recent_entries">		<h2 class="widgettitle">Recent Posts</h2>		<ul>
+					<li>
+				<a href="http://diablohorn.com/2016/02/06/powershell-overview-and-introduction/">PowerShell overview and&nbsp;introduction</a>
+						</li>
+					<li>
+				<a href="http://diablohorn.com/2015/10/03/pageant-key-extraction-automated/">pageant key extraction&nbsp;automated</a>
+						</li>
+					<li>
+				<a href="http://diablohorn.com/2015/09/04/discovering-the-secrets-of-a-pageant-minidump/">Discovering the secrets of a pageant&nbsp;minidump</a>
+						</li>
+					<li>
+				<a href="http://diablohorn.com/2015/03/28/continuously-rotating-hashes/">Continuously rotating hashes</a>
+						</li>
+					<li>
+				<a href="http://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/">Parsing the hiberfil.sys, searching for slack&nbsp;space</a>
+						</li>
+				</ul>
+		</li>		<li id="linkcat-677" class="widget widget_links"><h2 class="widgettitle">Friends</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://blog.0x3a.com/" rel="friend" target="_blank">0x3a</a></li>
+<li><a href="http://aboulton.blogspot.com/" rel="friend" title="Software Development and IT Security" target="_blank">Adam Boulton</a></li>
+<li><a href="http://barrebas.github.io/" rel="friend" title="staring into /dev/null" target="_blank">barrebas</a></li>
+<li><a href="http://blog.DidierStevens.com" rel="friend" target="_blank">Didier Stevens</a></li>
+<li><a href="http://www.digitaloffensive.com/" rel="friend" title="Security" target="_blank">DigitalOffensive</a></li>
+<li><a href="http://blog.distracted.nl/" rel="friend" title="bruteforce,rainbow tables and much more" target="_blank">Distracted</a></li>
+<li><a href="http://blog.g3rt.nl" rel="friend" title="g3rt" target="_blank">g3rt</a></li>
+<li><a href="http://hackingtheeveryday.blogspot.com/" rel="friend" title="Finding unique solutions and viewpoints for this thing we call living. More than just hacking technology&#8230;. we&#8217;re hacking LIFE." target="_blank">Hacking The Everyday</a></li>
+<li><a href="http://blog.hacktalk.net/" rel="friend" target="_blank">HackTalk Security</a></li>
+<li><a href="https://highon.coffee/" rel="friend" title="A site about Security, Linux, Windows, OSX &amp;&amp; Coffee&#8230;" target="_blank">HighOn.Coffee</a></li>
+<li><a href="http://www.illmob.org/" title="iLLMOB" target="_blank">iLLMOB</a></li>
+<li><a href="http://www.itsolutionskb.com" rel="friend" title="IT Solutions Knowledge Base" target="_blank">IT Solutions Knowledge Base</a></li>
+<li><a href="http://jellevergeer.com/" rel="friend" title="Anything technical that Jelle finds interesting" target="_blank">Jelle Vergeer</a></li>
+<li><a href="http://www.mattandreko.com/" title="Nice, fun and technical blog" target="_blank">Matt Andreko</a></li>
+<li><a href="http://www.mogozobo.com/" rel="friend" title="Three parts infosec, two parts *nix, and a splash of floyd…. let slip the dogs of war!" target="_blank">Mogozobo</a></li>
+<li><a href="http://blog.l3g3ndary.org/" target="_blank">My l3g3nd</a></li>
+<li><a href="http://node00.wordpress.com/" title="coding, security, reversing" target="_blank">node&#039;s blog</a></li>
+<li><a href="http://buffered.io/" rel="friend" title="Blog from TheColonial" target="_blank">OJ&#039;s perspective</a></li>
+<li><a href="http://phillipgrimes.com/" rel="friend" title="Where #AwesomeSauce is made" target="_blank">Phil Grimes</a></li>
+<li><a href="http://py1337.get-root.com" rel="friend" title="Python security tools" target="_blank">py1337</a></li>
+<li><a href="http://r3v3rs3r.wordpress.com/" rel="friend" title="reversing articles" target="_blank">r3v3rs3r</a></li>
+<li><a href="http://wi-fu.co.uk/" rel="friend" target="_blank">Rasta Mouse</a></li>
+<li><a href="http://roguecod3r.wordpress.com/" rel="friend" title="Rogue Coder" target="_blank">Rogue Coder</a></li>
+<li><a href="http://www.buzzworld.org/" rel="friend" title="Advisories &amp; Projects" target="_blank">Sebastian Apelt</a></li>
+<li><a href="http://www.securityartwork.es/" rel="friend" title="Security A(r)tWork" target="_blank">Security A(r)tWork</a></li>
+<li><a href="http://www.sovasec.com/" title=" Southern Virginia Security cyWar Stories" target="_blank">sovasec</a></li>
+<li><a href="http://blog.stoked-security.com/" rel="friend" title="Stoked About Security" target="_blank">Stoked</a></li>
+<li><a href="http://blog.techorganic.com/" rel="friend" title="musings from the brainpan" target="_blank">superkojiman</a></li>
+<li><a href="http://blog.teusink.net/" rel="friend" title="About security, pentesting and everything else" target="_blank">Teusink</a></li>
+<li><a href="http://underc0de.org" rel="friend" title="Hacking etico" target="_blank">Underc0de</a></li>
+<li><a href="https://ctf-team.vulnhub.com/" rel="friend" title="nice write ups" target="_blank">VulnHub CTF Team</a></li>
+<li><a href="http://blog.zer0w1re.net/" rel="friend" target="_blank">zer0w1re</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-653" class="widget widget_links"><h2 class="widgettitle">Interesting</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.alex-ionescu.com/" title="Windows Internal, reversing" target="_blank">alex ionescu</a></li>
+<li><a href="http://arteam.accessroot.com/" title="Reverse Engineering" target="_blank">arteam</a></li>
+<li><a href="http://www.awarenetwork.org/" title="very nice information" target="_blank">awarenetwork</a></li>
+<li><a href="http://www.breaknenter.org" title="Improving security by breaking it" target="_blank">Break &amp; Enter</a></li>
+<li><a href="http://blog.coralic.nl/" rel="friend" title="Java, Architecture &amp; Security" target="_blank">Coralic</a></li>
+<li><a href="http://crucialsecurityblog.harris.com/" title="Crucial Security" target="_blank">Crucial Security</a></li>
+<li><a href="http://deroko.phearless.org/" title="Reversing" target="_blank">deroko of ARTeam</a></li>
+<li><a href="http://www.reconstructer.org" title="reversing" target="_blank">Frank Boldewin</a></li>
+<li><a href="http://freedns.afraid.org/" title="Free DNS / Subdomains" target="_blank">Free DNS</a></li>
+<li><a href="http://www.governmentsecurity.org/" title="Network Security Resources" target="_blank">GSO</a></li>
+<li><a href="http://hackaday.com/" title="hardware hacking" target="_blank">hack a day</a></li>
+<li><a href="http://infinityexists.com/" title="infinityexists" target="_blank">infinityexists</a></li>
+<li><a href="http://www.infosecwriters.com/" title="Security Articles" target="_blank">InfosecWriters</a></li>
+<li><a href="http://maliciousattacker.blogspot.com/" title="maliciousattacker" target="_blank">maliciousattacker</a></li>
+<li><a href="http://labs.mwrinfosecurity.com/" title="MWR Labs" target="_blank">MWR Labs</a></li>
+<li><a href="http://packetstormsecurity.org/" title="all things security">Packet Storm</a></li>
+<li><a href="http://pentestmonkey.net/" title="Taking the monkey work out of pentesting" target="_blank">pentestmonkey</a></li>
+<li><a href="http://www.phrack.org/" title="No description needed" target="_blank">phrack</a></li>
+<li><a href="https://community.rapid7.com/blogs" title="metasploit news" target="_blank">rapid7 blog</a></li>
+<li><a href="http://websec.wordpress.com/" title="Reiners’ Weblog" target="_blank">Reiners’ Weblog</a></li>
+<li><a href="http://edge-security.blogspot.com/" title="Information Security, Penetration Testing and interesting things" target="_blank">Security on the edge</a></li>
+<li><a href="http://www.thesprawl.org/" title="The Sprawl" target="_blank">The Sprawl</a></li>
+<li><a href="http://www.thoughtcrime.org" target="_blank">thoughtcrime</a></li>
+<li><a href="http://www.uninformed.org" title="Technical Papers" target="_blank">uninformed</a></li>
+<li><a href="http://volatile-minds.blogspot.com/" title="VARIOUS THOUGHTS AND PROJECTS THAT GRAB MY ATTENTION FOR MORE THAN A FEW MINUTES." target="_blank">Volatile Minds</a></li>
+<li><a href="http://www.woodmann.com" title="Your one-stop shop for reverse engineering!" target="_blank">Woodmann RCE Community</a></li>
+
+	</ul>
+</li>
+<li id="archives-4" class="widget widget_archive"><h2 class="widgettitle">Archives</h2>		<ul>
+			<li><a href='http://diablohorn.com/2016/02/'>February 2016</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2015/10/'>October 2015</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2015/09/'>September 2015</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2015/03/'>March 2015</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2014/12/'>December 2014</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2014/07/'>July 2014</a>&nbsp;(2)</li>
+	<li><a href='http://diablohorn.com/2014/04/'>April 2014</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2014/03/'>March 2014</a>&nbsp;(3)</li>
+	<li><a href='http://diablohorn.com/2014/02/'>February 2014</a>&nbsp;(2)</li>
+	<li><a href='http://diablohorn.com/2014/01/'>January 2014</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2013/11/'>November 2013</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2013/10/'>October 2013</a>&nbsp;(2)</li>
+	<li><a href='http://diablohorn.com/2013/07/'>July 2013</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2013/05/'>May 2013</a>&nbsp;(3)</li>
+	<li><a href='http://diablohorn.com/2013/04/'>April 2013</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2013/03/'>March 2013</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2013/02/'>February 2013</a>&nbsp;(3)</li>
+	<li><a href='http://diablohorn.com/2013/01/'>January 2013</a>&nbsp;(4)</li>
+	<li><a href='http://diablohorn.com/2012/12/'>December 2012</a>&nbsp;(2)</li>
+	<li><a href='http://diablohorn.com/2012/11/'>November 2012</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2012/02/'>February 2012</a>&nbsp;(2)</li>
+	<li><a href='http://diablohorn.com/2012/01/'>January 2012</a>&nbsp;(3)</li>
+	<li><a href='http://diablohorn.com/2011/12/'>December 2011</a>&nbsp;(2)</li>
+	<li><a href='http://diablohorn.com/2011/10/'>October 2011</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2011/07/'>July 2011</a>&nbsp;(2)</li>
+	<li><a href='http://diablohorn.com/2010/12/'>December 2010</a>&nbsp;(5)</li>
+	<li><a href='http://diablohorn.com/2010/11/'>November 2010</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2010/08/'>August 2010</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2010/07/'>July 2010</a>&nbsp;(3)</li>
+	<li><a href='http://diablohorn.com/2010/06/'>June 2010</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2010/04/'>April 2010</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2010/03/'>March 2010</a>&nbsp;(4)</li>
+	<li><a href='http://diablohorn.com/2010/01/'>January 2010</a>&nbsp;(3)</li>
+	<li><a href='http://diablohorn.com/2009/12/'>December 2009</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2009/11/'>November 2009</a>&nbsp;(3)</li>
+	<li><a href='http://diablohorn.com/2009/10/'>October 2009</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2009/08/'>August 2009</a>&nbsp;(6)</li>
+	<li><a href='http://diablohorn.com/2009/07/'>July 2009</a>&nbsp;(8)</li>
+	<li><a href='http://diablohorn.com/2009/06/'>June 2009</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2009/05/'>May 2009</a>&nbsp;(3)</li>
+	<li><a href='http://diablohorn.com/2009/03/'>March 2009</a>&nbsp;(3)</li>
+	<li><a href='http://diablohorn.com/2009/02/'>February 2009</a>&nbsp;(1)</li>
+	<li><a href='http://diablohorn.com/2009/01/'>January 2009</a>&nbsp;(3)</li>
+	<li><a href='http://diablohorn.com/2008/12/'>December 2008</a>&nbsp;(8)</li>
+	<li><a href='http://diablohorn.com/2008/11/'>November 2008</a>&nbsp;(7)</li>
+	<li><a href='http://diablohorn.com/2008/10/'>October 2008</a>&nbsp;(10)</li>
+		</ul>
+		</li><li id="wp_tag_cloud-3" class="widget wp_widget_tag_cloud"><h2 class="widgettitle">Tags</h2><div style="overflow:hidden"><a href='http://diablohorn.com/tag/anti-forensics/' class='tag-link-11028792' title='3 topics' style='font-size: 10.1pt;'>anti forensics</a>
+<a href='http://diablohorn.com/tag/apache/' class='tag-link-3768' title='3 topics' style='font-size: 10.1pt;'>apache</a>
+<a href='http://diablohorn.com/tag/applet/' class='tag-link-69965' title='2 topics' style='font-size: 8pt;'>applet</a>
+<a href='http://diablohorn.com/tag/art/' class='tag-link-177' title='2 topics' style='font-size: 8pt;'>art</a>
+<a href='http://diablohorn.com/tag/assembly/' class='tag-link-6595' title='2 topics' style='font-size: 8pt;'>assembly</a>
+<a href='http://diablohorn.com/tag/av/' class='tag-link-11508' title='3 topics' style='font-size: 10.1pt;'>av</a>
+<a href='http://diablohorn.com/tag/backdoor/' class='tag-link-55916' title='7 topics' style='font-size: 15.35pt;'>backdoor</a>
+<a href='http://diablohorn.com/tag/bind/' class='tag-link-1359407' title='2 topics' style='font-size: 8pt;'>bind</a>
+<a href='http://diablohorn.com/tag/bruteforce/' class='tag-link-1172060' title='2 topics' style='font-size: 8pt;'>bruteforce</a>
+<a href='http://diablohorn.com/tag/bypass/' class='tag-link-372027' title='3 topics' style='font-size: 10.1pt;'>bypass</a>
+<a href='http://diablohorn.com/tag/c/' class='tag-link-2426' title='6 topics' style='font-size: 14.475pt;'>C</a>
+<a href='http://diablohorn.com/tag/crack/' class='tag-link-14459' title='2 topics' style='font-size: 8pt;'>crack</a>
+<a href='http://diablohorn.com/tag/dcerpc/' class='tag-link-6932868' title='2 topics' style='font-size: 8pt;'>dcerpc</a>
+<a href='http://diablohorn.com/tag/detection/' class='tag-link-812572' title='4 topics' style='font-size: 11.85pt;'>detection</a>
+<a href='http://diablohorn.com/tag/dns/' class='tag-link-17846' title='6 topics' style='font-size: 14.475pt;'>dns</a>
+<a href='http://diablohorn.com/tag/dnscat/' class='tag-link-40263885' title='2 topics' style='font-size: 8pt;'>dnscat</a>
+<a href='http://diablohorn.com/tag/dork/' class='tag-link-149700' title='2 topics' style='font-size: 8pt;'>dork</a>
+<a href='http://diablohorn.com/tag/dpkt/' class='tag-link-34672535' title='2 topics' style='font-size: 8pt;'>dpkt</a>
+<a href='http://diablohorn.com/tag/encryption/' class='tag-link-6474' title='7 topics' style='font-size: 15.35pt;'>encryption</a>
+<a href='http://diablohorn.com/tag/fakedns/' class='tag-link-34672533' title='2 topics' style='font-size: 8pt;'>fakedns</a>
+<a href='http://diablohorn.com/tag/fde/' class='tag-link-2585220' title='3 topics' style='font-size: 10.1pt;'>FDE</a>
+<a href='http://diablohorn.com/tag/firewall/' class='tag-link-3087' title='4 topics' style='font-size: 11.85pt;'>firewall</a>
+<a href='http://diablohorn.com/tag/forensic/' class='tag-link-32035' title='2 topics' style='font-size: 8pt;'>forensic</a>
+<a href='http://diablohorn.com/tag/google/' class='tag-link-81' title='3 topics' style='font-size: 10.1pt;'>google</a>
+<a href='http://diablohorn.com/tag/hash/' class='tag-link-43091' title='2 topics' style='font-size: 8pt;'>hash</a>
+<a href='http://diablohorn.com/tag/icmp/' class='tag-link-1621756' title='3 topics' style='font-size: 10.1pt;'>icmp</a>
+<a href='http://diablohorn.com/tag/immunity-debugger/' class='tag-link-5944756' title='2 topics' style='font-size: 8pt;'>immunity debugger</a>
+<a href='http://diablohorn.com/tag/impacket/' class='tag-link-28771864' title='2 topics' style='font-size: 8pt;'>impacket</a>
+<a href='http://diablohorn.com/tag/java/' class='tag-link-1017' title='7 topics' style='font-size: 15.35pt;'>java</a>
+<a href='http://diablohorn.com/tag/jsp/' class='tag-link-12917' title='2 topics' style='font-size: 8pt;'>JSP</a>
+<a href='http://diablohorn.com/tag/kd-team/' class='tag-link-12806825' title='2 topics' style='font-size: 8pt;'>kd-team</a>
+<a href='http://diablohorn.com/tag/linux/' class='tag-link-610' title='2 topics' style='font-size: 8pt;'>linux</a>
+<a href='http://diablohorn.com/tag/live-forensics/' class='tag-link-15082633' title='2 topics' style='font-size: 8pt;'>live forensics</a>
+<a href='http://diablohorn.com/tag/lua/' class='tag-link-21517' title='2 topics' style='font-size: 8pt;'>lua</a>
+<a href='http://diablohorn.com/tag/memory/' class='tag-link-1471' title='4 topics' style='font-size: 11.85pt;'>memory</a>
+<a href='http://diablohorn.com/tag/metasploit/' class='tag-link-64353' title='7 topics' style='font-size: 15.35pt;'>metasploit</a>
+<a href='http://diablohorn.com/tag/meterpreter/' class='tag-link-15781074' title='3 topics' style='font-size: 10.1pt;'>meterpreter</a>
+<a href='http://diablohorn.com/tag/mitm/' class='tag-link-1270654' title='4 topics' style='font-size: 11.85pt;'>mitm</a>
+<a href='http://diablohorn.com/tag/mod_negotiation/' class='tag-link-22876840' title='2 topics' style='font-size: 8pt;'>mod_negotiation</a>
+<a href='http://diablohorn.com/tag/mysql/' class='tag-link-4419' title='2 topics' style='font-size: 8pt;'>mysql</a>
+<a href='http://diablohorn.com/tag/nmap/' class='tag-link-406074' title='4 topics' style='font-size: 11.85pt;'>nmap</a>
+<a href='http://diablohorn.com/tag/ollydbg/' class='tag-link-412780' title='4 topics' style='font-size: 11.85pt;'>ollydbg</a>
+<a href='http://diablohorn.com/tag/pageant/' class='tag-link-243749' title='2 topics' style='font-size: 8pt;'>pageant</a>
+<a href='http://diablohorn.com/tag/password/' class='tag-link-37471' title='2 topics' style='font-size: 8pt;'>password</a>
+<a href='http://diablohorn.com/tag/pcap/' class='tag-link-1908569' title='3 topics' style='font-size: 10.1pt;'>pcap</a>
+<a href='http://diablohorn.com/tag/proxy/' class='tag-link-9628' title='3 topics' style='font-size: 10.1pt;'>proxy</a>
+<a href='http://diablohorn.com/tag/psexec/' class='tag-link-4879601' title='2 topics' style='font-size: 8pt;'>psexec</a>
+<a href='http://diablohorn.com/tag/python/' class='tag-link-832' title='18 topics' style='font-size: 22pt;'>python</a>
+<a href='http://diablohorn.com/tag/registry/' class='tag-link-51535' title='3 topics' style='font-size: 10.1pt;'>registry</a>
+<a href='http://diablohorn.com/tag/rfi/' class='tag-link-948455' title='2 topics' style='font-size: 8pt;'>rfi</a>
+<a href='http://diablohorn.com/tag/rootkit/' class='tag-link-129959' title='2 topics' style='font-size: 8pt;'>rootkit</a>
+<a href='http://diablohorn.com/tag/scanner/' class='tag-link-229865' title='2 topics' style='font-size: 8pt;'>scanner</a>
+<a href='http://diablohorn.com/tag/scapy/' class='tag-link-2845338' title='6 topics' style='font-size: 14.475pt;'>scapy</a>
+<a href='http://diablohorn.com/tag/shell/' class='tag-link-43912' title='4 topics' style='font-size: 11.85pt;'>shell</a>
+<a href='http://diablohorn.com/tag/shellcode/' class='tag-link-1568824' title='2 topics' style='font-size: 8pt;'>shellcode</a>
+<a href='http://diablohorn.com/tag/signing/' class='tag-link-77708' title='3 topics' style='font-size: 10.1pt;'>signing</a>
+<a href='http://diablohorn.com/tag/smb/' class='tag-link-10523' title='2 topics' style='font-size: 8pt;'>smb</a>
+<a href='http://diablohorn.com/tag/sniffer/' class='tag-link-129828' title='2 topics' style='font-size: 8pt;'>sniffer</a>
+<a href='http://diablohorn.com/tag/spoof-dns/' class='tag-link-34672534' title='2 topics' style='font-size: 8pt;'>spoof dns</a>
+<a href='http://diablohorn.com/tag/spy-gadget/' class='tag-link-2380405' title='2 topics' style='font-size: 8pt;'>spy gadget</a>
+<a href='http://diablohorn.com/tag/sql/' class='tag-link-10346' title='2 topics' style='font-size: 8pt;'>sql</a>
+<a href='http://diablohorn.com/tag/sqli/' class='tag-link-1228986' title='2 topics' style='font-size: 8pt;'>sqli</a>
+<a href='http://diablohorn.com/tag/ssl/' class='tag-link-58302' title='2 topics' style='font-size: 8pt;'>ssl</a>
+<a href='http://diablohorn.com/tag/stack/' class='tag-link-251553' title='2 topics' style='font-size: 8pt;'>stack</a>
+<a href='http://diablohorn.com/tag/tcpip/' class='tag-link-60123' title='3 topics' style='font-size: 10.1pt;'>tcp/ip</a>
+<a href='http://diablohorn.com/tag/truecrypt/' class='tag-link-520062' title='6 topics' style='font-size: 14.475pt;'>truecrypt</a>
+<a href='http://diablohorn.com/tag/udp/' class='tag-link-1168766' title='2 topics' style='font-size: 8pt;'>udp</a>
+<a href='http://diablohorn.com/tag/virtual/' class='tag-link-79250' title='2 topics' style='font-size: 8pt;'>virtual</a>
+<a href='http://diablohorn.com/tag/virtualization/' class='tag-link-40559' title='3 topics' style='font-size: 10.1pt;'>virtualization</a>
+<a href='http://diablohorn.com/tag/vmware/' class='tag-link-38600' title='4 topics' style='font-size: 11.85pt;'>vmware</a>
+<a href='http://diablohorn.com/tag/war/' class='tag-link-3934' title='2 topics' style='font-size: 8pt;'>war</a>
+<a href='http://diablohorn.com/tag/wde/' class='tag-link-329955' title='3 topics' style='font-size: 10.1pt;'>WDE</a>
+<a href='http://diablohorn.com/tag/web/' class='tag-link-151' title='2 topics' style='font-size: 8pt;'>web</a>
+<a href='http://diablohorn.com/tag/wireshark/' class='tag-link-686916' title='3 topics' style='font-size: 10.1pt;'>wireshark</a>
+<a href='http://diablohorn.com/tag/wordlist/' class='tag-link-2867729' title='4 topics' style='font-size: 11.85pt;'>wordlist</a></div></li>		</ul>
+		<!-- end widgetized sidebar 1 -->
+
+	</div>
+
+
+
+	<div id="content" role="main">
+		<div id="content-inner" class="column">
+
+		
+		
+			
+				
+				<div class="post-1143 post type-post status-publish format-standard hentry category-general tag-powershell" id="post-1143">
+<div class="posttitle">
+	<h2 class="pagetitle"><a href="http://diablohorn.com/2016/02/06/powershell-overview-and-introduction/" rel="bookmark" title="Permanent Link to PowerShell overview and&nbsp;introduction">PowerShell overview and&nbsp;introduction</a></h2>
+	<small>
+		Posted: February 6, 2016 in <a href="http://diablohorn.com/category/general/" rel="category tag">general</a>		<br />
+		Tags: <a href="http://diablohorn.com/tag/powershell/" rel="tag">powershell</a>	</small>
+</div>
+<div class="postcomments"><a href="http://diablohorn.com/2016/02/06/powershell-overview-and-introduction/#comments">1</a></div>
+<div class="entry">
+	<p>This is a long overdue post I was planning on writing as a reference for myself, since I don&#8217;t write that much <a href="https://en.wikipedia.org/wiki/Windows_PowerShell" target="_blank">PowerShell</a>. Depending on your own knowledge about powershell you can just skip to whatever sections seems useful to you. Also feel free to correct any mistakes in this article since I intent it mostly as a basic reference :) The resource section contains a nice collection of links to other PowerShell articles &amp; tools, which means you can consider this article a small recap of all the resources linked.</p>
+<p><strong>TL;DR</strong> The resource section contains useful URLs to learn Power Shell, the blog post itself is just a micro-recap of those resources.</p>
+<ul>
+<li>What is PowerShell and why would you use it?</li>
+<li>Basic PowerShell environment</li>
+<li>How do you run PowerShell?</li>
+<li>What is the PowerShell syntax?</li>
+<li>Our first script</li>
+<li>Calling Windows functions</li>
+<li>Resources</li>
+</ul>
+<p><a href="https://diablohorn.files.wordpress.com/2016/01/basic-powershell-commands-intro-840x420.png" rel="attachment wp-att-1149"><img class="aligncenter size-medium wp-image-1149" src="https://diablohorn.files.wordpress.com/2016/01/basic-powershell-commands-intro-840x420.png?w=300&#038;h=150" alt="basic-powershell-commands-intro-840x420" width="300" height="150" /></a></p>
+<p> <a href="http://diablohorn.com/2016/02/06/powershell-overview-and-introduction/#more-1143" class="more-link">Read the rest of this entry &raquo;</a></p>
+</div>
+		</div>
+			
+				
+				<div class="post-1138 post type-post status-publish format-standard hentry category-general tag-capstone tag-memory-dump tag-pageant tag-pycrypto" id="post-1138">
+<div class="posttitle">
+	<h2 class="pagetitle"><a href="http://diablohorn.com/2015/10/03/pageant-key-extraction-automated/" rel="bookmark" title="Permanent Link to pageant key extraction&nbsp;automated">pageant key extraction&nbsp;automated</a></h2>
+	<small>
+		Posted: October 3, 2015 in <a href="http://diablohorn.com/category/general/" rel="category tag">general</a>		<br />
+		Tags: <a href="http://diablohorn.com/tag/capstone/" rel="tag">capstone</a>, <a href="http://diablohorn.com/tag/memory-dump/" rel="tag">memory dump</a>, <a href="http://diablohorn.com/tag/pageant/" rel="tag">pageant</a>, <a href="http://diablohorn.com/tag/pycrypto/" rel="tag">pycrypto</a>	</small>
+</div>
+<div class="postcomments"><a href="http://diablohorn.com/2015/10/03/pageant-key-extraction-automated/#comments">1</a></div>
+<div class="entry">
+	<p>Well this will be a rather short post since it&#8217;s about the automation of my <a href="https://diablohorn.wordpress.com/2015/09/04/discovering-the-secrets-of-a-pageant-minidump/" target="_blank">previous</a> blog post in which we analysed the memory dump of the pageant process and manually extracted unencrypted keys. You can find the tool which automates this process in <a href="https://github.com/DiabloHorn/pageant_xkeys" target="_blank">pageant_xkeys</a> git repository. Since I&#8217;m a firm believer that you learn best from mistakes and old code, the repository also includes some of the other code I was playing around with.</p>
+<p>&nbsp;</p>
+</div>
+		</div>
+			
+				
+				<div class="post-1097 post type-post status-publish format-standard hentry category-general category-security tag-memory tag-minidump tag-pageant tag-rsa-key tag-windbg" id="post-1097">
+<div class="posttitle">
+	<h2 class="pagetitle"><a href="http://diablohorn.com/2015/09/04/discovering-the-secrets-of-a-pageant-minidump/" rel="bookmark" title="Permanent Link to Discovering the secrets of a pageant&nbsp;minidump">Discovering the secrets of a pageant&nbsp;minidump</a></h2>
+	<small>
+		Posted: September 4, 2015 in <a href="http://diablohorn.com/category/general/" rel="category tag">general</a>, <a href="http://diablohorn.com/category/security/" rel="category tag">security</a>		<br />
+		Tags: <a href="http://diablohorn.com/tag/memory/" rel="tag">memory</a>, <a href="http://diablohorn.com/tag/minidump/" rel="tag">minidump</a>, <a href="http://diablohorn.com/tag/pageant/" rel="tag">pageant</a>, <a href="http://diablohorn.com/tag/rsa-key/" rel="tag">rsa key</a>, <a href="http://diablohorn.com/tag/windbg/" rel="tag">windbg</a>	</small>
+</div>
+<div class="postcomments"><a href="http://diablohorn.com/2015/09/04/discovering-the-secrets-of-a-pageant-minidump/#comments">1</a></div>
+<div class="entry">
+	<p>A <a href="https://en.wikipedia.org/wiki/Red_team" target="_blank">Red Team</a> exercise is lotsa fun not only because you have a more realistic engagement due to the broader scope, but also because you can encounter situations which you normally wouldn&#8217;t on a regular narrow scoped penetration test. I&#8217;m going to focus on <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="_blank">pageant</a> which Slurpgeit recently encountered during one of these red team exercises which peeked my interest.</p>
+<p>Apparantly he got access to a machine on which the user used pageant to manage ssh keys and authenticate to servers without having to type his key password every single time he connects. This of course raises the following interesting (or silly) question:</p>
+<p><em>Why does the user only have to type his ssh key in once?</em></p>
+<p>Which has a rather logical (or doh) answer as well:</p>
+<p><em>The pageant process keeps the decrypted key in memory so that you can use them without having to type the decryption password every time you want to use the key.</em></p>
+<p>From an attackers perspective it of course begs the question if you can steal these unencrypted keys? Assuming you are able to make a memory dump of the running process you should be able to get these decrypted ssh keys. During this blog post I&#8217;ll be focusing on how you could achieve this and the pitfalls I encountered when approaching this.</p>
+<p> <a href="http://diablohorn.com/2015/09/04/discovering-the-secrets-of-a-pageant-minidump/#more-1097" class="more-link">Read the rest of this entry &raquo;</a></p>
+</div>
+		</div>
+			
+				
+				<div class="post-1084 post type-post status-publish format-standard hentry category-midnight-thoughts category-security tag-2fa tag-authentication tag-hash tag-otp tag-password" id="post-1084">
+<div class="posttitle">
+	<h2 class="pagetitle"><a href="http://diablohorn.com/2015/03/28/continuously-rotating-hashes/" rel="bookmark" title="Permanent Link to Continuously rotating hashes">Continuously rotating hashes</a></h2>
+	<small>
+		Posted: March 28, 2015 in <a href="http://diablohorn.com/category/midnight-thoughts/" rel="category tag">midnight thoughts</a>, <a href="http://diablohorn.com/category/security/" rel="category tag">security</a>		<br />
+		Tags: <a href="http://diablohorn.com/tag/2fa/" rel="tag">2fa</a>, <a href="http://diablohorn.com/tag/authentication/" rel="tag">authentication</a>, <a href="http://diablohorn.com/tag/hash/" rel="tag">hash</a>, <a href="http://diablohorn.com/tag/otp/" rel="tag">otp</a>, <a href="http://diablohorn.com/tag/password/" rel="tag">password</a>	</small>
+</div>
+<div class="postcomments"><a href="http://diablohorn.com/2015/03/28/continuously-rotating-hashes/#respond">0</a></div>
+<div class="entry">
+	<p>One of the things that has always fascinated me is when you are watching some Hollywood movie and they talk about stuff like &#8220;rotating string cipher encryption with a strength of 228 bits&#8221;. Now this has always sounded both funny and interesting to me. Like what if you could convert data that is normally static into actual continuous rotating data? This morning it hit me, this is something we can actually accomplish with password hashes. We can rotate them continuously, without the user even noticing and hopefully make it harder for attackers to crack the hash. Which is the main goal of this &#8220;idea/solution&#8221; making it harder or hopefully impossible for attacker to crack the hash when they obtain it. Here is a PoC preview output, screenshot OTP and usage OTP don&#8217;t match because they were obtained at different times:</p>
+<p><img class="aligncenter wp-image-1093 size-medium" src="https://diablohorn.files.wordpress.com/2015/03/otp.png?w=300&#038;h=71" alt="otp" width="300" height="71" /></p>
+<pre>./hashrotate_poc.py S3cretP4ssword 545130
+ Current password hash:
+ 224bbe14e25287f781eb94d57a49eb8e064f3857e2b369ea8f413ed22e6190e568e2107aaaa8ef60aa7db9413f930a7d6e715c83bd06243dd2f26cf86a9828b9
+ Login OK</pre>
+<pre>./hashrotate_poc.py S3cretP4ssword 545130
+ Current password hash:
+ 12abaded0aebd3269229ea53c85be4fe78d5dd876b4feac6b21bd87c4f0235fee01990e600f5664085e9139f108903446376a2f6fab1770c9add86ad4168fbea
+ Login Failed</pre>
+<p>Like you can see we attempt to login with the same credentials both times and yet the second time this fails. If you are impatient then you&#8217;ve probably guessed that this is due to the added <a title="2FA" href="http://en.wikipedia.org/wiki/Two_factor_authentication" target="_blank">2FA</a> data in the login credentials and as usual you can jump straight to the code on my <a title="rotating hash" href="https://github.com/DiabloHorn/rotating_hash" target="_blank">github</a>. Now if you are curious how this works and how you could set this up in a real life setup keep on reading, do note that I haven&#8217;t tested this yet on a real life environment however. The setup is actually one of the important parts for this to work and actually slow down or hopefully prevent an attacker from successfully cracking the obtained hashes.</p>
+<p>Now after you&#8217;ve read that you are probably thinking &#8220;shut up already with those &#8216;uncrackable&#8217; claims&#8221; and yeah you are correct. It can probably be cracked, but hopefully we can settle for the second best which is (tremendously) slowing down the attacker.</p>
+<p>For the remainder of this entry we will be focusing on further protecting the stored hashes and not on how to protect the in transit plain text password. This since obviously if you have full control of a server where the SSL is terminated you could just intercept all passwords in plain text. This can be solved with fancy challenge-response protocols or maybe (in browser) public-key cryptography. For now, let&#8217;s dig further into this &#8216;continuous changing hashes&#8217; concept.</p>
+<p> <a href="http://diablohorn.com/2015/03/28/continuously-rotating-hashes/#more-1084" class="more-link">Read the rest of this entry &raquo;</a></p>
+</div>
+		</div>
+			
+				
+				<div class="post-1046 post type-post status-publish format-standard hentry category-general tag-hiberfil-sys tag-hibernation tag-python tag-slack-space tag-volatility" id="post-1046">
+<div class="posttitle">
+	<h2 class="pagetitle"><a href="http://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/" rel="bookmark" title="Permanent Link to Parsing the hiberfil.sys, searching for slack&nbsp;space">Parsing the hiberfil.sys, searching for slack&nbsp;space</a></h2>
+	<small>
+		Posted: December 10, 2014 in <a href="http://diablohorn.com/category/general/" rel="category tag">general</a>		<br />
+		Tags: <a href="http://diablohorn.com/tag/hiberfil-sys/" rel="tag">hiberfil.sys</a>, <a href="http://diablohorn.com/tag/hibernation/" rel="tag">hibernation</a>, <a href="http://diablohorn.com/tag/python/" rel="tag">python</a>, <a href="http://diablohorn.com/tag/slack-space/" rel="tag">slack space</a>, <a href="http://diablohorn.com/tag/volatility/" rel="tag">volatility</a>	</small>
+</div>
+<div class="postcomments"><a href="http://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/#comments">4</a></div>
+<div class="entry">
+	<p>Implementing functionality that is already available in an available tool is something that has always taught me a lot, thus I keep on doing it when I encounter something I want to fully understand. In this case it concerns the &#8216;hiberfil.sys&#8217; file on Windows. As usual I first stumbled upon the issue and started writing scripts to later find out someone had written a nice article about it, which you can read <a title="Hibernation Slack: Unallocated Data from the Deep Past" href="http://digital-forensics.sans.org/blog/2014/07/01/hibernation-slack-unallocated-data-from-the-deep-past" target="_blank">here</a> (1). For the sake of completeness I&#8217;m going to repeat some of the information in that article and hopefully expand upon it, I mean it&#8217;d be nice if I could use this entry as a reference page in the future for when I stumble again upon hibernation files. Our goal for today is going to be to answer the following question:</p>
+<blockquote><p>What&#8217;s a hiberfil.sys file, does it have slack space and if so how do we find and analyze it?</p></blockquote>
+<p>To answer that question will hopefully be answered in the following paragraphs; we are going to look at the hibernation process, hibernation file, it&#8217;s file format structure, how to interpret it and finally analyze the found slack space. As usual you can skip the post and go directly to the <a title="find hibernation slack space" href="https://github.com/DiabloHorn/find_hib_slack" target="_blank">code</a>.</p>
+<p><strong>Hibernation process</strong></p>
+<p>When you put your computer to &#8216;sleep&#8217; there are actually several ways in which it can be performed by the operating  system one of those being the hibernation one. The hibernation process puts the contents of your memory into the hiberfil.sys file so that the state of all your running applications is preserved. By default when you enable hibernation the hiberfil.sys is created and filled with zeros. To enable hibernation you can run the following command in an elevated command shell:</p>
+<pre>powercfg.exe -H on</pre>
+<p>If you want to also control the size you can do:</p>
+<pre>powercfg.exe -H -Size 100</pre>
+<p>An interesting fact to note is that Windows 7 sets the size of the hibernation file size to 75% of your memory size by default. According to Microsoft documentation (2) this means that hibernation process could fail if it&#8217;s not able to compress the memory contents to fit in the hibernation file. This of course is useful information since it indicates that the contest of the hibernation file is compressed which usually will make basic analysis like &#8216;strings&#8217; pretty useless.</p>
+<blockquote><p>if you use strings always go for &#8216;strings -a &lt;inputfile&gt;&#8217; read <a href="http://lcamtuf.blogspot.nl/2014/10/psa-dont-run-strings-on-untrusted-files.html" target="_blank">this</a> post if you are wondering why.</p></blockquote>
+<p>The hibernation file usually resides in the root directory of the system drive, but it&#8217;s not fixed. If an administrators wants to change the location he can do so by editing the following registry key as explained by <a href="http://msdn.microsoft.com/en-us/library/ms912851(v=winembedded.5).aspx" target="_blank">this</a> (3) msdn article:</p>
+<pre>Key Name: HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\
+Value Name: PagingFiles
+Type: REG_MULT_SZ
+Data: C:\pagefile.sys 150 500
+In the Data field, change the path and file name of the pagefile, along with the minimum and maximum file size values (in megabytes).</pre>
+<p>So if you are performing an incident response or forensic investigation make sure you check this registry key before you draw any conclusion if the hiberfil.sys file is absent from it&#8217;s default location. Same goes for creating memory images using hibernation, make sure you get the 100% and write it to a location which doesn&#8217;t destroy evidence or where the evidence has already been collected.</p>
+<p>Where does the slack space come from you might ask? That&#8217;s an interesting question since you would assume that each time the computer goes into hibernation mode it would create a new hiberfil.sys file, but it doesn&#8217;t. Instead it will overwrite the current file with the contents it wants to save. This is what causes slack space, since if the new data is smaller in size than the already available files the data at the end of the file will still be available even if it&#8217;s not referenced by the new headers written to the file.</p>
+<p>From a forensic standpoint that&#8217;s pretty interesting since the unreferenced but available data might contain important information to help the investigation along. If you are working with tools that automatically import / parse or analyse the hiberfil.sys file you should check / ask / test how they handle slack space. In a best case scenario they will inform you about the slack space and try to recover the information, in a less ideal scenario they will inform you that there is slack space but it&#8217;s not able to handle the data and in the worst case scenario it will just silently ignore that data and tell you the hibernation file has been processed successfully.</p>
+<p> <a href="http://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/#more-1046" class="more-link">Read the rest of this entry &raquo;</a></p>
+</div>
+		</div>
+			
+				
+				<div class="post-1011 post type-post status-publish format-standard hentry category-general category-security tag-blind-injection tag-python tag-sql-injection tag-sqli" id="post-1011">
+<div class="posttitle">
+	<h2 class="pagetitle"><a href="http://diablohorn.com/2014/07/26/writing-your-own-blind-sqli-script/" rel="bookmark" title="Permanent Link to Writing your own blind SQLi&nbsp;script">Writing your own blind SQLi&nbsp;script</a></h2>
+	<small>
+		Posted: July 26, 2014 in <a href="http://diablohorn.com/category/general/" rel="category tag">general</a>, <a href="http://diablohorn.com/category/security/" rel="category tag">security</a>		<br />
+		Tags: <a href="http://diablohorn.com/tag/blind-injection/" rel="tag">blind injection</a>, <a href="http://diablohorn.com/tag/python/" rel="tag">python</a>, <a href="http://diablohorn.com/tag/sql-injection/" rel="tag">sql injection</a>, <a href="http://diablohorn.com/tag/sqli/" rel="tag">sqli</a>	</small>
+</div>
+<div class="postcomments"><a href="http://diablohorn.com/2014/07/26/writing-your-own-blind-sqli-script/#respond">0</a></div>
+<div class="entry">
+	<p>We all know that <a href="http://sqlmap.org/" target="_blank">sqlmap</a> is a really great tool which has a lot of options that you can tweak and adjust to exploit the SQLi vuln you just found (or that sqlmap found for you). On rare occasions however you might want to just have a small and simple script or you just want to learn how to do it yourself. So let&#8217;s see how you could write your own script to exploit a blind SQLi vulnerability. Just to make sure we are all on the same page, here is the blind SQLi definition from <a href="https://www.owasp.org/index.php/Blind_SQL_Injection" target="_blank">OWASP</a>:</p>
+<blockquote><p>Blind SQL (Structured Query Language) injection is a type of <a title="SQL Injection" href="https://www.owasp.org/index.php/SQL_Injection" target="_blank">SQL Injection</a> attack that asks the database true or false questions and determines the answer based on the applications response.</p></blockquote>
+<p>You can also roughly divide the exploiting techniques in two categories (like owasp does) namely:</p>
+<ul>
+<li>content based
+<ul>
+<li>The page output tells you if the query was successful or not</li>
+</ul>
+</li>
+<li>time based
+<ul>
+<li>Based on a time delay you can determine if your query was successful or not</li>
+</ul>
+</li>
+</ul>
+<p>Of course you have dozens of variations on the above two techniques, I wrote about one such variation a <a href="http://diablohorn.wordpress.com/2011/07/08/efficient-but-slow-blind-sql-injection-data-extraction/" target="_blank">while ago</a>. For this script we are going to just focus on the basics of the mentioned techniques, if you are more interested in knowing how to find SQLi vulnerabilities you could read my article on <a href="http://diablohorn.wordpress.com/2014/02/09/solving-roguecoders-sqli-challenge/" target="_blank">Solving RogueCoder’s SQLi challenge</a>. Since we are only focusing on automating a blind sql injection, we will not be building functionality to find SQL injections.</p>
+<p>Before we even think about sending SQL queries to the servers, let&#8217;s first setup the vulnerable environment and try to be a bit realistic about it. Normally this means that you at least have to login, keep your session and then inject. In some cases you might even have to take into account <a href="http://en.wikipedia.org/wiki/Cross-site_request_forgery" target="_blank">CSRF</a> tokens which depending on the implementation, means you have to parse some HTML before you can send the request. This will however be out of scope for this blog entry. If you want to know how you could parse HTML with python you could take a look at my <a href="http://diablohorn.wordpress.com/2012/11/22/credential-scavenger/" target="_blank">credential scavenger</a> entry.</p>
+<p>If you just want the scripts you can find them in the <a href="https://github.com/DiabloHorn/example_bsqli_scripts" target="_blank">example_bsqli_scripts</a> repository on my github, since this is an entry on how you could write your own scripts all the values are hard coded in the script.</p>
+<p> <a href="http://diablohorn.com/2014/07/26/writing-your-own-blind-sqli-script/#more-1011" class="more-link">Read the rest of this entry &raquo;</a></p>
+</div>
+		</div>
+			
+				
+				<div class="post-984 post type-post status-publish format-standard hentry category-memotoself category-security tag-alarm tag-burglarly tag-locks tag-physical-security" id="post-984">
+<div class="posttitle">
+	<h2 class="pagetitle"><a href="http://diablohorn.com/2014/07/13/physical-home-security-options/" rel="bookmark" title="Permanent Link to Physical home security&nbsp;options">Physical home security&nbsp;options</a></h2>
+	<small>
+		Posted: July 13, 2014 in <a href="http://diablohorn.com/category/memotoself/" rel="category tag">MemoToSelf</a>, <a href="http://diablohorn.com/category/security/" rel="category tag">security</a>		<br />
+		Tags: <a href="http://diablohorn.com/tag/alarm/" rel="tag">alarm</a>, <a href="http://diablohorn.com/tag/burglarly/" rel="tag">burglarly</a>, <a href="http://diablohorn.com/tag/locks/" rel="tag">locks</a>, <a href="http://diablohorn.com/tag/physical-security/" rel="tag">physical security</a>	</small>
+</div>
+<div class="postcomments"><a href="http://diablohorn.com/2014/07/13/physical-home-security-options/#respond">0</a></div>
+<div class="entry">
+	<p>During one of those boring afternoons I noticed that most embassy buildings seem to have more or less the same amount of visible physical protection, this made me wonder what the available options are if you&#8217;d want to protect your own house. These are just some quick notes after searching around the internet on another boring afternoon, most of the options have an additional wide variety of configuration possibilities. So if you decide to implement any of the mentioned options, please do some research yourself, since these are just some starting points and you should choose the appropriate configuration yourself.</p>
+<p>Keep in mind that (as far as I know) most options discussed here can be bypassed. Like with all security measures you should base the choices you make on a layered approach. The sum of all the protective measures should buy you enough time to detect a break in and react before any valuables are stolen. Feel free to leave additional measures in the comments or how to bypass the measures in this article. Do keep in mind that these measures will be a lot less effective if they decide to break in while you are at home, also these security measure are not aimed at preventing social engineering attacks. As usual I&#8217;ve got no clue what the rules in your country are, so read up on them before you implement some of the following options.</p>
+<p>Oh and if you want an example of how physical security measures can by bypassed then you&#8217;ll probably enjoy this article. It&#8217;s about one of the biggest ($100 million) diamond heists in Belgium and how the attackers bypassed ten physical security measures: <a href="http://archive.wired.com/politics/law/magazine/17-04/ff_diamonds?currentPage=all" target="_blank">The Untold Story of the World&#8217;s Biggest Diamond Heist</a></p>
+<p> <a href="http://diablohorn.com/2014/07/13/physical-home-security-options/#more-984" class="more-link">Read the rest of this entry &raquo;</a></p>
+</div>
+		</div>
+			
+			
+		</div><!-- #content-inner -->
+
+		<div id="nav-post">
+			<div class="navigation-bott">
+								<div class="leftnav"><a href="http://diablohorn.com/page/2/" >Older Entries</a></div>
+							</div>
+		</div>
+	</div><!-- #content -->
+
+			<hr />
+
+			<div id="footer" role="contentinfo">
+
+				
+			</div>
+
+		</div><!-- #container -->
+	</div><!-- #page -->
+
+	<div id="footer-bott">
+		<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a> | <a href="https://wordpress.com/themes/greyzed/" title="Learn more about this theme">The Greyzed Theme</a>.	</div>
+
+	<div class="footerbar"></div>
+</div><!-- #wrapper -->
+
+		<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"content-inner","ajaxurl":"http:\/\/diablohorn.com\/?infinity=scrolling","type":"scroll","wrapper":true,"wrapper_class":"infinite-wrap","footer":true,"click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"13.07.14","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"diablohorn.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"comments_popup":"","meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":7,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"0","no_found_rows":false,"order":"DESC"},"last_post_date":"2014-07-13 18:29:14","stats":"blog=5319799&v=wpcom&tz=0&user_id=0&subd=diablohorn&x_pagetype=infinite"}};
+		//]]>
+		</script>
+		<!-- wpcom_wp_footer -->
+	<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/diablohorn.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/diablohorn.wordpress.com\/wp-login.php?action=logout&_wpnonce=624185b3cf","homeURL":"http:\/\/diablohorn.com\/","postID":"1143","gravDefault":"mystery","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1424115551j'></script>
+		<div id="infinite-footer">
+			<div class="container">
+				<div class="blog-info">
+					<a id="infinity-blog-title" href="http://diablohorn.com/" rel="home">
+						DiabloHorn					</a>
+				</div>
+				<div class="blog-credits">
+					<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a> <a href="https://wordpress.com/themes/greyzed/" title="Learn more about this theme">The Greyzed Theme</a>.				</div>
+			</div>
+		</div><!-- #infinite-footer -->
+		
+	<div id="bit" class="loggedout-follow-normal">
+		<a class="bsub" href="javascript:void(0)"><span id='bsub-text'>Follow</span></a>
+		<div id="bitsubscribe">
+
+					<h3><label for="loggedout-follow-field">Follow &ldquo;DiabloHorn&rdquo;</label></h3>
+
+			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="loggedout-follow">
+			<p>Get every new post delivered to your Inbox.</p>
+
+			<p id="loggedout-follow-error" style="display: none;"></p>
+
+						<p class="bit-follow-count">Join 38 other followers</p>
+			<p><input type="email" name="email" placeholder="Enter your email address" id="loggedout-follow-field"/></p>
+
+			<input type="hidden" name="action" value="subscribe"/>
+			<input type="hidden" name="blog_id" value="5319799"/>
+			<input type="hidden" name="source" value="http://diablohorn.com/"/>
+			<input type="hidden" name="sub-type" value="loggedout-follow"/>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="93c85c59cc" /><input type="hidden" name="_wp_http_referer" value="/" />
+			<p id='bsub-subscribe-button'><input type="submit" value="Sign me up" /></p>
+			</form>
+					<div id='bsub-credit'><a href="https://wordpress.com/?ref=lof">Build a website with WordPress.com</a></div>
+		</div><!-- #bitsubscribe -->
+	</div><!-- #bit -->
+
+	<div id="carousel-reblog-box">
+		<form action="" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="5319799" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="http://diablohorn.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="DiabloHorn" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="9636b4620f" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1438295886g' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='http://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825g&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-2' href='https://s0.wp.com/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css?m=1443731146g' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"http:\/\/s1.wp.com\/wp-content\/mu-plugins\/shortcodes\/img\/slideshow-loader.gif","blog_id":"5319799","blog_subdomain":"diablohorn","user_id":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/diablohorn.com\/wp-admin\/admin-ajax.php","nonce":"19e3491899","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/diablohorn.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Fdiablohorn.com%2F2014%2F07%2F13%2Fphysical-home-security-options%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=5319799&v=wpcom&tz=0&user_id=0&subd=diablohorn","is_public":"1","reblog_enabled":""};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/diablohorn.com\/wp-admin\/admin-ajax.php","nonce":"19e3491899","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/diablohorn.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Fdiablohorn.com%2F2014%2F07%2F13%2Fphysical-home-security-options%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=5319799&v=wpcom&tz=0&user_id=0&subd=diablohorn","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyNjtEOgjAMRX/I0aiQ6IPxW7AU6RzbXDeQvxdJRowPxLfb9p6TwugVOhvJRtACDQ2M5F+Flh18nfqkvEl3tgJsW7YcpzVsdKVzIaJrSD5y/UwUpgInNPQ3JIbn1LlRrfvMskWTcm1s3U0Txl9xtg6zxkEtQnEBltkHEtl4BevgkpABTdHX+FB5MTPX/rIvq+OhrE7VWb8BS+R7ZQ=='></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVy7EOQEAMANAfUnViYBDfgmsupepyivh7VpMY3/DwjDCuaqSGyw5R9sC6oZ1sRgkG6cd54OQhMqHSQYnUs4Z82jL8c+P3YyEPoRehdL31rG5pXVXUTVO70k03DU5D1g=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "diablohorn.wordpress.com";
+	</script>
+	<script type="text/javascript" src="http://s.skimresources.com/js/725X1342.skimlinks.js"></script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","jquery-core","jquery-migrate","mobile-useragent-info","postmessage","jquery_inview","jetpack_resize","loggedout-subscribe","spin","jquery.spin","jquery.autoresize","highlander-comments","devicepx","the-neverending-homepage","jquery-cycle","jetpack-slideshow","swfobject","videopress","jetpack-carousel","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["jetpack_likes","loggedout-subscribe","the-neverending-homepage","jetpack-slideshow","wpcom-core-compat-playlist-styles","mp6hacks","wpcom-bbpress2-staff-css","greyzed","noticons","geo-location-flair","reblogging","a8c-global-print","h4-global","highlander-comments","highlander-comments-ie7","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script><script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'5319799','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'5319799','v':'wpcom','tz':'0','user_id':'0','subd':'diablohorn'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzRiVE1bNlpOME11T2N2TFgmMjBqJVdsP05BQzZsb2JodUs/Ykc4NWw1bURibDkzcT05cWQsQjc0bEdafDFLLkVpMkN0LHxQfl9LQVhKQ3EleEZXZFAsVmF8WjJQdnFfeSxpR0xobj9iOU5IY05hTWQ4M1RlS2pROF1LSW1zK2VlXTAuamx+LU5QdU5yN1g2X0FuYVRwbF95TXpubGEvbl98b09OSytQRyVUXyx1ZV8sWGx3R35ELldEQUF3WGNXMXNFSWJndVJwRC1CN216WXV8WE9YPT9nRGcuRSVUJkZ5Lg=='}]);
+_stq.push([ 'clickTrackerInit', '5319799', '0' ]);
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script></body>
+</html>

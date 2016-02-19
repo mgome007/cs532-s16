@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Bells Corners BIA</title>
+<link rel="stylesheet" type="text/css" href="http://www.bellscornersbia.ca/wp-content/themes/blankslate/style.css" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/bcbia.css" />
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,900' rel='stylesheet' type='text/css'>
+<meta name="google-site-verification" content="2a8ZIMJx_ly69vycKTpDT46OnCB3pFJ73qs2llTe_qU" />
+<link rel="alternate" type="application/rss+xml" title="Bells Corners BIA &raquo; Feed" href="http://www.bellscornersbia.ca/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bells Corners BIA &raquo; Comments Feed" href="http://www.bellscornersbia.ca/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.bellscornersbia.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='flick-css'  href='http://www.bellscornersbia.ca/wp-content/plugins/mailchimp//css/flick/flick.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mailchimpSF_main_css-css'  href='http://www.bellscornersbia.ca/?mcsf_action=main_css&#038;ver=4.3.3' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='http://www.bellscornersbia.ca/wp-content/plugins/mailchimp/css/ie.css?ver=4.3.3' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://www.bellscornersbia.ca/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.bellscornersbia.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.bellscornersbia.ca/wp-content/plugins/mailchimp/js/scrollTo.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.bellscornersbia.ca/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mailchimpSF = {"ajax_url":"http:\/\/www.bellscornersbia.ca\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.bellscornersbia.ca/wp-content/plugins/mailchimp/js/mailchimp.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.bellscornersbia.ca/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.bellscornersbia.ca/wp-content/plugins/mailchimp//js/datepicker.js?ver=4.3.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.bellscornersbia.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.bellscornersbia.ca/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('.date-pick').each(function() {
+				var format = $(this).data('format') || 'mm/dd/yyyy';
+				format = format.replace(/yyyy/i, 'yy');
+				$(this).datepicker({
+					autoFocusNextInput: true,
+					constrainInput: false,
+					changeMonth: true,
+					changeYear: true,
+					beforeShow: function(input, inst) { $('#ui-datepicker-div').addClass('show'); },
+					dateFormat: format.toLowerCase(),
+				});
+			});
+			d = new Date();
+			$('.birthdate-pick').each(function() {
+				var format = $(this).data('format') || 'mm/dd';
+				format = format.replace(/yyyy/i, 'yy');
+				$(this).datepicker({
+					autoFocusNextInput: true,
+					constrainInput: false,
+					changeMonth: true,
+					changeYear: false,
+					minDate: new Date(d.getFullYear(), 1-1, 1),
+					maxDate: new Date(d.getFullYear(), 12-1, 31),
+					beforeShow: function(input, inst) { $('#ui-datepicker-div').removeClass('show'); },
+					dateFormat: format.toLowerCase(),
+				});
+
+			});
+
+		});
+	</script>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+</head>
+<body class="home blog">
+<div id="wrapper" class="hfeed">
+<header id="header" role="banner">
+<section id="branding">
+
+<div class="row">
+<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-centered social-media-links right">
+<div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<img src="/img/twitter.jpg" /><a href="https://twitter.com/BellsCornersBIA" >Follow us on Twitter</a>
+	</div>
+	<div class="col-xs-12  col-sm-12 col-md-12 col-lg-12">
+		<img src="/img/facebook.jpg" /><a href="https://www.facebook.com/pages/Bells-Corners-Business-Improvement-Area-BIA/181567255194396?fref=ts" >Follow us on Facebook</a>
+	</div>
+
+</div>
+</div>
+<div class="col-xs-8 col-sm-4 col-md-4 col-lg-4 text-centered left">
+<div id="site-title">
+
+<a href="/" ><img src="/img/bcbialogo.jpg" alt="Bells Corners BIA" /></a></div>
+
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="contact_email_box">
+	<form action="//bellscornersbia.us8.list-manage.com/subscribe/post?u=c1c7cac712728540b2f1dfa35&amp;id=75b085d0c1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		<label for="contact_email">Sign up for Bells Corners newsletter</label>
+		<div id="contact_border">
+<!--		<img id="contact_image" src="/bells-corners-bia/img/facebook.jpg" />-->
+		<span><i class="glyphicon glyphicon-envelope"></i></span>
+		<input id="contact_email" type="email" name="EMAIL" placeholder="Enter your email" />
+		 <div style="position: absolute; left: -5000px;"><input type="text" name="b_c1c7cac712728540b2f1dfa35_75b085d0c1" tabindex="-1" value=""></div>
+		<input id="contact_email_submit" type="submit" placeholder="Enter your email" value="Add"></input>
+		</div>
+	</form>
+</div>
+</div>
+<!--<div id="site-description">Just another WordPress site</div> -->
+</section>
+<nav id="menu" role="navigation" >
+<div class="row small_menu_row hidden-md hidden-lg hidden-sm">
+	<div class="col-xs-12">
+		<a href="#" id="small_menu" data-show="0" /><i class="glyphicon glyphicon-th"></i></a>
+	</div>
+</div>
+<!--<div id="search">
+<form role="search" method="get" id="searchform" class="searchform" action="http://www.bellscornersbia.ca/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></div> -->
+<div class="menu-row"><ul id="menu-menu-1" class="menu-col"><li id="menu-item-149" class="col-sm-2 col-md-2 col-lg-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-149"><a href="http://www.bellscornersbia.ca/about-us/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="http://www.bellscornersbia.ca/about-us/">Bells Corners BIA</a></li>
+	<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="http://www.bellscornersbia.ca/bells-corners/">Bells Corners</a></li>
+	<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://www.bellscornersbia.ca/board-of-management-2/">Board of Management</a></li>
+	<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="http://www.bellscornersbia.ca/board-of-management/">Press Releases</a></li>
+</ul>
+</li>
+<li id="menu-item-112" class="col-sm-2 col-md-2 col-lg-2 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-112"><a href="http://www.bellscornersbia.ca/category/directory/">Business Directory</a>
+<ul class="sub-menu">
+	<li id="menu-item-477" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-477"><a href="http://www.bellscornersbia.ca/category/directory/animal-care/">Animal Care</a></li>
+	<li id="menu-item-478" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-478"><a href="http://www.bellscornersbia.ca/category/directory/automotive/">Automotive</a></li>
+	<li id="menu-item-479" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-479"><a href="http://www.bellscornersbia.ca/category/directory/banking/">Banking</a></li>
+	<li id="menu-item-480" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-480"><a href="http://www.bellscornersbia.ca/category/directory/grocery/">Grocery</a></li>
+	<li id="menu-item-481" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-481"><a href="http://www.bellscornersbia.ca/category/directory/home-decor/">Home Decor</a></li>
+	<li id="menu-item-482" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-482"><a href="http://www.bellscornersbia.ca/category/directory/lodging/">Lodging</a></li>
+	<li id="menu-item-483" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-483"><a href="http://www.bellscornersbia.ca/category/directory/medical/">Medical</a></li>
+	<li id="menu-item-1569" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1569"><a href="http://www.bellscornersbia.ca/category/directory/pharmacy/">Pharmacy</a></li>
+	<li id="menu-item-113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-113"><a href="http://www.bellscornersbia.ca/category/directory/professional-service/">Professional Services</a></li>
+	<li id="menu-item-114" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-114"><a href="http://www.bellscornersbia.ca/category/directory/restaurant/">Restaurants</a></li>
+	<li id="menu-item-484" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-484"><a href="http://www.bellscornersbia.ca/category/directory/retail/">Retail</a></li>
+	<li id="menu-item-485" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-485"><a href="http://www.bellscornersbia.ca/category/directory/salon-hair-esthetics/">Salon/Hair/Esthetics</a></li>
+	<li id="menu-item-115" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-115"><a href="http://www.bellscornersbia.ca/category/directory/shopping/">Shopping</a></li>
+	<li id="menu-item-476" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-476"><a href="http://www.bellscornersbia.ca/category/directory/speciality/">Speciality</a></li>
+</ul>
+</li>
+<li id="menu-item-141" class="col-sm-2 col-md-2 col-lg-2 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-141"><a href="http://www.bellscornersbia.ca/category/spaces-for-lease/">Spaces for Lease</a></li>
+<li id="menu-item-116" class="col-sm-2 col-md-2 col-lg-2 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-116"><a href="http://www.bellscornersbia.ca/category/blog/">Blog</a>
+<ul class="sub-menu">
+	<li id="menu-item-117" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-117"><a href="http://www.bellscornersbia.ca/category/blog/area-news/">Area News</a></li>
+	<li id="menu-item-118" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-118"><a href="http://www.bellscornersbia.ca/category/blog/bia-activities/">BIA Activities</a></li>
+	<li id="menu-item-119" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119"><a href="http://www.bellscornersbia.ca/category/blog/videos/">Media</a></li>
+</ul>
+</li>
+<li id="menu-item-151" class="col-md-2 col-sm-2 col-lg-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-151"><a href="http://www.bellscornersbia.ca/bia-contact/">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://www.bellscornersbia.ca/bia-contact/">BIA Contact</a></li>
+	<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://www.bellscornersbia.ca/community-resources/">Community Resources</a></li>
+</ul>
+</li>
+</ul></div></nav>
+</header>
+<div id="container">
+
+<div class="row-fluid" id="main-video">
+<video loop autoplay muted>
+  <source src="/video/bells-corners-bia-beer-video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
+<!--<img src="/bells-corners-bia/img/background.jpg" /> -->
+<div class="caption"><span class="hi"><p><a href="http://twitter.com/search?q=%23OCoBIA&src=hash" target="_blank">#OCoBIA</a> meeting right now with <a href="http://www.twitter.com/JimWatsonOttawa" target="_blank">@JimWatsonOttawa</a> and <a href="http://www.twitter.com/Eli_ElChantiry" target="_blank">@Eli_ElChantiry</a>. We asked about illegal clothing "donation" bins... It's on the radar!<br /><small class="muted">- Thursday Feb 18 - 6:58pm</small></p></span></div>
+</div>
+
+<div class="row" id="main-news">
+	
+ <div class="col-sm-4 col-md-4 col-lg-4 fp-post fp-news"><div class="fp-post-date" ><strong>18 Jan 2016</strong></div><h2><strong><a href="http://www.bellscornersbia.ca/?p=1761">Using non-tobacco substances in public places and work places  Public Online Consultation</a></strong></h2><p>Ottawa Public Health (OPH) wants to know if you think the use of non-tobacco substances at work and in public places should be prohibited the same way as tobacco.</p><a href="http://www.bellscornersbia.ca/?p=1761" class="read_more" > <i class="glyphicon glyphicon-book"></i><strong>Read More</strong></a></div><div class="col-sm-4 col-md-4 col-lg-4 fp-post fp-news"><div class="fp-post-date" ><strong>9 Dec 2015</strong></div><h2><strong><a href="http://www.bellscornersbia.ca/?p=1752">17 big ideas to build an inspiring capital</a></strong></h2><p>Have your say with the National Capital Commission as they plan 17 big ideas to build an inspiring capital.</p><a href="http://www.bellscornersbia.ca/?p=1752" class="read_more" > <i class="glyphicon glyphicon-book"></i><strong>Read More</strong></a></div><div class="col-sm-4 col-md-4 col-lg-4 fp-post fp-news"><div class="fp-post-date" ><strong>9 Dec 2015</strong></div><h2><strong><a href="http://www.bellscornersbia.ca/?p=1748">Tis the Season</a></strong></h2><p>“There is no exercise better for the heart than reaching down and lifting people up.”  </p><a href="http://www.bellscornersbia.ca/?p=1748" class="read_more" > <i class="glyphicon glyphicon-book"></i><strong>Read More</strong></a></div> 
+</div>
+<div class="row" id="main-slider">
+	<div class="main-slider-nav" id="main-slider-up">&gt;</div>
+	<div class="main-slider-nav" id="main-slider-down">&lt;</div>
+	 <div class='main-slider-image-box col-xs-12 col-sm-12 col-md-12 col-lg-12 fp-slider'><img width="1200" height="800" src="http://www.bellscornersbia.ca/wp-content/uploads/2014/07/wendy.jpg" class="attachment-full wp-post-image" alt="wendy" /><div class="main-slider-caption col-xs-2 col-sm-4 col-md-4 col-lg-4"><span class="slider-quote"><strong>"Small businesses make for big communities."</strong><span class="slider-name">Wendy Wilson</span><span class="slider-place">Server, 1951 West</span></span></div></div><div class='main-slider-image-box col-xs-12 col-sm-12 col-md-12 col-lg-12 fp-slider'><img width="1200" height="784" src="http://www.bellscornersbia.ca/wp-content/uploads/2014/07/dans-automotive.jpg" class="attachment-full wp-post-image" alt="dans-automotive" /><div class="main-slider-caption col-xs-2 col-sm-4 col-md-4 col-lg-4"><span class="slider-quote"><strong>"My classic formula to success is hard work and honesty. "</strong><span class="slider-name">Dan Bourgeau</span><span class="slider-place">Owner, Dan's Automotive</span></span></div></div><div class='main-slider-image-box col-xs-12 col-sm-12 col-md-12 col-lg-12 fp-slider'><img width="1200" height="800" src="http://www.bellscornersbia.ca/wp-content/uploads/2014/07/scottish-irish.jpg" class="attachment-full wp-post-image" alt="scottish-irish" /><div class="main-slider-caption col-xs-2 col-sm-4 col-md-4 col-lg-4"><span class="slider-quote"><strong>"Kilts look better in Bells Corners."</strong><span class="slider-name">Michael Cox</span><span class="slider-place">Owner, Scottish and Irish Store</span></span></div></div><div class='main-slider-image-box col-xs-12 col-sm-12 col-md-12 col-lg-12 fp-slider'><img width="1200" height="800" src="http://www.bellscornersbia.ca/wp-content/uploads/2014/07/restauranteur.jpg" class="attachment-full wp-post-image" alt="restauranteur" /><div class="main-slider-caption col-xs-2 col-sm-4 col-md-4 col-lg-4"><span class="slider-quote"><strong>"A passion for my craft has been my motivation for over 25 years. "</strong><span class="slider-name">Tony Vacchio</span><span class="slider-place">Owner, Zolas Restaurant</span></span></div></div>
+</div>
+
+<div class="clear"></div>
+</div>
+<footer id="footer" role="contentinfo">
+<div class="row" id="main-footer">
+	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 contact-box">
+	<p><strong>Bells Corners BIA</strong></p>
+	<p>15B - 2150 Robertson Road</p>
+	<p>Ottawa, Ontario</p>
+	<p>Canada K2H 9S1</p>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 sub-box">
+		<div class="col-xs-12">
+	
+	<form action="//bellscornersbia.us8.list-manage.com/subscribe/post?u=c1c7cac712728540b2f1dfa35&amp;id=75b085d0c1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		<h3><strong>Subscribe to our Newsletter</strong></h3>
+		<label for="subscribe_now">Receiver important news and notifications about the area</label>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="row">
+		<div class="nomargleft col-xs-6">
+		<input type="text" placeholder="Enter your email" class="contact_email" name="EMAIL" />
+		</div>
+		 <div style="position: absolute; left: -5000px;"><input type="text" name="b_c1c7cac712728540b2f1dfa35_75b085d0c1" tabindex="-1" value=""></div>
+		<div class="col-xs-6 nomargleft">
+		<input type="submit" value="Subscribe" id="sub-button" />
+		</div>
+		</div>
+		</div>
+		</form>
+	</div>
+</div>
+<div class="row" id="main-map">
+	<div class="col-xs-12">
+	<a href="https://goo.gl/maps/4UsrL" ><img src="/wp-content/uploads/2014/06/Screenshot-2014-06-11-14.30.jpg"></a>
+	</div>
+</div>
+
+</footer>
+</div>
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js" type="text/javascript" ></script>
+<script src="/js/bcbia.js" type="text/javascript" ></script>
+<script src="/js/masonry.pkgd.min.js" type="text/javascript" ></script>
+<script src="/js/jquery.fittext.js" type="text/javascript" ></script>
+
+<script>
+$('.caption .hi p').fitText(6);
+
+</script>
+</body>
+</html>

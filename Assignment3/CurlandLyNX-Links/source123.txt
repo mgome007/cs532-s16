@@ -1,0 +1,241 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+<title>DAMAADOMICILIO.COM - Agencia de Damas de Compañia en Valencia, Masajistas</title>
+<script src="funciones.js" type="text/javascript" charset="utf-8"></script>
+<meta name="description" content="Las mas Bellas y complacientes Damas de Compa&ntilde;ia en Caracas" />
+<meta name="keywords" content="Damas de Compañia en Valencia, masajistas, Acompa&ntilde;antes, Escorts, Prepagos, Strippers" />
+<meta name="Language" CONTENT="es-ve">
+<meta name="RATING" content="RTA-5042-1996-1400-1577-RTA" />
+<link rel="shortcut icon" href="../imagenes/favicon.ico" alt="favicon"/>
+
+
+
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+
+<style>
+
+
+@media screen and (max-width: 800px){
+     body {
+           background:#FFFFFF;
+          }
+
+
+h2.titulo {background-color:#cc0000;color:white;font-size:28px;text-align:center;margin-bottom:10px;margin-top:10px;}
+
+
+#contenido {background-color:#; float:left;width:100%;}
+#cabecera {background-color:#cc0000; color:white;float:left;width:100%;height:100px;text-align:center;}
+#menu {width:100%;float:left;background-color:#cc0000;}
+
+#button {margin:0;padding:0;}
+#button li {display: inline;}
+#button li a {font-size:11px;float:left;padding:8px;color:white;font-weight:bold;}
+
+
+.menu ul{list-style-type:none;margin:0;padding:0;overflow:hidden;}
+.menu li{float:left;margin-left:5px;margin-top:10px;}
+.menu a{display:block;width:auto;background-color:#cc0000;font-weight:bold;padding:5px;color:white;}
+
+#footer {background-color:#;clear:both;text-align:center;font-size:8px;width:100%;}
+#empt {height:200px;width:100%;float:left;}
+
+
+
+}
+</style>
+
+
+
+
+
+<script src="j/dw_tooltip_c.js" type="text/javascript"></script>
+<script type="text/javascript">
+dw_Tooltip.defaultProps = {
+
+}
+
+dw_Tooltip.content_vars = {
+
+Marisol: '<ul><li>Edad: 25 a&ntilde;os</li><li>Estatura: 156 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 1800 Bs.F.</li><li>Celular: 0426-461.93.74</li></ul>',
+daniela: '<ul><li>Edad: 20 a&ntilde;os</li><li>Estatura: 150 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 3500 Bs.F.</li><li>Celular: 0414-606.90.52</li></ul>',
+
+FAYNA: '<ul><li>Edad: 26 a&ntilde;os</li><li>Estatura: 160 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) Por favor llamar para más información.</li><li>Celular: 0412-309.06.30</li></ul>',
+monic: '<ul><li>Edad: 20 a&ntilde;os</li><li>Estatura: 160 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 6000 Bs.F.</li><li>Celular: 0414-389.16.59</li></ul>',
+barbie: '<ul><li>Edad: 19 a&ntilde;os</li><li>Estatura: 150 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 3000 Bs.F.</li><li>Celular: 0412-376.69.61</li></ul>',
+natalia: '<ul><li>Edad: 22 a&ntilde;os</li><li>Estatura: 167 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) Por favor llamar para más información.</li><li>Celular: 0424-197.35.47</li></ul>',
+Rebecca: '<ul><li>Edad: 21 a&ntilde;os</li><li>Estatura: 165 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) Por favor llamar para más información.</li><li>Celular: 0426-414.07.85</li></ul>',
+
+FANNY: '<ul><li>Edad: 20 a&ntilde;os</li><li>Estatura: 164 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) Por favor llamar para más información.</li><li>Celular: 0416-995.23.83</li></ul>',
+Luna: '<ul><li>Edad: 24 a&ntilde;os</li><li>Estatura: 168 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) Por favor llamar para más información.</li><li>Celular: 0416-995.23.83</li></ul>',
+Candy: '<ul><li>Edad: 20 a&ntilde;os</li><li>Estatura: 170 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) Por favor llamar para más información.</li><li>Celular: 0416-995.23.83</li></ul>',
+salome: '<ul><li>Edad: 26 a&ntilde;os</li><li>Estatura: 166 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) Por favor llamar para más información.</li><li>Celular: 0416-995.23.83</li></ul>',
+
+GREILYS: '<ul><li>Edad: 23 a&ntilde;os</li><li>Estatura: 166 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 5000 Bs.F.</li><li>Celular: 0414-409.25.58<br />0412-435.13.52<br />0426-248.32.26</li></ul>',
+karla: '<ul><li>Edad: 27 a&ntilde;os</li><li>Estatura: 176 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 6500 Bs.F.</li><li>Celular: 0414-409.25.58<br />0412-435.13.52<br />0426-248.32.26</li></ul>',
+shadivet: '<ul><li>Edad: 20 a&ntilde;os</li><li>Estatura: 159 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 5000 Bs.F.</li><li>Celular: 0414-409.25.58<br />0412-435.13.52<br />0426-248.32.26</li></ul>',
+VICTORIA: '<ul><li>Edad: 20 a&ntilde;os</li><li>Estatura: 160 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 5500 Bs.F.</li><li>Celular: 0414-409.25.58<br />0412-435.13.52<br />0426-248.32.26</li></ul>',
+sarine: '<ul><li>Edad: 18 a&ntilde;os</li><li>Estatura: 171 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 5500 Bs.F.</li><li>Celular: 0414-409.25.58<br />0412-435.13.52<br />0426-248.32.26</li></ul>',
+
+
+estephany: '<ul><li>Edad: 20 a&ntilde;os</li><li>Estatura: 163 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 5000 Bs.F.</li><li>Celular: 0426-935.25.23</li></ul>',
+yesika: '<ul><li>Edad: 20 a&ntilde;os</li><li>Estatura: 165 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 6000 Bs.F.</li><li>Celular: 0426-935.25.23</li></ul>',
+estrella: '<ul><li>Edad: 22 a&ntilde;os</li><li>Estatura: 163 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 5000 Bs.F.</li><li>Celular: 0426-935.25.23</li></ul>',
+candy: '<ul><li>Edad: 23 a&ntilde;os</li><li>Estatura: 164 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 5000 Bs.F.</li><li>Celular: 0426-935.25.23</li></ul>',
+shercy: '<ul><li>Edad: 23 a&ntilde;os</li><li>Estatura: 164 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 5000 Bs.F.</li><li>Celular: 0426-935.25.23</li></ul>',
+valentina: '<ul><li>Edad: 18 a&ntilde;os</li><li>Estatura: 164 cm</li><li>Tarifa: 1 Hora (Taxi no incluido) 5000 Bs.F.</li><li>Celular: 0426-935.25.23</li></ul>',
+
+
+
+
+}
+</script>
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35954049-1', 'damaadomicilio.com');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+
+
+<div id="contenedor">
+
+<div id="cabecera"><h2 class="titulo">DAMAADOMICILIO.COM</h2></div>
+
+<div id="menu">
+<ul id="button">
+<li><a href="inicio.php">Inicio</a></li>
+<li><a href="damas.php">Damas</a></li>
+<li><a href="agencias.php">Agencias</a></li>
+<li><a href="estudios.php">Estudios</a></li>
+<li><a href="contacto.php">Contacto</a></li>
+</ul>
+</div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="galeria">
+
+
+<div class="compartir">
+<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+<a href="https://twitter.com/damaadomicilio" class="twitter-follow-button" data-show-count="false">Follow @damaadomicilio</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<style>.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-24 { width: 24px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-24.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-24@2x.png); background-size: 60px 178px; } }</style>
+<a href="http://instagram.com/damaadomicilio_of?ref=badge" class="ig-b- ig-b-24"><img src="//badges.instagram.com/static/images/ig-badge-24.png" alt="Instagram" /></a>
+
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-annotation="inline" data-width="300"></div>
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'es'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</div>
+
+
+
+<h1 class="titulo">Damas Vip Caracas</h1>
+
+
+
+
+
+<div>
+Caracas<br /><a href="tel:+584269352523">0426 9352523</a>
+</div>
+
+
+
+
+<div class="img"><a href="../valentina.php" class="showTip valentina"><img src="../fotos/valentina (2)_opt.jpg" width="170" height="215" border="0" alt="valentina"></a><div class="desc"><t class="n"><a href="../valentina.php">Valentina</a></t></div></div>
+<div class="img"><a href="../estephany.php" class="showTip estephany"><img src="../fotos/Estephany_opt.jpg" width="170" height="215" border="0" alt="Estephany"></a><div class="desc"><t class="n"><a href="../estephany.php">Estephany</a></t></div></div>
+<div class="img"><a href="../yesika.php" class="showTip yesika"><img src="../fotos/Yesika (2)_opt.jpg" width="170" height="215" border="0" alt="Yesika"></a><div class="desc"><t class="n"><a href="../yesika.php">Yesika</a></t></div></div>
+<div class="img"><a href="../estrella.php" class="showTip estrella"><img src="../fotos/estrella_opt.jpg" width="170" height="215" border="0" alt="estrella"></a><div class="desc"><t class="n"><a href="../estrella.php">Estrella</a></t></div></div>
+<div class="img"><a href="../shercy.php" class="showTip shercy"><img src="../fotos/shercy_opt.jpg" width="170" height="215" border="0" alt="shercy"></a><div class="desc"><t class="n"><a href="../shercy.php">Shercy</a></t></div></div>
+<div class="img"><a href="../candy.php" class="showTip candy"><img src="../fotos/candy_opt.jpg" width="170" height="215" border="0" alt="candy"></a><div class="desc"><t class="n"><a href="../candy.php">Candy</a></t></div></div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div id="empt"></div>
+
+<div id="footer"><p>Usted puede restringir el acceso al contenido de esta Web de sus hijos menores de edad mediante el uso de filtro de navegaci&oacute;n. 
+<a href="http://www.rtalabel.org" target="_blank"><img src="../images/88x31_RTA-5042-1996-1400-1577-RTA_b.gif" alt="88x31_RTA-5042-1996-1400-1577-RTA_b" border="0" width="20" height="10"></a> Restricted To Adults. <br />&copy; <b>damaadomicilio.com</b></p></div>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

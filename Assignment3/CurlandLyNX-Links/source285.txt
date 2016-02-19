@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <title>JamesRobertson.eu</title>
+    <link rel='stylesheet' type='text/css' href='http://www.jamesrobertson.eu/layout.css' media='screen, projection, tv, print'/>
+    <link rel='stylesheet' type='text/css' href='http://www.jamesrobertson.eu/style.css' media='screen, projection, tv, print'/>
+    <link rel='stylesheet' type='text/css' href='http://www.jamesrobertson.eu/timeline-layout.css' media='screen, projection, tv, print'/>
+    <link rel='stylesheet' type='text/css' href='http://www.jamesrobertson.eu/timeline-style.css' media='screen, projection, tv, print'/>
+    <link rel='alternate' title='JamesRobertson.eu RSS' href='http://www.jamesrobertson.eu/timeline/dynarex_rss.xml' type='application/rss+xml'/>
+    <style>h1 {background-color: transparent; color: #033; font: 700 0.9em Arial ; border-bottom: 1px solid #9e3;}
+     ul#list1 {background-color: transparent; padding: 5px 5px 5px 5px; overflow: hidden  }
+	ul#list1 li{background-color: transparent; float: left;  padding: 0.3em; margin: 0.3em; width: 48px; height: 48px }
+	ul#list1 li a img, .timeline ul~ul li a img { width: 48px; height: 48px}
+     .source {background-color: transparent; overflow: hidden; clear: both;}
+     #wrap div#footer p {
+       background-color: #bbb;
+       background-image:url(http://www.jamesrobertson.eu/images/2012/jun/27/dandelion_logo_small.png);
+       background-repeat: no-repeat;
+       background-position: 12px 12px;
+       margin-top: 30px; 
+       padding: 20px 0px 20px 50px;
+       font-size: 0.8em;
+     }     
+</style>
+    <script type='text/javascript'>
+  function go_page(id){
+    e = document.getElementById(id);
+    window.location = "http://a1.jamesrobertson.eu/do/search/all?q=" + e.value;
+  }
+function keypressSearchKeyword(keyCode) {
+  if (keyCode==13){
+    go_page('keyword');
+  }
+}
+</script>
+  </head>
+  <body>
+    <div id='wrap'>
+      <div>
+        <ul datasrc='#wisewords'>
+          <li>
+            <span>"Achievement isn't a result of doing what is expected, it's a result of making sacrifices."</span>
+          </li>
+          <li>
+            <span>Everyone has the potential to realise their talents it's just a question of how they approach it.</span>
+          </li>
+          <li>
+            <span>My favourite TED video http://www.ted.com/talks/graham_hill_less_stuff_more_happiness #happiness #less #storage</span>
+          </li>
+        </ul>
+        <div class='source'>
+          <a href='/dynarex/wisewords.xml'>read more wise words</a>
+        </div>
+      </div>
+      <div id='search_box' class='side2'>
+        <input type='input' name='keyword' id='keyword' value='html' accesskey='s' onkeyup='keypressSearchKeyword(event.keyCode)'/>
+        <input type='button' value='go' onclick='go_page("keyword")'/>
+        <a href='http://www.jamesrobertson.eu/dynarex/page-lookup.xml'>page-lookup.xml</a>
+      </div>
+      <div class='timeline'>
+        <ul>
+          <li>
+            <a href='timeline/index.html'>Timeline</a>
+          </li>
+        </ul>
+        <ul datasrc='#timeline'>
+          <li>
+            <div>
+              <a href='/snippets/'>
+                <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrsnippets.png'/>
+              </a>
+            </div>
+            <div>
+              <span>Introducing the Humble_RPi-plugin-piezoelements gem #buzzer #gem #piezo #humblerpipluginpiezoelements #plugin</span>
+              <a href='http://www.jamesrobertson.eu/snippets/2016/feb/18/introducing-the-humble_rpi-plugin-piezoelements-gem.html'>Read more</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href='/snippets/'>
+                <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrsnippets.png'/>
+              </a>
+            </div>
+            <div>
+              <span>Introducing the Humble_rpi-plugin-magneticswitch gem #humblerpipluginmagneticswitch #plugin #humblerpi #gem #sensor</span>
+              <a href='http://www.jamesrobertson.eu/snippets/2016/feb/18/introducing-the-humble_rpi-plugin-magneticswitch-gem.html'>Read more</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href='/snippets/'>
+                <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrsnippets.png'/>
+              </a>
+            </div>
+            <div>
+              <span>Sniffing HTTP traffic using the packetfu gem #packetfu #gem #sniffer #libpcap #debian</span>
+              <a href='http://www.jamesrobertson.eu/snippets/2016/feb/18/sniffing-http-traffic-using-the-packetfu-gem.html'>Read more</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href='/snippets/'>
+                <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrsnippets.png'/>
+              </a>
+            </div>
+            <div>
+              <span>Converting a hex to ascii #hex #ascii #convert #chr #pack</span>
+              <a href='http://www.jamesrobertson.eu/snippets/2016/feb/18/converting-a-hex-to-ascii.html'>Read more</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href='/snippets/'>
+                <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrsnippets.png'/>
+              </a>
+            </div>
+            <div>
+              <span>Generate a buzzing sound using Raspberry Pi + Piezo drum disc sounder + RPi-PDDB gem #rpipddb #gem #buzzer #raspberrypi</span>
+              <a href='http://www.jamesrobertson.eu/snippets/2016/feb/18/generate-a-buzzing-sound-using-raspberry-pi-piezo-drum-disc-sounder-rpi-pddb-gem.html'>Read more</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href='/images/'>
+                <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrimages.jpg'/>
+              </a>
+            </div>
+            <div>
+              <span>Piezo buzzer #piezo #buzzer #raspberrypi #sound</span>
+              <a href='http://www.jamesrobertson.eu/images/2016/feb/18/piezo-buzzer.html'>Read more</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href='/audio/'>
+                <img src='http://a0.jamesrobertson.eu/avatar/thumb/jraudio.jpg'/>
+              </a>
+            </div>
+            <div>
+              <span>Buzzer #buzzer #raspberrypi #piezzodrumdisc</span>
+              <a href='http://www.jamesrobertson.eu/audio/2016/feb/18/buzzer.html'>Read more</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href='/dynarex/'>
+                <img src='http://a0.jamesrobertson.eu/avatar/thumb/dynarex_logo.png'/>
+              </a>
+            </div>
+            <div>
+              <span>System SPS messages for RSF jobs #sps #system #rsf #jobs</span>
+              <a href='http://www.jamesrobertson.eu/dynarex/system-sps-messages.xml'>Read more</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href='/arduino/'>
+                <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrarduino.png'/>
+              </a>
+            </div>
+            <div>
+              <span>Using a magnetic door switch #magnetic #switch #sensor #door #alarm</span>
+              <a href='http://www.jamesrobertson.eu/arduino/2016/feb/17/using-a-magnetic-door-switch.html'>Read more</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href='/cpages/'>
+                <img src='http://www.jamesrobertson.eu/r/svg/2015/oct/13/cpages_logo.svg'/>
+              </a>
+            </div>
+            <div>
+              <span>10 Pairs MC 38 Wired Door Window Sensor Magnetic Switch (ebay.co.uk) #magnetic #switch #door #arduino #ebay</span>
+              <a href='http://www.jamesrobertson.eu/cpages/2016/feb/17/10-pairs-mc-38-wired-door-window-sensor-magnetic-switch-ebay-co-uk.html'>Read more</a>
+            </div>
+          </li>
+        </ul>
+        <div style='float:right'>
+          <a href='http://www.jamesrobertson.eu/timeline/dynarex_rss.xml'>RSS</a>
+        </div>
+      </div>
+      <div class='side2'>
+        <h1>
+          <a href='/dynarex/quicklinks.xml'>Quick links</a>
+        </h1>
+        <ul id='qlist1' datasrc='#qlinks'>
+          <li>
+            <a target='top' href='http://a1.jamesrobertson.eu/do/liveblog/go'>
+              <span>liveblog</span>
+            </a>
+          </li>
+          <li>
+            <a target='top' href='http://a1.jamesrobertson.eu/do/dynarex/edit/d140215T2317.txt'>
+              <span>jrmedia list</span>
+            </a>
+          </li>
+          <li>
+            <a target='top' href='http://www.jamesrobertson.eu/dynarex/my-gems.xml'>
+              <span>Ruby Gems</span>
+            </a>
+          </li>
+          <li>
+            <a target='top' href='http://www.jamesrobertson.eu/feeds/'>
+              <span>feeds</span>
+            </a>
+          </li>
+          <li>
+            <a target='top' href='http://www.jamesrobertson.eu/dynarex/daily-links.xml'>
+              <span>daily links</span>
+            </a>
+          </li>
+          <li>
+            <a target='top' href='http://www.jamesrobertson.eu/pages/2014/dec/07/html-auto-copy.html'>
+              <span>HTML copy</span>
+            </a>
+          </li>
+          <li>
+            <a target='top' href='http://www.jamesrobertson.eu/polyrex/2015/dec/02/instructions-for-copying-mymedia-pages.xml'>
+              <span>MyMedia instructions</span>
+            </a>
+          </li>
+        </ul>
+        <ul id='list1' datasrc='#links'>
+          <li>
+            <a href='/blog/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrblog.jpg'/>
+            </a>
+          </li>
+          <li>
+            <a href='/snippets/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrsnippets.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/jssnippets/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrjssnippets.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/images/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrimages.jpg'/>
+            </a>
+          </li>
+          <li>
+            <a href='/audio/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/jraudio.jpg'/>
+            </a>
+          </li>
+          <li>
+            <a href='/videos/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrvideos.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/clf/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrclf.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/bugtracker/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrbugtracker.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/arduino/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrarduino.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/twitxr/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/twitxr.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/ideas/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/jrideas.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/pysnippets/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/python_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/health/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/health_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/dynarex/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/dynarex_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/perl/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/perl_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/polyrex/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/polyrex_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/vim/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/vim_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/pages/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/pages_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/svg/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/svg_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/asterisk/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/asterisk_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/nodejs/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/nodejs_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/bookmarks/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/bookmarks_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/dandelion/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/dandelion_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/pdf/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/pdf_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/dt/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/donetoday_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/fr/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/featurerequest_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/rails/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/rails_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/files/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/file_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/cssdev/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/css_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/wiki/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/wiki_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/notes/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/notes_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/xslt/'>
+              <img src='http://a0.jamesrobertson.eu/avatar/thumb/xslt_logo.png'/>
+            </a>
+          </li>
+          <li>
+            <a href='/sectionx/'>
+              <img src='http://www.jamesrobertson.eu/svg/2015/feb/24/sectionx-logo.svg'/>
+            </a>
+          </li>
+          <li>
+            <a href='/kvx/'>
+              <img src='http://www.jamesrobertson.eu/svg/2015/apr/27/kvx_logo.svg'/>
+            </a>
+          </li>
+          <li>
+            <a href='/txt/'>
+              <img src='http://www.jamesrobertson.eu/r/svg/2015/jul/02/txt_logo.svg'/>
+            </a>
+          </li>
+          <li>
+            <a href='/c/'>
+              <img src='http://www.jamesrobertson.eu/r/svg/2015/aug/25/c_logo.svg'/>
+            </a>
+          </li>
+          <li>
+            <a href='/cpages/'>
+              <img src='http://www.jamesrobertson.eu/r/svg/2015/oct/13/cpages_logo.svg'/>
+            </a>
+          </li>
+          <li>
+            <a href='/csharp/'>
+              <img src='http://www.jamesrobertson.eu/r/svg/2015/dec/16/csharp_logo.svg'/>
+            </a>
+          </li>
+        </ul>
+        <div class='source'>
+          
+          source: 
+          
+          <a href='http://www.jamesrobertson.eu/dynarex/main-directory.xml'>main-directory.xml</a>
+        </div>
+      </div>
+      <div style='clear: both'/>
+      <h1>Static</h1>
+      <div class='cols'>
+        <div>
+          <h2>
+            <a href='http://www.jamesrobertson.eu/dynarex/static.xml'>Dynarex files</a>
+          </h2>
+          <ul id='list2' datasrc='#static_dynarex'>
+            <li>
+              <a href='http://www.jamesrobertson.eu/dynarex/system-sps-messages.xml'>
+                <span>system-sps-messages.xml</span>
+              </a>
+            </li>
+            <li>
+              <a href='http://www.jamesrobertson.eu/dynarex/sps-keywords.xml'>
+                <span>sps-keywords.xml</span>
+              </a>
+            </li>
+            <li>
+              <a href='http://www.jamesrobertson.eu/dynarex/rpi-family.xml'>
+                <span>rpi-family.xml</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>
+            <a href='http://www.jamesrobertson.eu/polyrex/static.xml'>Polyrex files</a>
+          </h2>
+          <ul id='list2' datasrc='#static_polyrex'>
+            <li>
+              <a href='http://www.jamesrobertson.eu/polyrex/my-rf-codes.xml'>
+                <span>my-rf-codes.xml</span>
+              </a>
+            </li>
+            <li>
+              <a href='http://www.jamesrobertson.eu/polyrex/p261215T1745.xml'>
+                <span>p261215T1745.xml</span>
+              </a>
+            </li>
+            <li>
+              <a href='http://www.jamesrobertson.eu/polyrex/svg-elements.xml'>
+                <span>svg-elements.xml</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>
+            <a href='http://www.jamesrobertson.eu/pages/static.xml'>Pages</a>
+          </h2>
+          <ul id='list3' datasrc='#static_pages'>
+            <li>
+              <a href='http://www.jamesrobertson.eu/pages/howto-cfl.html'>
+                <span>How to create the test files using the CFL command #cfl #test #testing #howto</span>
+              </a>
+            </li>
+            <li>
+              <a href='http://www.jamesrobertson.eu/pages/building-an-image-from-a-dockerfile.html'>
+                <span>Building an image from a Dockerfile #docker #dockerfile</span>
+              </a>
+            </li>
+            <li>
+              <a href='http://www.jamesrobertson.eu/pages/Email-virus-warning--virus--email--malicious.html'>
+                <span>Email virus warning | JamesRobertson.eu</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h1>
+          <a href='progress/index.html'>Progress</a>
+        </h1>
+        <ul id='list2' datasrc='#progress'>
+          <li>
+            <span>23rd Jan 2012</span>
+            <span>I'm hoping to fix Rexle's XPath limitations within the next month. Fingers crossed.</span>
+          </li>
+          <li>
+            <span>23rd Feb 2012</span>
+            <span>Today I started learning Python as part of the Udacity course CS101: Building a Search Engine.</span>
+          </li>
+          <li>
+            <span>6th Feb 2012</span>
+            <span>I'm currently learning JavaScript &lt;a href="http://ciwcertified.com/"&gt;CIW&lt;/a&gt; material provided by &lt;a href="http://www.uws.ac.uk/"&gt;UWS&lt;/a&gt;. My &lt;a href="/ciw"&gt;CIW working directory&lt;/a&gt; is where I store my files from the Lessons from the &lt;a href="http://education2.certification-partners.com/upload/product/594/documents/javascript_spec_v1.01_labfiles.zip"&gt;Lab files&lt;/a&gt;.</span>
+          </li>
+        </ul>
+      </div>
+      <div style='clear: both'/>
+      <h1>Personal lists</h1>
+      <div>
+        <h2>
+          <a href='http://www.jamesrobertson.eu/dynarex/pinned.xml'>Pinned</a>
+        </h2>
+        <ul class='icons' datasrc='#pinned'>
+          <li>
+            <a class='pdf'>
+              <span>CV</span>
+            </a>
+          </li>
+          <li>
+            <a class='snippets'>
+              <span>Finding out disk space</span>
+            </a>
+          </li>
+          <li>
+            <a class='clf'>
+              <span>Backup with rsync</span>
+            </a>
+          </li>
+          <li>
+            <a class='snippets'>
+              <span>Introducing the activity-logger gem</span>
+            </a>
+          </li>
+          <li>
+            <a class='dynarex'>
+              <span>machines-used-for-remote-ssh-commands.xml</span>
+            </a>
+          </li>
+          <li>
+            <a class='polyrex'>
+              <span>getting things done</span>
+            </a>
+          </li>
+          <li>
+            <a class='dynarex'>
+              <span>website accounts</span>
+            </a>
+          </li>
+          <li>
+            <a class='pages'>
+              <span>HTML5 editor with toolbar</span>
+            </a>
+          </li>
+        </ul>
+        <div style='clear: both'/>
+        <ul datasrc='#proxytimes'>
+          <li>
+            <span>6:00</span>
+            <span>8:00</span>
+          </li>
+          <li>
+            <span>10:40</span>
+            <span>13:10</span>
+          </li>
+          <li>
+            <span>14:45</span>
+            <span>22:00</span>
+          </li>
+        </ul>
+        <div style='clear: both'/>
+        <div id='footer'>
+          <p><!--<strong>Powered by a Dandelion server</strong>--></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

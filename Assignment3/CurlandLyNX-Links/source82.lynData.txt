@@ -1,0 +1,418 @@
+[1]がおさんち
+
+     * [2]トップ
+     * [3]自己紹介
+     * [4]ツール
+     * [5]お絵かき
+     * [6]リンク
+     * [7]おまけ
+
+トップページ
+
+トップ絵
+
+   [8]ココ千夜
+   絶対にココ千夜の尊さを布教していこうな
+
+自己紹介
+
+がおさんについて
+
+   がおさんじゅうはっさい 名前 ： がお
+   年齢 ： えいえんのじゅうはっさい
+   誕生日 ： 04/01
+   好きなもの ： プログラミング、お絵かき、アニメ、ゲーム、女の子、汎用的なもの、
+   自由なもの、NYSL、単純なもの、かわいいもの、整理したもの
+
+プログラミングについて
+
+   プログラミング歴は4年ぐらい。主にJSやC#を使っています。
+
+   無名関数は俺の嫁。レキシカルスコープに飲まれてよく死んでる。
+   node.jsもやっています。このサイトはnode.jsで書いてます。
+
+   C#はWPFがメインです。以前はFormをよく扱ってました。
+   最近はUnityにもハマっていたり。ユニティちゃんかわいい。
+
+お絵かきについて
+
+   お絵描き歴は5年ぐらい。上達はしてません。
+
+   始めたきっかけはお姉ちゃん。
+   古くなったペンタブをもらったので、描きはじめました。
+
+アニメについて
+
+   10年ぐらい見てる気がする。こわいこわい。
+
+   わりと色んなジャンルの作品をみてます。
+   アニメネタを振ったら大抵は返せると思います。
+
+ゲームについて
+
+   かなりゆるふわ勢です[要出典]
+   ポケモンとか艦これとか東方とかをやってます。
+
+   麻雀やらハトクラやらポケモンやら
+   対戦する系のものはいつでも誘ってくださいっ
+
+ツール
+
+お品書き
+
+   CAPTION: アプリケーション(GUI)
+
+          名前        バージョン             説明                 備考
+   [9]がお時計          1.000 任意のスキンで動かすことが出来る時計です       .NET4.5が必要
+   [10]菜々ちゃんウィジェット  1.210 安部菜々ちゃんのデスクトップマスコット        .NET4.0が必要
+   [11]プロセス＼ｱｯｶﾘｰﾝ／ 2.000 指定したウィンドウが非アクティブ時にのみ透過させます .NET4.0が必要
+
+   CAPTION: アプリケーション(CUI)
+
+        名前       バージョン             説明                  備考
+   [12]kntexConv 1.200 任意のサイズの画像を2^nに変換してkntexにします .NET2.0が必要
+
+   CAPTION: プラグイン・その他
+
+            名前           バージョン              説明               備考
+   [13]Kuin書式設定 for gPad 1.000 gPadにKuinのシンタックスハイライトを有効にさせます なし
+
+がお時計
+
+   [14]がお時計プレビュー画像
+
+   最終更新日：2014/12/10
+
+   菜々ちゃんウィジェットの後継版のようなものです。
+   [15]マスコットアプリ文化祭に応募した作品です。
+
+   任意のスキンを作成して時計として動かすことが出来ます
+   現状は簡易的なアニメーションに対応していますが、今後は音声やテキストと組み合わせて高度なアニメーションを可能にする予定です。
+
+   動作には.NET Framework4.5以上をインストールしたWindows OSである必要があります
+   バージョン      ダウンロード先
+   最新版   [16]がお時計をダウンロードする
+
+菜々ちゃんウィジェット
+
+   [17]菜々ちゃんウィジェットプレビュー画像
+
+   最終更新日：2013/07/13
+
+   [DEL: どう見ても俺得です。本当にありがとうございました。 :DEL]
+   C#(WPF)の学習を目的にしつつ、嫁が欲しくなったので作りました。
+
+   アイドルマスターシンデレラガールズ(いわゆるモバマス)に登場してくるキャラクターの一人である、安部菜々さんじゅうななさいのデスクトップガジェッ
+   トです。
+   伺かっぽい何かです。時計機能とおしゃべり機能を搭載しています。
+
+   動作には.NET Framework4.0以上をインストールしたWindows OSである必要があります
+   バージョン         ダウンロード先
+   最新版   [18]菜々ちゃんウィジェットをダウンロードする
+
+プロセス＼ｱｯｶﾘｰﾝ／
+
+   [19]プロセス＼ｱｯｶﾘｰﾝ／プレビュー画像
+
+   最終更新日：2012/11/02
+
+   AeroデザインのUIに使える軽量なウィンドウ透過ツールが欲しい！
+   そんな俺得であり、他の誰もが得をしない謎需要に答えるために作りました。
+
+   ウィンドウ透過ツールは星の数あるが、ウィンドウのアクティブ状態を高速で切り替え続けると透過状態がおかしくなるものや、高負荷がかかりCPU使用率
+   が上がってしまうものなど、かなり致命的な問題があるものばかり。
+
+   プロセス＼ｱｯｶﾘｰﾝ／では、独自の高速検知アルゴリズムを使用しており、CPU負荷を極限に抑えつつも、アクティブウィンドウ変更後0.1秒前後(
+   体感はほぼ一瞬)で透過状態を確実に更新することができます。
+
+   動作には.NET Framework4.0以上をインストールしたWindows OSである必要があります
+   バージョン          ダウンロード先
+   最新版   [20]プロセス＼ｱｯｶﾘｰﾝ／をダウンロードする
+
+kntexConv
+
+   [21]kntexConvプレビュー画像
+
+   最終更新日：2013/09/17
+
+   くいなちゃん([22]@kuina_ch)が開発した言語、｢Kuin｣に使用するkntexの変換補助アプリです。
+
+   kntexConvを導入すれば、KuinTex.exeにおける制約を無視して様々な形式、様々な解像度の画像ファイルを、手を煩わせることなくkn
+   tex形式に変換することが出来ます。
+
+   性質上、Kuinを入手していることが前提となるアプリです
+   動作には.NET Framework2.0以上をインストールしたWindows OSである必要があります
+   バージョン        ダウンロード先
+   最新版   [23]kntexConvをダウンロードする
+
+Kuin書式設定 for gPad
+
+   [24]Kuin書式設定 for gPadプレビュー画像
+
+   最終更新日：2013/09/17
+
+   くいなちゃん([25]@kuina_ch)が開発した言語、｢Kuin｣で記述するソースコード｢.kn｣の
+   gPad向けのシンタックスハイライターです。
+
+   gPadは、UH([26]@mfactory_uh)さんが作った神テキストエディタです
+   このファイルを使用すればgPadにKuinの書式設定を適用することが出来ます。
+
+   スペシャルサンクス
+   tatt氏([27]@tatt61880) : Kuinの予約語一覧をまとめてくれてる人。作成の参考になりました！
+   AiNl氏([28]@aini_bellwood) : 作成するきっかけになった人。gfmのベースも作ってもらいました！感謝！
+
+   性質上、gPadを入手していることが前提となるアプリです
+   バージョン            ダウンロード先
+   最新版   [29]Kuin書式設定 for gPadをダウンロードする
+
+お絵かき
+
+お品書き
+
+     * [30]ココ千夜
+     * [31]年賀状2016
+     * [32]ココチノtrick
+     * [33]二階堂マリ
+     * [34]水着カレン
+     * [35]魔法少女ココチノ
+     * [36]春がお
+     * [37]E-4with舞風野分
+     * [38]バレンタインがお
+     * [39]晴れ着ぽいぽいちゃん
+     * [40]あれすちゃんはみた
+     * [41]がおさげ
+     * [42]メイド菜々ちゃん！
+     * [43]大鯨ちゃんに餌付けされたい
+     * [44]ご注文はがおですか？
+     * [45]さいきょーがお
+     * [46]がお先生
+     * [47]ぜかまし菜々ちゃん
+     * [48]アナイス誕2013
+     * [49]アナイスアイコン
+     * [50]アナイスウィジェットに使ったアレ
+     * [51]ぴねたんなう
+     * [52]アカネ
+
+リンク集
+
+プログラミング関連
+
+   サイト名 紹介文
+   [53]がおさんち 技術部屋 僕のブログです。めったに更新しませんが、気が向いたときは更新しています。
+   [54]jQuery ブラウザ向けのJSをよりお手軽に記述する神ライブラリのjQueryの公式サイトです。
+   このサイトにも使っています。本当にいつもお世話になっています。
+   [55]heroku Node.jsが動く無料のレンタルサーバーです。うちもここを利用してます。
+   excaleがサービス終了してしまったため、ほぼ最後の生き残りです。感謝しています。
+
+その他細々としたサイト
+
+   サイト名 紹介文
+   [56]fynch このサイトのデザインのベースとなったテンプレートを配布しているサイトです。
+   おかげ様で素敵なサイトが出来ました。ありがとうございます。
+   [57]Tes.So くいなちゃん([58]@kuina_ch)の管理してたSNSサイトです。
+   今はゆーひさん([59]@yuhi_as)が管理してます。
+   僕はTes.So SNSの方にもたまに出没してます。鯖側のプログラミングのお手伝いもしてます。
+   [60]twitter 神。言えることはそれだけです。
+   [61]potato4d.me Potatoさん([62]@potato4d)の個人サイトです。
+   めっちゃデザインセンスが良くて羨ましい・・・！とてもオシャレで素敵なサイトですっ
+   [63]ちとくのホームページ ちとくさん([64]@java_shit)の個人サイトです。
+   プログラミング関係の情報が良く纏まってて参考になります。というか参考になりました！
+   [65]xss.wiki らまっこ氏([66]@llamakko_cafe)が作ったXSSのためのサイトです。
+   XSSについて色々書いている[DEL: こわいサイト :DEL] すごいサイトです。闇の魔術に対する防衛術ですっ
+
+おまけ
+
+おまけとはなんだったのか
+
+   準備中だよっ
+
+[67]がおさんち
+
+NAVIGATION
+
+     * [68]トップ
+     * [69]自己紹介
+     * [70]ツール
+     * [71]お絵かき
+     * [72]リンク
+     * [73]おまけ
+
+HISTORY
+
+   16/01/24 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   16/01/02 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   15/11/26 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   15/11/19 [sketch]
+   イラストにミスがあったので修正しました
+
+   15/11/13 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   15/06/17 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   15/04/06 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   15/03/26 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   15/02/25 [sketch]
+   お絵かきを2枚追加、トップ絵変更しました
+
+   15/01/03 [sketch]
+   お絵かきを2枚追加、トップ絵変更しました
+
+   14/12/10 [tools]
+   がお時計を公開しました
+
+   14/11/08 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   14/11/06 [link]
+   リンクをいくつか追加しました
+
+   14/11/06 [all]
+   herokuにお引越ししたよっ
+
+   14/08/04 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   14/07/14 [all]
+   がお妖精が現れました。
+
+   14/07/09 [all]
+   レスポンシブデザイン！
+
+   14/07/08 [all]
+   サイトリニューアルしました。仮オープン。
+
+   14/06/16 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   14/05/04 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   14/04/04 [sketch]
+   お絵かき追加、トップ絵変更しました
+
+   13/12/13 [sketch]
+   お絵かきページにプレビューを付けました
+
+   13/12/09 [top]
+   トップ絵変更しました
+
+   13/12/01 [sketch]
+   過去絵増やしました。実に恥ずかしい。
+
+   13/10/03 [top]
+   トップ絵変更、その他色々更新しました
+
+   13/09/19 [tools]
+   Kuin書式設定 for gPadを公開しました
+
+   13/09/17 [about]
+   ページを更新
+
+   13/09/17 [tools]
+   kntexConvのバージョンが1.200になりました
+
+   13/09/17 [tools]
+   ページを更新
+
+   13/09/16 [all]
+   サイト仮公開
+
+LAST UPDATE
+
+   JST 16/01/24 13:21:09
+
+   [74]トップに戻る
+
+   presented by [75]@gaogao_9
+   designed by [76]fynch
+
+References
+
+   1. file:///
+   2. file:///#main
+   3. file:///#about
+   4. file:///#tools
+   5. file:///#sketch
+   6. file:///#link
+   7. file:///#tips
+   8. file:///img/topimage.png
+   9. file:///home/mgomez/CS432/A3/source82.txt#gaoClock
+  10. file:///home/mgomez/CS432/A3/source82.txt#nanaWidget
+  11. file:///home/mgomez/CS432/A3/source82.txt#processAkkarin
+  12. file:///home/mgomez/CS432/A3/source82.txt#kntexConv
+  13. file:///home/mgomez/CS432/A3/source82.txt#kuinSyntaxHighlighter_for_gPad
+  14. file:///home/mgomez/CS432/A3/img/gaoClockPrev.png
+  15. http://pronama.github.io/mascot-apps-contest/2014/
+  16. file:///home/mgomez/CS432/A3/tools/gaoClock_v1.000.zip
+  17. file:///home/mgomez/CS432/A3/img/nanaWidgetPrev.png
+  18. file:///home/mgomez/CS432/A3/tools/nanaWidget.zip
+  19. file:///home/mgomez/CS432/A3/img/processAkkarinPrev.png
+  20. file:///home/mgomez/CS432/A3/tools/ProcessAkkarin.zip
+  21. file:///home/mgomez/CS432/A3/img/kntexConvPrev.png
+  22. https://twitter.com/kuina_ch
+  23. file:///home/mgomez/CS432/A3/tools/kntexConv.zip
+  24. file:///home/mgomez/CS432/A3/img/kuinSyntaxHighlighter_for_gPadPrev.png
+  25. https://twitter.com/kuina_ch
+  26. https://twitter.com/mfactory_uh
+  27. https://twitter.com/tatt61880
+  28. https://twitter.com/aini_bellwood
+  29. file:///home/mgomez/CS432/A3/tools/kuinSyntaxHighlighter_for_gPad.zip
+  30. file:///home/mgomez/CS432/A3/sketch/cocochiya.png
+  31. file:///home/mgomez/CS432/A3/sketch/nenga2016.png
+  32. file:///home/mgomez/CS432/A3/sketch/cocochinotrick.png
+  33. file:///home/mgomez/CS432/A3/sketch/nikaidomari.png
+  34. file:///home/mgomez/CS432/A3/sketch/mizugikaren.png
+  35. file:///home/mgomez/CS432/A3/sketch/cocochino.png
+  36. file:///home/mgomez/CS432/A3/sketch/harugao.png
+  37. file:///home/mgomez/CS432/A3/sketch/mainowa.png
+  38. file:///home/mgomez/CS432/A3/sketch/valentinegao.png
+  39. file:///home/mgomez/CS432/A3/sketch/haregippoi.png
+  40. file:///home/mgomez/CS432/A3/sketch/gaosayaxmas.png
+  41. file:///home/mgomez/CS432/A3/sketch/gaosage.png
+  42. file:///home/mgomez/CS432/A3/sketch/maidnana.png
+  43. file:///home/mgomez/CS432/A3/sketch/taigei.png
+  44. file:///home/mgomez/CS432/A3/sketch/gochigao.png
+  45. file:///home/mgomez/CS432/A3/sketch/gaopowerful.png
+  46. file:///home/mgomez/CS432/A3/sketch/gaoteachericon.png
+  47. file:///home/mgomez/CS432/A3/sketch/zekanana.png
+  48. file:///home/mgomez/CS432/A3/sketch/anatan.png
+  49. file:///home/mgomez/CS432/A3/sketch/anaisicon.png
+  50. file:///home/mgomez/CS432/A3/sketch/anaiswidget.png
+  51. file:///home/mgomez/CS432/A3/sketch/pinetannow.png
+  52. file:///home/mgomez/CS432/A3/sketch/akane.png
+  53. http://gao-tec.seesaa.net/
+  54. http://jquery.com/
+  55. https://www.heroku.com/
+  56. http://mint.chobi.net/fynch/
+  57. https://tesso.pw/
+  58. https://twitter.com/kuina_ch
+  59. https://twitter.com/yuhi_as
+  60. https://twitter.com/
+  61. http://potato4d.me/
+  62. https://twitter.com/potato4d
+  63. http://chitoku.jp/
+  64. https://twitter.com/java_shit
+  65. http://xss.wiki/
+  66. https://twitter.com/llamakko_cafe
+  67. file:///
+  68. file:///#main
+  69. file:///#about
+  70. file:///#tools
+  71. file:///#sketch
+  72. file:///#link
+  73. file:///#tips
+  74. file:///#contents
+  75. https://twitter.com/gaogao_9
+  76. http://mint.chobi.net/fynch/

@@ -1,0 +1,3095 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;python&#39; Questions - Geographic Information Systems Stack Exchange</title>
+    <link rel="shortcut icon" href="//cdn.sstatic.net/gis/img/favicon.ico?v=c4fb15381c2d">
+    <link rel="apple-touch-icon image_src" href="//cdn.sstatic.net/gis/img/apple-touch-icon.png?v=5bbd8af2ce1b">
+    <link rel="search" type="application/opensearchdescription+xml" title="Geographic Information Systems Stack Exchange" href="/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@StackGIS" />
+    <meta name="twitter:domain" content="gis.stackexchange.com"/>
+    <meta property="og:type" content="website" />    
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/gis/img/apple-touch-icon@2.png?v=54e3ab1edcf3&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;python&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for cartographers, geographers and GIS professionals" />
+    <meta property="og:url" content="http://gis.stackexchange.com/questions/tagged/python"/>
+
+    
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="//cdn.sstatic.net/Js/stub.en.js?v=5c9e87eb1d9e"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.sstatic.net/gis/all.css?v=78e509c3b8bd">
+
+            <link rel="alternate" type="application/atom+xml" title="newest python questions feed" href="/feeds/tag?tagnames=python&amp;sort=newest" />
+            <script>
+                StackExchange.ready(function() {
+                                StackExchange.realtime.subscribeToActiveQuestions('79', 'questions-newest-tag-python', ['python']);
+
+                });
+            </script>
+
+
+    <script>
+        StackExchange.ready(function () {
+            StackExchange.realtime.init('wss://qa.sockets.stackexchange.com,ws://qa.sockets.stackexchange.com');
+            StackExchange.realtime.subscribeToReputationNotifications('79');
+                StackExchange.realtime.subscribeToTopBarNotifications('79');
+        });
+    </script>
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1455840735,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":false,"domain":"stacksnippets.net"},"site":{"name":"Geographic Information Systems Stack Exchange","description":"Q&A for cartographers, geographers and GIS professionals","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdsB7sSAAAAAAzjgEF_Hd8vXv-C42sa_KyofaGR","recaptchaAudioLang":"en","enableNewTagCreationWarning":false,"insertSpaceAfterNameTabCompletion":false,"id":79,"enableSocialMediaInSharePopup":true},"user":{"fkey":"47acc745ac99b3f95f72b62b1885863f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"realtime":{"newest":true,"active":true,"tagged":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"25bc4c57604b","js/moderator.en.js":"e84155dcbdd7","js/full-anon.en.js":"3db4a1bdf122","js/full.en.js":"12c3adcf2a53","js/wmd.en.js":"f0bb6a4c3221","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"08baf20fb091","js/help.en.js":"c8004cc0095d","js/tageditor.en.js":"30ffe6bdc54c","js/tageditornew.en.js":"d8e917f87983","js/inline-tag-editing.en.js":"314cfb72355b","js/revisions.en.js":"c2bb6b44f707","js/review.en.js":"310c6b670045","js/tagsuggestions.en.js":"1b1fef557065","js/post-validation.en.js":"2c48173020b2","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"bb59b4601c64","js/keyboard-shortcuts.en.js":"19dd5e640761","js/external-editor.en.js":"a2b93f24c78e"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    
+
+
+
+
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="//gis.stackexchange.com">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+            <a href="http://gis.blogoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:7 })"
+>blog</a>
+                    <a href="http://chat.stackexchange.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="//gis.stackexchange.com"
+       class="current-site-link site-link js-gps-track"
+       data-id="79"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-gis" title="Geographic Information Systems"></div>
+        Geographic Information Systems
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.gis.stackexchange.com"
+       class="site-link js-gps-track"
+       data-id="80"
+       data-gps-track="
+            site.switch({ target_site:80, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-gismeta" title="Geographic Information Systems Meta"></div>
+        Geographic Information Systems Meta
+    </a>
+
+                </li>
+                    </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://gis.stackexchange.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fgis.stackexchange.com%2fquestions%2ftagged%2fpython" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://gis.stackexchange.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fgis.stackexchange.com%2fquestions%2ftagged%2fpython" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="//stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="//stackexchange.com"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 153 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://gis.stackexchange.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fgis.stackexchange.com%2fquestions%2ftagged%2fpython" class="login-link">sign up</a>
+                                <a href="https://gis.stackexchange.com/users/login?ssrc=head&returnurl=http%3a%2f%2fgis.stackexchange.com%2fquestions%2ftagged%2fpython" class="login-link">log in</a>
+
+                        <a href="/tour">tour</a>
+                            <a href="#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="//meta.gis.stackexchange.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="Search Q&amp;A" value="[python]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="/" >
+                    Geographic Information Systems
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="/questions">Questions</a></li>
+                        <li><a id="nav-tags" href="/tags">Tags</a></li>
+                        <li><a id="nav-users" href="/users">Users</a></li>
+                        <li><a id="nav-badges" href="/help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="/unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="/tags/python/info" data-nav-xhref="" title="information about this tag" data-value="">
+            info</a>
+        <a class="youarehere" href="/questions/tagged/python?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">
+            newest</a>
+        <a href="/questions/tagged/python?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">
+            frequent</a>
+        <a href="/questions/tagged/python?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">
+            votes</a>
+        <a href="/questions/tagged/python?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">
+            active</a>
+        <a href="/questions/tagged/python?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">
+            unanswered</a>
+</div>
+        </div>
+        <div class="question">
+
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+Python is an open source interpreted programming language used in many GIS programs.                          </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="/tags/python/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="/tags/python/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="/tags/python/synonyms">synonyms</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-181348">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/181348/qgis-docutils-install-path-pythonpath-pythonhome" class="question-hyperlink">QGIS docutils install (path,pythonpath,pythonhome)</a></h3>
+        <div class="excerpt">
+            New to QGIS and Python. Have QGIS installed and working great on Windows, want to install and use Docutils -- Python Documentation Utilities (presumably all simple and small .py programs). 
+
+I see ...
+        </div>          
+        <div class="tags t-qgis t-python t-installation t-python-addin">
+            <a href="/questions/tagged/qgis" class="post-tag" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/installation" class="post-tag" title="show questions tagged &#39;installation&#39;" rel="tag">installation</a> <a href="/questions/tagged/python-addin" class="post-tag" title="show questions tagged &#39;python-addin&#39;" rel="tag">python-addin</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-18 19:12:04Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/65748/rjlabs"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/50a892f643ca688f6bb7d51d684ca33b?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/65748/rjlabs">rjlabs</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">43</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-181231">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/181231/using-leave-one-out-method-on-kriged-data" class="question-hyperlink">Using Leave one out method on kriged data</a></h3>
+        <div class="excerpt">
+            I am looking for a function to do the following.
+
+Given a boundary file, and soil sample points within the boundary I am wanting to use the Leave one out validation technique.
+
+What I mean is create a ...
+        </div>          
+        <div class="tags t-qgis t-python t-r">
+            <a href="/questions/tagged/qgis" class="post-tag" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/r" class="post-tag" title="show questions tagged &#39;r&#39;" rel="tag">r</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-18 03:55:27Z" class="relativetime">20 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/65764/chris-c"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a14b3779e40e54b98d443f20ae4cf739?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/65764/chris-c">Chris C</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-181133">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/181133/qgis-standalone-application-for-map-rendering-bad-extent" class="question-hyperlink">QGIS standalone application for map rendering: bad extent</a></h3>
+        <div class="excerpt">
+            I made a simple standalone QGIS app for rendering a set of layers and export it as a PDF file.  
+
+When i use iface.mapCanvas().mapRenderer() (inside QGIS console) for rendering, my output is OK.
+If i ...
+        </div>          
+        <div class="tags t-qgis t-python t-pyqgis t-qgis-2û12">
+            <a href="/questions/tagged/qgis" class="post-tag" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/pyqgis" class="post-tag" title="show questions tagged &#39;pyqgis&#39;" rel="tag">pyqgis</a> <a href="/questions/tagged/qgis-2.12" class="post-tag" title="show questions tagged &#39;qgis-2.12&#39;" rel="tag">qgis-2.12</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-17 15:27:22Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/67415/kef"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/74e316bc52fc88322451d6eb73a298e3?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/67415/kef">Kef</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">36</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-181129">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="28 views">
+    28 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/181129/how-to-map-geojson-polygon-from-a-url-request-in-python" class="question-hyperlink">How to map geoJSON polygon from a url request in python</a></h3>
+        <div class="excerpt">
+            Using Python I have loaded json data from the url http://environment.data.gov.uk/flood-monitoring/id/floods and have found that the flood areas encoded as geoJSON polygons are displayed as url links.
+
+...
+        </div>          
+        <div class="tags t-python t-polygon t-geojson t-api t-json">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/polygon" class="post-tag" title="show questions tagged &#39;polygon&#39;" rel="tag">polygon</a> <a href="/questions/tagged/geojson" class="post-tag" title="show questions tagged &#39;geojson&#39;" rel="tag">geojson</a> <a href="/questions/tagged/api" class="post-tag" title="show questions tagged &#39;api&#39;" rel="tag">api</a> <a href="/questions/tagged/json" class="post-tag" title="show questions tagged &#39;json&#39;" rel="tag">json</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-17 15:05:59Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/57562/cstone"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/8f9d177dadfc878c6b003d91264ab0bb?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/57562/cstone">cstone</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-181119">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="8 views">
+    8 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/181119/creating-a-3d-numpy-array-matrix-using-append-method" class="question-hyperlink">Creating a 3d numpy array matrix using append method [migrated]</a></h3>
+        <div class="excerpt">
+            Is there a way to create a 3d numpy array by appending 2d numpy arrays? What I currently do is append my 2d numpy array into an initialized list of pre determined 2d numpy array, i.e., ...
+        </div>          
+        <div class="tags t-python t-numpy t-memory t-array">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/numpy" class="post-tag" title="show questions tagged &#39;numpy&#39;" rel="tag">numpy</a> <a href="/questions/tagged/memory" class="post-tag" title="show questions tagged &#39;memory&#39;" rel="tag">memory</a> <a href="/questions/tagged/array" class="post-tag" title="show questions tagged &#39;array&#39;" rel="tag">array</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-17 14:21:43Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/32145/user32145"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a37cd8016c6710a5f2d21c030feb0c03?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/32145/user32145">user32145</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">58</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-181116">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-4</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="28 views">
+    28 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/181116/how-to-write-a-python-code-to-perform-excel-to-table-in-gis" class="question-hyperlink">How to write a python code to perform excel to table in GIS [on hold]</a></h3>
+        <div class="excerpt">
+            I have a folder(C:\GIS DATA) and put all my excel files into that folder. I wanted to write a python script to read all the excel files in GIS and then do excel to table function for all those files ...
+        </div>          
+        <div class="tags t-arcgis-desktop t-python t-arcpy t-import t-excel">
+            <a href="/questions/tagged/arcgis-desktop" class="post-tag" title="show questions tagged &#39;arcgis-desktop&#39;" rel="tag">arcgis-desktop</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/arcpy" class="post-tag" title="show questions tagged &#39;arcpy&#39;" rel="tag">arcpy</a> <a href="/questions/tagged/import" class="post-tag" title="show questions tagged &#39;import&#39;" rel="tag">import</a> <a href="/questions/tagged/excel" class="post-tag" title="show questions tagged &#39;excel&#39;" rel="tag">excel</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-17 14:10:26Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/65003/rayyht"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/95b722962354beca9c16ef95d7c716a3?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/65003/rayyht">rayyht</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-181091">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/181091/checking-for-misclosure-using-python" class="question-hyperlink">Checking for misclosure using python [on hold]</a></h3>
+        <div class="excerpt">
+            I need help in writing a script that will check the shift distance bearing between points of two similar feature classes.
+
+        </div>          
+        <div class="tags t-python">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-17 10:14:00Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/67390/mbiganyi"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/832f8193fcb3396c02ab9bfbc3729ea9?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/67390/mbiganyi">mbiganyi</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-181048">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/181048/how-to-propagate-attributes-down-several-line-features" class="question-hyperlink">How to propagate attributes down several line features?</a></h3>
+        <div class="excerpt">
+            I have a PostGIS database of road features which are split at intersections.  Some of the features on an individual road have certain attribute info (i.e. speed limits) and others do not.  I want to ...
+        </div>          
+        <div class="tags t-arcgis-desktop t-python t-postgis">
+            <a href="/questions/tagged/arcgis-desktop" class="post-tag" title="show questions tagged &#39;arcgis-desktop&#39;" rel="tag">arcgis-desktop</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/postgis" class="post-tag" title="show questions tagged &#39;postgis&#39;" rel="tag">postgis</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-17 01:12:08Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/67354/wmebane"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/12c622c2abd30b41c17f0c1585fd26ae?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/67354/wmebane">wmebane</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">51</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-181031">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/181031/change-shapefile-field-names-using-ogr-alterfielddefn" class="question-hyperlink">Change shapefile field names using ogr AlterFieldDefn</a></h3>
+        <div class="excerpt">
+            I need to change field names of a shapefile to upper case using ogr. I want to do this automatically, versus calling out each field and replacing the name with upper case.  When I try to implement ...
+        </div>          
+        <div class="tags t-python t-shapefile t-ogr t-fields">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/shapefile" class="post-tag" title="show questions tagged &#39;shapefile&#39;" rel="tag">shapefile</a> <a href="/questions/tagged/ogr" class="post-tag" title="show questions tagged &#39;ogr&#39;" rel="tag">ogr</a> <a href="/questions/tagged/fields" class="post-tag" title="show questions tagged &#39;fields&#39;" rel="tag">fields</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-16 20:59:56Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/22335/jtodd"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4047fdb32897b061af406f3ffbfe0ac8?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/22335/jtodd">jtodd</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">23</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-181029">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/181029/gdal-python-tif-not-recognised-a-supported-file-format" class="question-hyperlink">gdal/python: tif not recognised a supported file format</a></h3>
+        <div class="excerpt">
+            I'm trying to open a tif using gdal, read it as a array, do some math, and write it back as a tif.
+
+However, when I try to gdal.Open(tif) in python, I get the error:
+
+RuntimeError: ...
+        </div>          
+        <div class="tags t-python t-gdal t-linux">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/gdal" class="post-tag" title="show questions tagged &#39;gdal&#39;" rel="tag">gdal</a> <a href="/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-16 20:47:26Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/20408/user20408"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/83595184754ff4fa807b31e72a4b7266?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/20408/user20408">user20408</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">153</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180987">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180987/qgis-2-10-adding-layers-to-legend-groups-programatically-fails-ocassionally-wi" class="question-hyperlink">QGIS &gt;2.10: Adding layers to legend groups programatically fails ocassionally with valid layers</a></h3>
+        <div class="excerpt">
+            I'm working in a project in which, for some reasons, the beast approach to handle a certain amount of point/vector/raster layers is to load them all into memory, and keep them in the QGIS legend.
+For ...
+        </div>          
+        <div class="tags t-qgis t-python t-group-layer">
+            <a href="/questions/tagged/qgis" class="post-tag" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/group-layer" class="post-tag" title="show questions tagged &#39;group-layer&#39;" rel="tag">group-layer</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-16 16:28:53Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/67342/haroldh"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/eb9612b0d7f765c99e649d7f3567f0e3?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/67342/haroldh">HaroldH</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180980">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="30 views">
+    30 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180980/openstreetmap-python-api-bounding-box-request" class="question-hyperlink">OpenStreetMap Python API Bounding Box Request</a></h3>
+        <div class="excerpt">
+            I am new to OSM.
+
+When I make an API bounding box call like below:
+
+import overpass
+
+# bounding box coordinates
+min_long = min(longs)
+min_lat = min(lats)
+max_long = max(longs)
+max_lat = max(lats)
+
+# ...
+        </div>          
+        <div class="tags t-python t-openstreetmap t-overpass-api">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/openstreetmap" class="post-tag" title="show questions tagged &#39;openstreetmap&#39;" rel="tag">openstreetmap</a> <a href="/questions/tagged/overpass-api" class="post-tag" title="show questions tagged &#39;overpass-api&#39;" rel="tag">overpass-api</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-16 15:58:14Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/15727/joseph-gutenson"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/449db23f528d054fd766d04c7a4565ed?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/15727/joseph-gutenson">Joseph Gutenson</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">41</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180979">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180979/python-scripting-in-arcmap-is-there-an-easy-way-to-re-compile-py-file" class="question-hyperlink">Python scripting in arcmap - is there an easy way to re-compile py-file</a></h3>
+        <div class="excerpt">
+            in Arcmap 10.2.2 I am editing downloaded toolboxes (not python-toolboxes) by editing the python script in a texteditor. Whenever I restart Arcmap, the Compiled Python File gets updated and I can use ...
+        </div>          
+        <div class="tags t-arcgis-desktop t-python t-arcgis-10û2 t-arctoolbox">
+            <a href="/questions/tagged/arcgis-desktop" class="post-tag" title="show questions tagged &#39;arcgis-desktop&#39;" rel="tag">arcgis-desktop</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/arcgis-10.2" class="post-tag" title="show questions tagged &#39;arcgis-10.2&#39;" rel="tag">arcgis-10.2</a> <a href="/questions/tagged/arctoolbox" class="post-tag" title="show questions tagged &#39;arctoolbox&#39;" rel="tag">arctoolbox</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-16 15:56:46Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/67235/sibrom"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4b3877b8945b1c42e2f508d2f32ccc77?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/67235/sibrom">Sibrom</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180966">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180966/qgis-python-script-adds-populates-a-column-with-the-data-but-the-data-doesnt-a" class="question-hyperlink">QGIS python script adds populates a column with the data, but the data doesn&#39;t appear when the shapefile is opened in ArcGIS</a></h3>
+        <div class="excerpt">
+            I know basic python, but am struggling to learn how to use it with QGIS. I have a polygon shapefile that maps the presence/absence of various species. Each species has a column in the attribute table ...
+        </div>          
+        <div class="tags t-qgis t-python">
+            <a href="/questions/tagged/qgis" class="post-tag" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-16 14:59:07Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/67334/user2980115"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ebccc0609ac47a622b5d2dd44755fcec?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/67334/user2980115">user2980115</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">21</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180961">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180961/how-to-read-a-specific-overview-layer-from-geotiff-file-using-gdal-python" class="question-hyperlink">how to read a specific overview layer from GeoTIFF file using GDAL / Python</a></h3>
+        <div class="excerpt">
+            I know how to create the overviews to a specific geoTIFF file using GDAL ( i have tested it in QGIS), but i cannot find any good information on how to read these overviews individually in python.
+
+...
+        </div>          
+        <div class="tags t-qgis t-python t-gdal t-geotiff">
+            <a href="/questions/tagged/qgis" class="post-tag" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/gdal" class="post-tag" title="show questions tagged &#39;gdal&#39;" rel="tag">gdal</a> <a href="/questions/tagged/geotiff" class="post-tag" title="show questions tagged &#39;geotiff&#39;" rel="tag">geotiff</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-16 14:47:31Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/54556/william"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-M5WyO_ow6cw/AAAAAAAAAAI/AAAAAAAAACU/WYicjLp7i9Q/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/54556/william">William</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">7</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180956">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="67 views">
+    67 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180956/script-to-save-lots-of-shapefiles-into-different-crs-in-qgis" class="question-hyperlink">Script to save lots of shapefiles into different CRS in QGIS</a></h3>
+        <div class="excerpt">
+            I have a lot of shapefiles that I need to save in a different CRS... is it possible to automate this process with a script in QGIS?
+
+        </div>          
+        <div class="tags t-qgis t-python t-pyqgis t-scripting">
+            <a href="/questions/tagged/qgis" class="post-tag" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/pyqgis" class="post-tag" title="show questions tagged &#39;pyqgis&#39;" rel="tag">pyqgis</a> <a href="/questions/tagged/scripting" class="post-tag" title="show questions tagged &#39;scripting&#39;" rel="tag">scripting</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-16 14:26:06Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/49933/bryan-ciceri"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/10204403322707572/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/49933/bryan-ciceri">Bryan Ciceri</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">54</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180933">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180933/how-to-slice-all-elements-in-a-list-to-a-certain-length" class="question-hyperlink">How to slice all elements in a list to a certain length [on hold]</a></h3>
+        <div class="excerpt">
+            Assuming I have a list with multiple strings in there. 
+
+x = ["red", "green", "black", "orange", "purple"]
+
+
+I want to slice every element in the list to a certain length, eg. 4 characters. Then the ...
+        </div>          
+        <div class="tags t-python t-list">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/list" class="post-tag" title="show questions tagged &#39;list&#39;" rel="tag">list</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-16 10:33:44Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/50818/the-chimp"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a04897f904853fc0f799de725a16b525?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/50818/the-chimp">the_chimp</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">128</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180884">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180884/modify-3d-numpy-array-using-interpolation" class="question-hyperlink">Modify 3D numpy array using interpolation</a></h3>
+        <div class="excerpt">
+            I have a 3D array that I want to interpolate the np.nan values along the z dimension, and I just want the changes to modify my existing array. However, the changes seems not to be working. I have a ...
+        </div>          
+        <div class="tags t-python t-interpolation t-numpy">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/interpolation" class="post-tag" title="show questions tagged &#39;interpolation&#39;" rel="tag">interpolation</a> <a href="/questions/tagged/numpy" class="post-tag" title="show questions tagged &#39;numpy&#39;" rel="tag">numpy</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-16 02:46:43Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/32145/user32145"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a37cd8016c6710a5f2d21c030feb0c03?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/32145/user32145">user32145</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">58</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180806">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="43 views">
+    43 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180806/help-with-manipulating-json-to-geojson" class="question-hyperlink">Help with manipulating JSON to geoJSON</a></h3>
+        <div class="excerpt">
+            So i"m basically getting this JSON returned from a REST call (I'm using Python).
+
+[
+  {
+    "ipAddress": "X.X.X.X",
+    "score": "1000",
+
+  }
+]
+
+
+I want to convert this to geoJSON so I can plot the ...
+        </div>          
+        <div class="tags t-python t-geojson">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/geojson" class="post-tag" title="show questions tagged &#39;geojson&#39;" rel="tag">geojson</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-15 14:17:50Z" class="relativetime">Feb 15 at 14:17</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/67189/strobe"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ae4947bfb96b51046ac11d89621152f1?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/67189/strobe">Strobe_</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">18</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180802">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="40 views">
+    40 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180802/show-attribute-table-in-the-form-table-of-contents" class="question-hyperlink">Show attribute table in the form (table of contents)</a></h3>
+        <div class="excerpt">
+            I am building a plugin in a new window with table of contents associated. I have some actions, for example, zoom to extent and others and I want also to show the attribute table.  
+
+I search and find ...
+        </div>          
+        <div class="tags t-qgis t-python">
+            <a href="/questions/tagged/qgis" class="post-tag" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-15 13:56:36Z" class="relativetime">Feb 15 at 13:56</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/22470/b%c3%a1rbara-duarte"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/406736cbf5516dee17ea5bcbbde5b16a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/22470/b%c3%a1rbara-duarte">B&#225;rbara Duarte</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">450</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180776">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180776/get-linestring-length-in-meters-python-geodjango" class="question-hyperlink">Get LineString length in meters (Python, GEODjango)</a></h3>
+        <div class="excerpt">
+            In a Django model, I have a LineString field which holds GPS coordinates of a street route.
+I know that I the .length holds the length of the LineString, but I don't know what unit the returned value ...
+        </div>          
+        <div class="tags t-python t-geodjango t-linestring t-length">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/geodjango" class="post-tag" title="show questions tagged &#39;geodjango&#39;" rel="tag">geodjango</a> <a href="/questions/tagged/linestring" class="post-tag" title="show questions tagged &#39;linestring&#39;" rel="tag">linestring</a> <a href="/questions/tagged/length" class="post-tag" title="show questions tagged &#39;length&#39;" rel="tag">length</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-15 08:31:38Z" class="relativetime">Feb 15 at 8:31</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/60889/paolo-stefan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/bc2b6d74e373d24bec86266a07024806?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/60889/paolo-stefan">Paolo Stefan</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">111</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180728">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180728/how-to-install-xlw-and-xlrd-libraries-on-macos-so-that-qgis-python-can-see-them" class="question-hyperlink">How to install xlw and xlrd libraries on MacOS so that QGIS Python can see them?</a></h3>
+        <div class="excerpt">
+            I experience a problem with XYtools and need to install Excel libraries for Python. I tried to install them directly from the terminal and it worked on the system, however, how to import them into ...
+        </div>          
+        <div class="tags t-qgis t-python t-mac">
+            <a href="/questions/tagged/qgis" class="post-tag" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/mac" class="post-tag" title="show questions tagged &#39;mac&#39;" rel="tag">mac</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-14 19:38:29Z" class="relativetime">Feb 14 at 19:38</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/67202/ntm"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6bd7394a5d87d95562c66c05d2497725?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/67202/ntm">NTM</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">9</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180553">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="35 views">
+    35 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180553/convert-csv-file-format-to-breakline-csv-format-file" class="question-hyperlink">Convert CSV file format to Breakline CSV format file [closed]</a></h3>
+        <div class="excerpt">
+            I have a csv file with almost 36000 rows.The format of csv file is 
+x,y,Polygon number, Z
+
+I would like to arrange this csv file in the below mentioned format. Let’s say in this example, Polygon ...
+        </div>          
+        <div class="tags t-python t-r">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/r" class="post-tag" title="show questions tagged &#39;r&#39;" rel="tag">r</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-12 15:21:37Z" class="relativetime">Feb 12 at 15:21</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/50687/accedesoft"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/2R8dL.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/50687/accedesoft">accedesoft</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">69</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180534">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="37 views">
+    37 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180534/merge-rgb-band-using-python" class="question-hyperlink">Merge RGB band using python</a></h3>
+        <div class="excerpt">
+            I need to merge the RGB bands of three TIFF images. I'm trying to use a PIL library (Python Imaging Library), but this execution error happens:
+
+
+  Traceback (most recent call last):   File ...
+        </div>          
+        <div class="tags t-python t-rgb">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/rgb" class="post-tag" title="show questions tagged &#39;rgb&#39;" rel="tag">rgb</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-12 13:07:02Z" class="relativetime">Feb 12 at 13:07</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/67099/nicole-oliveira"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-B7X_W9L8nqM/AAAAAAAAAAI/AAAAAAAAATc/cjzNh5_TYdA/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/67099/nicole-oliveira">Nicole Oliveira</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180524">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>4</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="85 views">
+    85 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180524/problem-editing-a-vector-layer-qgis" class="question-hyperlink">Problem Editing a Vector Layer QGIS</a></h3>
+        <div class="excerpt">
+            I have a vector layer which I need to load and edit (add several attribute columns). I am doing this without opening QGIS, so within a python script. I have the following piece of code for the layer ...
+        </div>          
+        <div class="tags t-qgis t-python t-pyqgis">
+            <a href="/questions/tagged/qgis" class="post-tag" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/pyqgis" class="post-tag" title="show questions tagged &#39;pyqgis&#39;" rel="tag">pyqgis</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-12 11:39:41Z" class="relativetime">Feb 12 at 11:39</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/55181/eld"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2dbe279de01c04dbdd7fb80d4c2ecc12?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/55181/eld">ELD</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">116</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180494">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180494/unable-to-call-otbapplication-from-python" class="question-hyperlink">Unable to call otbApplication from python</a></h3>
+        <div class="excerpt">
+            I have been tryng to use some of OTB functions from python, but i am unable to import the module (otbApplication), even after to adding the PYTHONPATH to my basrc file. I am working in Ubuntu14.04, ...
+        </div>          
+        <div class="tags t-python t-ubuntu t-orfeo-toolbox">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/ubuntu" class="post-tag" title="show questions tagged &#39;ubuntu&#39;" rel="tag">ubuntu</a> <a href="/questions/tagged/orfeo-toolbox" class="post-tag" title="show questions tagged &#39;orfeo-toolbox&#39;" rel="tag">orfeo-toolbox</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-12 06:49:57Z" class="relativetime">Feb 12 at 6:49</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/44680/opengisapprendice"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/Zq10x.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/44680/opengisapprendice">opengisapprendice</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">36</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180467">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-4</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="42 views">
+    42 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180467/need-help-on-this-piece-of-python-code" class="question-hyperlink">Need help on this piece of Python code [closed]</a></h3>
+        <div class="excerpt">
+            why this code doesn't work? It work if I replace R6G to G and m[0:3] to m[2].
+
+def n(m):
+ if "R6G" in str(m[0:3]):
+  return '60_Green'
+else:
+  return 'No Match'
+
+
+        </div>          
+        <div class="tags t-python">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-11 21:21:26Z" class="relativetime">Feb 11 at 21:21</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/54488/koush"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-26xIR4X8Cuc/AAAAAAAAAAI/AAAAAAAAADc/NLa25v_D0Gw/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/54488/koush">Koush</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180451">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="49 views">
+    49 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180451/how-to-read-shapefile-faster-using-python-basemap-and-pickle" class="question-hyperlink">How to read shapefile faster using python basemap (and pickle)?</a></h3>
+        <div class="excerpt">
+            I am trying to plot a simple 'merc' map with boundary from shape file. The total size of the shape file ne_10m_admin_0_countries_lakes.shp is just 8mb. The simple mslp surface plot from GFS data took ...
+        </div>          
+        <div class="tags t-python t-matplotlib t-matplotlib-basemap">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/matplotlib" class="post-tag" title="show questions tagged &#39;matplotlib&#39;" rel="tag">matplotlib</a> <a href="/questions/tagged/matplotlib-basemap" class="post-tag" title="show questions tagged &#39;matplotlib-basemap&#39;" rel="tag">matplotlib-basemap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-11 17:49:44Z" class="relativetime">Feb 11 at 17:49</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/67048/sundar-ima"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1ba353103fceeebec5c2f7805244d82d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/67048/sundar-ima">sundar_ima</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">101</span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180415">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180415/problem-with-read-shp-in-networkx" class="question-hyperlink">Problem with read_shp() in NetworkX</a></h3>
+        <div class="excerpt">
+            I'm trying to convert a shapefile of only line geometry (a street network) to a NetworkX graph to run some connectivity algorithms on it. I'm running into this issue: 
+
+File ...
+        </div>          
+        <div class="tags t-python t-shapefile t-ogr t-networkx">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/shapefile" class="post-tag" title="show questions tagged &#39;shapefile&#39;" rel="tag">shapefile</a> <a href="/questions/tagged/ogr" class="post-tag" title="show questions tagged &#39;ogr&#39;" rel="tag">ogr</a> <a href="/questions/tagged/networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-11 14:58:27Z" class="relativetime">Feb 11 at 14:58</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/67033/jdg"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1d614f46c2cda44a7a1c8e6764ddc217?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/67033/jdg">jdg</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180332">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="61 views">
+    61 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180332/arcgis-python-library-arcpy-are-imported-so-long" class="question-hyperlink">ArcGis&#39; python library (arcpy) are imported so long</a></h3>
+        <div class="excerpt">
+            
+python -c import time; t1 = time.clock(); import arcpy; print('{0} seconds'.format(time.clock() - t1))
+3.60283379862 seconds
+
+
+It takes this long each time i launch my script or test. 
+
+Is there any ...
+        </div>          
+        <div class="tags t-python t-arcpy t-import t-windows">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/arcpy" class="post-tag" title="show questions tagged &#39;arcpy&#39;" rel="tag">arcpy</a> <a href="/questions/tagged/import" class="post-tag" title="show questions tagged &#39;import&#39;" rel="tag">import</a> <a href="/questions/tagged/windows" class="post-tag" title="show questions tagged &#39;windows&#39;" rel="tag">windows</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-11 05:00:04Z" class="relativetime">Feb 11 at 5:00</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/50121/doctor-coder"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ecacb838044ea185a08dd19a18ea2881?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/50121/doctor-coder">Doctor Coder</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">19</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180239">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180239/gdal-python-how-to-extract-a-cutline-from-vrt-file-in-world-coordinates" class="question-hyperlink">GDAL Python: how to extract a cutline from VRT file in world coordinates?</a></h3>
+        <div class="excerpt">
+            I'm trying to extract the world coordinates of a cutline (clipping polygon) in a GDAL VRT file. Unfortunately, the cutline is stored in image coordinates (pixels), and i could not find the right ...
+        </div>          
+        <div class="tags t-python t-gdal">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/gdal" class="post-tag" title="show questions tagged &#39;gdal&#39;" rel="tag">gdal</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-10 16:58:52Z" class="relativetime">Feb 10 at 16:58</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/45404/christoph"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/23c3462a9db6b7ff65b6b8a792835806?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/45404/christoph">christoph</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">69</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180211">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="94 views">
+    94 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180211/packagelayer-management-failing-within-script-needs-to-run-outside-of-an-arcmap" class="question-hyperlink">PackageLayer_management failing within script, needs to run outside of an ArcMap session</a></h3>
+        <div class="excerpt">
+            I'm automating a workflow that requires outputting a layer package, it throws the general ERROR 999999 when executing and breaks.  It does, however, generate a folder in the correct directory, with ...
+        </div>          
+        <div class="tags t-arcgis-desktop t-python t-arcpy t-layer-package">
+            <a href="/questions/tagged/arcgis-desktop" class="post-tag" title="show questions tagged &#39;arcgis-desktop&#39;" rel="tag">arcgis-desktop</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/arcpy" class="post-tag" title="show questions tagged &#39;arcpy&#39;" rel="tag">arcpy</a> <a href="/questions/tagged/layer-package" class="post-tag" title="show questions tagged &#39;layer-package&#39;" rel="tag">layer-package</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-10 15:01:24Z" class="relativetime">Feb 10 at 15:01</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/60536/steven-ferronato"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/bde9ed35dd300f1414e3ea7bb5ceb801?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/60536/steven-ferronato">Steven Ferronato</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">149</span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180173">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180173/choosing-the-right-region-of-interest" class="question-hyperlink">Choosing the right region of interest [closed]</a></h3>
+        <div class="excerpt">
+            I am using this code in order to track the dog in this video. At first it seems to work but then window cannot follow the dog. 
+
+
+
+I think the problem is the region of the window. I set the variables ...
+        </div>          
+        <div class="tags t-python">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-10 12:06:56Z" class="relativetime">Feb 10 at 12:06</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/59152/g-f-l"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/8ad9e495c3328a4c66ea93cb655976cb?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/59152/g-f-l">g.f.l</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">40</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180154">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="35 views">
+    35 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180154/how-to-calculate-a-curve-distance-between-two-xyz-points" class="question-hyperlink">How to calculate a curve distance between two xyz points?</a></h3>
+        <div class="excerpt">
+            I have a curve surface (example is attached). 
+Each node has its own coordinate in geographic system (longitude,latitude and depth). I want to calculate a distance between two nodes (from the one on ...
+        </div>          
+        <div class="tags t-python">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-10 10:23:19Z" class="relativetime">Feb 10 at 10:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/66930/rinosalman"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/76d883692157faef18caa866aa54ac63?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/66930/rinosalman">rinosalman</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180145">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180145/encode-an-azimuthal-equidistant-projection-in-netcdf-conversion" class="question-hyperlink">Encode an azimuthal equidistant projection in NetCDF conversion</a></h3>
+        <div class="excerpt">
+            I'm trying to do Azimuthal Equidistant in CF-compliant NetCDF, but I didn't get the correct projection.
+If you compare the first two information (gdalinfo) you see there is no AUTHORITY and also ...
+        </div>          
+        <div class="tags t-python t-gdal t-projection t-geotiff t-netcdf">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/gdal" class="post-tag" title="show questions tagged &#39;gdal&#39;" rel="tag">gdal</a> <a href="/questions/tagged/projection" class="post-tag" title="show questions tagged &#39;projection&#39;" rel="tag">projection</a> <a href="/questions/tagged/geotiff" class="post-tag" title="show questions tagged &#39;geotiff&#39;" rel="tag">geotiff</a> <a href="/questions/tagged/netcdf" class="post-tag" title="show questions tagged &#39;netcdf&#39;" rel="tag">netcdf</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-10 09:38:05Z" class="relativetime">Feb 10 at 9:38</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/65312/mk83"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/MZyY4.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/65312/mk83">MK83</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">70</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180098">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="42 views">
+    42 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180098/cut-a-linear-feature-according-to-the-directions-or-azimuths" class="question-hyperlink">Cut a linear feature according to the directions or azimuths</a></h3>
+        <div class="excerpt">
+            I have a shapefile linear that contains a single items as in the image and I want to divide it into several section respecting the azimuth and the line direction.
+
+
+
+i have this code :
+
+    import os
+ ...
+        </div>          
+        <div class="tags t-python t-polyline t-shapely t-fiona t-azimuth">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/polyline" class="post-tag" title="show questions tagged &#39;polyline&#39;" rel="tag">polyline</a> <a href="/questions/tagged/shapely" class="post-tag" title="show questions tagged &#39;shapely&#39;" rel="tag">shapely</a> <a href="/questions/tagged/fiona" class="post-tag" title="show questions tagged &#39;fiona&#39;" rel="tag">fiona</a> <a href="/questions/tagged/azimuth" class="post-tag" title="show questions tagged &#39;azimuth&#39;" rel="tag">azimuth</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-10 01:48:16Z" class="relativetime">Feb 10 at 1:48</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/66691/wissam-jeddi"><div class="gravatar-wrapper-32"><img src="https://lh5.googleusercontent.com/-Fs3QeEs8XbA/AAAAAAAAAAI/AAAAAAAAAM0/OJOPyN9ATw4/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/66691/wissam-jeddi">Wissam Jeddi</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">14</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-180010">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/180010/extracting-gdb-files-from-zips-if-exist-rename-and-move-if-not-just-move-p" class="question-hyperlink">Extracting GDB files from zips - If exist, rename and move: If not, just move. Python [migrated]</a></h3>
+        <div class="excerpt">
+            Currently trying to develop a catch all script that when pointed to a folder it will look through all of the subfolders and anything that is a .gdb will be moved to a new folder, if the GDB files have ...
+        </div>          
+        <div class="tags t-python t-shell">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/shell" class="post-tag" title="show questions tagged &#39;shell&#39;" rel="tag">shell</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-09 14:10:34Z" class="relativetime">Feb 9 at 14:10</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/66802/chris-dixon"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/510485462/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/66802/chris-dixon">Chris Dixon</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179976">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="37 views">
+    37 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179976/calculate-field-throws-an-error-when-parsing-python-with-backslashes" class="question-hyperlink">Calculate Field throws an error when parsing python with backslashes</a></h3>
+        <div class="excerpt">
+            I have an FTP I need to access through a python script.  It works fine with forward slashes, but I don't need it to be read as an html. Below are both sets of code:
+
+Working:
+
+...
+        </div>          
+        <div class="tags t-python t-arcpy t-arcgis-10û1 t-python-parser">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/arcpy" class="post-tag" title="show questions tagged &#39;arcpy&#39;" rel="tag">arcpy</a> <a href="/questions/tagged/arcgis-10.1" class="post-tag" title="show questions tagged &#39;arcgis-10.1&#39;" rel="tag">arcgis-10.1</a> <a href="/questions/tagged/python-parser" class="post-tag" title="show questions tagged &#39;python-parser&#39;" rel="tag">python-parser</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-09 11:51:08Z" class="relativetime">Feb 9 at 11:51</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/60536/steven-ferronato"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/bde9ed35dd300f1414e3ea7bb5ceb801?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/60536/steven-ferronato">Steven Ferronato</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">149</span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179933">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>5</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="50 views">
+    50 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179933/stacking-vector-layers-in-tilestache" class="question-hyperlink">Stacking Vector Layers in TileStache</a></h3>
+        <div class="excerpt">
+            I am serving several vector tile layers of different geometries (point, line &amp; polygon) in TileStache using VecTiles:Provider,
+ with this cfgfile:
+
+
+{
+  "cache":
+  {
+    "name": "DISK",
+    ...
+        </div>          
+        <div class="tags t-python t-tilestache t-vector-tiles t-stack t-composite">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/tilestache" class="post-tag" title="show questions tagged &#39;tilestache&#39;" rel="tag">tilestache</a> <a href="/questions/tagged/vector-tiles" class="post-tag" title="show questions tagged &#39;vector-tiles&#39;" rel="tag">vector-tiles</a> <a href="/questions/tagged/stack" class="post-tag" title="show questions tagged &#39;stack&#39;" rel="tag">stack</a> <a href="/questions/tagged/composite" class="post-tag" title="show questions tagged &#39;composite&#39;" rel="tag">composite</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-09 05:21:52Z" class="relativetime">Feb 9 at 5:21</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/64540/hasan-mustafa"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/aa7fe2a918fb0ea1b6132e9d83f8cf36?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/64540/hasan-mustafa">Hasan Mustafa</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">607</span><span title="18 bronze badges"><span class="badge3"></span><span class="badgecount">18</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179901">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="64 views">
+    64 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179901/cant-write-decimal-data-into-shape-shp-attribute-table-with-python" class="question-hyperlink">Can&#39;t write decimal data into shape (shp) attribute table with Python</a></h3>
+        <div class="excerpt">
+            I am trying to create a shapefile with Python GDAL/OGR library. I add to it a real number field, but when I write into it doesn't appear as it should but rounded. I will explain better with the code:
+
+...
+        </div>          
+        <div class="tags t-python t-gdal t-ogr">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/gdal" class="post-tag" title="show questions tagged &#39;gdal&#39;" rel="tag">gdal</a> <a href="/questions/tagged/ogr" class="post-tag" title="show questions tagged &#39;ogr&#39;" rel="tag">ogr</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-08 18:21:28Z" class="relativetime">Feb 8 at 18:21</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/23470/rodrigo-e-principe"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/20bc48cf4f951a91f9617022ba913acd?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/23470/rodrigo-e-principe">Rodrigo E. Principe</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">43</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179884">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="51 views">
+    51 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179884/moving-file-geodatabases-in-python-without-arcpy" class="question-hyperlink">Moving file geodatabases in python without ArcPy</a></h3>
+        <div class="excerpt">
+            Please find my script below currently all i'm wanting to do is iterate through a folder and any subfolders extracting anything that is a .gdb directory + its contents to a new folder.
+
+import shutil, ...
+        </div>          
+        <div class="tags t-python t-file-geodatabase">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/file-geodatabase" class="post-tag" title="show questions tagged &#39;file-geodatabase&#39;" rel="tag">file-geodatabase</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-08 16:10:56Z" class="relativetime">Feb 8 at 16:10</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/66802/chris-dixon"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/510485462/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/66802/chris-dixon">Chris Dixon</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179843">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="33 views">
+    33 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179843/importing-several-raster-layers-doing-manipulations-and-exporting-the-newly-sav" class="question-hyperlink">Importing Several Raster Layers, Doing Manipulations and Exporting The Newly Saved Rasters</a></h3>
+        <div class="excerpt">
+            I have the following code: 
+
+src_ds = gdal.Open("/home/usr/Desktop/RasterFolder/Name.tif")
+if src_ds is None: 
+    print 'Unable to open %s' % src_filename
+    sys.exit(1) 
+myarray = ...
+        </div>          
+        <div class="tags t-qgis t-python t-pyqgis">
+            <a href="/questions/tagged/qgis" class="post-tag" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/pyqgis" class="post-tag" title="show questions tagged &#39;pyqgis&#39;" rel="tag">pyqgis</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-08 10:57:43Z" class="relativetime">Feb 8 at 10:57</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/55181/eld"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2dbe279de01c04dbdd7fb80d4c2ecc12?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/55181/eld">ELD</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">116</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179814">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179814/analysing-height-data-using-dem" class="question-hyperlink">analysing height data using dem [duplicate]</a></h3>
+        <div class="excerpt">
+            i ran the following code on python 2.7:
+
+import sys, struct
+from osgeo import gdal
+from osgeo import gdalconst
+
+minLat = -48
+maxLat = -33
+minLong = 165
+maxLong = 179
+
+dataset = ...
+        </div>          
+        <div class="tags t-python t-postgis">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/postgis" class="post-tag" title="show questions tagged &#39;postgis&#39;" rel="tag">postgis</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-08 07:01:50Z" class="relativetime">Feb 8 at 7:01</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/66763/vishal-srivastava"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0f376fab1c2d72c76989111d2975205a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/66763/vishal-srivastava">vishal srivastava</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">6</span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179811">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="43 views">
+    43 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179811/analyze-height-data-using-a-digital-elevation-map" class="question-hyperlink">Analyze height data using a digital elevation map</a></h3>
+        <div class="excerpt">
+            i ran the following code on python 2.7:
+
+import sys, struct
+from osgeo import gdal
+from osgeo import gdalconst
+
+minLat = -48
+maxLat = -33
+minLong = 165
+maxLong = 179
+
+dataset = ...
+        </div>          
+        <div class="tags t-python t-gdal">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/gdal" class="post-tag" title="show questions tagged &#39;gdal&#39;" rel="tag">gdal</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-08 06:38:14Z" class="relativetime">Feb 8 at 6:38</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/66763/vishal-srivastava"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0f376fab1c2d72c76989111d2975205a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/66763/vishal-srivastava">vishal srivastava</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">6</span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179790">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="34 views">
+    34 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179790/lookup-projection-name-from-epsg-with-pyproj" class="question-hyperlink">Lookup Projection Name from EPSG with pyproj</a></h3>
+        <div class="excerpt">
+            Is it possible to programmatically lookup a projection's name (e.g. Albers Equal-Area) from its EPSG using pyproj?  
+
+I see pyproj.pj_list, but it does not contain a mapping to the EPSG.
+
+        </div>          
+        <div class="tags t-python t-projû4 t-pyproj">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/proj.4" class="post-tag" title="show questions tagged &#39;proj.4&#39;" rel="tag">proj.4</a> <a href="/questions/tagged/pyproj" class="post-tag" title="show questions tagged &#39;pyproj&#39;" rel="tag">pyproj</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-07 23:21:17Z" class="relativetime">Feb 7 at 23:21</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/3398/bcollins"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/cyqad.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/3398/bcollins">bcollins</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1,708</span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="21 bronze badges"><span class="badge3"></span><span class="badgecount">21</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179759">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179759/qt-textlineedit-retrieve-string-instead-of-qstring" class="question-hyperlink">Qt TextLineEdit: Retrieve string instead of QString [migrated]</a></h3>
+        <div class="excerpt">
+            I am using Qt and want to get string from text field. I found below solution but it returns a QString. I just want to avoid writing extra code to extract string further. Can anyone suggest a simple ...
+        </div>          
+        <div class="tags t-python t-qt t-pyqt">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/qt" class="post-tag" title="show questions tagged &#39;qt&#39;" rel="tag">qt</a> <a href="/questions/tagged/pyqt" class="post-tag" title="show questions tagged &#39;pyqt&#39;" rel="tag">pyqt</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-07 12:23:39Z" class="relativetime">Feb 7 at 12:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/66738/user66738"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/8ae45f8d520414fe02b76f715742ca8f?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/66738/user66738">user66738</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179741">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="43 views">
+    43 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179741/convert-wgs84-coordinates-to-ecef-cartasian-xyz-coordinates-using-pyproj" class="question-hyperlink">Convert WGS84 coordinates to ECEF Cartasian (XYZ) coordinates using pyproj</a></h3>
+        <div class="excerpt">
+            I need to convert WGS84 to ECEF to map some points to a 3D sphere. I've trawled through the pyproj docs, but can't find specifics on the matter. Basically I want to input the WGS84 GPS lon/lat ...
+        </div>          
+        <div class="tags t-python t-wgs84 t-pyproj">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/wgs84" class="post-tag" title="show questions tagged &#39;wgs84&#39;" rel="tag">wgs84</a> <a href="/questions/tagged/pyproj" class="post-tag" title="show questions tagged &#39;pyproj&#39;" rel="tag">pyproj</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-07 03:35:29Z" class="relativetime">Feb 7 at 3:35</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/66732/oblivian"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/76f7f05c1231bb102149cbb0373d0187?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/66732/oblivian">oblivian</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179670">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="28 views">
+    28 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179670/python-distance-between-a-point-and-a-list-of-segments" class="question-hyperlink">(python) distance between a point and a list of segments</a></h3>
+        <div class="excerpt">
+            I have a line (made of multiple adjacent segments) and a set of points, and I want to find all the points which are within a given distance (40m mainly but could change) from that line.
+
+segments ...
+        </div>          
+        <div class="tags t-python">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-06 00:02:35Z" class="relativetime">Feb 6 at 0:02</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/66695/sandro-tosi"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/16afbe4d5f7d86de8aa279adae4945d4?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/66695/sandro-tosi">Sandro Tosi</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179597">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="42 views">
+    42 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179597/adding-a-field-to-a-feature-class-using-python" class="question-hyperlink">Adding a Field to a Feature Class using Python</a></h3>
+        <div class="excerpt">
+            I'm trying to create a script that adds an integer field to a File GDB, calculates it, buffers it, then clips it to a different GDB featureclass. Can anyone help me, I'm stuck so far!? I'll provide my ...
+        </div>          
+        <div class="tags t-python t-arcpy t-pyscripter">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/arcpy" class="post-tag" title="show questions tagged &#39;arcpy&#39;" rel="tag">arcpy</a> <a href="/questions/tagged/pyscripter" class="post-tag" title="show questions tagged &#39;pyscripter&#39;" rel="tag">pyscripter</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-05 14:58:45Z" class="relativetime">Feb 5 at 14:58</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/66661/maria-m"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f6fcab5b849d79baf509403622495aac?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/66661/maria-m">Maria M.</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">4</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-179590">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/179590/grass-parser-error" class="question-hyperlink">GRASS parser() error</a></h3>
+        <div class="excerpt">
+            I'm trying to use GRASS on python 2.7, but I'm having some problems at setting my script on IDLE, then I'm getting an error at parser() function:
+
+Here is my script:
+
+import os
+import sys
+
+gisbase = ...
+        </div>          
+        <div class="tags t-python t-grass">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/grass" class="post-tag" title="show questions tagged &#39;grass&#39;" rel="tag">grass</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-05 14:23:00Z" class="relativetime">Feb 5 at 14:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/66657/mr-felix"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/oEY6z.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/66657/mr-felix">Mr. Felix</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">101</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+        </div>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="/questions/tagged/python?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="/questions/tagged/python?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="/questions/tagged/python?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="/questions/tagged/python?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="/questions/tagged/python?page=108&amp;sort=newest" title="go to page 108"> <span class="page-numbers">108</span> </a> 
+        <a href="/questions/tagged/python?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="/feeds/tag?tagnames=python&amp;sort=newest" title="the 30 newest python questions">
+            <span class="feed-icon"></span>newest python questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">5,360</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="/tags/python/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+
+        
+        
+        
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="/questions/tagged/arcpy" class="post-tag no-tag-menu" title="show questions tagged &#39;arcpy&#39;" rel="tag">arcpy</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1352</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/qgis" class="post-tag no-tag-menu" title="show questions tagged &#39;qgis&#39;" rel="tag">qgis</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1209</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/arcgis-desktop" class="post-tag no-tag-menu" title="show questions tagged &#39;arcgis-desktop&#39;" rel="tag">arcgis-desktop</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1175</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/pyqgis" class="post-tag no-tag-menu" title="show questions tagged &#39;pyqgis&#39;" rel="tag">pyqgis</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">501</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/gdal" class="post-tag no-tag-menu" title="show questions tagged &#39;gdal&#39;" rel="tag">gdal</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">459</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/arcgis-10.0" class="post-tag no-tag-menu" title="show questions tagged &#39;arcgis-10.0&#39;" rel="tag">arcgis-10.0</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">409</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/arcgis-10.1" class="post-tag no-tag-menu" title="show questions tagged &#39;arcgis-10.1&#39;" rel="tag">arcgis-10.1</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">369</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/raster" class="post-tag no-tag-menu" title="show questions tagged &#39;raster&#39;" rel="tag">raster</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">246</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/field-calculator" class="post-tag no-tag-menu" title="show questions tagged &#39;field-calculator&#39;" rel="tag">field-calculator</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">238</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/arcmap" class="post-tag no-tag-menu" title="show questions tagged &#39;arcmap&#39;" rel="tag">arcmap</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">205</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/arcgis-10.2" class="post-tag no-tag-menu" title="show questions tagged &#39;arcgis-10.2&#39;" rel="tag">arcgis-10.2</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">204</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/shapefile" class="post-tag no-tag-menu" title="show questions tagged &#39;shapefile&#39;" rel="tag">shapefile</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">192</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/ogr" class="post-tag no-tag-menu" title="show questions tagged &#39;ogr&#39;" rel="tag">ogr</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">181</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/qgis-plugins" class="post-tag no-tag-menu" title="show questions tagged &#39;qgis-plugins&#39;" rel="tag">qgis-plugins</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">178</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/scripting" class="post-tag no-tag-menu" title="show questions tagged &#39;scripting&#39;" rel="tag">scripting</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">146</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/modelbuilder" class="post-tag no-tag-menu" title="show questions tagged &#39;modelbuilder&#39;" rel="tag">modelbuilder</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">143</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/postgis" class="post-tag no-tag-menu" title="show questions tagged &#39;postgis&#39;" rel="tag">postgis</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">129</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/geoprocessing" class="post-tag no-tag-menu" title="show questions tagged &#39;geoprocessing&#39;" rel="tag">geoprocessing</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">128</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/shapely" class="post-tag no-tag-menu" title="show questions tagged &#39;shapely&#39;" rel="tag">shapely</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">102</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/grass" class="post-tag no-tag-menu" title="show questions tagged &#39;grass&#39;" rel="tag">grass</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">84</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/arcgis-server" class="post-tag no-tag-menu" title="show questions tagged &#39;arcgis-server&#39;" rel="tag">arcgis-server</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">69</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/r" class="post-tag no-tag-menu" title="show questions tagged &#39;r&#39;" rel="tag">r</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">67</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/polygon" class="post-tag no-tag-menu" title="show questions tagged &#39;polygon&#39;" rel="tag">polygon</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">66</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/error" class="post-tag no-tag-menu" title="show questions tagged &#39;error&#39;" rel="tag">error</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">62</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/numpy" class="post-tag no-tag-menu" title="show questions tagged &#39;numpy&#39;" rel="tag">numpy</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">62</span></span>
+        </div>
+        <a href="#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="//stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/63440/what-is-the-point-of-listing-1000-authors-for-a-single-scientific-paper" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the point of listing 1000 authors for a single scientific paper?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/308252/what-is-the-term-describing-the-condition-of-being-oversaturated-with-informatio" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the term describing the condition of being oversaturated with information?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/218001/ltspice-power-supply-simulation-what-is-wrong-with-it" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    LTSpice power supply simulation: what is wrong with it?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/27619/why-would-one-willingly-while-life-away" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:559 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why Would One Willingly While Life Away?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/27580/ten-girls-around-a-table" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:559 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Ten girls around a table
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-economics" title="Economics Stack Exchange"></div><a href="http://economics.stackexchange.com/questions/10742/why-do-celebrities-get-high-wages" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:591 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why do celebrities get high wages?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/120385/replace-space-with-20" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Replace space with %20
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="http://workplace.stackexchange.com/questions/62251/my-colleagues-feel-that-i-go-into-discussions-too-aggressively-how-do-i-fix-th" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    My colleagues feel that I go into discussions too aggressively - how do I fix this?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-dba" title="Database Administrators Stack Exchange"></div><a href="http://dba.stackexchange.com/questions/129710/can-i-defer-a-configuration-change-until-the-next-time-sql-server-is-restarted" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:182 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Can I defer a configuration change until the next time SQL Server is restarted?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/119845/who-are-these-people-at-deadpools-wedding" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Who are these people at Deadpool&#39;s wedding?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-gamedev" title="Game Development Stack Exchange"></div><a href="http://gamedev.stackexchange.com/questions/116832/random-number-in-a-range-biased-toward-the-low-end-of-the-range" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:53 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Random number in a range, biased toward the low end of the range
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/27610/a-scary-oracle-who-am-i" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:559 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    A scary oracle - who am I?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/63609/should-i-be-credited-for-my-programming-contribution-to-a-dissertation" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Should I be credited for my programming contribution to a dissertation?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/73297/output-all-the-white-or-black-squares-of-a-chessboard" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Output all the white or black squares of a chessboard
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/36280/renewable-energy-in-space" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Renewable energy in space
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/75856/can-a-giant-fire-beetle-choose-to-not-emit-light" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Can a Giant Fire Beetle choose to not emit light?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/294561/using-textbf-vs-mathbf-in-math-mode" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Using \textbf vs. \mathbf in Math mode
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/81628/is-there-a-word-or-slang-word-to-call-a-girl-who-loves-brand-products" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is there a word or slang word to call a girl who loves brand products?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-askubuntu" title="Ask Ubuntu"></div><a href="http://askubuntu.com/questions/736113/how-can-i-get-my-laptops-monitor-size" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:89 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How can I get my laptop&#39;s monitor size?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-arduino" title="Arduino Stack Exchange"></div><a href="http://arduino.stackexchange.com/questions/20836/ifserial-not-working-correctly-on-micro-or-pro-micro" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:540 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    if(Serial) not working correctly on micro or pro micro
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="http://money.stackexchange.com/questions/60574/reporting-income-under-600-to-irs-when-no-1099-misc-issued" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:93 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Reporting Income Under $600 to IRS When No 1099 MISC Issued
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="http://superuser.com/questions/1042330/can-the-server-admin-see-what-i-copy-via-scp" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:3 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Can the server admin see what I copy via SCP?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-movies" title="Movies &amp; TV Stack Exchange"></div><a href="http://movies.stackexchange.com/questions/48952/movie-where-various-people-gain-powers-such-as-seeing-the-future-and-healing-dis" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:367 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Movie where various people gain powers such as seeing the future and healing diseases
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-musicfans" title="Music Fans Stack Exchange"></div><a href="http://musicfans.stackexchange.com/questions/3049/why-do-guitarists-use-different-gear-in-the-studio-than-when-playing-live" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:601 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why do guitarists use different gear in the studio than when playing live?
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                    <a href="http://stackoverflow.com/company/about">about us</a>
+                        <a href="/tour">tour</a>
+                    <a href="/help">help</a>
+                    <a href="http://gis.blogoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackexchange.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackoverflow.com/company/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="/contact">contact us</a></b>
+                        <b><a href="http://meta.gis.stackexchange.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="//stackoverflow.com" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="//serverfault.com" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="//superuser.com" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="//webapps.stackexchange.com" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="//askubuntu.com" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="//webmasters.stackexchange.com" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="//gamedev.stackexchange.com" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="//tex.stackexchange.com" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//programmers.stackexchange.com" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="//unix.stackexchange.com" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="//apple.stackexchange.com" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="//wordpress.stackexchange.com" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="//gis.stackexchange.com" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="//electronics.stackexchange.com" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="//android.stackexchange.com" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="//security.stackexchange.com" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//dba.stackexchange.com" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="//drupal.stackexchange.com" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="//sharepoint.stackexchange.com" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="//ux.stackexchange.com" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="//mathematica.stackexchange.com" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="//salesforce.stackexchange.com" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="//expressionengine.stackexchange.com" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//photo.stackexchange.com" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="//scifi.stackexchange.com" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="//graphicdesign.stackexchange.com" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="//movies.stackexchange.com" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="//cooking.stackexchange.com" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="//diy.stackexchange.com" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="//money.stackexchange.com" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="//academia.stackexchange.com" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//english.stackexchange.com" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="//skeptics.stackexchange.com" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="//judaism.stackexchange.com" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="//travel.stackexchange.com" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="//christianity.stackexchange.com" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="//gaming.stackexchange.com" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="//bicycles.stackexchange.com" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="//rpg.stackexchange.com" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//math.stackexchange.com" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="//stats.stackexchange.com" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="//cstheory.stackexchange.com" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="//physics.stackexchange.com" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="//mathoverflow.net" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="//chemistry.stackexchange.com" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="//biology.stackexchange.com" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//stackapps.com" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="//meta.stackexchange.com" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="//area51.stackexchange.com" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="//careers.stackoverflow.com">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2016 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2016.2.18.3270
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Geographic Information Systems Stack Exchange works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-24', {'cookieDomain': 'stackexchange.com'});
+                        ga('set', 'dimension2', '|python|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <title>Seanan McGuire</title>
+
+  <link rel="stylesheet" type="text/css" href="style3.css" media="screen" />
+  <script type='text/javascript'>
+     function toggle_submenu(link) {
+        var menu_item = link.parentNode;
+        var children = menu_item.getElementsByTagName('UL');
+        var submenu = children[0];
+        if (submenu.style.display) {
+           submenu.style.display = '';
+        } else {
+           // If we're opening one up, close all the others
+           var menu = document.getElementById('menu');
+           var items = menu.getElementsByTagName('LI');
+           for (var i = 0; i < items.length; i++) {
+              var sub = items[i].getElementsByTagName('UL');
+              if (sub[0]) {
+                 sub[0].style.display = '';
+              }
+           }
+           submenu.style.display = 'block';
+        }
+     }
+  </script>
+</head>
+
+
+<body>
+  <div id='header'> </div>
+
+  <div id='menubar'>
+
+<!-- menu.php: Menu for SeananMcGuire.com -->
+  <style type='text/css'>
+    body.BIOS_&_NEWS #menu li ul.BIOS_&_NEWS { display: block; }
+    body.The_Series #menu li ul.OCTOBER_DAYE { display: block; }
+    body.The_Series #menu li ul.The_Series { display: block; }
+    body.OCTOBER_DAYE #menu li ul.OCTOBER_DAYE { display: block; }
+    body.INCRYPTID #menu li ul.INCRYPTID { display: block; }
+    body.OTHER_WORKS #menu li ul.OTHER_WORKS { display: block; }
+    body.FAQ #menu li ul.FAQ { display: block; }
+    body.MUSIC #menu li ul.MUSIC { display: block; }
+    body.EXTRAS #menu li ul.EXTRAS { display: block; }
+  </style>
+<ul id='menu'>
+<li><a href='http://seananmcguire.com/index.php'>HOME</a></li>
+<li><a onclick='toggle_submenu(this);'>BIOS & NEWS</a>
+<ul class='BIOS_&_NEWS'>
+<li><a href='http://seananmcguire.com/bio.php'>Official Biography</a></li>
+<li><a href='http://seananmcguire.com/alternate_bio.php'>Alternative Bios</a></li>
+<li><a href='http://seananmcguire.com/survey.php'>Silly Survey Bio</a></li>
+<li><a href='http://seananmcguire.com/thecats.php'>Seanan's Cats</a></li>
+<li><a href='http://seanan_mcguire.livejournal.com/'>The Blog</a></li>
+<li><a href='http://www.facebook.com/profile.php?id=1607962541&ref=profile#/profile.php?id=1607962541&hiq=seanan%2Cmcguire'>Facebook</a></li>
+<li><a href='http://twitter.com/seananmcguire'>Twitter</a></li>
+<li><a href='http://seananmcguire.com/news.php'>News Archive</a></li>
+</ul>
+</li>
+<li><a onclick='toggle_submenu(this);'>OCTOBER DAYE</a>
+<ul class='OCTOBER_DAYE'>
+<li><a href='http://seananmcguire.com/toby.php'>The Series</a>
+<ul class='The_Series'>
+<li><a href='http://seananmcguire.com/rosemary.php'>Rosemary and Rue</a></li>
+<li><a href='http://seananmcguire.com/alh.php'>A Local Habitation</a></li>
+<li><a href='http://seananmcguire.com/aan.php'>An Artificial Night</a></li>
+<li><a href='http://seananmcguire.com/le.php'>Late Eclipses</a></li>
+<li><a href='http://seananmcguire.com/oss.php'>One Salt Sea</a></li>
+<li><a href='http://seananmcguire.com/aoh.php'>Ashes of Honor</a></li>
+<li><a href='http://seananmcguire.com/cam.php'>Chimes at Midnight</a></li>
+<li><a href='http://seananmcguire.com/twl.php'>The Winter Long</a></li>
+</ul>
+</li>
+<li><a href='http://seananmcguire.com/tobyshorts.php'>Short Stories</a></li>
+<li><a href='http://seananmcguire.com/wallpapers.php'>Icons and Wallpapers</a></li>
+</ul>
+</li>
+<li><a onclick='toggle_submenu(this);'>INCRYPTID</a>
+<ul class='INCRYPTID'>
+<li><a href='http://seananmcguire.com/incryptid.php'>The Main Series</a></li>
+<li><a href='http://seananmcguire.com/shr.php'>Sparrow Hill Road</a></li>
+<li><a href='http://seananmcguire.com/icshorts.php'>Short Stories</a></li>
+<li><a href='http://seananmcguire.com/fieldguide.php'>Field Guide</a></li>
+<li><a href='http://seananmcguire.com/wallpapers2.php'>Icons and Wallpapers</a></li>
+</ul>
+</li>
+<li><a onclick='toggle_submenu(this);'>OTHER WORKS</a>
+<ul class='OTHER_WORKS'>
+<li><a href='http://seananmcguire.com/velhome.php'>Velveteen vs.</a></li>
+<li><a href='http://seananmcguire.com/indexing.php'>Indexing</a></li>
+</ul>
+</li>
+<li><a href='http://seananmcguire.com/other.php'>BIBLIOGRAPHY</a></li>
+<li><a onclick='toggle_submenu(this);'>FAQ</a>
+<ul class='FAQ'>
+<li><a href='http://seananmcguire.com/writefaq.php'>Writing</a></li>
+<li><a href='http://seananmcguire.com/generalfaq.php'>General</a></li>
+<li><a href='http://seananmcguire.com/musicfaq.php'>Music</a></li>
+<li><a href='http://seananmcguire.com/tobyfaq.php'>October Daye</a></li>
+<li><a href='http://seananmcguire.com/incryptidfaq.php'>InCryptid</a></li>
+<li><a href='http://seananmcguire.com/fairytalefaq.php'>Fairy Tale Survival</a></li>
+</ul>
+</li>
+<li><a onclick='toggle_submenu(this);'>MUSIC</a>
+<ul class='MUSIC'>
+<li><a href='http://seananmcguire.com/albums.php'>Seanan's Albums</a></li>
+<li><a href='http://seananmcguire.com/songbook.php'>Songbook</a></li>
+</ul>
+</li>
+<li><a onclick='toggle_submenu(this);'>EXTRAS</a>
+<ul class='EXTRAS'>
+<li><a href='http://seananmcguire.com/stufftobuy.php'>Stuff to Buy</a></li>
+<li><a href='http://seananmcguire.com/50thoughts.php'>On Writing</a></li>
+<li><a href='http://seananmcguire.com/gallery.php?gallery=13'>Art Cards</a></li>
+<li><a href='http://seananmcguire.com/gallery.php?gallery=15'>Pretty Little Dead Ghouls</a></li>
+<li><a href='http://seananmcguire.com/gallery.php?gallery=6'>With Friends Like These...</a></li>
+</ul>
+</li>
+<li><a href='http://seananmcguire.com/forum/'>FORUMS</a></li>
+<li><a href='http://seananmcguire.com/contact.php'>CONTACT</a></li>
+</ul>
+
+    <div id='appearances'>
+      <h2>UPCOMING APPEARANCES</h2>
+
+<div class='event'>CHAOS CHOREOGRAPHY at Borderlands!</div>
+<div>Borderlands Books, San Francisco, CA</div><div>Mar 12, 2016</div>
+<div class='event'>Minicon 51</div>
+<div>Minneapolis, MN</div><div>Mar 25 - 27, 2016</div>
+<div class='event'>Emerald City Comic Con</div>
+<div>Seattle, WA</div><div>Apr 7 - 10, 2016</div>
+<div class='event'>EVERY HEART A DOORWAY at Borderlands!</div>
+<div>Borderlands Books, San Francisco, CA</div><div>Apr 23, 2016</div>
+<div class='event'>Marcon 2016</div>
+<div>Columbus, Ohio</div><div>May 6 - 8, 2016</div>
+<div class='event'>CrossingsCon</div>
+<div>Newark, NJ</div><div>Jun 24 - 26, 2016</div>
+
+        <p align=right><a class="news" href="appearances.php">See&nbsp;Details</a></p>
+
+    </div>
+  </div>
+
+  <div id='middle'>
+      <div id='welcome'>
+          <img id='welcome_title' src='redesign/graphics/welcome.png' width=262 height=135 alt='Welcome'>
+
+          <img src='img/welcome/welcome_nebelbann.jpg' width='218' height='103' alt='' id='welcome_image' />
+      </div>
+<center><h2><p>Welcome to Seanan McGuire Online!</p></h2></center>
+
+<center><h3>FAQs have been updated!</h3>
+
+<p>All the site FAQs have been updated!  If you would like to suggest an entry for a future update, or an FAQ which does not currently exist, please swing by the contact form.</p>
+
+<center><h3><i>A Red-Rose Chain</i> available now!</h3>
+
+<p>The first nine Toby Daye adventures are now available at North American bookstores.  Check the <a href="http://seananmcguire.com/toby.php">Toby Daye series landing page</a> for more information.</p>
+
+<center><h3><i>Pocket Apocalypse</i> available now!</h3>
+
+<p>The fourth InCryptid novel, <i>Pocket Apocalypse</i>, is now available at North American bookstores.  Check the <a href="http://seananmcguire.com/incryptid.php">InCryptid series landing page</a> for more information.  You can also find several free short stories set in the InCryptid universe on the series' <a href="http://seananmcguire.com/icshorts.php">Short Stories page</a>.</p>
+</p>
+
+</center>
+      <div id='news'>
+      
+<p><strong>09/02/2015:</strong> <p>Small improvements have been happening site-wide.  Check to see if Seanan (or Mira) will be coming to a bookstore or convention near you!<p></p><p><strong>06/21/2015:</strong> <p>Icons and wallpaper have been added for <i>The Winter Long</i> and <i>Sparrow Hill Road</i>, along with a plethora of new Appearances!  Have a blast!</p></p><p><strong>11/10/2014:</strong> <p>Seanan is hard at work updating the website FAQs, and needs your questions!  If there's something you've been just burning to know, please drop her a line via the contact form, and she'll see about getting it added.</p>
+
+<p>(Please note that FAQs are things like "what is the order of the books?" and "where can I buy this album?", not "please explain the structural significance of this spoiler in book six.)</p></p>
+        <p align=right><a class="news" href="news.php">Read&nbsp;More</a></p>
+      </div>
+
+      <br>
+
+
+<!-- footer.php: Standardized footer for SeananMcGuire.com -->
+
+<div id="footer">
+  <p>&copy; <a href="http://seananmcguire.com/contact.php" title="Contact Seanan">Seanan McGuire</a>, 2006-2016. 
+       All rights reserved. | <a href="http://seananmcguire.com/contact.php?site=1" class="contact" 
+       title="Contact Site Admin">Site Admin</a> | <a href="http://seananmcguire.com/disclaim.php" 
+       title="Disclaimer and Privacy Policy">Disclaimer</a>
+
+</p>
+</div>
+
+  </div>
+
+<div id='covers'><div id='latest_cover'>
+<a href='http://seananmcguire.com/indexing.php'><img src='img/covers/Reflections.jpg' width=237 border=0 alt='Indexing: Reflections' title='Indexing: Reflections'/></a>
+</div>
+<div id='coming_cover'>
+<a href='seananmcguire.com/incryptid.php'><img src='img/covers/Chaos Choreography final front cover.jpg' width=237 border=0 alt='Chaos Choreography' title='Chaos Choreography'/></a>
+<a href=''><img src='img/covers/EveryHeart-trees_237.jpg' width=237 border=0 alt='Every Heart A Doorway' title='Every Heart A Doorway'/></a>
+</div>
+  </div>
+
+</body>
+</html>

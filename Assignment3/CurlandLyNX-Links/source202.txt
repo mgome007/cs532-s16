@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ng-app="Profiles2.Widgets" ng-strict-di>
+<head lang="en">
+    <meta charset="UTF-8">
+<title>Major League Gaming - Profile</title>
+
+<link rel="stylesheet" href="//www.majorleaguegaming.com/assets/js_header2.css" />
+<link rel="stylesheet" href="//www.majorleaguegaming.com/assets/js_footer2.css" />
+
+<link rel="stylesheet" href="/vendor-92be6462.css">
+
+<link rel="stylesheet" href="/stylesheets/app-a873b747.css">
+
+
+<script src="/vendor-31ddee47.js"></script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-17460342-5', { 'cookieDomain': '.majorleaguegaming.com' });
+</script>
+<script type="text/javascript" src="http://ox-d.majorleaguegaming.com/w/1.0/jstag"></script>
+
+    <base href="/saXa-/">
+</head>
+<body>
+<div id="mlg-header" class="mlg-header-bg"></div>
+<div id='layout' ng-controller="MlgController">
+    <mlg-open-x placement="header" align="center"></mlg-open-x>
+    <div id="container">
+        <mlg-profile-header username="{{ player.username }}" profile-photo="{{ player.profilePhoto }}" profile-photo-style="{{ player.profilePhotoBorderStyle }}"></mlg-profile-header>
+        <mlg-goods username="{{ player.username }}"></mlg-goods>
+        <div class="mlg-profile-navigation animate-if" ng-if="player.profileLoaded" ng-cloak>
+            <a href="./"
+               ng-if="enabledWidgets.RECENT_MATCHES || enabledWidgets.ACHIEVEMENTS || enabledWidgets.TEAMS ||
+                      enabledWidgets.FRIENDS || enabledWidgets.PRO_POINTS || enabledWidgets.FORUMS"
+               ng-class="{active: $path() == '/'}">Home</a>
+            <a href="./match-history"   ng-if="enabledWidgets.RECENT_MATCHES" class="animate-if" ng-class="{active: $path() == '/match-history'}">Match History</a>
+            <a href="./trophies-badges" ng-if="enabledWidgets.ACHIEVEMENTS"   class="animate-if" ng-class="{active: $path() == '/trophies-badges'}">Trophies and Badges</a>
+            <a href="./teams"           ng-if="enabledWidgets.TEAMS"          class="animate-if" ng-class="{active: $path() == '/teams'}">Teams</a>
+            <a href="./friends"         ng-if="enabledWidgets.FRIENDS"        class="animate-if" ng-class="{active: $path() == '/friends'}">Friends</a>
+            <a href="./pro-points"      ng-if="enabledWidgets.PRO_POINTS"     class="animate-if" ng-class="{active: $path() == '/pro-points'}">Pro Points</a>
+            <a href="./forums"          ng-if="enabledWidgets.FORUMS"         class="animate-if" ng-class="{active: $path() == '/forums'}">Forums</a>
+        </div>
+        <div ng-view class="top-offset-1"></div>
+    </div>
+    <mlg-soundcloud></mlg-soundcloud>
+    <div id='layout_footer'></div>
+</div>
+<mlg-open-x placement="footer" align="center"></mlg-open-x>
+<!-- views/partials/_footer.ejs -->
+<script type="text/javascript" src="//www.majorleaguegaming.com/assets/js_header2.js" ></script>
+<script type="text/javascript" src="//www.majorleaguegaming.com/assets/js_footer2.js" ></script>
+<div id="footer-all" tynt-data="no-content"></div>
+
+<script>
+    var global_username = "saXa-";
+    var global_mlg_id = parseInt("8679013");
+
+    if(window.location.href.indexOf('#') != -1){
+        window.location.href = window.location.href.replace(/#/, '');
+    }
+    if(window.location.href.indexOf('?') != -1 && window.location.href[window.location.href.indexOf('?') - 1] != '/'){
+        window.location.href = window.location.href.replace('?', '/?');
+    }
+</script>
+<script src="/js/ng-app-9e2d069e.js"></script>
+</body>
+</html>

@@ -1,0 +1,392 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<title>So much to do, so little time</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Trying to squeeze sense out of chemical data" />
+<meta name="generator" content="WordPress 4.4" /> <!-- leave this for stats please -->
+<link href="http://blog.rguha.net/wp-content/themes/journalist/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="So much to do, so little time RSS Feed" href="http://blog.rguha.net/?feed=rss2" />
+<link rel="shortcut icon" type="image/x-png" href="http://blog.rguha.net/wp-content/themes/journalist/favicon.png" />
+<link rel="pingback" href="http://blog.rguha.net/xmlrpc.php" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/blog.rguha.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),c.toDataURL().length>3e3):("simple"===a?d.fillText(String.fromCharCode(55357,56835),0,0):d.fillText(String.fromCharCode(55356,57135),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='codecolorer-css'  href='http://blog.rguha.net/wp-content/plugins/codecolorer/codecolorer.css?ver=0.9.9' type='text/css' media='screen' />
+<script type='text/javascript' src='http://blog.rguha.net/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://blog.rguha.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cssTarget = "img.";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.rguha.net/wp-content/plugins/svg-support/js/min/svg-inline-min.js?ver=1.0.0'></script>
+<link rel='https://api.w.org/' href='http://blog.rguha.net/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.rguha.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.rguha.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4" />
+</head>
+
+<body>
+<div id="container" class="group">
+
+<h1><a href="http://blog.rguha.net/">So much to do, so little time</a></h1>
+<div id="bubble"><p>Trying to squeeze sense out of chemical data</p></div> <!-- erase this line if you want to turn the bubble off -->
+
+<div id="content" class="group">
+
+<h2 id="post-1567"><a href="http://blog.rguha.net/?p=1567" rel="bookmark">vSDC, Rank Products and DUD-E</a></h2>
+<p class="comments"><a href="http://blog.rguha.net/?p=1567#comments">with 2 comments</a></p>
+
+<div class="main">
+	<p style="text-align: justify;">This post is a follow-up to my <a href="http://blog.rguha.net/?p=1549">previous discussion</a> on a paper by <a href="http://www.jcheminf.com/content/8/1/1">Chaput et al</a>. The gist of that paper was that in a virtual screening scenario where a small number of hits are to be selected for followup, one could use an ensemble of docking methods, identify compounds whose scores were beyond 2SD of the mean for each method and take the intersection. My <a href="http://blog.rguha.net/?p=1549">post</a> suggested that a non-parametric approach (<a href="https://en.wikipedia.org/wiki/Rank_product">rank products</a>, RP) performed similarly to the parametric approach of <a href="http://www.jcheminf.com/content/8/1/1">Chaput et al</a> on the two targets they screened.</p>
+<p style="text-align: justify;">The authors also performed a benchmark comparison of their consensus method (vSDC) versus the individual docking methods for 102 <a href="http://dude.docking.org/">DUD-E</a> targets. I was able to obtain the individual docking scores (Glide, Surflex, FlexX and GOLD) for each of the targets, with the aim of applying the rank product method described previously.</p>
+<p style="text-align: justify;">In short, I reproduced <a href="http://static-content.springer.com/image/art%3A10.1186%2Fs13321-016-0112-z/MediaObjects/13321_2016_112_Fig6_HTML.gif">Figure 6A</a> (excluding the curve for vSDC). In<br />
+<a href="http://blog.rguha.net/wp-content/uploads/2016/02/th0-3.svg" rel="attachment wp-att-1598"><img class="alignright wp-image-1598" src="http://blog.rguha.net/wp-content/uploads/2016/02/th0-3.svg" alt="th0" width="272" height="170" /></a>this figure, \(n_{test}\) is the number of compounds selected (from the ranked list, either by individual docking scores or by the rank product) and \(T_{h&gt;0}\) is the percentage of targets for which the \(n_{test}\) selected compounds included one or more actives. Code is available <a href="https://gist.github.com/rajarshi/941388d3a3de44846e3c">here</a>, but you&#8217;ll need to get in touch with the authors for the DUD-E docking scores.</p>
+<p style="text-align: justify;">As shown alongside, the RP method (as expected) outperforms the individual docking methods. And visual comparison with the <a href="http://static-content.springer.com/image/art%3A10.1186%2Fs13321-016-0112-z/MediaObjects/13321_2016_112_Fig6_HTML.gif" target="_blank">original</a> figure suggests that it also outperforms vSDC, especially at lower values of \(n_{test}\). While I wouldn&#8217;t regard the better performance of RP compared to vSDC as a huge jump, the absence of a threshold certainly works in its favor.</p>
+<p style="text-align: justify;">One could certainly explore ranking approaches in more depth. As suggested by <a href="https://twitter.com/abhik1368/status/695434094079905792">Abhik Seal</a>, Borda or Condorcet methods could be examined (though the small number of docking methods, a.k.a., voter, could be problematic).</p>
+<p style="text-align: justify;"><strong>UPDATE</strong>: After a clarification from <a href="http://cmib.curie.fr/en/profile/liliane-mouawad-00288">Liliane Mouawad</a> it turns out there was a mistake in the ranking of the Surflex docking scores. Correcting that bug fixes my reproduction of <a href="http://static-content.springer.com/image/art%3A10.1186%2Fs13321-016-0112-z/MediaObjects/13321_2016_112_Fig6_HTML.gif">Figure 6A</a> so that the curves for individual docking methods match the original. But more interestingly, the performance of RP is now clearly better than every individual method and the vSDC method as well, at all values of \(n_{test}\)</p>
+</div>
+
+<div class="meta group">
+<div class="signature">
+    <p>Written by Rajarshi Guha <span class="edit"></span></p>
+    <p>February 13th, 2016 at 7:25 pm</p>
+</div>	
+<div class="tags">
+    <p>Posted in <a href="http://blog.rguha.net/?cat=4" rel="category">Literature</a>,<a href="http://blog.rguha.net/?cat=9" rel="category">cheminformatics</a></p>
+    <p>Tagged with <a href="http://blog.rguha.net/?tag=virtual-screening" rel="tag">virtual screening</a>, <a href="http://blog.rguha.net/?tag=docking" rel="tag">docking</a>, <a href="http://blog.rguha.net/?tag=ensemble" rel="tag">ensemble</a></p></div>
+</div>
+
+
+
+<h2 id="post-1549"><a href="http://blog.rguha.net/?p=1549" rel="bookmark">Hit Selection When You&#8217;re Strapped for Cash</a></h2>
+<p class="comments"><a href="http://blog.rguha.net/?p=1549#comments">with one comment</a></p>
+
+<div class="main">
+	<p style="text-align: justify;">I came across a paper from <a href="http://www.jcheminf.com/content/8/1/1">Chaput et al</a> that describes an approach to hit selection from a virtual screen (using docking), when follow-up resources are limited (a common scenario in many academic labs). Their approach is based on using multiple docking programs. As they (and <a href="http://pubs.acs.org/doi/abs/10.1021/jm050362n">others</a>) have pointed out, there is a wide divergence between the rankings of compounds generated using different programs. Hence the motivation for a consensus approach, based on the estimating the standard deviation (SD) of scores generated by a given program and computing the intersection of compounds whose scores are greater than 2 standard deviations from the mean, in each program. Based on this rule, they selected relatively few compounds &#8211; <a href="http://www.jcheminf.com/content/8/1/1/figure/F3">just 14 to 22, depending on the target</a> and confirmed at least one of them for each target. This represents less than 0.5% of their screening deck.</p>
+<p style="text-align: justify;">However, their method is parametric &#8211; you need to select a SD threshold. I was interested in seeing whether a non-parametric, ranking based approach would allow one to retrieve a subset that included the actives identified by the authors. The method is essentially the <a href="https://en.wikipedia.org/wiki/Rank_product">rank product</a> method applied to the docking scores. That is, the compounds are ranked based on their docking scores and the &#8220;ensemble rank&#8221; for a compound is the product of its ranks according to each of the four programs. In contrast to the original definition, I used a <i>sum log rank</i> to avoid overflow issues. So the ensemble rank for the \(i\)&#8217;th compound is given by</p>
+<p style="text-align: center;">\(R_i = \sum_{j=1}^{4} \log r_{ij}\)</p>
+<p style="text-align: justify;">where \(r_{ij}\) is the rank of the \(i\)&#8217;th compound in the \(j\)&#8217;th docking program. Compounds are then selected based on their ensemble rank. Obviously this doesn&#8217;t give you a selection per se. Instead, this allows you to select as many compounds as you want or need. Importantly, it allows you to introduce external factors (cost, synthetic feasibility, ADME properties, etc.) as additional rankings that can be included in the ensemble rank.</p>
+<p style="text-align: justify;">Using the <a href="http://cmib.curie.fr/en/download/data/VirtualScreening">docking scores</a> for Calcineurin and Histone Binding Protein (Hbp) provided by <a href="http://cmib.curie.fr/en/profile/liliane-mouawad-00288">Liliane Mouawad</a> (though all the data really should&#8217;ve been included in the paper) I applied this method using the code below</p>
+<div class="codecolorer-container rsplus twitlight" style="overflow:auto;white-space:nowrap;width:685px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br /></div></td><td><div class="rsplus codecolorer"><span class="kw2">library</span><span class="br0">&#40;</span>stringr<span class="br0">&#41;</span><br />
+d <span class="sy0">&lt;-</span> <span class="kw8">read.<span class="me1">table</span></span><span class="br0">&#40;</span><span class="st0">'http://cmib.curie.fr/sites/u759/files/document/score_vs_cn.txt'</span>,<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; header<span class="sy0">=</span>TRUE, <span class="kw2">comment</span><span class="sy0">=</span><span class="st0">''</span><span class="br0">&#41;</span><br />
+<span class="kw2">names</span><span class="br0">&#40;</span>d<span class="br0">&#41;</span> <span class="sy0">&lt;-</span> <span class="kw2">c</span><span class="br0">&#40;</span><span class="st0">'molid'</span>, <span class="st0">'Surflex'</span>, <span class="st0">'Glide'</span>, <span class="st0">'Flexx'</span>, <span class="st0">'GOLD'</span><span class="br0">&#41;</span><br />
+d$GOLD <span class="sy0">&lt;-</span> <span class="sy0">-</span><span class="nu0">1</span><span class="sy0">*</span>d$GOLD <span class="co1">## Since higher scores are better</span><br />
+ranks <span class="sy0">&lt;-</span> <span class="kw2">apply</span><span class="br0">&#40;</span>d<span class="br0">&#91;</span>,<span class="sy0">-</span><span class="nu0">1</span><span class="br0">&#93;</span>, <span class="nu0">2</span>, <span class="kw2">rank</span><span class="br0">&#41;</span><br />
+lranks <span class="sy0">&lt;-</span> <span class="kw2">rowSums</span><span class="br0">&#40;</span><span class="kw2">log</span><span class="br0">&#40;</span>ranks<span class="br0">&#41;</span><span class="br0">&#41;</span><br />
+tmp <span class="sy0">&lt;-</span> <span class="kw2">data.<span class="me1">frame</span></span><span class="br0">&#40;</span>molid<span class="sy0">=</span>d<span class="br0">&#91;</span>,<span class="nu0">1</span><span class="br0">&#93;</span>, ranks, lrp<span class="sy0">=</span>rp<span class="br0">&#41;</span><br />
+tmp <span class="sy0">&lt;-</span> tmp<span class="br0">&#91;</span><span class="kw2">order</span><span class="br0">&#40;</span>tmp$lrp<span class="br0">&#41;</span>,<span class="br0">&#93;</span><br />
+<span class="kw2">which</span><span class="br0">&#40;</span>str_detect<span class="br0">&#40;</span>tmp$molid, <span class="st0">'ACTIVE'</span><span class="br0">&#41;</span><span class="br0">&#41;</span></div></td></tr></tbody></table></div>
+<p style="text-align: justify;">and identified the single active for Hbp at ensemble rank 8 and the three actives for Calcineurin at ranks 3, 5 and 25. Of course, if you were selecting only the top 3 you would&#8217;ve missed the Calcineurin hit and only have gotten 1/3 of the HBP hits. However, as the authors nicely showed, manual inspection of the binding poses is crucial to making an informed selection. The ranking is just a starting point.</p>
+<p style="text-align: justify;"><b>Update</b>: Docking scores for Calcineurin and Hbp are now <a href="http://cmib.curie.fr/en/download/data/VirtualScreening">available</a></p>
+</div>
+
+<div class="meta group">
+<div class="signature">
+    <p>Written by Rajarshi Guha <span class="edit"></span></p>
+    <p>February 5th, 2016 at 1:36 am</p>
+</div>	
+<div class="tags">
+    <p>Posted in <a href="http://blog.rguha.net/?cat=4" rel="category">Literature</a>,<a href="http://blog.rguha.net/?cat=5" rel="category">research</a>,<a href="http://blog.rguha.net/?cat=9" rel="category">cheminformatics</a></p>
+    <p>Tagged with <a href="http://blog.rguha.net/?tag=docking" rel="tag">docking</a>, <a href="http://blog.rguha.net/?tag=data-science" rel="tag">data science</a>, <a href="http://blog.rguha.net/?tag=vs" rel="tag">vs</a>, <a href="http://blog.rguha.net/?tag=virtual-screen" rel="tag">virtual screen</a>, <a href="http://blog.rguha.net/?tag=ensemble" rel="tag">ensemble</a></p></div>
+</div>
+
+
+
+<h2 id="post-1546"><a href="http://blog.rguha.net/?p=1546" rel="bookmark">Applications Invited for CSA Trust Grant for 2016</a></h2>
+<p class="comments"><a href="http://blog.rguha.net/?p=1546#respond">without comments</a></p>
+
+<div class="main">
+	<p>The Chemical Structure Association (CSA) Trust is an internationally recognized organization established to promote the critical importance of chemical information to advances in chemical research. In support of its charter, the Trust has created a unique Grant Program and is now inviting the submission of grant applications for 2016.</p>
+<p><strong><em>Purpose of the Grants</em></strong><strong>:</strong></p>
+<p>The Grant Program has been created to provide funding for the career development of young researchers who have demonstrated excellence in their education, research or development activities that are related to the systems and methods used to store, process and retrieve information about chemical structures, reactions and compounds. One or more Grants will be awarded annually up to a total combined maximum of ten thousand U.S. dollars ($10,000). Grantees have the option of payments being made in U.S. dollars or in British Pounds equivalent to the U.S. dollar amount. Grants are awarded for specific purposes, and within one year each grantee is required to submit a brief written report detailing how the grant funds were allocated. Grantees are also requested to recognize the support of the Trust in any paper or presentation that is given as a result of that support.</p>
+<p><strong><em>Who is Eligible</em></strong><strong>?</strong></p>
+<p>Applicant(s), age 35 or younger, who have demonstrated excellence in their chemical information related research and who are developing careers that have the potential to have a positive impact on the utility of chemical information relevant to chemical structures, reactions and compounds, are invited to submit applications. While the primary focus of the Grant Program is the career development of young researchers, additional bursaries may be made available at the discretion of the Trust. All requests must follow the application procedures noted below and will be weighed against the same criteria.</p>
+<p><strong><em>Which Activities are Eligible?</em></strong></p>
+<p>Grants may be awarded to acquire the experience and education necessary to support research activities; e.g. for travel to collaborate with research groups, to attend a conference relevant to one’s area of research (including the presentation of an already-accepted research paper), to gain access to special computational facilities, or to acquire unique research techniques in support of one’s research.</p>
+<p><strong><em>Application Requirements</em></strong><em>: </em></p>
+<p>Applications must include the following documentation:</p>
+<ol>
+<li>A letter that details the work upon which the Grant application is to be evaluated as well as details on research recently completed by the applicant;</li>
+<li>The amount of Grant funds being requested and the details regarding the purpose for which the Grant will be used (e.g. cost of equipment, travel expenses if the request is for financial support of meeting attendance, etc.). The relevance of the above-stated purpose to the Trust’s objectives and the clarity of this statement are essential in the evaluation of the application);</li>
+<li>A brief biographical sketch, including a statement of academic qualifications;</li>
+<li>Two reference letters in support of the application.  Additional materials may be supplied at the discretion of the applicant only if relevant to the application and if such materials provide information not already included in items 1-4.   A copy of the completed application document must be supplied for distribution to the Grants Committee and can be submitted via regular mail or e-mail to the Committee Chair (see contact information below).</li>
+</ol>
+<p><strong><em>Deadline for Applications</em></strong><em>: </em></p>
+<p>Application deadline for the 2016 Grant is March 25, 2016. Successful applicants will be notified no later than May 2, 2016.</p>
+<p><strong><em>Address for Submission of Applications</em></strong><em>: </em></p>
+<p>The application documentation should be forwarded via post or email to: Bonnie Lawlor, CSA Trust Grant Committee Chair, 276 Upper Gulph Road, Radnor, PA 19087, USA. If you wish to enter your application by e-mail, please contact Bonnie Lawlor at <a href="mailto:chescot@aol.com">chescot@aol.com</a> prior to submission so that she can contact you if the e-mail does not arrive.</p>
+</div>
+
+<div class="meta group">
+<div class="signature">
+    <p>Written by Rajarshi Guha <span class="edit"></span></p>
+    <p>January 26th, 2016 at 7:36 pm</p>
+</div>	
+<div class="tags">
+    <p>Posted in <a href="http://blog.rguha.net/?cat=1" rel="category">Uncategorized</a></p>
+    <p>Tagged with <a href="http://blog.rguha.net/?tag=award" rel="tag">award</a>, <a href="http://blog.rguha.net/?tag=csa" rel="tag">csa</a></p></div>
+</div>
+
+
+
+<h2 id="post-1515"><a href="http://blog.rguha.net/?p=1515" rel="bookmark">Cryptography &#038; Chemical Structure Search</a></h2>
+<p class="comments"><a href="http://blog.rguha.net/?p=1515#respond">without comments</a></p>
+
+<div class="main">
+	<p style="text-align: justify;">Encryption of chemical information has not been a very common topic in cheminformatics. There was an ACS <a href="http://oasys2.confex.com/acs/229nm/techprogram/S16535.HTM">symposium</a> in 2005 (<a href="http://www.nature.com/nrd/journal/v4/n3/full/nrd1683.html">summary</a>) that had a number of presentations on the topic of &#8220;safe exchange&#8221; of chemical information &#8211; i.e., exchanging information on chemical structures without sharing the structures themselves. The common thread running through many presentations was to identify representations (a.k.a, descriptors) that can be used for useful computation (e.g., regression or classification models or similarity searches) but do not allow one to (easily) regenerate the structure. Examples include the use of <a href="http://acscinf.org/docs/meetings/229nm/presentations/229nm30.pdf">PASS descriptors</a> and various <a href="http://link.springer.com/article/10.1007%2Fs10822-005-9010-6">topological indices</a>. Non-descriptor based approaches included, <a href="http://link.springer.com/article/10.1007%2Fs10822-005-9013-3">surrogate data</a> (that is structures of related molecules with similar properties) and most recently, <a href="http://pubs.acs.org/doi/abs/10.1021/ci400399a">scaffold networks</a>. Also, <a href="http://pubs.acs.org/doi/abs/10.1021/ci600383v">Masek et al, JCIM, 2008</a> described a procedure to assess the risk of revealing structure information given a set of descriptors.</p>
+<p style="text-align: justify;">As indicated by <a href="http://link.springer.com/article/10.1007%2Fs10822-005-9013-3 ">Tetko et al</a>, descriptor based approaches are liable to dictionary based attacks. Theoretically if one fully enumerates all possible molecules and computes the descriptors it would be trivial to obtain the structure of an obfuscated molecule. While this is not currently practical, <a href="http://pubs.acs.org/doi/abs/10.1021/ci600383v">Masek et al</a> have already shown that an evolutionary algorithm can reconstruct the exact (or closely related) structure from BCUT descriptors in a reasonable time frame and <a href="http://www.jcheminf.com/content/1/1/4">Wong &amp; Burkowski, JCheminf, 2009</a> described a kernel approach to generating structures from a set of descriptors (though they were considering the <a href="http://www.issb.genopole.fr/~faulon/QSAR.php">inverse QSAR</a> problem rather than chemical privacy). Uptil now I wasn&#8217;t aware of approaches that were truly one way &#8211; impossible to regenerate the structure from the descriptors, yet also perform useful computations.</p>
+<p style="text-align: justify;">Which brings me to an interesting paper by <a href="http://www.biomedcentral.com/1471-2105/16/S18/S6">Shimuzu et al</a> which describes a cryptographic approach to chemical structure search, based on <a href="https://en.wikipedia.org/wiki/Homomorphic_encryption">homomorphic encryption</a>. A homomorphic encryption scheme allows one to perform computations on the encrypted (usually based on <a href="https://en.wikipedia.org/wiki/Public_key_infrastructure">PKI</a>) input leading to an encrypted result, which when decrypted gives the same result as if one had performed the computation on the clear (i.e., unecnrypted) input. Now, a &#8220;computation&#8221; can involve a variety of operations &#8211; addition, multiplication etc. Till recently, most homomorphic schemes were restricted to one or a few operations (and so are termed <i>partially homomorphic</i>). It was only in 2009 that a practical proposal for a <i>fully homomorphic</i> (i.e., supporting arbitrary computations) cryptosystem was <a href="https://crypto.stanford.edu/craig/">described</a>. See this excellent <a href="http://blogs.teamb.com/craigstuntz/2010/03/18/38566/">blog post</a> for more details on homomorphic cryptosystems.</p>
+<p style="text-align: justify;">The work by <a href="http://www.biomedcentral.com/1471-2105/16/S18/S6">Shimuzu et al</a> addresses the specific case of a user trying to identify molecules from a database that are similar to a query structure. They consider a simplified situation where the user is only interested in the count of molecules above a similarity threshold. Two constraints are:</p>
+<ol>
+<li>Ensure that the database does not know the actual query structure</li>
+<li>The user should not gain information about the database contents (except for number of similar molecules)</li>
+</ol>
+<p style="text-align: justify;">Their scheme is based on a additive homomorphic system (i.e., the only operation supported on the encrypted data is addition) and employs binary fingerprints and the <a href="https://en.wikipedia.org/wiki/Tversky_index">Tversky similarity</a> metric (which can be reduced to Tanimoto if required). I note that they used 166-bit <a href="http://www.dalkescientific.com/writings/diary/archive/2014/10/17/maccs_key_44.html">MACCS keys</a>. Since it&#8217;s small and each bit position is known it seems that some information could leak out of the encrypted fingerprint or be subject to a dictionary attack. I&#8217;d have expected that using a larger hashed fingerprint would have helped improve the security. (Though I suspect that the encryption of the query fingerprint alleviates this issue). Another interesting feature, designed to prevent information about the database leaking back to the user is the use of &#8220;dummies&#8221; &#8211; random, encrypted (by the users public key) integers that are mixed with the true (encrypted) query result. Their design allows the user to determine the sign of the query result (which indicates whether the database molecule is similar to the query, above the specified threshold), but does not let them get the actual similarity score. They show that as the number of dummies is increased, the chances of database information leaking out tends towards zero.</p>
+<p style="text-align: justify;">Of course, one could argue that the limited usage of proprietary chemical information (in terms of people who have it and people who can make use of it) means that the efforts put in to obfuscation, cryptography etc. could simply be replaced by legal contracts. Certainly, a simple way to address the scenario discussed here (and noted by the authors) is to download the remote database locally. of course this is not feasible if the remote database is meant to stay private (e.g., a competitors structure database).</p>
+<p style="text-align: justify;">But nonetheless, methods that rigorously guarantee privacy of chemical information are interesting from an algorithmic standpoint. Even though <a href="http://www.biomedcentral.com/1471-2105/16/S18/S6">Shimuzu et al</a> described a very simplistic situation (though the more realistic scenario where the similar database molecules are returned would obviously negate constraint 2 above), it looks like a step forward in terms of applying formal cryptanalysis to chemical problems and supporting truly safe exchange of chemical information.</p>
+</div>
+
+<div class="meta group">
+<div class="signature">
+    <p>Written by Rajarshi Guha <span class="edit"></span></p>
+    <p>January 5th, 2016 at 3:17 am</p>
+</div>	
+<div class="tags">
+    <p>Posted in <a href="http://blog.rguha.net/?cat=4" rel="category">Literature</a>,<a href="http://blog.rguha.net/?cat=5" rel="category">research</a>,<a href="http://blog.rguha.net/?cat=6" rel="category">software</a>,<a href="http://blog.rguha.net/?cat=9" rel="category">cheminformatics</a></p>
+    <p>Tagged with <a href="http://blog.rguha.net/?tag=database" rel="tag">database</a>, <a href="http://blog.rguha.net/?tag=fingerprint" rel="tag">fingerprint</a>, <a href="http://blog.rguha.net/?tag=maccs" rel="tag">maccs</a>, <a href="http://blog.rguha.net/?tag=search" rel="tag">search</a>, <a href="http://blog.rguha.net/?tag=chembl" rel="tag">chembl</a>, <a href="http://blog.rguha.net/?tag=cryptography" rel="tag">cryptography</a>, <a href="http://blog.rguha.net/?tag=encryption" rel="tag">encryption</a>, <a href="http://blog.rguha.net/?tag=secure" rel="tag">secure</a></p></div>
+</div>
+
+
+
+<h2 id="post-1521"><a href="http://blog.rguha.net/?p=1521" rel="bookmark">Elemental Words</a></h2>
+<p class="comments"><a href="http://blog.rguha.net/?p=1521#respond">without comments</a></p>
+
+<div class="main">
+	<p style="text-align: justify;">Last night, my colleague <a href="https://twitter.com/cispt2">Matthew Hall</a> tweeted</p>
+<blockquote class="twitter-tweet" lang="en">
+<p dir="ltr" lang="en">Is there a app/site dictionary of all words possible with element symbols? <a href="https://twitter.com/hashtag/RealTimeChem?src=hash">#RealTimeChem</a></p>
+<p>— Matthew Hall (@cispt2) <a href="https://twitter.com/cispt2/status/683471144415047680">January 3, 2016</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<p style="text-align: justify;">With the recent <a href="http://www.iupac.org/news/news-detail/article/discovery-and-assignment-of-elements-with-atomic-numbers-113-115-117-and-118.html">news</a> of the 7th row of the periodic table being filled I figured this would be a good time to follow up on Matthews request and identify such <i>elemental words</i>.</p>
+<p style="text-align: justify;">There are a lot of word lists available online. Being an ex-Scrabble addict, the <a href="https://en.wikipedia.org/wiki/Official_Scrabble_Players_Dictionary">OSPD</a> came to mind. So using the <a href="http://www.freescrabbledictionary.com/sowpods/download/sowpods.txt">SOWPODS</a> word list of 267,751 words I put together a quick Python program to identify words that can be constructed from 1- and 2-letter element symbols. (The newly confirmed elements &#8211; Uut, Uuo, Uup &amp; Uus &#8211; don&#8217;t occur in any English words). Importantly, 2-letter elements should exist in a contiguous fashion. This means that a word like ABRI (<i><a href="https://en.wiktionary.org/wiki/abri">a shelter</a></i>) is not an <i>elemental word</i> since it contains Boron &amp; Iodine, but the A and R are not contiguous and so wouldn&#8217;t correpsond to Argon. (It could also contain Bromine and Iodine but then the remaining A doesn&#8217;t match any element).</p>
+<p style="text-align: justify;">The code below takes <del datetime="2016-01-04T13:40:40+00:00">4.1s</del> 2.0s to process SOWPODS and identifies <a href="https://gist.github.com/rajarshi/22bc51c7f6bd0193601c"><del datetime="2016-01-04T11:03:41+00:00">19,698</del> 40,989</a> &#8220;elemental words&#8221;. Thanks to <a href="http://baoilleach.blogspot.com/">Noel O&#8217;Boyle</a> for <a href="https://twitter.com/baoilleach/status/683951315957972992">suggesting</a> the use of a regex and <a href="https://twitter.com/baoilleach/status/683987882852388864">directly extracting</a> matches (so avoiding looping over individual words) and <a href="http://rich.lewis.ml/">Rich Lewis</a> for generating output in <a href="https://github.com/rajarshi/elementalwords/pull/1">element-case</a>.</p>
+<div class="codecolorer-container python twitlight" style="overflow:auto;white-space:nowrap;width:685px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19<br /></div></td><td><div class="python codecolorer"><span class="kw1">from</span> <span class="kw3">__future__</span> <span class="kw1">import</span> print_function<br />
+<span class="kw1">import</span> <span class="kw3">sys</span><span class="sy0">,</span> <span class="kw3">re</span><br />
+<br />
+<span class="kw1">if</span> <span class="kw2">len</span><span class="br0">&#40;</span><span class="kw3">sys</span>.<span class="me1">argv</span><span class="br0">&#41;</span> <span class="sy0">!=</span> <span class="nu0">2</span>:<br />
+&nbsp; &nbsp; <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'Usage: code.py WORD_LIST_FILE_NAME'</span><span class="br0">&#41;</span><br />
+&nbsp; &nbsp; <span class="kw3">sys</span>.<span class="me1">exit</span><span class="br0">&#40;</span><span class="nu0">0</span><span class="br0">&#41;</span><br />
+&nbsp; &nbsp; <br />
+wordlist <span class="sy0">=</span> <span class="kw3">sys</span>.<span class="me1">argv</span><span class="br0">&#91;</span><span class="nu0">1</span><span class="br0">&#93;</span><br />
+words <span class="sy0">=</span> <span class="kw2">open</span><span class="br0">&#40;</span>wordlist<span class="sy0">,</span> <span class="st0">'r'</span><span class="br0">&#41;</span>.<span class="me1">read</span><span class="br0">&#40;</span><span class="br0">&#41;</span><br />
+<span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'Dictionary has %d words'</span> % <span class="br0">&#40;</span><span class="kw2">len</span><span class="br0">&#40;</span><span class="kw3">re</span>.<span class="me1">findall</span><span class="br0">&#40;</span><span class="st0">'<span class="es0">\n</span>'</span><span class="sy0">,</span> words<span class="br0">&#41;</span><span class="br0">&#41;</span><span class="br0">&#41;</span><span class="br0">&#41;</span><br />
+<span class="kw1">with</span> <span class="kw2">open</span><span class="br0">&#40;</span><span class="st0">'elements.txt'</span><span class="sy0">,</span> <span class="st0">'r'</span><span class="br0">&#41;</span> <span class="kw1">as</span> eles:<br />
+&nbsp; &nbsp; elems <span class="sy0">=</span> <span class="br0">&#123;</span>e.<span class="me1">lower</span><span class="br0">&#40;</span><span class="br0">&#41;</span>: e <span class="kw1">for</span> e <span class="kw1">in</span> eles.<span class="me1">read</span><span class="br0">&#40;</span><span class="br0">&#41;</span>.<span class="me1">split</span><span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="kw1">if</span> e <span class="sy0">!=</span> <span class="st0">''</span><span class="br0">&#125;</span><br />
+valid_w <span class="sy0">=</span> <span class="kw3">re</span>.<span class="me1">findall</span><span class="br0">&#40;</span><span class="st0">'(^(?:'</span>+<span class="st0">'|'</span>.<span class="me1">join</span><span class="br0">&#40;</span>elems.<span class="me1">keys</span><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="br0">&#41;</span>+<span class="st0">')+?$)'</span><span class="sy0">,</span> words<span class="sy0">,</span> <span class="kw3">re</span>.<span class="me1">I</span>|<span class="kw3">re</span>.<span class="me1">M</span><span class="br0">&#41;</span><br />
+<span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'Found %d elemental words'</span> % <span class="br0">&#40;</span><span class="kw2">len</span><span class="br0">&#40;</span>valid_w<span class="br0">&#41;</span><span class="br0">&#41;</span><span class="br0">&#41;</span><br />
+pattern <span class="sy0">=</span> <span class="kw3">re</span>.<span class="kw2">compile</span><span class="br0">&#40;</span><span class="st0">'|'</span>.<span class="me1">join</span><span class="br0">&#40;</span>elems.<span class="me1">keys</span><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="br0">&#41;</span><span class="br0">&#41;</span><br />
+elementify <span class="sy0">=</span> <span class="kw1">lambda</span> s: pattern.<span class="me1">sub</span><span class="br0">&#40;</span><span class="kw1">lambda</span> x: elems<span class="br0">&#91;</span>x.<span class="me1">group</span><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="br0">&#93;</span><span class="sy0">,</span> s<span class="br0">&#41;</span><br />
+<span class="kw1">with</span> <span class="kw2">open</span><span class="br0">&#40;</span><span class="st0">'elemental-%s'</span> % <span class="br0">&#40;</span>wordlist<span class="br0">&#41;</span><span class="sy0">,</span> <span class="st0">'w'</span><span class="br0">&#41;</span> <span class="kw1">as</span> o:<br />
+&nbsp; &nbsp; <span class="kw1">for</span> w <span class="kw1">in</span> valid_w:<br />
+&nbsp; &nbsp; &nbsp; &nbsp; o.<span class="me1">write</span><span class="br0">&#40;</span>elementify<span class="br0">&#40;</span>w<span class="br0">&#41;</span>+<span class="st0">&quot;<span class="es0">\n</span>&quot;</span><span class="br0">&#41;</span></div></td></tr></tbody></table></div>
+<p style="text-align: justify;">Just for fun I also extracted all the titles from <a href="https://www.wiktionary.org/">Wiktionary</a>, irrespective of language. That gives me a list of 2,726,436 words to examine. After <del datetime="2016-01-04T13:44:31+00:00">35s</del> 20s I got <del datetime="2016-01-04T11:03:41+00:00">148,211</del> 370,724 &#8220;elemental words&#8221;.</p>
+<p style="text-align: justify;">You can find the code along with the element symbol list and input files in this <a href="https://github.com/rajarshi/elementalwords">repository</a></p>
+<p style="text-align: justify;"><strong>Update</strong>: Thanks to <a href="http://baoilleach.blogspot.com/">Noels&#8217;</a> <a href="https://twitter.com/baoilleach/status/683951315957972992">suggestion</a> of a regex, I realized my initial implementation had a bug and did not identify all elemental words in a dictionary. The updated code now does, and does it 50% faster</p>
+<p style="text-align: justify;"><strong>Update</strong>:Thanks to <a href="http://rich.lewis.ml/">Rich Lewis</a> for providing a patch to output matching words in element-case (e.g., <code class="codecolorer text dawn"><span class="text">AcOUSTiCAl</span></code>)</p>
+</div>
+
+<div class="meta group">
+<div class="signature">
+    <p>Written by Rajarshi Guha <span class="edit"></span></p>
+    <p>January 3rd, 2016 at 3:07 pm</p>
+</div>	
+<div class="tags">
+    <p>Posted in <a href="http://blog.rguha.net/?cat=6" rel="category">software</a></p>
+    <p>Tagged with <a href="http://blog.rguha.net/?tag=scrabble" rel="tag">scrabble</a>, <a href="http://blog.rguha.net/?tag=periodic-table" rel="tag">periodic table</a>, <a href="http://blog.rguha.net/?tag=elements" rel="tag">elements</a>, <a href="http://blog.rguha.net/?tag=dictionary" rel="tag">dictionary</a></p></div>
+</div>
+
+
+
+<div class="navigation group">
+	<div class="alignleft"><a href="http://blog.rguha.net/?paged=2" >&laquo; Older Entries</a></div>
+	<div class="alignright"></div>
+</div>
+
+</div> 
+
+<div id="sidebar">
+<form role="search" method="get" id="searchform" class="searchform" action="http://blog.rguha.net/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form><h3>Pages</h3>		<ul>
+			<li class="page_item page-item-8"><a href="http://blog.rguha.net/?page_id=8">About</a></li>
+<li class="page_item page-item-1109"><a href="http://blog.rguha.net/?page_id=1109">Publications</a></li>
+		</ul>
+		<h3>Blogroll</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://chembioinfo.wordpress.com/">Asads Blog</a></li>
+<li><a href="http://chem-bla-ics.blogspot.com/" rel="friend colleague">chem-bla-ics</a></li>
+<li><a href="http://pipeline.corante.com/">In the Pipeline</a></li>
+<li><a href="http://baoilleach.blogspot.com/">Noel O&#039;Blog</a></li>
+<li><a href="http://blog.metamolecular.com/">Signals</a></li>
+<li><a href="http://tripod.nih.gov/" rel="friend met co-resident">Tripod</a></li>
+
+	</ul>
+
+<h3>Archives</h3>		<ul>
+			<li><a href='http://blog.rguha.net/?m=201602'>February 2016</a></li>
+	<li><a href='http://blog.rguha.net/?m=201601'>January 2016</a></li>
+	<li><a href='http://blog.rguha.net/?m=201512'>December 2015</a></li>
+	<li><a href='http://blog.rguha.net/?m=201511'>November 2015</a></li>
+	<li><a href='http://blog.rguha.net/?m=201502'>February 2015</a></li>
+	<li><a href='http://blog.rguha.net/?m=201501'>January 2015</a></li>
+	<li><a href='http://blog.rguha.net/?m=201411'>November 2014</a></li>
+	<li><a href='http://blog.rguha.net/?m=201410'>October 2014</a></li>
+	<li><a href='http://blog.rguha.net/?m=201408'>August 2014</a></li>
+	<li><a href='http://blog.rguha.net/?m=201407'>July 2014</a></li>
+	<li><a href='http://blog.rguha.net/?m=201312'>December 2013</a></li>
+	<li><a href='http://blog.rguha.net/?m=201310'>October 2013</a></li>
+	<li><a href='http://blog.rguha.net/?m=201307'>July 2013</a></li>
+	<li><a href='http://blog.rguha.net/?m=201305'>May 2013</a></li>
+	<li><a href='http://blog.rguha.net/?m=201303'>March 2013</a></li>
+	<li><a href='http://blog.rguha.net/?m=201302'>February 2013</a></li>
+	<li><a href='http://blog.rguha.net/?m=201210'>October 2012</a></li>
+	<li><a href='http://blog.rguha.net/?m=201209'>September 2012</a></li>
+	<li><a href='http://blog.rguha.net/?m=201208'>August 2012</a></li>
+	<li><a href='http://blog.rguha.net/?m=201207'>July 2012</a></li>
+	<li><a href='http://blog.rguha.net/?m=201204'>April 2012</a></li>
+	<li><a href='http://blog.rguha.net/?m=201201'>January 2012</a></li>
+	<li><a href='http://blog.rguha.net/?m=201111'>November 2011</a></li>
+	<li><a href='http://blog.rguha.net/?m=201107'>July 2011</a></li>
+	<li><a href='http://blog.rguha.net/?m=201106'>June 2011</a></li>
+	<li><a href='http://blog.rguha.net/?m=201105'>May 2011</a></li>
+	<li><a href='http://blog.rguha.net/?m=201104'>April 2011</a></li>
+	<li><a href='http://blog.rguha.net/?m=201103'>March 2011</a></li>
+	<li><a href='http://blog.rguha.net/?m=201102'>February 2011</a></li>
+	<li><a href='http://blog.rguha.net/?m=201101'>January 2011</a></li>
+	<li><a href='http://blog.rguha.net/?m=201012'>December 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=201011'>November 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=201010'>October 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=201009'>September 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=201008'>August 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=201007'>July 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=201006'>June 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=201005'>May 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=201004'>April 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=201003'>March 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=201002'>February 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=201001'>January 2010</a></li>
+	<li><a href='http://blog.rguha.net/?m=200912'>December 2009</a></li>
+	<li><a href='http://blog.rguha.net/?m=200911'>November 2009</a></li>
+	<li><a href='http://blog.rguha.net/?m=200910'>October 2009</a></li>
+	<li><a href='http://blog.rguha.net/?m=200908'>August 2009</a></li>
+	<li><a href='http://blog.rguha.net/?m=200907'>July 2009</a></li>
+	<li><a href='http://blog.rguha.net/?m=200906'>June 2009</a></li>
+	<li><a href='http://blog.rguha.net/?m=200905'>May 2009</a></li>
+	<li><a href='http://blog.rguha.net/?m=200904'>April 2009</a></li>
+	<li><a href='http://blog.rguha.net/?m=200903'>March 2009</a></li>
+	<li><a href='http://blog.rguha.net/?m=200902'>February 2009</a></li>
+	<li><a href='http://blog.rguha.net/?m=200901'>January 2009</a></li>
+	<li><a href='http://blog.rguha.net/?m=200812'>December 2008</a></li>
+	<li><a href='http://blog.rguha.net/?m=200811'>November 2008</a></li>
+	<li><a href='http://blog.rguha.net/?m=200810'>October 2008</a></li>
+	<li><a href='http://blog.rguha.net/?m=200809'>September 2008</a></li>
+	<li><a href='http://blog.rguha.net/?m=200808'>August 2008</a></li>
+		</ul>
+						<h3>Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://blog.rguha.net/?p=1567">vSDC, Rank Products and DUD-E</a>
+						</li>
+					<li>
+				<a href="http://blog.rguha.net/?p=1549">Hit Selection When You&#8217;re Strapped for Cash</a>
+						</li>
+					<li>
+				<a href="http://blog.rguha.net/?p=1546">Applications Invited for CSA Trust Grant for 2016</a>
+						</li>
+				</ul>
+				<h3>Tags</h3><div class="tagcloud"><a href='http://blog.rguha.net/?tag=acs' class='tag-link-154' title='8 topics' style='font-size: 12.622641509434pt;'>acs</a>
+<a href='http://blog.rguha.net/?tag=benchmark' class='tag-link-15' title='8 topics' style='font-size: 12.622641509434pt;'>benchmark</a>
+<a href='http://blog.rguha.net/?tag=bibliometrics' class='tag-link-17' title='3 topics' style='font-size: 8pt;'>bibliometrics</a>
+<a href='http://blog.rguha.net/?tag=c' class='tag-link-19' title='3 topics' style='font-size: 8pt;'>c++</a>
+<a href='http://blog.rguha.net/?tag=cdk' class='tag-link-23' title='45 topics' style='font-size: 22pt;'>cdk</a>
+<a href='http://blog.rguha.net/?tag=chembl' class='tag-link-223' title='4 topics' style='font-size: 9.3207547169811pt;'>chembl</a>
+<a href='http://blog.rguha.net/?tag=cheminformatics-research' class='tag-link-357' title='10 topics' style='font-size: 13.811320754717pt;'>cheminformatics</a>
+<a href='http://blog.rguha.net/?tag=cinf' class='tag-link-153' title='6 topics' style='font-size: 11.301886792453pt;'>cinf</a>
+<a href='http://blog.rguha.net/?tag=clojure' class='tag-link-130' title='4 topics' style='font-size: 9.3207547169811pt;'>clojure</a>
+<a href='http://blog.rguha.net/?tag=conference' class='tag-link-138' title='8 topics' style='font-size: 12.622641509434pt;'>conference</a>
+<a href='http://blog.rguha.net/?tag=cran' class='tag-link-26' title='5 topics' style='font-size: 10.377358490566pt;'>CRAN</a>
+<a href='http://blog.rguha.net/?tag=database' class='tag-link-28' title='15 topics' style='font-size: 15.924528301887pt;'>database</a>
+<a href='http://blog.rguha.net/?tag=data-mining' class='tag-link-227' title='4 topics' style='font-size: 9.3207547169811pt;'>data mining</a>
+<a href='http://blog.rguha.net/?tag=depiction' class='tag-link-30' title='5 topics' style='font-size: 10.377358490566pt;'>depiction</a>
+<a href='http://blog.rguha.net/?tag=descriptor' class='tag-link-31' title='6 topics' style='font-size: 11.301886792453pt;'>descriptor</a>
+<a href='http://blog.rguha.net/?tag=fingerprint' class='tag-link-39' title='27 topics' style='font-size: 19.22641509434pt;'>fingerprint</a>
+<a href='http://blog.rguha.net/?tag=google' class='tag-link-44' title='4 topics' style='font-size: 9.3207547169811pt;'>google</a>
+<a href='http://blog.rguha.net/?tag=graph' class='tag-link-45' title='4 topics' style='font-size: 9.3207547169811pt;'>graph</a>
+<a href='http://blog.rguha.net/?tag=hadoop' class='tag-link-143' title='6 topics' style='font-size: 11.301886792453pt;'>hadoop</a>
+<a href='http://blog.rguha.net/?tag=hcs' class='tag-link-242' title='5 topics' style='font-size: 10.377358490566pt;'>hcs</a>
+<a href='http://blog.rguha.net/?tag=hts' class='tag-link-49' title='11 topics' style='font-size: 14.339622641509pt;'>HTS</a>
+<a href='http://blog.rguha.net/?tag=java' class='tag-link-120' title='5 topics' style='font-size: 10.377358490566pt;'>java</a>
+<a href='http://blog.rguha.net/?tag=literature' class='tag-link-354' title='4 topics' style='font-size: 9.3207547169811pt;'>Literature</a>
+<a href='http://blog.rguha.net/?tag=mapreduce' class='tag-link-144' title='5 topics' style='font-size: 10.377358490566pt;'>mapreduce</a>
+<a href='http://blog.rguha.net/?tag=network' class='tag-link-66' title='6 topics' style='font-size: 11.301886792453pt;'>network</a>
+<a href='http://blog.rguha.net/?tag=ons' class='tag-link-69' title='5 topics' style='font-size: 10.377358490566pt;'>ons</a>
+<a href='http://blog.rguha.net/?tag=oracle' class='tag-link-147' title='5 topics' style='font-size: 10.377358490566pt;'>oracle</a>
+<a href='http://blog.rguha.net/?tag=parallel' class='tag-link-73' title='5 topics' style='font-size: 10.377358490566pt;'>parallel</a>
+<a href='http://blog.rguha.net/?tag=performance' class='tag-link-76' title='12 topics' style='font-size: 14.735849056604pt;'>performance</a>
+<a href='http://blog.rguha.net/?tag=postgres' class='tag-link-78' title='4 topics' style='font-size: 9.3207547169811pt;'>postgres</a>
+<a href='http://blog.rguha.net/?tag=pubchem' class='tag-link-81' title='11 topics' style='font-size: 14.339622641509pt;'>pubchem</a>
+<a href='http://blog.rguha.net/?tag=python' class='tag-link-83' title='13 topics' style='font-size: 15.264150943396pt;'>python</a>
+<a href='http://blog.rguha.net/?tag=qsar' class='tag-link-84' title='14 topics' style='font-size: 15.660377358491pt;'>qsar</a>
+<a href='http://blog.rguha.net/?tag=r' class='tag-link-86' title='31 topics' style='font-size: 20.018867924528pt;'>R</a>
+<a href='http://blog.rguha.net/?tag=rest' class='tag-link-89' title='9 topics' style='font-size: 13.283018867925pt;'>REST</a>
+<a href='http://blog.rguha.net/?tag=rnai' class='tag-link-148' title='5 topics' style='font-size: 10.377358490566pt;'>rnai</a>
+<a href='http://blog.rguha.net/?tag=sali' class='tag-link-92' title='4 topics' style='font-size: 9.3207547169811pt;'>sali</a>
+<a href='http://blog.rguha.net/?tag=search' class='tag-link-169' title='4 topics' style='font-size: 9.3207547169811pt;'>search</a>
+<a href='http://blog.rguha.net/?tag=similarity' class='tag-link-97' title='12 topics' style='font-size: 14.735849056604pt;'>similarity</a>
+<a href='http://blog.rguha.net/?tag=smarts' class='tag-link-132' title='5 topics' style='font-size: 10.377358490566pt;'>smarts</a>
+<a href='http://blog.rguha.net/?tag=solubility' class='tag-link-101' title='4 topics' style='font-size: 9.3207547169811pt;'>solubility</a>
+<a href='http://blog.rguha.net/?tag=sql' class='tag-link-104' title='5 topics' style='font-size: 10.377358490566pt;'>sql</a>
+<a href='http://blog.rguha.net/?tag=substructure' class='tag-link-107' title='7 topics' style='font-size: 11.962264150943pt;'>substructure</a>
+<a href='http://blog.rguha.net/?tag=visualization' class='tag-link-356' title='6 topics' style='font-size: 11.301886792453pt;'>visualization</a>
+<a href='http://blog.rguha.net/?tag=web-service' class='tag-link-117' title='4 topics' style='font-size: 9.3207547169811pt;'>web service</a></div>
+<h3>Meta</h3>			<ul>
+			<li><a href="http://blog.rguha.net/wp-login.php?action=register">Register</a></li>			<li><a href="http://blog.rguha.net/wp-login.php">Log in</a></li>
+			<li><a href="http://blog.rguha.net/?feed=rss2">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://blog.rguha.net/?feed=comments-rss2">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+			
+
+</div>
+
+</div>
+
+<div id="footer">
+	<p>The Journalist template by <a href="http://lucianmarin.com/" rel="designer">Lucian E. Marin</a> &mdash; Built for <a href="http://wordpress.org/">WordPress</a></p>
+</div>
+<!-- MathJax Latex Plugin installed --><!-- Powered by WPtouch: 4.0.2 --><script type='text/javascript' src='http://blog.rguha.net/wp-includes/js/wp-embed.min.js?ver=4.4'></script>
+<script type='text/javascript' src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&#038;ver=1.2.1'></script>
+
+</body>
+</html>

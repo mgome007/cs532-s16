@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>The Olive Gal - green of skin, black of heart</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://theolivegal.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://theolivegal.com/wp-content/themes/twentythirteen/js/html5.js"></script>
+	<![endif]-->
+	
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="green of skin, black of heart"/>
+<link rel="canonical" href="http://theolivegal.com" />
+<link rel="next" href="http://theolivegal.com/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="The Olive Gal - green of skin, black of heart" />
+<meta property="og:description" content="green of skin, black of heart" />
+<meta property="og:url" content="http://theolivegal.com" />
+<meta property="og:site_name" content="The Olive Gal" />
+<meta property="og:image" content="http://theolivegal.com/wp-content/uploads/cropped-TheOliveGalHeader.jpg" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="green of skin, black of heart"/>
+<meta name="twitter:title" content="The Olive Gal - green of skin, black of heart"/>
+<meta name="twitter:site" content="@theolivegal"/>
+<meta name="twitter:domain" content="The Olive Gal"/>
+<meta name="twitter:image" content="http://theolivegal.com/wp-content/uploads/cropped-TheOliveGalHeader.jpg"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/theolivegal.com\/","name":"The Olive Gal","potentialAction":{"@type":"SearchAction","target":"http:\/\/theolivegal.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"http:\/\/theolivegal.com","sameAs":["https:\/\/www.facebook.com\/theolivegal","https:\/\/twitter.com\/theolivegal"],"name":"Wendy Zamora"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="The Olive Gal &raquo; Feed" href="http://theolivegal.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Olive Gal &raquo; Comments Feed" href="http://theolivegal.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/theolivegal.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bcct_style-css'  href='http://theolivegal.com/wp-content/plugins/better-click-to-tweet/assets/css/styles.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='juiz_last_tweet_widget-css'  href='http://theolivegal.com/wp-content/plugins/juiz-last-tweet-widget/css/juiz_last_tweet.css?ver=4.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='social-widget-css'  href='http://theolivegal.com/wp-content/plugins/social-media-widget/social_widget.css?ver=4.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='twentythirteen-fonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic%7CBitter%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://theolivegal.com/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentythirteen-style-css'  href='http://theolivegal.com/wp-content/themes/twentythirteen/style.css?ver=2013-07-18' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentythirteen-ie-css'  href='http://theolivegal.com/wp-content/themes/twentythirteen/css/ie.css?ver=2013-07-18' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='jetpack_css-css'  href='http://theolivegal.com/wp-content/plugins/jetpack/css/jetpack.css?ver=3.7' type='text/css' media='all' />
+<script type='text/javascript' src='http://theolivegal.com/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://theolivegal.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://theolivegal.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://theolivegal.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='http://wp.me/4sft2' />
+<style type="text/css"><!--
+--></style><style type='text/css'>img#wpstats{display:none}</style>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+	<style type="text/css" id="twentythirteen-header-css">
+			.site-header {
+			background: url(http://theolivegal.com/wp-content/uploads/cropped-TheOliveGalHeader.jpg) no-repeat scroll top;
+			background-size: 1600px auto;
+		}
+		@media (max-width: 767px) {
+			.site-header {
+				background-size: 768px auto;
+			}
+		}
+		@media (max-width: 359px) {
+			.site-header {
+				background-size: 360px auto;
+			}
+		}
+			.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+			<script type="text/javascript">
+			/* <![CDATA[ */
+			(function() {
+				if (!window.mc4wp) {
+					window.mc4wp = {
+						listeners: [],
+						forms    : {
+							on: function (event, callback) {
+								window.mc4wp.listeners.push({
+									event   : event,
+									callback: callback
+								});
+							}
+						}
+					}
+				}
+			})();
+			/* ]]> */
+		</script>
+		<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//theolivegal.com/?wordfence_logHuman=1&hid=710359290D30B406D482C8436045C413');
+</script></head>
+
+<body class="home blog single-author sidebar">
+	<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+			<a class="home-link" href="http://theolivegal.com/" title="The Olive Gal" rel="home">
+				<h1 class="site-title">The Olive Gal</h1>
+				<h2 class="site-description">green of skin, black of heart</h2>
+			</a>
+
+			<div id="navbar" class="navbar">
+				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
+					<button class="menu-toggle">Menu</button>
+					<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>
+					<div class="menu-the-olive-gal-container"><ul id="primary-menu" class="nav-menu"><li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-43"><a href="http://theolivegal.com/">Home</a></li>
+<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://theolivegal.com/about-me/">About Me</a></li>
+<li id="menu-item-63" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63"><a href="http://theolivegal.com/category/family/">Family</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64"><a href="http://theolivegal.com/category/food/">Food</a></li>
+<li id="menu-item-391" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-391"><a href="http://theolivegal.com/category/dance-2/">Dance</a></li>
+<li id="menu-item-569" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-569"><a href="http://theolivegal.com/category/heart/">Heart</a></li>
+<li id="menu-item-66" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-66"><a href="http://theolivegal.com/category/extreme-sarcasm/">Extreme Sarcasm</a></li>
+</ul></div>					<form role="search" method="get" class="search-form" action="http://theolivegal.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>				</nav><!-- #site-navigation -->
+			</div><!-- #navbar -->
+		</header><!-- #masthead -->
+
+		<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+		
+										
+<article id="post-1271" class="post-1271 post type-post status-publish format-standard hentry category-extreme-sarcasm tag-blogs-about-nothing">
+	<header class="entry-header">
+		
+				<h1 class="entry-title">
+			<a href="http://theolivegal.com/i-need-me-some-creative-viagra/" rel="bookmark">I Need Me Some Creative Viagra</a>
+		</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://theolivegal.com/i-need-me-some-creative-viagra/" title="Permalink to I Need Me Some Creative Viagra" rel="bookmark"><time class="entry-date" datetime="2016-02-09T14:05:31+00:00">February 9, 2016</time></a></span><span class="categories-links"><a href="http://theolivegal.com/category/extreme-sarcasm/" rel="category tag">Extreme Sarcasm</a></span><span class="tags-links"><a href="http://theolivegal.com/tag/blogs-about-nothing/" rel="tag">blogs about nothing</a></span><span class="author vcard"><a class="url fn n" href="http://theolivegal.com/author/theolivegal/" title="View all posts by The Olive Gal" rel="author">The Olive Gal</a></span>					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>It&#8217;s been a little quiet here at The Olive Gal lately. And for no good reason. I told myself when I started this blog more than two years ago that I wouldn&#8217;t just crank out blogs to have blogs. I&#8217;d write when I had something to write about.</p>
+<p>So yeah, about that&#8230;</p>
+<p>It&#8217;s not that there hasn&#8217;t been stuff happening in my life. Quite the contrary. Maybe it&#8217;s not groundbreaking, earth-shattering stuff, but I can usually find something to reflect on. <em>Oh hey, I got a hang nail! What&#8217;s the symbology??</em></p>
+<p>It&#8217;s not that there haven&#8217;t been juicy socio-political-cultural things to satirize. In fact, on Thursday I got all mad and frothy at a <a href="http://www.usatoday.com/story/news/2016/02/02/cdc-urges-young-women-avoid-all-alcohol-unless-theyre-using-contraception/79701890/" target="_blank">USA Today article</a> that explained how the CDC believes all women of child-bearing age should avoid alcohol. (You have a uterus? Does it work yet? NO DRINKING FOR YOU!)</p>
+<p>But man. I just can&#8217;t get it up lately.</p>
+<figure id="attachment_1275" style="width: 320px;" class="wp-caption alignnone"><img class="size-full wp-image-1275" src="http://theolivegal.com/wp-content/uploads/nutshell.jpg" alt="Help, I'm in a nutshell." width="320" height="160" /><figcaption class="wp-caption-text">Help, I&#8217;m in a nutshell.</figcaption></figure>
+<p>I spend my days writing and researching and strategizing and worrying about SEO. I ain&#8217;t complaining about that. I spend a good part of my time as a virtual car recluse, confined to the four walls of my crossover while I crumple-faced cry-sing my way through Sara Bareilles&#8217; &#8220;Gravity&#8221; for the 15th time in a row.</p>
+<p>I spend my evenings as the Qasimodo-esque servant to a five-year-old tyrant, who&#8217;s practically telling me to &#8220;mush&#8221; as we piggyback down the hallway to the bathroom (because he refuses to walk there on his own), and whose nightly wake-up calls have gotten me daydreaming about dying just so I can have seven straight hours of rest.</p>
+<p>So when I do find myself alone on the couch these days, I heave a sigh and reach for my laptop. Upon seeing the login screen, I decide I don&#8217;t have the energy to type in my password and give up. If that&#8217;s not a parallel for middle-aged flaccidity, I don&#8217;t know what is.</p>
+<p>So here we are. Me in desperate need of inspiration, and you going &#8220;Why the hell am I still reading this bullshit?&#8221;</p>
+<p>If there were a pill called Creative Viagra, I&#8217;d be loading up on it like a rich, privileged pharma-junkie just treading water between scores. Since there isn&#8217;t, I&#8217;ll have to settle for that Elvis-lite lyfe: hyper-caffeinating during the day and knocking myself out with ZzzQuil at night.</p>
+<p>I&#8217;m not sure how to end this blog. How did Larry David end <em>Seinfeld</em>, a show about nothing? Terribly. They went to jail, like a bunch of assholes. Is there a blog jail? Maybe I need to go there. For inspiration.</p>
+<p>The end.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-1271" class="share-facebook sd-button share-icon" href="http://theolivegal.com/i-need-me-some-creative-viagra/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-1271" class="share-linkedin sd-button share-icon" href="http://theolivegal.com/i-need-me-some-creative-viagra/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-1271" class="share-twitter sd-button share-icon" href="http://theolivegal.com/i-need-me-some-creative-viagra/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-1271" class="share-pinterest sd-button share-icon" href="http://theolivegal.com/i-need-me-some-creative-viagra/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="http://theolivegal.com/i-need-me-some-creative-viagra/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-1271" class="share-google-plus-1 sd-button share-icon" href="http://theolivegal.com/i-need-me-some-creative-viagra/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					<div class="comments-link">
+				<a href="http://theolivegal.com/i-need-me-some-creative-viagra/#respond"><span class="leave-reply">Leave a comment</span></a>			</div><!-- .comments-link -->
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+							
+<article id="post-1253" class="post-1253 post type-post status-publish format-standard hentry category-family tag-big-boy tag-five-years-old tag-happy-birthday-lucas">
+	<header class="entry-header">
+		
+				<h1 class="entry-title">
+			<a href="http://theolivegal.com/beautiful-boy/" rel="bookmark">Beautiful Boy</a>
+		</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://theolivegal.com/beautiful-boy/" title="Permalink to Beautiful Boy" rel="bookmark"><time class="entry-date" datetime="2016-01-25T08:06:43+00:00">January 25, 2016</time></a></span><span class="categories-links"><a href="http://theolivegal.com/category/family/" rel="category tag">Family</a></span><span class="tags-links"><a href="http://theolivegal.com/tag/big-boy/" rel="tag">big boy</a>, <a href="http://theolivegal.com/tag/five-years-old/" rel="tag">five years old</a>, <a href="http://theolivegal.com/tag/happy-birthday-lucas/" rel="tag">happy birthday lucas</a></span><span class="author vcard"><a class="url fn n" href="http://theolivegal.com/author/theolivegal/" title="View all posts by The Olive Gal" rel="author">The Olive Gal</a></span>					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>It&#8217;s your 5th birthday today. A pretty big deal. Five years ago, you came into this world and you changed everything.</p>
+<p>So much can happen in five years. Five years before you came, I hadn&#8217;t met your dad. I was living in New York, and the last thing I was thinking about was being a mom.</p>
+<p>Now I can tell you that the best thing I&#8217;ve done in the last five years is you.</p>
+<p>In fact, the best thing I&#8217;ve done in <em>my whole life</em> is you. And I assure you, there&#8217;s nothing else I can do that will be better.</p>
+<p><img class="aligncenter  wp-image-1259" src="http://theolivegal.com/wp-content/uploads/babylucas.jpg" alt="baby" width="394" height="525" /></p>
+<p>But I can&#8217;t take credit anymore, Lucas. Because in five short years, you&#8217;ve done so much on your own. You&#8217;ve smiled, discovered your hands and feet, crawled, walked, ran, talked, questioned, yelled, drawn, written, hugged, held hands, made friends, played, created, learned, loved.</p>
+<p>When my back was in pain and I laid on the ground, you crawled over to me and put your hand on my face.</p>
+<p>When your friend Stephen got hurt at school, you sat with him all day and made sure he was alright.</p>
+<p>When I picked you up at daycare, you ran at me full force and nearly knocked me over. Every day.</p>
+<p><img class="aligncenter  wp-image-1262" src="http://theolivegal.com/wp-content/uploads/redsoxlucas1.jpg" alt="redsoxlucas" width="404" height="538" /></p>
+<p>When you were two years old, you discovered you loved lights and things that spin. Now you&#8217;re building circuits and amassing a strange and wonderful collection of fans.</p>
+<p>You laugh easily, and your laugh makes everyone else laugh. Your smile brightens the room. You power our family like the sun, and you warm all those around you.</p>
+<p>That&#8217;s the kind of beautiful boy you are, Lucas.</p>
+<p><img class="aligncenter  wp-image-1263" src="http://theolivegal.com/wp-content/uploads/happylucas.jpg" alt="happylucas" width="443" height="788" /></p>
+<p>These past five years with you have been nothing short of magical. I look at you and can&#8217;t believe there was ever a time before you.</p>
+<p>This precious, precious time with you. It&#8217;s going by quickly. I never wanted to live forever until the day you were born. Then I looked at you and thought: I can never leave you. I know someday, someday before I even know it, you&#8217;ll strike out on your own. Thirteen more years in our home is not enough. Fifty more years on this Earth together (God willing) is not enough.</p>
+<p>Eternity wouldn&#8217;t be enough.</p>
+<p>But for now, let me just say, I&#8217;m so thankful for these five years, Lucas. Happy birthday.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-1253" class="share-facebook sd-button share-icon" href="http://theolivegal.com/beautiful-boy/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-1253" class="share-linkedin sd-button share-icon" href="http://theolivegal.com/beautiful-boy/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-1253" class="share-twitter sd-button share-icon" href="http://theolivegal.com/beautiful-boy/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-1253" class="share-pinterest sd-button share-icon" href="http://theolivegal.com/beautiful-boy/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="http://theolivegal.com/beautiful-boy/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-1253" class="share-google-plus-1 sd-button share-icon" href="http://theolivegal.com/beautiful-boy/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					<div class="comments-link">
+				<a href="http://theolivegal.com/beautiful-boy/#comments">View all 4 comments</a>			</div><!-- .comments-link -->
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+							
+<article id="post-1240" class="post-1240 post type-post status-publish format-standard hentry category-family tag-28-days-later-ruined-my-marriage tag-divorce tag-dumbest-argument-ever tag-marriage">
+	<header class="entry-header">
+		
+				<h1 class="entry-title">
+			<a href="http://theolivegal.com/the-epic-argument-that-almost-ended-in-divorce/" rel="bookmark">The Epic Argument That Almost Ended in Divorce</a>
+		</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://theolivegal.com/the-epic-argument-that-almost-ended-in-divorce/" title="Permalink to The Epic Argument That Almost Ended in Divorce" rel="bookmark"><time class="entry-date" datetime="2016-01-07T20:38:58+00:00">January 7, 2016</time></a></span><span class="categories-links"><a href="http://theolivegal.com/category/family/" rel="category tag">Family</a></span><span class="tags-links"><a href="http://theolivegal.com/tag/28-days-later-ruined-my-marriage/" rel="tag">28 Days Later ruined my marriage</a>, <a href="http://theolivegal.com/tag/divorce/" rel="tag">divorce</a>, <a href="http://theolivegal.com/tag/dumbest-argument-ever/" rel="tag">dumbest argument ever</a>, <a href="http://theolivegal.com/tag/marriage/" rel="tag">marriage</a></span><span class="author vcard"><a class="url fn n" href="http://theolivegal.com/author/theolivegal/" title="View all posts by The Olive Gal" rel="author">The Olive Gal</a></span>					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><img class="alignleft size-medium wp-image-1249" src="http://theolivegal.com/wp-content/uploads/IMG_6072-225x300.jpg" alt="IMG_6072" width="225" height="300" />Every once in a while in a marriage, you come to a crossroads. Should we keep slugging away and work through this thing? Or should we just split up?</p>
+<p>During a recent, ridiculous argument, I came <em>thisclose</em> to calling the whole thing off. But to understand how I got to that point, I have to take you on a little trip through memory lane.</p>
+<p>Once upon a time in a living room in King City, two brothers decided to torture their younger brother, whose only crime was asking to go see the movie <em>28 Weeks Later </em>with them. The oldest brother, Alex, told his youngest, pre-teen brother, Zamir:</p>
+<p>&#8220;You&#8217;re a giant pussy, and there&#8217;s no way you can sit through this movie.&#8221;</p>
+<p>Zamir, of course, insisted he was junior-manly enough to handle it. So Alex and Ozzy (middle brother) put him to the test. They said that if he could grit his way through <em>28 Days Later</em>, then they&#8217;d bring him to see the sequel. So they popped in the movie, and a pseudo-confident Zamir sat next to them.</p>
+<p>Ten minutes later, Zamir said, &#8220;Oh snap! I left something in my room!&#8221; and disappeared for the rest of the film. Needless to say, the older brothers have never let him live it down. It&#8217;s a story that gets told over, and over, and over, and over at Zamora family gatherings.</p>
+<p>But you guys, here&#8217;s the thing: I <em>SWEAR</em> I was there. And Alex insists I was not.</p>
+<p><em>28 Weeks Later</em> came out on May 11, 2007. That was a mere four months after I had moved to California, and I knew no one else except Alex and his family and friends. If Alex was in King City, so was I.</p>
+<p>But apparently&#8230;I wasn&#8217;t. We argued and argued and argued, and finally Alex called Ozzy for backup. &#8220;Nope,&#8221; Ozzy said. &#8220;She wasn&#8217;t there.&#8221; I still insisted. I can distinctly remember where Zamir was sitting and his voice as he said, &#8220;Oh snap!&#8221;</p>
+<p>Alex checked with Zamir. &#8220;Was Wendy there when that happened?&#8221; Nope. Alex explained that they&#8217;ve told the story so many times, I must have come to believe I was there in person. I got served. But I remained frustrated, and continued to argue my point. Because if I wasn&#8217;t there, then&#8230;</p>
+<p>Where the hell <em>was</em> I?</p>
+<p>And here&#8217;s where the epic argument went south. Alex damned himself by saying that I DIDN&#8217;T EVEN LIVE IN CALIFORNIA at that time. Apparently, I&#8217;m the one with the shitty memory, but he&#8217;s the one who has purged entire months of our relationship from his brain.</p>
+<p>Just as I stubbornly insisted that I was there when Zamir tucked tail and booked it back into his bedroom, Alex contended that no, I did <em>not</em> live in California at the beginning of 2007. His side of the story was that I spent the summer of 2007 in Massachusetts looking for jobs and THEN moved out west.</p>
+<p>Wrong.</p>
+<p>Left <em>Dance Spirit</em> magazine in January 2006. Moved to California in February 2007 (lived with Alex&#8217;s friends). MOVED IN WITH ALEX in April 2007. Went to Massachusetts for the summer to look for jobs. Failed. Came back in September 2007 for good.</p>
+<p>I guess I was such a good roommate that he had no idea I was there!</p>
+<p>The argument intensified. I keep pulling up facts and figures and dates and specifics, and Alex dug in his heels. Since I had lost so spectacularly in the Zamir argument, there was no way I could be trusted. My blood was beginning to boil. A miasma of red anger was clouding my eyes. I could feel my skin turning to green when I said, &#8220;Don&#8217;t you remember? You proposed to me that summer! Why would you propose to someone who had not yet lived in the same state as you?&#8221;</p>
+<p>Guys&#8230;deep breath&#8230;He goes:</p>
+<p>&#8220;Oh, I didn&#8217;t remember proposing to you then.&#8221;</p>
+<p>&#8230;</p>
+<p>&#8230;&#8230;</p>
+<p>&#8230;&#8230;&#8230;</p>
+<p>&#8230;&#8230;&#8230;&#8230;..</p>
+<p>&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.</p>
+<p>What the will-you-marry-me fuck?!?!</p>
+<p>The natural, level-headed reaction to that from me was, &#8220;Fine! I never lived in California in 2007! You never loved me! And we should just get a divorce!&#8221;</p>
+<p>Thankfully, this was so absurd that Alex just started cracking up, and so did I. But in seven years of marriage, that&#8217;s the first time the D-word has escaped my lips.</p>
+<p>Problem is, I have opened a can of worms. Because now, in true Zamora fashion, he will lord this over me for the rest of our lives. For example, a recent Twitter conversation:</p>
+<p><img class="aligncenter size-full wp-image-1244" src="http://theolivegal.com/wp-content/uploads/Screen-Shot-2016-01-07-at-8.14.32-PM.png" alt="Screen Shot 2016-01-07 at 8.14.32 PM" width="590" height="527" /><img class="aligncenter size-full wp-image-1245" src="http://theolivegal.com/wp-content/uploads/Screen-Shot-2016-01-07-at-8.16.28-PM.png" alt="Screen Shot 2016-01-07 at 8.16.28 PM" width="600" height="192" /></p>
+<p>And I can&#8217;t take it. Divorce may be the only way to escape.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-1240" class="share-facebook sd-button share-icon" href="http://theolivegal.com/the-epic-argument-that-almost-ended-in-divorce/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-1240" class="share-linkedin sd-button share-icon" href="http://theolivegal.com/the-epic-argument-that-almost-ended-in-divorce/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-1240" class="share-twitter sd-button share-icon" href="http://theolivegal.com/the-epic-argument-that-almost-ended-in-divorce/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-1240" class="share-pinterest sd-button share-icon" href="http://theolivegal.com/the-epic-argument-that-almost-ended-in-divorce/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="http://theolivegal.com/the-epic-argument-that-almost-ended-in-divorce/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-1240" class="share-google-plus-1 sd-button share-icon" href="http://theolivegal.com/the-epic-argument-that-almost-ended-in-divorce/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					<div class="comments-link">
+				<a href="http://theolivegal.com/the-epic-argument-that-almost-ended-in-divorce/#respond"><span class="leave-reply">Leave a comment</span></a>			</div><!-- .comments-link -->
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+							
+<article id="post-1233" class="post-1233 post type-post status-publish format-standard hentry category-extreme-sarcasm tag-balance tag-lame-car-metaphors tag-new-years-resolution">
+	<header class="entry-header">
+		
+				<h1 class="entry-title">
+			<a href="http://theolivegal.com/word-of-the-year-balance/" rel="bookmark">Word of the Year: Balance</a>
+		</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://theolivegal.com/word-of-the-year-balance/" title="Permalink to Word of the Year: Balance" rel="bookmark"><time class="entry-date" datetime="2016-01-03T20:48:08+00:00">January 3, 2016</time></a></span><span class="categories-links"><a href="http://theolivegal.com/category/extreme-sarcasm/" rel="category tag">Extreme Sarcasm</a></span><span class="tags-links"><a href="http://theolivegal.com/tag/balance/" rel="tag">balance</a>, <a href="http://theolivegal.com/tag/lame-car-metaphors/" rel="tag">lame car metaphors</a>, <a href="http://theolivegal.com/tag/new-years-resolution/" rel="tag">New Year's resolution</a></span><span class="author vcard"><a class="url fn n" href="http://theolivegal.com/author/theolivegal/" title="View all posts by The Olive Gal" rel="author">The Olive Gal</a></span>					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Every New Year, us humans have an innate tendency to reflect on the 365 days we survived and look ahead to the 365 to come. We can&#8217;t help it, it&#8217;s a <a href="http://www.lifehack.org/articles/communication/50-new-years-resolution-ideas-and-how-achieve-each-them.html" target="_blank">thing we do</a>. (And me especially. This annual tradition falls right into the lap of my navel-gazing wheelhouse.) After reflecting and checking boxes for accomplishments and contemplating tasks left incomplete, we resolve to forge ahead. Some of us wish for change. Some of us want to keep momentum going. Some of us plainly don&#8217;t give a shit.</p>
+<p><a href="http://theolivegal.com/call-new-years-resolution/" target="_blank">But I do</a>. And as I think ahead to my 36th year, I search for a path that can bring me and my family happiness and prosperity. In some years, I&#8217;ve dug my heels in with renewed tenacity, looking to pursue missed goals or creating new ones to reach. Sometimes that&#8217;s worked. Other times, it&#8217;s been <a href="http://theolivegal.com/call-new-years-resolution/" target="_blank">a miserable failure</a>.</p>
+<p>This year, I&#8217;m trying a different approach.</p>
+<p>2015 was a year of transitions: selling the house, getting laid off, moving, getting a new job, buying a new house, starting a new school for Lucas&#8230;ticking that off right now, I&#8217;m surprised I actually came out of that year alive. Whenever you reach a bend in the road, or in my case, six bends in the road, you&#8217;ve got to put on the brakes a little. But, as far as I can tell, it&#8217;s a straight shot ahead. Time to accelerate, right?</p>
+<p>With every bone of my body, I want to say yes, let&#8217;s punch it! But something holds me back this time. I&#8217;m ready take things out of second gear (I swear I&#8217;m almost done with this car/road metaphor&#8230;bear with me), but as I do, I&#8217;m mindful of patterns in my past. I go from zero to 60, make some progress, but then run out of gas.</p>
+<figure id="attachment_1238" style="width: 300px;" class="wp-caption alignleft"><img class="wp-image-1238 size-medium" src="http://theolivegal.com/wp-content/uploads/IMG_5994-300x300.jpg" alt="More time with this guy" width="300" height="300" /><figcaption class="wp-caption-text">More time with this guy</figcaption></figure>
+<p>So in 2016, I need to find balance. I want to balance my dreams and the dreams of my family. Balance my work life, home life, and hobby life. Balance my health and my pleasure. In order to do that, though, something&#8217;s gotta give. Because if I keep trucking along as I have been, I&#8217;m going to go all Bilbo Baggins—butter scraped over too much bread—and I&#8217;ll come to the end of 2016 either completely wiped or obsessed with a magical ring that I stole from a scrawny goblin underneath a moun&#8230;wait a minute, no.</p>
+<p>So how do I achieve balance? I divide my time and effort wisely. I can&#8217;t keep trying to give 100% of myself to every endeavor. Don&#8217;t get it twisted: that doesn&#8217;t mean I won&#8217;t be working hard. If I want to accomplish something, I&#8217;m going to throw my (currently considerable) weight behind it. For example, my annual &#8220;Oh God, I ate my body weight in pasta&#8221; holiday regret always turns into the cliche &#8220;Now I will make myself miserable on a New Year&#8217;s diet&#8221;—and I almost always pull it off.</p>
+<p>But what I can&#8217;t continue to do is attempt to both laser focus in on a goal and have multiple goals. I need to reserve energy—both creative and physical—in order to play with my son, write this here blog, do something worthwhile and enjoyable (instead of just the literal definition of Netflix and chill all day ery day), kick ass at work, be a good wife and partner, and maybe do something about managing this 10-year-long crick in my back.</p>
+<p>For once, I&#8217;m not trying to conquer the world. I&#8217;m truly lucky enough to have checked off many of the big goals of my 30s. I can thank 2015 for that. So in 2016, I&#8217;m going to focus on learning how to enjoy them and how to find happiness within myself, instead of within getting stuff done. This is the year of peace. This is the year of self-worth. This is the year I&#8217;ll find balance.</p>
+<p>So what&#8217;s your word of the year? Or&#8230;let&#8217;s not be coy about it&#8230;New Year&#8217;s resolution?</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-1233" class="share-facebook sd-button share-icon" href="http://theolivegal.com/word-of-the-year-balance/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-1233" class="share-linkedin sd-button share-icon" href="http://theolivegal.com/word-of-the-year-balance/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-1233" class="share-twitter sd-button share-icon" href="http://theolivegal.com/word-of-the-year-balance/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-1233" class="share-pinterest sd-button share-icon" href="http://theolivegal.com/word-of-the-year-balance/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="http://theolivegal.com/word-of-the-year-balance/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-1233" class="share-google-plus-1 sd-button share-icon" href="http://theolivegal.com/word-of-the-year-balance/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					<div class="comments-link">
+				<a href="http://theolivegal.com/word-of-the-year-balance/#respond"><span class="leave-reply">Leave a comment</span></a>			</div><!-- .comments-link -->
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+							
+<article id="post-1221" class="post-1221 post type-post status-publish format-standard hentry category-food tag-christmas-eve tag-im-starving tag-italian-christmas">
+	<header class="entry-header">
+		
+				<h1 class="entry-title">
+			<a href="http://theolivegal.com/why-do-we-have-seven-fishes/" rel="bookmark">Why Do We Even Have Those Seven Fishes?</a>
+		</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://theolivegal.com/why-do-we-have-seven-fishes/" title="Permalink to Why Do We Even Have Those Seven Fishes?" rel="bookmark"><time class="entry-date" datetime="2015-12-09T09:29:28+00:00">December 9, 2015</time></a></span><span class="categories-links"><a href="http://theolivegal.com/category/food/" rel="category tag">Food</a></span><span class="tags-links"><a href="http://theolivegal.com/tag/christmas-eve/" rel="tag">Christmas Eve</a>, <a href="http://theolivegal.com/tag/im-starving/" rel="tag">I'm starving</a>, <a href="http://theolivegal.com/tag/italian-christmas/" rel="tag">Italian Christmas</a></span><span class="author vcard"><a class="url fn n" href="http://theolivegal.com/author/theolivegal/" title="View all posts by The Olive Gal" rel="author">The Olive Gal</a></span>					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>The <a href="http://www.swide.com/art-culture/feast-of-seven-fishes-the-italian-american-christmas-tradition-not-all-italians-know/2014/12/17" target="_blank">Feast of the Seven Fishes</a>. It wouldn&#8217;t be Italian Christmas Eve without them.</p>
+<p>As far back as I can remember, Christmas Eve was my absolute favorite night of the year. The day was spent in feverish anticipation of the food, songs, presents, and other shenanigans to come. And one smell punctuates all those shenanigans: fishy fish fish.</p>
+<p>When we walked up the brick stairs to my Nonna&#8217;s house, we were greeted by a giant plastic light-up Santa and, as we opened the front door, the wafting smell of seafood. Entering the kitchen, we were met by an already watery-eyed Nonna getting emotional whilst stirring a pot full of tentacles.</p>
+<p>Over the years our table was graced with scallops, calamari, octopus, haddock, cod, shrimp, salmon, and sometimes, when times were good, crab legs. Of course, I didn&#8217;t touch any of it for 25 years, but once I finally decided to eat fish, it was damn good.</p>
+<figure id="attachment_1230" style="width: 604px;" class="wp-caption aligncenter"><img class="size-full wp-image-1230" src="http://theolivegal.com/wp-content/uploads/garofoli_xmas.jpg" alt="Nothing says class like mudslide shots and a middle finger. Just another X-mas with the Garofolis." width="604" height="350" /><figcaption class="wp-caption-text">Nothing says class like mudslide shots and a middle finger. Just another X-mas with the Garofolis.</figcaption></figure>
+<p>Recently, someone asked me why we have seven fishes on Christmas Eve and I realized that I actually had no idea. So in honor of the approaching holiday&#8211;one I&#8217;ll be spending with my Italian side of the family this year&#8211;I did a little digging.</p>
+<p>The Feast of the Seven Fishes is a distinctly Italian-American tradition, although its origins are rumored to be from Southern Italy. According to all-knowing <a href="https://en.wikipedia.org/wiki/Feast_of_the_Seven_Fishes" target="_blank">Wikipedia </a>(which is a totally trusted source), Southern Italians, in their obsession with the Virgin Mary, would fast during a period they called The Vigil, which is basically the time spent waiting for Mary to huff and puff and blow that holy child out in a dirty manger.</p>
+<p>What does all this have to do with fish? I&#8217;m getting there. Apparently all that omega-3 and cholesterol helped the Virgin Mary have a smooth delivery.</p>
+<p>Okay, that&#8217;s a boldfaced lie. But here&#8217;s the likely answer. Catholics are the worst kinds of vegetarians. In order to fast during high holy days, we refrain from eating meat. But yeah, we totally go to town on that fish. It reminds me of this scene in <em>My Big Fat Greek Wedding</em>:</p>
+<p><span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='604' height='370' src='http://www.youtube.com/embed/iFemw_6a-Tg?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0' allowfullscreen='true'></iframe></span></p>
+<p>So Southern Italians would maybe eat fish on Christmas Eve to honor the time the Virgin Mary spent destroying her vagina giving birth. Take a minute to let that sink in. If you&#8217;re anything like me, you are making all kinds of gross fish puns in your head right now.</p>
+<p>Anywho, us Italian-Americans&#8230;we completely bastardized the tradition. Because just one fish isn&#8217;t enough for us gluttons, we decided to go with seven. No one knows why that number, but it seems appropriately too large for one meal. Which is apropos, since I keep seeing this being shared around the Internets:</p>
+<p><img class="aligncenter size-full wp-image-1229" src="http://theolivegal.com/wp-content/uploads/italians_meme.png" alt="italians_meme" width="300" height="243" /></p>
+<p>So there you have it. That&#8217;s as close to an &#8220;answer&#8221; as I could find doing a couple lazy Google searches. If you want more serious journalisming, you&#8217;ll have to pay me. A lovely seafood meal would go a long way&#8230;</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-1221" class="share-facebook sd-button share-icon" href="http://theolivegal.com/why-do-we-have-seven-fishes/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-1221" class="share-linkedin sd-button share-icon" href="http://theolivegal.com/why-do-we-have-seven-fishes/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-1221" class="share-twitter sd-button share-icon" href="http://theolivegal.com/why-do-we-have-seven-fishes/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-1221" class="share-pinterest sd-button share-icon" href="http://theolivegal.com/why-do-we-have-seven-fishes/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="http://theolivegal.com/why-do-we-have-seven-fishes/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-1221" class="share-google-plus-1 sd-button share-icon" href="http://theolivegal.com/why-do-we-have-seven-fishes/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					<div class="comments-link">
+				<a href="http://theolivegal.com/why-do-we-have-seven-fishes/#respond"><span class="leave-reply">Leave a comment</span></a>			</div><!-- .comments-link -->
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+							
+<article id="post-1207" class="post-1207 post type-post status-publish format-standard hentry category-dance-2 tag-best-dance-movie-ever tag-dance tag-holiday-spirit tag-white-christmas">
+	<header class="entry-header">
+		
+				<h1 class="entry-title">
+			<a href="http://theolivegal.com/white-christmas-chicken-soup-for-the-soul/" rel="bookmark">White Christmas: Chicken Soup for the Soul</a>
+		</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://theolivegal.com/white-christmas-chicken-soup-for-the-soul/" title="Permalink to White Christmas: Chicken Soup for the Soul" rel="bookmark"><time class="entry-date" datetime="2015-11-24T23:21:16+00:00">November 24, 2015</time></a></span><span class="categories-links"><a href="http://theolivegal.com/category/dance-2/" rel="category tag">Dance</a></span><span class="tags-links"><a href="http://theolivegal.com/tag/best-dance-movie-ever/" rel="tag">best dance movie ever</a>, <a href="http://theolivegal.com/tag/dance/" rel="tag">dance</a>, <a href="http://theolivegal.com/tag/holiday-spirit/" rel="tag">holiday spirit</a>, <a href="http://theolivegal.com/tag/white-christmas/" rel="tag">White Christmas</a></span><span class="author vcard"><a class="url fn n" href="http://theolivegal.com/author/theolivegal/" title="View all posts by The Olive Gal" rel="author">The Olive Gal</a></span>					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Normally I&#8217;m all about respecting each holiday&#8217;s dance space, but this year my psyche is all &#8220;fuck you, Thanksgiving, you killed the Indians&#8221; and has moved right from Halloween into Christmas. And with that move, I&#8217;ll gorge myself not on turkey and stuffing, but on classic holiday movies full of white people dancing.</p>
+<p>And the best white people dancing holiday movie is, hands down, <em>White Christmas.</em></p>
+<p><em>White<del></del> Christmas </em>is my chicken soup for the soul. Each December, my cousin Jonelle and I would curl up on our Nonna&#8217;s plastic-covered couch and settle in to watch our favorite holiday movie. Then we&#8217;d spend the next few weeks pretending we were the Haynes sisters. (Poor Matt had to be freckled-faced Haynes the dog-faced boy.)</p>
+<p>This movie stands the test of time because of extreme attachment vis-a-vie nostalgia (just like claymation <em>Rudolph</em>), but also because of its fantastic set construction (unlike claymation <em>Rudolph</em>). I mean, how many times have you walked into a train club car and been severely disappointed it didn&#8217;t look like this?</p>
+<p><img class="aligncenter size-full wp-image-1208" src="http://theolivegal.com/wp-content/uploads/white-christmas-club-car.jpg" alt="white christmas club car" width="500" height="289" /></p>
+<p>The plot of <em>White Christmas</em> is as flimsy as a California &#8220;winter&#8221; coat in Massachusetts February. But the dancing. Oh, the dancing! There&#8217;s a minstrel number with a cast of 50,000 who are summoned to rehearse show material at a Vermont ski resort, even though the day before they were given time off to be with their families for the holidays. The show must go on! Families be damned! That&#8217;s the Christmas spirit.</p>
+<p>Still, all this escaped me as a child because I was dazzled by Vera Ellen.</p>
+<p>If you ask me, the star of this movie was not Bing Crosby. It was Vera Ellen. Vera Ellen should have been a bigger Hollywood name than Ginger Rodgers or even Fred Astaire, but her acting chops were not quite on par with her phenomenal dance skill. Watching her perform in this movie as a kid inspired me to 1. belt the shit out of my sweaters and 2. love dancing even more. I mean, take a look. This routine still holds up to today&#8217;s high standards of technique.</p>
+<p><span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='604' height='370' src='http://www.youtube.com/embed/yxGIHwpbKFU?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0' allowfullscreen='true'></iframe></span></p>
+<p>I will refrain from linking to all the rest of the dance numbers in this movie that I obsessed over as a kid (including the Martha Graham spoof, which again went right over my head). But you just don&#8217;t see dance highlighted in movies like this anymore. Yes, there are movie musicals, but they often feature dance doubles in weird cuts instead of the real thing. And yes, TV musical episodes are becoming a thing, but they usually feature the show&#8217;s stars with barely passable voices doing awkward jazz squares.</p>
+<p>Quick, right now, name a big Hollywood star who is known for his or her dancing?</p>
+<p>Okay, besides Channing Tatum.</p>
+<p>None, right? There&#8217;s none. Even those who have a background in dance don&#8217;t usually get a chance to showcase it. It&#8217;s upsetting and it&#8217;s pulled me right off topic onto a totally different tangent.</p>
+<p>Back to why <em>White Christmas </em>is the best! Did you know that Bob Fosse is the uncredited choreographer? Very apparent in the tilted pelvises and isolated shoulders of &#8220;Love, You Didn&#8217;t Do Right By Me.&#8221; (If you ask me who Bob Fosse is, you&#8217;re dead to me.)</p>
+<p><img class="aligncenter size-large wp-image-1212" src="http://theolivegal.com/wp-content/uploads/love-1024x576.jpg" alt="love" width="604" height="340" /></p>
+<p>Now, I know I said I love this movie, but I wouldn&#8217;t be The Olive Gal if I didn&#8217;t point out a completely shitty plot hole that you could drive a Christmas tree through. George Clooney&#8217;s aunt Rosemary spends the second half the movie mad at Bing Crosby because she thinks he&#8217;s trying to exploit his old army General. But she forgives Bing when he goes on TV to sing about how the General is hard up for a job. I don&#8217;t know about you, but I&#8217;d be way more pissed about someone singing the following about me on national TV than if they brought a TV crew to my ski resort to film their show:</p>
+<p>What can you do with a general<br />
+When he stops being a general?<br />
+Oh, what can you do with a general who retires?</p>
+<p>Who&#8217;s got a job for a general<br />
+When he stops being a general?<br />
+They all get a job but a general no one hires</p>
+<p>Awesome. Merry Christmas, General. Here&#8217;s so much pity from your famous army buds.</p>
+<p>Anyway, one of the best things about <em>White Christmas</em> is the fact that it doesn&#8217;t crack out on Christmas, and yet still makes you feel all Christmasy. Of course, that might be because this scene happens at the end of the movie:</p>
+<p><img class="aligncenter size-full wp-image-1214" src="http://theolivegal.com/wp-content/uploads/WC-ending.jpg" alt="WC ending" width="610" height="407" /></p>
+<p>Okay, maybe it cracks out just a little.</p>
+<p>Despite the girls clearly too young for pointe shoes, this incredibly sappy scene, complete with audience sing-along, just puts everything right in the world. It&#8217;s that last sip of warm soup that coats your belly and leaves you satisfied but not bloated. Your ailments have been cured. Your Christmas will be white. And you just might show up to the next Christmas party dressed in that Mrs. Claus outfit.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-1207" class="share-facebook sd-button share-icon" href="http://theolivegal.com/white-christmas-chicken-soup-for-the-soul/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-1207" class="share-linkedin sd-button share-icon" href="http://theolivegal.com/white-christmas-chicken-soup-for-the-soul/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-1207" class="share-twitter sd-button share-icon" href="http://theolivegal.com/white-christmas-chicken-soup-for-the-soul/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-1207" class="share-pinterest sd-button share-icon" href="http://theolivegal.com/white-christmas-chicken-soup-for-the-soul/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="http://theolivegal.com/white-christmas-chicken-soup-for-the-soul/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-1207" class="share-google-plus-1 sd-button share-icon" href="http://theolivegal.com/white-christmas-chicken-soup-for-the-soul/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					<div class="comments-link">
+				<a href="http://theolivegal.com/white-christmas-chicken-soup-for-the-soul/#comments">One comment so far</a>			</div><!-- .comments-link -->
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+							
+<article id="post-1198" class="post-1198 post type-post status-publish format-standard hentry category-food tag-dieting tag-holiday-dieting-fail tag-laura-ingalls-wilder tag-little-house-on-the-prairie">
+	<header class="entry-header">
+		
+				<h1 class="entry-title">
+			<a href="http://theolivegal.com/when-the-going-gets-tough-the-tough-read-little-house-on-the-prairie/" rel="bookmark">When the Going Gets Tough, the Tough Read Little House on the Prairie</a>
+		</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://theolivegal.com/when-the-going-gets-tough-the-tough-read-little-house-on-the-prairie/" title="Permalink to When the Going Gets Tough, the Tough Read Little House on the Prairie" rel="bookmark"><time class="entry-date" datetime="2015-11-19T22:49:45+00:00">November 19, 2015</time></a></span><span class="categories-links"><a href="http://theolivegal.com/category/food/" rel="category tag">Food</a></span><span class="tags-links"><a href="http://theolivegal.com/tag/dieting/" rel="tag">dieting</a>, <a href="http://theolivegal.com/tag/holiday-dieting-fail/" rel="tag">holiday dieting fail</a>, <a href="http://theolivegal.com/tag/laura-ingalls-wilder/" rel="tag">Laura Ingalls Wilder</a>, <a href="http://theolivegal.com/tag/little-house-on-the-prairie/" rel="tag">Little House on the Prairie</a></span><span class="author vcard"><a class="url fn n" href="http://theolivegal.com/author/theolivegal/" title="View all posts by The Olive Gal" rel="author">The Olive Gal</a></span>					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>That Laura Ingalls Wilder. She knew a thing or two about surviving tough times.</p>
+<p>She slept in a covered wagon and ate dinner by campfire. She lived in a bungalow dug into the banks of a creek and swept the sod floor using twigs. She spent a long winter stranded on the prairie with no supplies, grinding wheat in a coffee mill to help feed her family.</p>
+<p>And then there&#8217;s me. I&#8217;m desperately avoiding running to the fridge to gorge myself on leftovers.</p>
+<p>When I find myself in times of trouble, I just can&#8217;t let it be. I think and overthink and think some more, and then, because it&#8217;s comfortable and it&#8217;s never let me down, I put food in my mouth hole and I feel momentarily better. That is&#8230;until I step on the scale in the morning.</p>
+<p>The weight came on surprisingly quick. It didn&#8217;t take much to undo years of clean eating and daily walks. First, I was having fun trying all the new restaurants in San Jose and getting to know my coworkers. Then I was too busy to go to the gym. Then I was exhausted from my <a href="http://theolivegal.com/hellish-commute-turning-me-into-she-hulk/" target="_blank">long commute </a>and attempting the work/family hustle. Next thing I knew, the snacks were calling my name at 10pm. The number on the scale kept climbing. And as it did, my mood and self-confidence plummeted.</p>
+<p>And now I&#8217;m here, 20 lbs later, reading <em>Little House on the Prairie</em>.</p>
+<p><img class="alignleft  wp-image-1204" src="http://theolivegal.com/wp-content/uploads/IMG_5893-e1448000242417-768x1024.jpg" alt="IMG_5893" width="253" height="338" />I&#8217;m usually pretty decent at self-motivation. Not to toot my own horn, but I&#8217;ve overcome a few obstacles in my past, and when I did, I thought of myself as Laura Ingalls Wilder: strong as a stout French horse and full of pluck. And that&#8217;s why, when my own motivational tools fail me, I pick up a dog-eared copy of the classic and remind myself what real grit looks like. It&#8217;s a pioneer family with the balls to go it alone, to make up their own rules, to battle the elements and the lawlessness and the wild.</p>
+<p>So yeah, maybe they can help me with my 17-day diet.</p>
+<p>Those who&#8217;ve read this blog from its early days know I&#8217;ve attempted the <a href="http://theolivegal.com/im-idiot-trying-diet-holidays/">holiday diet</a> before in the past and failed miserably. But with the help of <em>Little House on the Prairie</em>, I will persevere and at least try and make it through without tacking another 10 lbs onto my increasingly doughy frame.</p>
+<p>Potential pitfall: some of the best parts of the Little House books are the descriptions of delish down-home Americana meals. Pies and turkeys and sage stuffing and warm bread with butter. Pickled preserves and tasty peaches and whipped cream and&#8230;</p>
+<p>yeah, I just walked to the fridge.</p>
+<p>Goddammit! Can anyone recommend a classic, feel-good motivational children&#8217;s book series about a skinny bitch who thinks of food as pure utility and survives on raw kale and coconut oil?</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-1198" class="share-facebook sd-button share-icon" href="http://theolivegal.com/when-the-going-gets-tough-the-tough-read-little-house-on-the-prairie/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-1198" class="share-linkedin sd-button share-icon" href="http://theolivegal.com/when-the-going-gets-tough-the-tough-read-little-house-on-the-prairie/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-1198" class="share-twitter sd-button share-icon" href="http://theolivegal.com/when-the-going-gets-tough-the-tough-read-little-house-on-the-prairie/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-1198" class="share-pinterest sd-button share-icon" href="http://theolivegal.com/when-the-going-gets-tough-the-tough-read-little-house-on-the-prairie/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="http://theolivegal.com/when-the-going-gets-tough-the-tough-read-little-house-on-the-prairie/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-1198" class="share-google-plus-1 sd-button share-icon" href="http://theolivegal.com/when-the-going-gets-tough-the-tough-read-little-house-on-the-prairie/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					<div class="comments-link">
+				<a href="http://theolivegal.com/when-the-going-gets-tough-the-tough-read-little-house-on-the-prairie/#respond"><span class="leave-reply">Leave a comment</span></a>			</div><!-- .comments-link -->
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+							
+<article id="post-1192" class="post-1192 post type-post status-publish format-standard hentry category-extreme-sarcasm tag-not-making-this-up tag-struck-by-lightning tag-true-story">
+	<header class="entry-header">
+		
+				<h1 class="entry-title">
+			<a href="http://theolivegal.com/that-one-time-i-got-struck-by-lightning/" rel="bookmark">That One Time I Got Struck By Lightning</a>
+		</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://theolivegal.com/that-one-time-i-got-struck-by-lightning/" title="Permalink to That One Time I Got Struck By Lightning" rel="bookmark"><time class="entry-date" datetime="2015-11-09T20:18:22+00:00">November 9, 2015</time></a></span><span class="categories-links"><a href="http://theolivegal.com/category/extreme-sarcasm/" rel="category tag">Extreme Sarcasm</a></span><span class="tags-links"><a href="http://theolivegal.com/tag/not-making-this-up/" rel="tag">not making this up</a>, <a href="http://theolivegal.com/tag/struck-by-lightning/" rel="tag">struck by lightning</a>, <a href="http://theolivegal.com/tag/true-story/" rel="tag">true story</a></span><span class="author vcard"><a class="url fn n" href="http://theolivegal.com/author/theolivegal/" title="View all posts by The Olive Gal" rel="author">The Olive Gal</a></span>					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>This morning in San Jose, the sky was ominous and dark and the rain fell in sheets. As I stared out the window of our 10th floor office, I saw a flash of light in the sky and felt a low rumble of thunder. I was in a glorious happy place, contently sipping my coffee as I churned away at the morning&#8217;s work. Another rumble of thunder and I hear:</p>
+<p>&#8220;Oh my God, we&#8217;re going to die.&#8221;</p>
+<p>Californians. I love you guys. You are so used to undisturbed blue skies that the smallest hint of &#8220;weather&#8221; sends you into a melodramatic tailspin. Case in point, this <a href="http://www.nbcbayarea.com/news/local/Thunder-Booms-Lightning-Strikes-Rain-Pours-in-Bay-Area-343783312.html" target="_blank">NBC Bay Area news story</a> about thunder and lightning. The struggle is real.</p>
+<p>But while my officemates were saying their Hail Maries, I was going full Lieutenant Dan. I can&#8217;t help it. That&#8217;s what I do in a good rainstorm.</p>
+<p><img class="aligncenter size-full wp-image-1193" src="http://theolivegal.com/wp-content/uploads/lieutenantdan.jpg" alt="lieutenantdan" width="429" height="284" /></p>
+<p>Which brings me to my story about being struck by lightning.</p>
+<p>When I was 13 years old, me and my friend Jackie Henry were hanging out at home doing what all bored kids do in the summertime: absolutely dick. Then, quick as a hummingbird&#8217;s hiccup, the weather turned. We went from oppressive heat to serious heat storm, the rain drenching us in oversized, sloppy drops. Since we were already in it, we decided to just run with it, hooting and hollering at the sky while terrible red branches of lightning reached their claws to the ground.</p>
+<p>&#8220;Is this all you&#8217;ve got?!&#8221; I screamed at the sky in so much irony.</p>
+<p>Because we were teenagers, and teenagers must immediately jump on the phone to brag about whatever it is they are doing, we ran inside to the basement after about five minutes of that nonsense, and I picked up the orange rotary phone. You know, the one with the exposed wire at the end of the chord? I grinned a toothy metal grin full of braces as I dialed my &#8220;boyfriend&#8217;s&#8221; number.</p>
+<p>I couldn&#8217;t make this shit up, guys.</p>
+<p>Just as the call went through, lightning lit up the sky and a zap told me the telephone pole had been struck. I didn&#8217;t have time to process that, though, because (as Jackie later recalled for me), a tiny streak of light danced from the receiver to my mouth and knocked me to the ground.</p>
+<p>Told yah. Struck by lightning.</p>
+<p>Jackie frantically stood over me shouting &#8220;Oh my God! Are you dead? Are you dead?&#8221; No, I was not dead. Just an idiot.</p>
+<p>Later that day, traumatized from my brush with death, I huddled in blankets and shivered as dramatically as possible for my parents to see when they returned home. Boy, would they be upset to learn that their only daughter was almost killed by lightning!</p>
+<p>Yeah. They laughed.</p>
+<p>Hard.</p>
+<p>Like&#8230;tears in their eyes.</p>
+<p>Like&#8230;doubled over.</p>
+<p>Like&#8230;they had to walk away.</p>
+<p>I was horrified. HORRIFIED! How could they laugh at such a serious thing?! I ALMOST DIED, GUYS!</p>
+<p>Looking back, I&#8217;m proud of them for not peeing their pants on the spot. Because if it were me, there would be no amount of hell to pay. My poor kid would never live it down. I&#8217;d be writing about it in this here blog and then bringing it up to his girlfriends the first time we met. I&#8217;d make a commemorative video of the moment complete with a &#8220;fuck you, Mom&#8221; photo taken after said lightning strike. I&#8217;d be asking him, a week later, &#8220;Hey, remember that time you were struck by lightning?&#8221; I&#8217;d make a T-shirt that said, &#8220;I was struck by lightning and all I got was this lousy T-shirt!&#8221;</p>
+<p>Okay, I&#8217;m done now. I hereby grant you all permission to tell this as a cautionary tale to all of your friends who think they&#8217;re badasses in the rain. And to your pussy California friends who really do think they&#8217;re going to die from a little bit of thunder when they are perfectly safe inside. Let me tell you something:</p>
+<p>You&#8217;re fine. I was struck by lightning.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-1192" class="share-facebook sd-button share-icon" href="http://theolivegal.com/that-one-time-i-got-struck-by-lightning/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-1192" class="share-linkedin sd-button share-icon" href="http://theolivegal.com/that-one-time-i-got-struck-by-lightning/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-1192" class="share-twitter sd-button share-icon" href="http://theolivegal.com/that-one-time-i-got-struck-by-lightning/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-1192" class="share-pinterest sd-button share-icon" href="http://theolivegal.com/that-one-time-i-got-struck-by-lightning/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="http://theolivegal.com/that-one-time-i-got-struck-by-lightning/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-1192" class="share-google-plus-1 sd-button share-icon" href="http://theolivegal.com/that-one-time-i-got-struck-by-lightning/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					<div class="comments-link">
+				<a href="http://theolivegal.com/that-one-time-i-got-struck-by-lightning/#respond"><span class="leave-reply">Leave a comment</span></a>			</div><!-- .comments-link -->
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+							
+<article id="post-1182" class="post-1182 post type-post status-publish format-standard hentry category-extreme-sarcasm tag-commute tag-road-rage tag-traffic">
+	<header class="entry-header">
+		
+				<h1 class="entry-title">
+			<a href="http://theolivegal.com/hellish-commute-turning-me-into-she-hulk/" rel="bookmark">My Hellish Commute Is Turning Me Into She-Hulk</a>
+		</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://theolivegal.com/hellish-commute-turning-me-into-she-hulk/" title="Permalink to My Hellish Commute Is Turning Me Into She-Hulk" rel="bookmark"><time class="entry-date" datetime="2015-11-03T22:31:53+00:00">November 3, 2015</time></a></span><span class="categories-links"><a href="http://theolivegal.com/category/extreme-sarcasm/" rel="category tag">Extreme Sarcasm</a></span><span class="tags-links"><a href="http://theolivegal.com/tag/commute/" rel="tag">commute</a>, <a href="http://theolivegal.com/tag/road-rage/" rel="tag">road rage</a>, <a href="http://theolivegal.com/tag/traffic/" rel="tag">traffic</a></span><span class="author vcard"><a class="url fn n" href="http://theolivegal.com/author/theolivegal/" title="View all posts by The Olive Gal" rel="author">The Olive Gal</a></span>					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>I have never not commuted. Nearly every job in my adult life has taken me at least 30 minutes from walking out the door to plopping my slightly frazzled ass into an office chair. In fact, most of the time it&#8217;s taken me around an hour to get from the apartment/house I can afford to the job that barely pays me enough to afford it. So when I took a job in downtown San Jose, I wasn&#8217;t daunted by the idea of a commute.</p>
+<p>For the first three months of my new job, it took me nearly an hour to get there. Fine. Without Lucas in the car, I could spew plenty of swears while I caught up with family on the phone or worked on my mad car karaoke skills.</p>
+<p>Then came the start of the school year. The additional volume of school buses and mom vans crowding the road meant something as minor as a feather floating into the street could back up traffic for my entire route. One minute, you&#8217;re cruising along. Next minute, it&#8217;s this:</p>
+<p><img class="aligncenter size-full wp-image-1183" src="http://theolivegal.com/wp-content/uploads/traffic.jpg" alt="traffic" width="625" height="475" /></p>
+<p>The infamous Silicon Valley traffic. Intellectually, I knew to expect it. But the recent hellish commute has tested my patience like a toddler throwing a mega tantrum just as you&#8217;re about to check out $150 worth of Target swag. In the last week, it&#8217;s taken me between 1.5 and 2 hours to get to work each morning. And that&#8217;s enough to turn even the most patient driver (not me) into a full-on rageaholic.</p>
+<p>So you can imagine the scenarios.</p>
+<p>When I lived in New York, my morning commute consisted mostly of walking. There were times when the sidewalks became crowded or when idiot tourists paused to look up at things (the nerve), but I could usually passive-aggressively huff as I sidestepped them and continued on my way.</p>
+<p>In fact, even openly aggressive expressions were not only expected in New York, they were considered &#8220;experiencing local flavor.&#8221; A man with a too-large umbrella once shoulder bumped me so hard my coffee flew out of my hands. On several occasions I witnessed people kicking car tires or pounding on hoods if the vehicles dared stop in the middle of a crosswalk. And God forbid if you didn&#8217;t perfect the art of the can&#8217;t-nobody-break-my-stride card swipe at the subway turnstile.</p>
+<p>So no, NYC walking commutes were no Sunday strolls, but you could usually get where you needed to go as fast as your legs could take you. And if people got in your way, you could let some of your pent up anger out in sanctioned, socially acceptable ways.</p>
+<p>In a car, on the other hand, you can&#8217;t really do much except fling expletive-filled epitaphs on deaf ears, pound on your horn, or hold a quivering middle finger up long enough for that bitch granny going 40 mph in a 55 zone to see. And even if you <em>do</em> do those things, 1. you&#8217;re the asshole on the road, not them and 2. you&#8217;re still stuck in traffic.</p>
+<p>So you sit and simmer for however long your miserable commute lasts (1.5 to 2 hours) until you emerge so full of rage that even the slightest slight causes you to lose your shit. A slow Internet day, for example, is normally a pain in the ass but livable. A slow Internet day after a long commute results in this:</p>
+<p><img class="aligncenter size-full wp-image-1185" src="http://theolivegal.com/wp-content/uploads/fuckthiscat.gif" alt="fuckthiscat" width="350" height="310" /></p>
+<p>Not only have I become so full of road rage that I&#8217;ve actually done a cost/benefit analysis of whether I should slam into the driver&#8217;s ed douche canoe who cut me off the other day, but my precarious home/work/personal life balance has gone from teetering on manageable to full face plant. I actually growled at my son the other night. Growled.</p>
+<p>I&#8217;ve gone from mild mannered Jennifer Walters to full-on She-Hulk. Except I can&#8217;t seem to figure out how to transform back. Being constantly enraged will do that to you.</p>
+<p>I&#8217;ve tried to figure out some solutions, but no amount of audio books will change the fact that after two hours in the car, I want to kill all the things. So I&#8217;m thinking it&#8217;s back to the train life for me. Especially because in a couple months, my office is moving even farther away to the heart of the seven-lanes-grinding-to-a-halt traffic hell that is Santa Clara.</p>
+<p>Goodbye, car karaoke. Goodbye, audio books. Goodbye, She-Hulk.</p>
+<p>Hello, sanity!</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-1182" class="share-facebook sd-button share-icon" href="http://theolivegal.com/hellish-commute-turning-me-into-she-hulk/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-1182" class="share-linkedin sd-button share-icon" href="http://theolivegal.com/hellish-commute-turning-me-into-she-hulk/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-1182" class="share-twitter sd-button share-icon" href="http://theolivegal.com/hellish-commute-turning-me-into-she-hulk/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-1182" class="share-pinterest sd-button share-icon" href="http://theolivegal.com/hellish-commute-turning-me-into-she-hulk/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="http://theolivegal.com/hellish-commute-turning-me-into-she-hulk/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-1182" class="share-google-plus-1 sd-button share-icon" href="http://theolivegal.com/hellish-commute-turning-me-into-she-hulk/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					<div class="comments-link">
+				<a href="http://theolivegal.com/hellish-commute-turning-me-into-she-hulk/#comments">One comment so far</a>			</div><!-- .comments-link -->
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+							
+<article id="post-1166" class="post-1166 post type-post status-publish format-standard hentry category-extreme-sarcasm tag-almost-famous tag-lester-bangs tag-phillip-seymour-hoffman tag-uncool">
+	<header class="entry-header">
+		
+				<h1 class="entry-title">
+			<a href="http://theolivegal.com/how-to-be-uncool-a-lesson-from-lester-bangs/" rel="bookmark">How to Be Uncool: A Lesson from Lester Bangs</a>
+		</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="http://theolivegal.com/how-to-be-uncool-a-lesson-from-lester-bangs/" title="Permalink to How to Be Uncool: A Lesson from Lester Bangs" rel="bookmark"><time class="entry-date" datetime="2015-10-25T21:19:53+00:00">October 25, 2015</time></a></span><span class="categories-links"><a href="http://theolivegal.com/category/extreme-sarcasm/" rel="category tag">Extreme Sarcasm</a></span><span class="tags-links"><a href="http://theolivegal.com/tag/almost-famous/" rel="tag">Almost Famous</a>, <a href="http://theolivegal.com/tag/lester-bangs/" rel="tag">Lester Bangs</a>, <a href="http://theolivegal.com/tag/phillip-seymour-hoffman/" rel="tag">Phillip Seymour Hoffman</a>, <a href="http://theolivegal.com/tag/uncool/" rel="tag">uncool</a></span><span class="author vcard"><a class="url fn n" href="http://theolivegal.com/author/theolivegal/" title="View all posts by The Olive Gal" rel="author">The Olive Gal</a></span>					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Have you ever had the feeling you just don&#8217;t fit in? That&#8217;s like asking me, &#8220;Have you ever had a craving for meatballs and sauce?&#8221; I don&#8217;t understand the question. Who <em>hasn&#8217;t </em>felt this way at one point in their life?</p>
+<p>The unfortunate thing is, for people who consider themselves uncool (me), the ratio of fitting in to not fitting in is proportionately disparate, leaning hard in favor of the latter. Translation: uncool people never feel like they fit in.</p>
+<p>When confidence is high, this isn&#8217;t actually a problem. So what if I don&#8217;t fit in! I&#8217;d <em>rather </em>not fit in! It&#8217;s much better to be genuine and be myself!</p>
+<p>Unfortunately, another issue for uncool people is that confidence isn&#8217;t often high. This results in some awkward longing, some trying too hard, and plenty of kicking yourself HARD after you say something stupid in an attempt to fix the situation, which only makes it worse.</p>
+<figure id="attachment_1176" style="width: 265px;" class="wp-caption alignright"><img class=" wp-image-1176" src="http://theolivegal.com/wp-content/uploads/IMG_5801-e1445832866573-768x1024.jpg" alt="Those are matching sweaters. And turtlenecks. And yes...broaches." width="265" height="353" /><figcaption class="wp-caption-text">Those are matching sweaters. And turtlenecks. And yes&#8230;broaches.</figcaption></figure>
+<p>I&#8217;ve known I&#8217;m uncool from the point cool became a thing. As a spindly sixth grader, I still let my mom dress me, picking entire outfits directly from the store mannequins because I had zero sense of what to do on my own. I wore braces with elastics color-coded to match the holiday seasons, and my granny glasses made their way halfway down my cheeks. My hair was frizzy and unkempt and I spent all of my free time either at the dance studio or holed up at home with a book. I was a giant target, but I was completely unaware (at first) that I was a target, which only made the teasing intensify.</p>
+<p>That year was one of the loneliest and most tortured years of my life. I also happened to write a 200-page novel in pencil on several unicorn-covered spiral notebooks. Great art, it was not. But I made something.</p>
+<p>I spent the next few years doing everything I possibly could to fit in. I didn&#8217;t even want to be popular, I just wanted to blend into the background and be left alone. I was successful. I dressed like everyone else. I got contacts and the braces were removed. I made a couple friends. I erased my entire novel, painstakingly, page by page. No, I didn&#8217;t just toss the notebooks. I wore down multiple erasers and then wrote over the whole thing with something banal, like several hundred rounds of M.A.S.H.</p>
+<p>Looking back, I think I was more miserable in the years I tried to fit in than during the year I realized how desperately uncool I was/am. So I moved on with my life, waving my freak flag freely, and <a href="http://markmanson.net/not-giving-a-fuck" target="_blank">reserving my fucks to give for only the most fuckworthy of situations</a>.</p>
+<p>In my early 20s, Lester Bangs—as played by Phillip Seymour Hoffman in <em>Almost Famous—</em>helped me embrace my uncoolness. He said that most of the great art in the world is made by people who are conflicted and longing and guilty and in pain; people who are uncool. He said:</p>
+<blockquote><p>The only true currency in this bankrupt world is what you share with someone else when you&#8217;re uncool.</p></blockquote>
+<p>And I believed him. Up until last week.</p>
+<p>It&#8217;s been an emotionally shitty week. Feels like I&#8217;ve been hit with the sledgehammer used by Lumberjack Property Brother to bust through a wall in order to make an open concept living space.</p>
+<p>Somehow, someway, I lost my confidence in being uncool. I&#8217;d been so caught up in Silicon Valley corporate politics that I started trying too hard. From a professional standpoint, I tried positioning myself as a certain way&#8230;and in trying too hard to &#8220;find my place,&#8221; I started to lose it.</p>
+<p>I began overthinking and asking for permission and surveying and questioning. I told myself it was all good because it&#8217;s important to strategize and think hard on these things. But that was only a portion of the thinking I was doing. The rest of it was hand-wringing. And I felt myself slipping away.</p>
+<p><img class="alignleft  wp-image-1175" src="http://theolivegal.com/wp-content/uploads/lesterbangs.jpg" alt="lesterbangs" width="345" height="230" />Thankfully, I watched <em>Almost Famous</em> tonight, and as Lester Bangs took a long drag from his cigarette, the tightly wound chord of the rotary phone swinging in the background, it all snapped into place. It was a momentary lapse of reason. A mini existential crisis brought on by self-doubt. I started caring too much about what <em>impact </em>I could make, what my <em>role </em>should be, how other people viewed me.</p>
+<p>All of that is meaningless.</p>
+<p>At the end of the day, what I care about most is doing good work. Yes, of course I want people to like me—especially the people I see during business hours and beyond. Yes, of course I want to advance in my career. But ultimately, the most important thing me has always been to do something meaningful and to share it with others.</p>
+<p>So as I move into the next week, I&#8217;ll let Lester Bangs&#8217; <em>Almost Famous</em> quote ring in my ear. I&#8217;ll go to meetings and I&#8217;ll listen and speak without rolling the words around 15 times in my head before they come out of my mouth. I&#8217;ll hold my head high as I walk the halls because I&#8217;ll be hunched over my keyboard the rest of the time, doing what I do best: writing&#8230;and being uncool.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-1166" class="share-facebook sd-button share-icon" href="http://theolivegal.com/how-to-be-uncool-a-lesson-from-lester-bangs/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-1166" class="share-linkedin sd-button share-icon" href="http://theolivegal.com/how-to-be-uncool-a-lesson-from-lester-bangs/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-1166" class="share-twitter sd-button share-icon" href="http://theolivegal.com/how-to-be-uncool-a-lesson-from-lester-bangs/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-1166" class="share-pinterest sd-button share-icon" href="http://theolivegal.com/how-to-be-uncool-a-lesson-from-lester-bangs/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="http://theolivegal.com/how-to-be-uncool-a-lesson-from-lester-bangs/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-1166" class="share-google-plus-1 sd-button share-icon" href="http://theolivegal.com/how-to-be-uncool-a-lesson-from-lester-bangs/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					<div class="comments-link">
+				<a href="http://theolivegal.com/how-to-be-uncool-a-lesson-from-lester-bangs/#respond"><span class="leave-reply">Leave a comment</span></a>			</div><!-- .comments-link -->
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+			
+				<nav class="navigation paging-navigation" role="navigation">
+		<h1 class="screen-reader-text">Posts navigation</h1>
+		<div class="nav-links">
+
+						<div class="nav-previous"><a href="http://theolivegal.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+			
+			
+		</div><!-- .nav-links -->
+	</nav><!-- .navigation -->
+	
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+	<div id="tertiary" class="sidebar-container" role="complementary">
+		<div class="sidebar-inner">
+			<div class="widget-area">
+				<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://theolivegal.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside><aside id="mc4wp_form_widget-3" class="widget widget_mc4wp_form_widget"><h3 class="widget-title">Free meatballs for life! (Okay, just my newsletter)</h3><!-- MailChimp for WordPress v3.0.2 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-1218" method="post" data-id="1218" data-name="Free meatballs for life! (Okay, just my newsletter)" ><div class="mc4wp-form-fields"><p>
+	<input type="email" name="EMAIL" placeholder="Your email address" required />
+</p>
+
+<p>
+	<input type="submit" value="Sign up" />
+</p>
+  
+<div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1455840614" /><input type="hidden" name="_mc4wp_form_id" value="1218" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><input type="hidden" name="_mc4wp_form_nonce" value="11f6fd0f57" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></aside><aside id="juiz_last_tweet_widget-2" class="widget juiz_last_tweet_widget">
+				<div class="juiz_last_tweet_inside juiz_ltw_user_theolivegal">
+					<ul class="juiz_last_tweet_tweetlist">
+						
+								<li class="juiz_last_tweet_item jltw_item_first">
+									<span class="user_avatar" aria-hidden="true">
+												<a href="http://twitter.com/theolivegal" title="Follow @theolivegal on twitter." target="_self">
+													<img src="http://pbs.twimg.com/profile_images/426420735171522560/RstjWZ4z_normal.jpeg" alt="theolivegal" width="48" height="48" />
+												</a>
+											</span>
+									<span class="juiz_lt_content">I just learned that the icon that looks like three dots is called a "meatball." Obviously, it's my new favorite icon.</span>
+									<span class="juiz_last_tweet_footer_item">
+										<em class="juiz_last_tweet_inner juiz_last_tweet_metadata">Time ago <a href="http://twitter.com/theolivegal/status/700397555335561217" target="_self" title="See the status">5 Hours</a> <span class="juiz_ltw_source">via <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a></span></em>
+										<span class="juiz_action_links">
+									<a title="Reply" href="http://twitter.com/intent/tweet?in_reply_to=700397555335561217" class="juiz_al_reply" rel="nofollow" target="_blank">Reply</a> <span class="juiz_ltw_sep">-</span>
+									<a title="Retweet" href="http://twitter.com/intent/retweet?tweet_id=700397555335561217" class="juiz_al_retweet" rel="nofollow" target="_blank">Retweet</a> <span class="juiz_ltw_sep">-</span>
+									<a title="Favorite" href="http://twitter.com/intent/favorite?tweet_id=700397555335561217" class="juiz_al_fav" rel="nofollow" target="_blank">Favorite</a> 
+								</span>
+									</span>
+								</li>
+							
+								<li class="juiz_last_tweet_item jltw_item_2">
+									
+									<span class="juiz_lt_content"><a href="http://twitter.com/52stations" class="juiz_last_tweet_tweetos" rel="nofollow" target="_self">@52stations</a> Oh, they exist. I'm about six months away from wearing Hawaiian shirts and buying an impractical ruby red convertible.</span>
+									<span class="juiz_last_tweet_footer_item">
+										<em class="juiz_last_tweet_inner juiz_last_tweet_metadata">Time ago <a href="http://twitter.com/theolivegal/status/700394330322706432" target="_self" title="See the status">5 Hours</a> <span class="juiz_ltw_source">via <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a></span></em>
+										<span class="juiz_action_links">
+									<a title="Reply" href="http://twitter.com/intent/tweet?in_reply_to=700394330322706432" class="juiz_al_reply" rel="nofollow" target="_blank">Reply</a> <span class="juiz_ltw_sep">-</span>
+									<a title="Retweet" href="http://twitter.com/intent/retweet?tweet_id=700394330322706432" class="juiz_al_retweet" rel="nofollow" target="_blank">Retweet</a> <span class="juiz_ltw_sep">-</span>
+									<a title="Favorite" href="http://twitter.com/intent/favorite?tweet_id=700394330322706432" class="juiz_al_fav" rel="nofollow" target="_blank">Favorite</a> 
+								</span>
+									</span>
+								</li>
+							
+								<li class="juiz_last_tweet_item jltw_item_last">
+									
+									<span class="juiz_lt_content"><a href="http://twitter.com/Inf_Adel" class="juiz_last_tweet_tweetos" rel="nofollow" target="_self">@Inf_Adel</a> Interesting! My depression has had the opposite effect. I call it "Saddy Fatty."</span>
+									<span class="juiz_last_tweet_footer_item">
+										<em class="juiz_last_tweet_inner juiz_last_tweet_metadata">Time ago <a href="http://twitter.com/theolivegal/status/700393795007852544" target="_self" title="See the status">5 Hours</a> <span class="juiz_ltw_source">via <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a></span></em>
+										<span class="juiz_action_links">
+									<a title="Reply" href="http://twitter.com/intent/tweet?in_reply_to=700393795007852544" class="juiz_al_reply" rel="nofollow" target="_blank">Reply</a> <span class="juiz_ltw_sep">-</span>
+									<a title="Retweet" href="http://twitter.com/intent/retweet?tweet_id=700393795007852544" class="juiz_al_retweet" rel="nofollow" target="_blank">Retweet</a> <span class="juiz_ltw_sep">-</span>
+									<a title="Favorite" href="http://twitter.com/intent/favorite?tweet_id=700393795007852544" class="juiz_al_fav" rel="nofollow" target="_blank">Favorite</a> 
+								</span>
+									</span>
+								</li>
+							
+					</ul>
+					<p class="juiz_last_tweet_follow_us">
+						<span class="juiz_ltw_follow">Follow</span>
+						<a class="juiz_ltw_username" href="http://twitter.com/theolivegal">@theolivegal</a>
+						<span class="juiz_ltw_ontwitter">on twitter.</span>
+					</p>
+				</div></aside><aside id="facebook-likebox-2" class="widget widget_facebook_likebox"><h3 class="widget-title"><a href="https://www.facebook.com/theolivegal">The Olive Gal on The Book</a></h3>		<div id="fb-root"></div>
+		<div class="fb-page" data-href="https://www.facebook.com/theolivegal" data-height="432" data-hide-cover="false" data-show-facepile="true" data-show-posts="false">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/theolivegal"><a href="https://www.facebook.com/theolivegal">The Olive Gal on The Book</a></blockquote></div>
+		</div>
+		<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249643311490&version=v2.3'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+		</aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://theolivegal.com/i-need-me-some-creative-viagra/">I Need Me Some Creative Viagra</a>
+						</li>
+					<li>
+				<a href="http://theolivegal.com/beautiful-boy/">Beautiful Boy</a>
+						</li>
+					<li>
+				<a href="http://theolivegal.com/the-epic-argument-that-almost-ended-in-divorce/">The Epic Argument That Almost Ended in Divorce</a>
+						</li>
+					<li>
+				<a href="http://theolivegal.com/word-of-the-year-balance/">Word of the Year: Balance</a>
+						</li>
+					<li>
+				<a href="http://theolivegal.com/why-do-we-have-seven-fishes/">Why Do We Even Have Those Seven Fishes?</a>
+						</li>
+				</ul>
+		</aside><aside id="text-2" class="widget widget_text"><h3 class="widget-title">Blogs That Rock</h3>			<div class="textwidget"><p><a href="http://baddestmotherever.com//" target=" _blank">Baddest Mother Ever</a></p>
+<p><a href="http://aussalorens.com/"target="_blank">Hacker. Ninja. Hooker. Spy.</a></p>
+<p><a href="http://streamoftheconscious.com/" target=" _blank">Stream of the Conscious</a></p>
+<p><a href="http://suburbianrhapsody.com" target=" _blank">Suburbian Rhapsody</a></p>
+<p><a href="http://www.takenseriouslyamusing.com" target="_blank">Taken Seriously Amusing</a></p>
+<p><a href="http://vanityfear.com" target=" _blank">Vanity Fear</a></p>
+</div>
+		</aside>			</div><!-- .widget-area -->
+		</div><!-- .sidebar-inner -->
+	</div><!-- #tertiary -->
+
+		</div><!-- #main -->
+		<footer id="colophon" class="site-footer" role="contentinfo">
+				<div id="secondary" class="sidebar-container" role="complementary">
+		<div class="widget-area">
+			<aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='http://www.theolivegal.com' rel='external nofollow' class='url'>The Olive Gal</a></span> on <a href="http://theolivegal.com/beautiful-boy/#comment-148874">Beautiful Boy</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.theolivegal.com' rel='external nofollow' class='url'>The Olive Gal</a></span> on <a href="http://theolivegal.com/beautiful-boy/#comment-148873">Beautiful Boy</a></li><li class="recentcomments"><span class="comment-author-link">Jean</span> on <a href="http://theolivegal.com/beautiful-boy/#comment-148870">Beautiful Boy</a></li><li class="recentcomments"><span class="comment-author-link">Charlotte Klein</span> on <a href="http://theolivegal.com/beautiful-boy/#comment-148869">Beautiful Boy</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://theolivegal.com/word-of-the-year-balance/' rel='external nofollow' class='url'>Word of the Year: Balance - The Olive Gal</a></span> on <a href="http://theolivegal.com/call-new-years-resolution/#comment-148531">Would We Call This a New Year&#8217;s Resolution?</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<label class="screen-reader-text" for="archives-dropdown-2">Archives</label>
+		<select id="archives-dropdown-2" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+			
+			<option value="">Select Month</option>
+				<option value='http://theolivegal.com/2016/02/'> February 2016 </option>
+	<option value='http://theolivegal.com/2016/01/'> January 2016 </option>
+	<option value='http://theolivegal.com/2015/12/'> December 2015 </option>
+	<option value='http://theolivegal.com/2015/11/'> November 2015 </option>
+	<option value='http://theolivegal.com/2015/10/'> October 2015 </option>
+	<option value='http://theolivegal.com/2015/09/'> September 2015 </option>
+	<option value='http://theolivegal.com/2015/08/'> August 2015 </option>
+	<option value='http://theolivegal.com/2015/07/'> July 2015 </option>
+	<option value='http://theolivegal.com/2015/06/'> June 2015 </option>
+	<option value='http://theolivegal.com/2015/05/'> May 2015 </option>
+	<option value='http://theolivegal.com/2015/04/'> April 2015 </option>
+	<option value='http://theolivegal.com/2015/03/'> March 2015 </option>
+	<option value='http://theolivegal.com/2015/02/'> February 2015 </option>
+	<option value='http://theolivegal.com/2015/01/'> January 2015 </option>
+	<option value='http://theolivegal.com/2014/12/'> December 2014 </option>
+	<option value='http://theolivegal.com/2014/11/'> November 2014 </option>
+	<option value='http://theolivegal.com/2014/10/'> October 2014 </option>
+	<option value='http://theolivegal.com/2014/09/'> September 2014 </option>
+	<option value='http://theolivegal.com/2014/08/'> August 2014 </option>
+	<option value='http://theolivegal.com/2014/07/'> July 2014 </option>
+	<option value='http://theolivegal.com/2014/06/'> June 2014 </option>
+	<option value='http://theolivegal.com/2014/05/'> May 2014 </option>
+	<option value='http://theolivegal.com/2014/04/'> April 2014 </option>
+	<option value='http://theolivegal.com/2014/03/'> March 2014 </option>
+	<option value='http://theolivegal.com/2014/02/'> February 2014 </option>
+	<option value='http://theolivegal.com/2014/01/'> January 2014 </option>
+	<option value='http://theolivegal.com/2013/12/'> December 2013 </option>
+
+		</select>
+</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-154"><a href="http://theolivegal.com/category/dance-2/" >Dance</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://theolivegal.com/category/extreme-sarcasm/" >Extreme Sarcasm</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://theolivegal.com/category/family/" >Family</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://theolivegal.com/category/food/" >Food</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://theolivegal.com/category/food-food-food/" >Food Food Food</a>
+</li>
+	<li class="cat-item cat-item-203"><a href="http://theolivegal.com/category/heart/" >Heart</a>
+</li>
+	<li class="cat-item cat-item-120"><a href="http://theolivegal.com/category/sad/" >Sad</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://theolivegal.com/category/uncategorized/" >Uncategorized</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a rel="nofollow" href="http://theolivegal.com/wp-login.php">Log in</a></li>
+			<li><a href="http://theolivegal.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://theolivegal.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+</aside>		</div><!-- .widget-area -->
+	</div><!-- #secondary -->
+
+			<div class="site-info">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress</a>
+			</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	
+
+<!-- No script for Juiz Last Tweet Widget :) -->
+
+	<div style="display:none">
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"http:\/\/theolivegal.com\/i-need-me-some-creative-viagra\/":1271,"http:\/\/theolivegal.com\/beautiful-boy\/":1253,"http:\/\/theolivegal.com\/the-epic-argument-that-almost-ended-in-divorce\/":1240,"http:\/\/theolivegal.com\/word-of-the-year-balance\/":1233,"http:\/\/theolivegal.com\/why-do-we-have-seven-fishes\/":1221,"http:\/\/theolivegal.com\/white-christmas-chicken-soup-for-the-soul\/":1207,"http:\/\/theolivegal.com\/when-the-going-gets-tough-the-tough-read-little-house-on-the-prairie\/":1198,"http:\/\/theolivegal.com\/that-one-time-i-got-struck-by-lightning\/":1192,"http:\/\/theolivegal.com\/hellish-commute-turning-me-into-she-hulk\/":1182,"http:\/\/theolivegal.com\/how-to-be-uncool-a-lesson-from-lester-bangs\/":1166};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-linkedin' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+						<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+		<!-- Inline jetpack_facebook_likebox -->
+<style id='jetpack_facebook_likebox-inline-css' type='text/css'>
+.widget_facebook_likebox {
+	overflow: hidden;
+}
+
+</style>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201607'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2016Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://theolivegal.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.2.3'></script>
+<script type='text/javascript' src='http://theolivegal.com/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://theolivegal.com/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://theolivegal.com/wp-content/themes/twentythirteen/js/functions.js?ver=20150330'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://theolivegal.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=3.0.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://theolivegal.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=3.7'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201607.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.7',blog:'65837988',post:'0',tz:'-8',srv:'theolivegal.com'} ]);
+	_stq.push([ 'clickTrackerInit', '65837988', '0' ]);
+</script>
+<script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}})();</script></body>
+</html>

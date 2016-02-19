@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+<title>The best jQuery validation plugin to validate form fields, support Bootstrap, Foundation, Pure, SemanticUI, UIKit frameworks - FormValidation</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta http-equiv="Content-Language" content="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="FormValidation - The best jQuery validation plugin to validate form fields, support Bootstrap, Zurb Foundation, Pure, Semantic, UIKit frameworks">
+<meta name="keywords" content="FormValidation, BootstrapValidator, form validation, form validate, form validator, jQuery validation plugin, jquery validate plugin, jquery validator plugin, Zurb Foundation validation, Pure validation, SemanticUI validation, UIKit validation, Skeleton validation, Bootstrap, Zurb Foundation, Pure, SemanticUI, UIKit, Skeleton">
+<meta name="author" content="Nguyen Huu Phuoc">
+<meta name="google-site-verification" content="FMmr8kYuIuW27-qJLOb1Z59OgiVgKNgAv4_eMARhIY8" />
+
+<meta name="twitter:site" content="@formvalidation" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="FormValidation - The best jQuery validation plugin to validate form fields, support Bootstrap, Zurb Foundation, Pure, Semantic, UIKit frameworks" />
+<meta name="twitter:title" content="The best jQuery validation plugin to validate form fields, support Bootstrap, Foundation, Pure, SemanticUI, UIKit frameworks - FormValidation" />
+<meta name="twitter:image" content="http://formvalidation.io/asset/img/logo.png" />
+
+<meta property="og:title" content="The best jQuery validation plugin to validate form fields, support Bootstrap, Foundation, Pure, SemanticUI, UIKit frameworks - FormValidation" />
+<meta property="og:description" content="FormValidation - The best jQuery validation plugin to validate form fields, support Bootstrap, Zurb Foundation, Pure, Semantic, UIKit frameworks" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://formvalidation.io/" />
+<meta property="og:image" content="http://formvalidation.io/asset/img/logo.png" />
+<meta property="og:site_name" content="FormValidation" />
+
+<link rel="icon" type="image/x-icon" href="/asset/img/favicon.ico">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/vendor/formvalidation/css/formValidation.min.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cardo:400,400italic,700">
+<link rel="stylesheet" href="/vendor/pygments/github.css">
+<link rel="stylesheet" href="/asset/css/style.css">
+
+<!--[if lt IE 9]>
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="/vendor/formvalidation/js/formValidation.min.js"></script>
+<script src="/vendor/formvalidation/js/framework/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-44786951-2']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+    <link rel="stylesheet" href="/vendor/onepage-scroll/onepage-scroll.css">
+</head>
+<body>
+    <nav class="doc-nav" tabindex="-1">
+    <ul>
+        <li class="doc-nav-active"><a href="/">Home</a></li>
+    
+        
+        <li class=""><a href="/download/">Download</a></li>
+    
+        
+        <li class=""><a href="/getting-started/">Getting Started</a></li>
+    
+        
+        <li class=""><a href="/settings/">Settings</a></li>
+    
+        
+        <li class=""><a href="/api/">API</a></li>
+    
+        
+        <li class=""><a href="/validators/">Validators</a></li>
+    
+        
+        <li class=""><a href="/addons/"><span></span> Add-ons</a></li>
+    
+        
+        <li class=""><a href="/examples/"><span></span> Examples</a></li>
+    
+        
+        <li class=""><a href="/developing/">Developing</a></li>
+    
+        
+        <li class=""><a href="/news/">News</a></li>
+    
+        
+        <li class=""><a href="/license/">License</a></li>
+    
+    </ul>
+
+    <div class="doc-hr"></div>
+
+    <ul>
+        <li><a href="https://twitter.com/formvalidation/" title="Follow FormValidation on Twitter">Twitter <i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/formvalidation/" title="Like FormValidation on Facebook">Facebook <i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://plus.google.com/u/0/communities/114931136856987817254" title="Join FormValidation community on Google+">Google+ <i class="fa fa-google-plus"></i></a></li>
+    </ul>
+
+    <div class="doc-hr"></div>
+
+    <div class="doc-creator">
+        <p>
+            Handcrafted with <span class="doc-heart"><i class="fa fa-heart"></i></span> and a lot of <i class="fa fa-coffee"></i><br />
+            by <a href="http://twitter.com/nghuuphuoc">@nghuuphuoc</a><br/>
+            <img src="/asset/img/logo.png" width="60px" height="60px" />
+        </p>
+        <p><a href="mailto: phuoc@huuphuoc.me" class="btn">Hire me</a></p>
+    </div>
+</nav>
+
+<a id="toggleButton" class="doc-nav-toggle" title="Toggle the navigation"><i class="fa fa-navicon"></i></a>
+
+    <div id="main" class="doc-content-wrapper">
+        <!-- intro -->
+        <section id="intro" class="doc-center-wrapper doc-home-intro">
+            <div class="container doc-center-container">
+                <h1>
+                    Best <a href="http://jquery.com">jQuery</a> plugin to validate form fields<br/>
+                    <span class="hidden-xs hidden-sm">
+                        Designed for<br/>
+                        <a href="http://getbootstrap.com">Bootstrap</a> &middot; <a href="http://foundation.zurb.com/">Foundation</a> &middot; <a href="http://purecss.io/">Pure</a> &middot; <a href="http://semantic-ui.com/">Semantic UI</a> &middot; <a href="http://getuikit.com/">UIKit</a> &middot; <a href="/examples/#supporting-other-frameworks-and-form-builders" title="Using with other frameworks such as Basscss, Skeleton, Titon, etc.">other</a>
+                    </span>
+                </h1>
+                <span>v0.7.1 &middot; by <a href="http://twitter.com/formvalidation">@nghuuphuoc</a></span>
+            </div>
+            <p class="hidden-xs hidden-sm">
+                <i class="fa fa-chevron-down"></i><br/>
+                scroll to see more
+            </p>
+        </section>
+
+        <!-- features -->
+        <section id="features" class="doc-center-wrapper doc-home-feature">
+            <div class="container doc-center-container">
+                <h2>Features</h2>
+                <div class="doc-hr"></div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <i class="fa fa-code"></i>
+                        <h4>Code</h4>
+                        <p>written from scratch &middot; <a href="http://jshint.com">JSHint</a> free &middot; well tested with <a href="http://jasmine.github.io">Jasmine</a></p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <i class="fa fa-html5"></i>
+                        <h4>HTML 5</h4>
+                        <p>support <a href="/examples/attribute/">declarative settings</a> &middot; HTML 5 attributes &middot; <a href="/examples/html5/">HTML 5 input</a> types</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <i class="fa fa-flask"></i>
+                        <h4>Validators</h4>
+                        <p>51 <a href="/validators/">validators</a> &middot; Easy to <a href="/developing/">write a new one</a> &middot; 38 language packs</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <i class="fa fa-heart"></i>
+                        <h4>Friendly</h4>
+                        <p><a href="/settings/#form-icon">feedback icons</a> &middot; <a href="/settings/#form-threshold">threshold</a> option &middot; <a href="/settings/#form-err-container">tooltip/popover</a> error</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <i class="fa fa-magic"></i>
+                        <h4>Flexible</h4>
+                        <p>dynamic <a href="/settings/#dynamic-option">option</a> &middot; dynamic <a href="/examples/adding-dynamic-field/">field</a> &middot; dynamic <a href="/settings/#dynamic-message">messages</a></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <i class="fa fa-puzzle-piece"></i>
+                        <h4>Compatibility</h4>
+                        <p><a href="/examples/#compatibility">play nice</a> with other</p>
+                    </div>
+                </div>
+
+                <p><a href="/examples/" class="btn">Examples</a></p>
+            </div>
+        </section>
+
+        <!-- what people say -->
+        <section id="tweet" class="doc-center-wrapper doc-home-tweet">
+            <div class="container doc-center-container">
+                <h2>What people say</h2>
+                <div class="doc-hr"></div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/627547101740855296/QT906pGN_bigger.jpg" />
+                        <blockquote>this is really cool stuff and it works! <a href="https://twitter.com/formvalidation">@formvalidation</a> great work</blockquote>
+                        <span>&mdash; <a href="https://twitter.com/samlinux/status/508324990014717952">@samlinux</a></span>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/566077904656662529/PsHg4ak9_normal.jpeg" />
+                        <blockquote>such a lifesaver, thanks! <a href="https://twitter.com/nghuuphuoc">@nghuuphuoc</a> now I can validate my HTML form in no time, and beautifully! :D</blockquote>
+                        <span>&mdash; <a href="https://twitter.com/andikamri/statuses/502011686086123520">@andikamri</a></span>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/473566833488830464/bgHodkxx_normal.jpeg" />
+                        <blockquote><a href="https://twitter.com/formvalidation">@formvalidation</a> Great work! BootstrapValidator is exactly what I needed.</blockquote>
+                        <span>&mdash; <a href="https://twitter.com/butchewing/statuses/492733411400744961">@butchewing</a></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/508086259307134976/ahrh4FBp_normal.jpeg" />
+                        <blockquote><a href="https://twitter.com/formvalidation">@formvalidation</a> been searching and looking high and low, now the search is over, sticking to this :D</blockquote>
+                        <span>&mdash; <a href="https://twitter.com/tomexsans/statuses/491985972767113217">@tomexsans</a></span>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/436179968347734017/BcB3ZBgK_normal.png" />
+                        <blockquote>Validation plugin for Bootstrap from <a href="https://twitter.com/formvalidation">@formvalidation</a>. Give it a try, looks great!</blockquote>
+                        <span>&mdash; <a href="https://twitter.com/CreativeTim/statuses/491460220120743936">@CreativeTim</a></span>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/490575346329079811/Uk-LiXQK_normal.jpeg" />
+                        <blockquote><a href="https://twitter.com/formvalidation">@formvalidation</a> great lib - thx for the work <a href="https://twitter.com/tipdoge">@tipdoge</a> tip 1000</blockquote>
+                        <span>&mdash; <a href="https://twitter.com/Kim_Jong_Skill/statuses/489041056479346688">@Kim_Jong_Skill</a></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/540142586686484480/bjksXKel_normal.jpeg" />
+                        <blockquote>Great combination of web toolkits making frontend easy... <a href="https://twitter.com/twbootstrap">@twbootstrap</a> <a href="https://twitter.com/formvalidation">@formvalidation</a> <a href="https://twitter.com/jquery">@jquery</a> <a href="https://twitter.com/fontawesome">@fontawesome</a> <a href="https://twitter.com/gulpjs">@gulpjs</a> if you can use them all!</blockquote>
+                        <span>&mdash; <a href="https://twitter.com/aandrewdixon/statuses/485521144142123008">@aandrewdixon</a></span>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/1089022619/yoo_normal.png" />
+                        <blockquote>i love <a href="https://twitter.com/formvalidation">@formvalidation</a> … the jquery plugin… not the guy behind the code ;-)</blockquote>
+                        <span>&mdash; <a href="https://twitter.com/logemann/statuses/484266215050080256">@logemann</a></span>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/431221224727793666/Uuq7N79-_normal.jpeg" />
+                        <blockquote><a href="https://twitter.com/formvalidation">@formvalidation</a> Thank you, Thank you, Thank you for this amazing script!!!!!</blockquote>
+                        <span>&mdash; <a href="https://twitter.com/Arelowo/statuses/483417620993941505">@Arelowo</a></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/459864257182449664/uLHuUQoI_normal.jpeg" />
+                        <blockquote>You saved my day <a href="https://twitter.com/formvalidation">@formvalidation</a></blockquote>
+                        <span>&mdash; <a href="https://twitter.com/scokmen/statuses/475145281412288512">@scokmen</a></span>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/681946073707843584/fecSLMyS_bigger.png" />
+                        <blockquote><a href="https://twitter.com/formvalidation">@formvalidation</a> haha thanks for the plugin you rock.</blockquote>
+                        <span>&mdash; <a href="https://twitter.com/mrpollo/statuses/472018708076838912">@mrpollo</a></span>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://pbs.twimg.com/profile_images/478563131413643264/VCb27D1k_normal.jpeg" />
+                        <blockquote>Thanks again to <a href="https://twitter.com/formvalidation">@formvalidation</a> for the quick reply. Be sure to check out Bootstrap Validator. It's the best I've found.</blockquote>
+                        <span>&mdash; <a href="https://twitter.com/CurtStaubach/statuses/466937857652064256">@CurtStaubach</a></span>
+                    </div>
+                </div>
+
+                <ul>
+                    <li><a href="https://twitter.com/formvalidation/" title="Follow FormValidation on Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/formvalidation/" title="Like FormValidation on Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://plus.google.com/u/0/communities/114931136856987817254" title="Join FormValidation community on Google+"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- download -->
+        <section id="download" class="doc-center-wrapper doc-home-download">
+            <div class="container doc-center-container">
+                <h2>Download</h2>
+                <div class="doc-hr"></div>
+
+                <h3 id="downloadCounter">100000</h3>
+                <p>downloads so far</p>
+                <p><a href="/download/" class="btn">Download</a></p>
+            </div>
+        </section>
+    </div>
+
+<script src="/vendor/onepage-scroll/jquery.onepage-scroll.min.js"></script>
+<script>
+$(function() {
+    $('#toggleButton').on('click', function() {
+        $(this).find('i').toggleClass('fa-navicon fa-close');
+        $('body').toggleClass('doc-nav-shown');
+    });
+
+    $('#main').onepage_scroll({
+        animationTime: 1000,
+        responsiveFallback: 767
+    });
+
+    function updateCounter(count) {
+        var t = count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',').split('');
+        t = $.map(t, function(item) {
+            return (item === ',' ? ',' : '<span>' + item + '</span>');
+        }).join('');
+        $('#downloadCounter').html(t + '+');
+    }
+
+    var total   = parseInt('100000', 10),
+        count   = Math.floor(total / 1000 - 1) * 1000,
+        counter = setInterval(function() {
+            count++;
+            if (count > total) {
+                clearInterval(counter);
+            } else {
+                updateCounter(count);
+            }
+        }, 0.5);
+    updateCounter(count);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,316 @@
+   #[1]Mostly infosec ... - Atom [2]Mostly infosec ... - RSS [3]publisher
+
+Mostly infosec ...
+
+   another blog in the web ....
+
+Saturday, December 19, 2015
+
+[4]stoQ: Introduction to stoQ
+
+   [5]stoQ: Introduction to stoQ: Have you ever wanted to extract
+   indicators of compromise from a vendor report? How about carving an
+   XOR'd executable our of a PDF that ...
+   [6]0 commentaires
+   [7]Email This[8]BlogThis![9]Share to Twitter[10]Share to
+   Facebook[11]Share to Pinterest
+   [12]link
+
+Sunday, December 08, 2013
+
+[13]freebsd 9.2 and serf
+
+    if you see something like that :
+   ===>  Configuring for serf-1.3.2_1
+   ===>  Building for serf-1.3.2_1
+   scons: Reading SConscript files ...
+   scons: done reading SConscript files.
+   error: setting stack size not supported:
+     File "/usr/local/lib/scons-2.3.0/SCons/Script/Main.py", line 1344:
+       _exec_main(parser, values)
+     File "/usr/local/lib/scons-2.3.0/SCons/Script/Main.py", line 1308:
+       _main(parser)
+     File "/usr/local/lib/scons-2.3.0/SCons/Script/Main.py", line 1072:
+       nodes = _build_targets(fs, options, targets, target_top)
+     File "/usr/local/lib/scons-2.3.0/SCons/Script/Main.py", line 1228:
+       jobs = SCons.Job.Jobs(num_jobs, taskmaster)
+     File "/usr/local/lib/scons-2.3.0/SCons/Job.py", line 92:
+       self.job = Parallel(taskmaster, num, stack_size)
+     File "/usr/local/lib/scons-2.3.0/SCons/Job.py", line 365:
+       self.tp = ThreadPool(num, stack_size, self.interrupted)
+     File "/usr/local/lib/scons-2.3.0/SCons/Job.py", line 280:
+       prev_size = threading.stack_size(stack_size*1024)
+   *** [do-build] Error code 2
+   Stop in /usr/ports/www/serf.
+   *** [build] Error code 1
+   Stop in /usr/ports/www/serf.
+   ===>>> make failed for www/serf
+   ===>>> Aborting update
+   ===>>> Update for www/serf failed
+   ===>>> Aborting update
+   ===>>> Update for devel/subversion failed
+   ===>>> Aborting update
+   ===>>> Killing background jobs
+   Terminated
+   rebuild /usr/ports/lang/python27 with the PTH option turned OFF.
+   [14]0 commentaires
+   [15]Email This[16]BlogThis![17]Share to Twitter[18]Share to
+   Facebook[19]Share to Pinterest
+   [20]link
+
+Sunday, September 01, 2013
+
+[21]Larch copies messages from one IMAP server to another. Awesomely
+
+   http://ow.ly/osGXd
+   [22]0 commentaires
+   [23]Email This[24]BlogThis![25]Share to Twitter[26]Share to
+   Facebook[27]Share to Pinterest
+   [28]link
+
+Saturday, August 31, 2013
+
+[29][freebsd] vector callback for Xen PVHVM
+
+   RT @freebsdhelp: #FreeBSD #HEAD "Implement vector callback for #Xen
+   PVHVM and unify event channels" http://ow.ly/orcWN Thanks
+   @spectralogic!
+   [30]0 commentaires
+   [31]Email This[32]BlogThis![33]Share to Twitter[34]Share to
+   Facebook[35]Share to Pinterest
+   [36]link
+
+Friday, April 20, 2012
+
+[37]A fabulous history of unix/linux
+
+   a fantastic pdf about unix/linux history from Eric Levenez
+   [38]Open the PDF here
+   [39]source
+   [40]0 commentaires
+   [41]Email This[42]BlogThis![43]Share to Twitter[44]Share to
+   Facebook[45]Share to Pinterest
+   [46]link
+   [47]Older Posts [48]Home
+   Subscribe to: [49]Posts (Atom)
+
+Me
+
+   [50]@ximad
+
+LinuxFr.org : les dépêches
+
+   [51]Loading...
+
+jetlib.sec
+
+   [52]Loading...
+
+Security FAQs
+
+   [53]Loading...
+
+:: hiddenillusion ::
+
+   [54]Loading...
+
+CYBER ARMS - Computer Security
+
+   [55]Loading...
+
+SecurityXploded Tools
+
+   [56]Loading...
+
+SANS Computer Forensics and e-Discovery with Rob Lee
+
+   [57]Loading...
+
+Naked Security - Sophos
+
+   [58]Loading...
+
+SecTechno
+
+   [59]Loading...
+
+The H - Grand unified feed
+
+   [60]Loading...
+
+Lab of a Penetration Tester
+
+   [61]Loading...
+
+To Inform is to Influence
+
+   [62]Loading...
+
+Official PC-BSD Blog
+
+   [63]Loading...
+
+The ProjectX Blog – Information Security Redefined
+
+   [64]Loading...
+
+we are all robots
+
+   [65]Loading...
+
+danielmiessler.com
+
+   [66]Loading...
+
+xda-developers
+
+   [67]Loading...
+
+pi3 blog
+
+   [68]Loading...
+
+Blog Archive
+
+     * [69]▼  [70]2015 (1)
+          + [71]▼  [72]December (1)
+               o [73]stoQ: Introduction to stoQ
+
+     * [74]►  [75]2013 (3)
+          + [76]►  [77]December (1)
+          + [78]►  [79]September (1)
+          + [80]►  [81]August (1)
+
+     * [82]►  [83]2012 (23)
+          + [84]►  [85]April (5)
+          + [86]►  [87]March (18)
+
+     * [88]►  [89]2006 (7)
+          + [90]►  [91]August (7)
+
+   IS. Simple template. Powered by [92]Blogger.
+
+References
+
+   Visible links
+   1. http://solarisk.blogspot.com/feeds/posts/default
+   2. http://solarisk.blogspot.com/feeds/posts/default?alt=rss
+   3. https://plus.google.com/111093332351962463473
+   4. http://stoq-framework.blogspot.com/2015/12/introduction-to-stoq.html?spref=bl
+   5. http://stoq-framework.blogspot.com/2015/12/introduction-to-stoq.html?spref=bl
+   6. https://www.blogger.com/comment.g?blogID=33401087&postID=447912069598186593
+   7. https://www.blogger.com/share-post.g?blogID=33401087&postID=447912069598186593&target=email
+   8. https://www.blogger.com/share-post.g?blogID=33401087&postID=447912069598186593&target=blog
+   9. https://www.blogger.com/share-post.g?blogID=33401087&postID=447912069598186593&target=twitter
+  10. https://www.blogger.com/share-post.g?blogID=33401087&postID=447912069598186593&target=facebook
+  11. https://www.blogger.com/share-post.g?blogID=33401087&postID=447912069598186593&target=pinterest
+  12. http://solarisk.blogspot.fr/2015/12/stoq-introduction-to-stoq.html#links
+  13. http://solarisk.blogspot.fr/2013/12/freebsd-92-and-serf.html
+  14. https://www.blogger.com/comment.g?blogID=33401087&postID=2261852876349824890
+  15. https://www.blogger.com/share-post.g?blogID=33401087&postID=2261852876349824890&target=email
+  16. https://www.blogger.com/share-post.g?blogID=33401087&postID=2261852876349824890&target=blog
+  17. https://www.blogger.com/share-post.g?blogID=33401087&postID=2261852876349824890&target=twitter
+  18. https://www.blogger.com/share-post.g?blogID=33401087&postID=2261852876349824890&target=facebook
+  19. https://www.blogger.com/share-post.g?blogID=33401087&postID=2261852876349824890&target=pinterest
+  20. http://solarisk.blogspot.fr/2013/12/freebsd-92-and-serf.html#links
+  21. http://solarisk.blogspot.fr/2013/09/larch-copies-messages-from-one-imap.html
+  22. https://www.blogger.com/comment.g?blogID=33401087&postID=252024895741224387
+  23. https://www.blogger.com/share-post.g?blogID=33401087&postID=252024895741224387&target=email
+  24. https://www.blogger.com/share-post.g?blogID=33401087&postID=252024895741224387&target=blog
+  25. https://www.blogger.com/share-post.g?blogID=33401087&postID=252024895741224387&target=twitter
+  26. https://www.blogger.com/share-post.g?blogID=33401087&postID=252024895741224387&target=facebook
+  27. https://www.blogger.com/share-post.g?blogID=33401087&postID=252024895741224387&target=pinterest
+  28. http://solarisk.blogspot.fr/2013/09/larch-copies-messages-from-one-imap.html#links
+  29. http://solarisk.blogspot.fr/2013/08/freebsd-vector-callback-for-xen-pvhvm.html
+  30. https://www.blogger.com/comment.g?blogID=33401087&postID=885912666848268038
+  31. https://www.blogger.com/share-post.g?blogID=33401087&postID=885912666848268038&target=email
+  32. https://www.blogger.com/share-post.g?blogID=33401087&postID=885912666848268038&target=blog
+  33. https://www.blogger.com/share-post.g?blogID=33401087&postID=885912666848268038&target=twitter
+  34. https://www.blogger.com/share-post.g?blogID=33401087&postID=885912666848268038&target=facebook
+  35. https://www.blogger.com/share-post.g?blogID=33401087&postID=885912666848268038&target=pinterest
+  36. http://solarisk.blogspot.fr/2013/08/freebsd-vector-callback-for-xen-pvhvm.html#links
+  37. http://solarisk.blogspot.fr/2012/04/fabulous-history-of-unixlinux.html
+  38. http://www.levenez.com/unix/unix_a4.pdf
+  39. http://www.levenez.com/
+  40. https://www.blogger.com/comment.g?blogID=33401087&postID=555188689652460536
+  41. https://www.blogger.com/share-post.g?blogID=33401087&postID=555188689652460536&target=email
+  42. https://www.blogger.com/share-post.g?blogID=33401087&postID=555188689652460536&target=blog
+  43. https://www.blogger.com/share-post.g?blogID=33401087&postID=555188689652460536&target=twitter
+  44. https://www.blogger.com/share-post.g?blogID=33401087&postID=555188689652460536&target=facebook
+  45. https://www.blogger.com/share-post.g?blogID=33401087&postID=555188689652460536&target=pinterest
+  46. http://solarisk.blogspot.fr/2012/04/fabulous-history-of-unixlinux.html#links
+  47. http://solarisk.blogspot.fr/search?updated-max=2012-04-20T23:11:00+02:00&max-results=5
+  48. http://solarisk.blogspot.fr/
+  49. http://solarisk.blogspot.com/feeds/posts/default
+  50. https://twitter.com/ximad
+  51. http://linuxfr.org/news.atom
+  52. http://sec.jetlib.com/?media=rss
+  53. http://feeds.feedburner.com/security-faqs
+  54. http://hiddenillusion.blogspot.com/feeds/posts/default
+  55. http://feeds.feedburner.com/CyberArms
+  56. http://securityxploded.com/rss-tools.xml
+  57. http://computer-forensics.sans.org/blog/feed/
+  58. http://feeds.feedburner.com/NakedSecurity
+  59. http://feeds.feedburner.com/sectechno/
+  60. http://www.h-online.com/grand-atom.xml
+  61. http://labofapenetrationtester.blogspot.com/feeds/posts/default
+  62. http://toinformistoinfluence.com/feed/
+  63. http://blog.pcbsd.org/feed/
+  64. http://feeds.feedburner.com/theprojectxblogz
+  65. http://prototypef.tumblr.com/rss
+  66. http://feeds.danielmiessler.com/danielmiessler?format=xml
+  67. http://www.xda-developers.com/feed/
+  68. http://blog.pi3.com.pl/?feed=rss2
+  69. javascript:void(0)
+  70. http://solarisk.blogspot.fr/search?updated-min=2015-01-01T00:00:00+01:00&updated-max=2016-01-01T00:00:00+01:00&max-results=1
+  71. javascript:void(0)
+  72. http://solarisk.blogspot.fr/2015_12_01_archive.html
+  73. http://solarisk.blogspot.fr/2015/12/stoq-introduction-to-stoq.html
+  74. javascript:void(0)
+  75. http://solarisk.blogspot.fr/search?updated-min=2013-01-01T00:00:00+01:00&updated-max=2014-01-01T00:00:00+01:00&max-results=3
+  76. javascript:void(0)
+  77. http://solarisk.blogspot.fr/2013_12_01_archive.html
+  78. javascript:void(0)
+  79. http://solarisk.blogspot.fr/2013_09_01_archive.html
+  80. javascript:void(0)
+  81. http://solarisk.blogspot.fr/2013_08_01_archive.html
+  82. javascript:void(0)
+  83. http://solarisk.blogspot.fr/search?updated-min=2012-01-01T00:00:00+01:00&updated-max=2013-01-01T00:00:00+01:00&max-results=23
+  84. javascript:void(0)
+  85. http://solarisk.blogspot.fr/2012_04_01_archive.html
+  86. javascript:void(0)
+  87. http://solarisk.blogspot.fr/2012_03_01_archive.html
+  88. javascript:void(0)
+  89. http://solarisk.blogspot.fr/search?updated-min=2006-01-01T00:00:00+01:00&updated-max=2007-01-01T00:00:00+01:00&max-results=7
+  90. javascript:void(0)
+  91. http://solarisk.blogspot.fr/2006_08_01_archive.html
+  92. https://www.blogger.com/
+
+   Hidden links:
+  94. https://www.blogger.com/email-post.g?blogID=33401087&postID=447912069598186593
+  95. https://www.blogger.com/email-post.g?blogID=33401087&postID=2261852876349824890
+  96. https://www.blogger.com/email-post.g?blogID=33401087&postID=252024895741224387
+  97. https://www.blogger.com/email-post.g?blogID=33401087&postID=885912666848268038
+  98. https://www.blogger.com/email-post.g?blogID=33401087&postID=555188689652460536
+  99. file://www.blogger.com/rearrange?blogID=33401087&widgetType=AdSense&widgetId=AdSense1&action=editWidget&sectionId=sidebar-right-1
+ 100. file://www.blogger.com/rearrange?blogID=33401087&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar-right-1
+ 101. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed19&action=editWidget&sectionId=footer-1
+ 102. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed18&action=editWidget&sectionId=footer-1
+ 103. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed17&action=editWidget&sectionId=footer-1
+ 104. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed16&action=editWidget&sectionId=footer-1
+ 105. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed14&action=editWidget&sectionId=footer-1
+ 106. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed13&action=editWidget&sectionId=footer-1
+ 107. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed12&action=editWidget&sectionId=footer-1
+ 108. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed11&action=editWidget&sectionId=footer-1
+ 109. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed10&action=editWidget&sectionId=footer-1
+ 110. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed9&action=editWidget&sectionId=footer-1
+ 111. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed8&action=editWidget&sectionId=footer-1
+ 112. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed7&action=editWidget&sectionId=footer-1
+ 113. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed6&action=editWidget&sectionId=footer-1
+ 114. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed4&action=editWidget&sectionId=footer-1
+ 115. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed3&action=editWidget&sectionId=footer-1
+ 116. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed1&action=editWidget&sectionId=footer-1
+ 117. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed5&action=editWidget&sectionId=footer-1
+ 118. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Feed&widgetId=Feed2&action=editWidget&sectionId=footer-1
+ 119. file://www.blogger.com/rearrange?blogID=33401087&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=footer-1
+ 120. file://www.blogger.com/rearrange?blogID=33401087&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3

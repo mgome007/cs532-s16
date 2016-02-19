@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+  Main template for http://hawkw.github.io
+  Based on the Jekyll default template.
+-->
+<html>
+  <head>
+    <meta name="viewport" content="width=720, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <meta charset="utf-8">
+    <title>Hawk Weisman</title>
+    <meta name="viewport" content="width=device-width">
+
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- Google Analytics -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58926260-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+  <body>
+    <div class="site">
+
+      <div class="top-menu">
+        <a class="extra" href="/">main</a>
+        <a class="extra" href="/notebook/">notebook</a>
+        <a class="extra" href="/slides/">slide deck</a>
+        <a class="extra" href="/resume.pdf">r&eacute;sum&eacute;</a>
+        <a class="extra" href="/hire">hire me</a>
+        <a class="extra" href="https://github.com/hawkw/">github</a>
+        <a class="extra" href="https://keybase.io/hawk">public key</a>
+      </div>
+
+      <div class = "content">
+        <main>
+      <!-- begin subtemplate -->
+            
+        <div class="textheader">
+          <h1 class="title">
+      
+      
+        Hawk Weisman
+      
+          </h1>
+      
+        </div>
+        <div class="content">
+<main>
+  <!-- begin content -->
+  <p>I’m a student studying Applied Computing with a focus in Software Engineering at Allegheny College in Meadville, Pennsylvania. I’m primarily interested in the design and implementation of programming languages, systems programming and operating systems, and improving tools for programmers and software developers, although I’m always interested to learn more about just about any area of computer science.</p>
+
+<p>My favourite programming languages are Scala, Rust, and Lisp, and I also have a lot of experience programming in Java and Python. I love learning new programming languages — I’m currently learning more about Haskell and C.</p>
+
+<p>My friend <a href="https://arcticlight.me">Max Clive</a> and I founded <a href="https://meteorcodelabs.com">MeteorCode Labs</a> to develop and publish indie games. We’ve currently released an open-source game engine, <a href="https://github.com/MeteorCode/Pathway">Pathway</a>, and we’re working on some more fun stuff.</p>
+
+<p>I’m currently looking for summer internships and part-time programming jobs, so if you’re interested to hire someone with my skills, please don’t hesitate to <a href="hire">let me know</a>.</p>
+
+<h2 id="open-source-projects">Open-Source Projects</h2>
+
+<ul>
+  <li><a href="https://github.com/alexandrialibrary/Alexandria">Alexandria</a>: An open-source library card catalogue application. (Scala)</li>
+  <li><a href="https://github.com/MeteorCode/Pathway">Pathway</a>: An open-source event-based game engine for the JVM. (Scala, Java)</li>
+  <li><a href="seax">seax</a>: A virtual machine-based runtime environment for functional programming languages. (Rust)</li>
+  <li><a href="https://github.com/hawkw/deebee">DeeBee</a>: A tiny relational database supporting a subset of SQL. For educational purposes only. (Scala)</li>
+  <li><a href="decaf">Decaf</a>: An alleged compiler for a so-called programming language. (Scala)</li>
+  <li><a href="https://github.com/hawkw/USL">USL</a>: The Useless Stack Language. A simple toy language with some interestingly weird semantics (think Lisp meets PostScript). (Scala)</li>
+  <li><a href="http://teamremote.github.io/remote-sublime/">remote-collab</a>: A SublimeText 3 plugin for remote pair programming. (Python 3)</li>
+</ul>
+
+<h2 id="other-neat-stuff">Other Neat Stuff</h2>
+
+<ul>
+  <li><a href="https://github.com/cs383-final/cs383-finalproject">Boids</a> implementation in Haskell</li>
+  <li><a href="http://hawkweisman.me/notebook/programming,computer/science,scala/2015/02/15/l-systems/">L-Systems</a> implementation in Scala and Processing</li>
+  <li>A <a href="https://github.com/hawkw/breadplan">Python script</a> for calculating recipes for the bread from Chad Robertson’s <em>Tartine Bread</em></li>
+  <li><a href="https://github.com/hawkw/bigyll">Jekyll layouts</a> for Big presentations</li>
+  <li>My <a href="https://github.com/hawkw/dotfiles">dotfiles</a></li>
+</ul>
+
+<h2 id="elsewhere-on-the-web">Elsewhere on the Web</h2>
+
+<ul>
+  <li>Profile on <a href="https://careers.stackoverflow.com/hawkw">StackOverflow Careers →</a></li>
+  <li>Profile on <a href="https://coderbits.com/Hawk">Coderbits →</a></li>
+  <li>Metrics on <a href="http://www.codeivate.com/users/hawk">Codeivate →</a></li>
+</ul>
+
+  <!-- end content -->
+  </main>
+</div>
+      <!-- end subtemplate -->
+      </main>
+      </div>
+
+      <div class="footer">
+        <div class="contact-left">
+          <p>
+            Hawk Weisman<br />
+            Meadville, PA
+          </p>
+        </div>
+        <div class="contact-right">
+          <p>
+            hi <small>AT</small> hawkweisman.me<br />
+            <a class="extra" href="https://github.com/hawkw">github.com/hawkw</a>
+          </p>
+        </div>
+        <!--
+        <p class="navigation">
+          <a href="#" class="extra">&mdash;&nbsp;&nbsp;top&nbsp;&nbsp;&mdash;</a>
+        </p>
+        -->
+      </div>
+
+    </div>
+  </body>
+</html>

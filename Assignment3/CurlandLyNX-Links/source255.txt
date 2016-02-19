@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+	
+<meta charset="UTF-8" />
+<title>Theodicius: being the ravings of a mad web developer, theologian and bibliophile</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<link rel="stylesheet" href="http://www.theodicius.net/wp-content/themes/TheoTheme/style.css?v=1" >
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script src="http://www.theodicius.net/wp-content/themes/TheoTheme/js/selectivizr.js"></script>
+<noscript></noscript>
+<script src="http://www.theodicius.net/wp-content/themes/TheoTheme/js/css3-mediaqueries.js"></script>
+<![endif]-->
+<link rel="pingback" href="http://www.theodicius.net/xmlrpc.php" />
+<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<!-- Uncomment if you are specifically targeting less enabled mobile browsers
+	<link rel="stylesheet" media="handheld" href="css/handheld.css?v=1">  -->
+<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+<script src="http://www.theodicius.net/wp-content/themes/TheoTheme/js/modernizr-1.6.min.js"></script> 
+
+<link rel="alternate" type="application/rss+xml" title="Theodicius &raquo; Feed" href="http://www.theodicius.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Theodicius &raquo; Comments Feed" href="http://www.theodicius.net/comments/feed/" />
+
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-3733988-3']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.theodicius.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.theodicius.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0.10" />
+
+<!-- All in One SEO Pack 2.2.3.1 by Michael Torbert of Semper Fi Web Design[478,520] -->
+<meta name="description"  content="Personal Commentary from a professional web developer and an amateur theologian" />
+
+<meta name="keywords"  content="web design, web development, theology, science fiction" />
+<link rel='next' href='http://www.theodicius.net/page/2/' />
+
+<link rel="canonical" href="http://www.theodicius.net/" />
+<!-- /all in one seo pack -->
+</head>
+
+<body class="home blog">
+	<header>
+		<hgroup id="page">
+			<h1>
+				<a href="http://www.theodicius.net/" title="Theodicius" rel="home">
+					Theodicius				</a>
+			</h1>
+			<h2>
+				Good. Evil. Bratwurst.			</h2>
+		</hgroup>
+		<nav id="categories" role="navigation">
+			<ul>
+					<li class="cat-item cat-item-5"><a href="http://www.theodicius.net/archives/category/books/" title="Good/Bad/Indifferent things I&#039;m reading">Books</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.theodicius.net/archives/category/general/" >General</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.theodicius.net/archives/category/mystery/" title="Thoughts on Crime Fiction">Mystery</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.theodicius.net/archives/category/politics/" title="From the Greek Poly=many and Ticks=blood-sucking parasites. Seriously, open thoughts on the politics of the ages.">Politics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.theodicius.net/archives/category/questions/" title="The unexamined life is not worthwhile. These are things I think about.">Questions</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.theodicius.net/archives/category/religion/" title="Thoughts on human approaches to God">Religion</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="http://www.theodicius.net/archives/category/science-fictionfantasy/" title="Thoughts/Rants pertaining to the world of SF and Fantasy">Science Fiction/Fantasy</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.theodicius.net/archives/category/technology/" title="Observations on the lack of art in technology today">Technology</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.theodicius.net/archives/category/theology/" title="Thoughts on God">Theology</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.theodicius.net/archives/category/web-design/" title="The [Sorry] State of Web Design">Web Design</a>
+</li>
+			</ul>
+		</nav>
+	</header>
+		<aside>
+		<form role="search" action="/" method="get" id="searchform">
+    <fieldset>
+        <label for="search">Search for: </label>
+        <input type="text" name="s" id="search" value=""  placeholder="search">
+        <input type="submit" alt="Search" value="Search" >
+    </fieldset>
+</form>	</aside>	<section id="content">
+		
+	<nav class="post_nav">
+		<p class="next"></p>
+		<p class="previous"><a href="http://www.theodicius.net/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></p>
+	</nav><!-- #nav-above -->
+
+
+	<article id="post-552" class="post-552 post type-post status-publish format-standard hentry category-general category-technology">
+		<header class="entry-header">
+			<time class="post_date" datetime="2012-12-29T17:21:29+00:00" pubdate>
+				<span class="month">Dec</span>
+				<span class="day">29</span>
+				<span class="year">2012</span>
+			</time>
+			<h1 class="entry-title"><a href="http://www.theodicius.net/archives/2012/12/29/my-15-minutes/" title="Permalink to My 15 Minutes" rel="bookmark">My 15 Minutes</a></h1>
+			<p class="meta">
+				Filed under: <a href="http://www.theodicius.net/archives/category/general/" rel="category tag">General</a>,<a href="http://www.theodicius.net/archives/category/technology/" rel="category tag">Technology</a>&#8212; arlen@ 5:21 pm 			</p>
+
+		</header><!-- .entry-header -->
+
+				<section class="entry-content">
+			<p>So, my guest shot on <a href="http://rubyrogues.com">Ruby Rogues</a> is now in the can. I didn&#8217;t do as well as I would have liked. Was it nerves, or the 100-degree fever I was running at the time? More than likely it was that I simply prepared for the wrong discussion.</p>
+<p>It&#8217;s nobody&#8217;s fault but my own; it&#8217;s a wide topic and the narrow bit I wanted to talk about soon was left behind as wider topics aired, and the discussion ranged farther afield than I had prepared data for. Mea Culpa. I did a bad job of preparing myself to guest. It happens. It will be neither the first nor the last mistake I make. (At least I hope it&#8217;s not my last; the day I make my last mistake will be the day I die.) You learn from it and move on.<br />
+ <a href="http://www.theodicius.net/archives/2012/12/29/my-15-minutes/#more-552" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</section><!-- .entry-content -->
+		
+		<section class="feedback">
+						<span class="comments-link"><a href="http://www.theodicius.net/archives/2012/12/29/my-15-minutes/#comments" title="Comment on My 15 Minutes">1 Comment</a></span>
+		</section><!-- #entry-meta -->
+	</article><!-- #post-552 -->
+
+	
+
+	<article id="post-541" class="post-541 post type-post status-publish format-standard hentry category-general category-technology">
+		<header class="entry-header">
+			<time class="post_date" datetime="2012-11-19T17:02:06+00:00" pubdate>
+				<span class="month">Nov</span>
+				<span class="day">19</span>
+				<span class="year">2012</span>
+			</time>
+			<h1 class="entry-title"><a href="http://www.theodicius.net/archives/2012/11/19/mongrels/" title="Permalink to Why I Like Mongrels" rel="bookmark">Why I Like Mongrels</a></h1>
+			<p class="meta">
+				Filed under: <a href="http://www.theodicius.net/archives/category/general/" rel="category tag">General</a>,<a href="http://www.theodicius.net/archives/category/technology/" rel="category tag">Technology</a>&#8212; arlen@ 5:02 pm 			</p>
+
+		</header><!-- .entry-header -->
+
+				<section class="entry-content">
+			<p>Given the recent <a href="http://2013.britruby.com">BritRuby</a> brew-up and the associated wailing and gnashing of teeth, I think it&#8217;s appropriate to put my own thoughts forward on this topic. While I&#8217;ve not organized a technical conference (yet) I&#8217;ve been the sole organizer of chess events catering to areas spanning a single city up to a full hemisphere, and been part of groups organizing literary conferences, so perhaps I have a little to contribute to the public post-mortem currently going on.</p>
+<p>Let me start out with a simple fact: I&#8217;m a dog-lover, and I prefer mongrels. Pure-bred dogs (and my first dog was a pure Collie, so I&#8217;m speaking from some experience) come with issues. They can be nervous, even neurotic. Quick to anger (or hide). Prone to various diseases and birth defects.</p>
+<p>Most of these issues don&#8217;t show up in mongrels. The mongrels I&#8217;ve owned were stable, loving and useful pets. They weren&#8217;t nervy, rarely got sick. The hardiness comes from the genes of one breed canceling out the weaknesses in the genes of another. (It&#8217;s like metallurgy. You want the iron to be stronger, more useful, you mix in some other elements. Alloys are the mongrels of metallurgy.)</p>
+<p>So it goes when it comes to conferences. The wider the experience and cultural base of the presenters, in general the more they have to offer that I haven&#8217;t yet seen or learned. Yum.<br />
+ <a href="http://www.theodicius.net/archives/2012/11/19/mongrels/#more-541" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</section><!-- .entry-content -->
+		
+		<section class="feedback">
+						<span class="comments-link"><a href="http://www.theodicius.net/archives/2012/11/19/mongrels/#respond" title="Comment on Why I Like Mongrels">Leave a comment</a></span>
+		</section><!-- #entry-meta -->
+	</article><!-- #post-541 -->
+
+	
+
+	<article id="post-535" class="post-535 post type-post status-publish format-standard hentry category-general category-technology category-web-design">
+		<header class="entry-header">
+			<time class="post_date" datetime="2012-11-10T15:41:56+00:00" pubdate>
+				<span class="month">Nov</span>
+				<span class="day">10</span>
+				<span class="year">2012</span>
+			</time>
+			<h1 class="entry-title"><a href="http://www.theodicius.net/archives/2012/11/10/patterns-of-understanding/" title="Permalink to Patterns of Understanding" rel="bookmark">Patterns of Understanding</a></h1>
+			<p class="meta">
+				Filed under: <a href="http://www.theodicius.net/archives/category/general/" rel="category tag">General</a>,<a href="http://www.theodicius.net/archives/category/technology/" rel="category tag">Technology</a>,<a href="http://www.theodicius.net/archives/category/web-design/" rel="category tag">Web Design</a>&#8212; arlen@ 3:41 pm 			</p>
+
+		</header><!-- .entry-header -->
+
+				<section class="entry-content">
+			<p>I wrote a <a href="http://www.theodicius.net/archives/2012/10/13/on-chess-and-s…re-development/ ‎">little while ago</a> about the advisability of teaching software patterns to beginning developers as well as experienced ones. But it occurs to me there&#8217;s  reason for doing it that I may not have covered completely.</p>
+<p>I’m going to take as my starting point Donald Knuth’s idea that the main task in software development is to explain to other developers what we want the computer to do, that the primary audience of source code is a human, not a machine. That seems obvious enough to not need much supporting evidence. Nobody lives forever, no one stays in the same job forever; everybody gets replaced, either voluntarily or involuntarily.</p>
+<p>While the syntax of the language makes this communication possible, we still need a common conceptual base to make it efficient. Even in English it’s easy to come away from a single sentence with multiple meanings; development languages, with their near-total focus on what over why, can be even more adept at hiding meaning.<br />
+ <a href="http://www.theodicius.net/archives/2012/11/10/patterns-of-understanding/#more-535" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</section><!-- .entry-content -->
+		
+		<section class="feedback">
+						<span class="comments-link"><a href="http://www.theodicius.net/archives/2012/11/10/patterns-of-understanding/#respond" title="Comment on Patterns of Understanding">Leave a comment</a></span>
+		</section><!-- #entry-meta -->
+	</article><!-- #post-535 -->
+
+	
+
+	<article id="post-521" class="post-521 post type-post status-publish format-standard hentry category-general category-technology">
+		<header class="entry-header">
+			<time class="post_date" datetime="2012-10-13T15:03:10+00:00" pubdate>
+				<span class="month">Oct</span>
+				<span class="day">13</span>
+				<span class="year">2012</span>
+			</time>
+			<h1 class="entry-title"><a href="http://www.theodicius.net/archives/2012/10/13/on-chess-and-software-development/" title="Permalink to On Chess and Software Development" rel="bookmark">On Chess and Software Development</a></h1>
+			<p class="meta">
+				Filed under: <a href="http://www.theodicius.net/archives/category/general/" rel="category tag">General</a>,<a href="http://www.theodicius.net/archives/category/technology/" rel="category tag">Technology</a>&#8212; arlen@ 3:03 pm 			</p>
+
+		</header><!-- .entry-header -->
+
+				<section class="entry-content">
+			<p>Or, In Defense Of Software Patterns.</p>
+<p>I was listening to <a href="http://rubyrogues.com/056-rr-david-heinemeier-hansson/">Ruby Rogues podcast episode #56</a> when the discussion turned to software patterns, and my teeth started grinding.</p>
+<p>It wasn&#8217;t so much about what was said (though there were enough of those moments, to be sure) as about what was implied or left unsaid. With one exception (to come later) I&#8217;m going to leave names out of this, simply because I want the discussion to center on the ideas, not the personalities. Listen to the podcast, and you&#8217;ll be clear enough about who said what, if the who of it means that much to you. I&#8217;ll just say the guest and the rogues are all not short of accomplishments and as a group contain very good developers.</p>
+<p>The implication that came out of it, and that was only halfheartedly challenged, was that software patterns weren&#8217;t useful things to teach beginning developers. The statement that made the show notes was &#8220;You need to feel the pain and understand the pattern before you begin to understand when and why to use it and when to deviate.&#8221; While the statement itself is defensible, it&#8217;s really irrelevant to the value of software patterns for either experienced or nascent developers. My own first reaction was, &#8220;So?, What&#8217;s your point?&#8221; <a href="http://www.theodicius.net/archives/2012/10/13/on-chess-and-software-development/#more-521" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</section><!-- .entry-content -->
+		
+		<section class="feedback">
+						<span class="comments-link"><a href="http://www.theodicius.net/archives/2012/10/13/on-chess-and-software-development/#comments" title="Comment on On Chess and Software Development">3 Comments</a></span>
+		</section><!-- #entry-meta -->
+	</article><!-- #post-521 -->
+
+	
+
+	<article id="post-507" class="post-507 post type-post status-publish format-standard hentry category-general category-technology category-web-design">
+		<header class="entry-header">
+			<time class="post_date" datetime="2012-09-25T12:14:49+00:00" pubdate>
+				<span class="month">Sep</span>
+				<span class="day">25</span>
+				<span class="year">2012</span>
+			</time>
+			<h1 class="entry-title"><a href="http://www.theodicius.net/archives/2012/09/25/what-i-did-to-the-jasmine-phantom/" title="Permalink to What I Did To The Jasmine Phantom" rel="bookmark">What I Did To The Jasmine Phantom</a></h1>
+			<p class="meta">
+				Filed under: <a href="http://www.theodicius.net/archives/category/general/" rel="category tag">General</a>,<a href="http://www.theodicius.net/archives/category/technology/" rel="category tag">Technology</a>,<a href="http://www.theodicius.net/archives/category/web-design/" rel="category tag">Web Design</a>&#8212; arlen@ 12:14 pm 			</p>
+
+		</header><!-- .entry-header -->
+
+				<section class="entry-content">
+			<p>Being a continuation of the saga began in <a href="http://www.theodicius.net/archives/2012/09/10/the-story-of-jasmine-and-the-headless-webkit/" title="Jasmine And The Headless Webkit">Jasmine And The Headless Webkit</a>.</p>
+<p>OK, after the last installment I had a working in-browser test runner (standalone Jasmine) and a working command-line test runner (phantom-jasmine). But they were different files, meaning if anything significant changed, I was going to have to duplicate the changes in two different testing files. This, while workable short-term, is not an acceptable solution.</p>
+<p>So I dug in to the files.<br />
+ <a href="http://www.theodicius.net/archives/2012/09/25/what-i-did-to-the-jasmine-phantom/#more-507" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</section><!-- .entry-content -->
+		
+		<section class="feedback">
+						<span class="comments-link"><a href="http://www.theodicius.net/archives/2012/09/25/what-i-did-to-the-jasmine-phantom/#respond" title="Comment on What I Did To The Jasmine Phantom">Leave a comment</a></span>
+		</section><!-- #entry-meta -->
+	</article><!-- #post-507 -->
+
+	
+
+	<nav class="post_nav">
+		<p class="previous"></p>
+		<p class="next"><a href="http://www.theodicius.net/page/2/" >Next Page <span class="meta-nav">&raquo;</span></a></p>
+	</nav><!-- #nav-above -->
+	</section>
+		<table id="wp-calendar">
+	<caption>February 2016</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="http://www.theodicius.net/archives/2012/12/">&laquo; Dec</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+	</tr>
+	<tr>
+		<td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+	</tr>
+	<tr>
+		<td>15</td><td>16</td><td>17</td><td id="today">18</td><td>19</td><td>20</td><td>21</td>
+	</tr>
+	<tr>
+		<td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+	</tr>
+	<tr>
+		<td>29</td>
+		<td class="pad" colspan="6">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table> 
+	<footer id="colophon" role="contentinfo">
+		<p class="vcard"><span class="fn n"><span class="givenname">
+Arlen</span><span class="family-name"> Walker </span>(<span
+class="nickname">Theodicius</span>)</span> is a web designer
+and developer based in <span class="adr"><span
+class="locality">Milwaukee</span>,<span
+class="region">Wisconsin</span> <span
+class="country-name">United States</span></span>. He runs a
+small agency called <span class="org">Paladin Web Services</span>,
+teaches people to play chess, and helps run science fiction conventions. If you would like to hire
+Arlen, you can e-mail him at <span class="email" href="wire@
+paladinweb.com">moc.bewnidalap@eriw</span> or
+call him at <span class="tel">414.581.0849</span>.</p>
+		<ul id="footerlinks">
+			  <li id="linkcat-18" class="linkcat"><h2>&nbsp;Syndication</h2>
+	<ul>
+<li><a href="http://www.theodicius.net/feed/rss2/" rel="me">&nbsp;Everything (rss2)</a></li>
+<li><a href="http://www.theodicius.net/archives/category/books/feed/" rel="me" title="Tales of the books I&#8217;m reading">Books (rss2)</a></li>
+<li><a href="http://www.theodicius.net/archives/category/politics/feed/rss2" rel="me" title="The RSS2 feed on politics">Politics (rss2)</a></li>
+<li><a href="http://www.theodicius.net/archives/category/religion/feed/rss2" rel="me" title="Thoughts about organized (or disorganized) religion">Religion (rss2)</a></li>
+<li><a href="http://www.theodicius.net/archives/category/science-fictionfantasy/feed/rss2" rel="me" title="Subscribe to the SF/Fantasy feed">SF/Fantasy (rss2)</a></li>
+<li><a href="http://arlen.f2o.org/archives/category/technology/rss2" rel="me" title="Subscribe to the technology RSS2 feed">Technology (rss2)</a></li>
+<li><a href="http://www.theodicius.net/archives/category/theology/feed/rss2" rel="me" title="Thoughts on the study of God">Theology (rss2)</a></li>
+<li><a href="http://www.theodicius.net/archives/category/web-design/feed/rss2" rel="me">Web Design (rss2)</a></li>
+
+	</ul>
+</li>
+  <li id="linkcat-12" class="linkcat"><h2>Blogroll</h2>
+	<ul>
+<li><a href="http://blog.beliefnet.com/bibleandculture/" title="Author, Teacher. An excellent thinker">Ben Witherington</a></li>
+<li><a href="http://dancody.org/" rel="acquaintance met neighbor" title="Local political news/activism">Dan Cody</a></li>
+<li><a href="http://www.daringfireball.net/">Daring Fireball</a></li>
+<li><a href="http://ilovetypography.com/" title="Yes, actually, I do">I Love Typography</a></li>
+<li><a href="http://www.kottke.org/">Jason Kottke</a></li>
+<li><a href="http://metaverse.wordpress.com/" rel="acquaintance met colleague neighbor">MIke McCallister</a></li>
+<li><a href="http://www.randsinrepose.com/">Rands</a></li>
+
+	</ul>
+</li>
+  <li id="linkcat-17" class="linkcat"><h2>Find me at</h2>
+	<ul>
+<li><a href="http://www.thechessmill.com" rel="me" title="History and ramblings on chess">The Chessmill</a></li>
+
+	</ul>
+</li>
+  <li id="linkcat-26" class="linkcat"><h2>Fun</h2>
+	<ul>
+<li><a href="http://www.userfriendly.org/" title="Sid Dabster and the gang at Columbia Internet">User Friendly</a></li>
+<li><a href="http://xkcd.com/">xkcd</a></li>
+
+	</ul>
+</li>
+  <li id="linkcat-13" class="linkcat"><h2>News</h2>
+	<ul>
+<li><a href="http://www.macintouch.com/" title="Ric Ford&#8217;s great site for Macintosh related news an information">Macintouch</a></li>
+<li><a href="http://www.scifi.com/scifiwire/" title="OK, I cringe at the name, but the news items are good.">Sci-Fi Wire</a></li>
+<li><a href="http://wifinetnews.com/">Wi-Fi Net News</a></li>
+
+	</ul>
+</li>
+  <li id="linkcat-16" class="linkcat"><h2>Tools</h2>
+	<ul>
+<li><a href="http://www.barebones.com/products/bbedit/index.shtml" title="It doesn&#8217;t suck.">BBEdit</a></li>
+<li><a href="http://wordpress.org/">WordPress</a></li>
+
+	</ul>
+</li>
+  <li id="linkcat-14" class="linkcat"><h2>Web Gurus</h2>
+	<ul>
+<li><a href="http://www.alistapart.com" title="Web zine with good design ideas">A List Apart</a></li>
+<li><a href="http://www.meyerweb.com/" rel="acquaintance" title="The source for CSS information">Eric Meyer</a></li>
+<li><a href="http://www.veen.com/jeff/" rel="acquaintance" title="HotWired, WebMonkey. The man knows whereof he speaks.">Jeff Veen</a></li>
+<li><a href="http://www.zeldman.com/" title="What he&#8217;s forgotten about web design is more than most working designers know">Jeffrey Zeldman</a></li>
+<li><a href="http://interrupt-driven.com/" rel="acquaintance colleague" title="He&#8217;s blogging again">Steve Champeon</a></li>
+
+	</ul>
+</li>
+		</ul>
+		<br style="clear:both;">
+		<div id="sk2-footer" style="color:#FFF; background-color:#444; padding: 3px 2px 3px 2px; border-top: #888 solid 1px;">This blog is protected by <a href="http://unknowngenius.com/blog/" title="Dave">Dave</a>'s <strong><a href="http://unknowngenius.com/blog/wordpress/spam-karma/" title="SK2">Spam Karma 2</a></strong>: <strong>42809</strong>  Spams eaten and counting...</div>	</footer><!-- #colophon -->
+</body>
+</html>

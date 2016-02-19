@@ -1,0 +1,817 @@
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <title>The Reptile Report</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="The Reptile Report is your one stop for the most interesting news, stories, and photos of reptiles, amphibians, and invertebrates." />
+  <meta name="keywords" content="ball pythons, snakes, reptiles, news, photos, lizards, amphibians, invertebrates" />
+  <meta name="msvalidate.01" content="3131BD6618BDA9E673F9A197FE8C5ADB" />
+  	<link rel="stylesheet" href="/wp-content/themes/trr-new/css/style.css">
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="alternate" type="application/rss+xml" title="The Reptile Report Feed" href="http://thereptilereport.com/feed/" />
+
+  <script src="/wp-content/themes/trr-new/js/libs/modernizr-2.0.6.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/wp-content/themes/trr-new/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <link rel="stylesheet" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/images/style/output.css" type="text/css" />
+<link rel="stylesheet" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/libs/thickbox/thickbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/libs/thickbox/thickbox.js"></script>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" href="/wp-content/plugins/yet-another-related-posts-plugin/style/widget.css?ver=4.4.2">
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css?ver=4.4.2">
+<link rel="stylesheet" href="/wp-content/plugins/custom-contact-forms/build/css/form.min.css?ver=4.4.2">
+<link rel="stylesheet" href="/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70">
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+<script type='text/javascript' src='/plugins/bestof-nominations/js/ajax-implementation.js?ver=4.4.2'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/underscore.min.js?ver=1.6.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ccfSettings = {"ajaxurl":"http:\/\/thereptilereport.com\/wp-admin\/admin-ajax.php","required":"This field is required.","date_required":"Date is required.","hour_required":"Hour is required.","minute_required":"Minute is required.","am-pm_required":"AM\/PM is required.","match":"Emails do not match.","email":"This is not a valid email address.","recaptcha":"Your reCAPTCHA response was incorrect.","recaptcha_theme":"light","phone":"This is not a valid phone number.","digits":"This phone number is not 10 digits","hour":"This is not a valid hour.","date":"This date is not valid.","minute":"This is not a valid minute.","fileExtension":"This is not an allowed file extension","fileSize":"This file is bigger than","unknown":"An unknown error occured.","website":"This is not a valid URL. URL's must start with http(s):\/\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/custom-contact-forms/build/js/form.min.js?ver=1.1'></script>
+<link rel='https://api.w.org/' href='http://thereptilereport.com/wp-json/' />
+	<link rel="canonical" href="http://thereptilereport.com/">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-28151676-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+
+  <script defer src="/wp-content/themes/trr-new/js/plugins.js"></script>
+  <script defer src="/wp-content/themes/trr-new/js/script.js"></script>
+<link rel="image_src" href="http://thereptilereport.com" />
+
+<script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+
+<!-- Facebook Conversion Code for Facebook TRR Referrals -->
+<script type="text/javascript">
+var fb_param = {};
+fb_param.pixel_id = '6011932132229';
+fb_param.value = '0.00';
+fb_param.currency = 'USD';
+(function(){
+  var fpw = document.createElement('script');
+  fpw.async = true;
+  fpw.src = '//connect.facebook.net/en_US/fp.js';
+  var ref = document.getElementsByTagName('script')[0];
+  ref.parentNode.insertBefore(fpw, ref);
+})();
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6011932132229&amp;value=0&amp;currency=USD" /></noscript>
+
+<script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+<script>
+jQuery(document).ready(function()
+	{
+
+		jQuery.ajax({
+			url: "http://marketplace.thereptilereport.com/api/v1/advertisements.json",
+			dataType: "json",
+			success: function(data)
+			{
+        var ad = { 
+            title0: data[0][0],
+            title1: data[1][0],
+            title2: data[2][0],
+            
+            path0: data[0][1],
+            path1: data[1][1],
+            path2: data[2][1],
+
+            img0: data[0][2],
+            img1: data[1][2],
+            img2: data[2][2],
+           
+            date0: data[0][3],
+            date1: data[1][3],
+            date2: data[2][3],
+
+            name0: data[0][4],
+            name1: data[1][4],
+            name2: data[2][4],
+
+            state0: data[0][5],
+            state1: data[1][5],
+            state2: data[2][5],
+
+            city0: data[0][6],
+            city1: data[1][6],
+            city2: data[2][6],
+
+            sellurl0: data[0][8],
+            sellurl1: data[1][8],
+            sellurl2: data[2][8],
+           
+            price0: data[0][9],
+            price1: data[1][9],
+            price2: data[2][9],
+
+            sellink0: data[0][11],
+            sellink1: data[1][11],
+            sellink2: data[2][11]
+           
+        };
+        jQuery("#ad_template1").tmpl(ad).appendTo("#ad1");
+				jQuery("#ad_template2").tmpl(ad).appendTo("#ad2");
+				jQuery("#ad_template3").tmpl(ad).appendTo("#ad3");
+			}
+		});
+	});
+</script>
+<script id="ad_template1" type="text/x-jquery-tmpl">
+  <div class="trrm-ad-content">
+    <h6>Platinum Marketplace Ad</h6>
+    <div class="post-img"><img src="${img0}" alt="ad image"></div>
+    <div class="entry-txt">
+  	  <span class="endate">${date0}</span>
+  	  <hr class="postline">
+  	  <h2><a href="${path0}" target="_blank">${title0}</a></h2>
+  		<span class="banner">${ban0}</span>
+  		<p><b><a href="${sellurl0}" target="_blank">${name0}</a></b> ${city0}, ${state0}</p>
+  	  <p class="price"><b>${price0}</b></p>
+  	  <p class="calltoaction">&#187; <a href="${path0}" target="_blank">View this ad</a> | <a href="http://marketplace.thereptilereport.com/" target="_blank">Go to the Marketplace</a></p>
+  	</div>
+  </div>
+</script>
+<script id="ad_template2" type="text/x-jquery-tmpl">
+  <div class="trrm-ad-content">
+    <h6>Platinum Marketplace Ad</h6>
+    <div class="post-img"><img src="${img1}" alt="ad image"></div>
+    <div class="entry-txt">
+  	  <span class="endate">${date1}</span>
+  	  <hr class="postline">
+  	  <h2><a href="${path1}" target="_blank">${title1}</a></h2>
+  		<span class="banner">${ban1}</span>
+  		<p><b><a href="${sellurl1}" target="_blank">${name1}</a></b> ${city1}, ${state1}</p>
+  	  <p class="price"><b>${price1}</b></p>
+  	  <p class="calltoaction">&#187; <a href="${path1}" target="_blank">View this ad</a> | <a href="http://marketplace.thereptilereport.com/" target="_blank">Go to the Marketplace</a></p>
+  	</div>
+  </div>
+</script>
+<script id="ad_template3" type="text/x-jquery-tmpl">
+  <div class="trrm-ad-content">
+    <h6>Platinum Marketplace Ad</h6>
+    <div class="post-img"><img src="${img2}" alt="ad image"></div>
+    <div class="entry-txt">
+  	  <span class="endate">${date2}</span>
+  	  <hr class="postline">
+  	  <h2><a href="${path2}" target="_blank">${title2}</a></h2>
+  		<span class="banner">${ban2}</span>
+  		<p><b><a href="${sellurl2}" target="_blank">${name2}</a></b> ${city2}, ${state2}</p>
+  	  <p class="price"><b>${price2}</b></p>
+  	  <p class="calltoaction">&#187; <a href="${path2}" target="_blank">View this ad</a> | <a href="http://marketplace.thereptilereport.com/" target="_blank">Go to the Marketplace</a></p>
+  	</div>
+  </div>
+</script>
+
+<style>
+#topline{
+    position:relative;
+}
+.trrmlink{
+    position:absolute;right:0;z-index:10000;top:-2px;border:none;
+}
+</style>
+</head>
+
+<body class="home page page-id-712 page-template-default front-page">
+
+
+
+<div id="bannerA">
+<div id="oio-banner-1" style="width:728px; margin:0 auto;">
+<a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=515" title="Zoo Med"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/7Artwk_Zoo Med Reptisun-HorizontalBanner-728x90-V3.jpg" alt="Zoo Med" style="width:728px; height:90px; border:0px;" /></a>
+</div>
+</div>
+<div id="topline">
+    <div class="trrmlink"><a href="http://marketplace.thereptilereport.com/"><img src="/assets/trrmlink.png" alt="marketplace link" /></a></div>
+</div>
+    <div id="wrap" class="container" role="document">
+      <header id="banner" class="" role="banner">
+            <div class="container">
+	    	<div class="headlogo">
+<div id="topdate">February 18, 2016</div>
+				<img src="/wp-content/themes/trr-new/img/img1-l.png" alt="random left">
+				<a id="logo" href="http://thereptilereport.com/"><img src="/images/trr-toplogo.png" alt="The Reptile Report"></a>
+        		<img src="/wp-content/themes/trr-new/img/img1-r.png" alt="random right">
+			</div>
+<div class="social-ring">
+    <div class="social-ring-button"><a href="http://twitter.com/share" data-url="http://thereptilereport.com/" data-text="Submit" data-count="horizontal" class="sr-twitter-button twitter-share-button"></a></div>
+    <div class="social-ring-button">
+      <div class="fb-like" data-href="http://thereptilereport.com" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+    </div>
+</div>
+<div class="clearboth">&nbsp;</div>
+<form role="search" method="get" id="searchform" action="http://thereptilereport.com/">
+  <label class="visuallyhidden" for="s">Search for:</label>
+  <input type="text" value="" name="s" id="s" placeholder="Search The Reptile Report">
+  <input type="submit" id="searchsubmit" value="Search" class="button">
+</form>
+<div id="advsearchlink"><a href="http://thereptilereport.com/advanced/">advanced search</a></div>
+<ul id="reg-menu">
+  <!--<li>|</li>--><li><a href="/submit/">Submit an Entry</a></li>
+</ul>
+
+        <nav class="nav-main" role="navigation">
+                      <ul id="menu-primary-navigation" class="menu"><li id="menu-front-page"><a href="/everything/">Front Page</a></li>
+<li id="menu-pythons"><a href="/category/pythons/">Pythons</a>
+<ul class="sub-menu">
+	<li id="menu-ball-pythons"><a href="/category/pythons/ball-pythons/">Ball Pythons</a></li>
+	<li id="menu-morelia"><a href="/category/pythons/morelia/">Morelia</a></li>
+	<li id="menu-giants"><a href="/category/pythons/giants/">Giants</a></li>
+</ul>
+</li>
+<li id="menu-boas"><a href="/category/boas/">Boas</a>
+<ul class="sub-menu">
+	<li id="menu-boa-constrictors"><a href="/category/boas/boa-constrictors/">Boa Constrictors</a></li>
+	<li id="menu-arboreal"><a href="/category/boas/arboreal/">Arboreal</a></li>
+</ul>
+</li>
+<li id="menu-colubrids"><a href="/category/colubrids/">Colubrids</a></li>
+<li id="menu-geckos"><a href="/category/geckos/">Geckos</a>
+<ul class="sub-menu">
+	<li id="menu-leopard-geckos"><a href="/category/geckos/leopard-geckos/">Leopard Geckos</a></li>
+	<li id="menu-cresteds"><a href="/category/geckos/cresteds/">Cresteds</a></li>
+</ul>
+</li>
+<li id="menu-lizards"><a href="/category/lizards/">Lizards</a>
+<ul class="sub-menu">
+	<li id="menu-beardeds"><a href="/category/lizards/beardeds/">Beardeds</a></li>
+	<li id="menu-chameleons"><a href="/category/lizards/chameleons/">Chameleons</a></li>
+	<li id="menu-monitors"><a href="/category/lizards/monitors/">Monitors</a></li>
+</ul>
+</li>
+<li id="menu-chelonia"><a href="/category/chelonia/">Chelonia</a>
+<ul class="sub-menu">
+	<li id="menu-tortoises"><a href="/category/chelonia/tortoises/">Tortoises</a></li>
+	<li id="menu-turtles"><a href="/category/chelonia/turtles/">Turtles</a></li>
+</ul>
+</li>
+<li id="menu-invertebrates"><a href="/category/invertebrates/">Invertebrates</a></li>
+<li id="menu-amphibians"><a href="/category/amphibians/">Amphibians</a>
+<ul class="sub-menu">
+	<li id="menu-frogs"><a href="/category/amphibians/frogs/">Frogs</a></li>
+</ul>
+</li>
+<li id="menu-venomous"><a href="/category/venomous/">Venomous</a></li>
+<li id="menu-field-herping"><a href="/category/field-herping/">Field Herping</a></li>
+<li id="menu-videos"><a href="/category/videos/">Videos</a></li>
+<li id="menu-politics"><a href="/category/reptile-politics/">Politics</a></li>
+<li id="menu-more"><a href="/category/more/">More</a>
+<ul class="sub-menu">
+	<li id="menu-business-listings"><a href="/listings/">Business Listings</a></li>
+	<li id="menu-help-promote-the-reptile-report"><a href="/help-promote-the-reptile-report/">Help Promote The Reptile Report</a></li>
+	<li id="menu-blogs"><a href="/category/blogs/">Blogs</a>
+	<ul class="sub-menu">
+		<li id="menu-the-editors-desk"><a href="/category/blogs/editorsdesk/">The Editor&#8217;s Desk</a></li>
+		<li id="menu-robyns-blog"><a href="/category/blogs/robyn/">Robyn&#8217;s Blog</a></li>
+		<li id="menu-jens-tar-pit"><a href="/category/blogs/jens-tar-pit/">Jen&#8217;s Tar Pit</a></li>
+		<li id="menu-brians-corner"><a href="/category/blogs/brians-corner/">Brian&#8217;s Corner</a></li>
+	</ul>
+</li>
+	<li id="menu-shipping"><a href="/category/shipping/">Shipping</a></li>
+	<li id="menu-feeders"><a href="/category/feeders/">Feeders</a>
+	<ul class="sub-menu">
+		<li id="menu-insects"><a href="/category/feeders/insects/">Insects</a></li>
+		<li id="menu-rodents"><a href="/category/feeders/rodents/">Rodents</a></li>
+	</ul>
+</li>
+	<li id="menu-caging-and-supplies"><a href="/category/caging-and-supplies/">Caging and Supplies</a></li>
+	<li id="menu-husbandry"><a href="/category/husbandry/">Husbandry</a>
+	<ul class="sub-menu">
+		<li id="menu-breeding"><a href="/category/husbandry/breeding/">Breeding</a></li>
+	</ul>
+</li>
+	<li id="menu-media"><a href="/category/media/">Media</a>
+	<ul class="sub-menu">
+		<li id="menu-personalities"><a href="/category/media/personalities/">Personalities</a></li>
+		<li id="menu-radiovideo-shows"><a href="/category/media/radiovideo-shows/">Radio/Video Shows</a></li>
+		<li id="menu-television"><a href="/category/media/tv/">Television</a></li>
+		<li id="menu-reptile-news"><a href="/category/media/reptile-news/">Reptile News</a></li>
+		<li id="menu-magazines"><a href="/category/media/magazines/">Magazines</a></li>
+	</ul>
+</li>
+	<li id="menu-international"><a href="/category/international/">International</a></li>
+	<li id="menu-crocodilians"><a href="/category/crocodilians/">Crocodilians</a></li>
+	<li id="menu-reptile-event-news"><a href="/category/reptile-event-news/">Reptile Event News</a></li>
+	<li id="menu-shows-expos"><a href="/category/shows-and-expos/">Shows &#038; Expos</a></li>
+	<li id="menu-photography"><a href="/category/photography/">Photography</a></li>
+	<li id="menu-business-issues"><a href="/category/business-issues/">Business Issues</a></li>
+	<li id="menu-charity"><a href="/category/more/charity/">Charity</a></li>
+	<li id="menu-nonsense-and-other-stuff"><a href="/category/nonsense/">Nonsense- and other stuff</a></li>
+	<li id="menu-press-releases"><a href="/category/press-releases/">Press Releases</a></li>
+	<li id="menu-product-reviews"><a href="/category/product-reviews/">Product Reviews</a></li>
+	<li id="menu-advanced-search"><a href="/advanced/">Advanced Search</a></li>
+	<li id="menu-miscellaneous"><a href="/category/miscellaneous/">Miscellaneous</a></li>
+</ul>
+</li>
+</ul>                  </nav>
+
+                <nav id="nav-utility">
+                      <ul id="menu-utility-navigation" class="menu"><li id="menu-featured"><a href="#">FEATURED</a></li>
+<li id="menu-the-marketplace"><a href="http://marketplace.thereptilereport.com">The Marketplace</a></li>
+<li id="menu-personalities"><a href="/category/media/personalities/">Personalities</a></li>
+<li id="menu-editors-choice"><a href="/category/editors-choice/">Editor&#8217;s Choice</a></li>
+<li id="menu-media"><a href="/category/media/">Media</a></li>
+<li id="menu-vet-directory"><a href="/category/vet-directory/">Vet Directory</a></li>
+<li id="menu-herp-soc-directory"><a href="/category/herp-soc-directory/">Herp Soc Directory</a></li>
+<li id="menu-shows-expos"><a href="/category/shows-and-expos/">Shows &#038; Expos</a></li>
+</ul>                  </nav>
+
+      </div>
+    </header>
+        <div id="content" class="">
+          <div id="main" class="" role="main">
+        <div class="container">
+<h1>Front Page</h1>                              
+<script>
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+</script>
+      <article id="post-155892" class="post-155892 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-business-issues category-chelonia category-editors-choice category-miscellaneous category-reptile-event-news category-tortoises category-turtles">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/ALSNAP2-thumb.jpg" alt="The Reptile Report" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 1, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/win-this-awesome-albino-snapper/">WIN this Awesome Albino Snapper!</a></h2><p><b>The Reptile Report - </b>How would you like a chance to own this adorable little albino snapping turtle at absolutely no cost to you? Simple follow the link and enter to win...</p>
+	        <span class="enmore"><a href="/win-this-awesome-albino-snapper/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-154847" class="post-154847 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-amphibians category-arboreal category-ball-pythons category-beardeds category-boa-constrictors category-boas category-business-issues category-caging-and-supplies category-chameleons category-chelonia category-colubrids category-cresteds category-editors-choice category-feeders category-field-herping category-frogs category-geckos category-giants category-international category-invertebrates category-leopard-geckos category-lizards category-media category-miscellaneous category-monitors category-morelia category-photography category-pythons category-radiovideo-shows category-reptile-event-news category-tortoises category-turtles category-venomous">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/BOA-2015-winner-promo-thumb.png" alt="The Reptile Report" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 1, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/the-reptile-reports-best-of-2015-awards-are-here/">The Reptile Report&#8217;s Best of 2015 Awards &#8211; TIME TO VOTE!</a></h2><p><b>The Reptile Report - </b>It&#8217;s time to Get Out the Vote and support your favorite Reader&#8217;s Choice Nominees! Follow this link to log in and vote for your favorite nominees once per...</p>
+	        <span class="enmore"><a href="/the-reptile-reports-best-of-2015-awards-are-here/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156622" class="post-156622 post type-post status-publish format-standard has-post-thumbnail hentry category-ball-pythons category-breeding category-editors-choice category-husbandry category-photography category-pythons">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/bpnet-18feb-twosilverstunners-aalomon.jpg" alt="Ball-Pythons.net" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/two-silver-stunners/">Two Silver Stunners</a></h2><p><b>Ball-Pythons.net - </b>A pastel butter gargoyle and a pastel butter super cinnamon ball python produced by Ivory Exotics pose for photos showing off their beautiful silver coloration.</p>
+	        <span class="enmore"><a href="/two-silver-stunners/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156618" class="post-156618 post type-post status-publish format-standard has-post-thumbnail hentry category-boa-constrictors category-boas category-editors-choice category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/repinsider-18feb-argentinemacros-Boas4Life.jpg" alt="Reptile Insider" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/argentine-macros/">Argentine Macros</a></h2><p><b>Reptile Insider - </b>Here are some fantastic macro photos detailing the lovely scales of a T+ albino Argentine boa constrictor.</p>
+	        <span class="enmore"><a href="/argentine-macros/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156615" class="post-156615 post type-post status-publish format-standard has-post-thumbnail hentry category-chelonia category-editors-choice category-photography category-turtles">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/submisc-18feb-matamatasmile-Gerard-Siatkowski.jpg" alt="The Reptile Report" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/mata-mata-smile/">Mata Mata Smile</a></h2><p><b>The Reptile Report - </b>A handsome mata mata turtle smiles for the camera in this great photo by Gerard Siatkowski. &#160; &#160; &#160; &#160;</p>
+	        <span class="enmore"><a href="/mata-mata-smile/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+  <article id="ad1" class="mrktplcad adson"></article>      <article id="post-156612" class="post-156612 post type-post status-publish format-standard has-post-thumbnail hentry category-breeding category-editors-choice category-husbandry category-photography category-pythons">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/morelia-18feb-moluccanbabies-P-Lamarre.jpg" alt="Morelia Forums" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/moluccan-babies-2/">Moluccan Babies</a></h2><p><b>Morelia Forums - </b>See photos of the marvelous Moluccan python babies that a breeder hatched out.</p>
+	        <span class="enmore"><a href="/moluccan-babies-2/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156609" class="post-156609 post type-post status-publish format-standard has-post-thumbnail hentry category-lizards category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/geckoforums-18feb-morningroutine-Welsh-Morphology.jpg" alt="GeckoForums.net" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/morning-routine/">Morning Routine</a></h2><p><b>GeckoForums.net - </b>A flexible Fiji iguana at Welsh Morphology does some morning stretches before taking a shower.</p>
+	        <span class="enmore"><a href="/morning-routine/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156606" class="post-156606 post type-post status-publish format-standard has-post-thumbnail hentry category-giants category-international category-morelia category-photography category-pythons category-venomous">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/sareptiles-18feb-alovelycollection-mania.jpg" alt="SA Reptiles" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/a-lovely-collection-7/">A Lovely Collection</a></h2><p><b>SA Reptiles - </b>A reptile keeper in South Africa shares photos of their wonderful collection of snakes.</p>
+	        <span class="enmore"><a href="/a-lovely-collection-7/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156603" class="post-156603 post type-post status-publish format-standard has-post-thumbnail hentry category-boa-constrictors category-boas category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/repinsider-18feb-beautifulsuri-Boas4Life.jpg" alt="Reptile Insider" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/beautiful-suri/">Beautiful Suri</a></h2><p><b>Reptile Insider - </b>Take a look at the incredible color and pattern on this stunning Tudehope Suriname boa constrictor.</p>
+	        <span class="enmore"><a href="/beautiful-suri/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156599" class="post-156599 post type-post status-publish format-standard has-post-thumbnail hentry category-invertebrates category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/arachno-18feb-twoprettyts-Protectyaaaneck.jpg" alt="Arachnoboards" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/two-pretty-ts-2/">Two Pretty Ts</a></h2><p><b>Arachnoboards - </b>Check out these great photos of an Avicularia sooretama and a Pachistopelma rufonigrum tarantula.</p>
+	        <span class="enmore"><a href="/two-pretty-ts-2/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+  <article id="ad2" class="mrktplcad adson"></article>      <article id="post-156596" class="post-156596 post type-post status-publish format-standard has-post-thumbnail hentry category-crocodilians category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/submisc-18feb-tonsofteeth-Haley-Bechard.jpg" alt="The Reptile Report" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/tons-of-teeth/">Tons of Teeth</a></h2><p><b>The Reptile Report - </b>Haley Bechard shows off what she found at the bottom of an alligator/crocodile pond. &#160; &#160; &#160; &#160;</p>
+	        <span class="enmore"><a href="/tons-of-teeth/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156593" class="post-156593 post type-post status-publish format-standard has-post-thumbnail hentry category-colubrids category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/pangea-18feb-lovelystripes-Charis.jpg" alt="Pangea Forums" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/lovely-stripes/">Lovely Stripes</a></h2><p><b>Pangea Forums - </b>A gorgeous amelanistic tessera het cinder corn snake at Elemental Exotics posts for lots of great photos.</p>
+	        <span class="enmore"><a href="/lovely-stripes/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156590" class="post-156590 post type-post status-publish format-standard has-post-thumbnail hentry category-geckos category-leopard-geckos category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/geckoforums-18feb-acupofleos-AJSAGUYOD.jpg" alt="GeckoForums.net" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/a-cup-of-leos/">A Cup of Leos</a></h2><p><b>GeckoForums.net - </b>Three terrific looking leopard gecko babies hang out together for a fun photo.</p>
+	        <span class="enmore"><a href="/a-cup-of-leos/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156586" class="post-156586 post type-post status-publish format-standard has-post-thumbnail hentry category-breeding category-chelonia category-husbandry category-photography category-tortoises">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/tortforum-18feb-welcometotheworld-N2TORTS.jpg" alt="TortoiseForum.org" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/welcome-to-the-world-6/">Welcome to the World</a></h2><p><b>TortoiseForum.org - </b>Tortoise Cove shows off the beautiful redfoot tortoises that they have hatched out over the past few days.</p>
+	        <span class="enmore"><a href="/welcome-to-the-world-6/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156587" class="post-156587 post type-post status-publish format-standard has-post-thumbnail hentry category-breeding category-husbandry category-invertebrates category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/arachno-18feb-allsortsoftarantulas-Austin-S.jpg" alt="Arachnoboards" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 18, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/all-sorts-of-tarantulas/">All Sorts of Tarantulas</a></h2><p><b>Arachnoboards - </b>A breeder gives us a photo update of what is going on in their tarantula collection.</p>
+	        <span class="enmore"><a href="/all-sorts-of-tarantulas/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+  <article id="ad3" class="mrktplcad adson"></article>      <article id="post-156575" class="post-156575 post type-post status-publish format-standard has-post-thumbnail hentry category-editors-choice category-media category-radiovideo-shows category-venomous category-videos">
+          <div class="entry-content">
+		<div class="post-img"><img class="ytimg" src="http://img.youtube.com/vi/SsOvXh7YMPE/0.jpg" alt="YouTube reptile video" width="280" height="172" /></div><div class="entry-txt">
+			<span class="endate">Feb 17, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/snakebytestv-killer-venomous-snakes/">SnakeBytesTV: Killer Venomous Snakes</a></h2><p><b>AnimalBytesTV - </b>Watch as Brian Barczyk from SnakeBytesTV handles some amazing venomous snakes at Black Magic Reptiles. Learn about the different types of venom that are being collected for medical...</p>
+	        <span class="enmore"><a href="/snakebytestv-killer-venomous-snakes/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156569" class="post-156569 post type-post status-publish format-standard has-post-thumbnail hentry category-editors-choice category-field-herping category-international category-lizards category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/submisc-17feb-rareanole-Fabian-Muhlberger.jpg" alt="The Reptile Report" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 17, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/rare-anole/">Rare Anole</a></h2><p><b>The Reptile Report - </b>Fabian Mühlberger found and photographed this endangered anole species (Anolis amplisquamosus) in the Cusuco National Park in Honduras. The range of this species is only about 300 square...</p>
+	        <span class="enmore"><a href="/rare-anole/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156566" class="post-156566 post type-post status-publish format-standard has-post-thumbnail hentry category-ball-pythons category-blogs category-breeding category-editors-choice category-husbandry category-photography category-pythons">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/misc-17feb-themanyusesofthepiedballpython-xyzReptiles.jpg" alt="On the Web" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 17, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/xyzreptiles-the-many-uses-of-the-beautiful-pied-ball-python/">xyzReptiles: The Many Uses of the Beautiful Pied Ball Python</a></h2><p><b>On the Web - </b>xyzReptiles talks about the history of the pied ball python, their popularity over time and how they led to the discovery of the leopard ball python morph.</p>
+	        <span class="enmore"><a href="/xyzreptiles-the-many-uses-of-the-beautiful-pied-ball-python/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156563" class="post-156563 post type-post status-publish format-standard has-post-thumbnail hentry category-editors-choice category-invertebrates category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/arachno-17feb-awesomeavicularia-mygale.jpg" alt="Arachnoboards" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 17, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/awesome-avicularia/">Awesome Avicularia</a></h2><p><b>Arachnoboards - </b>Here are lots of fantastic photographs of an assortment of amazing Avicularia tarantulas.</p>
+	        <span class="enmore"><a href="/awesome-avicularia/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156560" class="post-156560 post type-post status-publish format-standard has-post-thumbnail hentry category-lizards category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/bpnet-17feb-prettypinktongues-John1982.jpg" alt="Ball-Pythons.net" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 17, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/pretty-pink-tongues/">Pretty Pink Tongues</a></h2><p><b>Ball-Pythons.net - </b>A gorgeous group of young pink tongue skinks goes outside to soak up the warm sunshine.</p>
+	        <span class="enmore"><a href="/pretty-pink-tongues/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156556" class="post-156556 post type-post status-publish format-standard has-post-thumbnail hentry category-boa-constrictors category-boas category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/geckoforums-17feb-lovelyboalady-Welsh-Morphology.jpg" alt="GeckoForums.net" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 17, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/lovely-boa-lady/">Lovely Boa Lady</a></h2><p><b>GeckoForums.net - </b>Welsh Morphology shares photos of a beautiful boa constrictor from their collection.</p>
+	        <span class="enmore"><a href="/lovely-boa-lady/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+        <article id="post-156553" class="post-156553 post type-post status-publish format-standard has-post-thumbnail hentry category-geckos category-photography">
+          <div class="entry-content">
+		<div class="post-img"><img src="/assets/submisc-17feb-geckoeyelick-www-outbackreptiles-com.jpg" alt="The Reptile Report" /></div>
+				<div class="entry-txt">
+			<span class="endate">Feb 17, 2016</span><hr class="postline" /><h2><a href="http://thereptilereport.com/gecko-eye-lick/">Gecko Eye Lick</a></h2><p><b>The Reptile Report - </b>A tiny Brooke’s house gecko (Hemidactylus brookii) licks its eye in this well-timed shot taken by Mike Schultz at Outback Reptiles. &#160; &#160; &#160; &#160;</p>
+	        <span class="enmore"><a href="/gecko-eye-lick/"><img src="/images/readmore.png" alt="read more" /></a></span>
+	</div>
+      </div>
+        </article>
+  
+  <nav id="post-nav">
+<a href="/everything/page/2/" class="button">next page >></a>  </nav>
+
+
+                  </div>
+      </div><!-- /#main -->
+              <aside id="sidebar" class="" role="complementary">
+              <div class="container">
+                  <div class="center">
+            <a href="/best-of-awards/"><img src="/assets/BOA2015-marketing-badge.png" class="bobut" /></a>
+            <img src="/assets/bo-bars.png" class="bobar" />
+        </div>
+<div id="bannerB">
+<!--
+<a rel="nofollow" target="_blank" href="http://pythonregius.com/" title="Constrictors Unlimited - Mike Wilbanks"><img src="/assets/Wilbanks B banner 5-12.jpg" alt="Constrictors Unlimited - Mike Wilbanks" style="width:300px; height:45px; border:0px;" /></a>
+<a rel="nofollow" target="_blank" href="http://rodentpro.com/" title="RodentPro"><img src="/assets/Rodent Pro 300x45.gif" alt="RodentPro" style="width:300px; height:45px; border:0px;" /></a>
+<a rel="nofollow" target="_blank" href="http://rodentpro.com/" title="RodentPro"><img src="/assets/RP-300X45114.jpg" alt="RodentPro" style="width:300px; height:45px; border:0px;" /></a> 
+-->
+
+<div id="oio-banner-9" style="width:300px; float:left;">
+<a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=414" title="Rodent Pro"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/93F7Tc_Rodent Pro 300x45.gif" alt="Rodent Pro" style="width:300px; height:45px; border:0px;" /></a>
+</div>
+<hr class="oio-clear-left" />
+
+<div id="oio-banner-10" style="width:300px; float:left;">
+<a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=363" title="Kicks Balls"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/fHQ6Qz_kicksballs-300x45.jpg" alt="Kicks Balls" style="width:300px; height:45px; border:0px;" /></a>
+</div>
+<hr class="oio-clear-left" />
+
+<ul class="oio-banner-zone" id="oio-banner-2" style="width:300px; height:155px; float:left;">
+<li style="width:300px; height:45px; margin:0 0 10px 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=525" title="xyzReptiles"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/gCDs67_TRR10Off.jpg" alt="xyzReptiles" style="width:300px; height:45px; border:0px;" /></a></li>
+<li style="width:300px; height:45px; margin:0 0 10px 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=385" title="Reptile Rapture"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/0XV5IZ_ReptileReportinternetbannerAminate(2).gif" alt="Reptile Rapture" style="width:300px; height:45px; border:0px;" /></a></li>
+<li style="width:300px; height:45px; margin:0 0 0 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=446" title="Gx3 Reptiles"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/J4vTMa_Reptile Report Banner.jpg" alt="Gx3 Reptiles" style="width:300px; height:45px; border:0px;" /></a></li>
+</ul>
+<hr class="oio-clear-left" />
+</div>
+<div id="bannerC">
+
+<div id="oio-banner-3" style="width:300px; float:left;">
+<a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=444" title="Vivarium Electronics"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/jeea0Y_RBI_vivariumelectronics_300x250.jpg" alt="Vivarium Electronics" style="width:300px; height:250px; border:0px;" /></a>
+</div>
+<hr class="oio-clear-left" />
+</div>
+
+<!-- WordPress Popular Posts Plugin v3.3.2 [W] [weekly] [views] [custom] -->
+<article id="wpp-2" class="widget-1 widget-first widget popular-posts"><div class="widget-1 widget-first container">
+<h3>MOST POPULAR POSTS</h3><span class="preswidg mppw">presented by</span><a target="_blank" href="http://www.zoomed.com/" title="Zoo Med" class="mpp-sponsor"><img src="/assets/zoomed-mpp-0714.jpg" class="imgwidg" /></a>
+<ul>
+<li><a href="http://thereptilereport.com/win-this-awesome-albino-snapper/" title="WIN this Awesome Albino Snapper!" target="_self"><img src="http://thereptilereport.com/assets/wordpress-popular-posts/155892-featured-80x60.jpg" width=80 height=60 title="WIN this Awesome Albino Snapper!" alt="WIN this Awesome Albino Snapper!" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a> <span><a href="http://thereptilereport.com/win-this-awesome-albino-snapper/" title="WIN this Awesome Albino Snapper!" class="wpp-post-title" target="_self">WIN this Awesome Al...</a></span><br /> <span class="wppexcerpt">How would you like a chance to own this adorable little...</span></li>
+<li><a href="http://thereptilereport.com/wooden-enclosure-diy/" title="Wooden Enclosure DIY" target="_self"><img src="http://thereptilereport.com/assets/wordpress-popular-posts/23801-featured-80x60.jpg" width=80 height=60 title="Wooden Enclosure DIY" alt="Wooden Enclosure DIY" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a> <span><a href="http://thereptilereport.com/wooden-enclosure-diy/" title="Wooden Enclosure DIY" class="wpp-post-title" target="_self">Wooden Enclosure DI...</a></span><br /> <span class="wppexcerpt">A step-by-step guide to building a simple wooden cage f...</span></li>
+<li><a href="http://thereptilereport.com/the-reptile-reports-best-of-2015-awards-are-here/" title="The Reptile Report&#8217;s Best of 2015 Awards &#8211; TIME TO VOTE!" target="_self"><img src="http://thereptilereport.com/assets/wordpress-popular-posts/154847-featured-80x60.png" width=80 height=60 title="The Reptile Report&#8217;s Best of 2015 Awards &#8211; TIME TO VOTE!" alt="The Reptile Report&#8217;s Best of 2015 Awards &#8211; TIME TO VOTE!" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a> <span><a href="http://thereptilereport.com/the-reptile-reports-best-of-2015-awards-are-here/" title="The Reptile Report&#8217;s Best of 2015 Awards &#8211; TIME TO VOTE!" class="wpp-post-title" target="_self">The Reptile Report&...</a></span><br /> <span class="wppexcerpt">It's time to Get Out the Vote and support your favorite...</span></li>
+<li><a href="http://thereptilereport.com/20mu-movin-on-up-part-1/" title="20MU: Movin’ on Up, Part 1" target="_self"><img src="http://thereptilereport.com/assets/wordpress-popular-posts/156414-featured-80x60.png" width=80 height=60 title="20MU: Movin’ on Up, Part 1" alt="20MU: Movin’ on Up, Part 1" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a> <span><a href="http://thereptilereport.com/20mu-movin-on-up-part-1/" title="20MU: Movin’ on Up, Part 1" class="wpp-post-title" target="_self">20MU: Movin’ on Up,...</a></span><br /> <span class="wppexcerpt">This week on 20 Minutes Underground, get a sneak peek a...</span></li>
+<li><a href="http://thereptilereport.com/superb-dragon-snake/" title="Superb Dragon Snake" target="_self"><img src="http://thereptilereport.com/assets/wordpress-popular-posts/65099-featured-80x60.jpg" width=80 height=60 title="Superb Dragon Snake" alt="Superb Dragon Snake" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a> <span><a href="http://thereptilereport.com/superb-dragon-snake/" title="Superb Dragon Snake" class="wpp-post-title" target="_self">Superb Dragon Snake</a></span><br /> <span class="wppexcerpt">Crystal Palace Reptiles shares some excellent photos of...</span></li>
+<li><a href="http://thereptilereport.com/hungry-crestie-photos/" title="Hungry Crestie Photos" target="_self"><img src="http://thereptilereport.com/assets/wordpress-popular-posts/156474-featured-80x60.jpg" width=80 height=60 title="Hungry Crestie Photos" alt="Hungry Crestie Photos" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a> <span><a href="http://thereptilereport.com/hungry-crestie-photos/" title="Hungry Crestie Photos" class="wpp-post-title" target="_self">Hungry Crestie Phot...</a></span><br /> <span class="wppexcerpt">Here are some great photos of a few cute crested geckos...</span></li>
+<li><a href="http://thereptilereport.com/a-scaleless-ball-python-its-genetic/" title="A Scaleless Ball Python- It&#8217;s Genetic!" target="_self"><img src="http://thereptilereport.com/assets/wordpress-popular-posts/90968-featured-80x60.png" width=80 height=60 title="A Scaleless Ball Python- It&#8217;s Genetic!" alt="A Scaleless Ball Python- It&#8217;s Genetic!" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a> <span><a href="http://thereptilereport.com/a-scaleless-ball-python-its-genetic/" title="A Scaleless Ball Python- It&#8217;s Genetic!" class="wpp-post-title" target="_self">A Scaleless Ball Py...</a></span><br /> <span class="wppexcerpt">Oh. My. Goodness. This could be a real game changer. A ...</span></li>
+<li><a href="http://thereptilereport.com/narbc-shows/" title="NARBC &#8211; Tinley Park, IL &#8211; March 19 &#038; 20, 2016" target="_self"><img src="http://thereptilereport.com/assets/wordpress-popular-posts/16292-featured-80x60.jpg" width=80 height=60 title="NARBC &#8211; Tinley Park, IL &#8211; March 19 &#038; 20, 2016" alt="NARBC &#8211; Tinley Park, IL &#8211; March 19 &#038; 20, 2016" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a> <span><a href="http://thereptilereport.com/narbc-shows/" title="NARBC &#8211; Tinley Park, IL &#8211; March 19 &#038; 20, 2016" class="wpp-post-title" target="_self">NARBC &#8211; Tinle...</a></span><br /> <span class="wppexcerpt">The next North American Reptile Breeders Conference is ...</span></li>
+<li><a href="http://thereptilereport.com/aldabras-out-and-about/" title="Aldabras Out and About" target="_self"><img src="http://thereptilereport.com/assets/wordpress-popular-posts/156508-featured-80x60.jpg" width=80 height=60 title="Aldabras Out and About" alt="Aldabras Out and About" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a> <span><a href="http://thereptilereport.com/aldabras-out-and-about/" title="Aldabras Out and About" class="wpp-post-title" target="_self">Aldabras Out and Ab...</a></span><br /> <span class="wppexcerpt">A herd of Aldabra tortoises happily makes their way out...</span></li>
+<li><a href="http://thereptilereport.com/short-term-power-outage-survival-guide-for-reptile-keepers/" title="Short Term Power Outage Survival Guide for Reptile Keepers" target="_self"><img src="http://thereptilereport.com/assets/wordpress-popular-posts/135858-featured-80x60.jpg" width=80 height=60 title="Short Term Power Outage Survival Guide for Reptile Keepers" alt="Short Term Power Outage Survival Guide for Reptile Keepers" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a> <span><a href="http://thereptilereport.com/short-term-power-outage-survival-guide-for-reptile-keepers/" title="Short Term Power Outage Survival Guide for Reptile Keepers" class="wpp-post-title" target="_self">Short Term Power Ou...</a></span><br /> <span class="wppexcerpt">This is an excellent write-up on how to prepare for the...</span></li>
+
+</ul>
+</div></article>
+<!-- End WordPress Popular Posts Plugin v3.3.2 -->
+<div id="bannerD">
+
+<div id="oio-banner-11" style="width:300px; float:left;">
+<a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=453" title="Zoo Med"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/IJm5iP_Reptisun-HorizontalBanner-300x45.jpg" alt="Zoo Med" style="width:300px; height:45px; border:0px;" /></a>
+</div>
+<hr class="oio-clear-left" />
+
+<ul class="oio-banner-zone" id="oio-banner-4" style="width:300px; height:210px; float:left;">
+<li style="width:300px; height:45px; margin:0 0 10px 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=384" title="Reptile Rapture"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/FKME88_ReptileReportinternetbannerAminate(2).gif" alt="Reptile Rapture" style="width:300px; height:45px; border:0px;" /></a></li>
+<li style="width:300px; height:45px; margin:0 0 10px 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=519" title="Gecko Pro Diet"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/nrZpdn_reptile_report_300_45.jpg" alt="Gecko Pro Diet" style="width:300px; height:45px; border:0px;" /></a></li>
+<li style="width:300px; height:45px; margin:0 0 10px 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=529" title="Lizard Lovers"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/4BAOvv_LizardLovers (1).jpg" alt="Lizard Lovers" style="width:300px; height:45px; border:0px;" /></a></li>
+<li class="border oio-center" style="width:296px; height:41px; line-height:41px; margin:0 0 0 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/purchase.php?do=banner&amp;zone=4" title="Advertise Here">Advertise Here</a></li>
+</ul>
+<hr class="oio-clear-left" />
+</div>
+<div id="mpvid">
+<h1>MOST POPULAR VIDEOS
+<span class="preswidg">presented by</span>
+<a target="_blank" href="http://rodentpro.com/" title="RodentPro" class="mp-sponsor"><img src="/assets/rodentpro.png" class="imgwidg" /></a>
+</h1>
+<a href="http://thereptilereport.com/20mu-movin-on-up-part-1"><img src="/assets/mpv-18feb-movinonup.jpg" alt="video" /><h3>20MU: Movin’ on Up, Part 1</h3></a><a href="http://thereptilereport.com/reptile-reality-black-white-lip-pythons"><img src="/assets/mpv-18feb-blackwhitelippython.jpg" alt="video" /><h3>Reptile Reality: Black White-Lip Pythons</h3></a><a href="http://thereptilereport.com/snake-owners-outraged-over-proposed-exotic-animal-bans-in-norman-oklahoma"><img src="/assets/mpv-18feb-snakeownersoutraged.jpg" alt="video" /><h3>Snake Owners Outraged Over Proposed Exotic Animal Bans in Norman, Oklahoma</h3></a><a href="http://thereptilereport.com/prehistoric-pets-fourteen-snakes-in-how-many-eggs"><img src="/assets/mpv-18feb-fourteensnakes.jpg" alt="video" /><h3>Prehistoric Pets: Fourteen Snakes in How Many Eggs?</h3></a><a href="http://thereptilereport.com/viperkeeper-lair-short-little-sniffer"><img src="/assets/mpv-18feb-littlesniffer.jpg" alt="video" /><h3>Viperkeeper Lair Short: Little Sniffer</h3></a><a href="http://thereptilereport.com/snakebytestv-lizard-sex"><img src="/assets/mpv-18feb-lizardsex.jpg" alt="video" /><h3>SnakeBytesTV: Lizard Sex</h3></a><a href="http://thereptilereport.com/the-guatemalan-beaded-lizard-fights-extinction"><img src="/assets/mpv-18feb-beadedlizard.jpg" alt="video" /><h3>The Guatemalan Beaded Lizard Fights Extinction</h3></a><a href="http://thereptilereport.com/alex-bentley-about-life"><img src="/assets/mpv-18feb-aboutlife.jpg" alt="video" /><h3>Alex Bentley: about Life.</h3></a><a href="http://thereptilereport.com/msu-leucistic-vs-albino-boa-constrictor"><img src="/assets/mpv-18feb-leucisticvsalbino.jpg" alt="video" /><h3>MSU: Leucistic vs. Albino Boa Constrictor</h3></a><a href="http://thereptilereport.com/k-brothers-pythons-the-next-big-thing-in-reptiles-with-joe-ball-part-2"><img src="/assets/mpv-18feb-thenextbigthing.jpg" alt="video" /><h3>K Brothers Pythons: The Next Big Thing in Reptiles with Joe Ball, Part 2</h3></a></div>
+<div class="fb-page" data-href="https://www.facebook.com/thereptilereport" data-width="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/thereptilereport"><a href="https://www.facebook.com/thereptilereport">The Reptile Report</a></blockquote></div></div>        </div>
+            </aside><!-- /#sidebar -->
+        </div><!-- /#content -->
+  <hr class="redbar" />
+<div id="bannerE">
+
+<ul class="oio-banner-zone" id="oio-banner-5" style="width:790px; height:70px; margin:0 auto;">
+<li style="width:150px; height:30px; margin:0 10px 10px 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=483" title="North American Reptile Breeders Conference"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/92xS7k_NARBC 150x30 2015.jpg" alt="North American Reptile Breeders Conference" style="width:150px; height:30px; border:0px;" /></a></li>
+<li style="width:150px; height:30px; margin:0 10px 10px 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=9" title="ShipYourReptiles Shipping Kits"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/NVumqZ_SYRkits150x30.png" alt="ShipYourReptiles Shipping Kits" style="width:150px; height:30px; border:0px;" /></a></li>
+<li style="width:150px; height:30px; margin:0 10px 10px 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=471" title="LLL Reptile and Supply Company, Inc."><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/L6nihu_LLL 150x30 (2015).jpg" alt="LLL Reptile and Supply Company, Inc." style="width:150px; height:30px; border:0px;" /></a></li>
+<li style="width:150px; height:30px; margin:0 10px 10px 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=71" title="Kiva Microfinance- Change lives!"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/6Yaw6y_kiva150x30.png" alt="Kiva Microfinance- Change lives!" style="width:150px; height:30px; border:0px;" /></a></li>
+<li style="width:150px; height:30px; margin:0 0 10px 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=466" title="Rodent Pro"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/6DOaMF_rodentpro-150x30.jpg" alt="Rodent Pro" style="width:150px; height:30px; border:0px;" /></a></li>
+<li style="width:150px; height:30px; margin:0 10px 0 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=383" title="Reptile Rapture"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/G9HV9n_reptileraplogokingweb10k.jpg" alt="Reptile Rapture" style="width:150px; height:30px; border:0px;" /></a></li>
+<li style="width:150px; height:30px; margin:0 10px 0 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=467" title="Zoo Med"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/DdwiSI_ZooMed_150x30.jpg" alt="Zoo Med" style="width:150px; height:30px; border:0px;" /></a></li>
+<li style="width:150px; height:30px; margin:0 10px 0 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=476" title="Reptile Basics"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/F8AqYF_Reptile Basics 150x30 (2015).jpg" alt="Reptile Basics" style="width:150px; height:30px; border:0px;" /></a></li>
+<li style="width:150px; height:30px; margin:0 10px 0 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=70" title="Women for Women"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/srxg8i_WfW150x30.png" alt="Women for Women" style="width:150px; height:30px; border:0px;" /></a></li>
+<li class="border oio-center" style="width:146px; height:26px; line-height:26px; margin:0 0 0 0;"><a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/purchase.php?do=banner&amp;zone=5" title="Advertise Here">Advertise Here</a></li>
+</ul>
+</div>
+<div id="bannerF">
+<div id="oio-banner-6" style="width:728px; margin:0 auto;">
+<a rel="nofollow" target="_blank" href="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/go.php?id=5" title="ShipYourReptiles.com"><img src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/uploads/6f0XMP_Ben Renick Banner -$10K .png" alt="ShipYourReptiles.com" style="width:728px; height:90px; border:0px;" /></a>
+</div>
+</div>
+<hr class="redbar" />
+<div id="foot-nav">
+<form role="search" method="get" id="searchform" action="http://thereptilereport.com/">
+  <label class="visuallyhidden" for="s">Search for:</label>
+  <input type="text" value="" name="s" id="s" placeholder="Search The Reptile Report">
+  <input type="submit" id="searchsubmit" value="Search" class="button">
+</form>
+
+        <nav class="nav-main" role="navigation">
+                      <ul id="menu-primary-navigation-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-727"><a href="/everything/">Front Page</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-218"><a href="/category/pythons/">Pythons</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-219"><a href="/category/pythons/ball-pythons/">Ball Pythons</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-853"><a href="/category/pythons/morelia/">Morelia</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-220"><a href="/category/pythons/giants/">Giants</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-184"><a href="/category/boas/">Boas</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-48302"><a href="/category/boas/boa-constrictors/">Boa Constrictors</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-48301"><a href="/category/boas/arboreal/">Arboreal</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-189"><a href="/category/colubrids/">Colubrids</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-194"><a href="/category/geckos/">Geckos</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-195"><a href="/category/geckos/leopard-geckos/">Leopard Geckos</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-196"><a href="/category/geckos/cresteds/">Cresteds</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-202"><a href="/category/lizards/">Lizards</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-203"><a href="/category/lizards/beardeds/">Beardeds</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-204"><a href="/category/lizards/chameleons/">Chameleons</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-205"><a href="/category/lizards/monitors/">Monitors</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-186"><a href="/category/chelonia/">Chelonia</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-187"><a href="/category/chelonia/tortoises/">Tortoises</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-188"><a href="/category/chelonia/turtles/">Turtles</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-199"><a href="/category/invertebrates/">Invertebrates</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-179"><a href="/category/amphibians/">Amphibians</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-180"><a href="/category/amphibians/frogs/">Frogs</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-225"><a href="/category/venomous/">Venomous</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49302"><a href="/category/field-herping/">Field Herping</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-746"><a href="/category/videos/">Videos</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-215"><a href="/category/reptile-politics/">Politics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-209"><a href="/category/more/">More</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105244"><a href="/listings/">Business Listings</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104868"><a href="/help-promote-the-reptile-report/">Help Promote The Reptile Report</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-181"><a href="/category/blogs/">Blogs</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54321"><a href="/category/blogs/editorsdesk/">The Editor&#8217;s Desk</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3318"><a href="/category/blogs/robyn/">Robyn&#8217;s Blog</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-134010"><a href="/category/blogs/jens-tar-pit/">Jen&#8217;s Tar Pit</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-42111"><a href="/category/blogs/brians-corner/">Brian&#8217;s Corner</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-222"><a href="/category/shipping/">Shipping</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-190"><a href="/category/feeders/">Feeders</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-191"><a href="/category/feeders/insects/">Insects</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-192"><a href="/category/feeders/rodents/">Rodents</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-185"><a href="/category/caging-and-supplies/">Caging and Supplies</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-6857"><a href="/category/husbandry/">Husbandry</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-69468"><a href="/category/husbandry/breeding/">Breeding</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-206"><a href="/category/media/">Media</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-68340"><a href="/category/media/personalities/">Personalities</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-207"><a href="/category/media/radiovideo-shows/">Radio/Video Shows</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15205"><a href="/category/media/tv/">Television</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-208"><a href="/category/media/reptile-news/">Reptile News</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6722"><a href="/category/media/magazines/">Magazines</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-198"><a href="/category/international/">International</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3875"><a href="/category/crocodilians/">Crocodilians</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-223"><a href="/category/reptile-event-news/">Reptile Event News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14266"><a href="/category/shows-and-expos/">Shows &#038; Expos</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-213"><a href="/category/photography/">Photography</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6856"><a href="/category/business-issues/">Business Issues</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-210"><a href="/category/more/charity/">Charity</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-212"><a href="/category/nonsense/">Nonsense- and other stuff</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-216"><a href="/category/press-releases/">Press Releases</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-217"><a href="/category/product-reviews/">Product Reviews</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81062"><a href="/advanced/">Advanced Search</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6858"><a href="/category/miscellaneous/">Miscellaneous</a></li>
+</ul>
+</li>
+</ul>                  </nav>
+
+                <nav id="nav-utility" class="foot-sub">
+                      <ul id="menu-utility-navigation-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-243"><a href="#">FEATURED</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112630"><a href="http://marketplace.thereptilereport.com">The Marketplace</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-68339"><a href="/category/media/personalities/">Personalities</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49301"><a href="/category/editors-choice/">Editor&#8217;s Choice</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-142365"><a href="/category/media/">Media</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-87849"><a href="/category/vet-directory/">Vet Directory</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-87848"><a href="/category/herp-soc-directory/">Herp Soc Directory</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14267"><a href="/category/shows-and-expos/">Shows &#038; Expos</a></li>
+</ul>                  </nav>
+</div>
+
+      <footer id="content-info" class="" role="contentinfo">
+            <div class="container">
+        <article id="nav_menu-3" class="widget-1 widget-first widget widget_nav_menu"><div class="widget-1 widget-first container"><ul id="menu-foot-pages" class="menu"><li id="menu-item-245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-245"><a href="/about/">About Us</a></li>
+<li id="menu-item-246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246"><a href="/advertise/">Advertise on The Reptile Report and The Marketplace</a></li>
+<li id="menu-item-247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-247"><a href="/contact/">Contact Us</a></li>
+<li id="menu-item-248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-248"><a href="/policies/">Policies</a></li>
+<li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-249"><a href="/user-agreement/">User Agreement</a></li>
+<li id="menu-item-105243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105243"><a href="/listings/">Business Listings</a></li>
+<li id="menu-item-104870" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104870"><a href="/help-promote-the-reptile-report/">Help Promote The Reptile Report</a></li>
+</ul></div></article>        <p class="copy"><small>&copy; 2016 The Reptile Report</small></p>
+      </div>
+    </footer>
+      </div><!-- /#wrap -->
+<div id="endline"></div>
+
+<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js'></script>
+
+<img id="oio-pixel" src="http://thereptilereport.com/wp-content/plugins/oiopub-direct/modules/tracker/tracker.php?pids=515|414|363|525|385|446|444|453|384|519|529|483|9|471|71|466|383|467|476|70|5|0" alt="" />
+<script type='text/javascript' src='//www.google.com/recaptcha/api.js?ver=1.0&#038;onload=ccfRecaptchaOnload&#038;render=explicit'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+
+  <!--[if lt IE 7]>
+    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+
+</body>
+</html>
