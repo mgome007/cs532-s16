@@ -1,0 +1,93 @@
+3
+For k= 5
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+
+Clusters
+-----------------------------------------
+['Stonehill Sketchbook', 'Samtastic! Review']
+-----------------------------------------
+['adrianoblog', 'funky little demons', 'sweeping the kitchen', 'A Day in the Life of...Me!!', "Room 19's Blog 2016", 'SEM REGRAS', 'How to be an artist and still pass for normal', 'Boggle Me Thursday', 'Time Is Poetry', 'The Listening Ear', 'jaaackie.', "MarkEOrtega's Journalism Portfolio", 'If You Give a Girl a Camera...', 'What Am I Doing?', '\xce\x9c\xce\x95\xce\xa3\xce\x91 \xce\xa3\xce\xa4\xce\x97 \xce\x92\xce\xa1\xce\xa9\xce\x9c\xce\x99\xce\x91', 'FlowRadio Playlists (and Blog)', 'Green Eggs and Ham Mondays 8-10am', 'Stories From the City, Stories From the Sea', 'INDIEohren.!', "isyeli's", "But She's Not Stupid", 'from a voice plantation', 'Lost in the Shuffle', 'Rod Shone', 'A H T A P O T', '"DANCING IN CIRCLES"', '60@60 Sounding Booth']
+-----------------------------------------
+['Eli Jace | The Mind Is A Terrible Thing To Paste', 'My Name Is Blue Canary', 'The Jeopardy of Contentment', 'The Girl at the Rock Show', 'The Ideal Copy', 'I/LOVE/TOTAL/DESTRUCTION', 'Steel City Rust', 'DaveCromwell Writes', 'F-Measure', 'FOLK IS NOT HAPPY', 'Encore', 'PLATTENTIPPS', 'Blog Name Pending', 'Desolation Row Records', 'I Hate The 90s']
+-----------------------------------------
+['Flatbasset', 'k\xc3\xbcnstler treu', '\xce\x94\xce\xaf\xcf\x83\xce\xba\xce\xbf\xce\xb9 \xce\x9c\xce\xbf\xcf\x85\xcf\x83\xce\xb9\xce\xba\xce\xae\xcf\x82 \xcf\x83\xcf\x84\xce\xbf \xce\xa7\xcf\x81\xcf\x8c\xce\xbd\xce\xbf', 'THE HUB', 'The Campus Buzz on WSOU', 'turnitup!', 'Sonology', 'Our Podcast Could Be Your Life', 'Kid F']
+-----------------------------------------
+['Mile In Mine', 'Karl Drinkwater', 'A2 MEDIA COURSEWORK JOINT BLOG', 'Web Science and Digital Libraries Research Group', 'Cherry Area', "Riley Haas' blog", 'Floorshime Zipper Boots']
+For k= 10
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+
+Clusters
+-----------------------------------------
+['Rod Shone']
+-----------------------------------------
+['\xce\x94\xce\xaf\xcf\x83\xce\xba\xce\xbf\xce\xb9 \xce\x9c\xce\xbf\xcf\x85\xcf\x83\xce\xb9\xce\xba\xce\xae\xcf\x82 \xcf\x83\xcf\x84\xce\xbf \xce\xa7\xcf\x81\xcf\x8c\xce\xbd\xce\xbf', 'THE HUB', 'The Listening Ear', 'jaaackie.', 'Karl Drinkwater', 'A2 MEDIA COURSEWORK JOINT BLOG', "MarkEOrtega's Journalism Portfolio", 'The Girl at the Rock Show', 'I/LOVE/TOTAL/DESTRUCTION', 'Steel City Rust', 'DaveCromwell Writes', 'F-Measure', 'Cherry Area', 'The Campus Buzz on WSOU', 'turnitup!', 'Encore', "But She's Not Stupid", 'PLATTENTIPPS', 'Blog Name Pending', 'I Hate The 90s', 'Kid F']
+-----------------------------------------
+['Web Science and Digital Libraries Research Group']
+-----------------------------------------
+['Flatbasset', 'The Jeopardy of Contentment', 'Boggle Me Thursday', 'Mile In Mine', 'Sonology', 'Our Podcast Could Be Your Life', '"DANCING IN CIRCLES"', '60@60 Sounding Booth', 'Desolation Row Records']
+-----------------------------------------
+['Stonehill Sketchbook', 'FOLK IS NOT HAPPY', 'INDIEohren.!']
+-----------------------------------------
+['adrianoblog', 'funky little demons', 'SEM REGRAS', 'Eli Jace | The Mind Is A Terrible Thing To Paste', 'Time Is Poetry', 'If You Give a Girl a Camera...', 'Green Eggs and Ham Mondays 8-10am', 'Lost in the Shuffle', 'A H T A P O T']
+-----------------------------------------
+['k\xc3\xbcnstler treu', 'sweeping the kitchen', 'My Name Is Blue Canary', 'The Ideal Copy', "Riley Haas' blog", "isyeli's"]
+-----------------------------------------
+['Samtastic! Review', '\xce\x9c\xce\x95\xce\xa3\xce\x91 \xce\xa3\xce\xa4\xce\x97 \xce\x92\xce\xa1\xce\xa9\xce\x9c\xce\x99\xce\x91', 'Floorshime Zipper Boots']
+-----------------------------------------
+['FlowRadio Playlists (and Blog)', 'Stories From the City, Stories From the Sea', 'from a voice plantation']
+-----------------------------------------
+['A Day in the Life of...Me!!', "Room 19's Blog 2016", 'How to be an artist and still pass for normal', 'What Am I Doing?']
+For k= 20
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+
+Clusters
+-----------------------------------------
+['sweeping the kitchen', 'Stonehill Sketchbook', 'FOLK IS NOT HAPPY', 'from a voice plantation', 'Rod Shone']
+-----------------------------------------
+[]
+-----------------------------------------
+['adrianoblog', '\xce\x94\xce\xaf\xcf\x83\xce\xba\xce\xbf\xce\xb9 \xce\x9c\xce\xbf\xcf\x85\xcf\x83\xce\xb9\xce\xba\xce\xae\xcf\x82 \xcf\x83\xcf\x84\xce\xbf \xce\xa7\xcf\x81\xcf\x8c\xce\xbd\xce\xbf', 'THE HUB', 'My Name Is Blue Canary', 'The Listening Ear', 'The Campus Buzz on WSOU', 'FlowRadio Playlists (and Blog)', 'Green Eggs and Ham Mondays 8-10am', 'Stories From the City, Stories From the Sea', 'INDIEohren.!', 'Lost in the Shuffle']
+-----------------------------------------
+['The Jeopardy of Contentment', 'Boggle Me Thursday', 'The Girl at the Rock Show', 'I/LOVE/TOTAL/DESTRUCTION', 'Steel City Rust', 'DaveCromwell Writes', 'F-Measure', "Riley Haas' blog", 'Encore', 'Blog Name Pending', 'I Hate The 90s']
+-----------------------------------------
+[]
+-----------------------------------------
+['Floorshime Zipper Boots']
+-----------------------------------------
+[]
+-----------------------------------------
+['A Day in the Life of...Me!!', 'turnitup!', 'PLATTENTIPPS', 'Desolation Row Records']
+-----------------------------------------
+['The Ideal Copy', 'If You Give a Girl a Camera...', '"DANCING IN CIRCLES"']
+-----------------------------------------
+['SEM REGRAS', '\xce\x9c\xce\x95\xce\xa3\xce\x91 \xce\xa3\xce\xa4\xce\x97 \xce\x92\xce\xa1\xce\xa9\xce\x9c\xce\x99\xce\x91', 'A H T A P O T', '60@60 Sounding Booth']
+-----------------------------------------
+['Samtastic! Review']
+-----------------------------------------
+['Flatbasset', 'Our Podcast Could Be Your Life']
+-----------------------------------------
+['Mile In Mine', 'Sonology', 'Kid F']
+-----------------------------------------
+[]
+-----------------------------------------
+['k\xc3\xbcnstler treu', 'funky little demons', 'Eli Jace | The Mind Is A Terrible Thing To Paste', 'Time Is Poetry']
+-----------------------------------------
+['Web Science and Digital Libraries Research Group']
+-----------------------------------------
+[]
+-----------------------------------------
+["MarkEOrtega's Journalism Portfolio"]
+-----------------------------------------
+[]
+-----------------------------------------
+["Room 19's Blog 2016", 'How to be an artist and still pass for normal', 'jaaackie.', 'Karl Drinkwater', 'A2 MEDIA COURSEWORK JOINT BLOG', 'What Am I Doing?', 'Cherry Area', "isyeli's", "But She's Not Stupid"]
