@@ -4,7 +4,8 @@ import unicodedata
 import sys 
 
 
-
+#Aquire from COllective Programming Intelligence Textbook
+#ALso aquired from my collegue Kevin Clemmons
 def promptForCategory(entry,categoryList,numClassified,size):
 	#print()
 	num = None
